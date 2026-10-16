@@ -7,6 +7,7 @@ import CiteBox from '../../components/CiteBox.astro';
 import ReviewNotice from '../../components/ReviewNotice.astro';
 import Chart from '../../components/Chart.astro';
 import PrevalenceCard from '../../components/PrevalenceCard.astro';
+import { revenueChart, bankruptcyChart, helplineChart } from '../../lib/seriesCharts';
 import { timeline } from '../../lib/charts';
 import { profiles, pgFunding, predictionMarkets, bills, population, headlineStatus, HEADLINE_LABEL, scopeQualifiers, fmtDate, pct, label, asOf, collectProvenance, earliestLaunch, handleRevenue, bankruptcy, per100k, source, prevalenceStudies } from '../../lib/data';
 export function getStaticPaths() { return profiles().map((p) => ({ params: { abbr: p.abbr.toLowerCase() }, props: { p } })); }
@@ -45,6 +46,7 @@ for (const a of pm?.state_actions ?? []) if (a.date) events.push({ row: 'Predict
 for (const c of pm?.litigation ?? []) for (const r of c.rulings ?? []) if (r.date) events.push({ row: 'Prediction markets', date: r.date, cls: 's3', title: `${fmtDate(r.date)}, ${r.court}: ${r.summary}`, label: 'ruling' });
 const rowNames = [...new Set(events.map((e) => e.row))];
 const studies = prevalenceStudies(p.fips);
+const seriesCharts = [revenueChart(p), bankruptcyChart(p), helplineChart(p)].filter((c): c is NonNullable<typeof c> => !!c);
 const timelineSvg = events.length ? timeline({
   id: 'events', title: `${p.name}: dated events in this profile`, desc: 'Timeline. One row per subject (each wagering channel, each bill, prediction market actions); dots mark authorization dates, first wagers, bill actions, votes and enforcement actions.',
   rows: rowNames.map((row) => ({ label: row, events: events.filter((e) => e.row === row) })), rowHeight: 34, labelWidth: 150,
@@ -197,6 +199,7 @@ const missingSections = [
   </>) : null}
   {!hr.length && !bk.length && <p>Monthly handle and revenue, bankruptcy filings per 100,000, helpline contacts and prevalence studies will appear here as they are ingested, with legalization dates marked. The schemas are published on the <a href={base + '/outcomes/'}>outcomes page</a>.</p>}
 
+  {seriesCharts.map((c) => <><h3>{c.title}</h3><Chart svg={c.svg} legend={c.legend} head={c.head} rows={c.rows} caption={c.caption} tableLabel="Values in this chart" /></>)}
   {studies.length > 0 && (<>
     <h3>Prevalence studies</h3>
     <p class="meta">Rates as published by each study. Studies are comparable only where the note on each card says so.</p>

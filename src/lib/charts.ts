@@ -66,6 +66,14 @@ export interface LineSeries { name: string; cls: string; points: LinePoint[] }
 export interface LineChartOpts {
   id: string; title: string; desc: string; series: LineSeries[];
   xFmt?: (x: number) => string; yFmt?: (y: number) => string; width?: number; height?: number; yMax?: number; xTicks?: number[]; step?: boolean;
+  /** Vertical reference lines, for example legalization dates, in x units. Labels stack at the top. */
+  markers?: { x: number; label: string }[];
+  /** Marker radius; use 3 for dense monthly series. Default 4. */
+  dotR?: number;
+  /** Draw markers hollow (pending review convention). */
+  hollow?: boolean;
+  /** Break the line where consecutive points are further apart than this many x units (a gap in the series). */
+  gapX?: number;
 }
 
 /** Multi-series line (or step) chart with end markers and selective end labels. */
@@ -74,29 +82,44 @@ export function lineChart(o: LineChartOpts): string {
   const m = { ...M, right: 120 };
   const pw = W - m.left - m.right, ph = H - m.top - m.bottom;
   const xs = o.series.flatMap((s) => s.points.map((p) => p.x)), ys = o.series.flatMap((s) => s.points.map((p) => p.y));
-  const x0 = Math.min(...xs), x1 = Math.max(...xs);
-  const y1 = o.yMax ?? Math.max(...ys);
-  const yT = ticks(0, y1, 4); const yTop = yT[yT.length - 1] >= y1 ? yT[yT.length - 1] : y1;
+  const xT = o.xTicks ?? ticks(Math.min(...xs), Math.max(...xs), 6);
+  // The plot spans the data and the outer ticks, so the axis ends on a tick and end labels have room.
+  const x0 = Math.min(...xs, xT[0]), x1 = Math.max(...xs, xT[xT.length - 1]);
+  const y1 = o.yMax ?? Math.max(...ys) * 1.08; // headroom so the peak never sits on the frame
+  const yMin = Math.min(0, ...ys);
+  const yT = ticks(yMin, y1, 4); const yTop = yT[yT.length - 1] >= y1 ? yT[yT.length - 1] : y1; const yBot = Math.min(yMin, yT[0]);
   const sx = (x: number) => m.left + (x1 === x0 ? 0 : ((x - x0) / (x1 - x0)) * pw);
-  const sy = (y: number) => m.top + ph - (y / yTop) * ph;
+  const sy = (y: number) => m.top + ph - ((y - yBot) / (yTop - yBot)) * ph;
+  const r = o.dotR ?? 4;
   const xf = o.xFmt ?? String, yf = o.yFmt ?? compact;
   let out = svgOpen(W, H, o.title, o.desc, o.id);
   for (const t of yT) out += `<line class="grid" x1="${m.left}" x2="${W - m.right}" y1="${sy(t).toFixed(1)}" y2="${sy(t).toFixed(1)}"/><text class="ax" x="${m.left - 6}" y="${(sy(t) + 4).toFixed(1)}" text-anchor="end">${esc(yf(t))}</text>`;
-  const xT = o.xTicks ?? ticks(x0, x1, 6);
   for (const t of xT) out += `<text class="ax" x="${sx(t).toFixed(1)}" y="${H - 8}" text-anchor="middle">${esc(xf(t))}</text>`;
   out += `<line class="base" x1="${m.left}" x2="${W - m.right}" y1="${sy(0)}" y2="${sy(0)}"/>`;
+  // Markers on the same date (within about two weeks) share one line and one label. Labels flip to the left near the right edge.
+  const merged: { x: number; label: string }[] = [];
+  for (const mk of (o.markers ?? []).filter((mk) => mk.x >= x0 && mk.x <= x1).sort((a, b) => a.x - b.x)) {
+    const last = merged[merged.length - 1];
+    if (last && mk.x - last.x < 0.05) last.label = last.label.replace(/^First (\w+) wager$/, (_, c) => `First ${c} and ${mk.label.replace(/^First (\w+) wager$/, '$1')} wager`) || `${last.label}; ${mk.label}`;
+    else merged.push({ ...mk });
+  }
+  merged.forEach((mk, i) => {
+    const X = sx(mk.x), flip = X > W - m.right - mk.label.length * CHAR_W - 8;
+    out += `<line class="marker" x1="${X.toFixed(1)}" x2="${X.toFixed(1)}" y1="${m.top}" y2="${H - m.bottom}"/><text class="ax" x="${(flip ? X - 4 : X + 4).toFixed(1)}" y="${m.top + 10 + i * 12}"${flip ? ' text-anchor="end"' : ''}>${esc(mk.label)}</text>`;
+  });
   const ends: { y: number; label: string; cls: string }[] = [];
   for (const s of o.series) {
     const pts = [...s.points].sort((a, b) => a.x - b.x);
     let d = '';
     pts.forEach((p, i) => {
       const X = sx(p.x).toFixed(1), Y = sy(p.y).toFixed(1);
-      if (i === 0) d += `M${X},${Y}`;
+      const gap = i > 0 && o.gapX != null && p.x - pts[i - 1].x > o.gapX;
+      if (i === 0 || gap) d += `M${X},${Y}`;
       else if (o.step) d += `H${X}V${Y}`;
       else d += `L${X},${Y}`;
     });
     out += `<path class="line ${s.cls}" d="${d}"/>`;
-    for (const p of pts) out += `<circle class="dot ${s.cls}" cx="${sx(p.x).toFixed(1)}" cy="${sy(p.y).toFixed(1)}" r="4"><title>${esc(p.title ?? `${s.name}, ${xf(p.x)}: ${yf(p.y)}`)}</title></circle>`;
+    for (const p of pts) out += `<circle class="dot ${s.cls}${o.hollow ? ' hollow' : ''}" cx="${sx(p.x).toFixed(1)}" cy="${sy(p.y).toFixed(1)}" r="${r}"><title>${esc(p.title ?? `${s.name}, ${xf(p.x)}: ${yf(p.y)}`)}</title></circle>`;
     const last = pts[pts.length - 1];
     ends.push({ y: sy(last.y), label: `${s.name} (${yf(last.y)})`, cls: s.cls });
   }
