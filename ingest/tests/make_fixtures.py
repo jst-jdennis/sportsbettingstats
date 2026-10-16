@@ -182,6 +182,40 @@ def nj_tax_returns_misfoot_pdf(path: Path) -> None:
     _multi_page_pdf(path, pages)
 
 
+def f2_pdf_2022(path: Path) -> None:
+    pages = [["Table F-2 Quarterly.", "U.S. Bankruptcy Courts - Business and Nonbusiness Cases Commenced, by Chapter of the Bankruptcy Code,",
+              "During the Three-Month Period Ending December 31, 2022, Based on Data Current as of December 31, 2022",
+              "Predominant Nature of Debt", "Business Nonbusiness", "Circuit Total Total Total Total Total",
+              "and All Chapter Chapter Chapter Other All Chapter Chapter Chapter Other All Chapter Chapter Chapter",
+              "District Chapters 7 11 13 Chapters ¹ Chapters 7 11 13 Chapters ¹ Chapters 7 11 13",
+              "Total 95,416 53,195 1,227 40,939 55 3,519 2,031 1,147 286 55 91,897 51,164 80 40,653",
+              "2nd 4,595 2,888 149 1,542 16 322 155 136 15 16 4,273 2,733 13 1,527",
+              "NJ 2,557 1,397 89 1,071 0 142 48 86 8 0 2,415 1,349 3 1,063",
+              "VI 2 2 0 0 0 2 2 0 0 0 0 - - -",
+              "AR ² 1,408 517 4 887 0 19 9 2 8 0 1,389 508 2 879",
+              "ND 99 88 0 11 0 2 1 0 1 0 97 87 0 10",
+              "OK,N 319 284 0 35 0 15 14 0 1 0 304 270 0 34", "Page 1 of 4"]]
+    _multi_page_pdf(path, pages)
+
+
+def f2_pdf_2018(path: Path) -> None:
+    pages = [["Table F-2.", "U.S. Bankruptcy Courts - Business and Nonbusiness Cases Commenced, by Chapter of the Bankruptcy Code,",
+              "During the Three-Month Period Ending March 31, 2018, Based on Data Current as of March 31, 2018",
+              "Predominant Nature of Debt ¹", "Circuit Total Total Total Total Business Filings Nonbusiness Filings",
+              "and Total Chapter Chapter Chapter Chapter Chapter Chapter Chapter Chapter Chapter Chapter Chapter",
+              "District Filings 7 11 12 13 Total 7 11 12 13 Total 7 11 13 S", "0",
+              "TOTAL 192,079 118,877 1,998 116 71,068 5,669 3,355 1,718 116 460 186,410 115,522 280 70,608",
+              "2ND 9,967 6,679 234 7 3,035 502 250 208 7 25 9,465 6,429 26 3,010",
+              "NJ 6,635 4,052 77 0 2,506 150 85 48 0 17 6,485 3,967 29 2,4890",
+              "AR, E 1,879 921 4 1 953 22 14 3 1 4 1,857 907 1 9490",
+              "AR, W 880 465 3 1 411 24 14 1 1 8 856 451 2 4030",
+              "ND 180 165 1 0 14 7 4 0 0 3 173 161 1 110",
+              "OK, N 644 577 0 0 67 12 12 0 0 0 632 565 0 671",
+              "\u00b9 The nature of debt is business if the debtor is a corporation or partnership.",
+              "Note: These figures include the following cases not reflected elsewhere:", "Chapter 9 Chapter 15", "MO, E 1085 NY, S 12023"]]
+    _multi_page_pdf(path, pages)
+
+
 def _multi_page_pdf(path: Path, pages: list[list[str]]) -> None:
     objs: list[bytes] = []
     # 1 catalog, 2 pages, 3 font, then per page: page obj + content obj
@@ -224,4 +258,6 @@ if __name__ == "__main__":
     nj_tax_returns_2018_pdf(HERE / "nj_dge107_2018_synthetic.pdf")
     nj_tax_returns_2019_pdf(HERE / "nj_dge107_2019_synthetic.pdf")
     nj_tax_returns_misfoot_pdf(HERE / "nj_dge107_misfoot_synthetic.pdf")
+    f2_pdf_2022(HERE / "uscourts_f2_2022_synthetic.pdf")
+    f2_pdf_2018(HERE / "uscourts_f2_2018_synthetic.pdf")
     print("fixtures written")

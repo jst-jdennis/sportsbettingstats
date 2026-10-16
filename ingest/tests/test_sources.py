@@ -185,3 +185,31 @@ def test_nj_tax_returns_2019_form_family_b_split_digits():
 def test_nj_tax_returns_misfooting_form_raises():
     with pytest.raises(LayoutChanged):
         NJDGESportsWagering().parse(raw_for(FIX / "nj_dge107_misfoot_synthetic.pdf", Period.month(2019, 12), "pdf"))
+
+
+def test_uscourts_f2_pdf_2022_layout():
+    src = USCourtsBankruptcyF2()
+    recs = {r["district_code"]: r for r in src.parse(raw_for(FIX / "uscourts_f2_2022_synthetic.pdf", Period.quarter_ending(2022, 12), "pdf"))}
+    assert set(recs) == {"NJ", "ARE", "ND", "OKN"}  # Total, circuit and Virgin Islands rows skipped
+    assert recs["NJ"] == {"district_code": "NJ", "all_nonbusiness": 2415, "7": 1349, "11": 3, "13": 1063}
+    assert recs["ND"]["all_nonbusiness"] == 97 and recs["ARE"]["13"] == 879
+
+
+def test_uscourts_f2_pdf_2018_layout_repairs_glued_last_column():
+    src = USCourtsBankruptcyF2()
+    recs = {r["district_code"]: r for r in src.parse(raw_for(FIX / "uscourts_f2_2018_synthetic.pdf", Period.quarter_ending(2018, 3), "pdf"))}
+    assert set(recs) == {"NJ", "ARE", "ARW", "ND", "OKN"}
+    assert recs["NJ"] == {"district_code": "NJ", "all_nonbusiness": 6485, "7": 3967, "11": 29, "13": 2489}  # "2,4890" repaired
+    assert recs["OKN"]["13"] == 67 and recs["ND"]["13"] == 11 and recs["ARW"]["13"] == 403
+    rows = [r.finalize() for r in src.normalize(list(recs.values()), raw_for(FIX / "uscourts_f2_2018_synthetic.pdf", Period.quarter_ending(2018, 3), "pdf"))]
+    ar = next(r for r in rows if r["fips"] == "05" and r["chapter"] == "13")
+    assert ar["filings"] == 949 + 403 and "PDF edition" in ar["notes"]
+
+
+def test_uscourts_resolve_takes_real_links_and_prefers_xlsx():
+    src = USCourtsBankruptcyF2()
+    page = Document(url="u", period=Period.quarter_ending(2022, 12), kind="html")
+    html = '<a href="/sites/default/files/data_tables/bf_f2.3_1231.2022.pdf">x</a><a href="/sites/default/files/data_tables/bf_f2_1231.2022.pdf">y</a><a href="/sites/default/files/data_tables/bf_f2_1231.2022.xlsx">z</a>'
+    docs = {d.get("measure"): d for d in src.resolve(page, html)}
+    assert docs["quarter"].url.endswith("bf_f2.3_1231.2022.pdf") and docs["quarter"].kind == "pdf"
+    assert docs["twelve_months_ending"].url.endswith("bf_f2_1231.2022.xlsx")
