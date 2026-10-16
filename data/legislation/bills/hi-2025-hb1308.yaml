@@ -11,11 +11,12 @@ summary: >-
   wagering age of 21 and provided that licensed sports wagering and fantasy sports contests are not gambling
   under state law. It passed the House on March 4, 2025 and the Senate, amended, on April 8, 2025; the House
   disagreed with the Senate amendments, conferees were appointed on April 22 and 24, 2025, and the measure was
-  carried over to the 2026 Regular Session on December 8, 2025 without a conference agreement.
+  carried over to the 2026 Regular Session on December 8, 2025 without a conference agreement. In 2026 the Senate
+  discharged its conferees on March 20 and the House its conferees on April 1, ending the measure for the biennium.
 would:
   - Add a chapter on the regulation of sports wagering administered by the Department of Law Enforcement, with operator and supplier licenses and criminal history checks (measure description, SD 2).
   - Tax adjusted gross sports wagering receipts, at ten percent in the HD 1 text, with a stated share deposited to the Problem Gambling Prevention and Treatment Special Fund; the final rate and share were among the points left unresolved in conference (HD 1 text sections 11 and 12).
-  - Require a person placing a wager to be twenty-one years of age or older (HD 1 text).
+  - Require a person placing a wager to be at least twenty-one years of age (HD 1 and SD 2 texts).
   - Provide that legal sports wagering and fantasy sports contests are not contests of chance or gambling (measure description, SD 2).
 sponsors:
   - name: Daniel Holt
@@ -31,7 +32,7 @@ sponsors:
     party: D
     role: cosponsor
 status: passed_both
-status_date: "2025-12-08"
+status_date: "2026-04-01"
 actions:
   - date: "2025-01-23"
     chamber: house
@@ -100,6 +101,19 @@ actions:
     chamber: other
     action_text: Carried over to the 2026 Regular Session.
     provenance: *hibill
+  - date: "2026-03-20"
+    chamber: senate
+    action_text: Senate conferees discharged (Sen. Com. No. 409).
+    provenance: &hibill2026
+      <<: *hibill
+      source_url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1308&year=2026
+      archive_url: sha256:bc1a4f7f1b4b057a563bb96536b955daa7796466ef70072e5ae577a78b10c726
+      page_or_table: "Measure status page, 2026 session, status text table"
+      notes: 2026 session page archived on a GitHub runner (ingest run 40); its only 2026 entries are the discharge of conferees.
+  - date: "2026-04-01"
+    chamber: house
+    action_text: House conferees discharged (Hse. Com. No. 457); no further action in the 2026 session.
+    provenance: *hibill2026
 votes:
   - date: "2025-03-04"
     chamber: house
@@ -124,7 +138,7 @@ votes:
     provenance:
       <<: *hibill
       page_or_table: "Status text entry of 4/8/2025: 'Ayes, 15; Aye(s) with reservations: Senator(s) Aquino, Chang, Kim, Richards. Noes, 10 ... Excused, 0'"
-text_url: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB1308_HD1_.HTM
+text_url: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB1308_SD2_.HTM
 legislature_page_url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1308&year=2025
 fiscal_note_url: null
 fiscal_estimate_text: null
@@ -133,8 +147,9 @@ external_ids:
   legiscan_bill_id: null
   openstates_id: null
 notes: >-
-  text_url is the HD 1 text (archived sha256 aa0448c220b6075eb2c7c694db38ad18848b9274be3a3593d59b17fec74f3df3);
-  the HD 3 and SD 2 texts, which are the versions each chamber passed, are to be archived and linked. The
+  text_url is the SD 2 text, the version the Senate passed (archived sha256 6bae1f776a8ee92b9bc31d0adb4f90319536c49e0d3c1865da7210fc76577f63); the HD 1 text
+  (sha256 aa0448c220b6075eb2c7c694db38ad18848b9274be3a3593d59b17fec74f3df3) is archived and the HD 3 text, the version
+  the House passed, is to be archived. The
   status entered is passed_both because both chambers passed versions of the bill; no final text was agreed.
   The 2026 session page will say whether the carried-over measure moved; the companion bill is SB 1569.
 provenance:

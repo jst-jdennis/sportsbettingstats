@@ -1,0 +1,144 @@
+slug: mn-2026-sf4760
+fips: "27"
+session: 94th Legislature, 2026 Regular Session
+bill_number: SF 4760
+title: Omnibus public safety policy bill (Session Law 2026, Chapter 97), carrying the prohibition on event contracts
+market_segment: [prediction_market]
+summary: >-
+  Senate File 4760, the 2026 omnibus public safety policy bill, was passed by the Senate 52 to 13 on April 21,
+  2026, by the House as amended 116 to 16 on April 30, repassed by the Senate on the conference committee
+  report 57 to 9 on May 12, adopted by the House on May 13, presented to the Governor on May 14 and approved on
+  May 18, 2026 as Chapter 97. Among its provisions, as reported at enactment, is a prohibition on offering or
+  advertising event contracts on sports, elections and other listed subjects, the first state law to bar
+  prediction markets outright; the chapter text is being archived and the provision will be summarized from it
+  with section references.
+would:
+  - Prohibit offering or advertising event contracts on listed subjects, including sporting events, in Minnesota (provision to be entered from the chapter text with its section number; description here is from the status page and contemporaneous reporting, not yet from the text).
+sponsors:
+  - name: Ron Latz
+    chamber: senate
+    party: null
+    role: primary
+  - name: Novotny
+    chamber: house
+    party: null
+    role: chamber_sponsor
+  - name: Moller
+    chamber: house
+    party: null
+    role: cosponsor
+  - name: Curran
+    chamber: house
+    party: null
+    role: cosponsor
+status: enacted
+status_date: "2026-05-18"
+actions:
+  - date: "2026-03-23"
+    chamber: senate
+    action_text: Introduction and first reading (Senate Journal page 6917); referred to Judiciary and Public Safety.
+    provenance: &mnbill
+      source_id: mn-legislature
+      source_url: https://www.revisor.mn.gov/bills/bill.php?b=Senate&f=SF4760&ssn=0&y=2026
+      archive_url: sha256:220eb9fb16f10725f189331418fa8acba989e8f687d938f09fd94e328cf653af
+      retrieved_at: "2026-10-16"
+      retrieval_method: html_table
+      transform: null
+      entered_by: claude-phase3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: "Status in the Senate, actions table (chronological), with journal pages and vote tallies"
+      notes: Status page archived on a GitHub runner (ingest run 40), sha256 220eb9fb16f10725f189331418fa8acba989e8f687d938f09fd94e328cf653af. Companion HF 3990. Author and House author names are as the page lists them; first names and parties to be confirmed from rosters on review.
+  - date: "2026-04-07"
+    chamber: senate
+    action_text: Committee report, to pass as amended (page 7537a); second reading (page 7904).
+    provenance: *mnbill
+  - date: "2026-04-21"
+    chamber: senate
+    action_text: Special order, amended; laid on and taken from the table; amended; third reading, passed as amended 52 to 13 (page 8935).
+    provenance: *mnbill
+  - date: "2026-04-22"
+    chamber: house
+    action_text: Received from Senate; first reading, referred for comparison with HF 3990 (page 6120).
+    provenance: *mnbill
+  - date: "2026-04-23"
+    chamber: house
+    action_text: Bills not identical, SF substituted on General Register; second reading (page 6126).
+    provenance: *mnbill
+  - date: "2026-04-30"
+    chamber: house
+    action_text: Amended; third reading as amended; passed as amended 116 to 16 (pages 6229a to 6297).
+    provenance: *mnbill
+  - date: "2026-05-04"
+    chamber: senate
+    action_text: Returned from House with amendment; Senate did not concur, conference committee of three requested; Senate conferees Latz, Oumou Verbeten, Limmer (pages 9330a to 9707).
+    provenance: *mnbill
+  - date: "2026-05-06"
+    chamber: house
+    action_text: House conferees Novotny, Witte, Moller, Feist (page 9940).
+    provenance: *mnbill
+  - date: "2026-05-12"
+    chamber: senate
+    action_text: Conference committee report (delete everything) adopted; bill repassed on third reading 57 to 9 (pages 10431c to 10522).
+    provenance: *mnbill
+  - date: "2026-05-13"
+    chamber: house
+    action_text: House adopted the conference committee report and repassed the bill (page 10541).
+    provenance: *mnbill
+  - date: "2026-05-14"
+    chamber: governor
+    action_text: Presented to the Governor.
+    provenance: *mnbill
+  - date: "2026-05-18"
+    chamber: governor
+    action_text: Approved by the Governor (page 11758); filed with the Secretary of State as Chapter 97 (page 11759); effective dates vary by section.
+    provenance: *mnbill
+votes:
+  - date: "2026-04-21"
+    chamber: senate
+    motion: Third reading, passage as amended
+    yeas: 52
+    nays: 13
+    excused_or_not_voting: null
+    result: passed
+    rollcall_url: https://www.senate.mn/journals/gotopage?session=ls94&number=8935
+    provenance:
+      <<: *mnbill
+      page_or_table: "Actions table, 04/21/2026 'Third reading Passed as amended, pg. 8935, vote: 52-13'"
+  - date: "2026-04-30"
+    chamber: house
+    motion: Third reading, passage as amended
+    yeas: 116
+    nays: 16
+    excused_or_not_voting: null
+    result: passed
+    rollcall_url: https://www.house.leg.state.mn.us/cco/journals/journl.asp
+    provenance:
+      <<: *mnbill
+      page_or_table: "Actions table, House, 04/30/2026 'Bill was passed as amended, pg. 6297, vote: 116-16'"
+  - date: "2026-05-12"
+    chamber: senate
+    motion: Repassage on third reading after adoption of the conference committee report
+    yeas: 57
+    nays: 9
+    excused_or_not_voting: null
+    result: passed
+    rollcall_url: https://www.senate.mn/journals/gotopage?session=ls94&number=10522
+    provenance:
+      <<: *mnbill
+      page_or_table: "Actions table, 05/12/2026 'Third Reading Repassed, pg. 10522, vote: 57-9'"
+text_url: https://www.revisor.mn.gov/laws/2026/0/Session+Law/Chapter/97/
+legislature_page_url: https://www.revisor.mn.gov/bills/bill.php?b=Senate&f=SF4760&ssn=0&y=2026
+fiscal_note_url: null
+fiscal_estimate_text: null
+related_bills: []
+external_ids:
+  legiscan_bill_id: null
+  openstates_id: null
+notes: >-
+  The House vote on adopting the conference committee report (May 13, 2026) is not tallied on the status page
+  and is to be entered from the House Journal page 10541. Contemporaneous reporting describes the event
+  contract prohibition as effective August 1, 2026 and challenged in federal court by the Commodity Futures
+  Trading Commission and the platforms; litigation status is not recorded here. The chapter text is queued for
+  archiving so the provision can be cited by section.
+provenance: *mnbill

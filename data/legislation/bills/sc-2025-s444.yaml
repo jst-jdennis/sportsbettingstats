@@ -19,7 +19,7 @@ sponsors:
     chamber: senate
     party: R
     role: primary
-  - name: Leber
+  - name: Matthew W. Leber
     chamber: senate
     party: null
     role: cosponsor
@@ -40,7 +40,7 @@ actions:
       reviewed_by: null
       status: pending_review
       page_or_table: "Status information and history of legislative actions on the bill page"
-      notes: Bill page archived on a GitHub runner (ingest run 38). The page names the sponsors as "Senators Davis and Leber"; first names and parties are to be confirmed from the Senate roster on review.
+      notes: Bill page archived on a GitHub runner (ingest run 38). The page names the sponsors as "Senators Davis and Leber"; first names from the Senate roster page (archived sha256 8d63e4abc2fc9545054d4292121b7a2d5d04ecd483baeaa56e3d9e27a48dbdb6); parties to be confirmed on review.
 votes: []
 text_url: https://www.scstatehouse.gov/sess126_2025-2026/bills/444.htm
 legislature_page_url: https://www.scstatehouse.gov/sess126_2025-2026/bills/444.htm
