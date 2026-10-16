@@ -80,7 +80,7 @@ def test_uscourts_resolve_finds_f2_tables():
     <tr><td>F-5A</td><td><a href="/x/bf_f5a_0630.2026.xlsx">Download</a></td></tr></table>'''
     src = USCourtsBankruptcyF2()
     page = src.discover(Period.quarter_ending(2026, 6))[0]
-    assert page.kind == "html" and page.url.endswith("/2026/06/30")
+    assert page.kind == "html" and page.url.endswith("/june-2026-quarterly-bankruptcy-filings")
     docs = src.resolve(page, html)
     assert [d.get("measure") for d in docs] == ["quarter", "twelve_months_ending"]
     assert docs[0].url.startswith("https://www.uscourts.gov/") and docs[0].kind == "xlsx"
@@ -95,17 +95,17 @@ def test_nj_discover_candidates_and_resolve():
     src = NJDGESportsWagering()
     docs = src.discover(Period.month(2026, 8))
     assert [d.kind for d in docs] == ["html", "html", "html", "pdf"]  # landing candidates, then the historic PDF pattern
-    assert docs[-1].url.endswith("SportsWagering2026/August2026.pdf")
+    assert docs[-1].url.endswith("SWRTaxReturns/2026/August2026.pdf")
     page = docs[0]
-    found = src.resolve(page, '<a href="/oag/ge/docs/Financials/SportsWagering2026/August2026.pdf">August 2026</a>')
-    assert found[0].url == "https://www.nj.gov/oag/ge/docs/Financials/SportsWagering2026/August2026.pdf"
+    found = src.resolve(page, '<a href="https://www.nj.gov/oag/ge/docs/Financials/SWRTaxReturns/2026/August2026.pdf">August</a><a href="https://www.nj.gov/oag/ge/docs/Financials/SWRTaxReturns/2026/107AmendmentsList2026.pdf">x</a>')
+    assert found[0].url == "https://www.nj.gov/oag/ge/docs/Financials/SWRTaxReturns/2026/August2026.pdf"
     with pytest.raises(LayoutChanged):
         src.resolve(page, "<p>nothing</p>")
 
 
 def test_census_csv_parse(tmp_path):
     from wpdc_ingest.sources.census_population import CensusPopulation
-    csv_text = "SUMLEV,REGION,DIVISION,STATE,NAME,ESTIMATESBASE2020,POPESTIMATE2020,POPESTIMATE2021\n010,0,0,00,United States,1,2,3\n040,3,6,40,Oklahoma,3959353,3964912,3986639\n040,X,X,72,Puerto Rico,1,2,3\n"
+    csv_text = "SUMLEV,REGION,DIVISION,STATE,NAME,ESTIMATESBASE2020,POPESTIMATE042020,POPESTIMATE2020,POPESTIMATE2021\n010,0,0,00,United States,1,1,2,3\n040,3,6,40,Oklahoma,3959353,3959353,3964912,3986639\n040,X,X,72,Puerto Rico,1,1,2,3\n"
     p = tmp_path / "nst.csv"; p.write_text(csv_text)
     src = CensusPopulation()
     doc = src.discover(None)[0]

@@ -37,7 +37,7 @@ LANDING = "https://www.uscourts.gov/data-news/reports/statistical-reports/bankru
 # with one row per table and a Download link. discover() returns that page as an html document; resolve()
 # finds the F-2 links on it. Both the three-month and the twelve-month F-2 tables are ingested, with
 # measure recorded on each.
-QUARTER_PAGE = LANDING + "/{y}/{m:02d}/{d:02d}"
+QUARTER_PAGE = "https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filing-statistics/{month}-{y}-quarterly-bankruptcy-filings"
 LINK_RE = re.compile(r'href="([^"]+\.(?:xlsx|xls|pdf))"[^>]*>([^<]*)', re.I)
 CHAPTERS = ("7", "11", "13")
 
@@ -60,7 +60,7 @@ class USCourtsBankruptcyF2:
             period = Period.quarter_ending(y, m)
         last = period.end
         return [
-            Document(url=QUARTER_PAGE.format(y=last.year, m=last.month, d=last.day), period=period, kind="html", label=f"Bankruptcy statistics page, quarter ending {last.isoformat()}"),
+            Document(url=QUARTER_PAGE.format(month=last.strftime("%B").lower(), y=last.year), period=period, kind="html", label=f"Bankruptcy statistics page, quarter ending {last.isoformat()}"),
             Document(url=LANDING, period=period, kind="html", label=f"Bankruptcy statistics landing page, looking for quarter ending {last.isoformat()}", meta=(("landing", True),)),
         ]
 

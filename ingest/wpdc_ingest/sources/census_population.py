@@ -18,6 +18,7 @@ from __future__ import annotations
 import csv
 import io
 import json
+import re
 from datetime import date
 from typing import Any
 
@@ -54,7 +55,7 @@ class CensusPopulation:
     def _parse_csv(self, text: str, raw: RawDocument) -> list[dict[str, Any]]:
         rdr = csv.DictReader(io.StringIO(text))
         cols = rdr.fieldnames or []
-        est_cols = [c for c in cols if c.startswith("POPESTIMATE")]
+        est_cols = [c for c in cols if re.fullmatch(r"POPESTIMATE\d{4}", c)]  # skips POPESTIMATE042020, the April 1 base
         if "STATE" not in cols or "SUMLEV" not in cols or not est_cols:
             raise LayoutChanged(f"{raw.path.name}: expected SUMLEV, STATE and POPESTIMATEyyyy columns; got {cols[:12]}")
         vintage = int(raw.doc.get("vintage"))

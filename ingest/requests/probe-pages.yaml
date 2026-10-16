@@ -1,7 +1,0 @@
-kind: archive
-label: probe-pages
-urls:
-  - https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filings-statistics
-  - https://www.uscourts.gov/data-news/data-tables?tn=F-2&pn=All&t=All&m[value][month]=&y[value][year]=
-  - https://www.njoag.gov/about/divisions-and-offices/division-of-gaming-enforcement-home/financial-and-statistical-information/
-  - https://www.njoag.gov/about/divisions-and-offices/division-of-gaming-enforcement-home/financial-and-statistical-information/monthly-sports-wagering-revenue-reports/

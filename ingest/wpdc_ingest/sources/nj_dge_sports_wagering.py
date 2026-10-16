@@ -37,7 +37,7 @@ LANDING_CANDIDATES = [
     "https://www.nj.gov/oag/ge/sportswageringrevenue.html",
 ]
 # Historic pattern for the monthly PDF; the CLI confirms the link exists on the landing page before fetching.
-PDF_PATTERN = "https://www.nj.gov/oag/ge/docs/Financials/SportsWagering{y}/{Month}{y}.pdf"
+PDF_PATTERN = "https://www.nj.gov/oag/ge/docs/Financials/SWRTaxReturns/{y}/{Month}{y}.pdf"
 REVENUE_DEFINITION = "Gross revenue before deductions for promotional gaming credits (DGE monthly sports wagering report)"
 MONEY = re.compile(r"\(?-?\$?\s*([\d,]+(?:\.\d+)?)\)?")
 
@@ -75,7 +75,8 @@ class NJDGESportsWagering:
         for m in re.finditer(r'href="([^"]+\.pdf)"', html, re.I):
             href = m.group(1)
             low = href.lower()
-            if "sportswagering" in low.replace(" ", "").replace("%20", "") and month.lower() in low and str(y) in low:
+            compact = low.replace(" ", "").replace("%20", "")
+            if ("swrtaxreturns" in compact or "sportswagering" in compact) and f"{month.lower()}{y}" in compact and "amendment" not in compact:
                 cands.append(href if href.startswith("http") else "https://www.nj.gov" + (href if href.startswith("/") else "/oag/ge/" + href))
         if not cands:
             raise LayoutChanged(f"No PDF link for {month} {y} on {doc.url}; pdf links seen: {re.findall(r'href=\"([^\"]+\\.pdf)\"', html, re.I)[:15]}")
