@@ -1901,3 +1901,123 @@ sources:
     release in source_url.
   tier: primary
   fips: '56'
+- source_id: de-governor
+  publisher: Delaware Office of the Governor
+  publisher_type: state_agency
+  title: Governor press releases (news.delaware.gov)
+  url: https://news.delaware.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: '10'
+- source_id: ny-governor
+  publisher: New York Office of the Governor
+  publisher_type: state_agency
+  title: Governor press releases
+  url: https://www.governor.ny.gov/news
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: '36'
+- source_id: nh-secretary-of-state
+  publisher: New Hampshire Secretary of State
+  publisher_type: state_agency
+  title: Governor and Executive Council agendas and minutes
+  url: https://www.sos.nh.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: '33'
+- source_id: dc-otr
+  publisher: District of Columbia Office of Tax and Revenue
+  publisher_type: state_agency
+  title: Tax rate pages and notices
+  url: https://otr.cfo.dc.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: '11'
+- source_id: fl-seminole-tribal-gaming-commission
+  publisher: Seminole Tribal Gaming Commission
+  publisher_type: state_regulator
+  title: Tribal gaming regulatory notices
+  url: https://www.stgc.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url. Tribal regulator; not a state body.
+  tier: primary
+  fips: '12'
+- source_id: wi-attorney-general-doj
+  publisher: Wisconsin Department of Justice
+  publisher_type: state_agency
+  title: Attorney General news releases and filings
+  url: https://www.doj.state.wi.us/news-releases
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: '55'
+- source_id: ar-secretary-of-state
+  publisher: Arkansas Secretary of State
+  publisher_type: state_agency
+  title: Ballot measure notices and certified results
+  url: https://www.sos.arkansas.gov/elections
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: '05'
+- source_id: co-legislative-council
+  publisher: Colorado Legislative Council Staff
+  publisher_type: legislature
+  title: Fiscal notes and bill summaries
+  url: https://leg.colorado.gov/agencies/legislative-council-staff
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: 08
+- source_id: mt-doj-gambling-control
+  publisher: Montana Department of Justice, Gambling Control Division
+  publisher_type: state_regulator
+  title: Gambling Control Division notices and letters
+  url: https://dojmt.gov/gaming/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: '30'
+- source_id: ca-secretary-of-state
+  publisher: California Secretary of State
+  publisher_type: state_agency
+  title: Statement of Vote and certified election results
+  url: https://www.sos.ca.gov/elections
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: '06'
