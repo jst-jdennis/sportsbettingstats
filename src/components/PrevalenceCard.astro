@@ -1,0 +1,29 @@
+---
+// One prevalence study as a card: who, when, how, then each published rate as
+// a bar with its own denominator. Rates are shown as published and never
+// recomputed; nothing here compares studies, because the comparability note
+// on each record says which pairs may be compared.
+import type { PrevalenceStudy } from '../lib/data';
+import { label, fmtDate } from '../lib/data';
+import SourceRef from './SourceRef.astro';
+import Chart from './Chart.astro';
+import { barChartH, wrap } from '../lib/charts';
+interface Props { s: PrevalenceStudy; stateName: string; showState?: boolean }
+const { s, stateName, showState = false } = Astro.props;
+const MEASURE: Record<string, string> = { past_year_gambling: 'Gambled in past year', past_30_day_gambling: 'Gambled in past 30 days', past_year_sports_betting: 'Bet on sports in past year', at_risk_or_problem: 'At risk or problem gambling', low_risk: 'Low risk', moderate_risk: 'Moderate risk', high_risk: 'High risk or probable disorder' };
+const name = (r: { measure: string; definition: string }) => MEASURE[r.measure] ?? (r.definition.length > 42 ? r.definition.slice(0, 40).replace(/\s+\S*$/, '') + '...' : r.definition);
+const svg = barChartH({
+  id: `prev-${s.study_id}`, title: `${stateName} ${s.fieldwork_year}: published rates`, desc: 'Horizontal bars, one per published rate, in percent of the denominator stated beside each bar.',
+  rows: s.rates.map((r) => ({ label: name(r), sub: r.denominator ?? undefined, segments: [{ value: r.value_pct, cls: 's1', name: 'Rate', title: `${name(r)}: ${r.value_pct}% of ${r.denominator ?? 'respondents'}. ${r.definition}` }] })),
+  max: 100, fmt: (v) => `${v}%`, labelWidth: 230, rowHeight: 30, width: 640,
+});
+const when = s.fieldwork_start && s.fieldwork_end ? `${fmtDate(s.fieldwork_start)} to ${fmtDate(s.fieldwork_end)}` : String(s.fieldwork_year);
+---
+<article class="panel study">
+  <h4>{showState && <>{stateName}, </>}{s.fieldwork_year} fieldwork: {s.title}</h4>
+  <p class="meta">{s.authors?.length ? s.authors.join(', ') + '. ' : ''}{s.conducted_by}{s.commissioned_by && <>, for {s.commissioned_by}</>}. Fieldwork {when}. Instrument: {s.instrument}{s.sample_size && <>; sample {s.sample_size.toLocaleString()}</>}; {s.population}; mode {label(s.mode)}. <a href={s.report_url} rel="external noopener">Report</a>. <SourceRef p={s.provenance} compact /></p>
+  <Chart svg={svg} head={['Measure', 'Rate', 'Denominator', 'As defined in the report', 'Source']} rows={s.rates.map((r) => [MEASURE[r.measure] ?? r.definition, `${r.value_pct}%`, r.denominator ?? '', r.definition, `${r.provenance.page_or_table ?? ''} (${label(r.provenance.status)})`])} tableLabel="Rates with page references">
+    <Fragment slot="caption">{s.instrument_note}{s.instrument_note ? ' ' : ''}<strong>Comparability:</strong> {s.comparability_note}</Fragment>
+  </Chart>
+  {s.limitations && <p class="meta">{s.limitations}</p>}
+</article>
