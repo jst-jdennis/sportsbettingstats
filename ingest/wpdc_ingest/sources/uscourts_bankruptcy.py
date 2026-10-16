@@ -76,10 +76,10 @@ class USCourtsBankruptcyF2:
             href = m.group(1)
             # The table label precedes its download link in the same row; use the last label before the link.
             before = re.sub(r"<[^>]+>", " ", html[max(0, m.start() - 600): m.start()])
-            labels = re.findall(r"\bF-?(\d+[A-Z]?)\b", before)
-            if not labels or labels[-1] != "2":
+            labels = list(re.finditer(r"\bF-?(\d+[A-Z]?)\b", before))
+            if not labels or labels[-1].group(1) != "2":
                 continue
-            text = before
+            text = before[labels[-1].start():]  # this row's label and whatever follows it up to the link
             url = href if href.startswith("http") else "https://www.uscourts.gov" + href
             if url in seen:
                 continue
