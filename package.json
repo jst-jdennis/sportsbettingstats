@@ -14,7 +14,9 @@
     "prebuild": "npm run validate && npm run lint:dashes && npm run grade:check",
     "build": "astro build",
     "preview": "astro preview",
-    "check": "astro check"
+    "check": "astro check",
+    "postbuild": "node scripts/factsheets.mjs",
+    "factsheets": "node scripts/factsheets.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
@@ -24,5 +26,8 @@
     "js-yaml": "^5.5.0",
     "topojson-client": "^3.1.0",
     "us-atlas": "^3.0.1"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.1"
   }
 }

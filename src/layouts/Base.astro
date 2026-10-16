@@ -1,16 +1,22 @@
 ---
 import '../styles/global.css';
 import { SITE } from '../site.config';
-import { commitHash, BUILD_DATE } from '../lib/data';
-interface Props { title: string; description?: string; asOf?: string; canonicalPath?: string }
-const { title, description = SITE.description, asOf, canonicalPath } = Astro.props;
+import { commitHash, BUILD_DATE, fmtDate } from '../lib/data';
+import type { PageTables } from '../lib/tables';
+import { csvHref, pageDataCsvHref, tableAsOf } from '../lib/tables';
+import CiteBox from '../components/CiteBox.astro';
+interface Props { title: string; description?: string; asOf?: string; canonicalPath?: string; pg?: PageTables; cite?: boolean }
+const { title, description = SITE.description, asOf, canonicalPath, pg, cite = true } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const nav = [
   ['/', 'Map'], ['/states/', 'States'], ['/outcomes/', 'Outcomes'], ['/research/', 'Research'],
   ['/legislation/', 'Legislation'], ['/report-cards/', 'Report cards'], ['/methodology/', 'Methodology'], ['/data/', 'Data'],
 ];
 const here = Astro.url.pathname.replace(base, '') || '/';
-const canonical = new URL((base + (canonicalPath ?? here)).replace(/\/+/g, '/'), Astro.site).toString();
+const path = canonicalPath ?? here;
+const canonical = new URL((base + path).replace(/\/+/g, '/'), Astro.site).toString();
+const tables = pg?.tables ?? [];
+const pageAsOf = asOf || tables.map(tableAsOf).filter((x): x is string => !!x).sort().pop() || undefined;
 ---
 <!doctype html>
 <html lang="en">
@@ -24,6 +30,8 @@ const canonical = new URL((base + (canonicalPath ?? here)).replace(/\/+/g, '/'),
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
   <meta name="color-scheme" content="light dark" />
+  {tables.map((t) => <link rel="alternate" type="text/csv" href={csvHref(t)} title={t.title} />)}
+  {pg?.factsheet && <link rel="alternate" type="application/pdf" href={`${base}${pg.page}factsheet.pdf`} title={`${title}: fact sheet`} />}
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -37,11 +45,23 @@ const canonical = new URL((base + (canonicalPath ?? here)).replace(/\/+/g, '/'),
   </header>
   <main id="main" class="wrap">
     <slot />
+    {tables.length > 0 && (
+      <section class="downloads" aria-labelledby="dl-h">
+        <h2 id="dl-h">Data on this page</h2>
+        <p class="meta">Every table and chart above as CSV, with the same columns plus the source URL, retrieval date and review status of each row where the table carries sources. Files open with comment lines starting with <code>#</code> that name the page, build and citation; skip them with <code>comment="#"</code> in pandas or <code>grep -v '^#'</code>.</p>
+        <ul class="dl-list">
+          {tables.map((t) => <li><a href={csvHref(t)} download>{t.title}</a> <span class="meta">({t.rows.length} row{t.rows.length === 1 ? '' : 's'}{tableAsOf(t) ? `, as of ${fmtDate(tableAsOf(t))}` : ''})</span></li>)}
+          <li><a href={pageDataCsvHref(pg!.page)} download>All tables on this page in one long-format file</a> <span class="meta">(data.csv: one line per cell with its table, row, column and source)</span></li>
+          {pg?.factsheet && <li><a href={`${base}${pg.page}factsheet.pdf`}>Fact sheet (PDF)</a> <span class="meta">(printable summary with every figure footnoted to its source; also as a <a href={`${base}${pg.page}factsheet/`}>printable page</a>)</span></li>}
+        </ul>
+      </section>
+    )}
+    {cite && <CiteBox title={title} asOf={pageAsOf} path={path} />}
   </main>
   <footer class="site">
     <div class="wrap">
       <p>
-        {asOf && <>Data on this page as of {asOf}. </>}
+        {pageAsOf && <>Data on this page as of {pageAsOf}. </>}
         Built {BUILD_DATE} from commit <code>{commitHash()}</code>.
         Data: <a href={SITE.dataLicense.url}>{SITE.dataLicense.name}</a>. Code: <a href={SITE.codeLicense.url}>{SITE.codeLicense.name}</a>.
         <a href={SITE.repoUrl}>Source repository</a>. <a href={SITE.contactIssuesUrl}>Report an error</a>.

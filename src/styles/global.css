@@ -115,3 +115,17 @@ figure.chart .facet:first-of-type { margin-top: 0; }
 .study { margin: 1rem 0; }
 .study h4 { margin: 0 0 .25rem; font-size: 1rem; }
 .study figure.chart { margin: .5rem 0; }
+
+/* Phase 4: downloads box, citation widget, CSV links under tables. */
+.dl { margin-top: -.5rem; }
+.downloads, .cite-box { margin-top: 2.5rem; border-top: 1px solid var(--rule); padding-top: .5rem; }
+.downloads h2, .cite-box h2 { border: 0; margin-top: 0; font-size: 1.1rem; }
+.dl-list { padding-left: 1.2rem; font-size: .95rem; }
+.cite-formats { margin: .5rem 0; }
+.cite-row { display: grid; grid-template-columns: 5rem 1fr; gap: .25rem .75rem; align-items: start; margin-bottom: .5rem; }
+.cite-row dt { font-weight: 600; padding-top: .5rem; }
+.cite-row dd { margin: 0; position: relative; }
+.cite-row pre.cite { margin: 0; white-space: pre-wrap; word-break: break-word; padding-right: 4.5rem; }
+.cite-row button.copy { position: absolute; top: .35rem; right: .35rem; font: inherit; font-size: .8rem; padding: .15rem .5rem; border: 1px solid var(--rule); border-radius: 3px; background: var(--bg); color: var(--fg); cursor: pointer; }
+@media (max-width: 40rem) { .cite-row { grid-template-columns: 1fr; } .cite-row dt { padding-top: 0; } }
+@media print { .downloads, .cite-box button { display: none; } }

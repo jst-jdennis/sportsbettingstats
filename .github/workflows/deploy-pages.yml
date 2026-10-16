@@ -30,7 +30,9 @@ jobs:
           python-version: '3.12'
       - run: pip install jsonschema frictionless pyyaml
       - run: npm ci
-      - name: Validate data, lint copy, build site
+      - name: Chromium for the fact sheet PDFs
+        run: npx playwright install --with-deps chromium
+      - name: Validate data, lint copy, build site, render fact sheets
         run: npm run build
       - uses: actions/configure-pages@v5
         with:

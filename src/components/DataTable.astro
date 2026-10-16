@@ -1,0 +1,31 @@
+---
+// Renders a DataTable (src/lib/tables.ts) as an HTML table with its CSV link.
+// The CSV endpoint serializes the same object, so the download always matches
+// what is on the page. A row's provenance renders as a Source column.
+import type { DataTable } from '../lib/tables';
+import { csvHref, cellText, cellMeta, cellHref, tableAsOf } from '../lib/tables';
+import { fmtDate } from '../lib/data';
+import SourceRef from './SourceRef.astro';
+interface Props { t: DataTable; caption?: string; rowHeader?: boolean; link?: boolean; empty?: string }
+const { t, caption, rowHeader = true, link = true, empty = 'No rows on file.' } = Astro.props;
+const num = new Set(t.num ?? []);
+const isNum = (c: unknown, j: number) => num.has(j) || typeof c === 'number';
+const asOf = tableAsOf(t);
+---
+{t.rows.length ? (
+  <div class="table-wrap"><table>
+    {caption && <caption class="meta">{caption}</caption>}
+    <thead><tr>{t.head.map((h, j) => <th scope="col" class={isNum(t.rows[0]?.[j], j) ? 'num' : undefined}>{h}</th>)}{t.prov && <th scope="col">Source</th>}</tr></thead>
+    <tbody>{t.rows.map((r, i) => (
+      <tr>
+        {r.map((c, j) => {
+          const text = cellText(c), href = cellHref(c), meta = cellMeta(c);
+          const inner = <>{href ? <a href={href}>{text}</a> : text}{meta && <div class="meta">{meta}</div>}</>;
+          return j === 0 && rowHeader ? <th scope="row">{inner}</th> : <td class={isNum(c, j) ? 'num' : undefined}>{inner}</td>;
+        })}
+        {t.prov && <td>{t.prov[i] ? <SourceRef p={t.prov[i]!} /> : <span class="meta">no source recorded</span>}</td>}
+      </tr>))}
+    </tbody>
+  </table></div>
+) : <p class="meta">{empty}</p>}
+{link && t.rows.length > 0 && <p class="meta dl"><a href={csvHref(t)} download>Download CSV</a>: {t.title}{asOf ? `, data as of ${fmtDate(asOf)}` : ''}. Columns as shown{t.prov ? ', plus source URL, retrieval date and review status per row' : ''}.</p>}

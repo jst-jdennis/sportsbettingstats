@@ -1,6 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { grades, rubrics, profile, source, label, fmtDate } from '../../lib/data';
+import DataTable from '../../components/DataTable.astro';
+import { grades, rubrics, profile, label, fmtDate } from '../../lib/data';
+import { reportCardPage } from '../../lib/pageTables';
+import { byId } from '../../lib/tables';
 export function getStaticPaths() { return (grades()?.states ?? []).map((s) => ({ params: { abbr: s.abbr.toLowerCase() }, props: { s } })); }
 const { s } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -8,10 +11,11 @@ const g = grades()!;
 const r = rubrics().sort((a, b) => b.version.localeCompare(a.version))[0];
 const crit = (id: string) => r.criteria.find((c: any) => c.criterion_id === id);
 const p = profile(s.abbr);
-const fmtVal = (v: unknown) => v === null || v === undefined ? 'not entered' : typeof v === 'boolean' ? (v ? 'yes' : 'no') : String(v);
+const pg = reportCardPage(s);
+const T = byId(pg);
 const headline = s.grade ? `${s.grade}${s.review === 'provisional' ? ', provisional' : ''}` : 'Incomplete';
 ---
-<Base title={`${s.name} report card`} description={`Consumer protection report card for ${s.name}: ${headline}, ${s.points} of ${s.available} points under rubric ${g.rubric_version}, with the inputs and sources behind each criterion.`} canonicalPath={`/report-cards/${s.abbr.toLowerCase()}/`}>
+<Base title={`${s.name} report card`} description={`Consumer protection report card for ${s.name}: ${headline}, ${s.points} of ${s.available} points under rubric ${g.rubric_version}, with the inputs and sources behind each criterion.`} canonicalPath={`/report-cards/${s.abbr.toLowerCase()}/`} pg={pg}>
   <p class="meta"><a href={base + '/report-cards/'}>Report cards</a> / {s.name}</p>
   <h1>{s.name} report card</h1>
   <p class="lede">
@@ -22,19 +26,11 @@ const headline = s.grade ? `${s.grade}${s.review === 'provisional' ? ', provisio
   {p && <p>See the <a href={`${base}/states/${s.abbr.toLowerCase()}/`}>{s.name} profile</a> for the underlying records and the <a href={base + '/report-cards/#rubric'}>rubric</a> for every scoring row.</p>}
 
   <h2 id="criteria">Criteria</h2>
-  <div class="table-wrap"><table>
-    <thead><tr><th scope="col">Criterion</th><th scope="col">Inputs</th><th scope="col">Matched row</th><th scope="col" class="num">Points</th><th scope="col">Sources</th></tr></thead>
-    <tbody>{s.criteria.map((c) => { const def = crit(c.criterion_id); return (
-      <tr>
-        <th scope="row">{def?.title ?? c.criterion_id}<div class="meta">{c.criterion_id}, {label(def?.applies_to)}</div></th>
-        <td><ul>{Object.entries(c.inputs).map(([k, v]) => <li><code>{k}</code>: {fmtVal(v)}</li>)}</ul></td>
-        <td>{c.status === 'scored' ? <>{c.label}<div class="meta">{c.condition}</div></> : <>Not entered<div class="meta">presence input <code>{def?.presence}</code> is null</div></>}</td>
-        <td class="num">{c.status === 'scored' ? `${c.points} / ${c.max_points}` : `? / ${c.max_points}`}</td>
-        <td>{c.evidence.length ? <ul>{c.evidence.map((e) => <li><a href={e.source_url}>{source(e.source_id)?.publisher ?? e.source_id}</a><div class="meta">retrieved {fmtDate(e.retrieved_at)}, {label(e.status)}</div></li>)}</ul> : <span class="meta">no record</span>}</td>
-      </tr>); })}
-    </tbody>
-  </table></div>
+  <DataTable t={T.get('criteria')} />
   {s.missing_criteria.length > 0 && <p>Not yet entered for {s.name}: {s.missing_criteria.map((m) => crit(m)?.title ?? m).join('; ')}. <a href={base + '/data/#contribute'}>How to add a record</a>.</p>}
+
+  <h2 id="evidence">Records behind each criterion</h2>
+  <DataTable t={T.get('evidence')} empty="No records yet: every applicable criterion is still to be entered." />
 
   <h2 id="method">How this card was computed</h2>
   <p>Each input is derived from the state's data files as described on the <a href={base + '/report-cards/#inputs'}>rubric page</a>. The scoring rows for a criterion are tried in order and the first whose condition matches awards its points. The same script produces this page's numbers and the check that runs on every change to the data.</p>

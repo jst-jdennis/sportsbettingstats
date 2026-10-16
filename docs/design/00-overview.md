@@ -141,7 +141,7 @@ rubric creates a new rubric version.
 | 1 | Repo scaffold, all schemas, provenance model, ingestion framework with two working sources, state status map, complete profiles for Oklahoma plus two online states | `make validate` passes; map renders without JS; each profile figure links to a source with a date |
 | 2 | Outcome time series (handle/revenue, bankruptcy, helpline, prevalence), pre/post windows, research library with revision log | Hollenbeck entry shows both the ATT figure and the event-study figure with version dates; NJ series spans pre and post June 2018 |
 | 3 | Legislation tracker, report cards and published rubric | Grades regenerate identically from rubric plus data in CI; HB 1047 entry has vote counts and bill text link |
-| 4 | CSV export on every table and chart, fact sheet PDF per state, citation widget | Each page has a `/data.csv` sibling and a `/factsheet.pdf` sibling |
+| 4 | CSV export on every table and chart, fact sheet PDF per state, citation widget | Every table and chart is declared once in the table registry (`src/lib/pageTables.ts`) and served at `<page>/<table>.csv` with per-row provenance columns; every page with tables has a `<page>/data.csv` long-format sibling; every state page has a `/factsheet.pdf` sibling rendered from the same registry, and the build fails if any is missing; every page carries the citation widget |
 
 Proposed Phase 1 states: Oklahoma (required), New Jersey (longest
 post-PASPA monthly series, from June 2018, so the pre/post view is

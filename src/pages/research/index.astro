@@ -2,9 +2,13 @@
 import Base from '../../layouts/Base.astro';
 import Chart from '../../components/Chart.astro';
 import { papers, label, fmtDate, asOf, OUTCOME_LABEL } from '../../lib/data';
+import { researchIndexPage } from '../../lib/pageTables';
+import { byId } from '../../lib/tables';
 import { timeline } from '../../lib/charts';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const ps = papers();
+const pg = researchIndexPage();
+const T = byId(pg);
 const statusCls: Record<string, string> = { working_paper: 's2', under_review: 's2', forthcoming: 's3', published: 's1' };
 const short = (p: any) => `${p.authors[0].split(' ').pop()}${p.authors.length > 1 ? ' et al.' : ''}`;
 const svg = timeline({
@@ -20,14 +24,14 @@ const svg = timeline({
 });
 const domains = (p: any) => [...new Set(p.key_figures.map((f: any) => f.outcome_domain).filter(Boolean))].map((d) => OUTCOME_LABEL[d as string] ?? d).join(', ');
 ---
-<Base title="Research library" asOf={asOf(ps)}>
+<Base title="Research library" asOf={asOf(ps)} pg={pg}>
   <h1>Research library</h1>
   <p class="lede">Peer-reviewed and working papers on the effects of legalized sports wagering, each with a plain-language summary, the unit the effect is measured at, methodology notes and a version log that records how headline figures have changed between drafts.</p>
-  <div class="panel notice" role="note"><strong>Phase 2 section, seeded.</strong> {ps.length} entries are present so the version log structure can be reviewed. Key figures are entered from secondary summaries and marked accordingly; each PDF will be archived and read directly before any figure is marked verified. The estimates themselves are charted together on the <a href={base + '/outcomes/'}>outcomes page</a>.</div>
+  <div class="panel notice" role="note"><strong>Seeded.</strong> {ps.length} entries are present so the version log structure can be reviewed. Key figures are entered from secondary summaries and marked accordingly; each PDF will be archived and read directly before any figure is marked verified. The estimates themselves are charted together on the <a href={base + '/outcomes/'}>outcomes page</a>.</div>
 
   <h2 id="timeline">Versions over time</h2>
   <p>A working paper can change its headline figure between drafts. Each dot is a dated version; the version log on each entry records what changed.</p>
-  <Chart svg={svg} legend={[{ cls: 's2', name: 'Working paper draft' }, { cls: 's1', name: 'Published version' }]} head={['Paper', 'Version', 'Date', 'What changed']} rows={ps.flatMap((p) => p.versions.map((v: any) => [p.title, v.version_label, fmtDate(v.date), v.changes_summary]))} caption="Select a paper to open its entry. Dates are as precise as the document states them; a version dated only to a month or year is placed at its start." />
+  <Chart svg={svg} legend={[{ cls: 's2', name: 'Working paper draft' }, { cls: 's1', name: 'Published version' }]} table={T.get('versions')} caption="Select a paper to open its entry. Dates are as precise as the document states them; a version dated only to a month or year is placed at its start." />
 
   <h2 id="papers">Papers</h2>
   <ul class="cards">{ps.map((p) => (

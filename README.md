@@ -20,14 +20,17 @@ Draft site: https://jst-jdennis.github.io/sportsbettingstats/
 
 ## Status
 
-Phase 1 draft. All 50 states and DC have a legal status entry, marked
-pending review until a second contributor checks it. Oklahoma, New Jersey and
-Kansas have complete profiles. Outcome time series, the research library,
-the legislation tracker and report cards have their schemas and seed entries
-in place and are built out in Phases 2 to 4. Every page carries a build-time
-SVG chart (no client JavaScript) with its data table; the outcomes page charts
-the published estimates of legalization effects from the research library. See `docs/design/` for the data
-model, source inventory and ingestion design.
+Draft. All 50 states and DC have a legal status entry, marked pending
+review until a second contributor checks it. Oklahoma, New Jersey and Kansas
+have complete profiles. The outcome time series (New Jersey monthly revenue,
+nonbusiness bankruptcy filings for every state since 2018, helpline contacts,
+prevalence studies), the research library, the legislation tracker and the
+report cards are built and populated from primary documents. Every table and
+chart has a CSV sibling with the same columns plus per-row provenance, every
+page has a `data.csv` in long format and a citation widget, and every state
+has a fact sheet PDF with every figure footnoted to its source. Every page
+carries a build-time SVG chart (no client JavaScript) with its data table. See
+`docs/design/` for the data model, source inventory and ingestion design.
 
 ## Layout
 

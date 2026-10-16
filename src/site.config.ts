@@ -10,5 +10,5 @@ export const SITE = {
   dataLicense: { name: 'CC BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/' },
   codeLicense: { name: 'AGPL-3.0', url: 'https://www.gnu.org/licenses/agpl-3.0.html' },
   contactIssuesUrl: 'https://github.com/jst-jdennis/sportsbettingstats/issues/new/choose',
-  phase: 'Phase 1 draft',
+  phase: 'Draft',
 } as const;

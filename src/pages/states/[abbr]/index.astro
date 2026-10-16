@@ -1,0 +1,152 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SourceRef from '../../../components/SourceRef.astro';
+import Figure from '../../../components/Figure.astro';
+import Limitations from '../../../components/Limitations.astro';
+import ReviewNotice from '../../../components/ReviewNotice.astro';
+import Chart from '../../../components/Chart.astro';
+import DataTable from '../../../components/DataTable.astro';
+import PrevalenceCard from '../../../components/PrevalenceCard.astro';
+import { timeline } from '../../../lib/charts';
+import { profiles, pgFunding, predictionMarkets, bills, headlineStatus, HEADLINE_LABEL, scopeQualifiers, fmtDate, label, asOf, collectProvenance, earliestLaunch, prevalenceStudies, gradeFor, grades } from '../../../lib/data';
+import { statePage, stateCharts, stateEvents } from '../../../lib/pageTables';
+import { byId, csvHref } from '../../../lib/tables';
+export function getStaticPaths() { return profiles().map((p) => ({ params: { abbr: p.abbr.toLowerCase() }, props: { p } })); }
+const { p } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const pg = pgFunding(p.abbr);
+const pm = predictionMarkets(p.abbr);
+const stateBills = bills().filter((b) => b.fips === p.fips);
+const hs = headlineStatus(p);
+const quals = scopeQualifiers(p);
+const pageAsOf = asOf([p, pg, pm, ...stateBills].filter(Boolean));
+const full = p.profile_completeness === 'full';
+const cp = p.consumer_protections ?? {};
+const path = `/states/${p.abbr.toLowerCase()}/`;
+const tablesOnPage = statePage(p);
+const T = byId(tablesOnPage);
+const charts = stateCharts(p);
+const events = stateEvents(p);
+const rowNames = [...new Set(events.map((e) => e.row))];
+const studies = prevalenceStudies(p.fips);
+const timelineSvg = events.length ? timeline({
+  id: 'events', title: `${p.name}: dated events in this profile`, desc: 'Timeline. One row per subject (each wagering channel, each bill, prediction market actions); dots mark authorization dates, first wagers, bill actions, votes and enforcement actions.',
+  rows: rowNames.map((row) => ({ label: row, events: events.filter((e) => e.row === row) })), rowHeight: 34, labelWidth: 150,
+  start: events.map((e) => e.date).sort()[0] < '2018-01-01' ? undefined : '2018-01-01',
+}) : '';
+const tlLegend = [
+  ...(events.some((e) => e.cls === 's0') ? [{ cls: 's0', name: 'Authorization or bill action' }] : []),
+  ...(events.some((e) => e.cls === 's1') ? [{ cls: 's1', name: 'First retail wager' }] : []),
+  ...(events.some((e) => e.cls === 's2') ? [{ cls: 's2', name: 'First online wager' }] : []),
+  ...(events.some((e) => e.cls === 's3') ? [{ cls: 's3', name: 'Vote, enforcement action or ruling' }] : []),
+];
+const pendingCount = [p, pg, pm, ...stateBills].filter(Boolean).flatMap((o) => collectProvenance(o)).filter((x) => x.status !== 'verified').length;
+// Sections a status-only profile is still missing, so the notice tells the truth once some are filled.
+const card = gradeFor(p.abbr);
+const missingSections = [
+  ['legal age', !!p.legal_age?.length], ['tax structure', !!p.tax?.length],
+  ['consumer protections', !!p.consumer_protections && Object.values(p.consumer_protections).some((v) => v)],
+  ['problem gambling funding', !!pg?.records?.length], ['prediction market status', !!pm], ['summary', !!p.summary],
+].filter(([, present]) => !present).map(([name]) => name as string);
+const chartById = (id: string) => charts.find((c) => c.table.id === id);
+const revChart = chartById('revenue'), bkChart = chartById('bankruptcy-quarterly'), hlChart = chartById('helpline');
+---
+<Base title={`${p.name}: sports wagering and prediction markets`} description={p.summary ?? `Legal status, regulation and consumer protections for sports wagering in ${p.name}.`} asOf={pageAsOf} canonicalPath={path} pg={tablesOnPage}>
+  <p class="meta"><a href={base + '/'}>Map</a> / <a href={base + '/states/'}>States</a> / {p.name}</p>
+  <h1>{p.name}</h1>
+  <p class="lede"><strong>{HEADLINE_LABEL[hs]}</strong>{quals.length ? ` (${quals.join('; ')})` : ''}. {p.summary ?? ''}</p>
+  <p class="meta"><a href={`${base}${path}factsheet.pdf`}>Fact sheet (PDF)</a>, a printable summary with every figure footnoted, or the <a href={`${base}${path}factsheet/`}>printable version</a>. Every table below has a CSV link; all of them are listed under Data on this page.</p>
+  <ReviewNotice objs={[p, pg, pm, ...stateBills].filter(Boolean)} />
+  <ul class="tiles" aria-label="At a glance">
+    <li><div class="label">Headline status</div><div class="value small">{HEADLINE_LABEL[hs]}</div></li>
+    <li><div class="label">First legal wager</div><div class="value small">{hs === 'none' || hs === 'authorized_not_launched' ? 'None' : fmtDate(earliestLaunch(p))}</div></li>
+    <li><div class="label">{p.legal_age && p.legal_age.length > 1 ? 'Lowest minimum age' : 'Minimum age'}</div><div class="value">{p.legal_age?.length ? Math.min(...p.legal_age.map((a) => a.age)) : <span class="small">not entered</span>}</div>{p.legal_age && p.legal_age.length > 1 && <div class="label">{p.legal_age.map((a) => `${a.age} ${label(a.scope)}`).join('; ')}</div>}</li>
+    <li><div class="label">Records pending review</div><div class="value">{pendingCount}</div></li>
+  </ul>
+  {events.length > 0 && <Chart svg={timelineSvg} legend={tlLegend} table={T.get('events')} tableLabel="Events in this timeline" caption={`Every dated event entered for ${p.name}, on one axis. Hover or focus a dot for the detail; the same events are in the table.`} />}
+  {!full && <div class="panel" role="note"><strong>Status-only profile.</strong> Legal status and regulator have been entered for {p.name}. Not yet entered: {missingSections.join(', ')}. <a href={base + '/data/#contribute'}>How to add them</a>.</div>}
+
+  <nav class="toc" aria-label="On this page"><ul>
+    <li><a href="#status">Legal status</a></li><li><a href="#governance">Governance and age</a></li><li><a href="#tax">Tax structure</a></li>
+    <li><a href="#prediction">Prediction markets</a></li><li><a href="#protections">Consumer protections</a></li><li><a href="#funding">Problem gambling funding</a></li>
+    <li><a href="#outcomes">Outcomes</a></li><li><a href="#legislation">Legislation</a></li><li><a href="#sources">Sources on this page</a></li>
+  </ul></nav>
+
+  <h2 id="status">Legal status <span class="segment">regulated sportsbooks</span></h2>
+  <DataTable t={T.get('legal-status')} />
+
+  <h2 id="governance">Governance and legal age</h2>
+  <h3>Regulators</h3>
+  <DataTable t={T.get('regulators')} />
+  <h3>Minimum age</h3>
+  {p.legal_age?.length ? <ul>{p.legal_age.map((a) => <li><Figure value={a.age} p={a.provenance} />{a.scope !== 'all' && <> ({label(a.scope)})</>}{a.authority_citation && <div class="meta">{a.authority_citation}</div>}</li>)}</ul> : <p class="meta">Not yet entered.</p>}
+  {T['legal-age'] && <p class="meta dl"><a href={csvHref(T['legal-age'])} download>Download CSV</a>: {T['legal-age'].title}.</p>}
+
+  <h2 id="tax">Tax structure</h2>
+  {T.tax ? <DataTable t={T.tax} /> : <p class="meta">Not yet entered.</p>}
+  <p class="meta">Headline rates are not comparable across states without the basis and the promotional deduction rule, both shown above.</p>
+
+  <h2 id="prediction">Prediction markets <span class="segment">separate from regulated sportsbooks</span></h2>
+  {pm ? (<>
+    <p class="meta">As of {fmtDate(pm.as_of)}. Event contracts on sports outcomes are offered by exchanges designated by the Commodity Futures Trading Commission. Whether state gambling law reaches them is the subject of active litigation. This section records what {p.name} has done and what courts have ruled; it does not record platform volumes.</p>
+    {pm.review_note && <p class="meta">{pm.review_note}</p>}
+    <h3>Platforms</h3>
+    <ul>{pm.operating_platforms.map((o: any) => <li>{o.platform}: sports contracts {o.offers_sports_contracts ? 'offered' : 'not offered'}; available in {p.name}: <strong>{label(o.offers_in_state)}</strong>{o.basis && o.basis !== 'unknown' && <> (per {label(o.basis)})</>} <SourceRef p={o.provenance} compact /></li>)}</ul>
+    <h3>State actions</h3>
+    {pm.state_actions.length ? <ul>{pm.state_actions.map((a: any) => <li><strong>{fmtDate(a.date)}</strong>: {label(a.action_type)} by {a.issuing_body} against {a.target}. {a.summary} {a.document_url && <a href={a.document_url}>Document</a>} <SourceRef p={a.provenance} compact /></li>)}</ul> : <p class="meta">None recorded.</p>}
+    <h3>Litigation</h3>
+    {pm.litigation.length ? pm.litigation.map((c: any) => (
+      <div class="panel">
+        <strong>{c.case_name}</strong>, {c.court}{c.docket && <>, No. {c.docket}</>}. Status: {label(c.status)}. <SourceRef p={c.provenance} compact />
+        {c.posture_note && <p><em>{c.posture_note}</em></p>}
+        {c.rulings && <ol>{c.rulings.map((r: any) => <li><strong>{fmtDate(r.date)}</strong>, {r.court}: {r.summary} {r.document_url && <a href={r.document_url}>Opinion or docket</a>}</li>)}</ol>}
+      </div>)) : <p class="meta">None recorded.</p>}
+  </>) : <p class="meta">Not yet entered.</p>}
+
+  <h2 id="protections">Consumer protections</h2>
+  {card && <div class="panel" role="note"><strong>Report card:</strong> {card.grade ? <>{card.grade}{card.review === 'provisional' ? ' (provisional)' : ''}, {card.points} of {card.available} points</> : <>incomplete, {card.points} points so far from {card.criteria.filter((c) => c.status === 'scored').length} of {card.criteria.length} applicable criteria</>} under rubric {grades()?.rubric_version}. <a href={`${base}/report-cards/${p.abbr.toLowerCase()}/`}>Inputs, matched rows and sources</a>.</div>}
+  {full ? (<dl class="kv">
+    <dt>Self-exclusion</dt><dd>{cp.self_exclusion ? <>{label(cp.self_exclusion.program_type)}{cp.self_exclusion.administered_by && <>, administered by {cp.self_exclusion.administered_by}</>}{cp.self_exclusion.durations && <>; durations: {cp.self_exclusion.durations.join(', ')}</>}{cp.self_exclusion.covers && <>; covers: {cp.self_exclusion.covers.map(label).join(', ')}</>}. {cp.self_exclusion.url && <a href={cp.self_exclusion.url}>Program page</a>} {cp.self_exclusion.notes && <div class="meta">{cp.self_exclusion.notes}</div>}<SourceRef p={cp.self_exclusion.provenance} compact /></> : 'Not yet entered.'}</dd>
+    <dt>Deposit limits</dt><dd>{cp.deposit_limits ? <>Player-set limits {cp.deposit_limits.player_set_available ? 'available' : 'not available'}{cp.deposit_limits.mandatory_default != null && <>; default limit {cp.deposit_limits.mandatory_default ? 'mandatory' : 'not mandatory'}</>}{cp.deposit_limits.player_set_required_at_signup != null && <>; {cp.deposit_limits.player_set_required_at_signup ? 'must be set at signup' : 'not required at signup'}</>}. {cp.deposit_limits.authority_citation && <span class="meta">{cp.deposit_limits.authority_citation}. </span>}{cp.deposit_limits.notes && <div class="meta">{cp.deposit_limits.notes}</div>}<SourceRef p={cp.deposit_limits.provenance} compact /></> : 'Not yet entered.'}</dd>
+    <dt>Advertising</dt><dd>{cp.advertising?.length ? <ul>{cp.advertising.map((a: any) => <li><strong>{label(a.rule_type)}</strong>: {a.text} {a.authority_citation && <span class="meta">({a.authority_citation})</span>} <SourceRef p={a.provenance} compact /></li>)}</ul> : 'Not yet entered.'}</dd>
+    <dt>Credit card deposits</dt><dd>{cp.credit_card_deposits ? <>{cp.credit_card_deposits.allowed ? 'Permitted' : 'Prohibited'}. {cp.credit_card_deposits.authority_citation && <span class="meta">{cp.credit_card_deposits.authority_citation}. </span>}{cp.credit_card_deposits.notes && <div class="meta">{cp.credit_card_deposits.notes}</div>}<SourceRef p={cp.credit_card_deposits.provenance} compact /></> : 'Not yet entered.'}</dd>
+    <dt>Helpline message</dt><dd>{cp.helpline_message ? <>{cp.helpline_message.required ? `Required (${cp.helpline_message.required_number ?? 'number not entered'})` : 'Not required'}. <SourceRef p={cp.helpline_message.provenance} compact /></> : 'Not yet entered.'}</dd>
+  </dl>) : <p class="meta">Not yet entered.</p>}
+
+  <h2 id="funding">Problem gambling funding</h2>
+  {T.funding ? <DataTable t={T.funding} /> : <p class="meta">Not yet entered.</p>}
+  {T.funding?.note && <p class="meta">{T.funding.note}</p>}
+
+  <h2 id="outcomes">Outcomes <span class="segment">regulated sportsbooks</span></h2>
+  {T.revenue && (<>
+    <h3>Monthly sports wagering revenue and tax</h3>
+    {revChart && <Chart svg={revChart.svg} legend={revChart.legend} table={revChart.table} caption={revChart.caption} tableLabel="Months in this chart" />}
+    <p class="meta">Dollars as reported by the regulator for the period. Handle is shown when the regulator publishes it. {T.revenue.note}</p>
+    {!revChart && <DataTable t={T.revenue} />}
+  </>)}
+  {T.bankruptcy && (<>
+    <h3>Nonbusiness bankruptcy filings</h3>
+    {bkChart && <Chart svg={bkChart.svg} legend={bkChart.legend} table={bkChart.table} caption={bkChart.caption} tableLabel="Quarters in this chart" />}
+    <p class="meta">All periods on file, quarterly and twelve-month, with filings per 100,000 residents computed from the population table at build time.</p>
+    <DataTable t={T.bankruptcy} />
+  </>)}
+  {T.helpline && (<>
+    <h3>Problem gambling helpline contacts</h3>
+    <p class="meta">Helpline volume rises when the number is advertised more, so it measures help-seeking and awareness, not prevalence. A chart appears once three or more periods are on file.</p>
+    {hlChart ? <Chart svg={hlChart.svg} legend={hlChart.legend} table={hlChart.table} caption={hlChart.caption} tableLabel="Periods in this chart" /> : <DataTable t={T.helpline} />}
+  </>)}
+  {!T.revenue && !T.bankruptcy && !T.helpline && <p>Monthly handle and revenue, bankruptcy filings per 100,000, helpline contacts and prevalence studies will appear here as they are ingested, with legalization dates marked. The schemas are published on the <a href={base + '/outcomes/'}>outcomes page</a>.</p>}
+  {studies.length > 0 && (<>
+    <h3>Prevalence studies</h3>
+    <p class="meta">Rates as published by each study. Studies are comparable only where the note on each card says so. <a href={csvHref(T.get('prevalence'))} download>Download every rate as CSV</a>.</p>
+    {studies.map((x) => <PrevalenceCard s={x} stateName={p.name} csv={csvHref(T.get('prevalence'))} />)}
+  </>)}
+
+  <h2 id="legislation">Legislation</h2>
+  {stateBills.length ? <ul>{stateBills.map((b) => <li><a href={`${base}/legislation/${b.slug}/`}>{b.bill_number}</a> ({b.session}): {b.title}. Status: {label(b.status)}{b.status_date && <>, {fmtDate(b.status_date)}</>}.</li>)}</ul> : <p class="meta">No bills entered for {p.name} yet.</p>}
+
+  <Limitations items={p.limitations} />
+
+  <h2 id="sources">Sources on this page</h2>
+  <p class="meta">Every value above carries its own citation and status badge. Use the <a href={base + '/methodology/sources/'}>source registry</a> for publisher details, access method and known reliability issues.</p>
+</Base>
