@@ -82,8 +82,8 @@ def test_writer_upsert_supersedes(tmp_path, monkeypatch):
 
 
 def test_uscourts_resolve_finds_f2_tables():
-    html = '''<table><tr><td>F-2 Three Months Ended June 30, 2026</td><td><a href="/sites/default/files/data_tables/bf_f2_0630.2026.xlsx">Download</a></td></tr>
-    <tr><td>F-2 Twelve Months</td><td><a href="https://www.uscourts.gov/sites/default/files/data_tables/bf_f2_twelve_0630.2026.xlsx">Download</a></td></tr>
+    html = '''<table><tr><td>F-2 Three Months Ended June 30, 2026</td><td><a href="/sites/default/files/data_tables/bf_f2.3_0630.2026.xlsx">Download</a></td></tr>
+    <tr><td>F-2 Twelve Months</td><td><a href="https://www.uscourts.gov/sites/default/files/data_tables/bf_f2_0630.2026.xlsx">Download</a></td></tr>
     <tr><td>F-2A Three Months</td><td><a href="/x/bf_f2a_0630.2026.xlsx">Download</a></td></tr>
     <tr><td>F-5A</td><td><a href="/x/bf_f5a_0630.2026.xlsx">Download</a></td></tr></table>'''
     src = USCourtsBankruptcyF2()

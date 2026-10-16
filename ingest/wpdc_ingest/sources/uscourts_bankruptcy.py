@@ -85,6 +85,20 @@ class USCourtsBankruptcyF2:
         e = doc.period.end if doc.period else None
         if e:
             stamp = f"{e.month:02d}{e.day:02d}.{e.year}"
+            # Quarter pages link the files directly. The directory moved over the years (data_tables/, the
+            # bare files/ root, dated folders such as 2025-01/, document/) and quarters before 2025 are PDF
+            # only, so take whatever the page offers: xlsx when present, else pdf, per measure.
+            found: dict[str, dict[str, str]] = {}
+            for m in re.finditer(r'href="([^"]*?/bf_f2(\.3)?_' + re.escape(stamp) + r'\.(xlsx|pdf))"', html, re.I):
+                href, three, ext = m.group(1), m.group(2), m.group(3).lower()
+                url = href if href.startswith("http") else "https://www.uscourts.gov" + href
+                found.setdefault("quarter" if three else "twelve_months_ending", {}).setdefault(ext, url)
+            for measure, by_ext in found.items():
+                url = by_ext.get("xlsx") or by_ext.get("pdf")
+                label = "three" if measure == "quarter" else "twelve"
+                out.append(Document(url=url, period=doc.period, kind=url.rsplit(".", 1)[-1].lower(), label=f"F-2 {label} months ending {e.isoformat()}", meta=(("measure", measure),)))
+            if out:
+                return out
             # Table pages are linked as .../bankruptcy-filings/f-2 and .../f-2-three-months; the files follow a fixed naming convention.
             if re.search(r'href="[^"]*/bankruptcy-filings/f-2-three-months"', html):
                 out.append(Document(url=f"https://www.uscourts.gov/sites/default/files/document/bf_f2.3_{stamp}.xlsx", period=doc.period, kind="xlsx", label=f"F-2 three months ending {e.isoformat()}", meta=(("measure", "quarter"),)))
@@ -118,23 +132,6 @@ class USCourtsBankruptcyF2:
             out.append(Document(url=url, period=doc.period, kind=url.rsplit(".", 1)[-1].lower(), label=f"F-2 ({measure}) {doc.period.end.isoformat() if doc.period else ''}", meta=(("measure", measure),)))
         if out:
             return out
-        e = doc.period.end if doc.period else None
-        if e:
-            stamp = f"{e.month:02d}{e.day:02d}.{e.year}"
-            # Quarter pages link the files directly. The directory moved over the years (data_tables/, the
-            # bare files/ root, dated folders such as 2025-01/, document/) and quarters before 2025 are PDF
-            # only, so take whatever the page offers: xlsx when present, else pdf, per measure.
-            found: dict[str, dict[str, str]] = {}
-            for m in re.finditer(r'href="([^"]*?/bf_f2(\.3)?_' + re.escape(stamp) + r'\.(xlsx|pdf))"', html, re.I):
-                href, three, ext = m.group(1), m.group(2), m.group(3).lower()
-                url = href if href.startswith("http") else "https://www.uscourts.gov" + href
-                found.setdefault("quarter" if three else "twelve_months_ending", {}).setdefault(ext, url)
-            for measure, by_ext in found.items():
-                url = by_ext.get("xlsx") or by_ext.get("pdf")
-                label = "three" if measure == "quarter" else "twelve"
-                out.append(Document(url=url, period=doc.period, kind=url.rsplit(".", 1)[-1].lower(), label=f"F-2 {label} months ending {e.isoformat()}", meta=(("measure", measure),)))
-            if out:
-                return out
         raise LayoutChanged(f"No F-2 xlsx, xls or pdf link found on {doc.url}; anchors seen: {LINK_RE.findall(html)[:10]}")
 
     # ---- parse ----
