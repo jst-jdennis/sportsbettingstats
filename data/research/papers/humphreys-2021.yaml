@@ -1,0 +1,90 @@
+slug: humphreys-2021
+title: "Legalized Sports Betting, VLT Gambling, and State Gambling Revenues: Evidence from West Virginia"
+authors: [Brad R. Humphreys]
+year_first_circulated: 2020
+publication_status: published
+venue: Eastern Economic Journal, volume 47, issue 1, pages 9 to 28, January 2021 (sports gambling symposium)
+doi: 10.1057/s41302-020-00178-0
+canonical_url: https://doi.org/10.1057/s41302-020-00178-0
+market_segment: regulated_sportsbook
+unit_of_effect: population_average
+data_used: >-
+  Monthly casino-level gambling revenue and tax data from West Virginia covering video lottery terminal (VLT)
+  play and sports wagering, around the state's legalization of sports betting in 2018 and the staggered opening
+  of sports books at the state's casinos.
+design: >-
+  Instrumental variables and difference-in-differences estimates that use the timing of sports book openings at
+  West Virginia casinos as a natural experiment to measure how consumer spending on sports betting changed
+  spending on VLTs in the same casinos, and what that implied for the state's gambling tax receipts.
+plain_language_summary: >-
+  The paper asks whether the money wagered at West Virginia's new sports books was new gambling spending or
+  spending moved away from the casinos' video lottery terminals, which are taxed at a much higher rate. It finds
+  that higher sports betting spending caused a significant fall in VLT spending. The author's fiscal accounting
+  puts new sports betting tax revenue at about 2.6 million dollars against a roughly 45.4 million dollar fall in
+  VLT tax revenue attributed to expanded sports betting. The estimates are aggregates for the state's casinos,
+  not effects on individual bettors, and they cover one small state in the first year or so after legalization.
+methodology_notes:
+  - Single-state study using within-state variation in when each casino opened a sports book.
+  - The fiscal comparison depends on the large gap between the VLT tax rate and the sports wagering tax rate in West Virginia.
+  - An earlier draft circulated as West Virginia University Department of Economics Working Paper 20-06 in 2020.
+limitations:
+  - One state and a short post-legalization window; the results may not transfer to states with different tax rates or without casino VLTs.
+  - Casino-level revenue cannot separate substitution by the same customers from changes in who visits the casinos.
+  - The published article is behind a paywall and was not opened from the build container; the figures are as stated in the indexed abstract.
+versions:
+  - version_label: wvu-wp-20-06
+    date: "2020-01-01"
+    date_precision: year
+    url: https://researchrepository.wvu.edu/econ_working-papers/47
+    archive_url: null
+    sha256: null
+    changes_summary: West Virginia University Department of Economics Working Paper 20-06. Whether the estimates differ from the published article has not been checked.
+  - version_label: eej-2021-01
+    date: "2021-01-01"
+    date_precision: month
+    url: https://doi.org/10.1057/s41302-020-00178-0
+    archive_url: null
+    sha256: null
+    changes_summary: Published in the Eastern Economic Journal sports gambling symposium.
+key_figures:
+  - figure_id: wv-sports-betting-tax-revenue-2021
+    description: New state tax revenue from sports betting in West Virginia over the study period
+    value_text: 2.6 million dollars
+    specification: Fiscal impact calculation reported in the abstract, published article
+    version_label: eej-2021-01
+    status: current
+    superseded_by: null
+    page_or_table: Abstract
+    outcome_domain: other
+    value_numeric: 2600000
+    value_unit: usd
+    range_low: null
+    range_high: null
+    provenance: &hum
+      source_id: doi-org
+      source_url: https://doi.org/10.1057/s41302-020-00178-0
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-research-finance-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: Abstract
+      notes: Journal is the Eastern Economic Journal (Palgrave Macmillan). Figures read from the abstract as indexed by search engines and RePEc; the article itself was not opened. Confirm the period the dollar figures cover and the table they come from before verification.
+  - figure_id: wv-vlt-tax-revenue-loss-2021
+    description: Decrease in state tax revenue from video lottery terminals attributed to expanded sports betting in West Virginia
+    value_text: a 45.4 million dollar decrease
+    specification: Fiscal impact calculation reported in the abstract, published article
+    version_label: eej-2021-01
+    status: current
+    superseded_by: null
+    page_or_table: Abstract
+    outcome_domain: other
+    value_numeric: -45400000
+    value_unit: usd
+    range_low: null
+    range_high: null
+    provenance: *hum
+citations_in_policy: []
+provenance: *hum

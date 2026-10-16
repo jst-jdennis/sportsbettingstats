@@ -242,3 +242,50 @@ export function adoptionByYear(): { year: number; any: number; online: number; r
   }
   return out;
 }
+
+// ---------- Outcome time series (Phase 2) ----------
+// CSV rows as written by the ingestion layer. Files may not exist yet; readers return [].
+
+export interface SeriesProv { source_id: string; source_url: string; archive_url: string; retrieved_at: string; status: Status; entered_by: string; reviewed_by: string; notes: string }
+export interface HandleRevenueRow extends SeriesProv { fips: string; period_start: string; period_end: string; channel: 'retail' | 'online' | 'all'; market_segment: string; handle_usd: string; gross_revenue_usd: string; adjusted_revenue_usd: string; promo_deductions_usd: string; state_tax_usd: string; revenue_definition: string; is_revised: string }
+export interface BankruptcyRow extends SeriesProv { fips: string; period_start: string; period_end: string; measure: 'quarter' | 'twelve_months_ending'; chapter: string; filings: string }
+export interface HelplineRow extends SeriesProv { fips: string; period_start: string; period_end: string; contact_type: string; contacts: string; operator: string; counting_rule: string }
+
+function readOutcomeCsv<T>(name: string): T[] {
+  const p = path.join(DATA, 'outcomes', name);
+  if (!fs.existsSync(p)) return [];
+  return (readCsv<T>(p) as any[]).filter((r) => r.status !== 'superseded') as T[];
+}
+export function handleRevenue(fips?: string): HandleRevenueRow[] { return readOutcomeCsv<HandleRevenueRow>('handle_revenue.csv').filter((r) => !fips || r.fips === fips).sort((a, b) => a.period_start.localeCompare(b.period_start)); }
+export function bankruptcy(fips?: string): BankruptcyRow[] { return readOutcomeCsv<BankruptcyRow>('bankruptcy.csv').filter((r) => !fips || r.fips === fips).sort((a, b) => a.period_start.localeCompare(b.period_start)); }
+export function helpline(fips?: string): HelplineRow[] { return readOutcomeCsv<HelplineRow>('helpline.csv').filter((r) => !fips || r.fips === fips).sort((a, b) => a.period_start.localeCompare(b.period_start)); }
+
+/** Population for a state in a given year, falling back to the nearest available year. Returns the row so the vintage can be cited. */
+export function populationFor(fips: string, year: number) {
+  const rows = population().filter((r) => r.fips === fips && r.status !== 'superseded');
+  if (!rows.length) return null;
+  return rows.sort((a, b) => Math.abs(Number(a.year) - year) - Math.abs(Number(b.year) - year) || Number(b.vintage) - Number(a.vintage))[0];
+}
+
+/** Filings per 100,000 residents, computed at build and never stored. */
+export function per100k(count: number, fips: string, year: number): { value: number; pop: ReturnType<typeof populationFor> } | null {
+  const pop = populationFor(fips, year);
+  if (!pop) return null;
+  return { value: (count / Number(pop.population)) * 100000, pop };
+}
+
+/** Legalization markers for a state's charts: first legal wager per channel, from the profile. */
+export function legalizationMarkers(p: StateProfile): { date: string; label: string }[] {
+  return p.legal_status.filter((r) => r.launched_on && r.status === 'live').map((r) => ({ date: r.launched_on as string, label: `First ${r.channel} wager` })).sort((a, b) => a.date.localeCompare(b.date));
+}
+
+/** Summary of a series before and after a date: means over the window, with counts, for the pre/post table. Descriptive only. */
+export function prePost(points: { date: string; value: number }[], cut: string, windowMonths = 24) {
+  const d = new Date(cut + 'T00:00:00Z');
+  const lo = new Date(d); lo.setUTCMonth(lo.getUTCMonth() - windowMonths);
+  const hi = new Date(d); hi.setUTCMonth(hi.getUTCMonth() + windowMonths);
+  const pre = points.filter((x) => new Date(x.date + 'T00:00:00Z') >= lo && x.date < cut);
+  const post = points.filter((x) => x.date >= cut && new Date(x.date + 'T00:00:00Z') < hi);
+  const mean = (xs: typeof pre) => xs.length ? xs.reduce((a, x) => a + x.value, 0) / xs.length : null;
+  return { pre: { n: pre.length, mean: mean(pre) }, post: { n: post.length, mean: mean(post) }, windowMonths };
+}

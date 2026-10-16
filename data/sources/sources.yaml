@@ -2080,3 +2080,26 @@ sources:
     institution and the date on the title page in notes.
   tier: primary
   fips: null
+- source_id: newyorkfed-staff-reports
+  publisher: Federal Reserve Bank of New York
+  publisher_type: federal_agency
+  title: Staff Reports series
+  url: https://www.newyorkfed.org/research/staff_reports
+  access_method: pdf
+  update_cadence: irregular
+  license: Public
+  reliability_notes: Staff reports are numbered and revised in place; record the report number and the date on the
+    title page.
+  tier: primary
+  fips: null
+- source_id: iza-discussion-papers
+  publisher: IZA Institute of Labor Economics
+  publisher_type: academic
+  title: IZA Discussion Paper series
+  url: https://www.iza.org/publications/dp
+  access_method: pdf
+  update_cadence: irregular
+  license: Author terms
+  reliability_notes: Discussion papers are numbered (DP nnnnn) and stable by number.
+  tier: primary
+  fips: null
