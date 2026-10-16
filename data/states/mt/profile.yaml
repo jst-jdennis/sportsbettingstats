@@ -1,81 +1,101 @@
-fips: '30'
+fips: "30"
 abbr: MT
 name: Montana
 profile_completeness: status_only
-summary: null
+summary: >-
+  Montana authorized sports wagering in 2019 through House Bill 725, which amended the Montana State Lottery Act
+  so that the Montana Lottery is the sole operator. The product, Sports Bet Montana, is offered through
+  terminals and a mobile application at licensed lottery sports wagering locations; wagers placed through the
+  application must be made on the premises of a licensed location. The Lottery launched the product in March
+  2020.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: lottery_kiosk
-  status: live
-  authorized_on: '2019-05-03'
-  launched_on: '2020-03-09'
-  authority:
-    type: statute
-    citation: HB 725 (2019); MCA 23-5-1001 et seq.
-    url: https://leg.mt.gov/
-  operator_model: lottery_monopoly
-  notes: null
-  provenance:
-    source_id: mt-regulator
-    source_url: https://www.montanalottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: on_premises_only
-  status: live
-  authorized_on: '2019-05-03'
-  launched_on: '2020-03-09'
-  authority:
-    type: statute
-    citation: HB 725 (2019); MCA 23-5-1001 et seq.
-    url: https://leg.mt.gov/
-  operator_model: lottery_monopoly
-  notes: null
-  provenance:
-    source_id: mt-regulator
-    source_url: https://www.montanalottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: lottery_kiosk
+    status: live
+    authorized_on: "2019-05-03"
+    launched_on: "2020-03-09"
+    authority:
+      type: statute
+      citation: HB 725 (2019); MCA Title 23, chapter 7 (Montana State Lottery Act of 1985 and Sports Wagering Lottery Amendment of 2019), in particular MCA 23-7-103 and 23-7-104
+      url: https://leg.mt.gov/bills/mca/title_0230/chapter_0070/part_0010/section_0040/0230-0070-0010-0040.html
+    operator_model: lottery_monopoly
+    notes: Wagers are placed at lottery terminals and kiosks in licensed sports wagering locations such as bars and taverns.
+    provenance: &mtleg
+      source_id: mt-legislature
+      source_url: https://leg.mt.gov/bills/mca/title_0230/chapter_0070/part_0010/section_0040/0230-0070-0010-0040.html
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch4-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: MCA 23-7-104
+      notes: >-
+        Corrected from "HB 725 (2019); MCA 23-5-1001 et seq.": the Montana Code Annotated table of contents on
+        leg.mt.gov shows that sports wagering is codified in Title 23, chapter 7 (23-7-101 short title names the
+        Sports Wagering Lottery Amendment of 2019; 23-7-104 authorizes sports wagering conducted by the lottery;
+        23-7-103 defines sports wagering), and that 23-5-1001 was redesignated in 1989, per
+        https://leg.mt.gov/bills/mca/title_0230/chapters_index.html and the section pages. authorized_on
+        (governor's signature) and launched_on were reported only by press and were not confirmed by search on
+        2026-10-16; seeded values retained. Source record also moved from the Lottery homepage to the statute page.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: on_premises_only
+    status: live
+    authorized_on: "2019-05-03"
+    launched_on: "2020-03-09"
+    authority:
+      type: statute
+      citation: HB 725 (2019); MCA Title 23, chapter 7, in particular MCA 23-7-103 (definition of sports wagering includes wagers placed through online and mobile means) and 23-7-104
+      url: https://leg.mt.gov/bills/mca/title_0230/chapter_0070/part_0010/section_0040/0230-0070-0010-0040.html
+    operator_model: lottery_monopoly
+    notes: The mobile application accepts wagers only while the patron is within a licensed sports wagering location. The statutory definition covers mobile wagering; the on-premises limit comes from the Lottery's rules and product design and was not read from the statute on review.
+    provenance: *mtleg
 regulators:
-- name: Montana Lottery
-  url: https://www.montanalottery.com/
-  type: lottery
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: mt-regulator
-    source_url: https://www.montanalottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: Montana Lottery
+    url: https://www.montanalottery.com/
+    type: lottery
+    roles: [operation, licensing, revenue_reporting]
+    provenance:
+      source_id: mt-regulator
+      source_url: https://www.montanalottery.com/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch4-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Role list changed to add operation: MCA 23-7-202 gives the Montana Lottery Commission rulemaking
+        authority over sports wagering and the Lottery is the statutory operator. Search on 2026-10-16 returned
+        no specific Lottery sports wagering page, so the homepage is cited.
+  - name: Montana Department of Justice, Gambling Control Division
+    url: https://dojmt.gov/
+    type: attorney_general
+    roles: [enforcement]
+    provenance:
+      source_id: mt-attorney-general
+      source_url: https://dojmt.gov/wp-content/uploads/2024/10/RULES-Statutes-combined-8-12-16-1.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch4-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Added on review. The Division publishes the state's gambling laws and rules and enforces the Montana
+        gambling statutes, including those applied to unlicensed sports wagering. The cited PDF is the Division's
+        compiled gambling laws; a Division page specific to sports wagering was not returned by search.
 legal_age: null
 tax: null
 consumer_protections: null
-limitations: null
+limitations:
+  - Montana structures sports wagering as a lottery product. There is no operator tax; the state's take is the Lottery's net revenue after prizes, retailer commissions and costs, and it is reported in the Lottery's annual report rather than as a tax series.
+  - Montana handle is small and concentrated in on-premises play, so per capita comparisons with statewide mobile states measure different products.
+  - Minimum age (18 for lottery products), tax treatment and consumer protection rules were not confirmed from the statute or the Lottery's rules by search on 2026-10-16 and are left unentered.

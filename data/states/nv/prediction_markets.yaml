@@ -1,0 +1,45 @@
+fips: "32"
+as_of: "2026-10-16"
+review_note: >-
+  The Nevada Gaming Control Board's March 4, 2025 cease and desist order to KalshiEX LLC is recorded below from
+  the Board's own news release. Press reports state that Kalshi then sued the Board and the Attorney General in
+  the US District Court for the District of Nevada and obtained a preliminary injunction, and that the Board
+  later issued similar orders to other platforms; none of those later records was found on a Nevada state domain
+  by search on 2026-10-16, so they are not entered. Absence of a record is not a finding that none exists.
+operating_platforms:
+  - platform: Kalshi
+    offers_sports_contracts: true
+    offers_in_state: "yes"
+    basis: regulator_statement
+    provenance: &nvcd
+      source_id: nv-regulator
+      source_url: https://www.gaming.nv.gov/uploadedFiles/gamingnvgov/content/about/press-release/NGCB%20-%20News%20Release%20-%20KalshiEX%20Cease%20and%20Desist%20Order%20(3-4-2025).pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch4-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        As of the March 4, 2025 order the Board stated that Kalshi was offering event-based contracts on
+        sporting events and election outcomes to persons in Nevada. Whether Kalshi continued to offer sports
+        contracts in Nevada after the order depends on the litigation described in review_note and was not
+        confirmed.
+state_actions:
+  - action_type: cease_and_desist
+    date: "2025-03-04"
+    issuing_body: Nevada Gaming Control Board
+    target: KalshiEX LLC
+    summary: >-
+      The Board ordered Kalshi to cease offering event-based contracts on sporting events and election outcomes
+      in Nevada, stating that such activity is unlawful unless and until approved as licensed gaming by the
+      Nevada Gaming Commission, and set a compliance deadline of 5:00 p.m. on March 14, 2025. The order stated
+      that past activity remains subject to criminal and civil penalties and that future activity would be
+      treated as willful.
+    document_url: https://www.gaming.nv.gov/uploadedFiles/gamingnvgov/content/about/press-release/NGCB%20-%20News%20Release%20-%20KalshiEX%20Cease%20and%20Desist%20Order%20(3-4-2025).pdf
+    provenance:
+      <<: *nvcd
+      notes: Date, target, deadline and quoted language taken from the Board's news release as surfaced by search on 2026-10-16. The release could not be opened from the review container; archive it before verification.
+litigation: []
