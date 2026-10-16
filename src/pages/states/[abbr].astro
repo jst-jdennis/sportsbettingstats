@@ -68,7 +68,7 @@ const path = `/states/${p.abbr.toLowerCase()}/`;
         <tr>
           <th scope="row">{label(t.channel)}</th>
           <td>{label(t.basis)}</td>
-          <td class="num">{t.rate != null ? pct(t.rate) : t.tiers ? 'tiered' : t.per_wager_fee_cents != null ? `${t.per_wager_fee_cents} cents per wager` : 'none'}</td>
+          <td class="num">{t.rate != null ? pct(t.rate) : t.tiers ? <ul class="tiers">{t.tiers.map((x: any) => <li>{pct(x.rate)} {x.threshold_to != null ? `from $${Number(x.threshold_from).toLocaleString()} to $${Number(x.threshold_to).toLocaleString()}` : `above $${Number(x.threshold_from).toLocaleString()}`}</li>)}</ul> : 'none'}{t.per_wager_fee_cents != null && <div>{t.per_wager_fee_cents} cents per wager</div>}</td>
           <td>{fmtDate(t.effective_from)}{t.effective_to ? ` to ${fmtDate(t.effective_to)}` : ' onward'}</td>
           <td>{t.promo_deduction_rule ?? ''}</td>
           <td>{t.destination ? t.destination.map((d: any) => d.share != null ? `${d.fund_name} (${pct(d.share)})` : d.fund_name).join('; ') : ''}</td>
