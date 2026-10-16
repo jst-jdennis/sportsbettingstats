@@ -83,7 +83,8 @@ def main(argv: list[str] | None = None) -> int:
                     print(f"parsing {raw.path.name} ({raw.doc.label}) sha256={raw.sha256[:12]} archive_url={raw.archive_url}")
                     src.parse(raw)
                 raws.extend(candidate)
-                break
+                if not getattr(src, "fetch_all", False):
+                    break
             except Exception as e:  # noqa: BLE001
                 last_err = e
                 print(f"skip {doc.url}: {type(e).__name__}: {e}")

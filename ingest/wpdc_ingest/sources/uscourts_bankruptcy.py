@@ -5,12 +5,14 @@ Table F-2 reports business and nonbusiness filings by chapter for each of the
 the quarter. It is published as an xlsx about four to six weeks after quarter
 end on the Bankruptcy Filings Statistics page.
 
-Layout fingerprint: a sheet whose header row contains "Circuit and District"
-(or "District") and chapter columns labelled "Chapter 7", "Chapter 11" and
-"Chapter 13" under a "Nonbusiness" group. District rows are labelled with the
-short codes the AO uses ("ALN", "NYS", "DC", ...). Total and circuit rows are
-skipped. If none of the expected labels is found the parser raises
-LayoutChanged with what it saw.
+Layout fingerprint (confirmed against the June 2026 tables): a group row
+containing "Business" and "Nonbusiness", a header row beneath with "All
+Chapters" (or "Total"), "Chapter 7", "Chapter 11", "Chapter 13", and
+district rows labelled "NJ", "OK,N", "NY,S", "DC" and so on, with circuit
+rows ("1st") and the national "Total" interleaved. Arkansas appears once
+as "AR" for both districts. Puerto Rico, the Virgin Islands, Guam and the
+Northern Mariana Islands are skipped. If the header cannot be located the
+parser raises LayoutChanged with what it saw.
 
 Output: outcomes/bankruptcy.csv rows per state, chapter in {7, 11, 13,
 all_nonbusiness}, summed across the state's districts via
@@ -51,20 +53,21 @@ class USCourtsBankruptcyF2:
     source_id = SOURCE_ID
     dataset = "outcomes/bankruptcy.csv"
 
+    fetch_all = True  # both tables are ingested; the CLI fetches every candidate that parses rather than stopping at the first
+
     def discover(self, period: Period | None) -> list[Document]:
         if period is None:
             today = date.today()
-            # most recent completed quarter end
             qm = ((today.month - 1) // 3) * 3
             y, m = (today.year, qm) if qm else (today.year - 1, 12)
             period = Period.quarter_ending(y, m)
         last = period.end
+        stamp = f"{last.month:02d}{last.day:02d}.{last.year}"
         return [
+            # File names confirmed on the AO's per-table pages, e.g. /data-news/data-tables/2026/06/30/bankruptcy-filings/f-2-three-months
+            Document(url=f"https://www.uscourts.gov/sites/default/files/document/bf_f2.3_{stamp}.xlsx", period=period, kind="xlsx", label=f"F-2 three months ending {last.isoformat()}", meta=(("measure", "quarter"),)),
+            Document(url=f"https://www.uscourts.gov/sites/default/files/document/bf_f2_{stamp}.xlsx", period=period, kind="xlsx", label=f"F-2 twelve months ending {last.isoformat()}", meta=(("measure", "twelve_months_ending"),)),
             Document(url=QUARTER_PAGE.format(month=last.strftime("%B").lower(), y=last.year), period=period, kind="html", label=f"Bankruptcy statistics page, quarter ending {last.isoformat()}"),
-            Document(url=LANDING, period=period, kind="html", label=f"Bankruptcy statistics landing page, looking for quarter ending {last.isoformat()}", meta=(("landing", True),)),
-            # Direct guesses at the AO's data_tables file names, tried last.
-            Document(url=f"https://www.uscourts.gov/sites/default/files/data_tables/bf_f2three_{last.month:02d}{last.day:02d}.{last.year}.xlsx", period=period, kind="xlsx", label=f"F-2 three months ending {last.isoformat()} (direct URL guess)", meta=(("measure", "quarter"),)),
-            Document(url=f"https://www.uscourts.gov/sites/default/files/data_tables/bf_f2_{last.month:02d}{last.day:02d}.{last.year}.xlsx", period=period, kind="xlsx", label=f"F-2 twelve months ending {last.isoformat()} (direct URL guess)", meta=(("measure", "twelve_months_ending"),)),
         ]
 
     def resolve(self, doc: Document, html: str) -> list[Document]:
@@ -77,6 +80,16 @@ class USCourtsBankruptcyF2:
         """
         out: list[Document] = []
         seen: set[str] = set()
+        e = doc.period.end if doc.period else None
+        if e:
+            # Table pages are linked as .../bankruptcy-filings/f-2 and .../f-2-three-months; the files follow a fixed naming convention.
+            stamp = f"{e.month:02d}{e.day:02d}.{e.year}"
+            if re.search(r'href="[^"]*/bankruptcy-filings/f-2-three-months"', html):
+                out.append(Document(url=f"https://www.uscourts.gov/sites/default/files/document/bf_f2.3_{stamp}.xlsx", period=doc.period, kind="xlsx", label=f"F-2 three months ending {e.isoformat()}", meta=(("measure", "quarter"),)))
+            if re.search(r'href="[^"]*/bankruptcy-filings/f-2"', html):
+                out.append(Document(url=f"https://www.uscourts.gov/sites/default/files/document/bf_f2_{stamp}.xlsx", period=doc.period, kind="xlsx", label=f"F-2 twelve months ending {e.isoformat()}", meta=(("measure", "twelve_months_ending"),)))
+            if out:
+                return out
         # Work on a window of text around each link so the table label (in the same row) is visible.
         for m in re.finditer(r'<a[^>]+href="([^"]+\.(?:xlsx|xls))"[^>]*>', html, re.I):
             href = m.group(1)
@@ -116,7 +129,9 @@ class USCourtsBankruptcyF2:
         for r in rows[header_idx + 1:]:
             if not r or r[0] is None:
                 continue
-            code = str(r[0]).strip().upper()
+            code = re.sub(r"[^A-Z]", "", str(r[0]).upper())  # "OK,N" -> "OKN"; "NY, S" -> "NYS"
+            if code == "AR":
+                code = "ARE"  # the AO reports Arkansas as one court covering both districts; both map to fips 05
             if code not in districts:
                 continue  # circuit subtotal, US total, territories, blank
             rec: dict[str, Any] = {"district_code": code}
@@ -141,11 +156,12 @@ class USCourtsBankruptcyF2:
                 # header row is this row or one of the next two
                 for h in range(i, min(i + 3, len(rows))):
                     hc = [str(c).strip().lower() if c is not None else "" for c in rows[h]]
+                    norm = [re.sub(r"\s+", " ", c.replace("\n", " ")).strip() for c in hc]
                     try:
-                        total = next(j for j in range(nb_start, len(hc)) if hc[j] == "total")
-                        c7 = next(j for j in range(nb_start, len(hc)) if hc[j] in ("chapter 7", "7"))
-                        c11 = next(j for j in range(nb_start, len(hc)) if hc[j] in ("chapter 11", "11"))
-                        c13 = next(j for j in range(nb_start, len(hc)) if hc[j] in ("chapter 13", "13"))
+                        total = next(j for j in range(nb_start, len(norm)) if norm[j] in ("total", "all chapters", "total all chapters"))
+                        c7 = next(j for j in range(nb_start, len(norm)) if norm[j] in ("chapter 7", "7"))
+                        c11 = next(j for j in range(nb_start, len(norm)) if norm[j] in ("chapter 11", "11"))
+                        c13 = next(j for j in range(nb_start, len(norm)) if norm[j] in ("chapter 13", "13"))
                     except StopIteration:
                         continue
                     return h, {"all_nonbusiness": total, "7": c7, "11": c11, "13": c13}

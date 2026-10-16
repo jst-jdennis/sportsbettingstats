@@ -19,7 +19,7 @@ def test_uscourts_f2_parse_and_sum_by_state():
     raw = raw_for(FIX / "uscourts_f2_synthetic.xlsx", Period.quarter_ending(2026, 6), "xlsx")
     recs = src.parse(raw)
     codes = {r["district_code"] for r in recs}
-    assert codes == {"OKN", "OKE", "OKW", "KS", "NJ"}  # totals and circuit rows skipped
+    assert codes == {"OKN", "OKE", "OKW", "KS", "NJ", "ARE"}  # totals and circuit rows skipped; "OK,N" normalized; AR mapped
     rows = [r.finalize() for r in src.normalize(recs, raw)]
     ok_all = next(r for r in rows if r["fips"] == "40" and r["chapter"] == "all_nonbusiness")
     assert ok_all["filings"] == 118 + 79 + 196
@@ -28,6 +28,8 @@ def test_uscourts_f2_parse_and_sum_by_state():
     assert ok_all["status"] == "pending_review" and ok_all["source_id"] == "uscourts-bankruptcy-f2"
     assert "OKN" in ok_all["notes"] if ok_all.get("notes") else True
     assert ok_all["period_start"] == "2026-04-01" and ok_all["period_end"] == "2026-06-30"
+    ar = next(r for r in rows if r["fips"] == "05" and r["chapter"] == "all_nonbusiness")
+    assert ar["filings"] == 98
 
 
 def test_uscourts_f2_layout_change_raises(tmp_path):
@@ -79,11 +81,17 @@ def test_uscourts_resolve_finds_f2_tables():
     <tr><td>F-2A Three Months</td><td><a href="/x/bf_f2a_0630.2026.xlsx">Download</a></td></tr>
     <tr><td>F-5A</td><td><a href="/x/bf_f5a_0630.2026.xlsx">Download</a></td></tr></table>'''
     src = USCourtsBankruptcyF2()
-    page = src.discover(Period.quarter_ending(2026, 6))[0]
+    discovered = src.discover(Period.quarter_ending(2026, 6))
+    assert discovered[0].url.endswith("/document/bf_f2.3_0630.2026.xlsx") and discovered[0].get("measure") == "quarter"
+    assert discovered[1].url.endswith("/document/bf_f2_0630.2026.xlsx") and discovered[1].get("measure") == "twelve_months_ending"
+    page = discovered[2]
     assert page.kind == "html" and page.url.endswith("/june-2026-quarterly-bankruptcy-filings")
     docs = src.resolve(page, html)
     assert [d.get("measure") for d in docs] == ["quarter", "twelve_months_ending"]
     assert docs[0].url.startswith("https://www.uscourts.gov/") and docs[0].kind == "xlsx"
+    # The real quarter page links to per-table pages rather than files; those map to the file convention.
+    docs2 = src.resolve(page, '<a href="/data-news/data-tables/2026/06/30/bankruptcy-filings/f-2">F-2</a><a href="/data-news/data-tables/2026/06/30/bankruptcy-filings/f-2-three-months">F-2 Three Months</a>')
+    assert {d.url.rsplit("/", 1)[1] for d in docs2} == {"bf_f2.3_0630.2026.xlsx", "bf_f2_0630.2026.xlsx"}
 
 
 def test_uscourts_resolve_raises_without_f2():
