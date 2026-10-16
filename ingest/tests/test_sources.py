@@ -19,7 +19,7 @@ def test_uscourts_f2_parse_and_sum_by_state():
     raw = raw_for(FIX / "uscourts_f2_synthetic.xlsx", Period.quarter_ending(2026, 6), "xlsx")
     recs = src.parse(raw)
     codes = {r["district_code"] for r in recs}
-    assert codes == {"OKN", "OKE", "OKW", "KS", "NJ", "ARE", "ND"}  # totals and circuit rows skipped; "OK,N" normalized; AR mapped
+    assert codes == {"OKN", "OKE", "OKW", "KS", "NJ", "ARE", "ND"}  # totals and circuit rows skipped; "OK,N" normalized; "AR \u00b2" footnote stripped and mapped
     nd = next(r for r in recs if r["district_code"] == "ND")
     assert nd["all_nonbusiness"] == 254  # the "2nd" circuit row must not be read as ND
     rows = [r.finalize() for r in src.normalize(recs, raw)]
