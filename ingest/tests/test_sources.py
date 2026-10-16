@@ -28,7 +28,7 @@ def test_uscourts_f2_parse_and_sum_by_state():
     ok_13 = next(r for r in rows if r["fips"] == "40" and r["chapter"] == "13")
     assert ok_13["filings"] == 48 + 29 + 75
     assert ok_all["status"] == "pending_review" and ok_all["source_id"] == "uscourts-bankruptcy-f2"
-    assert "OKN" in ok_all["notes"] if ok_all.get("notes") else True
+    assert ok_all["notes"] and "F-2" in ok_all["notes"]  # the table reference leads the CSV notes
     assert ok_all["period_start"] == "2026-04-01" and ok_all["period_end"] == "2026-06-30"
     ar = next(r for r in rows if r["fips"] == "05" and r["chapter"] == "all_nonbusiness")
     assert ar["filings"] == 98
@@ -157,3 +157,31 @@ def test_nj_tax_returns_wrong_month_raises(tmp_path):
     src = NJDGESportsWagering()
     with pytest.raises(LayoutChanged):
         src.parse(raw_for(FIX / "nj_dge107_synthetic.pdf", Period.month(2026, 9), "pdf"))
+
+
+def test_nj_tax_returns_2018_form_family_a():
+    src = NJDGESportsWagering()
+    raw = raw_for(FIX / "nj_dge107_2018_synthetic.pdf", Period.month(2018, 9), "pdf")
+    recs = {r["channel"]: r for r in src.parse(raw)}
+    assert recs["retail"]["gross_revenue_usd"] == 394_046 - 40_848  # line 1, parentheses negative
+    assert recs["online"]["gross_revenue_usd"] == 106_463 + 223_339  # line 8
+    assert recs["retail"]["state_tax_usd"] == 33_494 + 1_611 and recs["online"]["state_tax_usd"] == 13_840 + 29_035
+    assert recs["retail"]["adjusted_revenue_usd"] is None and recs["all"]["promo_deductions_usd"] is None  # not on this form
+    assert "SEPTMEBER" in recs["all"]["notes"]  # misspelt month tolerated and recorded
+    rows = [r.finalize() for r in src.normalize(list(recs.values()), raw)]
+    assert "2018 to May 2019 form" in rows[0]["notes"] and "SEPTMEBER" in rows[0]["notes"]
+
+
+def test_nj_tax_returns_2019_form_family_b_split_digits():
+    src = NJDGESportsWagering()
+    raw = raw_for(FIX / "nj_dge107_2019_synthetic.pdf", Period.month(2019, 12), "pdf")
+    recs = {r["channel"]: r for r in src.parse(raw)}
+    assert recs["retail"]["gross_revenue_usd"] == 108_437 and recs["retail"]["adjusted_revenue_usd"] == 108_437
+    assert recs["online"]["gross_revenue_usd"] == 26_752  # "2 6,752" read as one number; footed against year to date
+    assert recs["online"]["state_tax_usd"] == 3_478
+    assert recs["all"]["gross_revenue_usd"] == 108_437 + 26_752
+
+
+def test_nj_tax_returns_misfooting_form_raises():
+    with pytest.raises(LayoutChanged):
+        NJDGESportsWagering().parse(raw_for(FIX / "nj_dge107_misfoot_synthetic.pdf", Period.month(2019, 12), "pdf"))
