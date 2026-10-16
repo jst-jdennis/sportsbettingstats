@@ -2032,3 +2032,14 @@ sources:
     source_url.
   tier: primary
   fips: '06'
+- source_id: cheps-sdsu
+  publisher: San Diego State University, Center for Health Economics and Policy Studies
+  publisher_type: academic
+  title: CHEPS working paper series
+  url: https://cheps.sdsu.edu/working-papers
+  access_method: pdf
+  update_cadence: irregular
+  license: Author terms
+  reliability_notes: Working papers are revised in place; hash and archive each version.
+  tier: primary
+  fips: null
