@@ -1,0 +1,1904 @@
+=== page 1 ===
+CENTER FOR HEALTH ECONOMICS
+AND POLICY STUDIES
+WORKING PAPER SERIES
+Sports Betting Legalization Amplifies Emotional Cues
+& Intimate Partner Violence
+OCTOBER 30, 2025
+Emily Arnesen
+University of Oregon
+CHEPS
+Kyutaro Matsuzawa
+San Diego State University
+CENTER FOR HEALTH ECONOMICS
+AND POLICY STUDIES
+San Diego State University
+WORKING PAPER NO. 20251001
+
+=== page 2 ===
+Sports Betting Legalization Amplifies
+Emotional Cues & Intimate Partner Violence
+Emily Arnesen Kyutaro Matsuzawa
+earnesen@uoregon.edu kyutarom@uoregon.edu
+October 30, 2025
+Abstract
+This study explores the relationship between legalized sports gambling, unexpected
+emotional cues stemming from NFL home team upset losses and reported intimate
+partner violence (IPV). Using 2011–2022 crime data from NIBRS and extending Card
+& Dahl (2011)’s model, we find that legalized gambling increases the impact of upset
+losses on IPV by 10 percentage points. The e!ect is larger in states with mobile betting,
+where higher bets were placed, around paydays, and for teams on a winning streak.
+These results suggest that financial losses from gambling amplify emotional reactions
+to unexpected team losses.
+JEL Codes: D01; J12; Z28
+We thank Ben Hansen, Michael Kuhn, Jonathan Davis, Tyler Giles, Gordon Dahl, Jen Doleac, Glen Waddell
+and the seminar participants at the University of Oregon, Portland State University, San Diego State
+University, Southern Economic Association and Western Economic Association for useful comments and
+suggestions. All errors and omissions in this paper are solely ours.
+
+=== page 3 ===
+1 Introduction
+Family violence or intimate partner violence (IPV) is a huge problem both in the United
+States and worldwide, as approximately 41% of women in the United States and 26% of
+women worldwide have experienced some form of IPV in their lifetime (Centers for Disease
+Control and Prevention 2024; National Domestic Violence Hotline n.d.; UN Women 2023).
+Previous studies have demonstrated that experiencing family violence victimization can
+lead to adverse e!ects on mental health, resulting in lower cognitive ability scores, reduced
+employment opportunities, and diminished earnings (Adams-Prassl et al. 2023; Bhuller et
+al. 2022). Peterson et al. 2018 estimate that the lifetime cost of a female victim of IPV –
+from health, lost productivity, and criminal justice costs– is approximate 137,000 in 2024
+dollars. Finally, research has documented that family violence victimization can generate
+negative externalities a!ecting other peers (Carrell & Hoekstra 2010; Carrell & Hoekstra
+2012; Carrell et al. 2018).
+One explanation for increased IPV is the role of emotional cues stemming from various
+causes and unexpected events. Card & Dahl (2011) leverage a potential emotional cue with
+pre-game NFL spreads and find that an upset loss (a team lost when they were predicted to
+win by more than 3.5 points) increases male-to-female IPV by up to 11.2 percentage points.
+Cardazzi et al. (2022) find similar patterns when examining the NBA, suggesting that Card
+& Dahl (2011)’s findings do not pertain to the NFL, where the nature of sports is more
+violent than other sports and the games are played only once a week. Arenas-Arroyo et
+al. (2021) and Beland & Brent (2018) find that negative emotional cues outside of sports,
+such as the COVID-19 pandemic or tra”c congestion, also contribute to increased family
+violence. Conversely, Collins (2022) finds that positive emotional cues, such as voting for
+the winning presidential candidate, can reduce IPV.
+Household finances can also influence family violence, although the direction of this
+relationship remains unclear. Several studies have found an increase in family violence
+during periods of negative economic shocks, such as the Great Recession (Schneider et al.
+1
+
+=== page 4 ===
+2016), COVID-19 pandemic (Arenas-Arroyo et al. 2021), mass layo!s (Lindo et al. 2018),
+and stock market losses (Lin & Pursiainen 2023). These findings are consistent with the
+possibility of increases in the likelihood of conflicts arising from household finances (Carr &
+Packham 2021). In contrast, a signaling model by Anderberg et al. (2016) and empirical
+analysis using data from the UK suggest that a higher risk of unemployment and lower
+wages decrease male IPV rates. Their findings suggest that factors like fear of job loss, the
+economic incentive to avoid divorce, and the associated loss of spousal insurance may play
+significant roles. This finding is also consistent with Aizer (2010)’s household bargaining
+model, which finds that decreases in the female-to-male wage gap reduce violence against
+women.
+Participation in gambling can also impact the probability of committing IPVs.1 Gambling
+participation can result in unexpected outcomes where individuals will feel more negative
+emotional cues. Moreover, the gambling market will lead to lower expected but larger
+variations in household finances due to potential short-term gains and losses but the casinos
+making profits in expectation.
+In 2018, a United States Supreme Court decision allowed states to legalize sports gambling
+for the first time since 1992.Following this ruling, 38 states and the District of Columbia
+legalized sports gambling. This legalization led to vastly increased interest and participation
+in sports gambling (American Gaming Association 2023; Baker et al. 2024; Hollenbeck et al.
+2024; Huble 2023; Oxford Economics 2017). Thus, in theory, sports gambling legalization
+can lead to changes in emotional cues and IPV. However, to our knowledge, no studies have
+investigated such causal relationships. In this paper, we are the first to fill this gap in the
+literature.
+Using data from the 2011-2022 National Incident-Based Reporting System (NIBRS) and
+extending Card & Dahl (2011)’s model, we document that in states where sports betting has
+1Several papers document a strong association between problem gambling and IPVs. For
+example, Dowling et al. (2016) conduct a meta-analysis of six studies and find that 36.5% of problem gamblers
+are perpetrators of IPVs. Korman et al. (2008a) find that 55.6% of problem gamblers had perpetrated IPV.
+2
+
+=== page 5 ===
+been legalized, the e!ect of upset losses on IPV is about 6 to 7 percentage points larger than
+in states without sports betting. Supplemental tests examining the e!ect on Sunday morning
+crimes, bar fights, or other non-IPV assaults confirm that changes in crime reporting or crime
+displacements do not drive this estimate. Furthermore, we find that the e!ects are driven
+by home teams on a winning streak, states with legal mobile betting, Sundays right after
+paydays, and states with a larger betting market. The pattern of these findings confirms
+that the reaction to gambling loss explains our results.2 Together, our paper sheds some
+light on one of the unintended consequences of legalized sports betting: Legalized sports
+betting can amplify negative emotional cues.
+The remainder of the paper is organized as follows. Section 2 provides a brief history
+of sports betting in the United States. Section 3 explains each of the data sources used.
+Section 4 discusses the methodology used in our analysis. Section 5 provides results. Section
+6 concludes.
+2 Background
+Sports gambling’s availability was regulated by the Professional and Amateur Sports
+Protection Act of 1992 (PASPA). Before then, some states o!ered betting for big games
+such as the Super Bowl and considered legalizing sports betting in the 1980s. In 1992, the
+federal government stopped sports betting in all states except Nevada through the PASPA.
+For the next 26 years, Nevada was the only state where sports betting was legal. Delaware,
+Oregon, and Montana also o!ered some types of sports betting before PASPA, so what they
+had legalized before PASPA was grandfathered into the law. Delaware had legal parlay bets
+for football on three teams or more but stopped o!ering it in 1976. Oregon also o!ered
+parlay betting before PASPA but ceased o!ering it in 2007. Montana had legal sports pools,
+2Another potential mechanism noteworthy that may be at play is that sports gambling legalization can
+increase emotional attachments to the fans’ favorite team. This heightened attachment can lead to a larger
+adverse reaction to an upset loss of their favorite team. However, we do not directly test this hypothesis in
+this paper due to data limitations.
+3
+
+=== page 6 ===
+fantasy sports leagues, and sports tab games. However, the advent of the internet introduced
+new challenges. Online betting has become popular regardless of the state in which a person
+lives. The Unlawful Internet Gambling Enforcement Act of 2006 was passed, which did not
+ban online gambling, but banned the collection of credit, checks and electronic fund transfers
+to gambling websites in the United States.
+On May 14, 2018, in a court case Murphy v. National Collegiate Athletic Association,
+the U.S. Supreme Court overturned the PASPA. After this ruling, 38 states plus Washington
+D.C. made some form of sports gambling legal, and the sports betting market began growing
+with an estimated annual total revenue of 10 billion. There are two distinct ways in which
+people can bet on sports. Retail or in-person betting occurs within a physical building that a
+state’s government has approved. These places are usually casinos; however, in some states,
+bars and stadiums have been approved to facilitate sports gambling. The other way people
+can bet on sports is through online (sometimes called mobile) betting. In most states where
+online betting is allowed, people can place bets from anywhere in the state as long as they
+have access to the internet.3 A majority of states who have legalized some form of sports
+gambling legalized retail betting first. Figure 1a and Figure 1b show the month and year
+when each state launched retail and online sports gambling.
+3 Data
+3.1 Crime Data
+We obtain our crime data from the National Incident-Based Reporting System (NIBRS).
+The NIBRS collects incident-level crime data reported by around 8,500 local law enforcement
+agencies, covering approximately 146.5 million people in the U.S.4 The NIBRS data has
+several attractive features that we can utilize. First, we can observe the number of incidents
+3There are some states, such as Washington, which only allow online sports gambling on tribal land.
+4Our NIBRS data comes from Kaplan (2023) and can be downloaded from ICPSR.
+4
+
+=== page 7 ===
+rather than arrests.5 Because the probability of arrest may be a function of police discretion,
+using arrest may underestimate the actual crime rate. Second, it permits the identification
+of the date and time of o!ense, which we can leverage to estimate the hourly crime rates
+during the game day. Finally, the rich set of information provided in the NIBRS data allows
+us to identify whether a crime was an IPV.
+Following Card & Dahl (2011),our primary variable of interest is defined as any male-to-female
+simple assault, aggravated assault, or intimidation that occurred against a spouse or partner
+at home during a 12-hour time window (12 pm to 11:59 pm Eastern Time) centered around
+game and post-game window.6 Because the rate of violence varies substantially across the
+days of the week and most NFL games occur during Sundays, we restrict our sample to the
+17 Sundays during the regular NFL season.7 To match the length of Card & Dahl (2011)’s
+12-year sample window, we focus our sample on the years 2011-2022.
+One limitation of the NIBRS data is that agencies may not consistently report across
+the year. For instance, an agency may report all the incidents in January but not February.
+Thus, interpreting zero crime can pose a challenge because we cannot distinguish whether
+the crime rate is truly zero or not reported in the data. To address this concern, we follow
+Card & Dahl (2011) and restrict our agencies where they report any crime during 13 out of
+17 game-days during a season.8 By restricting the sample to agencies that report any crime
+during most game-days, we can be more confident that zero family violence reports reflect
+an actual absence of crime rather than a reporting artifact.
+Another limitation of the NIBRS is that agencies will enter the NIBRS sample and, in
+some rare cases, stop reporting at di!erent points in time. Hence, the changes we observe in
+county-level crime rate may be driven by changes in the agencies reporting to the NIBRS. To
+circumvent this issue, we follow Lindo et al. (2022) and aggregate our sample to the agency
+5Approximately only half of reported incidents result in an arrest.
+6Approximately half of the NFL have a start time of 1 pm Eastern Time.
+7Because NIBRS data is not available for 2023, for the 2022 season, we restrict our sample to 16 Sundays.
+8We also follow Card & Dahl (2011) and exclude college or special agencies. Our estimates are robust to
+di!erent samples, such as including these agencies and using di!erent numbers of days reported.
+5
+
+=== page 8 ===
+level rather than a more aggregate level such as the county level.
+3.2 Game Spread Data
+NFLOddsHistory.com provides a final pre-game point spread for each NFL game, which
+measures the likelihood that a team will win a game using an algorithm.9 A negative spread
+favors the team to win, and a larger absolute value implies a higher likelihood of winning
+or losing. For example, a point spread of -9 implies that the team must win by more than
+9 points for a bet on that team to pay o!, and that the team is favored to win by a quite
+large margin. Previous research has shown that the point spread is an unbiased predictor of
+game outcomes (Gandar et al. 1988; Panko! 1968).
+We match the pre-game point spread with the actual outcome of the game to create
+a measure of unexpected wins and losses. Following Card & Dahl (2011), we define an
+unexpected loss (upset loss) if a team had a point spread of -4 or more (favored to win),
+but lost the game; unexpected win (upset win) if a team had a point spread of 4 or more
+(favored to lose), but won the game; and close loss if a team had a point spread between -4
+and 4 (close game) and lost the game. In Appendix Table 1, we present the total count and
+percentage of unexpected outcomes for each NFL teams. On average, each team experiences
+an unexpected loss about once per season (approximately 27% of the predicted to win games),
+close loss about 3 times per season (approximately half of the predicted close games), and
+upset win about once per season (approximately 28% of the predicted to lose games).
+3.3 Mapping Home Team
+Mapping each NIBRS agency to an NFL franchise can be challenging because not all
+large cities with an NFL stadium have data for NIBRS. This sample limitation can result
+in loss of power or generalizability of our treatment e!ects. To address this issue, Card &
+Dahl (2011) focus only on states with a single NFL team (or nearby team) with at least four
+9Data can be obtained from https://www.sportsoddshistory.com/nfl-game-odds/
+6
+
+=== page 9 ===
+years of crime data, and assign all jurisdictions within a state to a team in the same state.10
+Panel a of Appendix Figure 1 shows the states with at least one NIBRS agency with an NFL
+team. However, a limitation of this approach is that the estimated treatment e!ects only
+apply to jurisdictions with exactly one NFL team.
+To extend upon Card & Dahl (2011)’s model, our preferred approach of defining a “home”
+NFL team is to map each county with at least four years of crime data based on NFL fandom.
+Our preferred method of defining NFL fandom is based on proximity. Specifically, we find
+the closest NFL stadium in linear distance from its centroid for each county.11 Panel a of
+Figure 2 presents the “home team” for every county in the U.S. Using this approach, our
+total selection includes 2447 police agencies within 831 counties across 40 states (see panel
+b).
+Figure 3 plots the mean IPV rate per 100,000 when mapping the home team using our
+preferred method. Panel (a) suggests that relative to when a home team wins as expected,
+the mean IPV rate is 5% higher (0.412 vs. 0.439) when the team experiences an upset loss.
+However, when comparing close wins vs. close losses or losses as expected vs. upset wins,
+the di!erence in the mean is not stark. Strikingly, panel (b) shows that these di!erences
+in mean IPV rates across upset loss days vs. non-upset loss days are higher when sports
+betting is legal (19% vs. 3.6% increase).
+Because proximity may not fully capture the intensity of the fanbase, we also experiment
+with supplemental definitions of the fanbase. Specifically, we obtain information for the most
+favored team for each county using data from Seatgeek and Facebook. These measures are
+based on the total number of ticket searches and Facebook likes.12 We also combine both
+these datasets to obtain the temporal changes in fandom and to estimate the intensity of
+10For nearby teams, they assign South Carolina to the Carolina Panthers and New Hampshire and Vermont
+to the New England Patriots.
+11Two stadiums have two home teams: Los Angeles Rams and Chargers, and New York Jets and Giants.
+Since California is not in our sample, we ignore the former stadium. We use the New York Giants for the
+New York teams since they are a more popular franchise with a larger fanbase. However, our results are
+robust to (1) mapping counties to Jets instead of Giants or (2) excluding Giants from our analysis.
+12The data for SeatGeek is for the year 2018, and the data for Facebook is for the year 2013.
+7
+
+=== page 10 ===
+fans based on di!erent definitions of fans.13 The advantage of such a method is that we can
+examine a more precise fanbase. Appendix Figure 1 panels (b) and (c) show the fandoms
+for each county with at least one NIBRS agency. A caveat with combining both sources for
+fanbase is that because these datasets measure fanbase di!erently, our estimated e!ect can
+be driven by changes in fanbase because of changes in the actual measurement. For this
+concern, we also experiment with restricting the counties where the fanbase is consistent
+across both data sources.
+4 Empirical Strategy
+Our main empirical strategy builds o! Card & Dahl (2011), but the main di!erence
+is that we also include interaction between unexpected game outcomes and sports betting
+legalization. More specifically, we estimate the following model:
+IPV = ω Exp Win + ω Exp Loss + ω Exp Close
+isw 1 isw 2 isw 3 isw
++ ω Upset Loss + ω Upset Win + ω Close Loss + ε Policy
+4 isw 5 isw 6 isw 0 isw
++ ε Exp Win Policy + ε Exp Loss Policy + ε Exp Close Policy
+1 isw → isw 2 isw → isw 3 isw → isw
++ ε Upset Loss Policy + ε Upset Win Policy + ε Close Loss Policy
+4 isw → isw 5 isw → isw 6 isw → isw
++ ϑ + ϖ + ϱ + ςHoliday + ςX + φ .
+i s w sw isw isw
+(1)
+In Equation (1), IPV is the count of intimate partner violence (IPV) in agency (i),
+isw
+season (s), and NFL week (w). Exp Win is a dummy variable indicating whether a
+isw
+“home” team in agency i is expected to win; Exp Loss is a dummy variable indicating
+isw
+whether a “home” team is expected to lose; and Exp Close is a dummy variable indicating
+isw
+whether a “home” team is expected to have a close game. Upset Loss , Upset Win , and
+isw isw
+Close Loss are dichotomous variables indicating whether a game resulted in upset loss,
+isw
+13This may be important because three teams (Rams, Chargers, and Raiders) moved cities during our
+sample period, which may change who they root.
+8
+
+=== page 11 ===
+upset win, or close loss, respectively. We also include agency (ϑ ), season (ϖ ), and week of
+i s
+the season (ϱ ) fixed e!ects. We also include controls for whether a Sunday is a holiday
+w
+or not.14 X is a vector of time-varying weather controls (daily average temperature and
+isw
+total precipitation). Finally, Policy is a dichotomous policy treatment variable indicating
+isw
+if a state had launched any in-person or online sports betting.15
+Following Card & Dahl (2011), we restrict our counterfactual to any Sundays where
+there are no “home” games.16 To account for zero counts, we estimate Equation (1) using
+a poisson with agency population as the exposure variable. Finally, because our policy
+treatment variable varies across states and our game outcome varies by team and season, we
+cluster our standard errors for Equation (1) at the state-by-game-by-season level.
+One underlying assumption for Equation (1) to produce an unbiased estimate is strict
+exogeneity. Formally, we require that the unexpected outcome we observe is as good as
+random, conditional on our observables. Under strict exogeneity assumption, we can still
+recover the causal ε , ε , and ε in Equation (1) even if sports betting legalization is
+4 5 6
+endogenous to the error term (Nizalova & Murtazashvili 2016).17 This assumption is likely
+to be valid because after controlling for the pre-game spread, the outcome of the game is
+random (Card & Dahl 2011; Panko! 1968; Gandar et al. 1988).
+Another assumption necessary for Equation (1) is the stable unit treatment value assumption
+(SUTVA), which requires no spatial spillovers to states that did not legalize sports betting.
+Justifying this assumption is challenging because individuals can travel to nearby jurisdictions
+to gamble on sports or use VPNs for mobile betting. However, in the event of a violation of
+SUTVA, our estimate will be attenuated towards zero, and our estimated e!ect will serve as
+14Holiday includes Labor Day weekend, Columbus Day weekend, Halloween, Veteran’s Day weekend,
+Thanksgiving day weekend, Christmas Eve and Day, and New Year Eve and Day.
+15If Policy is a constant, then Equation (1) will be identical to the model estimated by Card & Dahl
+isw
+(2011).
+16A team can have no home games if they have a bye-week or play a game on a di!erent day of the week
+(i.e., Thursday or Monday night). We document that approximately 20% of our sample has no game on a
+given Sunday.
+17Because our interests are in the changes in behavior when a fan experiences an unexpected shock rather
+than a baseline shift as result of implementing a policy, we will not be arguing whether sports gambling
+policy is exogenous to our outcome of interest.
+9
+
+=== page 12 ===
+a lower bound and not a spurious relationship.
+One potential threat to our identification is that our treatment turns on and o! (i.e.,
+unexpected game outcomes change heterogeneously across jurisdictions). This feature of our
+treatment can lead to each treated observation receiving unequal (and sometimes negative)
+weights. Consequently, it can lead to biased (and even di!erent in sign) estimates than the
+true average treatment e!ects Chaisemartin & d’Haultfoeuille (2020). We note that this
+concern is minimal for two reasons. First, when we calculate the negative weights in our
+main specification, we find no observations receiving negative weights, suggesting that the
+sign of our estimated e!ect is the same as the sign of the true treatment e!ect. Second,
+when we experiment with Chaisemartin & d’Haultfoeuille (2020) estimator, which allows
+the treatment to turn on and o!, we find contemporaneous e!ects of 0.071 per 100,000 (or
+16.1 percent relative to the baseline mean of 0.44 with SE=0.039 and p-value=0.070) for our
+upset loss times betting coe”cient, which is qualitatively similar to our estimated treatment
+e!ects.18
+Our last assumption is the first-stage assumption. We assume that the intensity of
+sports gambling participation increased following the legalization of sports gambling. This
+assumption can be violated, for instance, if the legalization of sports gambling just moved
+individuals from the black market to the legal market. While the total count of individuals
+participating in the legal and illegal sports gambling cannot be directly measured, we believe
+this assumption is justified for three reasons. First, several reports and papers document
+evidence suggesting that the intensity of sports gambling, both in the extensive and intensive
+margins, has increased. For example, two recent working papers by Baker et al. (2024) and
+Hollenbeck et al. (2024) use household-level transaction data and consumer credit data,
+respectively, and find causal evidence that sports betting expenditure increased and overall
+consumers’ financial health deteriorated after the legalization of sports gambling. Moreover,
+van der Maas et al. 2022 find that the legalization of online sports gambling led to an
+18Because these estimations and diagnostics do not allow for Poison estimation, we conduct these using
+OLS where the outcome is IPV per 100,000. Our main model using OLS shows qualitatively similar results.
+10
+
+=== page 13 ===
+increase in the activity in online gambling message board. Another paper by Humphreys
+(2021) finds that sports betting legalization had a cannibalism e!ect where the amount of
+money wagered in video game lottery decreased by 900 million in West Virginia, suggesting
+a potential change in gambling behavior as a result of sports gambling legalization. Finally,
+reports from American Gaming Association (2023) and Huble (2023) suggest that the number
+of adults in the U.S. who are interested in sports gambling increased by 24 million between
+2019 and 2023 and that calls into the National Problem Gambling Helpline increased by 45%
+between 2021 and 2022.19
+Next, we validate our first-stage assumption in panel (a) of Figure 4 by showing that
+the monthly money wagered on sports by average individuals over the age of 21 has been
+rising following the 2018 U.S. Supreme Court Case.20 This figure confirms that legalized
+sports gambling indeed increased the size of the sports betting market, especially following
+the COVID-19 pandemic recovery, as the amount wagered increased by approximately 68
+percent from 1,026 per person (in 2019) to 1,729 per person (in 2022). Moreover, we
+also show that participation in sports gambling spikes during football season (September to
+January). This pattern is consistent with the fact that the NFL is one of the most popular
+sports to bet on and that the NFL is an appropriate setting for our study.21
+Finally, we validate our assumption by examining if interest in sports gambling, as
+measured by data from Google Trends, increased after sports betting legalization. More
+specifically, we estimate the following model:
+24
+Searches = ω Dj + ϑ + ϖ + φ (2)
+it j i,t i t it
+j= 23
+ →
+19In the intensive margin, an online consumer survey data by EY noted that illegal sports bettors responded
+that the average amount wagered significantly increases when sports gambling is legal (Oxford Economics
+2017).
+20In panel (b), we show that the trend pattern is similar when we examine monthly revenue from sports
+gambling.
+21We acknowledge that for more than half of the NFL season, the NBA is also in season, which will also
+increase betting revenue. While we cannot distinguish how much money is wagered per sport, it is estimated
+that the NFL is the most betted sport, with 81% of sports bettors placing an NFL wager (Walsh 2023).
+11
+
+=== page 14 ===
+In Equation (2), Searches is the total Google search for the keywords “sportsbook” or
+it
+“sports betting” in state i for each month-year t.22 We denote Dj as our treatment leads
+i,t
+and lags indicator, representing j months before or after sports betting became legal. ϑ and
+i
+ϖ are our state and month-by-year fixed e!ects. We weight our estimates using state-level
+t
+population and cluster our standard errors at the state level (Bertrand et al. 2004). We
+also experiment with using Sun & Abraham (2021) estimator using states that did not
+legalize sports betting by December 2022 as our counterfactuals to guard against negative
+weights arising from staggered treatment and dynamic treatment e!ects (Chaisemartin &
+d’Haultfoeuille 2020; Goodman-Bacon 2021; Sun & Abraham 2021).
+In the top row of Figure 5, we present our TWFE event study estimates of Google Trends
+search for the keywords “sports betting” (panel a) and “sportsbook” (panel b). Though there
+may be some anticipatory e!ect in the pre-treatment period, which may be correlated with
+the announcement of the sports betting legalization, there is an apparent post-treatment
+reaction to the policy enactment. We find that around the month of the policy enactment,
+people are significantly more likely to search for the keyword “sports betting”. Furthermore,
+the search for the term “sportsbook” rose and persisted immediately following the policy
+enactment. The magnitude of the e!ect for the latter keyword suggests an approximately
+0.37 percentage point increase (or 197 percent relative to the baseline mean of 0.189) in the
+post-treatment period. In the bottom row, we continue to find similar patterns of results
+when we use a di!erent di!erence-in-di!erences technique. In summary, these estimates
+establish the first stage e!ect of sports betting legalization on interest in sports gambling.
+22Sportsbook is a physical or online platform where one can place bets.
+12
+
+=== page 15 ===
+5 Results
+5.1 Sports Gambling, Emotional Cues, & IPVs
+In Table 1, we present our estimates when we interact our indicators for various game
+outcomes with an indicator for whether a state legalized sports gambling. We first document
+that our estimates are robust to the inclusion of various control variables and whether we
+use population as our exposure variable (i.e., weighted vs. unweighted). Our estimates
+imply that legalizing sports gambling increases the e!ect of upset loss on IPVs by 4.1 to
+6.31 percentage points (ε + ε ). The magnitude of our point estimates suggests that when
+0 4
+sports betting is legal, IPVs increase by 8.5 to 9.6% (or by 0.035 to 0.040 per 100,000 relative
+to the mean).23 We also document a statistically significant change in individual’s response
+to a home team’s close loss when sports gambling is allowed. These findings support the
+possibility that an unexpected loss may lead to additional emotional cues and fans may
+express their frustration and anger towards other people (Hing et al. 2022; Korman et al.
+2008b; Suomi et al. 2013).
+While this estimated e!ect is large (over 100 percent increase relative to when states
+did not legalize sports betting), this magnitude is plausible for several reasons. First,
+when we examine the estimated e!ect of upset loss on only the states that legalized sports
+gambling, we find a beta coe”cient of 9.1 percentage points, similar to that reported by
+Card & Dahl (2011). Second, there are several anecdotal examples of fans being upset
+about Fantasy Football, another form of sports gambling, or losses from their favorite team,
+and taking out their frustrations directly against players.24 Third, the fact that problem
+23To derive the percent change, we add our upset loss coe”cient, betting coe”cient, and upset loss times
+betting coe”cient, then we take the exponential and subtract one from it. For instance, column (1) implies
+exp(0.0263+0.0996-0.0406)-1=0.0890. To calculate level change, we multiplied our percent change by our
+baseline mean IPV rates of 0.417 per 100,000.
+24Two recent examples from the 2023 NFL season include Alexander Maddison and Tyler Bass. When
+Maddison was underperforming and fans were losing their Fantasy Football game, some fans messaged
+Maddison on Instagram, calling racial slurs. In the latter example, Bass missed a critical play, leading to
+his team missing the playo!s. Consequently, he had to deactivate his social media because he received many
+online harassment and death threats.
+13
+
+=== page 16 ===
+gambling has adverse e!ect on IPVs (i.e., 36.5 to 55.6 percent of gamblers who commit IPVs
+(Dowling et al. 2016; Korman et al. 2008a) and the fact that sports gambling legalization
+has significant adverse e!ects on problematic gambling behavior (i.e., 45 percent increase
+in calls to gambling hotline (Huble 2023) imply that the risk of increased IPVs may be
+significant. Fourth, a conservative estimate suggests about 22 million dollars wagered per
+NFL game (Edelstein 2021).25 If we assume that, on average, the bets are placed evenly
+across both teams, then this estimate suggests that one game, in expectation, leads to
+approximately 11 million dollars lost.
+In Appendix Table 2, we present the sensitivity of our findings to di!erent definitions
+of “home team” and the inclusion of di!erent geographic regions. In column 1, we follow
+Card & Dahl (2011)’s mapping strategy, focusing on the entire state with one NFL team.
+In columns 2 to 5 of Table 2, we experiment with di!erent sources to define the fanbase and
+map home teams to the county level.26;27 Our results for upset losses remain qualitatively
+similar when we use di!erent geographies or definitions of a home team. We note that the
+coe”cient on close loss interacted by sports betting loses precision, though the magnitude
+is still large and meaningful (3.5 to 6.8 percentage points).
+To further assess the robustness of our estimates and address concerns about data cleaning
+and empirical choices, we present the results of sensitivity analyses in Appendix Table 3.
+In column 1, we present our main coe”cient for comparison. In columns 2 and 3, we
+demonstrate that our estimates remain robust when we require each agency to report data
+for multiple years. These findings imply that the changes in sample composition over time
+are not driving our results. Column 4 shows that our estimated e!ect is robust even when
+we exclude 2020, a period marked by the COVID-19 pandemic and potential issues with
+crime reporting. In column 5, we restrict our comparison to the treatment state and analyze
+25They estimate 350 million per week, which we divided by 16 games to estimate our per game number.
+26Due to the relocation of the Rams, Raiders, and Chargers during our sample period, we are unable to
+identify the fanbase for these teams either before or after the move, so we exclude them from our analysis.
+27For columns 5 and 6, we use Facebook likes to define our home team for 2010-2015 (pre-Rams move)
+and Seatgeek ticket searches for 2016 onwards.
+14
+
+=== page 17 ===
+the di!erences between the pre- and post-betting periods. The consistent patterns of results
+confirm that heterogenous treatment e!ects across states that legalized sports gambling vs.
+those that did not are not driving our results. Moreover, the result from column 5 implies
+that spatial spillovers and SUTVA violations are not much of a concern. Finally, in columns 6
+and 7, we employ alternative specifications: negative binomial (column 6) and OLS estimates
+using the rate of IPVs per 100,000 (column 7). Despite these changes, we find qualitatively
+similar results, suggesting that our findings are robust to di!erent modeling approaches.
+In addition to Appendix Table 3, we also experiment with excluding each state and team
+in Appendix Figure 2. The results from this exercise confirm that a particular state or
+team does not drive our estimated e!ect. Collectively, these sensitivity analyses provide
+reassurance that our estimated e!ect is not an artifact of specific data cleaning procedures
+or empirical choices but rather a robust finding in our study.
+In Table 2, we extend our analysis to examine the e!ect of upset losses at various times
+of the day and on di!erent types of assaults. Columns 1 to 4 focus on the timing of intimate
+partner violence (IPV) incidents: Sunday morning (before the game), Sunday afternoon
+(around or immediately after most games), Sunday night (around or immediately after the
+Sunday night game), and Monday mornings (the morning after). The findings in column
+(1) indicate no evidence of a change in IPVs during the “pre-treatment” period, suggesting
+that there may be no spurious relationship between treatment (upset loss) and the rate of
+IPVs. These findings provide some evidence that our treatment may be orthogonal to IPV
+outcomes. Columns 2 and 3 show larger e!ects on IPVs occurring between noon and 5:59
+pm compared to those occurring between 6 pm and midnight, although the 95% confidence
+intervals of these estimates overlap. In column 4, we find no evidence of IPVs increasing
+on Monday mornings following an upset loss by a home team. These findings support the
+hypothesis that reactions to emotional cues and potential financial losses may be temporal
+and immediate rather than persisting over an extended period.28
+28When we conduct our exercise focusing on just the morning games, we continue to find similar patterns
+of findings.
+15
+
+=== page 18 ===
+In columns 5 and 6 of Table 2, we estimate the e!ect on other types of assaults: bar fights
+and non-IPV assaults. This exercise aims to detect any crime displacement resulting from
+NFL games. For example, if sports gambling creates an incapacitation e!ect, causing more
+people to stay home and watch the game instead of going out to bars, we might expect to
+see a negative e!ect on bar fights and other assaults. The point estimates show no negative
+decline in these types of assaults. Instead, we find a positive e!ect on upset loss, which is
+consistent with the idea that unexpected emotional cues can lead to more violent behavior
+beyond just IPVs, especially in locations where alcohol people consume alcohol and watch
+sports. The findings in columns 5 and 6 suggest that displacement of the location where
+violence occurs is not a predominant channel.
+5.2 Heterogeneity
+Two potential mechanisms may explain why we observe the adverse e!ect of legalized
+sports gambling on the relationship between upset loss and IPVs. The first channel is
+the financial loss from betting on one’s favorite team, who is favored to win but ends up
+losing. The second channel is increased emotional attachment toward one’s favorite team
+from participating in sports gambling. While the latter mechanism is more complex to tease
+out due to not having data on the intensity of the fanbase, we conduct several heterogeneity
+estimates to confirm that the former is a predominant channel that is driving our results.
+In Table 3, we present our treatment e!ects after restricting our sample based on the
+home team’s previous performance and by week of the month. To ensure consistency in
+our comparison group within our main specification, we restrict our primary sample to game
+days when a home team was expected to win.29 As a result, our estimated e!ect can be
+interpreted as the e!ect relative to game days when a team won as expected.
+In column 1 of Table 3, we present our estimates using the restricted sample and show
+that our estimated e!ect is qualitatively similar to our main specifications. Next, we further
+29For example, if a home team does not have a bye week or non-Sunday games on a winning streak, that
+team will have no counterfactuals.
+16
+
+=== page 19 ===
+narrow down our sample based on whether a team lost the last game (column 2), won the
+last game (column 3), or won the last two games (column 4). We find that the estimated
+e!ect becomes larger (0.2025 vs. 0.1257) when a home team is on a winning streak, though
+we cannot precisely rule out whether these coe”cients are statistically di!erent. In columns
+5 to 7, we find similar patterns of results when we focus on whether a spread was covered or
+not.30 These findings are consistent with the hot hand fallacy or recency bias. An individual
+who observes their team recently winning may perceive their team as “good”, leading them
+to place more bets on their team and experience stronger adverse reactions to an unexpected
+loss.
+In columns 8 and 9 of Table 3, we restrict our sample based on whether the Sunday
+coincided with the payday week.31 Notably, we find that the upset loss coe”cients are
+qualitatively similar between the two groups. However, the upset loss times betting coe”cient
+is large and statistically significant during Sundays following payday (column 8) but small
+and insignificant on other Sundays (column 9). These findings align with the hypothesis that
+individuals may allocate more of their funds to sports betting activities when they receive
+their paychecks, resulting in more pronounced adverse reactions to monetary losses (Dobkin
+& Puller 2007; Stephens Jr 2006).
+In Table 4, we examine for heterogeneous treatment e!ects between in-person vs. mobile
+betting as well as the size of the betting market. In column 1, we find no evidence of a
+worsening reaction to upset loss when states legalize in-person betting. Instead, we find
+that states that legalized mobile betting drive our results. These findings are consistent
+with the theory that mobile betting has a larger impact on sports gambling participation
+than in-person betting due to its lower opportunity cost (Hollenbeck et al. 2024).32 In
+30Covering a spread is slightly di!erent from winning because a team who lost but had a point di!erence
+smaller than the spread will cover its spread. For example, if a home team’s spread was +5 (lose by 5 points),
+then a home team can cover the spread if they lose by less than 5 points.
+31Since most paydays in the U.S. typically occur on the first day, 15th, and/or last day of the month, we
+define the “week of payday” as any Sunday falling within the 1st to 7th or 15th to 21st of the month.
+32Another possibility worth noting is that in-person betting may lead to less time at home during NFL
+games, which could also explain why the e!ect on family violence at home is smaller.
+17
+
+=== page 20 ===
+column 2, we document that states with large handles primarily drive our overall treatment
+e!ect. This finding demonstrates that the financial loss resulting from an upset may be one
+crucial mechanism through which individuals react more strongly to unexpected NFL game
+outcomes.
+6 Conclusion
+Policymakers and legislatures are advocating for the legalization of sports betting due
+to its potential tax benefits. Sports betting can generate large tax revenues from displacing
+the black market, and increase in the number of people who gamble in the state due to
+the creation of a new market or people deciding to place a bet in that state rather than
+Nevada. In 2022, total taxes collected among states with legalized sports betting totaled
+almost 1.5 billion.33 On the other hand, sports gambling legalization can generate negative
+externalities, such as displaced tax revenues in other gambling markets (Humphreys 2021;
+Can et al. 2023)
+Another potential negative externality arising from sports gambling legalization is the
+amplification of emotional cues. In this paper, we are the first to investigate the causal
+relationship between legalized sports gambling and IPV. Using data from the 2011 to 2022
+NIBRS, we document that legalized sports betting amplifies emotional cues, as evidenced
+by increased IPV when a fan’s home team unexpectedly loses.
+Although we shed light on some potential consequences of allowing sports gambling, we
+do not necessarily conclude that states should reverse such legalization. Following a similar
+line of thought as Humphreys (2021), who suggests that states should carefully examine
+how legalizing sports betting impacts tax revenues to “mitigate the fiscal consequences of
+legalization,” we suggest that states should examine how they can use state tax revenues
+from sports betting to mitigate these negative externalities.34 For instance, states can
+33This data does not include tax revenue in Montana or Oregon.
+34While doing back-of-the-envelope calculations to estimate whether the net social costs from emotional
+18
+
+=== page 21 ===
+fund advertising campaigns—perhaps during commercial breaks during sporting events—to
+raise public awareness of the potential consequences of participating in sports gambling or
+committing family violence. Moreover, states can also invest their tax revenues in domestic
+violence shelters or hotlines to assist the victims or in counseling services to o!er support
+for potential o!enders.
+7 References
+Adams-Prassl, A., Huttunen, K., Nix, E., & Zhang, N. (2023). The dynamics of abusive
+relationships.
+Aizer, A. (2010). The gender wage gap and domestic violence. American Economic Review,
+100 (4), 1847–1859.
+American Gaming Association. (2023). Assessing shifts in the sports betting market 5
+years post-paspa. https://www.americangaming.org/wp-content/uploads/2023/05/
+AGA PASPA LSBResearch.pdf.
+Anderberg, D., Rainer, H., Wadsworth, J., & Wilson, T. (2016). Unemployment and
+domestic violence: Theory and evidence. The Economic Journal, 126 (597), 1947–1979.
+Arenas-Arroyo, E., Fernandez-Kranz, D., & Nollenberger, N. (2021). Intimate partner
+violence under forced cohabitation and economic stress: Evidence from the covid-19
+pandemic. Journal of Public Economics, 194 , 104350-104350.
+Baker, S., Balthrop, J., Johnson, M. J., Kotter, J. D., & Pisciotta, K. (2024). Gambling
+away stability: Sports betting’s impact on vulnerable households. SSRN Working Paper
+No. 4881086 .
+Beland, L.-P., & Brent, D. A. (2018). Tra”c and crime. Journal of Public Economics, 160 ,
+96–116.
+Bertrand, M., Duflo, E., & Mullainathan, S. (2004). How much should we trust
+di!erences-in-di!erences estimates? The Quarterly Journal of Economics, 119 (1),
+249–275.
+cues outweigh the tax revenue from sports gambling is intriguing, we cannot perform such calculations
+for several reasons. First, we need to determine the temporal and spatial distribution of IPVs in the U.S.
+While the NIBRS provides helpful information about IPVs, they are not necessarily nationally representative
+because some states and counties do not report to the NIBRS. Second, our estimates are specific only to
+NFL; thus, any derivations of costs will only be specific to September to December. Finally, we do not know
+the severity of each IPV to measure the total costs. While we find compelling evidence that the number of
+IPVs is increasing, we need to figure out whether these IPVs lead to physical injury or hospitalization.
+19
+
+=== page 22 ===
+Bhuller, M., Dahl, G. B., Løken, K. V., & Mogstad, M. (2022). Domestic violence and the
+mental health and well-being of victims and their children (Tech. Rep.). National Bureau
+of Economic Research.
+Can, E., Nichols, M. W., & Pavlopoulos, V. (2023). The e!ects of sports betting on casino
+gambling and lottery. SSRN Working Paper No. 4659440 .
+Card, D., & Dahl, G. B. (2011). Family violence and football: The e!ect of unexpected
+emotional cues on violent behavior. The Quarterly Journal of Economics, 126 (1), 103-143.
+Cardazzi, A., McCannon, B. C., Humphreys, B. R., & Rodriguez, Z. (2022). Emotional cues
+and violent behavior: Unexpected basketball losses increase incidents of family violence.
+Journal of Law, Economics, & Organization.
+Carr, J. B., & Packham, A. (2021). Snap schedules and domestic violence. Journal of Policy
+Analysis and Management, 40 (2), 412–452.
+Carrell, S. E., & Hoekstra, M. (2012). Family business or social problem? the cost
+of unreported domestic violence. Journal of Policy Analysis and Management, 31 (4),
+861–875.
+Carrell, S. E., Hoekstra, M., & Kuka, E. (2018). The long-run e!ects of disruptive peers.
+American Economic Review, 108 (11), 3377–3415.
+Carrell, S. E., & Hoekstra, M. L. (2010). Externalities in the classroom: How children
+exposed to domestic violence a!ect everyone’s kids. American Economic Journal: Applied
+Economics, 2 (1), 211–228.
+Centers for Disease Control and Prevention. (2024). About intimate partner violence.
+https://www.cdc.gov/intimate-partner-violence/about/index.html.
+Chaisemartin, C. D., & d’Haultfoeuille, X. (2020). Two-way fixed e!ects estimators with
+heterogeneous treatment e!ects. American Economic Review, 110 , 2964-2996.
+Collins, C. (2022). Emotional cues, election outcomes, and intimate partner violence. SSRN
+Working Paper No. 4278930 .
+Dobkin, C., & Puller, S. L. (2007). The e!ects of government transfers on monthly cycles
+in drug abuse, hospitalization and mortality. Journal of Public Economics, 91 (11-12),
+2137–2157.
+Dowling, N., Suomi, A., Jackson, A., Lavis, T., Patford, J., Cockman, S., . . . Abbott,
+M. (2016). Problem gambling and intimate partner violence: A systematic review and
+meta-analysis. Trauma, Violence & Abuse, 17 (1), 43-61.
+Edelstein, J. (2021). One extra week of nfl games, millions of extra dollars for sportsbooks.
+Sports Handle. https://sportshandle.com/extra-nfl-week-sportsbooks/.
+Gandar, J., Zuber, R., O’brien, T., & Russo, B. (1988). Testing rationality in the point
+spread betting market. The Journal of Finance, 43 (4), 995–1008.
+20
+
+=== page 23 ===
+Goodman-Bacon, A. (2021). Di!erence-in-di!erences with variation in treatment timing.
+Journal of Econometrics.
+Hing, N., O’Mullan, C., Nuske, E., Breen, H., Mainey, L., Taylor, A., . . . others (2022).
+Gambling-related intimate partner violence against women: A grounded theory model of
+individual and relationship determinants. Journal of Interpersonal Violence, 37 (19-20),
+NP18639–NP18665.
+Hollenbeck, B., Larsen, P., & Proserpio, D. (2024). The financial consequences of legalized
+sports gambling. SSRN Working Paper No. 4881086 .
+Huble, C. (2023). Ncpg statement on the betting on our future act. https://www
+.ncpgambling.org/news/ncpg-statement-on-the-betting-on-our-future-act/.
+Humphreys, B. R. (2021). Legalized sports betting, vlt gambling, and state gambling
+revenues: Evidence from west virginia. Eastern Economic Journal, 47 (1), 9-28.
+Korman, L. M., Collins, J., Dutton, D., Dhayananthan, B., Littman-Sharp, N., & Skinner,
+W. (2008a). Problem gambling and intimate partner violence. Journal of Gambling
+Studies, 24 , 13-23.
+Korman, L. M., Collins, J., Dutton, D., Dhayananthan, B., Littman-Sharp, N., & Skinner,
+W. (2008b). Problem gambling and intimate partner violence. Journal of Gambling
+Studies, 24 , 13–23.
+Lin, T.-C., & Pursiainen, V. (2023). The disutility of stock market losses: Evidence from
+domestic violence. The Review of Financial Studies, 36 (4), 1703–1736.
+Lindo, J. M., Schaller, J., & Hansen, B. (2018). Caution! men not at work: Gender-specific
+labor market conditions and child maltreatment. Journal of Public Economics, 163 ,
+77–98.
+Lindo, J. M., Swensen, I. D., & Waddell, G. R. (2022). E!ects of violent media content:
+Evidence from the rise of the ufc. Journal of Health Economics, 83 , 102623.
+National Domestic Violence Hotline. (n.d.). Domestic violence statistics. https://
+thehotline.org/stakeholders/domestic-violence-statistics/.
+Nizalova, O. Y., & Murtazashvili, I. (2016). Exogenous treatment and endogenous factors:
+Vanishing of omitted variable bias on the interaction term. Journal of Econometric
+Methods, 5 (1), 71–77.
+Oxford Economics. (2017). Economic impact of legalized sports betting. https://
+www.americangaming.org/wp-content/uploads/2018/12/AGA-Oxford-Sports
+-Betting-Economic-Impact-Report1-1.pdf.
+Panko!, L. D. (1968). Market e”ciency and football betting. The Journal of Business,
+41 (2), 203–214.
+21
+
+=== page 24 ===
+Peterson, C., Kearns, M. C., McIntosh, W. L., Estefan, L. F., Nicolaidis, C., McCollister,
+K. E., . . . Florence, C. (2018). Lifetime economic burden of intimate partner violence
+among u.s. adults. American Journal of Preventive Medicine, 55 (4), 433-444.
+Schneider, D., Harknett, K., & McLanahan, S. (2016). Intimate partner violence in the great
+recession. Demography, 53 (2), 471–505.
+Stephens Jr, M. (2006). Paycheque receipt and the timing of consumption. The Economic
+Journal, 116 (513), 680–701.
+Sun, L., & Abraham, S. (2021). Estimating dynamic treatment e!ects in event studies with
+heterogeneous treatment e!ects. Journal of Econometrics, 225 , 175-199.
+Suomi, A., Jackson, A. C., Dowling, N. A., Lavis, T., Patford, J., Thomas, S. A., . . . others
+(2013). Problem gambling and family violence: family member reports of prevalence,
+family impacts and family coping. Asian Journal of Gambling Issues and Public Health,
+3 (1), 1–15.
+UN Women. (2023). Facts and figures: Ending violence against women.
+https://www.unwomen.org/en/what-we-do/ending-violence-against-women/
+facts-and-figures.
+van der Maas, M., Cho, S. R., & Nower, L. (2022). Problem gambling message board activity
+and the legalization of sports betting in the us: A mixed methods approach. Computers
+in Human Behavior, 128 , 107133-.
+Walsh, A. (2023). Which is the sport americans bet on most? Rotowire.
+https://www.rotowire.com/article/us-sports-betting-news-which-is-the-sport
+-americans-bet-on-most-71608.
+22
+
+=== page 25 ===
+8 Tables and Figures
+Figure 1. Sports Gambling Launch Date
+(a) Retail Gambling
+(b) Online Betting
+Notes: These figures show the month and year when each state launched legalized retail or
+online (mobile) sports gambling between 2018 and 2022. We exclude NM, ND, WA, and WI,
+which legalized sports gambling only on tribal land.
+23
+
+=== page 26 ===
+Figure 2. Home Team for Each County Based on Proximity
+(a) All U.S. Counties
+(b) All Counties Covered Under NIBRS
+Notes: These figure show the closest NFL team based on linear distance for each continental
+U.S. county. These data are based on stadiums open on 2021. Panel a presents home team
+for all counties, and panel b presents home team for all counties in our NIBRS sample. Black
+dot represents location where each NFL stadium is located.
+24
+
+=== page 27 ===
+Figure 3. Weighted Mean IPVs
+(a) By Expected Game Outcome & Actual Game Outcome
+(b) By Sports Betting Legalization & Actual Game Outcome
+Notes: These figures show population weighted IPV rates per 100,000. Panel (a) plots the weighted mean by
+expected game outcome and actual game outcome. Panel (b) restricts sample to teams that were expected
+to win and plots the mean by actual game outcome & sports gambling legalization.
+25
+
+=== page 28 ===
+Figure 4. Total Handle & Revenue per Adults from Sports Betting
+(a) Monthly Handle
+(b) Monthly Revenue
+Notes: These figures show monthly U.S. handle (panel a) and revenue (panel b) from sports betting. The
+data is derived from Legal Sports Report. The y-axis is scaled by dividing total amount by total adult (21
+years or older) population in states that allowed sports gambling. The gray shaded area in panel b represents
+NFL season.
+26
+
+=== page 29 ===
+hcraeS
+sdnerT
+elgooG
+fo
+setamitsE
+ydutS
+tnevE
+maharbA
+&
+nuS
+&
+EFWT
+.5
+erugiF
+”koobstropS“
+)b(
+”gnitteB
+stropS“
+)a(
+27
+gnilbmag
+strops
+fo
+tcapmi
+eht
+fo
+setamitse
+yduts
+tneve
+)wor
+mottob(
+maharbA
+&
+nuS
+dna
+)wor
+pot(
+stce!e
+dex
+fi
+yaw
+owt
+wohs
+serug
+fi
+esehT
+:setoN
+”koobtrops“
+dna
+)nmuloc
+tfel(
+”gnitteb
+strops“
+sdrowyek
+eht
+rof
+,2202
+,13
+rebmeceD
+ot
+5102
+,1
+yraunaJ
+neewteb
+sehcraes
+elgoog
+latot
+no
+noitazilagel
+%59
+tneserper
+enil
+rab
+ehT
+.noitalupop
+level-etats
+yb
+dethgiew
+dna
+stce!e
+dex
+fi
+raey-yb-htnom
+dna
+etats
+edulcni
+setamitse
+llA
+.)nmuloc
+thgir(
+
+=== page 30 ===
+.level-etats
+eht
+dnuora
+deretsulc
+srorre
+dradnats
+gnisu
+detareneg
+lavretni
+ecned
+finoc
+28
+
+=== page 31 ===
+9 Tables
+Table 1. Heterogeneous Treatment E!ects of Legalized Sports Betting
+(1) (2) (3) (4) (5)
+Upset Loss 0.0263 0.0298 0.0289 0.0303 0.0342*
+(0.0202) (0.0198) (0.0199) (0.0198) (0.0197)
+Upset Loss*Betting 0.0996* 0.0969* 0.0993* 0.1000* 0.0975*
+(0.0509) (0.0506) (0.0508) (0.0511) (0.0513)
+Close Loss -0.0158 -0.0159 -0.0151 -0.0135 -0.0140
+(0.0128) (0.0127) (0.0126) (0.0125) (0.0124)
+Close Loss*Betting 0.0783** 0.0825** 0.0811** 0.0764* 0.0772**
+(0.0384) (0.0393) (0.0393) (0.0394) (0.0387)
+Upset Win 0.0236 0.0260 0.0256 0.0264 0.0259
+(0.0203) (0.0201) (0.0201) (0.0199) (0.0197)
+Upset Win*Betting 0.0147 0.0126 0.0120 0.0095 0.0157
+(0.0641) (0.0673) (0.0670) (0.0668) (0.0653)
+Betting -0.0406 -0.0350 -0.0362 -0.0390 -0.0504
+(0.0350) (0.0348) (0.0347) (0.0349) (0.0341)
+N 301,854 301,854 301,854 301,854 301,854
+Agency FE? Yes Yes Yes Yes Yes
+Season FE? Yes Yes Yes Yes Yes
+Week FE? No Yes Yes Yes Yes
+Holiday FE? No No Yes Yes Yes
+Weather Control? No No No Yes Yes
+Unweighted? No No No No Yes
+*P-val < 0.1; ** P-val < 0.05; *** P-val < 0.01
+Notes: Estimate is estimated via Poisson model using population as an exposure variable. Control variables
+include agency fixed e!ects, season fixed e!ects, week of the season fixed e!ects, indicator for holiday, average
+temperature and total precipitation. Standard errors are clustered at the state-by-season-by-team level.
+29
+
+=== page 32 ===
+stluassA
+&
+,yaD
+,emiT
+rehtO
+no
+tce!E
+detamitsE
+.2
+elbaT
+)6(
+)5(
+)4(
+)3(
+)2(
+)1(
+1110.0
+3960.0
+2600.0
+5110.0
+**8750.0
+8120.0-
+ssoL
+tespU
+)1210.0(
+)3290.0(
+)8820.0(
+)1820.0(
+)2720.0(
+)3320.0(
+0100.0-
+*2214.0
+7350.0-
+7080.0
+8911.0
+4470.0
+gnitteB*ssoL
+tespU
+)8420.0(
+)8442.0(
+)6001.0(
+)6470.0(
+)7670.0(
+)2160.0(
+081,013
+010,531
+231,262
+045,492
+638,582
+345,003
+N
+stluassA
+VPI
+noN
+sthgiF
+raB
+VPI
+VPI
+VPI
+VPI
+emoctuO
+nuS
+nuS
+noM
+nuS
+nuS
+nuS
+yaD
+32ot21
+32ot21
+21ot0
+32ot81
+81ot21
+21ot0
+emiT
+30
+10.0
+<
+lav-P
+***
+;50.0
+<
+lav-P
+**
+;1.0
+<
+lav-P*
+nosaes
+,stce!e
+dex
+fi
+ycnega
+edulcni
+selbairav
+lortnoC
+.elbairav
+erusopxe
+na
+sa
+noitalupop
+gnisu
+ledom
+nossioP
+aiv
+detamitse
+si
+etamitsE
+:setoN
+eht
+ta
+deretsulc
+era
+srorre
+dradnatS
+.noitatipicerp
+latot
+dna
+erutarepmet
+egareva
+,yadiloh
+rof
+rotacidni
+,stce!e
+dex
+fi
+nosaes
+eht
+fo
+keew
+,stce!e
+dex
+fi
+VPI
+noN
+.bulcthgin
+ro
+rab
+a
+ta
+syadnuS
+no
+mp
+32
+ot
+21
+neewteb
+gnirrucco
+stluassa
+yna
+sa
+den
+fied
+era
+sthg
+fi
+raB
+.level
+maet-yb-nosaes-yb-etats
+.VPI
+sa
+de fiissalc
+ton
+si
+taht
+syadnuS
+no
+mp32
+ot
+21
+neewteb
+gnirrucco
+stluassa
+yna
+sa
+den
+fied
+era
+stluassa
+
+=== page 33 ===
+yaD
+keeW
+dna
+droceR
+gninniW
+maeT
+emoH
+yb
+setamitsE
+ytienegoreteH
+.3
+elbaT
+31
+?yadyaP
+?daerpS
+derevoC
+?noW
+)9(
+)8(
+)7(
+)6(
+)5(
+)4(
+)3(
+)2(
+)1(
+*5350.0
+3720.0
+4810.0
+3320.0
+4720.0
+6450.0
+*9940.0
+4900.0-
+7920.0
+ssoL
+tespU
+)4030.0(
+)7230.0(
+)4040.0(
+)9820.0(
+)0130.0(
+)8330.0(
+)4620.0(
+)7330.0(
+)5020.0(
+3350.0-
+***8242.0
+**4642.0
+**5802.0
+6490.0
+**5802.0
+**7371.0
+3821.0
+**1621.0
+gnitteB*ssoL
+tespU
+)7080.0(
+)5580.0(
+)8021.0(
+)6780.0(
+)7080.0(
+)9090.0(
+)7070.0(
+)1990.0(
+)6050.0(
+356,13
+205,42
+960,41
+603,13
+801,52
+800,22
+549,73
+466,81
+650,46
+N
+yaP-noN
+yaP
+derevoC
+derevoC
+toN
+noW
+noW
+tsoL
+enoN
+tuC
+elpmaS
+keeW
+keeW
+2
+tsaL
+tsaL
+derevoC
+2
+tsaL
+tsaL
+10.0
+<
+lav-P
+***
+;50.0
+<
+lav-P
+**
+;1.0
+<
+lav-P*
+nosaes
+,stce!e
+dex fi
+ycnega
+edulcni
+selbairav
+lortnoC
+.elbairav
+erusopxe
+na
+sa
+noitalupop
+gnisu
+ledom
+nossioP
+aiv
+detamitse
+si
+etamitsE
+:setoN
+eht
+ta
+deretsulc
+era
+srorre
+dradnatS
+.noitatipicerp
+latot
+dna
+erutarepmet
+egareva
+,yadiloh
+rof
+rotacidni
+,stce!e
+dex
+fi
+nosaes
+eht
+fo
+keew
+,stce!e
+dex
+fi
+4 ot
+2
+snmuloC
+.)4-
+naht
+ssel
+daerps(
+niw
+ot
+detcepxe
+si maet
+emoh
+a
+erehw
+syad-emag
+ot
+detcirtser
+si
+elpmas
+ehT
+.level
+maet-yb-nosaes-yb-etats
+rehtehw
+no
+desab
+elpmas
+eht
+stcirtser
+rehtruf
+7
+ot
+5
+snmuloC
+.keew
+suoiverp
+eht
+tsol
+ro
+now
+maet
+a
+rehtehw
+no
+desab
+elpmas
+eht
+stcirtser
+rehtruf
+retfa
+syadnuS
+no desab
+elpmas
+eht
+stcirtser
+rehtruf
+9
+dna
+8 snmuloC
+.)daerps
+emag-erp
+eht
+naht
+ssel
+erocs
+lautca(
+daerps
+eht
+derevoc
+maet
+emoh
+eht
+.syadnuS
+rehto
+ro
+)ts12
+ot
+ht51
+dna
+ht7
+ot
+ts1(
+syadyap
+
+=== page 34 ===
+Table 4. Sensitivity of Our Estimates to Type & Size of Betting Markets
+(1) (2)
+Upset Loss 0.0374* 0.0303
+(0.0199) (0.0198)
+Upset Loss* Mobile Betting 0.1667***
+(0.0611)
+Upset Loss* In-person Betting -0.0712
+(0.0679)
+Upset Loss*Betting*< Median per capita handle 0.0748
+(0.0717)
+Upset Loss*Betting* Median per capita handle 0.1356**
+↑
+(0.0665)
+N 301,854 301,854
+*P-val < 0.1; ** P-val < 0.05; *** P-val < 0.01
+Notes: Estimate is estimated via Poisson model using population as an exposure variable. Control variables
+include agency fixed e!ects, season fixed e!ects, week of the season fixed e!ects, indicator for holiday,
+average temperature and total precipitation. Standard errors are clustered at the state-by-season-by-team
+level. Column (1) examines if the state allows online or in-person sports betting. Column (2) examines
+heterogeneity by whether a state had larger sports gambling market, as measured by average amount wagered.
+The median handle used for cuto! is 26 per person.
+32
+
+=== page 35 ===
+Appendix
+33
+
+=== page 36 ===
+Appendix Figure 1. NIBRS Coverage by Home Team
+(a) State
+(b) Facebook
+(c) Seatgeek
+34
+
+=== page 37 ===
+Appendix Figure 2. Sensitivity of Betting Upset Loss Coe”cient to Excluding
+→
+Each State/Team
+(a) Exclude Each States
+(b) Exclude Each Teams
+Notes: These figures show
+sensitivity of our betting upset loss coe”cient when we exclude each state or team. The
+→
+gray bar line represents 95% confidence intervals generated using standard errors that are
+clustered at the state-by-team-by-season level. The red dashed line represents the overall
+treatment e!ect from our preferred estimate using the full sample.
+35
+
+=== page 38 ===
+Appendix Table 1. Game Outcomes by Teams
+Upset Loss Close Loss Upset Win
+% % %
+Count Expected Count Expected Count Expected
+Win Close Lose
+Arizona Cardinals 11 30.6 32 40 13 25
+Atlanta Falcons 9 23.1 51 56 9 25.7
+Baltimore Ravens 19 28.4 33 44 2 11.8
+Bu!alo Bills 12 28.6 33 43.4 14 31.1
+Carolina Panthers 7 23.3 45 50.6 13 26.5
+Chicago Bears 8 25 35 53.8 10 17.2
+Cincinnati Bengals 5 14.3 38 42.7 8 18.2
+Cleveland Browns 9 36 41 59.4 7 9.5
+Dallas Cowboys 10 20 38 49.4 9 33.3
+Denver Broncos 7 14 39 54.2 11 28.9
+Detroit Lions 12 42.9 43 48.9 10 21.7
+Green Bay Packers 14 17.3 30 47.6 5 33.3
+Houston Texans 14 31.1 30 45.5 6 11.3
+Indianapolis Colts 10 24.4 40 54.1 20 41.7
+Jacksonville Jaguars 8 50 47 65.3 14 15.7
+Kansas City Chiefs 16 21.1 24 40 8 30.8
+Miami Dolphins 7 28 39 45.9 15 26.8
+Minnesota Vikings 8 24.2 36 39.1 7 18.9
+New England Patriots 16 16.3 24 46.2 3 42.9
+New Orleans Saints 22 31.4 27 40.3 9 47.4
+New York Giants 6 27.3 36 52.2 22 32.8
+New York Jets 1 7.7 41 54.7 17 23.3
+OAK/LV Raiders 6 37.5 45 56.2 18 26.9
+Philadelphia Eagles 16 27.1 37 52.1 7 26.9
+Pittsburgh Steelers 13 23.2 34 42.5 10 43.5
+SD/LA Chargers 12 23.5 46 57.5 8 27.6
+STL/LA Rams 10 23.8 37 52.9 15 30
+San Francisco 49ers 16 27.1 24 46.2 9 19.1
+Seattle Seahawks 18 25.7 34 47.2 8 47.1
+Tampa Bay Buccaneers 10 33.3 53 58.9 12 25.5
+Tennessee Titans 9 28.1 48 54.5 16 34
+Washington Commanders 5 31.2 40 48.2 11 19.3
+Notes: Data is from the 2011 to 2022 season. Upset loss is defined as losing when the team is expected to win
+(pre-game spread under -4). Close loss is defined as losing when the team is expected to experience a close
+matchup (pre-game spread between -4 to 4). Upset win is defined as winning when the team is expected to
+lose (pre-game spread over 4).
+36
+
+=== page 39 ===
+37
+yhpargoeG
+&
+maeT
+emoH
+fo
+snoitinfieD
+suoiraV
+ot
+setamitsE
+ruO
+fo
+kcehC
+ssentsuboR
+.2
+elbaT
+xidneppA
+)5(
+)4(
+)3(
+)2(
+)1(
+5510.0
+6110.0
+2110.0
+6020.0
+3410.0
+ssoL
+tespU
+)2120.0(
+)9710.0(
+)2810.0(
+)4810.0(
+)7520.0(
+**1231.0
+**5411.0
+4970.0
+**5501.0
+*3121.0
+gnitteB*ssoL
+tespU
+)6160.0(
+)3940.0(
+)5350.0(
+)3940.0(
+)2360.0(
+6110.0-
+3110.0-
+3400.0-
+1710.0-
+3210.0-
+ssoL
+esolC
+)0610.0(
+)7210.0(
+)2310.0(
+)6210.0(
+)3710.0(
+8750.0
+1840.0
+7960.0
+8350.0
+8530.0
+gnitteB*ssoL
+esolC
+)1050.0(
+)5540.0(
+)6540.0(
+)6540.0(
+)3550.0(
+6410.0
+2810.0
+6410.0
+4520.0
+4620.0
+niW
+tespU
+)0420.0(
+)0020.0(
+)9020.0(
+)3020.0(
+)4720.0(
+4060.0
+2330.0
+6800.0
+2620.0
+8050.0-
+gnitteB*niW
+tespU
+)5870.0(
+)1860.0(
+)4760.0(
+)2860.0(
+)6280.0(
+0620.0-
+1950.0-
+**2860.0-
+5250.0-
+6630.0-
+gnitteB
+)1930.0(
+)1830.0(
+)8430.0(
+)1830.0(
+)8050.0(
+106,712
+458,103
+789,992
+458,103
+356,061
+N
+ytnuoC
+ytnuoC
+ytnuoC
+ytnuoC
+etatS
+noitin
+fieD
+maeT
+emoH
+htoB
+htoB
+koobecaF
+keegtaeS
+A/N
+ecruoS
+seY
+oN
+oN
+oN
+oN
+snaF
+emaS
+ot
+tcirtseR
+10.0
+<
+lav-P
+***
+;50.0
+<
+lav-P
+**
+;1.0
+<
+lav-P*
+nosaes
+,stce!e
+dex
+fi
+ycnega
+edulcni
+selbairav
+lortnoC
+.elbairav
+erusopxe
+na
+sa
+noitalupop
+gnisu
+ledom
+nossioP
+aiv
+detamitse
+si
+etamitsE
+:setoN
+eht
+ta
+deretsulc
+era
+srorre
+dradnatS
+.noitatipicerp
+latot
+dna
+erutarepmet
+egareva
+,yadiloh
+rof
+rotacidni
+,stce!e
+dex
+fi
+nosaes
+eht
+fo
+keew
+,stce!e
+dex
+fi
+.level
+maet-yb-nosaes
+
+=== page 40 ===
+setamitsE
+ruO
+fo
+kcehC
+ssentsuboR
+.3
+elbaT
+xidneppA
+)7(
+)6(
+)5(
+)4(
+)3(
+)2(
+)1(
+38
+*0410.0
+7130.0
+0420.0
+6420.0
+3920.0
+2820.0
+3030.0
+ssoL
+tespU
+)4800.0(
+)9910.0(
+)3720.0(
+)2020.0(
+)6120.0(
+)1020.0(
+)8910.0(
+*4730.0
+**8101.0
+**3901.0
+**6931.0
+***3841.0
+*9101.0
+*0001.0
+gnitteB*ssoL
+tespU
+)5220.0(
+)3150.0(
+)8450.0(
+)0850.0(
+)1750.0(
+)3350.0(
+)1150.0(
+0600.0-
+0410.0-
+0500.0-
+1610.0-
+8600.0-
+4610.0-
+5310.0-
+ssoL
+esolC
+)8500.0(
+)5210.0(
+)2610.0(
+)1310.0(
+)7310.0(
+)6210.0(
+)5210.0(
+**5230.0
+**8080.0
+*7760.0
+*1770.0
+**7580.0
+*0070.0
+*4670.0
+gnitteB*ssoL
+esolC
+)4610.0(
+)5040.0(
+)5930.0(
+)3540.0(
+)3140.0(
+)8830.0(
+)4930.0(
+6110.0
+3820.0
+4220.0
+2620.0
+3810.0
+5720.0
+4620.0
+niW
+tespU
+)6900.0(
+)7910.0(
+)3820.0(
+)4020.0(
+)6420.0(
+)7120.0(
+)9910.0(
+2200.0-
+3600.0
+5810.0
+7000.0
+1660.0
+1810.0
+5900.0
+gnitteB*niW
+tespU
+)8920.0(
+)0760.0(
+)5860.0(
+)1480.0(
+)4870.0(
+)2070.0(
+)8660.0(
+3310.0-
+3420.0-
+3640.0-
+3850.0-
+8630.0-
+1240.0-
+0930.0-
+gnitteB
+)0510.0(
+)5430.0(
+)6830.0(
+)4240.0(
+)5930.0(
+)5530.0(
+)9430.0(
+738,113
+458,103
+671,781
+515,272
+545,822
+285,482
+458,103
+N
+oN
+oN
+oN
+oN
+sraeY
+8
+sraeY
+4
+oN
+?tuC
+ycnegA
+oN
+oN
+oN
+seY
+oN
+oN
+oN
+?0202
+edulcxE
+llA
+llA
+yciloP
+llA
+llA
+llA
+llA
+?setatS
+elpmaS
+SLO
+moniB
+geN
+nossioP
+nossioP
+nossioP
+nossioP
+nossioP
+ledoM
+10.0
+<
+lav-P
+***
+;50.0
+<
+lav-P
+**
+;1.0
+<
+lav-P*
+detamitse
+si
+6
+nmuloc
+rof
+etamitsE
+.elbairav
+erusopxe
+na
+sa
+noitalupop
+gnisu
+ledom
+nossioP
+aiv
+detamitse
+era
+5
+ot
+1
+snmuloc
+rof
+setamitsE
+:setoN
+thgiew
+eht
+sa
+noitalupop
+gnisu
+SLO
+aiv
+detamitse
+si
+7
+nmuloc
+rof
+etamitsE
+.elbairav
+erusopxe
+na
+sa
+noitalupop
+gnisu
+ledom
+laimoniB
+evitageN
+aiv
+
+=== page 41 ===
+egareva
+,yadiloh
+rof
+rotacidni
+,stce!e
+dex
+fi
+nosaes
+eht
+fo
+keew
+,stce!e
+dex
+fi
+nosaes
+,stce!e
+dex
+fi
+ycnega
+rof
+slortnoc
+sedulcni
+noisserger
+yrevE
+.elbairav
+.level
+maet-yb-nosaes-yb-etats
+eht
+ta
+deretsulc
+era
+srorre
+dradnatS
+.noitatipicerp
+latot
+dna
+erutarepmet
+39
