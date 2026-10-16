@@ -1,78 +1,71 @@
-fips: '15'
+fips: "15"
 abbr: HI
 name: Hawaii
 profile_completeness: status_only
-summary: null
+summary: >-
+  Hawaii has not authorized sports wagering or any other commercial gambling. House Bill 1308 (2025) passed both
+  chambers in differing forms and died in conference committee, and House Bill 2570 (2026) advanced through House
+  committees; no measure had become law as of October 2026. Hawaii has no lottery, casinos or racing, and no state
+  body regulates wagering.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: hi-legislature
-    source_url: https://www.capitol.hawaii.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: hi-legislature
-    source_url: https://www.capitol.hawaii.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No Hawaii statute authorizes sports wagering. Gambling offenses are set out in Hawaii Revised Statutes chapter 712, part III (712-1220 et seq.).
+      url: https://www.capitol.hawaii.gov/
+    operator_model: null
+    notes: >-
+      HB 1308 (2025) passed the House 35 to 15 and the Senate 15 to 10 in differing versions and was rejected in
+      conference before the 2025 adjournment. HB 2570 and SB 3303 (2026) proposed online-only wagering with a 15
+      percent tax; the House Economic Development and Technology Committee advanced HB 2570 in February 2026
+      (Standing Committee Report 263-26). The final 2026 disposition could not be confirmed from a primary source
+      during this review.
+    provenance: &hileg
+      source_id: hi-legislature
+      source_url: https://data.capitol.hawaii.gov/sessions/session2026/CommReports/HB2570_HD1_HSCR263-26_.htm
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch2-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Status not_authorized retained; no search result reported enactment of a Hawaii sports wagering law. The
+        2026 committee report on HB 2570 is the only primary-domain document returned. Not confirmed by search on
+        2026-10-16 whether HB 2570 reached a final vote; re-check measure status on capitol.hawaii.gov after each
+        session.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No Hawaii statute authorizes online sports wagering.
+      url: https://www.capitol.hawaii.gov/
+    operator_model: null
+    notes: null
+    provenance: *hileg
 regulators:
-- name: No state body regulates sports wagering; none is authorized
-  url: null
-  type: none
-  roles: []
-  provenance:
-    source_id: hi-legislature
-    source_url: https://www.capitol.hawaii.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: No state body regulates sports wagering; none is authorized
+    url: null
+    type: none
+    roles: []
+    provenance:
+      <<: *hileg
+      source_url: https://www.capitol.hawaii.gov/
+      notes: Hawaii has no gaming commission or lottery. Proposed bills would have placed regulation under the Department of Business, Economic Development and Tourism or a new commission.
 legal_age: null
 tax: null
 consumer_protections: null
-limitations: null
+limitations:
+  - Hawaii is a comparison state with no legal gambling of any kind. Residents can and do use offshore sites, sweepstakes products and, depending on platform geofencing, federally regulated prediction markets; none of that activity appears in any state series.
+  - With no lottery or casino baseline, Hawaii problem gambling indicators are not comparable to those of states with established regulated markets.

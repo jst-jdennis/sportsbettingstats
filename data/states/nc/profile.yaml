@@ -1,81 +1,88 @@
-fips: '37'
+fips: "37"
 abbr: NC
 name: North Carolina
 profile_completeness: status_only
-summary: null
+summary: >-
+  North Carolina first permitted sports wagering at tribal casinos through 2019 legislation, and the Eastern Band
+  of Cherokee Indians opened retail sportsbooks in March 2021. House Bill 347 of 2023 authorized statewide
+  online wagering and additional retail locations under the North Carolina State Lottery Commission, with a
+  privilege tax on operators' gross wagering revenue; the Commission set a launch in the first half of 2024
+  and online wagering began in March 2024.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: tribal_lands_only
-  status: live
-  authorized_on: '2019-07-26'
-  launched_on: '2021-03-18'
-  authority:
-    type: statute
-    citation: HB 347 (2023); N.C.G.S. ch. 18C art. 9
-    url: https://www.ncleg.gov/
-  operator_model: mixed
-  notes: null
-  provenance:
-    source_id: nc-regulator
-    source_url: https://nclottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2023-06-14'
-  launched_on: '2024-03-11'
-  authority:
-    type: statute
-    citation: HB 347 (2023); N.C.G.S. ch. 18C art. 9
-    url: https://www.ncleg.gov/
-  operator_model: mixed
-  notes: null
-  provenance:
-    source_id: nc-regulator
-    source_url: https://nclottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: tribal_lands_only
+    status: live
+    authorized_on: "2019-07-26"
+    launched_on: "2021-03-18"
+    authority:
+      type: statute
+      citation: S.L. 2019-163 (SB 154, 2019), permitting sports wagering at tribal gaming facilities; HB 347 (2023), S.L. 2023-42, N.C.G.S. ch. 18C art. 9, which also authorizes retail sports wagering at places of public accommodation near professional sports venues
+      url: https://www.ncleg.gov/
+    operator_model: mixed
+    notes: >-
+      Tribal retail books operate under compacts and tribal regulation. HB 347 added a second retail category at
+      or near professional sports facilities, regulated by the Lottery Commission; whether any such location had
+      opened, and so whether scope should be statewide, was not confirmed on review.
+    provenance: &ncleg
+      source_id: nc-legislature
+      source_url: https://www.ncleg.gov/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch4-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Citation expanded to name the 2019 session law that covers the tribal retail channel; the seeded citation
+        named only HB 347. authorized_on (ratification of SB 154) and launched_on (Harrah's Cherokee) were not
+        confirmed by search on 2026-10-16; seeded values retained. Search returned the General Assembly's March
+        2023 fiscal memorandum on HB 347 (https://webservices.ncleg.gov/ViewDocSiteFile/76989) but no statute
+        page, so the homepage is cited. Source record moved from the Lottery homepage to the Legislature.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2023-06-14"
+    launched_on: "2024-03-11"
+    authority:
+      type: statute
+      citation: HB 347 (2023), S.L. 2023-42; N.C.G.S. ch. 18C art. 9 (interactive sports wagering operators licensed by the State Lottery Commission)
+      url: https://www.ncleg.gov/
+    operator_model: mixed
+    notes: The enacted bill allowed the Lottery Commission to set the start date within the first half of 2024, no earlier than January 8, 2024, and to award up to twelve interactive operator licenses.
+    provenance:
+      <<: *ncleg
+      notes: >-
+        Launch window confirmed by press accounts of the enacted bill; the March 11, 2024 launch date and the
+        June 14, 2023 signature were not confirmed on a North Carolina domain by search on 2026-10-16; seeded
+        values retained.
 regulators:
-- name: North Carolina State Lottery Commission
-  url: https://nclottery.com/
-  type: lottery
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: nc-regulator
-    source_url: https://nclottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: North Carolina State Lottery Commission
+    url: https://nclottery.com/
+    type: lottery
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance:
+      source_id: nc-regulator
+      source_url: https://nclottery.com/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch4-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Role confirmed by the General Assembly's fiscal memorandum and press accounts of HB 347. Search on
+        2026-10-16 returned no Commission sports wagering page, so the homepage is cited. Tribal retail books
+        are regulated by tribal gaming commissions, not the Lottery Commission.
 legal_age: null
 tax: null
 consumer_protections: null
-limitations: null
+limitations:
+  - The privilege tax on interactive operators (enacted at 18 percent of gross wagering revenue according to press accounts of the Senate amendments; the House version in the General Assembly's fiscal memorandum was 14 percent) and the promotional credit deduction schedule were not confirmed from the session law or G.S. 105-113.126 by search on 2026-10-16 and are left unentered.
+  - Tribal retail sportsbooks report no revenue to the state; Lottery Commission figures cover licensed interactive operators and Commission-regulated retail only.
+  - Minimum age (21), self-exclusion, deposit limit, advertising, credit card and helpline rules sit in G.S. ch. 18C art. 9 and Commission rules but were not read on review.

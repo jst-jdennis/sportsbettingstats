@@ -1,83 +1,171 @@
-fips: '22'
+fips: "22"
 abbr: LA
 name: Louisiana
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Louisiana voters in 55 of 64 parishes approved sports wagering in November 2020, and the Legislature enacted
+  the Louisiana Sports Wagering Act (Act 440 of 2021, SB 247) on June 21, 2021, with a separate tax act (HB 697)
+  signed June 4, 2021. Retail wagering began at casinos in late October 2021 and online wagering on January 28,
+  2022, in the approving parishes only. Act 298 of 2025 raised the tax on electronic wagers from 15 percent to
+  21.5 percent of net gaming proceeds.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2021-06-21'
-  launched_on: '2021-10-31'
-  authority:
-    type: statute
-    citation: Act 440 (2021); La. R.S. 27:601 et seq. Online wagering is permitted only in the 55 parishes
-      that approved it in November 2020
-    url: https://legis.la.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: la-regulator
-    source_url: https://lgcb.dps.louisiana.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2021-06-21'
-  launched_on: '2022-01-28'
-  authority:
-    type: statute
-    citation: Act 440 (2021); La. R.S. 27:601 et seq. Online wagering is permitted only in the 55 parishes
-      that approved it in November 2020
-    url: https://legis.la.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: la-regulator
-    source_url: https://lgcb.dps.louisiana.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2021-06-21"
+    launched_on: "2021-10-31"
+    authority:
+      type: statute
+      citation: Act 440 of 2021 (SB 247), Louisiana Sports Wagering Act, La. R.S. 27:601 et seq.; tax and fee provisions enacted by HB 697 of 2021. Wagering is permitted only in the 55 parishes that approved it in November 2020.
+      url: https://legis.la.gov/Legis/BillInfo.aspx?i=241042
+    operator_model: commercial
+    notes: Act 440 was signed 2021-06-21 and took effect 2021-07-01. Retail wagering is offered at licensed riverboat and land-based casinos, racetracks and, through kiosks, at some bars and restaurants in approving parishes.
+    provenance: &laleg
+      source_id: la-legislature
+      source_url: https://legis.la.gov/Legis/BillInfo.aspx?i=241042
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Signing date 2021-06-21 and effective date 2021-07-01 confirmed from the legislature's bill history page
+        on 2026-10-16. Retail launch date 2021-10-31 (Paragon Casino Resort with Betfred) appears in press only;
+        not confirmed by search on 2026-10-16; seeded value retained. HB 697's act number not confirmed.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2021-06-21"
+    launched_on: "2022-01-28"
+    authority:
+      type: statute
+      citation: Act 440 of 2021 (SB 247), La. R.S. 27:601 et seq. Online wagering is permitted only while the bettor is located in one of the 55 parishes that approved it in November 2020.
+      url: https://legis.la.gov/Legis/BillInfo.aspx?i=241042
+    operator_model: commercial
+    notes: Each of up to 20 licensees may operate up to two online platforms. Scope is recorded as statewide for the enum but is parish-limited; see the citation.
+    provenance:
+      <<: *laleg
+      notes: >-
+        Online launch date 2022-01-28 is attributed to the Louisiana Gaming Control Board in press reports; not
+        confirmed by a primary-domain result on 2026-10-16; seeded value retained.
 regulators:
-- name: Louisiana Gaming Control Board
-  url: https://lgcb.dps.louisiana.gov/
-  type: gaming_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: la-regulator
-    source_url: https://lgcb.dps.louisiana.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+  - name: Louisiana Gaming Control Board
+    url: https://lgcb.dps.louisiana.gov/
+    type: gaming_commission
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance: &lareg
+      source_id: la-regulator
+      source_url: https://lgcb.dps.louisiana.gov/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Act 440 adds sports wagering to the Board's existing authority. Enforcement and self-exclusion intake are
+        carried out by the Louisiana State Police Gaming Enforcement Division; revenue is published by the Board
+        and the Department of Revenue. Homepage used because search returned no specific sports wagering page.
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: Louisiana Gaming Control Board sports wagering rules as published in the Louisiana Register, Vol. 47, No. 10 (October 20, 2021) (persons under 21 are prohibited players and may not be targeted by advertising); La. R.S. 27:601 et seq.
+    provenance:
+      <<: *lareg
+      source_url: https://lgcb.dps.louisiana.gov/media/txgnmfm2/20211020-lgcbnoisports-wageringpublishedlouisiana-register.pdf
+      notes: Statute section stating the age (within R.S. 27:601 et seq.) not confirmed by search on 2026-10-16; the rulemaking notice is cited.
+tax:
+  - channel: retail
+    basis: adjusted_gross_revenue
+    rate: 0.10
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      The tax applies to net gaming proceeds, defined as gross wagers less winnings paid and eligible promotional
+      play. Under La. R.S. 27:627 eligible promotional play is the dollar amount of sports wagering promotional
+      play wagers actually redeemed, capped at 5,000,000 dollars per licensee per calendar year; a platform
+      provider serving several licensees may not claim more than the cap per licensee. A 2024 Third Extraordinary
+      Session bill (HB 22) proposed repealing R.S. 27:627; its enactment was not confirmed by search on 2026-10-16.
+    effective_from: "2021-10-31"
+    effective_to: null
+    destination:
+      - fund_name: State General Fund and dedicated funds including the Sports Wagering Purse Supplement Fund, early childhood education fund and local government allocations
+        share: null
+    authority_citation: La. R.S. 27:625(B) (10 percent of net gaming proceeds from wagers placed onsite)
+    provenance:
+      <<: *laleg
+      source_url: https://legis.la.gov/Legis/Law.aspx?d=1239411
+      notes: Rate and basis from the statute page. Destination shares not confirmed by search; the fiscal note for HB 639 (2025) describes the allocation, so share is left null.
+  - channel: online
+    basis: adjusted_gross_revenue
+    rate: 0.15
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: As above (R.S. 27:627 cap of 5,000,000 dollars per licensee per calendar year).
+    effective_from: "2022-01-28"
+    effective_to: "2025-07-31"
+    destination:
+      - fund_name: State General Fund and dedicated funds
+        share: null
+    authority_citation: La. R.S. 27:625(B) as enacted in 2021 (15 percent of net gaming proceeds from wagers placed electronically)
+    provenance:
+      <<: *laleg
+      source_url: https://legis.la.gov/Legis/Law.aspx?d=1239411
+      notes: The 15 percent rate is recited in the 2025 amending bill (HB 639) as the prior law. effective_to assumes the 2025 act took effect 2025-08-01; see the next record.
+  - channel: online
+    basis: adjusted_gross_revenue
+    rate: 0.215
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: As above (R.S. 27:627); the 2025 act did not alter the promotional play provision in the text retrieved.
+    effective_from: "2025-08-01"
+    effective_to: null
+    destination:
+      - fund_name: Supporting Programs, Opportunities, Resources, and Teams (SPORT) Fund and postsecondary inclusive education fund (new allocations under Act 298 of 2025), with the balance as before
+        share: null
+    authority_citation: Act 298 of 2025 (HB 639), amending La. R.S. 27:625(B) to 21.5 percent of net gaming proceeds from electronic wagers
+    provenance:
+      <<: *laleg
+      source_url: https://legis.la.gov/legis/ViewDocument.aspx?d=1425612
+      notes: >-
+        Rate confirmed from the enrolled act. The effective date of 2025-08-01 is the default effective date for
+        2025 Regular Session acts and was not confirmed from the act text by search on 2026-10-16; confirm before
+        verification.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Louisiana Gaming Control Board, with intake by the Louisiana State Police Gaming Enforcement Division
+    durations: null
+    covers: [casinos, video_poker, sports_wagering_retail, sports_wagering_online]
+    enrollment_methods: [in_person, mail]
+    url: https://lgcb.dps.louisiana.gov/media/marptxjv/requestforselfexclusion.pdf?d=85042
+    notes: >-
+      La. R.S. 27:27.1 directs the Board to maintain a confidential self-exclusion list and requires licensees to
+      remove listed persons from targeted mailings and promotions and to deny them credit and complimentaries.
+      The Board's January 2022 emergency rule extended the program to sports wagering. Duration options and any
+      online enrollment route not confirmed by search on 2026-10-16.
+    provenance:
+      <<: *lareg
+      source_url: https://lgcb.dps.louisiana.gov/media/marptxjv/requestforselfexclusion.pdf?d=85042
+  deposit_limits: null
+  advertising:
+    - rule_type: no_under_age_targeting
+      text: Licensees and operators must ensure that sports wagering advertisements do not target prohibited players, persons under 21, or self-restricted or excluded persons, and must not send marketing to self-restricted or self-excluded persons during their exclusion period.
+      authority_citation: Louisiana Gaming Control Board sports wagering rules, Louisiana Register Vol. 47, No. 10 (October 20, 2021)
+      provenance:
+        <<: *lareg
+        source_url: https://lgcb.dps.louisiana.gov/media/txgnmfm2/20211020-lgcbnoisports-wageringpublishedlouisiana-register.pdf
+        notes: Cited from the rulemaking notice; confirm the codified Louisiana Administrative Code section before verification.
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+  - Louisiana taxes net gaming proceeds after a capped promotional play deduction, so its taxable revenue is lower than gross revenue and is not directly comparable to states that tax gross revenue.
+  - Online wagering is available only in the 55 approving parishes; statewide per capita figures understate exposure in those parishes and overstate it in the nine that opted out.
+  - The online tax rate changed in 2025, so year over year tax collections are not a measure of market growth across that boundary.

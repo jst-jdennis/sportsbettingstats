@@ -1,81 +1,96 @@
-fips: '10'
+fips: "10"
 abbr: DE
 name: Delaware
 profile_completeness: status_only
-summary: null
+summary: >-
+  Delaware's sports lottery statute was re-enacted by House Substitute 1 for House Bill 100, signed on May 14,
+  2009, and parlay wagering on NFL games began that September under the state's PASPA exemption. Full single-game
+  wagering began at the three racetrack casinos on June 5, 2018. The Delaware Lottery operates sports wagering
+  directly through its agents and, since late December 2023, through a single mobile vendor, so the state's take
+  is a statutory share of proceeds rather than a tax on licensees.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2009-05-14'
-  launched_on: '2018-06-05'
-  authority:
-    type: statute
-    citation: Del. Code tit. 29, ch. 48
-    url: https://delcode.delaware.gov/title29/c048/
-  operator_model: lottery_monopoly
-  notes: null
-  provenance:
-    source_id: de-regulator
-    source_url: https://www.delottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2009-05-14'
-  launched_on: '2023-12-27'
-  authority:
-    type: statute
-    citation: Del. Code tit. 29, ch. 48
-    url: https://delcode.delaware.gov/title29/c048/
-  operator_model: lottery_monopoly
-  notes: null
-  provenance:
-    source_id: de-regulator
-    source_url: https://www.delottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2009-05-14"
+    launched_on: "2018-06-05"
+    authority:
+      type: statute
+      citation: Del. Code tit. 29, ch. 48 (State Lottery), including Section 4825 (sports lottery), as amended by House Substitute 1 for House Bill 100 (145th General Assembly, 2009)
+      url: https://delcode.delaware.gov/title29/c048/
+    operator_model: lottery_monopoly
+    notes: Retail sports wagering is offered at the three video lottery agents (Delaware Park, Bally's Dover and Harrington Raceway) and parlay cards at licensed retailers. Parlay-only wagering ran from September 2009; single-game wagering began 2018-06-05 after Murphy v. NCAA. Wagers on collegiate events involving a Delaware school are prohibited.
+    provenance: &deleg
+      source_id: de-legislature
+      source_url: https://legis.delaware.gov/BillDetail/20323
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch1-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Signing date 2009-05-14 confirmed by search on 2026-10-16 against the General Assembly's bill record for HS 1 for HB 100. Launch date 2018-06-05 confirmed against the Office of the Governor release (https://news.delaware.gov/2018/05/31/sports-gaming-june-5 and https://news.delaware.gov/2018/06/06/sportspick/); no publisher entry exists for the Governor's office, so the release is cited here in notes..
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2009-05-14"
+    launched_on: "2023-12-27"
+    authority:
+      type: statute
+      citation: Del. Code tit. 29, ch. 48 (internet sports lottery operated by the Lottery through a contracted vendor)
+      url: https://delcode.delaware.gov/title29/c048/
+    operator_model: lottery_monopoly
+    notes: A single mobile sportsbook (BetRivers, operated by Rush Street Interactive under a Lottery vendor contract awarded in 2023) soft launched on 2023-12-27 and was announced as fully available on 2024-01-03.
+    provenance:
+      <<: *deleg
+      notes: Internet sports lottery authority appears to derive from the Delaware Gaming Competitiveness Act of 2012 (HB 333) rather than the 2009 act; this was not confirmed by search on 2026-10-16 and the seeded authorized_on is retained for the reviewer to check. The 2023-12-27 launch date appears only in press reports; not confirmed on a primary page by search on 2026-10-16; seeded value retained.
 regulators:
-- name: Delaware Lottery
-  url: https://www.delottery.com/
-  type: lottery
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: de-regulator
-    source_url: https://www.delottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
+  - name: Delaware Lottery (Department of Finance)
+    url: https://www.delottery.com/
+    type: lottery
+    roles: [operation, licensing, revenue_reporting]
+    provenance:
+      <<: *deleg
+      source_url: https://www.delottery.com/
+      notes: Role as operator confirmed by search on 2026-10-16 (the statute directs the Lottery Director to conduct the sports lottery). Enforcement is shared with the Division of Gaming Enforcement in the Department of Safety and Homeland Security, which was not confirmed by search and is not entered. Homepage cited because search returned no specific sports lottery page.
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: Del. Code tit. 29, Section 4810(a) (no person under 21 may wager on the sports lottery), as enacted by HS 1 for HB 100 (2009)
+    provenance:
+      <<: *deleg
+      notes: Confirmed by search on 2026-10-16 against the bill synopsis and a session law amending Section 4810; the current code page was not opened from this container.
 tax: null
-consumer_protections: null
-limitations: null
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Delaware Lottery
+    durations: null
+    covers: [video_lottery_casinos, sports_lottery_retail, internet_lottery_and_sports]
+    enrollment_methods: [in_person]
+    url: null
+    notes: The Lottery maintains the statewide self-exclusion list. Regulations require a request to be submitted in person at the Lottery office in Dover with photo identification, and require internet lottery and sports systems to check registrations against the list (10 Del. Admin. Code 206-13.0). Term options were not confirmed by search on 2026-10-16.
+    provenance:
+      source_id: de-regulator
+      source_url: https://regulations.delaware.gov/AdminCode/title10/200/206.shtml
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch1-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: Section 13.0
+      notes: The Lottery's internet lottery regulation (10 Del. Admin. Code 206) was found by search through a reproduction; the regulations.delaware.gov URL follows the Administrative Code pattern and was not opened from this container.
+  deposit_limits: null
+  advertising: null
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+  - Delaware has no sports wagering tax. The state's share is a statutory distribution of sports lottery proceeds among the State, the video lottery agents, horse racing purses and the vendor under Del. Code tit. 29, Section 4815; the current shares were not confirmed by search on 2026-10-16 and the tax section is left unentered rather than estimated.
+  - Delaware figures are not comparable with commercial states because the Lottery is the operator, there is one mobile vendor, and the published monthly figures are net proceeds after payouts rather than operator revenue.
+  - A material share of Delaware retail handle before 2018 came from residents of neighboring states where wagering was then illegal, and the launch of Pennsylvania, New Jersey and Maryland markets changed that pattern.

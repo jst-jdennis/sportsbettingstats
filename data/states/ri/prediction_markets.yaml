@@ -1,0 +1,67 @@
+fips: "44"
+as_of: "2026-10-16"
+review_note: >-
+  The Attorney General's press release announcing the state's suit against Kalshi and Polymarket was located on
+  riag.ri.gov by search on 2026-10-16 but could not be opened from this container; the release date and the court
+  filing details below are taken from trade coverage dated 2026-05-22 to 2026-05-26 and must be checked against the
+  release and the Superior Court docket.
+operating_platforms:
+  - platform: Kalshi
+    offers_sports_contracts: true
+    offers_in_state: "yes"
+    basis: court_filing
+    provenance: &riag
+      source_id: ri-attorney-general
+      source_url: https://riag.ri.gov/press-releases/attorney-general-neronha-sues-kalshi-and-polymarket-unlawfully-conducting-sports
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch5-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: The state's complaint alleges both platforms offer sports event contracts to Rhode Island residents.
+  - platform: Polymarket
+    offers_sports_contracts: true
+    offers_in_state: "yes"
+    basis: court_filing
+    provenance: *riag
+state_actions:
+  - action_type: lawsuit_filed
+    date: "2026-05-22"
+    issuing_body: Rhode Island Attorney General
+    target: KalshiEX LLC and Polymarket
+    summary: The Attorney General sued in Rhode Island Superior Court seeking a declaration that the platforms' sports
+      event contracts are sports wagering subject to Rhode Island gambling law, under which sports wagering may be
+      offered only through the state's Sportsbook Rhode Island platform, and related relief.
+    document_url: https://riag.ri.gov/press-releases/attorney-general-neronha-sues-kalshi-and-polymarket-unlawfully-conducting-sports
+    provenance:
+      <<: *riag
+      notes: Date is the date of the earliest trade coverage (2026-05-22); the release date itself was not read. Confirm the
+        filing date from the Superior Court docket.
+litigation:
+  - case_name: State of Rhode Island v. KalshiEX LLC and Polymarket
+    court: Rhode Island Superior Court
+    docket: null
+    filed_on: "2026-05-22"
+    status: pending
+    posture_note: >-
+      Newly filed as of the as_of date; no ruling on preliminary relief or the merits was found. Filing date per
+      trade coverage, to be confirmed against the docket.
+    rulings: null
+    provenance: *riag
+  - case_name: KalshiEX LLC v. Neronha et al.
+    court: US District Court for the District of Rhode Island
+    docket: null
+    filed_on: null
+    status: pending
+    posture_note: >-
+      Kalshi filed a preemptive federal suit against Rhode Island officials shortly before the state's action,
+      seeking to block anticipated enforcement on Commodity Exchange Act preemption grounds. No ruling was found as
+      of the as_of date. Caption, filing date and docket to be taken from the docket.
+    rulings: null
+    provenance:
+      <<: *riag
+      notes: The federal suit is described in the Attorney General's release as reported by press; the complaint quotes
+        the Lottery director describing an active investigation into prediction markets.

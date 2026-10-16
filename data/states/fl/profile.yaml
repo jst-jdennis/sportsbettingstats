@@ -1,83 +1,123 @@
-fips: '12'
+fips: "12"
 abbr: FL
 name: Florida
 profile_completeness: status_only
-summary: null
+summary: >-
+  Florida sports wagering operates under the 2021 Gaming Compact between the Seminole Tribe of Florida and the
+  State, executed April 23, 2021 and ratified by the Legislature in Senate Bill 2-A (2021A). The Tribe is the sole
+  operator; mobile wagers placed anywhere in Florida are routed through servers on tribal land, and the Tribe
+  contracts with pari-mutuel permitholders for marketing. Federal approval of the compact was set aside by the US
+  District Court for the District of Columbia on November 22, 2021, and wagering resumed in late 2023 after that
+  ruling was reversed on appeal.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: tribal_lands_only
-  status: live
-  authorized_on: '2021-05-25'
-  launched_on: '2023-12-07'
-  authority:
-    type: compact
-    citation: 2021 Gaming Compact between the Seminole Tribe of Florida and the State of Florida; Fla.
-      Stat. 285.710
-    url: https://flgaming.gov/
-  operator_model: tribal_exclusive
-  notes: null
-  provenance:
-    source_id: fl-regulator
-    source_url: https://flgaming.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2021-05-25'
-  launched_on: '2023-11-07'
-  authority:
-    type: compact
-    citation: 2021 Gaming Compact between the Seminole Tribe of Florida and the State of Florida; Fla.
-      Stat. 285.710
-    url: https://flgaming.gov/
-  operator_model: tribal_exclusive
-  notes: null
-  provenance:
-    source_id: fl-regulator
-    source_url: https://flgaming.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: tribal_lands_only
+    status: live
+    authorized_on: "2021-05-25"
+    launched_on: "2023-12-07"
+    authority:
+      type: compact
+      citation: 2021 Gaming Compact between the Seminole Tribe of Florida and the State of Florida (executed April 23, 2021), ratified by CS for SB 2-A (2021A) amending Fla. Stat. 285.710
+      url: https://www.flsenate.gov/PublishedContent/Offices/2020-2022/President/Documents/Summaryof2021Compact.pdf
+    operator_model: tribal_exclusive
+    notes: Retail sportsbooks operate at Seminole Tribe casinos. Pari-mutuel permitholders participate through marketing agreements with the Tribe rather than as licensed operators.
+    provenance: &flcompact
+      source_id: fl-legislature
+      source_url: https://www.flsenate.gov/PublishedContent/Offices/2020-2022/President/Documents/Summaryof2021Compact.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch2-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Compact execution date (2021-04-23), term (through 2051-07-31) and tribal exclusivity confirmed against the
+        Florida Senate summary of the 2021 compact and the SB 2-A bill summary (flsenate.gov). authorized_on
+        2021-05-25 (date the ratifying act was signed) is Not confirmed by search on 2026-10-16; seeded value
+        retained. Note that SB 2-A by its terms took effect on publication of the compact's effective date in the
+        Federal Register, which may be the better authorized_on date. launched_on 2023-12-07 (retail at three
+        Seminole casinos) is from trade press only; seeded value retained.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2021-05-25"
+    launched_on: "2023-11-07"
+    authority:
+      type: compact
+      citation: 2021 Gaming Compact, Part III (sports betting by persons physically located in Florida using a mobile or other electronic device through sportsbooks operated by the Tribe); Fla. Stat. 285.710 as amended by CS for SB 2-A (2021A)
+      url: https://www.flsenate.gov/PublishedContent/Offices/2020-2022/President/Documents/Summaryof2021Compact.pdf
+    operator_model: tribal_exclusive
+    notes: >-
+      The Hard Rock Bet app operated for 34 days in late 2021 before the compact's federal approval was vacated,
+      relaunched to a limited group of prior customers on 2023-11-07 and opened to all Florida bettors on
+      2023-12-07, per trade press. The seeded launched_on records the 2023 relaunch, not the 2021 launch.
+    provenance:
+      <<: *flcompact
+      notes: >-
+        Scope and operator model confirmed against the Senate compact summary. authorized_on and launched_on: Not
+        confirmed by search on 2026-10-16; seeded value retained. A reviewer should decide whether launched_on should
+        be the 2021 first wager date (about 2021-11-01) or the 2023 relaunch.
 regulators:
-- name: Florida Gaming Control Commission
-  url: https://flgaming.gov/
-  type: gaming_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: fl-regulator
-    source_url: https://flgaming.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: Florida Gaming Control Commission
+    url: https://flgaming.gov/
+    type: gaming_commission
+    roles: [compact_compliance, enforcement]
+    provenance:
+      source_id: fl-regulator
+      source_url: https://flgaming.gov/pmw/annual-reports/docs/2022-2023%20FGCC%20Annual%20Report.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch2-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Corrected from [licensing, enforcement, revenue_reporting]: the Commission's 2022 to 2023 annual report
+        describes it as the State Compliance Agency for oversight of the compact; sports wagering is conducted only by
+        the Tribe under the compact, so the Commission issues no sports wagering operator licenses and the state does
+        not publish operator-level sports wagering revenue, per
+        https://flgaming.gov/pmw/annual-reports/docs/2022-2023%20FGCC%20Annual%20Report.pdf. The Seminole Tribal
+        Gaming Commission regulates day to day operations on tribal land; no source entry exists for it.
 legal_age: null
-tax: null
+tax:
+  - channel: all
+    basis: revenue_share_compact
+    rate: 0.1375
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      The compact share is 13.75 percent of the Tribe's net win on sports betting, excluding net win from sports
+      betting conducted through pari-mutuel marketing partners, which is shared at 10 percent. Net win is a compact
+      defined term; the treatment of promotional credits within it was not confirmed by search.
+    effective_from: "2021-04-23"
+    effective_to: null
+    destination: null
+    authority_citation: 2021 Gaming Compact, Part XI (revenue share); Florida Senate Summary of 2021 Gaming Compact (tribal sports betting at 13.75 percent of net win; guaranteed minimum of 2.5 billion dollars over the first five years)
+    provenance:
+      <<: *flcompact
+      notes: >-
+        Florida has no sports wagering tax; the state's receipt is a compact revenue share paid by the Tribe.
+        effective_from is the compact execution date; payments were suspended from March 2022 while federal approval
+        was vacated and resumed in 2024 per Florida Senate bill analyses. Part number of the compact to be confirmed
+        against the compact text.
+  - channel: all
+    basis: revenue_share_compact
+    rate: 0.10
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: Share of net win on sports betting conducted through pari-mutuel permitholder marketing agreements. Promotional credit treatment not confirmed.
+    effective_from: "2021-04-23"
+    effective_to: null
+    destination: null
+    authority_citation: 2021 Gaming Compact; Florida Senate Summary of 2021 Gaming Compact (pari-mutuel sports betting shared at 10 percent of net win)
+    provenance: *flcompact
 consumer_protections: null
-limitations: null
+limitations:
+  - Florida publishes no operator-level sports wagering handle or revenue; the only public figures are the Tribe's aggregate revenue share payments reported in state budget documents, which cover all compact gaming, not sports wagering alone.
+  - The market operated for 34 days in late 2021, was dark from December 2021 to November 2023 during federal litigation over the compact, and relaunched in stages; any time series must account for the gap.

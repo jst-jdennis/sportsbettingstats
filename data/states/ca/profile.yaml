@@ -1,78 +1,60 @@
-fips: '06'
+fips: "06"
 abbr: CA
 name: California
 profile_completeness: status_only
-summary: null
+summary: >-
+  California has not authorized sports wagering. Two competing ballot measures in November 2022, Proposition 26
+  (in-person wagering at tribal casinos and racetracks) and Proposition 27 (online wagering), both failed by wide
+  margins. Tribal casinos operate Class III gaming under compacts that do not cover sports wagering, and no
+  authorizing statute or initiative has qualified since.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering; Propositions 26 and 27 failed in November 2022
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: ca-legislature
-    source_url: https://leginfo.legislature.ca.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering; Propositions 26 and 27 failed in November 2022
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: ca-legislature
-    source_url: https://leginfo.legislature.ca.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No California statute authorizes sports wagering. Cal. Const. art. IV, Section 19 limits gambling to forms specifically authorized; Propositions 26 and 27 failed at the November 8, 2022 general election.
+      url: null
+    operator_model: null
+    notes: Proposition 26 would have authorized in-person wagering at tribal casinos and the four privately operated horse racetracks.
+    provenance: &caleg
+      source_id: ca-legislature
+      source_url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CONS&sectionNum=SEC.%2019.&article=IV
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch1-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Search on 2026-10-16 found no enacted authorization and press confirmation that Propositions 26 and 27 failed in November 2022; the Secretary of State's certified results page was not returned by search and should be archived at review. The constitution section URL follows the leginfo pattern and was not opened from this container. Absence must be re-confirmed after each session and each initiative cycle.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No California statute authorizes online sports wagering; Proposition 27 (2022) failed.
+      url: null
+    operator_model: null
+    notes: null
+    provenance: *caleg
 regulators:
-- name: No state body regulates sports wagering; none is authorized
-  url: null
-  type: none
-  roles: []
-  provenance:
-    source_id: ca-legislature
-    source_url: https://leginfo.legislature.ca.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: No state body regulates sports wagering; none is authorized
+    url: null
+    type: none
+    roles: []
+    provenance: *caleg
 legal_age: null
 tax: null
 consumer_protections: null
-limitations: null
+limitations:
+  - California is the largest comparison state with no regulated sports wagering. Residents may use offshore sites, sweepstakes products and, depending on platform geofencing, federally regulated prediction markets; none of that activity appears in any state revenue series.
+  - Problem gambling indicators for California reflect all gambling, including a large tribal casino and cardroom market, and cannot be read as sports wagering effects.
+  - The California Attorney General has joined multistate amicus briefs defending other states' enforcement against prediction market operators (most recently in KalshiEx LLC v. Schuler, Sixth Circuit, on 2026-06-12) but search found no California cease and desist, advisory or lawsuit directed at a platform; that history is tracked in prediction_markets.yaml if and when a state action is found.

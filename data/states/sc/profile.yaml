@@ -2,7 +2,10 @@ fips: '45'
 abbr: SC
 name: South Carolina
 profile_completeness: status_only
-summary: null
+summary: >-
+  South Carolina has not authorized sports wagering in any form; the only legal gambling is the Education Lottery and
+  charitable bingo. Bills to create a regulated market, most recently H 3625 and its Senate companion S 444 in the
+  2025 to 2026 session, have been introduced but not enacted, and the governor has opposed gambling expansion.
 legal_status:
 - market_segment: regulated_sportsbook
   channel: retail
@@ -12,23 +15,25 @@ legal_status:
   launched_on: null
   authority:
     type: none
-    citation: No statute authorizes sports wagering
+    citation: No South Carolina statute authorizes sports wagering. H 3625 and S 444 (2025 to 2026 session) would have created a Sports Wagering Commission and a 12.5 percent privilege tax; neither was enacted as of 2026-10-16.
     url: null
   operator_model: null
-  notes: null
-  provenance:
+  notes: S 444 was reported to have cleared a Senate committee in February 2026; confirm the bill's final status on
+    scstatehouse.gov after the session.
+  provenance: &scleg
     source_id: sc-legislature
     source_url: https://www.scstatehouse.gov/
     archive_url: null
     retrieved_at: '2026-10-16'
     retrieval_method: manual_entry
     transform: null
-    entered_by: claude-draft-2026-10-16
+    entered_by: agent-batch5-2026-10-16
     reviewed_by: null
     status: pending_review
     page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+    notes: Not confirmed by search on 2026-10-16 beyond secondary trackers that agree no authorization exists; seeded value
+      retained. No scstatehouse.gov bill page was returned by search; the H 3625 and S 444 bill pages should be cited
+      once archived. Absence of authorization must be re-confirmed after each session.
 - market_segment: regulated_sportsbook
   channel: online
   scope: not_applicable
@@ -37,42 +42,25 @@ legal_status:
   launched_on: null
   authority:
     type: none
-    citation: No statute authorizes sports wagering
+    citation: No South Carolina statute authorizes online sports wagering.
     url: null
   operator_model: null
   notes: null
-  provenance:
-    source_id: sc-legislature
-    source_url: https://www.scstatehouse.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  provenance: *scleg
 regulators:
 - name: No state body regulates sports wagering; none is authorized
   url: null
   type: none
   roles: []
   provenance:
-    source_id: sc-legislature
-    source_url: https://www.scstatehouse.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+    <<: *scleg
+    notes: Not confirmed by search on 2026-10-16; seeded value retained. The South Carolina Education Lottery Commission
+      and the Attorney General would be the relevant bodies if a market were authorized.
 legal_age: null
 tax: null
 consumer_protections: null
-limitations: null
+limitations:
+- South Carolina is a comparison state with no regulated sports wagering. Residents can and do use offshore sites,
+  sweepstakes products and, depending on platform geofencing, federally regulated prediction markets; none of that
+  appears in any state revenue series.
+- No action by a South Carolina state body against a prediction market platform was found by search on 2026-10-16.

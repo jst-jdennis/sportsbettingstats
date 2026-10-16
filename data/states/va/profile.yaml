@@ -1,81 +1,123 @@
-fips: '51'
+fips: "51"
 abbr: VA
 name: Virginia
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Virginia authorized sports wagering in April 2020 when the General Assembly accepted the Governor's
+  amendments to HB 896 and SB 384. The Virginia Lottery licenses and regulates permit holders and publishes
+  monthly activity reports. Online wagering began on January 21, 2021; retail sportsbooks followed once the
+  first casino opened in 2022. Permit holders pay 15 percent of adjusted gross revenue, with promotional
+  deductions limited to an operator's first twelve months.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2020-04-22'
-  launched_on: '2022-07-08'
-  authority:
-    type: statute
-    citation: HB 896 (2020); Va. Code 58.1-4030 et seq.
-    url: https://lis.virginia.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: va-regulator
-    source_url: https://www.valottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2020-04-22'
-  launched_on: '2021-01-21'
-  authority:
-    type: statute
-    citation: HB 896 (2020); Va. Code 58.1-4030 et seq.
-    url: https://lis.virginia.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: va-regulator
-    source_url: https://www.valottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2020-04-22"
+    launched_on: "2022-07-08"
+    authority:
+      type: statute
+      citation: HB 896 and SB 384 (2020 Regular Session); Va. Code 58.1-4030 et seq. (Sports Betting, Chapter 40 of Title 58.1)
+      url: https://law.lis.virginia.gov/vacode/title58.1/chapter40/
+    operator_model: commercial
+    notes: Retail sports wagering is permitted at licensed casinos and certain sports venues. The first casino, a temporary Hard Rock facility in Bristol, opened in July 2022.
+    provenance: &valeg
+      source_id: va-legislature
+      source_url: https://law.lis.virginia.gov/vacode/title58.1/chapter40/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch6-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: "Statute citation confirmed by Virginia Lottery monthly reports filed with the legislature (rga.lis.virginia.gov), which cite Va. Code 58.1-4030 et seq. as enacted in the 2020 Regular Session. authorized_on 2020-04-22 is the date both chambers accepted the Governor's amendments, making the bills law; the act took effect 2020-07-01 per press reports. Retail launch date 2022-07-08 not confirmed by search on 2026-10-16; seeded value retained. Citation URL sharpened from the LIS homepage to Chapter 40."
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2020-04-22"
+    launched_on: "2021-01-21"
+    authority:
+      type: statute
+      citation: HB 896 and SB 384 (2020 Regular Session); Va. Code 58.1-4030 et seq.
+      url: https://law.lis.virginia.gov/vacode/title58.1/chapter40/
+    operator_model: commercial
+    notes: Online permits are issued directly by the Lottery and do not require a casino partner. The Lottery's first monthly report covers January 2021.
+    provenance:
+      <<: *valeg
+      notes: Online launch date 2021-01-21 is consistent across press reports and with the Lottery's first monthly report (January 2021, rga.lis.virginia.gov RD123 of 2021); exact day not confirmed on a primary page by search on 2026-10-16.
 regulators:
-- name: Virginia Lottery
-  url: https://www.valottery.com/
-  type: lottery
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: va-regulator
-    source_url: https://www.valottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+  - name: Virginia Lottery
+    url: https://www.valottery.com/
+    type: lottery
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance: &valot
+      source_id: va-regulator
+      source_url: https://www.valottery.com/playingmatters/voluntaryexclusionprogram
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch6-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Confirmed. The Lottery Board adopts regulations (11VAC5-70) and the Lottery files monthly sports betting reports with the General Assembly.
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: Va. Code 58.1-4034(E) and 11VAC5-70-240 (advertising may not target persons under 21; permit holders must state the minimum legal age of 21). The prohibition on wagers by persons under 21 is in Va. Code 58.1-4041; section number to be confirmed.
+    provenance: *valeg
+tax:
+  - channel: all
+    basis: adjusted_gross_revenue
+    rate: 0.15
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: Adjusted gross revenue is wagers less cash winnings, voided wagers, federal excise taxes and eligible noncash winnings (bonuses and promotional credits). Since the 2022 Appropriation Act, continued in later budgets, noncash winnings are deductible only during a permit holder's first twelve months of operation. A negative monthly balance may be carried forward for up to twelve months.
+    effective_from: "2021-01-21"
+    effective_to: null
+    destination:
+      - fund_name: General Fund
+        share: 0.975
+      - fund_name: Problem Gambling Treatment and Support Fund
+        share: 0.025
+    authority_citation: Va. Code 58.1-4037 (15 percent of adjusted gross revenue); Va. Code 58.1-4038 (2.5 percent of tax to the Problem Gambling Treatment and Support Fund, remainder to the general fund); Appropriation Act language limiting noncash winnings deductions
+    provenance:
+      <<: *valeg
+      source_url: https://law.lis.virginia.gov/vacode/title58.1/chapter40/section58.1-4037/
+      notes: Rate, base and distribution as described in the Virginia Lottery's monthly sports betting reports filed with the legislature (rga.lis.virginia.gov), which cite 58.1-4037 and 58.1-4038. The twelve month promotional deduction limit took effect with the 2022 to 2024 biennial budget; the original 2020 act allowed the deduction without a time limit. Confirm the budget item number before verification.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Virginia Lottery (Voluntary Exclusion Program)
+    durations: [2 years, 5 years, lifetime]
+    covers: [casinos, sports_wagering_retail, sports_wagering_online, account_based_lottery, charitable_gaming, horse_racing]
+    enrollment_methods: [online, in_person]
+    url: https://www.valottery.com/playingmatters/voluntaryexclusionprogram
+    notes: Two and five year exclusions can be requested online; lifetime exclusion requires an in-person appointment and is irreversible. Operators must stop direct marketing to enrolled persons.
+    provenance:
+      <<: *valot
+      notes: Durations, scope and enrollment methods as stated on the Lottery's program page. Statutory basis is Va. Code 58.1-4015.1.
+  deposit_limits: null
+  advertising:
+    - rule_type: no_under_age_targeting
+      text: Advertising, marketing and promotional materials may not target persons under 21, may not use imagery, endorsements or language designed to appeal to persons under 21, may not feature anyone who is or appears to be under 21 (except professional athletes who are minors), and may not be placed in media outlets that appeal primarily to persons under 21.
+      authority_citation: Va. Code 58.1-4034(E); 11VAC5-70-240 (as amended 2025)
+      provenance:
+        <<: *valeg
+        source_url: https://law.lis.virginia.gov/admincode/title11/agency5/chapter70/section240/
+    - rule_type: responsible_gambling_message_required
+      text: Advertisements must disclose the identity of the permit holder, provide information about or links to resources related to gambling addiction, and must not be misleading to a reasonable person.
+      authority_citation: Va. Code 58.1-4034(E)
+      provenance:
+        <<: *valeg
+        source_url: https://law.lis.virginia.gov/vacode/title58.1/chapter40/section58.1-4034/
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+  - Virginia reports adjusted gross revenue after promotional and other deductions, which is not comparable with gross revenue series such as New Jersey's. The deduction rule changed in 2022, so taxable revenue series before and after that date are not on the same basis.
+  - Retail wagering is a small share of Virginia handle because the first casino opened eighteen months after online launch.
+  - No Virginia Lottery or Attorney General cease and desist, lawsuit or advisory opinion directed at a prediction market platform was found by search on 2026-10-16; absence of a record is not a finding that none exists.

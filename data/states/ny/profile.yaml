@@ -1,81 +1,102 @@
-fips: '36'
+fips: "36"
 abbr: NY
 name: New York
 profile_completeness: status_only
-summary: null
+summary: >-
+  New York authorized sports wagering at its four upstate commercial casinos in the 2013 Upstate New York Gaming
+  Economic Development Act, and retail sportsbooks opened in July 2019 after the federal prohibition fell.
+  Mobile wagering was added by the state fiscal year 2022 budget in April 2021 and launched on January 8,
+  2022 through platform providers selected by the Gaming Commission, which pay the state 51 percent of mobile
+  gross gaming revenue. The New York State Gaming Commission regulates both channels and publishes weekly and
+  monthly figures.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2013-07-30'
-  launched_on: '2019-07-16'
-  authority:
-    type: statute
-    citation: Racing, Pari-Mutuel Wagering and Breeding Law 1367 and 1367-a
-    url: https://www.gaming.ny.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: ny-regulator
-    source_url: https://www.gaming.ny.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2021-04-19'
-  launched_on: '2022-01-08'
-  authority:
-    type: statute
-    citation: Racing, Pari-Mutuel Wagering and Breeding Law 1367 and 1367-a
-    url: https://www.gaming.ny.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: ny-regulator
-    source_url: https://www.gaming.ny.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2013-07-30"
+    launched_on: "2019-07-16"
+    authority:
+      type: statute
+      citation: Racing, Pari-Mutuel Wagering and Breeding Law 1367 (sports wagering lounges at licensed gaming facilities)
+      url: https://www.gaming.ny.gov/
+    operator_model: commercial
+    notes: Retail wagering is offered at the four commercial casinos and, under compacts, at tribal casinos. The first commercial retail book opened at Rivers Casino in Schenectady.
+    provenance: &nygc
+      source_id: ny-regulator
+      source_url: https://www.gaming.ny.gov/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch4-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Not confirmed by search on 2026-10-16; seeded values retained. Search returned no Gaming Commission or
+        Senate statute page for section 1367; the authorization date (signature of the 2013 Act) and the July
+        16, 2019 launch rest on secondary knowledge. Cite the statute page on nysenate.gov and the Commission's
+        2019 approval before verification.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2021-04-19"
+    launched_on: "2022-01-08"
+    authority:
+      type: statute
+      citation: Racing, Pari-Mutuel Wagering and Breeding Law 1367-a (mobile sports wagering through platform providers selected by the Commission)
+      url: https://www.gaming.ny.gov/
+    operator_model: commercial
+    notes: The Commission approved four of the nine selected platform providers to begin accepting wagers at 9 a.m. on January 8, 2022; the remainder followed. Servers must be located at a licensed casino.
+    provenance:
+      <<: *nygc
+      notes: >-
+        Launch date is consistent with the Governor's office release of February 14, 2022 reporting the first
+        30 days of mobile wagering
+        (https://www.governor.ny.gov/news/governor-hochul-announces-nearly-2-billion-wagers-over-first-30-days-mobile-sports-wagering),
+        a publisher not in the source registry, and with press reports of the Commission's approval. The
+        authorization date (budget signature, April 19, 2021) was not confirmed by search on 2026-10-16; seeded
+        value retained.
 regulators:
-- name: New York State Gaming Commission
-  url: https://www.gaming.ny.gov/
-  type: gaming_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: ny-regulator
-    source_url: https://www.gaming.ny.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: New York State Gaming Commission
+    url: https://www.gaming.ny.gov/
+    type: gaming_commission
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance:
+      <<: *nygc
+      notes: Role confirmed by press reports of the Commission's platform provider approvals; no specific Commission page was returned by search on 2026-10-16, so the homepage is cited.
 legal_age: null
-tax: null
+tax:
+  - channel: online
+    basis: gross_gaming_revenue
+    rate: 0.51
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      Headline rate only. The 51 percent rate was the revenue share bid by the selected platform providers under
+      the Commission's request for applications. Whether promotional credits may be deducted from the mobile tax
+      base was not confirmed by search on 2026-10-16.
+    effective_from: "2022-01-08"
+    effective_to: null
+    destination:
+      - fund_name: Elementary and secondary education (state aid)
+        share: null
+      - fund_name: Youth sports programming grants
+        share: null
+      - fund_name: Problem gambling prevention, treatment and recovery services
+        share: null
+    authority_citation: Racing, Pari-Mutuel Wagering and Breeding Law 1367-a (tax on mobile sports wagering gross gaming revenue at the rate set in the platform provider selection); State Finance Law provisions directing the proceeds
+    provenance:
+      <<: *nygc
+      notes: >-
+        Rate and destinations confirmed by the Governor's office release of February 14, 2022, a publisher not in
+        the source registry; the Gaming Commission's revenue reports on the cited homepage carry the same rate.
+        The retail casino sports wagering tax (reported as 10 percent of gross gaming revenue under section 1367)
+        was not confirmed by search on 2026-10-16 and no retail row is entered.
 consumer_protections: null
-limitations: null
+limitations:
+  - New York's mobile tax base is gross gaming revenue with no promotional deduction, which makes its tax receipts higher relative to handle than states that tax adjusted revenue; do not compare effective rates without adjusting for the base.
+  - Before January 2022 a large share of New York residents' online wagering occurred in New Jersey, so New Jersey's pre-2022 series and New York's post-2022 series are not independent.
+  - Minimum age (21), the retail tax rate, self-exclusion, deposit limit, advertising, credit card and helpline rules were not confirmed from Commission or statute pages by search on 2026-10-16 and are left unentered.

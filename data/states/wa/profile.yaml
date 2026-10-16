@@ -1,83 +1,79 @@
-fips: '53'
+fips: "53"
 abbr: WA
 name: Washington
 profile_completeness: status_only
-summary: null
+summary: >-
+  Washington authorized sports wagering in March 2020 through ESHB 2638, which permits it only at tribal
+  Class III facilities under amended tribal-state gaming compacts. The Gambling Commission negotiates the
+  compact amendments and the first sportsbook opened at Snoqualmie Casino on September 9, 2021. Mobile
+  wagering is allowed only while the bettor is on tribal gaming premises. There is no state tax on sports
+  wagering; compacts provide for tribal contributions and regulatory cost reimbursement.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: tribal_lands_only
-  status: live
-  authorized_on: '2020-03-25'
-  launched_on: '2021-09-09'
-  authority:
-    type: statute
-    citation: HB 2638 (2020); RCW 9.46; amended tribal compacts. Mobile wagering only while on tribal
-      gaming premises
-    url: https://app.leg.wa.gov/
-  operator_model: tribal_exclusive
-  notes: null
-  provenance:
-    source_id: wa-regulator
-    source_url: https://wsgc.wa.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: on_premises_only
-  status: live
-  authorized_on: '2020-03-25'
-  launched_on: '2021-09-09'
-  authority:
-    type: statute
-    citation: HB 2638 (2020); RCW 9.46; amended tribal compacts. Mobile wagering only while on tribal
-      gaming premises
-    url: https://app.leg.wa.gov/
-  operator_model: tribal_exclusive
-  notes: null
-  provenance:
-    source_id: wa-regulator
-    source_url: https://wsgc.wa.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: tribal_lands_only
+    status: live
+    authorized_on: "2020-03-25"
+    launched_on: "2021-09-09"
+    authority:
+      type: statute
+      citation: ESHB 2638 (2020); RCW 9.46.0364 (sports wagering authorized only at tribal Class III facilities under a tribal-state compact); sports wagering compact amendments approved by the Gambling Commission beginning 2021
+      url: https://app.leg.wa.gov/billsummary?BillNumber=2638&Year=2020
+    operator_model: tribal_exclusive
+    notes: The Commission approved the first fifteen sports wagering compact amendments and initial rules in 2021; the Commission's 2023 agency highlight reports fifteen tribes offering sports wagering, three of them with on-premises mobile.
+    provenance: &wsgc
+      source_id: wa-regulator
+      source_url: https://wsgc.wa.gov/node/6262
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch6-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: "Launch date 2021-09-09 confirmed by the Commission's page on the Snoqualmie opening (node/6262), which also states the Governor signed HB 2638 in March 2020. Exact signing date 2020-03-25 not confirmed by search on 2026-10-16; seeded value retained. Citation URL sharpened from the legislature homepage to the bill summary."
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: on_premises_only
+    status: live
+    authorized_on: "2020-03-25"
+    launched_on: "2021-09-09"
+    authority:
+      type: statute
+      citation: ESHB 2638 (2020); RCW 9.46.0364; compact amendments permit mobile wagering only while the patron is physically on the tribe's gaming premises
+      url: https://app.leg.wa.gov/billsummary?BillNumber=2638&Year=2020
+    operator_model: tribal_exclusive
+    notes: On-premises mobile wagering is offered by a minority of tribes (three per the Commission's 2023 highlight). Statewide mobile wagering is not authorized.
+    provenance:
+      <<: *wsgc
+      notes: "The seeded launch date 2021-09-09 is the retail opening; the first on-premises mobile launch was later and not confirmed by search on 2026-10-16; seeded value retained and should be checked against Commission releases."
 regulators:
-- name: Washington State Gambling Commission
-  url: https://wsgc.wa.gov/
-  type: gaming_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: wa-regulator
-    source_url: https://wsgc.wa.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: Washington State Gambling Commission
+    url: https://wsgc.wa.gov/
+    type: gaming_commission
+    roles: [licensing, enforcement, compact_compliance]
+    provenance:
+      <<: *wsgc
+      source_url: https://wsgc.wa.gov/node/6283
+      notes: "Confirmed. The Commission negotiates and approves compact amendments and licenses sports wagering vendors; tribal gaming agencies regulate day to day operations. Corrected roles from licensing, enforcement, revenue_reporting to licensing, enforcement, compact_compliance: the Commission does not publish a monthly sports wagering revenue series for tribal operations, per its sports wagering pages (node/6283 and node/6262)."
 legal_age: null
-tax: null
+tax:
+  - channel: all
+    basis: revenue_share_compact
+    rate: null
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: null
+    effective_from: "2021-09-09"
+    effective_to: null
+    destination: null
+    authority_citation: No state tax applies to tribal sports wagering. ESHB 2638 (2020) authorized sports wagering only under tribal-state compacts, which provide for community contributions and reimbursement of state regulatory costs rather than a tax. Shown so that the absence is explicit.
+    provenance:
+      <<: *wsgc
+      notes: Contribution terms are in each tribe's compact appendix and are not entered here.
 consumer_protections: null
-limitations: null
+limitations:
+  - Washington publishes no handle or revenue series for tribal sports wagering, so the state cannot be placed in revenue comparisons.
+  - Mobile wagering is on premises only, so Washington's market is a retail market for comparison purposes even though apps exist.
+  - Minimum age and self-exclusion terms are set by compact and tribal ordinance and were not confirmed on a primary page by search on 2026-10-16; the sections are left empty rather than estimated.

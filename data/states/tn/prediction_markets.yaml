@@ -1,0 +1,71 @@
+fips: "47"
+as_of: "2026-10-16"
+review_note: >-
+  The Council's cease and desist letters dated 2026-01-09 were widely reported from 2026-01-10 onward, but the search
+  budget was exhausted before a tn.gov release URL could be located, and tn.gov cannot be opened from this container.
+  The records below cite the Council's site and must be re-pointed to the release or letter once archived.
+operating_platforms:
+  - platform: Kalshi
+    offers_sports_contracts: true
+    offers_in_state: "yes"
+    basis: court_filing
+    provenance: &swcpm
+      source_id: tn-regulator
+      source_url: https://www.tn.gov/swac.html
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch5-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Kalshi continued to offer sports event contracts in Tennessee under a temporary restraining order and then a
+        preliminary injunction entered by the Middle District of Tennessee in early 2026. Status after the Sixth Circuit
+        ruling reported in press is not confirmed.
+  - platform: Polymarket
+    offers_sports_contracts: true
+    offers_in_state: unknown
+    basis: regulator_statement
+    provenance: *swcpm
+  - platform: Crypto.com
+    offers_sports_contracts: true
+    offers_in_state: unknown
+    basis: regulator_statement
+    provenance: *swcpm
+state_actions:
+  - action_type: cease_and_desist
+    date: "2026-01-09"
+    issuing_body: Tennessee Sports Wagering Council
+    target: KalshiEX LLC, Polymarket and Crypto.com (North American Derivatives Exchange)
+    summary: The Council notified the three platforms that their sports event contracts are unlicensed sports wagering
+      under the Tennessee Sports Gaming Act and directed them to stop offering the contracts to Tennessee customers,
+      void open contracts held by residents and refund customer funds by 2026-01-31, citing fines of up to 25,000
+      dollars per offense and possible referral for prosecution.
+    document_url: null
+    provenance:
+      <<: *swcpm
+      notes: Letter date, targets, deadline and penalty language as reported in trade press on 2026-01-10 through
+        2026-01-12. Not confirmed on tn.gov by search on 2026-10-16. In late 2025 the Council also wrote to the CFTC
+        opposing sports event contracts; that letter is not entered pending a primary record.
+litigation:
+  - case_name: KalshiEX LLC v. Tennessee Sports Wagering Council officials
+    court: US District Court for the Middle District of Tennessee (appeal in the US Court of Appeals for the Sixth Circuit)
+    docket: null
+    filed_on: "2026-01-09"
+    status: appeal_pending
+    posture_note: >-
+      Rulings to date concern preliminary relief only. The district court entered a temporary restraining order and
+      then a preliminary injunction barring enforcement of the Sports Gaming Act against Kalshi. Press reports a
+      later Sixth Circuit ruling in Tennessee's favor; its date, scope and effect on the injunction were not confirmed
+      on a primary domain by search on 2026-10-16. No final judgment has been entered.
+    rulings:
+      - date: "2026-01-09"
+        court: US District Court for the Middle District of Tennessee
+        summary: Kalshi filed suit the day the cease and desist letter issued, asserting field and conflict preemption
+          under the Commodity Exchange Act. A temporary restraining order followed; its exact date was not captured.
+        document_url: null
+    provenance:
+      <<: *swcpm
+      notes: Case caption, docket number and ruling dates must be taken from the docket; the preliminary injunction date
+        was not captured. Entered so that the posture is recorded; do not verify from this record.

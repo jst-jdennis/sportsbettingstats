@@ -1,0 +1,121 @@
+fips: "26"
+as_of: "2026-10-16"
+review_note: >-
+  Records come from Michigan Gaming Control Board and Attorney General press releases on michigan.gov. Federal
+  docket entries in the Western District of Michigan and the Sixth Circuit are described as the state releases
+  recite them and have not been read from the dockets.
+operating_platforms:
+  - platform: Kalshi
+    offers_sports_contracts: true
+    offers_in_state: "no"
+    basis: regulator_statement
+    provenance: &migcb
+      source_id: mi-regulator
+      source_url: https://www.michigan.gov/mgcb/news/2026/06/30/mgcb-reacts-to-temporary-restraining-order-against-kalshiex
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: A state court temporary restraining order and later preliminary injunction bar Kalshi from offering sports event contracts to persons located in Michigan, per the Board's release. Whether Kalshi has complied has not been checked.
+  - platform: Robinhood Derivatives
+    offers_sports_contracts: true
+    offers_in_state: "no"
+    basis: regulator_statement
+    provenance:
+      <<: *migcb
+      source_url: https://www.michigan.gov/mgcb/news/2026/09/09/robinhood-agrees-to-halt-contracts
+      notes: Agreed on 2026-09-09 to stop offering new sports event contracts to Michigan customers and to close positions by 2026-10-09, pending Sixth Circuit appeals.
+  - platform: Coinbase Financial Markets
+    offers_sports_contracts: true
+    offers_in_state: "no"
+    basis: regulator_statement
+    provenance:
+      <<: *migcb
+      source_url: https://www.michigan.gov/mgcb/news/2026/10/07/coinbase-agrees-to-halt-sports-related-event-contracts-in-michigan
+      notes: Agreed on 2026-10-07 to stop offering new sports event contracts to Michigan customers and to close positions by 2026-10-10.
+  - platform: Polymarket US
+    offers_sports_contracts: true
+    offers_in_state: unknown
+    basis: court_filing
+    provenance:
+      <<: *migcb
+      notes: Named in the Board's release as a plaintiff denied a preliminary injunction in the Western District of Michigan on 2026-06-17. No agreement or state court order against Polymarket US was found.
+state_actions:
+  - action_type: lawsuit_filed
+    date: "2026-03-05"
+    issuing_body: Michigan Attorney General
+    target: KalshiEX LLC
+    summary: The Attorney General sued Kalshi in Ingham County Circuit Court alleging that its sports event contracts are unlicensed sports betting under the Lawful Sports Betting Act.
+    document_url: https://www.michigan.gov/ag/-/media/Project/Websites/AG/releases/2026/March/Kalshi-Complaint.pdf
+    provenance: &miag
+      source_id: mi-attorney-general
+      source_url: https://www.michigan.gov/ag/news/press-releases/2026/03/05/ag-nessel-files-lawsuit-against-kalshi
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: null
+  - action_type: settlement
+    date: "2026-09-09"
+    issuing_body: Michigan Gaming Control Board and Attorney General
+    target: Robinhood Derivatives
+    summary: Court approved agreement under which Robinhood stops offering new sports event contracts to Michigan customers and closes remaining positions by 2026-10-09; the agreement runs until the Sixth Circuit appeals are resolved and does not decide the preemption question.
+    document_url: https://www.michigan.gov/mgcb/news/2026/09/09/robinhood-agrees-to-halt-contracts
+    provenance:
+      <<: *migcb
+      source_url: https://www.michigan.gov/mgcb/news/2026/09/09/robinhood-agrees-to-halt-contracts
+      notes: Recorded as settlement because it is an agreed interim arrangement, not a judgment.
+  - action_type: settlement
+    date: "2026-10-07"
+    issuing_body: Michigan Gaming Control Board and Attorney General
+    target: Coinbase Financial Markets
+    summary: Agreement under which Coinbase stops offering new sports event contracts to Michigan customers and closes open positions by 2026-10-10; the state agreed not to take enforcement action while Coinbase complies and related appeals proceed.
+    document_url: https://www.michigan.gov/mgcb/news/2026/10/07/coinbase-agrees-to-halt-sports-related-event-contracts-in-michigan
+    provenance:
+      <<: *migcb
+      source_url: https://www.michigan.gov/mgcb/news/2026/10/07/coinbase-agrees-to-halt-sports-related-event-contracts-in-michigan
+      notes: Recorded as settlement because it is an agreed interim arrangement, not a judgment.
+litigation:
+  - case_name: People of the State of Michigan ex rel. Nessel v. KalshiEX LLC
+    court: Ingham County Circuit Court (30th Judicial Circuit), Michigan
+    docket: null
+    filed_on: "2026-03-05"
+    status: preliminary_injunction_granted
+    posture_note: >-
+      A temporary restraining order was entered in June 2026 and a preliminary injunction followed, barring
+      Kalshi from offering sports event contracts to persons located in Michigan. These are rulings on preliminary
+      relief; no final judgment has been entered.
+    rulings:
+      - date: "2026-06-30"
+        court: Ingham County Circuit Court
+        summary: Temporary restraining order against KalshiEX LLC, as announced by the Michigan Gaming Control Board on 2026-06-30; the order date itself was not captured.
+        document_url: https://www.michigan.gov/mgcb/news/2026/06/30/mgcb-reacts-to-temporary-restraining-order-against-kalshiex
+    provenance:
+      <<: *miag
+      notes: Docket number and the preliminary injunction date not captured from the releases; confirm from the circuit court docket.
+  - case_name: KalshiEX LLC v. Michigan Gaming Control Board officials (and parallel suits by Polymarket US and Coinbase Financial Markets)
+    court: US District Court for the Western District of Michigan; appeals to the US Court of Appeals for the Sixth Circuit
+    docket: null
+    filed_on: null
+    status: appeal_pending
+    posture_note: >-
+      On 2026-06-17 the district court (Judge Maloney) denied preliminary injunctions sought by Kalshi and
+      Polymarket US against state enforcement, and in August 2026 denied Coinbase's motion. Appeals are pending in
+      the Sixth Circuit. All rulings to date concern preliminary relief.
+    rulings:
+      - date: "2026-06-17"
+        court: US District Court for the Western District of Michigan
+        summary: Denied preliminary injunctions to Kalshi and Polymarket US, as recited in the Board's releases.
+        document_url: null
+    provenance:
+      <<: *migcb
+      source_url: https://www.michigan.gov/mgcb/news/2026/09/09/robinhood-agrees-to-halt-contracts
+      notes: Case captions, docket numbers and filing dates not captured; the federal dockets should be cited directly once a court publisher is added to sources.yaml.

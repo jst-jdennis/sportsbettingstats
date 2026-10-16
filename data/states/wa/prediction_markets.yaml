@@ -1,0 +1,80 @@
+fips: "53"
+as_of: "2026-10-16"
+review_note: >-
+  The Gambling Commission's December 2025 notice is the primary record entered here. The Attorney General's
+  March 2026 complaint and the King County Superior Court orders are entered from press accounts of the
+  filings; the release on atg.wa.gov and the court orders could not be retrieved from this container and
+  must be archived before verification.
+operating_platforms:
+  - platform: Kalshi
+    offers_sports_contracts: true
+    offers_in_state: unknown
+    basis: regulator_statement
+    provenance: &wsgcpm
+      source_id: wa-regulator
+      source_url: https://wsgc.wa.gov/node/14038
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch6-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Kalshi offered sports event contracts to Washington residents through at least mid 2026 per the court record described in press. The August 2026 order required geofencing of sports and other restricted contracts by 2026-09-02; whether that is in effect is recorded as unknown until a platform or regulator statement is archived.
+state_actions:
+  - action_type: consumer_alert
+    date: "2025-12-09"
+    issuing_body: Washington State Gambling Commission
+    target: Prediction market operators offering event-based contracts (not named individually)
+    summary: The Commission published a notice stating that offering event-based contracts, or participating in prediction markets, is not authorized in Washington, that the matter is in litigation federally and in other states, and that it would monitor the cases. It directed consumers to tribal casinos authorized to conduct sports wagering under compact.
+    document_url: https://wsgc.wa.gov/sites/default/files/2025-12/Predition%20Markets%20Press%20release.pdf
+    provenance: *wsgcpm
+  - action_type: lawsuit_filed
+    date: "2026-03-27"
+    issuing_body: Washington Attorney General
+    target: KalshiEX LLC
+    summary: The Attorney General filed a civil enforcement action in King County Superior Court alleging that Kalshi's event contracts are unlicensed gambling under the Gambling Act and violate the Consumer Protection Act, and seeking an injunction, restitution of residents' losses under the Recovery of Money Lost at Gambling Act, and civil penalties.
+    document_url: null
+    provenance:
+      source_id: wa-attorney-general
+      source_url: https://www.atg.wa.gov/news/news-releases
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch6-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Filing date and claims as reported in press accounts of the Attorney General's 2026-03-27 announcement. The specific release URL was not retrieved; replace the newsroom index URL with the release and archive the complaint before verification.
+litigation:
+  - case_name: State of Washington v. KalshiEX LLC
+    court: King County Superior Court
+    docket: null
+    filed_on: "2026-03-27"
+    status: preliminary_injunction_granted
+    posture_note: >-
+      All rulings to date concern preliminary relief. No final judgment has been entered on whether Kalshi's
+      event contracts are lawful in Washington.
+    rulings:
+      - date: "2026-07-20"
+        court: King County Superior Court
+        summary: Granted the state's motion for a preliminary injunction, finding the state likely to prove that Kalshi operates unlicensed online gambling in violation of the Gambling Act and the Consumer Protection Act and rejecting the argument that the Commodity Exchange Act preempts state law.
+        document_url: null
+      - date: "2026-08-13"
+        court: King County Superior Court
+        summary: Entered an order requiring Kalshi to geofence Washington users out of sports, election, political, entertainment, culture, technology and science contracts, with an IP and residency based system by 2026-08-18 and a multi-source system by 2026-09-02, a daily penalty for noncompliance, and a bar on advertising restricted contracts to Washington consumers. Requests to stay the injunction pending appeal were denied by the trial court and the Court of Appeals, per press reports.
+        document_url: null
+    provenance:
+      source_id: wa-attorney-general
+      source_url: https://www.atg.wa.gov/news/news-releases
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch6-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Ruling dates and content from press accounts (Washington State Standard, GeekWire, KUOW, Courthouse News) of the court's orders. Docket number not retrieved. Archive the orders from the court or the Attorney General's release before verification.

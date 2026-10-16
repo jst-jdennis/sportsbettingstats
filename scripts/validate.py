@@ -180,6 +180,20 @@ def main() -> int:
         if doc:
             if doc["slug"] != p.stem:
                 err(f"{p}: slug {doc['slug']} does not match filename")
+            # Research citations must point at the document, not a publisher homepage.
+            from urllib.parse import urlparse
+            def bare(u):
+                try:
+                    pr = urlparse(str(u))
+                    return pr.path in ("", "/") and not pr.query
+                except Exception:
+                    return False
+            for v in doc["versions"]:
+                if bare(v.get("url")):
+                    err(f"{p}: version {v.get('version_label')} url is a bare host; cite the document page")
+            for f in doc["key_figures"]:
+                if f.get("provenance", {}).get("status") != "unverified" and bare(f.get("provenance", {}).get("source_url")):
+                    err(f"{p}: key figure {f.get('figure_id')} source_url is a bare host; cite the document page or set status unverified")
             labels = {v["version_label"] for v in doc["versions"]}
             ids = {f["figure_id"] for f in doc["key_figures"]}
             for f in doc["key_figures"]:

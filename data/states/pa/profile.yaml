@@ -1,8 +1,13 @@
 fips: '42'
 abbr: PA
 name: Pennsylvania
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Pennsylvania authorized sports wagering in Act 42 of 2017, which added Chapter 13C to Title 4 of the Pennsylvania
+  Consolidated Statutes. Retail wagering began in November 2018 and online wagering in May 2019, both regulated by
+  the Pennsylvania Gaming Control Board. The state assesses 34 percent of daily gross sports wagering revenue for the
+  General Fund plus a 2 percent local share assessment, and the Board runs separate self-exclusion lists for casinos
+  and for online play.
 legal_status:
 - market_segment: regulated_sportsbook
   channel: retail
@@ -15,20 +20,22 @@ legal_status:
     citation: Act 42 of 2017; 4 Pa.C.S. ch. 13C
     url: https://www.legis.state.pa.us/
   operator_model: commercial
-  notes: null
-  provenance:
+  notes: Sports wagering certificates are issued to slot machine licensees (casinos), which may contract with
+    operators and open retail sportsbooks at the licensed facility and at off-track wagering sites.
+  provenance: &pgcb
     source_id: pa-regulator
-    source_url: https://gamingcontrolboard.pa.gov/
+    source_url: https://gamingcontrolboard.pa.gov/node/396071
     archive_url: null
     retrieved_at: '2026-10-16'
     retrieval_method: manual_entry
     transform: null
-    entered_by: claude-draft-2026-10-16
+    entered_by: agent-batch5-2026-10-16
     reviewed_by: null
     status: pending_review
     page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+    notes: Board sports wagering FAQ page located by search on 2026-10-16. Signing date 2017-10-30, retail launch
+      2018-11-17 and online launch 2019-05-28 not confirmed by search; seeded values retained. No specific statute page
+      on legis.state.pa.us was returned by search.
 - market_segment: regulated_sportsbook
   channel: online
   scope: statewide
@@ -41,19 +48,7 @@ legal_status:
     url: https://www.legis.state.pa.us/
   operator_model: commercial
   notes: null
-  provenance:
-    source_id: pa-regulator
-    source_url: https://gamingcontrolboard.pa.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  provenance: *pgcb
 regulators:
 - name: Pennsylvania Gaming Control Board
   url: https://gamingcontrolboard.pa.gov/
@@ -63,19 +58,79 @@ regulators:
   - enforcement
   - revenue_reporting
   provenance:
-    source_id: pa-regulator
+    <<: *pgcb
     source_url: https://gamingcontrolboard.pa.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+    notes: Board publishes monthly sports wagering revenue reports by certificate holder with promotional credits, taxable
+      revenue, state tax and local share shown as separate lines.
+legal_age:
+- age: 21
+  scope: all
+  authority_citation: 4 Pa.C.S. ch. 13C (persons under 21 may not wager); Board sports wagering FAQ
+  provenance:
+    <<: *pgcb
+    notes: Age 21 is the Board's published requirement; the specific section of Chapter 13C was not confirmed by search on
+      2026-10-16. Confirm the citation before verification.
+tax:
+- channel: all
+  basis: gross_gaming_revenue
+  rate: 0.34
+  tiers: null
+  per_wager_fee_cents: null
+  promo_deduction_rule: The Board's monthly sports wagering reports deduct promotional credits from revenue to arrive at
+    taxable gross revenue before the 34 percent tax and 2 percent assessment are applied. The statutory definition in
+    4 Pa.C.S. 13C62 and 13C02 was not retrieved; confirm the deduction language against the statute.
+  effective_from: '2018-11-17'
+  effective_to: null
+  destination:
+  - fund_name: General Fund
+    share: 1.0
+  authority_citation: 4 Pa.C.S. 13C62 (34 percent of daily gross sports wagering revenue to the General Fund)
+  provenance: &patax
+    <<: *pgcb
+    notes: Rate and destination from the Board FAQ, which states a 34 percent tax on certificate holders' daily gross
+      revenue to the General Fund and a 2 percent tax for public interest grants. Effective_from is the first retail
+      launch; the act itself took effect in 2017.
+- channel: all
+  basis: gross_gaming_revenue
+  rate: 0.02
+  tiers: null
+  per_wager_fee_cents: null
+  promo_deduction_rule: Same base as the 34 percent tax; promotional credits are deducted before assessment per the
+    Board's monthly reports.
+  effective_from: '2018-11-17'
+  effective_to: null
+  destination:
+  - fund_name: Local share assessment, restricted account in the Commonwealth Financing Authority for public interest grants
+    share: 1.0
+  authority_citation: 4 Pa.C.S. 13C63 (local share assessment); Board sports wagering FAQ
+  provenance:
+    <<: *patax
+    notes: Section number for the local share assessment is from the chapter structure and was not confirmed by search on
+      2026-10-16.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Pennsylvania Gaming Control Board, Office of Compulsive and Problem Gambling
+    durations: [1 year, 5 years, lifetime]
+    covers: [casinos, retail_sports_wagering, online_sports_wagering, igaming, vgts, fantasy_contests]
+    enrollment_methods: [online, in_person]
+    url: https://responsibleplay.pa.gov/self-exclusion/
+    notes: Two separate lists. The casino list (established 2006) covers casinos and retail sports wagering locations and
+      a one or five year ban remains until the person requests removal. The interactive list (launched 2019-05-28)
+      covers online sports wagering and iGaming and expires at the end of the chosen term. Sportsbook operators must
+      honor both lists under 58 Pa. Code 1411a.1.
+    provenance:
+      <<: *pgcb
+      source_url: https://responsibleplay.pa.gov/self-exclusion/
+      notes: Board responsible play site. Terms confirmed from the Board's 2019 online self-exclusion release and 2023
+        exclusion milestone release on gamingcontrolboard.pa.gov.
+  deposit_limits: null
+  advertising: null
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+- Pennsylvania reports revenue, promotional credits and taxable revenue as separate lines. Use taxable gross revenue
+  when comparing with states that tax after promotional deductions and total revenue when comparing with states
+  that do not.
+- Retail and online figures are published by certificate holder, and several holders report both channels, so
+  channel totals must be built from the Board's monthly report rather than from headline figures.

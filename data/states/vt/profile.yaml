@@ -1,81 +1,120 @@
-fips: '50'
+fips: "50"
 abbr: VT
 name: Vermont
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Vermont authorized mobile sports wagering through Act 63 of 2023 (H.127), which directs the Department of
+  Liquor and Lottery to operate a sportsbook through two to six contracted operators selected by competitive
+  bid. Wagering began on January 11, 2024 with three operators. There is no retail sports wagering. The state
+  receives a negotiated share of each operator's adjusted gross revenue rather than a tax on licensees.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: Act 63 (2023); 31 V.S.A. ch. 25
-    url: https://legislature.vermont.gov/
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: vt-regulator
-    source_url: https://liquorandlottery.vermont.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2023-06-14'
-  launched_on: '2024-01-11'
-  authority:
-    type: statute
-    citation: Act 63 (2023); 31 V.S.A. ch. 25
-    url: https://legislature.vermont.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: vt-regulator
-    source_url: https://liquorandlottery.vermont.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: Act 63 (2023), codified at 31 V.S.A. chapter 25, authorizes only mobile sports wagering through platforms contracted by the Department of Liquor and Lottery. No statute authorizes retail sports wagering.
+      url: https://legislature.vermont.gov/Documents/2024/Docs/ACTS/ACT063/ACT063%20As%20Enacted.pdf
+    operator_model: null
+    notes: null
+    provenance: &vtleg
+      source_id: vt-legislature
+      source_url: https://legislature.vermont.gov/Documents/2024/Docs/ACTS/ACT063/ACT063%20As%20Enacted.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch6-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Enacted text and the legislature's Act 63 summary confirm the scheme is mobile only and operated by the Department through operators. Citation URL sharpened from the legislature homepage to the enacted act.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2023-06-14"
+    launched_on: "2024-01-11"
+    authority:
+      type: statute
+      citation: Act 63 (2023) (H.127); 31 V.S.A. chapter 25 (sports wagering; Department of Liquor and Lottery to contract with no fewer than two and no more than six operators)
+      url: https://legislature.vermont.gov/Documents/2024/Docs/ACTS/ACT063/ACT063%20As%20Enacted.pdf
+    operator_model: lottery_monopoly
+    notes: Operators selected by competitive bid in December 2023 were DraftKings, FanDuel and Fanatics Sportsbook. Wagering opened at midnight on 2024-01-11.
+    provenance:
+      <<: *vtleg
+      source_id: vt-regulator
+      source_url: https://liquorandlottery.vermont.gov/node/770
+      notes: "Corrected from commercial: the Act 63 summary on legislature.vermont.gov states the act authorizes the Department of Liquor and Lottery to operate a sportsbook through sports wagering operators, which is the Department-as-operator model, per https://legislature.vermont.gov/Documents/2024/Docs/ACTS/ACT063/ACT063%20Act%20Summary.pdf. Launch date confirmed by the Department's 2024-01-10 go-live release (node/770) and its 2023-12-12 selection release (node/762). authorized_on 2023-06-14 (signing date) not confirmed by search on 2026-10-16; seeded value retained."
 regulators:
-- name: Vermont Department of Liquor and Lottery
-  url: https://liquorandlottery.vermont.gov/
-  type: lottery
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: vt-regulator
-    source_url: https://liquorandlottery.vermont.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+  - name: Vermont Department of Liquor and Lottery
+    url: https://liquorandlottery.vermont.gov/
+    type: lottery
+    roles: [licensing, enforcement, revenue_reporting, operation]
+    provenance: &vtdll
+      source_id: vt-regulator
+      source_url: https://liquorandlottery.vermont.gov/node/770
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch6-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Name, URL and role confirmed by the Department's launch releases and Act 63. Added the operation role because the statute places the sportsbook under the Department. The Board of Liquor and Lottery is the policy body; the Department of Mental Health runs problem gambling services (VTGamblingHelp.org).
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: 31 V.S.A. chapter 25 (Act 63 of 2023); the Department's go-live release states customers must be 21 or older. Section number to be confirmed against the enacted text.
+    provenance: *vtdll
+tax:
+  - channel: online
+    basis: adjusted_gross_revenue
+    rate: null
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: The state's share is a contracted percentage of adjusted gross revenue, with a statutory floor of 20 percent. Per the Commissioner's testimony to the legislature, adjusted gross revenue allows deduction of federal excise tax but not promotional play. Contracted shares are 33 percent (FanDuel) and 31 percent (DraftKings and Fanatics), so no single flat rate applies.
+    effective_from: "2024-01-11"
+    effective_to: null
+    destination:
+      - fund_name: Sports Wagering Enterprise Fund
+        share: null
+    authority_citation: Act 63 (2023), 31 V.S.A. 1304 (revenues to the Sports Wagering Enterprise Fund); operator contracts set the revenue share. Each operator also pays an operator fee ($550,000 over the contract term per the Senate proposal of amendment; confirm against the enacted text).
+    provenance:
+      <<: *vtleg
+      notes: Structure is a revenue share under Department contracts, not a tax on licensees. Rate left null because it differs by operator; the 31 and 33 percent figures come from Department testimony filed with the House Ways and Means Committee (legislature.vermont.gov, H.887 public comment, 2024) and the Department's January 2025 Responsible Gaming Program status report. Confirm the 20 percent floor and the fund name against 31 V.S.A. 1304.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Vermont Department of Liquor and Lottery
+    durations: [1 year, 3 years, 5 years, lifetime]
+    covers: [sports_wagering_online]
+    enrollment_methods: [online]
+    url: https://liquorandlottery.vermont.gov/exclusion-list
+    notes: Enrollment is online with email and mobile verification. Removal is not available before the chosen term ends; lifetime exclusion is permanent. Fantasy sports exclusion requires a separate opt-in with each licensee.
+    provenance:
+      <<: *vtdll
+      source_url: https://liquorandlottery.vermont.gov/exclusion-list
+      notes: Durations and enrollment method as stated on the Department's exclusion list page.
+  deposit_limits: null
+  advertising:
+    - rule_type: no_under_age_targeting
+      text: Sports wagering advertisements, logos, trademarks or brands may not be used on products sold in Vermont that are aimed primarily at persons under 21, and operators must file an advertising plan with the Department.
+      authority_citation: Act 63 (2023), 31 V.S.A. chapter 25 (advertising provisions added by Senate proposal of amendment, concurred in by the House 2023-05-09)
+      provenance:
+        <<: *vtleg
+        notes: Provision text taken from the Senate proposal of amendment and the House calendar of 2023-05-09; confirm section number against the enacted act.
+  credit_card_deposits:
+    allowed: false
+    authority_citation: 31 V.S.A. chapter 25 (Act 63 of 2023); the Department's 2024-01-10 go-live release states accounts cannot be funded with credit cards.
+    notes: Statutory section to be confirmed against the enacted text.
+    provenance: *vtdll
+  helpline_message: null
+limitations:
+  - Vermont reports the state's revenue share rather than a tax, and the share differs by operator (31 or 33 percent of adjusted gross revenue). Do not compare the headline percentage with tax rates in states that permit promotional deductions.
+  - The market is small and launched in January 2024, so monthly figures are volatile and seasonal patterns are not yet established.
+  - No Vermont cease and desist, lawsuit or advisory opinion directed at a prediction market platform was found by search on 2026-10-16; absence of a record is not a finding that none exists.

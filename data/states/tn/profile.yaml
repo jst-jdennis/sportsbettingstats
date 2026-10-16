@@ -1,8 +1,13 @@
 fips: '47'
 abbr: TN
 name: Tennessee
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Tennessee authorized online-only sports wagering through the Tennessee Sports Gaming Act, 2019 Public Chapter 507,
+  which became law without the governor's signature in May 2019. Licensed operators began accepting wagers on
+  November 1, 2020. Since July 1, 2023 the state levies a privilege tax of 1.85 percent on gross wagers instead of
+  the original 20 percent tax on adjusted gross income, and the Sports Wagering Council licenses and supervises
+  operators. There are no retail sportsbooks.
 legal_status:
 - market_segment: regulated_sportsbook
   channel: retail
@@ -12,23 +17,25 @@ legal_status:
   launched_on: null
   authority:
     type: none
-    citation: Tennessee Sports Gaming Act (2019); T.C.A. 4-49-101 et seq. Online only; no retail locations
+    citation: Tennessee Sports Gaming Act, 2019 Public Chapter 507; T.C.A. 4-49-101 et seq. The Act authorizes
+      interactive wagering only and no retail locations.
     url: https://www.capitol.tn.gov/
   operator_model: null
   notes: null
-  provenance:
-    source_id: tn-regulator
-    source_url: https://www.tn.gov/swc.html
+  provenance: &tnleg
+    source_id: tn-legislature
+    source_url: https://www.capitol.tn.gov/
     archive_url: null
     retrieved_at: '2026-10-16'
     retrieval_method: manual_entry
     transform: null
-    entered_by: claude-draft-2026-10-16
+    entered_by: agent-batch5-2026-10-16
     reviewed_by: null
     status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+    page_or_table: Public Chapter 507 (2019), HB 1/SB 16, 111th General Assembly
+    notes: No specific statute or bill page on capitol.tn.gov was returned by search on 2026-10-16. Governor Lee returned
+      HB 1/SB 16 without his signature on 2019-05-24; the chapter date is reported as 2019-06-04. Seeded authorized_on
+      of 2019-05-24 retained with that caveat.
 - market_segment: regulated_sportsbook
   channel: online
   scope: statewide
@@ -37,45 +44,97 @@ legal_status:
   launched_on: '2020-11-01'
   authority:
     type: statute
-    citation: Tennessee Sports Gaming Act (2019); T.C.A. 4-49-101 et seq. Online only; no retail locations
+    citation: Tennessee Sports Gaming Act, 2019 Public Chapter 507; T.C.A. 4-49-101 et seq.
     url: https://www.capitol.tn.gov/
   operator_model: commercial
-  notes: null
+  notes: Interactive wagering only. Licensing moved from the Tennessee Education Lottery Corporation's Sports Wagering
+    Advisory Council to the independent Sports Wagering Council in 2022, and the 2023 amendments renamed the body the
+    Sports Wagering Council.
   provenance:
-    source_id: tn-regulator
-    source_url: https://www.tn.gov/swc.html
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+    <<: *tnleg
+    notes: Launch date 2020-11-01 is consistent with the University of Tennessee CTAS notice that the Act became operative
+      on that date; not confirmed on a Council page by search on 2026-10-16. Seeded value retained.
 regulators:
 - name: Tennessee Sports Wagering Council
-  url: https://www.tn.gov/swc.html
+  url: https://www.tn.gov/swac.html
   type: gaming_commission
   roles:
   - licensing
   - enforcement
   - revenue_reporting
-  provenance:
+  provenance: &swc
     source_id: tn-regulator
-    source_url: https://www.tn.gov/swc.html
+    source_url: https://www.tn.gov/swac/about/faqs.html
     archive_url: null
     retrieved_at: '2026-10-16'
     retrieval_method: manual_entry
     transform: null
-    entered_by: claude-draft-2026-10-16
+    entered_by: agent-batch5-2026-10-16
     reviewed_by: null
     status: pending_review
     page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+    notes: "Corrected from https://www.tn.gov/swc.html: the Council's pages returned by search sit under the /swac path
+      (for example /swac/about/faqs.html and /content/dam/tn/swac/), per https://www.tn.gov/swac/about/faqs.html. The
+      landing page URL itself was not opened from this container."
+legal_age:
+- age: 21
+  scope: all
+  authority_citation: Tennessee Sports Gaming Act, T.C.A. 4-49 (bettors must be twenty-one years of age or older)
+  provenance:
+    <<: *tnleg
+    notes: Age 21 is a term of the Act as described in reporting on its passage; the section number was not confirmed by
+      search on 2026-10-16. Confirm against T.C.A. 4-49 before verification.
+tax:
+- channel: online
+  basis: adjusted_gross_revenue
+  rate: 0.20
+  tiers: null
+  per_wager_fee_cents: null
+  promo_deduction_rule: Privilege tax of 20 percent on adjusted gross income (wagers less payouts and the federal excise
+    tax). Treatment of promotional credits under the original Act not confirmed; the Council FAQ describes the former
+    rate as roughly equivalent to two percent of handle.
+  effective_from: '2020-11-01'
+  effective_to: '2023-06-30'
+  destination: null
+  authority_citation: T.C.A. 4-49-115 as enacted by 2019 Public Chapter 507 (section number not confirmed)
+  provenance:
+    <<: *swc
+    notes: Former rate and base per the Council FAQ. Section number and distribution of proceeds not confirmed by search on
+      2026-10-16; destination left null.
+- channel: online
+  basis: handle
+  rate: 0.0185
+  tiers: null
+  per_wager_fee_cents: null
+  promo_deduction_rule: The tax applies to the gross amount wagered less voided or cancelled wagers and the federal excise
+    tax. Payouts and promotional credits are not deducted because the base is handle rather than revenue.
+  effective_from: '2023-07-01'
+  effective_to: null
+  destination: null
+  authority_citation: 2023 Public Chapter 450 (SB 475/HB 1362), amending T.C.A. 4-49; 1.85 percent privilege tax on handle
+  provenance:
+    <<: *swc
+    notes: Rate, base and effective date per the Council FAQ at the cited URL. Distribution of proceeds (reported as
+      shares to the Lottery for Education Account, local governments and mental health programs) not confirmed and left
+      null.
+consumer_protections:
+  self_exclusion: null
+  deposit_limits: null
+  advertising: null
+  credit_card_deposits:
+    allowed: false
+    authority_citation: T.C.A. 4-49-118(a) (a licensee may not offer, accept or extend credit to a bettor)
+    notes: The Council's memorandum to operators on funding methods states that accounts may not be funded using credit,
+      including credit cards.
+    provenance:
+      <<: *swc
+      source_url: https://tn.gov/content/dam/tn/swac/documents/posts/Memo_operators-funding-methods.pdf
+      notes: Council memorandum located by search on 2026-10-16; date of the memorandum not captured.
+  helpline_message: null
+limitations:
+- Tennessee changed its tax base from adjusted gross income to handle on 2023-07-01, so tax receipts before and after
+  that date are not comparable as a share of revenue.
+- Tennessee has no retail channel, so all handle is online and comparisons with states that split channels should use
+  the online line only.
+- Residents also used federally regulated prediction markets during the period covered; that activity is outside the
+  Council's revenue series and is tracked in prediction_markets.yaml.
