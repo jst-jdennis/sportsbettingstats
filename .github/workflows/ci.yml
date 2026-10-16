@@ -26,6 +26,8 @@ jobs:
         run: python3 scripts/validate.py
       - name: Dash lint
         run: python3 scripts/lint_dashes.py
+      - name: Report card grades regenerate identically
+        run: python3 scripts/grade.py --check
       - name: Ingestion tests
         working-directory: ingest
         run: |

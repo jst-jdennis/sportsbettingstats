@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+import { grades, rubrics, profile, source, label, fmtDate } from '../../lib/data';
+export function getStaticPaths() { return (grades()?.states ?? []).map((s) => ({ params: { abbr: s.abbr.toLowerCase() }, props: { s } })); }
+const { s } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const g = grades()!;
+const r = rubrics().sort((a, b) => b.version.localeCompare(a.version))[0];
+const crit = (id: string) => r.criteria.find((c: any) => c.criterion_id === id);
+const p = profile(s.abbr);
+const fmtVal = (v: unknown) => v === null || v === undefined ? 'not entered' : typeof v === 'boolean' ? (v ? 'yes' : 'no') : String(v);
+const headline = s.grade ? `${s.grade}${s.review === 'provisional' ? ', provisional' : ''}` : 'Incomplete';
+---
+<Base title={`${s.name} report card`} description={`Consumer protection report card for ${s.name}: ${headline}, ${s.points} of ${s.available} points under rubric ${g.rubric_version}, with the inputs and sources behind each criterion.`} canonicalPath={`/report-cards/${s.abbr.toLowerCase()}/`}>
+  <p class="meta"><a href={base + '/report-cards/'}>Report cards</a> / {s.name}</p>
+  <h1>{s.name} report card</h1>
+  <p class="lede">
+    {s.grade ? <>Grade <strong>{s.grade}</strong>{s.review === 'provisional' ? ' (provisional)' : ''}: {s.points} of {s.available} points, {s.pct}% of available, under rubric {g.rubric_version} ({label(g.rubric_status)}).</> : <><strong>Incomplete.</strong> {s.points} points so far from the {s.criteria.filter((c) => c.status === 'scored').length} of {s.criteria.length} applicable criteria that have an entry; no letter grade until every applicable criterion is entered.</>}
+    {' '}{s.market === 'regulated_market' ? 'Scored on all criteria because the state has a live regulated sports wagering market.' : 'No live regulated market: scored on the all-states criteria only.'}
+  </p>
+  {s.review === 'provisional' && <div class="panel notice" role="note">{s.inputs_pending_review} of the inputs behind this grade are pending review. The grade is provisional until they are verified against the archived source documents.</div>}
+  {p && <p>See the <a href={`${base}/states/${s.abbr.toLowerCase()}/`}>{s.name} profile</a> for the underlying records and the <a href={base + '/report-cards/#rubric'}>rubric</a> for every scoring row.</p>}
+
+  <h2 id="criteria">Criteria</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th scope="col">Criterion</th><th scope="col">Inputs</th><th scope="col">Matched row</th><th scope="col" class="num">Points</th><th scope="col">Sources</th></tr></thead>
+    <tbody>{s.criteria.map((c) => { const def = crit(c.criterion_id); return (
+      <tr>
+        <th scope="row">{def?.title ?? c.criterion_id}<div class="meta">{c.criterion_id}, {label(def?.applies_to)}</div></th>
+        <td><ul>{Object.entries(c.inputs).map(([k, v]) => <li><code>{k}</code>: {fmtVal(v)}</li>)}</ul></td>
+        <td>{c.status === 'scored' ? <>{c.label}<div class="meta">{c.condition}</div></> : <>Not entered<div class="meta">presence input <code>{def?.presence}</code> is null</div></>}</td>
+        <td class="num">{c.status === 'scored' ? `${c.points} / ${c.max_points}` : `? / ${c.max_points}`}</td>
+        <td>{c.evidence.length ? <ul>{c.evidence.map((e) => <li><a href={e.source_url}>{source(e.source_id)?.publisher ?? e.source_id}</a><div class="meta">retrieved {fmtDate(e.retrieved_at)}, {label(e.status)}</div></li>)}</ul> : <span class="meta">no record</span>}</td>
+      </tr>); })}
+    </tbody>
+  </table></div>
+  {s.missing_criteria.length > 0 && <p>Not yet entered for {s.name}: {s.missing_criteria.map((m) => crit(m)?.title ?? m).join('; ')}. <a href={base + '/data/#contribute'}>How to add a record</a>.</p>}
+
+  <h2 id="method">How this card was computed</h2>
+  <p>Each input is derived from the state's data files as described on the <a href={base + '/report-cards/#inputs'}>rubric page</a>. The scoring rows for a criterion are tried in order and the first whose condition matches awards its points. The same script produces this page's numbers and the check that runs on every change to the data.</p>
+  <pre><code>python3 scripts/grade.py --state {s.abbr}</code></pre>
+  <p class="meta">Rubric {g.rubric_version}, effective {fmtDate(g.effective_from)}. Data fingerprint <code>{g.data_fingerprint.slice(0, 16)}</code>.</p>
+</Base>
