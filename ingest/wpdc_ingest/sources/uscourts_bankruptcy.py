@@ -102,7 +102,8 @@ class USCourtsBankruptcyF2:
             # bare files/ root, dated folders such as 2025-01/, document/) and quarters before 2025 are PDF
             # only, so take whatever the page offers: xlsx when present, else pdf, per measure.
             found: dict[str, dict[str, str]] = {}
-            for m in re.finditer(r'href="([^"]*?/bf_f2(\.3)?_' + re.escape(stamp) + r'\.(xlsx|pdf))"', html, re.I):
+            # A re-uploaded file carries a numeric suffix before the extension ("bf_f2.3_0630.2018_0.pdf").
+            for m in re.finditer(r'href="([^"]*?/bf_f2(\.3)?_' + re.escape(stamp) + r'(?:_\d+)?\.(xlsx|pdf))"', html, re.I):
                 href, three, ext = m.group(1), m.group(2), m.group(3).lower()
                 url = href if href.startswith("http") else "https://www.uscourts.gov" + href
                 found.setdefault("quarter" if three else "twelve_months_ending", {}).setdefault(ext, url)

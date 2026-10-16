@@ -219,3 +219,11 @@ def test_uscourts_f2_pdf_doubled_header_page_is_read():
     src = USCourtsBankruptcyF2()
     recs = {r["district_code"]: r for r in src.parse(raw_for(FIX / "uscourts_f2_doubled_synthetic.pdf", Period.quarter_ending(2021, 12), "pdf"))}
     assert set(recs) == {"DC", "ME"} and recs["ME"]["all_nonbusiness"] == 147 and recs["DC"]["13"] == 11
+
+
+def test_uscourts_resolve_accepts_reuploaded_file_suffix():
+    src = USCourtsBankruptcyF2()
+    page = Document(url="u", period=Period.quarter_ending(2018, 6), kind="html")
+    html = '<a href="/data-news/data-tables/2018/06/30/bankruptcy-filings/f-2-three-months">x</a><a href="/sites/default/files/bf_f2.3_0630.2018_0.pdf">y</a><a href="/sites/default/files/bf_f2_0630.2018.pdf">z</a>'
+    docs = {d.get("measure"): d for d in src.resolve(page, html)}
+    assert docs["quarter"].url.endswith("/bf_f2.3_0630.2018_0.pdf") and docs["twelve_months_ending"].url.endswith("/bf_f2_0630.2018.pdf")

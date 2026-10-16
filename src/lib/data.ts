@@ -76,7 +76,17 @@ function coerceFips(node: any): any {
   return node;
 }
 function readYaml<T>(p: string): T { return coerceFips(applyMerges(yamlLoad(fs.readFileSync(p, 'utf8')))) as T; }
-function readCsv<T = Record<string, string>>(p: string): T[] { return parse(fs.readFileSync(p, 'utf8'), { columns: true, skip_empty_lines: true }) as T[]; }
+// Data files do not change during a build, so each CSV is parsed once and the parsed rows are shared.
+// Callers filter or copy before sorting; nothing mutates the cached array.
+const _csvCache = new Map<string, unknown[]>();
+function readCsv<T = Record<string, string>>(p: string): T[] {
+  let rows = _csvCache.get(p);
+  if (!rows) {
+    rows = parse(fs.readFileSync(p, 'utf8'), { columns: true, skip_empty_lines: true }) as unknown[];
+    _csvCache.set(p, rows);
+  }
+  return rows as T[];
+}
 
 let _sources: Map<string, Source> | null = null;
 export function sources(): Map<string, Source> {
@@ -258,10 +268,15 @@ export interface HandleRevenueRow extends SeriesProv { fips: string; period_star
 export interface BankruptcyRow extends SeriesProv { fips: string; period_start: string; period_end: string; measure: 'quarter' | 'twelve_months_ending'; chapter: string; filings: string }
 export interface HelplineRow extends SeriesProv { fips: string; period_start: string; period_end: string; contact_type: string; contacts: string; operator: string; counting_rule: string }
 
+const _outcomeCache = new Map<string, unknown[]>();
 function readOutcomeCsv<T>(name: string): T[] {
-  const p = path.join(DATA, 'outcomes', name);
-  if (!fs.existsSync(p)) return [];
-  return (readCsv<T>(p) as any[]).filter((r) => r.status !== 'superseded') as T[];
+  let rows = _outcomeCache.get(name);
+  if (!rows) {
+    const p = path.join(DATA, 'outcomes', name);
+    rows = fs.existsSync(p) ? (readCsv<T>(p) as any[]).filter((r) => r.status !== 'superseded') : [];
+    _outcomeCache.set(name, rows);
+  }
+  return rows as T[];
 }
 export function handleRevenue(fips?: string): HandleRevenueRow[] { return readOutcomeCsv<HandleRevenueRow>('handle_revenue.csv').filter((r) => !fips || r.fips === fips).sort((a, b) => a.period_start.localeCompare(b.period_start)); }
 export function bankruptcy(fips?: string): BankruptcyRow[] { return readOutcomeCsv<BankruptcyRow>('bankruptcy.csv').filter((r) => !fips || r.fips === fips).sort((a, b) => a.period_start.localeCompare(b.period_start)); }

@@ -1,7 +1,0 @@
-# The June 2018 and March 2024 quarter pages resolved only the twelve-month F-2 file
-# (run 28); fetch the pages to see how the three-month table is linked there.
-kind: archive
-label: uscourts-two-quarter-pages
-urls:
-  - https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filing-statistics/june-2018-quarterly-bankruptcy-filings
-  - https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filing-statistics/march-2024-quarterly-bankruptcy-filings
