@@ -35,13 +35,18 @@ function svgOpen(w: number, h: number, title: string, desc: string, id: string):
 export function ticks(min: number, max: number, count = 5): number[] {
   if (max === min) return [min];
   const span = max - min;
-  const raw = span / count;
-  const mag = 10 ** Math.floor(Math.log10(raw));
-  const norm = raw / mag;
-  const step = (norm >= 5 ? 10 : norm >= 2 ? 5 : norm >= 1 ? 2 : 1) * mag;
-  const out: number[] = [];
-  for (let v = Math.ceil(min / step) * step; v <= max + 1e-9; v += step) out.push(Number(v.toFixed(10)));
-  return out;
+  // Try the requested density first; if the rounded step leaves fewer than four ticks, tighten it.
+  for (const c of [count, count * 1.5, count * 2, count * 3]) {
+    const raw = span / c;
+    const mag = 10 ** Math.floor(Math.log10(raw));
+    const norm = raw / mag;
+    const step = (norm >= 5 ? 10 : norm >= 2 ? 5 : norm >= 1 ? 2 : 1) * mag;
+    const out: number[] = [];
+    for (let v = Math.ceil(min / step) * step; v <= max + 1e-9; v += step) out.push(Number(v.toFixed(10)));
+    if (out.length >= 4) return out;
+  }
+  const step = span / 4;
+  return [0, 1, 2, 3, 4].map((i) => Number((min + i * step).toFixed(10)));
 }
 
 export function compact(n: number): string {
