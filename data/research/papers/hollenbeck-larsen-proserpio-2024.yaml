@@ -1,0 +1,123 @@
+slug: hollenbeck-larsen-proserpio-2024
+title: The Financial Consequences of Legalized Sports Gambling
+authors: [Brett Hollenbeck, Poet Larsen, Davide Proserpio]
+year_first_circulated: 2024
+publication_status: working_paper
+venue: null
+doi: null
+canonical_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4903302
+market_segment: regulated_sportsbook
+unit_of_effect: population_average
+data_used: >-
+  A large consumer credit panel (University of California Consumer Credit Panel, derived from Experian records)
+  covering millions of individuals from 2016 onward, matched to the state and date of sports gambling
+  legalization and to whether online wagering was permitted.
+design: >-
+  Staggered difference-in-differences comparing residents of states that legalized sports gambling with residents
+  of states that had not yet done so, with separate estimates for states that permitted online wagering. Outcomes
+  are credit scores, bankruptcy filings, debt in collections, debt consolidation loans and auto loan delinquency.
+plain_language_summary: >-
+  The authors ask what happened to household finances in states that legalized sports gambling compared with
+  states that had not. They find that average credit scores fell slightly and that bankruptcy filings, debt sent
+  to collections and auto loan delinquencies rose, with the effects concentrated in states that allowed online
+  wagering and growing over the years after legalization. The paper has circulated in several drafts and the
+  headline bankruptcy figure depends on which estimate and which draft is cited: the average effect across all
+  post-legalization years is about 10 percent, while the effect three to four years after online legalization is
+  reported as 25 to 30 percent. All of these are averages across everyone in a state, bettors and non-bettors
+  alike, not the effect on an individual who bets.
+methodology_notes:
+  - Population-average estimates. The share of residents who bet is a minority, so per-bettor effects would be larger than the population figures and are not estimated.
+  - Identification relies on states legalizing at different times for reasons unrelated to household finance trends; the paper reports event-study plots to assess pre-trends.
+  - Online-access states are the subgroup with the clearest effects; retail-only legalization shows smaller or imprecise effects.
+limitations:
+  - Working paper. Estimates have changed across drafts and may change again before publication.
+  - Credit bureau data do not observe gambling directly; the link is at the state-by-date level.
+versions:
+  - version_label: v2024-08
+    date: "2024-08-01"
+    date_precision: month
+    url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4903302
+    archive_url: null
+    sha256: null
+    changes_summary: First public SSRN draft. Headline bankruptcy effect reported as about 28 percent.
+  - version_label: v2025-01-slides
+    date: "2025-01-08"
+    date_precision: day
+    url: https://assets.senate.mn/committees/2025-2026/1007_Committee_on_Finance/Brett-Hollenbeck-gambling-research-slides-Jan-2025.pdf
+    archive_url: null
+    sha256: null
+    changes_summary: Research summary slides presented to the Minnesota Senate Finance Committee. Bankruptcy effect presented as 0.0002 over a 0.00072 baseline, about 27 percent.
+  - version_label: v2025-05
+    date: "2025-05-01"
+    date_precision: month
+    url: https://www.anderson.ucla.edu/sites/default/files/document/2025-05/Hollenbeck_The_Financial_Consequences_of_Legalized_Sports_Gambling.pdf
+    archive_url: null
+    sha256: null
+    changes_summary: >-
+      Revised draft hosted at UCLA Anderson. Reports an average treatment effect on bankruptcy of roughly 10
+      percent (about nine additional filers per 100,000) in Table 4 and an event-study effect of 25 to 30 percent
+      three to four years after online legalization. The 28 percent headline from the 2024 draft is no longer the
+      lead figure.
+key_figures:
+  - figure_id: bankruptcy-headline-2024
+    description: Increase in bankruptcy filing likelihood in states with legal sports gambling, as headlined in the first draft
+    value_text: about 28 percent
+    specification: Difference-in-differences average effect, 2024 draft
+    version_label: v2024-08
+    status: superseded
+    superseded_by: bankruptcy-att-2025
+    page_or_table: null
+    provenance: &holl
+      source_id: ssrn
+      source_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4903302
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Figures entered from secondary summaries of the drafts. Each PDF must be fetched, hashed, archived and the figures read from the stated table before verification.
+  - figure_id: bankruptcy-att-2025
+    description: Average treatment effect on the likelihood of filing for bankruptcy in states with access to online sports gambling
+    value_text: roughly 10 percent, or about nine more individuals per 100,000 filing
+    specification: Average treatment effect on the treated, Table 4, May 2025 draft
+    version_label: v2025-05
+    status: current
+    superseded_by: null
+    page_or_table: Table 4
+    provenance:
+      <<: *holl
+      source_id: ucla-anderson
+      source_url: https://www.anderson.ucla.edu/sites/default/files/document/2025-05/Hollenbeck_The_Financial_Consequences_of_Legalized_Sports_Gambling.pdf
+  - figure_id: bankruptcy-event-study-3to4y-2025
+    description: Increase in bankruptcy filing likelihood three to four years after legalization of online sports gambling, relative to pre-treatment levels
+    value_text: as much as 25 to 30 percent
+    specification: Event-study estimate at the three to four year horizon, May 2025 draft
+    version_label: v2025-05
+    status: current
+    superseded_by: null
+    page_or_table: Event-study figure; confirm figure number
+    provenance:
+      <<: *holl
+      source_id: ucla-anderson
+      source_url: https://www.anderson.ucla.edu/sites/default/files/document/2025-05/Hollenbeck_The_Financial_Consequences_of_Legalized_Sports_Gambling.pdf
+  - figure_id: credit-score-2025
+    description: Change in average credit score in states that legalized sports gambling
+    value_text: a decrease of roughly 0.3 percent
+    specification: Average effect, abstract, May 2025 draft
+    version_label: v2025-05
+    status: current
+    superseded_by: null
+    page_or_table: Abstract
+    provenance:
+      <<: *holl
+      source_id: ucla-anderson
+      source_url: https://www.anderson.ucla.edu/sites/default/files/document/2025-05/Hollenbeck_The_Financial_Consequences_of_Legalized_Sports_Gambling.pdf
+citations_in_policy:
+  - body: Minnesota Senate Committee on Finance
+    date: "2025-01-08"
+    description: Author testimony and slides presented during consideration of sports wagering legislation.
+    url: https://www.lrl.mn.gov/archive/minutes/senate/2025/fin/20250108/Fin_20250108_The-Financial-Consequences-of-Legalized-Sports-Betting.pdf
+provenance: *holl

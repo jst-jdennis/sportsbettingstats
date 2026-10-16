@@ -1,0 +1,39 @@
+---
+import Base from '../../layouts/Base.astro';
+import { rubrics, label, fmtDate } from '../../lib/data';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const rs = rubrics().sort((a, b) => b.version.localeCompare(a.version));
+const r = rs[0];
+---
+<Base title="State report cards and scoring rubric">
+  <h1>State report cards</h1>
+  <p class="lede">Grades for consumer protection policy, computed from the state profile data by a published rubric. A grade can be reproduced by anyone from the rubric and the data.</p>
+  <div class="panel notice" role="note"><strong>Phase 3 section.</strong> No grades are published yet. The draft rubric below is open for comment. Grades will be computed only from records marked verified, and will appear once the protections sections of enough state profiles have been reviewed.</div>
+  {r && (<>
+    <h2>Rubric version {r.version} ({label(r.status)}, effective {fmtDate(r.effective_from)})</h2>
+    {r.preamble && <p>{r.preamble}</p>}
+    <div class="table-wrap"><table>
+      <thead><tr><th scope="col">Criterion</th><th scope="col">Applies to</th><th scope="col">Data field</th><th scope="col">Scoring</th><th scope="col" class="num">Max</th><th scope="col">Rationale</th></tr></thead>
+      <tbody>{r.criteria.map((c: any) => (
+        <tr>
+          <th scope="row">{c.title}<div class="meta">{c.criterion_id}</div></th>
+          <td>{label(c.applies_to)}</td>
+          <td><code>{c.data_path}</code></td>
+          <td><ul>{c.scoring.map((s: any) => <li>{s.points} pt: {s.label ?? s.condition}<div class="meta">{s.condition}</div></li>)}</ul></td>
+          <td class="num">{c.max_points}</td>
+          <td>{c.rationale}</td>
+        </tr>))}
+      </tbody>
+    </table></div>
+    <h3>Grade bands</h3>
+    <ul>{r.grade_bands.map((g: any) => <li>{g.grade}: {g.min_pct}% of available points and above</li>)}</ul>
+    <h3>States without a regulated market</h3>
+    <p>{r.no_market_rule}</p>
+  </>)}
+  <h2>What a grade does and does not mean</h2>
+  <ul>
+    <li>A grade measures whether protections exist in law or regulation. It does not measure how well they are enforced or how much harm occurs.</li>
+    <li>Criteria and weights are a judgment. The rubric is versioned so that a change in a state's grade can always be traced to either a change in the state's policy or a change in the rubric, never both silently.</li>
+    <li>Comments on the draft rubric are welcome through the <a href={base + '/data/#contribute'}>contribution process</a>.</li>
+  </ul>
+</Base>

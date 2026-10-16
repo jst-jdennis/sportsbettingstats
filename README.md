@@ -1,15 +1,50 @@
-# Wagering Policy Data Center (working name)
+# Wagering Policy Data Center
 
-An open, nonpartisan public data portal tracking the state-by-state status
-and consequences of legalized sports betting and prediction markets in the
-United States. Modeled on the CDC STATE System and state report card
-projects. Audience: state legislators and staff, journalists, researchers.
+An open, nonpartisan public data portal tracking the state-by-state status and
+consequences of legalized sports betting and prediction markets in the United
+States. Modeled on the CDC STATE System and state report card projects. The
+audience is state legislators and staff, journalists and researchers.
 
-Status: design phase. See `docs/design/` for the data model, source
-inventory, ingestion and review design, and open questions. No application
-code yet; code starts after the design is approved.
+Draft site: https://jst-jdennis.github.io/sportsbettingstats/
 
-Principles: every number links to its primary source with the retrieval
-date; regulated sportsbooks, prediction markets and offshore or sweepstakes
-products are never conflated; evidence is presented with its limitations;
-copy is nonpartisan.
+## Principles
+
+- Every number links to its primary source and shows the date retrieved. The
+  page templates cannot render a figure without a provenance record.
+- Regulated sportsbooks, prediction markets and offshore or sweepstakes
+  products are never conflated.
+- Evidence is presented with its limitations on the same page. Copy
+  describes; it does not advocate.
+- All data is version-controlled, schema-validated on every build, and
+  licensed CC BY 4.0. Code is AGPL-3.0.
+
+## Status
+
+Phase 1 draft. All 50 states and DC have a legal status entry, marked
+pending review until a second contributor checks it. Oklahoma, New Jersey and
+Kansas have complete profiles. Outcome time series, the research library,
+the legislation tracker and report cards have their schemas and seed entries
+in place and are built out in Phases 2 to 4. See `docs/design/` for the data
+model, source inventory and ingestion design.
+
+## Layout
+
+```
+data/        version-controlled data files (YAML entities, CSV time series)
+schemas/     JSON Schema and Frictionless Table Schema for every dataset
+scripts/     validate.py and lint_dashes.py, run on every build
+src/         Astro site (static output, no client JavaScript required)
+ingest/      Python ingestion layer, one module per source, fixture-tested
+docs/design/ design documents
+```
+
+## Build
+
+```
+npm install
+python3 -m venv .venv && . .venv/bin/activate && pip install -e ingest[dev]
+npm run build        # validate + lint + astro build -> dist/
+```
+
+See `CONTRIBUTING.md` for how to add a state, a bill or a paper and how
+review works.

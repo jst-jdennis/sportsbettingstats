@@ -1,0 +1,54 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SITE } from '../../site.config';
+import { profiles, pgFunding, predictionMarkets, headlineStatus, HEADLINE_LABEL, reviewSummary, collectProvenance } from '../../lib/data';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const ps = profiles();
+const rows = ps.map((p) => {
+  const pg = pgFunding(p.abbr); const pm = predictionMarkets(p.abbr);
+  const r = reviewSummary([p, pg, pm].filter(Boolean));
+  return { p, pg, pm, r, hs: headlineStatus(p) };
+});
+const total = rows.reduce((a, x) => ({ total: a.total + x.r.total, verified: a.verified + x.r.verified }), { total: 0, verified: 0 });
+const raw = `${SITE.repoUrl}/blob/main/data`;
+---
+<Base title="Data, downloads and coverage">
+  <h1>Data, downloads and coverage</h1>
+  <p class="lede">All data is published as plain files under {SITE.dataLicense.name}. This page shows what has been entered, what has been reviewed, and what has not.</p>
+
+  <h2 id="downloads">Downloads</h2>
+  <p>Phase 4 adds a CSV link on every table and chart and a printable fact sheet per state. Until then the files themselves are the download.</p>
+  <ul>
+    <li><a href={`${raw}/states`}>State profiles</a> (one directory per state: <code>profile.yaml</code>, <code>pg_funding.yaml</code>, <code>prediction_markets.yaml</code>)</li>
+    <li><a href={`${raw}/reference/states.csv`}>States</a>, <a href={`${raw}/reference/population.csv`}>population</a>, <a href={`${raw}/reference/districts.csv`}>judicial districts</a></li>
+    <li><a href={`${raw}/legislation/bills`}>Bills</a>, <a href={`${raw}/research/papers`}>research entries</a>, <a href={`${raw}/report_cards/rubric`}>rubric versions</a></li>
+    <li><a href={`${raw}/sources/sources.yaml`}>Source registry</a></li>
+    <li><a href={`${SITE.repoUrl}/tree/main/schemas`}>Schemas</a> (JSON Schema for entity files, Frictionless Table Schema for CSVs)</li>
+  </ul>
+
+  <h2 id="coverage">Coverage and review status</h2>
+  <p>{total.verified} of {total.total} provenance records across all state files are verified. The rest are entered with a citation and await a second reviewer.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th scope="col">State</th><th scope="col">Headline status</th><th scope="col">Profile</th><th scope="col">Funding file</th><th scope="col">Prediction markets file</th><th scope="col" class="num">Records</th><th scope="col" class="num">Verified</th></tr></thead>
+    <tbody>{rows.map(({ p, pg, pm, r, hs }) => (
+      <tr>
+        <th scope="row"><a href={`${base}/states/${p.abbr.toLowerCase()}/`}>{p.name}</a></th>
+        <td>{HEADLINE_LABEL[hs]}</td>
+        <td>{p.profile_completeness === 'full' ? 'Full' : 'Status only'}</td>
+        <td>{pg ? 'Yes' : 'No'}</td>
+        <td>{pm ? 'Yes' : 'No'}</td>
+        <td class="num">{r.total}</td>
+        <td class="num">{r.verified}</td>
+      </tr>))}
+    </tbody>
+  </table></div>
+
+  <h2 id="contribute">Contribute or correct</h2>
+  <p>Three ways, from least to most effort. All go through the same review.</p>
+  <ol>
+    <li><a href={SITE.contactIssuesUrl}>Open an issue</a> reporting a number with its source URL, page and date. A maintainer enters it.</li>
+    <li>Edit a data file on GitHub and open a pull request. The validator runs automatically and tells you what is missing.</li>
+    <li>Install the ingestion tools and run <code>wpdc entry new</code>, which walks through each field with the allowed values and archives the source for you.</li>
+  </ol>
+  <p>Worked examples for adding a state, a bill and a paper are in <a href={SITE.repoUrl + '/blob/main/CONTRIBUTING.md'}>CONTRIBUTING.md</a>.</p>
+</Base>

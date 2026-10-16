@@ -1,0 +1,14 @@
+---
+import type { Status } from '../lib/data';
+interface Props { status: Status }
+const { status } = Astro.props;
+const text: Record<Status, string> = { verified: 'verified', pending_review: 'pending review', unverified: 'unverified', disputed: 'disputed', superseded: 'superseded' };
+const help: Record<Status, string> = {
+  verified: 'Entered and independently checked against the cited source by a second reviewer.',
+  pending_review: 'Entered with a source citation; not yet checked by a second reviewer.',
+  unverified: 'Placeholder. The value has not been read from the cited source.',
+  disputed: 'A correction has been raised and is unresolved.',
+  superseded: 'Replaced by a later record; kept for history.',
+};
+---
+<span class={`badge ${status}`} title={help[status]}>{text[status]}</span>

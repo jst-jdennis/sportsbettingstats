@@ -1,0 +1,81 @@
+fips: '41'
+abbr: OR
+name: Oregon
+profile_completeness: status_only
+summary: null
+legal_status:
+- market_segment: regulated_sportsbook
+  channel: retail
+  scope: tribal_lands_only
+  status: live
+  authorized_on: null
+  launched_on: '2019-08-27'
+  authority:
+    type: statute
+    citation: ORS ch. 461 (lottery authority); tribal compacts for retail
+    url: https://www.oregonlegislature.gov/
+  operator_model: mixed
+  notes: null
+  provenance:
+    source_id: or-regulator
+    source_url: https://www.oregonlottery.org/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+- market_segment: regulated_sportsbook
+  channel: online
+  scope: statewide
+  status: live
+  authorized_on: null
+  launched_on: '2019-10-16'
+  authority:
+    type: statute
+    citation: ORS ch. 461 (lottery authority); tribal compacts for retail
+    url: https://www.oregonlegislature.gov/
+  operator_model: mixed
+  notes: null
+  provenance:
+    source_id: or-regulator
+    source_url: https://www.oregonlottery.org/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+regulators:
+- name: Oregon Lottery
+  url: https://www.oregonlottery.org/
+  type: lottery
+  roles:
+  - licensing
+  - enforcement
+  - revenue_reporting
+  provenance:
+    source_id: or-regulator
+    source_url: https://www.oregonlottery.org/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+legal_age: null
+tax: null
+consumer_protections: null
+limitations: null

@@ -1,0 +1,873 @@
+# Source registry. Every provenance block's source_id must resolve here.
+# Tier rules: primary and secondary may be cited for figures; tertiary may not.
+sources:
+- source_id: census-pep-state-totals
+  publisher: US Census Bureau
+  publisher_type: federal_agency
+  title: Population Estimates Program, annual state resident population totals
+  url: https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html
+  access_method: api
+  update_cadence: annual
+  license: Public domain
+  reliability_notes: Each vintage revises prior years. The vintage used is stored on every row.
+  tier: primary
+  fips: null
+- source_id: uscourts-bankruptcy-f2
+  publisher: Administrative Office of the US Courts
+  publisher_type: federal_agency
+  title: Bankruptcy Filings Statistics, Table F-2 (business and nonbusiness cases by chapter and district)
+  url: https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filings-statistics
+  access_method: bulk_download
+  update_cadence: quarterly
+  license: Public domain
+  reliability_notes: Published as quarterly counts and twelve-month totals. Series breaks at BAPCPA (October 2005)
+    and the 2020 to 2021 trough. Not monthly.
+  tier: primary
+  fips: null
+- source_id: cftc-event-contracts
+  publisher: Commodity Futures Trading Commission
+  publisher_type: federal_agency
+  title: Event contract filings, designated contract market list and rulemaking dockets
+  url: https://www.cftc.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: Public domain
+  reliability_notes: Authoritative for federal status only. Says nothing about state-by-state availability.
+  tier: primary
+  fips: null
+- source_id: ca3-opinions
+  publisher: US Court of Appeals for the Third Circuit
+  publisher_type: court
+  title: Published opinions
+  url: https://www2.ca3.uscourts.gov/opinarch/
+  access_method: pdf
+  update_cadence: irregular
+  license: Public domain
+  reliability_notes: null
+  tier: primary
+  fips: null
+- source_id: ca6-opinions
+  publisher: US Court of Appeals for the Sixth Circuit
+  publisher_type: court
+  title: Published opinions
+  url: https://www.opn.ca6.uscourts.gov/
+  access_method: pdf
+  update_cadence: irregular
+  license: Public domain
+  reliability_notes: null
+  tier: primary
+  fips: null
+- source_id: ca9-opinions
+  publisher: US Court of Appeals for the Ninth Circuit
+  publisher_type: court
+  title: Published opinions
+  url: https://www.ca9.uscourts.gov/opinions/
+  access_method: pdf
+  update_cadence: irregular
+  license: Public domain
+  reliability_notes: null
+  tier: primary
+  fips: null
+- source_id: scotus-docket
+  publisher: Supreme Court of the United States
+  publisher_type: court
+  title: Docket search
+  url: https://www.supremecourt.gov/docket/docket.aspx
+  access_method: html_table
+  update_cadence: irregular
+  license: Public domain
+  reliability_notes: null
+  tier: primary
+  fips: null
+- source_id: courtlistener
+  publisher: Free Law Project
+  publisher_type: nonprofit
+  title: CourtListener dockets and opinions (RECAP archive)
+  url: https://www.courtlistener.com/
+  access_method: api
+  update_cadence: irregular
+  license: Public domain for documents; CC BY for metadata
+  reliability_notes: Docket coverage depends on RECAP uploads. Used to locate documents, which are then cited to
+    the court.
+  tier: secondary
+  fips: null
+- source_id: ncpg-helpline
+  publisher: National Council on Problem Gambling
+  publisher_type: nonprofit
+  title: 1-800-GAMBLER National Problem Gambling Helpline fact sheets and annual reports
+  url: https://www.ncpgambling.org/help-treatment/
+  access_method: pdf
+  update_cadence: annual
+  license: null
+  reliability_notes: Publishes national aggregates. No public state-level time series was found as of October 2026.
+    Counting rules differ across the 27 contact centers.
+  tier: primary
+  fips: null
+- source_id: naadgs-survey
+  publisher: National Association of Administrators for Disordered Gambling Services
+  publisher_type: nonprofit
+  title: National Survey of Publicly Funded Problem Gambling Services
+  url: https://www.naadgs.org/
+  access_method: pdf
+  update_cadence: irregular
+  license: null
+  reliability_notes: Self-reported by state administrators. Some states report appropriations, others expenditures.
+    Last full survey known as of October 2026 was published May 2022 with a FY2023 budget update.
+  tier: secondary
+  fips: null
+- source_id: legiscan
+  publisher: LegiScan LLC
+  publisher_type: nonprofit
+  title: LegiScan API
+  url: https://legiscan.com/legiscan
+  access_method: api
+  update_cadence: weekly
+  license: LegiScan API terms
+  reliability_notes: Good coverage of bills, actions and roll calls. Machine summaries are not used as copy. Verified
+    vote records cite the legislature.
+  tier: secondary
+  fips: null
+- source_id: openstates
+  publisher: Open States (Plural)
+  publisher_type: nonprofit
+  title: Open States API v3 and bulk data
+  url: https://openstates.org/
+  access_method: api
+  update_cadence: weekly
+  license: Public domain (bulk data)
+  reliability_notes: Vote coverage varies by state. Used as a cross-check.
+  tier: secondary
+  fips: null
+- source_id: ok-legislature-bills
+  publisher: Oklahoma Legislature
+  publisher_type: legislature
+  title: Bill information, text, votes and journals
+  url: https://www.oklegislature.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Vote records on the bill page and in the Senate and House Journals. Session identifiers change
+    each year.
+  tier: primary
+  fips: '40'
+- source_id: ok-omes-gaming-compliance
+  publisher: Oklahoma Office of Management and Enterprise Services, Gaming Compliance Unit
+  publisher_type: state_agency
+  title: Tribal gaming compliance and compact information
+  url: https://oklahoma.gov/omes/services/gaming-compliance.html
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: The state body responsible for compact compliance; it does not regulate or report sports wagering,
+    which is not authorized.
+  tier: primary
+  fips: '40'
+- source_id: ok-odmhsas
+  publisher: Oklahoma Department of Mental Health and Substance Abuse Services
+  publisher_type: state_agency
+  title: Problem gambling services and prevalence studies
+  url: https://oklahoma.gov/odmhsas.html
+  access_method: pdf
+  update_cadence: irregular
+  license: null
+  reliability_notes: Funding amounts appear in agency budget documents and legislative appropriations, not on a
+    single page.
+  tier: primary
+  fips: '40'
+- source_id: ok-senate-journal
+  publisher: Oklahoma State Senate
+  publisher_type: legislature
+  title: Senate Journal and floor vote records
+  url: https://oksenate.gov/
+  access_method: pdf
+  update_cadence: irregular
+  license: null
+  reliability_notes: The authoritative record for Senate floor votes.
+  tier: primary
+  fips: '40'
+- source_id: nj-dge-sports-wagering-monthly
+  publisher: New Jersey Division of Gaming Enforcement
+  publisher_type: state_regulator
+  title: Monthly sports wagering revenue reports
+  url: https://www.nj.gov/oag/ge/sportswageringrevenue.html
+  access_method: pdf
+  update_cadence: monthly
+  license: null
+  reliability_notes: PDF tables by licensee and channel from June 2018. Layout has changed several times. Prior
+    months are occasionally restated. Revenue is reported as gross revenue before promotional deductions.
+  tier: primary
+  fips: '34'
+- source_id: nj-dge
+  publisher: New Jersey Division of Gaming Enforcement
+  publisher_type: state_regulator
+  title: Division of Gaming Enforcement, regulations, directives and responsible gaming pages
+  url: https://www.nj.gov/oag/ge/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: N.J.A.C. 13:69 series and DGE directives. Self-exclusion program pages are maintained here.
+  tier: primary
+  fips: '34'
+- source_id: nj-legislature
+  publisher: New Jersey Legislature
+  publisher_type: legislature
+  title: Statutes, bills and public laws
+  url: https://www.njleg.state.nj.us/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: null
+  tier: primary
+  fips: '34'
+- source_id: nj-treasury-budget
+  publisher: New Jersey Department of the Treasury, Office of Management and Budget
+  publisher_type: state_agency
+  title: Appropriations acts and budget documents
+  url: https://www.nj.gov/treasury/omb/
+  access_method: pdf
+  update_cadence: annual
+  license: null
+  reliability_notes: null
+  tier: primary
+  fips: '34'
+- source_id: ks-lottery-sports-wagering
+  publisher: Kansas Lottery
+  publisher_type: state_regulator
+  title: Sports wagering revenue reports
+  url: https://www.kslottery.com/
+  access_method: html_table
+  update_cadence: monthly
+  license: null
+  reliability_notes: The Lottery is the statutory operator and publishes monthly handle and revenue by casino manager.
+    Page location has changed since launch.
+  tier: primary
+  fips: '20'
+- source_id: ks-krgc
+  publisher: Kansas Racing and Gaming Commission
+  publisher_type: state_regulator
+  title: Sports wagering regulation and voluntary exclusion program
+  url: https://krgc.ks.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: null
+  tier: primary
+  fips: '20'
+- source_id: ks-legislature
+  publisher: Kansas Legislature
+  publisher_type: legislature
+  title: Statutes and bills
+  url: https://www.kslegislature.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: null
+  tier: primary
+  fips: '20'
+- source_id: ks-kdads
+  publisher: Kansas Department for Aging and Disability Services
+  publisher_type: state_agency
+  title: Problem Gambling and Addictions Grant Fund reports
+  url: https://kdads.ks.gov/
+  access_method: pdf
+  update_cadence: annual
+  license: null
+  reliability_notes: null
+  tier: primary
+  fips: '20'
+- source_id: ssrn
+  publisher: SSRN (Elsevier)
+  publisher_type: academic
+  title: SSRN working paper repository
+  url: https://www.ssrn.com/
+  access_method: pdf
+  update_cadence: irregular
+  license: Author terms
+  reliability_notes: Authors replace the PDF in place when posting a new version, so every version is hashed and
+    archived locally.
+  tier: primary
+  fips: null
+- source_id: nber
+  publisher: National Bureau of Economic Research
+  publisher_type: academic
+  title: NBER Working Paper series
+  url: https://www.nber.org/papers
+  access_method: pdf
+  update_cadence: irregular
+  license: Author terms
+  reliability_notes: Working paper PDFs are stable by number and date.
+  tier: primary
+  fips: null
+- source_id: ucla-anderson
+  publisher: UCLA Anderson School of Management
+  publisher_type: academic
+  title: Faculty paper hosting
+  url: https://www.anderson.ucla.edu/
+  access_method: pdf
+  update_cadence: irregular
+  license: Author terms
+  reliability_notes: Author-hosted draft. Date is on the title page.
+  tier: primary
+  fips: null
+- source_id: mn-senate-finance
+  publisher: Minnesota Senate Committee on Finance
+  publisher_type: legislature
+  title: Committee materials and testimony archive
+  url: https://www.senate.mn/committees/
+  access_method: pdf
+  update_cadence: irregular
+  license: Public record
+  reliability_notes: Archives the slides and paper versions presented to the committee on 2025-01-08.
+  tier: primary
+  fips: '27'
+- source_id: journal-of-financial-economics
+  publisher: Elsevier
+  publisher_type: academic
+  title: Journal of Financial Economics
+  url: https://www.sciencedirect.com/journal/journal-of-financial-economics
+  access_method: pdf
+  update_cadence: irregular
+  license: Publisher terms
+  reliability_notes: null
+  tier: primary
+  fips: null
+- source_id: press-trade
+  publisher: Trade and general press (various)
+  publisher_type: news
+  title: Press coverage used only to locate primary documents
+  url: https://example.invalid/press
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Never cited for a figure. Listed so that contributor notes can reference where a lead came
+    from.
+  tier: tertiary
+  fips: null
+- source_id: ak-legislature
+  publisher: Alaska Legislature
+  publisher_type: legislature
+  title: Alaska statutes and bill information
+  url: https://www.akleg.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Used to establish the absence of an authorizing statute. Absence must be re-checked each session.
+  tier: primary
+  fips: '02'
+- source_id: al-legislature
+  publisher: Alabama Legislature
+  publisher_type: legislature
+  title: Alabama statutes and bill information
+  url: https://alison.legislature.state.al.us/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Used to establish the absence of an authorizing statute. Absence must be re-checked each session.
+  tier: primary
+  fips: '01'
+- source_id: ar-regulator
+  publisher: Arkansas Racing Commission
+  publisher_type: state_regulator
+  title: Arkansas Racing Commission sports wagering pages
+  url: https://www.dfa.arkansas.gov/racing-commission/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '05'
+- source_id: az-regulator
+  publisher: Arizona Department of Gaming
+  publisher_type: state_regulator
+  title: Arizona Department of Gaming sports wagering pages
+  url: https://gaming.az.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '04'
+- source_id: ca-legislature
+  publisher: California Legislature
+  publisher_type: legislature
+  title: California statutes and bill information
+  url: https://leginfo.legislature.ca.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Used to establish the absence of an authorizing statute. Absence must be re-checked each session.
+  tier: primary
+  fips: '06'
+- source_id: co-regulator
+  publisher: Colorado Division of Gaming
+  publisher_type: state_regulator
+  title: Colorado Division of Gaming sports wagering pages
+  url: https://sbg.colorado.gov/gaming
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: 08
+- source_id: ct-regulator
+  publisher: Connecticut Department of Consumer Protection, Gaming Division
+  publisher_type: state_regulator
+  title: Connecticut Department of Consumer Protection, Gaming Division sports wagering pages
+  url: https://portal.ct.gov/dcp/gaming-division/gaming-division
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: 09
+- source_id: dc-regulator
+  publisher: DC Office of Lottery and Gaming
+  publisher_type: state_regulator
+  title: DC Office of Lottery and Gaming sports wagering pages
+  url: https://dclottery.com/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '11'
+- source_id: de-regulator
+  publisher: Delaware Lottery
+  publisher_type: state_regulator
+  title: Delaware Lottery sports wagering pages
+  url: https://www.delottery.com/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '10'
+- source_id: fl-regulator
+  publisher: Florida Gaming Control Commission
+  publisher_type: state_regulator
+  title: Florida Gaming Control Commission sports wagering pages
+  url: https://flgaming.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '12'
+- source_id: ga-legislature
+  publisher: Georgia Legislature
+  publisher_type: legislature
+  title: Georgia statutes and bill information
+  url: https://www.legis.ga.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Used to establish the absence of an authorizing statute. Absence must be re-checked each session.
+  tier: primary
+  fips: '13'
+- source_id: hi-legislature
+  publisher: Hawaii Legislature
+  publisher_type: legislature
+  title: Hawaii statutes and bill information
+  url: https://www.capitol.hawaii.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Used to establish the absence of an authorizing statute. Absence must be re-checked each session.
+  tier: primary
+  fips: '15'
+- source_id: ia-regulator
+  publisher: Iowa Racing and Gaming Commission
+  publisher_type: state_regulator
+  title: Iowa Racing and Gaming Commission sports wagering pages
+  url: https://irgc.iowa.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '19'
+- source_id: id-legislature
+  publisher: Idaho Legislature
+  publisher_type: legislature
+  title: Idaho statutes and bill information
+  url: https://legislature.idaho.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Used to establish the absence of an authorizing statute. Absence must be re-checked each session.
+  tier: primary
+  fips: '16'
+- source_id: il-regulator
+  publisher: Illinois Gaming Board
+  publisher_type: state_regulator
+  title: Illinois Gaming Board sports wagering pages
+  url: https://igb.illinois.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '17'
+- source_id: in-regulator
+  publisher: Indiana Gaming Commission
+  publisher_type: state_regulator
+  title: Indiana Gaming Commission sports wagering pages
+  url: https://www.in.gov/igc/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '18'
+- source_id: ky-regulator
+  publisher: Kentucky Horse Racing and Gaming Corporation
+  publisher_type: state_regulator
+  title: Kentucky Horse Racing and Gaming Corporation sports wagering pages
+  url: https://khrc.ky.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '21'
+- source_id: la-regulator
+  publisher: Louisiana Gaming Control Board
+  publisher_type: state_regulator
+  title: Louisiana Gaming Control Board sports wagering pages
+  url: https://lgcb.dps.louisiana.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '22'
+- source_id: ma-regulator
+  publisher: Massachusetts Gaming Commission
+  publisher_type: state_regulator
+  title: Massachusetts Gaming Commission sports wagering pages
+  url: https://massgaming.com/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '25'
+- source_id: md-regulator
+  publisher: Maryland Lottery and Gaming Control Agency
+  publisher_type: state_regulator
+  title: Maryland Lottery and Gaming Control Agency sports wagering pages
+  url: https://www.mdgaming.com/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '24'
+- source_id: me-regulator
+  publisher: Maine Gambling Control Unit
+  publisher_type: state_regulator
+  title: Maine Gambling Control Unit sports wagering pages
+  url: https://www.maine.gov/dps/gamb-control/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '23'
+- source_id: mi-regulator
+  publisher: Michigan Gaming Control Board
+  publisher_type: state_regulator
+  title: Michigan Gaming Control Board sports wagering pages
+  url: https://www.michigan.gov/mgcb
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '26'
+- source_id: mn-legislature
+  publisher: Minnesota Legislature
+  publisher_type: legislature
+  title: Minnesota statutes and bill information
+  url: https://www.revisor.mn.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Used to establish the absence of an authorizing statute. Absence must be re-checked each session.
+  tier: primary
+  fips: '27'
+- source_id: mo-regulator
+  publisher: Missouri Gaming Commission
+  publisher_type: state_regulator
+  title: Missouri Gaming Commission sports wagering pages
+  url: https://www.mgc.dps.mo.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '29'
+- source_id: ms-regulator
+  publisher: Mississippi Gaming Commission
+  publisher_type: state_regulator
+  title: Mississippi Gaming Commission sports wagering pages
+  url: https://www.msgamingcommission.com/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '28'
+- source_id: mt-regulator
+  publisher: Montana Lottery
+  publisher_type: state_regulator
+  title: Montana Lottery sports wagering pages
+  url: https://www.montanalottery.com/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '30'
+- source_id: nc-regulator
+  publisher: North Carolina State Lottery Commission
+  publisher_type: state_regulator
+  title: North Carolina State Lottery Commission sports wagering pages
+  url: https://nclottery.com/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '37'
+- source_id: nd-regulator
+  publisher: North Dakota Attorney General, Gaming Division
+  publisher_type: state_regulator
+  title: North Dakota Attorney General, Gaming Division sports wagering pages
+  url: https://attorneygeneral.nd.gov/gaming/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '38'
+- source_id: ne-regulator
+  publisher: Nebraska Racing and Gaming Commission
+  publisher_type: state_regulator
+  title: Nebraska Racing and Gaming Commission sports wagering pages
+  url: https://racingcommission.nebraska.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '31'
+- source_id: nh-regulator
+  publisher: New Hampshire Lottery Commission
+  publisher_type: state_regulator
+  title: New Hampshire Lottery Commission sports wagering pages
+  url: https://www.nhlottery.com/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '33'
+- source_id: nm-regulator
+  publisher: New Mexico Gaming Control Board
+  publisher_type: state_regulator
+  title: New Mexico Gaming Control Board sports wagering pages
+  url: https://www.nmgcb.org/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '35'
+- source_id: nv-regulator
+  publisher: Nevada Gaming Control Board
+  publisher_type: state_regulator
+  title: Nevada Gaming Control Board sports wagering pages
+  url: https://gaming.nv.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '32'
+- source_id: ny-regulator
+  publisher: New York State Gaming Commission
+  publisher_type: state_regulator
+  title: New York State Gaming Commission sports wagering pages
+  url: https://www.gaming.ny.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '36'
+- source_id: oh-regulator
+  publisher: Ohio Casino Control Commission
+  publisher_type: state_regulator
+  title: Ohio Casino Control Commission sports wagering pages
+  url: https://casinocontrol.ohio.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '39'
+- source_id: or-regulator
+  publisher: Oregon Lottery
+  publisher_type: state_regulator
+  title: Oregon Lottery sports wagering pages
+  url: https://www.oregonlottery.org/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '41'
+- source_id: pa-regulator
+  publisher: Pennsylvania Gaming Control Board
+  publisher_type: state_regulator
+  title: Pennsylvania Gaming Control Board sports wagering pages
+  url: https://gamingcontrolboard.pa.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '42'
+- source_id: ri-regulator
+  publisher: Rhode Island Lottery
+  publisher_type: state_regulator
+  title: Rhode Island Lottery sports wagering pages
+  url: https://www.rilot.com/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '44'
+- source_id: sc-legislature
+  publisher: South Carolina Legislature
+  publisher_type: legislature
+  title: South Carolina statutes and bill information
+  url: https://www.scstatehouse.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Used to establish the absence of an authorizing statute. Absence must be re-checked each session.
+  tier: primary
+  fips: '45'
+- source_id: sd-regulator
+  publisher: South Dakota Commission on Gaming
+  publisher_type: state_regulator
+  title: South Dakota Commission on Gaming sports wagering pages
+  url: https://dor.sd.gov/businesses/gaming/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '46'
+- source_id: tn-regulator
+  publisher: Tennessee Sports Wagering Council
+  publisher_type: state_regulator
+  title: Tennessee Sports Wagering Council sports wagering pages
+  url: https://www.tn.gov/swc.html
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '47'
+- source_id: tx-legislature
+  publisher: Texas Legislature
+  publisher_type: legislature
+  title: Texas statutes and bill information
+  url: https://capitol.texas.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Used to establish the absence of an authorizing statute. Absence must be re-checked each session.
+  tier: primary
+  fips: '48'
+- source_id: ut-legislature
+  publisher: Utah Legislature
+  publisher_type: legislature
+  title: Utah statutes and bill information
+  url: https://le.utah.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Used to establish the absence of an authorizing statute. Absence must be re-checked each session.
+  tier: primary
+  fips: '49'
+- source_id: va-regulator
+  publisher: Virginia Lottery
+  publisher_type: state_regulator
+  title: Virginia Lottery sports wagering pages
+  url: https://www.valottery.com/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '51'
+- source_id: vt-regulator
+  publisher: Vermont Department of Liquor and Lottery
+  publisher_type: state_regulator
+  title: Vermont Department of Liquor and Lottery sports wagering pages
+  url: https://liquorandlottery.vermont.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '50'
+- source_id: wa-regulator
+  publisher: Washington State Gambling Commission
+  publisher_type: state_regulator
+  title: Washington State Gambling Commission sports wagering pages
+  url: https://wsgc.wa.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '53'
+- source_id: wi-regulator
+  publisher: Wisconsin Department of Administration, Division of Gaming
+  publisher_type: state_regulator
+  title: Wisconsin Department of Administration, Division of Gaming sports wagering pages
+  url: https://doa.wi.gov/Pages/AboutDOA/Gaming.aspx
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '55'
+- source_id: wv-regulator
+  publisher: West Virginia Lottery
+  publisher_type: state_regulator
+  title: West Virginia Lottery sports wagering pages
+  url: https://wvlottery.com/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '54'
+- source_id: wy-regulator
+  publisher: Wyoming Gaming Commission
+  publisher_type: state_regulator
+  title: Wyoming Gaming Commission sports wagering pages
+  url: https://gaming.wyo.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Regulator pages move without redirects; archive each retrieved page.
+  tier: primary
+  fips: '56'

@@ -1,0 +1,14 @@
+---
+// The only way a fact or figure gets onto a page. Requires provenance.
+import type { Provenance } from '../lib/data';
+import { source, fmtDate } from '../lib/data';
+import StatusBadge from './StatusBadge.astro';
+interface Props { p: Provenance; compact?: boolean }
+const { p, compact = false } = Astro.props;
+const s = source(p.source_id);
+---
+<span class="src">
+  <StatusBadge status={p.status} />
+  {' '}<a href={p.source_url} rel="external noopener">{s.publisher}</a>{p.page_or_table && <>, {p.page_or_table}</>}, retrieved {fmtDate(p.retrieved_at)}{p.archive_url && <> (<a href={p.archive_url} rel="external noopener">archived</a>)</>}
+  {!compact && p.notes && <details><summary>Note</summary><span>{p.notes}</span></details>}
+</span>

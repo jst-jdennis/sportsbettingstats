@@ -1,0 +1,63 @@
+---
+import Base from '../../layouts/Base.astro';
+import SourceRef from '../../components/SourceRef.astro';
+import Limitations from '../../components/Limitations.astro';
+import CiteBox from '../../components/CiteBox.astro';
+import ReviewNotice from '../../components/ReviewNotice.astro';
+import { papers, label, fmtDate, asOf } from '../../lib/data';
+export function getStaticPaths() { return papers().map((p) => ({ params: { slug: p.slug }, props: { p } })); }
+const { p } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const pageAsOf = asOf([p]);
+const path = `/research/${p.slug}/`;
+const unitHelp: Record<string, string> = {
+  population_average: 'Estimates are averages over everyone in the treated area, bettors and non-bettors alike. They are not the effect on an individual who bets, which would be larger.',
+  household_level: 'Estimates describe households observed in the data, not the state population as a whole.',
+  bettor_level: 'Estimates describe people who bet.',
+  mixed: 'The paper reports estimates at more than one level; see the specification on each figure.',
+};
+---
+<Base title={p.title} description={p.plain_language_summary.slice(0, 200)} asOf={pageAsOf} canonicalPath={path}>
+  <p class="meta"><a href={base + '/research/'}>Research library</a> / {p.slug}</p>
+  <h1>{p.title}</h1>
+  <p class="lede">{p.authors.join(', ')}. First circulated {p.year_first_circulated}. {label(p.publication_status)}{p.venue && <>, {p.venue}</>}. {p.canonical_url && <a href={p.canonical_url}>Paper</a>}{p.doi && <>. DOI {p.doi}</>}</p>
+  <ReviewNotice objs={[p]} />
+  <dl class="kv">
+    <dt>Market segment studied</dt><dd>{label(p.market_segment)}</dd>
+    <dt>Unit of effect</dt><dd><strong>{label(p.unit_of_effect)}</strong>. {unitHelp[p.unit_of_effect]}</dd>
+    {p.data_used && <><dt>Data</dt><dd>{p.data_used}</dd></>}
+    {p.design && <><dt>Design</dt><dd>{p.design}</dd></>}
+  </dl>
+
+  <h2>Plain-language summary</h2>
+  <p>{p.plain_language_summary}</p>
+
+  <h2>Key figures</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th scope="col">Figure</th><th scope="col">Value as stated</th><th scope="col">Specification</th><th scope="col">Version</th><th scope="col">Status</th><th scope="col">Source</th></tr></thead>
+    <tbody>{p.key_figures.map((f: any) => (
+      <tr>
+        <th scope="row">{f.description}</th>
+        <td><strong>{f.value_text}</strong></td>
+        <td>{f.specification}{f.page_or_table && <div class="meta">{f.page_or_table}</div>}</td>
+        <td>{f.version_label}</td>
+        <td>{label(f.status)}{f.superseded_by && <div class="meta">superseded by {f.superseded_by}</div>}</td>
+        <td><SourceRef p={f.provenance} compact /></td>
+      </tr>))}
+    </tbody>
+  </table></div>
+
+  <h2>Version and revision log</h2>
+  <ol>{p.versions.map((v: any) => (
+    <li><strong>{v.version_label}</strong>, {fmtDate(v.date)}{v.date_precision && v.date_precision !== 'day' && <> (dated to the {v.date_precision})</>}. <a href={v.url}>Document</a>{v.archive_url && <> (<a href={v.archive_url}>archived</a>)</>}{v.sha256 && <div class="meta">sha256 {v.sha256}</div>}<div>{v.changes_summary}</div></li>))}
+  </ol>
+
+  {p.methodology_notes && <><h2>Methodology notes</h2><ul>{p.methodology_notes.map((m: string) => <li>{m}</li>)}</ul></>}
+  <Limitations items={p.limitations} />
+
+  {p.citations_in_policy?.length ? <><h2>Cited in policy proceedings</h2><ul>{p.citations_in_policy.map((c: any) => <li>{c.body}, {fmtDate(c.date)}: {c.description} {c.url && <a href={c.url}>Record</a>}</li>)}</ul></> : null}
+
+  <h2>Entry provenance</h2>
+  <p><SourceRef p={p.provenance} /></p>
+  <CiteBox title={p.title} asOf={pageAsOf} path={path} />
+</Base>

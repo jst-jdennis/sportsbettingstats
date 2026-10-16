@@ -1,0 +1,10 @@
+---
+interface Props { items: string[] | null | undefined; title?: string }
+const { items, title = 'Limitations' } = Astro.props;
+---
+{items && items.length > 0 && (
+  <aside class="panel limits" aria-label={title}>
+    <h3>{title}</h3>
+    <ul>{items.map((t) => <li>{t}</li>)}</ul>
+  </aside>
+)}

@@ -1,0 +1,11 @@
+---
+import { reviewSummary } from '../lib/data';
+interface Props { objs: any[] }
+const { objs } = Astro.props;
+const r = reviewSummary(objs);
+---
+{r.pending > 0 && (
+  <div class="panel notice" role="note">
+    <strong>Draft data.</strong> {r.pending} of {r.total} records on this page are entered with a source but have not yet been checked by a second reviewer. Each carries a status badge. Nothing here should be cited as verified until the badge says so.
+  </div>
+)}

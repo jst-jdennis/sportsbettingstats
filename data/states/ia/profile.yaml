@@ -1,0 +1,81 @@
+fips: '19'
+abbr: IA
+name: Iowa
+profile_completeness: status_only
+summary: null
+legal_status:
+- market_segment: regulated_sportsbook
+  channel: retail
+  scope: statewide
+  status: live
+  authorized_on: '2019-05-13'
+  launched_on: '2019-08-15'
+  authority:
+    type: statute
+    citation: SF 617 (2019); Iowa Code ch. 99F
+    url: https://www.legis.iowa.gov/
+  operator_model: commercial
+  notes: null
+  provenance:
+    source_id: ia-regulator
+    source_url: https://irgc.iowa.gov/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+- market_segment: regulated_sportsbook
+  channel: online
+  scope: statewide
+  status: live
+  authorized_on: '2019-05-13'
+  launched_on: '2019-08-15'
+  authority:
+    type: statute
+    citation: SF 617 (2019); Iowa Code ch. 99F
+    url: https://www.legis.iowa.gov/
+  operator_model: commercial
+  notes: null
+  provenance:
+    source_id: ia-regulator
+    source_url: https://irgc.iowa.gov/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+regulators:
+- name: Iowa Racing and Gaming Commission
+  url: https://irgc.iowa.gov/
+  type: gaming_commission
+  roles:
+  - licensing
+  - enforcement
+  - revenue_reporting
+  provenance:
+    source_id: ia-regulator
+    source_url: https://irgc.iowa.gov/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+legal_age: null
+tax: null
+consumer_protections: null
+limitations: null

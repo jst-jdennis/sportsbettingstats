@@ -1,0 +1,139 @@
+---
+import Base from '../../layouts/Base.astro';
+import SourceRef from '../../components/SourceRef.astro';
+import Figure from '../../components/Figure.astro';
+import Limitations from '../../components/Limitations.astro';
+import CiteBox from '../../components/CiteBox.astro';
+import ReviewNotice from '../../components/ReviewNotice.astro';
+import { profiles, pgFunding, predictionMarkets, bills, population, headlineStatus, HEADLINE_LABEL, scopeQualifiers, fmtDate, pct, label, asOf } from '../../lib/data';
+export function getStaticPaths() { return profiles().map((p) => ({ params: { abbr: p.abbr.toLowerCase() }, props: { p } })); }
+const { p } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const pg = pgFunding(p.abbr);
+const pm = predictionMarkets(p.abbr);
+const stateBills = bills().filter((b) => b.fips === p.fips);
+const pop = population().filter((r) => r.fips === p.fips).sort((a, b) => Number(b.year) - Number(a.year))[0];
+const hs = headlineStatus(p);
+const quals = scopeQualifiers(p);
+const pageAsOf = asOf([p, pg, pm, ...stateBills].filter(Boolean));
+const full = p.profile_completeness === 'full';
+const cp = p.consumer_protections ?? {};
+function perCapita(amount: number | null | undefined): string | null {
+  if (amount == null || !pop) return null;
+  return `$${(amount / Number(pop.population)).toFixed(2)} per resident (population ${Number(pop.population).toLocaleString()}, Census Vintage ${pop.vintage})`;
+}
+const path = `/states/${p.abbr.toLowerCase()}/`;
+---
+<Base title={`${p.name}: sports wagering and prediction markets`} description={p.summary ?? `Legal status, regulation and consumer protections for sports wagering in ${p.name}.`} asOf={pageAsOf} canonicalPath={path}>
+  <p class="meta"><a href={base + '/'}>Map</a> / <a href={base + '/states/'}>States</a> / {p.name}</p>
+  <h1>{p.name}</h1>
+  <p class="lede"><strong>{HEADLINE_LABEL[hs]}</strong>{quals.length ? ` (${quals.join('; ')})` : ''}. {p.summary ?? ''}</p>
+  <ReviewNotice objs={[p, pg, pm, ...stateBills].filter(Boolean)} />
+  {!full && <div class="panel" role="note"><strong>Status-only profile.</strong> Legal status and regulator have been entered for {p.name}. Legal age, tax structure, consumer protections, problem gambling funding and prediction market status have not. <a href={base + '/data/#contribute'}>How to add them</a>.</div>}
+
+  <nav class="toc" aria-label="On this page"><ul>
+    <li><a href="#status">Legal status</a></li><li><a href="#governance">Governance and age</a></li><li><a href="#tax">Tax structure</a></li>
+    <li><a href="#prediction">Prediction markets</a></li><li><a href="#protections">Consumer protections</a></li><li><a href="#funding">Problem gambling funding</a></li>
+    <li><a href="#outcomes">Outcomes</a></li><li><a href="#legislation">Legislation</a></li><li><a href="#sources">Sources on this page</a></li>
+  </ul></nav>
+
+  <h2 id="status">Legal status <span class="segment">regulated sportsbooks</span></h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th scope="col">Channel</th><th scope="col">Status</th><th scope="col">Scope</th><th scope="col">Authorized</th><th scope="col">First wager</th><th scope="col">Authority</th><th scope="col">Operator model</th><th scope="col">Source</th></tr></thead>
+    <tbody>{p.legal_status.map((r) => (
+      <tr>
+        <th scope="row">{label(r.channel)}</th>
+        <td>{label(r.status)}</td>
+        <td>{r.scope === 'not_applicable' ? '' : label(r.scope)}</td>
+        <td>{r.status === 'not_authorized' ? '' : fmtDate(r.authorized_on)}</td>
+        <td>{r.status === 'not_authorized' ? '' : fmtDate(r.launched_on)}</td>
+        <td>{r.authority ? (r.authority.url ? <a href={r.authority.url}>{r.authority.citation}</a> : r.authority.citation) : ''}{r.notes && <div class="meta">{r.notes}</div>}</td>
+        <td>{label(r.operator_model)}</td>
+        <td><SourceRef p={r.provenance} compact /></td>
+      </tr>))}
+    </tbody>
+  </table></div>
+
+  <h2 id="governance">Governance and legal age</h2>
+  <h3>Regulators</h3>
+  <ul>{p.regulators.map((r) => <li>{r.url ? <a href={r.url}>{r.name}</a> : r.name}{r.roles.length ? <> ({r.roles.map(label).join(', ')})</> : ''} <SourceRef p={r.provenance} compact /></li>)}</ul>
+  <h3>Minimum age</h3>
+  {p.legal_age?.length ? <ul>{p.legal_age.map((a) => <li><Figure value={a.age} p={a.provenance} />{a.scope !== 'all' && <> ({label(a.scope)})</>}{a.authority_citation && <div class="meta">{a.authority_citation}</div>}</li>)}</ul> : <p class="meta">Not yet entered.</p>}
+
+  <h2 id="tax">Tax structure</h2>
+  {p.tax?.length ? (
+    <div class="table-wrap"><table>
+      <thead><tr><th scope="col">Channel</th><th scope="col">Basis</th><th scope="col">Rate</th><th scope="col">Effective</th><th scope="col">Promotional deductions</th><th scope="col">Destination</th><th scope="col">Authority</th><th scope="col">Source</th></tr></thead>
+      <tbody>{p.tax.map((t: any) => (
+        <tr>
+          <th scope="row">{label(t.channel)}</th>
+          <td>{label(t.basis)}</td>
+          <td class="num">{t.rate != null ? pct(t.rate) : t.tiers ? 'tiered' : t.per_wager_fee_cents != null ? `${t.per_wager_fee_cents} cents per wager` : 'none'}</td>
+          <td>{fmtDate(t.effective_from)}{t.effective_to ? ` to ${fmtDate(t.effective_to)}` : ' onward'}</td>
+          <td>{t.promo_deduction_rule ?? ''}</td>
+          <td>{t.destination ? t.destination.map((d: any) => d.share != null ? `${d.fund_name} (${pct(d.share)})` : d.fund_name).join('; ') : ''}</td>
+          <td>{t.authority_citation ?? ''}</td>
+          <td><SourceRef p={t.provenance} compact /></td>
+        </tr>))}
+      </tbody>
+    </table></div>
+  ) : <p class="meta">Not yet entered.</p>}
+  <p class="meta">Headline rates are not comparable across states without the basis and the promotional deduction rule, both shown above.</p>
+
+  <h2 id="prediction">Prediction markets <span class="segment">separate from regulated sportsbooks</span></h2>
+  {pm ? (<>
+    <p class="meta">As of {fmtDate(pm.as_of)}. Event contracts on sports outcomes are offered by exchanges designated by the Commodity Futures Trading Commission. Whether state gambling law reaches them is the subject of active litigation. This section records what {p.name} has done and what courts have ruled; it does not record platform volumes.</p>
+    {pm.review_note && <p class="meta">{pm.review_note}</p>}
+    <h3>Platforms</h3>
+    <ul>{pm.operating_platforms.map((o: any) => <li>{o.platform}: sports contracts {o.offers_sports_contracts ? 'offered' : 'not offered'}; available in {p.name}: <strong>{label(o.offers_in_state)}</strong>{o.basis && o.basis !== 'unknown' && <> (per {label(o.basis)})</>} <SourceRef p={o.provenance} compact /></li>)}</ul>
+    <h3>State actions</h3>
+    {pm.state_actions.length ? <ul>{pm.state_actions.map((a: any) => <li><strong>{fmtDate(a.date)}</strong>: {label(a.action_type)} by {a.issuing_body} against {a.target}. {a.summary} {a.document_url && <a href={a.document_url}>Document</a>} <SourceRef p={a.provenance} compact /></li>)}</ul> : <p class="meta">None recorded.</p>}
+    <h3>Litigation</h3>
+    {pm.litigation.length ? pm.litigation.map((c: any) => (
+      <div class="panel">
+        <strong>{c.case_name}</strong>, {c.court}{c.docket && <>, No. {c.docket}</>}. Status: {label(c.status)}. <SourceRef p={c.provenance} compact />
+        {c.posture_note && <p><em>{c.posture_note}</em></p>}
+        {c.rulings && <ol>{c.rulings.map((r: any) => <li><strong>{fmtDate(r.date)}</strong>, {r.court}: {r.summary} {r.document_url && <a href={r.document_url}>Opinion or docket</a>}</li>)}</ol>}
+      </div>)) : <p class="meta">None recorded.</p>}
+  </>) : <p class="meta">Not yet entered.</p>}
+
+  <h2 id="protections">Consumer protections</h2>
+  {full ? (<dl class="kv">
+    <dt>Self-exclusion</dt><dd>{cp.self_exclusion ? <>{label(cp.self_exclusion.program_type)}{cp.self_exclusion.administered_by && <>, administered by {cp.self_exclusion.administered_by}</>}{cp.self_exclusion.durations && <>; durations: {cp.self_exclusion.durations.join(', ')}</>}{cp.self_exclusion.covers && <>; covers: {cp.self_exclusion.covers.map(label).join(', ')}</>}. {cp.self_exclusion.url && <a href={cp.self_exclusion.url}>Program page</a>} {cp.self_exclusion.notes && <div class="meta">{cp.self_exclusion.notes}</div>}<SourceRef p={cp.self_exclusion.provenance} compact /></> : 'Not yet entered.'}</dd>
+    <dt>Deposit limits</dt><dd>{cp.deposit_limits ? <>Player-set limits {cp.deposit_limits.player_set_available ? 'available' : 'not available'}{cp.deposit_limits.mandatory_default != null && <>; default limit {cp.deposit_limits.mandatory_default ? 'mandatory' : 'not mandatory'}</>}{cp.deposit_limits.player_set_required_at_signup != null && <>; {cp.deposit_limits.player_set_required_at_signup ? 'must be set at signup' : 'not required at signup'}</>}. {cp.deposit_limits.authority_citation && <span class="meta">{cp.deposit_limits.authority_citation}. </span>}{cp.deposit_limits.notes && <div class="meta">{cp.deposit_limits.notes}</div>}<SourceRef p={cp.deposit_limits.provenance} compact /></> : 'Not yet entered.'}</dd>
+    <dt>Advertising</dt><dd>{cp.advertising?.length ? <ul>{cp.advertising.map((a: any) => <li><strong>{label(a.rule_type)}</strong>: {a.text} {a.authority_citation && <span class="meta">({a.authority_citation})</span>} <SourceRef p={a.provenance} compact /></li>)}</ul> : 'Not yet entered.'}</dd>
+    <dt>Credit card deposits</dt><dd>{cp.credit_card_deposits ? <>{cp.credit_card_deposits.allowed ? 'Permitted' : 'Prohibited'}. {cp.credit_card_deposits.authority_citation && <span class="meta">{cp.credit_card_deposits.authority_citation}. </span>}{cp.credit_card_deposits.notes && <div class="meta">{cp.credit_card_deposits.notes}</div>}<SourceRef p={cp.credit_card_deposits.provenance} compact /></> : 'Not yet entered.'}</dd>
+    <dt>Helpline message</dt><dd>{cp.helpline_message ? <>{cp.helpline_message.required ? `Required (${cp.helpline_message.required_number ?? 'number not entered'})` : 'Not required'}. <SourceRef p={cp.helpline_message.provenance} compact /></> : 'Not yet entered.'}</dd>
+  </dl>) : <p class="meta">Not yet entered.</p>}
+
+  <h2 id="funding">Problem gambling funding</h2>
+  {pg?.records?.length ? (
+    <div class="table-wrap"><table>
+      <thead><tr><th scope="col">Fiscal year</th><th scope="col">Amount</th><th scope="col">Per resident</th><th scope="col">Mechanism</th><th scope="col">Administering agency</th><th scope="col">Covers</th><th scope="col">Source</th></tr></thead>
+      <tbody>{pg.records.map((r: any) => (
+        <tr>
+          <th scope="row">FY{r.fiscal_year}</th>
+          <td class="num">{r.amount_usd != null ? `$${Number(r.amount_usd).toLocaleString()}` : 'not entered'}{r.amount_type && <div class="meta">{label(r.amount_type)}</div>}</td>
+          <td>{perCapita(r.amount_usd) ?? 'not computed'}</td>
+          <td>{label(r.funding_mechanism)}{r.mechanism_text && <div class="meta">{r.mechanism_text}</div>}{r.authority_citation && <div class="meta">{r.authority_citation}</div>}</td>
+          <td>{r.administering_agency ?? ''}</td>
+          <td>{r.includes ? r.includes.join(', ') : ''}</td>
+          <td><SourceRef p={r.provenance} compact /></td>
+        </tr>))}
+      </tbody>
+    </table></div>
+  ) : <p class="meta">Not yet entered.</p>}
+  {pop && <p class="meta">Per resident figures use Census population for {pop.year} (Vintage {pop.vintage}, <span class={`badge ${pop.status}`}>{label(pop.status)}</span>). Nothing per capita is stored; it is recomputed from the two published numbers on every build.</p>}
+
+  <h2 id="outcomes">Outcomes</h2>
+  <p>Monthly handle and revenue, bankruptcy filings per 100,000, helpline contacts and prevalence studies will appear here in Phase 2 with legalization dates marked. The schemas are published now on the <a href={base + '/outcomes/'}>outcomes page</a>.</p>
+
+  <h2 id="legislation">Legislation</h2>
+  {stateBills.length ? <ul>{stateBills.map((b) => <li><a href={`${base}/legislation/${b.slug}/`}>{b.bill_number}</a> ({b.session}): {b.title}. Status: {label(b.status)}{b.status_date && <>, {fmtDate(b.status_date)}</>}.</li>)}</ul> : <p class="meta">No bills entered for {p.name} yet.</p>}
+
+  <Limitations items={p.limitations} />
+
+  <h2 id="sources">Sources on this page</h2>
+  <p class="meta">Every value above carries its own citation and status badge. Use the <a href={base + '/methodology/sources/'}>source registry</a> for publisher details, access method and known reliability issues.</p>
+  <CiteBox title={`${p.name}: sports wagering and prediction markets`} asOf={pageAsOf} path={path} />
+</Base>

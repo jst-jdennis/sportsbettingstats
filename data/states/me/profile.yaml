@@ -1,0 +1,81 @@
+fips: '23'
+abbr: ME
+name: Maine
+profile_completeness: status_only
+summary: null
+legal_status:
+- market_segment: regulated_sportsbook
+  channel: retail
+  scope: statewide
+  status: authorized_not_launched
+  authorized_on: '2022-05-02'
+  launched_on: null
+  authority:
+    type: statute
+    citation: LD 585 (2022); 8 M.R.S. ch. 35
+    url: https://legislature.maine.gov/
+  operator_model: tribal_exclusive
+  notes: null
+  provenance:
+    source_id: me-regulator
+    source_url: https://www.maine.gov/dps/gamb-control/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+- market_segment: regulated_sportsbook
+  channel: online
+  scope: statewide
+  status: live
+  authorized_on: '2022-05-02'
+  launched_on: '2023-11-03'
+  authority:
+    type: statute
+    citation: LD 585 (2022); 8 M.R.S. ch. 35
+    url: https://legislature.maine.gov/
+  operator_model: tribal_exclusive
+  notes: null
+  provenance:
+    source_id: me-regulator
+    source_url: https://www.maine.gov/dps/gamb-control/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+regulators:
+- name: Maine Gambling Control Unit
+  url: https://www.maine.gov/dps/gamb-control/
+  type: other_state_agency
+  roles:
+  - licensing
+  - enforcement
+  - revenue_reporting
+  provenance:
+    source_id: me-regulator
+    source_url: https://www.maine.gov/dps/gamb-control/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+legal_age: null
+tax: null
+consumer_protections: null
+limitations: null

@@ -1,0 +1,12 @@
+---
+import { SITE } from '../site.config';
+interface Props { title: string; asOf: string; path: string }
+const { title, asOf, path } = Astro.props;
+const url = new URL((import.meta.env.BASE_URL + path).replace(/\/+/g, '/'), Astro.site).toString();
+const year = new Date().getFullYear();
+---
+<details class="cite-box">
+  <summary>Cite this page</summary>
+  <p class="cite">{SITE.name}. "{title}." Data as of {asOf}. {url} (accessed {new Date().toISOString().slice(0, 10)}).</p>
+  <p class="meta">The URL is stable. The as-of date is the latest retrieval date among the records shown. The site's git history records every change to the underlying data.</p>
+</details>

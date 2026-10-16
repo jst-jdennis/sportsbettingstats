@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SITE } from '../../site.config';
+import { HEADLINE_LABEL } from '../../lib/data';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<Base title="Methodology and principles">
+  <h1>Methodology and principles</h1>
+  <p class="lede">How {SITE.name} decides what to publish, how it labels it, and what it refuses to do.</p>
+
+  <h2 id="principles">Principles</h2>
+  <ol>
+    <li><strong>Every number links to its primary source and shows the date retrieved.</strong> The page templates cannot render a value without a provenance record, and the build fails if a cited source is missing from the registry.</li>
+    <li><strong>Three markets, never conflated.</strong> Regulated sportsbooks licensed by a state, prediction markets operating under federal commodities designation, and offshore or sweepstakes products are labeled separately on every page, table and chart. Totals are never summed across them.</li>
+    <li><strong>Evidence with its limitations.</strong> Every dataset carries a limitations text that renders wherever the data appears. Population-wide averages are labeled as such and distinguished from bettor-level or household-level effects.</li>
+    <li><strong>Nonpartisan tone.</strong> Copy describes. It does not recommend, warn or praise. The report card rubric is the one place where judgment enters, and it is published and versioned so that the judgment is inspectable.</li>
+    <li><strong>Open and reviewable.</strong> All data lives in version-controlled files under an open license. Every change is a reviewed pull request. The history of every number is public.</li>
+  </ol>
+
+  <h2 id="status">Record status</h2>
+  <p>Every record carries one of five statuses, shown as a badge beside the value.</p>
+  <dl class="kv">
+    <dt><span class="badge verified">verified</span></dt><dd>Entered with a citation and independently checked against that source by a second reviewer, whose handle is recorded.</dd>
+    <dt><span class="badge pending_review">pending review</span></dt><dd>Entered with a citation but not yet checked by a second person. Shown with the badge; excluded from grades and headline figures.</dd>
+    <dt><span class="badge unverified">unverified</span></dt><dd>A placeholder whose value has not been read from the cited source. Rendered only as "not entered".</dd>
+    <dt><span class="badge disputed">disputed</span></dt><dd>A correction has been raised in a public issue and is unresolved. The value stays visible with the badge and a link.</dd>
+    <dt><span class="badge superseded">superseded</span></dt><dd>Replaced by a later record, for example a regulator restatement or a revised paper draft. Kept in the files for history; not rendered as current.</dd>
+  </dl>
+
+  <h2 id="classification">Headline status classification</h2>
+  <p>The map shows one of five headline statuses per state, derived at build time from the channel-level records in the state profile. The derived value is never stored.</p>
+  <ul>
+    <li><strong>{HEADLINE_LABEL.retail_and_online}</strong>: at least one retail channel and at least one online channel have status "live".</li>
+    <li><strong>{HEADLINE_LABEL.retail_only}</strong>: a retail channel is live and no online channel is. Includes states where retail is only on tribal lands; the qualifier is shown.</li>
+    <li><strong>{HEADLINE_LABEL.online_only}</strong>: an online channel is live and no retail channel is.</li>
+    <li><strong>{HEADLINE_LABEL.authorized_not_launched}</strong>: a channel is authorized by statute, compact or ballot measure but no legal wager has been accepted.</li>
+    <li><strong>{HEADLINE_LABEL.none}</strong>: no channel is authorized.</li>
+  </ul>
+  <p>"Online" counts mobile wagering that works only on licensed premises (Mississippi, Montana, Washington) as live online, with the qualifier "mobile only on licensed premises" shown beside it. Other trackers classify those states as retail only. The count of "online states" therefore differs between sources by that choice, which is why this site publishes the rule rather than adopting a tracker's count.</p>
+
+  <h2 id="sources">Sources and tiers</h2>
+  <p>Sources are registered with a tier. <strong>Primary</strong> sources produce the number (a regulator, a court, a legislature, a paper). <strong>Secondary</strong> sources aggregate primary data with a documented method (US Courts tables are primary; a bankruptcy institute's state rollup is secondary). <strong>Tertiary</strong> sources, such as trade press and trackers, are used only to find primary documents and are rejected by the validator as the source of any figure. See the <a href={base + '/methodology/sources/'}>source registry</a>.</p>
+
+  <h2 id="derived">Derived values</h2>
+  <p>Per capita amounts, per 100,000 rates, growth rates, pre and post legalization windows and grades are computed at build time from stored primary records and are never stored themselves. Anyone with the CSV files and the population table can reproduce every derived number on the site.</p>
+
+  <h2 id="review">Review process</h2>
+  <p>Two-person rule. A contributor enters a record with its source; a reviewer with the data-reviewer role checks each value against the source document and approves; the merge sets the reviewer's handle and flips the status to verified. Disputes are public issues. Publisher restatements create a new record and mark the old one superseded. Details are in <a href={SITE.repoUrl + '/blob/main/CONTRIBUTING.md'}>CONTRIBUTING.md</a>.</p>
+
+  <h2 id="about">About</h2>
+  <p>{SITE.name} is an open project. It accepts no funding from gambling operators, prediction market platforms, their trade associations, or organizations whose primary purpose is to campaign for or against legalization. The code is licensed {SITE.codeLicense.name} and the data {SITE.dataLicense.name}.</p>
+</Base>

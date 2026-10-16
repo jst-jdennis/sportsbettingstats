@@ -1,0 +1,26 @@
+fips: "20"
+as_of: "2026-10-16"
+review_note: >-
+  No cease and desist letter, lawsuit or advisory opinion from a Kansas state body directed at a prediction
+  market platform was found in a search of the Kansas Racing and Gaming Commission and Attorney General press
+  rooms and the CourtListener docket index as of the as_of date. Absence of a record is not a finding that none
+  exists.
+operating_platforms:
+  - platform: Kalshi
+    offers_sports_contracts: true
+    offers_in_state: unknown
+    basis: unknown
+    provenance:
+      source_id: cftc-event-contracts
+      source_url: https://www.cftc.gov/IndustryOversight/TradingOrganizations/DCMs/index.htm
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Recorded as unknown until a platform or regulator statement is archived.
+state_actions: []
+litigation: []

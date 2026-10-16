@@ -1,0 +1,5 @@
+{ "fields": [
+  { "name": "district_code", "type": "string", "constraints": { "required": true, "unique": true } },
+  { "name": "district_name", "type": "string", "constraints": { "required": true } },
+  { "name": "fips", "type": "string", "constraints": { "required": true, "pattern": "^[0-9]{2}$" } }
+], "primaryKey": ["district_code"], "missingValues": [""] }

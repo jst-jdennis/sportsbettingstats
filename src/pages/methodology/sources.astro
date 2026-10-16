@@ -1,0 +1,20 @@
+---
+import Base from '../../layouts/Base.astro';
+import { sources, label } from '../../lib/data';
+const all = [...sources().values()];
+const groups = [['primary', 'Primary'], ['secondary', 'Secondary'], ['tertiary', 'Tertiary (never cited for a figure)']] as const;
+---
+<Base title="Source registry">
+  <h1>Source registry</h1>
+  <p class="lede">Every publisher cited anywhere on the site, with how the data is accessed, how often it updates and what is known to go wrong with it. Each state regulator has one entry.</p>
+  {groups.map(([tier, title]) => (
+    <section>
+      <h2>{title}</h2>
+      <div class="table-wrap"><table>
+        <thead><tr><th scope="col">Publisher</th><th scope="col">Title</th><th scope="col">Type</th><th scope="col">Access</th><th scope="col">Cadence</th><th scope="col">Reliability notes</th><th scope="col">ID</th></tr></thead>
+        <tbody>{all.filter((s) => s.tier === tier).map((s) => (
+          <tr><td><a href={s.url}>{s.publisher}</a></td><td>{s.title}</td><td>{label(s.publisher_type)}</td><td>{label(s.access_method)}</td><td>{s.update_cadence}</td><td>{s.reliability_notes ?? ''}</td><td><code>{s.source_id}</code></td></tr>))}
+        </tbody>
+      </table></div>
+    </section>))}
+</Base>

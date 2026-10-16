@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wpdc-ingest"
+version = "0.1.0"
+description = "Ingestion layer for the Wagering Policy Data Center: one module per source, provenance on every row"
+requires-python = ">=3.11"
+license = { text = "AGPL-3.0-only" }
+dependencies = [
+  "requests>=2.31",
+  "pyyaml>=6",
+  "openpyxl>=3.1",
+  "pdfplumber>=0.11",
+  "jsonschema>=4.20",
+  "frictionless>=5.17",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+wpdc = "wpdc_ingest.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["wpdc_ingest*"]

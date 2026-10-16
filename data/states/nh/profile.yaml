@@ -1,0 +1,81 @@
+fips: '33'
+abbr: NH
+name: New Hampshire
+profile_completeness: status_only
+summary: null
+legal_status:
+- market_segment: regulated_sportsbook
+  channel: retail
+  scope: statewide
+  status: live
+  authorized_on: '2019-07-12'
+  launched_on: '2020-08-12'
+  authority:
+    type: statute
+    citation: HB 480 (2019); RSA 287-I
+    url: https://gencourt.state.nh.us/
+  operator_model: lottery_monopoly
+  notes: null
+  provenance:
+    source_id: nh-regulator
+    source_url: https://www.nhlottery.com/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+- market_segment: regulated_sportsbook
+  channel: online
+  scope: statewide
+  status: live
+  authorized_on: '2019-07-12'
+  launched_on: '2019-12-30'
+  authority:
+    type: statute
+    citation: HB 480 (2019); RSA 287-I
+    url: https://gencourt.state.nh.us/
+  operator_model: lottery_monopoly
+  notes: null
+  provenance:
+    source_id: nh-regulator
+    source_url: https://www.nhlottery.com/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+regulators:
+- name: New Hampshire Lottery Commission
+  url: https://www.nhlottery.com/
+  type: lottery
+  roles:
+  - licensing
+  - enforcement
+  - revenue_reporting
+  provenance:
+    source_id: nh-regulator
+    source_url: https://www.nhlottery.com/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+legal_age: null
+tax: null
+consumer_protections: null
+limitations: null

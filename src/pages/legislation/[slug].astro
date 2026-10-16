@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+import SourceRef from '../../components/SourceRef.astro';
+import CiteBox from '../../components/CiteBox.astro';
+import ReviewNotice from '../../components/ReviewNotice.astro';
+import { bills, profiles, label, fmtDate, asOf } from '../../lib/data';
+export function getStaticPaths() { return bills().map((b) => ({ params: { slug: b.slug }, props: { b } })); }
+const { b } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const st = profiles().find((p) => p.fips === b.fips)!;
+const pageAsOf = asOf([b]);
+const path = `/legislation/${b.slug}/`;
+---
+<Base title={`${st.name} ${b.bill_number} (${b.session})`} description={b.summary.slice(0, 200)} asOf={pageAsOf} canonicalPath={path}>
+  <p class="meta"><a href={base + '/legislation/'}>Legislation</a> / <a href={`${base}/states/${st.abbr.toLowerCase()}/`}>{st.name}</a> / {b.bill_number}</p>
+  <h1>{st.name} {b.bill_number}</h1>
+  <p class="lede">{b.title}. <strong>{label(b.status)}</strong>{b.status_date && <>, {fmtDate(b.status_date)}</>}.</p>
+  <ReviewNotice objs={[b]} />
+  <dl class="kv">
+    <dt>Session</dt><dd>{b.session}</dd>
+    <dt>Market segment</dt><dd>{b.market_segment.map(label).join(', ')}</dd>
+    <dt>Official text</dt><dd>{b.text_url ? <a href={b.text_url}>Bill text and history</a> : 'not entered'}</dd>
+    {b.fiscal_note_url && <><dt>Fiscal note</dt><dd><a href={b.fiscal_note_url}>Document</a></dd></>}
+  </dl>
+  <h2>Summary</h2>
+  <p>{b.summary}</p>
+  {b.would && <><h3>What the bill would do</h3><ul>{b.would.map((w) => <li>{w}</li>)}</ul></>}
+  {b.sponsors && <><h2>Sponsors</h2><ul>{b.sponsors.map((s: any) => <li>{s.name} ({label(s.chamber)}{s.party ? `, ${s.party}` : ''}), {label(s.role)}</li>)}</ul></>}
+  <h2>Votes</h2>
+  {b.votes?.length ? (
+    <div class="table-wrap"><table>
+      <thead><tr><th scope="col">Date</th><th scope="col">Chamber</th><th scope="col">Motion</th><th scope="col" class="num">Yeas</th><th scope="col" class="num">Nays</th><th scope="col">Result</th><th scope="col">Source</th></tr></thead>
+      <tbody>{b.votes.map((v: any) => (
+        <tr><td>{fmtDate(v.date)}</td><td>{label(v.chamber)}</td><td>{v.motion}</td><td class="num">{v.yeas}</td><td class="num">{v.nays}</td><td>{v.result}</td><td><SourceRef p={v.provenance} /></td></tr>))}
+      </tbody>
+    </table></div>
+  ) : <p class="meta">No votes entered.</p>}
+  <h2>Actions</h2>
+  {b.actions?.length ? <ol>{b.actions.map((a: any) => <li>{fmtDate(a.date)}, {label(a.chamber)}: {a.action_text} <SourceRef p={a.provenance} compact /></li>)}</ol> : <p class="meta">No actions entered.</p>}
+  {b.notes && <><h2>Notes</h2><p>{b.notes}</p></>}
+  <h2>Entry provenance</h2>
+  <p><SourceRef p={b.provenance} /></p>
+  <CiteBox title={`${st.name} ${b.bill_number} (${b.session})`} asOf={pageAsOf} path={path} />
+</Base>

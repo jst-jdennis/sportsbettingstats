@@ -1,0 +1,83 @@
+fips: '46'
+abbr: SD
+name: South Dakota
+profile_completeness: status_only
+summary: null
+legal_status:
+- market_segment: regulated_sportsbook
+  channel: retail
+  scope: statewide
+  status: live
+  authorized_on: '2020-11-03'
+  launched_on: '2021-09-09'
+  authority:
+    type: constitutional_amendment
+    citation: Constitutional Amendment B (2020); SB 44 (2021). Retail wagering in Deadwood and at tribal
+      casinos
+    url: https://sdlegislature.gov/
+  operator_model: commercial
+  notes: null
+  provenance:
+    source_id: sd-regulator
+    source_url: https://dor.sd.gov/businesses/gaming/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+- market_segment: regulated_sportsbook
+  channel: online
+  scope: not_applicable
+  status: not_authorized
+  authorized_on: null
+  launched_on: null
+  authority:
+    type: none
+    citation: Constitutional Amendment B (2020); SB 44 (2021). Retail wagering in Deadwood and at tribal
+      casinos
+    url: https://sdlegislature.gov/
+  operator_model: null
+  notes: null
+  provenance:
+    source_id: sd-regulator
+    source_url: https://dor.sd.gov/businesses/gaming/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+regulators:
+- name: South Dakota Commission on Gaming
+  url: https://dor.sd.gov/businesses/gaming/
+  type: gaming_commission
+  roles:
+  - licensing
+  - enforcement
+  - revenue_reporting
+  provenance:
+    source_id: sd-regulator
+    source_url: https://dor.sd.gov/businesses/gaming/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+legal_age: null
+tax: null
+consumer_protections: null
+limitations: null

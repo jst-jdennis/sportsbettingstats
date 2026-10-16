@@ -1,0 +1,6 @@
+{ "fields": [
+  { "name": "fips", "type": "string", "constraints": { "required": true, "pattern": "^[0-9]{2}$", "unique": true } },
+  { "name": "abbr", "type": "string", "constraints": { "required": true, "pattern": "^[A-Z]{2}$", "unique": true } },
+  { "name": "name", "type": "string", "constraints": { "required": true } },
+  { "name": "census_region", "type": "string", "constraints": { "required": true, "enum": ["Northeast", "Midwest", "South", "West"] } }
+], "primaryKey": ["fips"], "missingValues": [""] }

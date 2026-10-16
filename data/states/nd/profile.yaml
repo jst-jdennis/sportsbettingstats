@@ -1,0 +1,79 @@
+fips: '38'
+abbr: ND
+name: North Dakota
+profile_completeness: status_only
+summary: null
+legal_status:
+- market_segment: regulated_sportsbook
+  channel: retail
+  scope: tribal_lands_only
+  status: live
+  authorized_on: null
+  launched_on: null
+  authority:
+    type: compact
+    citation: Tribal-state gaming compacts; no state statute authorizes commercial sports wagering
+    url: https://attorneygeneral.nd.gov/gaming/
+  operator_model: tribal_exclusive
+  notes: null
+  provenance:
+    source_id: nd-regulator
+    source_url: https://attorneygeneral.nd.gov/gaming/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+- market_segment: regulated_sportsbook
+  channel: online
+  scope: not_applicable
+  status: not_authorized
+  authorized_on: null
+  launched_on: null
+  authority:
+    type: none
+    citation: Tribal-state gaming compacts; no state statute authorizes commercial sports wagering
+    url: https://attorneygeneral.nd.gov/gaming/
+  operator_model: null
+  notes: null
+  provenance:
+    source_id: nd-regulator
+    source_url: https://attorneygeneral.nd.gov/gaming/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+regulators:
+- name: North Dakota Attorney General, Gaming Division
+  url: https://attorneygeneral.nd.gov/gaming/
+  type: attorney_general
+  roles:
+  - compact_compliance
+  provenance:
+    source_id: nd-regulator
+    source_url: https://attorneygeneral.nd.gov/gaming/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+legal_age: null
+tax: null
+consumer_protections: null
+limitations: null

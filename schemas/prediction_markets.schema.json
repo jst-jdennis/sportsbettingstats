@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wageringdata.org/schemas/prediction_markets.schema.json",
+  "title": "Prediction markets by state",
+  "type": "object",
+  "required": ["fips", "as_of", "operating_platforms", "state_actions", "litigation"],
+  "additionalProperties": false,
+  "properties": {
+    "fips": { "$ref": "provenance.schema.json#/$defs/fips" },
+    "as_of": { "type": "string", "format": "date" },
+    "review_note": { "type": ["string", "null"], "description": "What was searched to establish that no action exists, when the lists are empty" },
+    "operating_platforms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["platform", "offers_sports_contracts", "offers_in_state", "provenance"],
+        "additionalProperties": false,
+        "properties": {
+          "platform": { "type": "string" },
+          "offers_sports_contracts": { "type": "boolean" },
+          "offers_in_state": { "type": "string", "enum": ["yes", "no", "geofenced_out", "unknown"] },
+          "basis": { "type": ["string", "null"], "enum": ["platform_statement", "regulator_statement", "court_filing", "unknown", null] },
+          "provenance": { "$ref": "provenance.schema.json" }
+        }
+      }
+    },
+    "state_actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["action_type", "date", "issuing_body", "target", "summary", "provenance"],
+        "additionalProperties": false,
+        "properties": {
+          "action_type": { "type": "string", "enum": ["cease_and_desist", "lawsuit_filed", "subpoena", "legislation", "advisory_opinion", "settlement", "consumer_alert"] },
+          "date": { "type": "string", "format": "date" },
+          "issuing_body": { "type": "string" },
+          "target": { "type": "string" },
+          "summary": { "type": "string" },
+          "document_url": { "type": ["string", "null"], "format": "uri" },
+          "provenance": { "$ref": "provenance.schema.json" }
+        }
+      }
+    },
+    "litigation": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["case_name", "court", "status", "provenance"],
+        "additionalProperties": false,
+        "properties": {
+          "case_name": { "type": "string" },
+          "court": { "type": "string" },
+          "docket": { "type": ["string", "null"] },
+          "filed_on": { "type": ["string", "null"], "format": "date" },
+          "status": { "type": "string", "enum": ["pending", "preliminary_injunction_granted", "preliminary_injunction_denied", "appeal_pending", "certiorari_petition_pending", "decided", "dismissed", "settled"] },
+          "posture_note": { "type": ["string", "null"], "description": "State explicitly whether the latest ruling is on preliminary relief or a final judgment" },
+          "rulings": { "type": ["array", "null"], "items": { "type": "object", "required": ["date", "court", "summary"], "properties": { "date": { "type": "string", "format": "date" }, "court": { "type": "string" }, "summary": { "type": "string" }, "document_url": { "type": ["string", "null"] } } } },
+          "provenance": { "$ref": "provenance.schema.json" }
+        }
+      }
+    }
+  }
+}
