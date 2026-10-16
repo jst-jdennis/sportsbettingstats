@@ -51,6 +51,19 @@ def _districts() -> dict[str, str]:
         return {r["district_code"]: r["fips"] for r in csv.DictReader(f)}
 
 
+def _undouble(line: str) -> str:
+    """Collapse a line whose words are all character-doubled ("TTaabbllee FF--22") back to single characters.
+
+    The spaces between words are not doubled, so the test runs per word.
+    """
+    words = line.split()
+    def doubled(w: str) -> bool:
+        return len(w) >= 2 and len(w) % 2 == 0 and all(w[i] == w[i + 1] for i in range(0, len(w), 2))
+    if words and all(doubled(w) for w in words):
+        return " ".join(w[::2] for w in words)
+    return line
+
+
 class USCourtsBankruptcyF2:
     source_id = SOURCE_ID
     dataset = "outcomes/bankruptcy.csv"
@@ -196,7 +209,9 @@ class USCourtsBankruptcyF2:
                     if l.startswith("Note:") or re.match(r"^[\u00b9\u00b2\u00b3]\s", l):
                         lines = lines[:i]
                         break
-                header = " ".join(l for l in lines[:12]).upper()
+                # Some editions render the bold title block with every glyph doubled ("NNoonnbbuussiinneessss");
+                # collapse that before reading the header so the page is not skipped.
+                header = " ".join(_undouble(l) for l in lines[:12]).upper()
                 if "NONBUSINESS" not in header:
                     continue
                 legacy = bool(re.search(r"\bCHAPTER\s+CHAPTER\s+CHAPTER\s+CHAPTER\s+CHAPTER", header)) and re.search(r"\b7\s+11\s+12\s+13\b", header) is not None
