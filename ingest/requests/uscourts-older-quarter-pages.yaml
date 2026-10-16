@@ -1,0 +1,14 @@
+# Probe: the F-2 files for quarters before 2025 are not under /sites/default/files/document/
+# with the current naming. Fetch the quarter pages themselves to read the real links.
+kind: archive
+label: uscourts-older-quarter-pages
+urls:
+  - https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filing-statistics/december-2024-quarterly-bankruptcy-filings
+  - https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filing-statistics/september-2024-quarterly-bankruptcy-filings
+  - https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filing-statistics/march-2023-quarterly-bankruptcy-filings
+  - https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filing-statistics/december-2022-quarterly-bankruptcy-filings
+  - https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filing-statistics/june-2020-quarterly-bankruptcy-filings
+  - https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filing-statistics/december-2018-quarterly-bankruptcy-filings
+  - https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filing-statistics/march-2018-quarterly-bankruptcy-filings
+  - https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filing-statistics
+  - https://www.uscourts.gov/data-news/data-tables?tn=F-2&pn=All&t=All&m%5Bvalue%5D%5Bmonth%5D=&y%5Bvalue%5D%5Byear%5D=
