@@ -1,0 +1,973 @@
+=== page 1 ===
+The Financial Consequences of Legalized Sports
+Gambling
+∗ † ‡
+Brett Hollenbeck Poet Larsen Davide Proserpio
+§
+October, 2024
+∗
+UCLA Anderson School of Management; brett.hollenbeck@anderson.ucla.edu
+†
+University of Southern California, Marshall School of Business; Poet.Larsen@marshall.usc.edu
+‡
+Corresponding author. University of Southern California, Marshall School of Business; pros-
+erpi@usc.edu
+§
+Authors listed in alphabetical order. We thank the Briskin Fund for generous funding and
+the California Policy Lab for hosting, documenting, and facilitating access to the University of
+California Consumer Credit Panel.
+
+=== page 2 ===
+Abstract
+Following a 2018 ruling of the U.S. Supreme Court, 38 states have legalized sports gam-
+bling. We study how this policy has impacted consumer financial health using a large and
+comprehensive dataset on consumer financial outcomes. We use data from the University
+of California Consumer Credit Panel, containing credit rating agency data for a representa-
+tive sample of roughly 7 million U.S. consumers. We exploit the staggered rollout of legal
+sports betting across U.S. states and evaluate two treatment effects: the presence of any
+legal sports betting in a state and the specific presence of online or mobile access to betting.
+Our main finding is that overall consumers’ financial health is modestly deteriorating as the
+average credit score in states that legalize sports gambling decreases by roughly 0.3%. The
+decline in credit score is associated with changes in indicators of excessive debt. We find a
+substantial increase in average bankruptcy rates, debt sent to collections, use of debt consol-
+idation loans, and auto loan delinquencies. We also find that financial institutions respond
+to the reduced creditworthiness of consumers by restricting access to credit. These results
+are substantially stronger for states that allow online sports gambling compared to states
+that restrict access to in-person betting. Together, these results indicate that the ease of
+access to sports gambling is harming consumer financial health by increasing their level of
+debt.
+
+=== page 3 ===
+1 Introduction
+In 2018, the U.S. Supreme Court ruled that the Professional and Amateur Sports Protection
+Act (PASPA), which prohibited states from authorizing and regulating sports gambling, was
+unconstitutional. Since the ruling, 38 states have legalized some form of sports gambling.
+Before this, almost all legal gambling in the U.S. came in the form of tribal casinos with
+limited gaming options, commercial casinos in a small number of jurisdictions, and state lot-
+teries (Kearney, 2005; Narayanan & Manchanda, 2012). The new availability of legal sports
+betting and growth in mobile accessibility represent a substantial increase in gambling ac-
+cessibility. Between 2018 and 2023, nearly $300 billion has been wagered via newly legalized
+sports gambling markets, with most bets flowing through online channels.1 A February 2024
+survey by Sienna College and St. Bonaventure University found that 19% of Americans use
+sports gambling apps, including 39% of men ages 18-49, and out of all users of these apps,
+roughly 60% place bets at least once a week.2
+While for many, gambling is a relatively inexpensive and generally harmless formof recre-
+ation, there is a fraction of so-called “problem gamblers,” for whom gambling is associated
+with a range of serious harms (Meyer et al., 2009). These include financial stress, disruption
+of family life and relationships, health problems, worsening of job performance, criminal
+activity, and even suicide (Gabellini et al., 2023; Shaffer & Korn, 2002). The bulk of prior
+research into the factors associated with problem gambling comes from the period before
+legalized sports gambling and, therefore, has focused on either commercial casino gambling
+or illegal gambling (Gabellini et al., 2023). In addition, it’s unclear whether to view nega-
+tive correlations between gambling and health from prior research as causal, as unobserved
+underlying factors, such as psychological or environmental factors, could drive both.
+This paper studies the causal impact of legalized sports gambling (LSG) on consumer
+financial health using the variation in legalization across states and time following the state-
+1See: https://www.legalsportsreport.com/sports-betting/revenue/
+2American Sports Fanship Survey (ASFS) 2024, https://scri.siena.edu/
+american-sports-fanship-survey-2024/.
+1
+
+=== page 4 ===
+by-state legalization of sports gambling during the period 2018–2023. This state-by-state
+rollout of a new gambling format is unique in the gambling literature and presents a rare
+opportunity to measure the causal impacts of gambling on consumer outcomes. To do so, we
+leverage data from the University of California Consumer Credit Panel (UC CCP), which
+contains detailed financial information from a nationwide credit bureau for a sample of
+roughly 7 million U.S. adults. This data includes credit scores, credit card balances, loan
+delinquency information, and many other measures of financial health.
+We study the impact of sports gambling on a set of key financial health indicators. We
+first test for consumer credit score changes, an overall summary indicator of a person’s
+financial health or creditworthiness. Next, we measure changes in indicators associated with
+consumers taking on problematic levels of debt: bankruptcies, total debt collections, use of
+debt consolidation loans, credit card delinquencies, and auto loan delinquencies. Finally,
+we study whether the financial system responds by limiting credit access by studying credit
+card limits and the ratio of secured to unsecured loans on account.
+Our empirical strategy leverages the staggered state-by-state rollout of legal sports gam-
+bling and compares how financial outcomes evolve in treated states compared to states that
+didnotimplementlegalsportsgamblingordidsoatalaterdate. Weconsidertwodefinitions
+of treatment. First, we focus on all states that implemented LSG, with the treatment date
+being the first month in which any type of sports gambling became legal (online or offline).
+Next,wedifferentiatebetweensportsgamblingthatoccursoffline,atspecifiedretaillocations
+such as casinos, and sports gambling that occurs online, typically via mobile apps. In doing
+so, we define an additional treatment focused on online accessibility and consider states that
+legalized online gambling at some point (some time in addition to offline gambling) and use
+the first date when betting was available online as the treatment start date. The legalization
+of sports gambling led to the rise of online sports betting platforms and mobile gambling
+apps, which made gambling more accessible. Past research has found that ease of access
+may exacerbate gambling-related financial harm, as individuals can place bets anytime and
+2
+
+=== page 5 ===
+anywhere, leading to increased gambling frequency and expenditure (Gainsbury et al., 2015;
+LaPlante et al., 2011; Nordmyr et al., 2014; Wood & Williams, 2007).
+While the existing literature provides valuable insights into the relationship between
+sports gambling and financial health, many of the papers we discussed present correlations
+rather than causal effects. This is largely due to data limitations.3 A recent working pa-
+per (Taylor et al., 2024) attempts to estimate the causal effect of sports gambling legalization
+on tax revenue, irresponsible gambling behavior, problem gambling hotline calls, and sui-
+cides. Usinganindividual-levelcreditcardpaneldataset, theyfindthatlegalizationincreases
+gambling and irresponsible gambling behavior. The authors also find evidence that online
+sports betting legalization significantly increases problem gambling hotline calls but find
+inconclusive evidence that sports betting increases suicide rates.
+Our work also relates to concurrent research by (Baker et al., 2024), who also study
+the impact of legalized sports gambling. Using data from a financial institution, they use
+customer-level credit and debit transactions to identify who is transferring money to sports
+gambling apps and how their credit card debt and consumption patterns change when they
+do so. In their sample of 230,000 households, they find that about 8% use sports betting
+apps, and that conditional on doing so, lose an average of $1,100 per year. They find that
+those who bet on average invest less and see their credit card debt increase. Our work
+complements theirs by extending these results on short-term changes in consumption and
+transaction activity to study the longer-term impact on consumer debt and financial health
+across a range of indicators.
+3Somerecentexceptionsare(Coutureetal.,2024)whoalsoexploittherolloutoflegalizedsportsgambling
+to study the impact on mental health, finding mixed results and (Clarida, 2020) who study mortgage
+delinquencies, and (Ren et al., 2019) who study the rollout of betting houses in Spain on educational
+outcomes.
+3
+
+=== page 6 ===
+2 Background and Data
+This section provides an overview and history of state-level legal sports gambling regimes.
+We then introduce our primary data source, the University of California Consumer Credit
+Panel (UC CCP), and provide some high-level summary statistics for this data.
+2.1 Background on Legal Gambling
+InMay2018, theSupremeCourtoverturnedtheProfessionalandAmateurSportsProtection
+Act (PAPSA), deeming it unconstitutional and infringing on states’ rights. This opened the
+door for individual states to legalize and regulate sports betting. Before this ruling, only
+Nevadacontinuedtoofferlegalsportsbetting. Withinjustonemonthofthisruling,Delaware
+and New Jersey launched retail sports betting at casinos and racetracks, with many states
+following in the years since. As of May 24, 2024, 38 states and the District of Columbia have
+legalized some form of sports betting.4
+There are a wide variety of different state-level regulations and tax structures for sports
+betting. Perhaps most notable is the decision of whether to allow online (typically mobile)
+betting or whether to require bets to be placed in person at a qualified location. Currently,
+30 states and DC choose to allow some form of online betting accessibility, while the other
+eight states with LSG only allow retail betting, i.e., betting at a physical location.5 As
+shown in Supplementary table 3 in Appendix A, many states in our data legalized retail
+betting before mobile betting, though time lags between the two types of legalization are
+often small. Other policy choices states make include whether advertising is allowed and
+how, what types of entities are licensed to offer sports betting, what tax rate is levied, and
+on what tax base. In Figure 1, we show how sports betting handles (dark series) have grown
+over time along with the number of states with LSG (grey series).6 In Supplementary table 4
+4See: https://www.americangaming.org/research/state-gaming-map/
+5A few states (Tennessee and Wyoming) exclusively offer online access. Several tribal lands in Oregon
+offer offline sports betting access, but these do not fall directly under the Oregon state government.
+6We obtained sports betting handles data in June 2023 from https://www.legalsportsreport.com/
+4
+
+=== page 7 ===
+in Appendix A, we report handles by state and for both online and retail channels.
+30
+90
+20
+60
+10
+30
+0 0
+Jan 2019 Jan 2020 Jan 2021 Jan 2022 Jan 2023
+)snoilliB
+ni(
+eldnaH
+Number
+of
+Legalized
+States
+Number of Legalized States Handle (in Billions)
+Figure 1: Monthly sports handle in billions and the number of legalized states. The left axis
+is the sports handle, and the right axis is the number of legalized states. Our data does not
+contain handles for states where tribal lands run the offline sports gambling market.
+2.2 Consumer Credit Data
+Our primary dataset is the University of California Consumer Credit Panel (UC-CCP). It
+contains anonymized individual-level records of a nationally representative 2% sample of
+U.S. adults with a credit report (i.e., roughly 7 million panelists). Data is tracked from 2004
+to the present day. For each year, we observe records from March, June, September, and
+December.7 We observe demographic characteristics for nearly all individuals. This includes
+information such as age, gender, ethnicity, and location. The panel also contains modeled
+and/or self-reported information such as occupation, if the individual owns a home, marital
+status, and if the individual has children.8
+We observe account information across all open and closed accounts for each individual-
+monthcombination. Thisincludesmortgages,studentloans, autoloans,creditcards,secured
+sports-betting/revenue/.
+7We refer to these observations as quarterly observations or quarters.
+8See https://www.capolicylab.org/data-resources/university-of-california-consumer-credit-panel/ for
+additional discussion of data.
+5
+
+=== page 8 ===
+and unsecured loans, debt consolidation loans, debt buyer accounts, and collections. Infor-
+mation includes when the account was opened, most recent account balance, most recent
+payment amount, amount past due, if the account is delinquent, what type of business the
+account is associated with, and, in the case of loans, various loan categories such as personal
+or medical.
+We restrict our panel to individuals who maintain at least one active account and are
+not deceased. We also remove any individual who moved across states to prevent treatment-
+control spillovers and any individual whose location or gender information is not present in
+the data. Our final dataset contains observations for 4,382,529 unique individuals and 90
+million quarterly observations over seven years, from March 2016 to June 2023.
+2.3 Types of Gambling Access
+We study the causal impact of gambling access onfinancial health usingthe treatmenteffects
+framework, and consider two types of treatment definitions. The first is meant to capture the
+overall effect of any type of gambling legalization and defines a state as treated after the first
+monthastatebeginsreportingstatetaxrevenuefromanysportsgamblingoperations. Inour
+analysis, we call this group “All States.” Note that states may offer online, offline, or both
+gambling channels. The rollout of channels may occur at different times. For example, in
+Pennsylvania, casinos began accepting offline wagers in November 2018, with online channels
+beginning in May 2019. In this case, we define Pennsylvania’s treatment status to begin in
+January 2019 (the first month in our dataset after November 2018).
+Our second treatment status is meant to capture the specific effects of the legalization of
+online gambling. For this, we consider only states that eventually legalize online gambling.
+In our analysis, we call this group “Online Access.” In our data, 24 states legalized some
+form of online sports betting as of June 2023.9 Treatment begins in the first month after the
+9Since beginning the project, six more states have introduced online betting access. For example,
+Delaware introduced online betting at the end of 2023. However, in our data, we treat it as retail-only
+because our data does not go that far.
+6
+
+=== page 9 ===
+stateimplementsonlinebetting. Additionally, weremovedstatesthatexclusivelyofferoffline
+gambling venues. This removes nine states (Delaware, Mississippi, Montana, New Mexico,
+North Carolina, South Dakota, Washington, and Wisconsin), leaving us with 40 states and
+DCthatareeithereventuallytreatedwithonlinesportsgamblingaccessorarenevertreated.
+In some cases, states introduce offline gambling before online gambling (10 states). The lags
+between offline and online rollout are small for most states, excluding Arkansas and New
+York. No states with both online and offline access implemented online access before offline
+access. Lastly, three states in our data only offered online access (Tennessee, Wyoming, and
+Virginia).
+A full list of treated states and their legalization timing can be found in Supplementary
+table 3 in Appendix A. Start dates are calculated based on the first month the state began
+collecting tax revenue.10
+2.4 Primary Outcomes of Interest
+We focus our analysis on eight outcomes designed to capture overall financial health, the
+presence of excessive debt, and access to credit.
+Overall financial health Acreditscoreisanumericalexpressionbasedonalevelanalysis
+of a person’s credit files, representing the creditworthiness of an individual. Essentially, it is
+used by lenders to evaluate the risk of lending money to consumers and to mitigate losses due
+to bad debt. Decreases in consumer credit scores represent lower consumer creditworthiness.
+Our data observes a consumer’s credit score for a given quarter. We will estimate percent
+changes to consumer credit scores using the log of credit scores as a way to measure general
+changes to consumer credit health.
+Indicators of excessive debt Next, we consider five measures of excessive debt. The first
+is bankruptcy, which captures instances where consumers do not think they can reasonably
+10We do not include Nevada in our analysis because it offered sports betting prior to 2018.
+7
+
+=== page 10 ===
+repay outstanding debts and need to manage or restructure their finances to pay off debts
+over time. Filing for bankruptcy is a serious financial decision that requires a consumer to
+go to bankruptcy court. It seriously harms a consumer’s credit score and is a significant
+indicator of financial stress.
+The second is the use of debt consolidation loans, a financial strategy for managing
+and reducing debt by combining multiple debts into a single, more manageable loan. This
+approachisoftenusedbyindividualswithhighdebtlevelswithvariouscreditors,particularly
+if they face high interest rates from loans or credit cards.
+The third is the total amount of debt on an account that has been sent to collections.
+This is a measure of how much unpaid debt that the consumer’s creditors have assigned to
+collection agencies. When a consumer misses payments, or a lender does not think it will
+receive payment on a debt, the lender may coordinate with a collections agency to manage
+the debt collection process or sell the debt to a collections agency. Any missed debt can be
+sent to collections. A debt going to collections can seriously harm a consumer’s credit score.
+In our data, we observe each consumer’s collection amounts on file. Unfortunately, we do
+not observe which specific debts the collections come from. We only know how much the
+collection amount is for and whether it is present on the consumer’s account.
+Finally,westudycreditcardandautoloandelinquencies,whichindicatemissedpayments
+and are a strong sign of financial distress. Delinquencies for credit cards and auto loans will
+typically be reported if a consumer has missed 1-2 monthly payments. We analyze changes
+to the number of actively delinquent credit card accounts and auto loans on file to measure
+failing payments.
+Access to credit Next, we study the impact on consumer credit through restrictions on
+access to credit. We focus on two measures of access to credit. The first is credit card limits.
+These are set and periodically readjusted according to the bank’s assessment of a consumer’s
+risk level. Setting credit card limits is a first-order risk management strategy banks use to
+8
+
+=== page 11 ===
+mitigate defaults (Butaru et al., 2016). A bank generally lowers consumer credit card limits
+for consumers it finds less trustworthy. We observe the credit limit of each consumer’s credit
+card. We sum up the cumulative level of credit each consumer has and analyze changes to
+this limit to measure changes in credit accessibility.
+The second is the ratio of secured to unsecured loans. Consumers can use secured or
+unsecured loans to cover debts and make payments. However, the security structure of each
+type of loan differs. Secured loans require collateral in case of default, while unsecured
+loans do not and are based on trust and creditworthiness. Secured loans are generally
+associated with riskier borrowers (Berger & Udell, 1990; Chen et al., 1998) as it indicates
+banks are worried about defaults and require collateral. We might expect a relative increase
+in the number of open secured loans taken out by consumers after the introduction of sports
+gambling as evidence of (1) increased monetary needs due to problem gambling and as an
+indication of greater risk from the bank’s view. We, therefore, calculate the log of the ratio
+of the number of actively open secured and unsecured loans each consumer has on file.
+In Table 1, we present summary statistics from the pre-legalization period for our eight
+dependent variables.
+Table 1: Pre-treatment summary statistics.
+Dependent Variable Min. 1st Qu. Median Mean 3rd Qu. Max.
+Credit Score 300 649 731 714.657 798 850
+Pr(Bankruptcy) 0 0 0 0.00072 0 1
+Pr(Consol. Loan) 0 0 0 0.00066 0 1
+Collections 0 0 0 365.071 0 2,084,548
+Pr(CC Delinquency) 0 0 0 0.0185 0 1
+Pr(Auto Loan Delinq.) 0 0 0 0.014 0 1
+Sec./Unsec. Accts 0 0 0 0.047 0 39
+Credit Card Limit 0 300 6,100 13,823.900 20,000 1,501,024
+9
+
+=== page 12 ===
+3 Empirical Strategy
+We exploit the staggered legalization of sports gambling across states to measure its impact
+on consumer financial health. We do so by implementing a difference-in-differences (DD)
+identification strategy that compares changes in average outcomes before and after legal-
+ization relative to the changes in these outcomes for states that did not yet legalize sports
+gambling or that never legalized it over the same period. While DD is typically implemented
+using a Two-Way Fixed Effect (TWFE)—county and year-quarter in our case—recent lit-
+erature has pointed out some shortcomings of this estimator (Borusyak et al., 2024). In
+particular, in cases where there is treatment heterogeneity by treatment groups or time,
+TWFE can generate biased estimates. To avoid this issue, econometricians have developed a
+set of alternative estimators (Borusyak et al., 2024; Callaway & Sant’Anna, 2021; Gardner,
+2022). In this paper, we rely on the proposed method by Callaway and Sant’Anna, 2021,
+which we refer to as CS estimator. We aggregate our data to the county-level and weight
+county-level observations by the average number of individuals present in the data in 2015.
+This is done for computational efficiency purposes using the CS estimator. The estimated
+AverageTreatmentontheTreated(ATT)canbeinterpretedastheaveragechangeintreated
+individuals’ financial outcomes.
+Since states decide whether to legalize sports gambling, the main concern with our iden-
+tification strategy is that unrelated trends in consumer financial outcomes correlate with
+state-level decisions to implement legalization. In Appendix B, we present two identification
+checks aimed at reducing this concern.
+4 Aggregate Effects
+This section presents aggregated (across all consumers) event study estimates covering eight
+quarters before and 16 quarters after the treatment.11 By doing so, we can validate the
+11In Appendix C, we present estimates by gender, age, and income.
+10
+
+=== page 13 ===
+parallel trends assumption and observe the evolution of the treatment over time. At the end
+of the section, we present ATT estimates for our treatment conditions and all consumers.
+4.1 Overall Consumers’ Financial Health
+Credit score The first outcome we study is the average consumer credit score. As we
+discussedinSection2, acreditscoreisameasureoftheoverallfinancialhealthofaconsumer.
+It is designed to summarize a consumer’s creditworthiness by predicting their future default
+risk based on all the data observed in credit reports. In Figure 2, we present the event study
+estimates for changes in the average credit score by treatment status.
+First, itisworthnotingthatweobservelargelyzeropre-treatmentperiodestimates. This
+suggests that before the treatment, treated and control states’ average credit scores evolved
+similarly, supporting the validity of our identification strategy.12
+0.5%
+0.0%
+−0.5%
+−1.0%
+−8 −4 0 4 8 12 16
+Quarters Relative to Policy
+erocS
+tiderC
+ni
+egnahC
+.tcP
+All States Online Access
+Figure 2: The effect of sports gambling legalization on consumer credit score.
+In the post-treatment period, we see that access to any type of sports betting decreases
+the average credit score. After about four years, the average credit score declines by about
+0.3%. This negative effect is stronger for the Online Access treatment. During the same
+time window, the average credit score drops by roughly 1% for online gambling, or close to
+three times the decline we observe for overall access to sports gambling.
+12This is the case for all our study outcomes.
+11
+
+=== page 14 ===
+4.2 Indicators of Excessive Debt
+Next, we analyze changes in indicators of excessive debt. This analysis can help us better
+understand the reasons behind the decrease in the average credit score we observe.
+Bankruptcies In Figure 3a, we present the event study estimates for bankruptcies by
+treatment conditions. We find that while the general accessibility to sports betting leads to
+insignificant changes to bankruptcy filing, online access significantly increases the likelihood
+of bankruptcy filing. We also see that the increase in bankruptcy filings occurs only after
+a lag of roughly two years. This is expected given that bankruptcies are often a last-
+resort option for consumers, and they would likely occur only after consumers experience
+significantfinancialstress. Threetofouryearsafterthelegalizationofonlinesportsgambling,
+we observe that the likelihood of bankruptcy filing increases by as much as 25-30% when
+compared to pre-treatment levels.
+Collections In Figure 3b, we present the event study estimates for changes in the amount
+ofdebtincollectiononaccount. Weobserveasignificantincreaseincollectionswhenfocusing
+on online accessibility, translating to a roughly 8% average increase. Given that the pre-
+treatment period average collection amounts were about $360, our estimate translates to a
+roughly $30 increase in the average amount of debt in collections per consumer due to sports
+betting.
+Credit card delinquency In Figure 3c, we present event study estimates for changes in
+the probability of an individual having a credit card delinquency on file. While initially no
+effect is present, we find that starting roughly three years after LSG implementation, credit
+card delinquencies appear to be declining, particularly in states with online access to sports
+betting. Given we see a decrease in the average credit score, this is somewhat counter-
+intuitive. However, in Section 4.3, we show that credit agencies appear to be lowering credit
+card limits to reduce their exposure to consumers with high financial risk. As such, credit
+12
+
+=== page 15 ===
+0.03%
+0.02%
+0.01%
+0.00%
+−0.01%
+−8 −4 0 4 8 12 16
+Quarters Relative to Policy
+)yctpurknaB(rP
+All States Online Access
+(a) The effect of sports gambling legalization on
+bankruptcy filing likelihood.
+30%
+20%
+10%
+0%
+−10%
+−8 −4 0 4 8 12 16
+Quarters Relative to Policy
+.tccA
+no
+snoitcelloC
+ni
+egnahC
+.tcP
+All States Online Access
+0.2%
+0.0%
+−0.2%
+−0.4%
+−8 −4 0 4 8 12 16
+Quarters Relative to Policy
+(b) The effect of sports gambling legalization on col-
+lections on account.
+)ycneuqnileD
+CC(rP
+All States Online Access
+(c) The effect of sports gambling legalization on the
+likelihoodanindividualhasacreditcarddelinquency.
+0.4%
+0.3%
+0.2%
+0.1%
+0.0%
+−8 −4 0 4 8 12 16
+Quarters Relative to Policy
+)ycneuqnileD
+naoL
+otuA(rP
+All States Online Access
+0.04%
+0.03%
+0.02%
+0.01%
+0.00%
+−0.01%
+−8 −4 0 4 8 12 16
+Quarters Relative to Policy
+(d) The effect of sports gambling legalization on the
+likelihood of having an auto loan delinquency on file.
+)naoL
+.losnoC(rP
+All States Online Access
+(e) The effect of sports gambling legalization on the
+likelihood of having an open debt consolidation loan.
+Figure 3: Changes in bankruptcies, collection on account, credit card delinquency likelihood,
+auto loan delinquency likelihood, and debt consolidation usage.
+13
+
+=== page 16 ===
+card delinquencies may decline due to credit agencies taking proactive measures to mitigate
+their risk exposure. These findings suggest that sports gambling does not appear to affect
+consumers’ financial health through credit card debt directly but through harder forms of
+loan accessibility. This complements work by (Baker et al., 2024), who find that financially
+constrained households increase their credit card balances by about $368 relative to less
+constrained households, or an 8% increase in credit card debt. We find that this increase
+in credit card balances does not translate into delinquencies but is instead associated with
+other adverse outcomes, such as bankruptcies or auto loan delinquencies, as we discuss next.
+Auto loan delinquency In Figure 3d, we present event study estimates for changes in
+the probability of an individual having an auto loan delinquency on file. For both forms of
+treatment, we see that auto loan delinquency likelihoods are significantly increasing. Com-
+pared to pre-treatment averages, this leads to a roughly 9% (5%) increase in delinquency
+likelihood with All States (Online Access) treatment.
+Debt consolidation Problem gamblers may use debt consolidation loans to consolidate
+and manage high-interest loans (e.g., credit cards). Given that these types of loans are last-
+resort measures to manage debt, similar to bankruptcies, we expect to see a delayed effect
+post-introduction of sports gambling. In Figure 3e, we present the event study estimates
+for the likelihood of an individual having an open debt consolidation loan. We see rates
+increase after roughly two years (eight quarters), translating to a statistically insignificant
+average ATT of roughly 0.01%. This translates to about a 10% increase in the likelihood of
+an individual opening a consolidation loan compared to pre-treatment period average rates.
+4.3 Restricted Access to Credit
+In this section, we study whether financial institutions responded to increased consumers’
+financial risk by reducing credit card limits and limiting the type of loans they can take.
+14
+
+=== page 17 ===
+0.0%
+−2.5%
+−5.0%
+−7.5%
+−8 −4 0 4 8 12 16
+Quarters Relative to Policy
+timiL
+CC
+.muC
+ni
+egnahC
+.tcP
+All States Online Access
+0.6%
+0.4%
+0.2%
+0.0%
+−8 −4 0 4 8 12 16
+Quarters Relative to Policy
+(a) The effect of sports gambling legalization on cu-
+mulative credit card limits.
+oitaR
+stccA
+LSU/LS
+ni
+egnahC
+.tcP
+All States Online Access
+(b) The effect of sports gambling legalization on the
+ratio of secured to unsecured loans.
+Figure 4: Changes in cumulative credit card limits and the ratio of secured to unsecured
+loans.
+Credit card limits In Figure 4a, we present changes in the cumulative credit card limits
+for individuals with existing credit cards. We find that credit card limits start to decrease
+right after gambling legalization and continue to decrease as time passes. For general sports
+betting access, the overall ATT estimate corresponds to roughly a 1.6% decline in credit
+card limits, while access to online betting leads to a nearly 2.7% decline. These results
+suggest that banks are responding to the increased financial risk caused by sports betting
+and lowering credit card limits to mitigate potential risk exposure.
+Secured and unsecured Loans Next, we analyze changes in the ratio of the number of
+open secured to unsecured loans consumers have on file. In Figure 4b, we present the event
+study estimates.
+We find that, on average, this ratio increases over time. This suggests that individual
+debts increasingly rely on secured loans compared to unsecured loans. In other words,
+consumers are taking riskier loans due to their declining creditworthiness. Compared to
+pre-treatment period average ratios, our ATT estimates of 0.0017 and 0.0009 translate to
+roughly 3.6% and 2% increase in secured to unsecured loan usage with any sports betting
+access and online gambling access, respectively.
+15
+
+=== page 18 ===
+4.4 Overall ATTs and Summary of Results
+In Table 2, we report ATT estimates for all our dependent variables. Given that we analyzed
+severaldependentvariables,weusetheBenjamini-Hochbergproceduretomaintaina5%false
+discovery rate and account for multiple hypothesis testing (Benjamini & Hochberg, 1995).
+Table 2: Overall ATT estimates.
+(1) (2)
+All States Online Access
+Overall Financial Health:
+Credit Score −0.0012∗∗∗ −0.0039∗∗∗
+(0.0003) (0.0006)
+Excessive Debt Indicators:
+Pr(Bankruptcy) −0.000004 0.0001∗∗∗
+(0.00003) (0.00002)
+Collections 0.0055 0.0789∗∗∗
+(0.0140) (0.0122)
+Pr(Credit Card Delinquency) −0.0001 −0.0005∗∗
+(0.0002) (0.0002)
+Pr(Auto Loan Delinquency) 0.0013∗∗∗ 0.0006∗∗∗
+(0.0002) (0.0001)
+Pr(Cons. Loan) 0.00006 0.00005
+(0.00004) (0.00003)
+Access to Credit:
+Cumulative CC Limit −0.0158∗∗∗ −0.0269∗∗∗
+(0.0023) (0.0039)
+Ratio of Sec. to Unsec. Loans 0.0017∗∗ 0.0009∗
+(0.0006) (0.0004)
+Significance Levels: ∗p<0.1; ∗∗p<0.05; ∗∗∗p<0.01.
+Note: Each row shows the coefficients from a separate Callaway and
+Sant’Anna, 2021 estimation for the dependent variable shown on the
+left. Column (1) defines treatment based on any form of legal sports
+gamblingandcolumn(2)definestreatmentbasedonaccesstomobile
+betting. Data is aggregated at the county level, and therefore, stan-
+darderrorsareclusteredatthecountylevel. Allp-valuesareadjusted
+using the Benjamini-Hochberg procedure to account for multiple hy-
+pothesis testing.
+16
+
+=== page 19 ===
+While sports betting accessibility appears to be financially harming consumers, online
+access drives most of the effect we observe. Furthermore, the effect of sports betting does
+not appear to be driven by higher credit card delinquencies but by increased exposure and
+use of hard debts such as consolidation loans, secured loans, and bankruptcies. The fact
+that credit card delinquencies are unaffected or lower is likely due to financial institutions
+trying to mitigate their exposure to risk by lowering credit limits. Despite this, we observe
+consumers missing payments for other loans and products, leading to increased collections
+and auto loan delinquencies.
+5 Discussion
+Thepost-2018waveofstate-levellawslegalizingsportsgamblingrepresentsoneofthelargest
+changes to gambling accessibility in modern history. This is true both in the scale of the
+amount wagered, which by 2023 reached over $100 billion per year, and in the unprecedented
+easy access of placing bets via mobile apps. Understanding the initial consequences of these
+changes is important for policymakers and voters considering actively pending legislation
+expanding legal sports gambling to additional states, regulating the advertising and taxation
+of this industry, as well as other policies at both the state and federal levels. Legalized
+sports gambling undoubtedly has real benefits, as it takes an existing activity out of black
+markets and subjects it to regulation and taxation. Many, and possibly most bettors, find
+it a harmless form of recreation and get real enjoyment from placing bets, and the tax
+revenue raised by states can be used for valuable public services. Nevertheless, these benefits
+potentially come with costs, and measuring and quantifying the scale of these costs is an
+important input for evaluating the net effects of gambling legalization.
+Our results ultimately suggest that gambling legalization does harm consumer financial
+health. We study this across various financial indicators and find some important nuances.
+First, we do not find increases in credit card delinquencies, suggesting credit card companies
+17
+
+=== page 20 ===
+can successfully mitigate their risk. Second, the largest effects are in rare but potentially
+life-changing outcomes and involve other types of debt and borrowing. This manifests pri-
+marily in substantial increases in bankruptcy rates and debt sent to collections. Back-of-the-
+envelope calculations suggest that our average effect estimates translate to roughly 30,000
+additional annual bankruptcies and an additional $8 billion in annual collections on account
+in states with legalized online gambling accessibility. Third, as credit card companies and
+banks work to mitigate their risk, the result is often reduced access to credit. An implication
+is that because banks view the average consumer as riskier in states with sports betting, even
+consumers who don’t gamble may be indirectly affected and lose access to credit because
+banks have imperfect information about an individual’s risk level.
+It is important to remember that we measure average effects for the full population in
+statesthatlegalizedbetting. Wedonotknowfromourdatatheproportionofthispopulation
+that is negatively affected. However, an implication of the fact that we find significant effects
+on the overall population is that, among those negatively affected, the effect sizes must be
+quite large.
+The most straightforward policy implication of our findings is that permitting online
+or mobile betting significantly amplifies the negative financial impact of legal gambling on
+consumers, compared to limiting betting to in-person locations. More broadly, this suggests
+that barriers to accessthat increase thefriction involved inplacing abetcould be aneffective
+policy for reducing harm. Several other policies have been proposed to protect consumers
+who may otherwise become problem gamblers from excessive or problematic activity. While
+we cannot evaluate those specific policies, our results suggest that policies meant to restrict
+or mitigate negative financial outcomes may be warranted. If no action is taken, it is highly
+likely that the large increase in sports betting will lead to a long-term increase in financial
+stress on many consumers and policymakers and financial regulators should be prepared for
+this.
+18
+
+=== page 21 ===
+References
+Baker, S., Balthrop, J., Johnson, M. J., Kotter, J. D., & Pisciotta, K. (2024). Gambling
+Away Stability: Sports Betting’s Impact on Vulnerable Households (tech. rep.). http:
+//dx.doi.org/10.2139/ssrn.4881086
+Benjamini, Y., & Hochberg, Y. (1995). Controlling the false discovery rate: A practical and
+powerful approach to multiple testing. Journal of the Royal statistical society: series
+B (Methodological), 57(1), 289–300.
+Berger, A. N., & Udell, G. F. (1990). Collateral, loan quality and bank risk. Journal of
+Monetary Economics, 25(1), 21–42.
+Binde, P. (2009). Exploring the impact of gambling advertising: An interview study of prob-
+lem gamblers. International journal of mental health and addiction, 7, 541–554.
+Borusyak, K., Jaravel, X., & Spiess, J. (2024). Revisiting event study designs: Robust and
+efficient estimation. Review of Economic Studies, rdae007.
+Butaru, F., Chen, Q., Clark, B., Das, S., Lo, A. W., & Siddique, A. (2016). Risk and risk
+management in the credit card industry. Journal of Banking & Finance, 72, 218–239.
+Callaway,B.,&Sant’Anna,P.H.(2021).Difference-in-differenceswithmultipletimeperiods.
+Journal of Econometrics, 225(2), 200–230. https://doi.org/https://doi.org/10.1016/
+j.jeconom.2020.12.001
+Chen,S.-S.,Yeo,G.H.,&Ho,K.W.(1998).Furtherevidenceonthedeterminantsofsecured
+versus unsecured loans. Journal of Business Finance & Accounting, 25(3-4), 371–385.
+Clarida,M.Q.(2020).Anempiricalanalysisoftheimpactoflegalsportsbettingonconsumer
+credit health. Colum. Bus. L. Rev., 1000.
+Couture, C., Cross, J., & Wu, S. (2024). Impact of sports gambling on mental health. Eco-
+nomics Letters, 243, 111922. https://doi.org/https://doi.org/10.1016/j.econlet.2024.
+111922
+19
+
+=== page 22 ===
+Gabellini, E., Lucchini, F., & Gattoni, M. (2023). Prevalence of Problem Gambling: A Meta-
+analysis of Recent Empirical Research (2016–2022). Journal of Gambling Studies, 39,
+1027–1057. https://doi.org/10.1007/s10899-022-10180-0
+Gainsbury, S. M., Russell, A., Blaszczynski, A., & Hing, N. (2015). The interaction between
+gambling activities and modes of access: A comparison of internet-only, land-based
+only, and mixed-mode gamblers. Addictive Behaviors, 41, 34–40.
+Gardner, J. (2022). Two-stage differences in differences. arXiv preprint arXiv:2207.05943.
+Hahmann, T., Hamilton-Wright, S., Ziegler, C., & Matheson, F. I. (2021). Problem gambling
+within the context of poverty: A scoping review. International Gambling Studies,
+21(2), 183–219.
+Hing, N., Lamont, M., Vitartas, P., & Fink, E. (2015). Sports-embedded gambling promo-
+tions: A study of exposure, sports betting intention and problem gambling amongst
+adults. International Journal of Mental Health and Addiction, 13, 115–135.
+Kearney, M. S. (2005). The Economic Winners and Losers of Legalized Gambling. National
+Tax Journal, 58(2), 281–302. https://doi.org/10.17310/ntj.2005.2.08
+LaPlante, D. A., Nelson, S. E., LaBrie, R. A., & Shaffer, H. J. (2011). Disordered gambling,
+type of gambling and gambling involvement in the british gambling prevalence survey
+2007. The European Journal of Public Health, 21(4), 532–537.
+Meyer, G., Hayer, T., & Griffiths, M. (2009, January). Problem gambling in europe: Chal-
+lenges, prevention, and interventions. https://doi.org/10.1007/978-0-387-09486-1
+Narayanan, S., & Manchanda, P. (2012). An empirical analysis of individual level casino
+gambling behavior. Quantitative Marketing and Economics, 10(1), 27–62. https://
+doi.org/10.1007/s11129-011-9110-7
+¨
+Nordmyr, J., Forsman, A. K., Wahlbeck, K., Bjo¨rkqvist, K., & Osterman, K. (2014). Asso-
+ciations between problem gambling, socio-demographics, mental health factors and
+gambling type: Sex differences among finnish gamblers. International Gambling Stud-
+ies, 14(1), 39–52.
+20
+
+=== page 23 ===
+Ren, J., Moberg, K., Scuffham, H., Guan, D., & Asche, C. V. (2019). Long-term effectiveness
+of a gambling intervention program among children in central illinois. PLOS ONE,
+14(2), 1–12. https://doi.org/10.1371/journal.pone.0212087
+Shaffer, H. J., & Korn, D. A. (2002). Gambling and related mental disorders: A public health
+analysis. Annual review of public health, 23(1), 171–212.
+Taylor, W., McCarthy, D., & Wilbur, K. C. (2024). Online gambling policy effects on tax
+revenue and irresponsible gambling. Available at SSRN 4856684.
+Wood, R. T., & Williams, R. J. (2007). Problem gambling on the internet: Implications for
+internet gambling policy in north america. New Media & Society, 9(3), 520–542.
+21
+
+=== page 24 ===
+Appendix
+A Treatment Type and Handles
+In Supplementary table 4, we present cumulative handle amounts (total amount wagered)
+by state and channel. On average, we observe that roughly 91% of betting is done online in
+our data.
+In Supplementary table 3, we report legalization dates by state.
+22
+
+=== page 25 ===
+Supplementary table 3: Treatment start dates in our dataset.
+State First Start Online Offline
+1 Delaware Jun 2018 Jun 2018
+2 New Jersey Jun 2018 Aug 2018 Jun 2018
+3 Mississippi Aug 2018 Aug 2018
+4 West Virginia Aug 2018 Aug 2018 Aug 2018
+5 New Mexico Oct 2018 Oct 2018
+6 Pennsylvania Nov 2018 May 2019 Nov 2018
+7 Rhode Island Nov 2018 Sep 2019 Nov 2018
+8 Arkansas Jul 2019 Mar 2022 Jul 2019
+9 New York Jul 2019 Jan 2022 Jul 2019
+10 Iowa Aug 2019 Aug 2019 Aug 2019
+11 Indiana Sep 2019 Oct 2019 Sep 2019
+12 Oregon Oct 2019 Oct 2019
+13 New Hampshire Dec 2019 Dec 2019 Aug 2020
+14 Illinois Mar 2020 Jun 2020 Mar 2020
+15 Michigan Mar 2020 Jan 2021 Mar 2020
+16 Montana Mar 2020 Mar 2020
+17 Colorado May 2020 May 2020 May 2020
+18 District of Columbia May 2020 May 2020 Jul 2020
+19 Tennessee Nov 2020 Nov 2020
+20 Virginia Jan 2021 Jan 2021
+21 North Carolina Mar 2021 Mar 2021
+22 North Dakota Jun 2021 Jun 2021
+23 Arizona Sep 2021 Sep 2021 Sep 2021
+24 South Dakota Sep 2021 Sep 2021
+25 Washington Sep 2021 Sep 2021
+26 Wyoming Sep 2021 Sep 2021
+27 Connecticut Oct 2021 Oct 2021 Oct 2021
+28 Louisiana Nov 2021 Jan 2022 Nov 2021
+29 Wisconsin Nov 2021 Nov 2021
+30 Maryland Dec 2021 Nov 2022 Dec 2021
+31 Kansas Sep 2022 Sep 2022 Sep 2022
+32 Massachusetts Jan 2023 Mar 2023 Jan 2023
+33 Ohio Jan 2023 Jan 2023 Jan 2023
+23
+
+=== page 26 ===
+Supplementary table 4: Average handle by channel per state. The data does not include
+handles for states where tribal lands run the offline sports gambling market.
+State Online Retail Pct. Online Cum. Handle
+1 New Jersey 34,569,741,984 3,713,428,792 0.90 38,283,170,776
+2 New York 22,913,323,803 494,149,829 0.98 23,407,473,632
+3 Illinois 21,675,191,603 897,187,635 0.96 22,572,379,238
+4 Pennsylvania 20,038,138,857 2,017,121,329 0.91 22,055,260,187
+5 Colorado 11,950,981,364 148,645,515 0.99 12,099,626,879
+6 Indiana 10,981,313,615 1,342,513,286 0.89 12,323,826,902
+7 Michigan 10,045,093,194 778,801,244 0.93 10,823,894,438
+8 Virginia 10,019,131,704 0 1 10,019,131,704
+9 Arizona 9,538,088,892 87,268,559 0.99 9,625,357,452
+10 Tennessee 8,622,329,752 0 1 8,622,329,752
+11 Iowa 5,334,919,136 834,747,402 0.86 6,169,666,538
+12 Louisiana 2,974,460,677 531,448,026 0.85 3,505,908,703
+13 Ohio 2,932,320,051 81,894,000 0.97 3,014,214,051
+14 Maryland 2,400,918,372 410,743,480 0.85 2,811,661,852
+15 Connecticut 2,400,899,080 155,720,243 0.94 2,556,619,323
+16 New Hampshire 1,848,595,721 444,716,787 0.81 2,293,312,508
+17 Massachusetts 1,571,946,198 70,122,644 0.96 1,642,068,843
+18 Kansas 1,506,528,875 71,935,725 0.95 1,578,464,600
+19 West Virginia 1,412,507,612 593,207,201 0.70 2,005,714,813
+20 Oregon 1,254,314,057 0 1 1,254,314,057
+21 Rhode Island 817,111,648 835,880,558 0.49 1,652,992,206
+22 Arkansas 247,307,519 198,623,807 0.55 445,931,327
+23 Wyoming 238,202,106 0 1 238,202,106
+24 DC 159,734,511 419,702,471 0.28 579,436,981
+25 Mississippi 0 2,211,473,311 0 2,211,473,311
+26 Delaware 0 562,446,621 0 562,446,621
+27 Montana 0 143,854,952 0 143,854,952
+28 South Dakota 0 12,888,714 0 12,888,714
+29 New Mexico 0 0 0 0
+30 North Carolina 0 0 0 0
+31 North Dakota 0 0 0 0
+32 Washington 0 0 0 0
+33 Wisconsin 0 0 0 0
+24
+
+=== page 27 ===
+B Identification Checks
+Since states decide whether to legalize sports gambling, the primary concern is that unre-
+lated trends in consumer financial outcomes correlate with state-level decisions to implement
+legalization. Of particular concern would be if states that choose to legalize sports betting
+to generate revenue do so because they have budgetary problems and, consequently, when
+economicshockssuchastheCOVIDpandemicarise, arelessabletoprovidesocialassistance.
+We test for this possibility in two ways. First, we test for cross-sectional differences
+between treated and control states across various social assistance programs and COVID-19
+fiscal responses. We compare states across 13 policies, as shown in Supplementary table 5.
+We find no significant differences in these policies except for the duration of unemployment
+insurance, which is consistently higher among treated states both pre- and post-pandemic.
+There is little time variation in Unemployment Insurance duration across the periods studied
+among treated states. Nevertheless, any declines in consumer financial health observed
+amongtreatedstatescouldbeunderstatedduetothosestates’moregenerousunemployment
+policies.
+Supplementary table 5: Fiscal policies of treated and control states.
+Policy Treated Control t
+2020 UI maximum amount ($) 471.4 490.85 .467
+COVID Expanded eligibility for UI (high-risk individuals) .2333 .1905 -.359
+COVID Expanded eligibility for UI (lost childcare/school) .4333 .2857 -1.064
+COVID Expanded eligibility for UI (quarantined or caregiver) .8333 .8095 -.215
+COVID Extended UI duration .0667 .0476 -.279
+2021 UI maximum duration (weeks) 25.73 23.85 -2.348
+January 2020 UI maximum duration (weeks) 25.2 22.67 -2.238
+July 2020 UI maximum duration (weeks) 25.73 23.52 -2.255
+Reinstated one week waiting period for UI .5 .6190 .829
+Reinstated work search requirement for UI .4667 .6667 1.413
+Stopped Participating in Federal UI Programs .4 .4762 .531
+Waived work search requirement for UI .9333 .9524 .279
+Weekly UI maximum amount with extra stimulus ($) 1071.4 1090.9 .467
+The second test we perform relates to the timing of gambling legalization. We estimate
+25
+
+=== page 28 ===
+the relationship between this timing and local economic indicators, namely weekly wages,
+the quarterly unemployment rate, and the number of COVID cases. We do so using a Cox
+Hazard model with all states in our data. We present these results in Supplementary table 6.
+We find no significant relationships between these variables and the timing of legalization,
+alleviating concerns that such factors may plausibly correlate with treatment timing and our
+dependent variables.
+Supplementary table 6: Hazard model test of treatment likelihood with all states.
+(1)
+Time to Treatment
+Log(COVID Cases) −0.183
+(0.963)
+Log(Weekly Wage) 1.351
+(0.987)
+Quarterly Unemployment Percent −0.040
+(0.114)
+Observations 1,124
+R2 0.001
+Max. Possible R2 0.185
+Log Likelihood −114.144
+Note: ∗p<0.1; ∗∗p<0.05; ∗∗∗p<0.01
+C Heterogeneity Analysis
+In this section, we shed some light on the types of consumers who are more affected by the
+legalization of sports gambling. We do so by estimating the heterogeneous effect for different
+types of consumers based on demographic characteristics.
+The previous literature on sports gambling has found that men, particularly young men,
+are more susceptible to gambling addiction compared to women and older men (Binde, 2009;
+26
+
+=== page 29 ===
+Hahmann et al., 2021; Hing et al., 2015). Income also impacts gambling behaviors, with
+lower-income consumers likely to be more affected by gambling (Binde, 2009; Hing et al.,
+2015) Following this literature, and to understand which consumers are the most affected
+by the legalization of sports gambling, we estimate ATTs separately for men and women,
+young and old men, and young men in high vs. low-income counties.13 As we have done for
+the main analysis, we do so for both all sports betting access states and online access states.
+Sports betting access We first present heterogeneous treatment effect results using any
+sports gambling access treatment for all the outcomes analyzed in Section 4. Supplementary
+figure 5 presents ATT estimates by each consumer group and outcome. Confidence intervals
+are adjusted using the Benjamini-Hochberg procedure.
+In general, we find few statistically different estimates across groups. The credit score is
+declining for all groups, with slightly larger estimates for young men in low-income counties.
+Consistent with the results discussed above, we find a largely null effect on bankruptcies;
+however, young men in low-income counties seem to experience higher bankruptcy rates.
+We find suggestive evidence that young men in low-income counties use consolidation loans
+significantly more than other groups, with older men and women having largely null effects.
+In line with the main results, collections estimates are largely null, while credit card delin-
+quencies follow a similar pattern to that of consolidated loans. Auto loan delinquencies and
+the ratio of secured to unsecured loans increase similarly for all consumers. Finally, credit
+card limits decrease across all groups, with young men experiencing the largest decrease.
+Online access Here, we present the results of the heterogeneous treatment effect using
+online access treatment. Supplementary figure 6 presents ATT estimates by each consumer
+group and outcome.
+Similar to the previous analysis, we find a few statistically significant differences across
+13Whileweobservegenderandageatconsumerlevel,incomeisonlyavailableatthecountylevel. Because
+of this, estimates for income groups are less precise.
+27
+
+=== page 30 ===
+Credit Score Pr(Bankruptcy)
+M
+F
+M > 45
+M < 45
+LI M < 45
+HI M < 45
+−0.4% −0.3% −0.2% −0.1% 0.0% 0.00% 0.02% 0.04%
+Pr(Cons. Loan) Collections
+M
+F
+M > 45
+M < 45
+LI M < 45
+HI M < 45
+0.000% 0.025% 0.050% 0.075% 0.100%−5.0% −2.5% 0.0% 2.5% 5.0% 7.5%
+Pr(Credit Card Delinquency) Pr(Auto Loan Delinquency)
+M
+F
+M > 45
+M < 45
+LI M < 45
+HI M < 45
+−0.1% 0.0% 0.1% 0.2% 0.3% 0.0% 0.1% 0.2% 0.3%
+Sec./Unsec. Accounts Ratio Cumulative Credit Card Limit
+M
+F
+M > 45
+M < 45
+LI M < 45
+HI M < 45
+0.0% 0.2% 0.4% 0.6% 0.8% −4.0% −3.0% −2.0% −1.0% 0.0%
+puorG
+Supplementary figure 5: Heterogeneous effect for any sports betting access
+groups. Despite this, we observe a similar trend to that observed when we study heterogene-
+ity for any access to sports gambling. That is, there is suggestive evidence that young men
+in low-income counties experience higher financial distress, with higher rates of bankruptcy,
+more usage of consolidation and secured loans, and more credit card delinquencies. We also
+see that it is for your men that credit card limits decrease the most.
+Overall, consistent with past literature, the heterogeneity analysis suggests that young
+men, particularly those in low-income counties, may be the most affected by the legalization
+of sports gambling.
+28
+
+=== page 31 ===
+Credit Score Pr(Bankruptcy)
+M
+F
+M > 45
+M < 45
+LI M < 45
+HI M < 45
+−0.6% −0.4% −0.2% 0.0% 0.00% 0.01% 0.02% 0.03% 0.04%
+Pr(Cons. Loan) Collections
+M
+F
+M > 45
+M < 45
+LI M < 45
+HI M < 45
+0.00% 0.02% 0.04% 0.06% 0.08% 0% 5% 10%
+Pr(Credit Card Delinquency) Pr(Auto Loan Delinquency)
+M
+F
+M > 45
+M < 45
+LI M < 45
+HI M < 45
+−0.1% 0.0% 0.1% 0.2% −0.2% −0.1% 0.0% 0.1%
+Sec./Unsec. Accounts Ratio Cumulative Credit Card Limit
+M
+F
+M > 45
+M < 45
+LI M < 45
+HI M < 45
+0.0% 0.2% 0.4% 0.6% 0.8% −4% −2% 0%
+puorG
+Supplementary figure 6: Heterogeneous effect for online access
+29
