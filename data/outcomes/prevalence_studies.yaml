@@ -142,6 +142,7 @@ studies:
       - measure: low_risk
         definition: Low risk, no positive response to any of the nine screening questions (2017 report, summary of findings)
         value_pct: 87.2
+        denominator: all respondents, n=1,755 (the report's "study participants")
         provenance: &ks2017
           source_id: ks-kdads
           source_url: https://www.kdads.ks.gov/home/showpublisheddocument/568/638507608991730000
@@ -155,10 +156,12 @@ studies:
       - measure: moderate_risk
         definition: Moderate risk, one to three positive responses (2017 report)
         value_pct: 10.1
+        denominator: all respondents, n=1,755 (the report's "study participants")
         provenance: *ks2017
       - measure: high_risk
         definition: High risk, four or more positive responses (2017 report)
         value_pct: 2.7
+        denominator: all respondents, n=1,755 (the report's "study participants")
         provenance: *ks2017
     report_url: https://www.kdads.ks.gov/home/showpublisheddocument/568/638507608991730000
     comparability_note: The 2025 Kansas Gambling Survey executive summary restates this wave as 84.4 percent low, 11.6 percent moderate and 4.0 percent high risk, which does not match the 2017 report's own 87.2, 10.1 and 2.7 percent, and the summary does not state its cut points. The two waves share the nine screening questions, but the restated baseline suggests the 2025 summary recut the categories; treat the "more than tripled" comparison in that summary as unconfirmed until the full 2025 report states its thresholds. Not comparable with the New Jersey PGSI studies.
@@ -205,16 +208,19 @@ studies:
       - measure: low_risk
         definition: Low risk of problem gambling by the nine screening questions, 2025
         value_pct: 58.7
+        denominator: all respondents, n=1,645 (chart titled "Percent of Respondents at Each Risk Level")
         provenance: &ks2025risk
           <<: *ks2025
           page_or_table: PDF page 5 (printed page 4), risk level chart
       - measure: moderate_risk
         definition: Moderate risk of problem gambling, 2025
         value_pct: 21.4
+        denominator: all respondents, n=1,645 (chart titled "Percent of Respondents at Each Risk Level")
         provenance: *ks2025risk
       - measure: high_risk
         definition: High risk of problem gambling, 2025
         value_pct: 20.0
+        denominator: all respondents, n=1,645 (chart titled "Percent of Respondents at Each Risk Level")
         provenance: *ks2025risk
       - measure: other
         definition: Reported placing a sports bet (reference period not stated; "Sports Betting Insights")
