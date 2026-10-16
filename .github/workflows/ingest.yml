@@ -5,6 +5,9 @@ on:
     paths: ['ingest/requests/*.yaml', 'ingest/wpdc_ingest/**', '.github/workflows/ingest.yml']
   workflow_dispatch:
     inputs:
+      only:
+        description: 'Run only the request file(s) with this basename (comma separated); use manual/<name> for files under ingest/requests/manual'
+        required: false
       source_id:
         description: 'Source to ingest (ignored if requests exist)'
         required: false
@@ -33,6 +36,11 @@ jobs:
           status=0
           shopt -s nullglob
           files=(ingest/requests/*.yaml)
+          if [ -n "${{ inputs.only }}" ]; then
+            files=()
+            IFS=',' read -ra names <<< "${{ inputs.only }}"
+            for nm in "${names[@]}"; do files+=("ingest/requests/${nm}.yaml"); done
+          fi
           if [ ${#files[@]} -eq 0 ] && [ -n "${{ inputs.source_id }}" ]; then
             printf 'kind: ingest\nsource_id: %s\nperiod: %s\n' "${{ inputs.source_id }}" "${{ inputs.period }}" > ingest/requests/dispatch.yaml
             files=(ingest/requests/dispatch.yaml)

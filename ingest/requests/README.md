@@ -28,5 +28,9 @@ urls:
   - https://example.gov/report.pdf
 ```
 
+Long back-series requests live under `ingest/requests/manual/` and run only
+when dispatched with the `only` input (for example `manual/nj-dge-2018-2026`), so
+an ordinary push does not start an hour-long run.
+
 Requests are idempotent: re-running one supersedes restated rows rather
 than duplicating them. Delete a request file once its output is committed.
