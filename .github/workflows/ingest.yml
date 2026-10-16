@@ -1,0 +1,69 @@
+name: Ingest requests
+
+on:
+  push:
+    paths: ['ingest/requests/*.yaml', 'ingest/wpdc_ingest/**', '.github/workflows/ingest.yml']
+  workflow_dispatch:
+    inputs:
+      source_id:
+        description: 'Source to ingest (ignored if requests exist)'
+        required: false
+      period:
+        description: 'YYYY-Qn or YYYY-MM'
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -e ingest pyyaml
+      - name: Run requests
+        id: run
+        shell: bash
+        run: |
+          set -u
+          mkdir -p out/logs
+          status=0
+          shopt -s nullglob
+          files=(ingest/requests/*.yaml)
+          if [ ${#files[@]} -eq 0 ] && [ -n "${{ inputs.source_id }}" ]; then
+            printf 'kind: ingest\nsource_id: %s\nperiod: %s\n' "${{ inputs.source_id }}" "${{ inputs.period }}" > ingest/requests/dispatch.yaml
+            files=(ingest/requests/dispatch.yaml)
+          fi
+          for f in "${files[@]}"; do
+            name=$(basename "$f" .yaml)
+            kind=$(python -c "import yaml,sys;print(yaml.safe_load(open(sys.argv[1])).get('kind','ingest'))" "$f")
+            echo "::group::$name ($kind)"
+            if [ "$kind" = "archive" ]; then
+              mapfile -t urls < <(python -c "import yaml,sys;print('\n'.join(yaml.safe_load(open(sys.argv[1]))['urls']))" "$f")
+              python -m wpdc_ingest.archive_docs "out/archive/$name" "${urls[@]}" 2>&1 | tee "out/logs/$name.log" || status=1
+            else
+              sid=$(python -c "import yaml,sys;print(yaml.safe_load(open(sys.argv[1]))['source_id'])" "$f")
+              per=$(python -c "import yaml,sys;print(yaml.safe_load(open(sys.argv[1])).get('period') or '')" "$f")
+              args=(ingest "$sid"); [ -n "$per" ] && args+=(--period "$per")
+              wpdc "${args[@]}" 2>&1 | tee "out/logs/$name.log" || status=1
+            fi
+            echo "::endgroup::"
+          done
+          mkdir -p out/data
+          cp -r data/outcomes out/data/ 2>/dev/null || true
+          cp data/reference/population.csv out/data/ 2>/dev/null || true
+          [ -d archive/raw ] && cp -r archive/raw out/archive-raw || true
+          git status --short > out/logs/git-status.txt
+          git diff --stat >> out/logs/git-status.txt
+          exit $status
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ingest-results-${{ github.run_number }}
+          path: out
+          if-no-files-found: warn
+          retention-days: 30

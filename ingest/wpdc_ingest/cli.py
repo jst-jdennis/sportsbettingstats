@@ -57,14 +57,37 @@ def main(argv: list[str] | None = None) -> int:
     src = load(a.source_id)
     period = parse_period(a.period)
     docs = src.discover(period)
-    doc = docs[0]
-    ext = doc.kind
+    raws = []
     if a.local:
-        raw = archive.from_local(src.source_id, Document(url=doc.url, period=doc.period, kind=doc.kind, label=doc.label), a.local, ext)
+        doc = docs[0]
+        if doc.kind == "html":
+            # A manual drop skips page discovery; the file is the document itself.
+            kind = a.local.suffix.lstrip(".").lower() or "pdf"
+            doc = Document(url=doc.url, period=doc.period, kind=kind, label=doc.label, meta=(("measure", "quarter"),))
+        raws.append(archive.from_local(src.source_id, doc, a.local, doc.kind))
     else:
-        raw = archive.fetch(src.source_id, doc, ext, wayback=not a.no_wayback)
-    records = src.parse(raw)
-    rows = [r.finalize() for r in src.normalize(records, raw)]
+        last_err: Exception | None = None
+        for doc in docs:
+            try:
+                if doc.kind == "html":
+                    html = archive.fetch_bytes(doc.url).decode("utf-8", "replace")
+                    files = src.resolve(doc, html)
+                    print(f"resolved {len(files)} document(s) from {doc.url}")
+                    for f in files:
+                        raws.append(archive.fetch(src.source_id, f, f.kind, wayback=not a.no_wayback))
+                else:
+                    raws.append(archive.fetch(src.source_id, doc, doc.kind, wayback=not a.no_wayback))
+                break
+            except Exception as e:  # noqa: BLE001
+                last_err = e
+                print(f"skip {doc.url}: {e}")
+        if not raws:
+            raise SystemExit(f"no document could be fetched for {src.source_id}: {last_err}")
+    rows = []
+    for raw in raws:
+        print(f"parsing {raw.path.name} ({raw.doc.label}) sha256={raw.sha256[:12]} archive_url={raw.archive_url}")
+        records = src.parse(raw)
+        rows.extend(r.finalize() for r in src.normalize(records, raw))
     key, sort = KEYS[src.dataset]
     if a.dry_run:
         for r in rows:

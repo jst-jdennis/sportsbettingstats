@@ -339,7 +339,8 @@ sources:
   access_method: pdf
   update_cadence: irregular
   license: Publisher terms
-  reliability_notes: Peer-reviewed. Research letters are short and report a single headline estimate; read the supplement for state-level figures.
+  reliability_notes: Peer-reviewed. Research letters are short and report a single headline estimate; read the supplement
+    for state-level figures.
   tier: primary
   fips: null
 - source_id: press-trade
@@ -2041,5 +2042,41 @@ sources:
   update_cadence: irregular
   license: Author terms
   reliability_notes: Working papers are revised in place; hash and archive each version.
+  tier: primary
+  fips: null
+- source_id: doi-org
+  publisher: Journal article resolved through doi.org (publisher named in the record notes)
+  publisher_type: academic
+  title: Peer-reviewed journal articles by DOI
+  url: https://doi.org/
+  access_method: pdf
+  update_cadence: irregular
+  license: Publisher terms
+  reliability_notes: Use the DOI URL as source_url. The journal and the article page are named in notes. Published
+    versions are stable; cite the table or section.
+  tier: primary
+  fips: null
+- source_id: arxiv
+  publisher: arXiv (Cornell University)
+  publisher_type: academic
+  title: arXiv preprint server
+  url: https://arxiv.org/
+  access_method: pdf
+  update_cadence: irregular
+  license: Author terms
+  reliability_notes: Versions are numbered (v1, v2) and each is permanently available, which makes revision logging
+    exact.
+  tier: primary
+  fips: null
+- source_id: university-working-paper
+  publisher: University or research center working paper series (institution named in the record notes)
+  publisher_type: academic
+  title: Author or institution hosted working papers
+  url: https://example.invalid/working-papers
+  access_method: pdf
+  update_cadence: irregular
+  license: Author terms
+  reliability_notes: Author-hosted PDFs change in place without notice. Hash and archive every version; record the
+    institution and the date on the title page in notes.
   tier: primary
   fips: null

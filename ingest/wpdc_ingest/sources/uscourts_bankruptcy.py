@@ -33,10 +33,12 @@ from ..core.source import Document, LayoutChanged, Period, RawDocument, Row
 
 SOURCE_ID = "uscourts-bankruptcy-f2"
 LANDING = "https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filings-statistics"
-# The AO publishes each quarter under a dated node, e.g. .../bankruptcy-filings-statistics/2026/03/31.
-# discover() builds the candidate page; the xlsx link is then found on that page by the CLI's HTML step
-# (not implemented here because this environment cannot reach uscourts.gov; the parse path is fixture-tested).
+# The AO publishes each quarter under a dated node, e.g. .../bankruptcy-filings-statistics/2026/03/31,
+# with one row per table and a Download link. discover() returns that page as an html document; resolve()
+# finds the F-2 links on it. Both the three-month and the twelve-month F-2 tables are ingested, with
+# measure recorded on each.
 QUARTER_PAGE = LANDING + "/{y}/{m:02d}/{d:02d}"
+LINK_RE = re.compile(r'href="([^"]+\.(?:xlsx|xls|pdf))"[^>]*>([^<]*)', re.I)
 CHAPTERS = ("7", "11", "13")
 
 
@@ -57,10 +59,42 @@ class USCourtsBankruptcyF2:
             y, m = (today.year, qm) if qm else (today.year - 1, 12)
             period = Period.quarter_ending(y, m)
         last = period.end
-        return [Document(url=QUARTER_PAGE.format(y=last.year, m=last.month, d=last.day), period=period, kind="xlsx", label=f"F-2 quarter ending {last.isoformat()}")]
+        return [Document(url=QUARTER_PAGE.format(y=last.year, m=last.month, d=last.day), period=period, kind="html", label=f"Bankruptcy statistics page, quarter ending {last.isoformat()}")]
+
+    def resolve(self, doc: Document, html: str) -> list[Document]:
+        """Find the F-2 table downloads on the quarterly statistics page.
+
+        The page lists tables as rows such as "F-2 Three Months" / "F-2 Twelve Months" with a download
+        link per format. We take xlsx when offered, otherwise xls, and skip pdf. Any F-2 link whose
+        surrounding text does not say three or twelve months is treated as twelve months, which is how
+        the AO labels the main F-2 table.
+        """
+        out: list[Document] = []
+        seen: set[str] = set()
+        # Work on a window of text around each link so the table label (in the same row) is visible.
+        for m in re.finditer(r'<a[^>]+href="([^"]+\.(?:xlsx|xls))"[^>]*>', html, re.I):
+            href = m.group(1)
+            # The table label precedes its download link in the same row; use the last label before the link.
+            before = re.sub(r"<[^>]+>", " ", html[max(0, m.start() - 600): m.start()])
+            labels = re.findall(r"\bF-?(\d+[A-Z]?)\b", before)
+            if not labels or labels[-1] != "2":
+                continue
+            text = before
+            url = href if href.startswith("http") else "https://www.uscourts.gov" + href
+            if url in seen:
+                continue
+            seen.add(url)
+            low = text.lower()
+            measure = "quarter" if re.search(r"3[- ]month|three[- ]month", low) else "twelve_months_ending"
+            out.append(Document(url=url, period=doc.period, kind=url.rsplit(".", 1)[-1].lower(), label=f"F-2 ({measure}) {doc.period.end.isoformat() if doc.period else ''}", meta=(("measure", measure),)))
+        if not out:
+            raise LayoutChanged(f"No F-2 xlsx or xls link found on {doc.url}; anchors seen: {LINK_RE.findall(html)[:10]}")
+        return out
 
     # ---- parse ----
     def parse(self, raw: RawDocument) -> list[dict[str, Any]]:
+        if raw.path.suffix.lower() == ".xls":
+            raise LayoutChanged(f"{raw.path.name} is a legacy .xls file; convert to xlsx (libreoffice --headless --convert-to xlsx) and re-run with --local, or add xlrd support")
         wb = openpyxl.load_workbook(raw.path, read_only=True, data_only=True)
         ws = wb[wb.sheetnames[0]]
         rows = [[c for c in r] for r in ws.iter_rows(values_only=True)]
@@ -111,7 +145,7 @@ class USCourtsBankruptcyF2:
         districts = _districts()
         period = raw.doc.period
         assert period is not None
-        measure = getattr(raw.doc, "measure", "quarter")
+        measure = raw.doc.get("measure", "quarter")
         sums: dict[tuple[str, str], int] = defaultdict(int)
         counted: dict[str, list[str]] = defaultdict(list)
         for rec in records:

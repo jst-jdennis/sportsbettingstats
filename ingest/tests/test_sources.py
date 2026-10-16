@@ -71,3 +71,30 @@ def test_writer_upsert_supersedes(tmp_path, monkeypatch):
     assert writers.upsert_csv(path, "bankruptcy", [{**base, "filings": 101}], key, sort) == (1, 1)  # restated: old superseded
     rows = writers.read_csv(path)
     assert sorted(r["status"] for r in rows) == ["pending_review", "superseded"]
+
+
+def test_uscourts_resolve_finds_f2_tables():
+    html = '''<table><tr><td>F-2 Three Months Ended June 30, 2026</td><td><a href="/sites/default/files/data_tables/bf_f2_0630.2026.xlsx">Download</a></td></tr>
+    <tr><td>F-2 Twelve Months</td><td><a href="https://www.uscourts.gov/sites/default/files/data_tables/bf_f2_twelve_0630.2026.xlsx">Download</a></td></tr>
+    <tr><td>F-2A Three Months</td><td><a href="/x/bf_f2a_0630.2026.xlsx">Download</a></td></tr>
+    <tr><td>F-5A</td><td><a href="/x/bf_f5a_0630.2026.xlsx">Download</a></td></tr></table>'''
+    src = USCourtsBankruptcyF2()
+    page = src.discover(Period.quarter_ending(2026, 6))[0]
+    assert page.kind == "html" and page.url.endswith("/2026/06/30")
+    docs = src.resolve(page, html)
+    assert [d.get("measure") for d in docs] == ["quarter", "twelve_months_ending"]
+    assert docs[0].url.startswith("https://www.uscourts.gov/") and docs[0].kind == "xlsx"
+
+
+def test_uscourts_resolve_raises_without_f2():
+    with pytest.raises(LayoutChanged):
+        USCourtsBankruptcyF2().resolve(Document(url="u", period=Period.quarter_ending(2026, 6), kind="html"), "<a href='/a.pdf'>F-5A</a>")
+
+
+def test_nj_resolve_prefers_page_link_then_pattern():
+    src = NJDGESportsWagering()
+    page = src.discover(Period.month(2026, 8))[0]
+    docs = src.resolve(page, '<a href="/oag/ge/docs/Financials/SportsWagering2026/August2026.pdf">August 2026</a>')
+    assert docs[0].url == "https://www.nj.gov/oag/ge/docs/Financials/SportsWagering2026/August2026.pdf"
+    docs = src.resolve(page, "<p>nothing</p>")
+    assert docs[0].url.endswith("SportsWagering2026/August2026.pdf")

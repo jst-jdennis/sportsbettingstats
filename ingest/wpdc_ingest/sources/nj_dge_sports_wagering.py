@@ -57,7 +57,22 @@ class NJDGESportsWagering:
             y, m = (t.year, t.month - 1) if t.month > 1 else (t.year - 1, 12)
             period = Period.month(y, m)
         month_name = period.start.strftime("%B")
-        return [Document(url=PDF_PATTERN.format(y=period.start.year, Month=month_name), period=period, kind="pdf", label=f"NJ DGE sports wagering {month_name} {period.start.year}")]
+        return [Document(url=LANDING, period=period, kind="html", label=f"NJ DGE sports wagering revenue page, looking for {month_name} {period.start.year}")]
+
+    def resolve(self, doc: Document, html: str) -> list[Document]:
+        """Find the monthly PDF for the period on the DGE landing page; fall back to the historic URL pattern."""
+        assert doc.period is not None
+        y = doc.period.start.year
+        month = doc.period.start.strftime("%B")
+        cands: list[str] = []
+        for m in re.finditer(r'href="([^"]+\.pdf)"', html, re.I):
+            href = m.group(1)
+            low = href.lower()
+            if "sportswagering" in low.replace(" ", "").replace("%20", "") and month.lower() in low and str(y) in low:
+                cands.append(href if href.startswith("http") else "https://www.nj.gov" + (href if href.startswith("/") else "/oag/ge/" + href))
+        if not cands:
+            cands = [PDF_PATTERN.format(y=y, Month=month)]
+        return [Document(url=cands[0], period=doc.period, kind="pdf", label=f"NJ DGE sports wagering {month} {y}")]
 
     def parse(self, raw: RawDocument) -> list[dict[str, Any]]:
         with pdfplumber.open(raw.path) as pdf:
