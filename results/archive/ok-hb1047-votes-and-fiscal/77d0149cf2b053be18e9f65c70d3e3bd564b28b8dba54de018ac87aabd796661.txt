@@ -1,0 +1,400 @@
+=== page 1 ===
+1 HOUSE OF REPRESENTATIVES - FLOOR VERSION
+2 STATE OF OKLAHOMA
+3 1st Session of the 60th Legislature (2025)
+4 COMMITTEE SUBSTITUTE
+FOR
+5 HOUSE BILL NO. 1047 By: Luttrell of the House
+6 and
+7 Coleman of the Senate
+8
+9
+10 COMMITTEE SUBSTITUTE
+11 An Act relating to amusements and sports; amending 3A
+O.S. 2021, Sections 262 and 280, which relate to
+12 state-tribal gaming; providing exception; updating
+references; offering Gaming Compact Supplement
+13 related to sports betting; defining term; authorizing
+fee related to tribal administration of the games;
+14 prescribing content of Gaming Compact Supplement;
+prescribing procedures for electing acceptance of
+15 supplements; providing for certain construction of
+supplements; allowing retention of funds by tribes in
+16 certain amounts; limiting scope of Gaming Compact
+Supplement; declaring certain conduct and
+17 participation lawful; providing for codification; and
+providing an effective date.
+18
+19
+20
+21 BE IT ENACTED BY THE PEOPLE OF THE STATE OF OKLAHOMA:
+22 SECTION 1. AMENDATORY 3A O.S. 2021, Section 262, is
+23 amended to read as follows:
+24
+HB1047 HFLR Page 1
+BOLD FACE denotes Committee Amendments.
+
+=== page 2 ===
+1 Section 262. A. If at least four Indian tribes enter into the
+2 model tribal-state compact set forth in Section 281 of this title,
+3 and such compacts are approved by the Secretary of the Interior and
+4 notice of such approval is published in the Federal Register, the
+5 Oklahoma Horse Racing Commission ("Commission") shall license
+6 organization licensees which are licensed pursuant to Section 205.2
+7 of this title to conduct authorized gaming as that term is defined
+8 by this act pursuant to this act utilizing gaming machines or
+9 devices authorized by this act subject to the limitations of
+10 subsection C of this section. No fair association or organization
+11 licensed pursuant to Section 208.2 of this title or a city, town or
+12 municipality incorporated or otherwise, or an instrumentality
+13 thereof, may conduct authorized gaming as that term is defined by
+14 this act.
+15 Notwithstanding the provisions of Sections 941 through 988 of
+16 Title 21 of the Oklahoma Statutes, the conducting of and
+17 participation in gaming in accordance with the provisions of this
+18 act or the model compact set forth in Section 281 of this title is
+19 lawful and shall not be subject to any criminal penalties. Provided
+20 further, a licensed manufacturer or distributor licensed pursuant to
+21 this act may manufacture, exhibit or store as a lawful activity any
+22 machines or devices which are capable of being used to conduct the
+23 following types of gaming:
+24 1. Gaming authorized by the State-Tribal Gaming Act; or
+HB1047 HFLR Page 2
+BOLD FACE denotes Committee Amendments.
+
+=== page 3 ===
+1 2. Other gaming which may be lawfully conducted by an Indian
+2 tribe in this state.
+3 B. Except for Christmas Day, authorized gaming may only be
+4 conducted by an organization licensee on days when the licensee is
+5 either conducting live racing or is accepting wagers on simulcast
+6 races at the licensee's racing facilities. Authorized gaming may
+7 only be conducted by organization licensees at enclosure locations
+8 where live racing is conducted. Under no circumstances shall
+9 authorized gaming be conducted by an organization licensee at any
+10 facility outside the organization licensee's racing enclosure. No
+11 person who would not be eligible to be a patron of a pari-mutuel
+12 system of wagering pursuant to the provisions of subsection B of
+13 Section 208.4 of this title shall be admitted into any area of a
+14 facility when authorized games are played nor be permitted to
+15 operate, or obtain a prize from, or in connection with, the
+16 operation of any authorized game, directly or indirectly.
+17 C. In order to encourage the growth, sustenance and development
+18 of live horse racing in this state and of the state's agriculture
+19 and horse industries, the Commission is hereby authorized to issue
+20 licenses to conduct authorized gaming to no more than three
+21 organization licensees operating racetrack locations at which horse
+22 race meetings with pari-mutuel wagering, as authorized by the
+23 Commission pursuant to the provisions of this title, occurred in
+24 calendar year 2001, as follows:
+HB1047 HFLR Page 3
+BOLD FACE denotes Committee Amendments.
+
+=== page 4 ===
+1 1. An organization licensee operating a racetrack location at
+2 which an organization licensee is licensed to conduct a race meeting
+3 pursuant to the provisions of Section 205.2 of this title located in
+4 a county with a population exceeding six hundred thousand (600,000)
+5 persons, according to the most recent Federal Decennial Census,
+6 shall be licensed to operate not more than six hundred fifty (650)
+7 player terminals in any year. Beginning with the third year after
+8 an organization licensee is licensed pursuant to this paragraph to
+9 operate such player terminals, such licensee may be licensed to
+10 operate an additional fifty (50) player terminals. Beginning with
+11 the fifth year after an organization licensee is licensed pursuant
+12 to this paragraph to operate such player terminals, such licensee
+13 may be licensed to operate a further additional fifty (50) player
+14 terminals; and
+15 2. Two organization licensees operating racetrack locations at
+16 which the organization licensees are licensed to conduct race
+17 meetings pursuant to the provisions of Section 205.2 of this title
+18 located in counties with populations not exceeding four hundred
+19 thousand (400,000) persons, according to the most recent Federal
+20 Decennial Census, may each be licensed to operate not more than two
+21 hundred fifty (250) player terminals in any year.
+22 Subject to the limitations on the number of player terminals
+23 permitted to each organization licensee, an organization licensee
+24 may utilize electronic amusement games as defined in this act,
+HB1047 HFLR Page 4
+BOLD FACE denotes Committee Amendments.
+
+=== page 5 ===
+1 elec tronic bonanza-style bingo games as defined in this act and
+2 electronic instant bingo games as defined in this act, and any type
+3 of gaming machine or device that is specifically allowed by law and
+4 that an Indian tribe in this state is authorized to utilize pursuant
+5 to a compact entered into between the state and the tribe in
+6 accordance with the provisions of the Indian Gaming Regulatory Act
+7 and any other machine or device that an Indian tribe in this state
+8 is lawfully permitted to operate pursuant to the Indian Gaming
+9 Regulatory Act, referred to collectively as "authorized games". An
+10 organization licensee's utilization of such machines or devices
+11 shall be subject to the regulatory control and supervision of the
+12 Commission; provided, the Commission shall have no role in oversight
+13 and regulation of gaming conducted by a tribe subject to a compact.
+14 The Commission shall promulgate rules to regulate the operation and
+15 use of authorized gaming by organization licensees. In promulgating
+16 such rules, the Commission shall consider the provisions of any
+17 compact which authorizes electronic gaming which is specifically
+18 authorized by law by an Indian tribe. For the purpose of paragraphs
+19 1 and 2 of this subsection, the number of player terminals in an
+20 authorized game that permits multiple players shall be determined by
+21 the maximum number of players that can participate in that game at
+22 any given time; provided, however, that nothing in this act
+23 prohibits the linking of player terminals for progressive jackpots,
+24 so long as the limitations on the number of permitted player
+HB1047 HFLR Page 5
+BOLD FACE denotes Committee Amendments.
+
+=== page 6 ===
+1 term inals at each organization licensee are not exceeded. Each
+2 organization licensee shall keep a record of, and shall report at
+3 least quarterly to the Oklahoma Horse Racing Commission, the number
+4 of games authorized by this section utilized in the organization
+5 licensee's facility, by the name or type of each and its identifying
+6 number.
+7 D. No zoning or other local ordinance may be adopted or amended
+8 by a political subdivision where an organization licensee conducts
+9 live horse racing with the intent to restrict or prohibit an
+10 organization licensee's right to conduct authorized gaming at such
+11 location.
+12 E. For purposes of this act, "adjusted gross revenues" means
+13 the total receipts received by an organization licensee from the
+14 play of all authorized gaming minus all monetary payouts.
+15 F. The Oklahoma Horse Racing Commission shall promulgate rules
+16 to regulate, implement and enforce the provisions of this act with
+17 regard to the conduct of authorized gaming by organization
+18 licensees; provided, regulation and oversight of games covered by a
+19 compact and operated by an Indian tribe shall be conducted solely
+20 pursuant to the requirements of the compact.
+21 G. If an organization licensee operates or attempts to operate
+22 more player terminals which offer authorized games than it is
+23 authorized to offer to the public by this act or the terms of its
+24 license, upon written notice from the Commission, such activity
+HB1047 HFLR Page 6
+BOLD FACE denotes Committee Amendments.
+
+=== page 7 ===
+1 shal l cease forthwith. Such activity shall constitute a basis upon
+2 which the Commission may suspend or revoke the licensee's license.
+3 The Commission shall promulgate any rules and regulations necessary
+4 to enforce the provisions of this subsection.
+5 H. This act is game-specific and shall not be construed to
+6 allow the operation of any other form of gaming unless specifically
+7 allowed by this act. This act shall not permit the operation of
+8 slot machines, house-banked card games, house-banked table games
+9 involving dice or roulette wheels, or games where winners are
+10 determined by wagering on the outcome of a sports contest; provided,
+11 however, that wagering on the outcome of sports contests may be
+12 conducted in accordance with Section 3 of this act.
+13 SECTION 2. AMENDATORY 3A O.S. 2021, Section 280, is
+14 amended to read as follows:
+15 Section 280. The State of Oklahoma through the concurrence of
+16 the Governor after considering the executive prerogatives of that
+17 office and the power to negotiate the terms of a compact between the
+18 state and a tribe, and by means of the execution of the State-Tribal
+19 Gaming Act, and with the concurrence of the State Legislature
+20 through the enactment of the State-Tribal Gaming Act, hereby makes
+21 the following offer of a model tribal gaming compact Model Tribal
+22 Gaming Compact regarding gaming to all federally recognized Indian
+23 tribes as identified in the Federal Register within this state that
+24 own or are the beneficial owners of Indian lands as defined by the
+HB1047 HFLR Page 7
+BOLD FACE denotes Committee Amendments.
+
+=== page 8 ===
+1 Indi an Gaming Regulatory Act, 25 U.S.C., Section 2703(4), and over
+2 which the tribe has jurisdiction as recognized by the Secretary of
+3 the Interior and is a part of the tribe's "Indian reservation" as
+4 defined in 25 C.F.R., Part 151.2 or has been acquired pursuant to 25
+5 C.F.R., Part 151, which, if accepted, shall constitute a gaming
+6 compact between this state and the accepting tribe for purposes of
+7 the Indian Gaming Regulatory Act. Acceptance of the offer contained
+8 in this section shall be through the signature of the chief
+9 executive officer of the tribal government whose authority to enter
+10 into the compact Compact shall be set forth in an accompanying law
+11 or ordinance or resolution by the governing body of the tribe, a
+12 copy of which shall be provided by the tribe to the Governor. No
+13 further action by the Governor or the state is required before the
+14 compact Compact can take effect. A tribe accepting this Model
+15 Tribal Gaming Compact is responsible for submitting a copy of the
+16 Compact executed by the tribe to the Secretary of the Interior for
+17 approval and publication in the Federal Register. The tribe shall
+18 provide a copy of the executed Compact to the Governor. No tribe
+19 shall be required to agree to terms different than the terms set
+20 forth in the Model Tribal Gaming Compact, which is set forth in
+21 Section 281 of this title. As a precondition to execution of the
+22 Model Tribal Gaming Compact by any tribe, the tribe must have paid
+23 or entered into a written agreement for payment of any fines
+24 assessed prior to the effective date of the State-Tribal Gaming Act
+HB1047 HFLR Page 8
+BOLD FACE denotes Committee Amendments.
+
+=== page 9 ===
+1 by t he federal government with respect to the tribe's gaming
+2 activities pursuant to the Indian Gaming Regulatory Act.
+3 Notwithstanding the provisions of Sections 941 through 988 of
+4 Title 21 of the Oklahoma Statutes, the conducting of and the
+5 participation in any game authorized by the model compact Model
+6 Tribal Gaming Compact set forth in Section 281 of this title are
+7 lawful when played pursuant to a compact which has become effective.
+8 1. Prior to July 1, 2008, of all fees received by the state
+9 pursuant to subsection A of Part 11 of the Model Tribal Gaming
+10 Compact set forth in Section 281 of this title:
+11 a. twelve percent (12%) shall be deposited in the
+12 Oklahoma Higher Learning Access Trust Fund, and
+13 b. eighty-eight percent (88%) of such fees shall be
+14 deposited in the Education Reform Revolving Fund.
+15 2. On or after July 1, 2008, of all fees received by the state
+16 pursuant to subsection A of Part 11 of the Model Tribal Gaming
+17 Compact set forth in Section 281 of this title and Gaming Compact
+18 Supplements offered pursuant to Section 2 280.1 of this title and
+19 Section 3 of this act:
+20 a. twelve percent (12%) shall be deposited in the General
+21 Revenue Fund, and
+22 b. eighty-eight percent (88%) of such fees shall be
+23 deposited in the Education Reform Revolving Fund.
+24
+HB1047 HFLR Page 9
+BOLD FACE denotes Committee Amendments.
+
+=== page 10 ===
+1 Provided, the first Twenty Thousand Eight Hundred Thirty-three
+2 Dollars and thirty-three cents ($20,833.33) of all fees received
+3 each month by the state pursuant to subsection A of Part 11 of the
+4 Model Tribal Gaming Compact set forth in Section 281 of this title
+5 and Gaming Compact Supplements offered pursuant to Section 2 280.1
+6 of this title and Section 3 of this act shall be transferred to the
+7 Department of Mental Health and Substance Abuse Services for the
+8 treatment of compulsive gambling disorder and educational programs
+9 related to such disorder.
+10 SECTION 3. NEW LAW A new section of law to be codified
+11 in the Oklahoma Statutes as Section 280.2 of Title 3A, unless there
+12 is created a duplication in numbering, reads as follows:
+13 A. Provided that federal laws permit and pursuant to the offer
+14 of the Model Tribal Gaming Compact made in Section 280 of Title 3A
+15 of the Oklahoma Statutes and the definition of "covered games" in
+16 the Model Tribal Gaming Compact codified in Section 281 of Title 3A
+17 of the Oklahoma Statutes, which said codified compact offer provides
+18 the state may approve additional forms of covered games under said
+19 compact by amendment of the State-Tribal Gaming Act and a compacting
+20 tribe may operate such additional forms of covered games by written
+21 supplement to an existing compact, the state hereby approves,
+22 subject to this section, an additional game offering as follows:
+23 "Sports betting" means any wagering on the outcome of sporting
+24 events or other events, other than horse or other animal races.
+HB1047 HFLR Page 10
+BOLD FACE denotes Committee Amendments.
+
+=== page 11 ===
+1 B. Should a tribe that has compacted with the state in
+2 accordance with Sections 280 and 281 of Title 3A of the Oklahoma
+3 Statutes elect to accept this offer of an additional covered game
+4 and, accordingly, to operate sports betting under the terms of its
+5 existing gaming compact with the state, said tribe shall execute a
+6 supplement to said compact, to provide as follows:
+7 MODEL TRIBAL GAMING COMPACT SUPPLEMENT
+8 Between the [Name of Tribe]
+9 and the STATE OF OKLAHOMA
+10 To be governed in accord with the [Name of Tribe]'s State-Tribal
+11 Gaming Compact ("Compact"), approved by the United States Department
+12 of the Interior on [Date], the [Name of Tribe] ("Tribe") accepts the
+13 state's offer of additional covered game codified in Section 280.2
+14 of Title 3A of the Oklahoma Statutes, which offer and this
+15 acceptance are subject to the following terms:
+16 Part 1. TITLE
+17 This document shall be referred to as the "[Name of Tribe] and
+18 State of Oklahoma Gaming Compact Sports Betting Supplement (Gaming
+19 Compact Supplement)".
+20 Part 2. TERMS
+21 A. The Tribe hereby memorializes its election to accept the
+22 state's offer of an additional covered game, which offer is codified
+23 in Section 280.2 of Title 3A of the Oklahoma Statutes. The Tribe
+24 further certifies and agrees it shall not offer such additional
+HB1047 HFLR Page 11
+BOLD FACE denotes Committee Amendments.
+
+=== page 12 ===
+1 cove red game unless and until doing so would be legal under federal
+2 law.
+3 B. The Tribe agrees, subject to the enforcement and exclusivity
+4 provisions of its Compact, to pay to the state a fee derived from
+5 sports betting revenues calculated as set forth in this subsection.
+6 Such fee shall be paid no later than the twentieth day of the month
+7 for revenues received by the Tribe in the preceding month. The fee
+8 shall be ten percent (10%) of monthly adjusted gross revenue from
+9 sports betting.
+10 Payments of such fees shall be made to the Treasurer of the State of
+11 Oklahoma. Nothing herein shall require the allocation of such fees
+12 to particular state purposes, including, but not limited to, the
+13 actual costs of performing the State's regulatory responsibilities
+14 hereunder. "Net win" shall mean all money wagered less prizes paid
+15 out and less applicable federal taxes. For all purposes, such
+16 payment shall be deemed an exclusivity and fee payment under
+17 paragraph 2 of subsection A of Part 11 of the State-Tribal Gaming
+18 Compact between the electing Tribe and the State.
+19 C. The Tribe's operation of sports betting pursuant to this
+20 Gaming Compact Supplement shall, for all purposes, including
+21 enforcement and exclusivity, be treated as subject to and lawfully
+22 conducted under the terms and provisions of the Compact.
+23 Part 3. AUTHORITY TO EXECUTE
+24
+HB1047 HFLR Page 12
+BOLD FACE denotes Committee Amendments.
+
+=== page 13 ===
+1 This Gaming Compact Supplement, to the extent it conforms with
+2 Section 280.2 of Title 3A of the Oklahoma Statutes, is deemed
+3 approved by the State of Oklahoma. No further action of the State
+4 or any state official is necessary for this Gaming Compact
+5 Supplement to take effect upon approval by the Secretary of the
+6 United States Department of the Interior and publication in the
+7 Federal Register. The undersigned tribal official(s) represents
+8 that he or she is duly authorized and has the authority to execute
+9 this Gaming Compact Supplement on behalf of the Tribe for whom he or
+10 she is signing.
+11 APPROVED:
+12 [Name of Tribe]
+13 ________________________ Date: __________
+14 [Title]
+15 C. A tribe electing to accept this additional game offering is
+16 responsible for submitting a copy of the executed supplement to the
+17 Secretary of the United States Department of the Interior for
+18 approval and publication in the Federal Register.
+19 D. Upon approval of a supplement by the Secretary of the United
+20 States Department of the Interior, said supplement shall be
+21 construed as an acceptance of this offer and a supplement to the
+22 Tribe's existing State-Tribal Gaming Compact with the State.
+23 Thereafter, sports betting shall be deemed a covered game pursuant
+24 to said Compact.
+HB1047 HFLR Page 13
+BOLD FACE denotes Committee Amendments.
+
+=== page 14 ===
+1 E. The Tribe is entitled to keep an amount equal to state
+2 payments from the operation of sports betting. For all purposes,
+3 such payment shall be deemed an exclusivity and fee payment under
+4 paragraph 2 of subsection A of Part 11 of the State-Tribal Gaming
+5 Compact between the electing Tribe and the State.
+6 F. The offer contained in this section shall not be construed
+7 to permit the operation of any additional form of gaming by
+8 organization licensees or permit any additional electronic or
+9 machine gaming within Oklahoma.
+10 G. Notwithstanding the provisions of Sections 941 through 988
+11 of Title 21 of the Oklahoma Statutes, the conducting of and
+12 participation in any game authorized pursuant to this section are
+13 lawful when played pursuant to a compact supplement which has become
+14 effective in accordance with this section.
+15 SECTION 4. This act shall become effective November 1, 2025.
+16
+17 COMMITTEE REPORT BY: COMMITTEE ON APPROPRIATIONS AND BUDGET, dated
+03/06/2025 - DO PASS, As Amended and Coauthored.
+18
+19
+20
+21
+22
+23
+24
+HB1047 HFLR Page 14
+BOLD FACE denotes Committee Amendments.
