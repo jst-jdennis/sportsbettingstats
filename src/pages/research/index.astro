@@ -16,7 +16,7 @@ const svg = timeline({
       title: `${p.title}: ${v.version_label}, ${fmtDate(v.date)}. ${v.changes_summary}`, label: v.version_label,
     })),
   })),
-  start: '2024-01-01', rowHeight: 36, labelWidth: 190,
+  start: `${Math.min(...ps.flatMap((p) => p.versions.map((v: any) => Number(v.date.slice(0, 4)))))}-01-01`, rowHeight: 36, labelWidth: 190,
 });
 const domains = (p: any) => [...new Set(p.key_figures.map((f: any) => f.outcome_domain).filter(Boolean))].map((d) => OUTCOME_LABEL[d as string] ?? d).join(', ');
 ---

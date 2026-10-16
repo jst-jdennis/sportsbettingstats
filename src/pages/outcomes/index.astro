@@ -5,14 +5,14 @@ import SourceRef from '../../components/SourceRef.astro';
 import Limitations from '../../components/Limitations.astro';
 import fs from 'node:fs';
 import { effectFigures, adoptionByYear, OUTCOME_LABEL, label, asOf, papers } from '../../lib/data';
-import { dotPlot, lineChart, wrap } from '../../lib/charts';
+import { dotPlot, lineChart, wrap, compact } from '../../lib/charts';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const schemas = ['handle_revenue', 'bankruptcy', 'helpline'].map((n) => ({ name: n, s: JSON.parse(fs.readFileSync(`schemas/${n}.tableschema.json`, 'utf8')) }));
 
 // Research estimates, percent change only, so that one axis is honest. Other units are listed in the table.
 const figs = effectFigures();
 const UNIT_FMT: Record<string, (v: number) => string> = {
-  percent_change: (v) => `${v > 0 ? '+' : ''}${v}%`, percentage_points: (v) => `${v > 0 ? '+' : ''}${v} pts`, per_100k: (v) => `${v > 0 ? '+' : ''}${v} per 100k`, usd: (v) => `$${v}`, index_points: (v) => `${v > 0 ? '+' : ''}${v}`,
+  percent_change: (v) => `${v > 0 ? '+' : ''}${v}%`, percentage_points: (v) => `${v > 0 ? '+' : ''}${v} pts`, per_100k: (v) => `${v > 0 ? '+' : ''}${v} per 100k`, usd: (v) => `${v < 0 ? '-' : ''}$${compact(Math.abs(v))}`, index_points: (v) => `${v > 0 ? '+' : ''}${v}`,
 };
 const UNIT_LABEL: Record<string, string> = { percent_change: 'percent change', percentage_points: 'percentage points', per_100k: 'per 100,000 residents', usd: 'US dollars', index_points: 'index points' };
 const pctFigs = [...figs];
@@ -39,7 +39,7 @@ const facets = domains.map((d) => {
   return `<p class="facet">${OUTCOME_LABEL[d] ?? label(d)}, ${UNIT_LABEL[unit]}</p>${svg}`;
 });
 const effectsSvg = facets.join('');
-const legend = [{ cls: 's1', name: 'Population average' }, { cls: 's2', name: 'Household level' }, { cls: 's3', name: 'Bettor level' }, { cls: 'hollow', name: 'Hollow: pending review, entered from a secondary summary' }];
+const legend = [{ cls: 's1', name: 'Population average' }, { cls: 's2', name: 'Household level' }, { cls: 's3', name: 'Bettor level' }, { cls: 'hollow', name: 'Hollow: pending review' }];
 const effectsRows = figs.map(({ paper, fig }) => [OUTCOME_LABEL[fig.outcome_domain] ?? label(fig.outcome_domain), fig.description, fig.value_text, `${fig.value_numeric} ${label(fig.value_unit)}${fig.range_low != null ? ` (${fig.range_low} to ${fig.range_high})` : ''}`, short(paper), label(paper.unit_of_effect), label(fig.provenance.status)]);
 
 // Context series: how many states had live wagering at the end of each year.
@@ -61,7 +61,7 @@ const pageAsOf = asOf(papers());
   <h2 id="estimates">From the research library: estimated effects of legalization</h2>
   <p>Each dot is one published estimate of how an outcome changed after a state legalized sports wagering, relative to states that had not. Each outcome has its own chart and its own axis, because the quantities differ: a bankruptcy filing is a rare event, a credit score is a level where a fraction of a percent is a large move, and net investment is a flow. The estimates are shown side by side, not combined. The color says what the number is an average over: everyone in a state, the households in a transaction dataset, or people who bet. Population averages are smaller than the effect on a household that bets, because most residents do not bet.</p>
   <Chart svg={effectsSvg} legend={legend} head={['Outcome', 'Figure', 'As stated', 'Charted value', 'Paper', 'Unit of effect', 'Review status']} rows={effectsRows} tableLabel="Estimates in these charts, with figures in other units">
-    <Fragment slot="caption"><strong>Estimated change after legalization, one chart per outcome, each in the unit the paper uses.</strong> Positive values mean the outcome rose. A bar marks a range the paper states. A hollow dot is a figure entered from a secondary summary and marked pending review: it has not yet been read from the paper by a second reviewer, and the methodology page's rule that pending records are not headline figures applies to it. Select a label to open the paper's entry, which lists the specification, the version it comes from and its limitations.</Fragment>
+    <Fragment slot="caption"><strong>Estimated change after legalization, one chart per outcome, each in the unit the paper uses.</strong> Positive values mean the outcome rose. A bar marks a range the paper states. A hollow dot is a figure marked pending review: it has been entered with its source and page or table, but not yet checked against that source by a second reviewer, so the methodology page's rule that pending records are not headline figures applies to it. Select a label to open the paper's entry, which lists the specification, the version it comes from and its limitations.</Fragment>
   </Chart>
   <h3>Reading these estimates</h3>
   <ul>
@@ -73,7 +73,7 @@ const pageAsOf = asOf(papers());
     'Each figure is from a different paper, dataset and design; nothing is pooled. Differences between dots partly reflect differences in method.',
     'Working paper figures change between drafts. Each figure is tied to the version it appears in; superseded figures are kept in the entry and are not charted.',
     'Population averages are over everyone in a state, bettors and non-bettors alike. They understate the effect on a household that bets and are not comparable with household-level figures.',
-    'Figures marked pending review were entered from secondary summaries and must be read from the paper before they are treated as verified.',
+    'Figures marked pending review have not been checked against their source by a second reviewer; each entry's provenance note says whether the figure was read from the paper or from a secondary summary.',
   ]} />
   <p class="meta">Sources for each figure: {figs.map(({ paper, fig }, i) => <>{i > 0 && '; '}<a href={`${base}/research/${paper.slug}/`}>{short(paper)}</a> <SourceRef p={fig.provenance} compact /></>)}. Papers in the library whose figures are not yet read from the paper (marked unverified) are listed on the <a href={base + '/research/'}>research page</a> and are not charted.</p>
 

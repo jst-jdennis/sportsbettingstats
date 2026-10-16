@@ -5,14 +5,14 @@ import Limitations from '../../components/Limitations.astro';
 import CiteBox from '../../components/CiteBox.astro';
 import ReviewNotice from '../../components/ReviewNotice.astro';
 import Chart from '../../components/Chart.astro';
-import { dotPlot, wrap } from '../../lib/charts';
+import { dotPlot, wrap, compact } from '../../lib/charts';
 import { papers, label, fmtDate, asOf } from '../../lib/data';
 export function getStaticPaths() { return papers().map((p) => ({ params: { slug: p.slug }, props: { p } })); }
 const { p } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const pageAsOf = asOf([p]);
 const path = `/research/${p.slug}/`;
-const UNIT_FMT: Record<string, (v: number) => string> = { percent_change: (v) => `${v > 0 ? '+' : ''}${v}%`, percentage_points: (v) => `${v > 0 ? '+' : ''}${v} pts`, per_100k: (v) => `${v > 0 ? '+' : ''}${v} per 100k`, usd: (v) => `$${v}`, index_points: (v) => `${v > 0 ? '+' : ''}${v}` };
+const UNIT_FMT: Record<string, (v: number) => string> = { percent_change: (v) => `${v > 0 ? '+' : ''}${v}%`, percentage_points: (v) => `${v > 0 ? '+' : ''}${v} pts`, per_100k: (v) => `${v > 0 ? '+' : ''}${v} per 100k`, usd: (v) => `${v < 0 ? '-' : ''}$${compact(Math.abs(v))}`, index_points: (v) => `${v > 0 ? '+' : ''}${v}` };
 const UNIT_LABEL: Record<string, string> = { percent_change: 'percent change', percentage_points: 'percentage points', per_100k: 'per 100,000 residents', usd: 'US dollars', index_points: 'index points' };
 const withNum = p.key_figures.filter((f: any) => f.value_numeric != null && f.provenance.status !== 'unverified');
 const chartUnit = withNum[0]?.value_unit;
