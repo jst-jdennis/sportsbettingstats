@@ -2,9 +2,9 @@ slug: hollenbeck-larsen-proserpio-2024
 title: The Financial Consequences of Legalized Sports Gambling
 authors: [Brett Hollenbeck, Poet Larsen, Davide Proserpio]
 year_first_circulated: 2024
-publication_status: working_paper
-venue: null
-doi: null
+publication_status: published
+venue: Management Science (forthcoming or published 2026; confirm issue)
+doi: 10.1287/mnsc.2025.02515
 canonical_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4903302
 market_segment: regulated_sportsbook
 unit_of_effect: population_average
@@ -58,7 +58,42 @@ versions:
       percent (about nine additional filers per 100,000) in Table 4 and an event-study effect of 25 to 30 percent
       three to four years after online legalization. The 28 percent headline from the 2024 draft is no longer the
       lead figure.
+  - version_label: mnsc-2026
+    date: "2026-01-01"
+    date_precision: year
+    url: https://doi.org/10.1287/mnsc.2025.02515
+    archive_url: null
+    sha256: null
+    changes_summary: >-
+      Published version in Management Science. The indexed abstract reports the credit score effect in points
+      rather than percent and may report revised bankruptcy figures; the published tables have not been read,
+      so the working paper figures below remain the current entries until they are. Exact publication date and
+      issue to be entered from the journal record.
 key_figures:
+  - figure_id: credit-score-published-2026
+    description: Change in average credit score in states with online sports gambling access, as stated in the published abstract
+    value_text: to be entered from the published article
+    specification: Published version, Management Science; abstract reported in search results as about 12 points
+    version_label: mnsc-2026
+    status: current
+    superseded_by: null
+    page_or_table: null
+    provenance:
+      source_id: doi-org
+      source_url: https://doi.org/10.1287/mnsc.2025.02515
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: unverified
+      page_or_table: null
+      notes: >-
+        The published article has not been opened. A search summary reports a 12 point credit score decline for
+        online access states, which is a different quantity from the 0.3 percent average decline in the May 2025
+        draft abstract (about 2 points on a 700 point scale). Read the published abstract and tables, reconcile
+        the two, and mark the working paper figures superseded where the published version replaces them.
   - figure_id: bankruptcy-headline-2024
     outcome_domain: bankruptcy
     value_numeric: 28
