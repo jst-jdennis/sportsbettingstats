@@ -155,7 +155,7 @@ export function barChartH(o: BarChartOpts): string {
 
 // ---------------------------------------------------------------- dot plot
 
-export interface DotRow { label: string | string[]; sub?: string; value: number; low?: number | null; high?: number | null; cls: string; title: string; href?: string }
+export interface DotRow { label: string | string[]; sub?: string; value: number; low?: number | null; high?: number | null; cls: string; title: string; href?: string; hollow?: boolean }
 export interface DotPlotOpts { id: string; title: string; desc: string; rows: DotRow[]; fmt?: (v: number) => string; width?: number; rowHeight?: number; labelWidth?: number; zeroLabel?: string; groups?: { label: string; at: number }[] }
 
 /** Dot plot of signed estimates around zero, with an optional range bar per row. */
@@ -188,7 +188,7 @@ export function dotPlot(o: DotPlotOpts): string {
     out += r.href ? `<a href="${esc(r.href)}">${lab}</a>` : lab;
     if (r.sub) out += `<text class="ax" x="${m.left - 8}" y="${(y0 + lines.length * 13).toFixed(1)}" text-anchor="end">${esc(r.sub)}</text>`;
     if (r.low != null && r.high != null) out += `<line class="range ${r.cls}" x1="${sx(r.low).toFixed(1)}" x2="${sx(r.high).toFixed(1)}" y1="${cy}" y2="${cy}"/>`;
-    out += `<circle class="dot ${r.cls}" cx="${sx(r.value).toFixed(1)}" cy="${cy}" r="6"><title>${esc(r.title)}</title></circle>`;
+    out += `<circle class="dot ${r.cls}${r.hollow ? ' hollow' : ''}" cx="${sx(r.value).toFixed(1)}" cy="${cy}" r="6"><title>${esc(r.title)}</title></circle>`;
     out += `<text class="val" x="${(sx(Math.max(r.value, r.high ?? r.value)) + 10).toFixed(1)}" y="${cy + 4}">${esc(fmt(r.value))}</text>`;
     row++;
   });

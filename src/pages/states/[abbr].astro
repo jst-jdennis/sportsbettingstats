@@ -61,7 +61,7 @@ const pendingCount = [p, pg, pm, ...stateBills].filter(Boolean).flatMap((o) => c
   <ul class="tiles" aria-label="At a glance">
     <li><div class="label">Headline status</div><div class="value small">{HEADLINE_LABEL[hs]}</div></li>
     <li><div class="label">First legal wager</div><div class="value small">{hs === 'none' || hs === 'authorized_not_launched' ? 'None' : fmtDate(earliestLaunch(p))}</div></li>
-    <li><div class="label">Minimum age</div><div class="value">{p.legal_age?.length ? Math.min(...p.legal_age.map((a) => a.age)) : <span class="small">not entered</span>}</div></li>
+    <li><div class="label">{p.legal_age && p.legal_age.length > 1 ? 'Lowest minimum age' : 'Minimum age'}</div><div class="value">{p.legal_age?.length ? Math.min(...p.legal_age.map((a) => a.age)) : <span class="small">not entered</span>}</div>{p.legal_age && p.legal_age.length > 1 && <div class="label">{p.legal_age.map((a) => `${a.age} ${label(a.scope)}`).join('; ')}</div>}</li>
     <li><div class="label">Records pending review</div><div class="value">{pendingCount}</div></li>
   </ul>
   {events.length > 0 && <Chart svg={timelineSvg} legend={tlLegend} head={['Subject', 'Date', 'Event']} rows={[...events].sort((a, b) => a.date.localeCompare(b.date)).map((e) => [e.row, fmtDate(e.date), e.title])} tableLabel="Events in this timeline" caption={`Every dated event entered for ${p.name}, on one axis. Hover or focus a dot for the detail; the same events are in the table.`} />}

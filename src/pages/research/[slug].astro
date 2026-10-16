@@ -12,11 +12,15 @@ const { p } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const pageAsOf = asOf([p]);
 const path = `/research/${p.slug}/`;
-const numeric = p.key_figures.filter((f: any) => f.value_numeric != null && f.value_unit === 'percent_change' && f.provenance.status !== 'unverified');
+const UNIT_FMT: Record<string, (v: number) => string> = { percent_change: (v) => `${v > 0 ? '+' : ''}${v}%`, percentage_points: (v) => `${v > 0 ? '+' : ''}${v} pts`, per_100k: (v) => `${v > 0 ? '+' : ''}${v} per 100k`, usd: (v) => `$${v}`, index_points: (v) => `${v > 0 ? '+' : ''}${v}` };
+const UNIT_LABEL: Record<string, string> = { percent_change: 'percent change', percentage_points: 'percentage points', per_100k: 'per 100,000 residents', usd: 'US dollars', index_points: 'index points' };
+const withNum = p.key_figures.filter((f: any) => f.value_numeric != null && f.provenance.status !== 'unverified');
+const chartUnit = withNum[0]?.value_unit;
+const numeric = withNum.filter((f: any) => f.value_unit === chartUnit);
 const figSvg = numeric.length ? dotPlot({
-  id: 'figures', title: `${p.title}: key figures as percent change`, desc: 'Dot plot of each key figure in this entry as a percent change. Current figures are in color; superseded figures from earlier drafts are gray.',
-  rows: numeric.map((f: any) => ({ label: wrap(f.description, 50, 2), sub: `${f.version_label}${f.status === 'superseded' ? ', superseded' : ''}`, value: f.value_numeric, low: f.range_low, high: f.range_high, cls: f.status === 'current' ? 's1' : 's0', title: `${f.description}: ${f.value_text}. ${f.specification}. ${label(f.status)}.` })),
-  fmt: (v) => `${v > 0 ? '+' : ''}${v}%`, zeroLabel: 'no change', labelWidth: 330, width: 800, rowHeight: 50,
+  id: 'figures', title: `${p.title}: key figures in ${UNIT_LABEL[chartUnit]}`, desc: 'Dot plot of each key figure in this entry as a percent change. Current figures are in color; superseded figures from earlier drafts are gray.',
+  rows: numeric.map((f: any) => ({ label: wrap(f.description, 50, 2), sub: `${f.version_label}${f.status === 'superseded' ? ', superseded' : ''}`, value: f.value_numeric, low: f.range_low, high: f.range_high, cls: f.status === 'current' ? 's1' : 's0', hollow: f.provenance.status !== 'verified', title: `${f.description}: ${f.value_text}. ${f.specification}. ${label(f.status)}.` })),
+  fmt: UNIT_FMT[chartUnit], zeroLabel: 'no change', labelWidth: 330, width: 800, rowHeight: 50,
 }) : '';
 const unitHelp: Record<string, string> = {
   population_average: 'Estimates are averages over everyone in the treated area, bettors and non-bettors alike. They are not the effect on an individual who bets, which would be larger.',
@@ -41,13 +45,13 @@ const unitHelp: Record<string, string> = {
   <p>{p.plain_language_summary}</p>
 
   <h2>Key figures</h2>
-  {numeric.length > 0 && <Chart svg={figSvg} legend={[{ cls: 's1', name: 'Current figure' }, { cls: 's0', name: 'Superseded figure' }]} head={['Figure', 'Value', 'Version', 'Status']} rows={numeric.map((f: any) => [f.description, f.value_text, f.version_label, label(f.status)])} caption={`Figures from this entry that the paper states as a percent change, measured at ${label(p.unit_of_effect)}. A gray dot is a figure from an earlier draft that a later draft replaced; it is kept so that a citation to the older number can be traced.`} />}
+  {numeric.length > 0 && <Chart svg={figSvg} legend={[{ cls: 's1', name: 'Current figure' }, { cls: 's0', name: 'Superseded figure' }, { cls: 'hollow', name: 'Hollow: pending review' }]} head={['Figure', 'Value', 'Version', 'Status']} rows={numeric.map((f: any) => [f.description, f.value_text, f.version_label, label(f.status)])} caption={`Figures from this entry stated in ${UNIT_LABEL[chartUnit]}, measured at ${label(p.unit_of_effect)}. A hollow dot is pending review. A gray dot is a figure from an earlier draft that a later draft replaced; it is kept so that a citation to the older number can be traced.`} />}
   <div class="table-wrap"><table>
     <thead><tr><th scope="col">Figure</th><th scope="col">Value as stated</th><th scope="col">Specification</th><th scope="col">Version</th><th scope="col">Status</th><th scope="col">Source</th></tr></thead>
     <tbody>{p.key_figures.map((f: any) => (
       <tr>
         <th scope="row">{f.description}</th>
-        <td><strong>{f.value_text}</strong></td>
+        <td>{f.provenance.status === 'unverified' ? <span class="meta">not entered</span> : <strong>{f.value_text}</strong>}</td>
         <td>{f.specification}{f.page_or_table && <div class="meta">{f.page_or_table}</div>}</td>
         <td>{f.version_label}</td>
         <td>{label(f.status)}{f.superseded_by && <div class="meta">superseded by {f.superseded_by}</div>}</td>

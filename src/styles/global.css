@@ -94,6 +94,11 @@ figure.chart details table { font-size: .85rem; }
 .chart-svg line.range { stroke-width: 3; stroke-linecap: round; opacity: .45; }
 .chart-svg line.range.s1 { stroke: var(--viz-1); } .chart-svg line.range.s2 { stroke: var(--viz-2); } .chart-svg line.range.s3 { stroke: var(--viz-3); }
 .chart-svg circle.dot { stroke: var(--bg); stroke-width: 2; }
+.chart-svg circle.dot.hollow { fill: var(--bg); stroke-width: 2.5; }
+.chart-svg circle.dot.hollow.s1 { stroke: var(--viz-1); } .chart-svg circle.dot.hollow.s2 { stroke: var(--viz-2); } .chart-svg circle.dot.hollow.s3 { stroke: var(--viz-3); } .chart-svg circle.dot.hollow.s0 { stroke: var(--viz-muted); }
+.legend .hollow::before { background: var(--bg); border: 2px solid var(--muted); }
+figure.chart .facet { font-size: .8rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin: .75rem 0 0; }
+figure.chart .facet:first-of-type { margin-top: 0; }
 .legend .s1::before { background: var(--viz-1); } .legend .s2::before { background: var(--viz-2); } .legend .s3::before { background: var(--viz-3); } .legend .s0::before { background: var(--viz-muted); }
 .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: 1rem; margin: 1rem 0; padding: 0; list-style: none; }
 .tiles li { border: 1px solid var(--rule); border-radius: 4px; padding: .75rem 1rem; }

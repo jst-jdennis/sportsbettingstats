@@ -1,0 +1,68 @@
+slug: yeola-allen-desai-2025
+title: Growing Health Concern Regarding Gambling Addiction in the Age of Sportsbooks
+authors: [Atharva Yeola, Matthew R. Allen, Nimit Desai, Kevin H. Yang, Adam Poliak, Davey M. Smith, John W. Ayers]
+year_first_circulated: 2025
+publication_status: published
+venue: JAMA Internal Medicine, research letter, published online February 17, 2025
+doi: 10.1001/jamainternmed.2024.8193
+canonical_url: https://doi.org/10.1001/jamainternmed.2024.8193
+market_segment: regulated_sportsbook
+unit_of_effect: population_average
+data_used: >-
+  Google search volume for queries mentioning gambling together with addiction, addict or an anonymous
+  hotline, by state and month, from 2016 to 2024, compared across states before and after each state's
+  sportsbook launch.
+design: >-
+  Comparison of observed search volume with the volume expected from pre-launch trends, nationally and for
+  each state that launched sportsbooks, with separate attention to states that opened online wagering.
+plain_language_summary: >-
+  The authors use search engine data as a proxy for help-seeking. After states opened sportsbooks, searches
+  for help with gambling addiction rose above what the pre-launch trend predicted, by about a fifth nationally
+  and by more in several states, with online launches associated with larger rises than retail launches.
+  Searches are a measure of interest in help, not of diagnosed problem gambling, and the study cannot say who
+  was searching or whether they went on to seek treatment.
+methodology_notes:
+  - Search volume is an aggregate index, not a count of people. It can rise with publicity of helplines as well as with need.
+  - State estimates vary widely in precision; the national estimate is the most stable figure.
+limitations:
+  - Searches do not measure prevalence. Advertising of 1-800-GAMBLER, required in most legal states, raises searches on its own.
+  - Author order after the third author is to be confirmed from the article record.
+versions:
+  - version_label: jama-im-2025-02-17
+    date: "2025-02-17"
+    date_precision: day
+    url: https://doi.org/10.1001/jamainternmed.2024.8193
+    archive_url: null
+    sha256: null
+    changes_summary: Research letter published online in JAMA Internal Medicine.
+key_figures:
+  - figure_id: searches-national-2025
+    description: Increase in searches for gambling addiction help nationally after sportsbook launches, relative to the volume expected from pre-launch trends
+    value_text: about 23 percent
+    specification: National estimate, all states with launched sportsbooks, 2016 to 2024
+    version_label: jama-im-2025-02-17
+    status: current
+    superseded_by: null
+    page_or_table: Results
+    outcome_domain: help_seeking
+    value_numeric: 23
+    value_unit: percent_change
+    range_low: null
+    range_high: null
+    provenance: &yeola
+      source_id: jama-network
+      source_url: https://doi.org/10.1001/jamainternmed.2024.8193
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: unverified
+      page_or_table: null
+      notes: The article could not be opened from the build container. The 23 percent figure and the state figures (Massachusetts 47, New Jersey 34, New York 37, Pennsylvania 50 percent) are as reported in press coverage of the letter and are not entered as figures until read from the article itself.
+citations_in_policy: []
+provenance:
+  <<: *yeola
+  status: pending_review
+  notes: Title, authors, DOI and publication date confirmed from the article citation; the figures remain unverified until the article is read.
