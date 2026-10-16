@@ -4,8 +4,8 @@ import Chart from '../../components/Chart.astro';
 import SourceRef from '../../components/SourceRef.astro';
 import Limitations from '../../components/Limitations.astro';
 import fs from 'node:fs';
-import { effectFigures, adoptionByYear, OUTCOME_LABEL, label, asOf, papers } from '../../lib/data';
-import { dotPlot, lineChart, wrap, compact } from '../../lib/charts';
+import { effectFigures, adoptionByYear, OUTCOME_LABEL, label, asOf, papers, profiles, headlineStatus, bankruptcy, handleRevenue, per100k, fmtDate, source } from '../../lib/data';
+import { dotPlot, lineChart, barChartH, wrap, compact } from '../../lib/charts';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const schemas = ['handle_revenue', 'bankruptcy', 'helpline'].map((n) => ({ name: n, s: JSON.parse(fs.readFileSync(`schemas/${n}.tableschema.json`, 'utf8')) }));
 
@@ -53,6 +53,25 @@ const adoptionSvg = lineChart({
   step: true, xTicks: adoption.map((a) => a.year), yFmt: String, height: 260,
 });
 const pageAsOf = asOf(papers());
+
+// Cross-state bankruptcy comparison for the latest twelve-month period on file, per 100,000 residents, colored by legal status.
+const bkAll = bankruptcy().filter((r) => r.measure === 'twelve_months_ending' && r.chapter === 'all_nonbusiness');
+const bkPeriod = bkAll.map((r) => r.period_end).sort().pop() ?? null;
+const bkRows = bkAll.filter((r) => r.period_end === bkPeriod);
+const statusGroup = (hs: string) => hs === 'retail_and_online' || hs === 'online_only' ? 'online' : hs === 'retail_only' ? 'retail' : 'none';
+const GROUP = { online: { cls: 's2', name: 'Online wagering live' }, retail: { cls: 's1', name: 'Retail wagering only' }, none: { cls: 's0', name: 'No live wagering' } } as const;
+const byFips = new Map(profiles().map((p) => [p.fips, p]));
+const bkStates = bkRows.map((r) => { const p = byFips.get(r.fips)!; const pk = per100k(Number(r.filings), r.fips, Number(r.period_end.slice(0, 4))); return { p, r, pk, group: statusGroup(headlineStatus(p)) }; })
+  .filter((x) => x.pk).sort((a, b) => b.pk!.value - a.pk!.value);
+const bkSvg = bkStates.length ? barChartH({
+  id: 'bk-states', title: `Nonbusiness bankruptcy filings per 100,000 residents, twelve months ending ${fmtDate(bkPeriod)}`, desc: 'Horizontal bar chart, one bar per state ordered from highest to lowest rate, colored by whether the state had live online wagering, retail only, or no live wagering at the end of the period.',
+  rows: bkStates.map(({ p, r, pk, group }) => ({ label: p.name, href: `${base}/states/${p.abbr.toLowerCase()}/`, segments: [{ value: Math.round(pk!.value * 10) / 10, cls: GROUP[group].cls, name: GROUP[group].name, title: `${p.name}: ${Number(r.filings).toLocaleString()} nonbusiness filings, ${pk!.value.toFixed(1)} per 100,000 (population ${Number(pk!.pop!.population).toLocaleString()}, ${pk!.pop!.year}). ${GROUP[group].name}.` }] })),
+  fmt: (v) => String(v), labelWidth: 150, rowHeight: 18,
+}) : '';
+const median = (xs: number[]) => { const a = [...xs].sort((x, y) => x - y); return a.length ? (a.length % 2 ? a[(a.length - 1) / 2] : (a[a.length / 2 - 1] + a[a.length / 2]) / 2) : null; };
+const groupStats = (['online', 'retail', 'none'] as const).map((g) => { const xs = bkStates.filter((x) => x.group === g).map((x) => x.pk!.value); return { g, n: xs.length, median: median(xs) }; });
+const bkSrc = bkRows[0];
+const hrRows = handleRevenue();
 ---
 <Base title="Outcomes" asOf={pageAsOf}>
   <h1>Outcomes</h1>
@@ -83,7 +102,18 @@ const pageAsOf = asOf(papers());
 
   <h2 id="series">State time series</h2>
   <p>Monthly handle and revenue from state regulators, nonbusiness bankruptcy filings per 100,000 residents from the Administrative Office of the US Courts, and problem gambling helpline contacts from state councils. Each series will be shown with the state's legalization dates marked and its limitations beside it.</p>
-  <div class="panel notice" role="note"><strong>Phase 2 section.</strong> No raw series are published yet. The schemas below are final and the two Phase 1 ingestion modules (US Courts bankruptcy tables, New Jersey monthly revenue) write to them. Charts will use the same build-time renderer as the ones above, with a data table under each.</div>
+  {bkStates.length > 0 ? (<>
+    <h3 id="bankruptcy-states">Bankruptcy filings per 100,000 residents, by state and legal status</h3>
+    <p>The first ingested period from the Administrative Office of the US Courts, for every state and the District of Columbia. Each bar is nonbusiness filings over the twelve months ending {fmtDate(bkPeriod)}, divided by the Census population estimate for that year. Color marks the state's wagering status at the end of the period. This is a snapshot, not a trend: a back series to 2018 is queued, and until it lands no change after legalization can be shown.</p>
+    <Chart svg={bkSvg} legend={[GROUP.online, GROUP.retail, GROUP.none]} head={['State', 'Legal status', 'Filings', 'Per 100,000', 'Population year', 'Review status']} rows={bkStates.map(({ p, r, pk, group }) => [p.name, GROUP[group].name, Number(r.filings).toLocaleString(), pk!.value.toFixed(1), pk!.pop!.year, label(r.status)])} tableLabel="All states in this chart">
+      <Fragment slot="caption"><strong>Median rate by legal status: </strong>{groupStats.map((g, i) => <>{i > 0 && '; '}{GROUP[g.g].name.toLowerCase()}, {g.n} states, {g.median != null ? g.median.toFixed(1) : 'n/a'} per 100,000</>)}. These medians describe the cross-section; they do not estimate an effect. States differ in bankruptcy exemptions, income, debt levels, medical costs and court practice, all of which move filing rates far more than any single policy, and states that legalized earliest were not chosen at random. The causal estimates above control for this by comparing the same state before and after legalization; this chart cannot. Source: {bkSrc && <>{source(bkSrc.source_id).publisher}, Table F-2, retrieved {fmtDate(bkSrc.retrieved_at)} <span class={`badge ${bkSrc.status}`}>{label(bkSrc.status)}</span></>}. Per 100,000 is computed at build time from the filings and the population table and is never stored.</Fragment>
+    </Chart>
+    <Limitations title="Limitations of the bankruptcy series" items={[schemas.find((x) => x.name === 'bankruptcy')!.s.description, 'The population denominator is the Census Vintage 2025 estimate for the year the period ends, so the rate is as precise as that estimate.', 'The twelve-month total smooths seasonality but still includes the tail of the 2020 to 2021 filing trough in earlier periods once the back series is added.']} />
+    <h3>Monthly handle and revenue</h3>
+    <p class="meta">{hrRows.length ? `${hrRows.length} rows on file (New Jersey, ${fmtDate(hrRows[0].period_start)} onward). The Division of Gaming Enforcement does not publish handle in any posted document, so that column stays empty; revenue and tax by channel are shown on the New Jersey page. A monthly chart appears here once the back series from June 2018 is ingested.` : 'No rows on file yet.'}</p>
+  </>) : (
+    <div class="panel notice" role="note"><strong>Phase 2 section.</strong> No raw series are published yet. The schemas below are final and the two Phase 1 ingestion modules (US Courts bankruptcy tables, New Jersey monthly revenue) write to them.</div>
+  )}
   <h3>What will and will not be claimed</h3>
   <ul>
     <li>Series are descriptive. A change after a legalization date is shown, not attributed. Causal estimates stay in the chart above, tied to their authors and their unit of effect.</li>
