@@ -129,11 +129,18 @@ class USCourtsBankruptcyF2:
         for r in rows[header_idx + 1:]:
             if not r or r[0] is None:
                 continue
-            code = re.sub(r"[^A-Z]", "", str(r[0]).upper())  # "OK,N" -> "OKN"; "NY, S" -> "NYS"
+            cell = str(r[0]).strip().upper()
+            # District labels are two letters, optionally followed by a comma and a division letter ("OK,N", "NY, S").
+            # Circuit rows ("2nd", "10th") and totals contain digits or longer words and must not be normalized:
+            # stripping non-letters from "2nd" yields "ND", which would hand the Second Circuit total to North Dakota.
+            m = re.fullmatch(r"([A-Z]{2})(?:\s*,\s*([A-Z]))?", cell)
+            if not m:
+                continue
+            code = m.group(1) + (m.group(2) or "")
             if code == "AR":
                 code = "ARE"  # the AO reports Arkansas as one court covering both districts; both map to fips 05
             if code not in districts:
-                continue  # circuit subtotal, US total, territories, blank
+                continue  # territories (PR, VI, GU, NMI) and anything unknown
             rec: dict[str, Any] = {"district_code": code}
             for key, idx in cols.items():
                 v = r[idx]
