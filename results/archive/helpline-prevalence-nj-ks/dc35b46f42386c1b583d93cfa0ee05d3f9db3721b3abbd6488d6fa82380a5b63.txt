@@ -1,0 +1,2740 @@
+=== page 1 ===
+The Prevalence of Online
+and Land‐Based Gambling
+in New Jersey
+Report to the
+Division of Gaming Enforcement
+Submitted by:
+Lia Nower, J.D., Ph.D.
+Center for Gambling Studies
+Rachel A. Volberg, Ph.D.
+Gemini Research
+Kyle R. Caler, MSW, ABD
+Center for Gambling Studies
+Center for Gambling Studies
+Rutgers University
+School of Social Work
+539 George Street
+New Brunswick, NJ 08901
+
+=== page 2 ===
+To Cite This Report: Nower, L., Volberg, R.A. & Caler, K.R. (2017). The Prevalence of Online and Land‐Based Gambling in
+New Jersey. Report to the New Jersey Division of Gaming Enforcement. New Brunswick, NJ: Authors.
+Copyright ©2017 by L. Nower, R.A. Volberg, K.R. Caler.
+Table of Contents
+List of Tables and Figures iii
+Acknowledgements iv
+Glossary v
+Executive Summary 1
+Introduction 7
+Overview of Project and Methods 7
+Background Literature 8
+Methodology 10
+Telephone Survey 10
+Online Panel Survey 12
+Gambling Participation 15
+Key Terms 15
+Regions 15
+Past‐Year Gambling: Demographics 16
+Perspectives on Online Gambling 24
+Gambling Activities and Frequency of Play 25
+Problem Gambling Severity 33
+Problem Gambling Prevalence 33
+Frequency and Problem Severity by Demographic Variables 35
+Other Gambling‐Related Activities: High Risk Stocks and Daily 43
+Fantasy Sports
+High Risk Stocks 43
+Daily Fantasy Sports 43
+Substance Use, Addictive Behaviors and Other Mental Health Issues 49
+Summary and Recommendations 58
+References 62
+ii | Page
+
+=== page 3 ===
+List of Tables and Figures
+Table 1. Telephone Sample Response Rate Calculations 11
+Table 2. Telephone Sample Final Disposition 11
+Table 3. Response Rates and Categories of Final Dispositions for Telephone Numbers 12
+Table 4. Survey Quota Objectives 14
+Table 5 Past‐Year Gambling Participation by Activity and Panel Type 16
+Table 6. Past‐Year Gamblers by Region and Venue Type 17
+Table 7. Percentage of Past‐Year Gamblers Overall, by Gender and Panel Type 18
+Table 8. Female Gamblers by Age Category and Preferred Gambling Activity 18
+Table 9. Male Gamblers by Age Category and Preferred Gambling Activity 19
+Table 10. Percentage of Gamblers by Age, Panel Type and Venue Preference 19
+Table 11. Percentage of Gamblers by Race/Ethnicity and Marital Status 20
+Table 12. Percentage Representation by Race/Ethnicity and Marital Status by Venue 21
+Table 13. Ever Gambled in the Past 12 Months by Income 22
+Table 14. Ever Gambled in the Past 12 Months by Education Level 23
+Figure 1. Proportion of Gamblers by Education Level 23
+Table 15. Past‐year Gambling by Employment Status 24
+Table 16 Advantages and Disadvantages of Online Gambling 25
+Table 17 Percentage Breakdown of Gambling Venue Types by Gambling Frequency 26
+Table 18. Frequency of Gambling Activities 27
+Figure 2. Gambling Frequency by Region 27
+Table 19. Gambling Frequency by Region (N=2,536) 28
+Table 20. Low‐Frequency Gamblers by Activity, Gender and Age 29
+Table 21. Moderate‐Frequency Gamblers by Activity, Gender and Age 30
+Table 22. High‐Frequency Gamblers by Type, Gender and Age 31
+Table 23. Gambling Frequency by Gender, Age, and Race/Ethnicity 32
+Table 24. Problem Gambling Severity by Frequency and Number of Gambling 33
+Table 25. Gambling Problem Severity by Panel Type(Gamblers Only) 34
+Table 26. Comparative Prevalence Rates of Problem Gambling by Combined Risk Level 34
+Table 27. Number and Percentage of Gambling Group by Venue: Online Panel Only 35
+Table 28. Number and Percentage of Gambling Group by Venue: Phone Panel Only 35
+Table 29. Problem Gambling Severity by Region and Venue Preference 36
+Table 30. Problem Gambling Severity by Gender and Age 37
+Table 31. Percentage by Race of Each Problem Severity Group 38
+Table 32. Problem Severity Groups by Household Income Category and Education 39
+Table 33. Participation in Activities by Level of Problem Gambling Severity 40
+Table 34. Gambling Activity Preferences by Level of Problem Gambling Severity 41
+Table 35. Activity by Venue Type and Risk Group 42
+Table 36. DFS Players Who Gamble By Region and Venue 44
+Table 37. DFS Players Who Gamble by Activity and Gender 45
+Table 38. DFS players by Gambling Problem Severity and Gambling Frequency 45
+Table 39. DFS Players by Age and Venue Preference 46
+Table 40. DFS Players by Race/Ethnicity, Marital Status, and Education 46
+Table 41. DFS Players by Household Income and Employment Status 47
+Table 42. DFS and non‐DFS Gamblers by Substance Use, Addictive Behaviors, Mental 48
+Table 43. Substance Use, Addictive Behaviors, Mental Health by Gambling and Venue 49
+Table 44. Substance Use, Addictive Behaviors, Mental Health Status: Problem Gamblin 50
+Table 45. Substance Use, Addictive Behavior, Mental Health by Gender and Age 51
+Table 46. Substance Use, Addictive Behavior, Mental Health: Race/Ethnicity and 53
+Table 47. Substance Use, Addictive Behaviors, Mental Health by Household Income 54
+iii | Page
+
+=== page 4 ===
+Table 48. Substance Use, Addictive Behaviors, Mental Health by Education Level 55
+Table 49. Substance Use, Addictive Behaviors, Mental Health by Employment Status 56
+Acknowledgements: This study was supported by a grant from the New Jersey Divisions of Gaming
+Enforcement (DGE), in collaboration with the Division on Addictions, Department of Mental Health
+and Addictive Services (DMHAS). The researchers would like to thank Director David L. Rebuck,
+Robert Moncrief, and Afshien Lashkari of the DGE and Suzanne Borys from DMHAS for their
+assistance with this ongoing research. We would also like to acknowledge the contributions of
+Robert J. Williams and Robert T. Wood (Canada) and Nerilee Hing, Sally Gainsbury, Alex Russell,
+and Alex Blaszczynski (Australia) who generously assisted us in adapting this survey to target online
+gambling. We would also like to thank Simon Jaworski and Lance Henik of Leger for all their work
+on this project.
+iv | Page
+
+=== page 5 ===
+Glossary
+High frequency gamblers: Respondents who gambled once a week or more in the past year.
+High risk problem gamblers: Respondents who gambled in the past year and endorsed 8+ problem
+gambling symptoms on the PGSI. These gamblers would be classified as “disordered” gamblers or as
+having “gambling disorder” in other studies.
+Low frequency gamblers: Respondents who gambled less than once a month in the past year.
+Low‐risk problem gamblers: Respondents who gambled in the past year and endorsed 1 to 2
+problem symptoms on the PGSI.
+Mixed Venue Gambler: Gambled online and in land‐based venues.
+Moderate frequency gamblers: Respondents who gambled once or twice a month in the past year.
+Moderate risk problem gamblers: Respondents who gambled in the past year and endorsed 3 to 7
+problem gambling symptoms on the PGSI.
+Non‐gamblers: Respondents who indicated they had not gambled on any form in the past year.
+Non‐problem gamblers: Respondents who gambled in the past year but did not endorse any
+problem gambling symptoms on the PGSI.
+Panel: Groups of survey respondents who answered the questionnaire either online (online panel) or
+by land‐line or cell phone (phone panel).
+Regions: Counties in New Jersey grouped as follows: Greater Atlantic City (Atlantic County), Delaware
+River (Burlington, Camden, Gloucester, Mercer, and Salem counties), Gateway (Bergen, Essex,
+Hudson, Middlesex, Passaic, and Union counties), Shore (Monmouth and Ocean counties), Skyland
+(Hunterdon, Morris, Somerset, Sussex, and Warren counties), and Southern Shore (Cape May and
+Cumberland counties).
+Problem Gamblers: This category is a combination of the low risk and moderate risk gamblers on the
+PGSI. This classification best corresponds to sub‐threshold problem gamblers in other studies.
+v | Page
+
+=== page 6 ===
+ii | Page
+
+=== page 7 ===
+Executive Summary
+Overall, nearly 70% of New Jersey residents reported gambling in the past year, though
+percentages varied by region and demographic variables. A majority of those who gambled
+did so at land‐based venues (75.5%). Only 5.3% of the sample exclusively gambled online,
+though 19.2% gambled at both online and land‐based venues.
+The prevalence rate of gambling disorder in the total sample was 6.3% – about three times higher
+than the average rate in other population samples. In addition, 14.9% of the sample reported
+gambling problems, which is also nearly three times higher than the average rate across studies.
+These findings are largely due to the high rate of gambling problems in the online panel sample,
+which reported a rate of 10.5% for disorder and 21.6% for problem gambling. In contrast, the
+rate of gambling disorder in the telephone sample was well below average. 0.3%, and the
+problem rate was about average, 5.7%. For purposes of comparison, however, it is important to
+note that some prevalence studies continue to conduct data collection using only random digit
+dialing of land‐line phones; this methodology can grossly underestimate the prevalence rate
+because it excludes those who use only cell phones, that is, younger adults and ethnic minorities
+who traditionally have higher rates of gambling and gambling problems.
+Region:
+ The Greater Atlantic City and Southern Shore regions reported the highest percentages
+of past‐year gamblers (72.2% and 76.4%), followed by the Skyland and Shore regions
+(72.1% and 71.3%).
+ The Greater Atlantic City Region reported the highest percentage of those who only
+gambled online as well as those who gamble online and at land‐based venues.
+ About 80% of respondents in the Shore Region gambled only at land‐based venues; this
+was the highest rate of any region and significantly higher than Greater Atlantic City but
+not other regions.
+Gender:
+ Men (72.8%) were significantly more likely than women (66.9%) to have gambled in the
+past year and to gamble either online‐only or online and at land‐based venues.
+ A higher proportion of women (84.3%), compared to men (67.2%), endorsed land‐based
+only gambling.
+ Overall, men were over‐represented in the high frequency (once a week or more) group
+and women, in the low frequency (less than once/month) group.
+ Women primarily endorsed a preference for purchasing scratch‐off and lottery tickets and
+playing bingo. Men were more likely than women to engage in sports betting, live poker,
+casino table games, and bet on horses; older men, however, endorsed a preference for
+gaming machines.
+1 | Pa ge
+
+=== page 8 ===
+ Men averaged slightly more gambling activities than women (3.4 v 2.6) and were
+overrepresented in all the problem gambling categories (low, moderate and high‐risk); in
+contrast, women comprised a larger proportion of non‐problem gamblers.
+Age:
+ The spectrum of gambling problems was proportionately represented across all age
+categories, except for the two oldest where rates were lowest. Only 7.7% of moderate
+risk problem gamblers were 55 to 64‐years‐old and only 3.1% of 55 to 64‐year‐olds would
+meet criteria for gambling disorder (high risk problem). Similarly, only 9% of moderate
+risk problem gamblers and 0.9% of high risk problem gamblers were 65 years and older,
+the lowest proportion of any age category.
+Race/Ethnicity:
+ About 71% of White, compared to 69% of Hispanic and 68.6% of Black or African American
+respondents, reported gambling in the past year. Those who endorsed Asian/Other
+reported the highest rates of gambling online‐only (9.1%), followed by Hispanics (6.9%).
+Asians also reported the highest rates of mixed (online and land‐based) gambling (30.3%),
+followed by Hispanics (29.4%), though each constituted just 12% of all mixed venue
+gamblers. Whites again made up the highest overall proportion of land‐based gamblers
+(65.3% of total); of those White gamblers, 80.7% gambled only in land‐based venues,
+the highest percentage of any race, followed by Black or African Americans (77.9%).
+ A significantly higher proportion of Whites as compared to other groups gambled less
+than once per month. Hispanics were overrepresented among high‐frequency gamblers
+(once a week or more), followed by Asian/Other and Black or African Americans.
+ Overall, rates of problem gambling were highest among Hispanics, with 16.2% classified
+in the high‐risk problem gambling group, followed by Asian/Others (14.1%). Overall,
+Whites (76.1%) were significantly more likely than other groups to be classified as non‐
+problem, and Black or African Americans (18.5%), as low‐risk problem gamblers.
+Marital Status and Household Income
+ A majority of those who gambled at any venue were married. Proportionately, however,
+single gamblers were overrepresented among online‐only gamblers, and divorced,
+separated or widowed gamblers were overrepresented among both land‐based and
+mixed (online and land‐based) venue gamblers.
+ High risk problem gamblers were significantly less likely to be
+divorced/separated/widowed than other groups. In contrast, moderate risk problem
+gamblers were more likely to be single/never married than to be married or divorced,
+separated or widowed.
+ Gambling participation increased with household income, up to the threshold of
+$69,999, where 76.1% of respondents endorsed gambling. Rates were significantly
+2 | Pa ge
+
+=== page 9 ===
+higher in the online panel, where respondents reported increasing rates of participation
+through $149,999.
+ Individuals reporting the lowest household income also reported the lowest rate of past‐
+year participation in gambling; however, those who made less than $15,000 per year
+were also the most likely to gamble exclusively online.
+ Households reporting $100,000 to $150,000 in income had the highest rates of both
+online and land‐based gambling and the lowest rates of gambling exclusively online or
+on land.
+Education:
+ By education level, participants with a high school diploma or GED reported the highest
+rate of gambling involvement, followed by those who had some college.
+ Gambling rates were lowest among those in the highest (Master’s, Doctorate) and lowest
+(<HS or GED) educational brackets.
+ In the online panel, those with a professional degree beyond a Bachelor’s degree or some
+college were the most likely, and those with less than a high school education or GED were
+least likely to have gambled in the past year.
+ In the phone panel, rates of gambling were highest among those with a two or four year
+college degree and lowest among those with less than a high school education or GED.
+ Those with a Master’s or Doctorate degree were the most likely to gamble only online and
+those with a professional degree beyond a bachelor’s were the least likely. However, nearly
+30% of those with less than a high school education or GED gambled both online and on
+land, followed by those with a professional degree beyond college.
+ Gamblers with more than a year of college were the most likely to gamble in land‐based
+venues, followed by those with a high school diploma or GED and less than a year of college.
+ Gambling problems occurred across the spectrum of education levels, however, problem
+gamblers were significantly more likely than other groups to have less than a high school
+education or GED, but they were also overrepresented among those with professional
+and doctorate degrees in the online panel only.
+Employment:
+ Three‐fourths of those who were employed for wages reported past‐year gambling,
+followed by those who were self‐employed or out‐of‐work less than one year.
+ The lowest rates of gambling participation were found among those who were retired,
+unable to work, or students.
+Online versus Land‐Based Gambling
+ About 5.3% of gamblers (n=134) gambled exclusively online and 19.2% (n=487) gambled
+both online and at land‐based venues.
+ A majority of high frequency gamblers gambled both online and in land‐based venues,
+followed by online‐only and land‐based only.
+ The average gambler in the study participated in three gambling activities. Those who
+gambled only at land‐based venues endorsed slightly more than two activities, and those
+3 | Pa ge
+
+=== page 10 ===
+who gambled only online endorsed three activities. However, those who gambled at
+mixed venues indicated they gambled on nearly six activities.
+ Problem gambling severity was highest in the mixed group (land‐based and online),
+followed by online‐only and land‐based only gamblers.
+ A majority of online gamblers reported gambling before gambling was legal in New
+Jersey, but one‐third indicated they began gambling after legalization.
+ The most influential factors in initiating online gambling were, in rank order:
+convenience, 24‐7 access, the comfort of gambling from home, prizes such as bonuses
+and free credits, and use of free play or social media sites.
+ Online gamblers listed the main advantages as, in rank order: convenience, 24‐7 access,
+comfort, freedom from driving to land‐based venues, and privacy/anonymity.
+ The main disadvantages, according to online gamblers, were, in rank order: ease of
+spending money online, “more addictive” than land‐based gambling, concerns about
+account safety online (money, personal information), and difficulty judging the fairness
+of the games.
+ More than 31% of online gamblers indicated they gambled online from work or during
+work hours; of those gamblers, 40% gambled one or two days a week and nearly 24%
+gambled three to five days per week.
+Problem Gambling
+ In this study, frequency of reported gambling, the number of gambling activities, and
+mixed play (online and land‐based) was highly correlated with severity of gambling
+problems.
+ Nearly half of non‐problem gamblers (42.4%) gambled less than once per month (low‐
+frequency). However, among the low risk, moderate risk, and high risk problem gambling
+groups, rates of high frequency gambling were 51.6%, 61.3% and 89.4%, respectively.
+ The number of gambling activities, likewise, increased significantly with level of gambling
+problem severity: from two activities for non‐problem, to more than three for low risk,
+four for moderate risk, and seven for high risk problem gamblers who would classify as
+disordered.
+ Rates of problem gambling in the online panel were high, particularly among the online‐
+only and mixed venue groups, where more than a third of gamblers had some level of
+gambling problem.
+ In the phone panel, rates of problem severity were considerably lower, with only 3.6% of
+those who patronized both land‐based and online (mixed) venues reporting serious
+gambling problems that would likely meet criteria for disorder. However, even in the
+phone panel, a significant proportion of respondents reported gambling problems,
+ranging from 8.3% in land‐based only sample to 19.6% in the online and 27.8% in the
+mixed‐venue samples.
+ By gambling activity, the highest percentage of high‐risk problem gamblers bet on live
+poker (43.2%), followed by sports (41.9%) and other games of skill (33.5%); only 10.7% of
+problem gamblers played the lottery. Moderate risk problem gamblers were most likely
+to favor sports betting (18.6%) followed by bingo (14.2%) and games of skill (14.1%) and
+4 | Pa ge
+
+=== page 11 ===
+they were least likely to purchase lottery tickets (9.2%). However, among non‐problem
+gamblers, lottery (66.9%) and instant scratch‐offs (60.5%) were the two most frequently
+endorsed activities.
+ Within problem severity categories, a significantly higher proportion of high risk problem
+gamblers, compared to other gamblers, gambled on all gambling activities. Similarly, non‐
+problem gamblers had the lowest overall rates of participation across activities.
+Substance Use, Addictive Behaviors, and Mental Health Issues
+ Compared to non‐gamblers, gamblers were significantly more likely to use tobacco,
+alcohol and illicit drugs as well as to binge drink and report problems with drugs or
+alcohol. More than three‐fourths of gamblers drank, and nearly 20% endorsed binge
+drinking. They were also significantly more likely than non‐gamblers to report problems
+with addictive behaviors.
+ Respondents who gambled in mixed venues (online and land‐based) reported
+significantly higher rates of tobacco use, binge drinking, illicit drug usage, and problems
+with drugs or alcohol, overeating and sex or pornography. Mixed venue gamblers also
+reported the highest rates of suicidal ideation (9.6%) and suicide attempts (6.0%),
+followed by those who gambled online‐only (6.1%, 3.7%, respectively).
+ High risk problem gamblers, those who would likely meet criteria for disorder, had the
+highest rates of smoking, binge drinking, illicit drug usage, problems with drugs or
+alcohol, overeating, sex or pornography, and excessive exercise. They also had the
+highest rates of serious mental health problems in the past month (42.7%), suicidal
+ideation (20.3%) and suicide attempts (15.4%). The rates of suicidality, which increase
+with gambling problem severity, are particularly notable when compared to those for
+non‐problem gamblers, where only 1.2% reported contemplating and 0.2% reported
+attempting suicide.
+Daily Fantasy Sports:
+A total of 336 respondents in the sample indicated that they had played daily fantasy sports
+(DFS) in the past year. Of those, all but seven also gambled.
+ Men who played DFS outnumbered women four‐to‐one and were slightly more likely
+to gamble online than women, who were more likely to gamble only at land‐based
+venues.
+ More than half of the sample of DFS players gambled on gaming machines, bingo, live
+casino table games, other games of skill, sports, and horses.
+ Notably, 95% of the DFS players who were also high risk problem gamblers gambled once
+a week or more often (high frequency), and none were low frequency gamblers. Indeed,
+across categories, DFS players who gambled were mostly in the high frequency group
+(69.6% to 95.0%), with only 1.7% of the moderate risk, 10.7% of the low risk, and 3.5%
+of the non‐problem gambling groups indicating they gambled less than once per month
+(low frequency).
+ DFS players were, on average, 25‐ to 44‐years‐old, White or Hispanic, married or living
+with a partner, college educated, middle income earners, and employed.
+5 | Pa ge
+
+=== page 12 ===
+ Gamblers who played DFS reported significantly more substance use, behavioral
+problems and mental health issues than non‐DFS gamblers. For example, half the sample
+used tobacco, four‐fifths used alcohol, and one‐third reported binge drinking and using
+illicit drugs. DFS players were more than twice as likely as other gamblers to endorse
+problems with overeating, nearly four times more likely to have problems with sex and
+pornography, and five times more likely to exercise excessively. More than one‐fourth
+of DFS players reported serious mental health issues in the past 30 days, twice as many
+as other gamblers.
+ Notably, 13.9% of DFS players reported suicidal ideation, compared to just 1.8% of other
+gamblers; 9.2% of DFS players indicated they had attempted suicide, compared to 0.5%
+of other gamblers.
+6 | Pa ge
+
+=== page 13 ===
+Introduction
+In 2013 the State of New Jersey became the third state to legalize Internet gambling for those
+located in the state. At that time, the Center for Gambling Studies was commissioned to submit
+four annual reports, examining the yearly demographics and player patterns of online gamblers
+in New Jersey. Internet player data lacks measures of gambling problem severity; therefore, while
+it is possible to develop player patterns that are statistically correlated with higher frequency,
+duration, and expenditures on play, it is not possible to identify players who would meet clinical
+criterial for gambling disorder. For this reason, the researchers undertook a state‐wide
+prevalence study to better understand the relationship of play patterns and gambling behaviors
+to gambling problem severity.
+This report presents results from the first of two prevalence studies, 18 months apart, which
+examine self‐reported patterns of play at online and land‐based venues, associated addictive and
+mental health correlates, levels of problem gambling severity, demographic features of players
+by frequency and severity, player preferences, and other gambling‐related activities such as daily
+fantasy sports. The second prevalence study is scheduled for data collection in 2017. Ideally,
+such a population prevalence study would have been conducted at “baseline” before the
+introduction of Internet gambling. However, the current study was conducted within the first
+full year of play and provides a basis for understanding the prevalence of gambling and each
+activity, the prevalence of problem gambling across levels of severity, and the relationship of
+frequency, venue choice and other factors to problem gambling severity. This information is a useful
+complement to Internet gambling data because it provides context for examining online gambling
+behavior in light of more traditional play. Findings have public policy implications for estimating the
+number of problem gamblers in need of treatment, types of services needed for specific populations,
+and the types of gambling most strongly associated with problem gambling. In addition, changes in
+the prevalence of problem gambling from one time period to the next, and/or differences between
+the prevalence in one jurisdiction relative to another, provide important information about the
+potential effectiveness of policies implemented to mitigate gambling’s harm (Volberg, 2007).
+Overview of Project and Methods
+This report includes a review of epidemiological research on gambling, a presentation of the
+results of both an online and telephone survey of New Jersey residents about their gambling
+habits and related behaviors, examination of daily fantasy sports play, and a summary and
+recommendations for the future. The study provides baseline information to guide policy
+examinations into the impact of online and land‐based gaming in New Jersey and implications
+for future expansion. The Problem Gambling Severity Index (PGSI) of the Canadian Problem
+Gambling Index (Ferris & Wynne, 2001) was used to assess level of gambling problems. The
+survey of New Jersey residents examines the prevalence of non‐problem, low‐risk and
+moderate‐risk problem gambling as well as high‐risk problem gambling which correlates to
+gambling disorder in relation to socio‐demographic factors, including age, sex, race/ethnicity,
+household income, education level, and geographic region. The survey also explores the
+7 | Pa ge
+
+=== page 14 ===
+relationship of problem gambling severity to gambling frequency, preferred gambling venues,
+and comorbid health conditions, as well as employment, financial and interpersonal problems.
+This study was conducted by the Center for Gambling Studies (CGS) of Rutgers University, School
+of Social Work in New Brunswick, New Jersey. Dr. Lia Nower was the lead investigator with Dr.
+Rachel A. Volberg of Gemini Research, who has conducted a majority of the gambling population
+prevalence studies world‐wide. The CGS research team included Kyle R. Caler, project officer, Dr.
+Rongjin Guan, statistician, and Jose Ricardo Vargas Garcia, research associate. Leger, the
+Research Group, under the direction of Simon Jaworski, conducted the data collection for the
+project under the direction of Drs. Nower and Volberg.
+Background Literature
+Over the past 30 years, a number of U.S. states and global jurisdictions have commissioned
+population prevalence studies to examine the prevalence of problem gambling behavior.
+Williams and colleagues (2012) estimate that approximately 200 prevalence surveys have been
+completed since 1975. In general, reports estimate between 78% and 86% of adults in the U.S.
+will gamble in their lifetimes, 63% to 82% in the past year (Kessler et al., 2008; Gerstein et al.,
+1999; Welte, Barnes, Wieczorek, Tidwell, & Parker, 2002). A majority of these adults will gamble
+occasionally and for recreation only. However, a proportion of those who gamble will do so to
+excess, resulting in serious adverse consequences such as unemployment, divorce, bankruptcy,
+criminal charges, and homelessness (National Research Council, 1999).
+The prevalence of gambling disorder and sub‐threshold problem gambling varies widely among
+jurisdictions, due primarily to differing sampling methodologies, assessment tools, and methods
+of analysis, as well as cultural and geographically‐based differences. In a worldwide review of
+prevalence studies, Williams, Volberg, and Stevens (2012) reported that the standardized past
+year rate of problem gambling, which includes gambling disorder, ranges from 0.5% to 7.6%, with
+a mean of 2.3%. Lower than average rates have been reported in Great Britain, South Korea,
+Iceland, Hungary, Norway, France, and New Zealand. The United States, Canada, Australia,
+Sweden, Switzerland, Estonia, Finland, and Italy report average rates. Above average rates have
+been found in Belgium and Northern Ireland with the highest prevalence rates observed in
+Singapore, Macau, Hong Kong, and South Africa (Williams et al., 2012).
+In the U.S., researchers have published six national population prevalence studies (Gerstein et
+al., 1999; Kallick, Suits, Dielman, & Hybels, 1979; Kessler et al., 2008; Petry, Stinson, & Grant,
+2005; Welte, Barnes, Tidwell, Hoffman, & Weiczorek, 2015; Welte, Barnes, Weiczorek, Tidwell, &
+Parker, 2001). Two meta‐analyses have also reported on state and regional prevalence data
+(National Research Council, 1999; Shaffer, Hall, & VanderBilt, 1997). In addition, 31 states have
+commissioned prevalence studies, with higher rates of gambling problems typically reported in
+states with greater gambling availability: Louisiana, Minnesota, Mississippi, Nevada, and New
+Jersey (Williams et al., 2012). Rates of problem and disordered gambling in the U.S. range from
+0.9 to 8.1, with an average rate of 2.2 (Williams et al., 2012). Overall, rates of problem and
+disordered gambling rose during periods of rapid gambling expansion in the 1980s and 1990s.
+8 | Pa ge
+
+=== page 15 ===
+Rates appear to have leveled off in the past 10 years (Horváth and Paap, 2012; Welte et al., 2015,
+Williams et al., 2012), although studies have identified higher prevalence rates among those in
+closer proximity to gambling venues (Gerstein et al., 1999; Shaffer, LaBrie & LaPlante, 2004;
+Welte et al., 2007). Higher rates of problem gambling are still prevalent in areas with increased
+access to casinos, lotteries and other forms of gambling.
+In one recent national study, Welte and colleagues (2015), compared the results of two
+telephone surveys conducted with U.S. adults in 1999‐2000 and in 2011‐2013. The researchers
+reported that past‐year gambling decreased from 82.2% to 76.9% over the 12‐year period and
+that only internet gambling participation increased during that time, from 0.3% to 2.1%. The
+authors noted that problem gambling increased significantly among men (4.15% to 6.8%) but
+decreased slightly among women (2.9% to 2.5%) over time. Rates of problem gambling were
+highest among younger adults (aged 18 to 30) and among those in the lowest socioeconomic
+group (Welte et al., 2015).
+New Jersey has a long history of gambling, dating back to the opening of Freehold Raceway in
+the 1930s. As noted above, in 2013, New Jersey became the third state to sanction and regulate
+online gambling, after Nevada and Delaware. Only one study has directly examined gambling
+behavior and prevalence of disorder in New Jersey using validated instruments (Volberg &
+Steadman, 1989). Findings from a telephone survey of 1,000 participants classified 2.8% of
+participants as problem gamblers and 1.4% as pathological gamblers, that is, likely to meet
+clinical criteria for the disorder (Volberg & Steadman, 1989). In 1999, 150 land‐based casino
+patrons from New Jersey and Nevada were included in a national prevalence study, which
+reported that 7.9% of participants met clinical criteria for gambling disorder, 5.3% had gambling
+problems and 14.3% were at risk for problems (Gernstein et al., 1999). Findings from a random
+digit dialing telephone survey that included New Jersey residents reported the past‐year rate of
+disorder at 0.1%, and the problem and at‐risk rates at 0.4% and 2.3%, respectively.
+Worldwide, it is estimated that 0.1% to 13% of the adult population gambles on the Internet
+(Broda, et al., 2008; Sproston, Hing & Palankay, 2012, Wardle et al., 2011; Wood & Williams,
+2011). Regulatory standards worldwide vary considerably, from those that are focused on player
+protection (e.g., U.K, New Jersey) to those that are, essentially, unregulated (e.g. Costa Rica)
+(Wiebe & Lipton, 2008). However, in most jurisdictions, rates of online gambling are increasing,
+due, in part, to the potential for higher wins and faster play in a convenient and relatively
+anonymous environment (Wood & Williams, 2009). Online gamblers tend to be male, younger,
+and employed with higher average household incomes (Wood & Williams, 2009). Studies have
+identified higher rates of risk‐taking behavior, greater consumption of alcohol and illicit drugs,
+and higher levels of problem gambling severity among online gamblers (Kairouz, Paradis, &
+Nadeau, 2012; Wood & Williams, 2011). However, compared to land‐based gamblers, online
+gamblers also typically engage in a higher number of gambling activities, both online and on land
+(Gainsbury et al., 2012); this makes it difficult to assess whether online gambling is simply an
+additional medium for highly involved gamblers or whether online play has a role in moving
+individuals from recreational gambling to problematic play.
+9 | Pa ge
+
+=== page 16 ===
+Methodology
+Telephone Survey
+The Center for Gambling Studies at the Rutgers University, School of Social Work, together with
+Leger, a market research firm with corporate headquarters in Montreal and a United States office
+in Fort Washington, Pennsylvania, administered a 16‐minute survey to a random sample of New
+Jersey adults (aged 18 and over) with the objective of achieving a final sample size of 1,500. This
+survey included telephone numbers obtained from a Random Digit Dialing (RDD) sample, as well
+as cell phone numbers in the pool of eligible numbers.
+The use of cell phone numbers in the dialing pool for telephone‐based data collection is critical
+when conducting research of this nature, as it is now recognized that an increasing proportion of
+households are without a traditional telephone landline. Moreover, cell phone‐only use is known
+to be disproportionately common among low income households, young adults, and some ethnic
+groups, which traditionally have higher rates of gambling participation and problems.
+The telephone data collection process included:
+ Pilot testing of the questionnaire
+ Random Digit Dialing (RDD) using computerized assisted survey administration (CATI)
+ Stratified sampling to ensure minimal age and gender quotas1
+ Geographical monitoring of region counts during the field period (Gateway, Skyland,
+Shore, Delaware River, Greater Atlantic City, and Southern Shore)
+ Random selection of the respondents, based on selecting those 18 years or older at
+their most recent birthday
+ Re‐contacting ‘soft refusals’ to determine if they would be willing to participate
+ Use of a short (average of 16 minutes) interview to help increase the chances of
+participation
+ Use of bilingual interviewers, where appropriate, to administer the interview to a
+respondent who preferred to do so in Spanish
+ Periodic audio evaluation of the interview by a supervisor for quality assurance.
+The fieldwork for the telephone interviews took place between November 17 and December 16,
+2015. Among the 1,500 completes obtained from the telephone interviews, 1,050 were
+completed with a respondent on a landline telephone, while 450 interviews were completed by
+contacting a respondent on a cell phone (mobile phone).
+Telephone Response Rates
+1
+During the field period, counts were provided by age (18‐24; 25‐34; 35‐44; 45‐54; 55‐64; 65+), gender (male,
+female), ethnicity (White, Black/African American, Asian, Other), and for Hispanic vs. non‐Hispanic.
+10 | Pa ge
+
+=== page 17 ===
+Response rates were calculated using procedures recommended by the Council of American
+Survey Research Organizations (CASRO) and the American Association for Public Opinion
+Research (AAPOR), with both of these organizations calculating response rates based on the
+number of completed interviews divided by the estimated number of eligible respondents (see
+Table 1). The obtained response rate for land‐line and cell phones in the present study was 5.3%.
+Table 1. Telephone Sample Response Rate Calculations
+INELIGIBLE TOTAL
+Not in service; fax/modem; business number; bad line; language difficulties;
+15,581
+physical/mental incapacity; does not meet eligibility criteria; in demographic
+group whose quota is filled
+TERMINATES 1,485
+ELIGIBILITY NOT DETERMINED (ND) TOTAL
+76,789
+Line busy/never answered/household refusal/other refusals
+Refusals (Soft refusals, hard refusals, do not call list) 15,342
+Completed Interviews 1,500
+ELIGIBLE TOTAL (Completes + Refusals) 16,842
+ELIGIBILITY RATE
+51.5%
+ELIGIBLE TOTAL 16,842 ÷ (ELIGIBLE TOTAL 16,842 + INELIGIBLE TOTAL 15,851)
+ESTIMATED # OF ELIGIBLES
+56,400
+ELIGIBLE TOTAL 16842 + (ELIGIBILITY ND TOTAL 76,789 x ELIGIBILITY RATE 51.5%)
+RESPONSE RATE
+COMPLETED INTERVIEWS + TERMINATES (1,500 + 1,485 = 2,985) 5.3%
+÷ ESTIMATED # OF ELIGIBLES 56,400
+Final Sample Disposition
+The final sample disposition and response rates are provided in Tables 2 and 3. A total of 1,500
+surveys were completed via telephone overall.
+Table 2. Telephone Sample Final Disposition
+Final
+Label Disposition Frequency %
+I Answering Machine 18,773 19.9%
+NR Business Number 289 0.3%
+NC Busy 217 0.2%
+D Disconnected # 10,600 11.3%
+U1 Language Barrier 2793 3.0%
+C Complete 1,500 1.6%
+NC Fax or Modem 79 0.1%
+ER Refusal 15,342 16.3%
+ER Interviewer Terminate 34 0.0%
+NC No Answer 37,991 40.4%
+11 | Pa ge
+
+=== page 18 ===
+ER Partial (Respondent Terminate) 119 0.1%
+ER Schedule Callback 4466 4.7%
+J Terminates (Over quota) 1,373 1.5%
+J Terminates (Refused Age or Race) 112 0.1%
+J Wrong Number/Changed Number 452 0.5%
+Grand Total 94,140 100.0%
+Table 3. Response Rates and Categories of Final Dispositions for Telephone Numbers
+FinalSample
+Label Category Count %
+C Interview Complete 1,500 1.6
+ER Interview Eligible, Incomplete 19,961 21.2
+D Non‐Working 10,600 11.3
+I Answering Machine 18,773 19.9
+J Ineligible Households 1,937 2.1
+NC Non‐Contact 38,287 40.7
+NR Non‐Residential 289 0.3
+U1 Known Households, Unscreened 2,793 3.0
+Total 94,140 100
+Resolution Rate: (C+ER+D+J+NR+U1)/(Total) 39.4%
+Screener Rate: (C+ER+J)/(C+ER+J+U1) 89.3%
+Interview Rate: C/(C+ER) 7.0%
+CASRO Response Rate: Resolution Rate x Screener Rate x Interview
+2.5%
+Rate
+Online Panel Survey
+It is increasingly common to bolster, if not replace completely, telephone‐based surveys with the
+use of online panels for research. Traditional telephone surveying continues to have a short,
+limited future because of escalating costs amidst the ongoing decline in telephone survey
+response rates, the emergence of national ‘do‐not‐call’ registries, and the growth in cell phone‐
+only households in lieu of landlines.
+In recent years, survey research firms have created ‘online panels,’ composed of hundreds of
+thousands of individuals who have agreed to receive online solicitations to participate in various
+online surveys in return for compensation (most often, a collection of ‘points’ that have some
+cash value). When an individual joins one of these panels, information is collected concerning
+his/her demographics. Subsequently, when a group is needed for a particular survey (in this case,
+‘representative sample of adults in the state of New Jersey’), the survey is only sent out to this
+selected subsample. Online panels are now frequently used in market research, but tend to be
+less common in academic studies.
+12 | Pa ge
+
+=== page 19 ===
+There are a number of advantages to using online panel surveys. First, using online panel surveys
+facilitates the validity of answers to ‘sensitive questions’ (such as those included in this survey
+related to gambling, substance use and mental health issues) which tend to be higher in self‐
+administered formats. An additional advantage of using online panel surveys is that the
+respondents have agreed to be and, therefore, expect to be contacted (contrary to respondents
+of telephone surveys). Conducting surveys online is cost‐effective also expedites turnaround
+time; the field periods for online survey are typically much shorter than those from telephone
+surveys. Lastly, given the need to investigate differences in online‐only versus land‐based‐only
+versus mixed venue gamblers, it was critical to include online respondents who may be more
+representative of players with higher technological efficacy and a possible interest in online
+gambling.
+Similar to telephone surveys, research with online panels is not without limitations. Historically,
+online panels were hampered by underrepresentation of minorities, who may have limited
+Internet access. However, the advent of wireless technology, the pervasiveness of Internet
+access in libraries and other non‐pay settings as well as bundled with cell phone service has
+largely addressed that limitation. A primary concern centers on the use of online panelists who
+are, essentially, a self‐selected group of volunteers who may or may not be fully representative
+of the general population. Other issues particular to online panel surveys include the optimal way
+of creating online panels, the effects of different types and magnitudes of rewards, the
+appropriate number of contact/request attempts, and the effects of nonresponse.
+Given the inherent limitations of both telephone and online methodologies, this study opted to
+utilize both. A comparison of the results obtained via the telephone panel sample versus the
+online panel sample in the present study indicates that online panelists have higher rates of
+mental health problems and addictions (including problem gambling), which could suggest that
+volunteer panelists have higher levels of psychopathology or that the online methodology is more
+likely than telephone contact to invite more honest responding.
+For the online survey, Leger sent email invitations with an Internet link to complete a self‐
+administered, 18‐minute online survey to a random sample of panelists in New Jersey from
+November 6 through November 17, 2015. Although the objective was to achieve an online
+sample of 2,000 respondents, Leger completed the survey with a final count of 2,134 completed
+interviews (see Table 4).
+13 | Pa ge
+
+=== page 20 ===
+Table 4. Survey Quota Objectives
+Difference
+Objective Phone Online Combined from
+Objective
+Gender
+Male 49% 48% 50% 49% ‐
+Female 51% 52% 50% 51% ‐
+Age
+18‐24 11% 12% 15% 14% +3%
+25‐34 18% 15% 21% 19% +1%
+35‐44 21% 19% 21% 20% ‐1%
+45‐54 19% 20% 18% 19% ‐
+55‐64 13% 14% 12% 13% ‐
+65+ 18% 19% 13% 15% ‐3%
+Ethnicity
+White 74% 74% 77% 75% +1%
+Black/African American 15% 14% 11% 12% ‐3%
+Asian 9% 6% 6% 6% ‐3%
+Other 2% 6% 6% 7% +5%
+Hispanic
+Hispanic 19% 19% 18% 18% ‐1%
+Non‐Hispanic 81% 81% 82% 82% +1%
+Region
+Gateway 48% 48% 47% 47% ‐1%
+Skyland 13% 13% 14% 14% +1%
+Shore 14% 14% 14% 14% ‐
+Delaware River 19% 19% 19% 19% ‐
+Greater Atlantic City 3% 3% 3% 3% ‐
+Southern Shore 3% 3% 3% 3% ‐
+The following protocol was implemented for the online data collection process:
+ Stratified sampling to ensure age and gender quotas were obtained. During the field
+period, counts were monitored by age (18‐24; 25‐34; 35‐44; 45‐54; 55‐64; 65+), gender
+(male, female), ethnicity (White, Black/African American, Asian, Other), and for Hispanic
+vs. non‐Hispanic.
+ Geographically, region counts were also looked after during the field period of this study
+(Gateway, Skyland, Shore, Delaware River, Greater Atlantic City, and Southern Shore).
+ A short (average of 18 minutes) interview to help increase the chance of participation.
+ Surveys were administered in English, as it is common that online panel respondents are
+acculturated with the English language regardless of their race/ethnicity.
+Recognizing that there may be some shortfalls in quota objectives for sub‐groups between the
+two data collection methodologies, the data will be presented both as a combined data set,
+weighted to the targets found in the objectives column of Table 4 and as separate panel results.
+For combined results, post‐hoc weighting was employed to compensate for sampling deviations
+from age, gender, and ethnicity distributions for the State of New Jersey.
+14 | Pa ge
+
+=== page 21 ===
+Gambling Participation
+Key Terms
+The term “gambling” is often used interchangeably with the term “gaming.” In research,
+“gaming” typically refers to video and other interactive or electronic game forms that do not
+require money to play. Therefore, for the sake of continuity, we will use the term “gambling”
+to connote commercial land‐based or online wagering. The one exception to this labeling is
+the term “gaming machines,” which traditionally refers to slots or video poker machines. A
+glossary is also provided at the beginning of this report.
+The nature and extent of gambling participation is measured and evaluated in several ways.
+First, it is important to identify the frequency of play across activity types available to residents
+of New Jersey: gaming machines (slot machines, video poker machines), roulette, poker,
+bingo, horse racing, sports betting (currently illegal in NJ), other skill games, and other forms.
+“Gambling frequency” measures how often an individual gambles in the past 12 months: “low‐
+frequency” (less than once per month), “moderate frequency” (once or twice per month) and
+“high frequency” (once a week or more). Throughout this report, the term “gambler” is used to
+designate those respondents who endorsed some form of gambling (betting, wagering or playing
+games for money) in the past 12 months; non‐gamblers are those who endorsed no gambling
+activities in the past year. This study did not measure lifetime prevalence of gambling, because
+the focus is on determining the current prevalence and changes in that rate over time.
+Where possible, this report will offer statistical percentages for the overall sample by category
+(e.g., the percentage of each age group that endorses gambling) as well as within groups by
+category (e.g., the percentage of gamblers who fall in each age group) either in the text or table.
+Tables will vary based on the relationship of interest, which will be identified in the headings. It is
+also important to note that the significance levels of figures depend on the overall group or sub‐
+group size; therefore, a large percentage in a large sub‐sample may, in reality, indicate a smaller
+proportion in that group than a smaller number that constitutes a larger percentage in a smaller
+sample.
+Regions
+Participants were selected to provide a representative sample of the adult population of
+New Jersey, stratified for age, gender and ethnicity from zip code areas around the state.
+Below are the counties included in each region:
+Greater Atlantic City‐ Atlantic County
+Delaware River‐ Burlington, Camden, Gloucester, Mercer, and Salem counties
+Gateway‐ Bergen, Essex, Hudson, Middlesex, Passaic, and Union counties
+Shore‐ Monmouth and Ocean counties
+Skyland‐ Hunterdon, Morris, Somerset, Sussex, and Warren counties
+Southern Shore‐ Cape May and Cumberland counties
+15 | Pa ge
+
+=== page 22 ===
+Past‐Year Gambling: Demographics
+Overall, a majority of respondents in New Jersey reported gambling in the last 12 months
+(69.8%). Only 5.3% of gamblers in the state reported gambling exclusively online; however,
+nearly one in five gamblers (19.2%) gambled at both online and land‐based venues. A
+significant majority of respondents, 75.5%, gambled only at land‐based venues at the time of
+this study.
+As indicated in Table 5, there were no significant differences among those who endorsed past‐
+year gambling by region. The Gateway Region contains two‐ to three‐times the population of
+other regions, however, the proportion of gamblers in that region is consistent with that of
+other regions. The Greater Atlantic City and Southern Shore regions reported the highest
+percentages of gamblers (75.2% and 76.4%, respectively), followed by the Skyland and Shore
+regions (72.1% and 71.3%). Online panel participants reported significantly higher rates of
+gambling than phone participants in every region.
+By venue type, significantly more gamblers in the Greater Atlantic City Region reported gambling
+online‐only or gambling in mixed venues (online and on land). About 80% of respondents in the
+Shore Region gambled only at land‐based venues; this was the highest rate of land‐only gambling
+in any region (Table 5).
+Table 5. Past‐Year Gamblers by Region and Venue Type
+Panel Type Venue Type
+Online &
+Region Land‐Based
+Gambled Past‐Year Online Land‐Based
+Online Phone n=1915
+N=3634 n=134 n=487
+n=2107 n=1527 (75.5)
+(5.3) (19.2)
+%Yes %No N % n % n % n % n % n
+Greater
+75.5 24.5 110 89.1* 64 56.5 46 7.2 6 60.2* 50 32.5* 27
+Atlantic City
+Delaware
+68.4 31.6 687 76.4* 398 57.4 289 4.9 23 77.7 365 17.4 82
+River
+Gateway 68.5 31.5 1744 75.9* 1004 58.5 740 5.8 69 74.2 887 20.0 239
+Shore 71.3 28.7 494 79.0* 291 60.1 203 5.4 19 80.7 285 13.9 49
+Skyland 72.1 27.9 494 83.0* 288 56.8 206 4.8 17 75.5 268 19.7 70
+Southern
+77.1 22.9 105 85.2* 61 65.9 44 1.2 1 74.1 60 24.7 20
+Shore
+*p < .02
+16 | Pa ge
+
+=== page 23 ===
+Overall, 69.8% of the total sample reported gambling in the past year (78.0% of the online and
+58.4% of the telephone panel) (Table 6). The most popular gambling activity was purchasing
+lottery tickets, endorsed by nearly 80% of survey respondents, followed by instant scratch‐off
+tickets (63.9%), gaming machines (31.2%), and live casino table games (21.1%). Those
+preferences were generally consistent by panel type, though the online panel endorsed bingo
+above live casino table games. A consistently higher proportion of online versus phone panel
+members endorsed every type of gambling activity.
+Table 6. Past‐Year Gambling Participation by Activity and Panel Type
+Total Sample Online Panel Phone Panel
+Gambled Past Year:
+N=3634 n= 2107 n= 1527
+% n % n % n
+% Yes 69.8 2536 78.0 1644 58.4 892
+Gambling Activity (gamblers
+only)
+Lottery 79.6 2019 83.8 1377 72.1 642
+Instant Scratch Tickets 63.9 1619 74.0 1216 45.2 403
+Bingo 19.4 492 25.5 419 8.2 73
+Sporting Events 14.6 369 19.1 314 6.2 55
+Horse Race Track or Off Track 14.9 377 18.1 297 9.0 80
+Live Poker or Poker
+11.6 294 13.9 229 7.3 65
+Tournament
+Live Casino Table Games 21.1 534 22.9 377 17.6 157
+Games of Skill 16.2 412 20.5 337 8.4 75
+Gaming Machines (slots,
+31.2 792 35.9 590 22.6 202
+video poker)
+By gender, men in the total sample were significantly more likely than women to endorse past‐
+year gambling (72.8% and 66.9%, respectively). In addition, both men and women in the online
+sample reported higher rates of gambling participation than those in the phone sample (Table
+7). Percentages among venue types also differed by gender, with more than twice as many men
+as women gambling online‐ only (7.3% v 3.1%) or in mixed venues (25.5% v 12.6%). In contrast,
+significantly more women (84.3%) than men (67.2%) endorsed land‐based only gambling.
+17 | Pa ge
+
+=== page 24 ===
+Table 7. Percentage of Past‐Year Gamblers Overall, by Gender and Panel Type
+Panel Type Venue Type
+Online Land‐Based Online &
+Gambled Past‐Year
+Region Online Phone Only Only Land‐Based
+n=3634
+n=2107 n=1527 n=134 n=1915 n=487
+(5.3) (75.5) (19.2)
+%Yes %No n % n % N % n % n % n
+Male 72.8* 27.2 1781 77.8* 1050 65.5 731 7.3* 96 67.2 870 25.5* 330
+Female 66.9 33.1 1854 78.2* 1057 51.9 796 3.1 38 84.3* 1045 12.6 157
+*p< .001
+In every age category, women reported a strong preference for lottery tickets and instant scratch‐
+off tickets, followed by gaming machines and bingo, then casino games or other games of skill
+(Table 8). Rates of participation ranged from a high of 61.8% of 45 to 54‐year‐old women playing
+lottery to less than 1% of older middle‐aged women (55‐64) and older (65+) women playing live
+poker.
+Table 8. Female Gamblers by Age Category and Preferred Gambling Activity
+Age Range
+Total % 18‐24 25‐34 35‐44 45‐54 55‐64 65+
+Activity
+n= 1855 N n=178 n=322 n=397 n=356 n=245 n=357
+% % % % % %
+Lottery 52.8 979 36.5 52.2 56.2 61.8 52.2 48.0
+Scratch off 45.4 842 43.3 50.5 50.6 49.3 38.8 36.8
+Gaming Machines 20.9 388 11.2 23.6 20.4 22.5 20.8 22.5
+Bingo 13.4 248 15.2 19.3 14.6 11.3 9.8 10.4
+Live Casino Table 9.7 182 9.5 18.3 11.1 8.5 6.1 4.8
+games
+Other Games of 8.7 161 12.4 12.7 10.1 7.6 3.7 6.2
+Skill
+Sports betting 4.7 87 8.4 10.9 4.5 3.4 0.8 1.4
+Horse Race Track 6.7 126 5.6 7.8 7.6 9.6 6.5 3.1
+betting
+Live Poker 3.5 66 6.2 8.4 3.3 2.8 0.8 0.8
+Rates of gambling among men were consistently higher than among women (Table 9). The
+highest proportion of men across all ages in the study endorsed playing lottery and buying
+scratch‐off tickets. Participation in other activities varied somewhat by age, with young men (18‐
+24) preferring sports betting and games of skill and those in the oldest group (65+) expressing a
+preference for gaming machines. Men in the 25 to 34 age group had the highest percentages of
+play across activities, reporting a small but non‐significant preference for live casino table games,
+gaming machines, and sports betting (after lottery and scratch‐off play).
+18 | Pa ge
+
+=== page 25 ===
+Table 9. Male Gamblers by Age Category and Preferred Gambling Activity
+Age Range
+Total % N 18‐24 25‐34 35‐44 45‐54 55‐64 65+
+Activity
+n= 1781 n=222 n=332 n=367 n=335 n=227 n=298
+% % % % % %
+Lottery 58.5 1041 42.3 62.0 62.4 66.0 63.0 49.7
+Scratch off 43.7 779 40.5 55.1 49.9 44.2 42.3 26.5
+Gaming
+22.7 404 18.5 31.3 21.5 22.7 16.7 22.1
+Machines
+Live Casino
+19.9 354 19.4 33.4 20.2 19.4 14.0 9.7
+Table games
+Sports betting 15.8 282 24.0 28.0 19.7 12.5 3.5 4.7
+Horse Race
+14.1 250 13.5 20.5 14.8 12.5 14.5 7.7
+Track betting
+Other Games of
+14.1 250 24.4 22.9 16.4 7.7 6.2 6.7
+Skill
+Bingo 13.7 244 21.2 25.0 15.6 10.1 6.2 3.0
+Live Poker 12.9 230 14.0 22.2 15.3 11.9 3.5 7.0
+Gambling participation increased by age until the age of 55. As demonstrated in Table 10, past‐year
+gambling was highest in the 45 to 54 age group, with three‐fourths of respondents reporting
+gambling; percentages were higher in the online panel compared to the phone panel. Respondents
+in the 18 to 24 age category, particularly in the phone panel, had the lowest rates of gambling
+participation, followed by respondents 65 years and older. Between the online and phone samples,
+there were significant differences across all age categories with regard to gambling participation,
+with online respondents endorsing significantly more gambling than those who responded to the
+phone survey.
+Table 10. Percentage of Gamblers by Age, Panel Type and Venue Preference
+Panel Type Venue Type
+Age Gambled Land‐Based Online &
+Range Past‐Year Online Phone Online Only Only Land‐Based
+n=3634 n=2107 n=1527 n=134 (5.3) n=1915 (75.5) n=487 (19.2)
+%Yes n %Yes N %Yes n %Yes n %Yes n %Yes n
+18‐24 60.8* 400 73.1* 249 40.4 151 7.0 17 61.3 149 31.7 77
+25‐34 73.2 654 80.5* 431 59.2 233 4.8 23 62.4 299 32.8 157
+35‐44 71.8 763 82.6* 461 55.3 302 7.3 40 68.8 377 23.9 131
+45‐54 74.8 691 79.4* 384 69.1 307 4.3 22 81.2 420 14.5 75
+55‐64 70.1 472 75.4* 260 63.7 212 6.0 20 86.1 285 7.9 26
+65+ 63.8 654 72.3* 321 55.6 333 2.6 11 92.5* 385 4.8* 20
+*p <.006
+As indicated in Table 11, Whites reported the highest proportion (71%) of past‐year gambling,
+though differences were non‐significant compared to Hispanics (69%) and Black or African
+Americans (68.6%), who reported slightly lower rates. Nearly two‐thirds of gamblers who
+19 | Pa ge
+
+=== page 26 ===
+endorsed the ethnicity “Asian/Other” also said they gambled in the past year (64.6%). Asian/Other
+participants had the highest rates of gambling participation in the online panel (82.5%), followed
+by Hispanics (79.8%). White respondents had the highest rates of participation in the phone panel
+(62.6%), followed by Black or African Americans (58.2%).
+Table 11. Percentage of Gamblers by Race/Ethnicity and Marital Status
+Panel Type
+Gambled Past‐Year
+Race/Ethnicity n=3634 Online Phone
+n=2107 n=1527
+%Yes N %Yes N %Yes n
+White or Caucasian 71.0 2179 76.9* 1282 62.6 898
+Hispanic 69.0 690 79.8* 397 54.3 293
+Black or African American 68.6 449 77.7* 238 58.2 213
+Asian/Other 64.6 308 82.5* 183 38.4 125
+Refused 75.0 8 75.0 8 0.0 0
+*p < .05
+Table 12 provides the percentage breakdown of each venue type by ethnicity and marital status
+from two perspectives. Among those who only gambled online, more than half of the gamblers
+were White (56.7%), followed by Hispanic (24.6%). However, adjusting for the overall
+proportion of gamblers by ethnicity in the sample, Asian/Others were significantly
+overrepresented among online gamblers, as 9.1% of Asian gamblers gambled only online,
+followed by 6.9% of Hispanic gamblers. Whites again made up the highest overall proportion of
+land‐based gamblers (65.3% of total); of those White gamblers, 80.7% gambled only at land‐
+based venues, the highest percentage of any race, followed by Black or African Americans
+(77.9%). Among those who gambled both online and on land (mixed venue), Asian/Others made
+up the highest proportion of players (30.3%), followed by Hispanics (29.4%), though they were
+each only 12% of all mixed venue gamblers.
+Similarly, a majority of all gamblers, whether online (55.4%), on land (60.2%) or both online and
+on land (63.4%) were married. However, single gamblers were overrepresented among online
+gamblers (7.3%) and divorced, separated or widowed gamblers were overrepresented in the
+land‐based (84.9%) and mixed (11.7%) venues.
+20 | Pa ge
+
+=== page 27 ===
+Table 12. Percentage Representation by Race/Ethnicity and Marital Status by Venue Type
+Venue Type
+Online Only Land‐Based Only Online & Land‐Based
+Race/Ethnicity n=134 (5.3%) n=1915 (75.5%) n=487 (19.2%)
+Within Across Within Across Within Across
+Category Venues Category Venues Category Venues
+White or
+56.7 4.9 65.3* 80.7* 46.1* 14.4
+Caucasian
+Hispanic 24.6 6.9 15.9 63.7 28.9 29.4*
+Black or African
+5.3 2.3 12.6 77.9 12.6 19.8
+American
+Asian/Other 13.4* 9.1* 6.3 60.6 12.4 30.3*
+Total 100.0 100.0 100.0
+Marital Status Marital Status
+Married or living
+55.4 4.7 60.2 75.3 63.4 20.0
+with partner
+Divorced,
+separated, or 10.0 3.4 16.8 84.9* 9.1 11.7*
+Widowed
+Single (never
+34.6 7.3* 23.1 71.3 27.4 21.4
+married)
+Total 100.0 100.0 100.0
+There were also significant variations in gambling status by income (Table 13). Overall, gambling
+participation increased with household income, up to the threshold of $69,999, where 76.1% of
+respondents endorsed past‐year gambling. Rates were significantly higher among online
+respondents, who reported increased rates of participation through $149,999 (83.3%);
+participation then dropped by 10% among those making $150,000 or more (Table 13). In the
+phone sample, individuals reporting a household income over $70,000 showed varied rates of
+gambling participation, peaking in the highest income bracket, which reported the highest rate
+of participation (66.8%). Across groups, individuals reporting the lowest household income also
+reported the lowest rate of past‐year participation in gambling. It is important to note that a
+proportion of respondents opted not to answer the household income question, which may
+have affected the results.
+Those with a household income of less than $15,000 per year were also the most likely to gamble
+exclusively online, followed by those with a household income of $30,000‐49,000 and $125,000‐
+149,999, though differences were non‐significant (Table 13). Households reporting $100,000 to
+$150,000 in income had the highest rates of mixed venue gambling, and the lowest rates of
+gambling exclusively online or land‐based.
+21 | Pa ge
+
+=== page 28 ===
+Table 13. Ever Gambled in the Past 12 Months by Income
+Panel Type Venue Type
+Household Gambled Online Phone Land‐Based Online &
+Online Only
+Income Past‐Year n=2107 n=1527 Only Land‐Based
+n=134 (5.3)
+n=3634 n=1915 (75.5) n=477 (19.2)
+%Yes N %Yes n %Yes n %Yes N %Yes n %Yes n
+<=
+58.6* 191 61.4 132 52.5 59 7.1 8 77.7 87 15.2 8
+$15,000*
+$15,000 ‐
+71.0 310 74.9* 207 63.7 102 3.2 7 81.8* 180 15.0 33
+$29,999
+$30,000 ‐
+73.0 460 80.2* 329 55.0 131 6.9 23 74.3 249 18.8 63
+$49,999
+$50,000 ‐
+76.1 549 83.9* 355 62.1 195 5.0 21 72.6 304 22.4 94
+$69,999
+$70,000 ‐
+74.9 626 80.7* 415 63.3 211 5.3 25 74.0 347 20.7 97
+$99,999
+$100,000 ‐
+75.8 400 82.6* 259 63.1 140 5.0 15 69.0 209 26.1* 79
+$124,999
+$125,000 ‐
+73.3 221 83.3* 120 61.4 101 6.8 11 67.9 110 25.3 41
+$149,999
+$150,000
+or more 69.2 412 73.2 164 66.8 247 6.0 17 78.5 223 15.5 44
+Prefer not
+50.5 467 61.6 126 45.2 341 3.4 8 88.8 206 7.8 18
+to answer
+*p < .02
+By education level (Table 14), participants with a high school diploma or GED reported the highest
+overall rate of gambling involvement, followed by those who had some college. Rates were lowest
+among those in the highest (Masters, Doctorate) and lowest (<HS or GED) educational brackets.
+In the online panel, those with a professional degree beyond a Bachelor’s degree or some college
+were the most likely, and those with less than a high school education or GED were least likely to
+have gambled in the past year. In the phone panel, rates of gambling were highest among those
+with a two or four year college degree and lowest among those with less than a high school
+education or GED. Respondents with a Master’s or Doctorate degree were the most likely to
+gamble only online and those with a professional degree beyond a bachelor’s were the least likely.
+However, nearly 30% of those with less than a high school education or GED gambled both online
+and on land, followed by those with a professional degree beyond college. Gamblers with more
+than a year of college were the most likely to gamble in land‐based venues, followed by those with
+a high school diploma or GED and less than a year of college.
+22 | Pa ge
+
+=== page 29 ===
+Table 14. Ever Gambled in the Past 12 Months by Education Level
+Panel Type Venue Type
+Gambled Past‐ Online Phone Land‐Based Online and
+Online Only
+Education Level Year n=2083 n=1515 Only Land‐Based
+n=133 (5.3)
+n=3598 n=1899 (75.5) n=480 (19.2)
+%Yes N %Yes n %Yes n %Yes n %Yes n %Yes n
+Less than High
+60.2* 92 70.9* 55 45.9 37 7.0 4 63.2* 36 29.8* 17
+School or GED
+High School
+73.5 669 80.0* 421 62.1 248 5.5 27 79.4 389 15.1 74
+Diploma or GED
+Some College < 1
+71.9 306 81.6* 190 56.0 116 5.0 11 77.3 170 17.7 39
+year
+Some College > 1
+70.2 419 81.4* 236 55.7 183 4.4 13 82.1 243 13.5 40
+year
+Associate’s
+69.6 326 75.8* 178 62.2 148 4.4 10 74.6 170 21.1 48
+Degree
+Bachelor’s
+70.2 1068 75.8* 625 62.3 443 5.5 41 73.7 553 20.8 156
+Degree
+Master’s Degree 64.9 524 76.6* 282 51.2 242 6.8 23 71.2 242 22.1 75
+Professional
+Degree beyond 70.8 113 84.5* 58 56.4 55 1.3 1 72.5 58 26.3 21
+Bachelor’s
+Doctorate
+63.0 81 76.3* 38 51.2 43 5.9 3 74.5 38 19.6 10
+Degree
+*p < .02
+Among gambling respondents, those with a Bachelor’s degree made up the largest overall
+proportion of gamblers, followed by those high school/GED and Master’s degree (see Figure 1).
+Those with less than a high school degree or GED and those with a doctorate were the smallest
+proportion of gamblers.
+Figure 1. Proportion of Gamblers by Education Level
+35
+30
+25
+20
+15
+10
+5
+0
+< HS or HS or GED <1 yr >1 yr Assoc. Bach. Master's Prof Doctorate
+GED College College Degree Degree Degree Degree
+23 | Pa ge
+
+=== page 30 ===
+Employment was significantly correlated with gambling participation (Table 15). Overall, about
+three‐fourths of those who were employed for wages reported past‐year gambling, followed by
+those who were self‐employed or out‐of‐work less than one year. The lowest rates of gambling
+participation were found among those who were retired, unable to work, or students. Rates
+were similar in the online and phone panels, though the proportion of gamblers who were
+employed for wages in the online sample (81.6%) was significantly higher than in the phone
+sample (61.8%, Table 15). Individuals who reported being out of work more than one year
+(67.6%) had the lowest rate of participation in the online sample while students (40.4%) had the
+lowest rate of participation in the phone sample.
+Table 15. Past‐year Gambling by Employment Status
+Gambled Panel Type Venue Type
+Employment Past‐Year Online Phone Online Only Land‐Based Online &
+Status n=3586 n=2073 n=1512 n=128(5.3) Only Land‐Based
+n=1892(75.5) n=479(19.2)
+%Yes N %Yes n %Yes n %Yes n %Yes N %Yes n
+Employed for
+73.3* 1930 81.6* 1122 61.8 808 5.7 80 70.2 993 24.2 342
+wages*
+Self‐employed 69.8 298 77.3* 176 71.2 122 7.7 16 71.2 148 21.2 44
+Out of work >
+64.3 98 67.6* 71 55.6 27 3.2 2 82.5 52 14.3 9
+1 year
+Out of work <
+67.5 80 79.5* 44 54.1 37 5.5 3 74.5 41 20.0 11
+1 year
+A Homemaker 66.1 224 72.7* 161 48.4 62 1.4 2 85.7 126 12.9 19
+A Student 40.5 220 73.6* 125 40.4 94 6.9 9 72.3 94 20.8 27
+Retired 33.9 602 74.6* 295 58.0 307 3.3 13 93.0* 371 3.8* 15
+Unable to
+37.3 134 68.4 79 54.5 55 6.0 5 79.8 67 14.3 12
+Work
+*p < .02
+Perspectives on Online Gambling
+Panel members were asked a series of questions, related to online gambling. It is important to
+note, that 621 respondents indicated they had gambled online in the past year. However,
+responses to these questions were not limited to the past year in order to obtain a historical
+perspective of online gambling. Therefore, some individuals who had gambled online in the past
+but not in the past year also answered these questions. About 575 respondents indicated they
+were gambling online prior to 2014 and 21 as far back as 1990. Online gamblers were asked
+whether the legalization of online gambling in New Jersey affected their decision to gamble. Over
+35% (n=252) of 711 respondents who indicated they had gambled online (not necessarily in the
+past year) stated that they began gambling online because it was legal in New Jersey. However,
+a majority of respondents, 36.8% (n=264), indicated legalization did not affect them because they
+were already gambling online. An additional 17.7% (n=126) stated they would have found a way
+24 | Pa ge
+
+=== page 31 ===
+to gamble whether or not it was legal, and 9.7% (n=69) indicated they didn’t know whether online
+gambling was legal.
+Online gamblers were also asked to endorse the factors that influenced them to begin gambling
+online (Table 16). “Convenience” was ranked the highest by participants (n=191), followed by
+24‐7 access (n=161), the physical comfort of gambling from home (n=144), price (bonuses, free
+credit, odds, payout rates; n=137) and use of free play or social media (n=122).
+Participants also ranked the relative advantages and disadvantages of online versus land‐based
+gambling. As indicated in Table 16, convenience, 24‐7 access, and comfort were listed as the
+three main advantages of online gambling, followed by the freedom from driving to land‐based
+venues and privacy/anonymity. In contrast, the most frequently endorsed disadvantages to
+online gambling, according to participants, was that it was easier to spend money online, and
+they felt online gambling was “more addictive.” Online gamblers also indicated they had concerns
+about account safety online, such as transferring money and revealing personal information, and
+it was more difficult for them to judge the fairness of the games. Respondents added that it was
+too easy to gamble at work or home when they should be doing other things. Indeed, 31.6%
+(n=226) of online gamblers surveyed indicated they had gambled online from work or during
+working hours; 23.9% of those who gambled at work did so three to five days per week and 40.3%
+did so one or two days a week.
+Table 16. Advantages and Disadvantages of Online Gambling
+Rank Advantages
+1 Convenience – more convenient online
+2 Access (available 24‐7 from any location)
+3 Physical comfort of gambling from home
+4 Don’t have to drive to land‐based venues
+5 Privacy/Anonymity`
+Rank Disadvantages
+1 Easier to spend money
+2 More addictive
+3 Concerns about account safety (e.g. money and personal information)
+4 Difficult to verify fairness of the games
+5 Too easy to gamble at work or home when I should be doing other things.
+Gambling Activities and Frequency of Play
+Gamblers were classified by frequency, that is, how often they gambled. “Low frequency”
+gamblers gambled less than once a month. “Moderate frequency” gamblers gambled once or
+twice a month, while “high frequency” gamblers gambled once a week or more.
+25 | Pa ge
+
+=== page 32 ===
+As indicated in Table 17, a small but non‐significant majority of gamblers gambled once a week
+or more (39.4%, high frequency), followed by less than once a month (33.0%, low frequency),
+and, finally, once or twice a month (27.6%, moderate frequency). Among online gamblers, more
+than half were high frequency gamblers (58.2%); for those who gambled at mixed venues (online
+and on land), the total climbed to two‐thirds (67.4%). In contrast, among land‐based only
+gamblers, 40.3% gambled less than once a month, with the remaining proportion of gamblers
+nearly evenly split between high‐frequency and moderate‐frequency gamblers (31.0%, 28.8%
+respectively).
+Overall, gamblers participated in an average of three gambling activities, which was similar to the
+average reported for the online‐only gamblers, higher than the land‐based only gamblers (two
+activities) and much lower than the mixed venue gamblers, who gambled on an average of nearly
+six activities.
+Table 17. Percentage Breakdown of Gambling Venue Types by Gambling Frequency
+Online and Land‐
+Total Online Only Land‐Based Only Based
+Gambling Frequency
+N=2536 n=134 n=1915 n=487
+% % % %
+Low Frequency 33.0 20.1 40.3* 7.8
+Moderate Frequency 27.6 21.6 28.8 24.8
+High Frequency 39.4 58.2* 31.0 67.4*
+Gambling Forms
+(Mean/Std)
+# of gambling 3.00 3.03 2.31 5.72*
+activities (2.369) (2.160) (1.492) (3.149)
+*p < .001
+In the total sample, low frequency gamblers were most likely to endorse playing the lottery,
+buying instant scratch‐off tickets, playing bingo, betting on horses, and playing gaming machines
+and live casino table games (Table 18). In contrast, high frequency gamblers endorsed the highest
+percentages of betting on sports, and playing games of skill and live poker games or tournaments.
+Moderate frequency gamblers did not have the highest rates of participation on any activity.
+26 | Pa ge
+
+=== page 33 ===
+Table 18. Frequency of Gambling Activities
+High Moderate Low
+Gambling Activity (gamblers Frequency Frequency Frequency
+only) (Once a week (Once or twice a (< once per
+N=2536 or more) month) month) Total
+% (n) % (n) % (n) %(n)
+Lottery 33.6 (678) 29.7 (600) 36.7 (741) 100(2019)
+Instant Scratch Tickets 28.5 (462) 30.3 (491) 41.2 (667) 100(1620)
+Bingo 33.3 (164) 24.3 (119) 42.4 (209) 100(492)
+Sporting Events 47.9 (177) 29.3 (108) 22.8 (84) 100(369)
+Horse Race Track or Off Track 27.7 (104) 20.7 (78) 51.5 (194) 100(376)
+Live Poker or Poker Tournament 37.3 (110) 32.4 (95) 30.4 (89) 100(294)
+Live Casino Table Games 20.5 (109) 22.4 (120) 57.1 (305) 100(534)
+Games of Skill 38.9 (160) 32.7 (135) 28.4 (117) 100(412)
+Gaming Machines (slots, video
+15.4 (122) 24.1 (190) 60.5 (479) 100(791)
+poker)
+Figure 2 displays the relative proportion of low‐, moderate‐, and high‐frequency gamblers. Nearly
+half of all gamblers at all frequency levels resided in the Gateway Region, which is the most densely
+populated region of New Jersey, followed by Delaware River, Skyland, Shore, Southern Shore and
+Greater Atlantic City.
+Figure 2. Gambling Frequency by Region
+60
+50
+40
+30
+20
+10
+0
+Greater Atlantic Deleware River Gateway Shore Skyland Southern Shore
+City
+Low‐Frequency Moderate Frequency High‐Frequency
+27 | Pa ge
+
+=== page 34 ===
+Table 19 presents the percentage breakdown of gambling frequency categories by region,
+irrespective of overall population rates. This table demonstrates that the two regions with the
+smallest populations ‐‐ Southern Shore (50.6%) and Greater Atlantic (49.4%) – had higher
+proportionate rates of high‐frequency and lower proportionate rates of low‐frequency gamblers
+(27.2% and 24.7%, respectively) than the large Gateway Region (High‐Frequency: 40.5%, Low‐
+frequency: 32.5%).
+Table 19. Gambling Frequency by Region (N=2,536)
+Region Frequency Phone Online
+Low% Moderate% High% Low% Moderate% High% Low% Moderate% High%
+Greater
+Atlantic 24.7 25.9 49.4 45.0 28.6 25.0 55.0 71.4 75.0
+City
+Delaware
+32.6 30.5 36.9 42.5 43.4 22.0 57.5 56.6 78.0
+River
+Gateway 32.5 27.0 40.5 50.5 41.0 21.7 49.5 59.0 78.3
+Shore 34.7 25.6 39.8 41.8 37.8 26.4 58.2 62.2 73.6
+Skyland 36.8 29.2 34.0 38.9 35.6 24.0 61.1 64.4 76.0
+Southern
+27.2 22.2 50.6 59.1 50.0 17.1 40.9 50.0 82.9
+Shore
+By gender, women who gambled at low frequency (See Table 20) were significantly more likely
+than men to gamble on scratch‐off tickets and bingo. A higher percentage also purchased lottery
+tickets, though the difference was non‐significant. Men were more likely to engage in sports
+betting, horse race track betting, live poker, and games of skill, though differences in rates for
+sports betting and horse racing were non‐significant.
+There were significant differences by age group as well (Table 20). Younger respondents who
+gambled less than once a month were significantly less likely than older respondents who
+gambled less than once a month to purchase lottery tickets but more likely (non‐significant) to
+purchase scratch‐off tickets. The two youngest age groups (18‐34) were much more likely than
+other age groups to bet on sports. The youngest players, ages 18 to 24, were also more likely
+than all other age groups to bet on sports and other games of skill while those in the 25 to 34 age
+bracket had the highest rates of live casino table game play.
+28 | Pa ge
+
+=== page 35 ===
+Table 20. Low Frequency Gamblers by Activity, Gender and Age
+Overall Gender Age
+Male Female 18‐24 25‐34 35‐44 45‐54 55‐64 65+
+Gambling Activity N=836 n=362 n=474 n=87 n=160 n=155 n=195 n=115 n=124
+% % % % % % % % %
+Lottery Tickets 64.7 63.5 65.6 47.1* 59.4 67.1 73.3 70.4 62.1
+Scratch off Tickets 48.3 36.5 63.5* 58.1 50.9 53.2 45.1 42.6 42.3
+Bingo 12.3 8.6 15.2* 17.4 17.5 10.4 10.3 10.4 9.7
+Sports Betting 3.4 4.7 2.3 8.1* 6.2 2.6 1.5 0.9 2.4
+Horse Race Track
+6.2 6.9 5.7 5.7 3.8 5.8 7.2 11.3 2.4
+Betting
+Live Poker 3.3 7.2* 0.4 3.4 3.1 1.3 6.2 1.7 3.2
+Live Casino Table
+13.5 18.5* 9.7 14.9 23.1* 11.0 11.3 10.4 9.7
+Games
+Other Games of Skill 5.3 7.4* 3.6 16.3* 6.2 5.2 2.6 3.5 2.4
+Gaming Machines 21.1 21.8 20.5 12.6 20.5 22.6 21.5 23.5 22.8
+*p < .02
+Moderate frequency gamblers who gambled once or twice per month endorsed lottery, scratch‐
+offs, gaming machines and live casino play but they participated in those activities at higher rates
+than low frequency gamblers and also endorsed significantly higher percentages of play on games
+of skill and high‐risk stocks (see Table 21).
+As gambling frequency increased, so did the disparity in gender participation, with an increasingly
+higher proportion of men gambling in higher frequency categories (Table 21). Women who
+gambled moderately frequent (once or twice a month) participated more often than men in
+purchasing lottery and instant scratch‐off tickets and playing gaming machines and bingo. Men
+who were moderate frequency gamblers were significantly more likely than women to engage in
+sports betting, live poker, games of skill, and casino table games; a non‐significantly higher
+proportion also bet on horses.
+By age, the youngest moderate frequency gamblers (18‐34) were the most likely to endorse
+playing games of skill and least likely to purchase lottery tickets (Table 21). Among those 65 and
+older, rates of lottery ticket play were consistent with other age groups, however, older adults
+were significantly less likely than other groups to purchase instant scratch‐off tickets and they
+reported the highest rates of play on gaming machines.
+29 | Pa ge
+
+=== page 36 ===
+Table 21. Moderate Frequency Gamblers by Activity, Gender and Age
+Gender Age
+Male Female 18‐24 25‐34 35‐44 45‐54 55‐64 65+
+Gambling
+N=700 n=320 n=381 n=59 n=123 n=175 n=124 n=88 n=133
+Type
+% % % % % % % % %
+Lottery Tickets 80.8 78.4 83.2 61.0* 78.0 85.7 85.5 83.0 79.7
+Scratch off
+62.1 52.4 70.3* 64.4 74.6* 69.7 61.0 55.7 44.7*
+Tickets
+Bingo 13.9 12.5 15.0 16.9 23.0* 13.7 10.5 10.2 9.8
+Sports Betting 7.1 11.3* 3.7 17.2* 18.0* 5.1 4.0 1.1 1.5
+Horse Race
+9.4 10.6 8.4 10.2 9.8 6.9 10.5 17.0 6.1
+Track Betting
+Live Poker 8.4 14.1* 3.7 10.2 16.4* 5.1 8.1 3.4 8.3
+Live Casino
+16.9 21.3* 13.2 13.8 27.9* 17.1 15.3 14.8 10.5
+Table Games
+Other Games
+13.3 16.9* 10.3 25.4* 21.3* 12.6 8.1 4.5 12.1
+of Skill
+Gaming
+29.3 25.0 33.2* 18.6 31.7 24.6 31.5 29.5 36.1
+Machines
+*p < .02
+Nearly all high frequency gamblers (91.1%) played the lottery and 78.3% bought instant scratch‐
+off tickets. Nearly half (41.0%) also endorsed gaming machine play (see Table 22).
+By gender, women who gambled once a week or more were significantly more likely than men
+to buy scratch‐off tickets; these women also endorsed playing gaming machines (42.9%) and
+bingo (30.6%) in high proportions (Table 22). In contrast, men who gambled once a week or
+more were significantly more likely than women to bet on sports (37.3%) or horses (31.3%) and
+to play live casino table games (35.5%) or live poker (25.9%). Over a third of men also endorsed
+gaming machine play (39.9%) but that number was not significantly different from the
+proportion of women playing machines.
+30 | Pa ge
+
+=== page 37 ===
+Table 22. High Frequency Gamblers by Type, Gender and Age
+Gender Age
+Age Age Age Age Age Age
+Gambling Male Female 18‐24 25‐34 35‐44 45‐54 55‐64 65+
+Type N=1000 n=614 n=386 n=98 n=196 n=219 n=198 n=128 n=161
+% % % % % % % % %
+Lottery Tickets 91.1 91.2 90.9 83.7* 92.9 90.4 96.5 91.4 87.5
+Scratch off
+78.3 75.4 82.4* 80.6 88.3 82.1 80.7 72.7 60.9*
+Tickets
+Bingo 29.2 28.2 30.6 49.0* 45.2 34.2 20.7 13.3 13.7
+Sports Betting 29.1 37.3* 16.1 52.0 49.0 35.2 23.2 6.3* 8.1
+Horse Race
+25.8 31.3* 17.1 28.9 38.1 28.9 24.7 16.3 13.8*
+Track Betting
+Live Poker 20.8 25.9* 12.7 33.7 37.8 26.6 14.1 3.9* 5.6
+Live Casino
+30.3 35.5* 22.0 38.8 50.0* 32.4 27.3 17.2 13.0
+Table Games
+Other Games
+27.5 27.7 27.2 47.4* 41.8 32.4 19.2 11.7 13.8
+of Skill
+Gaming
+41.0 39.9 42.9 39.8 55.1* 37.4 38.4 27.3 43.5
+Machines
+*p < .01
+Overall, men were significantly more likely than women to be high frequency gamblers, and
+women were overrepresented in the low frequency group in both the online and phone panels.
+In the phone panel, both men and women were similarly represented in the moderate frequency
+group (Table 23).
+In the phone panel, the 25‐to‐34 age group had the highest percentage of low frequency
+gamblers (56.1%), while 35‐to 44‐year‐olds were overrepresented in the moderate frequency
+group (Table 23). There were no statistically significant differences between age group
+percentages in the online panel; notably, more than 45% of all online panel members across all
+age categories were high‐frequency gamblers.
+By race/ethnicity overall, a significantly higher proportion of Whites, compared to other groups,
+were in the low frequency group (35.2%); those differences remained significant in the online
+panel, where the lowest percentage of high frequency gamblers were White but were non‐
+significant in the phone panel (Table 23). Hispanics were overrepresented among high‐frequency
+gamblers overall, followed by Asian/Other and Black or African American gamblers. Rates of
+gambling were highest among Hispanics followed by Whites in the telephone panel and for
+Hispanics, Black or African Americans, and Asian/Other in the online panels.
+31 | Pa ge
+
+=== page 38 ===
+Table 23. Gambling Frequency by Gender, Age, and Race/Ethnicity
+Frequency Phone Online
+Low Moderate High Low Moderate High Low Moderate High
+Gender
+n=836 n=700 n=1000 n=385 n=281 n=226 n=451 n=419 n=774
+% % % % % % % % %
+Male 27.9 24.7 47.4* 37.8 31.1 31.1* 22.2 20.9 56.8*
+Female 38.1* 30.7* 31.1 49.4* 32.0 18.6 32.6* 30.0* 37.4
+Age
+18‐24 35.7 24.2 40.2 50.8 31.1 18.0 30.2 22.0 47.8
+25‐34 33.5 25.6 40.8 56.1* 25.8 18.2 24.8 25.6 49.6
+35‐44 28.1 31.9 40.0 36.5 40.1* 23.4 24.4 28.3 47.2
+45‐54 37.7 24.0 38.3 47.2 25.9 26.9 31.4 22.5 46.1
+55‐64 34.7 26.6 38.7 41.0 30.6 28.4 30.5 23.9 45.7
+65+ 29.7 31.8 38.5 33.7 35.9 30.4 26.3 28.4 45.3
+Race/
+Ethnicity
+White or
+35.2* 28.0 36.8 42.2 31.6 26.2 31.2* 26.0 42.8*
+Caucasian
+Hispanic 28.6 24.2 47.2* 45.9 25.2 28.9 19.9 24.0 56.2
+Black or Afr.
+28.2 31.8 39.9 39.8 37.4 22.8 20.5 28.1 51.4
+Amer.
+Asian/Other 33.2 25.6 41.2 54.2 37.5 8.3* 26.7 22.0 51.3
+*p < .04
+There were few significant differences in play frequency by income, education or employment
+across groups. Differences that did exist in the overall sample were indicative typically of either
+the phone or online panel but not both.
+32 | Pa ge
+
+=== page 39 ===
+Problem Gambling Severity
+The current study analyzed gambling behavior by frequency of gambling as well as by the severity
+of problem gambling symptoms. All participants in the study completed the Problem Gambling
+Severity Index (PGSI) of the Canadian Problem Gambling Index (Ferris & Wynne, 2001) and were
+grouped according to symptom count into mutually‐exclusive categories; Non‐problem (0
+symptoms), Low Risk (1‐2 symptoms), Moderate Risk (3‐7 symptoms), High Risk (8+ symptoms).
+The PGSI is a problem severity measure developed for use in population prevalence studies,
+therefore, it does not specifically reference psychiatric disorder; however, in treatment studies,
+the “high risk” group is typically correlated with gambling disorder and the low and moderate
+risk groups, in combination, are correlated with sub‐clinical problem gambling.
+Higher frequency levels of gambling in this study were highly correlated with high problem
+gambling severity and number of gambling activities (see Table 24). Nearly half of non‐problem
+gamblers (42.4%) reported gambling less than once per month. However, among the low risk,
+moderate risk, and high risk problem gambling groups, rates of high frequency gambling were
+51.6%, 61.3%, and 89.4% respectively. The number of gambling activities likewise increased
+significantly with level of gambling problem severity: from slightly more than two activities for
+non‐problem, to more than three for low risk, four for moderate risk, and seven for high risk
+problem gamblers.
+Table 24. Problem Gambling Severity by Frequency and Number of Gambling Activities
+Problem Gambling Severity
+Low Risk Moderate Risk High Risk
+Non‐Problem
+Gambling Frequency Problem Problem Problem
+n=1768
+n=320 n=222 n=227
+% % % %
+Low Frequency 42.4* 19.1 9.5 2.2
+Medium Frequency 29.6 29.4 29.3 8.4*
+High Frequency 28.0 51.6 61.3 89.4*
+Total 100.0 100.0 100.0 100.0
+Gambling Activities
+(M/Std)
+# of gambling types 2.21* 3.53* 4.03* 7.41*
+participated in (1.388) (1.786) (2.371) (3.492)
+*p< .008
+Problem Gambling Prevalence
+In both the online and telephone panels, nearly 70% of respondents were non‐problem gamblers,
+though rates differed significantly between panels (Table 25). Respondents in the phone panel
+were significantly more likely than those in the online panel to be non‐problem gamblers (89.7%)
+and significantly less likely to be low‐risk (7.2%), moderate risk (2.6%) or high risk (0.6%) problem
+33 | Pa ge
+
+=== page 40 ===
+gamblers. In contrast, 13.5% of the online sample was in the high risk problem gambling group,
+and over 40% of the panel was at some level of risk for problem gambling.
+Table 25. Gambling Problem Severity by Panel Type (Gamblers Only)
+Problem Gambling Severity
+Moderate
+Non‐ Low Risk High Risk
+Panel Type Risk
+Problem Problem Problem Total
+Problem
+n=1768 n=320 n=227
+n=222
+% % % % %
+Total 69.7 12.6 8.7 9.0 100.0
+Online 58.9 15.6 12.0 13.5 100.0
+Telephone* 89.7 7.2 2.6 0.6 100.0
+*p<.001
+To compare findings from this study to other prevalence studies, low and moderate risk gamblers
+were combined into a “problem” category, and high risk gamblers, endorsing symptoms above
+the clinical cut‐off, were designated as “probable gambling disorder.” As indicated in Table 26,
+the overall rate of high‐risk problem gambling, which best correlates to gambling disorder, was
+6.3% in the overall sample, significantly higher than the average rate in a majority of population
+surveys in the U.S. In addition, 14.9% of the sample reported gambling problems, which is three
+to four times higher than the rate in other studies in the U.S. (Welte et al.., 2015). These findings
+are largely due to the high rate of gambling problems in the online panel sample, which reported
+a rate of 10.5% for probable disorder (high risk problem gambling) and 21.6% for problem
+gambling. In contrast, the rate of serious problem or disorder in the telephone sample was well
+below average, 0.3%, and the problem rate was average, 5.7%.
+Table 26. Comparative Prevalence Rates of Problem Gambling by Combined Risk Level
+Panel Type
+Overall
+Risk Level Online Phone
+N=3634
+n=2108 n=1526
+N % n % n %
+Non‐Gamblers 1091 30.0 460 21.8 631 41.4
+Non‐Problem Gamblers 1774 48.8 971 46.1 803 52.6
+Problem Gamblers
+542 14.9 455 21.6 87 5.7
+(Low/Moderate Risk)
+Probable Disorder
+227 6.3 222 10.5 5 0.3
+(High Risk)
+Further investigation by venue type is presented in Table 27. In the online panel, rates of problem
+and disordered gambling were extremely high. Among those who only gambled online, 14%
+would likely meet criteria for gambling disorder and an additional 40% reported gambling
+problems. Rates were highest, however, in the mixed venue sample, where nearly 37% were
+34 | Pa ge
+
+=== page 41 ===
+disordered gamblers an additional 36% were problem gamblers. Members of the online panel
+who only gambled at land‐based venues reported the lowest rates of gambling disorder (4.5%)
+and problem gambling (23.2%).
+Table 27. Number and Percentage of Gambling Group by Venue: Online Panel Only
+Non‐Problem Problem Gamblers Probable Disorder
+Venue type Gamblers (Low/Mod Risk) (High Risk)
+N % N % N %
+Online Only (n= 98) 45 45.9 39 39.8 14 14.3
+Land‐based Only (n=1116) 807 72.3 259 23.2 50 4.5
+Mixed (Land‐based/Online) (n=431) 116 26.9 156 36.2 159 36.9
+Rates in the phone panel were considerably lower, though some were still significantly above
+average. Those who patronized mixed venues (Table 28) reported elevated rates of gambling
+disorder (3.6%) and problem gambling (19.6%). Among online‐only patrons, 2.8% likely met
+criteria for disorder, which was in line with other studies, but 27.8% were problem gamblers, a
+figure that is in the high range. Land‐based only gamblers had low levels of gambling disorder
+0.3% and moderate rates of problem gambling (8.3%) in the phone panel.
+Table 28. Number and Percentage of Gambling Group by Venue: Phone Panel Only
+Non‐Problem Problem Gamblers Probable Disorder
+Venue type Gamblers (Low/Mod Risk) (High Risk)
+N % N % N %
+Online Only (n= 36)
+25 69.4 10 27.8 1 2.8
+Land‐based Only
+731 91.5 66 8.3 2 0.3
+(n=799)
+Land‐based/Online
+43 76.8 11 19.6 2 3.6
+(n=56)
+Frequency and Problem Severity by Demographic Variables
+As indicated in Table 29, each region of the state had a proportionate share of non‐problem, low
+risk, moderate risk, and high risk problem gamblers. However, by venue, high risk gamblers were
+overrepresented among those who engaged in both online and land‐based (mixed venue)
+gambling, whereas a significantly higher proportion of non‐problem and low risk problem
+gamblers preferred land‐based venues only. The moderate risk group had the highest proportion
+of online‐only gamblers and a higher proportion of land‐based versus mixed venue gamblers,
+though the differences were non‐significant.
+35 | Pa ge
+
+=== page 42 ===
+Table 29. Problem Gambling Severity by Region and Venue Preference
+Problem Gambling Severity
+Low Risk Moderate Risk High Risk
+Non‐Problem
+Region Problem Problem Problem
+n=1768
+n=320 n=222 n=227
+% % % %
+Greater Atlantic City 2.7 2.5 5.7 6.7
+Delaware River 18.6 17.8 14.2 23.1
+Gateway 45.9 49.2 53.7 47.1
+Shore 15.6 11.2 11.1 7.1
+Skyland 14.0 16.2 13.1 12.0
+Southern Shore 3.2 3.1 2.3 4.0
+Total 100.0 100.0 100.0 100.0
+Venue
+Online 4.0 8.1 10.9* 6.6
+Land‐Based Only 87.0* 65.6* 52.0 22.5
+Online and Land‐
+9.0 26.3 37.1 70.9*
+Based
+Total 100.0 100.0 100.0 100.0
+*p < .001
+By gender, men averaged more gambling activities than women (3.4 v 2.6) and were
+overrepresented in the low risk, moderate risk and high risk problem gambling categories;
+women comprised a larger proportion of non‐problem gamblers (Table 30).
+Overall, there was proportionate representation across all age categories except for the two
+oldest categories (Table 30). Only 7.7% of moderate risk problem gamblers were 55 to 64‐years‐
+old and only 3.1% of 55 to 64‐year‐olds were in the high risk problem gambling category.
+Similarly, only 9% of moderate risk gamblers and 0.9% of high risk problem gamblers were 65
+years and older, the lowest proportion of any age category.
+36 | Pa ge
+
+=== page 43 ===
+Table 30. Problem Gambling Severity by Gender and Age
+Problem Gambling Severity
+Gam. Forms Non‐Problem Low Risk Problem Moderate Risk High Risk
+Gender (M/Std) n=1768 n=320 Problem Problem
+n=222 n=227
+% % % %
+3.37*
+Male 46.5 56.9* 61.7* 69.2*
+(2.696)
+2.61
+Female 53.5* 43.1 38.3 30.8
+(1.896)
+Total 100.0 100.0 100.0 100.0
+Age
+2.18
+18‐24 6.9 13.4 14.9 19.6
+(1.386)
+2.19
+25‐34 14.8 23.1 26.6 37.8
+(1.300)
+2.19
+35‐44 20.9 18.1 25.7 28.0
+(1.396)
+2.13
+45‐54 21.8 22.5 16.2 10.7
+(1.476)
+1.91
+55‐64 15.6 10.0 7.7* 3.1*
+(1.024)
+1.97
+65+ 20.0 12.8 9.0* 0.9*
+(1.168)
+Total 100.0 100.0 100.0 100.0
+*p < .03
+There were significant findings by race/ethnicity (see Table 31). Whites made up the largest
+proportion of the sample. However, proportionately, Hispanics were significantly
+overrepresented in the high risk problem gambling group (16.2%), followed by Asian/Others
+(14.1%). Overall, Whites were significantly more likely than other groups to be classified as non‐
+problem gamblers and Black/African Americans were significantly more likely than other groups
+to be classified as low risk problem gamblers.
+A majority of gamblers across all levels of gambling frequency and severity were married or living
+with a partner (Table 31). High risk problem gamblers were significantly less likely to be
+divorced/separated/widowed than other groups. In contrast, moderate risk problem gamblers
+were more likely to be single/never married than to be married or divorced, separated or
+widowed. Low Risk and Non‐Problem gamblers were proportionately represented across the
+marital categories.
+37 | Pa ge
+
+=== page 44 ===
+Table 31. Percentage by Race of Each Problem Severity Group
+Problem Gambling Severity
+Low Risk Moderate High Risk
+Race/Ethnicity Non‐Problem Problem Risk Problem Total
+Problem
+n=1768 n=320 n=222 n= 227
+% % % % %
+White or Caucasian 76.1* 11.8 6.5 5.7 100.0
+Hispanic 61.1 10.1 12.6 16.2* 100.0
+Black or African American 60.4 18.5* 10.4 10.7 100.0
+Asian/Other 54.5 16.7 14.6 14.1 100.0
+Marital Status
+100.0
+Married or living with partner 70.4 11.9 7.9 9.8
+Divorced, separated or 100.0
+75.9 12.7 5.6 5.8*
+widowed
+Single/never married 64.9 14.1 12.7* 8.3 100.0
+*p < .02
+There were few notable differences by household income across levels of problem gambling
+severity (Table 32). The highest percentage of those making less than $15,000 per year were high
+risk problem gamblers (6.6%) but that proportion was not significantly different from low risk
+problem gamblers (5.3%) with the second highest rates. Individuals in the highest income
+category, $150,000 or more, were more likely than those in other income categories to be non‐
+problem gamblers (12.7%) and less likely to be in the high risk problem gamblers (5.3%), but
+responses regarding household income do not indicate the role, if any, of gambling losses or wins
+in the income calculation or what proportion of monetary income comes from the gambler.
+In terms of education, problem gambling severity had a bimodal distribution: Gambling problems
+occurred across the spectrum of education levels, however, problem gamblers were significantly
+more likely than other groups to have less than a high school education or GED, but they were
+also overrepresented among those with professional and doctorate degrees in the online panel
+only (Table 32).
+38 | Pa ge
+
+=== page 45 ===
+Table 32. Problem Severity Groups by Household Income Category and Education Level
+Problem Gambling Severity
+Moderate
+Low Risk High Risk
+Household Income Non‐Problem Risk
+Problem Problem
+n=1768 Problem
+n=320 n=227
+n=222
+% % % %
+<= $15,000 4.0 5.3 4.1 6.6
+$15,000 ‐ $29,999 8.0 7.5 15.3 8.8
+$30,000 ‐ $49,999 12.0 19.1 15.8 11.9
+$50,000 ‐ $69,999 15.0 18.1 20.3 22.0
+$70,000 ‐ $99,999 18.2 18.8 18.5 19.8
+$100,000 ‐ $124,999 11.7 11.6 9.0 17.2
+$125,000 ‐ $149,999 7.0 4.7 4.5 6.2
+$150,000 or more 12.7* 9.7 7.7 5.3*
+Prefer not to answer 11.3 5.3 5.0 2.2
+Total 100.0 100.0 100.0 100.0
+Education
+Less than High School or GED 1.3 3.5 3.6 6.2*
+High School Diploma or GED 19.5 21.1 17.5 17.3
+Some College < 1 year 7.5 11.0 12.6 10.6
+Some College > 1 year 12.1 13.2 9.4 7.5
+Associate’s Degree 9.4 6.9 7.2 9.7
+Bachelor’s Degree 30.4 30.5 29.1 22.1
+Master’s Degree 14.0 9.7 12.6 14.6
+Professional Degree 2.7 2.5 4.9* 6.2*
+Doctorate Degree 2.0 0.9 2.2 3.5
+Refused 1.0 0.6 0.9 2.2
+Total 100.0 100.0 100.0 100.0
+*p<.002
+As expected, high risk problem gamblers had higher rates of engagement with gambling across
+all activities, ranging from a high of 95.2% for lottery to 55.9% for live poker (see Table 33). In
+general, gambling participation increased across levels of problem gambling severity, except
+between low and moderate risk gamblers, where there were non‐significant differences in the
+proportions playing lottery, scratch‐offs, gaming machines, casino table games and live poker.
+Within problem severity categories, a significantly higher proportion of high risk problem
+gamblers, compared to other gamblers, gambled on all gambling activities (Table 33). Similarly,
+non‐problem gamblers had the lowest overall rates of participation across activities.
+39 | Pa ge
+
+=== page 46 ===
+Participation rates generally followed an increasing linear tend from non‐problem to high risk,
+except for live casino table games and gaming machines, where low risk reported higher rates of
+participation than moderate risk problem gamblers.
+Table 33. Participation in Activities by Level of Problem Gambling Severity
+Problem Gambling Severity
+Low Risk Mod. Risk High Risk
+Gambling Activity Non‐Problem* Problem Problem Problem*
+n=1768 n=320 n=222 n=227
+% % % %
+Lottery 76.5 83.4 83.3 95.2
+Scratch off 55.5 79.1 80.2 92.1
+Gaming Machines 23.6 43.6 38.3 65.6
+Live Casino Table games 13.0 31.3 27.6 62.8
+Sports betting 4.9 18.4 31.1* 68.3
+Horse Race Track betting 8.7 14.4 21.2 57.1
+Other Games of Skill 9.1 17.5 26.1 60.8
+Bingo 12.1 18.8 31.5 65.2
+Live Poker 4.8 14.3 16.2 55.9*
+*p<.002
+Table 34 further examines activities by the percentage of each gambling group endorsing
+participation in activities. High risk gamblers represented only 8.9% of all gamblers, however,
+they constituted 43.2% of all live poker player, 41.9% of all sports betters, 34.3% of horse race
+track betters, and 33.5% of those playing games of skill; high risk gamblers reported the highest
+rates of participation of any group on all activities except for scratch‐offs..
+40 | Pa ge
+
+=== page 47 ===
+Table 34. Gambling Activity Preferences by Level of Problem Gambling Severity
+Problem Gambling Severity
+Low Risk Mod. Risk High Risk
+Gambling Activity Non‐Problem Problem Problem Problem
+n=1768 n=320 n=222 n=227 Total
+% % % % %
+Lottery 66.9 13.2 9.2 10.7* 100.0
+Scratch off 60.5* 15.6 11.0 12.9 100.0
+Gaming Machines 52.7 17.7* 10.7 18.8* 100.0
+Live Casino Table games 43.2 18.8* 11.4 26.6* 100.0
+Sports betting 23.5 15.9 18.6* 41.9* 100.0
+Horse Race Track
+41.0 12.2 12.5 34.3* 100.0
+betting
+Other Games of Skill 38.8 13.6 14.1 33.5* 100.0
+Bingo 43.5 12.2 14.2 30.1* 100.0
+Live Poker 28.9 15.6 12.2 43.2* 100.0
+*p<.001
+Finally, the analyses investigated: (a) whether there were notable differences in activity
+preferences based on venue and level of problem gambling severity; and (b) whether mean
+scores among the three groups indicated where the differences were most pronounced.
+Table 35 demonstrates the percentage of moderate and high risk problem gamblers that play
+each activity by venue. For example, 16.3% of those who play the lottery are high risk‐gamblers
+who only gamble online, compared to only 3.0% in the land‐based sample but 37.6% in the mixed
+venue sample. Overall, a higher proportion of high risk problem gamblers in the mixed venue
+group gambled on lottery, scratch‐offs, sports betting, horse track betting, and other games of
+skill, though rates were statistically similar to the online‐only group for live poker, live casino
+table games, and gaming machines.
+Gamblers who only played online had the highest rates of participation in bingo and high rates
+similar to mixed venue gamblers on gaming machines, live table games, and live poker. In
+contrast, high risk gamblers in the land‐based only sample had significantly lower rates of
+participation in every game except for sports betting, where nearly 22% of the sample reporting
+participation. Among moderate risk problem gamblers, online‐only players had slightly higher
+rates of participation compared to online/land‐based gamblers on lottery, scratch‐off, gaming
+machines, other games of skill and bingo, and significantly higher rates of sports betting and race‐
+track betting. In this category as well, moderate risk problem gamblers who only gambled at
+land‐based venues had significantly lower rates of participation in all activities except sports
+betting, other games of skill, and live poker, though they reported the lowest rates for those as
+well.
+41 | Pa ge
+
+=== page 48 ===
+Table 35. Activity by Venue Type and Risk Group
+Venue Type
+Group 1: Online Only Group 2: Land‐Based Only Group 3: Online and
+Land‐Based
+Gambling Activity Moderate
+Moderate Moderate
+Risk High Risk Risk High Risk Risk High Risk
+Problem Problem Problem Problem Problem Problem
+n=24 n=15 n=115 n=52 n=82 n=161
+% % % % % %
+Lottery 20.9 16.3 6.6* 3.0* 15.8 37.6*
+Scratch off 19.1 17.6 8.2* 4.0* 18.1 37.9*
+Gaming Machines 15.0 40.0 8.5* 6.1* 14.8 41.8
+Live Casino Table games 28.6 35.7 7.7* 8.1* 15.2 48.1
+Sports betting 32.6* 18.6 14.6 21.9 17.8 54.3*
+Horse Race Track betting 25.0* 28.6 8.1* 11.8* 14.4 54.5*
+Other Games of Skill 14.3 21.4 13.1 12.0* 14.8 52.9*
+Bingo 23.1 53.8 8.9* 8.9* 19.0 51.5
+Live Poker 6.3* 43.8 10.2 18.4* 13.8 56.4
+*p<.001
+42 | Pa ge
+
+=== page 49 ===
+Other Gambling‐Related Activities:
+High Risk Stocks and Daily Fantasy Sports
+A majority of activities listed in this study are historically classified and widely accepted as
+“gambling,” because they involve spending money on activities with an uncertain outcome and
+the possibility of winning or losing that can result in harm. However, other activities elude
+precise classification and are largely context and jurisdiction‐dependent. Stock trading, for
+example, is traditionally viewed as a skill‐based investment, focused on compounding earnings
+over time. The advent of day‐trading, however, shifted the focus from investment to the
+exciting and immediate activity of taking greater, short term financial risks on options and
+futures for the potential of larger payouts but also larger losses. Similarly, traditional fantasy
+sports games were originally season‐long competitions based on the actual performance of
+players and were exempted from the Unlawful Internet Gambling Enforcement Act of (2006)
+(UIGEA) because they relied in large measure on the knowledge and skill of the players. However,
+similar to day trading, daily fantasy sports have recently allowed players to change players, teams
+and sports on a daily basis, shifting the focus largely from skill to chance. Both of the activities
+are examples of the continuum between pure skill games like chess and those that are wholly
+dependent on random chance, such as bingo. Given the lack of consensus over where high risk
+stocks and daily fantasy sports fall in the gambling spectrum, they are included in this study in a
+separate section.
+High Risk Stocks
+About 5% of gamblers (n=135) indicated they bet on high risk stocks, options and/or futures once
+a week or more; 2.4% (n=110) did so once or twice a month and 4.6% (n=117), less than once per
+month. Nearly 15% of men and 5.2% of women in the survey endorsed high risk stocks. A
+majority of those for both genders were in the 25 to 34 age group (22.3% of men, 9.9% of
+women). Online gamblers were the least likely to endorse high risk stocks. About 8.6% of high
+risk compared to 10.3% of moderate risk problem online gamblers indicated they traded high risk
+stocks, options and/or futures. In contrast, a significantly higher percentage of land‐ based
+(moderate risk=11.3%; high risk=23.8%) and mixed venue (online and land‐based) moderate risk
+(14.2%) and high risk (46.2%) gamblers indicated they traded high risk stocks, options, and/or
+futures. By level of problem gambling severity, about 8.8% of men and 3.6% of women who
+endorsed high risk stocks were non‐problem gamblers, 16.3% and 6.6%, respectively, were low‐
+risk gamblers, and 29.6% of men and 14.0% of women were high risk problem gamblers
+Daily Fantasy Sports
+A total of 336 respondents endorsed participation in daily fantasy sports (DFS) in the past year
+(see Table 36). Of those, only seven respondents, all male, said they played only daily fantasy
+sports and did not otherwise gamble. All of the women who played daily fantasy sports also
+gambled on other activities.
+43 | Pa ge
+
+=== page 50 ===
+In every region, a majority of those who played DFS gambled at mixed venues, followed by land‐
+based only and online only (see Table 35). As expected, the highest proportion of those who
+played DFS – 50.3% of players in the sample – lived in the Gateway Region, followed by Delaware
+River (15.2%) and Skyland (12.8%) regions. Across regions, between 51% and 65.2% of DFS
+players who gambled did so in mixed venues. The Greater Atlantic City region registered the
+lowest percentage of DFS players gambling at land‐based venues (21.7%) and the highest
+percentage of respondents in any region (13.0%) who gambled solely online.
+Men who played DFS outnumbered women four‐to‐one (Table 36). Among the 70 female DFS
+players, more than half indicated they gambled at mixed venues, though a high proportion of
+women endorsed land‐based only gambling (37.1%) as compared to men (27.4%), who were
+slightly more likely to gamble only online (9.8% versus 8.6%, ns).
+Table 36. DFS Players Who Gamble By Region and Venue
+DFS Players Who Gamble by Venue
+N=329
+DFS Players
+Online & Land‐
+N=336 Online Land‐Based
+Region Based
+% n % n % n % n
+Greater
+6.8 23 13.0 3 21.7 5 65.2 15
+Atlantic City
+Delaware
+15.2 51 7.7 4 26.9 14 65.4 34
+River
+Gateway 50.3 169 10.1 17 29.0 49 60.9 103
+Shore 9.8 33 12.1 4 36.4 12 51.5 17
+Skyland 12.8 43 9.3 4 32.6 14 58.1 25
+Southern
+5.1 17 5.6 1 33.3 6 61.1 11
+Shore
+Gender
+Male 79.1* 266 9.8 26 27.4 73 62.8 167
+Female 20.8 70 8.6 6 37.1 26 54.3 38
+*p < .05
+By gambling activity, 90.5% of DFS players indicated they bought lottery tickets and 83.6%
+purchased instant scratch‐off tickets (Table 37). More than half of the sample of DFS players
+gambled on gaming machines (56.4%), bingo (51.6%), live casino table games (57.4%), other
+games of skill (52.4%), sports (62.6%), and horses (51.3%). Slightly under half of the daily fantasy
+players traded high risk stocks or played poker. By gender, the proportions were similar, though
+women were significantly more likely to play bingo (63.4%) than men (48.5%) and to purchase
+scratch‐off tickets (91.4% vs 81.6%).
+44 | Pa ge
+
+=== page 51 ===
+Table 37. DFS Players Who Gamble by Activity and Gender
+Gender
+Activity
+Total % N Male% N Female% N
+Lottery 90.5 306 89.5 239 94.4 67
+Scratch off 83.6 281 81.6 217 91.4* 64
+Gaming
+56.4 190 53.9 144 65.7 46
+Machines
+Bingo 51.6 174 48.5 129 63.4* 45
+Live Casino
+57.4 193 58.3 155 54.3 38
+Table games
+Other Games
+52.4 176 50.8 135 58.6 41
+of Skill
+Sports betting 62.6 211 63.7 170 58.6 41
+Horse Race
+51.3 173 50.6 135 54.3 38
+Track betting
+High Risk
+48.5 163 48.1 128 50.0 35
+Stocks
+Live Poker 47.8 161 46.8 125 51.4 36
+*p < .05
+By gambling problem severity, nearly all of the DFS players who were also high risk problem
+gamblers gambled once a week or more often (95% high frequency), followed by once or twice a
+month (5.0% medium frequency); none were low‐frequency gamblers (Table 38). Indeed, across
+categories, DFS players who gambled were mostly in the high frequency group (69.6% to 95.0%),
+with only 1.7% of the moderate risk, 10.7% of the low risk, and 3.5% of the non‐problem gambling
+groups indicating they gambled less than once per month (low frequency).
+Table 38. DFS players by Gambling Problem Severity and Gambling Frequency
+Problem Gambling Severity
+(N=336)
+Non‐ Low Risk Moderate High Risk
+Frequency Problem Problem Risk Problem Problem
+Group n=84 n=56 n=58 n=139
+% % % %
+Low(n=10) 3.5 10.7 1.7 0.0
+Moderate(n=44) 17.9 19.6 17.2 5.0
+High (n=283) 78.6* 69.6* 81.0* 95.0*
+*p < .001
+45 | Pa ge
+
+=== page 52 ===
+By age, more than 61% of DFS players were ages 25 to 44, with less than 6% of players aged 55
+and older(Table 39). Older players tended to gamble only online or only in land‐based venues,
+while a majority of younger players indicated they gambled in mixed venues.
+Table 39. DFS Players by Age and Venue Preference
+DFS Players Who Gamble by Venue
+Age DFS Players
+Range Online Land‐Based Online & Land‐Based
+%Yes n %Yes N %Yes n %Yes n
+18‐24 16.6 56 12.5 7 25.0 14 62.5 35
+25‐34 33.5 113 8.8 10 26.5 30 64.6 73
+35‐44 27.6 93 8.7 8 23.9 22 67.4 62
+45‐54 16.6 56 3.6 2 41.4 23 55.4 31
+55‐64 3.6 12 33.3 4 50.0 6 16.7 2
+65+ 2.1 7 14.3 1 71.4 5 14.3 1
+*p <.002
+As indicated in Table 40, Whites made up the greatest proportion of DFS players, about 40%,
+however 32% of players were Hispanic, which was a significant proportion based on the lower
+representation of Hispanics in the sample. A majority of DFS players were married or living with
+a partner (62.7%). More than 46% of DFS players had a Bachelor’s or Master’s degree, though
+16% of players had only a high school degree or GED.
+Table 40. DFS Players by Race/Ethnicity, Marital Status, and Education
+DFS Players DFS Players
+Race/Ethnicity % n Education % n
+White or Caucasian 40.9 138 Less than High School or GED 3.8 13
+Hispanic 32.0* 108 High School Diploma or GED 16.0 54
+Black or African American 12.8 43 Some College < 1 year 8.6 29
+Asian/Other 14.2 48 Some College > 1 year 10.4 35
+Associate’s Degree 9.2 31
+Marital Status % n Bachelor’s Degree 32.2 109
+Married or living with
+62.7 210 Master’s Degree 13.9 47
+partner
+Divorced, separated, or Professional Degree beyond
+8.4 28 2.7 9
+Widowed Bachelor’s
+Single (never married) 29.0 97 Doctorate Degree 2.7 9
+Refused 0.6 2
+*p < .05
+46 | Pa ge
+
+=== page 53 ===
+DFS players were most likely to be in the middle income brackets, reporting a household
+income between $50,000 and $99,999(Table 41). About two‐thirds of DFS players were
+employed for wages, with an additional 10.1% being self‐employed. Only one‐fourth of the
+DFS players were out of work, outside the workforce, unable to work, or retired.
+Table 41. DFS Players by Household Income and Employment Status
+DFS Players DFS Players
+Household
+Income % n Employment % n
+<= $15,000* Employed for
+4.5 15 66.0 223
+wages*
+$15,000 ‐ $29,999
+7.4 25 Self‐employed 10.1 34
+$30,000 ‐ $49,999 Out of work > 1
+13.6 46 3.0 10
+year
+$50,000 ‐ $69,999 Out of work < 1
+21.1 71 2.1 7
+year
+$70,000 ‐ $99,999
+22.3 75 A Homemaker 5.3 18
+$100,000 ‐
+12.8 43 A Student 7.1 24
+$124,999
+$125,000 ‐
+8.0 27 Retired 2.7 9
+$149,999
+$150,000 or more 8.0 27 Unable to Work 1.5 5
+Prefer not to Prefer not to
+2.4 8 2.4 8
+answer answer
+*p<.003
+Table 42 presents a comparison of substance use, addictive behaviors, and mental health
+issues between gamblers who played and did not play DFS. Overall, only 15.3% of gamblers
+indicated they played daily fantasy sports. Those who did play, however, had significantly
+more addiction and mental health issues than non‐DFS gamblers. For example, DFS players
+were twice as likely as other gamblers to use tobacco (54.7% vs 26.3%) and to binge drink
+(34.7% v 17.0%), four times as likely to use illicit drugs (32.4% v. 8.6%), and nearly 10 times
+as likely to endorse problems with drugs or alcohol. They were also more likely to use alcohol
+(82.7% v. 75.5%).
+Behaviorally, DFS players were more than twice as likely as other gamblers to endorse
+problems with overeating, nearly four times more likely to have problems with sex and
+pornography, and five times more likely to exercise excessively. More than one‐fourth of DFS
+players reported serious mental health issues in the past 30 days, twice as many as other
+gamblers. Notably, 13.9% of DFS players reported suicidal ideation, compared to just 1.8%
+47 | Pa ge
+
+=== page 54 ===
+of other gamblers; 9.2% of DFS players indicated they had attempted suicide, compared to
+0.5% of other gamblers.
+Table 42. DFS and non‐DFS Gamblers by Substance Use, Addictive Behaviors, Mental Health
+DFS Gamblers Non‐DFS Gamblers
+N=336 N=2194
+Substance/
+Behavior % N % n
+Tobacco Use 54.7* 185 26.3 576
+Consumed alcohol 82.7* 277 75.5 1656
+Binge Drinker 34.7* 117 17.0 374
+Used Illicit Drugs 32.4* 107 8.6 188
+Problems with Drugs
+22.1* 73 2.5 55
+or Alcohol
+Addictive Behaviors
+Over Eating 11.8* 40 5.7 125
+Sex or Pornography 8.8* 30 2.3 50
+Exercise 5.0* 17 0.9 20
+Shopping 1.8 6 0.8 17
+Internet Chat Rooms 1.2 4 0.0 0
+Video or Online
+1.8 6 0.5 10
+Gaming
+Mental Health
+Serious Mental Health
+6.0 20 5.8 127
+Issues (Past year)
+Serious Mental Health
+26.3* 86 12.2 263
+Issues (Past 30 days)
+Suicidal Ideation 13.9 46 1.8 40
+Suicide Attempt 9.2* 31 0.5 11
+*p <.004
+48 | Pa ge
+
+=== page 55 ===
+Substance Use, Addictive Behaviors
+and Other Mental Health Issues
+The study examined the relationship of gambling status to substance use, behavioral addictions,
+and mental health problems in the overall sample. As indicated in Table 43, gamblers were
+significantly more likely than non‐gamblers to use tobacco, alcohol, and illicit drugs as well as to
+binge drink and report problems with drugs or alcohol. More than three‐fourths of gamblers
+drank, and nearly 20% admitted to binge drinking. They were also significantly more likely to
+report problems with overeating, sex or pornography and/or excessive exercise. By venue,
+those who gambled at mixed venues reported significantly higher rates of tobacco use, binge
+drinking, illicit drug usage, problems with drugs or alcohol, overeating and sex or pornography.
+Mixed venue gamblers also reported the highest rates of suicidal ideation (9.6%) and suicide
+attempts (6.0%), followed by those who only gambled online (6.1%, 3.7%, respectively). Those
+who gambled in land‐based venues only had significantly lower rates of problems with exercise,
+serious mental illness in the past 30 days, and suicidal ideation.
+Table 43. Substance Use, Addictive Behaviors, Mental Health by Gambling and Venue
+Venue Type
+Substance/ Gambling Status Online &
+Behavior Online Land‐Based Land‐Based
+Gambler Non‐Gambler
+%(n) %(n) % n % n % n
+n=2536 n=1098 n=134 n=1915 n=487
+Tobacco Use 30.0 (760)* 14.5 (159) 29.9 40 25.6 489 47.7* 232
+Consumed
+76.4 (1933)* 59.8 (654) 79.9 107 75.5 1442 79.0 384
+alcohol
+Binge Drinker 19.9 (489)* 7.8 (84) 20.3 27 15.1 289 35.9* 175
+Used Illicit Drugs 11.7 (295)* 5.8 (63) 14.9 20 7.9 150 26.1* 126
+Problems with
+5.1 (128)* 0.8 (9) 9.1 12 2.3 44 14.9* 72
+Drugs or Alcohol
+Behavioral
+Addictions
+Over Eating 6.5 (165)* 5.7 (63) 8.1 11 5.5 105 10.0* 49
+Sex or
+3.2 (80)* 0.7 (8) 2.2 3 2.1 40 7.6* 37
+Pornography
+Exercise 1.5 (37)* 0.9 (10) 3.7 5 0.7* 14 3.9 19
+Shopping 0.9 (23) 0.6 (7) 1.5 2 0.6 12 1.8 9
+Internet Chat
+0.2 (4) 0.2 (2) 0.0 0 0.0 0 0.2 4
+rooms
+Video or Internet
+Gaming 0.6 (16) 0.1 (1) 0.0 0 0.3 6 2.0 10
+49 | Pa ge
+
+=== page 56 ===
+Mental Health
+Serious Mental
+health Issues 5.8 (147) 6.3 (69) 5.7 8 6.7 108 6.0 32
+(Past Year)
+Serious Mental
+Health Issues 14.1 (349) 13.1 (141) 18.3 24 11.8* 222 21.9 103
+(Past 30 days)
+Suicidal Ideation 3.4 (86) 2.0 (22) 6.1 8 1.7* 32 9.5 46
+Suicide Attempt 1.7 (42)* 0.3 (3) 3.7 5 0.4 8 6.0* 29
+*p < .002
+By level of problem gambling severity, high risk problem gamblers had the highest rates of
+tobacco use (69.6%), binge drinking (39.8%), illicit drug usage (45.0%), and problems with drugs
+or alcohol (33.0%), overeating (15.4%), sex or pornography (11.4%) and excessive exercise (6.1%)
+(see Table 44). High risk problem gamblers were also significantly more likely than other groups
+to report serious mental health problems in the past month (42.7%), suicidal ideation (20.3%)
+and suicide attempts (15.4%). The rates of suicidality, which increase with gambling problem
+severity, are particularly notable when compared to those for non‐problem gamblers, where only
+1.2% reported contemplating and 0.2% reported attempting suicide.
+Table 44. Substance Use, Addictive Behaviors, Mental Health Status: Problem Gambling Severity
+Problem Gambling Severity
+Substance/ Non‐Problem Low Risk Moderate Risk High Risk
+Behavior Gambler Problem Problem Problem
+n=1767 n=320 n=222 n=227
+% n % n % n % n
+Tobacco User 22.1 390 34.8 111 45.9 102 69.6* 158
+Consumed alcohol 75.8 1337 80.5 256 77.0 171 75.4 169
+Binge Drinker 14.3* 252 26.9 86 28.8 64 39.8* 90
+Used Illicit Drugs 6.6* 116 15.5 49 14.5 32 45.0* 99
+Problems with
+1.5 27 3.5 11 8.2 18 33.0* 73
+Drugs or Alcohol
+Behavioral
+Addictions
+Over Eating 4.7 83 8.1 26 9.5 21 15.4* 35
+Sex or
+1.5 27 3.4 11 7.2 16 11.4* 26
+Pornography
+Exercise 0.9 16 0.3 1 2.7 6 6.1* 14
+Shopping 0.6 10 0.6 2 2.3 5 2.2 5
+Internet Chat
+0.0 0 0.0 0 0.0 0 1.8 4
+Rooms
+Video or Internet
+0.1 1 0.6 2 2.3 5 3.9 9
+Gaming
+50 | Pa ge
+
+=== page 57 ===
+Mental Health
+Serious Mental
+health Issues (Past 4.9 86 8.9* 28 9.6 21 5.4 12
+Year)
+Serious Mental
+Health Issues 9.9 173 14.6 46 18.4 39 42.7* 91
+(Past 30 days)
+Suicidal Ideation 1.2 22 2.5 8 5.0 11 20.3* 45
+Suicide Attempt 0.2 3 0.3 1 1.4 3 15.4* 35
+*p < .001
+As noted in Table 45, a significantly higher proportion of men who gambled compared to women
+reported using tobacco (35.7% v 24.1%), drinking alcohol (79.55 v. 73.3%), binge drinking (21.2%
+v 17.5%), using illicit drugs (14.7% v 8.7%) and having problems with drugs or alcohol (6.4% v
+3.7%), sex or pornography (4.9% v 1.3%). In contrast, women were more likely to report
+problems with overeating (7.1% v 5.9%) and serious mental health issues in the past 30 days
+(15.6% v 12.6). While rates of suicidal ideation were similar between men (3.7%) and women
+(3.1%), men reported a significantly higher rate of suicide attempts (1.2% v 0.4%)
+There were minimal between‐group differences by age (Table 45). Overall, gamblers in the
+youngest age group (18 to 24) had the highest rates of illicit drug usage and problems with sex
+and pornography. They also reported the highest rates of suicidal ideation (7.6%) and suicide
+attempts (4.1%) followed by the next youngest group (25 to 34), whose rates were 5.4% for
+ideation and 3.5% for attempts.
+Table 45. Substance Use, Addictive Behavior, Mental Health by Gender and Age
+Gender Age
+Gamblers
+Substance/ Only Male Female 18‐24 25‐34 35‐44 45‐54 55‐64 65+
+Behavior N=2531 n=1294 n=1237 n=399 n=654 n=761 n=690 n=471 n=654
+% % % % % % % % %
+Tobacco Use 760 35.7* 24.1 32.1 38.2 34.1 30.8 26.7 15.9*
+Consumed alcohol 1933 79.5* 73.3 69.2 81.6 79.9 79.7 76.4 66.3*
+Binge Drinker 492 21.2* 17.5 25.9 25.9 23.0 20.3 12.4 7.9*
+Used Illicit Drugs 295 14.7* 8.7 27.1* 20.3 12.0 8.7 5.7 1.2
+Problems with Drugs or
+128 6.4* 3.7 8.8 8.9 7.4 2.9 2.4 0.2*
+Alcohol
+Behavioral Addictions
+Over Eating 165 5.9 7.1* 7.8 8.8 7.6 4.8 6.6 3.9*
+Sex or Pornography 80 4.9* 1.3 7.4* 6.1 2.4 3.1 0.6 0.5
+51 | Pa ge
+
+=== page 58 ===
+Exercise 37 1.9 1.0 3.3 1.9 2.4 0.6 0.6 0.5
+Shopping 22 0.5 1.2 2.5 1.0 1.3 0.4 0.3 0.5
+Internet Chat Rooms 4 0.3 0.0 0.4 0.2 0.4 0.0 0.0 0.0
+Video or Internet
+16 0.9 0.3 2.1 0.2 0.9 0.4 0.0 0.5
+Gaming
+Mental Health
+Serious Mental health
+147 5.4 6.4 8.8 7.2 5.7 5.5 4.0 4.8
+Issues (Past Year)
+Serious Mental Health
+349 12.6 15.6* 19.9 18.7 17.5 12.1 10.9 5.9*
+Issues (Past 30 days)
+Suicidal Ideation 86 3.7 3.1 7.6* 5.4 3.7 1.8 1.5 1.7
+Suicide Attempt 42 1.2* 0.4 4.1 3.5 2.2 0.4 0.3 0.0*
+*p < .05
+By race/ethnicity, Hispanic gamblers reported the highest rates of tobacco use (40.3%) and
+alcohol use (80.1%), binge drinking (28.2%), illicit drug use (20.9%), problems with drug or
+alcohol use (11.9%) and sex and pornography (6.3% (Table 46)). In addition, Hispanics were
+significantly more likely than all other groups to report experiencing a serious mental health
+issue in the past 30 days (19.2%), along with suicidal ideation (6.8%) and suicide attempts (4.8%).
+One in four Asian/other respondents also reported binge drinking and reported the highest rate
+of problems with exercise, though this group had the lowest rates of problems with overeating.
+Differences by marital status were more complex. Married or cohabitating gamblers had the
+highest rates of alcohol consumption (79.8%); single/never married respondents endorsed the
+highest percentages of illicit drug usage and problems with overeating, sex and pornography,
+and excessive shopping (Table 46). Divorced, separated or widowed participants had the lowest
+overall rates across most of these behaviors.
+52 | Pa ge
+
+=== page 59 ===
+Table 46. Substance Use, Addictive Behavior, Mental Health: Race/Ethnicity and Marital
+Status
+Race/ Ethnicity (Gamblers Only) Marital Status(Gamblers Only)
+Married Divorced,
+Single/
+Black/ or living separated
+never
+Substance/ Behavior White/ African Asian/ with or
+married
+Caucasian Hispanic American Other partner widowed
+n=959
+n=2178 n=687 n=448 n=307 n=2096 n=550
+%
+% % % % % %
+Tobacco Use 26.1 40.3* 35.2 28.3 28.4 33.6 32.1
+Consumed Alcohol
+77.5 80.1* 66.4 74.9 79.8* 67.3 73.7
+Binge Drinker 16.8 28.2* 15.6 25.1* 19.4 15.1* 22.2
+Used Illicit Drugs
+8.4 20.9* 14.8 11.7 10.6 8.0 16.8*
+Problems with Drugs
+3.1 11.9* 4.9 4.6 5.3 3.7 4.9
+or Alcohol
+Behavioral Addictions
+Over Eating 6.6 8.0 6.2 3.0* 5.9 6.3 8.1*
+Sex or Pornography 2.0 6.3* 4.9 1.5 2.9 1.8 4.4*
+Exercise 0.9 2.5 1.0 4.0* 1.8 0.3* 1.5
+Shopping 1.1 0.6 1.0 0.0* 0.7 0.8 1.5*
+Internet Chat Rooms 0.1 0.0 0.2 0.3 0.2 0.0 0.2
+Video or Internet
+0.3 0.6 1.3 2.0 0.6 0.5 0.6
+Gaming
+Mental Health
+Serious Mental Health
+6.1 6.3 5.3 4.0 5.6 5.9 6.4
+Issues (Past year)
+Serious Mental Health
+13.4 19.2* 13.4 8.3 12.9 14.2 16.7
+Issues (Past 30 days)
+Suicidal Ideation 2.4 6.8* 3.9 2.5 3.6 2.7 3.4
+Suicide Attempt 0.7 4.8* 1.9 0.5 2.0 0.8 1.3
+*p < .03
+There were few significant differences by household income across substance use, behavior and
+mental health status categories although there were a few notable exceptions (Table 47). For
+example, rates of tobacco use among those with a household income of $150,000 or more were
+low (18.0%); however 88.1% of that group indicated they consumed alcohol, though only 15.4%
+endorsed binge drinking. In contrast, over 40% of those with incomes in the $15,000 to $29,999
+range used tobacco and nearly 26% of those earning $100,000 to $124,999 reported binge
+drinking. Rates of illicit drug use ranged from a low of 6.3% in the $150,000 and above group to a
+high of 20.4% in the group with less than $15,000 in household income.
+53 | Pa ge
+
+=== page 60 ===
+Regarding mental health issues, gamblers in the highest income bracket had the lowest rate of
+mental health issues in the past 30 days (7.1%) whereas those in the lowest income bracket
+reported the highest rates (34.6%) (Table 47). Similarly, rates of suicidal ideation were lowest in
+the highest income group (2.1%) and highest in the lowest income group (9.9%). Gamblers with a
+household income of less than $15,000 also had the highest rate of suicide attempts – 6.3% ‐‐
+while the lowest rates of attempts were endorsed by those in the $100,000 to $124,999 group
+(1.0%) followed by those with the highest household income (1.1%).
+Table 47. Substance Use, Addictive Behaviors, Mental Health by Household Income
+Household Income Level (Gamblers Only)
+$15000 $30,000 $50,000 $70,000 $100,000 $125,000
+Substance/
+< $15,000 – 29,999 – 49,999 ‐ 69,999 – 99,999 – 124,999 – 149,999 >$150,000 Refused
+Behavior
+n=111 n=219 n=328 n=413 n=467 n=303 n=162 n=284 n=231
+% % % % % % % % %
+Tobacco Use* 35.1 40.2 38.3 33.7 26.8 32.1 22.2 18.0 23.4
+Alcohol*
+58.2 65.3 70.4 73.3 82.3 85.1 81.6 88.1 68.7
+Binge Drinker* 15.0 16.4 20.5 21.1 20.7 25.7 23.3 15.4 11.3
+Illicit Drugs*
+20.4 12.9 10.5 14.3 13.1 14.0 9.9 6.3 6.9
+Problems w.
+9.2 5.9 4.8 4.8 6.0 6.3 4.9 3.5 1.3
+Drugs /Alcohol
+Behavioral Addictions
+Over‐Eating 8.9 4.1 6.3 8.1 5.3 7.3 9.2 6.0 5.6
+Sex or
+7.1 4.1 4.2 2.9 3.0 4.3 1.8 0.7 2.2
+Pornography
+Exercise 0.0 0.9 0.9 2.1 2.1 2.0 1.2 0.7 1.7
+Shopping 2.7 2.3 0.9 0.5 0.9 1.0 0.0 0.4 0.9
+Chat Rooms 0.9 0.0 0.0 0.0 0.4 0.3 0.0 0.0 0.0
+Video or
+Internet 0.0 1.4 1.2 1.0 0.2 0.3 0.6 0.0 0.4
+Gaming
+Mental Health
+Serious Mental
+Health Issues 6.3 6.5 7.6 5.1 7.3 5.7 4.9 3.2 4.8
+(Past year)
+Serious Mental
+Health Issues 34.6 19.4 16.5 17.6 11.9 10.9 11.1 7.1 8.8
+(Past 30 days)*
+Suicidal
+9.9 5.0 2.4 4.1 3.9 2.3 3.1 2.1 0.9
+Ideation*
+Suicide
+6.3 0.9 0.9 1.7 2.6 1.0 2.5 1.1 0.0
+Attempt*
+*p < .003
+54 | Pa ge
+
+=== page 61 ===
+Findings for education level roughly parallel those for income (Table 48). Half of all gamblers
+with less than a high school degree or GED reported using tobacco, while only a fourth of those
+with a Bachelor’s degree used tobacco. Regarding alcohol, general usage was highest among
+the gamblers with a Bachelor’s degree and above (81.0% to 83.5%) and lowest among those
+with less than a high school education (58.2%). Respondents with the least education had the
+highest rates of binge drinking (17.9%); the lowest rate was reported among those with more
+than one year of college (3.7%). Respondents in the lowest education bracket also had the
+highest rates of serious mental health issues in the past 30 days (36.4%), which is more than
+three times the rate of respondents with a Master’s degree (11.1%). Respondents with the
+lowest education had the highest rates of both suicidal ideation (16.1%) and attempts (12.5%);
+respondents with a Doctorate degree reported the lowest rate of suicidality (ideation 1.3% and
+attempts 0.0%).
+Table 48. Substance Use, Addictive Behaviors, Mental Health by Education Level
+Education Level (Gamblers Only)
+High Some Some
+Substance/ <High School or College College Assoc. Bach. Master’s Profess. Doct.
+Behavior School GED < 1 yr > 1 yr Degree Degree Degree Degree Degree
+n=56 n=488 n=219 n=295 n=227 n=749 n=340 n=80 n=51
+% % % % % % % % %
+Tobacco Use* 50.0 39.8 41.1 26.8 30.0 24.0 19.4 37.5 31.4
+Consumed
+58.2 65.1 70.6 75.2 80.6 83.2 81.5 81.0 82.4
+Alcohol*
+Binge Drinker 21.4 17.6 20.5 18.0 21.6 19.6 20.0 27.5 17.6
+Used Illicit Drugs
+19.6 12.0 15.9 11.9 11.9 10.6 8.0 11.7 22.0
+Problems with
+17.9 4.1 5.6 3.7 5.3 3.9 6.2 5.1 12.2
+Drugs or Alcohol*
+Behavioral
+Addictions
+Over Eating 5.4 5.9 7.3 9.5 5.7 5.9 5.9 8.9 2.0
+Sex or Pornography 8.9 3.5 2.7 4.7 3.5 2.1 2.1 1.3 8.0
+Exercise 1.8 0.8 0.5 1.4 1.8 2.1 0.9 2.5 4.0
+Shopping 1.8 0.8 1.8 1.0 1.8 0.1 1.2 0.0 2.0
+Internet Chat
+0.2 0.0 0.0 0.0 0.0 0.6 0.0 0.0 0.0
+Rooms
+Video or Internet
+1.8 0.4 2.3 0.0 0.4 0.4 1.2 0.0 0.0
+Gaming
+Mental Health
+Serious Mental
+Health Issues (Past 7.4 6.0 5.0 8.7 6.2 5.3 3.6 7.5 9.8
+year)
+55 | Pa ge
+
+=== page 62 ===
+Serious Mental
+Health Issues (Past 36.4 15.7 16.3 15.5 14.8 11.2 11.1 13.0 12.0
+30 days)*
+Suicidal Ideation* 16.1 3.1 6.0 3.5 3.5 1.9 2.4 1.3 9.8
+Suicide Attempt* 12.5 1.0 3.6 1.0 1.8 0.7 1.5 0.0 7.8
+*p<.05
+By employment status, more than half of gamblers in the survey in all groups reported consuming
+alcohol (Table 49). The highest rates of consumption were reported among those who were
+employed, self‐employed or out of work for less than one year (80.1% to 83.3%), whereas those
+who were unable to work (59.5%) or retired (65.2%) reported the lowest rates. About one in
+four respondents who were self‐employed or unemployed for less than one year reported binge
+drinking, while fewer than one in ten retired respondents indicated they engaged in binge
+drinking. Gamblers who were unable to work were the most likely to have experienced a serious
+mental health issue in the past 30 days (39.0%) and suicidal ideation (10.8%). Retired
+respondents were the least likely to endorse past month mental health issues (7.2%) or any kind
+of suicidality (ideation 1.1%, attempt 1.0%). Individuals who were self‐employed (3.8%) or
+unable to work (3.6%) had the highest rate of suicide attempts.
+Table 49. Substance Use, Addictive Behaviors, Mental Health by Employment Status
+Employment Status (Gamblers Only)
+Out of Out of Unable
+Substance/
+Emp.for Self‐ work work < Home‐ to
+Behavior
+Wages Emp. > 1 yr 1 yr maker Student Retired work Refused
+n=1411 n=207 n=63 n=55 n=148 n=131 n=398 n=82 n=35
+% % % % % % % % %
+Tobacco Use 31.1 32.9 42.9 41.8 24.3 23.7 23.6 31.7 45.7
+Consumed
+81.5 80.1 72.6 83.3 70.9 70.8 65.2 59.5 51.4
+Alcohol*
+Binge
+22.5 24.6 22.2 23.6 15.0 16.2 9.5 11.9 11.4
+Drinker*
+Used Illicit
+12.2 16.9 23.3 18.2 7.6 21.7 3.8 8.3 5.7
+Drugs*
+Problems with
+Drugs or 5.4 9.7 11.1 7.3 3.5 5.4 0.3 6.0 8.8
+Alcohol*
+Behavioral
+Addictions
+Over Eating 6.4 7.2 12.7 3.6 5.4 8.4 4.5 10.7 11.4
+Sex or
+3.7 3.4 7.9 7.1 0.0 4.6 1.0 0.0 0.0
+Pornography
+Exercise 2.0 1.0 0.0 0.0 1.4 1.5 0.8 0.0 0.0
+Shopping 0.6 2.4 3.2 1.8 0.7 2.3 0.5 1.2 0.0
+56 | Pa ge
+
+=== page 63 ===
+Internet Chat
+0.1 0.5 0.0 0.0 0.0 0.0 0.0 1.2 0.0
+Rooms
+Video or
+Internet 0.6 0.5 1.6 0.0 0.7 0.8 0.5 0.0 2.9
+Gaming
+Mental
+Health
+Serious
+Mental Health
+6.4 6.3 3.2 7.4 6.8 5.5 4.0 7.1 2.9
+Issues (Past
+year)
+Serious
+Mental Health
+12.8 16.4 25.4 24.5 13.4 17.3 7.2 39.0 22.8
+Issues (Past 30
+days)*
+Suicidal
+2.7 5.8 7.9 5.6 4.1 3.9 1.0 10.8 8.6
+Ideation*
+Suicide
+1.4 3.8 3.2 1.8 2.0 1.5 0.0 3.6 5.7
+Attempt*
+*p=.001
+57 | Pa ge
+
+=== page 64 ===
+Summary and Recommendations
+The main purpose of this study was to conduct a state‐wide survey that explored the past‐year
+prevalence of gambling, including problem gambling, in New Jersey and to evaluate the effect,
+if any, of online gambling on gambling behavior and problem gambling severity. The results
+will be useful in better targeting intervention, prevention, and treatment efforts for residents
+of New Jersey and their families. It can also inform ongoing and future efforts to expand
+gambling opportunities in the state.
+It is difficult to compare prevalence rates for problem gambling across studies and time frames,
+because of the unknown effects of the proliferation of gambling opportunities and changes in
+screening tools and methodologies. Until recently, prevalence studies were conducted using
+random digit dialing phone surveys. However, as cell phones continue to replace land‐line
+phones and more people communicate exclusively on mobile devices, it is necessary to conduct
+multi‐modal data collection to better engage a wide cross‐section of individuals. In a 1989 phone
+survey which included both gamblers and non‐gamblers, the prevalence rate of problem
+gambling in New Jersey was 2.8%, and the rate of those who would meet criteria for clinical
+disorder was 1.4% (Volberg & Steadman, 1989). Ten years later, a national population survey
+examined gambling in 150 casino gamblers from New Jersey and Nevada and reported that 7.9%
+met clinical criteria for gambling disorder and an additional 19% had mild to severe problems. In
+contrast, the general population survey, which included New Jersey residents, found that only
+0.1% of participants met criteria for gambling disorder and less than 3% had problems or were at
+risk for problems (Gerstein et al., 1999).
+Since publication of those studies, gambling opportunities have expanded exponentially. The
+advent of the Internet and mobile phones effectively reduced the jurisdictional borders that
+previously limited access and availability to gambling venues. No longer is gambling localized in
+New Jersey to Atlantic City and racetracks. Rather, it is accessible by phone, tablet and computer
+as well as across the border of neighboring states like Pennsylvania and New York. Past year
+prevalence rates in New Jersey in the current study reflect these changes in availability,
+accessibility, and acceptability of gambling in its many forms. In the current study, about 6.3%
+of the sample would likely meet criteria for gambling disorder and 14.9% reported gambling
+problems. Those rates are significantly higher than findings in the 1989 and 1999 general
+population studies, but similar to those found among casino patrons in 1999. Rates were
+particularly high in the online panel participants (disorder:10.5% and problem:21.6%), compared
+to phone participants (disorder:0.3% and problem:5.7%), possibly due to overrepresentation of
+high frequency, younger gamblers with higher incomes and more education in the online panel
+or to self‐selection bias inherent in online sampling.
+Findings from this study clearly demonstrate that problem gambling severity is correlated
+primarily with higher frequency of play, more gambling activities, and gambling at both online
+and land‐based (mixed) venues. Past‐year gamblers who gambled only at land‐based venues less
+than once a month had the lowest overall rates of gambling problems, however, rates increased
+58 | Pa ge
+
+=== page 65 ===
+as those individuals gambled more frequently and on more gambling activities. In contrast, those
+who gambled at mixed venues, both online and on land, had the highest rates of gambling
+problems but also much higher gambling frequency and participation in multiple gambling
+activities. The convenience and speed inherent in gambling online, combined with land‐based
+opportunities like casinos, race tracks, convenience store lotteries and poker tournaments, will
+increase the likelihood that individuals will gamble more frequently. Increased frequency, in
+turn, leads to increased losses over time as well as to habituation and cognitive distortions that
+challenge the notion of randomness and chance and fuel chasing behavior and continued play.
+These factors, combined with etiological risk factors for addiction (Blaszczynski & Nower, 2002),
+affect the move from recreational to problematic levels of play in certain individuals.
+The complex interplay of these factors makes it difficult to determine the relative contribution of
+online gambling to problem gambling prevalence. A follow‐up prevalence study should provide
+added clarification on the changes in rates over time. Adding to the complexity, however, is the
+continued expansion of gambling opportunities. No longer is gambling geographically limited to
+Atlantic City and racetracks. Lottery tickets and scratch‐offs are available at grocery and
+convenience stores, off‐track betting is readily accessible, neighboring states offer a wide array
+of gambling offerings, and online and phone wagering has removed geographical boundaries and
+globalized gambling access. Taken together, the most we can conclude is that the more
+frequently one gambles, the more venues one patronizes whether on land or on line, and the
+more gambling activities one plays, the greater the likelihood of developing gambling problems.
+This conclusion is supported by findings that those who only gambled online in the current survey
+had higher rates of disorder than land‐based only gamblers, but lower rates than those who
+gambled on multiple forms and across online and land‐based venues. Online gamblers reported
+that the convenience of online gambling, coupled with the 24‐hour availability, were both
+advantages and disadvantages. On one hand, the convenience and availability made gambling
+accessible to those with geographical or time constraints that would limit driving to a land‐based
+venue. On the other hand, the convenience and availability make it easier to spend more money
+in a shorter period of time and led to the perception among some respondents that online
+gambling was “more addictive” than land‐based gambling – a finding that is not empirically
+supported by this study. Strengthening responsible gambling programs online by requiring
+enrollment and limit‐setting at sign‐up and increasing the visibility of and access to features
+during play could be used to address the main disadvantages of online play. It is reasonable to
+assume that this simple harm reduction strategy would further lower the rates for those who
+only gamble online, though it may have limited effect on high frequency gamblers who gamble
+both online and at land‐based venues.
+By region, there is generally proportionate representation across levels of problem gambling
+severity across New Jersey. However, currently, the treatment and self‐help networks are not
+similarly represented in these regions. In addition, the study found that a significantly higher
+proportion of Hispanics and Asian/Others, compared to other groups, had higher rates of
+gambling frequency and problems. Notably, Hispanic gamblers also reported the highest rates
+of past‐month mental health issues, suicidal ideation, and suicide attempts, though it is
+59 | Pa ge
+
+=== page 66 ===
+unknown what, if any relationship exists between these issues and their gambling behavior.
+Blacks and African Americans endorsed low rates of problems that could arguably be addressed
+before they progress in severity using tailored education, intervention and treatment. A
+majority of gambling services have been designed without regard to racial or ethnic
+considerations. Therefore, in addition to proportionate representation of services across
+regions, it is important to ensure there are Spanish‐ and Mandarin‐speaking certified gambling
+counselors in regions with the highest proportion of Hispanic and Asian minorities and that
+culturally‐tailored treatment and services are also available in communities with a high
+concentration of Hispanic, Asian, and Black or African American residents. It is not only
+important to provide culturally‐tailored treatment but also to make sure it is effective.
+Therefore, treatment in the State should move toward an evidence‐based, standardized
+protocol with outcome evaluations that would provide evidence of effectiveness and highlight
+areas for revision and expansion.
+A majority of gamblers in the study were employed and married or living with a partner.
+However, those with little education beyond high school reported the highest rates of
+gambling involvement, particularly among land‐based gamblers. Those in the lowest and
+highest income brackets were most likely to gamble online. Historically, those with lower
+levels of education and income are most likely to misunderstand odds and probabilities and
+to attribute wins to luck, control or a winning system. These cognitive distortions fuel
+continued gambling, which habituates and leads to mounting losses and gambling problems.
+Notably, more than 31% of online gamblers indicated they gambled online from work or during
+work hours; of those gamblers, 40% gambled one or two days a week and nearly 24% gambled
+three to five days per week. In New Jersey, the state is a primary employer and, as such, has
+an opportunity to develop programs that ensure that state‐run and funded agency
+administrators and employees are educated in the nature and course of gambling disorder
+and that employee assistance programs provide gambling treatment by certified gambling
+counselors.
+Ideally, such education would begin in elementary and secondary schools, where the
+intergenerational effect of problem gambling is most evident and where a majority of
+educators and parents are unaware of the severe adverse consequences that can result from
+a seemingly harmless activity. For example, a number of schools in New Jersey train youth in
+to play a stock market game without educating them about the difference between investing
+and gambling and the dangers of high‐risk trading for other than long‐term gain. Targeting
+youth, who are most likely to prefer online platforms as they reach legal gambling age, with
+education on gambling along with substance abuse, will help foster responsible gambling and
+informed choices. As with screening and treatment, it is important for these programs to be
+carefully designed and evidence‐tested, to ensure that the information provided reduces
+potential harm rather than generating interest in gambling as an income‐producing activity.
+In addition, requirements for licensing substance abuse counselors should also meet
+requirements for certified gambling counseling, and programs, colleges, and universities
+offering courses for licensure should integrate these curricula. This is particularly important
+in light of findings in this study which suggest ethnic minorities and those with the highest
+60 | Pa ge
+
+=== page 67 ===
+levels of problem gambling severity also report the highest rates of substance abuse, addictive
+behaviors, and serious mental health issues including suicidality.
+Finally, the study investigated the prevalence and gambling behavior of daily fantasy sports
+players. Whether or not DFS is gambling is beyond the scope of this report. This report does
+demonstrate, however, that nearly all DFS players gamble and do so at higher than expected
+levels. Of 336 DFS players in this study, all but seven also gambled, predominantly on gaming
+machines, casino table games, other games of skill, sports and horses. Nearly all DFS players
+(95%) in the study were high frequency/high risk gamblers who would likely meet criteria for
+gambling disorder and more than 84% percent gambled once a week or more. Notably, DFS
+players also reported higher levels of substance use, behavioral problems and mental health
+issues than other non‐DFS gamblers. They were 13 times more likely to report suicidal ideation
+and nine times more likely to have attempted suicide compared to other gamblers. These
+findings suggest that DFS play is highly correlated with problem and disordered gambling and a
+host of other mental health problems. Policy decisions regarding DFS regulation should
+anticipate a very high prevalence of gambling problems in this group and the negative
+consequences that typically accompany those problems such as employment, legal, relationship,
+financial, health and mental health problems. It is important to ensure there are prevention,
+education, and treatment resources developed for and available to this population.
+Recommendations:
+Based on the findings of this study and related scholarly literature, we posit the following
+recommendations for addressing current and future challenges associated with problem
+gambling issues:
+ Strengthening responsible gambling programs online by requiring enrollment and limit‐
+setting at sign‐up and increasing the visibility of and access to features during play would
+seemingly address the main disadvantages of online play.
+ Ensuring proportionate representation of gambling treatment services across regions,
+including services culturally tailored to Spanish‐ and Mandarin‐speakers as well as to
+Blacks or African Americans.
+ Developing and providing education and training to administrators and employees at
+State‐run and funded agencies, including schools, on the nature and course of
+gambling disorder and resources available for affected employees.
+ Initiating education on gambling disorder along with substance abuse education in
+schools and training educators on screening, intervention, and referral of students
+with gambling problems.
+ Integrating requirements for gambling counselor certification with those for substance
+abuse counseling to ensure that graduating clinicians and licensed substance abuse
+counselors are equally credentialed to screen and treatment both.
+ Anticipating program service needs of daily fantasy sports players who will likely have
+high levels of gambling pathology in policymaking and legislative decisions concerning
+DFS regulation.
+61 | Pa ge
+
+=== page 68 ===
+REFERENCES
+Blaszczynski, A., & Nower, L. (2002). A pathways model of problem and pathological gambling.
+Addiction, 97, 487‐499.
+Broda, A., LaPlante, D. A., Nelson, S. E., LaBrie, R. A., Bosworth, L. B., & Shaffer, H. J. (2008). Virtual
+harm reduction efforts for Internet gambling: effects of deposit limits on actual Internet
+sports gambling behavior. Harm Reduction Journal, 5(1), 1.
+Ferris, J., & Wynne, H. (2001). The Canadian problem gambling index. Ottawa, ON: Canadian
+Centre on Substance Abuse.
+Gainsbury, S., Wood, R., Russell, A., Hing, N., & Blaszczynski, A. (2012). A digital revolution:
+Comparison of demographic profiles, attitudes and gambling behavior of Internet and
+non‐Internet gamblers. Computers in Human Behavior, 28, 1388‐1398.
+Gerstein, D., Hoffmann, J., Larison, C., Engelman, L., Murphy, S., Palmer, A., ... & Hill, M. A. (1999).
+Gambling impact and behavior study. Report to the National Gambling Impact Study
+Commission. National Opinion Research Center at the University of Chicago, Chicago, b43.
+Horváth, C., & Paap, R. (2012). The effect of recessions on gambling expenditures. Journal of
+Gambling studies, 28(4), 703‐717.
+Kairouz, S., Paradis, C., & Nadeau, L. (2012). Are online gamblers more at risk than offline
+gamblers? Cyberpsychology, Behavior, and Social Networking, 15, 175‐180.
+Kallick, M., Suits, D., Dielman, T., & Hybels, J. (1976). A survey of American gambling attitudes
+and behavior. (USGPO Stock No. 052–003–00254). Washington, DC: U.S. Government
+Printing Office.
+Kessler, R. C., Hwang, I., LaBrie, R., Petukhova, M., Sampson, N. A., Winters, K. C., & Shaffer, H. J.
+(2008). DSM‐IV pathological gambling in the National Comorbidity Survey Replication.
+Psychological Medicine, 38(9), 1351‐1360.
+National Research Council (1999). Pathological Gambling: A Critical Review. Washington, DC:
+National Academy Press.
+Petry, N.M., Stinson, F.S., & Grant, B.F. (2005). Comorbidity of DSM‐IV pathological gambling and
+other psychiatric disorders: Results from the national epidemiologic survey on alcohol and
+related conditions. Journal of Clinical Psychiatry, 66(5), 564‐574.
+Shaffer, H. J., Hall, M. N., & VanderBilt, J. (1999). Estimating the prevalence of disordered
+gambling behavior in the United States and Canada: A research synthesis. American
+Journal of Public Health, 89, 1369–1376.
+62 | Pa ge
+
+=== page 69 ===
+Shaffer, H.J., LaBrie, R.A. & LaPlante, D. (2004). Laying the foundation for quantifying regional
+exposure to social phenomena: Considering the case of legalized gambling as a public
+health toxin. Psychology of Addictive Behaviors, 18(1), 40‐48.
+Sproston, K., Hing, N., & Palankay, C. (2012). Prevalence of gambling and problem gambling in
+New South Wales. Sydney: NSW Office of Liquor, Gaming and Racing.
+Volberg, R. A., & Steadman, H. J. (1989). Prevalence estimates of pathological gambling in New
+Jersey and Maryland. American Journal of Psychiatry, 146, 1618‐1619.
+Wardle, H., Moody, A., Griffiths, M., Orford, J., & Volberg, R. (2011). Defining the online gambler
+and patterns of behaviour integration: Evidence from the British Gambling Prevalence
+Survey 2010. International Gambling Studies, 11, 339‐356.
+Welte, J. W., Barnes, G. M., Tidwell, M. C. O., Hoffman, J. H., & Wieczorek, W. F. (2015). Gambling
+and problem gambling in the United States: Changes between 1999 and 2013. Journal of
+Gambling Studies, 31(3), 695‐715.
+Welte, J.W., Barnes, G.M., Wieczorek, W.F., Tidwell, M.‐C.O. & Hoffman, J.H. (2007). Type of
+gambling and availability as risk factors for problem gambling: A Tobit regression analysis
+by age and gender. International Gambling Studies 7(2), 183‐198.
+Welte, J., Barnes, G. M., Wieczorek, W., Tidwell, M. C., & Parker, J. (2001). Alcohol and gambling
+pathology among U.S. adults: Prevalence, demographic patterns, and comorbidity.
+Journal of Studies on Alcohol, 62(5), 706–712.
+Welte, J. W., Barnes, G. M., Wieczorek, W.F., Tidwell, M. C., & Parker, J. (2002). Gambling
+participation in the U.S.‐ results from a national survey. Journal of Gambling Studies,
+18(4), 313‐337.
+Wiebe, J., & Lipton, M. D. (2008). An Overview of Internet Gambling Regulations. Report prepared
+for the Ontario Problem Gambling Research Centre, Ontario, Canada.
+Williams, R. J., Volberg, R. A., & Stevens, R. M. (2012). The Population Prevalence of Problem
+Gambling: Methodological Influences, Standardized Rates, Jurisdictional Differences, and
+Worldwide Trends. Ontario Problem Gambling Research Centre.
+Wood, R. T., & Williams, R. J. (2011). A comparative profile of the Internet gambler: Demographic
+characteristics, game‐play patterns, and problem gambling status. New Media & Society,
+13(7), 1123‐1141.
+63 | Pa ge
+
+=== page 70 ===
+Wood, R.T. & Williams, R.J. (2009). Internet Gambling: Prevalence, Patterns, Problems, and Policy
+Options. Final Report prepared for the Ontario Problem Gambling Research Centre,
+Guelph, Ontario, Canada.
+Wood, R.T., & Williams, R.J. (2011). A comparative profile of the Internet gambler:
+Demographic characteristics, game‐play patterns, and problem gambling status. New
+Media & Society, 13, 1123‐1141.
+Volberg, R. A. (2007). Population surveys. In G. J. Smith, D. C. Hodgins & R. J. Williams (Eds.),
+Research and Measurement Issues in Gambling Studies (pp. 33‐51). San Diego, CA:
+Elsevier.
+Volberg, R. A., & Steadman, H. J. (1989). Prevalence estimates of pathological gambling in New
+Jersey and Maryland. The American journal of psychiatry.
+64 | Pa ge
