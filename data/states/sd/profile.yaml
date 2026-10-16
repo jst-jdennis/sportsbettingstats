@@ -2,7 +2,12 @@ fips: '46'
 abbr: SD
 name: South Dakota
 profile_completeness: status_only
-summary: null
+summary: >-
+  South Dakota voters approved Constitutional Amendment B on November 3, 2020, allowing the Legislature to authorize
+  sports wagering within the city limits of Deadwood, and Senate Bill 44 of 2021 added sports wagering to the games
+  permitted under SDCL chapter 42-7B. Retail wagering began in Deadwood on September 9, 2021 and is also offered at
+  tribal casinos under compacts. Wagers must be placed on the premises of a licensed Deadwood establishment; there is
+  no statewide online channel. The combined gaming tax is 9 percent of adjusted gross proceeds.
 legal_status:
 - market_segment: regulated_sportsbook
   channel: retail
@@ -12,24 +17,26 @@ legal_status:
   launched_on: '2021-09-09'
   authority:
     type: constitutional_amendment
-    citation: Constitutional Amendment B (2020); SB 44 (2021). Retail wagering in Deadwood and at tribal
-      casinos
-    url: https://sdlegislature.gov/
+    citation: S.D. Const. art. III, sec. 25 as amended by Constitutional Amendment B (2020); 2021 SB 44 (signed 2021-03-29); SDCL 42-7B
+    url: https://sdlegislature.gov/Statutes/42-7B
   operator_model: commercial
-  notes: null
-  provenance:
-    source_id: sd-regulator
-    source_url: https://dor.sd.gov/businesses/gaming/
+  notes: Retail only, within the city limits of Deadwood under SDCL 42-7B, and at tribal casinos under compacts. The
+    scope value statewide is used because no enum value describes a single-city market; read it with this note.
+  provenance: &sdleg
+    source_id: sd-legislature
+    source_url: https://sdlegislature.gov/Statutes/42-7B
     archive_url: null
     retrieved_at: '2026-10-16'
     retrieval_method: manual_entry
     transform: null
-    entered_by: claude-draft-2026-10-16
+    entered_by: agent-batch5-2026-10-16
     reviewed_by: null
     status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+    page_or_table: SDCL 42-7B-1 (definition of sports wagering) and the Deadwood premises restriction
+    notes: SB 44 (2021) and its 2021-03-29 signing confirmed at sdlegislature.gov. Amendment B election date 2020-11-03
+      retained; launch date 2021-09-09 reported by press (first bets at Tin Lizzie after Commission approvals on
+      2021-09-08) and not confirmed on a primary domain by search on 2026-10-16. Operator model retained as commercial;
+      tribal retail under compacts would make mixed defensible.
 - market_segment: regulated_sportsbook
   channel: online
   scope: not_applicable
@@ -38,24 +45,12 @@ legal_status:
   launched_on: null
   authority:
     type: none
-    citation: Constitutional Amendment B (2020); SB 44 (2021). Retail wagering in Deadwood and at tribal
-      casinos
-    url: https://sdlegislature.gov/
+    citation: SDCL 42-7B provides that sports wagering may only be conducted on the premises of a licensed gaming establishment approved by the commission within the city of Deadwood
+    url: https://sdlegislature.gov/Statutes/42-7B
   operator_model: null
-  notes: null
-  provenance:
-    source_id: sd-regulator
-    source_url: https://dor.sd.gov/businesses/gaming/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  notes: Mobile wagering is possible only while physically on licensed premises in Deadwood, under commission rules.
+    Proposals for statewide mobile wagering have not passed.
+  provenance: *sdleg
 regulators:
 - name: South Dakota Commission on Gaming
   url: https://dor.sd.gov/businesses/gaming/
@@ -64,20 +59,47 @@ regulators:
   - licensing
   - enforcement
   - revenue_reporting
-  provenance:
+  provenance: &sdcog
     source_id: sd-regulator
     source_url: https://dor.sd.gov/businesses/gaming/
     archive_url: null
     retrieved_at: '2026-10-16'
     retrieval_method: manual_entry
     transform: null
-    entered_by: claude-draft-2026-10-16
+    entered_by: agent-batch5-2026-10-16
     reviewed_by: null
     status: pending_review
     page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
+    notes: Commission sits within the Department of Revenue. Name and URL consistent with search results on 2026-10-16.
+legal_age:
+- age: 21
+  scope: all
+  authority_citation: SDCL 42-7B-35 (age of participants); Department of Revenue FAQ (must be at least 21 to wager in Deadwood casinos and tribal casinos)
+  provenance:
+    <<: *sdcog
+    source_url: https://dor.sd.gov/individuals/individual-faqs/
+    notes: Age from the Department of Revenue FAQ. The text of 42-7B-35 was not opened from this container.
+tax:
+- channel: retail
+  basis: adjusted_gross_revenue
+  rate: 0.09
+  tiers: null
+  per_wager_fee_cents: null
+  promo_deduction_rule: Under SDCL 42-7B-28.2 free play provided by the operator is excluded from gross proceeds, cash
+    prizes deducted are reduced by ninety percent of the free play value, and the federal excise tax on sports wagers
+    (26 U.S.C. 4401) is deducted from adjusted gross proceeds (excise deduction added by 2022 SB 98).
+  effective_from: '2021-09-09'
+  effective_to: null
+  destination: null
+  authority_citation: SDCL 42-7B-28 (eight percent gaming tax on adjusted gross proceeds) and 42-7B-28.1 (additional one percent); Department of Revenue states the combined rate as nine percent
+  provenance:
+    <<: *sdleg
+    source_url: https://sdlegislature.gov/Statutes/42-7B-28
+    notes: Same tax as other Deadwood gaming; no separate sports wagering rate. Effective_from is the sports wagering launch
+      date rather than the tax's own origin. Distribution under SDCL 42-7B-48 (Deadwood historic preservation, general
+      fund and others) not confirmed for sports wagering proceeds and left null.
 consumer_protections: null
-limitations: null
+limitations:
+- South Dakota's sports wagering market is a single town plus tribal casinos, with no statewide online channel, so
+  per capita figures understate access differences across the state.
+- Tribal casino sports wagering revenue is not reported in the Commission's Deadwood series.

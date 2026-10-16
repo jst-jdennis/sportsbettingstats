@@ -1,81 +1,110 @@
-fips: '56'
+fips: "56"
 abbr: WY
 name: Wyoming
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Wyoming authorized statewide online sports wagering through 2021 House Bill 133, signed April 5, 2021 and
+  regulated by the Wyoming Gaming Commission; the first online operators launched on September 1, 2021. The
+  statute authorizes online wagering only; on-premises sports wagering exists at the Northern Arapaho Tribe's
+  Wind River Hotel and Casino under tribal authority. Operators remit 10 percent of online sports wagering
+  revenue, defined net of payouts, federal excise tax and promotional play, and the minimum age is 18.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: tribal_lands_only
-  status: live
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: statute
-    citation: HB 133 (2021); W.S. 9-24-101 et seq.
-    url: https://wyoleg.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: wy-regulator
-    source_url: https://gaming.wyo.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2021-04-05'
-  launched_on: '2021-09-01'
-  authority:
-    type: statute
-    citation: HB 133 (2021); W.S. 9-24-101 et seq.
-    url: https://wyoleg.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: wy-regulator
-    source_url: https://gaming.wyo.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: tribal_lands_only
+    status: live
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No Wyoming statute authorizes retail sports wagering; W.S. 9-24-101 et seq. (2021 HB 133) covers online sports wagering only. On-premises sports wagering at Wind River Hotel and Casino is conducted by the Northern Arapaho Tribe under tribal and federal authority.
+      url: https://www.wyoleg.gov/2021/Enroll/HB0133.pdf
+    operator_model: tribal_exclusive
+    notes: Press reports date the Wind River sportsbook opening to 2021-09-09; not confirmed on a state or tribal page, so launched_on is left empty.
+    provenance: &wyleg
+      source_id: wy-legislature
+      source_url: https://www.wyoleg.gov/2021/Enroll/HB0133.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch6-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: "Corrected authority from statute (HB 133; W.S. 9-24-101 et seq.) to none, and operator_model from commercial to tribal_exclusive: the enrolled act and the legislature's bill summary (https://www.wyoleg.gov/2021/Summaries/HB0133.pdf) authorize and define online sports wagering only and contain no retail authorization; retail wagering in Wyoming exists only at a tribal casino, per the same documents and press reports of the Wind River opening."
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2021-04-05"
+    launched_on: "2021-09-01"
+    authority:
+      type: statute
+      citation: 2021 HB 133 (Enrolled Act 50); W.S. 9-24-101 through 9-24-106 (online sports wagering); amended by 2023 HB 181 (Enrolled Act 23)
+      url: https://www.wyoleg.gov/2021/Enroll/HB0133.pdf
+    operator_model: commercial
+    notes: Permits are issued to operators already active in at least three other US jurisdictions. The Commission's rules are in Wyoming Administrative Code, Agency 038, Sub-agency 0002.
+    provenance:
+      <<: *wyleg
+      notes: "Statute confirmed on wyoleg.gov (enrolled act, summary and 2023 amendment). Signing date 2021-04-05 and launch date 2021-09-01 are from press reports and not confirmed on a primary page by search on 2026-10-16; seeded values retained."
 regulators:
-- name: Wyoming Gaming Commission
-  url: https://gaming.wyo.gov/
-  type: gaming_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: wy-regulator
-    source_url: https://gaming.wyo.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+  - name: Wyoming Gaming Commission
+    url: https://gaming.wyo.gov/
+    type: gaming_commission
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance: &wygc
+      source_id: wy-regulator
+      source_url: https://gaming.wyo.gov/resources/responsible-gaming/self-exclusion
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch6-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Confirmed by W.S. 9-24-101 et seq., which assigns permitting and rulemaking to the Commission, and by the Commission's site. The Commission publishes monthly online sports wagering reports.
+legal_age:
+  - age: 18
+    scope: commercial
+    authority_citation: W.S. 9-24-101 et seq. (2021 HB 133 prohibits online sports wagering by persons under 18); section number to be confirmed against the enrolled act
+    provenance:
+      <<: *wyleg
+      source_url: https://www.wyoleg.gov/2021/Summaries/HB0133.pdf
+tax:
+  - channel: online
+    basis: adjusted_gross_revenue
+    rate: 0.10
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: Online sports wagering revenue is defined in W.S. 9-24-101(a) as wagers placed less payouts to patrons and applicable federal excise taxes, excluding free wagers and promotional play; 2023 HB 181 specified that free wagers and promotional play are excluded at their actual dollar value. Promotional play is therefore deductible without a cap.
+    effective_from: "2021-09-01"
+    effective_to: null
+    destination:
+      - fund_name: Counties, for problem gambling programs (first $300,000 per year)
+        share: null
+      - fund_name: General Fund (remainder)
+        share: null
+    authority_citation: W.S. 9-24-104 (operators remit 10 percent of online sports wagering revenue to the Commission; distribution to counties for problem gambling programs and to the General Fund); definition in W.S. 9-24-101(a)
+    provenance:
+      <<: *wyleg
+      notes: Rate, base and promotional treatment confirmed from the legislature's HB 133 summary and the 2023 HB 181 enrolled act on wyoleg.gov. The $300,000 problem gambling set-aside is from press reports of the act and should be confirmed against the section text.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Wyoming Gaming Commission
+    durations: null
+    covers: [sports_wagering_online, other_commission_regulated_gambling]
+    enrollment_methods: [online, mail]
+    url: https://gaming.wyo.gov/resources/responsible-gaming/self-exclusion
+    notes: The Commission's program lets a person commit to refrain from sports wagering and other gambling offered by the Commission and its permittees; applicants may submit a request online or download and file a form. Available durations were not retrieved.
+    provenance: *wygc
+  deposit_limits: null
+  advertising: null
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+  - Wyoming's taxable revenue excludes promotional play without a cap, so its reported revenue and tax series are not comparable with states that tax gross revenue.
+  - The market is small and the minimum age is 18, two years lower than most states; age-based comparisons should account for this.
+  - No Wyoming Gaming Commission or Attorney General cease and desist, lawsuit or advisory opinion directed at a prediction market platform was found by search on 2026-10-16; absence of a record is not a finding that none exists.

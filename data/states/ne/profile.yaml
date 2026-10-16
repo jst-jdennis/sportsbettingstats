@@ -1,83 +1,123 @@
-fips: '31'
+fips: "31"
 abbr: NE
 name: Nebraska
 profile_completeness: status_only
-summary: null
+summary: >-
+  Nebraska voters approved Initiatives 429, 430 and 431 in November 2020, permitting games of chance at
+  licensed racetrack enclosures. Legislative Bill 561 (2021) amended the Nebraska Racetrack Gaming Act to
+  include sports wagering, limited to in-person wagering at licensed racetrack casinos; online and mobile
+  wagering are not authorized. The State Racing and Gaming Commission licenses operators and collects a 20
+  percent tax on gross gaming revenue.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2021-05-25'
-  launched_on: '2023-06-22'
-  authority:
-    type: ballot_measure
-    citation: Initiatives 429, 430 and 431 (2020); LB 561 (2021). Retail wagering only at licensed racetrack
-      casinos
-    url: https://nebraskalegislature.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: ne-regulator
-    source_url: https://racingcommission.nebraska.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: Initiatives 429, 430 and 431 (2020); LB 561 (2021). Retail wagering only at licensed racetrack
-      casinos
-    url: https://nebraskalegislature.gov/
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: ne-regulator
-    source_url: https://racingcommission.nebraska.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2021-05-25"
+    launched_on: "2023-06-22"
+    authority:
+      type: statute
+      citation: Initiatives 429, 430 and 431 (2020); LB 561 (2021); Nebraska Racetrack Gaming Act, Neb. Rev. Stat. 9-1101 to 9-1118 and 9-1201 to 9-1209. Retail wagering only at licensed racetrack enclosures
+      url: https://nebraskalegislature.gov/laws/display_html.php?begin_section=9-1101&end_section=9-1118
+    operator_model: commercial
+    notes: Sports wagering takes place in a designated sports wagering area at each licensed racetrack casino. Commission rules reported at launch also bar wagering on Nebraska collegiate teams when they play in the state; that rule was not read on review.
+    provenance: &neleg
+      source_id: ne-legislature
+      source_url: https://nebraskalegislature.gov/laws/display_html.php?begin_section=9-1101&end_section=9-1118
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch4-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: Neb. Rev. Stat. 9-1101 to 9-1118
+      notes: >-
+        Corrected authority type from ballot_measure to statute: the Legislature's statute pages show the sports
+        wagering provisions codified in the Nebraska Racetrack Gaming Act with source lines citing Laws 2021,
+        LB561, and the Legislature's February 2025 research report
+        (https://nebraskalegislature.gov/pdf/reports/research/2025_wagering_on_mobile_sports_gambling.pdf)
+        records that LB 560's sports wagering provisions were moved into LB 561 by amendment. The 2020
+        initiatives remain in the citation because they authorized racetrack gaming generally. authorized_on
+        (date of approval by the Governor) and launched_on (first wagers at WarHorse Lincoln) were not confirmed
+        by search on 2026-10-16; seeded values retained. Source record moved from the Commission homepage to the
+        statute page.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: Nebraska Racetrack Gaming Act, Neb. Rev. Stat. 9-1101 et seq., authorizes sports wagering only within licensed racetrack enclosures. No Nebraska statute authorizes online or mobile sports wagering.
+      url: https://nebraskalegislature.gov/laws/display_html.php?begin_section=9-1101&end_section=9-1118
+    operator_model: null
+    notes: The Legislature's February 2025 research report reviews proposals for mobile wagering, which would require a constitutional amendment. Absence of authorization must be re-confirmed after each session.
+    provenance: *neleg
 regulators:
-- name: Nebraska Racing and Gaming Commission
-  url: https://racingcommission.nebraska.gov/
-  type: racing_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: ne-regulator
-    source_url: https://racingcommission.nebraska.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
+  - name: Nebraska Racing and Gaming Commission
+    url: https://racingcommission.nebraska.gov/
+    type: racing_commission
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance:
+      source_id: ne-regulator
+      source_url: https://racingcommission.nebraska.gov/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch4-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        The statute names the body the State Racing and Gaming Commission (Neb. Rev. Stat. 9-1101 definitions)
+        and makes it responsible for collecting and remitting the gaming tax (9-1203). Common name retained.
+        Search on 2026-10-16 returned no specific Commission sports wagering page, so the homepage is cited.
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: Neb. Rev. Stat. 9-1110 (designated sports wagering area must be off limits to persons under 21 unless the commission approves an exception in writing)
+    provenance:
+      <<: *neleg
+      page_or_table: Neb. Rev. Stat. 9-1110
+      notes: Age confirmed from the Legislature's statute page by search on 2026-10-16.
+tax:
+  - channel: retail
+    basis: gross_gaming_revenue
+    rate: 0.20
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      Gross gaming revenue is defined in Neb. Rev. Stat. 9-1101 as the amount collected from games of chance
+      less federal taxes other than income taxes and less redeemed promotional credits. No cap on the
+      promotional credit deduction was identified. Confirm against the current definition before verification.
+    effective_from: "2023-06-22"
+    effective_to: null
+    destination:
+      - fund_name: Property Tax Credit Cash Fund
+        share: 0.70
+      - fund_name: Compulsive Gamblers Assistance Fund
+        share: 0.025
+      - fund_name: General Fund
+        share: 0.025
+      - fund_name: County and city in which the racetrack is located (12.5 percent each)
+        share: 0.25
+    authority_citation: Neb. Rev. Stat. 9-1203 (annual gaming tax of 20 percent of gross gaming revenue from games of chance at licensed racetrack enclosures)
+    provenance:
+      <<: *neleg
+      source_url: https://www.nebraskalegislature.gov/laws/statutes.php?statute=9-1203
+      page_or_table: Neb. Rev. Stat. 9-1203
+      notes: >-
+        Rate and base confirmed from the statute page by search on 2026-10-16. Distribution shares are taken from
+        the LB 561 fiscal note
+        (https://nebraskalegislature.gov/FloorDocs/107/PDF/FN/LB561_20210129-123401.pdf), which described an
+        earlier version of the bill; confirm against the enacted text of 9-1204. The tax applies to all games of
+        chance at racetrack casinos, including sports wagering; effective_from is the first day of sports
+        wagering, not the date the rate took effect for casino games.
 consumer_protections: null
-limitations: null
+limitations:
+  - Nebraska revenue is reported for games of chance at racetrack casinos; sports wagering is a small retail-only share and is not always broken out separately.
+  - Before Missouri's December 2025 launch, Nebraska retail handle was influenced by Iowa and Kansas mobile markets drawing Nebraska residents across the border, and the reverse flow is small.
+  - Self-exclusion, deposit limit, advertising, credit card and helpline rules exist in the Commission's rules but were not read on review and are left unentered.

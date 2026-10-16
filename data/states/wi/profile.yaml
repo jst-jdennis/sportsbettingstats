@@ -1,81 +1,78 @@
-fips: '55'
+fips: "55"
 abbr: WI
 name: Wisconsin
 profile_completeness: status_only
-summary: null
+summary: >-
+  Wisconsin has no statute authorizing commercial sports wagering. Sports and other event wagering is offered
+  only by tribes whose Class III gaming compacts with the state have been amended to permit it, beginning with
+  the Oneida Nation amendment signed on July 1, 2021. The Oneida sportsbook near Green Bay opened on
+  November 30, 2021 and other tribes followed. The compacts also permit remote wagering on tribal land; no
+  statewide mobile wagering is authorized.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: tribal_lands_only
-  status: live
-  authorized_on: null
-  launched_on: '2021-11-30'
-  authority:
-    type: compact
-    citation: Amended tribal-state gaming compacts (2021 onward); no state statute authorizes commercial
-      sports wagering
-    url: https://doa.wi.gov/Pages/AboutDOA/Gaming.aspx
-  operator_model: tribal_exclusive
-  notes: null
-  provenance:
-    source_id: wi-regulator
-    source_url: https://doa.wi.gov/Pages/AboutDOA/Gaming.aspx
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: Amended tribal-state gaming compacts (2021 onward); no state statute authorizes commercial
-      sports wagering
-    url: https://doa.wi.gov/Pages/AboutDOA/Gaming.aspx
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: wi-regulator
-    source_url: https://doa.wi.gov/Pages/AboutDOA/Gaming.aspx
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: tribal_lands_only
+    status: live
+    authorized_on: null
+    launched_on: "2021-11-30"
+    authority:
+      type: compact
+      citation: Tribal-state gaming compact amendments permitting event wagering, beginning with the Oneida Nation second amendment (signed 2021-07-01, effective on federal approval), followed by amendments for the St. Croix Chippewa (signed 2021-12-20), Forest County Potawatomi (2022) and other tribes; no state statute authorizes commercial sports wagering
+      url: https://doa.wi.gov/Pages/AboutDOA/TribalCompactsAndAmendments.aspx
+    operator_model: tribal_exclusive
+    notes: Wagering on Wisconsin college teams is excluded under the amendments. authorized_on is left empty because each tribe's amendment takes effect separately on approval by the Department of the Interior.
+    provenance: &widoa
+      source_id: wi-regulator
+      source_url: https://doa.wi.gov/Pages/AboutDOA/TribalCompactsAndAmendments.aspx
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch6-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: "Compact amendments confirmed on the Division of Gaming's compacts page and amendment PDFs (doa.wi.gov/Gaming/ONE_Second_Amendment.pdf and others). Oneida signing date 2021-07-01 per the Governor's press release. Launch date 2021-11-30 is from press reports and not confirmed on a state page by search on 2026-10-16; seeded value retained. Citation URL sharpened from the Division's landing page to the compacts page."
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: on_premises_only
+    status: authorized_not_launched
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: compact
+      citation: Oneida Nation second compact amendment (2021) and later tribal amendments permit remote event wagering only on land owned by the tribe or held in trust for it; no state statute authorizes statewide online sports wagering
+      url: https://doa.wi.gov/Pages/AboutDOA/TribalCompactsAndAmendments.aspx
+    operator_model: tribal_exclusive
+    notes: Whether any tribe has launched on-premises remote wagering was not confirmed by search on 2026-10-16; the status is recorded as authorized rather than live until a tribal or state record is archived.
+    provenance:
+      <<: *widoa
+      notes: "Corrected from scope not_applicable, status not_authorized: the Governor's 2021-07-01 release on the Oneida amendment states the amendment permits remote event wagering on land owned by the Nation or held in trust by the federal government that contains a commercial building owned or leased by the Nation, per https://content.govdelivery.com/accounts/WIGOV/bulletins/2e63880 and the amendment text at https://doa.wi.gov/Gaming/ONE_Second_Amendment.pdf. Statewide mobile wagering remains unauthorized."
 regulators:
-- name: Wisconsin Department of Administration, Division of Gaming
-  url: https://doa.wi.gov/Pages/AboutDOA/Gaming.aspx
-  type: other_state_agency
-  roles:
-  - compact_compliance
-  provenance:
-    source_id: wi-regulator
-    source_url: https://doa.wi.gov/Pages/AboutDOA/Gaming.aspx
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: Wisconsin Department of Administration, Division of Gaming
+    url: https://doa.wi.gov/Pages/AboutDOA/Gaming.aspx
+    type: other_state_agency
+    roles: [compact_compliance]
+    provenance:
+      <<: *widoa
+      notes: Confirmed. The Division negotiates and monitors compliance with the compacts; tribal gaming commissions regulate operations. The Division publishes no sports wagering revenue series.
 legal_age: null
-tax: null
+tax:
+  - channel: all
+    basis: revenue_share_compact
+    rate: null
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: null
+    effective_from: "2021-11-30"
+    effective_to: null
+    destination: null
+    authority_citation: No state tax applies. Tribal payments to the state are set by each compact and its memoranda of understanding, not by a sports wagering tax. Shown so that the absence is explicit.
+    provenance:
+      <<: *widoa
+      notes: Payment terms are in the compact amendments and MOUs on the Division's site and are not entered here.
 consumer_protections: null
-limitations: null
+limitations:
+  - Wisconsin publishes no handle or revenue series for tribal sports wagering, so the state cannot be placed in revenue comparisons.
+  - Minimum age and self-exclusion terms are set by compact and tribal ordinance and were not confirmed on a primary page by search on 2026-10-16; the sections are left empty rather than estimated.
+  - Press reports describe lawsuits filed by the Wisconsin Attorney General in April 2026 against prediction market operators over sports event contracts. No release on a state domain was retrieved, so no prediction_markets.yaml record is entered; see the review report.

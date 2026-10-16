@@ -1,0 +1,68 @@
+fips: "17"
+as_of: "2026-10-16"
+review_note: >-
+  The Illinois Gaming Board publishes its cease and desist letters at
+  https://igb.illinois.gov/sports-wagering/cease-and-desist-letters.html. The index lists KalshiEX LLC d/b/a Kalshi
+  (04/01/2025), Robinhood and Crypto.com (2025) and Polymarket (01/27/2026) as operators the Board believes are
+  engaging in unlicensed sports wagering. The Board also filed a comment with the CFTC on 2025-04-25 asking it to
+  prohibit designated contract markets from offering sports event contracts that violate state law
+  (https://igb.illinois.gov/content/dam/soi/en/web/igb/documents/press-releases/additional-news/20250425-comment-to-the-commodities-futures.pdf).
+  Trade press reported a December 2025 suit by Coinbase against the Board in Illinois; no primary docket record was
+  found by search, so litigation is left empty. No Illinois Attorney General action against a prediction market
+  platform was found.
+operating_platforms:
+  - platform: Kalshi
+    offers_sports_contracts: true
+    offers_in_state: "yes"
+    basis: regulator_statement
+    provenance: &igbcd
+      source_id: il-regulator
+      source_url: https://igb.illinois.gov/content/dam/soi/en/web/igb/documents/sports/cease-and-desist-letters/20250401-cease-desist-letter-kalshi.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch2-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: The Board's letter states that Kalshi is offering unlicensed sports wagering in Illinois. Whether Kalshi has since geofenced Illinois was not confirmed.
+state_actions:
+  - action_type: cease_and_desist
+    date: "2025-04-01"
+    issuing_body: Illinois Gaming Board
+    target: KalshiEX LLC d/b/a Kalshi
+    summary: The Board stated that Kalshi's sports event contracts constitute unlicensed sports wagering in violation of the Illinois Sports Wagering Act (230 ILCS 45) and the Criminal Code (720 ILCS 5/28-1(a)) and directed Kalshi and its affiliates to cease and desist, noting that failure to comply may subject it to civil or criminal penalties.
+    document_url: https://igb.illinois.gov/content/dam/soi/en/web/igb/documents/sports/cease-and-desist-letters/20250401-cease-desist-letter-kalshi.pdf
+    provenance: *igbcd
+  - action_type: cease_and_desist
+    date: "2025-04-01"
+    issuing_body: Illinois Gaming Board
+    target: Robinhood
+    summary: The Board issued a cease and desist letter on the same basis as the Kalshi letter, treating sports event contracts offered to Illinois residents as unlicensed sports wagering.
+    document_url: https://igb.illinois.gov/sports-wagering/cease-and-desist-letters.html
+    provenance:
+      <<: *igbcd
+      source_url: https://igb.illinois.gov/sports-wagering/cease-and-desist-letters.html
+      notes: The Board's index lists the Robinhood letter as dated 2025; the 2025-04-01 date is from trade press reporting of the three letters and should be confirmed against the letter PDF linked from the index.
+  - action_type: cease_and_desist
+    date: "2025-04-01"
+    issuing_body: Illinois Gaming Board
+    target: Crypto.com
+    summary: The Board issued a cease and desist letter on the same basis as the Kalshi letter, treating sports event contracts offered to Illinois residents as unlicensed sports wagering.
+    document_url: https://igb.illinois.gov/sports-wagering/cease-and-desist-letters.html
+    provenance:
+      <<: *igbcd
+      source_url: https://igb.illinois.gov/sports-wagering/cease-and-desist-letters.html
+      notes: The Board's index lists the Crypto.com letter as dated 2025; the 2025-04-01 date is from trade press reporting of the three letters and should be confirmed against the letter PDF linked from the index.
+  - action_type: cease_and_desist
+    date: "2026-01-27"
+    issuing_body: Illinois Gaming Board
+    target: Polymarket
+    summary: The Board issued a cease and desist letter to Polymarket on the same statutory basis as its 2025 letters, directing it to stop offering sports event contracts to Illinois residents.
+    document_url: https://igb.illinois.gov/content/dam/soi/en/web/igb/documents/sports/cease-and-desist-letters/20260127-cease-desist-letter-polymarket.pdf
+    provenance:
+      <<: *igbcd
+      source_url: https://igb.illinois.gov/content/dam/soi/en/web/igb/documents/sports/cease-and-desist-letters/20260127-cease-desist-letter-polymarket.pdf
+      notes: Date taken from the Board's index and the document filename; the letter body was not read from this container.
+litigation: []

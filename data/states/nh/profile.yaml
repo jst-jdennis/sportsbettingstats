@@ -1,81 +1,110 @@
-fips: '33'
+fips: "33"
 abbr: NH
 name: New Hampshire
 profile_completeness: status_only
-summary: null
+summary: >-
+  New Hampshire authorized sports wagering in 2019 through House Bill 480, codified at RSA 287-I, which places
+  mobile, retail and lottery-directed sports wagering under the New Hampshire Lottery Commission. The Commission
+  contracts with agents selected by competitive bid and approved by the Governor and Executive Council; the
+  agents pay the state a percentage of in-state sports wagering revenue, and DraftKings has been the sole mobile
+  agent since the December 2019 launch. Net proceeds go to the education trust fund.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2019-07-12'
-  launched_on: '2020-08-12'
-  authority:
-    type: statute
-    citation: HB 480 (2019); RSA 287-I
-    url: https://gencourt.state.nh.us/
-  operator_model: lottery_monopoly
-  notes: null
-  provenance:
-    source_id: nh-regulator
-    source_url: https://www.nhlottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2019-07-12'
-  launched_on: '2019-12-30'
-  authority:
-    type: statute
-    citation: HB 480 (2019); RSA 287-I
-    url: https://gencourt.state.nh.us/
-  operator_model: lottery_monopoly
-  notes: null
-  provenance:
-    source_id: nh-regulator
-    source_url: https://www.nhlottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2019-07-12"
+    launched_on: "2020-08-12"
+    authority:
+      type: statute
+      citation: HB 480-FN (2019); RSA 287-I; Lottery Commission rules at Lot 3000
+      url: https://gc.nh.gov/rsa/html/XXIV/287-I/287-I-mrg.htm
+    operator_model: lottery_monopoly
+    notes: Retail sportsbooks are limited by statute to as many as ten locations, each requiring local voter approval. The first retail location opened in Seabrook in August 2020; the exact opening date was not confirmed on review.
+    provenance: &nhleg
+      source_id: nh-legislature
+      source_url: https://gc.nh.gov/rsa/html/XXIV/287-I/287-I-mrg.htm
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch4-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: RSA 287-I
+      notes: >-
+        Authority URL changed from the General Court homepage to the RSA chapter page on gc.nh.gov (the General
+        Court's current domain); citation improvement only. authorized_on (governor's signature, July 12, 2019)
+        and launched_on were reported only by press and a Lottery presentation hosted on another state's
+        legislature site, and were not confirmed on a New Hampshire domain by search on 2026-10-16; seeded values
+        retained. Source record moved from the Lottery homepage to the statute page.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2019-07-12"
+    launched_on: "2019-12-30"
+    authority:
+      type: statute
+      citation: HB 480-FN (2019); RSA 287-I (mobile sports wagering through an agent under contract with the Lottery Commission)
+      url: https://gc.nh.gov/rsa/html/XXIV/287-I/287-I-mrg.htm
+    operator_model: lottery_monopoly
+    notes: The Governor and Executive Council approved the DraftKings mobile agent contract in November 2019 (agenda item on the Secretary of State's site, https://media.sos.nh.gov/govcouncil/2019/1125/072A%20GC%20Agenda%20112519.pdf). The December 30, 2019 launch date comes from the Lottery's own presentation and press and was not confirmed on a New Hampshire domain.
+    provenance: *nhleg
 regulators:
-- name: New Hampshire Lottery Commission
-  url: https://www.nhlottery.com/
-  type: lottery
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: nh-regulator
-    source_url: https://www.nhlottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
+  - name: New Hampshire Lottery Commission
+    url: https://www.nhlottery.com/
+    type: lottery
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance:
+      source_id: nh-regulator
+      source_url: https://www.nhlottery.com/About-Us/Administrative-and-Game-Rules
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch4-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Confirmed by search on 2026-10-16 as the body that adopts the Lot 3000 sports wagering rules and
+        contracts with agents. A 2026 procurement document styles the body the New Hampshire Lottery and Gaming
+        Commission; the statutory name was not re-checked and the seeded name is retained.
+legal_age:
+  - age: 18
+    scope: all
+    authority_citation: RSA 287-I:1 (authorized bettor means a person 18 years of age or older physically located in New Hampshire); Lot 3000 rules bar persons under 18 from opening an account, wagering or collecting winnings
+    provenance:
+      <<: *nhleg
+      page_or_table: RSA 287-I:1
+      notes: >-
+        Age confirmed from the RSA chapter page and the Lot 3000 rules by search on 2026-10-16. A 2025 bill on
+        the General Court site would raise the age to 21 effective January 1, 2026; its enactment status was
+        not confirmed. If enacted, add a new record with effective date and mark this one superseded.
+tax:
+  - channel: all
+    basis: revenue_share_compact
+    rate: null
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      New Hampshire has no operator tax. RSA 287-I requires each agent contract to give the state a percentage of
+      in-state sports wagering revenue. Press and the Lottery's presentations report the DraftKings share as 51
+      percent of mobile revenue and 50 percent of retail revenue; the contract figures and the revenue
+      definition, including any promotional deduction, were not confirmed from a New Hampshire domain by search
+      on 2026-10-16.
+    effective_from: "2019-12-30"
+    effective_to: null
+    destination:
+      - fund_name: Education Trust Fund (net proceeds after administrative costs, prizes and problem gambling payments, RSA 287-I:9)
+        share: null
+    authority_citation: RSA 287-I (agent contracts must provide the state a percentage of sports wagering revenue; distribution of net proceeds under RSA 287-I:9)
+    provenance:
+      <<: *nhleg
+      notes: Structure and destination confirmed from the RSA chapter page by search on 2026-10-16. Share percentages are left null because they sit in the agent contract, not the statute.
 consumer_protections: null
-limitations: null
+limitations:
+  - New Hampshire's state receipts are a contractual revenue share collected through a single mobile agent, so they are not comparable to tax receipts in states with multiple licensed operators.
+  - The Lottery reports sports wagering revenue on a state fiscal year basis; monthly figures are published but have been restated.
+  - Self-exclusion, deposit limit, advertising, credit card and helpline rules exist in Lot 3000 but were not read on review and are left unentered.

@@ -1,8 +1,13 @@
 fips: '39'
 abbr: OH
 name: Ohio
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Ohio authorized retail and online sports gaming through House Bill 29 of the 134th General Assembly, effective
+  March 23, 2022, and both channels launched on January 1, 2023 under the Ohio Casino Control Commission. The tax
+  on sports gaming receipts was raised from 10 percent to 20 percent by the 2023 budget act, and promotional
+  credits are not deductible until 2027. The Commission runs a statewide voluntary exclusion program that covers
+  casinos, racinos and sports gaming.
 legal_status:
 - market_segment: regulated_sportsbook
   channel: retail
@@ -12,23 +17,26 @@ legal_status:
   launched_on: '2023-01-01'
   authority:
     type: statute
-    citation: HB 29 (2021); ORC ch. 3775
-    url: https://codes.ohio.gov/
+    citation: HB 29 (134th General Assembly), effective 2022-03-23; ORC ch. 3775
+    url: https://codes.ohio.gov/ohio-revised-code/chapter-3775
   operator_model: commercial
-  notes: null
-  provenance:
-    source_id: oh-regulator
-    source_url: https://casinocontrol.ohio.gov/
+  notes: HB 29 required sports gaming to begin on a date set by the Commission's executive director and no later than
+    2023-01-01. Retail wagering is offered at type B facilities (casinos, racinos and sports venues) and through
+    type C lottery kiosks at bars and restaurants.
+  provenance: &ohleg
+    source_id: oh-legislature
+    source_url: https://codes.ohio.gov/ohio-revised-code/chapter-3775
     archive_url: null
     retrieved_at: '2026-10-16'
     retrieval_method: manual_entry
     transform: null
-    entered_by: claude-draft-2026-10-16
+    entered_by: agent-batch5-2026-10-16
     reviewed_by: null
     status: pending_review
     page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+    notes: Effective date 2022-03-23 per the Legislative Service Commission final analysis of HB 29 (legislature.ohio.gov).
+      Signing date 2021-12-22 and launch date 2023-01-01 not confirmed by search on 2026-10-16; seeded values retained.
+      The statute requires launch no later than 2023-01-01.
 - market_segment: regulated_sportsbook
   channel: online
   scope: statewide
@@ -37,45 +45,129 @@ legal_status:
   launched_on: '2023-01-01'
   authority:
     type: statute
-    citation: HB 29 (2021); ORC ch. 3775
-    url: https://codes.ohio.gov/
+    citation: HB 29 (134th General Assembly), effective 2022-03-23; ORC ch. 3775 (type A proprietors)
+    url: https://codes.ohio.gov/ohio-revised-code/chapter-3775
   operator_model: commercial
   notes: null
-  provenance:
-    source_id: oh-regulator
-    source_url: https://casinocontrol.ohio.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  provenance: *ohleg
 regulators:
 - name: Ohio Casino Control Commission
-  url: https://casinocontrol.ohio.gov/
+  url: https://casinocontrol.ohio.gov/sportsgaming.aspx
   type: gaming_commission
   roles:
   - licensing
   - enforcement
   - revenue_reporting
-  provenance:
+  provenance: &occc
     source_id: oh-regulator
-    source_url: https://casinocontrol.ohio.gov/
+    source_url: https://casinocontrol.ohio.gov/sportsgaming.aspx
     archive_url: null
     retrieved_at: '2026-10-16'
     retrieval_method: manual_entry
     transform: null
-    entered_by: claude-draft-2026-10-16
+    entered_by: agent-batch5-2026-10-16
     reviewed_by: null
     status: pending_review
     page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+    notes: Commission sports gaming page located by search on 2026-10-16. The Ohio Lottery Commission administers type C
+      kiosk sports gaming hosts under ORC 3775; not listed separately pending confirmation of its role.
+legal_age:
+- age: 21
+  scope: all
+  authority_citation: ORC 3775.99 (penalties for permitting a person under 21 to participate in sports gaming); ORC 3775.12
+  provenance:
+    <<: *ohleg
+    source_url: https://codes.ohio.gov/ohio-revised-code/section-3775.99
+    notes: Age 21 confirmed from the penalty section, which makes it an offense to permit an individual under twenty-one
+      to participate in sports gaming.
+tax:
+- channel: all
+  basis: gross_gaming_revenue
+  rate: 0.10
+  tiers: null
+  per_wager_fee_cents: null
+  promo_deduction_rule: Sports gaming receipts are total wagers less winnings paid and voided wagers (ORC 5753.01(H)).
+    Promotional gaming credits were not deductible during this period.
+  effective_from: '2023-01-01'
+  effective_to: '2023-07-03'
+  destination: null
+  authority_citation: ORC 5753.021 (version effective 2022-03-23, ten per cent of sports gaming receipts)
+  provenance:
+    <<: *ohleg
+    source_url: https://codes.ohio.gov/ohio-revised-code/section-5753.021/3-23-2022
+    notes: Rate and base from the archived statute version at codes.ohio.gov. Effective_to is set to the day before the
+      amended section took effect; confirm whether the Commission applied the new rate from 2023-07-01 (start of the
+      fiscal year) instead.
+- channel: all
+  basis: gross_gaming_revenue
+  rate: 0.20
+  tiers: null
+  per_wager_fee_cents: null
+  promo_deduction_rule: Under ORC 5753.01(H) no promotional gaming credit deduction applies through 2026-12-31. From
+    2027-01-01 to 2031-12-31 ten per cent of promotional gaming credits wagered may be deducted from receipts, and from
+    2032-01-01 twenty per cent.
+  effective_from: '2023-07-04'
+  effective_to: null
+  destination: null
+  authority_citation: ORC 5753.021 as amended by HB 33 (135th General Assembly), twenty per cent of sports gaming receipts; ORC 5753.01(H)
+  provenance:
+    <<: *ohleg
+    source_url: https://codes.ohio.gov/ohio-revised-code/section-5753.021
+    notes: Effective date 2023-07-04 is the version date shown at codes.ohio.gov. Destination of proceeds (ORC 5753.031,
+      education and problem gambling funds) not entered because the shares were not confirmed by search on 2026-10-16.
+      Bills to change the rate (SB 190, SB 150) and a 2026 proposal for a two per cent fee on gross wagers were found
+      in search results; none was confirmed as enacted.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Ohio Casino Control Commission (Voluntary Exclusion Program, Time Out Ohio)
+    durations: [1 year, 5 years, lifetime]
+    covers: [casinos, racinos, sports_gaming_retail, sports_gaming_online]
+    enrollment_methods: [online, in_person]
+    url: https://codes.ohio.gov/ohio-administrative-code/chapter-3775-12
+    notes: Statute at ORC 3775.02(B)(11) and 3775.13. Removal rules at OAC 3772-12-02 distinguish one-year, five-year and
+      lifetime exclusions; the lifetime term may be lifted only after five years and completion of an education program.
+      Duration list and enrollment methods drawn from the Commission's program description as relayed by Ohio for
+      Responsible Gambling pages; confirm against OAC 3775-12.
+    provenance:
+      <<: *ohleg
+      source_url: https://codes.ohio.gov/ohio-administrative-code/chapter-3775-12
+      notes: OAC chapter 3775-12 (sports gaming voluntary exclusion) located by search on 2026-10-16; rule text not opened
+        from this container.
+  deposit_limits: null
+  advertising:
+  - rule_type: responsible_gambling_message_required
+    text: Sports gaming advertisements must include a problem gambling message and direct the audience to a free helpline,
+      either the state helpline under ORC 3772.062, the National Council on Problem Gambling helpline or another
+      approved by the executive director.
+    authority_citation: OAC 3775-16-08
+    provenance: &ohadv
+      <<: *ohleg
+      source_url: https://codes.ohio.gov/ohio-administrative-code/rule-3775-16-08
+      notes: Rule version effective 2022-10-15 as shown at codes.ohio.gov. Check for later amendments.
+  - rule_type: no_under_age_targeting
+    text: Advertisements may not target individuals under 21 or others ineligible to wager, and may not depict anyone
+      under 21 as wagering or endorsing wagering except in live footage of athletes.
+    authority_citation: OAC 3775-16-08
+    provenance: *ohadv
+  - rule_type: no_risk_free_language
+    text: Promotions may not be described as free or risk free when the patron must risk or lose their own money to
+      obtain the promotional value.
+    authority_citation: OAC 3775-16-09(D)
+    provenance:
+      <<: *ohleg
+      source_url: https://codes.ohio.gov/ohio-administrative-code/chapter-3775-16
+      notes: Subsection reference from a secondary summary of the rule; confirm against the rule text.
+  credit_card_deposits: null
+  helpline_message:
+    required: true
+    required_number: Ohio Problem Gambling Helpline (ORC 3772.062) or the NCPG helpline; the rule does not fix a single number
+    authority_citation: OAC 3775-16-08
+    provenance: *ohadv
+limitations:
+- Ohio's taxable base is sports gaming receipts with no promotional credit deduction through 2026, so Ohio's reported
+  taxable revenue is higher relative to handle than in states that deduct promotions. Comparisons must adjust for this,
+  and the base changes again in 2027 and 2032.
+- Type C kiosk sports gaming through the Ohio Lottery is reported separately from type A and type B proprietors.
+- Residents also used federally regulated prediction markets during the period covered; that activity is outside the
+  Commission's revenue series and is tracked in prediction_markets.yaml.

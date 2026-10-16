@@ -1,81 +1,125 @@
-fips: '18'
+fips: "18"
 abbr: IN
 name: Indiana
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Indiana authorized sports wagering in House Enrolled Act 1015 (2019), codified at Indiana Code article 4-38,
+  which took effect July 1, 2019. Retail wagering began at casinos and off-track betting locations on September 1,
+  2019 and the first mobile operators went live on October 3, 2019. The Indiana Gaming Commission licenses
+  operators and taxes adjusted gross receipts at 9.5 percent.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2019-05-08'
-  launched_on: '2019-09-01'
-  authority:
-    type: statute
-    citation: HEA 1015 (2019); IC 4-38
-    url: https://iga.in.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: in-regulator
-    source_url: https://www.in.gov/igc/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2019-05-08'
-  launched_on: '2019-10-03'
-  authority:
-    type: statute
-    citation: HEA 1015 (2019); IC 4-38
-    url: https://iga.in.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: in-regulator
-    source_url: https://www.in.gov/igc/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2019-07-01"
+    launched_on: "2019-09-01"
+    authority:
+      type: statute
+      citation: House Enrolled Act 1015 (2019); Indiana Code article 4-38 (Sports Wagering)
+      url: https://iga.in.gov/laws/2025/ic/titles/4#4-38
+    operator_model: commercial
+    notes: Retail wagering is offered at riverboat and racino casinos and at off-track betting locations.
+    provenance: &igc
+      source_id: in-regulator
+      source_url: https://secure.in.gov/igc/files/2020-82-Resolution.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch2-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Corrected authorized_on from 2019-05-08: the data model defines authorized_on as the statute's effective date,
+        and the Indiana Gaming Commission's Resolution 2020-82 states that HEA 1015 became effective on July 1, 2019
+        and that sports wagering was allowed to commence on September 1, 2019, per
+        https://secure.in.gov/igc/files/2020-82-Resolution.pdf. The 2019-05-08 date is the reported signing date and
+        was not itself confirmed. launched_on 2019-09-01 is consistent with the same resolution.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2019-07-01"
+    launched_on: "2019-10-03"
+    authority:
+      type: statute
+      citation: House Enrolled Act 1015 (2019); Indiana Code article 4-38; 68 IAC 27 (Commission rules for sports wagering, including mobile wagering)
+      url: https://iga.in.gov/laws/2025/ic/titles/4#4-38
+    operator_model: commercial
+    notes: Mobile operators must be affiliated with a certificate holder (casino or racino); each certificate holder may partner with up to three mobile platforms.
+    provenance:
+      <<: *igc
+      notes: >-
+        Corrected authorized_on from 2019-05-08 to 2019-07-01 for the reason given on the retail record. launched_on
+        2019-10-03 (first mobile go-live authorizations for Rush Street and DraftKings) is from press reports of
+        Commission authorizations; Not confirmed by search on 2026-10-16 against a Commission document; seeded value
+        retained.
 regulators:
-- name: Indiana Gaming Commission
-  url: https://www.in.gov/igc/
-  type: gaming_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: in-regulator
-    source_url: https://www.in.gov/igc/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+  - name: Indiana Gaming Commission
+    url: https://www.in.gov/igc/
+    type: gaming_commission
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance:
+      <<: *igc
+      source_url: https://www.in.gov/igc/files/sportswagering/Sports-Wagering-FAQs.pdf
+      notes: Name and roles confirmed against the Commission's sports wagering FAQs and rules (in.gov/igc). Monthly sports wagering revenue reports are published on the same site.
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: 68 IAC 27 (Commission sports wagering rules) requires that only patrons at least twenty-one years of age may deposit funds or participate in wagering; statutory basis in IC 4-38 to be cited
+    provenance:
+      <<: *igc
+      source_url: https://www.in.gov/igc/files/sportswagering/Rules-for-Sports-Wagering.PDF
+      notes: Confirmed against the Commission's rules PDF. The specific IC 4-38 section was not located by search.
+tax:
+  - channel: all
+    basis: adjusted_gross_revenue
+    rate: 0.095
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      Adjusted gross receipts under 68 IAC 27-1-2 are all cash and property received from sports wagering less
+      winnings paid to patrons and less uncollectible receivables capped at the lesser of a reasonable provision or
+      2 percent of the total. The definition contains no deduction for promotional credits or free play.
+    effective_from: "2019-09-01"
+    effective_to: null
+    destination: null
+    authority_citation: IC 4-38-10-1 (9.5 percent tax on adjusted gross receipts of a certificate holder), as summarized in the Indiana Gaming Commission's June 15, 2023 sports wagering presentation
+    provenance:
+      <<: *igc
+      source_url: https://www.in.gov/igc/files/06-15-2023-IGC-Sports-Wagering-Presentation.pdf
+      notes: Rate and section confirmed against the Commission presentation and the rules PDF. Distribution of receipts (state general fund share and addiction services share) to be entered from IC 4-38-10 when the section text is read.
+consumer_protections:
+  self_exclusion:
+    program_type: both
+    administered_by: Indiana Gaming Commission (Voluntary Exclusion Program and Internet Self-Restriction Program); operator programs required
+    durations: null
+    covers: [casinos, sports_wagering_retail, sports_wagering_online]
+    enrollment_methods: null
+    url: https://www.in.gov/igc/files/sportswagering/Sports-Wagering-FAQs.pdf
+    notes: >-
+      The Commission's FAQs state that a person may exclude himself or herself from all sports wagering by enrolling
+      in the Voluntary Exclusion Program, that the Commission also runs a statewide Internet Self-Restriction Program,
+      and that each operator must maintain its own separate self-exclusion program. House Bill 1052 (2026) proposed
+      adding sports wagering certificate holders to the statutory VEP; its enactment was not confirmed. Durations
+      not confirmed by search.
+    provenance:
+      <<: *igc
+      source_url: https://www.in.gov/igc/files/sportswagering/Sports-Wagering-FAQs.pdf
+      notes: FAQs last updated 2024-03-26 per the document header.
+  deposit_limits: null
+  advertising:
+    - rule_type: other
+      text: Sports wagering advertising must state that patrons must be at least twenty-one years of age to wager.
+      authority_citation: 68 IAC 27 (Commission sports wagering rules, advertising provisions)
+      provenance:
+        <<: *igc
+        source_url: https://www.in.gov/igc/files/sportswagering/Rules-for-Sports-Wagering.PDF
+        notes: Rule subsection number to be cited when the PDF is read in full. Helpline message requirements were not confirmed and are left null.
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+  - Indiana's adjusted gross receipts deduct winnings and a capped allowance for uncollectible receivables but not promotional credits, so taxable revenue is close to gross revenue and not comparable to states that deduct promotions.
+  - Illinois residents contributed a share of Indiana handle before Illinois online wagering opened in mid 2020 and during periods when Illinois required in-person registration.

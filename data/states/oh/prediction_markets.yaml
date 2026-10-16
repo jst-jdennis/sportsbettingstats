@@ -1,0 +1,81 @@
+fips: "39"
+as_of: "2026-10-16"
+review_note: >-
+  The Ohio Casino Control Commission's 2025-03-31 cease and desist notices were distributed by email and the
+  Commission's web release was not located by search on 2026-10-16. The Commission's 2025-12-17 meeting minutes,
+  which record executive session on the pending litigation KalshiEx LLC v. Schuler, are the primary-domain record
+  cited. The notices and the docket should be archived before any record here is verified.
+operating_platforms:
+  - platform: Kalshi
+    offers_sports_contracts: true
+    offers_in_state: "yes"
+    basis: regulator_statement
+    provenance: &occcmin
+      source_id: oh-regulator
+      source_url: https://dam.assets.ohio.gov/image/upload/v1770221418/casinocontrol.ohio.gov/meeting%20minutes/2025/12-17-2025_Mtg_Minutes.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch5-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: The Commission's 2025-03-31 notices and the litigation record indicate Kalshi offered sports event contracts
+        to Ohio residents; whether it has since geofenced Ohio after the 2026 rulings is not confirmed.
+  - platform: Robinhood
+    offers_sports_contracts: true
+    offers_in_state: unknown
+    basis: regulator_statement
+    provenance: *occcmin
+  - platform: Crypto.com
+    offers_sports_contracts: true
+    offers_in_state: unknown
+    basis: regulator_statement
+    provenance: *occcmin
+state_actions:
+  - action_type: cease_and_desist
+    date: "2025-03-31"
+    issuing_body: Ohio Casino Control Commission
+    target: KalshiEX LLC, Robinhood Derivatives LLC and Crypto.com (North American Derivatives Exchange)
+    summary: The Commission notified the three companies that their event contracts on sporting events meet the
+      definition of sports gaming under ORC 3775, which requires a license, and directed them to stop offering the
+      contracts to Ohio residents by 2025-04-14.
+    document_url: null
+    provenance:
+      <<: *occcmin
+      notes: Date, targets and deadline as reported in trade and local press on 2025-03-31 and 2025-04-01, which quote the
+        Commission's emailed release. The release URL was not located by search; the minutes cited confirm the resulting
+        litigation. Not confirmed on the Commission's website on 2026-10-16.
+litigation:
+  - case_name: KalshiEX LLC v. Schuler et al.
+    court: US District Court for the Southern District of Ohio (appeal in the US Court of Appeals for the Sixth Circuit)
+    docket: 2:25-cv-01165
+    filed_on: null
+    status: appeal_pending
+    posture_note: >-
+      All rulings to date concern preliminary relief. The district court denied a preliminary injunction and an
+      injunction pending appeal, and the Sixth Circuit declined to enjoin Ohio's enforcement while the expedited
+      appeal proceeds. No final judgment on the merits has been entered as of the as_of date.
+    rulings:
+      - date: "2026-03-09"
+        court: US District Court for the Southern District of Ohio
+        summary: Denied Kalshi's motion for a preliminary injunction against enforcement of Ohio sports gaming law, finding
+          that sports event contracts are not swaps under the Commodity Exchange Act. Date as reported by press; confirm
+          against the docket.
+        document_url: null
+      - date: "2026-03-20"
+        court: US District Court for the Southern District of Ohio
+        summary: Denied Kalshi's motion for an injunction pending appeal.
+        document_url: null
+      - date: "2026-04-24"
+        court: US Court of Appeals for the Sixth Circuit
+        summary: Denied Kalshi's motion for an injunction pending appeal and ordered the appeal expedited to a merits panel.
+          Press reports a merits argument on 2026-07-30 and a later ruling favorable to Ohio; neither was confirmed on a
+          primary domain by search on 2026-10-16.
+        document_url: null
+    provenance:
+      <<: *occcmin
+      notes: Case name and pendency confirmed from the Commission's 2025-12-17 minutes. Docket number from a public docket
+        index. Ruling dates from press. In June 2026 the Commission announced a proposed five million dollar penalty
+        and Kalshi filed a separate action in Ohio state court; neither is entered pending a primary record.

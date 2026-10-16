@@ -64,6 +64,7 @@ th { font-weight: 600; background: var(--panel); }
 details summary { cursor: pointer; }
 .toc { font-size: .9rem; } .toc ul { columns: 2; padding-left: 1.2rem; } @media (max-width: 40rem) { .toc ul { columns: 1; } }
 @media print { header.site nav, .skip, .toc { display: none; } a { color: inherit; text-decoration: none; } .src a::after { content: " (" attr(href) ")"; font-size: .75rem; } }
+.tiers { list-style: none; padding: 0; margin: 0; text-align: left; white-space: nowrap; }
 
 /* Charts: static SVG rendered at build time. Three categorical slots, validated for color vision deficiency in both modes. */
 :root { --viz-1: #2a78d6; --viz-2: #eb6834; --viz-3: #1baf7a; --viz-muted: #b9bcc2; }

@@ -1,81 +1,136 @@
-fips: '05'
+fips: "05"
 abbr: AR
 name: Arkansas
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Arkansas voters approved Amendment 100 (Issue 4) on November 6, 2018, which defines casino gaming to include
+  wagers on sporting events at four licensed casinos. Retail sports wagering began at Oaklawn on July 1, 2019.
+  The Arkansas Racing Commission's amended Casino Gaming Rules allowed statewide mobile wagering through casino
+  licensees from March 2022, and sports wagering is taxed as part of net casino gaming receipts at 13 percent of
+  the first 150 million dollars and 20 percent above that.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2018-11-06'
-  launched_on: '2019-07-01'
-  authority:
-    type: constitutional_amendment
-    citation: Ark. Const. amend. 100 (2018); Casino Gaming Rules, Rule 2
-    url: https://www.dfa.arkansas.gov/racing-commission/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: ar-regulator
-    source_url: https://www.dfa.arkansas.gov/racing-commission/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2022-02-22'
-  launched_on: '2022-03-04'
-  authority:
-    type: constitutional_amendment
-    citation: Ark. Const. amend. 100 (2018); Casino Gaming Rules, Rule 2
-    url: https://www.dfa.arkansas.gov/racing-commission/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: ar-regulator
-    source_url: https://www.dfa.arkansas.gov/racing-commission/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2018-11-06"
+    launched_on: "2019-07-01"
+    authority:
+      type: constitutional_amendment
+      citation: Ark. Const. amend. 100 (Arkansas Casino Gaming Amendment of 2018, Issue 4), which defines casino gaming to include accepting wagers on sporting events; Arkansas Racing Commission Casino Gaming Rules
+      url: https://www.sos.arkansas.gov/uploads/elections/Issue_4_for_Website.pdf
+    operator_model: commercial
+    notes: Retail sportsbooks operate at the casino licensees (Oaklawn in Hot Springs, Southland in West Memphis and Saracen in Pine Bluff). The fourth license, for Pope County, was revoked by Amendment 104 (2024).
+    provenance: &arc
+      source_id: ar-regulator
+      source_url: https://www.dfa.arkansas.gov/office/taxes/field-audit-administration/casino-gaming-section/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch1-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Amendment 100 and its sports wagering definition confirmed by search on 2026-10-16 against the Department of Finance and Administration's Casino Gaming Section page and the Secretary of State's ballot notice. authorized_on is the election date; the amendment's own effective date was not confirmed by search and the seeded value is retained. launched_on 2019-07-01 appears only in press reports; not confirmed on a primary page by search on 2026-10-16; seeded value retained.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2022-02-22"
+    launched_on: "2022-03-04"
+    authority:
+      type: regulation
+      citation: Arkansas Racing Commission Casino Gaming Rules as amended December 30, 2021 (mobile sports wagering through casino licensees, up to two platforms per licensee), reviewed by the Legislative Council in February 2022
+      url: https://www.dfa.arkansas.gov/racing-commission/
+    operator_model: commercial
+    notes: Mobile platforms operate under a casino licensee; the amended rule requires the casino licensee to retain at least 51 percent of mobile sports wagering revenue, as reported in press coverage of the rule.
+    provenance:
+      <<: *arc
+      source_url: https://www.dfa.arkansas.gov/racing-commission/
+      notes: Press reports place Racing Commission approval on 2021-12-30, Legislative Council subcommittee approval on 2022-02-17 and the first mobile wagers (Southland's Betly) on 2022-03-05 after the rule took effect on 2022-03-04. Neither the seeded authorized_on nor launched_on was confirmed on a primary page by search on 2026-10-16; seeded values retained. The Racing Commission page is the landing page because search returned no specific rule page.
 regulators:
-- name: Arkansas Racing Commission
-  url: https://www.dfa.arkansas.gov/racing-commission/
-  type: racing_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: ar-regulator
-    source_url: https://www.dfa.arkansas.gov/racing-commission/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+  - name: Arkansas Racing Commission
+    url: https://www.dfa.arkansas.gov/racing-commission/
+    type: racing_commission
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance:
+      <<: *arc
+      source_url: https://www.dfa.arkansas.gov/racing-commission/
+      notes: Confirmed by search on 2026-10-16. The Commission is a division of the Department of Finance and Administration.
+  - name: Arkansas Department of Finance and Administration, Casino Gaming Section
+    url: https://www.dfa.arkansas.gov/office/taxes/field-audit-administration/casino-gaming-section/
+    type: other_state_agency
+    roles: [revenue_reporting]
+    provenance:
+      <<: *arc
+      notes: Administers the net casino gaming receipts tax under Amendment 100. Added on the strength of the Section's own page found by search on 2026-10-16.
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: Arkansas Racing Commission Casino Gaming Rules (no person under twenty-one years of age may engage in casino gaming, which includes sports wagering); exact rule section not confirmed by search on 2026-10-16
+    provenance:
+      <<: *arc
+      source_url: https://www.dfa.arkansas.gov/racing-commission/
+      notes: Age itself is uncontested; the citation must be confirmed against the current Casino Gaming Rules at review.
+tax:
+  - channel: all
+    basis: gross_gaming_revenue
+    rate: null
+    tiers:
+      - threshold_from: 0
+        threshold_to: 150000000
+        rate: 0.13
+      - threshold_from: 150000001
+        threshold_to: null
+        rate: 0.20
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      Net casino gaming receipts are casino gaming receipts less amounts paid out or reserved as winnings to
+      patrons; sports wagering is included in the same base as all other casino gaming and the tiers apply per
+      licensee per fiscal year. Amendment 100 does not address promotional play; whether free bets reduce receipts
+      is not confirmed and only the headline rates are entered.
+    effective_from: "2019-07-01"
+    effective_to: null
+    destination:
+      - fund_name: State General Revenue Fund
+        share: 0.55
+      - fund_name: Arkansas Racing Commission Purse and Awards Fund
+        share: 0.175
+      - fund_name: Host county
+        share: 0.08
+      - fund_name: Host city (or county if outside a city)
+        share: 0.195
+    authority_citation: Ark. Const. amend. 100 (net casino gaming receipts tax of 13 percent on the first 150,000,000 dollars and 20 percent above); Arkansas Racing Commission Casino Gaming Rule on payment of the tax (monthly, by the twentieth day)
+    provenance:
+      <<: *arc
+      notes: Rates and base confirmed by search on 2026-10-16 against the Department of Finance and Administration's Casino Gaming Section page. Distribution shares are from the Secretary of State's ballot notice and Attorney General Opinion 2018-068 and should be confirmed against the amendment text. effective_from is the first sports wager date; the tax applied to casino gaming from the amendment's effective date.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Arkansas Racing Commission
+    durations: null
+    covers: [casinos, sports_wagering_retail, sports_wagering_online]
+    enrollment_methods: null
+    url: null
+    notes: Act 798 of 2025 (HB 1847) authorized the Racing Commission to maintain a statewide self-exclusion list with identities protected from public disclosure. Before that act, exclusion was through the individual casinos. Implementing rule, term options and enrollment methods were not confirmed by search on 2026-10-16.
+    provenance:
+      source_id: ar-legislature
+      source_url: https://arkleg.state.ar.us/Bills/Detail?id=HB1847&ddBienniumSession=2025%2F2025R
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch1-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Bill title and chaptering as Act 798 of 2025 found through a legislative tracker quoting the Legislature's record; the arkleg.state.ar.us bill detail URL follows the site's pattern and was not opened from this container.
+  deposit_limits: null
+  advertising: null
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+  - Arkansas taxes sports wagering inside net casino gaming receipts, so there is no sports-specific tax rate or tax revenue line; the Racing Commission's monthly reports break out sports wagering handle and revenue but the tier a licensee falls in depends on its total casino gaming receipts.
+  - Mobile revenue is reported by casino licensee, and the 51 percent licensee retention rule makes operator-level figures incomparable with open-platform states.
+  - A share of Arkansas handle comes from residents of Tennessee, Mississippi and Texas, and the Southland and Oaklawn markets changed materially when Tennessee (online only, November 2020) and Mississippi (on-premises mobile) regulated.

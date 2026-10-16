@@ -2,7 +2,12 @@ fips: '38'
 abbr: ND
 name: North Dakota
 profile_completeness: status_only
-summary: null
+summary: >-
+  North Dakota has no state statute authorizing sports wagering, and a constitutional amendment would be required
+  for the Legislature to authorize it; House Concurrent Resolution 3002 passed the House in January 2023 and failed
+  in the Senate 16 to 30 on April 10, 2023, after similar measures failed in 2019 and 2021. Sports wagering is
+  offered only at tribal casinos under the tribal-state gaming compacts signed in December 2022, which also permit
+  mobile wagering within reservation boundaries. The Attorney General's Gaming Division oversees compact compliance.
 legal_status:
 - market_segment: regulated_sportsbook
   channel: retail
@@ -12,23 +17,26 @@ legal_status:
   launched_on: null
   authority:
     type: compact
-    citation: Tribal-state gaming compacts; no state statute authorizes commercial sports wagering
+    citation: Tribal-state gaming compacts (current compacts signed 2022-12-02 for ten years); no state statute authorizes commercial sports wagering
     url: https://attorneygeneral.nd.gov/gaming/
   operator_model: tribal_exclusive
-  notes: null
-  provenance:
+  notes: The 2022 compacts, as reported at signing, lower the tribal casino gambling age to 19, allow card payments and
+    permit sports wagering, including by mobile device within reservation boundaries. The compact text was not
+    opened from this container.
+  provenance: &ndag
     source_id: nd-regulator
     source_url: https://attorneygeneral.nd.gov/gaming/
     archive_url: null
     retrieved_at: '2026-10-16'
     retrieval_method: manual_entry
     transform: null
-    entered_by: claude-draft-2026-10-16
+    entered_by: agent-batch5-2026-10-16
     reviewed_by: null
     status: pending_review
     page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+    notes: Seeded status and scope are consistent with search results on 2026-10-16 (compacts signed 2022-12-02; HCR 3002
+      failed 2023-04-10), but no attorneygeneral.nd.gov page was returned by search and the compact text was not read.
+      Not confirmed by search on 2026-10-16; seeded values retained. Dates of first tribal sportsbook operation unknown.
 - market_segment: regulated_sportsbook
   channel: online
   scope: not_applicable
@@ -37,23 +45,26 @@ legal_status:
   launched_on: null
   authority:
     type: none
-    citation: Tribal-state gaming compacts; no state statute authorizes commercial sports wagering
-    url: https://attorneygeneral.nd.gov/gaming/
+    citation: No state statute authorizes online sports wagering. HCR 3002 (2023), which would have placed an enabling constitutional amendment on the 2024 ballot, failed in the Senate on 2023-04-10.
+    url: https://www.ndlegis.gov/files/resource/68-2023/library/hcr3002.pdf
   operator_model: null
-  notes: null
+  notes: Press reports that the 2022 compacts allow mobile wagering within reservation boundaries only. If confirmed from
+    the compact text, this channel should be recorded as tribal_lands_only rather than not_authorized. The governor
+    rejected the tribes' request for exclusive statewide online wagering in 2022 as outside his authority.
   provenance:
-    source_id: nd-regulator
-    source_url: https://attorneygeneral.nd.gov/gaming/
+    source_id: nd-legislature
+    source_url: https://www.ndlegis.gov/files/resource/68-2023/library/hcr3002.pdf
     archive_url: null
     retrieved_at: '2026-10-16'
     retrieval_method: manual_entry
     transform: null
-    entered_by: claude-draft-2026-10-16
+    entered_by: agent-batch5-2026-10-16
     reviewed_by: null
     status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+    page_or_table: HCR 3002, 68th Legislative Assembly (2023)
+    notes: Legislative history file for HCR 3002 located at ndlegis.gov on 2026-10-16. Senate vote 16 to 30 on 2023-04-10
+      per press and the journal; House vote 49 to 44 in January 2023. Absence of authorization must be re-confirmed
+      after each session.
 regulators:
 - name: North Dakota Attorney General, Gaming Division
   url: https://attorneygeneral.nd.gov/gaming/
@@ -61,19 +72,15 @@ regulators:
   roles:
   - compact_compliance
   provenance:
-    source_id: nd-regulator
-    source_url: https://attorneygeneral.nd.gov/gaming/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+    <<: *ndag
+    notes: Not confirmed by search on 2026-10-16; seeded value retained. The Attorney General advised the governor during
+      the 2022 compact negotiation; the governor signs compacts.
 legal_age: null
 tax: null
 consumer_protections: null
-limitations: null
+limitations:
+- North Dakota is a comparison state with no state-regulated sports wagering. Tribal sportsbook activity under the
+  compacts is not reported by the state, and residents can use offshore sites, sweepstakes products and federally
+  regulated prediction markets; none of that appears in any state revenue series.
+- Problem gambling indicators for North Dakota reflect charitable gaming and tribal casinos and cannot be read as
+  sports wagering effects.

@@ -1,78 +1,67 @@
-fips: '13'
+fips: "13"
 abbr: GA
 name: Georgia
 profile_completeness: status_only
-summary: null
+summary: >-
+  Georgia has not authorized sports wagering. Constitutional amendment resolutions and enabling bills to put the
+  question to voters, including HR 450 and HB 686 in 2025 and HB 910 in the 2026 session, were introduced in the
+  General Assembly but no measure had become law or been placed on a ballot as of October 2026. The Georgia Lottery
+  Corporation operates the state lottery and no state body regulates sports wagering.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: ga-legislature
-    source_url: https://www.legis.ga.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: ga-legislature
-    source_url: https://www.legis.ga.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No Georgia statute or constitutional provision authorizes sports wagering. Lotteries and pari-mutuel wagering are addressed in Ga. Const. Art. I, Sec. II, Para. VIII; the lottery exception does not extend to sports wagering.
+      url: https://www.legis.ga.gov/
+    operator_model: null
+    notes: >-
+      Measures considered but not enacted include HR 450 and HB 686 (2025) and HB 910 (2026). The outcome of HB 910
+      at the 2026 sine die on April 3, 2026 could not be confirmed from a primary source during this review; press
+      previews described it as awaiting Senate action.
+    provenance: &galeg
+      source_id: ga-legislature
+      source_url: https://www.legis.ga.gov/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch2-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Not confirmed by search on 2026-10-16 against a legis.ga.gov page; seeded value retained. No search result
+        reported enactment of any Georgia sports wagering measure through the 2026 session, which is consistent with
+        the seeded status. Re-check bill status for HB 910 on legis.ga.gov and re-confirm after each session.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No Georgia statute or constitutional provision authorizes online sports wagering.
+      url: https://www.legis.ga.gov/
+    operator_model: null
+    notes: null
+    provenance: *galeg
 regulators:
-- name: No state body regulates sports wagering; none is authorized
-  url: null
-  type: none
-  roles: []
-  provenance:
-    source_id: ga-legislature
-    source_url: https://www.legis.ga.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: No state body regulates sports wagering; none is authorized
+    url: null
+    type: none
+    roles: []
+    provenance:
+      <<: *galeg
+      notes: Consistent with the absence of an authorizing statute. The Georgia Lottery Corporation would be the operator or regulator under most proposed bills.
 legal_age: null
 tax: null
 consumer_protections: null
-limitations: null
+limitations:
+  - Georgia is a comparison state with no regulated sports wagering. Residents can and do use offshore sites, sweepstakes products and, depending on platform geofencing, federally regulated prediction markets; none of that activity appears in any state revenue series.
+  - Problem gambling indicators for Georgia reflect lottery play and other gambling and cannot be read as sports wagering effects.

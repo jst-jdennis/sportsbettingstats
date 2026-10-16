@@ -1,78 +1,59 @@
-fips: '01'
+fips: "01"
 abbr: AL
 name: Alabama
 profile_completeness: status_only
-summary: null
+summary: >-
+  Alabama has not authorized sports wagering in any form, and the 2022 Constitution's prohibition on lotteries
+  remains in place. The most recent proposal, Senate Bill 257 of the 2026 Regular Session, would have asked voters
+  to approve a lottery, casino gaming and retail and online sports wagering; it was introduced on February 3, 2026,
+  referred to the Senate Tourism committee and recorded no further action.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: al-legislature
-    source_url: https://alison.legislature.state.al.us/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: al-legislature
-    source_url: https://alison.legislature.state.al.us/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No Alabama statute authorizes sports wagering. Ala. Const. 2022, Section 65 prohibits lotteries and gift enterprises; SB 257 (2026 Regular Session) proposed to replace it and did not advance.
+      url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/SB257-int.pdf
+    operator_model: null
+    notes: SB 257 (2026) was a proposed constitutional amendment that would have authorized the Legislature to establish a lottery, in-person casino games and retail and online sports wagering under a new gaming commission, and would have allowed a compact with the Poarch Band of Creek Indians. Introduced 2026-02-03, referred to Senate Tourism, no further action recorded.
+    provenance: &alleg
+      source_id: al-legislature
+      source_url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/SB257-int.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch1-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Search on 2026-10-16 found the introduced text of SB 257 on the Legislature's site and no enacted authorization. Absence of authorization must be re-confirmed after each session.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No Alabama statute authorizes online sports wagering.
+      url: https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/SB257-int.pdf
+    operator_model: null
+    notes: null
+    provenance: *alleg
 regulators:
-- name: No state body regulates sports wagering; none is authorized
-  url: null
-  type: none
-  roles: []
-  provenance:
-    source_id: al-legislature
-    source_url: https://alison.legislature.state.al.us/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: No state body regulates sports wagering; none is authorized
+    url: null
+    type: none
+    roles: []
+    provenance: *alleg
 legal_age: null
 tax: null
 consumer_protections: null
-limitations: null
+limitations:
+  - Alabama is a comparison state with no regulated sports wagering. Residents may use offshore sites, sweepstakes products and, depending on platform geofencing, federally regulated prediction markets; none of that activity appears in any state revenue series.
+  - Problem gambling indicators for Alabama reflect all gambling, including Poarch Band of Creek Indians Class II facilities and electronic bingo disputes, and cannot be read as sports wagering effects.

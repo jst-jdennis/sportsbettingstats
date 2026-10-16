@@ -1,81 +1,70 @@
-fips: '35'
+fips: "35"
 abbr: NM
 name: New Mexico
 profile_completeness: status_only
-summary: null
+summary: >-
+  New Mexico has no statute authorizing sports wagering. Several tribal casinos offer retail sports wagering on
+  the position that the 2015 tribal-state Class III gaming compact, which does not name sports wagering, permits
+  it; the first sportsbook opened at Santa Ana Star Casino in October 2018 under the regulation of the Pueblo of
+  Santa Ana Gaming Regulatory Commission. The New Mexico Gaming Control Board monitors compact compliance but
+  does not license sports wagering, and no online wagering is authorized.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: tribal_lands_only
-  status: live
-  authorized_on: null
-  launched_on: '2018-10-16'
-  authority:
-    type: compact
-    citation: Tribal-state Class III gaming compacts (2015 compact); no state statute specific to sports
-      wagering
-    url: https://www.nmgcb.org/
-  operator_model: tribal_exclusive
-  notes: null
-  provenance:
-    source_id: nm-regulator
-    source_url: https://www.nmgcb.org/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: Tribal-state Class III gaming compacts (2015 compact); no state statute specific to sports
-      wagering
-    url: https://www.nmgcb.org/
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: nm-regulator
-    source_url: https://www.nmgcb.org/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: tribal_lands_only
+    status: live
+    authorized_on: null
+    launched_on: "2018-10-16"
+    authority:
+      type: compact
+      citation: Tribal-state Class III gaming compacts (2015 compact, effective dates amended 2017); no state statute specific to sports wagering
+      url: https://www.nmgcb.org/
+    operator_model: tribal_exclusive
+    notes: Retail sportsbooks operate at tribal casinos under tribal regulatory authority. The state has neither approved nor prohibited the activity by statute or regulation.
+    provenance: &nmgcb
+      source_id: nm-regulator
+      source_url: https://www.nmgcb.org/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch4-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Not confirmed by search on 2026-10-16; seeded values retained. Search returned no New Mexico state domain
+        page on sports wagering or the compact text; the launch date (October 16, 2018) and the compact basis
+        rest on press reports citing the operator and the Pueblo's regulator. The Board's compacts page should be
+        cited directly before verification.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No New Mexico statute or compact provision authorizes online sports wagering. Tribal sportsbooks accept wagers only on tribal lands.
+      url: https://www.nmgcb.org/
+    operator_model: null
+    notes: Absence of authorization must be re-confirmed after each legislative session.
+    provenance: *nmgcb
 regulators:
-- name: New Mexico Gaming Control Board
-  url: https://www.nmgcb.org/
-  type: gaming_commission
-  roles:
-  - compact_compliance
-  provenance:
-    source_id: nm-regulator
-    source_url: https://www.nmgcb.org/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: New Mexico Gaming Control Board
+    url: https://www.nmgcb.org/
+    type: gaming_commission
+    roles: [compact_compliance]
+    provenance:
+      <<: *nmgcb
+      notes: >-
+        Role not confirmed by search on 2026-10-16; seeded value retained. Press reports quoting the Board's
+        site describe it as monitoring the tribal gaming compacts, while day to day regulation of tribal
+        sportsbooks sits with each tribe's gaming regulatory body.
 legal_age: null
 tax: null
 consumer_protections: null
-limitations: null
+limitations:
+  - New Mexico tribal sportsbooks report no handle or revenue to the state, and the compact revenue sharing formula applies to slot machine net win only. No sports wagering revenue series exists for the state.
+  - Problem gambling indicators for New Mexico reflect a large tribal casino and racino market and cannot be attributed to sports wagering.
+  - Minimum age at tribal sportsbooks is set by compact and tribal ordinance (reported as 21) and was not confirmed from a state domain on review.

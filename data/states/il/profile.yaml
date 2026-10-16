@@ -1,81 +1,160 @@
-fips: '17'
+fips: "17"
 abbr: IL
 name: Illinois
 profile_completeness: status_only
-summary: null
+summary: >-
+  Illinois authorized sports wagering in the Sports Wagering Act (230 ILCS 45), enacted in June 2019. Legal
+  wagering began in March 2020 at Rivers Casino Des Plaines and online wagering followed in June 2020. The Illinois
+  Gaming Board licenses and regulates operators. The privilege tax moved from a flat rate to graduated tiers on
+  July 1, 2024 and a per-wager fee was added on July 1, 2025.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2019-06-28'
-  launched_on: '2020-03-09'
-  authority:
-    type: statute
-    citation: Sports Wagering Act, 230 ILCS 45
-    url: https://www.ilga.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: il-regulator
-    source_url: https://igb.illinois.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2019-06-28'
-  launched_on: '2020-06-18'
-  authority:
-    type: statute
-    citation: Sports Wagering Act, 230 ILCS 45
-    url: https://www.ilga.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: il-regulator
-    source_url: https://igb.illinois.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2019-06-28"
+    launched_on: "2020-03-09"
+    authority:
+      type: statute
+      citation: Sports Wagering Act, 230 ILCS 45 (Public Act 101-0031)
+      url: https://www.ilga.gov/legislation/ILCS/details?MajorTopic=&Chapter=&ActName=Sports+Wagering+Act.&ActID=3996&ChapterID=25&ChapAct=230+ILCS+45%2F&SeqStart=100000&SeqEnd=2900000
+    operator_model: commercial
+    notes: Master sports wagering licenses are held by casinos, racetracks, sports facilities and online-only licensees; retail wagering takes place at casinos, racetracks and licensed sports facilities.
+    provenance: &ilga
+      source_id: il-legislature
+      source_url: https://www.ilga.gov/legislation/ILCS/details?MajorTopic=&Chapter=&ActName=Sports+Wagering+Act.&ActID=3996&ChapterID=25&ChapAct=230+ILCS+45%2F&SeqStart=100000&SeqEnd=2900000
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch2-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Statute citation confirmed against ilga.gov. The Illinois Gaming Board states that legal sports wagering began
+        in March 2020 (https://igb.illinois.gov/news/press-release.31211.html); the exact day 2020-03-09 is from
+        secondary knowledge. authorized_on 2019-06-28 (Public Act 101-0031 effective date): Not confirmed by search on
+        2026-10-16; seeded value retained.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2019-06-28"
+    launched_on: "2020-06-18"
+    authority:
+      type: statute
+      citation: Sports Wagering Act, 230 ILCS 45 (Public Act 101-0031); 230 ILCS 45/25-90 (privilege tax)
+      url: https://www.ilga.gov/legislation/ILCS/details?MajorTopic=&Chapter=&ActName=Sports+Wagering+Act.&ActID=3996&ChapterID=25&ChapAct=230+ILCS+45%2F&SeqStart=100000&SeqEnd=2900000
+    operator_model: commercial
+    notes: In-person registration was required for online accounts until it was suspended by executive order in 2020 and ended by statute in 2022.
+    provenance:
+      <<: *ilga
+      notes: launched_on 2020-06-18 (first online wagers through BetRivers) and authorized_on 2019-06-28 are Not confirmed by search on 2026-10-16; seeded values retained.
 regulators:
-- name: Illinois Gaming Board
-  url: https://igb.illinois.gov/
-  type: gaming_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: il-regulator
-    source_url: https://igb.illinois.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: Illinois Gaming Board
+    url: https://igb.illinois.gov/
+    type: gaming_commission
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance: &igb
+      source_id: il-regulator
+      source_url: https://igb.illinois.gov/sports-wagering/cease-and-desist-letters.html
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch2-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Name, licensing and enforcement roles confirmed against igb.illinois.gov sports wagering pages. Monthly sports wagering revenue reports are published on the same site.
 legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+tax:
+  - channel: all
+    basis: adjusted_gross_revenue
+    rate: 0.15
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      Adjusted gross sports wagering receipts are defined in 230 ILCS 45/25-10 as gross sports wagering receipts
+      less winnings paid to wagerers; the definition contains no deduction for promotional credits. How free bets
+      enter gross receipts was not confirmed by search.
+    effective_from: "2020-03-09"
+    effective_to: "2024-06-30"
+    destination: null
+    authority_citation: 230 ILCS 45/25-90 as originally enacted (15 percent privilege tax on adjusted gross sports wagering receipts) plus an additional 2 percent on receipts from wagers placed in Cook County
+    provenance:
+      <<: *ilga
+      source_url: https://lrb.ilga.gov/legislation/ilcs/documents/023000450K25-90.htm
+      notes: The 15 percent headline rate for this period is from secondary knowledge and was Not confirmed by search on 2026-10-16. The Cook County 2 percent surcharge and the definition of adjusted gross sports wagering receipts were confirmed against 230 ILCS 45/25-90 and 25-10.
+  - channel: all
+    basis: adjusted_gross_revenue
+    rate: null
+    tiers:
+      - threshold_from: 0
+        threshold_to: 30000000
+        rate: 0.20
+      - threshold_from: 30000000
+        threshold_to: 50000000
+        rate: 0.25
+      - threshold_from: 50000000
+        threshold_to: 100000000
+        rate: 0.30
+      - threshold_from: 100000000
+        threshold_to: 200000000
+        rate: 0.35
+      - threshold_from: 200000000
+        threshold_to: null
+        rate: 0.40
+    per_wager_fee_cents: null
+    promo_deduction_rule: As above; the statutory base is gross receipts less winnings paid, with no promotional deduction in the definition.
+    effective_from: "2024-07-01"
+    effective_to: null
+    destination: null
+    authority_citation: 230 ILCS 45/25-90 as amended by Public Act 103-0592 (graduated privilege tax on annual adjusted gross sports wagering receipts, 20 percent on the first 30 million dollars rising to 40 percent above 200 million dollars), plus 2 percent on receipts from wagers placed in Cook County
+    provenance:
+      <<: *ilga
+      source_url: https://lrb.ilga.gov/legislation/ilcs/documents/023000450K25-90.htm
+      notes: >-
+        The 20 percent floor, 40 percent ceiling and 30 million and 200 million dollar thresholds were confirmed against
+        230 ILCS 45/25-90 (lrb.ilga.gov). The intermediate thresholds of 50 million and 100 million dollars are from
+        secondary knowledge; confirm against the section text. Whether retail and online receipts are tiered
+        separately was not confirmed.
+  - channel: all
+    basis: per_wager
+    rate: null
+    tiers: null
+    per_wager_fee_cents: 25
+    promo_deduction_rule: Applies to every wager accepted regardless of outcome; not affected by promotional credits.
+    effective_from: "2025-07-01"
+    effective_to: null
+    destination: null
+    authority_citation: 230 ILCS 45/25-90 as amended effective July 1, 2025 (25 cents per wager for the first 20,000,000 combined Tier 1 and Tier 2 wagers accepted by a master sports wagering licensee in a fiscal year, 50 cents per wager thereafter)
+    provenance:
+      <<: *ilga
+      source_url: https://lrb.ilga.gov/legislation/ilcs/documents/023000450K25-90.htm
+      notes: >-
+        Fee amounts, the 20,000,000 wager threshold and the 2025-07-01 start date confirmed against 230 ILCS 45/25-90.
+        The enacting public act number (seeded as Public Act 104-0006, from HB 2755) was not confirmed. House Bill
+        5143 (2026) proposed ending the per-wager tax on 2026-07-01; its disposition was not confirmed by search.
+        The 50 cent rate above the threshold is recorded in authority_citation because the schema holds one fee value.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Illinois Gaming Board
+    durations: null
+    covers: [casinos, sports_wagering_retail, sports_wagering_online]
+    enrollment_methods: null
+    url: https://ilga.gov/ftp/JCAR/AdminCode/011/011019000Q17100R.html
+    notes: 11 Ill. Adm. Code 1900.1710 (Self-Exclusion Program) applies the Board's Self-Exclusion List under 11 Ill. Adm. Code Part 3000 to sports wagering. Durations and enrollment methods were not confirmed by search.
+    provenance:
+      <<: *igb
+      source_url: https://ilga.gov/ftp/JCAR/AdminCode/011/011019000Q17100R.html
+      notes: Rule text located on ilga.gov (JCAR Administrative Code). In April 2025 the Board also adopted a proposed rule to prohibit credit card funding of sports wagering accounts; its adoption status was not confirmed, so credit_card_deposits is left null.
+  deposit_limits: null
+  advertising: null
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+  - Illinois reports adjusted gross receipts, which excludes winnings but not promotional credits, so its revenue line sits between New Jersey's gross revenue and the adjusted bases used by states that deduct promotions.
+  - The per-wager fee introduced in July 2025 led several operators to add customer surcharges or minimum bet sizes, which changes the composition of handle after that date.

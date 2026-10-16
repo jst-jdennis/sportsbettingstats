@@ -1,81 +1,151 @@
-fips: '29'
+fips: "29"
 abbr: MO
 name: Missouri
 profile_completeness: status_only
-summary: null
+summary: >-
+  Missouri voters approved Amendment 2 on November 5, 2024, adding Article III, Section 39(g) to the state
+  constitution and directing the Missouri Gaming Commission to license retail and mobile sports wagering by
+  December 1, 2025. The Commission's launch notice states that legal wagering became available to patrons at
+  12:00 a.m. on December 1, 2025. The constitution sets a 10 percent wagering tax on adjusted gross revenue,
+  with promotional credits among the permitted deductions.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2024-11-05'
-  launched_on: '2025-12-01'
-  authority:
-    type: constitutional_amendment
-    citation: Amendment 2 (November 2024); Mo. Const. art. III, sec. 39(g)
-    url: https://www.mgc.dps.mo.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: mo-regulator
-    source_url: https://www.mgc.dps.mo.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2024-11-05'
-  launched_on: '2025-12-01'
-  authority:
-    type: constitutional_amendment
-    citation: Amendment 2 (November 2024); Mo. Const. art. III, sec. 39(g)
-    url: https://www.mgc.dps.mo.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: mo-regulator
-    source_url: https://www.mgc.dps.mo.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2024-11-05"
+    launched_on: "2025-12-01"
+    authority:
+      type: constitutional_amendment
+      citation: Amendment 2 (November 2024); Mo. Const. art. III, sec. 39(g); implementing rules at 11 CSR 45-20
+      url: https://revisor.mo.gov/main/OneSection.aspx?section=III+++39%28g%29
+    operator_model: commercial
+    notes: Retail licenses cover wagering at excursion gambling boats and within professional sports districts. The constitution caps retail licenses at 19 and mobile licenses at 14.
+    provenance: &mogc
+      source_id: mo-regulator
+      source_url: https://www.mgc.dps.mo.gov/SportsWagering/Sports_Wagering_Launch122025.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch4-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Launch date confirmed by the Commission's launch notice (wagering available as of 12:00 a.m. on
+        December 1, 2025). Authority URL changed from the Commission homepage to the Revisor of Statutes page for
+        art. III sec. 39(g); this is a citation improvement, not a value correction. authorized_on is the
+        election date; the constitutional effective date (30 days after the election under Mo. Const. art. XII
+        sec. 2(b)) was not confirmed by search on 2026-10-16 and the seeded value is retained. Reviewed by search
+        on 2026-10-16; the document itself could not be opened from the review container.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2024-11-05"
+    launched_on: "2025-12-01"
+    authority:
+      type: constitutional_amendment
+      citation: Amendment 2 (November 2024); Mo. Const. art. III, sec. 39(g); implementing rules at 11 CSR 45-20
+      url: https://revisor.mo.gov/main/OneSection.aspx?section=III+++39%28g%29
+    operator_model: commercial
+    notes: Mobile licenses cover online wagering by patrons physically located in Missouri. The Commission's notice states that pre-registration opened before launch and that the mobile license fee may not exceed 500,000 dollars.
+    provenance: *mogc
 regulators:
-- name: Missouri Gaming Commission
-  url: https://www.mgc.dps.mo.gov/
-  type: gaming_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: mo-regulator
-    source_url: https://www.mgc.dps.mo.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+  - name: Missouri Gaming Commission
+    url: https://www.mgc.dps.mo.gov/
+    type: gaming_commission
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance:
+      <<: *mogc
+      source_url: https://www.mgc.dps.mo.gov/Index.html
+      notes: >-
+        Confirmed by search on 2026-10-16 as the licensing body for retail, mobile, supplier, data provider and
+        occupational sports wagering licenses, and as the publisher of the FY 2026 annual report that carries
+        sports wagering tax figures.
+  - name: Missouri Attorney General
+    url: https://ago.mo.gov/
+    type: attorney_general
+    roles: [enforcement]
+    provenance:
+      source_id: mo-attorney-general
+      source_url: https://ago.mo.gov/missouri-attorney-general-hanaway-orders-unlicensed-prediction-markets-to-cease-and-desist-unlawful-sports-wagering/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch4-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Added on review. The Attorney General's release demands that unlicensed prediction market platforms
+        stop offering sports event contracts to Missourians until licensed by the Commission. The release date
+        could not be read from search results, so the action is not yet recorded in prediction_markets.yaml.
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: Mo. Const. art. III, sec. 39(g); Missouri Gaming Commission sports wagering launch notice (patrons must be at least 21 to establish an account and place wagers)
+    provenance:
+      <<: *mogc
+      notes: Age confirmed from the Commission's launch notice by search on 2026-10-16. The constitutional subsection carrying the age was not read directly.
+tax:
+  - channel: all
+    basis: adjusted_gross_revenue
+    rate: 0.10
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      Adjusted gross revenue is defined in the constitution as receipts less winnings paid, promotional credits
+      and uncollectible receivables of up to 2 percent, as summarized in the Commission's FY 2026 annual report.
+      Press reports describe a cap on the promotional credit deduction at 25 percent of cash received in the
+      month; that cap was not confirmed from the constitutional text by search on 2026-10-16.
+    effective_from: "2025-12-01"
+    effective_to: null
+    destination:
+      - fund_name: Compulsive Gaming Prevention Fund (the greater of 10 percent of annual tax revenue or 5,000,000 dollars, after Commission expenses not covered by fees)
+        share: null
+      - fund_name: Sports Wagering Education Fund (remaining balance)
+        share: null
+    authority_citation: Mo. Const. art. III, sec. 39(g), para. 10 (10 percent wagering tax on adjusted gross revenue)
+    provenance:
+      source_id: mo-legislature
+      source_url: https://revisor.mo.gov/main/OneSection.aspx?section=III+++39%28g%29
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch4-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: Section 39(g), paragraph 10
+      notes: >-
+        Rate, base and fund allocation drawn from the Revisor of Statutes page and the Commission's FY 2026
+        annual report (https://mgc.dps.mo.gov/annual_reports/AR_2026.pdf) as surfaced by search on 2026-10-16.
+        The constitution names the fund the Compulsive Gaming Prevention Fund in the creating clause and the
+        Compulsive Gaming Fund in the allocation clause. Shares are not published as percentages. The effective
+        date is the first day wagering was accepted.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Missouri Gaming Commission
+    durations: null
+    covers: [sports_wagering_retail, sports_wagering_online]
+    enrollment_methods: null
+    url: https://www.mgc.dps.mo.gov/
+    notes: >-
+      The Commission's launch notice states that it operates a voluntary self-exclusion program for sports
+      wagering. Durations, enrollment methods and whether the sports wagering list is the same list as the
+      casino disassociated persons list were not confirmed by search on 2026-10-16.
+    provenance:
+      <<: *mogc
+      notes: Program existence confirmed from the launch notice. Rule citation (11 CSR 45-20 series) to be confirmed against the published rules.
+  deposit_limits: null
+  advertising: null
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+  - Missouri's taxable base is adjusted gross revenue after promotional credit deductions. In the first months after launch, reported deductions exceeded net revenue for most operators, so tax receipts are not a proxy for handle or gross revenue.
+  - Revenue series begin December 2025, so no full fiscal year is available and seasonal comparison is not yet possible.
+  - Deposit limit, advertising, credit card and helpline rules exist in 11 CSR 45-20 but were not read on review and are left unentered rather than summarized from secondary sources.

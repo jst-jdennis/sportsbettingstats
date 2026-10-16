@@ -1,0 +1,88 @@
+fips: "09"
+as_of: "2026-10-16"
+review_note: >-
+  Press reports also describe a Commodity Futures Trading Commission lawsuit against Connecticut, Illinois and
+  Arizona filed in April 2026, which Connecticut has moved to dismiss. It was not found on a primary state domain
+  by search on 2026-10-16 and is not entered. Absence of a record is not a finding that none exists.
+operating_platforms:
+  - platform: Kalshi
+    offers_sports_contracts: true
+    offers_in_state: "yes"
+    basis: regulator_statement
+    provenance: &ctdcp
+      source_id: ct-regulator
+      source_url: https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2025-news-releases/connecticut-consumer-protection-orders-cease-and-desist-conducting-unlicensed-online-gambling
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch1-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: The Department's 2025-12-03 release states that the three platforms were offering sports event contracts to Connecticut residents. Kalshi continued operating in the state while its federal suit was pending, per the Attorney General's 2026-08-26 release.
+  - platform: Robinhood Derivatives, LLC
+    offers_sports_contracts: true
+    offers_in_state: "yes"
+    basis: regulator_statement
+    provenance: *ctdcp
+  - platform: Crypto.com
+    offers_sports_contracts: true
+    offers_in_state: "yes"
+    basis: regulator_statement
+    provenance: *ctdcp
+state_actions:
+  - action_type: cease_and_desist
+    date: "2025-12-03"
+    issuing_body: Connecticut Department of Consumer Protection, Gaming Division
+    target: KalshiEX LLC, Robinhood Derivatives, LLC and Crypto.com
+    summary: The Gaming Division ordered the three platforms to stop advertising, offering, promoting or otherwise making available sports event contracts or any other unlicensed online gambling to Connecticut residents and to allow Connecticut users to withdraw funds, stating that only licensed entities may offer sports wagering in the state and citing the absence of integrity controls.
+    document_url: https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2025-news-releases/connecticut-consumer-protection-orders-cease-and-desist-conducting-unlicensed-online-gambling
+    provenance:
+      <<: *ctdcp
+      notes: Release dated 2025-12-03; press reports give 2025-12-02 as the date on the letters themselves. Archive the letters at review.
+  - action_type: lawsuit_filed
+    date: "2026-08-26"
+    issuing_body: Connecticut Attorney General, with the Commissioner of Consumer Protection
+    target: KalshiEX LLC
+    summary: The state sued Kalshi in Hartford Superior Court seeking an injunction barring it from advertising or offering sports event contracts (game winners, season win totals, point spreads, scoring outcomes and player statistics) to Connecticut residents as unlicensed sports wagering.
+    document_url: https://portal.ct.gov/ag/press-releases/2026-press-releases/connecticut-sues-kalshi-to-stop-illegal-unlicensed-sports-betting
+    provenance: &ctag
+      source_id: ct-attorney-general
+      source_url: https://portal.ct.gov/ag/press-releases/2026-press-releases/connecticut-sues-kalshi-to-stop-illegal-unlicensed-sports-betting
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch1-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Release found by search on 2026-10-16. Press reports say the court denied an ex parte temporary order the same day and that the injunction request remains pending; confirm on the docket.
+litigation:
+  - case_name: KalshiEX LLC v. Cafferelli et al. (caption to be confirmed)
+    court: US District Court for the District of Connecticut
+    docket: null
+    filed_on: "2025-12-04"
+    status: appeal_pending
+    posture_note: >-
+      Kalshi sued the Department's officials after the cease and desist, arguing Commodity Exchange Act
+      preemption. The district court denied a preliminary injunction in early August 2026 and Kalshi appealed to
+      the Second Circuit. Every ruling to date concerns preliminary relief; no court has entered a final judgment
+      on whether Kalshi's sports event contracts are lawful in Connecticut.
+    rulings:
+      - date: "2026-08-01"
+        court: US District Court for the District of Connecticut
+        summary: Denied Kalshi's motion for a preliminary injunction against enforcement of Connecticut gaming law. Exact date to be taken from the docket; press reports place it in early August 2026.
+        document_url: null
+    provenance:
+      <<: *ctag
+      notes: Filing date, denial of preliminary relief and the appeal are as recited in the Attorney General's release and press coverage of it; caption, docket number and ruling date must come from the docket.
+  - case_name: State of Connecticut v. KalshiEX LLC
+    court: Connecticut Superior Court, Judicial District of Hartford
+    docket: null
+    filed_on: "2026-08-26"
+    status: pending
+    posture_note: Injunction request pending; an ex parte temporary order was reportedly denied on filing. No final judgment.
+    rulings: null
+    provenance: *ctag

@@ -1,83 +1,119 @@
-fips: '32'
+fips: "32"
 abbr: NV
 name: Nevada
 profile_completeness: status_only
-summary: null
+summary: >-
+  Nevada has licensed sports pools under the Nevada Gaming Control Act (NRS chapter 463) since before the
+  federal Professional and Amateur Sports Protection Act of 1992, from which it was exempt. Race books and
+  sports pools are regulated by the Nevada Gaming Control Board and the Nevada Gaming Commission under
+  Regulation 22, and mobile wagering accounts are offered by licensed sports pools. Gaming revenue, including
+  sports pool revenue, is subject to the state's tiered monthly percentage fee under NRS 463.370.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: statute
-    citation: NRS 463; Nevada Gaming Commission Regulation 22. Legal before PASPA (1992); mobile wagering
-      since 2010 with in-person account registration
-    url: https://gaming.nv.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: nv-regulator
-    source_url: https://gaming.nv.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: statute
-    citation: NRS 463; Nevada Gaming Commission Regulation 22. Legal before PASPA (1992); mobile wagering
-      since 2010 with in-person account registration
-    url: https://gaming.nv.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: nv-regulator
-    source_url: https://gaming.nv.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: statute
+      citation: NRS chapter 463 (Nevada Gaming Control Act); Nevada Gaming Commission Regulation 22 (race books and sports pools). Legal before PASPA (1992)
+      url: https://www.leg.state.nv.us/nrs/nrs-463.html
+    operator_model: commercial
+    notes: Sports pools operate within nonrestricted gaming licensees. No single authorization or launch date applies; licensed sports pools predate the modern statute.
+    provenance: &nvgcb
+      source_id: nv-regulator
+      source_url: https://www.gaming.nv.gov/divisions/tax-license-division/license-fees-and-tax-rate-schedule/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch4-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Authority URL changed from the Board homepage to the Legislature's NRS chapter 463 page; citation
+        improvement only. Null authorization and launch dates retained: no primary page returned by search on
+        2026-10-16 gives a single date. Seeded statement that mobile wagering has been offered since 2010 with
+        in-person account registration was reported only by press and is moved to the online record's notes as
+        unconfirmed.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: regulation
+      citation: Nevada Gaming Commission Regulation 22 (wagering accounts of race books and sports pools) under NRS chapter 463
+      url: https://www.leg.state.nv.us/nrs/nrs-463.html
+    operator_model: commercial
+    notes: >-
+      Mobile wagering is offered through accounts with licensed sports pools and is available statewide. Press
+      reports state that accounts must be opened in person at the licensee's property and that mobile wagering
+      has been offered since 2010; neither point was confirmed from Regulation 22 by search on 2026-10-16.
+    provenance:
+      <<: *nvgcb
+      notes: >-
+        Corrected authority type from statute to regulation: the account-based mobile channel is governed by
+        Commission Regulation 22 adopted under NRS 463; the statute itself authorizes sports pools generally.
+        Regulation 22 text was not retrieved by search on 2026-10-16; the Board's regulation pages should be
+        cited directly before verification.
 regulators:
-- name: Nevada Gaming Control Board
-  url: https://gaming.nv.gov/
-  type: gaming_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: nv-regulator
-    source_url: https://gaming.nv.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: Nevada Gaming Control Board
+    url: https://gaming.nv.gov/
+    type: gaming_commission
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance:
+      <<: *nvgcb
+      source_url: https://gaming.nv.gov/
+      notes: Confirmed by search on 2026-10-16 as publisher of the license fee and tax rate schedule, the monthly gross revenue report form and enforcement releases. The Board investigates and recommends; the Nevada Gaming Commission makes final licensing decisions.
+  - name: Nevada Gaming Commission
+    url: https://gaming.nv.gov/
+    type: gaming_commission
+    roles: [licensing]
+    provenance:
+      <<: *nvgcb
+      source_url: https://gaming.nv.gov/
+      notes: Added on review. The Commission adopts the regulations, including Regulation 22, and acts on the Board's licensing recommendations. The Board and Commission share the gaming.nv.gov site; a Commission-specific page was not returned by search.
 legal_age: null
-tax: null
+tax:
+  - channel: all
+    basis: gross_gaming_revenue
+    rate: null
+    tiers:
+      - threshold_from: 0
+        threshold_to: 50000
+        rate: 0.035
+      - threshold_from: 50000
+        threshold_to: 134000
+        rate: 0.045
+      - threshold_from: 134000
+        threshold_to: null
+        rate: 0.0675
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      Headline tiers only. The fee applies to gross revenue as defined in NRS 463.0161 and computed under
+      Commission regulations; the treatment of promotional wagers and credits was not confirmed by search on
+      2026-10-16. Nevada reports sports pool win before any such adjustment in its monthly revenue report.
+    effective_from: "2003-07-01"
+    effective_to: null
+    destination:
+      - fund_name: State General Fund
+        share: null
+    authority_citation: NRS 463.370 (monthly percentage fee on gross revenue of nonrestricted licensees, 3.5 percent of the first 50,000 dollars, 4.5 percent of the next 84,000 dollars and 6.75 percent above 134,000 dollars per month); Nevada Gaming Control Board license fees and tax rate schedule
+    provenance:
+      <<: *nvgcb
+      notes: >-
+        Tier rates and thresholds confirmed from the Board's license fees and tax rate schedule page by search on
+        2026-10-16. The schedule states that the current tiers were adopted by Senate Bill 8 of the 2003
+        session; the effective_from day is the start of the following fiscal year and must be confirmed against
+        the 2003 Statutes of Nevada. The fee is a general gaming revenue fee, not a sports-specific tax; a
+        separate federal excise on wagers also applies and is not recorded here. Destination to the General Fund
+        is the general rule for the percentage fee and was not read from the statute on review.
 consumer_protections: null
-limitations: null
+limitations:
+  - Nevada's percentage fee applies to all nonrestricted gaming revenue at a property, so no sports-specific tax receipt series exists; sports pool win is published separately by the Board but tax attribution is computed, not reported.
+  - Nevada's sports pool win series is the longest in the country but counts visitors' wagers; per capita handle for Nevada residents is not observable.
+  - Minimum age (NRS 463.350), self-exclusion (Regulation 5.170 operator programs), deposit limit and advertising rules were not confirmed from primary pages by search on 2026-10-16 and are left unentered.

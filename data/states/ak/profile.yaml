@@ -1,78 +1,59 @@
-fips: '02'
+fips: "02"
 abbr: AK
 name: Alaska
 profile_completeness: status_only
-summary: null
+summary: >-
+  Alaska has not authorized sports wagering in any form and has no commercial casinos or tribal Class III gaming.
+  House Bill 145 (34th Legislature), introduced on March 21, 2025, would have licensed up to ten online sportsbooks
+  at a 20 percent tax on adjusted gross revenue; it was heard and held in the House Labor and Commerce Committee,
+  most recently on February 27, 2026, and did not reach a floor vote.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: ak-legislature
-    source_url: https://www.akleg.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: ak-legislature
-    source_url: https://www.akleg.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No Alaska statute authorizes sports wagering. Alaska Stat. Title 5, Chapter 15 (charitable gaming) does not include sports wagering.
+      url: null
+    operator_model: null
+    notes: HB 145 (2025 to 2026) would have authorized online sports wagering only; no retail channel was proposed.
+    provenance: &akleg
+      source_id: ak-legislature
+      source_url: https://www.akleg.gov/basis/Bill/Detail/34?Root=HB145
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch1-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Search on 2026-10-16 found the HB 145 bill record on akleg.gov (also https://www.akleg.gov/basis/get_documents.asp?docid=8069) with last action Heard and Held 2026-02-27, and no enacted authorization. The bill detail URL follows the BASIS pattern and was not opened from this container. Absence must be re-confirmed after each session.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No Alaska statute authorizes online sports wagering.
+      url: null
+    operator_model: null
+    notes: HB 145 (34th Legislature) would have licensed up to ten online operators with a 100,000 dollar license fee and a 20 percent tax on adjusted gross revenue. Heard and held in House Labor and Commerce; no floor action.
+    provenance: *akleg
 regulators:
-- name: No state body regulates sports wagering; none is authorized
-  url: null
-  type: none
-  roles: []
-  provenance:
-    source_id: ak-legislature
-    source_url: https://www.akleg.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: No state body regulates sports wagering; none is authorized
+    url: null
+    type: none
+    roles: []
+    provenance: *akleg
 legal_age: null
 tax: null
 consumer_protections: null
-limitations: null
+limitations:
+  - Alaska is a comparison state with no regulated sports wagering and no casino market. Residents may use offshore sites, sweepstakes products and, depending on platform geofencing, federally regulated prediction markets; none of that activity appears in any state revenue series.
+  - Alaska's small population makes per capita indicators volatile from year to year.

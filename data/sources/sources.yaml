@@ -882,3 +882,1153 @@ sources:
   reliability_notes: Regulator pages move without redirects; archive each retrieved page.
   tier: primary
   fips: '56'
+- source_id: az-legislature
+  publisher: Arizona Legislature
+  publisher_type: legislature
+  title: Arizona statutes, bills and legislative journals
+  url: https://www.azleg.gov/arsDetail/?title=5
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '04'
+- source_id: ar-legislature
+  publisher: Arkansas Legislature
+  publisher_type: legislature
+  title: Arkansas statutes, bills and legislative journals
+  url: https://www.dfa.arkansas.gov/racing-commission/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '05'
+- source_id: co-legislature
+  publisher: Colorado Legislature
+  publisher_type: legislature
+  title: Colorado statutes, bills and legislative journals
+  url: https://sbg.colorado.gov/gaming
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: 08
+- source_id: ct-legislature
+  publisher: Connecticut Legislature
+  publisher_type: legislature
+  title: Connecticut statutes, bills and legislative journals
+  url: https://www.cga.ct.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: 09
+- source_id: de-legislature
+  publisher: Delaware Legislature
+  publisher_type: legislature
+  title: Delaware statutes, bills and legislative journals
+  url: https://delcode.delaware.gov/title29/c048/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '10'
+- source_id: dc-legislature
+  publisher: District of Columbia Legislature
+  publisher_type: legislature
+  title: District of Columbia statutes, bills and legislative journals
+  url: https://code.dccouncil.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '11'
+- source_id: fl-legislature
+  publisher: Florida Legislature
+  publisher_type: legislature
+  title: Florida statutes, bills and legislative journals
+  url: https://flgaming.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '12'
+- source_id: il-legislature
+  publisher: Illinois Legislature
+  publisher_type: legislature
+  title: Illinois statutes, bills and legislative journals
+  url: https://www.ilga.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '17'
+- source_id: in-legislature
+  publisher: Indiana Legislature
+  publisher_type: legislature
+  title: Indiana statutes, bills and legislative journals
+  url: https://iga.in.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '18'
+- source_id: ia-legislature
+  publisher: Iowa Legislature
+  publisher_type: legislature
+  title: Iowa statutes, bills and legislative journals
+  url: https://www.legis.iowa.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '19'
+- source_id: ky-legislature
+  publisher: Kentucky Legislature
+  publisher_type: legislature
+  title: Kentucky statutes, bills and legislative journals
+  url: https://apps.legislature.ky.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '21'
+- source_id: la-legislature
+  publisher: Louisiana Legislature
+  publisher_type: legislature
+  title: Louisiana statutes, bills and legislative journals
+  url: https://legis.la.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '22'
+- source_id: me-legislature
+  publisher: Maine Legislature
+  publisher_type: legislature
+  title: Maine statutes, bills and legislative journals
+  url: https://legislature.maine.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '23'
+- source_id: md-legislature
+  publisher: Maryland Legislature
+  publisher_type: legislature
+  title: Maryland statutes, bills and legislative journals
+  url: https://mgaleg.maryland.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '24'
+- source_id: ma-legislature
+  publisher: Massachusetts Legislature
+  publisher_type: legislature
+  title: Massachusetts statutes, bills and legislative journals
+  url: https://malegislature.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '25'
+- source_id: mi-legislature
+  publisher: Michigan Legislature
+  publisher_type: legislature
+  title: Michigan statutes, bills and legislative journals
+  url: https://www.legislature.mi.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '26'
+- source_id: ms-legislature
+  publisher: Mississippi Legislature
+  publisher_type: legislature
+  title: Mississippi statutes, bills and legislative journals
+  url: https://www.msgamingcommission.com/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '28'
+- source_id: mo-legislature
+  publisher: Missouri Legislature
+  publisher_type: legislature
+  title: Missouri statutes, bills and legislative journals
+  url: https://www.mgc.dps.mo.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '29'
+- source_id: mt-legislature
+  publisher: Montana Legislature
+  publisher_type: legislature
+  title: Montana statutes, bills and legislative journals
+  url: https://leg.mt.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '30'
+- source_id: ne-legislature
+  publisher: Nebraska Legislature
+  publisher_type: legislature
+  title: Nebraska statutes, bills and legislative journals
+  url: https://nebraskalegislature.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '31'
+- source_id: nv-legislature
+  publisher: Nevada Legislature
+  publisher_type: legislature
+  title: Nevada statutes, bills and legislative journals
+  url: https://gaming.nv.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '32'
+- source_id: nh-legislature
+  publisher: New Hampshire Legislature
+  publisher_type: legislature
+  title: New Hampshire statutes, bills and legislative journals
+  url: https://gencourt.state.nh.us/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '33'
+- source_id: nm-legislature
+  publisher: New Mexico Legislature
+  publisher_type: legislature
+  title: New Mexico statutes, bills and legislative journals
+  url: https://www.nmgcb.org/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '35'
+- source_id: ny-legislature
+  publisher: New York Legislature
+  publisher_type: legislature
+  title: New York statutes, bills and legislative journals
+  url: https://www.gaming.ny.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '36'
+- source_id: nc-legislature
+  publisher: North Carolina Legislature
+  publisher_type: legislature
+  title: North Carolina statutes, bills and legislative journals
+  url: https://www.ncleg.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '37'
+- source_id: nd-legislature
+  publisher: North Dakota Legislature
+  publisher_type: legislature
+  title: North Dakota statutes, bills and legislative journals
+  url: https://attorneygeneral.nd.gov/gaming/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '38'
+- source_id: oh-legislature
+  publisher: Ohio Legislature
+  publisher_type: legislature
+  title: Ohio statutes, bills and legislative journals
+  url: https://codes.ohio.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '39'
+- source_id: or-legislature
+  publisher: Oregon Legislature
+  publisher_type: legislature
+  title: Oregon statutes, bills and legislative journals
+  url: https://www.oregonlegislature.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '41'
+- source_id: pa-legislature
+  publisher: Pennsylvania Legislature
+  publisher_type: legislature
+  title: Pennsylvania statutes, bills and legislative journals
+  url: https://www.legis.state.pa.us/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '42'
+- source_id: ri-legislature
+  publisher: Rhode Island Legislature
+  publisher_type: legislature
+  title: Rhode Island statutes, bills and legislative journals
+  url: https://webserver.rilegislature.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '44'
+- source_id: sd-legislature
+  publisher: South Dakota Legislature
+  publisher_type: legislature
+  title: South Dakota statutes, bills and legislative journals
+  url: https://sdlegislature.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '46'
+- source_id: tn-legislature
+  publisher: Tennessee Legislature
+  publisher_type: legislature
+  title: Tennessee statutes, bills and legislative journals
+  url: https://www.capitol.tn.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '47'
+- source_id: vt-legislature
+  publisher: Vermont Legislature
+  publisher_type: legislature
+  title: Vermont statutes, bills and legislative journals
+  url: https://legislature.vermont.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '50'
+- source_id: va-legislature
+  publisher: Virginia Legislature
+  publisher_type: legislature
+  title: Virginia statutes, bills and legislative journals
+  url: https://lis.virginia.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '51'
+- source_id: wa-legislature
+  publisher: Washington Legislature
+  publisher_type: legislature
+  title: Washington statutes, bills and legislative journals
+  url: https://app.leg.wa.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '53'
+- source_id: wv-legislature
+  publisher: West Virginia Legislature
+  publisher_type: legislature
+  title: West Virginia statutes, bills and legislative journals
+  url: https://www.wvlegislature.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '54'
+- source_id: wi-legislature
+  publisher: Wisconsin Legislature
+  publisher_type: legislature
+  title: Wisconsin statutes, bills and legislative journals
+  url: https://doa.wi.gov/Pages/AboutDOA/Gaming.aspx
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '55'
+- source_id: wy-legislature
+  publisher: Wyoming Legislature
+  publisher_type: legislature
+  title: Wyoming statutes, bills and legislative journals
+  url: https://wyoleg.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Statute section numbers and session identifiers change; cite the section and archive the page.
+  tier: primary
+  fips: '56'
+- source_id: al-attorney-general
+  publisher: Alabama Attorney General
+  publisher_type: state_agency
+  title: Alabama Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '01'
+- source_id: ak-attorney-general
+  publisher: Alaska Attorney General
+  publisher_type: state_agency
+  title: Alaska Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '02'
+- source_id: az-attorney-general
+  publisher: Arizona Attorney General
+  publisher_type: state_agency
+  title: Arizona Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '04'
+- source_id: ar-attorney-general
+  publisher: Arkansas Attorney General
+  publisher_type: state_agency
+  title: Arkansas Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '05'
+- source_id: ca-attorney-general
+  publisher: California Attorney General
+  publisher_type: state_agency
+  title: California Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '06'
+- source_id: co-attorney-general
+  publisher: Colorado Attorney General
+  publisher_type: state_agency
+  title: Colorado Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: 08
+- source_id: ct-attorney-general
+  publisher: Connecticut Attorney General
+  publisher_type: state_agency
+  title: Connecticut Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: 09
+- source_id: de-attorney-general
+  publisher: Delaware Attorney General
+  publisher_type: state_agency
+  title: Delaware Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '10'
+- source_id: dc-attorney-general
+  publisher: District of Columbia Attorney General
+  publisher_type: state_agency
+  title: District of Columbia Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '11'
+- source_id: fl-attorney-general
+  publisher: Florida Attorney General
+  publisher_type: state_agency
+  title: Florida Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '12'
+- source_id: ga-attorney-general
+  publisher: Georgia Attorney General
+  publisher_type: state_agency
+  title: Georgia Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '13'
+- source_id: hi-attorney-general
+  publisher: Hawaii Attorney General
+  publisher_type: state_agency
+  title: Hawaii Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '15'
+- source_id: id-attorney-general
+  publisher: Idaho Attorney General
+  publisher_type: state_agency
+  title: Idaho Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '16'
+- source_id: il-attorney-general
+  publisher: Illinois Attorney General
+  publisher_type: state_agency
+  title: Illinois Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '17'
+- source_id: in-attorney-general
+  publisher: Indiana Attorney General
+  publisher_type: state_agency
+  title: Indiana Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '18'
+- source_id: ia-attorney-general
+  publisher: Iowa Attorney General
+  publisher_type: state_agency
+  title: Iowa Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '19'
+- source_id: ks-attorney-general
+  publisher: Kansas Attorney General
+  publisher_type: state_agency
+  title: Kansas Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '20'
+- source_id: ky-attorney-general
+  publisher: Kentucky Attorney General
+  publisher_type: state_agency
+  title: Kentucky Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '21'
+- source_id: la-attorney-general
+  publisher: Louisiana Attorney General
+  publisher_type: state_agency
+  title: Louisiana Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '22'
+- source_id: me-attorney-general
+  publisher: Maine Attorney General
+  publisher_type: state_agency
+  title: Maine Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '23'
+- source_id: md-attorney-general
+  publisher: Maryland Attorney General
+  publisher_type: state_agency
+  title: Maryland Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '24'
+- source_id: ma-attorney-general
+  publisher: Massachusetts Attorney General
+  publisher_type: state_agency
+  title: Massachusetts Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '25'
+- source_id: mi-attorney-general
+  publisher: Michigan Attorney General
+  publisher_type: state_agency
+  title: Michigan Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '26'
+- source_id: mn-attorney-general
+  publisher: Minnesota Attorney General
+  publisher_type: state_agency
+  title: Minnesota Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '27'
+- source_id: ms-attorney-general
+  publisher: Mississippi Attorney General
+  publisher_type: state_agency
+  title: Mississippi Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '28'
+- source_id: mo-attorney-general
+  publisher: Missouri Attorney General
+  publisher_type: state_agency
+  title: Missouri Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '29'
+- source_id: mt-attorney-general
+  publisher: Montana Attorney General
+  publisher_type: state_agency
+  title: Montana Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '30'
+- source_id: ne-attorney-general
+  publisher: Nebraska Attorney General
+  publisher_type: state_agency
+  title: Nebraska Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '31'
+- source_id: nv-attorney-general
+  publisher: Nevada Attorney General
+  publisher_type: state_agency
+  title: Nevada Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '32'
+- source_id: nh-attorney-general
+  publisher: New Hampshire Attorney General
+  publisher_type: state_agency
+  title: New Hampshire Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '33'
+- source_id: nj-attorney-general
+  publisher: New Jersey Attorney General
+  publisher_type: state_agency
+  title: New Jersey Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '34'
+- source_id: nm-attorney-general
+  publisher: New Mexico Attorney General
+  publisher_type: state_agency
+  title: New Mexico Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '35'
+- source_id: ny-attorney-general
+  publisher: New York Attorney General
+  publisher_type: state_agency
+  title: New York Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '36'
+- source_id: nc-attorney-general
+  publisher: North Carolina Attorney General
+  publisher_type: state_agency
+  title: North Carolina Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '37'
+- source_id: nd-attorney-general
+  publisher: North Dakota Attorney General
+  publisher_type: state_agency
+  title: North Dakota Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '38'
+- source_id: oh-attorney-general
+  publisher: Ohio Attorney General
+  publisher_type: state_agency
+  title: Ohio Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '39'
+- source_id: ok-attorney-general
+  publisher: Oklahoma Attorney General
+  publisher_type: state_agency
+  title: Oklahoma Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '40'
+- source_id: or-attorney-general
+  publisher: Oregon Attorney General
+  publisher_type: state_agency
+  title: Oregon Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '41'
+- source_id: pa-attorney-general
+  publisher: Pennsylvania Attorney General
+  publisher_type: state_agency
+  title: Pennsylvania Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '42'
+- source_id: ri-attorney-general
+  publisher: Rhode Island Attorney General
+  publisher_type: state_agency
+  title: Rhode Island Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '44'
+- source_id: sc-attorney-general
+  publisher: South Carolina Attorney General
+  publisher_type: state_agency
+  title: South Carolina Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '45'
+- source_id: sd-attorney-general
+  publisher: South Dakota Attorney General
+  publisher_type: state_agency
+  title: South Dakota Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '46'
+- source_id: tn-attorney-general
+  publisher: Tennessee Attorney General
+  publisher_type: state_agency
+  title: Tennessee Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '47'
+- source_id: tx-attorney-general
+  publisher: Texas Attorney General
+  publisher_type: state_agency
+  title: Texas Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '48'
+- source_id: ut-attorney-general
+  publisher: Utah Attorney General
+  publisher_type: state_agency
+  title: Utah Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '49'
+- source_id: vt-attorney-general
+  publisher: Vermont Attorney General
+  publisher_type: state_agency
+  title: Vermont Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '50'
+- source_id: va-attorney-general
+  publisher: Virginia Attorney General
+  publisher_type: state_agency
+  title: Virginia Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '51'
+- source_id: wa-attorney-general
+  publisher: Washington Attorney General
+  publisher_type: state_agency
+  title: Washington Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '53'
+- source_id: wv-attorney-general
+  publisher: West Virginia Attorney General
+  publisher_type: state_agency
+  title: West Virginia Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '54'
+- source_id: wi-attorney-general
+  publisher: Wisconsin Attorney General
+  publisher_type: state_agency
+  title: Wisconsin Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '55'
+- source_id: wy-attorney-general
+  publisher: Wyoming Attorney General
+  publisher_type: state_agency
+  title: Wyoming Attorney General press releases and opinions
+  url: https://www.naag.org/find-my-ag/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Placeholder URL points to the NAAG directory until the office URL is entered; cite the specific
+    release in source_url.
+  tier: primary
+  fips: '56'
+- source_id: de-governor
+  publisher: Delaware Office of the Governor
+  publisher_type: state_agency
+  title: Governor press releases (news.delaware.gov)
+  url: https://news.delaware.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: '10'
+- source_id: ny-governor
+  publisher: New York Office of the Governor
+  publisher_type: state_agency
+  title: Governor press releases
+  url: https://www.governor.ny.gov/news
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: '36'
+- source_id: nh-secretary-of-state
+  publisher: New Hampshire Secretary of State
+  publisher_type: state_agency
+  title: Governor and Executive Council agendas and minutes
+  url: https://www.sos.nh.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: '33'
+- source_id: dc-otr
+  publisher: District of Columbia Office of Tax and Revenue
+  publisher_type: state_agency
+  title: Tax rate pages and notices
+  url: https://otr.cfo.dc.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: '11'
+- source_id: fl-seminole-tribal-gaming-commission
+  publisher: Seminole Tribal Gaming Commission
+  publisher_type: state_regulator
+  title: Tribal gaming regulatory notices
+  url: https://www.stgc.gov/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url. Tribal regulator; not a state body.
+  tier: primary
+  fips: '12'
+- source_id: wi-attorney-general-doj
+  publisher: Wisconsin Department of Justice
+  publisher_type: state_agency
+  title: Attorney General news releases and filings
+  url: https://www.doj.state.wi.us/news-releases
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: '55'
+- source_id: ar-secretary-of-state
+  publisher: Arkansas Secretary of State
+  publisher_type: state_agency
+  title: Ballot measure notices and certified results
+  url: https://www.sos.arkansas.gov/elections
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: '05'
+- source_id: co-legislative-council
+  publisher: Colorado Legislative Council Staff
+  publisher_type: legislature
+  title: Fiscal notes and bill summaries
+  url: https://leg.colorado.gov/agencies/legislative-council-staff
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: 08
+- source_id: mt-doj-gambling-control
+  publisher: Montana Department of Justice, Gambling Control Division
+  publisher_type: state_regulator
+  title: Gambling Control Division notices and letters
+  url: https://dojmt.gov/gaming/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: '30'
+- source_id: ca-secretary-of-state
+  publisher: California Secretary of State
+  publisher_type: state_agency
+  title: Statement of Vote and certified election results
+  url: https://www.sos.ca.gov/elections
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added after the 2026-10-16 review pass because an agent needed it; the specific page goes in
+    source_url.
+  tier: primary
+  fips: '06'

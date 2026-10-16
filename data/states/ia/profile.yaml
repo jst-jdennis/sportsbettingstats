@@ -1,81 +1,123 @@
-fips: '19'
+fips: "19"
 abbr: IA
 name: Iowa
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Iowa authorized sports wagering in Senate File 617 (2019), which amended Iowa Code chapter 99F. Retail and online
+  wagering both began on August 15, 2019 through the state's licensed casinos and their advance deposit sports
+  wagering partners. The Iowa Racing and Gaming Commission licenses operators and runs the statewide voluntary
+  self-exclusion program, and the state taxes sports wagering net receipts at 6.75 percent.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2019-05-13'
-  launched_on: '2019-08-15'
-  authority:
-    type: statute
-    citation: SF 617 (2019); Iowa Code ch. 99F
-    url: https://www.legis.iowa.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: ia-regulator
-    source_url: https://irgc.iowa.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2019-05-13'
-  launched_on: '2019-08-15'
-  authority:
-    type: statute
-    citation: SF 617 (2019); Iowa Code ch. 99F
-    url: https://www.legis.iowa.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: ia-regulator
-    source_url: https://irgc.iowa.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2019-05-13"
+    launched_on: "2019-08-15"
+    authority:
+      type: statute
+      citation: Senate File 617 (2019), 2019 Iowa Acts chapter 132; Iowa Code chapter 99F, including 99F.9 (sports wagering) and 99F.11 (tax)
+      url: https://www.legis.iowa.gov/docs/publications/iactc/88.1/CH0132.pdf
+    operator_model: commercial
+    notes: Retail sports wagering areas operate at licensed casinos and racetrack casinos.
+    provenance: &ialeg
+      source_id: ia-legislature
+      source_url: https://www.legis.iowa.gov/docs/publications/iactc/88.1/CH0132.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch2-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Statute citation confirmed against legis.iowa.gov (2019 Iowa Acts chapter 132 and current Iowa Code 99F.9 and
+        99F.11). authorized_on 2019-05-13 (signing date of SF 617) and launched_on 2019-08-15 are reported by trade
+        press and law firm summaries only; Not confirmed by search on 2026-10-16 against a legislature or Commission
+        page; seeded values retained. Commission rules took effect 2019-07-31 per the same summaries.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2019-05-13"
+    launched_on: "2019-08-15"
+    authority:
+      type: statute
+      citation: Iowa Code 99F.9 (advance deposit sports wagering by an eligible individual located within the state through an account with a licensee); in-person account registration required until January 1, 2021
+      url: https://www.legis.iowa.gov/docs/code/99F.9.pdf
+    operator_model: commercial
+    notes: Each casino licensee may contract with advance deposit sports wagering operators; accounts could be opened remotely from 2021-01-01.
+    provenance:
+      <<: *ialeg
+      source_url: https://www.legis.iowa.gov/docs/code/99F.9.pdf
+      notes: Scope and the in-person registration sunset confirmed against Iowa Code 99F.9. Dates retained as on the retail record.
 regulators:
-- name: Iowa Racing and Gaming Commission
-  url: https://irgc.iowa.gov/
-  type: gaming_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: ia-regulator
-    source_url: https://irgc.iowa.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+  - name: Iowa Racing and Gaming Commission
+    url: https://irgc.iowa.gov/
+    type: gaming_commission
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance: &irgc
+      source_id: ia-regulator
+      source_url: https://irgc.iowa.gov/self-exclusion-program/frequently-asked-questions
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch2-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Name and regulatory role confirmed against irgc.iowa.gov and Iowa Code 99F.9. Monthly sports wagering revenue reports are published on the Commission site.
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: Iowa Code 99F.9 (eligible individual means an individual at least twenty-one years of age located within the state; a person under twenty-one shall not make or attempt to make a sports wager); 491 IAC 13.2(3)
+    provenance:
+      <<: *ialeg
+      source_url: https://www.legis.iowa.gov/docs/code/99F.9.pdf
+      notes: Confirmed against Iowa Code 99F.9 and Commission rule 491 IAC 13.2(3) on legis.iowa.gov.
+tax:
+  - channel: all
+    basis: adjusted_gross_revenue
+    rate: 0.0675
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      The tax base is sports wagering net receipts as defined in Iowa Code 99F.1. Whether promotional play receipts
+      are deductible from sports wagering net receipts was not confirmed by search; a 2021 study bill (SSB 1027)
+      proposed adding that deduction and its disposition was not confirmed. Only the headline rate and base name are
+      confirmed.
+    effective_from: "2019-08-15"
+    effective_to: null
+    destination:
+      - fund_name: Sports wagering receipts fund (Iowa Code 8.57I)
+        share: null
+    authority_citation: Iowa Code 99F.11 (tax on sports wagering net receipts at the rate of six and three-quarters percent, paid to the treasurer of state and credited as provided in section 8.57I)
+    provenance:
+      <<: *ialeg
+      source_url: https://www.legis.iowa.gov/docs/code/2026/99F.11.pdf
+      notes: Rate and crediting section confirmed against Iowa Code 99F.11 (2026 Code) on legis.iowa.gov. Earlier Code versions credited the tax under section 8.57 subsection 6.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Iowa Racing and Gaming Commission
+    durations: [5 years, lifetime]
+    covers: [casinos, racetracks, sports_wagering_retail, sports_wagering_online, fantasy_sports]
+    enrollment_methods: null
+    url: https://irgc.iowa.gov/self-exclusion-program/frequently-asked-questions
+    notes: >-
+      Initial enrollment is for five years or life (Iowa Code 99F.4). A five-year term ends automatically and cannot
+      be ended early; a lifetime term signed on or after 2017-07-01 cannot be revoked. Self-exclusion applies to
+      sports wagering and fantasy sports regardless of enrollment date. Winnings from wagers placed while excluded
+      are forfeited to the state general fund. Enrollment methods were not confirmed by search.
+    provenance:
+      <<: *irgc
+      notes: Confirmed against the Commission's self-exclusion FAQs.
+  deposit_limits: null
+  advertising: null
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+  - Iowa reports sports wagering net receipts, whose treatment of promotional play differs from gross revenue states; the base should be confirmed before cross-state revenue comparisons.
+  - Iowa handle in 2019 and 2020 was shaped by the in-person registration requirement for online accounts, which ended on January 1, 2021.

@@ -1,0 +1,57 @@
+fips: "04"
+as_of: "2026-10-16"
+review_note: >-
+  Press reports describe a cease and desist letter from the Arizona Department of Gaming to Kalshi dated
+  2025-05-21 (and a similar letter to Crypto.com), and a Commodity Futures Trading Commission lawsuit against
+  Arizona, Connecticut and Illinois filed in April 2026. Neither was found on a primary state domain by search on
+  2026-10-16, so neither is entered as a record; both should be archived from the Department or the court docket
+  at review. Absence of a record is not a finding that none exists.
+operating_platforms:
+  - platform: Kalshi
+    offers_sports_contracts: true
+    offers_in_state: "yes"
+    basis: regulator_statement
+    provenance: &azag
+      source_id: az-attorney-general
+      source_url: https://www.azag.gov/press-release/attorney-general-mayes-charges-kalshi-illegal-gambling-operation-election-wagering
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch1-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: The Attorney General's release of 2026-03-17 alleges that Kalshi offered sports contest and player prop contracts and election contracts to Arizona residents without a license. Whether the platform has since geofenced Arizona is not recorded.
+state_actions:
+  - action_type: lawsuit_filed
+    date: "2026-03-17"
+    issuing_body: Arizona Attorney General
+    target: KalshiEX LLC and Kalshi Trading LLC
+    summary: The Attorney General filed a twenty-count criminal information in Maricopa County Superior Court charging the companies with operating an unlicensed gambling business through sports event contracts and player prop contracts (sixteen counts of betting and wagering) and with election wagering (four counts, including contracts on the 2028 presidential race and the 2026 Arizona gubernatorial, Republican gubernatorial primary and Secretary of State races). All counts are misdemeanors and are brought against the companies, not individuals.
+    document_url: https://www.azag.gov/press-release/attorney-general-mayes-charges-kalshi-illegal-gambling-operation-election-wagering
+    provenance:
+      <<: *azag
+      notes: Entered as lawsuit_filed because the schema has no criminal charge type; the filing is a criminal information, not a civil complaint. Count breakdown is as stated in the release and press coverage of it.
+litigation:
+  - case_name: KalshiEX LLC v. State of Arizona (defendants to be confirmed)
+    court: US District Court for the District of Arizona
+    docket: null
+    filed_on: "2026-03-12"
+    status: pending
+    posture_note: >-
+      Kalshi filed a pre-enforcement suit on 2026-03-12, five days before the state's criminal information. No
+      ruling on preliminary relief was found by search on 2026-10-16. Nothing in this file is a final judgment on
+      whether Kalshi's sports event contracts are lawful in Arizona.
+    rulings: null
+    provenance:
+      <<: *azag
+      notes: Filing date and sequence as recited in the Attorney General's 2026-03-17 release. Case caption, docket number and any rulings must be taken from the court docket.
+  - case_name: State of Arizona v. KalshiEX LLC and Kalshi Trading LLC
+    court: Maricopa County Superior Court
+    docket: null
+    filed_on: "2026-03-17"
+    status: pending
+    posture_note: Criminal information with twenty misdemeanor counts. No disposition found by search on 2026-10-16.
+    rulings: null
+    provenance: *azag
