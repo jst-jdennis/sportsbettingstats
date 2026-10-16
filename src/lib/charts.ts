@@ -230,7 +230,12 @@ export function timeline(o: TimelineOpts): string {
       const cx = sx(dateNum(e.date));
       const dot = `<circle class="dot ${e.cls}" cx="${cx.toFixed(1)}" cy="${cy}" r="6"><title>${esc(e.title)}</title></circle>`;
       out += e.href ? `<a href="${esc(e.href)}">${dot}</a>` : dot;
-      if (e.label && cx > lastLabelX) { out += `<text class="ax" x="${(cx + 9).toFixed(1)}" y="${cy - 8}">${esc(e.label)}</text>`; lastLabelX = cx + 9 + e.label.length * CHAR_W + 6; }
+      if (e.label && cx > lastLabelX) {
+        const lw = e.label.length * CHAR_W;
+        const flip = cx + 9 + lw > W - m.right; // keep the label inside the plot: anchor it to the left of the dot near the right edge
+        out += `<text class="ax" x="${(flip ? cx - 9 : cx + 9).toFixed(1)}" y="${cy - 8}"${flip ? ' text-anchor="end"' : ''}>${esc(e.label)}</text>`;
+        lastLabelX = flip ? Infinity : cx + 9 + lw + 6;
+      }
     }
   });
   return out + '</svg>';
