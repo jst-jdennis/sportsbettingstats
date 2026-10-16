@@ -1,81 +1,125 @@
-fips: '09'
+fips: "09"
 abbr: CT
 name: Connecticut
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Connecticut authorized retail and online sports wagering, online casino gaming and related products through
+  Public Act 21-23, signed on May 27, 2021, together with amended compacts with the Mashantucket Pequot and Mohegan
+  tribes. Retail wagering began at the tribal casinos at the end of September 2021 and statewide online wagering
+  opened at 6:00 a.m. on October 19, 2021 after a week-long soft launch. The two tribes and the Connecticut Lottery
+  Corporation hold the master wagering licenses, and the Department of Consumer Protection's Gaming Division
+  regulates and publishes monthly figures.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2021-05-27'
-  launched_on: '2021-09-30'
-  authority:
-    type: statute
-    citation: Public Act 21-23 (2021)
-    url: https://www.cga.ct.gov/
-  operator_model: mixed
-  notes: null
-  provenance:
-    source_id: ct-regulator
-    source_url: https://portal.ct.gov/dcp/gaming-division/gaming-division
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2021-05-27'
-  launched_on: '2021-10-19'
-  authority:
-    type: statute
-    citation: Public Act 21-23 (2021)
-    url: https://www.cga.ct.gov/
-  operator_model: mixed
-  notes: null
-  provenance:
-    source_id: ct-regulator
-    source_url: https://portal.ct.gov/dcp/gaming-division/gaming-division
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2021-05-27"
+    launched_on: "2021-09-30"
+    authority:
+      type: statute
+      citation: Public Act 21-23 (HB 6451, 2021), codified at Conn. Gen. Stat. 12-850 et seq.; amended Tribal-State compacts and memoranda of understanding
+      url: https://cga.ct.gov/2021/sum/pdf/2021SUM00023-R02HB-06451-SUM.pdf
+    operator_model: mixed
+    notes: Retail sportsbooks operate at Foxwoods and Mohegan Sun under the tribes' master wagering licenses and at Connecticut Lottery Corporation retail locations (including off-track betting facilities). The state collects no payment on wagers placed on the reservations.
+    provenance: &ctleg
+      source_id: ct-legislature
+      source_url: https://cga.ct.gov/2021/sum/pdf/2021SUM00023-R02HB-06451-SUM.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch1-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Public Act 21-23 and its scope confirmed by search on 2026-10-16 against the Office of Legislative Research summary. The signing date 2021-05-27 appears in press reports only. The Governor's 2021-10-18 release says the first in-person wager was placed "two weeks ago", which is consistent with but does not confirm 2021-09-30; seeded value retained.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2021-05-27"
+    launched_on: "2021-10-19"
+    authority:
+      type: statute
+      citation: Public Act 21-23 (HB 6451, 2021), codified at Conn. Gen. Stat. 12-850 et seq. (online sports wagering through master wagering licensees and their online gaming operators)
+      url: https://cga.ct.gov/2021/sum/pdf/2021SUM00023-R02HB-06451-SUM.pdf
+    operator_model: mixed
+    notes: Three online skins, one per master wagering licensee (Mohegan Tribe, Mashantucket Pequot Tribe, Connecticut Lottery Corporation). A seven-day soft launch began 2021-10-12.
+    provenance: &ctdcp
+      source_id: ct-regulator
+      source_url: https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2021-news-releases/governor-lamont-announces-online-sports-wagering-icasino-opens-tuesday
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch1-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Launch date and time confirmed by search on 2026-10-16 against the Department's copy of the Governor's release authorizing full online sports wagering and iCasino from 6:00 a.m. on 2021-10-19.
 regulators:
-- name: Connecticut Department of Consumer Protection, Gaming Division
-  url: https://portal.ct.gov/dcp/gaming-division/gaming-division
-  type: other_state_agency
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: ct-regulator
-    source_url: https://portal.ct.gov/dcp/gaming-division/gaming-division
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+  - name: Connecticut Department of Consumer Protection, Gaming Division
+    url: https://portal.ct.gov/dcp/gaming-division/gaming-division
+    type: other_state_agency
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance:
+      <<: *ctdcp
+      source_url: https://portal.ct.gov/dcp/gaming-division/gaming-division
+      notes: Confirmed by search on 2026-10-16. The Division licenses operators, enforces the act and regulations (Regs. Conn. State Agencies 12-865-1 et seq.), publishes monthly reports and runs the statewide self-exclusion list.
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: Conn. Gen. Stat. 12-863 (a person may place a sports wager outside the reservations only if twenty-one years of age or older and physically present in the state); Regs. Conn. State Agencies 12-865-12(d) (account opening and deposits)
+    provenance:
+      <<: *ctleg
+      notes: Confirmed by search on 2026-10-16 through a statute reproduction and the regulation text; the cga.ct.gov statute page itself was not opened from this container.
+tax:
+  - channel: all
+    basis: gross_gaming_revenue
+    rate: 0.1375
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      Gross gaming revenue excludes the face value of promotional coupons and credits up to a threshold share of
+      monthly gross gaming revenue (25 percent in the first year of sports wagering, 20 percent in the second and
+      15 percent in the third and later years); 25 percent of the excess above the threshold is added back into
+      gross gaming revenue. Wagers placed on the Mashantucket Pequot and Mohegan reservations are excluded from the
+      state payment.
+    effective_from: "2021-09-30"
+    effective_to: null
+    destination:
+      - fund_name: General Fund
+        share: null
+    authority_citation: Public Act 21-23 (payment to the state of 13.75 percent of gross gaming revenue from retail and online sports wagering, with the definition of gross gaming revenue in section 1), codified in Conn. Gen. Stat. 12-850 et seq.; section numbers to be confirmed
+    provenance:
+      <<: *ctleg
+      notes: Rate confirmed by search on 2026-10-16 against the Governor's December 2021 collections release and the act summary; the promotional credit thresholds are taken from the 2021 bill text as filed (https://www.cga.ct.gov/2021/FC/PDF/2021HB-06451-R000384-FC.PDF) and must be checked against the codified section.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Department of Consumer Protection, Gaming Division
+    durations: null
+    covers: [sports_wagering_retail, sports_wagering_online, online_casino, lottery_online]
+    enrollment_methods: [online]
+    url: https://portal.ct.gov/gaming/self-exclusion
+    notes: The statewide list launched in September 2021 and covers online casino, online and retail sports wagering (including Lottery retail locations) and other state-licensed online gaming. Casino floor gaming at Foxwoods and Mohegan Sun uses each tribe's own program. Term options were not confirmed by search on 2026-10-16. Enrolled persons may not collect winnings or recover losses.
+    provenance:
+      <<: *ctdcp
+      source_url: https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2021-news-releases/dcp-announces-launch-of-statewide-self-exclusion-list
+      notes: Confirmed by search on 2026-10-16 against the Department's launch release and program page.
+  deposit_limits: null
+  advertising:
+    - rule_type: no_under_age_targeting
+      text: Public Act 26-53 (HB 5229, 2026) requires gaming advertisements to state the applicable minimum age and prohibits advertising designed to appeal to persons under twenty-one.
+      authority_citation: Public Act 26-53 (2026)
+      provenance:
+        <<: *ctleg
+        source_url: https://prdext3.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00053-R00HB-05229-PA.PDF
+        notes: Act found by search on 2026-10-16; effective date and exact operative language to be confirmed against the public act PDF.
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+  - Connecticut's monthly reports show gross gaming revenue and a separate figure after promotional deductions; the payment to the state is computed on the latter, and wagers placed on the two reservations are excluded, so published revenue is not a complete measure of in-state wagering.
+  - With three master licensees and three online skins, Connecticut operator-level figures are not comparable with open-licensing states.
+  - Deposit limit, credit card and helpline advertising rules exist in Regs. Conn. State Agencies 12-865 but were not confirmed by search on 2026-10-16 and are left unentered.

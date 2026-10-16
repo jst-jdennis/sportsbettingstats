@@ -1,81 +1,133 @@
-fips: '04'
+fips: "04"
 abbr: AZ
 name: Arizona
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Arizona authorized event wagering through House Bill 2772, signed on April 15, 2021 together with amended
+  tribal-state gaming compacts. Retail and mobile wagering launched on September 9, 2021. Licenses are split
+  between tribes and professional sports franchises or venues, and the Arizona Department of Gaming regulates
+  and collects a privilege fee of 8 percent (retail) and 10 percent (mobile) of adjusted gross event wagering
+  receipts.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2021-04-15'
-  launched_on: '2021-09-09'
-  authority:
-    type: statute
-    citation: A.R.S. Title 5, Chapter 10 (HB 2772, 2021)
-    url: https://www.azleg.gov/arsDetail/?title=5
-  operator_model: mixed
-  notes: null
-  provenance:
-    source_id: az-regulator
-    source_url: https://gaming.az.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2021-04-15'
-  launched_on: '2021-09-09'
-  authority:
-    type: statute
-    citation: A.R.S. Title 5, Chapter 10 (HB 2772, 2021)
-    url: https://www.azleg.gov/arsDetail/?title=5
-  operator_model: mixed
-  notes: null
-  provenance:
-    source_id: az-regulator
-    source_url: https://gaming.az.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2021-04-15"
+    launched_on: "2021-09-09"
+    authority:
+      type: statute
+      citation: A.R.S. Title 5, Chapter 10 (A.R.S. 5-1301 et seq.), enacted by Laws 2021, HB 2772, effective April 15, 2021; amended Tribal-State Gaming Compacts
+      url: https://www.azleg.gov/ars/5/01301.htm
+    operator_model: mixed
+    notes: Up to ten event wagering operator licenses for Indian tribes and up to ten for professional sports franchises, venues and the PGA Tour. Retail wagering occurs at tribal casinos and at professional sports venues. The statute's operation depended on federal approval of the compact amendments, published in the Federal Register in May 2021.
+    provenance: &azleg
+      source_id: az-legislature
+      source_url: https://www.azleg.gov/ars/5/01301.htm
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch1-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Signing date 2021-04-15 confirmed by the Arizona Department of Gaming's own description of HB 2772 and by the statute text, which references an effective date of April 15, 2021. Launch date 2021-09-09 is confirmed only by press reports quoting the Department; not confirmed on a primary page by search on 2026-10-16; seeded value retained.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2021-04-15"
+    launched_on: "2021-09-09"
+    authority:
+      type: statute
+      citation: A.R.S. Title 5, Chapter 10 (A.R.S. 5-1301 et seq.), enacted by Laws 2021, HB 2772; mobile platforms operate under an event wagering operator license
+      url: https://www.azleg.gov/ars/5/01301.htm
+    operator_model: mixed
+    notes: Each event wagering operator may offer a mobile platform statewide, including on tribal land under the compact amendments.
+    provenance: *azleg
 regulators:
-- name: Arizona Department of Gaming
-  url: https://gaming.az.gov/
-  type: gaming_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: az-regulator
-    source_url: https://gaming.az.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+  - name: Arizona Department of Gaming
+    url: https://gaming.az.gov/
+    type: gaming_commission
+    roles: [licensing, enforcement, revenue_reporting, problem_gambling_services]
+    provenance: &azdg
+      source_id: az-regulator
+      source_url: https://gaming.az.gov/sites/default/files/Article%201%20-%20Event%20Wagering%20v1.1.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch1-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Confirmed by search on 2026-10-16. The Department describes itself as the primary regulator and enforcement body for event wagering and fantasy sports under HB 2772 and publishes monthly event wagering reports. The Department's Division of Problem Gambling runs the self-exclusion program.
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: A.R.S. 5-1311(B)(1) (licensees may not allow a person under twenty-one years of age to place a wager)
+    provenance:
+      <<: *azleg
+      source_url: https://azleg.gov/ars/5/01311.htm
+      notes: Confirmed by search on 2026-10-16 against the statute page.
+tax:
+  - channel: retail
+    basis: adjusted_gross_revenue
+    rate: 0.08
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      Adjusted gross event wagering receipts are gross receipts (excluding voided wagers) less winnings paid and
+      federal excise tax, less free bets and promotional credits subject to a declining cap set in A.R.S. 5-1301:
+      up to 20 percent of gross receipts in the operator's first two years, 15 percent in year three, 10 percent in
+      years four and five and no deduction from year six, counted from the January 1 after the operator began
+      operations. For operators that launched in September 2021 the deduction fell to zero on 2027-01-01 under this
+      schedule; the year count should be confirmed against the Department's reporting instructions.
+    effective_from: "2021-09-09"
+    effective_to: null
+    destination:
+      - fund_name: Event Wagering Fund (90 percent of monthly deposits transferred to the State General Fund; up to 10 percent retained for regulation)
+        share: null
+    authority_citation: A.R.S. 5-1318 (privilege fee not to exceed 10 percent of adjusted gross event wagering receipts; event wagering fund) and A.A.C. R19-4-112 (8 percent retail, 10 percent mobile); definition in A.R.S. 5-1301
+    provenance:
+      <<: *azleg
+      source_url: https://www.azleg.gov/ars/5/01318.htm
+      notes: Statutory cap and fund distribution confirmed on the statute page. The 8 and 10 percent rates are set by rule (A.A.C. R19-4-112) and restated in the Department's monthly reporting instructions and a 2022 House appropriations summary; the rule text itself was not opened from this container.
+  - channel: online
+    basis: adjusted_gross_revenue
+    rate: 0.10
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: As above (A.R.S. 5-1301 declining free bet cap).
+    effective_from: "2021-09-09"
+    effective_to: null
+    destination:
+      - fund_name: Event Wagering Fund (90 percent of monthly deposits transferred to the State General Fund; up to 10 percent retained for regulation)
+        share: null
+    authority_citation: A.R.S. 5-1318 and A.A.C. R19-4-112 (10 percent of adjusted gross event wagering receipts for mobile operations)
+    provenance:
+      <<: *azleg
+      source_url: https://www.azleg.gov/ars/5/01318.htm
+      notes: As above.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Arizona Department of Gaming, Division of Problem Gambling
+    durations: null
+    covers: [event_wagering_retail, event_wagering_online, fantasy_sports]
+    enrollment_methods: [in_person, mail]
+    url: https://problemgambling.az.gov/self-exclusion
+    notes: The event wagering and fantasy sports (EWFS) self-exclusion list is separate from the tribal casino self-exclusion list; enrolling in one does not enroll a person in the other. The casino list offers one, five and ten year terms; the EWFS form's term options were not confirmed by search on 2026-10-16. Enrollment is irrevocable for the term selected and is by notarized form delivered in person or by mail.
+    provenance:
+      <<: *azdg
+      source_url: https://problemgambling.az.gov/self-exclusion
+      notes: Program page and EWFS form (https://problemgambling.az.gov/sites/default/files/EWFS%20Self-Exclusion%20filliable_0.pdf) found by search on 2026-10-16; statutory basis A.R.S. 5-1320. problemgambling.az.gov is a Department of Gaming site.
+  deposit_limits: null
+  advertising: null
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+  - Arizona reports adjusted gross event wagering receipts after free bet deductions that were capped on a declining schedule and that differ by operator launch year, so the taxable base is not comparable across years or with gross revenue states such as New Jersey.
+  - Wagers placed on tribal land under the compacts are reported through the Department's event wagering series but tribal casino gaming revenue is not; sports wagering cannot be isolated from the tribal contribution series.
+  - Deposit limit, advertising and payment method rules exist in A.A.C. Title 19, Chapter 4 (for example R19-4-128, forms of payment) but were not confirmed by search on 2026-10-16 and are left unentered.

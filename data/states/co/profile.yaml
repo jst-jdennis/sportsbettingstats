@@ -1,81 +1,181 @@
-fips: '08'
+fips: "08"
 abbr: CO
 name: Colorado
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Colorado voters approved Proposition DD on November 5, 2019, bringing House Bill 19-1327 into effect, and retail
+  and online sports betting both launched on May 1, 2020. Master licenses are held by the casinos in Black Hawk,
+  Central City and Cripple Creek, which contract with internet and retail operators. The state taxes net sports
+  betting proceeds at 10 percent, and the deduction for free bets was narrowed by HB 22-1402 and HB 25-1311 and is
+  eliminated from July 1, 2026.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2019-11-05'
-  launched_on: '2020-05-01'
-  authority:
-    type: ballot_measure
-    citation: Proposition DD (2019); C.R.S. 44-30-1501 et seq.
-    url: https://sbg.colorado.gov/gaming
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: co-regulator
-    source_url: https://sbg.colorado.gov/gaming
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2019-11-05'
-  launched_on: '2020-05-01'
-  authority:
-    type: ballot_measure
-    citation: Proposition DD (2019); C.R.S. 44-30-1501 et seq.
-    url: https://sbg.colorado.gov/gaming
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: co-regulator
-    source_url: https://sbg.colorado.gov/gaming
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2019-11-05"
+    launched_on: "2020-05-01"
+    authority:
+      type: ballot_measure
+      citation: Proposition DD (November 5, 2019), approving HB 19-1327; C.R.S. 44-30-1501 et seq.
+      url: https://content.leg.colorado.gov/sites/default/files/images/proposition_dd.pdf
+    operator_model: commercial
+    notes: Retail sportsbooks operate inside the licensed casinos in the three gaming towns; each master licensee may contract with one retail and one internet operator.
+    provenance: &codg
+      source_id: co-regulator
+      source_url: https://sbg.colorado.gov/sites/sbg/files/documents/Colorado%20Sports%20Betting_YearOne_Final.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch1-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Proposition DD approval and the 10 percent tax confirmed by search on 2026-10-16 against the Division of Gaming's sports betting FAQ and the Legislative Council's Proposition DD text. The 2020-05-01 launch date is the Division's year-one report period start and is widely reported; the report itself was not opened from this container.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2019-11-05"
+    launched_on: "2020-05-01"
+    authority:
+      type: ballot_measure
+      citation: Proposition DD (2019), approving HB 19-1327; C.R.S. 44-30-1501 et seq. (internet sports betting operators contract with a master licensee)
+      url: https://content.leg.colorado.gov/sites/default/files/images/proposition_dd.pdf
+    operator_model: commercial
+    notes: null
+    provenance: *codg
 regulators:
-- name: Colorado Division of Gaming
-  url: https://sbg.colorado.gov/gaming
-  type: gaming_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: co-regulator
-    source_url: https://sbg.colorado.gov/gaming
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+  - name: Colorado Division of Gaming (Department of Revenue), with the Colorado Limited Gaming Control Commission
+    url: https://sbg.colorado.gov/gaming
+    type: gaming_commission
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance:
+      <<: *codg
+      source_url: https://sbg.colorado.gov/gaming
+      notes: Confirmed by search on 2026-10-16. The Commission promulgates the sports betting rules (1 CCR 207-2) and the Division administers them and publishes monthly reports.
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: HB 19-1327 as approved by Proposition DD (persons under twenty-one may not place sports bets), codified in C.R.S. 44-30-1501 et seq.; exact section not confirmed by search on 2026-10-16
+    provenance:
+      <<: *codg
+      notes: Age itself is uncontested; the section citation must be confirmed against the statute at review.
+tax:
+  - channel: all
+    basis: adjusted_gross_revenue
+    rate: 0.10
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: Net sports betting proceeds were defined by HB 19-1327 as the total of all bets, excluding free bets, less payouts to players and federal excise tax; all free bets were excluded from the base in this period.
+    effective_from: "2020-05-01"
+    effective_to: "2022-12-31"
+    destination:
+      - fund_name: Sports Betting Fund (regulatory costs, hold-harmless fund, problem gambling grants, then Water Plan Implementation Cash Fund)
+        share: null
+    authority_citation: C.R.S. 44-30-1501(7) (definition of net sports betting proceeds) and the 10 percent tax enacted by HB 19-1327 as approved by Proposition DD
+    provenance:
+      <<: *codg
+      source_url: https://sbg.colorado.gov/sites/sbg/files/documents/FAQs%20Sports%20Betting.docx%20%281%29.pdf
+      notes: Definition and rate confirmed by search on 2026-10-16 against the Division's FAQ document.
+  - channel: all
+    basis: adjusted_gross_revenue
+    rate: 0.10
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: HB 22-1402 capped the deductible amount of free bets at 2.5 percent of total bets (2023-01-01 to 2024-06-30), 2.25 percent (FY 2024-25) and 2.0 percent (FY 2025-26 as originally scheduled), with 1.75 percent thereafter; the FY 2025-26 step was superseded by HB 25-1311.
+    effective_from: "2023-01-01"
+    effective_to: "2025-06-30"
+    destination:
+      - fund_name: Sports Betting Fund
+        share: null
+    authority_citation: HB 22-1402, amending C.R.S. 44-30-1501(7)(c)
+    provenance:
+      source_id: co-legislature
+      source_url: https://content.leg.colorado.gov/agencies/legislative-council-staff/sports-betting-tax-revenue
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch1-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Schedule as summarized by Legislative Council Staff; confirm against the enrolled act.
+  - channel: all
+    basis: adjusted_gross_revenue
+    rate: 0.10
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: HB 25-1311 (signed 2025-05-15, 2025 Session Laws ch. 195) limits the deduction to 2 percent of total free bets placed each month from 2025-07-01 to 2025-12-31 and 1 percent from 2026-01-01 to 2026-06-30, and removes the deduction for all free bets placed on or after 2026-07-01.
+    effective_from: "2025-07-01"
+    effective_to: "2026-06-30"
+    destination:
+      - fund_name: Sports Betting Fund
+        share: null
+    authority_citation: HB 25-1311, amending C.R.S. 44-30-1501(7)(c)
+    provenance: &coleg1311
+      source_id: co-legislature
+      source_url: https://leg.colorado.gov/bills/hb25-1311
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch1-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Signing date and schedule confirmed by search on 2026-10-16 against the Legislature's bill page summary. Enrolled act at https://content.leg.colorado.gov/sites/default/files/documents/2025A/bills/sl/2025a_sl_195.pdf.
+  - channel: all
+    basis: adjusted_gross_revenue
+    rate: 0.10
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: No deduction for free bets from 2026-07-01 under HB 25-1311; the base is total bets less payouts and federal excise tax.
+    effective_from: "2026-07-01"
+    effective_to: null
+    destination:
+      - fund_name: Sports Betting Fund
+        share: null
+    authority_citation: HB 25-1311, amending C.R.S. 44-30-1501(7)(c)
+    provenance: *coleg1311
+consumer_protections:
+  self_exclusion:
+    program_type: both
+    administered_by: Colorado Division of Gaming (statewide list since September 2023); each sports betting operator must also maintain its own program under Rule 9.2
+    durations: [1 year, 3 years, 5 years]
+    covers: [casinos, sports_wagering_retail, sports_wagering_online]
+    enrollment_methods: [online, in_person, mail]
+    url: https://sbg.colorado.gov/self-exclusion
+    notes: Online enrollment requires a Social Security number; mailed enrollment uses a notarized form (DR 9681). Before September 2023 the list was kept by the Problem Gambling Coalition of Colorado.
+    provenance:
+      <<: *codg
+      source_url: https://sbg.colorado.gov/news-article/state-of-colorado-marks-one-year-of-successful-self-exclusion-list-for-responsible
+      notes: Confirmed by search on 2026-10-16 against the Division's news release and registration form; operator program requirement from Sports Betting Rule 9 (1 CCR 207-2).
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: null
+    player_set_required_at_signup: null
+    cooling_off_on_increase_hours: null
+    statutory_cap_usd: null
+    authority_citation: Colorado Sports Betting Rule 9.5(4)(a) (self-imposed limits) in 1 CCR 207-2
+    notes: The rule text on limit types, defaults and increase waiting periods was not confirmed by search on 2026-10-16; only the existence of self-imposed limits is entered.
+    provenance:
+      <<: *codg
+      source_url: https://sbg.colorado.gov/sites/sbg/files/documents/SBRule-9-011426.pdf
+      notes: Rule 9 as revised 2026-01-14 found by search; the Division's copy is a convenience version of 1 CCR 207-2.
+  advertising: null
+  credit_card_deposits: null
+  helpline_message:
+    required: true
+    required_number: null
+    authority_citation: Colorado Sports Betting Rule 9.1 (responsible gaming page with helpline message and self-exclusion links)
+    provenance:
+      <<: *codg
+      source_url: https://sbg.colorado.gov/sites/sbg/files/documents/SBRule-9-011426.pdf
+      notes: Rule 9.1 requires the operator's responsible gaming page to display a helpline message; whether a specific number is mandated in advertising was not confirmed. Division materials use 1-800-GAMBLER.
+limitations:
+  - Colorado's taxable base changed three times (free bets fully excluded through 2022, capped from 2023, phased out by July 2026), so tax revenue per dollar of handle is not comparable across years.
+  - Colorado requires operators to contract with casino master licensees, so the published operator counts and the hold-harmless payments to casino towns reflect that structure rather than market demand.
+  - Credit card funding and advertising rules exist in Sports Betting Rules 6 and 9 but were not confirmed by search on 2026-10-16 and are left unentered.
