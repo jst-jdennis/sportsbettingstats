@@ -30,6 +30,10 @@ def test_uscourts_f2_parse_and_sum_by_state():
     assert ok_all["period_start"] == "2026-04-01" and ok_all["period_end"] == "2026-06-30"
     ar = next(r for r in rows if r["fips"] == "05" and r["chapter"] == "all_nonbusiness")
     assert ar["filings"] == 98
+    # Twelve-month table: the period is the year ending on the quarter end.
+    raw12 = RawDocument(doc=Document(url="u", period=Period.quarter_ending(2026, 6), kind="xlsx", label="12m", meta=(("measure", "twelve_months_ending"),)), path=FIX / "uscourts_f2_synthetic.xlsx", sha256="0" * 64, retrieved_at=date(2026, 10, 16), archive_url=None)
+    rows12 = [r.finalize() for r in src.normalize(src.parse(raw12), raw12)]
+    assert rows12[0]["period_start"] == "2025-07-01" and rows12[0]["period_end"] == "2026-06-30" and rows12[0]["measure"] == "twelve_months_ending"
 
 
 def test_uscourts_f2_layout_change_raises(tmp_path):

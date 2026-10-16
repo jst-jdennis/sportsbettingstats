@@ -174,6 +174,10 @@ class USCourtsBankruptcyF2:
         period = raw.doc.period
         assert period is not None
         measure = raw.doc.get("measure", "quarter")
+        if measure == "twelve_months_ending":
+            # The twelve-month table covers the year ending on the quarter's last day.
+            end = period.end
+            period = Period(start=end.replace(year=end.year - 1) + __import__("datetime").timedelta(days=1), end=end)
         sums: dict[tuple[str, str], int] = defaultdict(int)
         counted: dict[str, list[str]] = defaultdict(list)
         for rec in records:

@@ -41,6 +41,7 @@ def main(argv: list[str] | None = None) -> int:
     ing.add_argument("source_id", choices=sorted(REGISTRY))
     ing.add_argument("--period", help="YYYY-MM for monthly sources, YYYY-Qn for quarterly")
     ing.add_argument("--local", type=Path, help="Use a downloaded file instead of fetching (manual drop or fixture)")
+    ing.add_argument("--candidate", type=int, default=0, help="With --local: index of the discovered document the file stands for (see wpdc discover)")
     ing.add_argument("--no-wayback", action="store_true")
     ing.add_argument("--dry-run", action="store_true", help="Parse and print rows; write nothing")
     sub.add_parser("validate", help="Run the repository validator")
@@ -59,7 +60,7 @@ def main(argv: list[str] | None = None) -> int:
     docs = src.discover(period)
     raws = []
     if a.local:
-        doc = docs[0]
+        doc = docs[a.candidate]
         if doc.kind == "html":
             # A manual drop skips page discovery; the file is the document itself.
             kind = a.local.suffix.lstrip(".").lower() or "pdf"
