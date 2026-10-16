@@ -186,8 +186,13 @@ def main() -> int:
             for s in doc["studies"]:
                 if s["fips"] not in fips_set:
                     err(f"{p}: study {s['study_id']} has unknown fips {s['fips']}")
-                if s["fieldwork_end"] < s["fieldwork_start"]:
+                fs, fe = s.get("fieldwork_start"), s.get("fieldwork_end")
+                if (fs is None) != (fe is None):
+                    err(f"{p}: study {s['study_id']} must give both fieldwork dates or neither")
+                if fs and fe and str(fe) < str(fs):
                     err(f"{p}: study {s['study_id']} fieldwork_end precedes fieldwork_start")
+                if fs and str(fs)[:4] != str(s["fieldwork_year"]) and str(fe)[:4] != str(s["fieldwork_year"]):
+                    err(f"{p}: study {s['study_id']} fieldwork_year does not fall within the fieldwork dates")
                 if urlparse(str(s["report_url"])).path in ("", "/"):
                     err(f"{p}: study {s['study_id']} report_url is a bare host; cite the report document")
                 for r in s["rates"]:

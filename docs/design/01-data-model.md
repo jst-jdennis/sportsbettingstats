@@ -247,7 +247,8 @@ List of study records, not a time series, because methods differ.
 Schema: `schemas/prevalence_studies.schema.json`.
 
 `study_id` (pk), `fips`, `title`, `authors`, `commissioned_by`,
-`conducted_by`, `published_at`, `fieldwork_start`, `fieldwork_end`,
+`conducted_by`, `published_at`, `fieldwork_year`, `fieldwork_start`, `fieldwork_end`
+(null when the report gives only the year),
 `instrument` (enum: `PGSI`, `DSM-IV-NODS`, `DSM-5`, `SOGS`, `BBGS`, `other`),
 `instrument_note` (thresholds), `sample_size`, `population`, `mode`,
 `margin_of_error_pct_points`, `rates[]` (each with `measure`, the report's
