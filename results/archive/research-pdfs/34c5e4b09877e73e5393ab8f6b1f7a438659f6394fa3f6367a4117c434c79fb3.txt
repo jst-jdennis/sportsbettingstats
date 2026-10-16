@@ -1,0 +1,366 @@
+=== page 1 ===
+Research Summary: “The Financial Consequences of Legal
+Sports Gambling”
+BrettHollenbeck(UCLAAnderson),jointresearchwithPoetLarsen(USCMarshall),DavidePros-
+erpio(USCMarshall)
+PresentationtotheMinnesotaSenate,January82025
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 1/21
+
+=== page 2 ===
+▶
+Roughly$300billionhasbeenwageredsince2018
+▶
+SiennaCollegesurvey: 19%ofAmericansusesportsgamblingapps(39%ofmenages
+18-49)
+▶
+Roughly60%placebetsweekly
+In2018,SCOTUSoverturnedtheProfessionalandAmateurSportsProtectionAct
+(PASPA),whichprohibitedstatesfromauthorizinglegalsportsgambling
+▶
+Subsequently38stateshavelegalizedsomeformofsportsgambling
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 2/21
+
+=== page 3 ===
+In2018,SCOTUSoverturnedtheProfessionalandAmateurSportsProtectionAct
+(PASPA),whichprohibitedstatesfromauthorizinglegalsportsgambling
+▶
+Subsequently38stateshavelegalizedsomeformofsportsgambling
+▶
+Roughly$300billionhasbeenwageredsince2018
+▶
+SiennaCollegesurvey: 19%ofAmericansusesportsgamblingapps(39%ofmenages
+18-49)
+▶
+Roughly60%placebetsweekly
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 2/21
+
+=== page 4 ===
+ProblemGambling
+Asubstantialfractionofgamblers(1-8%)are“problemgamblers,”forwhomgamblingis
+associatedwitharangeofseriousharms(Meyeretal.,2009).
+▶
+Financialstress,disruptionoffamilylifeandrelationships,healthproblems,
+worseningofjobperformance,criminalactivity,andevensuicide(Gabellinietal.,
+2023;Shaffer&Korn,2002
+▶
+Theseoutcomesmoreprevalentamongyoungmen,racialminorities,and
+low-income(Williamsetal2012)
+▶
+Unclearwhethercorrelationbetweennegativeoutcomesandgamblingarecausal
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 3/21
+
+=== page 5 ===
+PolicyDebateAroundSportsBetting
+Statesimplementingsportsbettingregimeshavearangeofpolicydecisionstomake:
+▶
+In-person(retail)betting,online/mobileaccess?
+▶
+Regulationofadvertisingpractices
+▶
+Firmlicensing(marketstructure)andcompetition
+▶
+Taxation
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 4/21
+
+=== page 6 ===
+Ourresearch
+1. Westudyhowthewidespreadlegalizationandpromotionofsportsbettinghas
+impactedconsumerfinancialhealth,bothoverallandforspecificsubgroups.
+2. Westudyhowvariationacrossstatesinpolicychoicesresultsindifferentoutcomes
+forconsumers
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 5/21
+
+=== page 7 ===
+Data: UC-CCP
+UniqueabilitytomeasurefinancialhealthoutcomesusingaccesstotheUCConsumer
+CreditPanel,whichcontains:
+▶
+Fora2%representativesampleofU.S.householdstotaling7millionconsumers
+▶
+Alldataobservedbyamajorcreditbureau:
+▶
+Creditscore
+▶
+Creditcardaccountsactive,withdelinquencies,limits,andnoisyinformationon
+payments/balances
+▶
+Loansheld(mortgage,car,student,etc.),balanceanddelinquency
+▶
+Debtcollectionsanddebtconsolidationactivity
+▶
+Demographics(age,gender,race)
+▶
+Augmentedwithweeklywagedata(fromStLouisFed)
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 6/21
+
+=== page 8 ===
+Data: UC-CCP:Panel
+Fromtheinitialsampleofroughly7millionconsumers:
+▶
+Individualswhomaintainatleastoneactiveaccountandarenotdeceased
+▶
+Removeanyindividualwhomovedacrossstates
+▶
+Removeanyindividualwhoselocationorgenderinformationisnotpresentinthe
+data
+Finaldatasetcontainsobservationsfor4,382,529uniqueindividualsand90million
+quarterlyobservationsoversevenyears,fromMarch2016toJune2023
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 7/21
+
+=== page 9 ===
+Background: GrowthofLegalGambling
+30
+90
+20
+60
+10
+30
+0 0
+Jan 2019 Jan 2020 Jan 2021 Jan 2022 Jan 2023
+)snoilliB
+ni(
+eldnaH
+Number
+of
+Legalized
+States
+Number of Legalized States Handle (in Billions)
+TreatmentDates
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 8/21
+
+=== page 10 ===
+Map: RetailvsMobile
+▶
+Darkblue:Mobilebettingallowed
+▶
+Lightblue:Onlyretail(in-person)betting
+▶
+Lightgray:Legalizationpending
+▶
+Darkgray:Nolegalization
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 9/21
+
+=== page 11 ===
+EmpiricalStrategy
+▶
+CallawaySant’anna(2021)(CS)estimator,ATE
+▶
+Focuson2treatmentdefinitions:
+1. Alltreatedstates(treatmentdate0isfirstsportsgamblingofanykind)
+2. Stateswithsomeonlinegambling(treatmentdate0isthefirstimplementationofonline
+gambling,evenifprecededbyofflinegamblinglegalization)
+▶
+First,fullpopulation. Later,heterogeneity.
+Outcomes:
+1. Overallfinancialhealth
+2. Excessdebtindicators
+3. Creditaccess
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 10/21
+
+=== page 12 ===
+ImpactonCreditScores
+0.5%
+0.0%
+−0.5%
+−1.0%
+−8 −4 0 4 8 12 16
+Quarters Relative to Policy
+erocS
+tiderC
+ni
+egnahC
+.tcP
+All States Online Access
+▶
+Effectsize: 1%= 7pointoncreditscore
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 11/21
+
+=== page 13 ===
+ExcessDebt-DebtConsolidation
+0.04%
+0.03%
+0.02%
+0.01%
+0.00%
+−0.01%
+−8 −4 0 4 8 12 16
+Quarters Relative to Policy
+)naoL
+.losnoC(rP
+All States Online Access
+DebtConsolidationchange0.00006/0.00066=9%
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 12/21
+
+=== page 14 ===
+ExcessDebt-Bankruptcies
+0.03%
+0.02%
+0.01%
+0.00%
+−0.01%
+−8 −4 0 4 8 12 16
+Quarters Relative to Policy
+)yctpurknaB(rP
+All States Online Access
+Bankruptcychange: 0.0002/0.00072=27%increase.
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 13/21
+
+=== page 15 ===
+ExcessDebt-DebtCollectionsAmount
+30%
+20%
+10%
+0%
+−10%
+−8 −4 0 4 8 12 16
+Quarters Relative to Policy
+.tccA
+no
+snoitcelloC
+ni
+egnahC
+.tcP
+All States Online Access
+8%increaseisroughly$30onmeandebtof$360
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 14/21
+
+=== page 16 ===
+ExcessDebt-AutoDelinquencies
+0.4%
+0.3%
+0.2%
+0.1%
+0.0%
+−8 −4 0 4 8 12 16
+Quarters Relative to Policy
+)ycneuqnileD
+naoL
+otuA(rP
+All States Online Access
+Roughly9%increase
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 15/21
+
+=== page 17 ===
+ExcessDebt-CCDelinquencies
+0.2%
+0.0%
+−0.2%
+−0.4%
+−8 −4 0 4 8 12 16
+Quarters Relative to Policy
+)ycneuqnileD
+CC(rP
+All States Online Access
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 16/21
+
+=== page 18 ===
+AccesstoCredit-ImpactonCCLimits
+0.0%
+−2.5%
+−5.0%
+−7.5%
+−8 −4 0 4 8 12 16
+Quarters Relative to Policy
+timiL
+CC
+.muC
+ni
+egnahC
+.tcP
+All States Online Access
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 17/21
+
+=== page 19 ===
+AccesstoCredit-RatioofSecured/UnsecuredLoans
+0.6%
+0.4%
+0.2%
+0.0%
+−8 −4 0 4 8 12 16
+Quarters Relative to Policy
+oitaR
+stccA
+LSU/LS
+ni
+egnahC
+.tcP
+All States Online Access
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 18/21
+
+=== page 20 ===
+FullResults
+AllStates OnlineAccess
+OverallFinancialHealth:
+CreditScore −0.0012∗∗∗ −0.0039∗∗∗
+(0.0003) (0.0006)
+ExcessiveDebtIndicators:
+Pr(Bankruptcy) −0.000004 0.0001∗∗∗
+(0.00003) (0.00002)
+Collections 0.0055 0.0789∗∗∗
+(0.0140) (0.0122) ▶ SE’scorrectedformultiplehypotheses
+Pr(CreditCardDelinquency) −0.0001 −0.0005∗∗
+(0.0002) (0.0002) (13DVsX2TreatmentsX7dim.
+Pr(AutoLoanDelinquency) 0.0013∗∗∗ 0.0006∗∗∗ heterogeneity=168tests)
+(0.0002) (0.0001)
+Pr(Cons.Loan) 0.00006 0.00005
+(0.00004) (0.00003)
+AccesstoCredit:
+CumulativeCCLimit −0.0158∗∗∗ −0.0269∗∗∗
+(0.0023) (0.0039)
+RatioofSec.toUnsec.Loans 0.0017∗∗ 0.0009∗
+(0.0006) (0.0004)
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 19/21
+
+=== page 21 ===
+SummaryandDiscussion
+▶
+Legalsportsbettingisseentodriveworsefinancialhealthacrossarangeofindicators
+▶
+Substantiallylargerimpactsfromonlinebettingvsoffline
+▶
+Averageeffectsaremostlysmall,asexpected
+▶
+Back-of-the-envelopecalculations: averageeffectestimatestranslatetoroughly30,000
+additionalannualbankruptciesandanadditional$8billioninannualdebtcollections
+▶
+Initialheterogeneityanalysisissuggestivebutinconclusive
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 20/21
+
+=== page 22 ===
+LegalizationDates
+State FirstStart Online Offline
+1 Delaware Jun2018 Jun2018
+2 NewJersey Jun2018 Aug2018 Jun2018
+3 Mississippi Aug2018 Aug2018
+4 WestVirginia Aug2018 Aug2018 Aug2018
+5 NewMexico Oct2018 Oct2018
+6 Pennsylvania Nov2018 May2019 Nov2018
+7 RhodeIsland Nov2018 Sep2019 Nov2018
+8 Arkansas Jul2019 Mar2022 Jul2019
+9 NewYork Jul2019 Jan2022 Jul2019
+10 Iowa Aug2019 Aug2019 Aug2019
+11 Indiana Sep2019 Oct2019 Sep2019
+12 Oregon Oct2019 Oct2019
+13 NewHampshire Dec2019 Dec2019 Aug2020
+14 Illinois Mar2020 Jun2020 Mar2020
+15 Michigan Mar2020 Jan2021 Mar2020
+16 Montana Mar2020 Mar2020
+17 Colorado May2020 May2020 May2020
+18 DistrictofColumbia May2020 May2020 Jul2020
+19 Tennessee Nov2020 Nov2020
+20 Virginia Jan2021 Jan2021
+21 NorthCarolina Mar2021 Mar2021
+22 NorthDakota Jun2021 Jun2021
+23 Arizona Sep2021 Sep2021 Sep2021
+24 SouthDakota Sep2021 Sep2021
+25 Washington Sep2021 Sep2021
+26 Wyoming Sep2021 Sep2021
+27 Connecticut Oct2021 Oct2021 Oct2021
+28 Louisiana Nov2021 Jan2022 Nov2021
+29 Wisconsin Nov2021 Nov2021
+30 Maryland Dec2021 Nov2022 Dec2021
+31 Kansas Sep2022 Sep2022 Sep2022
+32 Massachusetts Jan2023 Mar2023 Jan2023
+33 Ohio Jan2023 Jan2023 Jan2023
+Back
+BrettHollenbeck(UCLA) SportsGamblingresearchoverview 21/21

@@ -1,0 +1,3 @@
+?? data/outcomes/
+?? ingest/wpdc_ingest.egg-info/
+?? out/
