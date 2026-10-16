@@ -1,0 +1,76 @@
+slug: westermeyer-eisenberg-meiselbach-2026
+title: Online Sports Betting Legalization and Behavioral Health Care Use
+authors: [Benjamin Westermeyer, Matthew D. Eisenberg, Mark K. Meiselbach]
+year_first_circulated: 2026
+publication_status: published
+venue: JAMA Psychiatry, original investigation, published online October 14, 2026
+doi: 10.1001/jamapsychiatry.2026.3175
+canonical_url: https://doi.org/10.1001/jamapsychiatry.2026.3175
+market_segment: regulated_sportsbook
+unit_of_effect: population_average
+data_used: >-
+  A national database of employer-sponsored health insurance claims from January 2016 to December 2023, covering
+  prescription fills and outpatient, emergency department and inpatient visits for depression, anxiety and
+  substance use disorders.
+design: >-
+  Difference-in-differences comparing enrollees in the 22 states that legalized online sports betting between 2018
+  and 2022 with enrollees in 13 states that had not legalized online betting by the end of 2023, with estimates
+  reported separately for men and women.
+plain_language_summary: >-
+  The authors ask whether use of mental health care changed after states legalized online sports betting. They find
+  that enrollees in legalizing states became more likely to fill a prescription for, or have an outpatient visit
+  related to, depression or anxiety, with the estimates more precise for men than for women, and no change in care
+  for substance use disorders or in emergency department or inpatient visits for depression or anxiety. The
+  estimates are averages across everyone in the insured population of a state, not effects on bettors, and the
+  claims data do not record whether a person bets.
+methodology_notes:
+  - Population-average estimates for people with employer-sponsored insurance, who are younger and higher-income than the general population.
+  - Care use measures treatment received, which can rise because need rose or because people sought care more readily.
+limitations:
+  - Employer-sponsored claims exclude people on Medicaid, Medicare or without insurance.
+  - Author middle initials are to be confirmed from the article record; the search results gave the names as Benjamin Westermeyer, Matthew Eisenberg and Mark Meiselbach.
+  - Relative effect sizes reported in press coverage (about 6.7 percent for men and 5.5 percent for women for an outpatient depression diagnosis) were not read from the article and are not entered.
+versions:
+  - version_label: jama-psychiatry-2026-10-14
+    date: "2026-10-14"
+    date_precision: day
+    url: https://doi.org/10.1001/jamapsychiatry.2026.3175
+    archive_url: null
+    sha256: null
+    changes_summary: Original investigation published online in JAMA Psychiatry.
+key_figures:
+  - figure_id: outpatient-depression-diagnosis-men
+    description: Relative change in the probability of an outpatient depression diagnosis among men after online sports betting legalization
+    value_text: to be entered from the paper
+    specification: Difference-in-differences estimate, men, employer-sponsored claims 2016 to 2023
+    version_label: jama-psychiatry-2026-10-14
+    status: current
+    superseded_by: null
+    page_or_table: null
+    outcome_domain: help_seeking
+    value_numeric: null
+    value_unit: null
+    range_low: null
+    range_high: null
+    provenance: &westermeyer
+      source_id: jama-network
+      source_url: https://doi.org/10.1001/jamapsychiatry.2026.3175
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-research-health-2026-10-16
+      reviewed_by: null
+      status: unverified
+      page_or_table: null
+      notes: >-
+        Journal is JAMA Psychiatry. The article could not be opened from the build container. A figure of 6.7
+        percent for men and 5.5 percent for women appears in press coverage and is not entered until read from the
+        article's results or tables.
+citations_in_policy: []
+provenance:
+  <<: *westermeyer
+  status: pending_review
+  notes: >-
+    Title, authors, DOI and online publication date taken from the JAMA Psychiatry article listing and the Johns
+    Hopkins Bloomberg School of Public Health release. Figures remain unverified until the article is read.

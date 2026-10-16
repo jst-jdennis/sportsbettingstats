@@ -1,0 +1,84 @@
+slug: wang-gong-2025
+title: The Impact of Legalized Sports Betting on Aggression
+authors: [Wenche Wang, Hua Gong]
+year_first_circulated: 2025
+publication_status: published
+venue: Journal of Sports Economics, volume 27, issue 1, pages 116 to 146 (2026)
+doi: 10.1177/15270025251396530
+canonical_url: https://doi.org/10.1177/15270025251396530
+market_segment: regulated_sportsbook
+unit_of_effect: population_average
+data_used: >-
+  Incident-level crime reports from the FBI National Incident-Based Reporting System for 2017 to 2021 in markets
+  with NFL, NBA, MLB or NHL teams, matched to game schedules, game outcomes, closing betting lines and the dates on
+  which states launched legal sports betting after Murphy v. NCAA.
+design: >-
+  Difference-in-differences comparing crime during the window from game start to four hours after the game ended in
+  states that launched legal sports betting with the same window in states that had not, with heterogeneity by home
+  games and by whether the outcome contradicted the betting line, and tests for spillovers into neighboring states.
+plain_language_summary: >-
+  The authors ask whether reported crime around professional games changed after states launched legal sports
+  betting. They find an increase in assaults, larceny and vehicle theft in the hours during and after games in
+  legalizing states, largest for home games whose outcomes went against the betting line, and some increase in
+  neighboring states without legal betting. The authors interpret early effects as driven by financial stress from
+  unexpected losses and later effects as also reflecting frustration and anxiety. These are area-level averages of
+  reported incidents, not effects on bettors, and only incidents reported to NIBRS agencies are counted.
+methodology_notes:
+  - Population-average estimates at the reporting-area level; NIBRS coverage of agencies grew over the sample period.
+  - The game-window design compares the same areas on game and non-game hours, which limits confounding from area trends.
+limitations:
+  - NIBRS coverage is incomplete, especially before 2021, and uneven across states.
+  - The sample period spans the COVID-19 pandemic, which changed both game attendance and crime reporting.
+  - Percentage increases reported in press coverage (about 30 to 70 percent for crime in the game window, 77.23 percent for assaults at home games and 93.42 percent after upsets) were not read from the article and are not entered.
+versions:
+  - version_label: jse-online-first-2025
+    date: "2025-01-01"
+    date_precision: year
+    url: https://doi.org/10.1177/15270025251396530
+    archive_url: null
+    sha256: null
+    changes_summary: Published online first in the Journal of Sports Economics; press coverage appeared in December 2025. Exact online date to be confirmed from the article record.
+  - version_label: jse-27-1-2026
+    date: "2026-01-01"
+    date_precision: month
+    url: https://doi.org/10.1177/15270025251396530
+    archive_url: null
+    sha256: null
+    changes_summary: Issue version, volume 27, issue 1, pages 116 to 146.
+key_figures:
+  - figure_id: assaults-game-window
+    description: Increase in reported assaults from game start to four hours after the game in states with legal sports betting
+    value_text: to be entered from the paper
+    specification: Difference-in-differences estimate, game window, NIBRS 2017 to 2021
+    version_label: jse-27-1-2026
+    status: current
+    superseded_by: null
+    page_or_table: null
+    outcome_domain: other
+    value_numeric: null
+    value_unit: null
+    range_low: null
+    range_high: null
+    provenance: &wang
+      source_id: doi-org
+      source_url: https://doi.org/10.1177/15270025251396530
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-research-health-2026-10-16
+      reviewed_by: null
+      status: unverified
+      page_or_table: null
+      notes: >-
+        Journal is the Journal of Sports Economics (SAGE). The abstract seen names the offense types and the game
+        window but gives no number. Figures circulating in Rice University press material must be checked against the
+        article's tables before entry.
+citations_in_policy: []
+provenance:
+  <<: *wang
+  status: pending_review
+  notes: >-
+    Title, authors, DOI, volume, issue and pages taken from the journal listing in search results. Whether an
+    earlier working paper version circulated before 2025 could not be confirmed. Journal is the Journal of Sports
+    Economics.

@@ -1,0 +1,69 @@
+slug: clarida-2021
+title: "An Empirical Analysis of the Impact of Legal Sports Betting On Consumer Credit Health"
+authors: [Matthew Q. Clarida]
+year_first_circulated: 2021
+publication_status: published
+venue: Columbia Business Law Review, volume 2020, issue 3 (student note, not a peer-reviewed economics journal)
+doi: 10.52214/cblr.v2020i3.7812
+canonical_url: https://doi.org/10.52214/cblr.v2020i3.7812
+market_segment: regulated_sportsbook
+unit_of_effect: population_average
+data_used: >-
+  State-level consumer credit indicators, including mortgage delinquency rates, for the period around the
+  first wave of state sports betting legalizations after the 2018 repeal of PASPA.
+design: >-
+  Difference-in-differences using the staggered timing of state legalization of sports betting to compare
+  consumer credit outcomes in states that legalized with states that had not.
+plain_language_summary: >-
+  This law review note is an early attempt to measure whether legal sports betting changed consumer credit
+  health in the states that adopted it. Using the staggered timing of legalization, the author reports a small
+  but statistically significant increase in mortgage delinquency rates associated with legal sports betting.
+  The estimates are state averages across all residents, not effects on people who bet. The note was written
+  within two years of the first legalizations, before online wagering was widespread, and it appeared in a
+  student-edited law review rather than a peer-reviewed economics journal.
+methodology_notes:
+  - Very short post-legalization window, covering only the earliest adopting states.
+  - Student note; the estimation details, standard errors and data sources need to be read from the article before the figure is relied on.
+limitations:
+  - Few treated states and few post-periods, so the estimate is sensitive to which states are included and to pre-existing trends in those states.
+  - Mortgage delinquency is a slow-moving outcome and may respond to legalization only with a lag longer than the sample allows.
+  - The article was not opened from the build container; the finding is as stated in the indexed abstract.
+versions:
+  - version_label: cblr-2020-3
+    date: "2021-01-01"
+    date_precision: year
+    url: https://doi.org/10.52214/cblr.v2020i3.7812
+    archive_url: null
+    sha256: null
+    changes_summary: Published in the Columbia Business Law Review, volume 2020, issue 3. The journal's citation gives 2021 as the publication year.
+key_figures:
+  - figure_id: mortgage-delinquency-2021
+    description: Change in state mortgage delinquency rates associated with legal sports betting
+    value_text: to be entered from the paper
+    specification: Staggered difference-in-differences; the abstract describes a small but statistically significant increase
+    version_label: cblr-2020-3
+    status: current
+    superseded_by: null
+    page_or_table: null
+    outcome_domain: loan_delinquency
+    value_numeric: null
+    value_unit: null
+    range_low: null
+    range_high: null
+    provenance: &cla
+      source_id: doi-org
+      source_url: https://doi.org/10.52214/cblr.v2020i3.7812
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-research-finance-2026-10-16
+      reviewed_by: null
+      status: unverified
+      page_or_table: null
+      notes: Publisher is the Columbia Business Law Review (Columbia Law School, open access). Only the abstract was seen via the journal listing; it gives no number. The coefficient and its units are to be read from the article's results table.
+citations_in_policy: []
+provenance:
+  <<: *cla
+  status: pending_review
+  notes: Title, author, volume, issue and DOI confirmed from the journal's article page; the article was not opened from the build container.

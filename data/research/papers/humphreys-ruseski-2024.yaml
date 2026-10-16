@@ -1,0 +1,87 @@
+slug: humphreys-ruseski-2024
+title: Legalized Sports Betting and Mental Health
+authors: [Brad R. Humphreys, Jane E. Ruseski]
+year_first_circulated: 2024
+publication_status: working_paper
+venue: West Virginia University Department of Economics working paper series, number 24-04
+doi: null
+canonical_url: https://researchrepository.wvu.edu/econ_working-papers/77
+market_segment: regulated_sportsbook
+unit_of_effect: population_average
+data_used: >-
+  Behavioral Risk Factor Surveillance System responses from 2013 to 2022 on self-reported mental health (any bad
+  mental health days in the past month, number of bad days, and diagnosed depressive disorder), matched to the
+  timing of each state's adoption of legal sports betting.
+design: >-
+  Staggered difference-in-differences exploiting variation across states in when legal sports betting became
+  available, comparing survey respondents in adopting states with respondents in states that had not yet adopted.
+plain_language_summary: >-
+  The authors ask whether self-reported mental health changed in states after legal sports betting arrived. They
+  report that respondents in adopting states were more likely to report at least one bad mental health day, reported
+  more bad days in the past month, and were more likely to report a depressive disorder. The estimates are averages
+  across all adult survey respondents in a state, not effects on people who bet, and the survey does not record
+  whether a respondent gambles.
+methodology_notes:
+  - Population-average estimates for BRFSS respondents. The paper cannot identify bettors in the survey.
+  - A related Economics Letters paper (Couture, Cross and Wu, 2024) uses the same survey source and reports effects that differ in sign across sex and age groups.
+limitations:
+  - Working paper that has not been through peer review; the estimates may change in later drafts.
+  - Mental health outcomes are self-reported and the survey mode changed over the sample period.
+  - The abstract seen does not give numeric effect sizes; none are entered until the PDF is read.
+versions:
+  - version_label: wvu-wp-24-04
+    date: "2024-06-27"
+    date_precision: day
+    url: https://researchrepository.wvu.edu/econ_working-papers/77
+    archive_url: null
+    sha256: null
+    changes_summary: First public draft, posted to the WVU Research Repository as Economics Working Paper 24-04 and listed on RePEc as wvu:wpaper:24-04.
+key_figures:
+  - figure_id: bad-mental-health-days-any
+    description: Change in the share of respondents reporting one or more bad mental health days in the past month after legal sports betting became available
+    value_text: to be entered from the paper
+    specification: Staggered difference-in-differences estimate, BRFSS 2013 to 2022
+    version_label: wvu-wp-24-04
+    status: current
+    superseded_by: null
+    page_or_table: null
+    outcome_domain: other
+    value_numeric: null
+    value_unit: null
+    range_low: null
+    range_high: null
+    provenance: &humphreys
+      source_id: university-working-paper
+      source_url: https://researchrepository.wvu.edu/econ_working-papers/77
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-research-health-2026-10-16
+      reviewed_by: null
+      status: unverified
+      page_or_table: null
+      notes: >-
+        Institution is West Virginia University, Department of Economics. The abstract as shown on the repository
+        page and on IDEAS/RePEc names the direction of the effect but not its size. The PDF must be read for values.
+  - figure_id: depressive-disorder-share
+    description: Change in the share of respondents reporting a depressive disorder after legal sports betting became available
+    value_text: to be entered from the paper
+    specification: Staggered difference-in-differences estimate, BRFSS 2013 to 2022
+    version_label: wvu-wp-24-04
+    status: current
+    superseded_by: null
+    page_or_table: null
+    outcome_domain: other
+    value_numeric: null
+    value_unit: null
+    range_low: null
+    range_high: null
+    provenance: *humphreys
+citations_in_policy: []
+provenance:
+  <<: *humphreys
+  status: pending_review
+  notes: >-
+    Title, authors, series number and posting date confirmed from the WVU Research Repository record and the
+    IDEAS/RePEc listing. Institution is West Virginia University.

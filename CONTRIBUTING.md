@@ -119,6 +119,25 @@ wpdc ingest nj-dge-sports-wagering-monthly --period 2026-09
 wpdc ingest nj-dge-sports-wagering-monthly --period 2026-09 --local ~/Downloads/September2026.pdf   # manual drop
 ```
 
+If your machine cannot reach the publisher (some development containers
+cannot), commit a request file instead and let GitHub Actions do the fetch:
+
+```
+cat > ingest/requests/nj-dge-2026-09.yaml <<'EOF2'
+kind: ingest
+source_id: nj-dge-sports-wagering-monthly
+period: 2026-09
+EOF2
+git add ingest/requests && git commit -m "ingest request: NJ DGE September 2026" && git push
+```
+
+The `Ingest requests` workflow runs every file in that directory, prints
+the review checklist and a summary of what it fetched into the job log,
+uploads the data and the raw archive as artifacts, and pushes a copy to an
+`ingest-results/run-N` branch when the repository allows it. A maintainer
+inspects the checklist, commits the rows, and deletes the request file.
+See `ingest/requests/README.md`.
+
 The module archives the document under `archive/raw/<source_id>/<sha256>`,
 requests a Wayback capture, parses against a known layout, and writes rows
 with `status: pending_review`. If the document's layout has changed, the

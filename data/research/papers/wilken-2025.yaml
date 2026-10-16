@@ -1,0 +1,128 @@
+slug: wilken-2025
+title: "The Impact of Legalized Sports Betting on Child Maltreatment: Evidence from Child Protective Services Reports"
+authors: [Eric Wilken]
+year_first_circulated: 2025
+publication_status: working_paper
+venue: University of Oregon, Department of Economics, job market paper (2025-26 market); also SSRN 5962283
+doi: null
+canonical_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5962283
+market_segment: regulated_sportsbook
+unit_of_effect: population_average
+data_used: >-
+  Administrative child protective services report data (the October 2025 draft is described as using the
+  National Child Abuse and Neglect Data System, NCANDS) covering screened-in maltreatment reports, their type
+  and disposition, matched to the dates on which states legalized retail and mobile sports betting.
+design: >-
+  Staggered difference-in-differences comparing states that legalized sports betting with states that had not
+  yet done so, with separate estimates for mobile legalization, for rural and urban areas, and tests of whether
+  upset losses by local teams interact with legal betting.
+plain_language_summary: >-
+  The author asks whether legal sports betting changed the number of child maltreatment reports that child
+  protective services screened in for investigation. The paper reports an increase of roughly 7 percent in
+  screened-in reports after legalization, concentrated in states that legalized mobile betting and larger in
+  rural areas. Legal betting did not amplify the link between upset losses by local teams and maltreatment
+  reports, and the author reads the slow build-up of the effect as pointing to financial hardship rather than
+  emotional reactions to bets. The estimate is an average across all children in a state, not an effect on
+  households that bet, and screened-in reports measure contact with the child welfare system rather than
+  confirmed maltreatment.
+methodology_notes:
+  - Population-average estimate at the state (or county) level; the data do not identify households that bet.
+  - Secondary coverage describes the outcome as substantiated reports and the effect as 5 to 7 percent; the abstract of the later drafts describes screened-in reports and a roughly 7 percent effect. The two should be reconciled from the tables, which may report both dispositions.
+  - The paper has circulated under two titles. The October 2025 draft and the University of Oregon job market listing use "Sports Betting Legalization's Impact on Child Maltreatment"; the November 2025 draft and the SSRN posting use "The Impact of Legalized Sports Betting on Child Maltreatment".
+limitations:
+  - Job market paper by a single author, not yet peer reviewed; the title and headline figure have already changed between drafts.
+  - Screened-in reports depend on reporting and screening practices that vary across states and over time, so an increase can reflect more reporting as well as more maltreatment.
+  - Most states had only a few years of post-legalization data, which limits what can be said about longer-run effects.
+versions:
+  - version_label: wp-2025-10-07
+    date: "2025-10-07"
+    date_precision: day
+    url: https://ericwilken.com/research/WilkenJMP107.pdf
+    archive_url: null
+    sha256: null
+    changes_summary: >-
+      Author-hosted draft titled "Sports Betting Legalization's Impact on Child Maltreatment: Evidence from Child
+      Protective Services Reports", described in search results as dated October 7, 2025 and as using NCANDS data
+      to study the number, type and disposition of cases. The date is taken from that description and matches the
+      file name; confirm it from the title page. This is the file cited in secondary coverage reporting a 5 to 7
+      percent rise in substantiated reports.
+  - version_label: jmp-2025-11-13
+    date: "2025-11-13"
+    date_precision: day
+    url: https://ericwilken.com/WilkenJobMarketPaper.pdf
+    archive_url: null
+    sha256: null
+    changes_summary: >-
+      Job market paper dated November 13, 2025, retitled "The Impact of Legalized Sports Betting on Child
+      Maltreatment: Evidence from Child Protective Services Reports". The abstract reports roughly a seven percent
+      increase in screened-in reports.
+  - version_label: ssrn-2025-12-24
+    date: "2025-12-24"
+    date_precision: day
+    url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5962283
+    archive_url: null
+    sha256: null
+    changes_summary: Posted to SSRN on December 24, 2025 (70 pages) under the November title; abstract matches the job market paper.
+key_figures:
+  - figure_id: screened-in-reports-2025
+    description: Increase in screened-in child maltreatment reports after a state legalized sports betting
+    value_text: roughly a seven percent increase
+    specification: Staggered difference-in-differences, all legalizing states, abstract of the SSRN posting
+    version_label: ssrn-2025-12-24
+    status: current
+    superseded_by: null
+    page_or_table: Abstract
+    outcome_domain: other
+    value_numeric: 7
+    value_unit: percent_change
+    range_low: null
+    range_high: null
+    provenance: &wilken
+      source_id: ssrn
+      source_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5962283
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-research-followup-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: Abstract
+      notes: >-
+        Figure taken from the abstract as quoted in search results: following legalization, states experience
+        roughly a seven percent increase in screened-in reports; the effect is driven by states that legalize
+        mobile sports betting and is stronger in rural areas. Child maltreatment has no dedicated outcome_domain
+        value, so it is filed under other. The SSRN page could not be opened from the build container.
+  - figure_id: substantiated-reports-2025-10
+    description: Increase in substantiated child maltreatment reports after a state legalized sports betting, as reported in secondary coverage of the October 2025 draft
+    value_text: to be entered from the paper
+    specification: Secondary coverage reports 5 to 7 percent for substantiated reports; the specification and table are not known
+    version_label: wp-2025-10-07
+    status: current
+    superseded_by: null
+    page_or_table: null
+    outcome_domain: null
+    value_numeric: null
+    value_unit: null
+    range_low: null
+    range_high: null
+    provenance:
+      <<: *wilken
+      source_id: university-working-paper
+      source_url: https://ericwilken.com/research/WilkenJMP107.pdf
+      status: unverified
+      page_or_table: null
+      notes: >-
+        University of Oregon, Department of Economics; author-hosted PDF. The 5 to 7 percent figure for
+        substantiated reports appears only in a Stop Predatory Gambling summary of this draft and has not been
+        seen in the paper's own text. Read the draft to find whether it reports substantiated reports separately
+        from screened-in reports and enter the table value here.
+citations_in_policy: []
+provenance:
+  <<: *wilken
+  page_or_table: null
+  notes: >-
+    Author, title, SSRN id, posting date and page count taken from the SSRN record as shown in search results.
+    University of Oregon affiliation and the job market paper title confirmed from the Department of Economics
+    PhD job market page (2025-26 placements), which lists Eric Wilken with fields in applied microeconomics and
+    behavioral, public and labor economics. Neither author-hosted PDF could be opened from the build container.

@@ -1,6 +1,11 @@
 slug: baker-balthrop-johnson-kotter-pisciotta-2024
-title: "Gambling Away Stability: Sports Betting's Impact on Vulnerable Households"
-authors: [Scott R. Baker, Justin Balthrop, Mark J. Johnson, Jason D. Kotter, Kevin Pisciotta]
+title: 'Gambling Away Stability: Sports Betting''s Impact on Vulnerable Households'
+authors:
+- Scott R. Baker
+- Justin Balthrop
+- Mark J. Johnson
+- Jason D. Kotter
+- Kevin Pisciotta
 year_first_circulated: 2024
 publication_status: published
 venue: Journal of Financial Economics, volume 183 (2026)
@@ -8,65 +13,82 @@ doi: null
 canonical_url: https://www.nber.org/papers/w33108
 market_segment: regulated_sportsbook
 unit_of_effect: household_level
-data_used: >-
-  De-identified household transaction data from a financial data aggregator, covering bank, card and brokerage
-  accounts, which allows sports betting deposits to be observed directly alongside saving, spending and
-  borrowing.
-design: >-
-  Staggered difference-in-differences around the dates states legalized online sports betting, comparing
-  households in legalizing states with households elsewhere, with heterogeneity analysis by prior financial
-  constraint.
-plain_language_summary: >-
-  Using transaction records that show actual deposits to betting platforms, the authors find that legalizing
-  online sports betting increases betting substantially without reducing other gambling or everyday spending.
-  What falls is saving and investing: money that would have gone into brokerage and savings accounts goes to
-  betting instead. The effects are largest for households that were already financially constrained, which show
+data_used: De-identified household transaction data from a financial data aggregator, covering bank, card and brokerage
+  accounts, which allows sports betting deposits to be observed directly alongside saving, spending and borrowing.
+design: Staggered difference-in-differences around the dates states legalized online sports betting, comparing households
+  in legalizing states with households elsewhere, with heterogeneity analysis by prior financial constraint.
+plain_language_summary: 'Using transaction records that show actual deposits to betting platforms, the authors find
+  that legalizing online sports betting increases betting substantially without reducing other gambling or everyday
+  spending. What falls is saving and investing: money that would have gone into brokerage and savings accounts goes
+  to betting instead. The effects are largest for households that were already financially constrained, which show
   higher credit card balances, less available credit and more overdrafts after legalization. The paper measures
-  household-level outcomes, so unlike population-average credit bureau studies it speaks to what happens to
-  households that bet, not to the state as a whole.
+  household-level outcomes, so unlike population-average credit bureau studies it speaks to what happens to households
+  that bet, not to the state as a whole.'
 methodology_notes:
-  - Household-level panel with directly observed betting deposits; this is the main difference from credit bureau studies.
-  - The sample is users of a financial aggregation app, who may differ from the general population in income, age and financial engagement.
+- Household-level panel with directly observed betting deposits; this is the main difference from credit bureau
+  studies.
+- The sample is users of a financial aggregation app, who may differ from the general population in income, age
+  and financial engagement.
 limitations:
-  - External validity depends on how representative aggregator users are.
-  - The published version may differ from the NBER working paper in sample and estimates; figures below are tied to the version in which they appear.
+- External validity depends on how representative aggregator users are.
+- The published version may differ from the NBER working paper in sample and estimates; figures below are tied to
+  the version in which they appear.
 versions:
-  - version_label: nber-w33108-2024-11
-    date: "2024-11-01"
-    date_precision: month
-    url: https://www.nber.org/papers/w33108
-    archive_url: null
-    sha256: null
-    changes_summary: NBER Working Paper 33108.
-  - version_label: jfe-2026
-    date: "2026-01-01"
-    date_precision: year
-    url: https://www.sciencedirect.com/journal/journal-of-financial-economics
-    archive_url: null
-    sha256: null
-    changes_summary: Published version in the Journal of Financial Economics, volume 183. DOI and exact issue date to be entered. Replication data and code are posted on Mendeley Data.
+- version_label: nber-w33108-2024-11
+  date: '2024-11-01'
+  date_precision: month
+  url: https://www.nber.org/system/files/working_papers/w33108/w33108.pdf
+  archive_url: https://web.archive.org/web/20261012073309/https://www.nber.org/system/files/working_papers/w33108/w33108.pdf
+  sha256: 87f73b682bad50f9a1b9fd6f30761d19c4fded39b0d3a6350c9990bd284d174d
+  changes_summary: NBER Working Paper 33108.
+- version_label: jfe-2026
+  date: '2026-01-01'
+  date_precision: year
+  url: https://www.sciencedirect.com/journal/journal-of-financial-economics
+  archive_url: null
+  sha256: null
+  changes_summary: Published version in the Journal of Financial Economics, volume 183. DOI and exact issue date
+    to be entered. Replication data and code are posted on Mendeley Data.
 key_figures:
-  - figure_id: net-investment-nber
-    description: Change in household net investment (deposits to brokerage and savings) after legalization of online sports betting
-    value_text: to be entered from the paper
-    specification: Average effect among households in legalizing states, NBER version
-    version_label: nber-w33108-2024-11
-    status: current
-    superseded_by: null
-    page_or_table: null
-    provenance: &baker
-      source_id: nber
-      source_url: https://www.nber.org/system/files/working_papers/w33108/w33108.pdf
-      archive_url: null
-      retrieved_at: "2026-10-16"
-      retrieval_method: manual_entry
-      transform: null
-      entered_by: claude-draft-2026-10-16
-      reviewed_by: null
-      status: unverified
-      page_or_table: null
-      notes: Placeholder. The numeric estimate must be read from the PDF table, not from press summaries, before this figure renders.
+- figure_id: net-investment-nber
+  description: Change in household net investment (deposits to brokerage and savings) after legalization of online
+    sports betting
+  value_text: a decrease of about 14 percent relative to the mean (53 dollars per quarter)
+  specification: Difference-in-differences estimate of the effect of online sports betting legalization on quarterly
+    net investment flows, Table 6, column (1), NBER working paper
+  version_label: nber-w33108-2024-11
+  status: current
+  superseded_by: null
+  page_or_table: Table 6, column (1); section 5 text
+  provenance:
+    source_id: nber
+    source_url: https://www.nber.org/system/files/working_papers/w33108/w33108.pdf
+    archive_url: https://web.archive.org/web/20261012073309/https://www.nber.org/system/files/working_papers/w33108/w33108.pdf
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Table 6, column (1)
+    notes: 'Read from the archived PDF text (sha256 in versions) by the coordinating agent; not yet checked by a
+      human reviewer. Text: "net investment falls $53 per quarter, or by about 14% relative to the mean."'
+  outcome_domain: savings_investment
+  value_numeric: -14
+  value_unit: percent_change
+  range_low: null
+  range_high: null
 citations_in_policy: []
 provenance:
-  <<: *baker
+  source_id: nber
+  source_url: https://www.nber.org/system/files/working_papers/w33108/w33108.pdf
+  archive_url: null
+  retrieved_at: '2026-10-16'
+  retrieval_method: manual_entry
+  transform: null
+  entered_by: claude-draft-2026-10-16
+  reviewed_by: null
   status: pending_review
+  page_or_table: null
+  notes: Placeholder. The numeric estimate must be read from the PDF table, not from press summaries, before this
+    figure renders.

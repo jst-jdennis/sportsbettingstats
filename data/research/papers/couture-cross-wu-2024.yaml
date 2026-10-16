@@ -1,0 +1,89 @@
+slug: couture-cross-wu-2024
+title: Impact of Sports Gambling on Mental Health
+authors: [Cody Couture, Jeffrey Cross, Stephen Wu]
+year_first_circulated: 2024
+publication_status: published
+venue: Economics Letters, volume 243, article 111922 (October 2024)
+doi: 10.1016/j.econlet.2024.111922
+canonical_url: https://doi.org/10.1016/j.econlet.2024.111922
+market_segment: regulated_sportsbook
+unit_of_effect: population_average
+data_used: >-
+  Behavioral Risk Factor Surveillance System responses on self-reported mental health, matched to the timing of
+  state sports gambling legalization.
+design: >-
+  Difference-in-differences across states by the timing of legalization, with estimates reported separately by sex,
+  age group and marital status.
+plain_language_summary: >-
+  The authors ask whether self-reported mental health changed after states legalized sports gambling. They report
+  that effects differ by group: men aged 18 to 24 reported better mental health after legalization, married men
+  aged 30 to 34 reported worse mental health, and there was no detectable effect for women. These are averages
+  across all survey respondents in each group within a state, not effects on people who bet, and the survey does
+  not record whether a respondent gambles. The findings differ in direction from a West Virginia University working
+  paper using the same survey.
+methodology_notes:
+  - Population-average estimates by demographic subgroup; the paper cannot identify bettors in BRFSS.
+  - Short letter format; detailed robustness checks are limited by the venue.
+limitations:
+  - Self-reported mental health measures and a survey whose design changed over the period.
+  - Subgroup estimates from many comparisons raise the chance that some differences arise by chance.
+  - No numeric effect sizes were seen in the materials available; none are entered until the article is read.
+versions:
+  - version_label: economics-letters-2024-10
+    date: "2024-10-01"
+    date_precision: month
+    url: https://doi.org/10.1016/j.econlet.2024.111922
+    archive_url: null
+    sha256: null
+    changes_summary: >-
+      Published in Economics Letters, volume 243. Hamilton College announced the article on 2024-08-27, so the
+      online-first date precedes the issue month.
+key_figures:
+  - figure_id: mental-health-men-18-24
+    description: Change in self-reported mental health among men aged 18 to 24 after state sports gambling legalization
+    value_text: to be entered from the paper
+    specification: Difference-in-differences estimate by subgroup, BRFSS
+    version_label: economics-letters-2024-10
+    status: current
+    superseded_by: null
+    page_or_table: null
+    outcome_domain: other
+    value_numeric: null
+    value_unit: null
+    range_low: null
+    range_high: null
+    provenance: &couture
+      source_id: doi-org
+      source_url: https://doi.org/10.1016/j.econlet.2024.111922
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-research-health-2026-10-16
+      reviewed_by: null
+      status: unverified
+      page_or_table: null
+      notes: >-
+        Journal is Economics Letters (Elsevier). Direction of effects taken from the Hamilton College announcement
+        and a citation in Dasgupta and Ghimire (2026); the article's table values are to be read before entry.
+  - figure_id: mental-health-married-men-30-34
+    description: Change in self-reported mental health among married men aged 30 to 34 after state sports gambling legalization
+    value_text: to be entered from the paper
+    specification: Difference-in-differences estimate by subgroup, BRFSS
+    version_label: economics-letters-2024-10
+    status: current
+    superseded_by: null
+    page_or_table: null
+    outcome_domain: other
+    value_numeric: null
+    value_unit: null
+    range_low: null
+    range_high: null
+    provenance: *couture
+citations_in_policy: []
+provenance:
+  <<: *couture
+  status: pending_review
+  notes: >-
+    Title, authors, DOI, volume and issue taken from the IDEAS/RePEc listing and the Hamilton College
+    announcement. Journal is Economics Letters.

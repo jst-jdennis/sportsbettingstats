@@ -292,12 +292,14 @@ This structure records two different kinds of change explicitly:
 1. A number that changed between drafts (same `figure_id`, two versions,
    old one `superseded`).
 2. Two numbers that coexist in one draft under different specifications
-   (two `figure_id`s, same version). The Hollenbeck case is of this kind:
-   the May 2025 draft reports an average treatment effect of about 10
-   percent (Table 4) and an event-study effect of 25 to 30 percent at
-   three to four years. The 2024 draft and January 2025 testimony headlined
-   27 to 28 percent. The library must show all of this, with dates, rather
-   than pick one.
+   (two `figure_id`s, same version). The Hollenbeck case shows both kinds:
+   the October 2024 draft states an average effect of about 10 percent and
+   an event-study peak of 25 to 30 percent at three to four years; the
+   January 2025 slides show 27 percent; the April 2025 draft reports about
+   10 percent and no longer states the 25 to 30 percent figure; and the
+   28 percent quoted in 2024 press coverage appears in neither archived
+   draft. The library shows all of this, with dates and document hashes,
+   rather than pick one.
 
 A `revision_log` is rendered from `versions[]` and `key_figures[]`; it is
 not a free-text field.

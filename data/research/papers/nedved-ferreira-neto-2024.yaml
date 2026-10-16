@@ -1,0 +1,68 @@
+slug: nedved-ferreira-neto-2024
+title: "Sports betting cannibalization: Evidence from Pennsylvania"
+authors: [Joseph D. Nedved, Amir B. Ferreira Neto]
+year_first_circulated: 2024
+publication_status: published
+venue: Economics Letters, volume 245, 2024
+doi: 10.1016/j.econlet.2024.112031
+canonical_url: https://doi.org/10.1016/j.econlet.2024.112031
+market_segment: regulated_sportsbook
+unit_of_effect: population_average
+data_used: >-
+  Casino-level slot machine and table game revenue reported by Pennsylvania casinos, around the staggered
+  opening of sports books at those casinos after the state legalized sports wagering.
+design: >-
+  Staggered difference-in-differences across Pennsylvania casinos, using the different dates on which each
+  casino opened a sports book to compare slot and table revenue at casinos with and without sports betting.
+plain_language_summary: >-
+  The paper asks whether sports betting at Pennsylvania casinos took revenue away from the same casinos' slot
+  machines and table games. The abstract reports no short-term effect on slot or table game revenue and some
+  evidence of complementarity between sports betting and the other games over the longer term, that is, the
+  opposite of cannibalization. The effects are aggregates at the casino level and say nothing about any
+  individual gambler. The study covers one state and only the retail sports books located inside casinos.
+methodology_notes:
+  - Identification uses within-state variation in sports book opening dates, so statewide shocks common to all casinos are differenced out.
+  - Short letter format; the article is brief and the number of robustness checks is limited by the venue.
+limitations:
+  - One state, and retail sports books only; online wagering, which accounts for most Pennsylvania handle, is not the treatment studied.
+  - Casino-level revenue cannot distinguish new visitors drawn by sports books from changes in spending by existing patrons.
+  - The article is behind a paywall and was not opened from the build container; only the abstract was seen.
+versions:
+  - version_label: econlet-2024
+    date: "2024-01-01"
+    date_precision: year
+    url: https://doi.org/10.1016/j.econlet.2024.112031
+    archive_url: null
+    sha256: null
+    changes_summary: Published in Economics Letters volume 245. Month of publication to be confirmed from the article record.
+key_figures:
+  - figure_id: slot-table-revenue-short-run-2024
+    description: Short-run effect of opening a casino sports book on the casino's slot and table game revenue in Pennsylvania
+    value_text: to be entered from the paper
+    specification: Staggered difference-in-differences across casinos; the abstract reports no short-term effect
+    version_label: econlet-2024
+    status: current
+    superseded_by: null
+    page_or_table: null
+    outcome_domain: other
+    value_numeric: null
+    value_unit: null
+    range_low: null
+    range_high: null
+    provenance: &nfn
+      source_id: doi-org
+      source_url: https://doi.org/10.1016/j.econlet.2024.112031
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-research-finance-2026-10-16
+      reviewed_by: null
+      status: unverified
+      page_or_table: null
+      notes: Journal is Economics Letters (Elsevier). Only the abstract was seen, via the RePEc listing; it gives no numeric estimate. The point estimates for the short-run and longer-run effects are to be read from the article's table.
+citations_in_policy: []
+provenance:
+  <<: *nfn
+  status: pending_review
+  notes: Title, authors, journal, volume and DOI confirmed from the RePEc listing; the article was not opened from the build container.

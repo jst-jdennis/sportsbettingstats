@@ -1,0 +1,104 @@
+name: Ingest requests
+
+on:
+  push:
+    paths: ['ingest/requests/*.yaml', 'ingest/wpdc_ingest/**', '.github/workflows/ingest.yml']
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Run only the request file(s) with this basename (comma separated); use manual/<name> for files under ingest/requests/manual'
+        required: false
+      source_id:
+        description: 'Source to ingest (ignored if requests exist)'
+        required: false
+      period:
+        description: 'YYYY-Qn or YYYY-MM'
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -e ingest pyyaml
+      - name: Run requests
+        id: run
+        shell: bash
+        run: |
+          set -u
+          mkdir -p out/logs
+          status=0
+          shopt -s nullglob
+          files=(ingest/requests/*.yaml)
+          if [ -n "${{ inputs.only }}" ]; then
+            files=()
+            IFS=',' read -ra names <<< "${{ inputs.only }}"
+            for nm in "${names[@]}"; do files+=("ingest/requests/${nm}.yaml"); done
+          fi
+          if [ ${#files[@]} -eq 0 ] && [ -n "${{ inputs.source_id }}" ]; then
+            printf 'kind: ingest\nsource_id: %s\nperiod: %s\n' "${{ inputs.source_id }}" "${{ inputs.period }}" > ingest/requests/dispatch.yaml
+            files=(ingest/requests/dispatch.yaml)
+          fi
+          for f in "${files[@]}"; do
+            name=$(basename "$f" .yaml)
+            kind=$(python -c "import yaml,sys;print(yaml.safe_load(open(sys.argv[1])).get('kind','ingest'))" "$f")
+            echo "::group::$name ($kind)"
+            if [ "$kind" = "archive" ]; then
+              mapfile -t urls < <(python -c "import yaml,sys;print('\n'.join(yaml.safe_load(open(sys.argv[1]))['urls']))" "$f")
+              python -m wpdc_ingest.archive_docs "out/archive/$name" "${urls[@]}" 2>&1 | tee "out/logs/$name.log" || status=1
+            else
+              sid=$(python -c "import yaml,sys;print(yaml.safe_load(open(sys.argv[1]))['source_id'])" "$f")
+              mapfile -t pers < <(python -c "import yaml,sys;d=yaml.safe_load(open(sys.argv[1]));ps=d.get('periods') or ([d['period']] if d.get('period') else ['']);print('\n'.join(str(p) for p in ps))" "$f")
+              for per in "${pers[@]}"; do
+                args=(ingest "$sid"); [ -n "$per" ] && args+=(--period "$per")
+                echo "### $sid $per"
+                wpdc "${args[@]}" 2>&1 | tee -a "out/logs/$name.log" || status=1
+              done
+            fi
+            echo "::endgroup::"
+          done
+          mkdir -p out/data
+          cp -r data/outcomes out/data/ 2>/dev/null || true
+          cp data/reference/population.csv out/data/ 2>/dev/null || true
+          [ -d archive/raw ] && cp -r archive/raw out/archive-raw || true
+          git status --short > out/logs/git-status.txt
+          git diff --stat >> out/logs/git-status.txt
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+      - name: Summarize for the log
+        if: always()
+        run: |
+          python -m wpdc_ingest.summarize out \
+            --href 'bankruptcy-filings-statistics|f-?2|f2|sports.?wager|xlsx|\.pdf' \
+            --grep 'Table 4|ATT|per 100,000|bankruptc[a-z]* (filing|rate)|25-30|28%|27%|10%|credit score|net investment|14%|percentage points|upset'
+      - name: Push results to a results branch (works only if the token may write)
+        if: always()
+        continue-on-error: true
+        run: |
+          set -e
+          b="ingest-results/run-${{ github.run_number }}"
+          git config user.name "wpdc-ingest[bot]"
+          git config user.email "wpdc-ingest@users.noreply.github.com"
+          git checkout --orphan "$b"
+          git rm -rfq --cached . >/dev/null 2>&1 || true
+          mkdir -p results && cp -r out/. results/
+          git add -f results
+          git commit -qm "Ingest results for run ${{ github.run_number }} (${{ github.sha }})"
+          git push -f origin "$b" && echo "pushed $b"
+      - name: Report request failures
+        if: steps.run.outputs.status == '1'
+        run: |
+          echo "::warning::One or more requests did not produce data. See the logs above; a missing month on a publisher's site is normal and is not a code failure."
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ingest-results-${{ github.run_number }}
+          path: out
+          if-no-files-found: warn
+          retention-days: 30

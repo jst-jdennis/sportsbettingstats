@@ -1,0 +1,69 @@
+slug: nedved-nason-hoffer-2026
+title: "Sports Betting, Lotteries, and State Revenues in the Post-PASPA Era"
+authors: [Joseph Nedved, David Nason, Adam Hoffer, Amir B. Ferreira Neto, Brad Humphreys]
+year_first_circulated: 2026
+publication_status: working_paper
+venue: West Virginia University Department of Economics Working Paper 26-05
+doi: null
+canonical_url: https://researchrepository.wvu.edu/econ_working-papers/264
+market_segment: regulated_sportsbook
+unit_of_effect: population_average
+data_used: >-
+  Monthly state lottery sales from 18 states, matched to the dates on which states legalized and launched
+  sports wagering after the 2018 repeal of PASPA.
+design: >-
+  Difference-in-differences exploiting the staggered timing of sports betting legalization across states,
+  comparing lottery revenue in states that legalized with states that had not yet done so, with robustness
+  checks across specifications and sub-samples.
+plain_language_summary: >-
+  The authors ask whether legal sports betting took revenue away from state lotteries. Using monthly lottery
+  sales from 18 states, they find no statistically or economically meaningful effect of sports betting
+  legalization on state lottery revenue, and report that this null result holds across specifications and
+  sub-samples. The estimate is a state-level aggregate, not a measure of any individual's spending. The paper
+  is a working paper, and its finding conflicts with other recent work that reports a decline in lottery revenue
+  after legalization.
+methodology_notes:
+  - The sample is 18 states with monthly lottery data, not all lottery states, so the states included matter for the result.
+  - The paper notes that prior evidence on whether sports betting and lotteries are substitutes, complements or unrelated is mixed.
+limitations:
+  - Working paper; the point estimates and confidence intervals have not been read from the PDF and the precision of the null is unknown.
+  - Lottery revenue is a total across products; a null overall effect could hide offsetting changes across draw games and instant tickets, or across retail and online channels.
+versions:
+  - version_label: wvu-wp-26-05
+    date: "2026-02-01"
+    date_precision: month
+    url: https://researchrepository.wvu.edu/econ_working-papers/264
+    archive_url: null
+    sha256: null
+    changes_summary: First public draft, posted to the West Virginia University Research Repository in February 2026.
+key_figures:
+  - figure_id: lottery-revenue-effect-2026
+    description: Effect of sports betting legalization on monthly state lottery revenue across 18 states
+    value_text: to be entered from the paper
+    specification: Staggered difference-in-differences, main specification; the abstract reports no economically or statistically significant effect
+    version_label: wvu-wp-26-05
+    status: current
+    superseded_by: null
+    page_or_table: null
+    outcome_domain: other
+    value_numeric: null
+    value_unit: null
+    range_low: null
+    range_high: null
+    provenance: &ned
+      source_id: university-working-paper
+      source_url: https://researchrepository.wvu.edu/econ_working-papers/264
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-research-finance-2026-10-16
+      reviewed_by: null
+      status: unverified
+      page_or_table: null
+      notes: Institution is West Virginia University, Department of Economics (working paper 26-05). Only the abstract was seen, via the repository listing; it states a null result without a number. The point estimate and standard error are to be read from the main table of the PDF.
+citations_in_policy: []
+provenance:
+  <<: *ned
+  status: pending_review
+  notes: Title, authors, working paper number and month confirmed from the West Virginia University Research Repository listing; the PDF was not opened from the build container.
