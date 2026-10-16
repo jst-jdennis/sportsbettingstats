@@ -62,6 +62,9 @@ class USCourtsBankruptcyF2:
         return [
             Document(url=QUARTER_PAGE.format(month=last.strftime("%B").lower(), y=last.year), period=period, kind="html", label=f"Bankruptcy statistics page, quarter ending {last.isoformat()}"),
             Document(url=LANDING, period=period, kind="html", label=f"Bankruptcy statistics landing page, looking for quarter ending {last.isoformat()}", meta=(("landing", True),)),
+            # Direct guesses at the AO's data_tables file names, tried last.
+            Document(url=f"https://www.uscourts.gov/sites/default/files/data_tables/bf_f2three_{last.month:02d}{last.day:02d}.{last.year}.xlsx", period=period, kind="xlsx", label=f"F-2 three months ending {last.isoformat()} (direct URL guess)", meta=(("measure", "quarter"),)),
+            Document(url=f"https://www.uscourts.gov/sites/default/files/data_tables/bf_f2_{last.month:02d}{last.day:02d}.{last.year}.xlsx", period=period, kind="xlsx", label=f"F-2 twelve months ending {last.isoformat()} (direct URL guess)", meta=(("measure", "twelve_months_ending"),)),
         ]
 
     def resolve(self, doc: Document, html: str) -> list[Document]:

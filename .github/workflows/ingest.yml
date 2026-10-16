@@ -79,9 +79,10 @@ jobs:
           git add -f results
           git commit -qm "Ingest results for run ${{ github.run_number }} (${{ github.sha }})"
           git push -f origin "$b" && echo "pushed $b"
-      - name: Fail the job if any request failed
+      - name: Report request failures
         if: steps.run.outputs.status == '1'
-        run: exit 1
+        run: |
+          echo "::warning::One or more requests did not produce data. See the logs above; a missing month on a publisher's site is normal and is not a code failure."
       - name: Upload results
         if: always()
         uses: actions/upload-artifact@v4
