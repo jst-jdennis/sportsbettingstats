@@ -1,0 +1,142 @@
+slug: hi-2025-hb1308
+fips: "15"
+session: Thirty-Third Legislature, 2025 Regular Session (carried over to 2026)
+bill_number: HB 1308
+title: Relating to Sports Wagering (HD 3, SD 2)
+market_segment: [regulated_sportsbook]
+summary: >-
+  House Bill 1308 would have let the Department of Law Enforcement license and regulate online sports wagering
+  operators and suppliers, levied a tax on adjusted gross sports wagering receipts with a share to a new
+  Problem Gambling Prevention and Treatment Special Fund administered by the Department of Health, set a
+  wagering age of 21 and provided that licensed sports wagering and fantasy sports contests are not gambling
+  under state law. It passed the House on March 4, 2025 and the Senate, amended, on April 8, 2025; the House
+  disagreed with the Senate amendments, conferees were appointed on April 22 and 24, 2025, and the measure was
+  carried over to the 2026 Regular Session on December 8, 2025 without a conference agreement.
+would:
+  - Add a chapter on the regulation of sports wagering administered by the Department of Law Enforcement, with operator and supplier licenses and criminal history checks (measure description, SD 2).
+  - Tax adjusted gross sports wagering receipts, at ten percent in the HD 1 text, with a stated share deposited to the Problem Gambling Prevention and Treatment Special Fund; the final rate and share were among the points left unresolved in conference (HD 1 text sections 11 and 12).
+  - Require a person placing a wager to be twenty-one years of age or older (HD 1 text).
+  - Provide that legal sports wagering and fantasy sports contests are not contests of chance or gambling (measure description, SD 2).
+sponsors:
+  - name: Daniel Holt
+    chamber: house
+    party: D
+    role: primary
+  - name: Darius Kila
+    chamber: house
+    party: D
+    role: cosponsor
+  - name: Chris Todd
+    chamber: house
+    party: D
+    role: cosponsor
+status: passed_both
+status_date: "2025-12-08"
+actions:
+  - date: "2025-01-23"
+    chamber: house
+    action_text: Introduced and passed first reading.
+    provenance: &hibill
+      source_id: hi-legislature
+      source_url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1308&year=2025
+      archive_url: sha256:61b4fa3ee221c8b37f2ce28be21f71a79e71c4145c224a71e27e63188cde5019
+      retrieved_at: "2026-10-16"
+      retrieval_method: html_table
+      transform: null
+      entered_by: claude-phase3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: "Measure status page, 2025 archive, status text table"
+      notes: Measure page archived on a GitHub runner (ingest run 38). Introducers listed as HOLT, KILA, TODD; first names and parties are to be confirmed from the House roster on review. The 2026 session page is queued for archiving.
+  - date: "2025-01-27"
+    chamber: house
+    action_text: Referred to ECD, JHA, FIN.
+    provenance: *hibill
+  - date: "2025-02-05"
+    chamber: house
+    action_text: Reported from ECD as amended (HD 1); passed second reading and referred to JHA.
+    provenance: *hibill
+  - date: "2025-02-14"
+    chamber: house
+    action_text: Reported from JHA as amended (HD 2), referred to FIN.
+    provenance: *hibill
+  - date: "2025-02-28"
+    chamber: house
+    action_text: Reported from FIN as amended (HD 3), recommending passage on third reading.
+    provenance: *hibill
+  - date: "2025-03-04"
+    chamber: house
+    action_text: Passed third reading as amended (HD 3); transmitted to Senate.
+    provenance: *hibill
+  - date: "2025-03-06"
+    chamber: senate
+    action_text: Passed first reading; referred to EDT and WAM (re-referred to EDT/CPN and WAM on March 7).
+    provenance: *hibill
+  - date: "2025-03-21"
+    chamber: senate
+    action_text: Reported from EDT/CPN as amended (SD 1); passed second reading and referred to WAM.
+    provenance: *hibill
+  - date: "2025-04-04"
+    chamber: senate
+    action_text: Reported from WAM as amended (SD 2), recommending passage on third reading.
+    provenance: *hibill
+  - date: "2025-04-08"
+    chamber: senate
+    action_text: Passed third reading as amended (SD 2); transmitted to House.
+    provenance: *hibill
+  - date: "2025-04-10"
+    chamber: house
+    action_text: House disagrees with Senate amendments.
+    provenance: *hibill
+  - date: "2025-04-22"
+    chamber: senate
+    action_text: Senate conferees appointed (DeCoite chair; Keohokalole, Kanuha co-chairs).
+    provenance: *hibill
+  - date: "2025-04-24"
+    chamber: house
+    action_text: House conferees appointed (Ilagan, Tarnas, Holt co-chairs; Matsumoto); conference committee meeting scheduled for April 25, 2025.
+    provenance: *hibill
+  - date: "2025-12-08"
+    chamber: other
+    action_text: Carried over to the 2026 Regular Session.
+    provenance: *hibill
+votes:
+  - date: "2025-03-04"
+    chamber: house
+    motion: Third reading, passage as amended (HD 3)
+    yeas: 34
+    nays: 15
+    excused_or_not_voting: 2
+    result: passed
+    rollcall_url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1308&year=2025
+    provenance:
+      <<: *hibill
+      transform: "yeas derived as the 51 House members less the 15 named as voting no and the 2 named as excused; the status entry names the no votes and excused members but does not state an aye count"
+      page_or_table: "Status text entry of 3/4/2025: 'Passed Third Reading as amended in HD 3 ... voting no (15) and Representative(s) Pierick, Ward excused (2)'"
+  - date: "2025-04-08"
+    chamber: senate
+    motion: Third reading, passage as amended (SD 2)
+    yeas: 15
+    nays: 10
+    excused_or_not_voting: 0
+    result: passed
+    rollcall_url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1308&year=2025
+    provenance:
+      <<: *hibill
+      page_or_table: "Status text entry of 4/8/2025: 'Ayes, 15; Aye(s) with reservations: Senator(s) Aquino, Chang, Kim, Richards. Noes, 10 ... Excused, 0'"
+text_url: https://www.capitol.hawaii.gov/sessions/session2025/bills/HB1308_HD1_.HTM
+legislature_page_url: https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1308&year=2025
+fiscal_note_url: null
+fiscal_estimate_text: null
+related_bills: []
+external_ids:
+  legiscan_bill_id: null
+  openstates_id: null
+notes: >-
+  text_url is the HD 1 text (archived sha256 aa0448c220b6075eb2c7c694db38ad18848b9274be3a3593d59b17fec74f3df3);
+  the HD 3 and SD 2 texts, which are the versions each chamber passed, are to be archived and linked. The
+  status entered is passed_both because both chambers passed versions of the bill; no final text was agreed.
+  The 2026 session page will say whether the carried-over measure moved; the companion bill is SB 1569.
+provenance:
+  <<: *hibill
+  page_or_table: "Measure details (title, report title, description, companion, introducers) and status text"

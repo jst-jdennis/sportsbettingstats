@@ -2,16 +2,20 @@ slug: ok-2026-hb1047
 fips: "40"
 session: 2025-2026 (60th Legislature)
 bill_number: HB 1047
-title: Sports wagering; authorizing tribal gaming operators to conduct sports wagering under compact
+title: "Amusements and sports; state-tribal gaming; Gaming Compact Supplement; sports betting; tribal administration (short title as engrossed)"
 market_segment: [regulated_sportsbook]
 summary: >-
-  House Bill 1047 would have authorized sports wagering in Oklahoma by allowing tribes with gaming compacts to
-  offer retail and, through compact supplements, mobile wagering, with a share of revenue paid to the state. It
-  passed the House in 2025, carried over to the 2026 session, and failed on the Senate floor on April 22, 2026.
+  House Bill 1047 would have authorized sports betting in Oklahoma as an additional covered game offered to
+  tribes under the State-Tribal Gaming Act, accepted by each tribe through a model Gaming Compact Supplement
+  set out in the bill. It passed the House 62 to 31 on March 26, 2025, carried over to the 2026 session, was
+  amended by a Senate floor substitute on April 22, 2026 (eight percent fee; retail, remote and competitive
+  mobile betting under tribal compact supplements) and failed on the Senate floor the same day, 21 ayes to 27 nays. A motion to reconsider expired on April 28, 2026.
 would:
-  - Authorize federally recognized tribes with Class III compacts to conduct sports wagering through a compact supplement.
-  - Set a state revenue share on sports wagering receipts (rate as stated in the enrolled text; confirm from bill text rather than press).
-  - Direct a portion of state receipts to education and to problem gambling programs (confirm from bill text).
+  - Add sports betting ("wagering on the outcome of sporting contests") to the games the state offers tribes under the State-Tribal Gaming Act, accepted by a tribe by executing the model Gaming Compact Supplement in the bill (engrossed text, Sections 2 and 3).
+  - Set the fee to the state at ten percent of the monthly adjusted transaction total from sports betting, defined as gross transactions less winnings paid, voided wagers, free play and promotional credits, generally accepted associated operating costs and federal excise taxes (engrossed text, supplement Part 2.B).
+  - Split fees received under the supplements as under the existing compact, twelve percent to the General Revenue Fund and eighty-eight percent to the Education Reform Revolving Fund, after the first $20,833.33 each month to the Department of Mental Health and Substance Abuse Services for treatment of compulsive gambling disorder and related education (engrossed text, Section 2).
+  - The engrossed House text does not name the means of wagering. The Senate floor substitute of April 22, 2026 (the text the Senate voted on) offered three additional covered games, retail sports betting (in person at a tribal facility, on a mobile device or otherwise), remote sports betting (on a mobile device on the tribe's Indian lands or historic reservation lands) and competitive sports betting (on a mobile device on non-Indian lands or, with consent, another tribe's lands, deemed to occur where the server sits), with remote betting allowed only after at least five tribes' supplements are approved and competitive betting subject to further conditions (floor substitute pages 13 to 15).
+  - The floor substitute set the fee at eight percent of the monthly adjusted transaction total, let promotional credits and marketing expenses be deducted up to forty percent of gross transactions less winnings, raised the monthly transfer to the Department of Mental Health and Substance Abuse Services from $20,833.33 to $25,000, and from November 1, 2026 directed non-NBA sports betting fees forty percent (capped at $7 million a year) to a professional sports tourism marketing fund and the rest to a fund split among the state's Research 1 universities competing in NCAA Division I, with NBA-related fees to the Strong Readers Revolving Fund contingent on Senate Bill 1778 (floor substitute pages 10 to 12 and 16 to 18). Effective date November 1, 2026.
 sponsors:
   - name: Ken Luttrell
     chamber: house
@@ -26,46 +30,94 @@ status_date: "2026-04-22"
 actions:
   - date: "2025-02-03"
     chamber: house
-    action_text: First reading (2025 session).
+    action_text: First reading; authored by Representative Luttrell (House Journal page 88).
     provenance: &okbill
       source_id: ok-legislature-bills
-      source_url: https://www.oklegislature.gov/BillInfo.aspx?Bill=HB1047&Session=2500
-      archive_url: null
+      source_url: https://www.oklegislature.gov/BillInfo.aspx?Bill=HB1047&Session=2600
+      archive_url: sha256:04885e69b327c06b8fca48c1b3c773fd83b18f32e1c734d3f70c236187b01efb
       retrieved_at: "2026-10-16"
-      retrieval_method: manual_entry
+      retrieval_method: html_table
       transform: null
-      entered_by: claude-draft-2026-10-16
+      entered_by: claude-phase3-2026-10-16
       reviewed_by: null
       status: pending_review
-      page_or_table: null
-      notes: Action dates and sponsor list to be confirmed against the bill page and journals; entered from secondary knowledge.
+      page_or_table: "History for HB 1047 table (action, journal page, date, chamber)"
+      notes: Bill page archived on a GitHub runner (ingest run 36); the Session=2500 copy of the page carries the same 2025 history and stops before the 2026 Senate actions.
+  - date: "2025-02-04"
+    chamber: house
+    action_text: Second reading; referred to Appropriations and Budget, then to its Select Agencies Subcommittee (page 340).
+    provenance: *okbill
+  - date: "2025-02-11"
+    chamber: house
+    action_text: Subcommittee recommendation to the full committee, do pass, amended by committee substitute.
+    provenance: *okbill
+  - date: "2025-03-06"
+    chamber: house
+    action_text: Committee report, do pass, amended by committee substitute, Appropriations and Budget Committee; Senator Coleman added as principal Senate author (page 536).
+    provenance: *okbill
+  - date: "2025-03-26"
+    chamber: house
+    action_text: General order; amended; title stricken; third reading, measure passed 62 to 31; referred for engrossment (page 902).
+    provenance: *okbill
+  - date: "2025-03-27"
+    chamber: house
+    action_text: Engrossed, signed, to Senate (page 915).
+    provenance: *okbill
+  - date: "2025-03-27"
+    chamber: senate
+    action_text: First reading (Senate Journal page 781).
+    provenance: *okbill
+  - date: "2025-04-01"
+    chamber: senate
+    action_text: Second reading; referred to Business and Insurance (page 814).
+    provenance: *okbill
+  - date: "2025-04-24"
+    chamber: senate
+    action_text: Reported do pass as amended by Business and Insurance; committee report filed; enacting clause stricken (page 935).
+    provenance: *okbill
+  - date: "2025-04-29"
+    chamber: senate
+    action_text: Placed on general order; carried over to the 2026 session.
+    provenance: *okbill
   - date: "2026-04-22"
     chamber: senate
-    action_text: Third reading; measure failed.
+    action_text: General order, amended by floor substitute; title restored (page 923); third reading, measure failed 21 to 27 (page 924); notice served to reconsider by Senator Coleman.
+    provenance: *okbill
+  - date: "2026-04-28"
+    chamber: senate
+    action_text: Motion to reconsider expired.
     provenance: *okbill
 votes:
+  - date: "2025-03-26"
+    chamber: house
+    motion: Third reading, passage of the measure as amended, title stricken
+    yeas: 62
+    nays: 31
+    excused_or_not_voting: 6
+    result: passed
+    rollcall_url: "https://www.oklegislature.gov/cf/2025-26%20SUPPORT%20DOCUMENTS/votes/House/HB1047_VOTES.HTM"
+    provenance:
+      <<: *okbill
+      source_url: "https://www.oklegislature.gov/cf/2025-26%20SUPPORT%20DOCUMENTS/votes/House/HB1047_VOTES.HTM"
+      archive_url: "https://web.archive.org/web/20250723061733/https://www.oklegislature.gov/cf/2025-26%20SUPPORT%20DOCUMENTS/votes/House/HB1047_VOTES.HTM"
+      page_or_table: "House votes page, THIRD READING, RCS 455, 03/26/2025 07:26 PM: yeas 62, nays 31, excused 6, constitutional privilege 0; members listed by name"
+      notes: Archived copy sha256 ed1ff351b3d13c12b1d9fd263b58c3573a0111e88751dd28411379c402e65ef5. The House also recorded two committee votes (RCS 2 and RCS 99) on the same page.
   - date: "2026-04-22"
     chamber: senate
-    motion: Third reading, passage of the measure
+    motion: Third reading, passage of the measure as amended by floor substitute, title restored
     yeas: 21
     nays: 27
-    excused_or_not_voting: null
+    excused_or_not_voting: 0
     result: failed
-    rollcall_url: https://oksenate.gov/
+    rollcall_url: "https://www.oklegislature.gov/cf/2025-26%20SUPPORT%20DOCUMENTS/votes/Senate/HB1047_VOTES.HTM"
     provenance:
-      source_id: ok-senate-journal
-      source_url: https://oksenate.gov/
-      archive_url: null
-      retrieved_at: "2026-10-16"
-      retrieval_method: manual_entry
-      transform: null
-      entered_by: claude-draft-2026-10-16
-      reviewed_by: null
-      status: pending_review
-      page_or_table: null
-      notes: Tally of 27 against and 21 in favor is consistent across press accounts of April 22 to 23, 2026. Must be confirmed against the Senate Journal roll call before verification. The House passage vote from 2025 has not been entered.
-text_url: https://www.oklegislature.gov/BillInfo.aspx?Bill=HB1047&Session=2500
-legislature_page_url: https://www.oklegislature.gov/BillInfo.aspx?Bill=HB1047&Session=2500
+      <<: *okbill
+      source_url: "https://www.oklegislature.gov/cf/2025-26%20SUPPORT%20DOCUMENTS/votes/Senate/HB1047_VOTES.HTM"
+      archive_url: "https://web.archive.org/web/20261016192358/https://www.oklegislature.gov/cf/2025-26%20SUPPORT%20DOCUMENTS/votes/Senate/HB1047_VOTES.HTM"
+      page_or_table: "Senate votes page, THIRD READING, RCS 492, 04/22/2026 02:54 PM: ayes 21, nays 27, excused 0, not voting 0, vacant 0; members listed by name"
+      notes: Archived copy sha256 a07f5164e2579262dd534269b893595a0111e03225c4ec0260c095efcec2f7f1. The vote was on the floor substitute (Senate floor amendment FS FA2, filed April 21, 2026).
+text_url: "https://www.oklegislature.gov/cf_pdf/2025-26%20ENGR/hB/HB1047%20ENGR.PDF"
+legislature_page_url: https://www.oklegislature.gov/BillInfo.aspx?Bill=HB1047&Session=2600
 fiscal_note_url: null
 fiscal_estimate_text: null
 related_bills: []
@@ -73,7 +125,20 @@ external_ids:
   legiscan_bill_id: null
   openstates_id: null
 notes: >-
-  Press accounts report that the Governor had said he would veto the bill and that an override would have
-  required 32 votes. Revenue estimates reported in press ranged widely and are not recorded here; the fiscal
-  impact statement, if one was prepared, should be entered from the legislature's own document.
-provenance: *okbill
+  text_url is the engrossed House version (14 pages, archived sha256
+  136a4dd29704c3db55c05c4893f381f5df924c922aed9f1efe1e67e318089a3f), the text the House passed. The introduced
+  version (sha256 a9814081aa02e4f1e7e8ca4f2a3ff66e0321cff7a99f36aa5e2b40ca51a832d2) and the House floor version
+  (sha256 77d0149cf2b053be18e9f65c70d3e3bd564b28b8dba54de018ac87aabd796661) are archived too. The Senate voted on the
+  floor substitute filed April 21, 2026 (23 pages, archived sha256
+  ec19fa022391915e654a6762449bc91b496bf4b78c0c680a441b1fbaf1500e71, Wayback capture of April 23, 2026), whose
+  terms differ from the engrossed House text and are summarized above. The Senate floor version (sha256
+  9078906836b55a187848268cb4550b26a426cfa118689b5a7359dc7d83768ca1) and a 2025 Senate floor amendment are archived
+  too. The bill page lists headings for fiscal impact statements and bill summaries but links no documents under them. Press accounts
+  of a threatened veto and of revenue estimates are not recorded as data.
+provenance:
+  <<: *okbill
+  retrieval_method: pdf
+  source_url: "https://www.oklegislature.gov/cf_pdf/2025-26%20ENGR/hB/HB1047%20ENGR.PDF"
+  archive_url: sha256:136a4dd29704c3db55c05c4893f381f5df924c922aed9f1efe1e67e318089a3f
+  page_or_table: "Engrossed House Bill 1047, Sections 1 to 3 and the Model Tribal Gaming Compact Supplement, pages 8 to 13"
+  notes: Summary and 'would' entries read from the engrossed text; the status and dates from the bill page history.

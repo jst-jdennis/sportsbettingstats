@@ -160,3 +160,19 @@ pure function of the document.
 - Rates as decimals in data (0.13), percentages in copy.
 - State the procedural posture of any court ruling (preliminary relief or
   final judgment).
+
+## Report card grades
+
+Grades are generated, not hand-entered. After changing a state profile,
+`pg_funding.yaml`, the prevalence studies file or the rubric, regenerate the
+grades file and commit it with your change:
+
+```
+python3 scripts/grade.py --write
+```
+
+CI runs `python3 scripts/grade.py --check` and fails if the committed
+`data/report_cards/grades/<version>.json` differs from a fresh computation.
+To see one state's card with its inputs, run `python3 scripts/grade.py --state NJ`.
+A change to the rubric's criteria or weights is a new rubric version; do not
+edit a version whose status is `active`.

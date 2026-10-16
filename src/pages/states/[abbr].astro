@@ -9,7 +9,7 @@ import Chart from '../../components/Chart.astro';
 import PrevalenceCard from '../../components/PrevalenceCard.astro';
 import { revenueChart, bankruptcyChart, helplineChart, helplineTable } from '../../lib/seriesCharts';
 import { timeline } from '../../lib/charts';
-import { profiles, pgFunding, predictionMarkets, bills, population, headlineStatus, HEADLINE_LABEL, scopeQualifiers, fmtDate, pct, label, asOf, collectProvenance, earliestLaunch, handleRevenue, bankruptcy, per100k, source, prevalenceStudies } from '../../lib/data';
+import { profiles, pgFunding, predictionMarkets, bills, population, headlineStatus, HEADLINE_LABEL, scopeQualifiers, fmtDate, pct, label, asOf, collectProvenance, earliestLaunch, handleRevenue, bankruptcy, per100k, source, prevalenceStudies, gradeFor, grades } from '../../lib/data';
 export function getStaticPaths() { return profiles().map((p) => ({ params: { abbr: p.abbr.toLowerCase() }, props: { p } })); }
 const { p } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -61,6 +61,7 @@ const tlLegend = [
 ];
 const pendingCount = [p, pg, pm, ...stateBills].filter(Boolean).flatMap((o) => collectProvenance(o)).filter((x) => x.status !== 'verified').length;
 // Sections a status-only profile is still missing, so the notice tells the truth once some are filled.
+const card = gradeFor(p.abbr);
 const missingSections = [
   ['legal age', !!p.legal_age?.length], ['tax structure', !!p.tax?.length],
   ['consumer protections', !!p.consumer_protections && Object.values(p.consumer_protections).some((v) => v)],
@@ -148,6 +149,7 @@ const missingSections = [
   </>) : <p class="meta">Not yet entered.</p>}
 
   <h2 id="protections">Consumer protections</h2>
+  {card && <div class="panel" role="note"><strong>Report card:</strong> {card.grade ? <>{card.grade}{card.review === 'provisional' ? ' (provisional)' : ''}, {card.points} of {card.available} points</> : <>incomplete, {card.points} points so far from {card.criteria.filter((c) => c.status === 'scored').length} of {card.criteria.length} applicable criteria</>} under rubric {grades()?.rubric_version}. <a href={`${base}/report-cards/${p.abbr.toLowerCase()}/`}>Inputs, matched rows and sources</a>.</div>}
   {full ? (<dl class="kv">
     <dt>Self-exclusion</dt><dd>{cp.self_exclusion ? <>{label(cp.self_exclusion.program_type)}{cp.self_exclusion.administered_by && <>, administered by {cp.self_exclusion.administered_by}</>}{cp.self_exclusion.durations && <>; durations: {cp.self_exclusion.durations.join(', ')}</>}{cp.self_exclusion.covers && <>; covers: {cp.self_exclusion.covers.map(label).join(', ')}</>}. {cp.self_exclusion.url && <a href={cp.self_exclusion.url}>Program page</a>} {cp.self_exclusion.notes && <div class="meta">{cp.self_exclusion.notes}</div>}<SourceRef p={cp.self_exclusion.provenance} compact /></> : 'Not yet entered.'}</dd>
     <dt>Deposit limits</dt><dd>{cp.deposit_limits ? <>Player-set limits {cp.deposit_limits.player_set_available ? 'available' : 'not available'}{cp.deposit_limits.mandatory_default != null && <>; default limit {cp.deposit_limits.mandatory_default ? 'mandatory' : 'not mandatory'}</>}{cp.deposit_limits.player_set_required_at_signup != null && <>; {cp.deposit_limits.player_set_required_at_signup ? 'must be set at signup' : 'not required at signup'}</>}. {cp.deposit_limits.authority_citation && <span class="meta">{cp.deposit_limits.authority_citation}. </span>}{cp.deposit_limits.notes && <div class="meta">{cp.deposit_limits.notes}</div>}<SourceRef p={cp.deposit_limits.provenance} compact /></> : 'Not yet entered.'}</dd>

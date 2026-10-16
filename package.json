@@ -8,8 +8,10 @@
   "scripts": {
     "dev": "astro dev",
     "validate": "python3 scripts/validate.py",
+    "grade:check": "python3 scripts/grade.py --check",
+    "grade:write": "python3 scripts/grade.py --write",
     "lint:dashes": "python3 scripts/lint_dashes.py",
-    "prebuild": "npm run validate && npm run lint:dashes",
+    "prebuild": "npm run validate && npm run lint:dashes && npm run grade:check",
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check"

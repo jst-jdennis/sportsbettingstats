@@ -49,7 +49,11 @@ export interface PrevalenceStudy { study_id: string; fips: string; title: string
 export interface PredictionMarkets { fips: string; as_of: string; review_note?: string | null; operating_platforms: any[]; state_actions: any[]; litigation: any[] }
 export interface Bill { slug: string; fips: string; session: string; bill_number: string; title: string; market_segment: string[]; summary: string; would?: string[] | null; sponsors?: any[] | null; status: string; status_date?: string | null; actions?: any[] | null; votes?: any[] | null; text_url?: string | null; legislature_page_url?: string | null; fiscal_note_url?: string | null; fiscal_estimate_text?: string | null; notes?: string | null; provenance: Provenance }
 export interface Paper { slug: string; title: string; authors: string[]; year_first_circulated: number; publication_status: string; venue?: string | null; doi?: string | null; canonical_url?: string | null; market_segment: string; unit_of_effect: string; data_used?: string | null; design?: string | null; plain_language_summary: string; methodology_notes?: string[] | null; limitations?: string[] | null; versions: any[]; key_figures: any[]; citations_in_policy?: any[] | null; provenance: Provenance }
-export interface Rubric { version: string; status: string; effective_from: string; preamble?: string | null; criteria: any[]; grade_bands: any[]; no_market_rule: string }
+export interface GradeEvidence { source_id: string; source_url: string; retrieved_at: string; status: string }
+export interface GradeCriterion { criterion_id: string; max_points: number; inputs: Record<string, unknown>; evidence: GradeEvidence[]; status: 'scored' | 'not_entered'; points: number | null; label: string | null; condition: string | null }
+export interface StateGrade { fips: string; abbr: string; name: string; market: 'regulated_market' | 'no_regulated_market'; profile_completeness: string | null; criteria: GradeCriterion[]; points: number; available: number; points_entered: number; pct: number | null; grade: string | null; status: 'complete' | 'incomplete'; review: 'verified' | 'provisional' | null; inputs_pending_review: number; missing_criteria: string[] }
+export interface Grades { rubric_version: string; rubric_status: string; effective_from: string; data_fingerprint: string; derived_inputs: Record<string, string>; summary: { states: number; graded: number; incomplete: number; no_regulated_market: number; grades: Record<string, number> }; states: StateGrade[] }
+export interface Rubric { version: string; status: string; effective_from: string; preamble?: string | null; inputs_note?: string | null; criteria: any[]; grade_bands: any[]; no_market_rule: string; incomplete_rule: string; provisional_rule: string }
 
 // js-yaml 5 does not apply YAML merge keys (<<), while PyYAML does. Apply them
 // here so both halves of the toolchain read the data files identically.
@@ -144,6 +148,18 @@ export function papers(): Paper[] {
   return fs.readdirSync(dir).filter((f) => f.endsWith('.yaml')).map((f) => readYaml<Paper>(path.join(dir, f)))
     .sort((a, b) => a.year_first_circulated - b.year_first_circulated || a.slug.localeCompare(b.slug));
 }
+let _grades: Grades | null = null;
+/** The committed grades file for the highest rubric version. scripts/grade.py --check keeps it equal to a fresh computation. */
+export function grades(): Grades | null {
+  if (_grades) return _grades;
+  const dir = path.join(DATA, 'report_cards', 'grades');
+  if (!fs.existsSync(dir)) return null;
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort();
+  if (!files.length) return null;
+  _grades = JSON.parse(fs.readFileSync(path.join(dir, files[files.length - 1]), 'utf8')) as Grades;
+  return _grades;
+}
+export function gradeFor(abbr: string): StateGrade | null { return grades()?.states.find((s) => s.abbr === abbr.toUpperCase()) ?? null; }
 export function rubrics(): Rubric[] {
   const dir = path.join(DATA, 'report_cards', 'rubric');
   return fs.readdirSync(dir).filter((f) => f.endsWith('.yaml')).map((f) => readYaml<Rubric>(path.join(dir, f)));

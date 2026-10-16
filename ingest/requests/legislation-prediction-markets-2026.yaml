@@ -1,0 +1,16 @@
+# Phase 3, legislation tracker: 2026 state enactments on prediction markets (sports event contracts).
+# Minnesota SF 4760 (public safety omnibus carrying the event-contract prohibition, signed May 18, 2026)
+# and Illinois SB 3019 (budget implementation carrying the exchange wager definition and tax). Official
+# status pages and texts; several URL patterns are tried because both sites changed their routing.
+kind: archive
+label: legislation-prediction-markets-2026
+urls:
+  - https://www.revisor.mn.gov/bills/bill.php?b=Senate&f=SF4760&ssn=0&y=2026
+  - https://www.revisor.mn.gov/bills/bill.php?f=SF4760&y=2026&ssn=0&b=senate
+  - https://www.revisor.mn.gov/bills/status_detail.php?b=Senate&f=SF4760&ssn=0&y=2026
+  - https://www.revisor.mn.gov/laws/2026/0/
+  - https://ilga.gov/Legislation/BillStatus?DocNum=3019&GAID=18&DocTypeID=SB&LegId=163866&SessionID=114&GA=104
+  - https://www.ilga.gov/legislation/BillStatus.asp?DocNum=3019&GAID=18&DocTypeID=SB&SessionID=114&GA=104
+  - https://ilga.gov/Legislation/BillStatus?DocTypeID=SB&DocNum=3019&GAID=18&SessionID=114
+  - https://www.ilga.gov/legislation/104/SB/10400SB3019.htm
+  - https://ilga.gov/Legislation/BillStatus?DocNum=5811&GAID=18&DocTypeID=HB&SessionID=114&GA=104

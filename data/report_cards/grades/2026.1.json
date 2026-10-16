@@ -1,0 +1,5618 @@
+{
+ "data_fingerprint": "e1b7f000ef74c01b85fa6d8319a002f8e2444d45e5adb2b8690000c0e32fce41",
+ "derived_inputs": {
+  "advertising_rule_count": "Number of rows in consumer_protections.advertising; null when the list is absent.",
+  "advertising_substantive_count": "Rows in consumer_protections.advertising whose rule_type is not responsible_gambling_message_required.",
+  "credit_card_allowed": "consumer_protections.credit_card_deposits.allowed.",
+  "deposit_limits_entered": "True when consumer_protections.deposit_limits is present.",
+  "deposit_mandatory_default": "consumer_protections.deposit_limits.mandatory_default.",
+  "deposit_player_set_available": "consumer_protections.deposit_limits.player_set_available.",
+  "deposit_required_at_signup": "consumer_protections.deposit_limits.player_set_required_at_signup.",
+  "legal_age_min": "Minimum age across the legal_age rows; null when none are entered.",
+  "market_live": "True when any legal_status row has market_segment regulated_sportsbook and status live.",
+  "pg_funding_mechanism": "funding_mechanism of the pg_funding.yaml record with the latest fiscal_year; null when the file is absent.",
+  "prevalence_searched": "True when the profile is full or a prevalence study is on file; null for status-only profiles, which have not been searched for studies.",
+  "prevalence_years_since_latest": "Rubric effective year minus the latest fieldwork_year among the state's prevalence studies; null when none.",
+  "self_exclusion_program_type": "consumer_protections.self_exclusion.program_type; null when the section is absent."
+ },
+ "effective_from": "2026-10-16",
+ "rubric_status": "draft",
+ "rubric_version": "2026.1",
+ "states": [
+  {
+   "abbr": "AK",
+   "available": 5,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "02",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "no_regulated_market",
+   "missing_criteria": [
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Alaska",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "AL",
+   "available": 5,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "01",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "no_regulated_market",
+   "missing_criteria": [
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Alabama",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "AR",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ar-legislature",
+       "source_url": "https://arkleg.state.ar.us/Bills/Detail?id=HB1847&ddBienniumSession=2025%2F2025R",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ar-regulator",
+       "source_url": "https://www.dfa.arkansas.gov/racing-commission/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "05",
+   "grade": null,
+   "inputs_pending_review": 2,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "advertising",
+    "credit_cards",
+    "pg_funding"
+   ],
+   "name": "Arkansas",
+   "pct": null,
+   "points": 5,
+   "points_entered": 7,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "AZ",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "az-regulator",
+       "source_url": "https://problemgambling.az.gov/self-exclusion",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "az-legislature",
+       "source_url": "https://azleg.gov/ars/5/01311.htm",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "04",
+   "grade": null,
+   "inputs_pending_review": 2,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "advertising",
+    "credit_cards",
+    "pg_funding"
+   ],
+   "name": "Arizona",
+   "pct": null,
+   "points": 5,
+   "points_entered": 7,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "CA",
+   "available": 5,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "06",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "no_regulated_market",
+   "missing_criteria": [
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "California",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "CO",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "co-regulator",
+       "source_url": "https://sbg.colorado.gov/news-article/state-of-colorado-marks-one-year-of-successful-self-exclusion-list-for-responsible",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "both"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": "player_set_available is true",
+     "criterion_id": "deposit_limits",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "co-regulator",
+       "source_url": "https://sbg.colorado.gov/sites/sbg/files/documents/SBRule-9-011426.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": null
+     },
+     "label": "Available on request",
+     "max_points": 3,
+     "points": 1,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "co-regulator",
+       "source_url": "https://sbg.colorado.gov/sites/sbg/files/documents/Colorado%20Sports%20Betting_YearOne_Final.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "08",
+   "grade": null,
+   "inputs_pending_review": 3,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "advertising",
+    "credit_cards",
+    "pg_funding"
+   ],
+   "name": "Colorado",
+   "pct": null,
+   "points": 6,
+   "points_entered": 10,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "CT",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ct-regulator",
+       "source_url": "https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2021-news-releases/dcp-announces-launch-of-statewide-self-exclusion-list",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "exactly one such rule",
+     "criterion_id": "advertising",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ct-legislature",
+       "source_url": "https://prdext3.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00053-R00HB-05229-PA.PDF",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "advertising_rule_count": 1,
+      "advertising_substantive_count": 1
+     },
+     "label": "One substantive restriction",
+     "max_points": 3,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ct-legislature",
+       "source_url": "https://cga.ct.gov/2021/sum/pdf/2021SUM00023-R02HB-06451-SUM.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "09",
+   "grade": null,
+   "inputs_pending_review": 3,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "credit_cards",
+    "pg_funding"
+   ],
+   "name": "Connecticut",
+   "pct": null,
+   "points": 7,
+   "points_entered": 10,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "DC",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "dc-regulator",
+       "source_url": "https://dclottery.com/olg/self-exclusion-faqs",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "some scope permits wagering under 21",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "dc-regulator",
+       "source_url": "https://dclottery.com/olg/sports-wagering-faqs",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 18
+     },
+     "label": "Under 21 permitted",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "11",
+   "grade": null,
+   "inputs_pending_review": 2,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "advertising",
+    "credit_cards",
+    "pg_funding"
+   ],
+   "name": "District of Columbia",
+   "pct": null,
+   "points": 3,
+   "points_entered": 7,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "DE",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "de-regulator",
+       "source_url": "https://regulations.delaware.gov/AdminCode/title10/200/206.shtml",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "de-legislature",
+       "source_url": "https://legis.delaware.gov/BillDetail/20323",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "10",
+   "grade": null,
+   "inputs_pending_review": 2,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "advertising",
+    "credit_cards",
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Delaware",
+   "pct": null,
+   "points": 5,
+   "points_entered": 5,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "FL",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "self_exclusion",
+     "evidence": [],
+     "inputs": {
+      "self_exclusion_program_type": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "legal_age",
+     "evidence": [],
+     "inputs": {
+      "legal_age_min": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "12",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "self_exclusion",
+    "deposit_limits",
+    "advertising",
+    "legal_age",
+    "credit_cards",
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Florida",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "GA",
+   "available": 5,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "13",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "no_regulated_market",
+   "missing_criteria": [
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Georgia",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "HI",
+   "available": 5,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "15",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "no_regulated_market",
+   "missing_criteria": [
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Hawaii",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "IA",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ia-regulator",
+       "source_url": "https://irgc.iowa.gov/self-exclusion-program/frequently-asked-questions",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ia-legislature",
+       "source_url": "https://www.legis.iowa.gov/docs/code/99F.9.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "19",
+   "grade": null,
+   "inputs_pending_review": 2,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "advertising",
+    "credit_cards",
+    "pg_funding"
+   ],
+   "name": "Iowa",
+   "pct": null,
+   "points": 5,
+   "points_entered": 7,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "ID",
+   "available": 5,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "16",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "no_regulated_market",
+   "missing_criteria": [
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Idaho",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "IL",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "il-regulator",
+       "source_url": "https://ilga.gov/ftp/JCAR/AdminCode/011/011019000Q17100R.html",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "legal_age",
+     "evidence": [],
+     "inputs": {
+      "legal_age_min": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "17",
+   "grade": null,
+   "inputs_pending_review": 1,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "advertising",
+    "legal_age",
+    "credit_cards",
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Illinois",
+   "pct": null,
+   "points": 3,
+   "points_entered": 3,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "IN",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "in-regulator",
+       "source_url": "https://www.in.gov/igc/files/sportswagering/Sports-Wagering-FAQs.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "both"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "exactly one such rule",
+     "criterion_id": "advertising",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "in-regulator",
+       "source_url": "https://www.in.gov/igc/files/sportswagering/Rules-for-Sports-Wagering.PDF",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "advertising_rule_count": 1,
+      "advertising_substantive_count": 1
+     },
+     "label": "One substantive restriction",
+     "max_points": 3,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "in-regulator",
+       "source_url": "https://www.in.gov/igc/files/sportswagering/Rules-for-Sports-Wagering.PDF",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "18",
+   "grade": null,
+   "inputs_pending_review": 3,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "credit_cards",
+    "pg_funding"
+   ],
+   "name": "Indiana",
+   "pct": null,
+   "points": 7,
+   "points_entered": 10,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "KS",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ks-krgc",
+       "source_url": "https://krgc.ks.gov/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": "player_set_available is true",
+     "criterion_id": "deposit_limits",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ks-krgc",
+       "source_url": "https://krgc.ks.gov/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": false,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": false
+     },
+     "label": "Available on request",
+     "max_points": 3,
+     "points": 1,
+     "status": "scored"
+    },
+    {
+     "condition": "only responsible_gambling_message_required rules",
+     "criterion_id": "advertising",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ks-krgc",
+       "source_url": "https://krgc.ks.gov/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "advertising_rule_count": 1,
+      "advertising_substantive_count": 0
+     },
+     "label": "Helpline message only",
+     "max_points": 3,
+     "points": 1,
+     "status": "scored"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ks-legislature",
+       "source_url": "https://www.kslegislature.gov/li_2022/b2021_22/measures/sb84/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": "allowed is true",
+     "criterion_id": "credit_cards",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ks-krgc",
+       "source_url": "https://krgc.ks.gov/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "credit_card_allowed": true
+     },
+     "label": "Permitted",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    },
+    {
+     "condition": "funding_mechanism is a statutory earmark",
+     "criterion_id": "pg_funding",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ks-kdads",
+       "source_url": "https://kdads.ks.gov/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
+     },
+     "label": "Statutory earmark",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": "most recent study fieldwork_year is within 7 years of the rubric's effective year",
+     "criterion_id": "prevalence_research",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ks-legislature",
+       "source_url": "https://kslegislature.gov/li/b2025_26/committees/ctte_spc_2025_on_fed_and_st_aff_1/documents/testimony/20250922_27.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": 1
+     },
+     "label": "Recent study",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    }
+   ],
+   "fips": "20",
+   "grade": "C",
+   "inputs_pending_review": 7,
+   "market": "regulated_market",
+   "missing_criteria": [],
+   "name": "Kansas",
+   "pct": 66.7,
+   "points": 12,
+   "points_entered": 18,
+   "profile_completeness": "full",
+   "review": "provisional",
+   "status": "complete"
+  },
+  {
+   "abbr": "KY",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ky-legislature",
+       "source_url": "https://apps.legislature.ky.gov/law/kar/titles/809/010/007/REG/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ky-legislature",
+       "source_url": "https://apps.legislature.ky.gov/record/26rs/hb904.html",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "21",
+   "grade": null,
+   "inputs_pending_review": 2,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "advertising",
+    "credit_cards",
+    "pg_funding"
+   ],
+   "name": "Kentucky",
+   "pct": null,
+   "points": 5,
+   "points_entered": 7,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "LA",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "la-regulator",
+       "source_url": "https://lgcb.dps.louisiana.gov/media/marptxjv/requestforselfexclusion.pdf?d=85042",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "exactly one such rule",
+     "criterion_id": "advertising",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "la-regulator",
+       "source_url": "https://lgcb.dps.louisiana.gov/media/txgnmfm2/20211020-lgcbnoisports-wageringpublishedlouisiana-register.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "advertising_rule_count": 1,
+      "advertising_substantive_count": 1
+     },
+     "label": "One substantive restriction",
+     "max_points": 3,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "la-regulator",
+       "source_url": "https://lgcb.dps.louisiana.gov/media/txgnmfm2/20211020-lgcbnoisports-wageringpublishedlouisiana-register.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "22",
+   "grade": null,
+   "inputs_pending_review": 3,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "credit_cards",
+    "pg_funding"
+   ],
+   "name": "Louisiana",
+   "pct": null,
+   "points": 7,
+   "points_entered": 10,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "MA",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ma-regulator",
+       "source_url": "https://www.mass.gov/doc/205-cmr-256-sports-wagering-advertising/download",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "two or more rules whose rule_type is not responsible_gambling_message_required",
+     "criterion_id": "advertising",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ma-regulator",
+       "source_url": "https://www.mass.gov/doc/205-cmr-256-sports-wagering-advertising/download",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "advertising_rule_count": 4,
+      "advertising_substantive_count": 3
+     },
+     "label": "Two or more substantive restrictions",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ma-legislature",
+       "source_url": "https://malegislature.gov/Laws/SessionLaws/Acts/2022/Chapter173",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": "allowed is false",
+     "criterion_id": "credit_cards",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ma-legislature",
+       "source_url": "https://www.mass.gov/info-details/mass-general-laws-c23n-ss-3",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "credit_card_allowed": false
+     },
+     "label": "Prohibited",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "25",
+   "grade": null,
+   "inputs_pending_review": 4,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "pg_funding"
+   ],
+   "name": "Massachusetts",
+   "pct": null,
+   "points": 10,
+   "points_entered": 12,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "MD",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "md-regulator",
+       "source_url": "https://www.mdgaming.com/welcome/responsible-gambling/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "exactly one such rule",
+     "criterion_id": "advertising",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "md-regulator",
+       "source_url": "https://www.mgaleg.maryland.gov/pubs/committee/AELR/25-288P-Regulation.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "advertising_rule_count": 1,
+      "advertising_substantive_count": 1
+     },
+     "label": "One substantive restriction",
+     "max_points": 3,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "md-legislature",
+       "source_url": "https://mgaleg.maryland.gov/2021RS/Chapters_noln/CH_356_hb0940e.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": "allowed is true",
+     "criterion_id": "credit_cards",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "md-legislature",
+       "source_url": "https://mgaleg.maryland.gov/2026RS/fnotes/bil_0008/hb0518.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "credit_card_allowed": true
+     },
+     "label": "Permitted",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "24",
+   "grade": null,
+   "inputs_pending_review": 4,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "pg_funding"
+   ],
+   "name": "Maryland",
+   "pct": null,
+   "points": 7,
+   "points_entered": 12,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "ME",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "me-regulator",
+       "source_url": "https://www.maine.gov/dps/sites/maine.gov.dps/files/inline-files/Sports%20Wagering%20Rules%2011.1.23.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "me-legislature",
+       "source_url": "https://legislature.maine.gov/statutes/8/title8ch35.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "23",
+   "grade": null,
+   "inputs_pending_review": 2,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "advertising",
+    "credit_cards",
+    "pg_funding"
+   ],
+   "name": "Maine",
+   "pct": null,
+   "points": 5,
+   "points_entered": 7,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "MI",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "mi-regulator",
+       "source_url": "https://www.michigan.gov/mgcb/resources/responsible-gaming",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": "player_set_available is true",
+     "criterion_id": "deposit_limits",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "mi-regulator",
+       "source_url": "https://www.michigan.gov/mgcb/news/2026/10/08/mgcb-issues-33-cease-and-desist-letters",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": null
+     },
+     "label": "Available on request",
+     "max_points": 3,
+     "points": 1,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "mi-legislature",
+       "source_url": "https://www.legislature.mi.gov/documents/2019-2020/publicact/pdf/2019-PA-0149.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "26",
+   "grade": null,
+   "inputs_pending_review": 3,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "advertising",
+    "credit_cards",
+    "pg_funding"
+   ],
+   "name": "Michigan",
+   "pct": null,
+   "points": 6,
+   "points_entered": 10,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "MN",
+   "available": 5,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "27",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "no_regulated_market",
+   "missing_criteria": [
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Minnesota",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "MO",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "mo-regulator",
+       "source_url": "https://www.mgc.dps.mo.gov/SportsWagering/Sports_Wagering_Launch122025.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "mo-regulator",
+       "source_url": "https://www.mgc.dps.mo.gov/SportsWagering/Sports_Wagering_Launch122025.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "29",
+   "grade": null,
+   "inputs_pending_review": 2,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "advertising",
+    "credit_cards",
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Missouri",
+   "pct": null,
+   "points": 5,
+   "points_entered": 5,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "MS",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "self_exclusion",
+     "evidence": [],
+     "inputs": {
+      "self_exclusion_program_type": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ms-regulator",
+       "source_url": "https://www.msgamingcommission.com/images/uploads/MGC_sports_and_race_pool_regulations.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "28",
+   "grade": null,
+   "inputs_pending_review": 1,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "self_exclusion",
+    "deposit_limits",
+    "advertising",
+    "credit_cards",
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Mississippi",
+   "pct": null,
+   "points": 2,
+   "points_entered": 2,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "MT",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "self_exclusion",
+     "evidence": [],
+     "inputs": {
+      "self_exclusion_program_type": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "legal_age",
+     "evidence": [],
+     "inputs": {
+      "legal_age_min": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "30",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "self_exclusion",
+    "deposit_limits",
+    "advertising",
+    "legal_age",
+    "credit_cards",
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Montana",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "NC",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "self_exclusion",
+     "evidence": [],
+     "inputs": {
+      "self_exclusion_program_type": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "legal_age",
+     "evidence": [],
+     "inputs": {
+      "legal_age_min": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "37",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "self_exclusion",
+    "deposit_limits",
+    "advertising",
+    "legal_age",
+    "credit_cards",
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "North Carolina",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "ND",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "self_exclusion",
+     "evidence": [],
+     "inputs": {
+      "self_exclusion_program_type": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "legal_age",
+     "evidence": [],
+     "inputs": {
+      "legal_age_min": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "38",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "self_exclusion",
+    "deposit_limits",
+    "advertising",
+    "legal_age",
+    "credit_cards",
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "North Dakota",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "NE",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "self_exclusion",
+     "evidence": [],
+     "inputs": {
+      "self_exclusion_program_type": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ne-legislature",
+       "source_url": "https://nebraskalegislature.gov/laws/display_html.php?begin_section=9-1101&end_section=9-1118",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "31",
+   "grade": null,
+   "inputs_pending_review": 1,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "self_exclusion",
+    "deposit_limits",
+    "advertising",
+    "credit_cards",
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Nebraska",
+   "pct": null,
+   "points": 2,
+   "points_entered": 2,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "NH",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "self_exclusion",
+     "evidence": [],
+     "inputs": {
+      "self_exclusion_program_type": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "some scope permits wagering under 21",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "nh-legislature",
+       "source_url": "https://gc.nh.gov/rsa/html/XXIV/287-I/287-I-mrg.htm",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 18
+     },
+     "label": "Under 21 permitted",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "33",
+   "grade": null,
+   "inputs_pending_review": 1,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "self_exclusion",
+    "deposit_limits",
+    "advertising",
+    "credit_cards",
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "New Hampshire",
+   "pct": null,
+   "points": 0,
+   "points_entered": 2,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "NJ",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "nj-dge",
+       "source_url": "https://www.nj.gov/oag/ge/exclusion.html",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": "player_set_available is true",
+     "criterion_id": "deposit_limits",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "nj-dge",
+       "source_url": "https://www.nj.gov/oag/ge/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": false,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": false
+     },
+     "label": "Available on request",
+     "max_points": 3,
+     "points": 1,
+     "status": "scored"
+    },
+    {
+     "condition": "two or more rules whose rule_type is not responsible_gambling_message_required",
+     "criterion_id": "advertising",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "nj-legislature",
+       "source_url": "https://www.njleg.state.nj.us/bill-search/2018/A4111",
+       "status": "pending_review"
+      },
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "nj-dge",
+       "source_url": "https://www.nj.gov/oag/ge/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "advertising_rule_count": 3,
+      "advertising_substantive_count": 2
+     },
+     "label": "Two or more substantive restrictions",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "nj-legislature",
+       "source_url": "https://www.njleg.state.nj.us/bill-search/2018/A4111",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": "allowed is true",
+     "criterion_id": "credit_cards",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "nj-dge",
+       "source_url": "https://www.nj.gov/oag/ge/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "credit_card_allowed": true
+     },
+     "label": "Permitted",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    },
+    {
+     "condition": "funding_mechanism is appropriation, license_fee or compact_payment",
+     "criterion_id": "pg_funding",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "nj-treasury-budget",
+       "source_url": "https://www.nj.gov/treasury/omb/publications/26budget/index.shtml",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "pg_funding_mechanism": "appropriation"
+     },
+     "label": "Discretionary funding",
+     "max_points": 3,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": "most recent study fieldwork_year is within 7 years of the rubric's effective year",
+     "criterion_id": "prevalence_research",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "nj-dge-prevalence-reports",
+       "source_url": "https://www.nj.gov/oag/ge/2023news/PrevalenceReport2023Final.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": 5
+     },
+     "label": "Recent study",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    }
+   ],
+   "fips": "34",
+   "grade": "C",
+   "inputs_pending_review": 8,
+   "market": "regulated_market",
+   "missing_criteria": [],
+   "name": "New Jersey",
+   "pct": 72.2,
+   "points": 13,
+   "points_entered": 18,
+   "profile_completeness": "full",
+   "review": "provisional",
+   "status": "complete"
+  },
+  {
+   "abbr": "NM",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "self_exclusion",
+     "evidence": [],
+     "inputs": {
+      "self_exclusion_program_type": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "legal_age",
+     "evidence": [],
+     "inputs": {
+      "legal_age_min": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "35",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "self_exclusion",
+    "deposit_limits",
+    "advertising",
+    "legal_age",
+    "credit_cards",
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "New Mexico",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "NV",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "self_exclusion",
+     "evidence": [],
+     "inputs": {
+      "self_exclusion_program_type": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "legal_age",
+     "evidence": [],
+     "inputs": {
+      "legal_age_min": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "32",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "self_exclusion",
+    "deposit_limits",
+    "advertising",
+    "legal_age",
+    "credit_cards",
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Nevada",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "NY",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "self_exclusion",
+     "evidence": [],
+     "inputs": {
+      "self_exclusion_program_type": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "legal_age",
+     "evidence": [],
+     "inputs": {
+      "legal_age_min": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "36",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "self_exclusion",
+    "deposit_limits",
+    "advertising",
+    "legal_age",
+    "credit_cards",
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "New York",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "OH",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "oh-legislature",
+       "source_url": "https://codes.ohio.gov/ohio-administrative-code/chapter-3775-12",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "two or more rules whose rule_type is not responsible_gambling_message_required",
+     "criterion_id": "advertising",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "oh-legislature",
+       "source_url": "https://codes.ohio.gov/ohio-administrative-code/rule-3775-16-08",
+       "status": "pending_review"
+      },
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "oh-legislature",
+       "source_url": "https://codes.ohio.gov/ohio-administrative-code/chapter-3775-16",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "advertising_rule_count": 3,
+      "advertising_substantive_count": 2
+     },
+     "label": "Two or more substantive restrictions",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "oh-legislature",
+       "source_url": "https://codes.ohio.gov/ohio-revised-code/section-3775.99",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "39",
+   "grade": null,
+   "inputs_pending_review": 4,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "credit_cards",
+    "pg_funding"
+   ],
+   "name": "Ohio",
+   "pct": null,
+   "points": 8,
+   "points_entered": 10,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "OK",
+   "available": 5,
+   "criteria": [
+    {
+     "condition": "funding_mechanism is appropriation, license_fee or compact_payment",
+     "criterion_id": "pg_funding",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ok-odmhsas",
+       "source_url": "https://oklahoma.gov/odmhsas.html",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "pg_funding_mechanism": "appropriation"
+     },
+     "label": "Discretionary funding",
+     "max_points": 3,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "40",
+   "grade": "D",
+   "inputs_pending_review": 1,
+   "market": "no_regulated_market",
+   "missing_criteria": [],
+   "name": "Oklahoma",
+   "pct": 40.0,
+   "points": 2,
+   "points_entered": 5,
+   "profile_completeness": "full",
+   "review": "provisional",
+   "status": "complete"
+  },
+  {
+   "abbr": "OR",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is operator_only or tribal_only",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "or-regulator",
+       "source_url": "https://www.oregonlottery.org/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "operator_only"
+     },
+     "label": "Operator or tribal programs only",
+     "max_points": 3,
+     "points": 1,
+     "status": "scored"
+    },
+    {
+     "condition": "mandatory_default or player_set_required_at_signup is true",
+     "criterion_id": "deposit_limits",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "or-regulator",
+       "source_url": "https://www.oregonlottery.org/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": true
+     },
+     "label": "Required by default or at signup",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "or-legislature",
+       "source_url": "https://olis.oregonlegislature.gov/liz/2021I1/Downloads/CommitteeMeetingDocument/256594",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "41",
+   "grade": null,
+   "inputs_pending_review": 3,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "advertising",
+    "credit_cards",
+    "pg_funding"
+   ],
+   "name": "Oregon",
+   "pct": null,
+   "points": 6,
+   "points_entered": 10,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "PA",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "pa-regulator",
+       "source_url": "https://responsibleplay.pa.gov/self-exclusion/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "pa-regulator",
+       "source_url": "https://gamingcontrolboard.pa.gov/node/396071",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "42",
+   "grade": null,
+   "inputs_pending_review": 2,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "advertising",
+    "credit_cards",
+    "pg_funding"
+   ],
+   "name": "Pennsylvania",
+   "pct": null,
+   "points": 5,
+   "points_entered": 7,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "RI",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "self_exclusion",
+     "evidence": [],
+     "inputs": {
+      "self_exclusion_program_type": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "some scope permits wagering under 21",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "ri-legislature",
+       "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE42/42-61.2/INDEX.htm",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 18
+     },
+     "label": "Under 21 permitted",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "44",
+   "grade": null,
+   "inputs_pending_review": 1,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "self_exclusion",
+    "deposit_limits",
+    "advertising",
+    "credit_cards",
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Rhode Island",
+   "pct": null,
+   "points": 0,
+   "points_entered": 2,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "SC",
+   "available": 5,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "45",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "no_regulated_market",
+   "missing_criteria": [
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "South Carolina",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "SD",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "self_exclusion",
+     "evidence": [],
+     "inputs": {
+      "self_exclusion_program_type": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "sd-regulator",
+       "source_url": "https://dor.sd.gov/individuals/individual-faqs/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "46",
+   "grade": null,
+   "inputs_pending_review": 1,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "self_exclusion",
+    "deposit_limits",
+    "advertising",
+    "credit_cards",
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "South Dakota",
+   "pct": null,
+   "points": 2,
+   "points_entered": 2,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "TN",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "self_exclusion",
+     "evidence": [],
+     "inputs": {
+      "self_exclusion_program_type": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "tn-legislature",
+       "source_url": "https://www.capitol.tn.gov/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": "allowed is false",
+     "criterion_id": "credit_cards",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "tn-regulator",
+       "source_url": "https://tn.gov/content/dam/tn/swac/documents/posts/Memo_operators-funding-methods.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "credit_card_allowed": false
+     },
+     "label": "Prohibited",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "47",
+   "grade": null,
+   "inputs_pending_review": 2,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "self_exclusion",
+    "deposit_limits",
+    "advertising",
+    "pg_funding"
+   ],
+   "name": "Tennessee",
+   "pct": null,
+   "points": 4,
+   "points_entered": 6,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "TX",
+   "available": 5,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "48",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "no_regulated_market",
+   "missing_criteria": [
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Texas",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "UT",
+   "available": 5,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "49",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "no_regulated_market",
+   "missing_criteria": [
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Utah",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "VA",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "va-regulator",
+       "source_url": "https://www.valottery.com/playingmatters/voluntaryexclusionprogram",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "exactly one such rule",
+     "criterion_id": "advertising",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "va-legislature",
+       "source_url": "https://law.lis.virginia.gov/admincode/title11/agency5/chapter70/section240/",
+       "status": "pending_review"
+      },
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "va-legislature",
+       "source_url": "https://law.lis.virginia.gov/vacode/title58.1/chapter40/section58.1-4034/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "advertising_rule_count": 2,
+      "advertising_substantive_count": 1
+     },
+     "label": "One substantive restriction",
+     "max_points": 3,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "va-legislature",
+       "source_url": "https://law.lis.virginia.gov/vacode/title58.1/chapter40/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "51",
+   "grade": null,
+   "inputs_pending_review": 4,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "credit_cards",
+    "pg_funding"
+   ],
+   "name": "Virginia",
+   "pct": null,
+   "points": 7,
+   "points_entered": 10,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "VT",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "vt-regulator",
+       "source_url": "https://liquorandlottery.vermont.gov/exclusion-list",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "exactly one such rule",
+     "criterion_id": "advertising",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "vt-legislature",
+       "source_url": "https://legislature.vermont.gov/Documents/2024/Docs/ACTS/ACT063/ACT063%20As%20Enacted.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "advertising_rule_count": 1,
+      "advertising_substantive_count": 1
+     },
+     "label": "One substantive restriction",
+     "max_points": 3,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "vt-regulator",
+       "source_url": "https://liquorandlottery.vermont.gov/node/770",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": "allowed is false",
+     "criterion_id": "credit_cards",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "vt-regulator",
+       "source_url": "https://liquorandlottery.vermont.gov/node/770",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "credit_card_allowed": false
+     },
+     "label": "Prohibited",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "50",
+   "grade": null,
+   "inputs_pending_review": 4,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "pg_funding"
+   ],
+   "name": "Vermont",
+   "pct": null,
+   "points": 9,
+   "points_entered": 12,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "WA",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "self_exclusion",
+     "evidence": [],
+     "inputs": {
+      "self_exclusion_program_type": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "legal_age",
+     "evidence": [],
+     "inputs": {
+      "legal_age_min": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "53",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "self_exclusion",
+    "deposit_limits",
+    "advertising",
+    "legal_age",
+    "credit_cards",
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Washington",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "WI",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": null,
+     "criterion_id": "self_exclusion",
+     "evidence": [],
+     "inputs": {
+      "self_exclusion_program_type": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "legal_age",
+     "evidence": [],
+     "inputs": {
+      "legal_age_min": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": null,
+      "prevalence_years_since_latest": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    }
+   ],
+   "fips": "55",
+   "grade": null,
+   "inputs_pending_review": 0,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "self_exclusion",
+    "deposit_limits",
+    "advertising",
+    "legal_age",
+    "credit_cards",
+    "pg_funding",
+    "prevalence_research"
+   ],
+   "name": "Wisconsin",
+   "pct": null,
+   "points": 0,
+   "points_entered": 0,
+   "profile_completeness": "status_only",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "WV",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "wv-legislature",
+       "source_url": "https://code.wvlegislature.gov/29-22D-15/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "both"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "every legal_age scope is 21 or older",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "wv-legislature",
+       "source_url": "https://code.wvlegislature.gov/29-22D-15/",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 21
+     },
+     "label": "21 everywhere",
+     "max_points": 2,
+     "points": 2,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "54",
+   "grade": null,
+   "inputs_pending_review": 2,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "advertising",
+    "credit_cards",
+    "pg_funding"
+   ],
+   "name": "West Virginia",
+   "pct": null,
+   "points": 5,
+   "points_entered": 7,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  },
+  {
+   "abbr": "WY",
+   "available": 18,
+   "criteria": [
+    {
+     "condition": "program_type is statewide_registry or both",
+     "criterion_id": "self_exclusion",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "wy-regulator",
+       "source_url": "https://gaming.wyo.gov/resources/responsible-gaming/self-exclusion",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "self_exclusion_program_type": "statewide_registry"
+     },
+     "label": "Statewide registry",
+     "max_points": 3,
+     "points": 3,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "deposit_limits",
+     "evidence": [],
+     "inputs": {
+      "deposit_limits_entered": null,
+      "deposit_mandatory_default": null,
+      "deposit_player_set_available": null,
+      "deposit_required_at_signup": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "advertising",
+     "evidence": [],
+     "inputs": {
+      "advertising_rule_count": null,
+      "advertising_substantive_count": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "some scope permits wagering under 21",
+     "criterion_id": "legal_age",
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-16",
+       "source_id": "wy-legislature",
+       "source_url": "https://www.wyoleg.gov/2021/Summaries/HB0133.pdf",
+       "status": "pending_review"
+      }
+     ],
+     "inputs": {
+      "legal_age_min": 18
+     },
+     "label": "Under 21 permitted",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    },
+    {
+     "condition": null,
+     "criterion_id": "credit_cards",
+     "evidence": [],
+     "inputs": {
+      "credit_card_allowed": null
+     },
+     "label": null,
+     "max_points": 2,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": null,
+     "criterion_id": "pg_funding",
+     "evidence": [],
+     "inputs": {
+      "pg_funding_mechanism": null
+     },
+     "label": null,
+     "max_points": 3,
+     "points": null,
+     "status": "not_entered"
+    },
+    {
+     "condition": "no study on file",
+     "criterion_id": "prevalence_research",
+     "evidence": [],
+     "inputs": {
+      "prevalence_searched": true,
+      "prevalence_years_since_latest": null
+     },
+     "label": "No study found",
+     "max_points": 2,
+     "points": 0,
+     "status": "scored"
+    }
+   ],
+   "fips": "56",
+   "grade": null,
+   "inputs_pending_review": 2,
+   "market": "regulated_market",
+   "missing_criteria": [
+    "deposit_limits",
+    "advertising",
+    "credit_cards",
+    "pg_funding"
+   ],
+   "name": "Wyoming",
+   "pct": null,
+   "points": 3,
+   "points_entered": 7,
+   "profile_completeness": "full",
+   "review": null,
+   "status": "incomplete"
+  }
+ ],
+ "summary": {
+  "graded": 3,
+  "grades": {
+   "C": 2,
+   "D": 1
+  },
+  "incomplete": 48,
+  "no_regulated_market": 11,
+  "states": 51
+ }
+}

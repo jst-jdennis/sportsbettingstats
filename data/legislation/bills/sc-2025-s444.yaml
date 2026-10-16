@@ -1,0 +1,56 @@
+slug: sc-2025-s444
+fips: "45"
+session: 126th General Assembly (2025-2026)
+bill_number: S 444
+title: South Carolina Sports Wagering Act (Interactive Sports Wagering)
+market_segment: [regulated_sportsbook]
+summary: >-
+  Senate Bill 444 would enact the South Carolina Sports Wagering Act, adding Chapter 55 to Title 39 to make the
+  operation of sports wagering lawful when licensed, create a South Carolina Sports Wagering Commission, levy
+  a privilege tax, provide for licenses, ineligible persons, regulations, enforcement and reporting, and add
+  Section 16-19-135 so that a person who wagers under the act does not violate the gambling statutes. It was
+  introduced in the Senate on March 12, 2025 and referred to the Committee on Labor, Commerce and Industry,
+  where it remained as of the bill page archived on October 16, 2026.
+would:
+  - Make the operation of sports wagering and ancillary activities lawful when conducted under the new chapter and the Commission's regulations (Section 39-55-100).
+  - Create the South Carolina Sports Wagering Commission, a licensing scheme and a privilege tax on adjusted gross sports wagering receipts (bill summary as introduced; rate to be entered from the bill text on review).
+sponsors:
+  - name: Tom Davis
+    chamber: senate
+    party: R
+    role: primary
+  - name: Leber
+    chamber: senate
+    party: null
+    role: cosponsor
+status: in_committee
+status_date: "2025-03-12"
+actions:
+  - date: "2025-03-12"
+    chamber: senate
+    action_text: Introduced and read first time; referred to Committee on Labor, Commerce and Industry (Senate Journal page 4).
+    provenance: &scbill
+      source_id: sc-legislature
+      source_url: https://www.scstatehouse.gov/sess126_2025-2026/bills/444.htm
+      archive_url: sha256:cae61c890d7d40ec48680f56cc8160af73d06d5d3eb9bcd577ccf8d57c8cf9c3
+      retrieved_at: "2026-10-16"
+      retrieval_method: html_table
+      transform: null
+      entered_by: claude-phase3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: "Status information and history of legislative actions on the bill page"
+      notes: Bill page archived on a GitHub runner (ingest run 38). The page names the sponsors as "Senators Davis and Leber"; first names and parties are to be confirmed from the Senate roster on review.
+votes: []
+text_url: https://www.scstatehouse.gov/sess126_2025-2026/bills/444.htm
+legislature_page_url: https://www.scstatehouse.gov/sess126_2025-2026/bills/444.htm
+fiscal_note_url: null
+fiscal_estimate_text: null
+related_bills: []
+external_ids:
+  legiscan_bill_id: null
+  openstates_id: null
+notes: >-
+  Press accounts report a Senate committee hearing in February 2026; the archived bill page shows no action
+  after the March 2025 referral, so no hearing is recorded here until the page or a journal shows it.
+provenance: *scbill

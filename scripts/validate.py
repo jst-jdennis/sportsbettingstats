@@ -251,9 +251,15 @@ def main() -> int:
     for p in sorted((DATA / "report_cards" / "rubric").glob("*.yaml")):
         doc = validate_yaml(p, "rubric")
         if doc:
+            paper_slugs = {q.stem for q in (DATA / "research" / "papers").glob("*.yaml")}
             for c in doc["criteria"]:
                 if max(s["points"] for s in c["scoring"]) != c["max_points"]:
                     err(f"{p}: criterion {c['criterion_id']} max_points does not equal its highest scoring points")
+                for slug in c.get("evidence_basis") or []:
+                    if slug not in paper_slugs:
+                        err(f"{p}: criterion {c['criterion_id']} cites {slug!r}, which is not in the research library")
+                if c["scoring"][-1]["when"] != "otherwise":
+                    err(f"{p}: criterion {c['criterion_id']} must end with an otherwise row so every entered state scores")
 
     # Cross-file provenance rules
     today = date.today()

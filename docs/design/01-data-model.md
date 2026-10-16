@@ -345,13 +345,29 @@ the tally and date).
 | `effective_from` | |
 | `criteria` | list of `{criterion_id, title, data_path (JSON pointer into the state profile), scoring: list of {condition, points}, max_points, rationale, evidence_basis (citations for why this criterion matters)}` |
 | `grade_bands` | list of `{min_pct, grade}` |
-| `not_applicable_rule` | How states with no legal market are handled (recommendation: scored only on the criteria that apply to any state, such as funding and prevalence research, and shown with an explicit "no regulated market" label rather than an F) |
+| `no_market_rule`, `incomplete_rule`, `provisional_rule` | Published handling of states with no live regulated market (scored on all_states criteria only, labeled), states with inputs not yet entered (points shown, no letter), and grades resting on unreviewed records (marked provisional) |
 
-Grades are computed at build by applying `criteria[].scoring` to the state
-profile. The computation is deterministic and a CI test recomputes every
-grade and fails if any differs from the rendered value. The rubric page
-shows, for each state and criterion, the data value, the source and the
-points awarded.
+Grades are computed by `scripts/grade.py`, which reads the rubric and the
+state files and writes `report_cards/grades/<version>.json`. The site reads
+that committed file; CI (and `npm run build`) run `grade.py --check`, which
+recomputes and fails if the committed file differs, so a grade on the site
+can never diverge from what the rubric and the data imply. The output
+carries no timestamps, only a SHA-256 fingerprint of its inputs, so it is
+byte-stable.
+
+Scoring rows carry a machine-evaluable `when` clause over named inputs
+(`{var, op, value}` with operators eq, ne, in, not_in, gte, lte, gt, lt,
+is_null, not_null; `any`, `all`, `not` combinators; or the literal
+`otherwise`), alongside the human `condition` text. Inputs are derived from
+the state files by named functions in `grade.py`, each returning the value
+and the provenance blocks it rested on; their definitions are published on
+the report card page. Each criterion names a `presence` input: when it is
+null the criterion is "not entered" and the state receives points for the
+criteria it has but no letter grade (`incomplete_rule`). A grade whose
+inputs include any record not marked verified is `provisional`
+(`provisional_rule`). The per-state report card page shows, for each
+criterion, the input values, the scoring row that matched, the points and
+the source and review status of every record used.
 
 ## 9. Build-time validation summary
 
