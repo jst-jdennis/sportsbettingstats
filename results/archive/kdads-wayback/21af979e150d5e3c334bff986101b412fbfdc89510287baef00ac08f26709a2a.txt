@@ -1,0 +1,3251 @@
+=== page 1 ===
+y s
+e i
+s
+v y
+r l
+a
+u
+n
+S
+A
+g
+d
+n n
+i a
+l
+b
+s
+m t
+l
+u
+a
+s
+G e
+R
+s
+a
+s
+n
+a
+K
+7
+1
+0
+2
+This report summarizes the results of the 2017 Kansas Gambling
+Survey. Statewide and regional results show beliefs and attitudes
+toward gambling, gambling behavior and preferences, and
+awareness of treatment services. An estimate level of risk for
+problem gambling is used to examine correlations with broader
+behavioral and mental health measures.
+Prepared by:
+The Learning Tree Institute at Greenbush
+Research and Evaluation Department
+For:
+The Kansas Department for Aging and Disability
+Services
+
+=== page 2 ===
+Table of Contents
+Table of Tables ......................................................................................................................................
+Table of Figures .....................................................................................................................................
+Executive Summary .................................................................................................................................. 1
+Introduction ............................................................................................................................................. 9
+Gambling in Kansas .............................................................................................................................. 9
+Problem Gambling Services ................................................................................................................ 10
+Survey Implementation ........................................................................................................................... 12
+Survey Development ........................................................................................................................... 12
+Methodology ...................................................................................................................................... 13
+Survey Results ....................................................................................................................................... 15
+Demographics .................................................................................................................................... 15
+Summary of Findings ...................................................................................................................... 15
+Gambling Prevalence .......................................................................................................................... 22
+Summary of Findings ...................................................................................................................... 22
+“Problem” Gambling Terminology ........................................................................................................ 24
+Problem Gambling Risk Indicator Categories ....................................................................................... 25
+Problem Gambling Screening Questions .............................................................................................. 26
+Problem Gambling Screening Results .................................................................................................. 28
+Summary of Findings ...................................................................................................................... 28
+Supplemental Problem Gambling Questions ........................................................................................ 32
+Summary of Findings ...................................................................................................................... 32
+Gambling by Type and Frequency of Gambling Activity ......................................................................... 35
+Summary of Findings ...................................................................................................................... 35
+Reasons for Gambling ........................................................................................................................ 41
+Summary of Findings ...................................................................................................................... 41
+Reasons for Gambling by Problem Gambling Risk Category .............................................................. 44
+Gambling Myths and Perceptions ........................................................................................................ 45
+Summary of Findings .......................................................................................................................... 45
+Public Perception of Gambling ............................................................................................................ 51
+Summary of Findings ...................................................................................................................... 51
+Awareness of Problem Gambling Treatment ........................................................................................ 55
+Summary of Findings ...................................................................................................................... 55
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department
+
+=== page 3 ===
+Where to Go for Assistance and Recognizing Signs of Problem Gambling ............................................. 61
+Summary of Findings ...................................................................................................................... 61
+Gambling Promotion and Prevention ................................................................................................... 64
+Summary of Findings ...................................................................................................................... 64
+General and Physical Health ............................................................................................................... 67
+Summary of Findings ...................................................................................................................... 67
+Mental Health and Depression ............................................................................................................ 69
+Summary of Findings ...................................................................................................................... 69
+Suicide Thoughts, Plans and Attempts ................................................................................................ 72
+Summary of Findings ...................................................................................................................... 72
+Substance Use ................................................................................................................................... 75
+Summary of Findings ...................................................................................................................... 75
+Strengths and Limitations: ...................................................................................................................... 77
+References ............................................................................................................................................. 78
+Appendix I .............................................................................................................................................. 79
+Appendix II ............................................................................................................................................. 86
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department
+
+=== page 4 ===
+Table of Tables
+Table 1: Number of individuals engaged in gambling treatment services and number of calls to the Helpline
+.............................................................................................................................................................. 10
+Table 2: Kansas Prevention Collaborative Problem Gambling Data Project Team ...................................... 12
+Table 3: Target and actual survey sample size by region .......................................................................... 13
+Table 4: State demographic data by type ................................................................................................. 15
+Table 5: Participant-identified race. Percentage of responses by region. .................................................. 17
+Table 6: Participant marital status. Percentage of responses by region. ................................................... 17
+Table 7: Participant education. Percentage of responses by region. ......................................................... 18
+Table 8: Household income. Percentage of responses by region. ............................................................. 19
+Table 9: Employment status. Percentage of responses by region. ............................................................ 20
+Table 10: Have you gambled for money or anything of value in the past 30 days? Percentage of responses
+by region. ............................................................................................................................................... 23
+Table 11: ANY reported past 30-day gambling activity. Percentage of responses by region........................ 23
+Table 12: Frequency of gambling. Percentage of responses by region. ..................................................... 23
+Table 13: Problem gambling risk categories ............................................................................................ 25
+Table 14: Problem gambling screening questions .................................................................................... 26
+Table 15: Percentage of problem gambling by risk category. Responses by region. ................................... 29
+Table 16: Have you ever bet more than you could afford to lose? Percentage of responses by region. ....... 30
+Table 17: Have people ever criticized your betting or told you that you have a gambling problem? Percentage
+of responses by region. .......................................................................................................................... 30
+Table 18: Has your gambling ever caused you any health problems such as stress and anxiety? Percentage
+of responses by region. .......................................................................................................................... 30
+Table 19: Have you ever thought you might want to cut back on the amount of time or money you spend
+betting or wagering? Percentage of responses by region. ......................................................................... 31
+Table 20: Have you ever lied to family members, friends, or others about how much you gamble? Percentage
+of responses by region. .......................................................................................................................... 31
+Table 21: Have there been periods lasting 2 weeks or longer when you spent a lot of time thinking about
+your gambling experiences or planning out future gambling ventures or bets? Percentage of responses by
+region. ................................................................................................................................................... 31
+Table 22: Has your gambling ever caused serious or repeated problems in your relationships? Percentage of
+responses by region. .............................................................................................................................. 31
+Table 23: Has your gambling ever interfered with your productivity or performance while at work or school?
+Percentage of responses by region. ........................................................................................................ 31
+Table 24: In the past 12 months, how many times (if any) have you felt like you would like to stop gambling
+but didn’t think you could? Percentage of responses by region. ................................................................ 33
+Table 25: Have you personally been affected by the gambling behaviors of a friend / family member / co-
+worker? Percentage reporting ‘yes’ by region. .......................................................................................... 34
+Table 26: On how many days in the past 30 days have you played a state lottery game or a multi-state lottery
+(scratch tickets, Powerball, pull-tabs, etc.)? Percentage of responses by region. ....................................... 36
+Table 27: On how many days in the past 30 days have you played gaming machines at a casino? Percentage
+of responses by region. .......................................................................................................................... 36
+Table 28: On how many days in the past 30 days have you spent real money on games you can play on your
+phone or computer to buy credits, extra lives, or upgrades? Percentage of responses by region. ............... 37
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department
+
+=== page 5 ===
+Table 29: On how many days in the past 30 days have you bet money on team sports with friends or through
+an office pool? Percentage of responses by region. ................................................................................. 37
+Table 30: On how many days in the past 30 days have you participated in fantasy sports leagues that involve
+money, valuables, or status? Percentage of responses by region. ............................................................. 37
+Table 31: On how many days in the past 30 days have you bet on games of personal skill (such as pool,
+bowling, video games, basketball, or golf) with friends or family? Percentage of responses by region. ....... 37
+Table 32: On how many days in the past 30 days have you played table games at a casino (poker, roulette,
+craps, blackjack, etc.)? Percentage of responses by region. ..................................................................... 38
+Table 33: On how many days in the past 30 days have you played bingo for money or prizes? Percentage of
+responses by region. .............................................................................................................................. 38
+Table 34: On how many days in the past 30 days have you played cards for money or possessions with
+friends or family, outside of a casino? Percentage of responses by region. ............................................... 38
+Table 35: On how many days in the past 30 days have you gambled on the internet? Percentage of
+responses by region. .............................................................................................................................. 38
+Table 36: On how many days in the past 30 days have you bet money on horse races? Percentage of
+responses by region. .............................................................................................................................. 39
+Table 37: On how many days in the past 30 days have you bet money on dog races? Percentage of
+responses by region. .............................................................................................................................. 39
+Table 38: On how many days in the past 30 days have you bet money on animal fighting such as dog or cock
+fighting? Percentage of responses by region. .......................................................................................... 39
+Table 39: On how many days in the past 30 days have you bet money on car races? Percentage of
+responses by region. .............................................................................................................................. 39
+Table 40: Gambling activity by risk category. Percentage of responses. .................................................... 40
+Table 41: Importance of gambling: for entertainment or fun. Percentage of responses by region. .............. 42
+Table 42: Importance of gambling: just to win money. Percentage of responses by region. ....................... 42
+Table 43: Importance of gambling: for excitement or as a challenge. Percentage of responses by region. .. 43
+Table 44: Importance of gambling: to support worthy causes. Percentage of responses by region. ............ 43
+Table 45: Importance of gambling: out of curiosity. Percentage of responses by region. ........................... 43
+Table 46: Importance of gambling: to win money to use for paying bills. Percentage of responses by region.
+.............................................................................................................................................................. 43
+Table 47: Importance of gambling: as a distraction from everyday problems. Percentage of responses by
+region. ................................................................................................................................................... 43
+Table 48: Importance of gambling: as a hobby. Percentage of responses by region. .................................. 44
+Table 49: Rank order reason for gambling by order of importance. Percentage of responses by risk category.
+.............................................................................................................................................................. 44
+Table 50: Playing more than one slot machine improves a person's odds of winning. Percentage of
+responses by region. .............................................................................................................................. 46
+Table 51: Watching the pattern of wins and losses will help a person win. Percentage of responses by
+region. ................................................................................................................................................... 46
+Table 52: Using personal "lucky" techniques or rituals can help people win. Percentage of responses by
+region. ................................................................................................................................................... 47
+Table 53: The more a person gambles, the better their odds of coming out ahead. Percentage of responses
+by region. ............................................................................................................................................... 48
+Table 54: When a person almost wins, it's a good sign that they are due to win soon. Percentage of
+responses by region. .............................................................................................................................. 48
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department
+
+=== page 6 ===
+Table 55: If a person keeps gambling, their luck will change and they'll win back the money they've lost.
+Percentage of responses by region. ........................................................................................................ 49
+Table 56: Perception: Gambling is dangerous for family life. Percentage of responses by region. .............. 52
+Table 57: Perception: Gambling is a harmful form of entertainment. Percentage of responses by region.... 52
+Table 58: Perception: Gambling is good for the economy. Percentage of responses by region. .................. 53
+Table 59: Perception: Casinos are a good place to socialize. Percentage of responses by region. ............. 54
+Table 60: There is no convenient place to get treatment for problem gambling in my community. Percentage
+of responses by region. .......................................................................................................................... 56
+Table 61: The average person can't afford treatment for a gambling problem. Percentage of responses by
+region. ................................................................................................................................................... 57
+Table 62: Treatment for a gambling problem probably doesn't work. Percentage of responses by region. .. 57
+Table 63: I would be embarrassed if a family member needed treatment for a gambling problem. Percentage
+of responses by region. .......................................................................................................................... 58
+Table 64: Gambling treatment is only for those with serious problems. Percentage of responses by region.
+.............................................................................................................................................................. 59
+Table 65: I know about gambling treatment options in my community. Percentage of responses by region. 59
+Table 66: Confidence of recognizing signs of problem gambling. Percentage of responses by region. ....... 63
+Table 67: Have you ever seen or heard information regarding assistance for problem gamblers or their
+families? Percentage of responses by region. .......................................................................................... 64
+Table 68: Have you ever seen or heard of the gambling helpline, 1-800-522-4700? Percentage of responses
+by region. ............................................................................................................................................... 65
+Table 69: During the past 12 months, do you recall hearing, reading, or watching an advertisement for a
+casino located in Kansas? Percentage of responses by region. ................................................................ 65
+Table 70: During the past 12 months, do you recall hearing, reading, or watching an advertisement for
+fantasy sports or gaming in Kansas? Percentage of responses by region. ................................................. 65
+Table 71: During the past 12 months, do you recall hearing, reading, or watching an advertisement about the
+prevention of problem gambling? Percentage of responses by region. ...................................................... 65
+Table 72: Self-reported general health. Percentage of responses by region. .............................................. 67
+Table 73: Self-reported general health by risk category ............................................................................ 68
+Table 74: Thinking of your mental health, which includes stress, depression, and problems with emotions,
+on how many days in the past 30 days was your mental health not good? Percentage of responses by
+region. ................................................................................................................................................... 70
+Table 75: Thinking of your mental health, which includes stress, depression, and problems with emotions,
+for how many days during the past 30 days was your mental health not good? Percentage of responses by
+risk category. ......................................................................................................................................... 70
+Table 76: Self-reported depression. Percentage of responses by region.................................................... 71
+Table 77: Percentage reporting 'yes' to questions of suicide thoughts, plans, or attempts. Percentage of
+responses by region. .............................................................................................................................. 73
+Table 78: Percentage reporting 'yes' to questions of suicide thoughts, plans, or attempts. Percentage of
+responses by risk category. .................................................................................................................... 74
+Table 79: Past 30-day substance use by substance type. Percentage of responses by region. ................... 76
+Table 80: Past 30-day substance use by substance type. Responses by risk category ............................... 76
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department
+
+=== page 7 ===
+Table of Figures
+Figure 1: Map of Kansas Task Force Regions and Kansas Casinos by type ................................................ 11
+Figure 2: Participation by gambling region ............................................................................................... 14
+Figure 3: Weighted age of survey participants .......................................................................................... 16
+Figure 4: Participant-identified race ......................................................................................................... 16
+Figure 5: Participant marital status ......................................................................................................... 17
+Figure 6: Participant education ............................................................................................................... 18
+Figure 7: Household income ................................................................................................................... 19
+Figure 8: Employment status ................................................................................................................... 20
+Figure 9a: Military service Figure 9b: Active combat .......................................................................... 21
+Figure 10a: Past 30-day gambling Figure 10b: ANY past 30-day gambling activity ................................ 22
+Figure 11: Frequency of gambling ........................................................................................................... 23
+Figure 12: Participant level of risk of developing a gambling problem. Responses by risk category. ........... 28
+Figure 13: Problem gambling screening questions by risk category .......................................................... 29
+Figure 14: Prevalence of ANY reported past 30-day gambling. Responses by risk category. ....................... 30
+Figure 15: In the past 12 months, how many times (if any) have you felt like you would like to stop gambling,
+but didn’t think you could? ...................................................................................................................... 32
+Figure 16: In the past 12 months, how many times (if any) have you felt like you would like to stop gambling
+but didn’t think you could? Percentage of responses by risk category. ...................................................... 33
+Figure 17: Supplemental problem gambling questions by risk category. .................................................... 34
+Figure 18: Past 30-day gambling by type of gambling activity ................................................................... 36
+Figure 19: Gambling activities by risk category. ....................................................................................... 40
+Figure 20: Percentage of participants rating reasons for gambling as ‘important’ or ‘very important.’ ......... 42
+Figure 21: Percentage of participants rating reasons for gambling as ‘important’ or ‘very important.’
+Responses by risk category. ................................................................................................................... 44
+Figure 22: Playing more than one slot machine improves a person's odds of winning ................................ 46
+Figure 23: Watching the pattern of wins and losses will help a person win. ............................................... 46
+Figure 24: Using personal "lucky" techniques or rituals can help people win. ............................................. 47
+Figure 25: The more a person gambles, the better their odds of coming out ahead. ................................... 47
+Figure 26: When a person almost wins, it's a good sign that they are due to win soon................................ 48
+Figure 27: If a person keeps gambling, their luck will change and they'll win back the money they've lost. .. 49
+Figure 28: Perception: Gambling is dangerous for family life. ................................................................... 51
+Figure 29: Perception: Gambling is a harmful form of entertainment. ........................................................ 52
+Figure 30: Perception: Gambling is good for the economy. ....................................................................... 53
+Figure 31: Perception: Casinos are a good place to socialize. ................................................................... 53
+Figure 32: Perception of gambling. Responses by risk category. ............................................................... 54
+Figure 33: There is no convenient place to get treatment for problem gambling in my community. ............. 56
+Figure 34: The average person can't afford treatment for a gambling problem. ......................................... 56
+Figure 35: Treatment for a gambling problem probably doesn't work. ....................................................... 57
+Figure 36: I would be embarrassed if a family member needed treatment for a gambling problem. ............ 58
+Figure 37: Gambling treatment is only for people with serious difficulties. ................................................ 58
+Figure 38: I know about gambling treatment options in my community. .................................................... 59
+Figure 39: Awareness of gambling treatment (Percent responding ‘Strongly Agree’ & ‘Agree’). Responses by
+risk category. ........................................................................................................................................ 60
+Figure 40: If you felt you had a gambling problem, who would you turn to first or where would you go? ...... 62
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department
+
+=== page 8 ===
+Figure 41: If you felt you had a gambling problem, who would you turn to first or where would you go?
+Responses by risk category .................................................................................................................... 62
+Figure 42: Confidence of recognizing signs of problem gambling ............................................................. 63
+Figure 43: Confidence of recognizing signs of problem gambling. Responses by risk category. ................. 63
+Figure 44: Have you ever seen or heard information regarding assistance for problem gamblers or their
+families? ................................................................................................................................................ 64
+Figure 45: Have you ever seen or heard of the gambling helpline, 1-800-522-4700? ................................... 65
+Figure 47: Gambling promotion by risk categories.................................................................................... 66
+Figure 48: Self-reported general health .................................................................................................... 67
+Figure 49: Self-reported general health. Responses by risk category. ........................................................ 68
+Figure 50: Thinking of your mental health, which includes stress, depression, and problems with emotions,
+for how many days during the past 30 days was your mental health not good?.......................................... 69
+Figure 51: Thinking of our mental health, which includes stress, depression, and problems with emotions, on
+how many days in the past 30 days was your mental health not good? Responses by risk category. .......... 70
+Figure 52: Self-reported depression. ........................................................................................................ 71
+Figure 53: Self-reported depression. Responses by risk category. ............................................................. 71
+Figure 54: Percentage reporting ever having suicide thoughts .................................................................. 72
+Figure 55: Percentage reporting ever making suicide plans ...................................................................... 73
+Figure 56: Percentage reporting any suicide attempt ................................................................................. 73
+Figure 57: Percentage reporting ‘yes’ to questions of suicide thoughts, plans, and attempts. Responses by
+risk category. ......................................................................................................................................... 74
+Figure 58: Past 30-day substance use by substance type. ........................................................................ 75
+Figure 59: Past 30-day substance use by substance type. Responses by risk category. ............................. 76
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department
+
+=== page 9 ===
+Executive Summary
+This report presents results from the 2017 Kansas Gambling Survey, which was administered using a
+stratified random sample of households throughout the State of Kansas in September, 2017. This survey is
+a follow-up to a statewide survey conducted in 2012 to assess gambling prevalence, type, and frequency,
+myths, perception, and public opinion about gambling, and awareness of problem gambling treatment.
+Another important purpose was to estimate the scope of at-risk gambling statewide and within each
+gambling region. For each topic, variance in participant responses are reported overall, regionally, and by
+problem gambling risk category. In an effort to help expand the understanding of conditions associated with
+problem gambling, the 2017 Kansas Gambling Survey also asked broader behavioral health questions
+related to depression, suicide, and substance use. The overall sample of 1,755 participants was
+representative of the state and each of the four gambling regions. Survey findings will be useful to State
+agencies, the Kansas Problem Gambling Coalition, regional problem gambling task forces, and other
+stakeholders.
+Demographics – Summary of Findings:
+Participants tended to be White (86.4%), married (60.5%), well educated (53.9% had a two-year, four-year, or
+graduate degree) and had a median age of 46 and median household income between $40,000 and $59,999.
+Participant demographic data were similar to those reported by the United States Census for Kansas. To
+help ensure survey results were representative of the State, data were weighted by age. Regional data were
+also weighted specific to each region. No other adjustments were made.
+Gambling Prevalence - Summary of Findings:
+o Participants engaged in gambling activities they may not have considered to be gambling. For
+example, about 25% of participants who said ‘no’ when asked if they gambled in the past 30 days,
+also said ‘yes’ when asked if they played a state lottery or multi-state lottery. Similarly, 6.4% of
+participants who reported not gambling reported paying for phone or computer credits or
+upgrades.
+o Forty-eight percent (48%) of participants reported engaging in gambling activity in the 30 days
+prior to the survey.
+o There was little difference in the demographic make-up of participants that reported gambling in
+the past 30-days and participants that did not.
+o There was no significant difference in past-30 day gambling between those in military service and
+those not in military service.
+o When asked about gambling frequency, 43% of participants said they ‘never’ gambled, 41.3%
+reported ‘seldom,’ 12.7% reported ‘occasionally,’ and 3.1% reported ‘often’ or ‘very often.’
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 1
+
+=== page 10 ===
+Problem Gambling Screening Questions - Summary of Findings:
+Nine problem gambling screening questions were used to categorize participants into three problem
+gambling risk categories (low, moderate, and high). The problem gambling risk categories were based on
+methodology reported in the 2012 Kansas statewide gambling survey and are described in detail in the
+report. Highlights from the study follows.
+o The vast majority of study participants (87.2%) responded with no ‘positive’ (yes) responses to the
+problem gambling screening questions indicating they are at ‘low risk’ of developing a gambling
+problem. Just over ten percent (10.1%) of participants would be considered in the ‘moderate risk’
+category answering positively to one to three of the screening questions, and 2.7% would be
+classified as ‘high risk’ by responding positively to four or more screening questions.
+o For participants in the highest risk category, almost ninety-seven percent (96.9%) reported they
+have lied about how much they gamble, 95.9% have thought they might want to cut back on the
+amount of time or money they spend betting or wagering, and 87.3% have bet more than they could
+afford to lose.
+o Lying about how much they gambled proved to be the largest difference between participants in the
+moderate (18.1%) versus high (96.9%) risk category. Reported health problems such as stress and
+anxiety caused by gambling was the second largest difference between participants in moderate
+(9.7%) versus high (62.9%) risk categories.
+o Of those who reported any gambling in the past 30 days, just over six percent (6.1%) were in the
+high problem gambling risk category, 17.4% were at moderate risk, and 76.5% low risk.
+Supplemental Problem Gambling Questions - Summary of Findings:
+o Almost thirteen percent (12.8%) of participants indicated they felt like they would like to stop
+gambling in the past year but didn’t think they could.
+o Just over sixty-one percent (61.1%) of participants in the high risk category indicated that in the last
+year, they felt like they would like to stop gambling, but didn’t think they could. Almost twenty-one
+percent (20.6%) felt this way ‘a few times in the past year,’ and 21.6% indicated they felt this
+‘almost every day.’
+o While the desire to stop gambling but not being able to is not a problem gambling screening
+question, it is interesting to note that almost nine percent (8.7%) of participants in the low risk
+category also indicated they would like to stop gambling but didn’t think they could. This may
+indicate that even though they aren’t being deceptive about their gambling or betting more than they
+can afford to lose, their gambling behavior is impacting their lives in a way they can’t control.
+o Overall, 10% of participants reported being personally affected by the gambling behavior of a family
+member, 6% by a friend, and 3% by a co-worker. The percentages differ widely across risk
+categories. For example, 33.5% of participants in the high risk category reported being personally
+affected by the gambling behavior or a family member compared to just 8% in the low risk category.
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 2
+
+=== page 11 ===
+Gambling by Type and Frequency of Activity - Summary of Findings:
+o The type of gambling with the largest number of respondents indicating they had participated at
+least once in the past 30 days was lottery (33.6%), followed by machines at a casino (15.0%). This
+was true across problem gambling risk categories.
+o Of those indicating they had participated in the lottery in the past 30 days, most said they had done
+so one to five times (28.7%).
+o Only 2.4% of respondents answered they had gambled online at least once in the past 30 days,
+while 8.0% percent of respondents answered they had purchased game upgrades at least once in
+the past 30 days.
+o Participants in the high risk category reported larger percentages of past 30-day gambling for all
+activities except spending money on game upgrades, betting on team sports, and playing cards for
+money.
+Reasons for Gambling - Summary of Findings:
+o More than half of respondents (50.8%) cited entertainment or fun as an important or very important
+reason for gambling, while one third of respondents (33.8%) selected gambling just to win money.
+Similarly, nearly one third of respondents (32.0%) cited the excitement or the challenge as being an
+important reason for gambling.
+o The top three reasons for gambling in the 2017 survey were also included in the top three reasons
+for gambling in the 2012 statewide survey. In fact, the order of importance as indicated by
+respondents changed very little from the 2012 survey to the 2017 survey.
+o Particularly problematic reasons for gambling, including to win money to use for paying bills and as
+a distraction from everyday problems, were selected as important reasons for gambling by
+approximately 15.0% of respondents (15.5% and 15.0% respectively).
+o Reasons for gambling differed by household income. Twenty-seven percent (27%) of participants
+making between $20,000 - $40,000 reported gambling to win money to use for paying bills is a ‘very
+important’ reason to gamble, while less than 3% of participants in higher income groups reported
+the same. Those with a household income of $150,000 or more reported gambling for
+entertainment or fun was an important reason to gamble.
+o For every reason to gamble listed in the survey, level of importance was higher as problem
+gambling risk increased from low to moderate and from moderate to high. The percentage of
+participants in the low risk category reporting the reasons for gambling listed were important
+ranged from 10.4% - 47.5%. The range for moderate risk participants was 15.3% to 70.0% and high
+risk category was 14.3% to 87.2%.
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 3
+
+=== page 12 ===
+Gambling Myths and Perceptions - Summary of Findings:
+o Similar to 2012 statewide survey results, the myth with the highest level of agreement is ‘Playing
+more than one slot machine improves a person’s odds of winning’ with 13.0% of respondents
+agreeing.
+o Statistically significant correlations between gambling myths indicate individuals who believe in
+one myth also believe other myths (r values range from .473 to .682, p<.001).
+o In general, agreement with stated gambling myths reduced as reported education level increased.
+o Over one-quarter (26.4%) of participants who agreed using personal ‘lucky’ techniques or rituals can
+help people win, also reported they have bet more than they could afford to lose.
+o Smaller percentages of participants in the low problem gambling risk category agreed with stated
+gambling myths than participants in moderate and high risk categories. Highest level of agreement
+among low risk participants (11.8%) and moderate risk participants (23.1%) was to the myth that
+playing more than one slot machine improves a person’s odds of winning. Highest level of
+agreement for participants in the high risk category (46.0%) was for the myth that watching the
+pattern of wins and losses will help a person win. Participants in the moderate and high risk
+categories were also likely to endorse the myth that using personal ‘lucky’ techniques or rituals can
+help people win.
+Public Perception of Gambling - Summary of Findings:
+o Almost 69% (68.9%) of participants responded with agreement to the statement ‘Gambling is
+dangerous for family life.’ Almost fifty-seven percent (56.9%) agreed gambling is a harmful form of
+entertainment. Forty-three percent (43.5%) agreed that gambling is good for the economy, and
+35.2% said casinos are a good place to socialize.
+o Of the three problem gambling risk categories, the largest percentage of participants agreeing
+gambling is dangerous for family life and is a harmful form of entertainment were in the high risk
+category.
+o Participants in the moderate risk category were least likely to think gambling was dangerous or
+harmful. Moderate category participants also comprised the largest percentage stating that
+gambling was good for the economy.
+o Both moderate and high risk category participants were equally likely to agree casinos were a good
+place to socialize.
+o Across all risk categories, the highest percentage of agreement was the perception gambling was
+dangerous for family life. This was reported by 69.2% of participants in the low risk category, 62.3%
+in the moderate risk category, and 80.3% in high risk category.
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 4
+
+=== page 13 ===
+o More participants in the moderate risk category agreed gambling is good for the economy (61.3%)
+than participants in low risk (41.9%) or high risk categories (46.5%).
+Awareness of Problem Gambling Treatment - Summary of Findings:
+o When asked if there is a convenient place to get treatment for problem gambling in their
+community, less than half of participants (43.9%) agreed.
+o Just over half of participants (51.0%) think the average person can’t afford treatment for problem
+gambling.
+o Although the majority of participants do not believe there is a convenient place for treatment and
+believe the average person can’t afford treatment, the majority (79.3%) disagreed with the
+statement “Treatment for problem gambling probably doesn’t work” meaning only 20.8% actually
+don’t think treatment will work.
+o Few participants (13.1%) said they would be embarrassed if a family member needed treatment for
+a gambling problem. Similarly, 13.4% agreed gambling treatment is only for people with serious
+difficulties.
+o Participants in the highest risk category (49.1%) agreed that ‘treatment for a gambling problem
+doesn’t work’ compared to 24.8% in the moderate and 19.3% in the low risk categories.
+o While 32.0% of participants in high risk category agree that treatment is only for people with serious
+difficulties, a larger percentage (37.4%) indicate they do know about gambling treatment options in
+their community compared to 25.4% in moderate and 19.7% in low risk categories.
+Where to Go for Assistance - Summary of Findings:
+o Overwhelmingly, participants reported they would go to their spouse, partner, or significant other if
+they felt that they had a gambling problem (46.9%) or if someone they knew had a gambling
+problem (37.2%). Participants also said they would turn to the gambling helpline for a personal
+gambling problem (15.0%) or for that of a friend (18.9%). Going to a friend or other family member
+were also common responses to both questions.
+o Responses differed by problem gambling risk categories. While the highest percentage response
+for those in the low risk and moderate risk was to go to their spouse, partner, or significant other
+(47.2% and 50.7% respectively), the response with the highest percentage for participants in the
+high risk category was to ‘no one.’ Over thirty percent (30.8%) of participants in the high risk
+category reported they would not seek help from anyone. Second highest response was spouse,
+partner, or significant other (23.9%) and friend (19.2%).
+o Three-fourths of participants (75.9%) reported they felt moderately to extremely confident that they
+would be able to recognize the signs that they, a friend, a family member, or an acquaintance had a
+gambling problem.
+o The largest percentage of participants in both moderate (47.7%) and high (48.3%) risk categories
+felt extremely confident that they could recognize if they or someone they knew had a gambling
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 5
+
+=== page 14 ===
+problem. The largest percent of participants in the low risk category (44.5%) reported a moderate
+level of confidence.
+o While participants in the high problem gambling risk category had the largest percentage reporting
+they were ‘extremely confident’ that they could recognize if someone had a gambling problem, this
+group also reported the lowest level of confidence with 10% report ‘not at all confident’, compared
+to 3.2% of participants in the moderate and 5.8% in the low risk categories.
+Gambling Promotion and Prevention - Summary of Findings:
+o Most respondents (61.6%) had seen or heard information regarding assistance for problem
+gamblers or their families.
+o Roughly half of respondents (50.9%) recalled hearing, reading, or watching an advertisement about
+the prevention of problem gambling in the past 12 months.
+o Fewer respondents (57.9%) indicated they had ever seen or heard of the gambling helpline than had
+recalled hearing, reading, or watching an advertisement for a casino in the past 12 months (79.5%).
+o Participants in the highest risk category were the largest risk category percentage reporting that
+they had seen or heard an advertisement for a casino located in Kansas (91.6%) and were also the
+largest percentage reporting they had seen or heard of the gambling helpline (81.6%).
+General Health - Summary of Findings:
+o Participants reported their health was excellent (18.5%), very good (41.4%), good (30.6%). Small
+percentages reported their general health was fair (7.4%) or poor (2.1%).
+o The largest percentage of participants in the low problem gambling risk category (42.3%) reported
+their health was ‘very good.’ The largest percentage of participants in the moderate risk category
+reported their health was ‘good’ (36.3%) and ‘very good’ (35.8%). Participants in the high risk
+category reported their health as ‘good’ (54.3%).
+o Participants in the high risk category were less likely to report their health as ‘excellent’ (1.1%) or
+‘poor’ (0.0%).
+Mental Health and Depression - Summary of Findings:
+o Close to half (48.8%) of participants reported their mental health was not good on at least one day
+in the past 30 days.
+o While 54% of participants in the high risk for problem gambling category reported their general
+health was good, over 82% reported their mental health was not good on at least one day in the past
+30 days and 10% reported their mental health was not good any day of the past 30 days.
+o Almost ten percent (9.6%) of all participants reported depression in the past year.
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 6
+
+=== page 15 ===
+o The percentage of participants reporting depression increased as risk of problem gambling
+increased such that 7.9% in the low risk category, 18.3% in the moderate risk category, and 32.5% in
+the high risk category reported experiencing depression in the past year.
+Suicide Thoughts, Plans, and Attempts - Summary of Findings:
+o Almost seventeen percent (16.8%) of participants reported they had seriously thought about killing
+themselves, 10.3% reported they had made a plan about how they would kill themselves, and 6.6%
+reported they had tried to kill themselves.
+o A significantly higher percentage of participants in the high risk category (52%) reported having
+thoughts of suicide in the past year as compared to those in the moderate risk category (26.3%) or
+in the low risk category (14.9%).
+Substance Use – Summary of Findings:
+o The substance most often used by participants in the past 30 days was alcohol (57.9%) followed by
+cigarettes or electronic cigarettes (18.5%) and marijuana (6.1%).
+o Less than one percent of participants reported use of heroin, crack or cocaine, methamphetamine,
+or MDMA (ecstasy).
+o Cigarette smoking increased with risk category with lowest use found in the low risk participants
+(12.5%), and highest use found in the high risk participants (41.1%).
+o High risk participants showed highest rates of use of marijuana (21.1%) and the misuse of
+prescription drugs (23.2%). In comparison, only 5.6% of low risk participants reported marijuana
+use and only 2.5% reported prescription drug misuse.
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 7
+
+=== page 16 ===
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 8
+
+=== page 17 ===
+Introduction
+Gambling in Kansas
+In 1987, Kansas launched the Kansas Lottery, which was followed by four tribal casinos opening in the late
+1990s. In 2007, the Kansas Legislature was presented with the Kansas Expanded Lottery Act (KELA). This
+act allowed for the state of Kansas to own and operate a “destination casino resort” in four Kansas gaming
+zones – northeast, southeast, south central, and southwest. In addition to allowing for these destination
+casino resorts, KELA allowed each of the licensed pari-mutuel race tracks within the state to contract with
+the Kansas Lottery to have electronic gaming machines (slot machines) placed at the tracks. The vote for
+the casino and slot machines passed in both the northeast and southeast zones. The southwest zone voted
+in favor of a casino. In the south central zone, Sedgwick County voted against both the casino and slot
+machines at the race track. Sumner County voted in favor of the casino.
+At the present time, all pari-mutuel licenses for horse and dog racing in Kansas have lapsed and been
+revoked. No pari-mutuel racing has been conducted in Kansas since August 2008. However, Kansas law
+permits non-profit, religious, educational, charitable, fraternal, and veterans’ organizations to conduct bingo
+games. The Kansas Racing and Gaming Commission (KRGC) is currently responsible for the regulation of
+four state-owned casinos in four Kansas Gaming Zones.1
+1) The Southwest Kansas Gaming Zone – Ford County
+o The Boot Hill Casino and Resort in Dodge City opened December 15, 2009. It has
+nearly 700 slot machines, 18 table games, snack bar, casual dining restaurant,
+general store, and hotel.
+2) The South Central Kansas Gaming Zone — Sumner County
+o Located just south of Wichita, The Kansas Star Casino opened December 20,
+2011. It has more than 1,770 slot machines, over 50 table games, and five unique
+dining options.
+3) The Northeast Kansas Gaming Zone – Wyandotte County
+o The Hollywood Casino at Kansas Speedway opened February 3, 2012. The casino
+has 100,000 square feet with 2,000 slot machines, over 50 table games, and four
+restaurants.
+4) The Southeast Kansas Gaming Zone – Crawford County
+o The Kansas Crossing Casino is located in southeast Kansas, south of Pittsburg. It opened
+March 29, 2018. It has 625 slot machines, 16 table games, a restaurant, bar, and hotel.
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 9
+
+=== page 18 ===
+Problem Gambling Services
+The Problem Gambling and Other Addictions Fund was established by the Kansas Legislature to designate
+two percent (2%) of the revenue from state-owned casinos for the prevention and treatment of problem
+gambling and other addictions. The fund began to receive allocations following the opening of the first
+state-owned casino, the Boot Hill Casino and Resort, in December 2009. In 2010, the Kansas Department for
+Aging and Disability Services (KDADS) developed a contract with Value Options of Kansas (since renamed
+Beacon Health Options) to manage a network of certified gambling counselors, develop an infrastructure for
+problem gambling treatment, and subsidize gambling treatment for problem gamblers. By the end of fiscal
+year 2017, 826 individuals had engaged in treatment services and the Problem Gambling Helpline had
+received 1,996 calls. In the Beacon Health Options network there are 16 gambling treatment agencies and
+six private practitioners employing 33 gambling counselors. The table below shows the number of
+individuals engaged in treatment services and the number of calls to the Helpline for problem gambling
+services, information or referral from fiscal years 2012 to 2017.
+Table 1: Number of individuals engaged in gambling treatment services and number of calls to the Helpline
+Fiscal Year Treatment Helpline Calls
+2012 151 162
+2013 156 320
+2014 132 369
+2015 134 305
+2016 136 397
+2017 117 443
+Total 2012-2017 826 1,996
+In addition to direct gambling treatment services, KDADS serves as the catalyst for the development of four
+Problem Gambling Community Task Forces and employs two Problem Gambling Specialists to assist the
+Community Task Forces. These Task Forces primarily serve to raise community awareness of problem
+gambling, including educating their communities that gambling treatment is available. Television and radio
+advertisements about problem gambling awareness have also been created and aired as public service
+announcements.
+This survey was funded as part of the KDADS data collection and evaluation contract to help inform problem
+gambling prevention and treatment efforts by gathering information on gambling behaviors, knowledge, and
+attitudes among Kansas’ adult population. This information is needed following a five-year gap from an
+initial Kansas gambling survey conducted in 2012. The survey results will inform KDADS administrators,
+KDADS funded providers, and Problem Gambling Community Task Forces as they develop problem gambling
+treatment and problem gambling prevention services. Survey results will also benefit city and county
+officials, legislators, mental health practitioners, and other stakeholders.
+The following map shows the counties comprising the four gaming regions and indicates the four state-
+owned casino locations, as well as the tribal casinos and vicinity of casinos that are just across the Kansas
+border, but impact Kansas adults.
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 10
+
+=== page 19 ===
+Figure 1: Map of Kansas Task Force Regions and Kansas Casinos by type
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 11
+
+=== page 20 ===
+Survey Implementation
+Survey Development
+In March 2017, the Kansas Prevention Collaborative (KPC) Problem Gambling Data Project Team convened
+to review questions from the first Kansas gambling survey administered in 2012 and begin planning and
+development for the 2017 gambling survey. The KPC Problem Gambling Data Project Team includes
+members from KDADS and numerous behavioral health prevention contractors from agencies listed in Table
+2. Membership also included two Problem Gambling Specialists who worked closely with both state and
+community partners. These topic experts helped guide question additions and revisions to make the survey
+even more relevant to current and emerging gambling trends.
+While the team intentionally tried to keep questions in the 2017 survey similar to the questions in the 2012
+survey in order to compare data and assess state and regional change, the group also wanted to broaden
+the scope to look at relationships between gambling attitudes and behavior and other related behavioral
+health issues such as depression, suicidal thoughts, and substance use. The final survey questions and
+response options can be found in Appendix I.
+Table 2: Kansas Prevention Collaborative Problem Gambling Data Project Team
+Member Name Title Agency
+Lisa Chaney, Chair Director of Research & Evaluation Learning Tree Institute at Greenbush
+Linda Weldon Program Evaluator Learning Tree Institute at Greenbush
+Behavioral Health Prevention Kansas Department for Aging and
+Kimi Gardner
+Consultant Disability Services
+Kansas Department for Aging and
+Juan Baez Problem Gambling Specialist
+Disability Services
+Kansas Department for Aging and
+Ginny Eardley Problem Gambling Specialist
+Disability Services
+The University of Kansas Center for
+Dr. Jomella Watson-Thompson Investigator and Associate Director
+Community Health and Development
+The University of Kansas Center for
+Priya Vanchy Graduate Research Assistant
+Community Health and Development
+Partnerships for Success Prescription DCCCA, Inc.
+Krista Machado
+Drug Project Manager
+Robert Hedberg Behavioral Health Training and DCCCA, Inc.
+Technical Assistance Project
+Coordinator
+Chad Childs Prevention Initiative Systems Project Wichita State University Community
+Coordinator Engagement Institute
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 12
+
+=== page 21 ===
+Methodology
+The Learning Tree Institute at Greenbush worked with ETC Institute, Inc. in Olathe, Kansas to administer the
+2017 Kansas Gambling Survey based on a random sample representative of the state and four gambling
+regions. The six-page survey, cover letter, and postage paid return envelope addressed to ETC Institute were
+mailed to a random sample of households throughout the State of Kansas on September 8, 2017. The cover
+letter explained the purpose of the survey and encouraged residents to either return their survey by mail or
+complete the survey online.
+Ten days after the surveys were mailed, ETC Institute sent follow-up emails to the households receiving the
+survey to encourage participation. The emails contained a link to the online version of the survey to make it
+easy for participants to complete the survey. To prevent people who were not part of the random sample
+from participating, those who completed the survey online were required to enter their home address prior
+to submitting the survey. ETC Institute then matched the addresses entered online with the addresses that
+were originally selected for the random sample. If the address from a survey completed online did not
+match one of the addresses selected for the sample, the online survey was not included.
+The decision was made to use a stratified sample with random sampling by gambling region. Regions were
+based on input from KDADS including the following counties:
+o Northeast: Johnson, Leavenworth, and Wyandotte
+o South Central: Butler, Cowley, Harper, Harvey, Kingman, Reno, Sedgwick, and Sumner
+o Southeast: Crawford and Cherokee
+o Southwest: Barber, Clark, Comanche, Edwards, Finney, Ford, Gray, Haskell, Hodgeman, Kiowa, Lane,
+Meade, Ness, Pawnee, Pratt, Rush, Seward, and Stafford
+The goal was to obtain completed surveys from a minimum of 1,600 residents throughout the State of
+Kansas and representative samples within each region. These goals were accomplished, with a total of
+1,755 residents completing the survey. The overall results for the sample of 1,755 households have a
+precision of at least +/-2.3% at the 95% level of confidence.
+To ensure the survey results were representative of the population of the State of Kansas, and to each
+gambling region, data were weighted by age of survey respondents. Regional data were weighted specific to
+each region. The table below displays the goal and actual number of completed surveys by region within the
+State of Kansas.
+Table 3: Target and actual survey sample size by region
+Region Target Sample Size Completed Surveys
+Northeast 400 411
+South Central 400 407
+Southwest 200 222
+Southeast 200 231
+Unassigned (Remainder of the State) 400 484
+Total 1,600 1,755
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 13
+
+=== page 22 ===
+Figure 2: Participation by gambling region
+Participation by Gambling Region
+484, 28% 411, 23%
+231, 13% 407, 23%
+222, 13%
+Northeast South Central Southwest Southeast Unassigned
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 14
+
+=== page 23 ===
+Survey Results
+Initial results from the 2017 Kansas Gambling Survey were provided to the Kansas Problem Gambling
+Coalition and the four regional Problem Gambling Task Forces in December, 2017. Tailored regional and
+state reports were used to assess needs as part of a strategic planning process. Data compared 2017
+survey results with those from the 2012 survey where applicable. A copy of the State’s Coalition report can
+be found in Appendix II.
+Demographics
+A total of 1,755 Kansas adults completed the 2017 Kansas Gambling Survey. The survey asked individuals
+to report demographic data regarding age, race, marital status, level of education, household income,
+employment status, and military service. The percentage of respondents in each demographic category are
+presented below.
+Summary of Findings
+Participants tended to be White (86.4%), married (60.5%), well educated (53.9% had a two-year, four-year, or
+graduate degree), and had an average age of 46, and average household income of $40,000 - $59,999.
+Survey participant demographic data were similar to those reported by the United States Census for Kansas.
+While the data were weighted across the six age categories to ensure accurate representation, no other
+adjustments were made.
+Table 4: State demographic data by type
+Type 2017 Kansas Kansas Census Data
+Gambling Survey
+Race/White 86.4% 86.5%
+Marital Status/Married 60.5% 53.0%
+Level of Education/Bachelors or > 42.0% 31.6%
+Level of Education/High school graduate or > 95.7% 90.3%
+Median Household Income $40,000 - $59,999 $53,571
+Employment Status/Employed 65.4% 62.5%
+Median Age 46.0% 36.2%
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 15
+
+=== page 24 ===
+Age
+The range of respondent age was 19 to 99. The average age was 46. To help ensure survey results were
+representative of the state of Kansas, data were weighted by age. Regional data were also weighted specific
+to each region. As a result, survey respondent age was fairly evenly distributed among all age groups 18 and
+over as demonstrated below.
+Figure 3: Weighted age of survey participants
+How old are you?
+Weighted age groups
+18% 13%
+18%
+16%
+16%
+19%
+18 to 24 25 to 34 35 to 44 45 to 54 55 to 64 65 or older
+Race
+Most respondents reported their race as White (86.4%). Approximately six percent of respondents identified
+as Black and 4.0% as multi-racial. Fewer respondents identified as Asian, Native American/Alaskan Native,
+and Native Hawaiian/Pacific Islander. Just over ninety-one percent of respondents indicated they were not
+of Hispanic origin.
+Figure 4: Participant-identified race
+Race
+4.0%
+1.2% 2.5% African American / Black
+5.6%
+0.3%
+White
+Native Hawaiian / Pacific
+Islander
+Native American / Alaska
+Native
+Asian
+86.4%
+Multi-Racial
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 16
+
+=== page 25 ===
+Table 5: Participant-identified race. Percentage of responses by region.
+Kansas South Balance of
+Race Northeast Southwest Southeast
+Overall Central State
+Caucasian or White 86.4 82.9 81.3 91.9 92.0 86.8
+African American or Black 5.6 11.1 10.1 1.4 0.4 2.2
+Native Hawaiian/Pacific Islander 0.3 0.5 0.0 0.5 0.4 0.2
+Native American/Alaska Native 1.2 0.3 1.3 1.0 0.0 2.9
+Asian 2.5 3.9 0.5 5.3 0.0 3.4
+Multi-Racial 4.0 1.3 6.7 0.0 7.1 4.5
+Marital Status
+More than half of those responding were married (60.5%). Several also indicated they had never been
+married (16.5%). Fewer respondents reported being divorced (14.0%), widowed (7.4%), or separated from
+their spouse (1.6%).
+Figure 5: Participant marital status
+Marital Status
+16.5%
+Married
+7.4%
+Separated
+14.0% 60.5%
+Divorced
+1.6%
+Widowed
+Never been married
+Table 6: Participant marital status. Percentage of responses by region.
+Kansas South Balance of
+Response Northeast Southwest Southeast
+Overall Central State
+Married 60.5 65.3 56.4 71.6 48.7 59.8
+Separated 1.6 1.0 0.7 0.9 3.0 2.1
+Divorced 14.0 12.6 16.8 12.4 17.4 12.4
+Widowed 7.4 6.7 7.7 4.1 7.8 8.8
+Never been married 16.5 14.5 18.3 11.0 23.0 16.9
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 17
+
+=== page 26 ===
+Education Level
+The highest percentage of respondents indicated they had completed a Bachelor’s Degree (24.1%) with
+some others indicating they had completed some college (20.5%). Fewer respondents answered they had
+completed high school or less (18.7% total).
+Figure 6: Participant education
+Highest Level of Education Completed
+8th grade or less 0.8%
+High school incomplete 3.5%
+High school complete 14.4%
+Vocational/Technical/Certificate 5.9%
+Some College 20.5%
+Associates (2-year) Degree 11.9%
+Bachelor's Degree 24.1%
+Graduate Degree 17.9%
+Other 1.0%
+(%) Responding
+Table 7: Participant education. Percentage of responses by region.
+Kansas South Balance of
+Response Northeast Southwest Southeast
+Overall Central State
+8th grade or less 0.8 1.0 0.5 1.4 0.4 0.9
+High school incomplete 3.5 3.7 4.2 2.8 3.1 2.6
+High school complete 14.4 8.7 17.5 13.1 11.9 19.4
+Vocational/Technical/Certificate 5.9 3.5 8.5 4.2 4.0 7.3
+Some College 20.5 15.7 20.0 19.7 27.3 20.5
+Associates (2-year) Degree 11.9 12.5 8.7 16.9 12.3 11.1
+Bachelor's Degree 24.1 30.7 23.9 27.2 19.8 21.2
+Graduate Degree 17.9 24.2 14.5 14.6 20.3 15.2
+Other 1.0 0.0 2.2 0.0 0.9 1.9
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 18
+
+=== page 27 ===
+Income
+Over one fourth of participants (26.1%) reported household income between $75,000 and $149,999. This
+was consistent across all Gambling Regions with the exception of the Southeast region. Higher reported
+income is likely associated with the higher reported education of the survey participants and higher median
+age.
+Figure 7: Household income
+Household Income
+$150,000 or more 7.7%
+$75,000 to $149,999 26.1%
+$60,000 to $74,999 12.1%
+$50,000 to $59,999 10.4%
+$40,000 to $49,999 11.7%
+$30,000 to $39,999 11.5%
+$20,000 to $29,999 11.0%
+Under $20,000 9.4%
+(%) Responding
+Table 8: Household income. Percentage of responses by region.
+Kansas South Balance of
+Response Northeast Southwest Southeast
+Overall Central State
+Under $20,000 9.4 3.6 13.3 14.9 11.6 10.1
+$20,000 to $29,999 11.0 10.6 12.8 8.4 10.7 9.0
+$30,000 to $39,999 11.5 10.9 9.9 7.9 16.0 13.0
+$40,000 to $49,999 11.7 9.6 8.6 9.4 14.7 13.4
+$50,000 to $59,999 10.4 7.8 10.2 9.4 17.3 9.5
+$60,000 to $74,999 12.1 10.9 13.0 13.4 9.3 13.4
+$75,000 to $149,999 26.1 30.9 25.3 28.2 18.2 26.7
+$150,000 or more 7.7 15.6 7.0 8.4 2.2 4.8
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 19
+
+=== page 28 ===
+Employment Status
+Most respondents were employed full-time at the time of administration (55.4%). More than twenty percent
+of respondents were retired (20.8%). Only 2.2% of respondents were not currently employed and not
+currently seeking employment.
+Figure 8: Employment status
+Employment Status
+6.4%
+Employed full-time
+Employed part-time
+20.8%
+Not currently employed, but seeking
+55.4%
+employment
+Not currently employed, not currently
+5.2%
+10.0% seeking employment
+2.2% Retired
+Other
+Table 9: Employment status. Percentage of responses by region.
+Kansas South Balance of
+Response Northeast Southwest Southeast
+Overall Central State
+Employed full-time 55.4 59.4 51.6 53.5 53.3 55.6
+Employed part-time 10.0 8.8 13.7 13.1 11.8 7.5
+Not currently employed, but 2.2
+2.0 2.3 1.9 3.1 1.3
+seeking employment
+Not currently employed, not 5.2
+3.8 5.6 1.4 5.2 8.1
+seeking employment
+Retired 20.8 21.3 20.0 16.9 21.4 20.9
+Other 6.4 4.8 6.8 13.1 5.2 6.6
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 20
+
+=== page 29 ===
+Military Status
+Only 8.9% of those responding reported current or past service in a branch of the United States military.
+Just over thirty-nine percent (39.1%) of those reporting military service indicated deployment to an active
+combat zone.
+Figure 9a: Military service Figure 9b: Active combat
+Are you currently serving, or have you Were you ever deployed to an active
+ever served, in a branch of the combat zone?
+United States military?
+8.9%
+39.1%
+60.9%
+90.8%
+Yes No Yes No
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 21
+
+=== page 30 ===
+Gambling Prevalence
+Participants were first asked if they had gambled for money or anything of value in the past 30 days. Figure
+10a shows that nearly twenty percent of participants reported past 30-day gambling. Participants were then
+asked if they had engaged in specific gambling activities such as casino gaming machines, game upgrades,
+betting on team sports or fantasy sports leagues, casino table games, bingo, cards, lottery, etc. Figure 10b
+demonstrates that forty-eight percent of participants reported engaging in specific gambling activities. This
+is twice as much than reported gambling in the past 30 days. For example, twenty-five percent (24.9%) of
+individuals who said ‘no’ when asked if they gambled in the past 30 days, also said ‘yes’ when asked if they
+played a state lottery or multi-state lottery. Similarly, six percent (6.4%) of participants who reported not
+gambling reported paying for phone or computer credits, or upgrades. This would indicate many people do
+not consider playing the lottery or paying for computer credits to be forms of gambling.
+To more accurately represent the prevalence of gambling in Kansas, data reported in the current study
+includes results from participants who reported they had gambled in the past 30 days or had engaged in any
+type of past 30-day gambling activity.
+Summary of Findings
+o Participants engaged in gambling activities they may not have considered to be gambling.
+o Forty-eight percent (48%) of participants reported engaging in gambling activity in the 30 days prior
+to the survey.
+o There was little difference in the demographic make-up of participants that reported gambling in
+the past 30-days and participants that did not. For both groups, the majority were married (59.7%),
+employed full-time (56.2%), were well educated, and had high household income. There was no
+significant difference in past-30 day gambling between those in military service and those not in
+military service.
+o When asked about gambling frequency, 43% of participants said they ‘never’ gambled, 41.3%
+reported ‘seldom,’ 12.7% reported ‘occasionally,’ and 3.1% reported ‘often’ or ‘very often.’
+Figure 10a: Past 30-day gambling Figure 10b: ANY past 30-day gambling activity
+In the past 30 days, have you gambled ANYPast 30-Day Gambling Activity
+for money or anything of value?
+48.0%
+19.6% 52.0%
+80.4%
+Yes, have gambled in the past 30 days No Yes, have gambled in the past 30 days No
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 22
+
+=== page 31 ===
+Table 10: Have you gambled for money or anything of value in the past 30 days? Percentage of responses by region.
+Response Kansas Northeast South Southwest Southeast Balance of
+Overall Central State
+Yes 19.6 17.7 19.4 13.6 25.6 19.3
+No 80.4 82.3 80.6 86.4 74.4 79.9
+Table 11: ANY reported past 30-day gambling activity. Percentage of responses by region.
+Response Kansas Northeast South Southwest Southeast Balance of
+Overall Central State
+Yes 48.0 53.1 53.0 41.3 53.1 40.5
+No 52.0 46.9 47.0 58.7 46.9 59.5
+Figure 11: Frequency of gambling
+When you think about the activities you have participated in that involve
+betting or wagering money or possessions, would
+you say that you bet or gamble:
+42.9%
+41.3%
+g
+n
+id
+n
+o
+p
+s
+e
+R 12.7%
+)%
+( 2.4%
+0.7%
+Never Seldom Occasionally Often Very Often
+Table 12: Frequency of gambling. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Never 42.9 42.7 40.2 49.3 38.1 45.8
+Seldom 41.3 42.7 40.2 37.5 43.5 40.1
+Occasionally 12.7 10.3 16.3 9.5 16.4 11.7
+Often 2.4 3.6 2.4 3.0 1.3 1.8
+Very Often 0.7 0.8 0.8 0.7 0.7 0.6
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 23
+
+=== page 32 ===
+“Problem” Gambling Terminology
+An important aspect of the 2012 Kansas statewide gambling survey2 was to provide an estimate of the
+number of Kansans at risk for problem gambling and to explore relationships between problem gambling
+risk and a number of variables. One historical challenge when discussing ‘problem gambling’ is the lack of
+standardized terminology in the field. Terms including ‘disordered gambling,’ ‘compulsive gambling,’
+‘addictive gambling,’ and ‘pathological gambling’ have been used. The term ‘problem gambling’ is typically
+used in the most general sense. It is often used to include the idea of pathological gambling as well as less
+severe forms of disordered gambling. For use in the Kansas 2012 study, the term ‘problem gambling’ was
+defined as ‘characterized by difficulties in limiting money and/or time spent on gambling which leads to
+adverse consequences for the gambler, others, or for the community.’3The same definition was applied to
+the current Kansas 2017 study. Essentially, a problem gambler is someone with a pattern of excessive
+gambling, impaired control over his or her gambling behavior, significant negative consequences deriving
+from this impaired control, and persistence in excessive gambling despite these negative consequences.
+Problem gambling is assumed to have varying degrees of severity, ranging from mild, moderate, to severe.
+At the time of the 2012 study, severe problem gambling was formally recognized by the American
+Psychiatric Association (APA) as clinical ‘pathological gambling’ if the gambler met certain diagnostic
+criteria. In May of 2013, the APA released a new edition of the Diagnostic and Statistical Manual (DSM) 5.0,
+where Pathological Gambling had been renamed Gambling Disorder and had been reclassified from an
+‘Impulse-Control Disorder Not Elsewhere Classified’ to one of the ‘Substance-Related and Addictive
+Disorders.’4 This change helped clarify the diagnosis and treatment of Gambling Disorders. It also helped
+increase its recognition and to improve research efforts. This change also reflects recognition of the
+similarities between pathological gambling behavior and addiction to substances.5
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 24
+
+=== page 33 ===
+Problem Gambling Risk Indicator Categories
+The current study follows the criteria used in 2012. In the 2012 report, survey findings are reported
+according to three problem gambling risk categories listed below in Table 13. The problem gambling risk
+categories were developed based on survey responses to specific behaviors, beliefs, and attitudes toward
+gambling. Because all gamblers are at some level of risk of developing a gambling problem, even those
+respondents who did not endorse any problem gambling screening question, were classified within a risk
+category, specifically ‘low risk.’ The other two risk categories, ‘moderate risk’ and ‘high risk’ were defined
+based upon participant responses on nine problem gambling screening questions (See Table 14).
+Table 13: Problem gambling risk categories
+Risk Category Number of “positive” responses to problem gambling screening questions
+Low No “positive” (Yes) responses to any problem gambling screening questions
+Moderate / Mid One to three “positive” responses per respondent
+High Four or more “positive” responses per respondent
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 25
+
+=== page 34 ===
+Problem Gambling Screening Questions
+Following the protocol used in the Kansas 2012 Statewide Survey2, endorsement of any problem gambling
+screening question suggests a heightened risk for problem gambling development or manifestation. As the
+number of endorsements increase, so does the risk for developing or manifesting a gambling disorder. The
+‘low, moderate, and high’ risk categories used in the 2012 and 2017 studies were chosen to categorize
+groups rather than to describe actual risk. That is, if a person endorsed three problem gambling screening
+questions, although they are categorized in the ‘moderate’ or ‘mid’ risk group, their actual odds of
+manifesting a gambling disorder are considerable. According to the 2012 report, this can be exemplified by
+research on the NODS CLiP.6The NODS CLiP is derived of a subset of questions from the 17-item NORC
+Diagnostic Screen for Gambling Disorders (NODS), a validated DSM-IV-based instrument.7Toce-Gerstein,
+Gerstein, and Volberg (2009) found that three NODS questions pertaining to loss of Control, Lying, and
+Preoccupation (the ‘CLiP’), identified virtually all pathological gamblers and most problem gamblers
+diagnosed by the complete NODS. In the present study, all three NODS CLiP questions were included, two
+verbatim and one paraphrased, in the set of nine problem gambling screening questions. The NODS CliP
+questions are:
+o Have you ever tried to stop, cut down, or control your gambling?
+o Have you ever lied to family members, friends or others about how much you gamble or
+how much money you lost on gambling?
+o Have there been periods lasting 2 weeks or longer when you spent a lot of time thinking
+about your gambling experiences, or planning out future gambling ventures or bets?
+Research on the NODS CLiP found that if a person endorsed any of the three questions, there is an 88%
+probability he or she has or had a gambling disorder.6
+The problem gambling screening questions used in the 2012 and 2017 surveys were derived from two
+problem gambling screening instruments, the 17-item NORC Diagnostic Screen for Gambling Disorders
+(NODS) 8and the 9-item Problem Gambling Severity Index (PGSI).9 Although examining for the prevalence of
+problem gambling was an important component of this survey, the greater purpose was to assess public
+behaviors and attitudes towards gambling and relationships to broader behavioral health. For this reason,
+the complete NODS and PGSI instruments were not utilized to ensure survey length allowed for the
+examination of linkages to physical health, mental health, and substance use without leading to concerns
+over respondent fatigue.
+Table 14: Problem gambling screening questions
+Problem Gambling Screening Question Source
+Have you ever bet more than you could afford to lose? Variation of question # 1 from
+PGSI
+Have people ever criticized your betting or told you that you have a PGSI, question #6
+gambling problem, regardless of whether or not you thought it was true?
+Has your gambling ever caused you any health problems, such as stress Variation of question #8 from
+and anxiety? PGSI
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 26
+
+=== page 35 ===
+Have you ever thought you might want to cut back on the amount of time Variation of question #1 from
+or money you spend betting or wagering? NODS CLiP
+Have you ever lied to family members, friends or others about how much Question #2 from NODS CLiP
+you gamble or how much money you lost gambling?
+Have there been periods lasting 2 weeks or longer when you spent a lot of Question #3 from NODS CLiP
+time thinking about your gambling experiences, or planning out future
+gambling ventures or bets?
+Has your gambling ever caused serious or repeated problems in your Variation of question #12 from
+relationships with any of your family members or friends? NODS
+Has your gambling ever interfered with your productivity, such as missing Variation of questions #13 &
+time from work or school, or having it interfere with your performance #14 from NODS
+while at work or school?
+How often have you felt you have a problem with gambling? Question #5 from PGSI
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 27
+
+=== page 36 ===
+Problem Gambling Screening Results
+Based on the terminology and categories defined above, the results from the screening questions are
+presented below. Following the summary of findings, this section shows the participant demographic of risk
+of developing a gambling problem based on the screening questions. The next figure shows screening
+questions and responses by participants in the moderate and high risk categories. Low risk, by definition
+(no positive responses to any screening questions), are not included. The section concludes with the
+prevalence of any past 30-day gambling activity by problem gambling risk category.
+Summary of Findings
+o The vast majority of study participants (87.2%) responded with no ‘positive’ (yes) responses to the
+problem gambling screening questions indicating they are at ‘low risk’ of developing a gambling
+problem. Just over ten percent (10.1%) of participants would be considered in the ‘moderate risk’
+category answering positively to one to three of the screening questions, and 2.7% are classified as
+‘high risk’ by responding positively to four or more screening questions.
+o For participants in the highest risk category, almost ninety-seven percent (96.9%) reported they
+have lied about how much they gamble, 95.9% have thought they might want to cut back on the
+amount of time or money they spend betting or wagering, and 87.3% have bet more than they could
+afford to lose.
+o Lying about how much they gambled proved to be the largest difference between participants in the
+moderate (18.1%) versus high (96.9%) risk category. Reported health problems such as stress and
+anxiety caused by gambling was the second largest difference between participants in moderate
+(9.7%) versus high (62.9%) risk categories.
+o Of those who reported any gambling in the past 30 days, just over six percent (6.1%) were in the
+high problem gambling risk category, 17.4% were at moderate risk, and 76.5% low risk.
+Figure 12: Participant level of risk of developing a gambling problem. Responses by risk category.
+Participant Level of Demographic Risk of Developing a Gambling
+Problem by Risk Category
+10.1% 2.7%
+87.2%
+Low Risk Moderate Risk High Risk
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 28
+
+=== page 37 ===
+Table 15: Percentage of problem gambling by risk category. Responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Low risk 87.2 86.1 86.5 92.6 81.5 88.8
+Moderate risk 10.1 9.6 11.7 7.4 12.8 10.0
+High risk 2.7 4.3 1.8 0.0 5.7 1.3
+Figure 13: Problem gambling screening questions by risk category
+Problem Gambling Screening Questions by Risk Cateogry
+95.9% 96.9%
+87.3%
+71.4%
+g 62.9%
+n
+id 53.6%
+n 51.0%
+o
+p
+s e 39.3% 38.2%
+R
+)%
+22.1%
+( 13.7% 18.1% 13.5%
+9.7%
+2.8% 1.2%
+Bet more Been Gambling Thought you Have you Spent a lot of Caused Interfered
+than you criticized by caused want to cut ever lied time thinking serious with your
+could afford others for health back about how about problems in productivity
+to loose your problems much you gambling or your
+gambling gamble planning out relationships
+future
+gambling
+Moderate Risk High Risk
+The majority of participants did not engage in gambling activities in the month prior to the survey. While the
+chart above shows the percentage of all study participants based on their responses to the problem
+gambling screening questions, it does not indicate that they have participated in gambling activities in the
+past 30 days (e.g. 2.7% of all participants are classified as high risk but of the subset of participants who
+gambled in the past 30 days, 6.1% were at high risk). The figure below, shows the percentage of participants
+that did report any form of gambling in the past 30 days that fall into each problem gambling risk category.
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 29
+
+=== page 38 ===
+Figure 14: Prevalence of ANY reported past 30-day gambling. Responses by risk category.
+Prevalence of Any Gambling in Past 30 Days
+by Problem Gambling Risk Category
+76.5%
+g
+n
+id
+n
+o
+p
+s
+e
+R
+)%
+( 17.4%
+6.1%
+Low risk Moderate risk High risk
+Table 16: Have you ever bet more than you could afford to lose? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+Yes 6.3 7.3 7.6 1.7 8.9 5.2
+No 93.7 92.7 92.4 98.3 91.1 94.8
+Table 17: Have people ever criticized your betting or told you that you have a gambling problem? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+Yes 3.9 3.2 2.6 2.8 7.0 2.5
+No 96.1 96.8 97.4 97.2 93.0 97.5
+Table 18: Has your gambling ever caused you any health problems such as stress and anxiety? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+Yes 2.7 3.3 2.2 2.5 4.6 2.0
+No 97.3 96.7 97.8 97.5 95.4 98.0
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 30
+
+=== page 39 ===
+Table 19: Have you ever thought you might want to cut back on the amount of time or money you spend betting or wagering?
+Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+Yes 8.0 9.4 8.3 3.1 10.4 6.8
+No 92.0 90.6 91.7 96.9 89.6 93.2
+Table 20: Have you ever lied to family members, friends, or others about how much you gamble? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+Yes 4.4 6.8 3.9 0 7.1 2.8
+No 95.6 93.2 96.1 100.0 92.9 97.2
+Table 21: Have there been periods lasting 2 weeks or longer when you spent a lot of time thinking about your gambling experiences or
+planning out future gambling ventures or bets? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+Yes 2.7 3.7 1.0 0.2 6.6 1.8
+No 97.3 96.3 99.0 99.8 93.4 98.2
+Table 22: Has your gambling ever caused serious or repeated problems in your relationships? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+Yes 1.3 2.4 1.7 1.3 0.7 0.5
+No 98.7 97.6 98.3 98.7 99.3 99.5
+Table 23: Has your gambling ever interfered with your productivity or performance while at work or school? Percentage of responses
+by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+Yes 0.7 1.1 1.2 0.0 0.7 0.4
+No 99.3 98.9 98.8 100.0 99.3 99.6
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 31
+
+=== page 40 ===
+Supplemental Problem Gambling Questions
+The survey asked four additional questions related to problem gambling or the personal impact it might
+have. While these were not included in the risk screening calculations, the results contribute to greater
+understanding of gambling impact in Kansas.
+Summary of Findings
+o Almost thirteen percent (12.8%) of participants indicated they felt like they would like to stop
+gambling in the past year, but didn’t think they could.
+o Just over sixty-one percent (61.1%) of participants in the high risk category indicated that in the last
+year, they felt like they would like to stop gambling, but didn’t think they could. Almost twenty-one
+percent (20.6%) felt this way ‘a few times in the past year’, and 21.6% indicated they felt this
+‘almost every day.’
+o While the desire to stop gambling but not being able to is not a problem gambling screening
+question, it is interesting to note that almost nine percent (8.7%) of participants in the low risk also
+indicated they would like to stop gambling but didn’t think they could. This may indicate that even
+though they aren’t being deceptive about their gambling or betting more than they can afford to
+lose, their gambling behavior is impacting their lives in a way they can’t control.
+o Overall, 10% of participants reported being personally affected by the gambling behavior of a family
+member, 6% by a friend and 3% by a co-worker. The percentages differ widely across risk
+categories. For example, 33.5% of participants in the high risk category reported being personally
+affected by the gambling behavior of a family member compared to just 8% in the low risk category.
+Figure 15: In the past 12 months, how many times (if any) have you felt like you would like to stop gambling, but didn’t think you could?
+In the past 12 months, how many times (if any) have you felt like you
+would like to stop gambling, but didn't think you could?
+87.2%
+g
+n
+id
+n
+o
+p
+s
+e
+R
+)%
+(
+9.0%
+1.5% 1.9% 0.2% 0.2%
+Never Yes, but not in the A few times in the Once or twice a Once or twice a Almost every day
+past year past year month week
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 32
+
+=== page 41 ===
+Table 24: In the past 12 months, how many times (if any) have you felt like you would like to stop gambling but didn’t think you could?
+Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Never 87.2 86.6 90.4 92.3 77.6 89.5
+Yes, but not in the past 1.5 1.4 0.8 1.5 1.7 1.7
+year
+A few days in the past 1.9 2.5 1.9 1.2 2.1 1.3
+year
+Once or twice a month 0.2 0.0 0.1 0.0 1.2 0.2
+Once or twice a week 0.3 0.0 0.0 0.0 1.0 0.4
+Almost every day 9.0 9.5 6.8 5.0 16.4 6.9
+Figure 16: In the past 12 months, how many times (if any) have you felt like you would like to stop gambling but didn’t think you could?
+Percentage of responses by risk category.
+Desire to Stop Gambling by Risk Category
+90.3%
+Never 75.7%
+38.4%
+0.7%
+Yes, but not in the past year 5.1%
+10.7%
+0.3%
+A few times in the past year 10.6%
+20.6%
+0.0%
+Once or twice a month 0.8%
+4.5%
+0.0%
+Once or twice a week 1.0%
+4.1%
+8.7%
+Almost every day 6.9%
+21.6%
+(%) Responding
+Low Risk Moderate Risk High Risk
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 33
+
+=== page 42 ===
+Figure 17: Supplemental problem gambling questions by risk category.
+Supplemental Problem Gambling Questions
+by Risk Category
+g 61.6%
+n
+id
+n
+o
+p
+s
+e
+R 33.5%
+)%
+( 24.3% 24.5%
+20.4%
+17.4%
+3.6% 11.3%
+9.7% 6.1% 8.0%
+2.9%
+Would like to stop gambling Affected by friend Affected by family Affected by co-worker
+Low Risk Moderate Risk High Risk
+Table 25: Have you personally been affected by the gambling behaviors of a friend / family member / co-worker? Percentage reporting
+‘yes’ by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+Friend 6.0 7.4 10.4 7.0 8.4 6.0
+Family member 10.0 11.0 10.6 8.4 13.9 7.1
+Co-worker 3.0 2.3 3.3 2.0 4.7 3.6
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 34
+
+=== page 43 ===
+Gambling by Type and Frequency of Gambling Activity
+As part of the survey, respondents were asked to classify the amount of time spent on various gambling
+activities in which they may have participated on a scale from ‘none’ to ‘16 or more times’ in the past 30
+days. Fifteen different gambling activities were included in the survey.
+Findings were similar to the 2012 statewide survey, which indicated lottery and machines at a casino were
+the types of gambling most often reported during the past 30 days. In 2017, respondents were more likely to
+indicate they had participated in internet gambling in the past 30 days. In the prior administration, the
+statewide survey did not include a question asking specifically about the purchase of game upgrades.
+Interestingly, purchasing game upgrades appeared in the top three most reported types of past 30 day
+gambling activities.
+A summary of findings is followed by a figure showing percentage of gambling by gambling activity or type.
+Only those with at least one percent reporting activity are shown. The figure is followed by data tables
+showing gambling activities by frequency (number of days in the past 30 days) with a breakdown by
+gambling region. This section concludes by showing gambling activity by problem gambling risk categories.
+Summary of Findings
+o The type of gambling with the largest number of respondents indicating they had participated at
+least once in the past 30 days was lottery (33.6%), followed by machines at a casino (15.0%). This
+was true across problem gambling risk categories.
+o Of those indicating they had played machines at a casino in the past 30 days, most said they had
+done so one to five times (13.4%).
+o Of those indicating they had participated in the lottery in the past 30 days, most said they had done
+so one to five times (28.7%).
+o Only 2.4% of respondents answered they had gambled online at least once in the past 30 days,
+while 8.0% percent of respondents answered they had purchased game upgrades at least once in
+the past 30 days.
+o Very few respondents (less than 1.0% respectively) answered they had bet on horse races, bet on
+dog races, bet on car races, or bet on animal fighting in the past 30 days.
+o Participants in the high risk category reported larger percentages of past 30-day gambling for all
+activities except spending money on game upgrades, betting on team sports, and playing cards for
+money.
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 35
+
+=== page 44 ===
+Figure 18: Past 30-day gambling by type of gambling activity
+Past 30-Day Gambling by Type of Gambling Activity
+50%
+45%
+40%
+33.6%
+35%
+g
+n 30%
+id
+n
+o 25%
+p
+s
+e
+R 20%
+% 15.0%
+15%
+10% 8.0% 7.6% 7.0%
+5.6% 5.2% 4.8% 4.2%
+5% 2.4%
+0%
+State or Gaming Spent Bet on Fantasy Games of Table Played Played Gambled
+multi-state machines money on team sports personal games at a bingo for cards for on the
+lottery at a casino game sports leagues skill casino money money Internet
+upgrades
+Table 26: On how many days in the past 30 days have you played a state lottery game or a multi-state lottery (scratch tickets,
+Powerball, pull-tabs, etc.)? Percentage of responses by region.
+Response Kansas Overall Northeast South Southwest Southeast Balance of
+Central State
+None 66.4 62.7 61.3 70.9 66.5 69.9
+1 to 5 days 28.7 32.2 31.4 25.6 30.9 24.8
+6 to 10 days 2.8 3.3 3.6 1.7 1.9 2.8
+11 to 15 days 0.8 0.6 0.4 1.8 0.7 1.0
+16 or more days 1.3 1.3 3.3 0.0 0.0 1.5
+Table 27: On how many days in the past 30 days have you played gaming machines at a casino? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+None 85.0 85.9 81.3 87.6 76.3 89.4
+1 to 5 days 13.4 11.7 16.2 11.9 20.4 10.2
+6 to 10 days 0.9 1.5 0.9 0.3 1.7 0.4
+11 to 15 days 0.2 0.0 0.8 0.0 0.3 0.0
+16 or more days 0.6 0.9 0.7 0.2 1.3 0.0
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 36
+
+=== page 45 ===
+Table 28: On how many days in the past 30 days have you spent real money on games you can play on your phone or computer to buy
+credits, extra lives, or upgrades? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+None 92.0 91.3 87.0 93.4 91.4 95.6
+1 to 5 days 6.8 6.7 11.5 3.9 8.6 4.4
+6 to 10 days 0.8 1.2 1.0 1.6 0.0 0.0
+11 to 15 days 0.1 0.2 0.0 1.1 0.0 0.0
+16 or more days 0.2 0.6 0.5 0.0 0.0 0.0
+Table 29: On how many days in the past 30 days have you bet money on team sports with friends or through an office pool?
+Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+None 92.4 88.9 91.4 93.7 90.5 95.9
+1 to 5 days 7.1 10.5 8.5 5.2 9.5 3.3
+6 to 10 days 0.4 0.4 0.0 1.1 0.0 0.6
+11 to 15 days 0.0 0.0 0.0 0.0 0.0 0.0
+16 or more days 0.1 0.1 0.2 0.0 0.0 0.1
+Table 30: On how many days in the past 30 days have you participated in fantasy sports leagues that involve money, valuables, or
+status? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+None 93.0 89.4 91.2 96.3 90.3 96.8
+1 to 5 days 5.6 8.5 6.4 2.3 8.6 2.7
+6 to 10 days 0.3 0.8 0.0 0.2 0.0 0.2
+11 to 15 days 0.2 0.4 0.0 0.0 1.1 0.0
+16 or more days 0.8 0.9 2.4 1.1 0.0 0.2
+Table 31: On how many days in the past 30 days have you bet on games of personal skill (such as pool, bowling, video games,
+basketball, or golf) with friends or family? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+None 94.4 93.5 91.4 95.1 93.5 97.0
+1 to 5 days 5.0 5.9 8.4 3.9 6.5 2.0
+6 to 10 days 0.6 0.6 0.0 0.7 0.0 1.1
+11 to 15 days 0.0 0.0 0.0 0.2 0.0 0.0
+16 or more days 0.0 0.0 0.2 0.0 0.0 0.0
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 37
+
+=== page 46 ===
+Table 32: On how many days in the past 30 days have you played table games at a casino (poker, roulette, craps, blackjack, etc.)?
+Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+None 94.8 94.6 93.5 96.5 90.4 96.9
+1 to 5 days 4.7 4.5 6.0 3.0 8.2 3.1
+6 to 10 days 0.3 0.5 0.4 0.3 0.3 0.0
+11 to 15 days 0.2 0.4 0.0 0.2 0.5 0.0
+16 or more days 0.1 0.0 0.2 0.0 0.5 0.0
+Table 33: On how many days in the past 30 days have you played bingo for money or prizes? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+None 95.2 93.3 96.6 99.3 95.4 95.3
+1 to 5 days 4.6 6.2 3.4 0.7 4.6 4.5
+6 to 10 days 0.1 0.5 0.0 0.0 0.0 0.0
+11 to 15 days 0.0 0.0 0.0 0.0 0.0 0.0
+16 or more days 0.1 0.0 0.0 0.0 0.0 0.2
+Table 34: On how many days in the past 30 days have you played cards for money or possessions with friends or family, outside of a
+casino? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+None 95.8 96.5 95.7 98.1 93.6 95.2
+1 to 5 days 4.0 3.5 3.7 1.9 6.4 4.4
+6 to 10 days 0.1 0.0 0.4 0.0 0.0 0.1
+11 to 15 days 0.0 0.0 0.0 0.0 0.0 0.1
+16 or more days 0.1 0.0 0.2 0.0 0.0 0.3
+Table 35: On how many days in the past 30 days have you gambled on the internet? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+None 97.6 97.6 96.8 96.8 98.1 97.9
+1 to 5 days 1.4 1.8 1.6 0.7 1.9 1.0
+6 to 10 days 0.2 0.1 0.0 1.4 0.0 0.2
+11 to 15 days 0.2 0.0 0.0 0.0 0.0 0.4
+16 or more days 0.6 0.5 1.5 1.1 0.0 0.5
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 38
+
+=== page 47 ===
+Table 36: On how many days in the past 30 days have you bet money on horse races? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+None 99.2 98.2 100.0 98.8 100.0 99.8
+1 to 5 days 0.8 1.8 0.0 1.2 0.0 0.2
+6 to 10 days 0.0 0.0 0.0 0.0 0.0 0.0
+11 to 15 days 0.0 0.0 0.0 0.0 0.0 0.0
+16 or more days 0.0 0.0 0.0 0.0 0.0 0.0
+Table 37: On how many days in the past 30 days have you bet money on dog races? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+None 99.4 99.8 97.6 99.7 100.0 99.9
+1 to 5 days 0.6 0.2 2.4 0.3 0.0 0.1
+6 to 10 days 0.0 0.0 0.0 0.0 0.0 0.0
+11 to 15 days 0.0 0.0 0.0 0.0 0.0 0.0
+16 or more days 0.0 0.0 0.0 0.0 0.0 0.0
+Table 38: On how many days in the past 30 days have you bet money on animal fighting such as dog or cock fighting? Percentage of
+responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+None 99.6 99.8 99.8 99.0 100.0 99.5
+1 to 5 days 0.3 0.2 0.1 1.0 0.0 0.5
+6 to 10 days 0.0 0.0 0.1 0.0 0.0 0.0
+11 to 15 days 0.0 0.0 0.0 0.0 0.0 0.0
+16 or more days 0.0 0.0 0.0 0.0 0.0 0.0
+Table 39: On how many days in the past 30 days have you bet money on car races? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+None 99.7 99.8 99.0 99.7 100.0 99.8
+1 to 5 days 0.3 0.2 1.0 0.3 0.0 0.1
+6 to 10 days 0.0 0.0 0.0 0.0 0.0 0.1
+11 to 15 days 0.0 0.0 0.0 0.0 0.0 0.0
+16 or more days 0.0 0.0 0.0 0.0 0.0 0.0
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 39
+
+=== page 48 ===
+Figure 19: Gambling activities by risk category.
+Gambling Activities by Risk Category
+62.3%
+g 59.0%
+n 57.5%
+id
+n
+o
+p
+s
+e 39.6%
+R
+)%30.2%
+30.2% 22.5% 29.3%
+( 26.7% 27.2%
+19.8% 21.0% 20.9% 18.8%
+17.0%
+11.0% 14.9% 15.2% 11.9% 11.0% 11.0%
+6.1% 5.6% 4.7% 4.0% 3.4% 3.3% 2.5% 1.8 5 % .8%
+Played Gaming Spent Bet on team Fantasy Games of Table Played Played Gambled on
+lottery machines at money on sports sports personal games at a bingo for cards for the internet
+a casino game leagues skill casino money money
+upgrades
+Low Risk Moderate Risk High Risk
+Table 40: Gambling activity by risk category. Percentage of responses.
+Casino gaming Fantasy sports
+Response Played lottery Game upgrades Bet on team sports
+machines leagues
+Low Risk 30.2 11.0 6.1 5.6 4.7
+Moderate Risk 57.5 39.6 19.8 22.5 20.9
+High Risk 62.3 59.0 30.2 21.0 26.7
+Gambled on the
+Response Casino table games Bingo Cards with friends
+internet
+Low Risk 3.4 3.3 2.5 1.8
+Moderate Risk 15.2 11.9 17.0 5.8
+High Risk 29.3 27.2 11.0 11.0
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 40
+
+=== page 49 ===
+Reasons for Gambling
+Survey respondents were presented with eight potential reasons for gambling and were asked to rate each
+on a four-point scale from ‘very important’ to ‘not at all important.’
+Following the summary of findings, the eight potential reasons for gambling are shown in the figure below.
+This is followed by a breakdown of all responses for each gambling region. The section ends with
+information provided for each problem gambling risk category.
+Summary of Findings
+Percentages below represent those who reported the reason for gambling as ‘important’ or ‘very important.’
+1. For entertainment or fun (50.8%)
+2. To win money (33.8%)
+3. For the excitement or a challenge (32.0%)
+4. To support a worthy cause (27.5%)
+5. Out of curiosity (16.9%)
+6. To win money to use for paying bills (15.5%)
+7. As a distraction from everyday problems (15.0%)
+8. As a hobby (13.7%)
+o More than half of respondents (50.8%) cited entertainment or fun as an important or very important
+reason for gambling, while one third of respondents (33.8%) selected gambling just to win money.
+Similarly, nearly one third of respondents (32.0%) cited the excitement or the challenge as being an
+important reason for gambling.
+o The top three reasons for gambling in the 2017 survey were also included in the top three reasons
+for gambling in the 2012 statewide survey. In fact, the order of importance as indicated by
+respondents changed very little from the 2012 survey to the 2017 survey.
+o Particularly problematic reasons for gambling, including to win money to use for paying bills and as
+a distraction from everyday problems, were selected as important reasons for gambling by
+approximately 15.0% of respondents (15.5% and 15.0% respectively).
+o Reasons for gambling differed by household income. Twenty-seven percent (27%) of participants
+making between $20,000 - $40,000 reported gambling to win money to use for paying bills is a ‘very
+important’ reason to gamble, while less than 3% of participants in higher income groups reported
+the same. Those with a household income of $150,000 or more reported gambling for
+entertainment or fun was an important reason to gamble.
+o For every reason to gamble listed in the survey, level of importance was higher as problem
+gambling risk increased from low to moderate and from moderate to high. The percentage of
+participants in the low risk category reporting the reasons for gambling listed were important
+ranged from 10.4% - 47.5%. The range for moderate risk participants was 15.3% to 70.0% and high
+risk category was 14.3% to 87.2%.
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 41
+
+=== page 50 ===
+Figure 20: Percentage of participants rating reasons for gambling as ‘important’ or ‘very important.’
+Participants Rating Reasons for Gambling as 'Important'
+or 'Very Important'
+50.9%
+g n 33.7%
+id 32.0%
+n
+o p 27.5%
+s
+e
+R
+)%
+(
+16.9%
+15.5% 15.0%
+13.7%
+Excitement or as a As a hobby Just to win money Win money for To support worthy Out of curiosity Entertainment or Distraction from
+challenge paying bills causes fun problems
+Table 41: Importance of gambling: for entertainment or fun. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Not at All Important 29.4 28.3 26.7 28.7 23.9 35.9
+Not Very Important 19.7 19.3 19.0 26.8 15.5 19.4
+Important 35.8 34.2 36.6 37.5 40.3 33.6
+Very Important 15.0 18.2 17.7 7.0 20.4 11.1
+Table 42: Importance of gambling: just to win money. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Not at All Important 43.0 42.2 37.7 46.0 37.1 49.5
+Not Very Important 23.3 22.0 22.3 29.9 19.4 23.6
+Important 25.6 25.2 32.6 21.4 26.2 22.5
+Very Important 8.2 10.5 7.3 2.6 17.4 4.4
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 42
+
+=== page 51 ===
+Table 43: Importance of gambling: for excitement or as a challenge. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Not at All Important 42.6 43.1 42.6 39.0 37.3 45.3
+Not Very Important 25.4 24.0 20.9 31.9 26.3 28.2
+Important 26.7 27.9 30.4 26.3 30.7 21.6
+Very Important 5.3 5.0 6.1 2.8 5.6 4.9
+Table 44: Importance of gambling: to support worthy causes. Percentage of responses by region.
+Response Kansas Northeast South Southwest Southeast Balance of
+Overall Central State
+Not at All Important 51.1 45.7 49.1 53.1 56.9 53.2
+Not Very Important 21.4 24.1 20.7 23.5 27.4 16.4
+Important 23.8 27.4 26.8 20.4 9.6 27.7
+Very Important 3.7 2.8 3.4 3.0 6.2 2.7
+Table 45: Importance of gambling: out of curiosity. Percentage of responses by region.
+Response Kansas Northeast South Southwest Southeast Balance of
+Overall Central State
+Not at All Important 50.7 52.6 41.5 50.3 50.0 57.3
+Not Very Important 32.4 32.4 31.9 35.0 28.9 31.3
+Important 16.0 14.6 25.0 13.3 19.9 11.0
+Very Important 0.9 0.3 1.6 1.3 1.1 0.4
+Table 46: Importance of gambling: to win money to use for paying bills. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Not at All Important 69.0 67.7 68.1 69.5 66.3 71.4
+Not Very Important 15.5 13.2 15.5 24.8 25.4 10.2
+Important 10.2 8.9 12.5 3.9 5.3 15.7
+Very Important 5.3 10.1 4.0 1.8 3.1 2.7
+Table 47: Importance of gambling: as a distraction from everyday problems. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Not at All Important 65.3 63.2 67.2 65.6 64.2 66.5
+Not Very Important 19.7 21.3 18.0 23.5 16.9 19.1
+Important 10.7 11.0 10.7 9.0 8.3 12.2
+Very Important 4.3 4.5 4.1 1.8 10.6 2.2
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 43
+
+=== page 52 ===
+Table 48: Importance of gambling: as a hobby. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Not at All Important 61.5 63.2 59.8 57.7 59.4 61.5
+Not Very Important 24.8 22.9 25.9 29.1 21.4 27.4
+Important 12.0 11.9 13.4 12.9 15.0 9.8
+Very Important 1.6 2.0 0.9 0.2 4.3 1.3
+Reasons for Gambling by Problem Gambling Risk Category
+Table 49 ranks the reasons for gambling by order of importance for each of the three problem gambling risk
+categories. Percentages represent those who reported the reason as ‘important’ or ‘very important.’ The top
+three reasons for all participants were the same and include: 1) for entertainment or fun, 2) just to win
+money, and 3) for the excitement or challenge. Differences by risk between risk categories start to show at
+the fourth reason. Ranked 4th for high risk participants was gambling as a distraction from everyday
+problems and 5th was to win money to use for paying bills. This is quite different from low risk participants
+which ranked those two reasons at the bottom in terms of important reasons to gamble.
+Table 49: Rank order reason for gambling by order of importance. Percentage of responses by risk category.
+Low Risk Moderate Risk High Risk
+1. For entertainment or fun (47.5%) 1. For entertainment or fun (70.0%) 1. For entertainment or fun (87.2%)
+2. Just to win money (29.8%) 2. Just to win money (55.3%) 2. Just to win money (82.8%)
+3. For the excitement or challenge (28.1%) 3. For the excitement or challenge (51.5%) 3. For the excitement or challenge (76.8%)
+4. To support a worthy cause (27.2%) 4. To support a worthy cause (36.6%) 4. As a distraction from everyday problems (72.6%)
+5. As a hobby (10.8%) 5. As a distraction from everyday problems (34.3%) 5. To win money to use for paying bills (42.9%)
+6. Out of curiosity (15.6%) 6. As a hobby (28.5%) 6. As a hobby (42.3%)
+7. To win money to use for paying bills (14.5%) 7. Out of curiosity (26.6%) 7. Out of curiosity (29.4%)
+8. As a distraction from everyday problems (10.4%) 8. To win money to use for paying bills (15.3%) 8. To support a worthy cause (14.3%)
+Figure 21: Percentage of participants rating reasons for gambling as ‘important’ or ‘very important.’ Responses by risk category.
+Participants Rating Reasons for Gambling as 'Important' or 'Very
+Important' by Risk Category
+87.2%
+82.8%
+76.8%
+72.6%
+70.0%
+g
+n
+id
+51.5%
+55.3%
+n
+o 47.5%
+p 42.3% 42.9%
+s e R )% 28.1% 28.5% 29.8% 15.3% 27.2% 36.6% 26. 2 6 9 % .4% 34.3%
+( 14.5% 14.3%15.6%
+10.8% 10.4%
+Excitement or As a hobby Just to win Win money for To support Out of curiosityEentertainment Distraction
+as a challenge money paying bills worthy causes or fun from problems
+Low Risk Moderate Risk High Risk
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 44
+
+=== page 53 ===
+Gambling Myths and Perceptions
+Survey respondents were presented with six gambling-related myths and four additional gambling
+perceptions. Respondents were asked to rate how much they agreed with each perception on a four-point
+scale from ‘strongly disagree’ to ‘strongly agree.’
+Summary of Findings
+The six gambling myths are listed as follows in order of highest level of agreement as indicated by those
+responding ‘agree’ and ‘strongly agree.’
+1. Playing more than one slot machine improves a person’s odds of winning (13.0%)
+2. Watching the pattern of wins and losses will help a person win (11.8%)
+3. Using personal ‘lucky’ techniques or rituals can help people win (5.0%)
+4. The more a person gambles, the better their odds of coming out ahead (4.2%)
+5. When a person almost wins, it’s a good sign that they are due to win soon (3.0%)
+6. If a person keeps gambling, their luck will change and they’ll win back the money they’ve
+lost (1.7%)
+o Similar to 2012 statewide survey results, the myth with the highest level of agreement is ‘Playing
+more than one slot machine improves a person’s odds of winning’ with 13.0% of respondents
+agreeing.
+o Statistically significant correlations between gambling myths indicate individuals who believe in
+one myth also believe other myths (r values range from .473 to .682, p<.001).
+o In general, agreement with stated gambling myths reduced as reported education level increased.
+o Over one-quarter (26.4%) of participants who agreed using personal ‘lucky’ techniques or rituals can
+help people win, also reported they have bet more than they could afford to lose.
+o Smaller percentages of participants in the low problem gambling risk category agreed with stated
+gambling myths than participants in moderate and high risk categories.
+o Highest level of agreement among low risk participants (11.8%) and moderate risk participants
+(23.1%) was to the myth that playing more than one slot machine improves a persons’ odds of
+winning.
+o Highest level of agreement for participants in the high risk category (46.0%) was for the myth that
+watching the pattern of wins and losses will help a person win.
+o Participants in the moderate and high risk categories were also likely to endorse the myth that
+using personal ‘lucky’ techniques or rituals can help people win.
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 45
+
+=== page 54 ===
+Figure 22: Playing more than one slot machine improves a person's odds of winning
+Playing more than one slot machine improves a
+person's odds of winning.
+44.5%
+42.4%
+g
+n
+id
+n
+o
+p
+s
+e
+R
+)% 11.7%
+(
+1.3%
+Strongly Disagree Disagree Agree Strongly Agree
+Table 50: Playing more than one slot machine improves a person's odds of winning. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Strongly Disagree 44.5 47.7 42.1 46.8 41.3 44.9
+Disagree 42.4 40.1 41.3 41.4 50.1 41.6
+Agree 11.7 11.3 13.8 10.6 7.0 13.1
+Strongly Agree 1.3 0.9 2.8 1.3 1.7 0.4
+Figure 23: Watching the pattern of wins and losses will help a person win.
+Watching the pattern of wins and losses will help a person win.
+44.3% 43.8%
+g
+n
+id
+n
+o
+p
+s
+e
+R
+)% 10.5%
+(
+1.3%
+Strongly Disagree Disagree Agree Strongly Agree
+Table 51: Watching the pattern of wins and losses will help a person win. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Strongly Disagree 44.3 48.0 41.8 48.6 38.1 44.0
+Disagree 43.8 39.6 48.4 40.8 43.5 45.5
+Agree 10.5 10.4 9.1 10.2 14.0 10.1
+Strongly Agree 1.3 1.9 0.6 0.4 4.4 0.3
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 46
+
+=== page 55 ===
+Figure 24: Using personal "lucky" techniques or rituals can help people win.
+Using personal "lucky" techniques or rituals can help people win.
+59.6%
+g
+n
+id
+n 35.4%
+o
+p
+s
+e
+R
+)%
+(
+4.3%
+0.7%
+Strongly Disagree Disagree Agree Strongly Agree
+Table 52: Using personal "lucky" techniques or rituals can help people win. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Strongly Disagree 59.6 63.0 60.0 54.3 55.3 60.1
+Disagree 35.4 31.4 33.9 43.4 36.3 36.7
+Agree 4.3 4.2 6.0 2.3 7.0 2.7
+Strongly Agree 0.7 1.4 0.0 0.0 1.3 0.5
+Figure 25: The more a person gambles, the better their odds of coming out ahead.
+The more a person gambles, the better their odds of
+coming out ahead.
+55.7%
+40.1%
+g
+n
+id
+n
+o
+p
+s
+e
+R
+)%
+(
+2.9%
+1.3%
+Strongly Disagree Disagree Agree Strongly Agree
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 47
+
+=== page 56 ===
+Table 53: The more a person gambles, the better their odds of coming out ahead. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Strongly Disagree 55.7 61.6 54.3 53.3 49.1 55.6
+Disagree 40.1 33.8 42.6 42.8 43.2 41.8
+Agree 2.9 2.8 3.0 3.2 4.1 2.3
+Strongly Agree 1.3 1.8 0.1 0.6 3.5 0.3
+Figure 26: When a person almost wins, it's a good sign that they are due to win soon.
+When a person almost wins, it's a good sign that they
+are due to win soon.
+58.3%
+g
+n
+id 38.6%
+n
+o
+p
+s
+e
+R
+)%
+(
+2.4% 0.6%
+Strongly Disagree Disagree Agree Strongly Agree
+Table 54: When a person almost wins, it's a good sign that they are due to win soon. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Strongly Disagree 58.3 59.3 58.5 53.3 57.9 59.1
+Disagree 38.6 36.1 38.3 44.3 38.0 39.1
+Agree 2.4 3.5 2.4 2.1 3.7 1.3
+Strongly Agree 0.6 1.1 0.8 0.2 0.4 0.5
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 48
+
+=== page 57 ===
+Figure 27: If a person keeps gambling, their luck will change and they'll win back the money they've lost.
+If a person keeps gambling, their luck will change and they'll win back
+the money they've lost.
+65.6%
+g
+n
+id
+n
+o 32.6%
+p
+s
+e
+R
+)%
+(
+1.3% 0.4%
+Strongly Disagree Disagree Agree Strongly Agree
+Table 55: If a person keeps gambling, their luck will change and they'll win back the money they've lost. Percentage of responses by
+region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Strongly Disagree 65.6 64.6 67.0 67.3 63.2 65.9
+Disagree 32.6 33.6 31.2 32.0 35.5 31.7
+Agree 1.3 1.1 1.7 0.2 0.9 2.0
+Strongly Agree 0.4 0.8 0.1 0.4 0.4 0.3
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 49
+
+=== page 58 ===
+Figure 28: Gambling myths by risk category
+Gambling Myths by Risk Category
+46.0%
+g
+n
+id
+n o 24.4%
+p 23.1%
+s
+e
+R
+)%
+18.6%
+16.4%
+(
+12.8%
+11.8% 11.2% 10.6%
+9.0%
+7.3% 7.3% 6.6%
+3.8% 3.6%
+2.3% 1.6%
+1.5%
+The more a person Playing more than When a person If a person keeps Watching the Using personal
+gambles, the better one slot machine almost wins, it's a gambling, their luck pattern of wins and "lucky" techniques
+their odds of comingimproves a person's good sign that they will change and losses will help a or rituals can help
+out ahead odds of winning are due to win soon they'll win back the person win people win
+money they've lost
+Low Risk Moderate Risk High Risk
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 50
+
+=== page 59 ===
+Public Perception of Gambling
+The survey asked four questions about how people felt about gambling. Participants were asked to rate how
+much they agreed with each statement on a four-point scale from ‘strongly disagree’ to ‘strongly agree.’
+Summary of Findings
+o Almost 69% (68.9%) of participants responded with agreement to the statement ‘Gambling is
+dangerous for family life.’ Almost fifty-seven percent (56.9%) agreed gambling is a harmful form of
+entertainment. Forty-three percent (43.5%) agreed that gambling is good for the economy, and
+35.2% said casinos are a good place to socialize.
+o Of the three problem gambling risk categories, the largest percentage of participants agreed
+gambling is dangerous for family life and is a harmful form of entertainment were in the high risk
+category. The second largest percentage of participants was in the low risk category.
+o Participants in the moderate risk category were least likely to think gambling was dangerous or
+harmful. Moderate category participants also comprised the largest percentage stating that
+gambling was good for the economy.
+o Both moderate and high risk category participants were equally likely to agree casinos were a good
+place to socialize.
+o Across all risk categories, the highest percentage of agreement was the perception gambling was
+dangerous for family life. This was reported by 69.2% of participants in the low risk category, 62.3%
+in the moderate risk category, and 80.3% in high risk category.
+o Over half of participants in low risk (58.3%) and high risk (55.7%) agreed gambling is a harmful
+form of entertainment. Less than half of participants in the moderate risk category agreed (42.7%).
+o More participants in the moderate risk category agreed gambling is good for the economy (61.3%)
+than participants in low risk (41.9%) or high risk categories (46.5%).
+Figure 28: Perception: Gambling is dangerous for family life.
+Gambling is dangerous for family life.
+35.4%
+33.5%
+g
+n
+id 21.9%
+n
+o
+p
+s
+e
+R
+)% 9.2%
+(
+Strongly Disagree Disagree Agree Strongly Agree
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 51
+
+=== page 60 ===
+Table 56: Perception: Gambling is dangerous for family life. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Strongly Disagree 9.2 10.5 11.5 10.7 6.3 7.7
+Disagree 21.9 23.3 26.0 17.4 23.4 17.7
+Agree 33.5 34.2 26.6 37.3 34.1 36.5
+Strongly Agree 35.4 32.0 35.9 34.6 36.3 38.2
+Figure 29: Perception: Gambling is a harmful form of entertainment.
+Gambling is a harmful form of entertainment.
+32.5%
+31.1%
+25.8%
+g
+n
+id
+n
+o
+p
+s
+e 10.6%
+R
+)%
+(
+Strongly Disagree Disagree Agree Strongly Agree
+Table 57: Perception: Gambling is a harmful form of entertainment. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Strongly Disagree 10.6 10.0 14.1 11.2 10.2 8.6
+Disagree 32.5 34.7 30.0 31.1 38.9 28.3
+Agree 31.1 30.7 28.8 38.8 28.3 33.6
+Strongly Agree 25.8 24.6 27.1 18.9 22.6 29.5
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 52
+
+=== page 61 ===
+Figure 30: Perception: Gambling is good for the economy.
+Gambling is good for the economy.
+36.4%
+33.6%
+g
+n 22.9%
+id
+n
+o
+p
+s
+e
+R
+)%
+(
+7.1%
+Strongly Disagree Disagree Agree Strongly Agree
+Table 58: Perception: Gambling is good for the economy. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Strongly Disagree 22.9 23.8 19.6 26.5 19.5 24.2
+Disagree 33.6 38.7 28.3 32.5 32.3 34.7
+Agree 36.4 29.6 47.5 36.0 39.1 35.4
+Strongly Agree 7.1 7.9 4.7 4.9 9.1 5.7
+Figure 31: Perception: Casinos are a good place to socialize.
+Casinos are a good place to socialize
+33.5%
+31.3% 31.9%
+g
+n
+id
+n
+o
+p
+s
+e
+R
+)%
+(
+3.3%
+Strongly Disagree Disagree Agree Strongly Agree
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 53
+
+=== page 62 ===
+Table 59: Perception: Casinos are a good place to socialize. Percentage of responses by region.
+Response Kansas Northeast South Southwest Southeast Balance of
+Overall Central State
+Strongly Disagree 33.5 36.6 31.5 36.8 22.6 36.6
+Disagree 31.3 31.6 30.2 36.7 32.3 29.3
+Agree 31.9 30.1 32.4 24.4 41.0 30.9
+Strongly Agree 3.3 1.7 6.0 2.1 4.2 3.2
+Figure 32: Perception of gambling. Responses by risk category.
+Perception of gambling by risk category
+80.3%
+69.2%
+62.3% 61.3%
+g 58.3%
+n id 54.4% 55.7%
+n 50.7%
+o 46.5%
+p
+s 42.7% 41.9%
+e
+R
+)% 33.4%
+(
+Casinos are a good place to Gambling is a harmful form of Gambling is dangerous for Gambling is good for the
+socialize entertainment family life economy
+Low Risk Moderate Risk High Risk
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 54
+
+=== page 63 ===
+Awareness of Problem Gambling Treatment
+In Kansas, problem gambling treatment is available to problem gamblers, their family members, and
+concerned others who reside in Kansas at no out-of-pocket cost. Treatment is confidential and effective.
+The State supplements or pays the entire cost of out-patient and/or residential treatment 10.
+A goal of both the 2012 and 2017 Kansas Gambling Surveys was to determine the level of public awareness
+of treatment availability, attitudes toward treatment, knowledge of cost and effectiveness. A series of six
+questions were asked to assess these areas of interest. Respondents were asked to indicate their level of
+agreement based on a four-point scale from ‘strongly disagree’ to ‘strongly agree.’
+Summary of Findings
+o When asked if there is a convenient place to get treatment for problem gambling in their
+community, less than half of participants (43.9%) agreed.
+o Just over half of participants (51.0%) think the average person can’t afford treatment for problem
+gambling.
+o Although the majority of participants do not believe there is a convenient place for treatment and
+believe the average person can’t afford treatment, the majority (79.3%) disagreed with the
+statement “Treatment for problem gambling probably doesn’t work” meaning only 20.8% actually
+don’t think treatment will work.
+o Few participants (13.1%) said they would be embarrassed if a family member needed treatment for
+a gambling problem. Similarly, 13.4% agreed gambling treatment is only for people with serious
+difficulties.
+o Participants in the highest risk category (49.1%) agreed that ‘treatment for a gambling problem
+doesn’t work’ compared to 24.8% in the moderate and 19.3% in the low risk categories.
+o While 32.0% of participants in high risk category agree that treatment is only for people with serious
+difficulties, a larger percentage (37.4%) indicate they do know about gambling treatment options in
+their community compared to 25.4% in moderate and 19.7% in low risk categories.
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 55
+
+=== page 64 ===
+Figure 33: There is no convenient place to get treatment for problem gambling in my community.
+There is no convenient place to get treatment for problem gambling
+in my community.
+42.3%
+g
+n 30.5%
+id
+n
+o
+p
+s
+e
+R
+)%
+13.8% 13.4%
+(
+Strongly Disagree Disagree Agree Strongly Agree
+Table 60: There is no convenient place to get treatment for problem gambling in my community. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Strongly Disagree 13.8 15.7 17.1 14.6 10.8 10.9
+Disagree 42.3 50.7 42.8 35.4 35.8 41.3
+Agree 30.5 23.8 26.0 30.7 36.9 33.9
+Strongly Agree 13.4 9.8 14.0 19.3 16.5 13.8
+Figure 34: The average person can't afford treatment for a gambling problem.
+The average person can't afford treatment for a gambling problem.
+39.0%
+37.5%
+g
+n
+id
+n
+o
+p
+s
+e
+R
+)% 11.6% 12.0%
+(
+Strongly Disagree Disagree Agree Strongly Agree
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 56
+
+=== page 65 ===
+Table 61: The average person can't afford treatment for a gambling problem. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Strongly Disagree 11.6 11.9 12.6 9.5 11.8 10.2
+Disagree 37.5 42.8 37.0 39.2 40.3 31.7
+Agree 39.0 31.7 36.9 40.6 38.5 46.8
+Strongly Agree 12.0 13.7 13.4 10.7 9.3 11.4
+Figure 35: Treatment for a gambling problem probably doesn't work.
+Treatment for a gambling problem probably doesn't work.
+59.5%
+g
+n
+id
+n
+o
+p
+s
+e
+R
+)% 19.8% 17.5%
+(
+3.2%
+Strongly Disagree Disagree Agree Strongly Agree
+Table 62: Treatment for a gambling problem probably doesn't work. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Strongly Disagree 19.8 19.2 17.1 14.8 25.4 21.3
+Disagree 59.5 61.8 62.1 57.4 50.1 60.5
+Agree 17.5 16.6 17.2 26.4 20.6 14.6
+Strongly Agree 3.2 2.4 3.6 1.4 3.9 3.6
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 57
+
+=== page 66 ===
+Figure 36: I would be embarrassed if a family member needed treatment for a gambling problem.
+I would be embarrassed if a family member needed treatment for a
+gambling problem.
+46.0%
+40.8%
+g
+n
+id
+n
+o
+p
+s
+e
+R
+)% 10.7%
+(
+2.4%
+Strongly Disagree Disagree Agree Strongly Agree
+Table 63: I would be embarrassed if a family member needed treatment for a gambling problem. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Strongly Disagree 46.0 48.1 45.0 42.6 49.4 44.5
+Disagree 40.8 38.0 40.8 41.4 40.4 43.0
+Agree 10.7 12.5 12.1 13.4 6.6 9.7
+Strongly Agree 2.4 1.4 2.1 2.7 3.5 2.9
+Figure 37: Gambling treatment is only for people with serious difficulties.
+Gambling treatment is only for people with serious problems.
+53.0%
+g
+n
+id 33.5%
+n
+o
+p
+s
+e
+R
+)%
+( 11.8%
+1.6%
+Strongly Disagree Disagree Agree Strongly Agree
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 58
+
+=== page 67 ===
+Table 64: Gambling treatment is only for those with serious problems. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Strongly Disagree 33.5 34.5 32.2 38.4 30.2 34.7
+Disagree 53.0 52.7 56.1 50.0 56.7 50.1
+Agree 11.8 12.0 9.3 10.5 11.4 13.4
+Strongly Agree 1.6 0.8 2.4 1.1 1.7 1.9
+Figure 38: I know about gambling treatment options in my community.
+I know about gambling treatment options in my community.
+41.1%
+38.1%
+g
+n
+id
+n
+o
+p
+s 17.3%
+e
+R
+)%
+(
+3.5%
+Strongly Disagree Disagree Agree Strongly Agree
+Table 65: I know about gambling treatment options in my community. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Strongly Disagree 41.1 44.1 42.4 29.4 40.5 40.4
+Disagree 38.1 36.6 31.8 44.8 37.5 42.0
+Agree 17.3 17.3 21.9 22.9 15.6 14.6
+Strongly Agree 3.5 2.0 3.9 2.9 6.5 3.0
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 59
+
+=== page 68 ===
+Figure 39: Awareness of gambling treatment (Percent responding ‘Strongly Agree’ & ‘Agree’). Responses by risk category.
+Awareness of Gambling Treatment by Risk Category
+100%
+90%
+80%
+70%
+g
+n 60% 52.9%
+id
+n o 51.0% 49.1%
+p 50%
+s
+e R 40.3%
+) 40%
+37.4%
+%
+( 32.0%
+30% 24.8% 25.4%
+19.3% 20.5% 19.7%
+13.3%
+20%
+13.0% 15.3% 12.1%
+10%
+0%
+The average person Treatment for a I would be Gambling treatment isI know about gambling
+can't afford treatment gambling problem embarrassed if a only for people with treatment options in
+for a gambling probably doesn't workfamily member needed serious difficulties my community
+problem treatment for a
+gambling problem
+Low Risk Moderate Risk High Risk
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 60
+
+=== page 69 ===
+Where to Go for Assistance and Recognizing Signs of Problem Gambling
+Participants were asked two questions about where they would turn to first or go for help if 1) they felt they
+had a gambling problem or 2) someone they knew had a gambling problem. Eleven different response
+options shown in Figure 37 were offered along with an ‘other’ option to write-in responses that were not
+provided. The tables and figures below show participant responses to the first question. Answers were
+similar for both questions, so were not repeated. As determined by the write-in comments on the second
+question, one response option not provided but clearly needed was to talk directly to the person with the
+problem. Over 20 participants wrote in that response. Other common answers were to search the Internet or
+to ‘Google’ help. A few participants stated they would refer people to specific organizations, refer to the
+hotline or they would turn to their church.
+Along the same line, participants were also asked ‘How confident are you that you would be able to
+recognize the signs that you, a friend, a family member, or an acquaintance has a gambling problem?’
+Reponses on a four-point scale included 1) not confident at all, 2) slightly confident, 3) moderately
+confident, and 4) extremely confident.
+Summary of Findings
+o Overwhelmingly, participants reported they would go to their spouse, partner or significant other if
+they felt that they had a gambling problem (46.9%) or if someone they knew had a gambling
+problem (37.2%). Participants also said they would turn to the gambling helpline for a personal
+gambling problem (15.0%) or for that of a friend (18.9%). Going to a friend or other family member
+were also common responses to both questions.
+o Responses differed by problem gambling risk categories. While the highest percentage response
+for those in the low risk and moderate risk was to go to their spouse partner or significant other
+(47.2% and 50.7% respectively), the response with the highest percentage for participants in the
+high risk category was to ‘no one.’ Over thirty percent (30.8%) of participants in the high risk
+category reported they would not seek help from anyone. Second highest response was spouse,
+partner, or significant other (23.9%), and friend (19.2%).
+o Three-fourths of participants (75.9%) reported they felt moderately to extremely confident that they
+would be able to recognize the signs that they, a friend, a family member, or an acquaintance had a
+gambling problem.
+o The largest percentage of participants in both moderate (47.7%) and high (48.3%) risk categories
+felt extremely confident that they could recognize if they or someone they knew had a gambling
+problem. The largest percent of participants in the low risk category (44.5%) reported a moderate
+level of confidence.
+o While participants in the high problem gambling risk category had the largest percentage reporting
+they were ‘extremely confident’ that they could recognize if someone had a gambling problem, this
+group also reported the lowest level of confidence with 10% report ‘not at all confident,’ compared
+to 3.2% of participants in the moderate and 5.8% in the low risk categories.
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 61
+
+=== page 70 ===
+Figure 40: If you felt you had a gambling problem, who would you turn to first or where would you go?
+If you felt you had a gambling problem, who would you tur to first
+or where would you go?
+Spouse, partner or significant other 46.9%
+Gambling helpline (phone number/hotline) 15.0%
+Friend 8.0%
+Other family member 7.1%
+No one 4.8%
+Minister or clergy 4.5%
+Girlfriend or boyfriend 3.1%
+Primary care physician 2.9%
+Psychologist or psychiatrist 2.8%
+Employer's Employee Assistance Program (EAP) 2.5%
+Other 2.2%
+Employer 0.1%
+% Responding
+Figure 41: If you felt you had a gambling problem, who would you turn to first or where would you go? Responses by risk category
+If you felt you had a gambling problem, who would you turn to first
+or where would you go?
+60%
+50.7%
+50% 47.2%
+40%
+g
+n
+id
+n 30.8%
+o
+p 30%
+s
+e 23.9%
+R
+)%
+19.2%
+( 20%
+15.2%14.3%
+11.9% 11.5%
+10% 7.4% 7.2% 6.3%
+5.0%
+3.9%
+0.0%
+0%
+Spouse, partner, or Other family Friend No one Helpline
+significant other member
+Low risk Moderate risk High risk
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 62
+
+=== page 71 ===
+Figure 42: Confidence of recognizing signs of problem gambling
+How confident are you that you would be able to recognize the signs
+that you, a friend, a family member, or an acquaintance
+has a gambling problem?
+42.4%
+33.5%
+g
+n
+id
+n
+o
+p
+s 18.2%
+e
+R
+)%
+(
+5.9%
+Not at all Confident Slightly Confident Moderately Confident Extremely Confident
+Table 66: Confidence of recognizing signs of problem gambling. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Not at all Confident 5.9 6.3 5.9 4.7 5.6 5.7
+Slightly Confident 18.2 17.3 16.3 20.0 16.0 20.7
+Moderately Confident 42.4 43.4 44.2 43.9 32.8 44.1
+Extremely Confident 33.5 33.0 33.7 31.5 45.6 29.5
+Figure 43: Confidence of recognizing signs of problem gambling. Responses by risk category.
+Problem Gambling Recognition by Risk Category
+5.8%
+Not at all Confident 3.2%
+19.0%
+18.4%
+Slightly Confident 16.3%
+10.8%
+44.5%
+Moderately Confident 32.8%
+21.9%
+31.3%
+Extremely Confident 47.7%
+48.3%
+(%) Responding
+Low Risk Moderate Risk High Risk
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 63
+
+=== page 72 ===
+Gambling Promotion and Prevention
+Five questions were asked to assess past year promotion of gambling as well as promotion of problem
+gambling prevention. Questions asked if participants recalled hearing, reading, or watching an
+advertisement for a casino in Kansas, or an advertisement for fantasy sports or gaming in Kansas. Three
+questions asked about help for problem gambling and prevention. These included seeing or hearing
+information regarding assistance for problem gamblers or their families, seeing or hearing the gambling
+helpline (1-800-522-4700), or an advertisement about the prevention of problem gambling.
+Summary of Findings
+Most respondents (61.6%) had seen or heard information regarding assistance for problem gamblers or
+their families.
+o Roughly half of respondents (50.9%) recalled hearing, reading, or watching an advertisement about
+the prevention of problem gambling in the past 12 months.
+o Fewer respondents (57.9%) indicated they had ever seen or heard of the gambling helpline than had
+recalled hearing, reading, or watching an advertisement for a casino in the past 12 months (79.5%).
+o Just more than half of the respondents (52.6%) recalled hearing, reading, or watching an
+advertisement for fantasy sports or gaming in Kansas.
+o Participants in the highest risk category were the largest risk category percentage reporting that
+they had seen or heard an advertisement for a casino located in Kansas (91.6%) and were also the
+largest percentage reporting they had seen or heard of the gambling helpline (81.6%).
+Figure 44: Have you ever seen or heard information regarding assistance for problem gamblers or their families?
+Have you ever seen or heard information regarding assistance for
+problem gamblers or their families?
+38.4%
+61.6% Yes
+No
+Table 67: Have you ever seen or heard information regarding assistance for problem gamblers or their families? Percentage of
+responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+Yes 61.6 69.4 57.0 73.0 58.8 56.8
+No 38.4 30.6 43.0 27.0 41.2 43.2
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 64
+
+=== page 73 ===
+Figure 45: Have you ever seen or heard of the gambling helpline, 1-800-522-4700?
+Have you ever seen or heard of the gambling helpline,
+1-800-522-4700?
+42.1%
+Yes
+57.9%
+No
+Table 68: Have you ever seen or heard of the gambling helpline, 1-800-522-4700? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+Yes 57.9 65.7 55.8 60.2 54.7 54.0
+No 42.1 34.3 44.2 39.8 45.3 46.0
+Table 69: During the past 12 months, do you recall hearing, reading, or watching an advertisement for a casino located in Kansas?
+Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+Yes 79.5 72.4 80.1 81.1 88.8 80.6
+No 20.5 27.6 19.9 18.9 11.2 19.4
+Table 70: During the past 12 months, do you recall hearing, reading, or watching an advertisement for fantasy sports or gaming in
+Kansas? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+Yes 52.6 53.1 49.1 59.8 56.1 52.5
+No 47.4 46.9 50.9 40.2 43.9 47.5
+Table 71: During the past 12 months, do you recall hearing, reading, or watching an advertisement about the prevention of problem
+gambling? Percentage of responses by region.
+Response Kansas Overall Northeast South Central Southwest Southeast Balance of
+State
+Yes 50.9 51.7 48.4 53.8 48.6 47.7
+No 49.1 48.3 51.6 46.2 51.4 52.3
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 65
+
+=== page 74 ===
+Figure 46: Gambling promotion by risk categories
+Gambling Promotion by Risk Categories
+91.6%
+81.6% 83.0%
+79.3%
+69.2%
+63.1%
+67.3%
+g 61.6% 60.9%
+n id n o 56.5% 52.0% 52.9% 49.1% 54.7% 47.5%
+p
+s
+e
+R
+)
+%
+(
+Any assistance for Gambling helpline, 1- Advertisement for a Advertisement for Advertisement about
+problem gamblers or 800-522-4700? casino located in fantasy sports or the prevention of
+their families? Kansas? gaming in Kansas? problem gambling?
+Low Risk Moderate Risk High Risk
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 66
+
+=== page 75 ===
+General and Physical Health
+One goal of the 2017 Kansas Gambling Survey was to provide a more comprehensive picture of gambling in
+Kansas including areas of related general and behavioral health. Existing data support the notion that
+problem gambling behaviors are associated with non-gambling health problems.11 To assess this
+relationship, participants were first asked to rate their general health as poor, fair, good, very good, or
+excellent. Participants were then asked to enter a two-digit number for the number of days during the past
+30 days that they physical health was not good. Physical health included physical illness and injury.
+Following a summary of findings, figures show results overall, by region, and by risk categories.
+Summary of Findings
+o Participants reported their health was excellent (18.5%), very good (41.4%), good (30.6%). Small
+percentages reported their general health was fair (7.4%) or poor (2.1%).
+o The largest percentage of participants in the low problem gambling risk category (42.3%) reported
+their health was ‘very good.’ The largest percentage of participants in the moderate risk category
+reported their health was ‘good’ (36.3%) and ‘very good’ (35.8%). Participants in the high risk
+category reported their health as ‘good’ (54.3%).
+o Participants in the high risk category were less likely to report their health as ‘excellent’ (1.1%) or
+‘poor’ (0.0%).
+Figure 47: Self-reported general health
+Would you say that in general your health is:
+2.1% 7.4%
+18.5%
+30.6%
+41.4%
+Poor Fair Good Very Good Excellent
+Table 72: Self-reported general health. Percentage of responses by region.
+Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Poor 2.1 1.3 1.7 0.7 4.6 2.4
+Fair 7.4 6.4 9.4 3.5 10.7 6.9
+Good 30.6 31.1 27.4 33.8 23.9 33.1
+Very Good 41.4 39.6 39.6 48.2 39.4 44.2
+Excellent 18.5 21.6 21.9 13.8 21.4 13.3
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 67
+
+=== page 76 ===
+Figure 48: Self-reported general health. Responses by risk category.
+Would you say that in general your health is:
+54.3%
+42.3%
+g n 36.3% 35.8%
+id
+n 29.7%
+o
+p 24.9%
+s
+e
+R 19.8% 19.8%
+)%
+( 11.7% 13.0%
+6.2%
+2.0%3.2%
+0.0% 1.1%
+Poor Fair Good Very good Excellent
+Low risk Moderate risk High risk
+Table 73: Self-reported general health by risk category
+Response Poor Fair Good Very good Excellent
+Low risk 2.0 6.2 29.7 42.3 19.8
+Moderate risk 3.2 11.7 36.3 35.8 13.0
+High risk 0.0 19.8 54.3 24.9 1.1
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 68
+
+=== page 77 ===
+Mental Health and Depression
+Problem gambling is associated with poor physical health, poor mental health, substance use, and other co-
+occurring conditions.11 To assess mental health and depression, participants were asked to indicate the
+number of days in the past 30 days their mental health was not good. Mental health included stress,
+depression, and problems with emotions. Participants were also asked about depression in the past year.
+Specifically, they were asked if, during the past 12 months, if they ever felt so sad or hopeless almost every
+day for two weeks or more in a row that they stopped doing some usual activities. A summary of findings
+and related figures with regional breakdown are presented below as well as a breakdown by problem
+gambling risk categories.
+Summary of Findings
+o Close to half (44.8%) of participants reported their mental health was not good on at least one day
+in the past 30 days.
+o While 54% of participants in the high risk for problem gambling category reported their general
+health was good, over 82% reported their mental health was not good on at least one day in the past
+30 days and 10% reported their mental health was not good any day of the past 30 days.
+o Almost ten percent (9.6%) of all participants reported experiencing depression in the past year.
+o The percentage of participants reporting depression increased as risk of problem gambling
+increased such that 7.9% in the low risk category, 18.3% in the moderate risk category, and 32.5% in
+the high risk category reported experiencing depression in the past year.
+Figure 49: Thinking of your mental health, which includes stress, depression, and problems with emotions, for how many days during
+the past 30 days was your mental health not good?
+On how many days during the past 30 days was your mental health
+not good?
+44.8%
+g
+n
+id
+n 25.2%
+o
+p
+s
+e
+R
+)%
+(
+9.2% 8.5%
+3.0%
+One or more days 1 - 5 days 6 –9 days 10 –15 days 16 or more days
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 69
+
+=== page 78 ===
+Table 74: Thinking of your mental health, which includes stress, depression, and problems with emotions, on how many days in the
+past 30 days was your mental health not good? Percentage of responses by region.
+‘Yes’ Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+One or more days 44.8 45.3 45.8 42.1 48.3 42.9
+1 - 5 days 25.2 24.4 18.8 31.0 27.5 25.4
+6 – 9 days 3.0 2.8 3.8 1.7 2.5 2.8
+10 – 15 days 9.2 10.0 8.1 5.2 10.6 8.9
+16 or more days 8.5 8.1 15.2 4.2 7.7 5.8
+Figure 50: Thinking of our mental health, which includes stress, depression, and problems with emotions, on how many days in the
+past 30 days was your mental health not good? Responses by risk category.
+On how many days during the past 30 days was your mental health
+not good?
+82.5%
+g
+n 47.2%
+id
+n o 43.3%
+p s 37.1%
+e
+R 28.2%
+)% 25.2% 11.5%
+( 18.9% 11.5%13.6% 10.4%
+7.7%
+5.4%3.6% 8.2% 7.1%
+2.8% 3.2%
+One or more days 1-5 days 6-9 days 10-15 days 16 or more days All 30 days
+Low risk Moderate risk High risk
+Table 75: Thinking of your mental health, which includes stress, depression, and problems with emotions, for how many days during
+the past 30 days was your mental health not good? Percentage of responses by risk category.
+Response One or more 1-5 days 6-9 days 10-15 days 16 or more All 30 days
+days days
+Low risk 43.3 25.2 2.8 8.2 7.1 3.2
+Moderate risk 47.2 18.9 5.4 11.5 11.5 7.7
+High risk 82.5 28.2 3.6 13.6 37.1 10.4
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 70
+
+=== page 79 ===
+Figure 51: Self-reported depression.
+During the past 12 months, did you ever feel so sad or hopeless almost
+every day for two weeks or more in a row that you stopped doing some
+usual activities?
+9.6%
+90.4%
+Yes No
+Table 76: Self-reported depression. Percentage of responses by region.
+Response Kansas Overall Northeast South Southwest Southeast Balance of
+Central State
+Yes 9.6 10.3 11.4 9.4 7.6 7.8
+No 90.4 89.7 88.6 90.6 92.4 92.2
+Figure 52: Self-reported depression. Responses by risk category.
+During the past 12 months, did you ever feel so sad or hopeless almost
+every day for two weeks or more in a row that you stopped doing some
+usual activities? (% reporting 'yes')
+7.9%
+32.5% 18.3%
+Low risk Moderate risk High risk
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 71
+
+=== page 80 ===
+Suicide Thoughts, Plans and Attempts
+Although research has been inconsistent, problem gamblers tend to show high rates of suicidal behavior.12
+To explore this possible connection participants were asked one question each related to suicide thoughts,
+plans, and attempts. Specifically, participants were asked if they had seriously thought about killing
+themselves, if they had ever made a plan about how they would kill themselves, and if they had ever tried to
+kill themselves. To provide continuity across the state, this series of questions were aligned with questions
+from the Kansas Communities That Care (KCTC) Student Survey13 and also match those of the National
+Center for Disease Control Youth Risk Behavior Surveillance System14. The Kansas Suicide Prevention
+Lifeline (1-800-273-8255) was made available on the survey following these questions. Response options
+included 1) No, never, 2) Yes, in the past 30 days, 3) Yes, in the past year, and 4) Yes, over a year ago. The
+percentage of participants who said ‘yes’ regardless of timeframe, are presented below for all participants,
+as well as by regions, and by problem gambling risk categories.
+Summary of Findings
+o Almost seventeen percent (16.8%) of participants reported they had seriously thought about killing
+themselves, 10.3% reported they had made a plan about how they would kill themselves, and 6.6%
+reported they had tried to kill themselves.
+o A significantly higher percentage of participants in the high risk category (52%) reported having
+thoughts of suicide in the past year as compared to those in the moderate risk category (26.3%) or
+in the low risk category (14.9%).
+Figure 53: Percentage reporting ever having suicide thoughts
+Have you seriously thought about killing yourself?
+83.2%
+g
+n
+id
+n
+o
+p
+s
+e
+R
+)%
+(
+11.7%
+2.5% 2.6%
+No, Never Yes, over one year ago Yes, in the past year Yes, in the past 30 days
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 72
+
+=== page 81 ===
+Figure 54: Percentage reporting ever making suicide plans
+Have you ever made a plan about how you would kill yourself?
+89.7%
+g
+n
+id
+n
+o
+p
+s
+e
+R
+)%
+(
+7.0%
+2.4% 0.8%
+No, never Yes, over one year ago Yes, in the past year Yes, in the past 30 days
+Figure 55: Percentage reporting any suicide attempt
+Have you ever tried to kill yourself?
+93.4%
+g
+n
+id
+n
+o
+p
+s
+e
+R
+)%
+( 5.6%
+0.9% 0.1%
+No, never Yes, over one year ago Yes, in the past year Yes, in the past 30 days
+Table 77: Percentage reporting 'yes' to questions of suicide thoughts, plans, or attempts. Percentage of responses by region.
+‘Yes’ Response Kansas Northeast South Central Southwest Southeast Balance of
+Overall State
+Suicide Thought 16.8 14.6 15.4 16.6 25.9 13.8
+Suicide Plans 10.3 9.0 8.5 7.7 17.5 9.7
+Suicide Attempts 6.6 4.9 6.7 5.5 9.8 6.8
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 73
+
+=== page 82 ===
+Figure 56: Percentage reporting ‘yes’ to questions of suicide thoughts, plans, and attempts. Responses by risk category.
+"Yes" Responses to Suicide Thoughts, Plans and Attempts
+52.0%
+g
+n
+id
+n
+o p 26.3% 24.6%
+s
+e
+R 19.5%
+)% 14.9% 17.0%
+(
+9.2%
+6.3% 6.8%
+Suicide Thoughts Suicide Plans Suicide Attempts
+Low risk Moderate risk High risk
+Table 78: Percentage reporting 'yes' to questions of suicide thoughts, plans, or attempts. Percentage of responses by risk category.
+‘Yes’ Response Suicide Thoughts Suicide Plans Suicide Attempts
+Low risk 14.9 9.2 6.3
+Moderate risk 26.3 17.0 6.8
+High risk 52.0 24.6 19.5
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 74
+
+=== page 83 ===
+Substance Use
+Many people who develop gambling addictions also develop problems with drugs and alcohol. To assess
+the level of adult substance use in Kansas and to determine connections with gambling behavior and low,
+moderate, and high risks of problem gambling, the 2017 Kansas Gambling Survey asked a yes/no question
+about past 30-day substance use for the following substances: cigarettes, electronic cigarettes, marijuana,
+prescriptions drugs not prescribed to you, heroin, cocaine or crack, methamphetamines, and MDMA or
+ecstasy.
+Summary of Findings
+o The substances most often used by participants in the past 30 days was alcohol (57.9%) followed
+by cigarettes or electronic cigarettes (18.5%) and marijuana (6.1%).
+o Less than one percent of participants reported use of heroin, crack or cocaine, methamphetamine,
+or MDMA (ecstasy).
+o Cigarette smoking increased with risk category with lowest use found in the low risk participants
+(12.5%), and highest use found in the high risk participants (41.1%).
+o High risk participants showed highest rates of use of marijuana (21.1%) and the misuse of
+prescription drugs (23.2%). In comparison, only 5.6% of low risk participants reported marijuana
+use and only 2.5% reported prescription drug misuse.
+Figure 57: Past 30-day substance use by substance type.
+Past 30-Day Substance Use (% reporting use)
+2.9%
+4.1%
+6.1%
+14.4%
+57.9%
+Alcohol Cigarettes Electronic Cigarettes Marijuana Rx Drug Misuse
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 75
+
+=== page 84 ===
+Table 79: Past 30-day substance use by substance type. Percentage of responses by region.
+Response Kansas Overall Northeast South Southwest Southeast Balance of
+Central State
+Alcohol 57.9 65.3 56.4 66.2 51.1 54.6
+Cigarettes 14.4 8.8 17.6 12.8 17.7 16.0
+Electronic 4.1 4.1 9.0 3.9 2.4 2.0
+Cigarettes
+Marijuana 6.1 6.8 7.9 8.3 5.1 3.1
+Rx Drug Misuse 2.9 4.2 4.2 0.4 2.1 1.4
+Heroin 0.0 0.1 0.0 0.0 0.0 0.0
+Crack/Cocaine 0.1 0.0 0.0 0.0 0.0 0.3
+Methamphetamine 0.4 0.3 0.5 1.7 0.9 0.0
+MDMA 0.4 1.0 0.0 0.0 0.0 0.0
+Figure 58: Past 30-day substance use by substance type. Responses by risk category.
+Substance Use by Risk Category
+61.3%
+58.0%
+54.6%
+g 41.1%
+n
+id
+n
+o
+p
+s
+e
+R 26.1%
+)% 23.2%
+( 21.1%
+16.8%
+12.5%
+11.2%
+7.1%
+5.6%
+2.9% 2.5%1.6%
+Alcohol Cigarettes E-cigarette Marijuana Rx. Drug Misuse
+Low risk Moderate risk High risk
+Table 80: Past 30-day substance use by substance type. Responses by risk category
+Alcohol Cigarettes E-cigarette Marijuana Rx. Drug Misuse
+Low risk 58.0 12.5 2.9 5.6 2.5
+Moderate risk 61.3 26.1 11.2 7.1 1.6
+High risk 54.6 41.1 16.8 21.1 23.2
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 76
+
+=== page 85 ===
+Strengths and Limitations:
+As with all voluntary survey data collection, there are inherent strengths and limitations associated with this
+type of data collection. Strengths and limitations are discussed below.
+Strengths
+The 2017 Kansas Gambling Survey fills a five-year data gap. Current state and regional stakeholders need
+data for assessment, planning, and evaluation. In order to effectively plan problem gambling prevention
+strategies, or to increase awareness of problem gambling treatment and other resources, reliable data is
+needed for solid decision-making.
+The current survey provides data not collected before in the state regarding the co-occurring behavioral
+health conditions associated with problem gambling. Results provide a snapshot for Kansas on many topics
+related to gambling and the data provides a profile of responses for individuals at low, moderate, and high
+risk of developing a gambling problem.
+Using a stratified random sample proportionate to the population of each region helped to ensure that each
+region was adequately represented within the whole sample of individuals surveyed. This is a strong
+methodology that produces results which can be generalized from each sample to the larger region and to
+the state. Data were weighted by age which also ensure generalizability of survey results.
+Limitations
+With all survey data there is potential for bias in the results. Even though random selection was used,
+results only reflect the responses of those selected by the methodology. Methodology for the 2017 study
+involved use of mailing addresses to sample households. While addresses were randomly selected within
+each strata, this method created potential biased toward mobile populations including college students,
+homeless individuals or persons or groups with high mobility. This may have led to the slightly larger
+percentage of participants who were more educated, employed, and of older age.
+The 2017 Kansas Gambling Survey was modeled after the 2012 Statewide Survey of Gambling Behavioral and
+Attitudes Among Adult Kansans to allow for potential comparison of data across common questions.
+However, there are important differences in the survey methodology used for the 2017 survey and the 2012
+survey. The 2017 survey was mailed to randomly selected households. The 2012 survey involved phone
+interviews which also causes potential non-response bias. The difference in methodology makes data
+between the two surveys less comparable.
+Additionally, survey questions and/or options could be interpreted differently by respondents and
+respondents may not have answered in ways they thought might not put them in a favorable light.
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 77
+
+=== page 86 ===
+References
+1 http://www.krgc.ks.gov/index.php/overview/krgc/history-of-gaming-in-kansas.
+2 Kansas Department for Aging and Disability Services (2013). Gambling Behaviors and Attitudes
+among Adult Kansans: A 2012 Statewide Survey. Topeka, KS.
+3
+Neal, P., Delfabbro, P., & O’Neil, M. (2005). Problem gambling and harm: A national definition. Adelaide,
+Australia: South Australian Centre for Economic Studies.
+4 American Psychiatric Association. (2013). Diagnostic and statistical manual of mental disorders (5th ed.).
+Washington, DC: Author.
+5 Rennert, L., Denis, C., Peer, K., Lynch, K. G., Gelernter, J., & Kranzler, H. R. (2014). DSM-5 Gambling
+Disorder: Prevalence and Characteristics in a Substance Use Disorder Sample. Experimental and Clinical
+Psychopharmacology, 22(1), 50–56. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019046/.
+6Toce-Gerstein, M., Gerstein, D., & Volberg, R. (2009). The NODS-CLiP: A rapid screen for adult pathological
+and problem gambling. Journal of Gambling Studies, 25:4, 541-555.
+7Wickwire, E., Burke, R., Brown, S., Parker, J. and May, R. (2008). Psychometric Evaluation of the National
+Opinion Research Center DSM-IV Screen for Gambling Problems (NODS). American Journal on
+Addictions, 17: 5, 392-395.
+8Ladouceur R., Walker M. (1996). A cognitive perspective on gambling. In Trends in cognitive and
+behavioural therapies (ed. Salkovskis P. M., editor.), pp. 89–120 Chichester, UK: Wiley.
+9Holtgraves, T. (2009). Evaluating the Problem Gambling Severity Index. Journal of Gambling Studies. 25:1,
+105-120.
+10 Kansas Responsible Gambling Alliance at: www.ksgamblinghelp.com.
+11 Potenza, M.N, Fiellin, D.A. Heninger, G. R., et.al. (2002). Gambling an Addictive Behavior with Health and
+Primary Care Implications Journal of General Internal Medicine Sep; 17(9): 721-732.
+12 Moghaddam, J.F., Yoon, G., Dickerson D.L., et.al. (2015). Suicidal ideal and suicide attempts in five
+groups with different severities of gambling: Findings from the National Epidemiological Survey on
+Alcohol and Related Conditions. American Journal of Addiction. June; 24(4): 292-8.
+13 Kansas Department for Aging and Disability Services. [2017 survey]. Kansas Communities
+That Care (KCTC) Student Survey. Available at: www.kctcdata.org.
+14 Center for Disease Control and Prevention. [2017 survey] Youth Risk Behavior Survey
+Questionnaire. Available at: www.cdc.gov/yrbs.
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 78
+
+=== page 87 ===
+Appendix I
+2017 Kansas Gambling Survey
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 79
+
+=== page 88 ===
+2017 Kansas Gambling Survey
+We would like to begin by asking some general questions about your health and wellness. You may
+skip questions you do not want to answer or are unsure about.
+1. How old are you? ______ years
+2. In what county do you live? ________________________
+3. What is your zip code? _______________
+4. Would you say that in general your health is:
+____(5) Excellent ____(4) Very Good ____(3) Good ____(2) Fair ____(1) Poor
+5. Thinking of your physical health, which includes physical illness and injury, for how many days
+during the past 30 days was your physical health not good? [Enter a 2-digit number for the # of days,
+for example, enter "10" if your physical health was not good for 10 days during the past 30 days. Enter
+"00" if your physical health was good every day in the past 30 days.]
+_____ _____ days
+6. Thinking of your mental health, which includes stress, depression, and problems with emotions,
+for how many days during the past 30 days was your mental health not good? [Enter a 2-digit
+number for the # of days, for example, enter "10" if your mental health was not good for 10 days during
+the past 30 days. Enter "00" if your mental health was good every day in the past 30 days.]
+_____ _____ days
+7. Below is a series of statements that others have said about gambling. For each one, please circle
+if you "Strongly Agree," "Agree," "Disagree," or "Strongly Disagree."
+Strongly Strongly
+Please rate the following: Agree Disagree
+Agree Disagree
+01. The more a person gambles, the better their odds of coming out ahead 4 3 2 1
+02. Playing more than one slot machine improves a person's odds of winning 4 3 2 1
+03. When a person almost wins, it's a good sign that they are due to win soon 4 3 2 1
+04. If a person keeps gambling, their luck will change and they'll win back the money they've lost 4 3 2 1
+05. Watching the pattern of wins and losses will help a person win 4 3 2 1
+06. Using personal "lucky" techniques or rituals can help people win 4 3 2 1
+07. Casinos are a good place to socialize 4 3 2 1
+08. Gambling is a harmful form of entertainment 4 3 2 1
+09. Gambling is dangerous for family life 4 3 2 1
+10. Gambling is good for the economy 4 3 2 1
+8a. In the past 30 days, have you gambled for money or anything of value?
+____(1) Yes ____(2) No
+8b. In the past year, have you gambled at a casino?
+____(1) Yes ____(2) No
+©2017 ETC Institute Page 80
+
+=== page 89 ===
+9. On how many days in the past 30 days have you done each of the following?
+Activity Days
+01. Played gaming machines at a casino (slot machine, video poker, video keno, etc.)?
+02. Played table games at a casino (poker, roulette, craps, blackjack, etc.)?
+03. Played a state lottery game or a multi-state lottery (scratch tickets, Powerball, pull-tabs, etc.)?
+04. Bet money on team sports with friends or through an office pool?
+05. Bet money on horse races?
+06. Bet money on dog races?
+07. Bet money on car races?
+08. Bet money on animal fighting such as dog or cock fighting?
+09. Played bingo for money or prizes?
+10. Gambled on the internet?
+11. Bet on games of personal skill (such as pool, bowling, video games, basketball, or golf) with friends or family?
+12. Played cards for money or possessions with friends or family, outside of a casino?
+13. Participated in fantasy sports leagues that involve money, valuables, or status?
+14. Spent real money on games you can play on your phone or computer to buy credits, extra lives, or upgrades?
+10. When you think about the activities you have participated in that involve betting or wagering
+money or possessions, would you say that you, yourself, bet or gamble:
+____(5) Very Often ____(4) Often ____(3) Occasionally ____(2) Seldom ____(1) Never
+11. People have a lot of reasons they gamble. For each of the following reasons, please circle if this
+reason is a "Very Important" reason, an "Important" reason, a "Not Very Important" reason, or a
+"Not at All Important" reason that you gamble, if you choose to do so.
+Please rate the following: Very Important Important Not Very Important Not at All Important
+1. For the excitement or as a challenge 4 3 2 1
+2. As a hobby 4 3 2 1
+3. Just to win money 4 3 2 1
+4. To win money to use for paying bills 4 3 2 1
+5. To support worthy causes 4 3 2 1
+6. Out of curiosity 4 3 2 1
+7. For entertainment or fun 4 3 2 1
+8. As a distraction from everyday problems 4 3 2 1
+©2017 ETC Institute Page 81
+
+=== page 90 ===
+12. Please answer the following questions by circling "Yes" or" No" for each response.
+Yes No
+01. Have you ever bet more than you could afford to lose? Yes No
+Have people ever criticized your betting or told you that you have a gambling problem,
+02. Yes No
+regardless of whether or not you thought it was true?
+03. Has your gambling ever caused you any health problems, such as stress and anxiety? Yes No
+Have you ever thought you might want to cut back on the amount of time or money you spend
+04. Yes No
+betting or wagering?
+Have you ever lied to family members, friends, or others about how much you gamble or how
+05. Yes No
+much money you lost gambling?
+Have there been periods lasting 2 weeks or longer when you spent a lot of time thinking about
+06. Yes No
+your gambling experiences or planning out future gambling ventures or bets?
+Has your gambling ever caused serious or repeated problems in your relationships with any of
+07. Yes No
+your family members or friends?
+Has your gambling ever interfered with your productivity or performance while at work or
+08. Yes No
+school (missing time from work, lower grades, etc.)?
+09. Have you personally been affected by the gambling behaviors of a friend? Yes No
+10. Has the gambling behavior of a family member affected you personally? Yes No
+11. Has the gambling behavior of a co-worker affected you personally? Yes No
+13. How confident are you that you would be able to recognize the signs that you, a friend, a family
+member, or an acquaintance has a gambling problem?
+____(4) Extremely Confident ____(2) Slightly Confident
+____(3) Moderately Confident ____(1) Not at all Confident
+14. How often have you felt that you have a problem with gambling?
+____(4) Almost always ____(3) Most of the time ____(2) Sometimes ____(1) Never
+15. Below is a series of statements about treatment for gambling. For each one, please circle if you
+"Strongly Agree," "Agree," "Disagree," or "Strongly Disagree."
+Strongly Strongly
+Please rate the following: Agree Disagree
+Agree Disagree
+1. There is no convenient place to get treatment for problem gambling in my community 4 3 2 1
+2. The average person can't afford treatment for a gambling problem 4 3 2 1
+3. Treatment for a gambling problem probably doesn't work 4 3 2 1
+4. I would be embarrassed if a family member needed treatment for a gambling problem 4 3 2 1
+5. Gambling treatment is only for people with serious difficulties 4 3 2 1
+6. I know about gambling treatment options in my community 4 3 2 1
+16. If you felt you had a gambling problem, who would you turn to first or where would you go? [Check
+only one.]
+____(01) Spouse, Partner, or Significant Other ____(07) Primary care physician
+____(02) Other family member ____(08) Psychologist or psychiatrist
+____(03) Girlfriend or boyfriend ____(09) Friend
+____(04) Minister or clergy ____(10) No one
+____(05) Employer ____(11) Gambling helpline (phone number/hotline)
+____(06) Employer's Employee Assistance Program (E.A.P) ____(12) Other: ______________________________
+©2017 ETC Institute Page 82
+
+=== page 91 ===
+17. If you felt someone you knew had a gambling problem, who would you turn to first or where would
+you go? [Check only one.]
+____(01) Spouse, Partner, or Significant Other ____(07) Primary care physician
+____(02) Other family member ____(08) Psychologist or psychiatrist
+____(03) Girlfriend or boyfriend ____(09) Friend
+____(04) Minister or clergy ____(10) No one
+____(05) Employer ____(11) Gambling helpline (phone number/hotline)
+____(06) Employer's Employee Assistance Program (E.A.P) ____(12) Other: ______________________________
+18. Please answer the following questions by circling "Yes" or "No" for each response.
+Yes No
+Have you ever seen or heard information regarding assistance for problem gamblers or their
+1. Yes No
+families?
+2. Have you ever seen or heard of the gambling helpline, 1-800-522-4700? Yes No
+During the past 12 months, do you recall hearing, reading or watching an advertisement for a
+3. Yes No
+casino located in Kansas?
+During the past 12 months, do you recall hearing, reading or watching an advertisement for
+4. Yes No
+fantasy sports or gaming in Kansas?
+During the past 12 months, do you recall hearing, reading or watching an advertisement about
+5. Yes No
+the prevention of problem gambling?
+We know this information is personal, but please remember your answers are confidential. None of the
+information you provide can be linked to your name or any other identifying information.
+19. In the past 12 months, how many times (if any) have you felt like you would like to stop gambling,
+but didn't think you could?
+____(6) Almost every day ____(4) Once or twice a month ____(2) Yes, but not in the past year
+____(5) Once or twice a week ____(3) A few times in the past year ____(1) Never
+20. During the past 12 months, did you ever feel so sad or hopeless almost every day for two weeks
+or more in a row that you stopped doing some usual activities?
+____(1) Yes ____(2) No
+21. Please answer the following questions by circling your response.
+Yes, in the past Yes, in the past Yes, over one
+No, Never
+30 days year year ago
+1. Have you seriously thought about killing yourself? 4 3 2 1
+2. Have you ever made a plan about how you would kill yourself? 4 3 2 1
+3. Have you ever tried to kill yourself? 4 3 2 1
+Kansas Suicide Prevention Lifeline: 1-800-273-8255
+©2017 ETC Institute Page 83
+
+=== page 92 ===
+22. During the past 30 days, on how many days did you drink beer, wine, or hard liquor? [Enter a 2
+digit number for the # of days, for example, enter "10" if you drank beer, wine or hard liquor 10 days
+during the past 30 days.]
+_____ _____ days
+23. During the past 30 days, have you used any of the following substances?
+Yes No
+1. Cigarettes Yes No
+2. Electronic Cigarettes (e-cigarettes) Yes No
+3. Marijuana Yes No
+4. Prescription drugs that were not prescribed to you Yes No
+5. Heroin Yes No
+6. Cocaine or crack Yes No
+7. Methamphetamines Yes No
+8. MDMA ("Ecstasy") Yes No
+We're almost finished. We have a few more questions to help us understand our results.
+24. Marital status:
+____(1) Married ____(3) Divorced ____(5) Never been married
+____(2) Separated ____(4) Widowed
+25. Employment status:
+____(1) Employed full-time
+____(2) Employed part-time
+____(3) Not currently employed, but seeking employment
+____(4) Not currently employed, not currently seeking employment
+____(5) Retired
+____(6) Other: _______________________________
+26. What is your race? [Check all that apply.]
+____(1) Black or African American ____(4) American Indian or Alaskan Native
+____(2) White ____(5) Asian
+____(3) Native Hawaiian or Other Pacific Islander ____(6) Other: ____________________________________
+27. Do you consider yourself to be of Latino or Hispanic origin? ____(1) Yes ____(2) No
+28. Are you currently serving, or have you ever served, in a branch of the United States military?
+____(1) Yes ____(2) No [Skip to Question 29.]
+28a. If "Yes" to Question 28: Were you ever deployed to an active combat zone?
+____(1) Yes ____(2) No
+©2017 ETC Institute Page 84
+
+=== page 93 ===
+29. Highest level of education completed:
+____(1) 8th grade or less ____(5) Some College
+____(2) High School Incomplete (Grades 9, 10, or 11) ____(6) Junior College Graduate (2 year, Associates
+____(3) High School Complete (Grade 12 or high school Degree)
+equivalency/GED) ____(7) 4 Year College Graduate (Bachelor's Degree)
+____(4) Vocational/Technical School (Includes ____(8) Graduate Work (Master's, Law/Medical School, etc.)
+Cosmetology Schools, Welding Certificate ____(9) Other: __________________________________
+Programs)
+30. Would you say your total household income is:
+____(1) Under $20,000 ____(4) $40,000 to $49,999 ____(5) $75,000 to $149,999
+____(2) $20,000 to $29,999 ____(5) $50,000 to $59,999 ____(6) $150,000 or more
+____(3) $30,000 to $39,999 ____(6) $60,000 to $74,999
+This concludes the survey – Thank you for your time!
+Please return your completed survey in the enclosed postage-paid envelope addressed to:
+ETC Institute 725 W. Frontier Circle Olathe, KS 66061
+©2017 ETC Institute Page 85
+
+=== page 94 ===
+Appendix II
+2017 Kansas Problem Gambling Taskforce Report
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 86
+
+=== page 95 ===
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 87
+
+=== page 96 ===
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 88
+
+=== page 97 ===
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 89
+
+=== page 98 ===
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 90
+
+=== page 99 ===
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 91
+
+=== page 100 ===
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 92
+
+=== page 101 ===
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 93
+
+=== page 102 ===
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 94
+
+=== page 103 ===
+Prepared by the Learning Tree Institute at Greenbush, Research and Evaluation Department 95
