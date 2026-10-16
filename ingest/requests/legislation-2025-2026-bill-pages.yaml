@@ -1,0 +1,18 @@
+# Phase 3, legislation tracker: official bill pages and texts for 2025 to 2026 sports wagering
+# measures in states without a regulated online market, from the legislatures' own sites.
+# Hawaii HB 1308 (2025), Mississippi HB 4074 (2026), South Carolina S 444 (2025 to 2026),
+# Texas HJR 137 (89th Regular Session, 2025).
+kind: archive
+label: legislation-2025-2026-bill-pages
+urls:
+  - https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1308&year=2025
+  - https://www.capitol.hawaii.gov/sessions/session2025/bills/HB1308_CD1_.HTM
+  - https://www.capitol.hawaii.gov/sessions/session2025/bills/HB1308_HD1_.HTM
+  - https://billstatus.ls.state.ms.us/2026/pdf/history/HB/HB4074.xml
+  - https://billstatus.ls.state.ms.us/documents/2026/html/HB/4000-4099/HB4074IN.htm
+  - https://billstatus.ls.state.ms.us/documents/2026/html/HB/4000-4099/HB4074PS.htm
+  - https://www.scstatehouse.gov/sess126_2025-2026/bills/444.htm
+  - https://www.scstatehouse.gov/billsearch.php?billnumbers=444&session=126&summary=B
+  - https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HJR137
+  - https://capitol.texas.gov/BillLookup/Text.aspx?LegSess=89R&Bill=HJR137
+  - https://capitol.texas.gov/tlodocs/89R/billtext/html/HJ00137I.htm
