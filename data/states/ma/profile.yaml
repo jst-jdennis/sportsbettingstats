@@ -1,81 +1,181 @@
-fips: '25'
+fips: "25"
 abbr: MA
 name: Massachusetts
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Massachusetts authorized sports wagering in Chapter 173 of the Acts of 2022, signed August 10, 2022, which
+  created M.G.L. chapter 23N. Retail wagering began at the three casinos on January 31, 2023 and online
+  wagering on March 10, 2023. The Massachusetts Gaming Commission licenses and regulates operators, taxes
+  adjusted gross receipts at 15 percent for retail and 20 percent for online, and prohibits credit card
+  funding of wagering accounts.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2022-08-10'
-  launched_on: '2023-01-31'
-  authority:
-    type: statute
-    citation: Chapter 173 of the Acts of 2022; M.G.L. c. 23N
-    url: https://malegislature.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: ma-regulator
-    source_url: https://massgaming.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2022-08-10'
-  launched_on: '2023-03-10'
-  authority:
-    type: statute
-    citation: Chapter 173 of the Acts of 2022; M.G.L. c. 23N
-    url: https://malegislature.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: ma-regulator
-    source_url: https://massgaming.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2022-08-10"
+    launched_on: "2023-01-31"
+    authority:
+      type: statute
+      citation: St. 2022, c. 173 (An Act regulating sports wagering); M.G.L. c. 23N
+      url: https://malegislature.gov/Laws/SessionLaws/Acts/2022/Chapter173
+    operator_model: commercial
+    notes: Category 1 licenses are held by the three casinos (Encore Boston Harbor, MGM Springfield, Plainridge Park) and Category 2 by racetracks and simulcast facilities.
+    provenance: &maleg
+      source_id: ma-legislature
+      source_url: https://malegislature.gov/Laws/SessionLaws/Acts/2022/Chapter173
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Signing date 2022-08-10 and the retail launch of 2023-01-31 are stated in the Massachusetts Gaming
+        Commission's press release announcing the March 10, 2023 online launch (massgaming.com). Dates confirmed
+        on 2026-10-16.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2022-08-10"
+    launched_on: "2023-03-10"
+    authority:
+      type: statute
+      citation: St. 2022, c. 173; M.G.L. c. 23N (Category 3 licenses for mobile and digital platforms)
+      url: https://malegislature.gov/Laws/SessionLaws/Acts/2022/Chapter173
+    operator_model: commercial
+    notes: Six operators launched on 2023-03-10 at 10 a.m.; Bally Bet and Fanatics launched later in 2023.
+    provenance:
+      <<: *maleg
+      notes: Online launch date 2023-03-10 confirmed from the Commission's press release and temporary licensing materials on massgaming.com on 2026-10-16.
 regulators:
-- name: Massachusetts Gaming Commission
-  url: https://massgaming.com/
-  type: gaming_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: ma-regulator
-    source_url: https://massgaming.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+  - name: Massachusetts Gaming Commission
+    url: https://massgaming.com/
+    type: gaming_commission
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance: &mareg
+      source_id: ma-regulator
+      source_url: https://massgaming.com/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: The Commission adopts 205 CMR 200 to 260 for sports wagering and publishes monthly revenue reports. Homepage used because search returned no single sports wagering landing page.
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: M.G.L. c. 23N (St. 2022, c. 173), under which an operator shall not accept a wager from a person under 21 years of age; 205 CMR 256.05 requires advertising to state the 21 and over requirement
+    provenance:
+      <<: *maleg
+      notes: The section number within c. 23N for the operator prohibition was not captured by search on 2026-10-16.
+tax:
+  - channel: retail
+    basis: adjusted_gross_revenue
+    rate: 0.15
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      Adjusted gross sports wagering receipts are gross receipts less winnings paid and federal excise tax (205
+      CMR 240). Promotional credits are not deductible; the Commission declined a promotional play deduction in
+      December 2022.
+    effective_from: "2023-01-31"
+    effective_to: null
+    destination:
+      - fund_name: General Fund
+        share: null
+      - fund_name: Gaming Local Aid Fund
+        share: null
+      - fund_name: Workforce Investment Trust Fund
+        share: null
+      - fund_name: Public Health Trust Fund
+        share: null
+      - fund_name: Youth Development and Achievement Fund
+        share: null
+    authority_citation: M.G.L. c. 23N, s. 14(a) (15 percent excise on adjusted gross sports wagering receipts from in-person wagering)
+    provenance:
+      <<: *maleg
+      source_url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter23N/Section14
+      notes: Rates confirmed from the statute page. Distribution shares in s. 14(c) were not read by search on 2026-10-16, so fund shares are left null. St. 2024, c. 206 amended s. 14(a) and (c); the excerpt retrieved shows the same rates.
+  - channel: online
+    basis: adjusted_gross_revenue
+    rate: 0.20
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: As above; no promotional deduction.
+    effective_from: "2023-03-10"
+    effective_to: null
+    destination:
+      - fund_name: General Fund
+        share: null
+      - fund_name: Gaming Local Aid Fund
+        share: null
+      - fund_name: Workforce Investment Trust Fund
+        share: null
+      - fund_name: Public Health Trust Fund
+        share: null
+      - fund_name: Youth Development and Achievement Fund
+        share: null
+    authority_citation: M.G.L. c. 23N, s. 14(a) (20 percent excise on adjusted gross sports wagering receipts from mobile and digital platforms)
+    provenance:
+      <<: *maleg
+      source_url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter23N/Section14
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Massachusetts Gaming Commission (Voluntary Self-Exclusion program under 205 CMR 233)
+    durations: null
+    covers: [casinos, sports_wagering_retail, sports_wagering_online]
+    enrollment_methods: [in_person, online]
+    url: https://www.mass.gov/doc/205-cmr-256-sports-wagering-advertising/download
+    notes: >-
+      205 CMR 256.07 bars advertising, texts and unsolicited pop-ups aimed at persons enrolled in the 205 CMR 233
+      program. Duration options and enrollment methods not confirmed by search on 2026-10-16; the program page on
+      massgaming.com should be cited once retrieved.
+    provenance:
+      <<: *mareg
+      source_url: https://www.mass.gov/doc/205-cmr-256-sports-wagering-advertising/download
+  deposit_limits: null
+  advertising:
+    - rule_type: no_under_age_targeting
+      text: Advertising must state the 21 and over requirement and may not be aimed at persons under 21.
+      authority_citation: 205 CMR 256.05
+      provenance: &ma256
+        <<: *mareg
+        source_url: https://www.mass.gov/doc/205-cmr-256-sports-wagering-advertising/download
+        notes: Version published in Massachusetts Register 1552 (July 18, 2025).
+    - rule_type: responsible_gambling_message_required
+      text: Advertising must include a link to and the telephone number of the Massachusetts Problem Gambling Helpline.
+      authority_citation: 205 CMR 256.06(2)
+      provenance: *ma256
+    - rule_type: other
+      text: Advertising may not be aimed exclusively or primarily at persons at moderate or high risk of gambling addiction, and operators may not use at-risk bettor traits for targeting.
+      authority_citation: 205 CMR 256.06(1)
+      provenance: *ma256
+    - rule_type: opt_out_of_direct_marketing
+      text: Operators may not send text messages or unsolicited internet pop-up advertising to persons enrolled in the voluntary self-exclusion program, directly or through affiliates and contracted third parties.
+      authority_citation: 205 CMR 256.07
+      provenance: *ma256
+  credit_card_deposits:
+    allowed: false
+    authority_citation: M.G.L. c. 23N, s. 3 (a deposit into a sports wagering account shall not be made using a credit card); St. 2022, c. 173 (an operator shall not accept a wager from a person under 21 or a credit card); 205 CMR 248 (account management) and 205 CMR 238.27 (no deposits derived from credit extended by affiliates or agents)
+    notes: null
+    provenance:
+      <<: *maleg
+      source_url: https://www.mass.gov/info-details/mass-general-laws-c23n-ss-3
+  helpline_message:
+    required: true
+    required_number: null
+    authority_citation: 205 CMR 256.06(2) (link to and telephone number for the Massachusetts Problem Gambling Helpline)
+    provenance:
+      <<: *ma256
+      notes: The regulation names the Helpline rather than a specific number; the number was not confirmed by search on 2026-10-16.
+limitations:
+  - Massachusetts reports adjusted gross receipts with no promotional deduction, so its taxable and reported revenue is close to gross revenue and higher than in states that deduct free play.
+  - Massachusetts shares borders with New Hampshire, Rhode Island, Connecticut and New York, all with online wagering, so cross-border handle is modest in both directions; Vermont launched online wagering in January 2024.

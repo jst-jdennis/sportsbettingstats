@@ -1,83 +1,115 @@
-fips: '28'
+fips: "28"
 abbr: MS
 name: Mississippi
 profile_completeness: status_only
-summary: null
+summary: >-
+  Mississippi's 2017 fantasy contest law, House Bill 967, removed the state prohibition on sports pools at
+  licensed casinos, and the Gaming Commission adopted sports wagering regulations in June 2018 after the
+  Murphy decision. Casinos began taking wagers in August 2018. Wagering is on casino premises only; mobile
+  wagering is allowed only while the bettor is physically inside the licensed casino. Bills to authorize
+  statewide online wagering were considered in the 2025 and 2026 sessions.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2017-03-01'
-  launched_on: '2018-08-01'
-  authority:
-    type: statute
-    citation: HB 967 (2017); Miss. Code 75-76-1 et seq. Mobile wagering is permitted only while on the
-      premises of a licensed casino
-    url: https://www.msgamingcommission.com/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: ms-regulator
-    source_url: https://www.msgamingcommission.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: on_premises_only
-  status: live
-  authorized_on: '2017-03-01'
-  launched_on: '2018-08-01'
-  authority:
-    type: statute
-    citation: HB 967 (2017); Miss. Code 75-76-1 et seq. Mobile wagering is permitted only while on the
-      premises of a licensed casino
-    url: https://www.msgamingcommission.com/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: ms-regulator
-    source_url: https://www.msgamingcommission.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2017-03-01"
+    launched_on: "2018-08-01"
+    authority:
+      type: statute
+      citation: HB 967 (2017), effective 2017-07-01, amending Miss. Code Ann. 75-76-1 et seq. (Gaming Control Act) and 97-33-1 to permit sports pools at licensed casinos; Mississippi Gaming Commission regulations, Title 13, Part 9 (Racebooks and Sports Pools), adopted June 2018
+      url: https://www.msgamingcommission.com/images/uploads/MGC_sports_and_race_pool_regulations.pdf
+    operator_model: commercial
+    notes: Wagering is permitted only at licensed casinos (coastal and river counties). The Commission adopted its sports pool regulations on 2018-06-21 with a 30 day effective period.
+    provenance: &msreg
+      source_id: ms-regulator
+      source_url: https://www.msgamingcommission.com/images/uploads/MGC_sports_and_race_pool_regulations.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        authorized_on 2017-03-01 not confirmed by search on 2026-10-16; seeded value retained. Secondary sources
+        give HB 967 an effective date of 2017-07-01 and do not give a March signing date; the Legislature's bill
+        status page (billstatus.ls.state.ms.us) could not be reached from this container. launched_on 2018-08-01
+        not confirmed by search; seeded value retained (press reported the earliest permitted start as 2018-07-21).
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: on_premises_only
+    status: live
+    authorized_on: "2017-03-01"
+    launched_on: "2018-08-01"
+    authority:
+      type: regulation
+      citation: Mississippi Gaming Commission regulations, Title 13, Part 9 (mobile wagering permitted only within the confines of the licensed casino, excluding parking garages and parking areas)
+      url: https://www.msgamingcommission.com/images/uploads/MGC_sports_and_race_pool_regulations.pdf
+    operator_model: commercial
+    notes: >-
+      Statewide online wagering is not authorized. 2026 session bills HB 1527 (universal online start date no
+      later than 2026-12-08) and HB 4074 (passed the House; tax changes) proposed it; their final disposition was
+      not confirmed by search on 2026-10-16 and must be checked before verification.
+    provenance:
+      <<: *msreg
+      notes: >-
+        Corrected authority type from statute to regulation: the on-premises mobile rule is a Commission regulation
+        rather than HB 967, per the Commission's Title 13 Part 9 regulations at
+        https://www.msgamingcommission.com/images/uploads/MGC_sports_and_race_pool_regulations.pdf. Launch date
+        not confirmed; seeded value retained.
 regulators:
-- name: Mississippi Gaming Commission
-  url: https://www.msgamingcommission.com/
-  type: gaming_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: ms-regulator
-    source_url: https://www.msgamingcommission.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
+  - name: Mississippi Gaming Commission
+    url: https://www.msgamingcommission.com/
+    type: gaming_commission
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance:
+      <<: *msreg
+      source_url: https://www.msgamingcommission.com/
+      notes: Monthly sports wagering revenue is published by the Commission; gaming taxes are collected and reported by the Department of Revenue (dor.ms.gov/business/gaming).
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: Miss. Code Ann. 75-76-155 (no person under 21 may gamble at a licensed gaming establishment)
+    provenance:
+      <<: *msreg
+      notes: Section number from secondary knowledge; not confirmed by search on 2026-10-16. The 2026 online wagering bills restate 21 for online sports pools.
+tax:
+  - channel: all
+    basis: gross_gaming_revenue
+    rate: null
+    tiers:
+      - threshold_from: 0
+        threshold_to: 50000
+        rate: 0.04
+      - threshold_from: 50000
+        threshold_to: 134000
+        rate: 0.06
+      - threshold_from: 134000
+        threshold_to: null
+        rate: 0.08
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      Sports wagering gross revenue is the amount wagered less winnings returned to players (Title 13, Part 9,
+      Rule 3.17) and is added to the casino's other gaming revenue for the monthly graduated state fee. No
+      promotional deduction appears in the rule retrieved. In practice all licensees exceed the top threshold,
+      so the marginal state rate is 8 percent.
+    effective_from: "2018-08-01"
+    effective_to: null
+    destination:
+      - fund_name: State Highway Fund (the sports wagering share of the 8 percent state fee, through 2028-06-30 per Miss. Code Ann. 75-76-129)
+        share: null
+    authority_citation: Miss. Code Ann. 75-76-177 (monthly state license fee on gross revenue, graduated 4, 6 and 8 percent); Miss. Code Ann. 75-76-129 (distribution); local governments levy an additional fee of up to 4 percent of gross revenue under separate authority
+    provenance:
+      <<: *msreg
+      source_url: https://www.dor.ms.gov/business/gaming
+      notes: >-
+        Tiers from the Department of Revenue gaming page (thresholds are monthly). Local fee rate not confirmed by
+        search on 2026-10-16. HB 4074 (2026, as passed the House) would have reduced the top rate for sports pools
+        after 2026-06-30; enactment not confirmed. Tiers are in dollars of monthly gross revenue.
 consumer_protections: null
-limitations: null
+limitations:
+  - Mississippi reports sports wagering revenue by casino region (coastal, central, northern) and does not separate retail from on-premises mobile wagering.
+  - Because wagering requires physical presence in a casino, Mississippi handle is driven by casino visitation, including tourists from Alabama, Tennessee and Louisiana, and is not a measure of resident activity.
+  - Louisiana (2022) and Tennessee (2020) launched online wagering after Mississippi, which changed cross-border visitation to Mississippi casinos; comparisons across those dates are confounded.

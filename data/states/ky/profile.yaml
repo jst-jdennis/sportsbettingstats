@@ -1,81 +1,151 @@
-fips: '21'
+fips: "21"
 abbr: KY
 name: Kentucky
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Kentucky authorized sports wagering through House Bill 551 of 2023, signed March 31, 2023 and effective
+  June 28, 2023. Retail wagering at licensed racetracks began September 7, 2023 and online wagering on
+  September 28, 2023. The Kentucky Horse Racing and Gaming Corporation licenses and regulates operators.
+  The 2026 Wagering Consumer Protection Act (HB 904), enacted over a veto, raises the wagering age from
+  18 to 21 effective July 15, 2026.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2023-03-31'
-  launched_on: '2023-09-07'
-  authority:
-    type: statute
-    citation: HB 551 (2023); KRS 230.800 et seq.
-    url: https://apps.legislature.ky.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: ky-regulator
-    source_url: https://khrc.ky.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2023-03-31'
-  launched_on: '2023-09-28'
-  authority:
-    type: statute
-    citation: HB 551 (2023); KRS 230.800 et seq.
-    url: https://apps.legislature.ky.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: ky-regulator
-    source_url: https://khrc.ky.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2023-03-31"
+    launched_on: "2023-09-07"
+    authority:
+      type: statute
+      citation: 2023 HB 551 (2023 Ky. Acts ch. 147); KRS 230.800 et seq.
+      url: https://apps.legislature.ky.gov/law/acts/23RS/documents/0147.pdf
+    operator_model: commercial
+    notes: Retail wagering is offered at licensed horse racing tracks and Kentucky Speedway. HB 551 was signed 2023-03-31 and took effect 2023-06-28.
+    provenance: &kyleg
+      source_id: ky-legislature
+      source_url: https://apps.legislature.ky.gov/law/acts/23RS/documents/0147.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Authority citation and chapter number confirmed from the Legislative Research Commission acts index on
+        2026-10-16. Signing date 2023-03-31 and launch date 2023-09-07 appear in contemporaneous press only;
+        not confirmed by a primary-domain result on 2026-10-16; seeded values retained.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2023-03-31"
+    launched_on: "2023-09-28"
+    authority:
+      type: statute
+      citation: 2023 HB 551 (2023 Ky. Acts ch. 147); KRS 230.800 et seq.
+      url: https://apps.legislature.ky.gov/law/acts/23RS/documents/0147.pdf
+    operator_model: commercial
+    notes: Online operators are service providers tethered to a licensed track. HB 904 (2026) also bars licensed operators from contracting with prediction market platforms, per the Attorney General's 2026-06-17 release.
+    provenance:
+      <<: *kyleg
+      notes: >-
+        Online launch date 2023-09-28 appears in press and a Governor's announcement as reported by press; not
+        confirmed by a primary-domain result on 2026-10-16; seeded value retained.
 regulators:
-- name: Kentucky Horse Racing and Gaming Corporation
-  url: https://khrc.ky.gov/
-  type: racing_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: ky-regulator
-    source_url: https://khrc.ky.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+  - name: Kentucky Horse Racing and Gaming Corporation
+    url: https://khrc.ky.gov/
+    type: racing_commission
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance: &kyreg
+      source_id: ky-regulator
+      source_url: https://khrc.ky.gov/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        The agency was the Kentucky Horse Racing Commission when HB 551 passed and the 809 KAR 10 regulations
+        were first filed; the 2024 technical amendments to 809 KAR 10 refer to "the corporation". Name confirmed
+        against the Attorney General's 2026-06-17 complaint, which refers to the KHRGC. Homepage used because
+        search returned no specific sports wagering page on 2026-10-16.
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: 2026 HB 904 (Wagering Consumer Protection Act), effective 2026-07-15, raising the sports wagering age from 18 to 21. Before that date the minimum age was 18 under 2023 HB 551 and 809 KAR 10:001 (underage person means under 18).
+    provenance:
+      <<: *kyleg
+      source_url: https://apps.legislature.ky.gov/record/26rs/hb904.html
+      notes: >-
+        Bill text on the LRC site shows the change from 18 to 21. The veto override (House 67-7) is reported by
+        press; the 2026-07-15 effective date is stated in the Attorney General's 2026-06-17 press release. Confirm
+        the override and effective date against the LRC bill history before verification. Horse race wagering age
+        is unchanged at 18.
+tax:
+  - channel: retail
+    basis: adjusted_gross_revenue
+    rate: 0.0975
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      KRS 138.552 defines adjusted gross revenue as total wagers less winnings paid and federal excise taxes.
+      The definition contains no deduction for promotional credits or free play.
+    effective_from: "2023-06-29"
+    effective_to: null
+    destination:
+      - fund_name: Sports Wagering Administration Fund (with a statutory share to the problem gambling assistance account and the remainder to the Kentucky permanent pension fund)
+        share: null
+    authority_citation: KRS 138.552(2)(a) (9.75 percent excise tax on adjusted gross revenue from wagers placed at the licensed track)
+    provenance:
+      <<: *kyleg
+      source_url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=54686
+      notes: >-
+        Rate and basis from the statute text. Effective date 2023-06-29 is as stated on the Department of Revenue
+        TAXANSWERS page (taxanswers.ky.gov). Destination shares not confirmed by search on 2026-10-16; fund names
+        from secondary knowledge, so share is left null.
+  - channel: online
+    basis: adjusted_gross_revenue
+    rate: 0.1425
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: As above; no promotional deduction appears in the KRS 138.552 definition.
+    effective_from: "2023-06-29"
+    effective_to: null
+    destination:
+      - fund_name: Sports Wagering Administration Fund (with a statutory share to the problem gambling assistance account and the remainder to the Kentucky permanent pension fund)
+        share: null
+    authority_citation: KRS 138.552(2)(b) (14.25 percent excise tax on adjusted gross revenue from wagers placed online, by mobile application or other off-site technology)
+    provenance:
+      <<: *kyleg
+      source_url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=54686
+      notes: HB 904 (2026) amends KRS 138.552 to add a 15 percent rate on fixed-odds wagers on live horse racing; that is not a sports wagering rate and is not recorded here.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Kentucky Horse Racing and Gaming Corporation
+    durations: null
+    covers: [sports_wagering_retail, sports_wagering_online, pari_mutuel_wagering]
+    enrollment_methods: [in_person, online]
+    url: https://apps.legislature.ky.gov/law/kar/titles/809/010/007/REG/
+    notes: >-
+      809 KAR 10:007 requires each operator licensee to maintain a corporation-approved self-exclusion list and
+      requires the corporation to compile a comprehensive list of all self-excluded persons. Notices must state how
+      to self-identify at the licensed premises, online or by phone. Duration options not confirmed by search on
+      2026-10-16.
+    provenance:
+      <<: *kyleg
+      source_url: https://apps.legislature.ky.gov/law/kar/titles/809/010/007/REG/
+      notes: Regulation text as published by the Legislative Research Commission, including the July 1, 2024 technical amendment.
+  deposit_limits: null
+  advertising: null
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+  - Kentucky reports adjusted gross revenue after winnings and federal excise tax, with no promotional deduction, so its revenue series is closer to gross revenue than states that deduct free play.
+  - The minimum wagering age was 18 from launch until July 15, 2026, so Kentucky handle before that date includes bettors aged 18 to 20 who are excluded in most other states.
+  - A share of early Kentucky handle came from residents of neighboring states, notably Ohio before January 2023 and Missouri before December 2025, and from Indiana and Tennessee border regions.

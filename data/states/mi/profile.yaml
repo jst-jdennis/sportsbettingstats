@@ -1,81 +1,130 @@
-fips: '26'
+fips: "26"
 abbr: MI
 name: Michigan
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Michigan enacted the Lawful Sports Betting Act, 2019 PA 149, approved December 20, 2019 with immediate
+  effect. Retail wagering began at the Detroit casinos in March 2020 and online wagering in January 2021,
+  with both the three commercial Detroit casinos and the federally recognized tribes eligible to operate.
+  The Michigan Gaming Control Board regulates the market and collects an 8.4 percent tax on adjusted gross
+  sports betting receipts, which are reported after a free play deduction.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2019-12-20'
-  launched_on: '2020-03-11'
-  authority:
-    type: statute
-    citation: Lawful Sports Betting Act, 2019 PA 149
-    url: https://www.legislature.mi.gov/
-  operator_model: mixed
-  notes: null
-  provenance:
-    source_id: mi-regulator
-    source_url: https://www.michigan.gov/mgcb
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2019-12-20'
-  launched_on: '2021-01-22'
-  authority:
-    type: statute
-    citation: Lawful Sports Betting Act, 2019 PA 149
-    url: https://www.legislature.mi.gov/
-  operator_model: mixed
-  notes: null
-  provenance:
-    source_id: mi-regulator
-    source_url: https://www.michigan.gov/mgcb
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2019-12-20"
+    launched_on: "2020-03-11"
+    authority:
+      type: statute
+      citation: Lawful Sports Betting Act, 2019 PA 149 (HB 4916), MCL 432.401 et seq.
+      url: https://www.legislature.mi.gov/documents/2019-2020/publicact/pdf/2019-PA-0149.pdf
+    operator_model: mixed
+    notes: Retail sportsbooks operate at the three Detroit commercial casinos and at tribal casinos under the act and the tribes' compacts.
+    provenance: &mileg
+      source_id: mi-legislature
+      source_url: https://www.legislature.mi.gov/documents/2019-2020/publicact/pdf/2019-PA-0149.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Approval date 2019-12-20 and immediate effect confirmed from the enrolled public act on legislature.mi.gov
+        on 2026-10-16. Retail launch date 2020-03-11 appears in press only; not confirmed by a primary-domain result
+        on 2026-10-16; seeded value retained.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2019-12-20"
+    launched_on: "2021-01-22"
+    authority:
+      type: statute
+      citation: Lawful Sports Betting Act, 2019 PA 149, MCL 432.401 et seq. (internet sports betting through platforms of casino licensees and tribes)
+      url: https://www.legislature.mi.gov/documents/2019-2020/publicact/pdf/2019-PA-0149.pdf
+    operator_model: mixed
+    notes: Each Detroit casino and each tribe may offer one internet sports betting brand.
+    provenance:
+      <<: *mileg
+      notes: Online launch date 2021-01-22 appears in press only; not confirmed by a primary-domain result on 2026-10-16; seeded value retained.
 regulators:
-- name: Michigan Gaming Control Board
-  url: https://www.michigan.gov/mgcb
-  type: gaming_commission
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: mi-regulator
-    source_url: https://www.michigan.gov/mgcb
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+  - name: Michigan Gaming Control Board
+    url: https://www.michigan.gov/mgcb
+    type: gaming_commission
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance: &mireg
+      source_id: mi-regulator
+      source_url: https://www.michigan.gov/mgcb
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Confirmed as the licensing and enforcement body through its 2026 press releases on michigan.gov/mgcb. Publishes monthly internet sports betting and Detroit casino revenue reports.
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: Lawful Sports Betting Act, MCL 432.401 et seq. (operators must maintain mechanisms designed to verify that an authorized participant is 21 years of age or older)
+    provenance:
+      <<: *mileg
+      notes: Section number not captured by search on 2026-10-16.
+tax:
+  - channel: all
+    basis: adjusted_gross_revenue
+    rate: 0.084
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      MCL 432.403 defines adjusted gross sports betting receipts as gross receipts less the monetary value of
+      free play wagered by participants as an incentive to place or as a result of having placed wagers. Unlike
+      the Lawful Internet Gaming Act, the sports betting act's definition contains no year by year cap on the
+      free play deduction in the text retrieved.
+    effective_from: "2020-03-11"
+    effective_to: null
+    destination:
+      - fund_name: Internet Sports Betting Fund (distributed to the School Aid Fund, the First Responder Presumed Coverage Fund and the Board's regulatory costs)
+        share: null
+    authority_citation: MCL 432.414 (8.4 percent tax on adjusted gross sports betting receipts; a city imposing a 1.25 percent municipal services fee on a casino licensee may charge an additional 1.25 percent on that operator's receipts; tribal operators make an equivalent payment under the act rather than the tax)
+    provenance:
+      <<: *mileg
+      notes: Rate, free play definition and the Detroit 1.25 percent fee confirmed from the public act text. Distribution shares not read by search on 2026-10-16, so share is left null.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Michigan Gaming Control Board (Internet Gaming and Sports Betting Responsible Gaming Database; the separate Disassociated Persons List covers the Detroit casinos)
+    durations: null
+    covers: [internet_gaming, sports_wagering_online, detroit_casinos]
+    enrollment_methods: [online, mail]
+    url: https://www.michigan.gov/mgcb/resources/responsible-gaming
+    notes: >-
+      Licensed operators must honor the Responsible Gaming Database, which lets a person self-exclude from all
+      Michigan regulated online gaming and internet sports betting. Durations and enrollment methods not confirmed
+      by search on 2026-10-16. Tribal retail sportsbooks are covered by tribal programs.
+    provenance:
+      <<: *mireg
+      source_url: https://www.michigan.gov/mgcb/resources/responsible-gaming
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: null
+    player_set_required_at_signup: null
+    cooling_off_on_increase_hours: null
+    statutory_cap_usd: null
+    authority_citation: Michigan Gaming Control Board internet sports betting rules (responsible gaming tools required of licensed operators, including deposit limits), as described in the Board's 2026-10-08 release
+    notes: Rule number not confirmed by search on 2026-10-16.
+    provenance:
+      <<: *mireg
+      source_url: https://www.michigan.gov/mgcb/news/2026/10/08/mgcb-issues-33-cease-and-desist-letters
+  advertising: null
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+  - Michigan reports adjusted gross sports betting receipts after an uncapped free play deduction, so reported revenue is materially below gross revenue and below the figures of states such as New Jersey or Massachusetts.
+  - Tribal operators report internet sports betting through the Board but their retail wagering is governed by compacts and is not in the state series.
+  - Michigan borders Ohio and Indiana, both with online wagering, and Ontario, which has a regulated online market, so cross-border flows are present in all directions.

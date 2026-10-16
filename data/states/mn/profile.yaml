@@ -1,78 +1,71 @@
-fips: '27'
+fips: "27"
 abbr: MN
 name: Minnesota
 profile_completeness: status_only
-summary: null
+summary: >-
+  Minnesota has not authorized sports wagering in any form. Bills were introduced in each session from 2019
+  through 2026; in the 2026 session the Senate declined to adopt the committee report on SF 4139 by a 22 to 44
+  vote on March 23, 2026, and the companion House bill HF 4204 did not reach a floor vote before adjournment.
+  Tribal casinos operate Class III gaming under compacts that do not cover sports wagering.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: mn-legislature
-    source_url: https://www.revisor.mn.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: mn-legislature
-    source_url: https://www.revisor.mn.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No Minnesota statute authorizes sports wagering. Minn. Stat. ch. 609 (gambling offenses) and ch. 349 (lawful gambling) do not include it.
+      url: https://www.revisor.mn.gov/statutes/
+    operator_model: null
+    notes: >-
+      2026 session: SF 4139 (Frentz) failed on a motion to adopt the committee report, 22 to 44, on 2026-03-23;
+      HF 4204 was introduced 2026-03-12 and advanced through House committees without a floor vote. The session
+      adjourned 2026-05-18 without passage, per press; adjournment without passage was not confirmed from a
+      legislative page by search on 2026-10-16.
+    provenance: &mnleg
+      source_id: mn-legislature
+      source_url: https://www.revisor.mn.gov/bills/94/2026/0/SF/4139/?body=Senate
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Absence of authorization re-checked on 2026-10-16 against the Revisor's bill status pages for SF 4139 and
+        HF 4204. Must be re-confirmed after each legislative session.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No Minnesota statute authorizes online sports wagering.
+      url: https://www.revisor.mn.gov/statutes/
+    operator_model: null
+    notes: null
+    provenance: *mnleg
 regulators:
-- name: No state body regulates sports wagering; none is authorized
-  url: null
-  type: none
-  roles: []
-  provenance:
-    source_id: mn-legislature
-    source_url: https://www.revisor.mn.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: No state body regulates sports wagering; none is authorized
+    url: null
+    type: none
+    roles: []
+    provenance:
+      <<: *mnleg
+      notes: >-
+        If authorized, the 2026 bills would have placed licensing with the Minnesota Gambling Control Board, which
+        currently regulates charitable gambling, with enforcement by the Department of Public Safety's Alcohol
+        and Gambling Enforcement Division.
 legal_age: null
 tax: null
 consumer_protections: null
-limitations: null
+limitations:
+  - Minnesota is a comparison state with no regulated sports wagering. Residents can use offshore sites, sweepstakes products and, depending on geofencing, federally regulated prediction markets; none of that activity appears in any state series.
+  - Minnesota borders Iowa, which has had online wagering since 2019, so some resident activity appears in Iowa's figures.
+  - Problem gambling indicators reflect a large tribal casino and charitable gambling market and cannot be read as sports wagering effects.

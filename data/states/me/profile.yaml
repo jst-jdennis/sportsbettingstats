@@ -1,81 +1,140 @@
-fips: '23'
+fips: "23"
 abbr: ME
 name: Maine
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Maine enacted sports wagering through LD 585 (Public Law 2021, chapter 681), signed May 2, 2022. Online
+  wagering is reserved to the state's four federally recognized tribes, each of which may hold one mobile
+  license, and launched November 3, 2023. Facility licenses are open to commercial tracks, off-track betting
+  facilities, casinos and the tribes; the first retail sportsbook opened in Portland in September 2024. The
+  Gambling Control Unit of the Department of Public Safety regulates both channels and collects a 10 percent
+  tax on adjusted gross sports wagering receipts.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: authorized_not_launched
-  authorized_on: '2022-05-02'
-  launched_on: null
-  authority:
-    type: statute
-    citation: LD 585 (2022); 8 M.R.S. ch. 35
-    url: https://legislature.maine.gov/
-  operator_model: tribal_exclusive
-  notes: null
-  provenance:
-    source_id: me-regulator
-    source_url: https://www.maine.gov/dps/gamb-control/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2022-05-02'
-  launched_on: '2023-11-03'
-  authority:
-    type: statute
-    citation: LD 585 (2022); 8 M.R.S. ch. 35
-    url: https://legislature.maine.gov/
-  operator_model: tribal_exclusive
-  notes: null
-  provenance:
-    source_id: me-regulator
-    source_url: https://www.maine.gov/dps/gamb-control/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2022-05-02"
+    launched_on: "2024-09-13"
+    authority:
+      type: statute
+      citation: LD 585 (Public Law 2021, ch. 681); 8 M.R.S. ch. 35, including section 1206 (facility sports wagering license)
+      url: https://legislature.maine.gov/statutes/8/title8ch35.pdf
+    operator_model: mixed
+    notes: >-
+      Facility licenses are limited to commercial tracks, off-track betting facilities, slot machine facilities or
+      casinos, and federally recognized tribes, with no more than 10 facility licenses in total (8 M.R.S. 1206).
+      The first retail location, operated by First Tracks Investments with Caesars Sportsbook at Oddfellahs in
+      Portland, opened in September 2024.
+    provenance: &meleg
+      source_id: me-legislature
+      source_url: https://legislature.maine.gov/statutes/8/title8ch35.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Corrected from authorized_not_launched: the Department of Public Safety announced the opening of Maine's
+        first retail sportsbook in September 2024, per https://www.maine.gov/dps/news/caesars-opens-maines-first-retail-sportsbook.
+        Corrected from tribal_exclusive: facility licenses are open to commercial tracks, OTBs, casinos and tribes,
+        per 8 M.R.S. 1206 at https://legislature.maine.gov/statutes/8/title8ch35.pdf. Launch date 2024-09-13 is the
+        date of the operator's announcement; the DPS release date was not captured. Signing date 2022-05-02 appears
+        in press only; not confirmed by a primary-domain result on 2026-10-16; seeded value retained.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2022-05-02"
+    launched_on: "2023-11-03"
+    authority:
+      type: statute
+      citation: LD 585 (Public Law 2021, ch. 681); 8 M.R.S. 1207 (mobile sports wagering license limited to federally recognized Indian tribes in the State, one per tribe)
+      url: https://legislature.maine.gov/statutes/8/title8sec1207.html
+    operator_model: tribal_exclusive
+    notes: A tribe may contract with no more than one management services licensee. The Gambling Control Unit publishes monthly revenue reports per licensee and per management services provider.
+    provenance:
+      <<: *meleg
+      source_url: https://legislature.maine.gov/statutes/8/title8sec1207.html
+      notes: >-
+        Tribal exclusivity confirmed from 8 M.R.S. 1207. Online launch date 2023-11-03 is attributed to the
+        Department of Public Safety and Gambling Control Unit in press; not confirmed by a primary-domain result on
+        2026-10-16; seeded value retained.
 regulators:
-- name: Maine Gambling Control Unit
-  url: https://www.maine.gov/dps/gamb-control/
-  type: other_state_agency
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: me-regulator
-    source_url: https://www.maine.gov/dps/gamb-control/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+  - name: Maine Gambling Control Unit, Department of Public Safety
+    url: https://www.maine.gov/dps/gamb-control/
+    type: other_state_agency
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance: &mereg
+      source_id: me-regulator
+      source_url: https://www.maine.gov/dps/gamb-control/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        The Unit's director adopts the sports wagering rules (Chapters 50 to 67) and publishes monthly operator
+        revenue reports (form MGCU 8600) on maine.gov/dps. Homepage used; the monthly report PDFs are per operator.
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: 8 M.R.S. ch. 35 (operators and management services licensees may not accept a wager from a person who has not attained 21 years of age)
+    provenance:
+      <<: *meleg
+      notes: The prohibition appears in the chapter text; the section number was not captured by search on 2026-10-16.
+tax:
+  - channel: all
+    basis: adjusted_gross_revenue
+    rate: 0.10
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      8 M.R.S. 1202 defines adjusted gross sports wagering receipts as gross receipts less winnings paid to
+      patrons, including the cash equivalent of merchandise prizes, and less federal excise tax. The definition
+      contains no deduction for promotional credits.
+    effective_from: "2023-11-03"
+    effective_to: null
+    destination:
+      - fund_name: General Fund
+        share: 0.65
+      - fund_name: Gambling Control Unit administrative expenses
+        share: 0.10
+      - fund_name: Gambling Addiction Prevention and Treatment Fund
+        share: 0.10
+      - fund_name: Harness racing purses, Sire Stakes Fund and agricultural fair support
+        share: 0.15
+    authority_citation: 8 M.R.S. 1218 (operator collects and distributes 10 percent of adjusted gross sports wagering receipts; of the receipts, 1 percent to the Unit, 1 percent to the Gambling Addiction Prevention and Treatment Fund, 6.5 percent to the General Fund, remainder to racing and fairs)
+    provenance:
+      <<: *meleg
+      source_url: https://legislature.maine.gov/legis/statutes/8/title8sec1218.html
+      notes: Shares are expressed as fractions of the 10 percent tax (1 point of receipts equals 0.10 of the tax). The 1.5 point remainder is split among racing and fair funds in subsections not captured; confirm the split.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Maine Gambling Control Unit
+    durations: null
+    covers: [casinos, sports_wagering_retail, sports_wagering_online]
+    enrollment_methods: [in_person, online]
+    url: https://www.maine.gov/dps/sites/maine.gov.dps/files/inline-files/Sports%20Wagering%20Rules%2011.1.23.pdf
+    notes: >-
+      8 M.R.S. ch. 35 requires a list of prohibited bettors that includes persons who voluntarily ask to be listed,
+      maintained by the Gambling Control Unit. Durations and enrollment methods not confirmed by search on
+      2026-10-16; the enrollment methods shown are assumptions to be checked against the Unit's program page.
+    provenance:
+      <<: *mereg
+      source_url: https://www.maine.gov/dps/sites/maine.gov.dps/files/inline-files/Sports%20Wagering%20Rules%2011.1.23.pdf
+  deposit_limits: null
+  advertising: null
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+  - Maine's market is small and dominated by two online operators under tribal licenses, so monthly figures are volatile and operator-level reports can identify individual firms.
+  - Retail wagering began only in September 2024 at a single location, so the retail series is short and nearly all handle is online.
+  - Maine deducts no promotional play from the tax base, so its adjusted gross receipts are closer to gross revenue than in states with free play deductions.

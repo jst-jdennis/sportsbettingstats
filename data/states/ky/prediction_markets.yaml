@@ -1,0 +1,78 @@
+fips: "21"
+as_of: "2026-10-16"
+review_note: >-
+  Records below come from the Kentucky Attorney General's press releases and the filed Polymarket complaint
+  on ag.ky.gov. The Kentucky Horse Racing and Gaming Corporation press room was not reached by search on the
+  as_of date. Later docket activity in Franklin Circuit Court has not been checked.
+operating_platforms:
+  - platform: Kalshi
+    offers_sports_contracts: true
+    offers_in_state: "yes"
+    basis: court_filing
+    provenance: &kyag
+      source_id: ky-attorney-general
+      source_url: https://www.kentucky.gov/Pages/Activity-stream.aspx?n=AttorneyGeneral&prId=1944
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: The Attorney General's complaints allege that Kalshi and Polymarket accept sports event contracts from persons located in Kentucky. Allegations, not findings.
+  - platform: Polymarket
+    offers_sports_contracts: true
+    offers_in_state: "yes"
+    basis: court_filing
+    provenance:
+      <<: *kyag
+      source_url: https://www.ag.ky.gov/Documents/2026.06.17%20Accepted%20%20KYOAG%20v.%20Polymarket%20Complaint%20-%20Final.pdf
+state_actions:
+  - action_type: advisory_opinion
+    date: "2026-05-11"
+    issuing_body: Kentucky Attorney General
+    target: Prediction market platforms offering sports event contracts
+    summary: The Attorney General joined a bipartisan group of state attorneys general in a letter to the CFTC asserting that the states, not the CFTC, have jurisdiction over sports event contracts offered on prediction markets.
+    document_url: https://www.kentucky.gov/Pages/Activity-stream.aspx?n=AttorneyGeneral&prId=1928
+    provenance:
+      <<: *kyag
+      source_url: https://www.kentucky.gov/Pages/Activity-stream.aspx?n=AttorneyGeneral&prId=1928
+      notes: Recorded as advisory_opinion for lack of a closer enum value; it is a multistate letter, not a formal Kentucky opinion. Date of the letter as stated in the 2026-06-17 release.
+  - action_type: lawsuit_filed
+    date: "2026-06-17"
+    issuing_body: Kentucky Attorney General
+    target: KalshiEX LLC and affiliates including Coinbase
+    summary: The Attorney General sued in Franklin Circuit Court alleging that Kalshi offers sports wagering in Kentucky without a state license, in violation of KRS Chapter 230 and the Consumer Protection Act, and that its contracts are void under KRS 372.010.
+    document_url: https://www.kentucky.gov/Pages/Activity-stream.aspx?n=AttorneyGeneral&prId=1944
+    provenance: *kyag
+  - action_type: lawsuit_filed
+    date: "2026-06-17"
+    issuing_body: Kentucky Attorney General
+    target: Polymarket and affiliates
+    summary: Companion suit in Franklin Circuit Court alleging unlicensed sports wagering under KRS 230.210(32), void wagering contracts under KRS 372.010, and misleading representations that the platform is authorized in Kentucky.
+    document_url: https://www.ag.ky.gov/Documents/2026.06.17%20Accepted%20%20KYOAG%20v.%20Polymarket%20Complaint%20-%20Final.pdf
+    provenance:
+      <<: *kyag
+      source_url: https://www.ag.ky.gov/Documents/2026.06.17%20Accepted%20%20KYOAG%20v.%20Polymarket%20Complaint%20-%20Final.pdf
+litigation:
+  - case_name: Commonwealth of Kentucky ex rel. Coleman v. KalshiEX LLC et al.
+    court: Franklin Circuit Court (Kentucky)
+    docket: null
+    filed_on: "2026-06-17"
+    status: pending
+    posture_note: >-
+      Complaint stage as of the as_of date. No ruling on preliminary relief or the merits was found in search.
+      Docket number not captured.
+    rulings: null
+    provenance: *kyag
+  - case_name: Commonwealth of Kentucky ex rel. Coleman v. Polymarket et al.
+    court: Franklin Circuit Court (Kentucky)
+    docket: null
+    filed_on: "2026-06-17"
+    status: pending
+    posture_note: Complaint stage as of the as_of date. No ruling found in search.
+    rulings: null
+    provenance:
+      <<: *kyag
+      source_url: https://www.ag.ky.gov/Documents/2026.06.17%20Accepted%20%20KYOAG%20v.%20Polymarket%20Complaint%20-%20Final.pdf

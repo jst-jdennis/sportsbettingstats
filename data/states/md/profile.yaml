@@ -1,81 +1,177 @@
-fips: '24'
+fips: "24"
 abbr: MD
 name: Maryland
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Maryland voters approved sports wagering as Question 2 in November 2020, and the General Assembly
+  implemented it through House Bill 940, Chapter 356 of 2021, effective on signing May 18, 2021. Retail
+  wagering began December 9, 2021 and mobile wagering November 23, 2022, regulated by the Maryland Lottery
+  and Gaming Control Agency. The tax is 15 percent of taxable proceeds for retail and, since Chapter 604 of
+  2025, 20 percent for mobile operators.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2021-05-18'
-  launched_on: '2021-12-09'
-  authority:
-    type: ballot_measure
-    citation: Question 2 (2020); HB 940 (2021); Md. Code, State Gov. 9-1E
-    url: https://mgaleg.maryland.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: md-regulator
-    source_url: https://www.mdgaming.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2021-05-18'
-  launched_on: '2022-11-23'
-  authority:
-    type: ballot_measure
-    citation: Question 2 (2020); HB 940 (2021); Md. Code, State Gov. 9-1E
-    url: https://mgaleg.maryland.gov/
-  operator_model: commercial
-  notes: null
-  provenance:
-    source_id: md-regulator
-    source_url: https://www.mdgaming.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2021-05-18"
+    launched_on: "2021-12-09"
+    authority:
+      type: statute
+      citation: HB 940, Chapter 356 of 2021 (emergency measure, effective 2021-05-18); Md. Code, State Gov. Title 9, Subtitle 1E; voter approval by Question 2 (November 3, 2020)
+      url: https://www.mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0940?ys=2021RS
+    operator_model: commercial
+    notes: Retail licenses are held by casinos, racetracks, professional sports venues and other named and competitively awarded Class A and Class B facilities.
+    provenance: &mdleg
+      source_id: md-legislature
+      source_url: https://www.mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0940?ys=2021RS
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Corrected from ballot_measure: the operative authority is Chapter 356 of 2021 (HB 940), approved by the
+        Governor 2021-05-18 as shown on the General Assembly bill page; Question 2 (2020) was the voter
+        authorization that the statute implements, per https://www.mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0940?ys=2021RS.
+        Retail launch date 2021-12-09 appears in press only; not confirmed by a primary-domain result on
+        2026-10-16; seeded value retained.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2021-05-18"
+    launched_on: "2022-11-23"
+    authority:
+      type: statute
+      citation: HB 940, Chapter 356 of 2021; Md. Code, State Gov. Title 9, Subtitle 1E (mobile sports wagering licenses, capped at 60)
+      url: https://www.mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0940?ys=2021RS
+    operator_model: commercial
+    notes: Mobile licenses are awarded by the Sports Wagering Application Review Commission; licensees need not be tethered to a retail facility.
+    provenance:
+      <<: *mdleg
+      notes: Mobile launch date 2022-11-23 appears in press only; not confirmed by a primary-domain result on 2026-10-16; seeded value retained.
 regulators:
-- name: Maryland Lottery and Gaming Control Agency
-  url: https://www.mdgaming.com/
-  type: lottery
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: md-regulator
-    source_url: https://www.mdgaming.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+  - name: Maryland Lottery and Gaming Control Agency
+    url: https://www.mdgaming.com/maryland-sports-wagering/
+    type: lottery
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance: &mdreg
+      source_id: md-regulator
+      source_url: https://www.mdgaming.com/maryland-sports-wagering/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        The Agency staffs the State Lottery and Gaming Control Commission, which adopts COMAR Title 36, Subtitle 10,
+        and publishes monthly sports wagering revenue reports. License awards are made by the separate Sports
+        Wagering Application Review Commission.
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: Md. Code, State Gov. 9-1E-11 (a licensee may not accept a wager from an individual under the age of 21 years), as enacted by Chapter 356 of 2021
+    provenance:
+      <<: *mdleg
+      source_url: https://mgaleg.maryland.gov/2021RS/Chapters_noln/CH_356_hb0940e.pdf
+tax:
+  - channel: retail
+    basis: adjusted_gross_revenue
+    rate: 0.15
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      Taxable proceeds are handle less winnings and less free promotional play. After a licensee's first full
+      fiscal year the promotional exclusion may not exceed a percentage of prior-year proceeds set by Commission
+      regulation (20 percent; an August 2025 proposal would reduce the mobile cap to 5 percent, and its adoption
+      was not confirmed by search on 2026-10-16).
+    effective_from: "2021-12-09"
+    effective_to: null
+    destination:
+      - fund_name: Blueprint for Maryland's Future Fund
+        share: 1.0
+    authority_citation: Md. Code, State Gov. Title 9, Subtitle 1E (Chapter 356 of 2021); Agency revenue reports state 15 percent of taxable proceeds for retail operators
+    provenance:
+      <<: *mdreg
+      source_url: https://www.mdgaming.com/maryland-sports-wagering/revenue-reports/
+      notes: Rate and destination from the Agency's revenue report pages. The statute section number for the rate was not confirmed by search on 2026-10-16.
+  - channel: online
+    basis: adjusted_gross_revenue
+    rate: 0.15
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: As above.
+    effective_from: "2022-11-23"
+    effective_to: "2025-06-30"
+    destination:
+      - fund_name: Blueprint for Maryland's Future Fund
+        share: 1.0
+    authority_citation: Md. Code, State Gov. Title 9, Subtitle 1E as enacted by Chapter 356 of 2021 (15 percent of proceeds)
+    provenance:
+      <<: *mdreg
+      source_url: https://www.mdgaming.com/maryland-sports-wagering/revenue-reports/
+  - channel: online
+    basis: adjusted_gross_revenue
+    rate: 0.20
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: As above.
+    effective_from: "2025-07-01"
+    effective_to: null
+    destination:
+      - fund_name: Blueprint for Maryland's Future Fund
+        share: 0.75
+      - fund_name: General Fund
+        share: 0.25
+    authority_citation: Chapter 604 of 2025 (Budget Reconciliation and Financing Act, HB 352), raising the mobile rate from 15 to 20 percent; 15 points to the Blueprint Fund and 5 points to the General Fund per the Agency's monthly reports
+    provenance:
+      <<: *mdleg
+      source_url: https://mgaleg.maryland.gov/2025RS/fnotes/bil_0002/hb0352.pdf
+      notes: >-
+        Rate change confirmed in Department of Legislative Services fiscal notes (2025 HB 352; 2026 HB 291). The
+        2025-07-01 effective date is consistent with the Agency's note that the General Fund share applies since
+        July 2025 but was not read from the act text; confirm before verification.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Maryland Lottery and Gaming Control Agency (Voluntary Exclusion Program)
+    durations: null
+    covers: [casinos, sports_wagering_retail, sports_wagering_online, daily_fantasy]
+    enrollment_methods: [in_person]
+    url: https://www.mdgaming.com/welcome/responsible-gambling/
+    notes: >-
+      COMAR 36.01.03.05 establishes the Commission's Voluntary Exclusion List, which COMAR 36.10 applies to sports
+      wagering licensees. Duration options (the program has offered two year and lifetime terms) and online
+      enrollment not confirmed by search on 2026-10-16.
+    provenance:
+      <<: *mdreg
+      source_url: https://www.mdgaming.com/welcome/responsible-gambling/
+  deposit_limits: null
+  advertising:
+    - rule_type: no_under_age_targeting
+      text: Sports wagering advertising may not depict an individual who is, or appears to be, under 21 years of age, and may not target persons under 21.
+      authority_citation: COMAR 36.10 (sports wagering advertising provisions)
+      provenance:
+        <<: *mdreg
+        source_url: https://www.mgaleg.maryland.gov/pubs/committee/AELR/25-288P-Regulation.pdf
+        notes: Text as reflected in the Commission's 2025 proposed regulation filing with the AELR Committee; confirm the codified section.
+  credit_card_deposits:
+    allowed: true
+    authority_citation: COMAR 36.10 (at retail sportsbooks wagers are made with cash, check or debit card; credit cards may be used only for a cash advance). No prohibition on credit card funding of online accounts was identified.
+    notes: >-
+      HB 518 of 2026 would prohibit credit cards for online sports wagering transactions; its enactment was not
+      confirmed by search on 2026-10-16. Recorded as allowed for online accounts subject to that check.
+    provenance:
+      <<: *mdleg
+      source_url: https://mgaleg.maryland.gov/2026RS/fnotes/bil_0008/hb0518.pdf
+  helpline_message: null
+limitations:
+  - Maryland taxes proceeds after a capped free promotional play exclusion, so taxable proceeds understate gross revenue, especially in each operator's first full fiscal year when the exclusion is uncapped.
+  - The mobile tax rate changed on July 1, 2025, so contributions to the state before and after that date are not comparable as a measure of volume.
+  - Maryland shares borders with Virginia, Pennsylvania, West Virginia, Delaware and the District of Columbia, all with online wagering, so cross-border handle flows in both directions.
