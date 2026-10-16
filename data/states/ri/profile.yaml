@@ -1,0 +1,81 @@
+fips: '44'
+abbr: RI
+name: Rhode Island
+profile_completeness: status_only
+summary: null
+legal_status:
+- market_segment: regulated_sportsbook
+  channel: retail
+  scope: statewide
+  status: live
+  authorized_on: '2018-06-22'
+  launched_on: '2018-11-26'
+  authority:
+    type: statute
+    citation: R.I. Gen. Laws 42-61.2
+    url: https://webserver.rilegislature.gov/
+  operator_model: lottery_monopoly
+  notes: null
+  provenance:
+    source_id: ri-regulator
+    source_url: https://www.rilot.com/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+- market_segment: regulated_sportsbook
+  channel: online
+  scope: statewide
+  status: live
+  authorized_on: '2019-03-25'
+  launched_on: '2019-09-04'
+  authority:
+    type: statute
+    citation: R.I. Gen. Laws 42-61.2
+    url: https://webserver.rilegislature.gov/
+  operator_model: lottery_monopoly
+  notes: null
+  provenance:
+    source_id: ri-regulator
+    source_url: https://www.rilot.com/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+regulators:
+- name: Rhode Island Lottery
+  url: https://www.rilot.com/
+  type: lottery
+  roles:
+  - licensing
+  - enforcement
+  - revenue_reporting
+  provenance:
+    source_id: ri-regulator
+    source_url: https://www.rilot.com/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+legal_age: null
+tax: null
+consumer_protections: null
+limitations: null

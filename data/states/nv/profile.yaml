@@ -1,0 +1,83 @@
+fips: '32'
+abbr: NV
+name: Nevada
+profile_completeness: status_only
+summary: null
+legal_status:
+- market_segment: regulated_sportsbook
+  channel: retail
+  scope: statewide
+  status: live
+  authorized_on: null
+  launched_on: null
+  authority:
+    type: statute
+    citation: NRS 463; Nevada Gaming Commission Regulation 22. Legal before PASPA (1992); mobile wagering
+      since 2010 with in-person account registration
+    url: https://gaming.nv.gov/
+  operator_model: commercial
+  notes: null
+  provenance:
+    source_id: nv-regulator
+    source_url: https://gaming.nv.gov/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+- market_segment: regulated_sportsbook
+  channel: online
+  scope: statewide
+  status: live
+  authorized_on: null
+  launched_on: null
+  authority:
+    type: statute
+    citation: NRS 463; Nevada Gaming Commission Regulation 22. Legal before PASPA (1992); mobile wagering
+      since 2010 with in-person account registration
+    url: https://gaming.nv.gov/
+  operator_model: commercial
+  notes: null
+  provenance:
+    source_id: nv-regulator
+    source_url: https://gaming.nv.gov/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+regulators:
+- name: Nevada Gaming Control Board
+  url: https://gaming.nv.gov/
+  type: gaming_commission
+  roles:
+  - licensing
+  - enforcement
+  - revenue_reporting
+  provenance:
+    source_id: nv-regulator
+    source_url: https://gaming.nv.gov/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+legal_age: null
+tax: null
+consumer_protections: null
+limitations: null

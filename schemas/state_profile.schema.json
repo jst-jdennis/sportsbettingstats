@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wageringdata.org/schemas/state_profile.schema.json",
+  "title": "State profile",
+  "type": "object",
+  "required": ["fips", "abbr", "name", "legal_status", "regulators"],
+  "additionalProperties": false,
+  "properties": {
+    "fips": { "$ref": "provenance.schema.json#/$defs/fips" },
+    "abbr": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "name": { "type": "string" },
+    "profile_completeness": { "type": "string", "enum": ["full", "status_only"], "description": "full: every section has been entered. status_only: legal status and regulators only; other sections render as not yet entered." },
+    "summary": { "type": ["string", "null"], "description": "Two or three neutral sentences. No advocacy." },
+    "legal_status": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["market_segment", "channel", "scope", "status", "provenance"],
+        "additionalProperties": false,
+        "properties": {
+          "market_segment": { "const": "regulated_sportsbook" },
+          "channel": { "type": "string", "enum": ["retail", "online"] },
+          "scope": { "type": "string", "enum": ["statewide", "on_premises_only", "tribal_lands_only", "lottery_kiosk", "not_applicable"] },
+          "status": { "type": "string", "enum": ["not_authorized", "authorized_not_launched", "live", "suspended", "repealed"] },
+          "authorized_on": { "type": ["string", "null"], "format": "date" },
+          "launched_on": { "type": ["string", "null"], "format": "date" },
+          "authority": {
+            "type": ["object", "null"],
+            "required": ["type", "citation"],
+            "additionalProperties": false,
+            "properties": {
+              "type": { "type": "string", "enum": ["statute", "ballot_measure", "compact", "regulation", "constitutional_amendment", "none"] },
+              "citation": { "type": "string" },
+              "url": { "type": ["string", "null"], "format": "uri" }
+            }
+          },
+          "operator_model": { "type": ["string", "null"], "enum": ["commercial", "lottery_monopoly", "tribal_exclusive", "mixed", null] },
+          "notes": { "type": ["string", "null"] },
+          "provenance": { "$ref": "provenance.schema.json" }
+        }
+      }
+    },
+    "regulators": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "type", "roles", "provenance"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "url": { "type": ["string", "null"], "format": "uri" },
+          "type": { "type": "string", "enum": ["gaming_commission", "lottery", "racing_commission", "tribal_gaming_agency", "attorney_general", "other_state_agency", "none"] },
+          "roles": { "type": "array", "items": { "type": "string", "enum": ["licensing", "enforcement", "revenue_reporting", "operation", "compact_compliance", "problem_gambling_services"] } },
+          "provenance": { "$ref": "provenance.schema.json" }
+        }
+      }
+    },
+    "legal_age": {
+      "type": ["array", "null"],
+      "items": {
+        "type": "object",
+        "required": ["age", "scope", "provenance"],
+        "additionalProperties": false,
+        "properties": {
+          "age": { "type": "integer", "minimum": 18, "maximum": 21 },
+          "scope": { "type": "string", "enum": ["all", "commercial", "tribal", "lottery"] },
+          "authority_citation": { "type": ["string", "null"] },
+          "provenance": { "$ref": "provenance.schema.json" }
+        }
+      }
+    },
+    "tax": {
+      "type": ["array", "null"],
+      "items": {
+        "type": "object",
+        "required": ["channel", "basis", "effective_from", "provenance"],
+        "additionalProperties": false,
+        "properties": {
+          "channel": { "type": "string", "enum": ["retail", "online", "all"] },
+          "basis": { "type": "string", "enum": ["gross_gaming_revenue", "adjusted_gross_revenue", "handle", "per_wager", "revenue_share_compact"] },
+          "rate": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+          "tiers": { "type": ["array", "null"], "items": { "type": "object", "required": ["threshold_from", "rate"], "properties": { "threshold_from": { "type": "integer" }, "threshold_to": { "type": ["integer", "null"] }, "rate": { "type": "number" } } } },
+          "per_wager_fee_cents": { "type": ["integer", "null"] },
+          "promo_deduction_rule": { "type": ["string", "null"] },
+          "effective_from": { "type": "string", "format": "date" },
+          "effective_to": { "type": ["string", "null"], "format": "date" },
+          "destination": { "type": ["array", "null"], "items": { "type": "object", "required": ["fund_name"], "properties": { "fund_name": { "type": "string" }, "share": { "type": ["number", "null"] } } } },
+          "authority_citation": { "type": ["string", "null"] },
+          "provenance": { "$ref": "provenance.schema.json" }
+        }
+      }
+    },
+    "consumer_protections": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "self_exclusion": {
+          "type": ["object", "null"],
+          "required": ["program_type", "provenance"],
+          "additionalProperties": false,
+          "properties": {
+            "program_type": { "type": "string", "enum": ["statewide_registry", "operator_only", "both", "none", "tribal_only"] },
+            "administered_by": { "type": ["string", "null"] },
+            "durations": { "type": ["array", "null"], "items": { "type": "string" } },
+            "covers": { "type": ["array", "null"], "items": { "type": "string" } },
+            "enrollment_methods": { "type": ["array", "null"], "items": { "type": "string", "enum": ["online", "in_person", "mail", "operator_app"] } },
+            "url": { "type": ["string", "null"], "format": "uri" },
+            "notes": { "type": ["string", "null"] },
+            "provenance": { "$ref": "provenance.schema.json" }
+          }
+        },
+        "deposit_limits": {
+          "type": ["object", "null"],
+          "required": ["player_set_available", "provenance"],
+          "additionalProperties": false,
+          "properties": {
+            "player_set_available": { "type": "boolean" },
+            "mandatory_default": { "type": ["boolean", "null"] },
+            "player_set_required_at_signup": { "type": ["boolean", "null"] },
+            "cooling_off_on_increase_hours": { "type": ["integer", "null"] },
+            "statutory_cap_usd": { "type": ["integer", "null"] },
+            "authority_citation": { "type": ["string", "null"] },
+            "notes": { "type": ["string", "null"] },
+            "provenance": { "$ref": "provenance.schema.json" }
+          }
+        },
+        "advertising": {
+          "type": ["array", "null"],
+          "items": {
+            "type": "object",
+            "required": ["rule_type", "text", "provenance"],
+            "additionalProperties": false,
+            "properties": {
+              "rule_type": { "type": "string", "enum": ["no_college_partnerships", "no_under_age_targeting", "no_risk_free_language", "responsible_gambling_message_required", "time_of_day_restriction", "whistle_to_whistle", "affiliate_restriction", "opt_out_of_direct_marketing", "other"] },
+              "text": { "type": "string" },
+              "authority_citation": { "type": ["string", "null"] },
+              "provenance": { "$ref": "provenance.schema.json" }
+            }
+          }
+        },
+        "credit_card_deposits": {
+          "type": ["object", "null"],
+          "required": ["allowed", "provenance"],
+          "additionalProperties": false,
+          "properties": { "allowed": { "type": "boolean" }, "authority_citation": { "type": ["string", "null"] }, "notes": { "type": ["string", "null"] }, "provenance": { "$ref": "provenance.schema.json" } }
+        },
+        "helpline_message": {
+          "type": ["object", "null"],
+          "required": ["required", "provenance"],
+          "additionalProperties": false,
+          "properties": { "required": { "type": "boolean" }, "required_number": { "type": ["string", "null"] }, "authority_citation": { "type": ["string", "null"] }, "provenance": { "$ref": "provenance.schema.json" } }
+        }
+      }
+    },
+    "limitations": { "type": ["array", "null"], "items": { "type": "string" } }
+  }
+}

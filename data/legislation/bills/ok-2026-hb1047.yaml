@@ -1,0 +1,79 @@
+slug: ok-2026-hb1047
+fips: "40"
+session: 2025-2026 (60th Legislature)
+bill_number: HB 1047
+title: Sports wagering; authorizing tribal gaming operators to conduct sports wagering under compact
+market_segment: [regulated_sportsbook]
+summary: >-
+  House Bill 1047 would have authorized sports wagering in Oklahoma by allowing tribes with gaming compacts to
+  offer retail and, through compact supplements, mobile wagering, with a share of revenue paid to the state. It
+  passed the House in 2025, carried over to the 2026 session, and failed on the Senate floor on April 22, 2026.
+would:
+  - Authorize federally recognized tribes with Class III compacts to conduct sports wagering through a compact supplement.
+  - Set a state revenue share on sports wagering receipts (rate as stated in the enrolled text; confirm from bill text rather than press).
+  - Direct a portion of state receipts to education and to problem gambling programs (confirm from bill text).
+sponsors:
+  - name: Ken Luttrell
+    chamber: house
+    party: R
+    role: primary
+  - name: Bill Coleman
+    chamber: senate
+    party: R
+    role: chamber_sponsor
+status: failed_floor_vote
+status_date: "2026-04-22"
+actions:
+  - date: "2025-02-03"
+    chamber: house
+    action_text: First reading (2025 session).
+    provenance: &okbill
+      source_id: ok-legislature-bills
+      source_url: https://www.oklegislature.gov/BillInfo.aspx?Bill=HB1047&Session=2500
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Action dates and sponsor list to be confirmed against the bill page and journals; entered from secondary knowledge.
+  - date: "2026-04-22"
+    chamber: senate
+    action_text: Third reading; measure failed.
+    provenance: *okbill
+votes:
+  - date: "2026-04-22"
+    chamber: senate
+    motion: Third reading, passage of the measure
+    yeas: 21
+    nays: 27
+    excused_or_not_voting: null
+    result: failed
+    rollcall_url: https://oksenate.gov/
+    provenance:
+      source_id: ok-senate-journal
+      source_url: https://oksenate.gov/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Tally of 27 against and 21 in favor is consistent across press accounts of April 22 to 23, 2026. Must be confirmed against the Senate Journal roll call before verification. The House passage vote from 2025 has not been entered.
+text_url: https://www.oklegislature.gov/BillInfo.aspx?Bill=HB1047&Session=2500
+legislature_page_url: https://www.oklegislature.gov/BillInfo.aspx?Bill=HB1047&Session=2500
+fiscal_note_url: null
+fiscal_estimate_text: null
+related_bills: []
+external_ids:
+  legiscan_bill_id: null
+  openstates_id: null
+notes: >-
+  Press accounts report that the Governor had said he would veto the bill and that an override would have
+  required 32 votes. Revenue estimates reported in press ranged widely and are not recorded here; the fiscal
+  impact statement, if one was prepared, should be entered from the legislature's own document.
+provenance: *okbill

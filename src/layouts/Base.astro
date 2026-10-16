@@ -1,0 +1,53 @@
+---
+import '../styles/global.css';
+import { SITE } from '../site.config';
+import { commitHash, BUILD_DATE } from '../lib/data';
+interface Props { title: string; description?: string; asOf?: string; canonicalPath?: string }
+const { title, description = SITE.description, asOf, canonicalPath } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const nav = [
+  ['/', 'Map'], ['/states/', 'States'], ['/outcomes/', 'Outcomes'], ['/research/', 'Research'],
+  ['/legislation/', 'Legislation'], ['/report-cards/', 'Report cards'], ['/methodology/', 'Methodology'], ['/data/', 'Data'],
+];
+const here = Astro.url.pathname.replace(base, '') || '/';
+const canonical = new URL((base + (canonicalPath ?? here)).replace(/\/+/g, '/'), Astro.site).toString();
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title} | {SITE.name}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta name="color-scheme" content="light dark" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href={base + '/'}>{SITE.name}<small>{SITE.phase}</small></a>
+      <nav class="primary" aria-label="Primary">
+        <ul>{nav.map(([href, label]) => <li><a href={base + href} aria-current={here === href || (href !== '/' && here.startsWith(href)) ? 'page' : undefined}>{label}</a></li>)}</ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <slot />
+  </main>
+  <footer class="site">
+    <div class="wrap">
+      <p>
+        {asOf && <>Data on this page as of {asOf}. </>}
+        Built {BUILD_DATE} from commit <code>{commitHash()}</code>.
+        Data: <a href={SITE.dataLicense.url}>{SITE.dataLicense.name}</a>. Code: <a href={SITE.codeLicense.url}>{SITE.codeLicense.name}</a>.
+        <a href={SITE.repoUrl}>Source repository</a>. <a href={SITE.contactIssuesUrl}>Report an error</a>.
+      </p>
+      <p>{SITE.name} presents evidence with its limitations and takes no position on legislation. Regulated sportsbooks, prediction markets and offshore or sweepstakes products are reported separately throughout.</p>
+    </div>
+  </footer>
+</body>
+</html>

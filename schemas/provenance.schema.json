@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wageringdata.org/schemas/provenance.schema.json",
+  "title": "Provenance block",
+  "description": "Attached to every record that renders as a fact or figure. A record without a resolvable source is a build error.",
+  "type": "object",
+  "required": ["source_id", "source_url", "retrieved_at", "retrieval_method", "entered_by", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "source_id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "Must resolve to data/sources/sources.yaml" },
+    "source_url": { "type": "string", "format": "uri", "description": "The exact document or page, not the landing page" },
+    "archive_url": { "type": ["string", "null"], "description": "Wayback Machine capture or archive/raw hash reference" },
+    "retrieved_at": { "type": "string", "format": "date" },
+    "retrieval_method": { "$ref": "#/$defs/access_method" },
+    "transform": { "type": ["string", "null"] },
+    "entered_by": { "type": "string" },
+    "reviewed_by": { "type": ["string", "null"] },
+    "status": { "type": "string", "enum": ["verified", "pending_review", "unverified", "disputed", "superseded"] },
+    "page_or_table": { "type": ["string", "null"], "description": "Page number, table id or section for PDFs and long documents" },
+    "notes": { "type": ["string", "null"] }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "const": "verified" } } },
+      "then": { "required": ["reviewed_by"], "properties": { "reviewed_by": { "type": "string", "minLength": 1 } } }
+    }
+  ],
+  "$defs": {
+    "access_method": { "type": "string", "enum": ["api", "bulk_download", "html_table", "pdf", "xlsx", "manual_entry", "foia_request"] },
+    "market_segment": { "type": "string", "enum": ["regulated_sportsbook", "prediction_market", "offshore_or_sweepstakes", "lottery_sports_product", "daily_fantasy"] },
+    "fips": { "type": "string", "pattern": "^[0-9]{2}$" }
+  }
+}

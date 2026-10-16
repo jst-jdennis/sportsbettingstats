@@ -1,0 +1,81 @@
+fips: '35'
+abbr: NM
+name: New Mexico
+profile_completeness: status_only
+summary: null
+legal_status:
+- market_segment: regulated_sportsbook
+  channel: retail
+  scope: tribal_lands_only
+  status: live
+  authorized_on: null
+  launched_on: '2018-10-16'
+  authority:
+    type: compact
+    citation: Tribal-state Class III gaming compacts (2015 compact); no state statute specific to sports
+      wagering
+    url: https://www.nmgcb.org/
+  operator_model: tribal_exclusive
+  notes: null
+  provenance:
+    source_id: nm-regulator
+    source_url: https://www.nmgcb.org/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+- market_segment: regulated_sportsbook
+  channel: online
+  scope: not_applicable
+  status: not_authorized
+  authorized_on: null
+  launched_on: null
+  authority:
+    type: none
+    citation: Tribal-state Class III gaming compacts (2015 compact); no state statute specific to sports
+      wagering
+    url: https://www.nmgcb.org/
+  operator_model: null
+  notes: null
+  provenance:
+    source_id: nm-regulator
+    source_url: https://www.nmgcb.org/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+regulators:
+- name: New Mexico Gaming Control Board
+  url: https://www.nmgcb.org/
+  type: gaming_commission
+  roles:
+  - compact_compliance
+  provenance:
+    source_id: nm-regulator
+    source_url: https://www.nmgcb.org/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+legal_age: null
+tax: null
+consumer_protections: null
+limitations: null

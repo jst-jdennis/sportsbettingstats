@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wageringdata.org/schemas/pg_funding.schema.json",
+  "title": "Problem gambling funding",
+  "type": "object",
+  "required": ["fips", "records"],
+  "additionalProperties": false,
+  "properties": {
+    "fips": { "$ref": "provenance.schema.json#/$defs/fips" },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["fiscal_year", "funding_mechanism", "provenance"],
+        "additionalProperties": false,
+        "properties": {
+          "fiscal_year": { "type": "integer", "minimum": 2000, "maximum": 2100 },
+          "amount_usd": { "type": ["integer", "null"], "description": "Null when the mechanism is known but the amount has not been entered" },
+          "amount_type": { "type": ["string", "null"], "enum": ["appropriation", "expenditure", "statutory_formula_estimate", null] },
+          "funding_mechanism": { "type": "string", "enum": ["statutory_earmark_pct_revenue", "statutory_earmark_fixed", "appropriation", "license_fee", "compact_payment", "none", "unknown"] },
+          "mechanism_text": { "type": ["string", "null"] },
+          "administering_agency": { "type": ["string", "null"] },
+          "includes": { "type": ["array", "null"], "items": { "type": "string", "enum": ["treatment", "prevention", "research", "helpline", "training"] } },
+          "authority_citation": { "type": ["string", "null"] },
+          "provenance": { "$ref": "provenance.schema.json" }
+        }
+      }
+    }
+  }
+}

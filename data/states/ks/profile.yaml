@@ -1,0 +1,142 @@
+fips: "20"
+abbr: KS
+name: Kansas
+profile_completeness: full
+summary: >-
+  Kansas authorized sports wagering in May 2022 through Senate Bill 84. Retail and online wagering both launched
+  on September 1, 2022. The Kansas Lottery is the statutory operator and contracts with the four state-owned
+  casinos' managers, each of which may partner with up to three online platforms. The Kansas Racing and Gaming
+  Commission regulates and runs the voluntary exclusion program.
+legal_status:
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2022-05-12"
+    launched_on: "2022-09-01"
+    authority:
+      type: statute
+      citation: 2022 Senate Bill 84; K.S.A. 74-8783 et seq.
+      url: https://www.kslegislature.gov/li_2022/b2021_22/measures/sb84/
+    operator_model: lottery_monopoly
+    notes: Retail wagering at the four state-owned casinos and at approved marketing partner locations such as professional sports venues.
+    provenance: &ksleg
+      source_id: ks-legislature
+      source_url: https://www.kslegislature.gov/li_2022/b2021_22/measures/sb84/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Confirm signing date and launch date against the enrolled bill and the Lottery's launch announcement.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2022-05-12"
+    launched_on: "2022-09-01"
+    authority:
+      type: statute
+      citation: 2022 Senate Bill 84; K.S.A. 74-8783 et seq. (up to three interactive platforms per casino manager)
+      url: https://www.kslegislature.gov/li_2022/b2021_22/measures/sb84/
+    operator_model: lottery_monopoly
+    notes: null
+    provenance: *ksleg
+regulators:
+  - name: Kansas Lottery
+    url: https://www.kslottery.com/
+    type: lottery
+    roles: [operation, revenue_reporting]
+    provenance: &kslot
+      source_id: ks-lottery-sports-wagering
+      source_url: https://www.kslottery.com/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: null
+  - name: Kansas Racing and Gaming Commission
+    url: https://krgc.ks.gov/
+    type: gaming_commission
+    roles: [licensing, enforcement]
+    provenance: &krgc
+      source_id: ks-krgc
+      source_url: https://krgc.ks.gov/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: null
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: K.S.A. 74-8784
+    provenance: *ksleg
+tax:
+  - channel: all
+    basis: revenue_share_compact
+    rate: 0.10
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: The state's share is 10 percent of sports wagering revenues as defined in K.S.A. 74-8783, after payouts and with free play deductions limited by statute; confirm the free play treatment against the statute text.
+    effective_from: "2022-09-01"
+    effective_to: null
+    destination:
+      - fund_name: Attracting Professional Sports to Kansas Fund
+        share: 0.80
+      - fund_name: Problem Gambling and Addictions Grant Fund
+        share: 0.02
+      - fund_name: State General Fund and other
+        share: 0.18
+    authority_citation: K.S.A. 74-8783 and 74-8784 (10 percent state share; 2 percent of the state's receipts to the Problem Gambling and Addictions Grant Fund; 80 percent to the Attracting Professional Sports to Kansas Fund)
+    provenance:
+      <<: *ksleg
+      notes: Kansas structures the state's take as a revenue share with the Lottery as operator rather than as a tax on licensees. Shares to be confirmed against the statute.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Kansas Racing and Gaming Commission
+    durations: [2 years, 5 years, lifetime]
+    covers: [state_owned_casinos, sports_wagering_retail, sports_wagering_online]
+    enrollment_methods: [in_person, online]
+    url: https://krgc.ks.gov/
+    notes: Duration options and enrollment methods to be confirmed against the current KRGC program description.
+    provenance: *krgc
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: false
+    player_set_required_at_signup: false
+    cooling_off_on_increase_hours: null
+    statutory_cap_usd: null
+    authority_citation: K.A.R. 112-114 series (interactive sports wagering responsible gaming requirements)
+    notes: Regulation reference to be confirmed.
+    provenance: *krgc
+  advertising:
+    - rule_type: responsible_gambling_message_required
+      text: Sports wagering advertising must include problem gambling helpline information.
+      authority_citation: K.S.A. 74-8784 and KRGC regulations
+      provenance: *krgc
+  credit_card_deposits:
+    allowed: true
+    authority_citation: null
+    notes: No statutory prohibition identified. Confirm against KRGC rules on permitted funding methods.
+    provenance: *krgc
+  helpline_message:
+    required: true
+    required_number: 1-800-GAMBLER
+    authority_citation: KRGC regulations
+    provenance: *krgc
+limitations:
+  - Kansas reports revenue after payouts and permitted free play deductions, which differs from New Jersey's gross revenue definition. Do not compare the two states' revenue lines directly.
+  - A material share of Kansas handle in the first year came from Missouri residents before Missouri launched in December 2025.

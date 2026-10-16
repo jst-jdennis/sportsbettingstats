@@ -1,0 +1,35 @@
+name: Validate
+
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install jsonschema frictionless pyyaml openpyxl pdfplumber requests pytest
+      - run: npm ci
+      - name: Schema validation
+        run: python3 scripts/validate.py
+      - name: Dash lint
+        run: python3 scripts/lint_dashes.py
+      - name: Ingestion tests
+        working-directory: ingest
+        run: |
+          python tests/make_fixtures.py
+          python -m pytest -q
+      - name: Site build
+        run: npx astro build

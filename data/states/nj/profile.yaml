@@ -1,0 +1,165 @@
+fips: "34"
+abbr: NJ
+name: New Jersey
+profile_completeness: full
+summary: >-
+  New Jersey authorized sports wagering in June 2018, days after the Supreme Court decision in Murphy v. NCAA
+  that the state had brought. Retail wagering began at racetracks and Atlantic City casinos on June 14, 2018
+  and online wagering on August 6, 2018. The Division of Gaming Enforcement regulates and publishes monthly
+  revenue, which gives the longest continuous post-2018 series of any state.
+legal_status:
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2018-06-11"
+    launched_on: "2018-06-14"
+    authority:
+      type: statute
+      citation: P.L. 2018, c. 33 (A4111); N.J.S.A. 5:12A-10 et seq.
+      url: https://www.njleg.state.nj.us/bill-search/2018/A4111
+    operator_model: commercial
+    notes: Retail sportsbooks are permitted at Atlantic City casinos and at current and former racetracks.
+    provenance: &njleg
+      source_id: nj-legislature
+      source_url: https://www.njleg.state.nj.us/bill-search/2018/A4111
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Confirm dates against the public law and the DGE launch announcements before verification.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2018-06-11"
+    launched_on: "2018-08-06"
+    authority:
+      type: statute
+      citation: P.L. 2018, c. 33; N.J.S.A. 5:12A-11 (internet wagering through casino or racetrack licensees)
+      url: https://www.njleg.state.nj.us/bill-search/2018/A4111
+    operator_model: commercial
+    notes: Online operators must partner with a casino or racetrack licensee. Servers are located in Atlantic City.
+    provenance: *njleg
+regulators:
+  - name: New Jersey Division of Gaming Enforcement
+    url: https://www.nj.gov/oag/ge/
+    type: attorney_general
+    roles: [licensing, enforcement, revenue_reporting]
+    provenance: &njdge
+      source_id: nj-dge
+      source_url: https://www.nj.gov/oag/ge/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: null
+  - name: New Jersey Casino Control Commission
+    url: https://www.nj.gov/casinos/
+    type: gaming_commission
+    roles: [licensing]
+    provenance: *njdge
+legal_age:
+  - age: 21
+    scope: all
+    authority_citation: N.J.S.A. 5:12A-11(d) and N.J.S.A. 5:12-119
+    provenance: *njleg
+tax:
+  - channel: retail
+    basis: gross_gaming_revenue
+    rate: 0.085
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: Gross revenue is reported before promotional credits; the taxable base excludes certain promotional gaming credits per N.J.A.C. 13:69L.
+    effective_from: "2018-06-14"
+    effective_to: null
+    destination:
+      - fund_name: Casino Revenue Fund
+        share: null
+    authority_citation: N.J.S.A. 5:12A-16 (8.5 percent on casino and racetrack sports wagering gross revenue) plus a 1.25 percent additional investment alternative tax
+    provenance: *njleg
+  - channel: online
+    basis: gross_gaming_revenue
+    rate: 0.13
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: As above.
+    effective_from: "2018-08-06"
+    effective_to: "2025-06-30"
+    destination:
+      - fund_name: Casino Revenue Fund
+        share: null
+    authority_citation: N.J.S.A. 5:12A-16 (13 percent on internet sports wagering gross revenue) plus a 1.25 percent additional investment alternative tax
+    provenance: *njleg
+  - channel: online
+    basis: gross_gaming_revenue
+    rate: 0.1975
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: As above.
+    effective_from: "2025-07-01"
+    effective_to: null
+    destination:
+      - fund_name: Casino Revenue Fund
+        share: null
+    authority_citation: P.L. 2025, c. 69 (FY2026 budget companion legislation) raised the internet sports wagering rate to 19.75 percent effective July 1, 2025
+    provenance:
+      <<: *njleg
+      notes: Rate increase enacted June 30, 2025. Confirm chapter number and effective date against the public law.
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Division of Gaming Enforcement
+    durations: [1 year, 5 years, lifetime]
+    covers: [casinos, internet_gaming, sports_wagering_retail, sports_wagering_online]
+    enrollment_methods: [online, in_person]
+    url: https://www.nj.gov/oag/ge/exclusion.html
+    notes: Separate lists exist for casino gaming and for internet and sports wagering; a person may enroll in either or both.
+    provenance:
+      <<: *njdge
+      source_url: https://www.nj.gov/oag/ge/exclusion.html
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: false
+    player_set_required_at_signup: false
+    cooling_off_on_increase_hours: null
+    statutory_cap_usd: null
+    authority_citation: N.J.A.C. 13:69O-1.2 (responsible gaming requirements for internet and mobile wagering, including player-set deposit, spend and time limits)
+    notes: Limits are player-set; an increase takes effect only after a waiting period set by regulation.
+    provenance: *njdge
+  advertising:
+    - rule_type: no_college_partnerships
+      text: Sports wagering operators may not enter into advertising or sponsorship partnerships with New Jersey colleges and universities.
+      authority_citation: P.L. 2024 (college partnership prohibition); confirm chapter
+      provenance:
+        <<: *njleg
+        notes: Chapter number to be confirmed.
+    - rule_type: responsible_gambling_message_required
+      text: Advertising must include the 1-800-GAMBLER helpline number and a responsible gaming message.
+      authority_citation: N.J.A.C. 13:69N and DGE advertising directives
+      provenance: *njdge
+    - rule_type: no_risk_free_language
+      text: The Division's 2023 responsible gaming advertising guidance restricts describing promotions as risk free when the patron can lose money.
+      authority_citation: DGE Responsible Gaming Advertising guidance (2023)
+      provenance: *njdge
+  credit_card_deposits:
+    allowed: true
+    authority_citation: N.J.A.C. 13:69O-1.3 (permitted funding methods)
+    notes: Permitted by regulation. Legislation to prohibit credit card funding has been introduced in recent sessions.
+    provenance: *njdge
+  helpline_message:
+    required: true
+    required_number: 1-800-GAMBLER
+    authority_citation: N.J.S.A. 5:12A-11 and N.J.A.C. 13:69N
+    provenance: *njdge
+limitations:
+  - New Jersey's monthly revenue figures are gross revenue before promotional deductions, which is not the taxable base and is not directly comparable to states that report adjusted revenue.
+  - A share of New Jersey online handle comes from residents of neighboring states who cross the border to wager, which was especially pronounced before New York launched online wagering in January 2022.

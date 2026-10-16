@@ -1,0 +1,81 @@
+fips: '18'
+abbr: IN
+name: Indiana
+profile_completeness: status_only
+summary: null
+legal_status:
+- market_segment: regulated_sportsbook
+  channel: retail
+  scope: statewide
+  status: live
+  authorized_on: '2019-05-08'
+  launched_on: '2019-09-01'
+  authority:
+    type: statute
+    citation: HEA 1015 (2019); IC 4-38
+    url: https://iga.in.gov/
+  operator_model: commercial
+  notes: null
+  provenance:
+    source_id: in-regulator
+    source_url: https://www.in.gov/igc/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+- market_segment: regulated_sportsbook
+  channel: online
+  scope: statewide
+  status: live
+  authorized_on: '2019-05-08'
+  launched_on: '2019-10-03'
+  authority:
+    type: statute
+    citation: HEA 1015 (2019); IC 4-38
+    url: https://iga.in.gov/
+  operator_model: commercial
+  notes: null
+  provenance:
+    source_id: in-regulator
+    source_url: https://www.in.gov/igc/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+regulators:
+- name: Indiana Gaming Commission
+  url: https://www.in.gov/igc/
+  type: gaming_commission
+  roles:
+  - licensing
+  - enforcement
+  - revenue_reporting
+  provenance:
+    source_id: in-regulator
+    source_url: https://www.in.gov/igc/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+legal_age: null
+tax: null
+consumer_protections: null
+limitations: null

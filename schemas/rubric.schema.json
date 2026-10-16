@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wageringdata.org/schemas/rubric.schema.json",
+  "title": "Report card rubric",
+  "type": "object",
+  "required": ["version", "status", "effective_from", "criteria", "grade_bands", "no_market_rule"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "type": "string" },
+    "status": { "type": "string", "enum": ["draft", "active", "retired"] },
+    "effective_from": { "type": "string", "format": "date" },
+    "preamble": { "type": ["string", "null"] },
+    "criteria": {
+      "type": "array",
+      "items": { "type": "object", "required": ["criterion_id", "title", "data_path", "applies_to", "scoring", "max_points", "rationale"], "additionalProperties": false, "properties": { "criterion_id": { "type": "string" }, "title": { "type": "string" }, "data_path": { "type": "string" }, "applies_to": { "type": "string", "enum": ["all_states", "states_with_regulated_market"] }, "scoring": { "type": "array", "items": { "type": "object", "required": ["condition", "points"], "properties": { "condition": { "type": "string" }, "points": { "type": "number" }, "label": { "type": ["string", "null"] } } } }, "max_points": { "type": "number" }, "rationale": { "type": "string" }, "evidence_basis": { "type": ["array", "null"], "items": { "type": "string" } } } }
+    },
+    "grade_bands": { "type": "array", "items": { "type": "object", "required": ["min_pct", "grade"], "properties": { "min_pct": { "type": "number" }, "grade": { "type": "string" } } } },
+    "no_market_rule": { "type": "string" }
+  }
+}

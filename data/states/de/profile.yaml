@@ -1,0 +1,81 @@
+fips: '10'
+abbr: DE
+name: Delaware
+profile_completeness: status_only
+summary: null
+legal_status:
+- market_segment: regulated_sportsbook
+  channel: retail
+  scope: statewide
+  status: live
+  authorized_on: '2009-05-14'
+  launched_on: '2018-06-05'
+  authority:
+    type: statute
+    citation: Del. Code tit. 29, ch. 48
+    url: https://delcode.delaware.gov/title29/c048/
+  operator_model: lottery_monopoly
+  notes: null
+  provenance:
+    source_id: de-regulator
+    source_url: https://www.delottery.com/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+- market_segment: regulated_sportsbook
+  channel: online
+  scope: statewide
+  status: live
+  authorized_on: '2009-05-14'
+  launched_on: '2023-12-27'
+  authority:
+    type: statute
+    citation: Del. Code tit. 29, ch. 48
+    url: https://delcode.delaware.gov/title29/c048/
+  operator_model: lottery_monopoly
+  notes: null
+  provenance:
+    source_id: de-regulator
+    source_url: https://www.delottery.com/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+regulators:
+- name: Delaware Lottery
+  url: https://www.delottery.com/
+  type: lottery
+  roles:
+  - licensing
+  - enforcement
+  - revenue_reporting
+  provenance:
+    source_id: de-regulator
+    source_url: https://www.delottery.com/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+legal_age: null
+tax: null
+consumer_protections: null
+limitations: null

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wageringdata.org/schemas/bill.schema.json",
+  "title": "Bill",
+  "type": "object",
+  "required": ["slug", "fips", "session", "bill_number", "title", "market_segment", "summary", "status", "provenance"],
+  "additionalProperties": false,
+  "properties": {
+    "slug": { "type": "string", "pattern": "^[a-z]{2}-[0-9]{4}-[a-z]+[0-9]+$" },
+    "fips": { "$ref": "provenance.schema.json#/$defs/fips" },
+    "session": { "type": "string" },
+    "bill_number": { "type": "string" },
+    "title": { "type": "string" },
+    "market_segment": { "type": "array", "items": { "$ref": "provenance.schema.json#/$defs/market_segment" }, "minItems": 1 },
+    "summary": { "type": "string" },
+    "would": { "type": ["array", "null"], "items": { "type": "string" }, "description": "Neutral list of what the bill would do if enacted" },
+    "sponsors": { "type": ["array", "null"], "items": { "type": "object", "required": ["name", "chamber", "role"], "properties": { "name": { "type": "string" }, "chamber": { "type": "string", "enum": ["house", "senate"] }, "party": { "type": ["string", "null"] }, "role": { "type": "string", "enum": ["primary", "cosponsor", "chamber_sponsor"] } } } },
+    "status": { "type": "string", "enum": ["introduced", "in_committee", "passed_first_chamber", "passed_both", "enacted", "vetoed", "failed_floor_vote", "died_in_committee", "withdrawn"] },
+    "status_date": { "type": ["string", "null"], "format": "date" },
+    "actions": { "type": ["array", "null"], "items": { "type": "object", "required": ["date", "chamber", "action_text", "provenance"], "properties": { "date": { "type": "string", "format": "date" }, "chamber": { "type": "string", "enum": ["house", "senate", "governor", "other"] }, "action_text": { "type": "string" }, "provenance": { "$ref": "provenance.schema.json" } } } },
+    "votes": { "type": ["array", "null"], "items": { "type": "object", "required": ["date", "chamber", "motion", "yeas", "nays", "result", "provenance"], "properties": { "date": { "type": "string", "format": "date" }, "chamber": { "type": "string", "enum": ["house", "senate"] }, "motion": { "type": "string" }, "yeas": { "type": "integer" }, "nays": { "type": "integer" }, "excused_or_not_voting": { "type": ["integer", "null"] }, "result": { "type": "string", "enum": ["passed", "failed"] }, "rollcall_url": { "type": ["string", "null"] }, "provenance": { "$ref": "provenance.schema.json" } } } },
+    "text_url": { "type": ["string", "null"], "format": "uri" },
+    "legislature_page_url": { "type": ["string", "null"], "format": "uri" },
+    "fiscal_note_url": { "type": ["string", "null"], "format": "uri" },
+    "fiscal_estimate_text": { "type": ["string", "null"] },
+    "related_bills": { "type": ["array", "null"], "items": { "type": "string" } },
+    "external_ids": { "type": ["object", "null"], "properties": { "legiscan_bill_id": { "type": ["integer", "null"] }, "openstates_id": { "type": ["string", "null"] } } },
+    "notes": { "type": ["string", "null"] },
+    "provenance": { "$ref": "provenance.schema.json" }
+  }
+}

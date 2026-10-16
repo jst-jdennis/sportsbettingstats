@@ -1,0 +1,26 @@
+fips: "34"
+records:
+  - fiscal_year: 2025
+    amount_usd: null
+    amount_type: null
+    funding_mechanism: appropriation
+    mechanism_text: >-
+      Compulsive gambling treatment and prevention are funded through the Department of Human Services, Division of
+      Mental Health and Addiction Services, and the Council on Compulsive Gambling of New Jersey receives state
+      support for the helpline. Sports wagering statute directs a portion of tax revenue to compulsive gambling
+      programs. The dollar amount has not yet been entered from the appropriations act.
+    administering_agency: New Jersey Department of Human Services, Division of Mental Health and Addiction Services
+    includes: [treatment, prevention, helpline]
+    authority_citation: N.J.S.A. 5:12A-16 (allocation of sports wagering tax revenue)
+    provenance:
+      source_id: nj-treasury-budget
+      source_url: https://www.nj.gov/treasury/omb/publications/26budget/index.shtml
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Amount to be taken from the FY2026 Appropriations Act line items. Do not enter from press.

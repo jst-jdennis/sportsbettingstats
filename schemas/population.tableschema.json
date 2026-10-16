@@ -1,0 +1,14 @@
+{ "fields": [
+  { "name": "fips", "type": "string", "constraints": { "required": true, "pattern": "^[0-9]{2}$" } },
+  { "name": "year", "type": "integer", "constraints": { "required": true, "minimum": 2000, "maximum": 2100 } },
+  { "name": "population", "type": "integer", "constraints": { "required": true, "minimum": 1 } },
+  { "name": "vintage", "type": "integer", "constraints": { "required": true } },
+  { "name": "source_id", "type": "string", "constraints": { "required": true } },
+  { "name": "source_url", "type": "string", "constraints": { "required": true } },
+  { "name": "archive_url", "type": "string" },
+  { "name": "retrieved_at", "type": "date", "constraints": { "required": true } },
+  { "name": "status", "type": "string", "constraints": { "required": true, "enum": ["verified", "pending_review", "unverified", "disputed", "superseded"] } },
+  { "name": "entered_by", "type": "string", "constraints": { "required": true } },
+  { "name": "reviewed_by", "type": "string" },
+  { "name": "notes", "type": "string" }
+], "primaryKey": ["fips", "year", "vintage"], "missingValues": [""] }

@@ -1,0 +1,91 @@
+district_code,district_name,fips
+ALN,Alabama Northern,01
+ALM,Alabama Middle,01
+ALS,Alabama Southern,01
+AK,Alaska,02
+AZ,Arizona,04
+ARE,Arkansas Eastern,05
+ARW,Arkansas Western,05
+CAN,California Northern,06
+CAE,California Eastern,06
+CAC,California Central,06
+CAS,California Southern,06
+CO,Colorado,08
+CT,Connecticut,09
+DE,Delaware,10
+DC,District of Columbia,11
+FLN,Florida Northern,12
+FLM,Florida Middle,12
+FLS,Florida Southern,12
+GAN,Georgia Northern,13
+GAM,Georgia Middle,13
+GAS,Georgia Southern,13
+HI,Hawaii,15
+ID,Idaho,16
+ILN,Illinois Northern,17
+ILC,Illinois Central,17
+ILS,Illinois Southern,17
+INN,Indiana Northern,18
+INS,Indiana Southern,18
+IAN,Iowa Northern,19
+IAS,Iowa Southern,19
+KS,Kansas,20
+KYE,Kentucky Eastern,21
+KYW,Kentucky Western,21
+LAE,Louisiana Eastern,22
+LAM,Louisiana Middle,22
+LAW,Louisiana Western,22
+ME,Maine,23
+MD,Maryland,24
+MA,Massachusetts,25
+MIE,Michigan Eastern,26
+MIW,Michigan Western,26
+MN,Minnesota,27
+MSN,Mississippi Northern,28
+MSS,Mississippi Southern,28
+MOE,Missouri Eastern,29
+MOW,Missouri Western,29
+MT,Montana,30
+NE,Nebraska,31
+NV,Nevada,32
+NH,New Hampshire,33
+NJ,New Jersey,34
+NM,New Mexico,35
+NYN,New York Northern,36
+NYE,New York Eastern,36
+NYS,New York Southern,36
+NYW,New York Western,36
+NCE,North Carolina Eastern,37
+NCM,North Carolina Middle,37
+NCW,North Carolina Western,37
+ND,North Dakota,38
+OHN,Ohio Northern,39
+OHS,Ohio Southern,39
+OKN,Oklahoma Northern,40
+OKE,Oklahoma Eastern,40
+OKW,Oklahoma Western,40
+OR,Oregon,41
+PAE,Pennsylvania Eastern,42
+PAM,Pennsylvania Middle,42
+PAW,Pennsylvania Western,42
+RI,Rhode Island,44
+SC,South Carolina,45
+SD,South Dakota,46
+TNE,Tennessee Eastern,47
+TNM,Tennessee Middle,47
+TNW,Tennessee Western,47
+TXN,Texas Northern,48
+TXE,Texas Eastern,48
+TXS,Texas Southern,48
+TXW,Texas Western,48
+UT,Utah,49
+VT,Vermont,50
+VAE,Virginia Eastern,51
+VAW,Virginia Western,51
+WAE,Washington Eastern,53
+WAW,Washington Western,53
+WVN,West Virginia Northern,54
+WVS,West Virginia Southern,54
+WIE,Wisconsin Eastern,55
+WIW,Wisconsin Western,55
+WY,Wyoming,56

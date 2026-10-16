@@ -1,0 +1,81 @@
+fips: '30'
+abbr: MT
+name: Montana
+profile_completeness: status_only
+summary: null
+legal_status:
+- market_segment: regulated_sportsbook
+  channel: retail
+  scope: lottery_kiosk
+  status: live
+  authorized_on: '2019-05-03'
+  launched_on: '2020-03-09'
+  authority:
+    type: statute
+    citation: HB 725 (2019); MCA 23-5-1001 et seq.
+    url: https://leg.mt.gov/
+  operator_model: lottery_monopoly
+  notes: null
+  provenance:
+    source_id: mt-regulator
+    source_url: https://www.montanalottery.com/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+- market_segment: regulated_sportsbook
+  channel: online
+  scope: on_premises_only
+  status: live
+  authorized_on: '2019-05-03'
+  launched_on: '2020-03-09'
+  authority:
+    type: statute
+    citation: HB 725 (2019); MCA 23-5-1001 et seq.
+    url: https://leg.mt.gov/
+  operator_model: lottery_monopoly
+  notes: null
+  provenance:
+    source_id: mt-regulator
+    source_url: https://www.montanalottery.com/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+regulators:
+- name: Montana Lottery
+  url: https://www.montanalottery.com/
+  type: lottery
+  roles:
+  - licensing
+  - enforcement
+  - revenue_reporting
+  provenance:
+    source_id: mt-regulator
+    source_url: https://www.montanalottery.com/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+legal_age: null
+tax: null
+consumer_protections: null
+limitations: null

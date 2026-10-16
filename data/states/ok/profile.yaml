@@ -1,0 +1,124 @@
+fips: "40"
+abbr: OK
+name: Oklahoma
+profile_completeness: full
+summary: >-
+  Oklahoma has not authorized sports wagering in any form. Tribal casinos operate Class III gaming under
+  compacts with the state, and those compacts do not cover sports wagering. The most recent authorization
+  attempt, House Bill 1047, passed the House and failed on the Senate floor on April 22, 2026.
+legal_status:
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No Oklahoma statute or compact authorizes sports wagering. See the Model Tribal Gaming Compact, 3A O.S. 281, which lists covered games and does not include sports wagering.
+      url: https://www.oklegislature.gov/osstatuestitle.html
+    operator_model: null
+    notes: HB 1047 (2025 to 2026 session) would have authorized retail wagering at tribal facilities. It failed in the Senate on 2026-04-22.
+    provenance: &okstat
+      source_id: ok-legislature-bills
+      source_url: https://www.oklegislature.gov/osstatuestitle.html
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: Title 3A
+      notes: Absence of authorization must be re-confirmed after each legislative session.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No Oklahoma statute or compact authorizes online sports wagering.
+      url: https://www.oklegislature.gov/osstatuestitle.html
+    operator_model: null
+    notes: null
+    provenance: *okstat
+regulators:
+  - name: Oklahoma Office of Management and Enterprise Services, Gaming Compliance Unit
+    url: https://oklahoma.gov/omes/services/gaming-compliance.html
+    type: other_state_agency
+    roles: [compact_compliance]
+    provenance:
+      source_id: ok-omes-gaming-compliance
+      source_url: https://oklahoma.gov/omes/services/gaming-compliance.html
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Oversees tribal compact compliance. Would not necessarily be the sports wagering regulator if one were authorized.
+  - name: Oklahoma Department of Mental Health and Substance Abuse Services
+    url: https://oklahoma.gov/odmhsas.html
+    type: other_state_agency
+    roles: [problem_gambling_services]
+    provenance:
+      source_id: ok-odmhsas
+      source_url: https://oklahoma.gov/odmhsas.html
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: null
+legal_age:
+  - age: 18
+    scope: tribal
+    authority_citation: Minimum age for Class III gaming at tribal facilities is set by compact and tribal ordinance; many facilities set 18 and some set 21. Not a sports wagering age because none is authorized.
+    provenance: *okstat
+tax:
+  - channel: all
+    basis: revenue_share_compact
+    rate: null
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: null
+    effective_from: "2005-01-01"
+    effective_to: null
+    destination: null
+    authority_citation: No sports wagering tax exists. Existing compacts set exclusivity fees on Class III game revenue (3A O.S. 281, Part 11). Shown so that the absence is explicit.
+    provenance: *okstat
+consumer_protections:
+  self_exclusion:
+    program_type: tribal_only
+    administered_by: Individual tribal gaming operations
+    durations: null
+    covers: [tribal_casinos]
+    enrollment_methods: [in_person]
+    url: null
+    notes: There is no statewide self-exclusion registry. Programs exist at the tribal operator level and vary.
+    provenance:
+      source_id: ok-odmhsas
+      source_url: https://oklahoma.gov/odmhsas.html
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Confirm with ODMHSAS and the Oklahoma Association on Problem Gambling and Gaming.
+  deposit_limits: null
+  advertising: null
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+  - Oklahoma is a comparison state with no regulated sports wagering. Residents can and do use offshore sites, sweepstakes products and, depending on platform geofencing, federally regulated prediction markets; none of that activity appears in any state revenue series.
+  - Problem gambling indicators for Oklahoma reflect all gambling, including a large tribal casino market, and cannot be read as sports wagering effects.

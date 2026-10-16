@@ -1,0 +1,48 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../site.config';
+import { profiles, headlineStatus, HEADLINE_LABEL, scopeQualifiers, earliestLaunch, fmtDate, asOf } from '../lib/data';
+import { renderMap } from '../lib/map';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const ps = profiles();
+const data = ps.map((p) => {
+  const hs = headlineStatus(p);
+  const q = scopeQualifiers(p);
+  return { fips: p.fips, abbr: p.abbr, name: p.name, cls: hs, title: HEADLINE_LABEL[hs] + (q.length ? ` (${q.join('; ')})` : ''), href: `${base}/states/${p.abbr.toLowerCase()}/` };
+});
+const svg = renderMap(data);
+const counts = Object.fromEntries((Object.keys(HEADLINE_LABEL) as (keyof typeof HEADLINE_LABEL)[]).map((k) => [k, ps.filter((p) => headlineStatus(p) === k).length]));
+const pageAsOf = asOf(ps);
+---
+<Base title="Legal status of sports wagering by state" asOf={pageAsOf}>
+  <h1>Legal status of sports wagering by state</h1>
+  <p class="lede">{SITE.tagline}. Select a state for its profile: legal status with dates, regulator, age, tax structure, prediction market status, consumer protections and problem gambling funding, each with its source.</p>
+
+  <div class="panel notice" role="note"><strong>Phase 1 draft.</strong> Every state's status is entered with a citation and marked pending review until a second contributor checks it against the regulator or statute. Oklahoma, New Jersey and Kansas have complete profiles. Other states show status and regulator only. See the <a href={base + '/data/'}>coverage page</a> for what is and is not entered.</div>
+
+  <Fragment set:html={svg} />
+  <ul class="legend" aria-label="Map legend">
+    {(Object.keys(HEADLINE_LABEL) as (keyof typeof HEADLINE_LABEL)[]).map((k) => <li class={k}>{HEADLINE_LABEL[k]} ({counts[k]})</li>)}
+  </ul>
+  <p class="meta">Regulated sportsbooks only. Prediction markets, which operate under federal commodities rules and are the subject of state enforcement actions, are tracked separately on each state page. Classification rule: a state is "online" if any online channel is live statewide or on licensed premises, and "retail" if any retail channel is live, including on tribal lands only. Qualifiers appear in the table. <a href={base + '/methodology/#classification'}>Full rule</a>.</p>
+
+  <h2 id="table">All states</h2>
+  <div class="table-wrap">
+  <table>
+    <caption class="meta">Same data as the map. Dates are the first legal wager in each channel. "Pending" means entered with a source and awaiting review.</caption>
+    <thead><tr><th scope="col">State</th><th scope="col">Status</th><th scope="col">Qualifiers</th><th scope="col">First launch</th><th scope="col">Profile</th><th scope="col">Review</th></tr></thead>
+    <tbody>
+      {ps.map((p) => { const hs = headlineStatus(p); const pend = p.legal_status.some((r) => r.provenance.status !== 'verified'); return (
+        <tr>
+          <th scope="row"><a href={`${base}/states/${p.abbr.toLowerCase()}/`}>{p.name}</a></th>
+          <td>{HEADLINE_LABEL[hs]}</td>
+          <td>{scopeQualifiers(p).join('; ') || ''}</td>
+          <td>{hs === 'none' ? '' : fmtDate(earliestLaunch(p))}</td>
+          <td>{p.profile_completeness === 'full' ? 'Full' : 'Status only'}</td>
+          <td>{pend ? <span class="badge pending_review">pending</span> : <span class="badge verified">verified</span>}</td>
+        </tr>); })}
+    </tbody>
+  </table>
+  </div>
+  <p class="meta"><a href={base + '/data/'}>Download this table as CSV</a></p>
+</Base>

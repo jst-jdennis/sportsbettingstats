@@ -1,0 +1,33 @@
+---
+import Base from '../../layouts/Base.astro';
+import fs from 'node:fs';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const schemas = ['handle_revenue', 'bankruptcy', 'helpline'].map((n) => ({ name: n, s: JSON.parse(fs.readFileSync(`schemas/${n}.tableschema.json`, 'utf8')) }));
+---
+<Base title="Outcome time series">
+  <h1>Outcome time series</h1>
+  <p class="lede">Monthly handle and revenue from state regulators, nonbusiness bankruptcy filings per 100,000 residents from the Administrative Office of the US Courts, problem gambling helpline contacts from state councils, and state prevalence studies. Each series is shown with the state's legalization dates marked and its limitations beside it.</p>
+  <div class="panel notice" role="note"><strong>Phase 2 section.</strong> No series are published yet. The schemas below are final and the two Phase 1 ingestion modules (US Courts bankruptcy tables, New Jersey monthly revenue) write to them. Charts will be rendered to static SVG at build time with a data table under each.</div>
+  <h2>What will and will not be claimed</h2>
+  <ul>
+    <li>Series are descriptive. A change after a legalization date is shown, not attributed. Causal estimates live in the <a href={base + '/research/'}>research library</a>, tied to their authors and their unit of effect.</li>
+    <li>Revenue definitions differ by state and are stored verbatim on every row. Cross-state revenue comparisons are labeled with the definitions in use.</li>
+    <li>Bankruptcy counts are quarterly, because that is what the courts publish. Monthly state counts exist behind a commercial subscription and are not used.</li>
+    <li>Helpline volume rises when the number is advertised more. It measures help-seeking, not prevalence.</li>
+  </ul>
+  <h2>Known gaps as of this draft</h2>
+  <ul>
+    <li>No public state-level time series of 1-800-GAMBLER contacts was found from the National Council on Problem Gambling. State councils' own reports will be used where they exist, with each council's counting rule recorded.</li>
+    <li>Prevalence studies use different instruments and are not comparable across studies; they will be presented as study records, not a series.</li>
+  </ul>
+  <h2>Schemas</h2>
+  {schemas.map(({ name, s }) => (
+    <section>
+      <h3><code>data/outcomes/{name}.csv</code></h3>
+      {s.description && <p class="meta">{s.description}</p>}
+      <div class="table-wrap"><table>
+        <thead><tr><th scope="col">Field</th><th scope="col">Type</th><th scope="col">Constraints</th></tr></thead>
+        <tbody>{s.fields.map((f: any) => <tr><td><code>{f.name}</code></td><td>{f.type}</td><td>{f.constraints ? Object.entries(f.constraints).map(([k, v]) => `${k}: ${Array.isArray(v) ? v.join(' | ') : v}`).join('; ') : ''}</td></tr>)}</tbody>
+      </table></div>
+    </section>))}
+</Base>

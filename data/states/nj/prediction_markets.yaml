@@ -1,0 +1,53 @@
+fips: "34"
+as_of: "2026-10-16"
+review_note: null
+operating_platforms:
+  - platform: Kalshi
+    offers_sports_contracts: true
+    offers_in_state: "yes"
+    basis: court_filing
+    provenance: &ca3
+      source_id: ca3-opinions
+      source_url: https://www2.ca3.uscourts.gov/opinarch/251922p.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: pdf
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Kalshi continued to offer sports event contracts in New Jersey under a preliminary injunction while the appeal was pending.
+state_actions:
+  - action_type: cease_and_desist
+    date: "2025-03-27"
+    issuing_body: New Jersey Division of Gaming Enforcement
+    target: KalshiEX LLC
+    summary: The Division directed Kalshi to stop offering sports event contracts to New Jersey residents, treating them as unlicensed sports wagering under state law.
+    document_url: null
+    provenance:
+      <<: *ca3
+      notes: Date and content as recited in the Third Circuit opinion. Archive the letter itself from the DGE or the district court docket.
+litigation:
+  - case_name: KalshiEX LLC v. Flaherty
+    court: US Court of Appeals for the Third Circuit (on appeal from D.N.J.)
+    docket: 25-1922
+    filed_on: "2025-03-28"
+    status: certiorari_petition_pending
+    posture_note: >-
+      Every ruling to date concerns preliminary relief. No court has entered a final judgment on whether Kalshi's
+      sports event contracts are lawful in New Jersey.
+    rulings:
+      - date: "2025-04-28"
+        court: US District Court for the District of New Jersey
+        summary: Granted Kalshi a preliminary injunction against enforcement of New Jersey gambling law pending the case.
+        document_url: null
+      - date: "2026-04-06"
+        court: US Court of Appeals for the Third Circuit
+        summary: A divided panel affirmed the preliminary injunction, reasoning that the Commodity Exchange Act gives the CFTC exclusive jurisdiction over event contracts traded on a designated contract market. Judge Roth dissented.
+        document_url: https://www2.ca3.uscourts.gov/opinarch/251922p.pdf
+      - date: "2026-09-02"
+        court: Supreme Court of the United States
+        summary: New Jersey filed a petition for a writ of certiorari, docketed as No. 26-299. The Court had not acted on it as of the as_of date.
+        document_url: https://www.supremecourt.gov/docket/docket.aspx
+    provenance: *ca3

@@ -1,0 +1,13 @@
+---
+// Renders a value with its source inline. There is deliberately no way to
+// render a value through this component without a provenance block.
+import type { Provenance } from '../lib/data';
+import SourceRef from './SourceRef.astro';
+interface Props { value: string | number | null | undefined; p: Provenance; unit?: string; empty?: string }
+const { value, p, unit = '', empty = 'not entered' } = Astro.props;
+const show = value === null || value === undefined || value === '' ? null : String(value);
+---
+<span class="fig">
+  <span class="v">{show ?? empty}</span>{show && unit ? ` ${unit}` : ''}
+  {' '}<SourceRef p={p} compact />
+</span>

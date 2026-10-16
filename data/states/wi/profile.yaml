@@ -1,0 +1,81 @@
+fips: '55'
+abbr: WI
+name: Wisconsin
+profile_completeness: status_only
+summary: null
+legal_status:
+- market_segment: regulated_sportsbook
+  channel: retail
+  scope: tribal_lands_only
+  status: live
+  authorized_on: null
+  launched_on: '2021-11-30'
+  authority:
+    type: compact
+    citation: Amended tribal-state gaming compacts (2021 onward); no state statute authorizes commercial
+      sports wagering
+    url: https://doa.wi.gov/Pages/AboutDOA/Gaming.aspx
+  operator_model: tribal_exclusive
+  notes: null
+  provenance:
+    source_id: wi-regulator
+    source_url: https://doa.wi.gov/Pages/AboutDOA/Gaming.aspx
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+- market_segment: regulated_sportsbook
+  channel: online
+  scope: not_applicable
+  status: not_authorized
+  authorized_on: null
+  launched_on: null
+  authority:
+    type: none
+    citation: Amended tribal-state gaming compacts (2021 onward); no state statute authorizes commercial
+      sports wagering
+    url: https://doa.wi.gov/Pages/AboutDOA/Gaming.aspx
+  operator_model: null
+  notes: null
+  provenance:
+    source_id: wi-regulator
+    source_url: https://doa.wi.gov/Pages/AboutDOA/Gaming.aspx
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+regulators:
+- name: Wisconsin Department of Administration, Division of Gaming
+  url: https://doa.wi.gov/Pages/AboutDOA/Gaming.aspx
+  type: other_state_agency
+  roles:
+  - compact_compliance
+  provenance:
+    source_id: wi-regulator
+    source_url: https://doa.wi.gov/Pages/AboutDOA/Gaming.aspx
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+legal_age: null
+tax: null
+consumer_protections: null
+limitations: null

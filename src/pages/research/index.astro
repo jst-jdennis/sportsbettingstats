@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import { papers, label, asOf } from '../../lib/data';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const ps = papers();
+---
+<Base title="Research library" asOf={asOf(ps)}>
+  <h1>Research library</h1>
+  <p class="lede">Peer-reviewed and working papers on the effects of legalized sports wagering, each with a plain-language summary, the unit the effect is measured at, methodology notes and a version log that records how headline figures have changed between drafts.</p>
+  <div class="panel notice" role="note"><strong>Phase 2 section, seeded.</strong> Two entries are present so the version log structure can be reviewed. Key figures are entered from secondary summaries and marked accordingly; each PDF will be archived and read directly before any figure is marked verified.</div>
+  <ul class="cards">{ps.map((p) => (
+    <li>
+      <h3><a href={`${base}/research/${p.slug}/`}>{p.title}</a></h3>
+      <div>{p.authors.join(', ')} ({p.year_first_circulated})</div>
+      <div class="meta">{label(p.publication_status)}{p.venue && <>, {p.venue}</>}. Effect measured at: {label(p.unit_of_effect)}. {p.versions.length} version{p.versions.length === 1 ? '' : 's'} logged.</div>
+    </li>))}
+  </ul>
+  <h2>How entries are built</h2>
+  <ul>
+    <li>Each version of a paper is recorded with its date, URL and, once archived, a file hash, so a figure can always be traced to the draft it came from.</li>
+    <li>Key figures are tied to a version and a specification (which table, which estimator, which horizon). When two figures coexist in one draft under different specifications, both are shown.</li>
+    <li>The unit of effect is stated on every entry because population averages are routinely misread as per-bettor effects.</li>
+    <li>Summaries describe findings and limitations. They do not recommend policy.</li>
+  </ul>
+</Base>

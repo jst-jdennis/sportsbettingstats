@@ -1,0 +1,81 @@
+fips: '25'
+abbr: MA
+name: Massachusetts
+profile_completeness: status_only
+summary: null
+legal_status:
+- market_segment: regulated_sportsbook
+  channel: retail
+  scope: statewide
+  status: live
+  authorized_on: '2022-08-10'
+  launched_on: '2023-01-31'
+  authority:
+    type: statute
+    citation: Chapter 173 of the Acts of 2022; M.G.L. c. 23N
+    url: https://malegislature.gov/
+  operator_model: commercial
+  notes: null
+  provenance:
+    source_id: ma-regulator
+    source_url: https://massgaming.com/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+- market_segment: regulated_sportsbook
+  channel: online
+  scope: statewide
+  status: live
+  authorized_on: '2022-08-10'
+  launched_on: '2023-03-10'
+  authority:
+    type: statute
+    citation: Chapter 173 of the Acts of 2022; M.G.L. c. 23N
+    url: https://malegislature.gov/
+  operator_model: commercial
+  notes: null
+  provenance:
+    source_id: ma-regulator
+    source_url: https://massgaming.com/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+regulators:
+- name: Massachusetts Gaming Commission
+  url: https://massgaming.com/
+  type: gaming_commission
+  roles:
+  - licensing
+  - enforcement
+  - revenue_reporting
+  provenance:
+    source_id: ma-regulator
+    source_url: https://massgaming.com/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+legal_age: null
+tax: null
+consumer_protections: null
+limitations: null

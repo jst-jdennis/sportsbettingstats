@@ -1,0 +1,81 @@
+fips: '05'
+abbr: AR
+name: Arkansas
+profile_completeness: status_only
+summary: null
+legal_status:
+- market_segment: regulated_sportsbook
+  channel: retail
+  scope: statewide
+  status: live
+  authorized_on: '2018-11-06'
+  launched_on: '2019-07-01'
+  authority:
+    type: constitutional_amendment
+    citation: Ark. Const. amend. 100 (2018); Casino Gaming Rules, Rule 2
+    url: https://www.dfa.arkansas.gov/racing-commission/
+  operator_model: commercial
+  notes: null
+  provenance:
+    source_id: ar-regulator
+    source_url: https://www.dfa.arkansas.gov/racing-commission/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+- market_segment: regulated_sportsbook
+  channel: online
+  scope: statewide
+  status: live
+  authorized_on: '2022-02-22'
+  launched_on: '2022-03-04'
+  authority:
+    type: constitutional_amendment
+    citation: Ark. Const. amend. 100 (2018); Casino Gaming Rules, Rule 2
+    url: https://www.dfa.arkansas.gov/racing-commission/
+  operator_model: commercial
+  notes: null
+  provenance:
+    source_id: ar-regulator
+    source_url: https://www.dfa.arkansas.gov/racing-commission/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+regulators:
+- name: Arkansas Racing Commission
+  url: https://www.dfa.arkansas.gov/racing-commission/
+  type: racing_commission
+  roles:
+  - licensing
+  - enforcement
+  - revenue_reporting
+  provenance:
+    source_id: ar-regulator
+    source_url: https://www.dfa.arkansas.gov/racing-commission/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+legal_age: null
+tax: null
+consumer_protections: null
+limitations: null

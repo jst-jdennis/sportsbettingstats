@@ -1,0 +1,81 @@
+fips: '21'
+abbr: KY
+name: Kentucky
+profile_completeness: status_only
+summary: null
+legal_status:
+- market_segment: regulated_sportsbook
+  channel: retail
+  scope: statewide
+  status: live
+  authorized_on: '2023-03-31'
+  launched_on: '2023-09-07'
+  authority:
+    type: statute
+    citation: HB 551 (2023); KRS 230.800 et seq.
+    url: https://apps.legislature.ky.gov/
+  operator_model: commercial
+  notes: null
+  provenance:
+    source_id: ky-regulator
+    source_url: https://khrc.ky.gov/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+- market_segment: regulated_sportsbook
+  channel: online
+  scope: statewide
+  status: live
+  authorized_on: '2023-03-31'
+  launched_on: '2023-09-28'
+  authority:
+    type: statute
+    citation: HB 551 (2023); KRS 230.800 et seq.
+    url: https://apps.legislature.ky.gov/
+  operator_model: commercial
+  notes: null
+  provenance:
+    source_id: ky-regulator
+    source_url: https://khrc.ky.gov/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+regulators:
+- name: Kentucky Horse Racing and Gaming Corporation
+  url: https://khrc.ky.gov/
+  type: racing_commission
+  roles:
+  - licensing
+  - enforcement
+  - revenue_reporting
+  provenance:
+    source_id: ky-regulator
+    source_url: https://khrc.ky.gov/
+    archive_url: null
+    retrieved_at: '2026-10-16'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-16
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
+      or statute page, archived, and reviewed before status can be verified.
+legal_age: null
+tax: null
+consumer_protections: null
+limitations: null

@@ -1,0 +1,96 @@
+version: "2026.1"
+status: draft
+effective_from: "2026-10-16"
+preamble: >-
+  This rubric grades consumer protection policy, not outcomes. A high grade means a state has adopted the
+  protections listed here; it does not mean the state has less gambling harm. Each criterion maps to one field in
+  the state profile, so a grade can be recomputed by anyone from the published data. States with no regulated
+  sports wagering market are scored only on criteria marked all_states and are labeled accordingly rather than
+  graded on protections that have nothing to protect.
+criteria:
+  - criterion_id: self_exclusion
+    title: Statewide self-exclusion registry covering online and retail sports wagering
+    data_path: /consumer_protections/self_exclusion/program_type
+    applies_to: states_with_regulated_market
+    scoring:
+      - { condition: "program_type == statewide_registry or both", points: 3, label: "Statewide registry" }
+      - { condition: "program_type == operator_only", points: 1, label: "Operator programs only" }
+      - { condition: "program_type == none or null", points: 0, label: "None entered" }
+    max_points: 3
+    rationale: A single statewide list enrolls a person once across all licensed operators. Operator-only programs require separate enrollment with each platform.
+    evidence_basis: []
+  - criterion_id: deposit_limits
+    title: Deposit limit tools
+    data_path: /consumer_protections/deposit_limits
+    applies_to: states_with_regulated_market
+    scoring:
+      - { condition: "mandatory_default == true or player_set_required_at_signup == true", points: 3, label: "Required by default or at signup" }
+      - { condition: "player_set_available == true", points: 1, label: "Available on request" }
+      - { condition: "otherwise", points: 0, label: "None entered" }
+    max_points: 3
+    rationale: Limits set before a session are more effective than limits set during one.
+    evidence_basis: []
+  - criterion_id: advertising
+    title: Advertising restrictions beyond a helpline message
+    data_path: /consumer_protections/advertising
+    applies_to: states_with_regulated_market
+    scoring:
+      - { condition: "count of rule_type not in [responsible_gambling_message_required] >= 2", points: 3, label: "Two or more substantive restrictions" }
+      - { condition: "count of rule_type not in [responsible_gambling_message_required] == 1", points: 2, label: "One substantive restriction" }
+      - { condition: "only responsible_gambling_message_required", points: 1, label: "Helpline message only" }
+      - { condition: "none", points: 0, label: "None entered" }
+    max_points: 3
+    rationale: Counts substantive restrictions such as college partnership bans, risk-free language bans and time-of-day limits.
+    evidence_basis: []
+  - criterion_id: legal_age
+    title: Minimum age of 21
+    data_path: /legal_age
+    applies_to: states_with_regulated_market
+    scoring:
+      - { condition: "all scopes age >= 21", points: 2, label: "21 everywhere" }
+      - { condition: "any scope age < 21", points: 0, label: "Under 21 permitted" }
+    max_points: 2
+    rationale: Aligns with the age used by most states and by the research on early-adult financial harm.
+    evidence_basis: []
+  - criterion_id: credit_cards
+    title: Credit card deposits prohibited
+    data_path: /consumer_protections/credit_card_deposits/allowed
+    applies_to: states_with_regulated_market
+    scoring:
+      - { condition: "allowed == false", points: 2, label: "Prohibited" }
+      - { condition: "allowed == true or null", points: 0, label: "Permitted or not entered" }
+    max_points: 2
+    rationale: Borrowing to wager is the mechanism most directly linked to debt outcomes in the research library.
+    evidence_basis: []
+  - criterion_id: pg_funding
+    title: Dedicated problem gambling funding
+    data_path: pg_funding.yaml/records[latest]/funding_mechanism
+    applies_to: all_states
+    scoring:
+      - { condition: "funding_mechanism in [statutory_earmark_pct_revenue, statutory_earmark_fixed]", points: 3, label: "Statutory earmark" }
+      - { condition: "funding_mechanism in [appropriation, license_fee, compact_payment]", points: 2, label: "Discretionary funding" }
+      - { condition: "funding_mechanism == none", points: 0, label: "No public funding" }
+      - { condition: "unknown", points: 0, label: "Not entered" }
+    max_points: 3
+    rationale: Earmarked funding survives budget cycles. Per capita amounts are shown alongside but not scored until amounts are entered for all states.
+    evidence_basis: []
+  - criterion_id: prevalence_research
+    title: State prevalence study within the last seven years
+    data_path: outcomes/prevalence_studies.yaml
+    applies_to: all_states
+    scoring:
+      - { condition: "most recent study fieldwork_end within 7 years", points: 2, label: "Recent study" }
+      - { condition: "older study exists", points: 1, label: "Older study only" }
+      - { condition: "none", points: 0, label: "No study found" }
+    max_points: 2
+    rationale: A state cannot evaluate its own policy without a baseline and follow-up measurement.
+    evidence_basis: []
+grade_bands:
+  - { min_pct: 90, grade: A }
+  - { min_pct: 75, grade: B }
+  - { min_pct: 60, grade: C }
+  - { min_pct: 40, grade: D }
+  - { min_pct: 0, grade: F }
+no_market_rule: >-
+  States with no live regulated sports wagering channel are scored on all_states criteria only, out of those
+  criteria's combined maximum, and displayed with the label "no regulated market" beside the grade.
