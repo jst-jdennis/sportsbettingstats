@@ -267,12 +267,12 @@ sources:
 - source_id: ks-kdads
   publisher: Kansas Department for Aging and Disability Services
   publisher_type: state_agency
-  title: Problem Gambling and Addictions Grant Fund reports
-  url: https://kdads.ks.gov/
+  title: Problem Gambling Services page, sub-committee annual reports and the Kansas Gambling Surveys
+  url: https://www.kdads.ks.gov/services-programs/behavioral-health/problem-gambling
   access_method: pdf
   update_cadence: annual
   license: null
-  reliability_notes: null
+  reliability_notes: KDADS administers the Problem Gambling and Addictions Grant Fund and publishes the Governor's Behavioral Health Services Planning Council problem gambling sub-committee annual reports (helpline counts by state fiscal year, July to June) and the periodic Kansas Gambling Survey. Documents are served from showpublisheddocument URLs that carry a version timestamp and can change when a file is re-uploaded; the archive hash identifies the copy read.
   tier: primary
   fips: '20'
 - source_id: ssrn
@@ -1493,6 +1493,39 @@ sources:
     release in source_url.
   tier: primary
   fips: '19'
+- source_id: ccgnj-800gambler
+  publisher: Council on Compulsive Gambling of New Jersey
+  publisher_type: nonprofit
+  title: 1-800-GAMBLER helpline annual reports and newsletters (New Jersey)
+  url: https://800gambler.org/about-us/annual-reports/
+  access_method: pdf
+  update_cadence: annual
+  license: null
+  reliability_notes: The Council operates the New Jersey 1-800-GAMBLER helpline and is the primary source for its own contact counts. Counting rules (intake calls, total calls, texts and chats) and fiscal year definitions vary between publications and are recorded per row. Rights to the national 1-800-GAMBLER number were contested with the National Council on Problem Gambling; check which operator's figures a document reports.
+  tier: primary
+  fips: '34'
+- source_id: nj-dge-prevalence-reports
+  publisher: New Jersey Division of Gaming Enforcement (reports by the Rutgers Center for Gambling Studies)
+  publisher_type: state_regulator
+  title: Prevalence of online and land-based gambling in New Jersey (2017 and 2023 reports)
+  url: https://www.nj.gov/oag/ge/2023news/PrevalenceReport2023Final.pdf
+  access_method: pdf
+  update_cadence: irregular
+  license: null
+  reliability_notes: Commissioned by the DGE and conducted by Rutgers University. The two waves use different fieldwork years and the 2023 report's fieldwork predates most of the pandemic-era online growth it is often cited for; read fieldwork dates before comparing.
+  tier: primary
+  fips: '34'
+- source_id: ks-klrd
+  publisher: Kansas Legislative Research Department
+  publisher_type: legislature
+  title: Fiscal memoranda and briefs, including uses of the Problem Gambling and Addictions Grant Fund
+  url: https://klrd.gov/2024/02/01/uses-of-problem-gambling-and-addictions-grant-funds/
+  access_method: pdf
+  update_cadence: irregular
+  license: null
+  reliability_notes: Nonpartisan legislative staff summaries of agency budget requests; figures are restated from KDADS submissions and should be cited as such.
+  tier: primary
+  fips: '20'
 - source_id: ks-attorney-general
   publisher: Kansas Attorney General
   publisher_type: state_agency
