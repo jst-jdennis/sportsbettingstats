@@ -63,6 +63,14 @@ export function bankruptcyChart(p: StateProfile): SeriesChart | null {
   };
 }
 
+export const helplineHead = ['Period', 'Type', 'Contacts', 'Operator', 'Counting rule', 'Notes', 'Source'];
+export const helplineRows = (rows: ReturnType<typeof helpline>) => rows.map((r) => [`${fmtDate(r.period_start)} to ${fmtDate(r.period_end)}`, label(r.contact_type), Number(r.contacts).toLocaleString(), r.operator, r.counting_rule, r.notes ?? '', provLine(r)]);
+/** Helpline rows for a state that has too few periods to chart; rendered as a table. */
+export function helplineTable(p: StateProfile): { head: string[]; rows: (string | number)[][] } | null {
+  const rows = hlFor(p.fips);
+  return rows.length && rows.length < MIN_POINTS ? { head: helplineHead, rows: helplineRows(rows) } : null;
+}
+
 /** Helpline contacts by period, for one state. */
 export function helplineChart(p: StateProfile): SeriesChart | null {
   const rows = hlFor(p.fips);
@@ -73,12 +81,13 @@ export function helplineChart(p: StateProfile): SeriesChart | null {
   const xs = series.flatMap((s) => s.points.map((pt) => pt.x));
   const gaps = rows.slice(1).some((r, i) => dateX(r.period_start) - dateX(rows[i].period_start) > 1.1);
   const operators = [...new Set(rows.map((r) => r.operator))];
+  const rules = [...new Set(rows.map((r) => r.counting_rule))];
   const svg = lineChart({ id: `hl-${p.abbr.toLowerCase()}`, title: `${p.name}: problem gambling helpline contacts by period`, desc: 'Line chart of helpline contacts per reporting period, with vertical lines at the first legal wager in each channel.', series, markers, xTicks: yearTicks(xs), xFmt: String, yFmt: compact, gapX: 1.1, hollow: rows.every((r) => r.status !== 'verified'), height: 280 });
   return {
     svg, n: rows.length, title: `${p.name}: helpline contacts`, legend: series.map((s) => ({ cls: s.cls, name: s.name })),
-    head: ['Period', 'Type', 'Contacts', 'Operator', 'Counting rule', 'Source'],
-    rows: rows.map((r) => [`${fmtDate(r.period_start)} to ${fmtDate(r.period_end)}`, label(r.contact_type), Number(r.contacts).toLocaleString(), r.operator, r.counting_rule, provLine(r)]),
-    caption: `${rows.length} periods${gaps ? ', with the line broken where reports have not been found' : ''}. Operator: ${operators.join('; ')}. Helpline volume rises when the number is advertised more, including when operators are required to print it, so it measures help-seeking and awareness, not prevalence. Counting rules are in the table. Source: ${provLine(rows[rows.length - 1])}.`,
+    head: helplineHead,
+    rows: helplineRows(rows),
+    caption: `${rows.length} periods${gaps ? ', with the line broken where reports have not been found' : ''}. Operator: ${operators.join('; ')}. ${rules.length > 1 ? `The counting rule differs between the source documents (${rules.length} rules across the periods), so periods from different documents are not strictly comparable; each row states its rule and any note. ` : ''}Helpline volume rises when the number is advertised more, including when operators are required to print it, so it measures help-seeking and awareness, not prevalence. Source: ${provLine(rows[rows.length - 1])}.`,
   };
 }
 export { esc };

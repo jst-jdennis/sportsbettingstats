@@ -7,7 +7,7 @@ import PrevalenceCard from '../../components/PrevalenceCard.astro';
 import fs from 'node:fs';
 import { effectFigures, adoptionByYear, OUTCOME_LABEL, label, asOf, papers, profiles, headlineStatus, bankruptcy, handleRevenue, helpline, prevalenceStudies, per100k, fmtDate, source } from '../../lib/data';
 import { dotPlot, lineChart, barChartH, wrap, compact } from '../../lib/charts';
-import { revenueChart, bankruptcyChart, helplineChart, MIN_POINTS } from '../../lib/seriesCharts';
+import { revenueChart, bankruptcyChart, helplineChart, helplineHead, helplineRows, MIN_POINTS } from '../../lib/seriesCharts';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const schemas = ['handle_revenue', 'bankruptcy', 'helpline'].map((n) => ({ name: n, s: JSON.parse(fs.readFileSync(`schemas/${n}.tableschema.json`, 'utf8')) }));
 
@@ -130,8 +130,8 @@ const studyStates = [...new Set(studies.map((x) => x.fips))].map((f) => byFips.g
     {hlCharts.map(({ p, c }) => <><h4>{p.name}</h4><Chart svg={c!.svg} legend={c!.legend} head={c!.head} rows={c!.rows} caption={c!.caption} tableLabel="Periods in this chart" /></>)}
     {hlTableRows.length ? (<>
       <div class="table-wrap"><table>
-        <thead><tr><th scope="col">State</th><th scope="col">Period</th><th scope="col">Type</th><th scope="col" class="num">Contacts</th><th scope="col">Operator</th><th scope="col">Counting rule</th><th scope="col">Source</th></tr></thead>
-        <tbody>{hlTableRows.map((r) => <tr><td>{byFips.get(r.fips)?.name}</td><td>{fmtDate(r.period_start)} to {fmtDate(r.period_end)}</td><td>{label(r.contact_type)}</td><td class="num">{Number(r.contacts).toLocaleString()}</td><td>{r.operator}</td><td class="meta">{r.counting_rule}</td><td><span class="src"><span class={`badge ${r.status}`}>{label(r.status)}</span> <a href={r.source_url} rel="external noopener">{source(r.source_id).publisher}</a>, retrieved {fmtDate(r.retrieved_at)}</span></td></tr>)}</tbody>
+        <thead><tr><th scope="col">State</th>{helplineHead.map((h) => <th scope="col">{h}</th>)}</tr></thead>
+        <tbody>{hlTableRows.map((r) => <tr><td>{byFips.get(r.fips)?.name}</td>{helplineRows([r])[0].map((c) => <td>{c}</td>)}</tr>)}</tbody>
       </table></div>
     </>) : <p class="meta">No rows on file yet.</p>}
     <h3 id="revenue-series">Monthly sports wagering revenue</h3>

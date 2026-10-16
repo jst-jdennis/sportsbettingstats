@@ -7,7 +7,7 @@ import CiteBox from '../../components/CiteBox.astro';
 import ReviewNotice from '../../components/ReviewNotice.astro';
 import Chart from '../../components/Chart.astro';
 import PrevalenceCard from '../../components/PrevalenceCard.astro';
-import { revenueChart, bankruptcyChart, helplineChart } from '../../lib/seriesCharts';
+import { revenueChart, bankruptcyChart, helplineChart, helplineTable } from '../../lib/seriesCharts';
 import { timeline } from '../../lib/charts';
 import { profiles, pgFunding, predictionMarkets, bills, population, headlineStatus, HEADLINE_LABEL, scopeQualifiers, fmtDate, pct, label, asOf, collectProvenance, earliestLaunch, handleRevenue, bankruptcy, per100k, source, prevalenceStudies } from '../../lib/data';
 export function getStaticPaths() { return profiles().map((p) => ({ params: { abbr: p.abbr.toLowerCase() }, props: { p } })); }
@@ -47,6 +47,7 @@ for (const c of pm?.litigation ?? []) for (const r of c.rulings ?? []) if (r.dat
 const rowNames = [...new Set(events.map((e) => e.row))];
 const studies = prevalenceStudies(p.fips);
 const seriesCharts = [revenueChart(p), bankruptcyChart(p), helplineChart(p)].filter((c): c is NonNullable<typeof c> => !!c);
+const hlTable = helplineTable(p);
 const timelineSvg = events.length ? timeline({
   id: 'events', title: `${p.name}: dated events in this profile`, desc: 'Timeline. One row per subject (each wagering channel, each bill, prediction market actions); dots mark authorization dates, first wagers, bill actions, votes and enforcement actions.',
   rows: rowNames.map((row) => ({ label: row, events: events.filter((e) => e.row === row) })), rowHeight: 34, labelWidth: 150,
@@ -200,6 +201,11 @@ const missingSections = [
   {!hr.length && !bk.length && <p>Monthly handle and revenue, bankruptcy filings per 100,000, helpline contacts and prevalence studies will appear here as they are ingested, with legalization dates marked. The schemas are published on the <a href={base + '/outcomes/'}>outcomes page</a>.</p>}
 
   {seriesCharts.map((c) => <><h3>{c.title}</h3><Chart svg={c.svg} legend={c.legend} head={c.head} rows={c.rows} caption={c.caption} tableLabel="Values in this chart" /></>)}
+  {hlTable && (<>
+    <h3>Problem gambling helpline contacts</h3>
+    <p class="meta">Helpline volume rises when the number is advertised more, so it measures help-seeking and awareness, not prevalence. A chart appears once three or more periods are on file.</p>
+    <div class="table-wrap"><table><thead><tr>{hlTable.head.map((h) => <th scope="col">{h}</th>)}</tr></thead><tbody>{hlTable.rows.map((r) => <tr>{r.map((c) => <td>{c}</td>)}</tr>)}</tbody></table></div>
+  </>)}
   {studies.length > 0 && (<>
     <h3>Prevalence studies</h3>
     <p class="meta">Rates as published by each study. Studies are comparable only where the note on each card says so.</p>
