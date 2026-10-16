@@ -1,8 +1,13 @@
 fips: '41'
 abbr: OR
 name: Oregon
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  Oregon's online sports betting is a state lottery game operated by the Oregon Lottery under ORS chapter 461 and
+  Article XV, section 4 of the Oregon Constitution. The Lottery launched its Scoreboard app on October 16, 2019 and
+  migrated players to DraftKings Sportsbook, its official provider, in January 2022. Retail sportsbooks operate only
+  at tribal casinos, beginning with Chinook Winds in 2019. There is no tax; the Lottery's net proceeds are
+  transferred under the constitution and statute.
 legal_status:
 - market_segment: regulated_sportsbook
   channel: retail
@@ -11,24 +16,27 @@ legal_status:
   authorized_on: null
   launched_on: '2019-08-27'
   authority:
-    type: statute
-    citation: ORS ch. 461 (lottery authority); tribal compacts for retail
+    type: compact
+    citation: Tribal-state Class III gaming compacts; the Oregon Lottery operates no retail sportsbook
     url: https://www.oregonlegislature.gov/
-  operator_model: mixed
-  notes: null
-  provenance:
-    source_id: or-regulator
-    source_url: https://www.oregonlottery.org/
+  operator_model: tribal_exclusive
+  notes: The Lottery's own timeline dates the return of legal sports betting at Chinook Winds Casino to June 2019; press
+    dated the first wagers to 2019-08-27. Seeded launch date retained pending the casino's or the Lottery's record.
+  provenance: &orlot
+    source_id: or-legislature
+    source_url: https://olis.oregonlegislature.gov/liz/2021I1/Downloads/CommitteeMeetingDocument/256594
     archive_url: null
     retrieved_at: '2026-10-16'
     retrieval_method: manual_entry
     transform: null
-    entered_by: claude-draft-2026-10-16
+    entered_by: agent-batch5-2026-10-16
     reviewed_by: null
     status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+    page_or_table: Oregon Lottery presentation to the Legislature (sports betting timeline)
+    notes: "Corrected authority type from statute and operator model from mixed to compact and tribal_exclusive: the
+      Lottery's presentation to the Legislature distinguishes the tribal casino launch (Chinook Winds, June 2019) from
+      the Lottery's digital-only game, and the Lottery offers no retail sportsbook, per the cited document. The compact
+      basis for tribal sportsbooks was not itself confirmed by search on 2026-10-16."
 - market_segment: regulated_sportsbook
   channel: online
   scope: statewide
@@ -37,30 +45,24 @@ legal_status:
   launched_on: '2019-10-16'
   authority:
     type: statute
-    citation: ORS ch. 461 (lottery authority); tribal compacts for retail
-    url: https://www.oregonlegislature.gov/
-  operator_model: mixed
-  notes: null
+    citation: Or. Const. art. XV, sec. 4(4); ORS ch. 461 (ORS 461.213 implemented by OAR 177-093, DraftKings Sportsbook Official Provider of the Oregon Lottery)
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors461.html
+  operator_model: lottery_monopoly
+  notes: No new statute was required; the Lottery Commission authorized sports betting as a lottery game. Scoreboard
+    (SBTech platform) ran from 2019-10-16 until the migration to DraftKings Sportsbook on 2022-01-18. Wagering on
+    Oregon collegiate events is excluded by Lottery policy.
   provenance:
-    source_id: or-regulator
-    source_url: https://www.oregonlottery.org/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+    <<: *orlot
+    notes: "Corrected operator model from mixed to lottery_monopoly: the Lottery's presentation describes the game as
+      digital only, 21 and over, with DraftKings as the only legal online option, per the cited document. Launch date
+      2019-10-16 matches press; the Lottery timeline lists August 2019 for the digital game launch, which may be a soft
+      launch, so the date is not confirmed. OAR authority citations from secondary copies of the rules."
 regulators:
 - name: Oregon Lottery
   url: https://www.oregonlottery.org/
   type: lottery
   roles:
-  - licensing
-  - enforcement
+  - operation
   - revenue_reporting
   provenance:
     source_id: or-regulator
@@ -69,13 +71,80 @@ regulators:
     retrieved_at: '2026-10-16'
     retrieval_method: manual_entry
     transform: null
-    entered_by: claude-draft-2026-10-16
+    entered_by: agent-batch5-2026-10-16
     reviewed_by: null
     status: pending_review
     page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+    notes: "Corrected roles from licensing, enforcement and revenue_reporting to operation and revenue_reporting: Oregon has
+      no licensing regime for sports betting operators; the Lottery operates the game through a contracted provider,
+      per the Lottery presentation at
+      https://olis.oregonlegislature.gov/liz/2021I1/Downloads/CommitteeMeetingDocument/256594. Tribal casinos are
+      overseen under their compacts, not by the Lottery."
+legal_age:
+- age: 21
+  scope: lottery
+  authority_citation: OAR 177-093-0015 (eligibility, DraftKings Sportsbook); Lottery presentation describing the game as 21 and over
+  provenance:
+    <<: *orlot
+    notes: Age 21 for the Lottery's sports betting game from the cited presentation. Tribal casino sportsbooks set age by
+      compact and tribal ordinance and are not entered.
+tax:
+- channel: online
+  basis: gross_gaming_revenue
+  rate: null
+  tiers: null
+  per_wager_fee_cents: null
+  promo_deduction_rule: null
+  effective_from: '2019-10-16'
+  effective_to: null
+  destination: null
+  authority_citation: No tax is levied. The Lottery is the operator and transfers net proceeds after prizes, provider fees
+    and expenses under Or. Const. art. XV, sec. 4 and ORS ch. 461. Shown so that the absence is explicit.
+  provenance:
+    <<: *orlot
+    notes: Destination of sports betting proceeds (any statutory dedication) not confirmed by search on 2026-10-16 and left
+      null. Tribal casino sportsbooks pay no state tax; compact revenue sharing terms are not entered.
+consumer_protections:
+  self_exclusion:
+    program_type: operator_only
+    administered_by: Oregon Lottery (player account controls)
+    durations: [temporary, permanent]
+    covers: [lottery_online_sports_betting]
+    enrollment_methods: [operator_app, online]
+    url: https://www.oregonlottery.org/
+    notes: OAR 177-046-0155 lets a player select temporary or permanent self-exclusion within the player account; an active
+      exclusion cannot be overridden by the player or the Lottery. There is no statewide registry covering tribal
+      casinos. Which version of the rule is current was not confirmed.
+    provenance: &orrg
+      source_id: or-regulator
+      source_url: https://www.oregonlottery.org/
+      archive_url: null
+      retrieved_at: '2026-10-16'
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch5-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: OAR 177-046-0155
+      notes: Rule text seen only in secondary copies on 2026-10-16; the Secretary of State OAR page was not returned by
+        search. Cite the OAR compilation page once archived.
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: null
+    player_set_required_at_signup: true
+    cooling_off_on_increase_hours: null
+    statutory_cap_usd: null
+    authority_citation: OAR 177-046-0155
+    notes: The more recent version of the rule requires a personal deposit limit to be set when a player account is
+      created; an earlier version made deposit, bet and time limits optional. Confirm which is in force.
+    provenance: *orrg
+  advertising: null
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+- Oregon reports lottery sports betting as net lottery proceeds rather than taxable revenue, so the state has no tax
+  rate to compare and its revenue line is not defined the same way as commercial states' gross gaming revenue.
+- Tribal casino sportsbook handle and revenue are not published by the state.
+- Residents also used federally regulated prediction markets during the period covered. No action by an Oregon state
+  body against a prediction market platform was found by search on 2026-10-16; a private class action (Reynolds v.
+  Kalshi, D. Or., 2026) was reported and is not a state action.

@@ -2,7 +2,12 @@ fips: '44'
 abbr: RI
 name: Rhode Island
 profile_completeness: status_only
-summary: null
+summary: >-
+  Rhode Island conducts sports wagering as a state lottery game under R.I. Gen. Laws chapter 42-61.2, hosted at the
+  Twin River (now Bally's) casinos in Lincoln and Tiverton. Retail wagering began in November 2018 and statewide
+  online wagering, authorized by a 2019 act, began in September 2019 through the Lottery's Sportsbook Rhode Island
+  platform. The state keeps 51 percent of sports wagering revenue, with the balance shared between the technology
+  vendor and the host casinos.
 legal_status:
 - market_segment: regulated_sportsbook
   channel: retail
@@ -12,23 +17,24 @@ legal_status:
   launched_on: '2018-11-26'
   authority:
     type: statute
-    citation: R.I. Gen. Laws 42-61.2
-    url: https://webserver.rilegislature.gov/
+    citation: R.I. Gen. Laws 42-61.2-2.4 (state to conduct sports wagering hosted by Twin River and the Tiverton gaming facility), added by the FY2019 budget act (2018)
+    url: https://webserver.rilegislature.gov/Statutes/TITLE42/42-61.2/42-61.2-2.4.htm
   operator_model: lottery_monopoly
-  notes: null
-  provenance:
-    source_id: ri-regulator
-    source_url: https://www.rilot.com/
+  notes: Retail sportsbooks operate only at the two hosting facilities in Lincoln and Tiverton.
+  provenance: &rileg
+    source_id: ri-legislature
+    source_url: https://webserver.rilegislature.gov/Statutes/TITLE42/42-61.2/INDEX.htm
     archive_url: null
     retrieved_at: '2026-10-16'
     retrieval_method: manual_entry
     transform: null
-    entered_by: claude-draft-2026-10-16
+    entered_by: agent-batch5-2026-10-16
     reviewed_by: null
     status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+    page_or_table: Chapter 42-61.2
+    notes: Section 42-61.2-2.4 confirmed at the cited chapter index. Authorization date 2018-06-22 (budget act signing) and
+      launch date 2018-11-26 not confirmed on a primary domain by search on 2026-10-16; seeded values retained. Press
+      from November 2018 reported first bets at Lincoln on 2018-11-26 with Tiverton following in December.
 - market_segment: regulated_sportsbook
   channel: online
   scope: statewide
@@ -37,28 +43,23 @@ legal_status:
   launched_on: '2019-09-04'
   authority:
     type: statute
-    citation: R.I. Gen. Laws 42-61.2
-    url: https://webserver.rilegislature.gov/
+    citation: R.I. Gen. Laws 42-61.2 as amended by P.L. 2019, ch. 7 (online sports wagering; wagers deemed placed at the hosting facility, 42-61.2-1(16))
+    url: https://webserver.rilegislature.gov/PublicLaws/law19/law19007.htm
   operator_model: lottery_monopoly
-  notes: null
+  notes: Account registration initially required an in-person visit to a hosting facility; that requirement was later
+    removed by statute (2020). Confirm the amending act.
   provenance:
-    source_id: ri-regulator
-    source_url: https://www.rilot.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+    <<: *rileg
+    source_url: https://webserver.rilegislature.gov/PublicLaws/law19/law19007.htm
+    notes: Public Law 2019 chapter 7 located by search on 2026-10-16 and appears to be the online sports wagering act
+      (S 37 Sub A); confirm. Signing date 2019-03-25 and launch date 2019-09-04 not confirmed on a primary domain;
+      seeded values retained. Press reported a soft launch of the mobile app at Lincoln on 2019-09-04.
 regulators:
-- name: Rhode Island Lottery
+- name: Rhode Island Lottery (Division of Lotteries, Department of Revenue)
   url: https://www.rilot.com/
   type: lottery
   roles:
+  - operation
   - licensing
   - enforcement
   - revenue_reporting
@@ -69,13 +70,44 @@ regulators:
     retrieved_at: '2026-10-16'
     retrieval_method: manual_entry
     transform: null
-    entered_by: claude-draft-2026-10-16
+    entered_by: agent-batch5-2026-10-16
     reviewed_by: null
     status: pending_review
     page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
+    notes: The state conducts sports wagering through the Division of Lotteries under 42-61.2-2.4, so the Lottery is the
+      operator as well as the regulator; the operation role was added on that basis. No specific sports wagering page
+      on rilot.com was returned by search on 2026-10-16.
+legal_age:
+- age: 18
+  scope: lottery
+  authority_citation: R.I. Gen. Laws 42-61.2 and Lottery sports wagering rules (minimum age eighteen)
+  provenance:
+    <<: *rileg
+    notes: Age 18 is consistently reported and matches the lottery minimum, but no primary page stating it was returned
+      by search on 2026-10-16. Confirm the section before verification.
+tax:
+- channel: all
+  basis: gross_gaming_revenue
+  rate: 0.51
+  tiers: null
+  per_wager_fee_cents: null
+  promo_deduction_rule: The state's share is 51 percent of sports wagering revenue after prizes, with 32 percent to the
+    technology vendor and 17 percent to the hosting facility. Treatment of promotional credits in the revenue
+    definition not confirmed.
+  effective_from: '2018-11-26'
+  effective_to: null
+  destination:
+  - fund_name: State Lottery Fund (General Fund)
+    share: 1.0
+  authority_citation: R.I. Gen. Laws 42-61.2-7 (allocation of sports wagering revenue); 51/32/17 split as shown in 2019 H 6021 text
+  provenance:
+    <<: *rileg
+    notes: Rhode Island structures the state's take as a revenue share under a lottery-operator model rather than a tax on
+      licensees. The 51 percent figure appears in the 2019 bill text and press; the current statute section was not
+      opened from this container. Confirm the section number and whether the online channel uses the same split.
 consumer_protections: null
-limitations: null
+limitations:
+- Rhode Island's state share is a 51 percent revenue split under a lottery monopoly, not a tax rate, and the published
+  revenue line is after prizes. It is not comparable to commercial-state tax rates without adjustment.
+- The market is two hosting facilities and one online platform, so single-operator events (such as the 2019 to 2020
+  account registration rule) move the whole state series.
