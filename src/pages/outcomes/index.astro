@@ -5,9 +5,9 @@ import SourceRef from '../../components/SourceRef.astro';
 import Limitations from '../../components/Limitations.astro';
 import PrevalenceCard from '../../components/PrevalenceCard.astro';
 import fs from 'node:fs';
-import { effectFigures, adoptionByYear, OUTCOME_LABEL, label, asOf, papers, profiles, headlineStatus, bankruptcy, handleRevenue, helpline, prevalenceStudies, per100k, fmtDate, source } from '../../lib/data';
+import { effectFigures, adoptionByYear, OUTCOME_LABEL, label, asOf, papers, profiles, headlineStatus, bankruptcy, handleRevenue, helpline, prevalenceStudies, fmtDate, source } from '../../lib/data';
 import { dotPlot, lineChart, barChartH, wrap, compact } from '../../lib/charts';
-import { revenueChart, bankruptcyChart, helplineChart, helplineHead, helplineRows, MIN_POINTS } from '../../lib/seriesCharts';
+import { revenueChart, bankruptcyChart, helplineChart, helplineHead, helplineRows, per100k, MIN_POINTS } from '../../lib/seriesCharts';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const schemas = ['handle_revenue', 'bankruptcy', 'helpline'].map((n) => ({ name: n, s: JSON.parse(fs.readFileSync(`schemas/${n}.tableschema.json`, 'utf8')) }));
 

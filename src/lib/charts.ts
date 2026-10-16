@@ -103,9 +103,13 @@ export function lineChart(o: LineChartOpts): string {
     if (last && mk.x - last.x < 0.05) last.label = last.label.replace(/^First (\w+) wager$/, (_, c) => `First ${c} and ${mk.label.replace(/^First (\w+) wager$/, '$1')} wager`) || `${last.label}; ${mk.label}`;
     else merged.push({ ...mk });
   }
+  // Labels sit at the top unless the data near the marker is high, in which case they sit just above the baseline.
+  const allPts = o.series.flatMap((s) => s.points);
+  const highNear = merged.some((mk) => allPts.some((p) => Math.abs(p.x - mk.x) < (x1 - x0) * 0.12 && p.y > yBot + (yTop - yBot) * 0.7));
   merged.forEach((mk, i) => {
     const X = sx(mk.x), flip = X > W - m.right - mk.label.length * CHAR_W - 8;
-    out += `<line class="marker" x1="${X.toFixed(1)}" x2="${X.toFixed(1)}" y1="${m.top}" y2="${H - m.bottom}"/><text class="ax" x="${(flip ? X - 4 : X + 4).toFixed(1)}" y="${m.top + 10 + i * 12}"${flip ? ' text-anchor="end"' : ''}>${esc(mk.label)}</text>`;
+    const Y = highNear ? H - m.bottom - 6 - (merged.length - 1 - i) * 12 : m.top + 10 + i * 12;
+    out += `<line class="marker" x1="${X.toFixed(1)}" x2="${X.toFixed(1)}" y1="${m.top}" y2="${H - m.bottom}"/><text class="ax" x="${(flip ? X - 4 : X + 4).toFixed(1)}" y="${Y}"${flip ? ' text-anchor="end"' : ''}>${esc(mk.label)}</text>`;
   });
   const ends: { y: number; label: string; cls: string }[] = [];
   for (const s of o.series) {

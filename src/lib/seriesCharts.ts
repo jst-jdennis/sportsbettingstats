@@ -2,7 +2,7 @@
 // SVG plus the table rows and caption text the Chart component needs, so the
 // outcomes page and the state pages render the same thing from one place.
 // Series are descriptive: legalization dates are marked, never attributed.
-import { handleRevenue, bankruptcy, helpline, per100k, legalizationMarkers, fmtDate, label, source, type StateProfile } from './data';
+import { handleRevenue, bankruptcy, helpline, population, legalizationMarkers, fmtDate, label, source, type StateProfile } from './data';
 import { lineChart, compact, esc } from './charts';
 
 export const MIN_POINTS = 3;
@@ -12,6 +12,19 @@ let _hr: ReturnType<typeof handleRevenue> | null = null, _bk: ReturnType<typeof 
 const hrFor = (fips: string) => (_hr ??= handleRevenue()).filter((r) => r.fips === fips);
 const bkFor = (fips: string) => (_bk ??= bankruptcy()).filter((r) => r.fips === fips);
 const hlFor = (fips: string) => (_hl ??= helpline()).filter((r) => r.fips === fips);
+// population() parses its CSV on every call and per100k calls it once per point; index it once here instead.
+let _pop: Map<string, ReturnType<typeof population>> | null = null;
+function populationFor(fips: string, year: number) {
+  if (!_pop) { _pop = new Map(); for (const r of population()) { if (r.status === 'superseded') continue; if (!_pop.has(r.fips)) _pop.set(r.fips, []); _pop.get(r.fips)!.push(r); } }
+  const rows = _pop.get(fips);
+  if (!rows?.length) return null;
+  return [...rows].sort((a, b) => Math.abs(Number(a.year) - year) - Math.abs(Number(b.year) - year) || Number(b.vintage) - Number(a.vintage))[0];
+}
+/** Same result as data.ts per100k, computed against the cached population index. */
+export function per100k(count: number, fips: string, year: number) {
+  const pop = populationFor(fips, year);
+  return pop ? { value: (count / Number(pop.population)) * 100000, pop } : null;
+}
 
 /** Decimal year for a date, so months and quarters share one axis. */
 export function dateX(d: string): number { const [y, m, day] = d.split('-').map(Number); return y + ((m ?? 1) - 1) / 12 + ((day ?? 1) - 1) / 365; }
