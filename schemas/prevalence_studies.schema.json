@@ -1,0 +1,219 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wageringdata.org/schemas/prevalence_studies.schema.json",
+  "title": "Prevalence studies",
+  "description": "A list of study records, not a time series. Instruments, thresholds, populations and survey modes differ between studies, so rates are comparable only where comparability_note says so. Rates are percentages of the surveyed population as published; nothing is recomputed.",
+  "type": "object",
+  "required": [
+    "studies"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "studies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "study_id",
+          "fips",
+          "title",
+          "conducted_by",
+          "instrument",
+          "population",
+          "mode",
+          "rates",
+          "report_url",
+          "comparability_note",
+          "provenance",
+          "fieldwork_year"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "study_id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "fips": {
+            "$ref": "provenance.schema.json#/$defs/fips"
+          },
+          "title": {
+            "type": "string"
+          },
+          "authors": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "commissioned_by": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "conducted_by": {
+            "type": "string"
+          },
+          "published_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "fieldwork_year": {
+            "type": "integer",
+            "minimum": 1990,
+            "maximum": 2100,
+            "description": "Year the survey was fielded (the year the report names when exact dates are not stated)"
+          },
+          "fieldwork_start": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date",
+            "description": "Null when the report gives only the year"
+          },
+          "fieldwork_end": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "instrument": {
+            "type": "string",
+            "enum": [
+              "PGSI",
+              "DSM-IV-NODS",
+              "DSM-5",
+              "SOGS",
+              "BBGS",
+              "other"
+            ]
+          },
+          "instrument_note": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Thresholds used, or the instrument's name when 'other'"
+          },
+          "sample_size": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "population": {
+            "type": "string",
+            "description": "Who was surveyed, for example adults 18 and older resident in the state"
+          },
+          "mode": {
+            "type": "string",
+            "enum": [
+              "telephone",
+              "online_panel",
+              "address_based_push_to_web",
+              "mixed",
+              "in_person",
+              "other",
+              "not_stated"
+            ]
+          },
+          "margin_of_error_pct_points": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "rates": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "measure",
+                "definition",
+                "value_pct",
+                "provenance"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "measure": {
+                  "type": "string",
+                  "enum": [
+                    "past_year_gambling",
+                    "past_30_day_gambling",
+                    "past_year_sports_betting",
+                    "online_gambling",
+                    "low_risk",
+                    "moderate_risk",
+                    "high_risk",
+                    "problem_gambling",
+                    "at_risk_or_problem",
+                    "other"
+                  ]
+                },
+                "definition": {
+                  "type": "string",
+                  "description": "The report's own wording for the category, including the instrument threshold"
+                },
+                "value_pct": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 100
+                },
+                "ci_low_pct": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "ci_high_pct": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "denominator": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "description": "all respondents, past-year gamblers, and so on, when it differs from the study population"
+                },
+                "provenance": {
+                  "$ref": "provenance.schema.json"
+                }
+              }
+            }
+          },
+          "report_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "comparability_note": {
+            "type": "string",
+            "description": "Which other study_ids this one can be compared with and why, or why none"
+          },
+          "limitations": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "provenance": {
+            "$ref": "provenance.schema.json"
+          }
+        }
+      }
+    }
+  }
+}
