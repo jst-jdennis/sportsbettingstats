@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import hashlib
+import re
 import json
 from datetime import date
 from pathlib import Path
@@ -48,8 +49,12 @@ def wayback_capture(url: str, timeout: int = 60) -> str | None:
     try:
         r = requests.get(f"https://web.archive.org/save/{url}", headers={"User-Agent": USER_AGENT}, timeout=timeout, allow_redirects=True)
         loc = r.headers.get("Content-Location") or r.url
-        if "web.archive.org/web/" in loc:
-            return loc if loc.startswith("http") else "https://web.archive.org" + loc
+        if not loc.startswith("http"):
+            loc = "https://web.archive.org" + loc
+        # Only a capture URL counts; a /save/ URL that was not redirected is a failed capture,
+        # even when the requested URL itself was a web.archive.org address.
+        if re.match(r"^https?://web\.archive\.org/web/\d{14}", loc):
+            return loc
     except requests.RequestException:
         return None
     return None

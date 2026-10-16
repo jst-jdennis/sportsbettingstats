@@ -100,12 +100,119 @@ def nj_tax_returns_pdf(path: Path) -> None:
             f"19 Monthly Tax on Online Sportsbook Gross Revenue {o_tax}",
             "20 Less: Online Sportsbook Loss Carryforward Applied (if applicable) -",
             f"21 Total Online Sportsbook Tax Payment for this Month {o_tax}",
+            "26 Total Sports Wagering Tax Payment (sum lines 9 and 21) $ 1,000",
             "FORM MAY NOT FOOT DUE TO ROUNDING", "02/26 DGE-107",
         ]
     skin = ["LICENSEE A", "ONLINE SPORTSBOOK SKIN DETAIL REPORT", "FOR THE MONTH OF AUGUST 2026", "ONLINE SPORTSBOOK DETAIL BY SKIN",
             "16 Monthly Online Sportsbook Gross Revenue 4,000,000 1,000,000 5,000,000", "02/26 DGE-107 Skin Detail"]
-    pages = [form("LICENSEE A", "74,088", "70,420", "3,668", "-", "312", "58,638,116", "53,560,337", "5,000,000", "987,500"), skin,
+    pages = [form("LICENSEE A", "74,088", "70,420", "3,668", "-", "312", "58,638,116", "53,638,116", "5,000,000", "987,500"), skin,
              form("LICENSEE B", "1,000,000", "900,000", "100,000", "(2,000)", "8,330", "20,000,000", "17,000,000", "3,000,000", "592,500")]
+    _multi_page_pdf(path, pages)
+
+
+def nj_tax_returns_2018_pdf(path: Path) -> None:
+    """Family A (6/18 form): 16 lines, monthly gross on lines 1 and 8, tax on 7 and 14, comma after the month."""
+    def form(name, r_gross, r_tax, o_gross, o_tax, month="SEPTEMBER, 2018"):
+        return [
+            name, "MONTHLY SPORTS WAGERING TAX RETURN", f"FOR THE MONTH OF {month}", "SPORTS WAGERING - CASINO OR RACETRACK",
+            f"1 Current Month Sports Wagering Gross Revenue $ {r_gross}",
+            "2 Year-to-Date Sports Wagering Gross Revenue 679,631",
+            "3 Adjustments to Sports Wagering Gross Revenue -",
+            "4 Year-to-Date Sports Wagering Taxable Revenue 679,631",
+            "5 Year-to-Date 8.5% Tax on Sports Wagering 57,769",
+            "6 Less: Total 8.5% Tax on Sports Wagering in Prior Months 24,275",
+            f"7 Total Sports Wagering Tax Required for this Month $ {r_tax}",
+            "SPORTS WAGERING - INTERNET",
+            f"8 Current Month Internet Sports Wagering Gross Revenue $ {o_gross}",
+            "9 Year-to-Date Internet Sports Wagering Gross Revenue 106,463",
+            "10 Adjustments to Internet Sports Wagering Gross Revenue -",
+            "11 Year-to-Date Internet Sports Wagering Taxable Revenue 106,463",
+            "12 Year-to-Date 13% Tax on Internet Sports Wagering 13,840",
+            "13 Less: Total 13% Tax on Internet Sports Wagering in Prior Month -",
+            f"14 Total Internet Sports Wagering Tax Required for this Month $ {o_tax}",
+            "15 Total Sports Wagering Tax for the Month (add lines 7 and 14) $ 47,334",
+            "16 Sports Wagering Promotional Gaming Credits for the month $ -",
+            "WEB SITES REPORTING SPORTS WAGERING GROSS REVENUE:", "6/18 DGE-107",
+        ]
+    pages = [form("LICENSEE A", "394,046", "33,494", "106,463", "13,840"),
+             form("LICENSEE B", "(40,848)", "1,611", "223,339", "29,035", month="SEPTMEBER, 2018")]  # misspelt month tolerated
+    _multi_page_pdf(path, pages)
+
+
+def nj_tax_returns_2019_pdf(path: Path) -> None:
+    """Family B (6/19 form): 26 lines; amounts with split digits as pdfplumber sometimes renders them."""
+    def form(name, r_ytd, r_prior, r_gross, r_tax, o_ytd, o_prior, o_gross, o_tax):
+        return [
+            name, "MONTHLY SPORTS WAGERING TAX RETURN", "FOR THE MONTH OF DECEMBER, 2019", "SPORTS WAGERING - CASINO OR RACETRACK",
+            f"1 Year-to-Date Retail Sports Wagering Gross Revenue $ {r_ytd}",
+            f"2 Less: Last Month's Year-to-Date Retail Sports Wagering Gross Revenue {r_prior}",
+            f"3 Monthly Retail Sports Wagering Gross Revenue $ {r_gross}",
+            "4 Monthly Adjustments -",
+            f"5 Monthly Taxable Retail Sports Wagering Gross Revenue {r_gross}",
+            f"6 Monthly 8.5% Tax on Retail Sports Wagering Gross Revenue {r_tax}",
+            "7 Less: Retail Sports Wagering Loss Carryforward Applied (if applicable) -",
+            f"8 Total Retail Sports Wagering Tax Payment for this Month $ {r_tax}",
+            "SPORTS WAGERING - INTERNET",
+            f"13 Year-to-Date Internet Sports Wagering Gross Revenue $ {o_ytd}",
+            f"14 Less: Last Month's Year-to-Date Internet Sports Wagering Gross Revenue {o_prior}",
+            f"15 Monthly Internet Sports Wagering Gross Revenue $ {o_gross}",
+            "16 Monthly Adjustments -",
+            f"17 Monthly Taxable Internet Sports Wagering Gross Revenue {o_gross}",
+            f"18 Monthly 13% Tax on Internet Sports Wagering Gross Revenue {o_tax}",
+            "19 Less: Internet Sports Wagering Loss Applied from Prior Month (if applicable) -",
+            f"20 Total Internet Sports Wagering Tax Payment for this Month $ {o_tax}",
+            "25 Total Sports Wagering Tax Payment (sum lines 8 and 20) $ 9,217",
+            "26 Sports Wagering Promotional Gaming Credits for the month $ -",
+            "WEB SITES REPORTING SPORTS WAGERING GROSS REVENUE:", "6/19 DGE-107",
+        ]
+    pages = [form("LICENSEE A", "2,038,707", "1,930,270", "108,437", "9,217", "-", "-", "-", "-"),
+             form("LICENSEE B", "-", "-", "-", "-", "1 ,356,345", "1 ,329,593", "2 6,752", "3 ,478")]
+    _multi_page_pdf(path, pages)
+
+
+def nj_tax_returns_misfoot_pdf(path: Path) -> None:
+    """Family B form whose year-to-date lines do not foot to the monthly line (a misread amount)."""
+    pages = [["LICENSEE A", "MONTHLY SPORTS WAGERING TAX RETURN", "FOR THE MONTH OF DECEMBER, 2019", "SPORTS WAGERING - CASINO OR RACETRACK",
+              "1 Year-to-Date Retail Sports Wagering Gross Revenue $ 2,038,707", "2 Less: Last Month's Year-to-Date Retail Sports Wagering Gross Revenue 1,930,270",
+              "3 Monthly Retail Sports Wagering Gross Revenue $ 8,437", "5 Monthly Taxable Retail Sports Wagering Gross Revenue 8,437",
+              "6 Monthly 8.5% Tax on Retail Sports Wagering Gross Revenue 717", "SPORTS WAGERING - INTERNET",
+              "13 Year-to-Date Internet Sports Wagering Gross Revenue $ -", "14 Less: Last Month's Year-to-Date Internet Sports Wagering Gross Revenue -",
+              "15 Monthly Internet Sports Wagering Gross Revenue $ -", "17 Monthly Taxable Internet Sports Wagering Gross Revenue -", "18 Monthly 13% Tax on Internet Sports Wagering Gross Revenue -",
+              "25 Total Sports Wagering Tax Payment (sum lines 8 and 20) $ 717", "6/19 DGE-107"]]
+    _multi_page_pdf(path, pages)
+
+
+def f2_pdf_2022(path: Path) -> None:
+    pages = [["Table F-2 Quarterly.", "U.S. Bankruptcy Courts - Business and Nonbusiness Cases Commenced, by Chapter of the Bankruptcy Code,",
+              "During the Three-Month Period Ending December 31, 2022, Based on Data Current as of December 31, 2022",
+              "Predominant Nature of Debt", "Business Nonbusiness", "Circuit Total Total Total Total Total",
+              "and All Chapter Chapter Chapter Other All Chapter Chapter Chapter Other All Chapter Chapter Chapter",
+              "District Chapters 7 11 13 Chapters ¹ Chapters 7 11 13 Chapters ¹ Chapters 7 11 13",
+              "Total 95,416 53,195 1,227 40,939 55 3,519 2,031 1,147 286 55 91,897 51,164 80 40,653",
+              "2nd 4,595 2,888 149 1,542 16 322 155 136 15 16 4,273 2,733 13 1,527",
+              "NJ 2,557 1,397 89 1,071 0 142 48 86 8 0 2,415 1,349 3 1,063",
+              "VI 2 2 0 0 0 2 2 0 0 0 0 - - -",
+              "AR ² 1,408 517 4 887 0 19 9 2 8 0 1,389 508 2 879",
+              "ND 99 88 0 11 0 2 1 0 1 0 97 87 0 10",
+              "OK,N 319 284 0 35 0 15 14 0 1 0 304 270 0 34", "Page 1 of 4"]]
+    _multi_page_pdf(path, pages)
+
+
+def f2_pdf_2018(path: Path) -> None:
+    pages = [["Table F-2.", "U.S. Bankruptcy Courts - Business and Nonbusiness Cases Commenced, by Chapter of the Bankruptcy Code,",
+              "During the Three-Month Period Ending March 31, 2018, Based on Data Current as of March 31, 2018",
+              "Predominant Nature of Debt ¹", "Circuit Total Total Total Total Business Filings Nonbusiness Filings",
+              "and Total Chapter Chapter Chapter Chapter Chapter Chapter Chapter Chapter Chapter Chapter Chapter",
+              "District Filings 7 11 12 13 Total 7 11 12 13 Total 7 11 13 S", "0",
+              "TOTAL 192,079 118,877 1,998 116 71,068 5,669 3,355 1,718 116 460 186,410 115,522 280 70,608",
+              "2ND 9,967 6,679 234 7 3,035 502 250 208 7 25 9,465 6,429 26 3,010",
+              "NJ 6,635 4,052 77 0 2,506 150 85 48 0 17 6,485 3,967 29 2,4890",
+              "AR, E 1,879 921 4 1 953 22 14 3 1 4 1,857 907 1 9490",
+              "AR, W 880 465 3 1 411 24 14 1 1 8 856 451 2 4030",
+              "ND 180 165 1 0 14 7 4 0 0 3 173 161 1 110",
+              "OK, N 644 577 0 0 67 12 12 0 0 0 632 565 0 671",
+              "\u00b9 The nature of debt is business if the debtor is a corporation or partnership.",
+              "Note: These figures include the following cases not reflected elsewhere:", "Chapter 9 Chapter 15", "MO, E 1085 NY, S 12023"]]
     _multi_page_pdf(path, pages)
 
 
@@ -148,4 +255,9 @@ if __name__ == "__main__":
     f2_xlsx(HERE / "uscourts_f2_synthetic.xlsx")
     nj_pdf(HERE / "nj_dge_synthetic.pdf")
     nj_tax_returns_pdf(HERE / "nj_dge107_synthetic.pdf")
+    nj_tax_returns_2018_pdf(HERE / "nj_dge107_2018_synthetic.pdf")
+    nj_tax_returns_2019_pdf(HERE / "nj_dge107_2019_synthetic.pdf")
+    nj_tax_returns_misfoot_pdf(HERE / "nj_dge107_misfoot_synthetic.pdf")
+    f2_pdf_2022(HERE / "uscourts_f2_2022_synthetic.pdf")
+    f2_pdf_2018(HERE / "uscourts_f2_2018_synthetic.pdf")
     print("fixtures written")

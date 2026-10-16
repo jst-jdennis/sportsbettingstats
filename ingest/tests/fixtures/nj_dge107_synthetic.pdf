@@ -12,7 +12,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
 endobj
 5 0 obj
-<< /Length 1496 >>
+<< /Length 1572 >>
 stream
 BT
 /F1 10 Tf
@@ -37,13 +37,14 @@ BT
 (Line Description Gross Revenue/Tax) Tj T*
 (\(a\) \(b\) \(c\)) Tj T*
 (14 Year-to-Date Online Sportsbook Gross Revenue $ 58,638,116) Tj T*
-(15 Less: Prior Month's Year-to-Date Online Sportsbook Gross Revenue 53,560,337) Tj T*
+(15 Less: Prior Month's Year-to-Date Online Sportsbook Gross Revenue 53,638,116) Tj T*
 (16 Monthly Online Sportsbook Gross Revenue 5,000,000) Tj T*
 (17 Monthly Adjustments -) Tj T*
 (18 Monthly Taxable Online Sportsbook Gross Revenue 5,000,000) Tj T*
 (19 Monthly Tax on Online Sportsbook Gross Revenue 987,500) Tj T*
 (20 Less: Online Sportsbook Loss Carryforward Applied \(if applicable\) -) Tj T*
 (21 Total Online Sportsbook Tax Payment for this Month 987,500) Tj T*
+(26 Total Sports Wagering Tax Payment \(sum lines 9 and 21\) $ 1,000) Tj T*
 (FORM MAY NOT FOOT DUE TO ROUNDING) Tj T*
 (02/26 DGE-107) Tj T*
 ET
@@ -72,7 +73,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
 endobj
 9 0 obj
-<< /Length 1516 >>
+<< /Length 1592 >>
 stream
 BT
 /F1 10 Tf
@@ -104,6 +105,7 @@ BT
 (19 Monthly Tax on Online Sportsbook Gross Revenue 592,500) Tj T*
 (20 Less: Online Sportsbook Loss Carryforward Applied \(if applicable\) -) Tj T*
 (21 Total Online Sportsbook Tax Payment for this Month 592,500) Tj T*
+(26 Total Sports Wagering Tax Payment \(sum lines 9 and 21\) $ 1,000) Tj T*
 (FORM MAY NOT FOOT DUE TO ROUNDING) Tj T*
 (02/26 DGE-107) Tj T*
 ET
@@ -117,12 +119,12 @@ xref
 0000000127 00000 n 
 0000000197 00000 n 
 0000000323 00000 n 
-0000001871 00000 n 
-0000001997 00000 n 
-0000002336 00000 n 
-0000002462 00000 n 
+0000001947 00000 n 
+0000002073 00000 n 
+0000002412 00000 n 
+0000002538 00000 n 
 trailer
 << /Size 10 /Root 1 0 R >>
 startxref
-4030
+4182
 %%EOF

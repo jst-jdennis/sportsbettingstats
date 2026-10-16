@@ -3,7 +3,8 @@
 Table F-2 reports business and nonbusiness filings by chapter for each of the
 94 federal judicial districts, for the quarter and for the twelve months ending
 the quarter. It is published as an xlsx about four to six weeks after quarter
-end on the Bankruptcy Filings Statistics page.
+end on the Bankruptcy Filings Statistics page; quarters before 2025 were
+published as PDF only, and the PDF edition is parsed from its text.
 
 Layout fingerprint (confirmed against the June 2026 tables): a group row
 containing "Business" and "Nonbusiness", a header row beneath with "All
@@ -28,6 +29,7 @@ from pathlib import Path
 from typing import Any
 
 import openpyxl
+import pdfplumber
 
 from ..core import provenance
 from ..core.archive import REPO_ROOT
@@ -82,12 +84,14 @@ class USCourtsBankruptcyF2:
         seen: set[str] = set()
         e = doc.period.end if doc.period else None
         if e:
-            # Table pages are linked as .../bankruptcy-filings/f-2 and .../f-2-three-months; the files follow a fixed naming convention.
             stamp = f"{e.month:02d}{e.day:02d}.{e.year}"
+            # Table pages are linked as .../bankruptcy-filings/f-2 and .../f-2-three-months; the files follow a fixed naming convention.
             if re.search(r'href="[^"]*/bankruptcy-filings/f-2-three-months"', html):
                 out.append(Document(url=f"https://www.uscourts.gov/sites/default/files/document/bf_f2.3_{stamp}.xlsx", period=doc.period, kind="xlsx", label=f"F-2 three months ending {e.isoformat()}", meta=(("measure", "quarter"),)))
             if re.search(r'href="[^"]*/bankruptcy-filings/f-2"', html):
                 out.append(Document(url=f"https://www.uscourts.gov/sites/default/files/document/bf_f2_{stamp}.xlsx", period=doc.period, kind="xlsx", label=f"F-2 twelve months ending {e.isoformat()}", meta=(("measure", "twelve_months_ending"),)))
+            if out:
+                return out
             if out:
                 return out
         # Work on a window of text around each link so the table label (in the same row) is visible.
@@ -112,12 +116,31 @@ class USCourtsBankruptcyF2:
             low = text.lower()
             measure = "quarter" if re.search(r"3[- ]month|three[- ]month", low) else "twelve_months_ending"
             out.append(Document(url=url, period=doc.period, kind=url.rsplit(".", 1)[-1].lower(), label=f"F-2 ({measure}) {doc.period.end.isoformat() if doc.period else ''}", meta=(("measure", measure),)))
-        if not out:
-            raise LayoutChanged(f"No F-2 xlsx or xls link found on {doc.url}; anchors seen: {LINK_RE.findall(html)[:10]}")
-        return out
+        if out:
+            return out
+        e = doc.period.end if doc.period else None
+        if e:
+            stamp = f"{e.month:02d}{e.day:02d}.{e.year}"
+            # Quarter pages link the files directly. The directory moved over the years (data_tables/, the
+            # bare files/ root, dated folders such as 2025-01/, document/) and quarters before 2025 are PDF
+            # only, so take whatever the page offers: xlsx when present, else pdf, per measure.
+            found: dict[str, dict[str, str]] = {}
+            for m in re.finditer(r'href="([^"]*?/bf_f2(\.3)?_' + re.escape(stamp) + r'\.(xlsx|pdf))"', html, re.I):
+                href, three, ext = m.group(1), m.group(2), m.group(3).lower()
+                url = href if href.startswith("http") else "https://www.uscourts.gov" + href
+                found.setdefault("quarter" if three else "twelve_months_ending", {}).setdefault(ext, url)
+            for measure, by_ext in found.items():
+                url = by_ext.get("xlsx") or by_ext.get("pdf")
+                label = "three" if measure == "quarter" else "twelve"
+                out.append(Document(url=url, period=doc.period, kind=url.rsplit(".", 1)[-1].lower(), label=f"F-2 {label} months ending {e.isoformat()}", meta=(("measure", measure),)))
+            if out:
+                return out
+        raise LayoutChanged(f"No F-2 xlsx, xls or pdf link found on {doc.url}; anchors seen: {LINK_RE.findall(html)[:10]}")
 
     # ---- parse ----
     def parse(self, raw: RawDocument) -> list[dict[str, Any]]:
+        if raw.path.suffix.lower() == ".pdf":
+            return self._parse_pdf(raw)
         if raw.path.suffix.lower() == ".xls":
             raise LayoutChanged(f"{raw.path.name} is a legacy .xls file; convert to xlsx (libreoffice --headless --convert-to xlsx) and re-run with --local, or add xlrd support")
         wb = openpyxl.load_workbook(raw.path, read_only=True, data_only=True)
@@ -149,6 +172,66 @@ class USCourtsBankruptcyF2:
             out.append(rec)
         if not out:
             raise LayoutChanged(f"{raw.path.name}: header found at row {header_idx} but no district rows matched known codes; first cells were {[str(r[0])[:12] for r in rows[header_idx+1:header_idx+6] if r]}")
+        return out
+
+    # ---- PDF edition (quarters before 2025 have no spreadsheet) ----
+    DISTRICT_LINE = re.compile(r"^([A-Z]{2})(?:\s*,\s*([A-Z]))?\s*[\u00b9\u00b2\u00b3\u2070-\u2079*\u2020\u2021]*\s+(.*)$")
+
+    def _parse_pdf(self, raw: RawDocument) -> list[dict[str, Any]]:
+        """Read district rows from the PDF edition of Table F-2.
+
+        Two column layouts exist. From 2020 the columns are Total (All, 7, 11, 13, Other), Business (All,
+        7, 11, 13, Other), Nonbusiness (All, 7, 11, 13): fourteen numbers. Up to 2019 they are Total (All,
+        7, 11, 12, 13), Business (All, 7, 11, 12, 13), Nonbusiness (All, 7, 11, 13), also fourteen, and the
+        text extraction glues a trailing one-character column onto the last number ("2,4890"); that last
+        value is therefore checked against nonbusiness total minus chapters 7 and 11 and repaired from it.
+        The layout is read from each page's header, so a mixed file is handled page by page.
+        """
+        districts = _districts()
+        out: list[dict[str, Any]] = []
+        with pdfplumber.open(raw.path) as pdf:
+            for page in pdf.pages:
+                text = page.extract_text() or ""
+                lines = [l.strip() for l in text.splitlines()]
+                # The last page ends with footnotes and a small "cases not reflected elsewhere" list
+                # (chapter 9 and 15 cases by district); nothing after the first footnote is a district row.
+                for i, l in enumerate(lines):
+                    if l.startswith("Note:") or re.match(r"^[\u00b9\u00b2\u00b3]\s", l):
+                        lines = lines[:i]
+                        break
+                header = " ".join(l for l in lines[:12]).upper()
+                if "NONBUSINESS" not in header:
+                    continue
+                legacy = bool(re.search(r"\bCHAPTER\s+CHAPTER\s+CHAPTER\s+CHAPTER\s+CHAPTER", header)) and re.search(r"\b7\s+11\s+12\s+13\b", header) is not None
+                for line in lines:
+                    m = self.DISTRICT_LINE.match(line)
+                    if not m:
+                        continue
+                    code = m.group(1) + (m.group(2) or "")
+                    if code == "AR":
+                        code = "ARE"
+                    if code not in districts:
+                        continue
+                    toks = re.findall(r"\d[\d,]*|-", m.group(3))
+                    if len(toks) != 14:
+                        raise LayoutChanged(f"{raw.path.name}: district row {code!r} has {len(toks)} numbers, expected 14: {line!r}")
+                    nums = [0 if t == "-" else int(t.replace(",", "")) for t in toks]
+                    nb_total, nb7, nb11, nb13 = nums[10], nums[11], nums[12], nums[13]
+                    if legacy:
+                        expected = nb_total - nb7 - nb11  # nonbusiness chapter 12 is not broken out and is practically zero
+                        raw13 = toks[13].replace(",", "")
+                        if nb13 != expected:
+                            if raw13.startswith(str(expected)) and len(raw13) == len(str(expected)) + 1:
+                                nb13 = expected
+                            elif len(raw13) > 1 and 0 <= expected - int(raw13[:-1]) <= 50:
+                                nb13 = int(raw13[:-1])
+                            else:
+                                raise LayoutChanged(f"{raw.path.name}: {code}: nonbusiness chapter 13 {toks[13]!r} does not reconcile with total {nb_total} minus chapters 7 ({nb7}) and 11 ({nb11})")
+                    elif nb_total < nb7 + nb11 + nb13:
+                        raise LayoutChanged(f"{raw.path.name}: {code}: nonbusiness chapters exceed the nonbusiness total: {line!r}")
+                    out.append({"district_code": code, "all_nonbusiness": nb_total, "7": nb7, "11": nb11, "13": nb13})
+        if not out:
+            raise LayoutChanged(f"{raw.path.name}: no district rows found in the PDF edition of Table F-2")
         return out
 
     def _find_header(self, rows: list[list[Any]]) -> tuple[int, dict[str, int]]:
@@ -195,7 +278,8 @@ class USCourtsBankruptcyF2:
                 sums[(fips, ch)] += rec[ch]
         rows: list[Row] = []
         for (fips, ch), n in sorted(sums.items()):
-            prov = provenance.block(SOURCE_ID, raw, method="bulk_download", entered_by="wpdc_ingest.uscourts_bankruptcy", page_or_table="Table F-2")
+            method = "pdf" if raw.path.suffix.lower() == ".pdf" else "xlsx"
+            prov = provenance.block(SOURCE_ID, raw, method=method, entered_by="wpdc_ingest.uscourts_bankruptcy", page_or_table="Table F-2" + (" (PDF edition)" if method == "pdf" else ""))
             rows.append(Row(values={"fips": fips, "period_start": period.start.isoformat(), "period_end": period.end.isoformat(), "measure": measure, "chapter": ch, "filings": n},
                             provenance=provenance.csv_columns(prov),
                             transform_steps=[f"summed nonbusiness {ch} across districts {','.join(counted[fips])}"]))
