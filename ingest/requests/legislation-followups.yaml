@@ -1,0 +1,13 @@
+# Phase 3 follow-ups: Hawaii HB 1308's 2026 session page (the 2025 page ends with the carry-over), the
+# Senate roster line for South Carolina S 444's sponsors, and Mississippi HB 4074 through the Wayback Machine
+# because billstatus.ls.state.ms.us refused the runner's connection.
+kind: archive
+label: legislation-followups
+urls:
+  - https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=1308&year=2026
+  - https://www.capitol.hawaii.gov/sessions/session2025/bills/HB1308_SD2_.HTM
+  - https://www.scstatehouse.gov/member.php?chamber=S
+  - https://web.archive.org/web/2026id_/https://billstatus.ls.state.ms.us/2026/pdf/history/HB/HB4074.xml
+  - https://web.archive.org/web/2026id_/https://billstatus.ls.state.ms.us/documents/2026/html/HB/4000-4099/HB4074IN.htm
+  - https://web.archive.org/web/2026id_/https://billstatus.ls.state.ms.us/documents/2026/html/HB/4000-4099/HB4074PS.htm
+  - http://billstatus.ls.state.ms.us/2026/pdf/history/HB/HB4074.xml

@@ -1,0 +1,60 @@
+slug: tx-2025-hjr137
+fips: "48"
+session: 89th Legislature, Regular Session (2025)
+bill_number: HJR 137
+title: Proposing a constitutional amendment authorizing the legislature to regulate and authorize casino gaming and sports wagering
+market_segment: [regulated_sportsbook]
+summary: >-
+  House Joint Resolution 137 would have put to Texas voters a constitutional amendment allowing the
+  legislature to authorize and strictly regulate casino gaming and sports wagering by general law, with
+  required licensing, license application fees and a tax on casino gaming and sports wagering revenue. Filed
+  February 12, 2025 and referred to the House Committee on State Affairs on March 19, 2025, it received no
+  further action before the regular session ended on June 2, 2025.
+would:
+  - Amend Section 47, Article III of the Texas Constitution to let the legislature authorize and strictly regulate casino gaming and sports wagering by general law, defining the activities, requiring licenses and application fees, and imposing a tax on revenue (introduced text, Section 1).
+sponsors:
+  - name: Charlie Geren
+    chamber: house
+    party: R
+    role: primary
+status: died_in_committee
+status_date: "2025-06-02"
+actions:
+  - date: "2025-02-12"
+    chamber: house
+    action_text: Filed.
+    provenance: &txbill
+      source_id: tx-legislature
+      source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HJR137
+      archive_url: sha256:9810b87c7f686902455c9dfed0cf2087c2d2a2d2a36fef33aa4e4b568dc822ca
+      retrieved_at: "2026-10-16"
+      retrieval_method: html_table
+      transform: null
+      entered_by: claude-phase3-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: "Texas Legislature Online bill history, actions table"
+      notes: Bill history page archived on a GitHub runner (ingest run 38). The session end date is the constitutional 140-day limit for the regular session that convened January 14, 2025; the page shows no action after March 19, 2025.
+  - date: "2025-03-19"
+    chamber: house
+    action_text: Read first time; referred to State Affairs (House Journal page 676).
+    provenance: *txbill
+votes: []
+text_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HJ00137I.htm
+legislature_page_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HJR137
+fiscal_note_url: null
+fiscal_estimate_text: null
+related_bills: []
+external_ids:
+  legiscan_bill_id: null
+  openstates_id: null
+notes: >-
+  A joint resolution needs two thirds of each chamber and then voter approval; it is not subject to the
+  Governor's veto. The introduced text (archived sha256
+  6dbec1e41a05c1e8a7dbe526f67caff56f3057e08fbd929677d660c03a65549b) is the only version.
+provenance:
+  <<: *txbill
+  source_url: https://capitol.texas.gov/tlodocs/89R/billtext/html/HJ00137I.htm
+  archive_url: sha256:6dbec1e41a05c1e8a7dbe526f67caff56f3057e08fbd929677d660c03a65549b
+  retrieval_method: html_table
+  page_or_table: "Introduced text, Section 1"
