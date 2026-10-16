@@ -59,7 +59,7 @@ const marketWord = (s: typeof states[number]) => s.market === 'regulated_market'
           <td><code>{c.presence}</code></td>
           <td><ol>{c.scoring.map((s: any) => <li>{s.points} pt, {s.label ?? s.condition}<div class="meta">{s.condition}</div></li>)}</ol></td>
           <td class="num">{c.max_points}</td>
-          <td>{c.rationale}</td>
+          <td>{c.rationale}{c.evidence_basis?.length ? <div class="meta">Evidence: {c.evidence_basis.map((slug: string, i: number) => <>{i > 0 ? ', ' : ''}<a href={`${base}/research/${slug}/`}>{slug}</a></>)}. {c.evidence_note}</div> : <div class="meta">No study in the research library tests this criterion; it rests on the rationale.</div>}</td>
         </tr>))}
       </tbody>
     </table></div>

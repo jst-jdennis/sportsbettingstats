@@ -117,6 +117,13 @@
           "presence": {
             "type": "string",
             "description": "Input name whose null value means the criterion has not been entered for the state"
+          },
+          "evidence_note": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "What the cited studies do and do not show about this criterion"
           }
         }
       }

@@ -62,7 +62,10 @@ criteria:
       - { when: otherwise, condition: "some scope permits wagering under 21", points: 0, label: "Under 21 permitted" }
     max_points: 2
     rationale: Aligns with the age used by most states and by the research on early-adult financial harm.
-    evidence_basis: []
+    evidence_basis:
+      - hollenbeck-larsen-proserpio-2024
+      - baker-balthrop-johnson-kotter-pisciotta-2024
+    evidence_note: "Both studies report larger financial effects among younger and financially constrained households; neither tests an age threshold directly."
   - criterion_id: credit_cards
     title: Credit card deposits prohibited
     data_path: /consumer_protections/credit_card_deposits/allowed
@@ -73,7 +76,12 @@ criteria:
       - { when: otherwise, condition: "allowed is true", points: 0, label: "Permitted" }
     max_points: 2
     rationale: Borrowing to wager is the mechanism most directly linked to debt outcomes in the research library.
-    evidence_basis: []
+    evidence_basis:
+      - hollenbeck-larsen-proserpio-2024
+      - baker-balthrop-johnson-kotter-pisciotta-2024
+      - clarida-2021
+      - goss-mangrum-2026
+    evidence_note: "These studies measure financial distress after legalization (bankruptcy, collections, credit scores, delinquency, net investment); none isolates credit card funding of wagering accounts, so they support the concern, not the specific rule."
   - criterion_id: pg_funding
     title: Dedicated problem gambling funding
     data_path: pg_funding.yaml/records[latest]/funding_mechanism
@@ -86,7 +94,11 @@ criteria:
       - { when: otherwise, condition: "funding_mechanism is unknown", points: 0, label: "Mechanism unknown" }
     max_points: 3
     rationale: Earmarked funding survives budget cycles. Per capita amounts are shown alongside but not scored until amounts are entered for all states.
-    evidence_basis: []
+    evidence_basis:
+      - westermeyer-eisenberg-meiselbach-2026
+      - yeola-allen-desai-2025
+      - ozer-greenwood-gopal-2024
+    evidence_note: "These studies find help-seeking and behavioral health care use rising after legalization, which is demand that treatment funding meets; they do not evaluate funding mechanisms."
   - criterion_id: prevalence_research
     title: State prevalence study within the last seven years
     data_path: outcomes/prevalence_studies.yaml
@@ -98,7 +110,10 @@ criteria:
       - { when: otherwise, condition: "no study on file", points: 0, label: "No study found" }
     max_points: 2
     rationale: A state cannot evaluate its own policy without a baseline and follow-up measurement.
-    evidence_basis: []
+    evidence_basis:
+      - ozer-greenwood-gopal-2024
+      - westermeyer-eisenberg-meiselbach-2026
+    evidence_note: "Cited for the measurement problem they document, not for a finding about prevalence studies themselves."
 grade_bands:
   - { min_pct: 90, grade: A }
   - { min_pct: 75, grade: B }
