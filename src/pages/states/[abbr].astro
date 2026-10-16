@@ -23,13 +23,19 @@ function perCapita(amount: number | null | undefined): string | null {
   return `$${(amount / Number(pop.population)).toFixed(2)} per resident (population ${Number(pop.population).toLocaleString()}, Census Vintage ${pop.vintage})`;
 }
 const path = `/states/${p.abbr.toLowerCase()}/`;
+// Sections a status-only profile is still missing, so the notice tells the truth once some are filled.
+const missingSections = [
+  ['legal age', !!p.legal_age?.length], ['tax structure', !!p.tax?.length],
+  ['consumer protections', !!p.consumer_protections && Object.values(p.consumer_protections).some((v) => v)],
+  ['problem gambling funding', !!pg?.records?.length], ['prediction market status', !!pm], ['summary', !!p.summary],
+].filter(([, present]) => !present).map(([name]) => name as string);
 ---
 <Base title={`${p.name}: sports wagering and prediction markets`} description={p.summary ?? `Legal status, regulation and consumer protections for sports wagering in ${p.name}.`} asOf={pageAsOf} canonicalPath={path}>
   <p class="meta"><a href={base + '/'}>Map</a> / <a href={base + '/states/'}>States</a> / {p.name}</p>
   <h1>{p.name}</h1>
   <p class="lede"><strong>{HEADLINE_LABEL[hs]}</strong>{quals.length ? ` (${quals.join('; ')})` : ''}. {p.summary ?? ''}</p>
   <ReviewNotice objs={[p, pg, pm, ...stateBills].filter(Boolean)} />
-  {!full && <div class="panel" role="note"><strong>Status-only profile.</strong> Legal status and regulator have been entered for {p.name}. Legal age, tax structure, consumer protections, problem gambling funding and prediction market status have not. <a href={base + '/data/#contribute'}>How to add them</a>.</div>}
+  {!full && <div class="panel" role="note"><strong>Status-only profile.</strong> Legal status and regulator have been entered for {p.name}. Not yet entered: {missingSections.join(', ')}. <a href={base + '/data/#contribute'}>How to add them</a>.</div>}
 
   <nav class="toc" aria-label="On this page"><ul>
     <li><a href="#status">Legal status</a></li><li><a href="#governance">Governance and age</a></li><li><a href="#tax">Tax structure</a></li>
