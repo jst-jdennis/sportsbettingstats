@@ -13,7 +13,7 @@ on:
         required: false
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   run:
@@ -58,7 +58,30 @@ jobs:
           [ -d archive/raw ] && cp -r archive/raw out/archive-raw || true
           git status --short > out/logs/git-status.txt
           git diff --stat >> out/logs/git-status.txt
-          exit $status
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+      - name: Summarize for the log
+        if: always()
+        run: |
+          python -m wpdc_ingest.summarize out \
+            --href 'bankruptcy-filings-statistics|f-?2|f2|sports.?wager|xlsx|\.pdf' \
+            --grep 'Table 4|ATT|per 100,000|bankruptc[a-z]* (filing|rate)|25-30|28%|27%|10%|credit score|net investment|14%|percentage points|upset'
+      - name: Push results to a results branch (works only if the token may write)
+        if: always()
+        continue-on-error: true
+        run: |
+          set -e
+          b="ingest-results/run-${{ github.run_number }}"
+          git config user.name "wpdc-ingest[bot]"
+          git config user.email "wpdc-ingest@users.noreply.github.com"
+          git checkout --orphan "$b"
+          git rm -rfq --cached . >/dev/null 2>&1 || true
+          mkdir -p results && cp -r out/. results/
+          git add -f results
+          git commit -qm "Ingest results for run ${{ github.run_number }} (${{ github.sha }})"
+          git push -f origin "$b" && echo "pushed $b"
+      - name: Fail the job if any request failed
+        if: steps.run.outputs.status == '1'
+        run: exit 1
       - name: Upload results
         if: always()
         uses: actions/upload-artifact@v4

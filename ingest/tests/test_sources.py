@@ -98,3 +98,24 @@ def test_nj_resolve_prefers_page_link_then_pattern():
     assert docs[0].url == "https://www.nj.gov/oag/ge/docs/Financials/SportsWagering2026/August2026.pdf"
     docs = src.resolve(page, "<p>nothing</p>")
     assert docs[0].url.endswith("SportsWagering2026/August2026.pdf")
+
+
+def test_census_csv_parse(tmp_path):
+    from wpdc_ingest.sources.census_population import CensusPopulation
+    csv_text = "SUMLEV,REGION,DIVISION,STATE,NAME,ESTIMATESBASE2020,POPESTIMATE2020,POPESTIMATE2021\n010,0,0,00,United States,1,2,3\n040,3,6,40,Oklahoma,3959353,3964912,3986639\n040,X,X,72,Puerto Rico,1,2,3\n"
+    p = tmp_path / "nst.csv"; p.write_text(csv_text)
+    src = CensusPopulation()
+    doc = src.discover(None)[0]
+    raw = RawDocument(doc=Document(url=doc.url, kind="csv", label=doc.label, meta=(("vintage", 2025),)), path=p, sha256="0" * 64, retrieved_at=date(2026, 10, 16), archive_url=None)
+    recs = src.parse(raw)
+    assert [(r["fips"], r["year"], r["population"]) for r in recs] == [("40", 2020, 3964912), ("40", 2021, 3986639)]
+    assert all(r["vintage"] == 2025 for r in recs)
+
+
+def test_census_api_html_error_raises(tmp_path):
+    from wpdc_ingest.sources.census_population import CensusPopulation
+    p = tmp_path / "x.json"; p.write_text("<html>missing key</html>")
+    src = CensusPopulation()
+    doc = [d for d in src.discover(None) if d.kind == "json"][0]
+    with pytest.raises(LayoutChanged):
+        src.parse(RawDocument(doc=doc, path=p, sha256="0" * 64, retrieved_at=date(2026, 10, 16), archive_url=None))

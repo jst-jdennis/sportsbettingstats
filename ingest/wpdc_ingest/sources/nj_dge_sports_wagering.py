@@ -30,7 +30,12 @@ from ..core import provenance
 from ..core.source import Document, LayoutChanged, Period, RawDocument, Row
 
 SOURCE_ID = "nj-dge-sports-wagering-monthly"
-LANDING = "https://www.nj.gov/oag/ge/sportswageringrevenue.html"
+LANDING = "https://www.njoag.gov/about/divisions-and-offices/division-of-gaming-enforcement-home/financial-and-statistical-information/monthly-sports-wagering-revenue-reports/"
+LANDING_CANDIDATES = [
+    LANDING,
+    "https://www.njoag.gov/about/divisions-and-offices/division-of-gaming-enforcement-home/financial-and-statistical-information/",
+    "https://www.nj.gov/oag/ge/sportswageringrevenue.html",
+]
 # Historic pattern for the monthly PDF; the CLI confirms the link exists on the landing page before fetching.
 PDF_PATTERN = "https://www.nj.gov/oag/ge/docs/Financials/SportsWagering{y}/{Month}{y}.pdf"
 REVENUE_DEFINITION = "Gross revenue before deductions for promotional gaming credits (DGE monthly sports wagering report)"
@@ -57,7 +62,9 @@ class NJDGESportsWagering:
             y, m = (t.year, t.month - 1) if t.month > 1 else (t.year - 1, 12)
             period = Period.month(y, m)
         month_name = period.start.strftime("%B")
-        return [Document(url=LANDING, period=period, kind="html", label=f"NJ DGE sports wagering revenue page, looking for {month_name} {period.start.year}")]
+        docs = [Document(url=u, period=period, kind="html", label=f"NJ DGE revenue page candidate, looking for {month_name} {period.start.year}") for u in LANDING_CANDIDATES]
+        docs.append(Document(url=PDF_PATTERN.format(y=period.start.year, Month=month_name), period=period, kind="pdf", label=f"NJ DGE sports wagering {month_name} {period.start.year} (historic URL pattern)"))
+        return docs
 
     def resolve(self, doc: Document, html: str) -> list[Document]:
         """Find the monthly PDF for the period on the DGE landing page; fall back to the historic URL pattern."""
@@ -71,7 +78,7 @@ class NJDGESportsWagering:
             if "sportswagering" in low.replace(" ", "").replace("%20", "") and month.lower() in low and str(y) in low:
                 cands.append(href if href.startswith("http") else "https://www.nj.gov" + (href if href.startswith("/") else "/oag/ge/" + href))
         if not cands:
-            cands = [PDF_PATTERN.format(y=y, Month=month)]
+            raise LayoutChanged(f"No PDF link for {month} {y} on {doc.url}; pdf links seen: {re.findall(r'href=\"([^\"]+\\.pdf)\"', html, re.I)[:15]}")
         return [Document(url=cands[0], period=doc.period, kind="pdf", label=f"NJ DGE sports wagering {month} {y}")]
 
     def parse(self, raw: RawDocument) -> list[dict[str, Any]]:

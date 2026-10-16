@@ -59,7 +59,10 @@ class USCourtsBankruptcyF2:
             y, m = (today.year, qm) if qm else (today.year - 1, 12)
             period = Period.quarter_ending(y, m)
         last = period.end
-        return [Document(url=QUARTER_PAGE.format(y=last.year, m=last.month, d=last.day), period=period, kind="html", label=f"Bankruptcy statistics page, quarter ending {last.isoformat()}")]
+        return [
+            Document(url=QUARTER_PAGE.format(y=last.year, m=last.month, d=last.day), period=period, kind="html", label=f"Bankruptcy statistics page, quarter ending {last.isoformat()}"),
+            Document(url=LANDING, period=period, kind="html", label=f"Bankruptcy statistics landing page, looking for quarter ending {last.isoformat()}", meta=(("landing", True),)),
+        ]
 
     def resolve(self, doc: Document, html: str) -> list[Document]:
         """Find the F-2 table downloads on the quarterly statistics page.
@@ -83,6 +86,12 @@ class USCourtsBankruptcyF2:
             url = href if href.startswith("http") else "https://www.uscourts.gov" + href
             if url in seen:
                 continue
+            if doc.get("landing") and doc.period:
+                # On the landing page several quarters are listed; keep only links that name this period.
+                e = doc.period.end
+                stamps = (f"{e.month:02d}{e.day:02d}.{e.year}", f"{e.month:02d}{e.day:02d}{e.year}", f"{e.year}_{e.month:02d}", e.strftime("%B %d, %Y").replace(" 0", " "), e.strftime("%B %Y"))
+                if not any(st.lower() in (url + " " + text).lower() for st in stamps):
+                    continue
             seen.add(url)
             low = text.lower()
             measure = "quarter" if re.search(r"3[- ]month|three[- ]month", low) else "twelve_months_ending"

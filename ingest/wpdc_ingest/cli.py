@@ -69,23 +69,28 @@ def main(argv: list[str] | None = None) -> int:
         last_err: Exception | None = None
         for doc in docs:
             try:
+                candidate = []
                 if doc.kind == "html":
                     html = archive.fetch_bytes(doc.url).decode("utf-8", "replace")
                     files = src.resolve(doc, html)
                     print(f"resolved {len(files)} document(s) from {doc.url}")
                     for f in files:
-                        raws.append(archive.fetch(src.source_id, f, f.kind, wayback=not a.no_wayback))
+                        candidate.append(archive.fetch(src.source_id, f, f.kind, wayback=not a.no_wayback))
                 else:
-                    raws.append(archive.fetch(src.source_id, doc, doc.kind, wayback=not a.no_wayback))
+                    candidate.append(archive.fetch(src.source_id, doc, doc.kind, wayback=not a.no_wayback))
+                # Parse now so that a wrong-shaped candidate (an HTML error page served as 200) falls through.
+                for raw in candidate:
+                    print(f"parsing {raw.path.name} ({raw.doc.label}) sha256={raw.sha256[:12]} archive_url={raw.archive_url}")
+                    src.parse(raw)
+                raws.extend(candidate)
                 break
             except Exception as e:  # noqa: BLE001
                 last_err = e
-                print(f"skip {doc.url}: {e}")
+                print(f"skip {doc.url}: {type(e).__name__}: {e}")
         if not raws:
-            raise SystemExit(f"no document could be fetched for {src.source_id}: {last_err}")
+            raise SystemExit(f"no document could be fetched and parsed for {src.source_id}: {last_err}")
     rows = []
     for raw in raws:
-        print(f"parsing {raw.path.name} ({raw.doc.label}) sha256={raw.sha256[:12]} archive_url={raw.archive_url}")
         records = src.parse(raw)
         rows.extend(r.finalize() for r in src.normalize(records, raw))
     key, sort = KEYS[src.dataset]
