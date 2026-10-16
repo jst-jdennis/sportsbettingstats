@@ -1,5 +1,0 @@
-# The three-month F-2 tables for June 2018 and March 2024 are re-uploaded files
-# with a "_0" suffix that resolve() did not match until now.
-kind: ingest
-source_id: uscourts-bankruptcy-f2
-periods: [2018-Q2, 2024-Q1]
