@@ -24,7 +24,9 @@ Phase 1 draft. All 50 states and DC have a legal status entry, marked
 pending review until a second contributor checks it. Oklahoma, New Jersey and
 Kansas have complete profiles. Outcome time series, the research library,
 the legislation tracker and report cards have their schemas and seed entries
-in place and are built out in Phases 2 to 4. See `docs/design/` for the data
+in place and are built out in Phases 2 to 4. Every page carries a build-time
+SVG chart (no client JavaScript) with its data table; the outcomes page charts
+the published estimates of legalization effects from the research library. See `docs/design/` for the data
 model, source inventory and ingestion design.
 
 ## Layout

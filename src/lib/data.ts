@@ -207,3 +207,38 @@ export function fmtDate(d?: string | null): string {
 }
 export function pct(x?: number | null): string { return x == null ? 'not entered' : `${(x * 100).toFixed(x * 100 % 1 ? 2 : 0)}%`; }
 export function label(s?: string | null): string { return s ? s.replace(/_/g, ' ') : 'not entered'; }
+
+// ---------- Derived series for charts (computed at build, never stored) ----------
+
+/** Research figures that carry a numeric value and are current and not unverified, with their paper. */
+export function effectFigures(): { paper: Paper; fig: any }[] {
+  const out: { paper: Paper; fig: any }[] = [];
+  for (const paper of papers()) for (const fig of paper.key_figures) {
+    if (fig.value_numeric == null || fig.status !== 'current') continue;
+    if (fig.provenance.status === 'unverified' || fig.provenance.status === 'superseded') continue;
+    out.push({ paper, fig });
+  }
+  return out;
+}
+
+export const OUTCOME_LABEL: Record<string, string> = {
+  bankruptcy: 'Bankruptcy filings', credit_score: 'Credit scores', debt_collections: 'Debt in collections', loan_delinquency: 'Loan delinquency',
+  savings_investment: 'Saving and investing', consumer_debt: 'Consumer debt', help_seeking: 'Help-seeking', intimate_partner_violence: 'Intimate partner violence',
+  problem_gambling_prevalence: 'Problem gambling prevalence', betting_participation: 'Betting participation', other: 'Other',
+};
+
+/** Number of states with a live channel at the end of each year, from the first legal wager to the current year. */
+export function adoptionByYear(): { year: number; any: number; online: number; retail: number }[] {
+  const ps = profiles();
+  const first = (p: StateProfile, ch?: 'retail' | 'online') => p.legal_status.filter((r) => (!ch || r.channel === ch) && r.launched_on).map((r) => r.launched_on!).sort()[0] ?? null;
+  const starts = ps.map((p) => first(p)).filter((x): x is string => !!x).sort();
+  if (!starts.length) return [];
+  const y0 = Number(starts[0].slice(0, 4)), y1 = Number(BUILD_DATE.slice(0, 4));
+  const out = [];
+  for (let y = y0; y <= y1; y++) {
+    const cutoff = `${y}-12-31`;
+    const count = (ch?: 'retail' | 'online') => ps.filter((p) => { const d = first(p, ch); return d && d <= cutoff; }).length;
+    out.push({ year: y, any: count(), online: count('online'), retail: count('retail') });
+  }
+  return out;
+}

@@ -18,10 +18,27 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   </ol>
 
   <h2 id="status">Record status</h2>
-  <p>Every record carries one of five statuses, shown as a badge beside the value.</p>
+  <p>Every record carries one of five statuses, shown as a badge beside the value. The diagram shows how a record moves between them.</p>
+  <svg class="flow" viewBox="0 0 720 230" role="img" aria-labelledby="flow-t flow-d">
+    <title id="flow-t">How a record moves between statuses</title>
+    <desc id="flow-d">A contributor enters a record with a citation, which makes it pending review. A second reviewer checks it against the source and it becomes verified. A public correction makes a record disputed until resolved. A publisher restatement or later draft makes the old record superseded. A placeholder whose value has not been read from the source is unverified and renders as not entered.</desc>
+    <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="head"/></marker></defs>
+    <rect x="10" y="80" width="160" height="56" rx="4"/><text x="90" y="104" text-anchor="middle">Entered with citation</text><text x="90" y="121" text-anchor="middle" class="small">contributor, source URL, date</text>
+    <rect x="230" y="80" width="160" height="56" rx="4" class="pending"/><text x="310" y="104" text-anchor="middle">Pending review</text><text x="310" y="121" text-anchor="middle" class="small">shown with badge, not graded</text>
+    <rect x="450" y="80" width="160" height="56" rx="4" class="verified"/><text x="530" y="104" text-anchor="middle">Verified</text><text x="530" y="121" text-anchor="middle" class="small">second reviewer recorded</text>
+    <rect x="450" y="10" width="160" height="46" rx="4" class="bad"/><text x="530" y="30" text-anchor="middle">Disputed</text><text x="530" y="45" text-anchor="middle" class="small">open public issue</text>
+    <rect x="450" y="160" width="160" height="46" rx="4"/><text x="530" y="180" text-anchor="middle">Superseded</text><text x="530" y="195" text-anchor="middle" class="small">kept for history, not current</text>
+    <rect x="230" y="160" width="160" height="46" rx="4"/><text x="310" y="180" text-anchor="middle">Unverified</text><text x="310" y="195" text-anchor="middle" class="small">renders as "not entered"</text>
+    <line x1="170" y1="108" x2="228" y2="108" marker-end="url(#arr)"/><text x="199" y="100" text-anchor="middle" class="small">pull request</text>
+    <line x1="390" y1="108" x2="448" y2="108" marker-end="url(#arr)"/><text x="419" y="100" text-anchor="middle" class="small">checked</text>
+    <path d="M530,80 V58" marker-end="url(#arr)"/><text x="546" y="72" class="small">correction raised</text>
+    <path d="M610,33 H650 V108 H612" marker-end="url(#arr)"/><text x="654" y="76" class="small">resolved</text>
+    <path d="M530,136 V158" marker-end="url(#arr)"/><text x="546" y="151" class="small">restated or revised</text>
+    <path d="M90,136 V183 H228" marker-end="url(#arr)"/><text x="110" y="175" class="small">value not yet read</text>
+  </svg>
   <dl class="kv">
     <dt><span class="badge verified">verified</span></dt><dd>Entered with a citation and independently checked against that source by a second reviewer, whose handle is recorded.</dd>
-    <dt><span class="badge pending_review">pending review</span></dt><dd>Entered with a citation but not yet checked by a second person. Shown with the badge; excluded from grades and headline figures.</dd>
+    <dt><span class="badge pending_review">pending review</span></dt><dd>Entered with a citation but not yet checked by a second person. Shown with the badge, and in charts as hollow markers labeled as entered from secondary summaries; excluded from report card grades.</dd>
     <dt><span class="badge unverified">unverified</span></dt><dd>A placeholder whose value has not been read from the cited source. Rendered only as "not entered".</dd>
     <dt><span class="badge disputed">disputed</span></dt><dd>A correction has been raised in a public issue and is unresolved. The value stays visible with the badge and a link.</dd>
     <dt><span class="badge superseded">superseded</span></dt><dd>Replaced by a later record, for example a regulator restatement or a revised paper draft. Kept in the files for history; not rendered as current.</dd>
@@ -42,7 +59,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <p>Sources are registered with a tier. <strong>Primary</strong> sources produce the number (a regulator, a court, a legislature, a paper). <strong>Secondary</strong> sources aggregate primary data with a documented method (US Courts tables are primary; a bankruptcy institute's state rollup is secondary). <strong>Tertiary</strong> sources, such as trade press and trackers, are used only to find primary documents and are rejected by the validator as the source of any figure. See the <a href={base + '/methodology/sources/'}>source registry</a>.</p>
 
   <h2 id="derived">Derived values</h2>
-  <p>Per capita amounts, per 100,000 rates, growth rates, pre and post legalization windows and grades are computed at build time from stored primary records and are never stored themselves. Anyone with the CSV files and the population table can reproduce every derived number on the site.</p>
+  <p>Per capita amounts, per 100,000 rates, growth rates, pre and post legalization windows and grades are computed at build time from stored primary records and are never stored themselves. Anyone with the CSV files and the population table can reproduce every derived number on the site. Charts never place different outcome measures on a shared axis; each outcome domain has its own scale.</p>
 
   <h2 id="review">Review process</h2>
   <p>Two-person rule. A contributor enters a record with its source; a reviewer with the data-reviewer role checks each value against the source document and approves; the merge sets the reviewer's handle and flips the status to verified. Disputes are public issues. Publisher restatements create a new record and mark the old one superseded. Details are in <a href={SITE.repoUrl + '/blob/main/CONTRIBUTING.md'}>CONTRIBUTING.md</a>.</p>

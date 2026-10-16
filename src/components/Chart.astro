@@ -1,0 +1,21 @@
+---
+// Wraps a build-time SVG chart with its caption and a data table. The table
+// is the accessible twin of the chart and is always present, so no value is
+// reachable only by color or by hover.
+interface Props { svg: string; caption?: string; legend?: { cls: string; name: string }[]; head?: string[]; rows?: (string | number | null | undefined)[][]; tableLabel?: string }
+const { svg, caption, legend, head, rows, tableLabel = 'Chart data' } = Astro.props;
+---
+<figure class="chart">
+  {legend && legend.length > 1 && <ul class="legend" aria-label="Legend">{legend.map((l) => <li class={l.cls}>{l.name}</li>)}</ul>}
+  <Fragment set:html={svg} />
+  {caption && <figcaption><slot name="caption">{caption}</slot></figcaption>}
+  {head && rows && (
+    <details>
+      <summary>{tableLabel}</summary>
+      <div class="table-wrap"><table>
+        <thead><tr>{head.map((h) => <th scope="col">{h}</th>)}</tr></thead>
+        <tbody>{rows.map((r) => <tr>{r.map((c) => <td>{c ?? ''}</td>)}</tr>)}</tbody>
+      </table></div>
+    </details>
+  )}
+</figure>

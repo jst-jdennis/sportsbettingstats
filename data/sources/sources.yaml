@@ -331,6 +331,17 @@ sources:
   reliability_notes: null
   tier: primary
   fips: null
+- source_id: jama-network
+  publisher: JAMA Network (American Medical Association)
+  publisher_type: academic
+  title: JAMA Internal Medicine
+  url: https://jamanetwork.com/journals/jamainternalmedicine
+  access_method: pdf
+  update_cadence: irregular
+  license: Publisher terms
+  reliability_notes: Peer-reviewed. Research letters are short and report a single headline estimate; read the supplement for state-level figures.
+  tier: primary
+  fips: null
 - source_id: press-trade
   publisher: Trade and general press (various)
   publisher_type: news

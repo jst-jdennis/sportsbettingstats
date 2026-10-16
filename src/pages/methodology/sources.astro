@@ -1,12 +1,22 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Chart from '../../components/Chart.astro';
 import { sources, label } from '../../lib/data';
+import { barChartH } from '../../lib/charts';
 const all = [...sources().values()];
 const groups = [['primary', 'Primary'], ['secondary', 'Secondary'], ['tertiary', 'Tertiary (never cited for a figure)']] as const;
+const types = [...new Set(all.map((s) => s.publisher_type))].sort((a, b) => all.filter((s) => s.publisher_type === b).length - all.filter((s) => s.publisher_type === a).length);
+const tierCls = { primary: 's1', secondary: 's2', tertiary: 's0' } as const;
+const svg = barChartH({
+  id: 'sources', title: 'Registered sources by publisher type and tier', desc: 'Horizontal stacked bar chart. One bar per publisher type; segments are the number of primary, secondary and tertiary sources of that type.',
+  rows: types.map((t) => ({ label: label(t), segments: groups.map(([tier, name]) => ({ value: all.filter((s) => s.publisher_type === t && s.tier === tier).length, cls: tierCls[tier], name: name.split(' ')[0] })) })),
+  fmt: (v) => String(v), labelWidth: 150, rowHeight: 24,
+});
 ---
 <Base title="Source registry">
   <h1>Source registry</h1>
   <p class="lede">Every publisher cited anywhere on the site, with how the data is accessed, how often it updates and what is known to go wrong with it. Each state regulator has one entry.</p>
+  <Chart svg={svg} legend={[{ cls: 's1', name: 'Primary' }, { cls: 's2', name: 'Secondary' }, { cls: 's0', name: 'Tertiary' }]} head={['Publisher type', 'Primary', 'Secondary', 'Tertiary']} rows={types.map((t) => [label(t), ...groups.map(([tier]) => all.filter((s) => s.publisher_type === t && s.tier === tier).length)])} caption={`${all.length} registered sources. Most are state regulators and legislatures, one per state, because every legal status row cites the body that made the rule. Tertiary sources are registered so the validator can reject them as the source of any figure.`} />
   {groups.map(([tier, title]) => (
     <section>
       <h2>{title}</h2>

@@ -1,24 +1,47 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { papers, label, asOf } from '../../lib/data';
+import Chart from '../../components/Chart.astro';
+import { papers, label, fmtDate, asOf, OUTCOME_LABEL } from '../../lib/data';
+import { timeline } from '../../lib/charts';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const ps = papers();
+const statusCls: Record<string, string> = { working_paper: 's2', under_review: 's2', forthcoming: 's3', published: 's1' };
+const short = (p: any) => `${p.authors[0].split(' ').pop()}${p.authors.length > 1 ? ' et al.' : ''}`;
+const svg = timeline({
+  id: 'versions', title: 'Papers in the library and the dates of each version', desc: 'Timeline. One row per paper; each dot is a dated version of the paper, colored by whether that version was a working paper or a published article.',
+  rows: ps.map((p) => ({
+    label: `${short(p)} (${p.year_first_circulated})`, href: `${base}/research/${p.slug}/`,
+    events: p.versions.map((v: any, i: number) => ({
+      date: v.date, cls: i === p.versions.length - 1 ? statusCls[p.publication_status] : 's2',
+      title: `${p.title}: ${v.version_label}, ${fmtDate(v.date)}. ${v.changes_summary}`, label: v.version_label,
+    })),
+  })),
+  start: '2024-01-01', rowHeight: 36, labelWidth: 190,
+});
+const domains = (p: any) => [...new Set(p.key_figures.map((f: any) => f.outcome_domain).filter(Boolean))].map((d) => OUTCOME_LABEL[d as string] ?? d).join(', ');
 ---
 <Base title="Research library" asOf={asOf(ps)}>
   <h1>Research library</h1>
   <p class="lede">Peer-reviewed and working papers on the effects of legalized sports wagering, each with a plain-language summary, the unit the effect is measured at, methodology notes and a version log that records how headline figures have changed between drafts.</p>
-  <div class="panel notice" role="note"><strong>Phase 2 section, seeded.</strong> Two entries are present so the version log structure can be reviewed. Key figures are entered from secondary summaries and marked accordingly; each PDF will be archived and read directly before any figure is marked verified.</div>
+  <div class="panel notice" role="note"><strong>Phase 2 section, seeded.</strong> {ps.length} entries are present so the version log structure can be reviewed. Key figures are entered from secondary summaries and marked accordingly; each PDF will be archived and read directly before any figure is marked verified. The estimates themselves are charted together on the <a href={base + '/outcomes/'}>outcomes page</a>.</div>
+
+  <h2 id="timeline">Versions over time</h2>
+  <p>A working paper can change its headline figure between drafts. Each dot is a dated version; the version log on each entry records what changed.</p>
+  <Chart svg={svg} legend={[{ cls: 's2', name: 'Working paper draft' }, { cls: 's1', name: 'Published version' }]} head={['Paper', 'Version', 'Date', 'What changed']} rows={ps.flatMap((p) => p.versions.map((v: any) => [p.title, v.version_label, fmtDate(v.date), v.changes_summary]))} caption="Select a paper to open its entry. Dates are as precise as the document states them; a version dated only to a month or year is placed at its start." />
+
+  <h2 id="papers">Papers</h2>
   <ul class="cards">{ps.map((p) => (
     <li>
       <h3><a href={`${base}/research/${p.slug}/`}>{p.title}</a></h3>
       <div>{p.authors.join(', ')} ({p.year_first_circulated})</div>
-      <div class="meta">{label(p.publication_status)}{p.venue && <>, {p.venue}</>}. Effect measured at: {label(p.unit_of_effect)}. {p.versions.length} version{p.versions.length === 1 ? '' : 's'} logged.</div>
+      <div class="meta">{label(p.publication_status)}{p.venue && <>, {p.venue}</>}. Effect measured at: {label(p.unit_of_effect)}. Outcomes: {domains(p) || 'not coded'}. {p.versions.length} version{p.versions.length === 1 ? '' : 's'} logged.</div>
     </li>))}
   </ul>
   <h2>How entries are built</h2>
   <ul>
     <li>Each version of a paper is recorded with its date, URL and, once archived, a file hash, so a figure can always be traced to the draft it came from.</li>
     <li>Key figures are tied to a version and a specification (which table, which estimator, which horizon). When two figures coexist in one draft under different specifications, both are shown.</li>
+    <li>Figures carry a numeric value and unit where the paper states one, so they can be charted; the text as the paper states it is kept beside the number.</li>
     <li>The unit of effect is stated on every entry because population averages are routinely misread as per-bettor effects.</li>
     <li>Summaries describe findings and limitations. They do not recommend policy.</li>
   </ul>

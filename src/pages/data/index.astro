@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Chart from '../../components/Chart.astro';
+import { barChartH } from '../../lib/charts';
 import { SITE } from '../../site.config';
 import { profiles, pgFunding, predictionMarkets, headlineStatus, HEADLINE_LABEL, reviewSummary, collectProvenance } from '../../lib/data';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -11,6 +13,12 @@ const rows = ps.map((p) => {
 });
 const total = rows.reduce((a, x) => ({ total: a.total + x.r.total, verified: a.verified + x.r.verified }), { total: 0, verified: 0 });
 const raw = `${SITE.repoUrl}/blob/main/data`;
+const byRecords = [...rows].sort((a, b) => b.r.total - a.r.total || a.p.name.localeCompare(b.p.name));
+const coverageSvg = barChartH({
+  id: 'coverage', title: 'Provenance records per state, verified and pending review', desc: 'Horizontal stacked bar chart. One bar per state, ordered by number of records; segments are records verified by a second reviewer and records entered with a citation but pending review.',
+  rows: byRecords.map(({ p, r }) => ({ label: p.name, href: `${base}/states/${p.abbr.toLowerCase()}/`, segments: [{ value: r.verified, cls: 's3', name: 'Verified' }, { value: r.pending, cls: 's0', name: 'Pending review' }] })),
+  fmt: (v) => String(v), labelWidth: 150, rowHeight: 20,
+});
 ---
 <Base title="Data, downloads and coverage">
   <h1>Data, downloads and coverage</h1>
@@ -28,6 +36,7 @@ const raw = `${SITE.repoUrl}/blob/main/data`;
 
   <h2 id="coverage">Coverage and review status</h2>
   <p>{total.verified} of {total.total} provenance records across all state files are verified. The rest are entered with a citation and await a second reviewer.</p>
+  <Chart svg={coverageSvg} legend={[{ cls: 's3', name: 'Verified' }, { cls: 's0', name: 'Pending review' }]} head={['State', 'Records', 'Verified', 'Pending review']} rows={byRecords.map(({ p, r }) => [p.name, r.total, r.verified, r.pending])} caption="Records per state across the profile, funding and prediction market files. The three full profiles (Oklahoma, New Jersey, Kansas) carry most of the records; status-only profiles carry a handful each. A record is counted once per provenance block, so a value shared across rows by a YAML anchor counts once per place it is used." />
   <div class="table-wrap"><table>
     <thead><tr><th scope="col">State</th><th scope="col">Headline status</th><th scope="col">Profile</th><th scope="col">Funding file</th><th scope="col">Prediction markets file</th><th scope="col" class="num">Records</th><th scope="col" class="num">Verified</th></tr></thead>
     <tbody>{rows.map(({ p, pg, pm, r, hs }) => (

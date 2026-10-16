@@ -274,10 +274,18 @@ instruments.
 
 `versions[]`: `{version_label, date, url, archive_url, sha256, changes_summary, src}`.
 
-`key_figures[]`: `{figure_id, description, value, unit, specification
+`key_figures[]`: `{figure_id, description, value_text, specification
 (e.g. "ATT, Table 4" or "event study, years 3 to 4"), version_label (which
 version it appears in), status: enum(current, superseded, withdrawn),
-superseded_by (figure_id), page_or_table, src}`.
+superseded_by (figure_id), page_or_table, outcome_domain, value_numeric,
+value_unit, range_low, range_high, src}`. `value_text` is the figure as the
+paper states it. `value_numeric` and `value_unit` (enum: `percent_change`,
+`percentage_points`, `per_100k`, `usd`, `index_points`) are the same figure
+as a signed number, so that the outcomes page can chart estimates from
+different papers on one axis; they are null until read from the paper.
+`outcome_domain` groups figures by the outcome measured (bankruptcy, credit
+score, saving and investing, help-seeking, intimate partner violence and so
+on). Only current figures whose provenance is not `unverified` are charted.
 
 This structure records two different kinds of change explicitly:
 

@@ -1,0 +1,79 @@
+slug: arnesen-matsuzawa-2024
+title: "Sports Betting Legalization Amplifies Emotional Cues and Intimate Partner Violence"
+authors: [Emily Arnesen, Kyutaro Matsuzawa]
+year_first_circulated: 2024
+publication_status: working_paper
+venue: San Diego State University Center for Health Economics and Policy Studies working paper series
+doi: null
+canonical_url: https://cheps.sdsu.edu/_resources/docs/working-papers/cheps-wp-20251001.pdf
+market_segment: regulated_sportsbook
+unit_of_effect: population_average
+data_used: >-
+  Incident-level police reports of intimate partner violence from the FBI National Incident-Based Reporting
+  System, 2011 to 2022, matched to NFL game outcomes and betting lines and to the date each state legalized
+  sports wagering.
+design: >-
+  Extends Card and Dahl (2011). Compares the rise in reported intimate partner violence on days when the local
+  NFL team loses a game it was favored to win, before and after a state legalized sports wagering, against the
+  same comparison in states without legal wagering. Upset losses are used because they are unexpected and are
+  when bettors lose money.
+plain_language_summary: >-
+  Earlier work found that reports of intimate partner violence rise after a home team loses a game it was
+  expected to win. This paper asks whether legal sports betting changes the size of that rise. It finds that
+  legalization raises the upset-loss effect by about 10 percentage points, with larger effects in states with
+  mobile betting, around paydays and for teams on a winning streak. The authors read this as financial losses
+  amplifying the emotional reaction to an unexpected loss. The effect is measured across all residents of a
+  state on game days; it does not identify households that bet.
+methodology_notes:
+  - The identification uses within-season variation in surprise losses, so it is not driven by long-run trends in violence.
+  - Results depend on the betting line defining which losses count as upsets.
+limitations:
+  - Working paper; the estimate and the sample may change between drafts. Two dated copies exist (October 2024 at the Minnesota Senate, October 2025 at CHEPS) and the difference between them has not been read.
+  - Police reports undercount intimate partner violence and reporting may itself respond to game outcomes.
+versions:
+  - version_label: mn-senate-2024-10
+    date: "2024-10-30"
+    date_precision: day
+    url: https://assets.senate.mn/committees/2025-2026/1007_Committee_on_Finance/Sports%20Betting%20Legalization%20Amplifies%20Emotional%20Cues%20&%20Intimate%20Partner%20Violence.pdf
+    archive_url: null
+    sha256: null
+    changes_summary: Draft dated October 30, 2024, as archived by the Minnesota Senate Committee on Finance with the authors' January 2025 testimony.
+  - version_label: cheps-wp-20251001
+    date: "2025-10-30"
+    date_precision: day
+    url: https://cheps.sdsu.edu/_resources/docs/working-papers/cheps-wp-20251001.pdf
+    archive_url: null
+    sha256: null
+    changes_summary: CHEPS working paper copy dated October 30, 2025. Whether the estimates changed from the 2024 draft is to be checked.
+key_figures:
+  - figure_id: ipv-upset-loss-2024
+    description: Additional rise in reported intimate partner violence after an NFL home upset loss once sports wagering is legal, relative to states without legal wagering
+    value_text: about 10 percentage points
+    specification: Difference-in-differences estimate on the upset-loss effect, all legal states, as stated in the abstract
+    version_label: mn-senate-2024-10
+    status: current
+    superseded_by: null
+    page_or_table: Abstract
+    outcome_domain: intimate_partner_violence
+    value_numeric: 10
+    value_unit: percentage_points
+    range_low: null
+    range_high: null
+    provenance: &arn
+      source_id: mn-senate-finance
+      source_url: https://assets.senate.mn/committees/2025-2026/1007_Committee_on_Finance/Sports%20Betting%20Legalization%20Amplifies%20Emotional%20Cues%20&%20Intimate%20Partner%20Violence.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: Abstract
+      notes: Figure read from the paper's abstract as indexed by search; the PDF itself was not opened from the build container. Confirm against the table and check whether the 2025 CHEPS draft changed it before verification.
+citations_in_policy:
+  - body: Minnesota Senate Committee on Finance
+    date: "2025-01-08"
+    description: Paper archived with testimony during consideration of sports wagering legislation.
+    url: https://assets.senate.mn/committees/2025-2026/1007_Committee_on_Finance/Sports%20Betting%20Legalization%20Amplifies%20Emotional%20Cues%20&%20Intimate%20Partner%20Violence.pdf
+provenance: *arn
