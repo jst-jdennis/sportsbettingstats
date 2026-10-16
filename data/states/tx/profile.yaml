@@ -1,78 +1,61 @@
-fips: '48'
+fips: "48"
 abbr: TX
 name: Texas
 profile_completeness: status_only
-summary: null
+summary: >-
+  Texas has not authorized sports wagering in any form. Wagering on the outcome of a game or contest is an
+  offense under Texas Penal Code section 47.02, and Article III, section 47 of the Texas Constitution directs
+  the Legislature to prohibit lotteries, so authorization would require a constitutional amendment approved by
+  voters. Proposed amendments in the 2025 regular session (HJR 134 and SJR 65) did not advance out of committee.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: tx-legislature
-    source_url: https://capitol.texas.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: tx-legislature
-    source_url: https://capitol.texas.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No statute authorizes sports wagering. Tex. Penal Code 47.02 (gambling offense, including betting on the result of a game or contest) and Tex. Const. art. III, sec. 47 (Legislature shall prohibit lotteries and gift enterprises).
+      url: https://statutes.capitol.texas.gov/Docs/PE/htm/PE.47.htm
+    operator_model: null
+    notes: Proposed constitutional amendments HJR 134 and SJR 65 (89th Legislature, 2025) were referred to committee and did not advance, per press reports; not confirmed on capitol.texas.gov. The next regular session convenes in 2027.
+    provenance: &txleg
+      source_id: tx-legislature
+      source_url: https://statutes.capitol.texas.gov/Docs/PE/htm/PE.47.htm
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch6-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: Penal Code chapter 47
+      notes: Citation sharpened from "No statute authorizes sports wagering" to name Penal Code 47.02 and Tex. Const. art. III, sec. 47, per Texas Attorney General opinions JM-1267 (1990) and LO 94-051 (1994) at oag.state.tx.us, which read 47.02 as reaching wagering on athletic events. Absence of authorization re-confirmed by search on 2026-10-16; no 2025 measure advanced. Re-check after the 2027 session.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No statute authorizes online sports wagering. Tex. Penal Code 47.02 and Tex. Const. art. III, sec. 47.
+      url: https://statutes.capitol.texas.gov/Docs/PE/htm/PE.47.htm
+    operator_model: null
+    notes: null
+    provenance: *txleg
 regulators:
-- name: No state body regulates sports wagering; none is authorized
-  url: null
-  type: none
-  roles: []
-  provenance:
-    source_id: tx-legislature
-    source_url: https://capitol.texas.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: No state body regulates sports wagering; none is authorized
+    url: null
+    type: none
+    roles: []
+    provenance:
+      <<: *txleg
+      notes: Confirmed by absence; no Texas agency holds sports wagering licensing authority. The Texas Lottery Commission and the Texas Racing Commission regulate other gambling segments only.
 legal_age: null
 tax: null
 consumer_protections: null
-limitations: null
+limitations:
+  - Texas is a comparison state with no regulated sports wagering. Residents can and do use offshore sites, sweepstakes products and, depending on platform geofencing, federally regulated prediction markets; none of that activity appears in any state revenue series.
+  - As of 2026-10-16 no Texas state body had been found to have issued a cease and desist, advisory opinion or lawsuit concerning prediction market sports contracts; press reports note the Texas Attorney General did not join the 2026 multistate amicus brief on the question. A Senate State Affairs interim hearing examined the issue. Prediction market status is tracked in prediction_markets.yaml when a primary record exists.

@@ -1,78 +1,61 @@
-fips: '49'
+fips: "49"
 abbr: UT
 name: Utah
 profile_completeness: status_only
-summary: null
+summary: >-
+  Utah has not authorized sports wagering in any form and has no lottery, casinos or pari-mutuel wagering.
+  Article VI, section 27 of the Utah Constitution bars the Legislature from authorizing any game of chance,
+  lottery or gift enterprise, so authorization would require a constitutional amendment. The gambling offenses
+  in Title 76 of the Utah Code were amended in 2026 to define a proposition bet.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering; Utah Const. art. VI, sec. 27 prohibits games of chance
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: ut-legislature
-    source_url: https://le.utah.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering; Utah Const. art. VI, sec. 27 prohibits games of chance
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: ut-legislature
-    source_url: https://le.utah.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No statute authorizes sports wagering. Utah Const. art. VI, sec. 27 (Legislature shall not authorize any game of chance, lottery or gift enterprise); gambling offenses in Utah Code Title 76 (formerly 76-10-1102, recodified in Title 76, chapter 9, part 14).
+      url: https://le.utah.gov/xcode/ArticleVI/UC_AVI_S27_1800010118000101.html
+    operator_model: null
+    notes: 2026 HB 243 (Gambling Revisions) added a statutory definition of "proposition bet" to the gambling offenses, effective 2026-05-06 per press reports; the le.utah.gov bill page was not retrieved. The recodified section numbers for the gambling offenses are from a secondary code republisher and should be confirmed on le.utah.gov.
+    provenance: &utleg
+      source_id: ut-legislature
+      source_url: https://le.utah.gov/xcode/ArticleVI/UC_AVI_S27_1800010118000101.html
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch6-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: Article VI, Section 27
+      notes: Constitutional citation confirmed on le.utah.gov (Legislative Compiler notes date the section to 1896, amended 1972). Statutory citation added. Absence of authorization re-confirmed by search on 2026-10-16.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: No statute authorizes online sports wagering. Utah Const. art. VI, sec. 27; gambling offenses in Utah Code Title 76.
+      url: https://le.utah.gov/xcode/ArticleVI/UC_AVI_S27_1800010118000101.html
+    operator_model: null
+    notes: null
+    provenance: *utleg
 regulators:
-- name: No state body regulates sports wagering; none is authorized
-  url: null
-  type: none
-  roles: []
-  provenance:
-    source_id: ut-legislature
-    source_url: https://le.utah.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: No state body regulates sports wagering; none is authorized
+    url: null
+    type: none
+    roles: []
+    provenance:
+      <<: *utleg
+      notes: Confirmed by absence. Utah has no gaming commission, lottery or racing commission.
 legal_age: null
 tax: null
 consumer_protections: null
-limitations: null
+limitations:
+  - Utah is a comparison state with no regulated gambling of any kind. Residents can and do use offshore sites, sweepstakes products and, depending on platform geofencing, federally regulated prediction markets; none of that activity appears in any state revenue series.
+  - Litigation over whether Utah may apply its gambling statutes to a federally designated prediction market exchange was pending in the Tenth Circuit as of 2026-10-16 (press reports; no primary-domain record retrieved). It belongs in prediction_markets.yaml once a primary record is archived.
