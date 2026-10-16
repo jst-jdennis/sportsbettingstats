@@ -198,6 +198,20 @@ def f2_pdf_2022(path: Path) -> None:
     _multi_page_pdf(path, pages)
 
 
+def f2_pdf_doubled_header(path: Path) -> None:
+    """2021 edition whose bold title block is rendered with every glyph doubled."""
+    def dbl(s): return "".join(c + c for c in s)
+    pages = [[dbl("Table F-2 Quarterly."), dbl("U.S. Bankruptcy Courts - Business and Nonbusiness Cases Commenced, by Chapter"),
+              dbl("During the Three-Month Period Ending December 31, 2021"), dbl("Predominant Nature of Debt"), dbl("Business Nonbusiness"),
+              dbl("Circuit Total Total Total Total Total"), dbl("and All Chapter Chapter Chapter Other All Chapter Chapter Chapter Other All"),
+              dbl("District Chapters 7 11 13 Chapters \u00b9 Chapters 7 11 13 Chapters \u00b9 Chapters 7 11"),
+              "Total 91,506 57,444 1,069 32,928 65 3,160 1,930 953 212 65 88,346 55,514 116 32,716",
+              "DC 58 42 5 11 0 7 2 5 0 0 51 40 0 11",
+              "1st 2,329 1,320 32 977 0 96 66 20 10 0 2,233 1,254 12 967",
+              "ME 158 128 1 29 0 11 9 1 1 0 147 119 0 28"]]
+    _multi_page_pdf(path, pages)
+
+
 def f2_pdf_2018(path: Path) -> None:
     pages = [["Table F-2.", "U.S. Bankruptcy Courts - Business and Nonbusiness Cases Commenced, by Chapter of the Bankruptcy Code,",
               "During the Three-Month Period Ending March 31, 2018, Based on Data Current as of March 31, 2018",
@@ -260,4 +274,5 @@ if __name__ == "__main__":
     nj_tax_returns_misfoot_pdf(HERE / "nj_dge107_misfoot_synthetic.pdf")
     f2_pdf_2022(HERE / "uscourts_f2_2022_synthetic.pdf")
     f2_pdf_2018(HERE / "uscourts_f2_2018_synthetic.pdf")
+    f2_pdf_doubled_header(HERE / "uscourts_f2_doubled_synthetic.pdf")
     print("fixtures written")

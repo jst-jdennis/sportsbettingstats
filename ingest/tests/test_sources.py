@@ -82,8 +82,8 @@ def test_writer_upsert_supersedes(tmp_path, monkeypatch):
 
 
 def test_uscourts_resolve_finds_f2_tables():
-    html = '''<table><tr><td>F-2 Three Months Ended June 30, 2026</td><td><a href="/sites/default/files/data_tables/bf_f2_0630.2026.xlsx">Download</a></td></tr>
-    <tr><td>F-2 Twelve Months</td><td><a href="https://www.uscourts.gov/sites/default/files/data_tables/bf_f2_twelve_0630.2026.xlsx">Download</a></td></tr>
+    html = '''<table><tr><td>F-2 Three Months Ended June 30, 2026</td><td><a href="/sites/default/files/data_tables/bf_f2.3_0630.2026.xlsx">Download</a></td></tr>
+    <tr><td>F-2 Twelve Months</td><td><a href="https://www.uscourts.gov/sites/default/files/data_tables/bf_f2_0630.2026.xlsx">Download</a></td></tr>
     <tr><td>F-2A Three Months</td><td><a href="/x/bf_f2a_0630.2026.xlsx">Download</a></td></tr>
     <tr><td>F-5A</td><td><a href="/x/bf_f5a_0630.2026.xlsx">Download</a></td></tr></table>'''
     src = USCourtsBankruptcyF2()
@@ -213,3 +213,9 @@ def test_uscourts_resolve_takes_real_links_and_prefers_xlsx():
     docs = {d.get("measure"): d for d in src.resolve(page, html)}
     assert docs["quarter"].url.endswith("bf_f2.3_1231.2022.pdf") and docs["quarter"].kind == "pdf"
     assert docs["twelve_months_ending"].url.endswith("bf_f2_1231.2022.xlsx")
+
+
+def test_uscourts_f2_pdf_doubled_header_page_is_read():
+    src = USCourtsBankruptcyF2()
+    recs = {r["district_code"]: r for r in src.parse(raw_for(FIX / "uscourts_f2_doubled_synthetic.pdf", Period.quarter_ending(2021, 12), "pdf"))}
+    assert set(recs) == {"DC", "ME"} and recs["ME"]["all_nonbusiness"] == 147 and recs["DC"]["13"] == 11

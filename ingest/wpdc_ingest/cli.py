@@ -68,22 +68,28 @@ def main(argv: list[str] | None = None) -> int:
         raws.append(archive.from_local(src.source_id, doc, a.local, doc.kind))
     else:
         last_err: Exception | None = None
+        done_measures: set[str] = set()  # with fetch_all, one parsed document per measure is enough
         for doc in docs:
             try:
                 candidate = []
                 if doc.kind == "html":
                     html = archive.fetch_bytes(doc.url).decode("utf-8", "replace")
-                    files = src.resolve(doc, html)
-                    print(f"resolved {len(files)} document(s) from {doc.url}")
+                    files = [f for f in src.resolve(doc, html) if not (f.get("measure") and f.get("measure") in done_measures)]
+                    print(f"resolved {len(files)} document(s) still needed from {doc.url}")
+                    if not files:
+                        continue
                     for f in files:
                         candidate.append(archive.fetch(src.source_id, f, f.kind, wayback=not a.no_wayback))
                 else:
+                    if doc.get("measure") and doc.get("measure") in done_measures:
+                        continue
                     candidate.append(archive.fetch(src.source_id, doc, doc.kind, wayback=not a.no_wayback))
                 # Parse now so that a wrong-shaped candidate (an HTML error page served as 200) falls through.
                 for raw in candidate:
                     print(f"parsing {raw.path.name} ({raw.doc.label}) sha256={raw.sha256[:12]} archive_url={raw.archive_url}")
                     src.parse(raw)
                 raws.extend(candidate)
+                done_measures.update(m for m in (r.doc.get("measure") for r in candidate) if m)
                 if not getattr(src, "fetch_all", False):
                     break
             except Exception as e:  # noqa: BLE001
