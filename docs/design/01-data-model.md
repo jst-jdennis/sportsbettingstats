@@ -244,12 +244,21 @@ measure of help-seeking and awareness, not prevalence.
 ### 5.4 `prevalence_studies.yaml`
 
 List of study records, not a time series, because methods differ.
+Schema: `schemas/prevalence_studies.schema.json`.
 
-`study_id` (pk), `fips`, `fieldwork_start`, `fieldwork_end`, `commissioned_by`,
-`conducted_by`, `instrument` (enum: `PGSI`, `DSM-IV-NODS`, `DSM-5`, `SOGS`,
-`BBGS`, `other`), `sample_size`, `population`, `mode`, `problem_gambling_rate`,
-`at_risk_rate`, `past_year_sports_bettors_rate`, `confidence_intervals`
-(object), `report_url`, `comparability_note`, src.
+`study_id` (pk), `fips`, `title`, `authors`, `commissioned_by`,
+`conducted_by`, `published_at`, `fieldwork_start`, `fieldwork_end`,
+`instrument` (enum: `PGSI`, `DSM-IV-NODS`, `DSM-5`, `SOGS`, `BBGS`, `other`),
+`instrument_note` (thresholds), `sample_size`, `population`, `mode`,
+`margin_of_error_pct_points`, `rates[]` (each with `measure`, the report's
+own `definition`, `value_pct`, optional confidence interval, `denominator`
+and its own provenance block with page reference), `report_url`,
+`comparability_note`, `limitations`, src.
+
+Rates are stored as published and never recomputed; a study that reports
+"high risk" under a nine-item screen and one that reports "problem gambling"
+under PGSI 8+ are different measures and are stored under different
+`measure` and `definition` values.
 
 Limitations: instruments and thresholds differ; rates are not comparable
 across studies that use different instruments; the field renders a

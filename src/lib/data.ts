@@ -44,6 +44,8 @@ export interface StateProfile {
   limitations?: string[] | null;
 }
 export interface PgFunding { fips: string; records: any[] }
+export interface PrevalenceRate { measure: string; definition: string; value_pct: number; ci_low_pct?: number | null; ci_high_pct?: number | null; denominator?: string | null; provenance: Provenance }
+export interface PrevalenceStudy { study_id: string; fips: string; title: string; authors?: string[] | null; commissioned_by?: string | null; conducted_by: string; published_at?: string | null; fieldwork_start: string; fieldwork_end: string; instrument: string; instrument_note?: string | null; sample_size?: number | null; population: string; mode: string; margin_of_error_pct_points?: number | null; rates: PrevalenceRate[]; report_url: string; comparability_note: string; limitations?: string | null; provenance: Provenance }
 export interface PredictionMarkets { fips: string; as_of: string; review_note?: string | null; operating_platforms: any[]; state_actions: any[]; litigation: any[] }
 export interface Bill { slug: string; fips: string; session: string; bill_number: string; title: string; market_segment: string[]; summary: string; would?: string[] | null; sponsors?: any[] | null; status: string; status_date?: string | null; actions?: any[] | null; votes?: any[] | null; text_url?: string | null; legislature_page_url?: string | null; fiscal_note_url?: string | null; fiscal_estimate_text?: string | null; notes?: string | null; provenance: Provenance }
 export interface Paper { slug: string; title: string; authors: string[]; year_first_circulated: number; publication_status: string; venue?: string | null; doi?: string | null; canonical_url?: string | null; market_segment: string; unit_of_effect: string; data_used?: string | null; design?: string | null; plain_language_summary: string; methodology_notes?: string[] | null; limitations?: string[] | null; versions: any[]; key_figures: any[]; citations_in_policy?: any[] | null; provenance: Provenance }
@@ -116,6 +118,11 @@ export function pgFunding(abbr: string): PgFunding | null {
 export function predictionMarkets(abbr: string): PredictionMarkets | null {
   const p = path.join(DATA, 'states', abbr.toLowerCase(), 'prediction_markets.yaml');
   return fs.existsSync(p) ? readYaml<PredictionMarkets>(p) : null;
+}
+export function prevalenceStudies(fips?: string): PrevalenceStudy[] {
+  const p = path.join(DATA, 'outcomes', 'prevalence_studies.yaml');
+  if (!fs.existsSync(p)) return [];
+  return readYaml<{ studies: PrevalenceStudy[] }>(p).studies.filter((s) => !fips || s.fips === fips).sort((a, b) => a.fieldwork_start.localeCompare(b.fieldwork_start));
 }
 export function bills(): Bill[] {
   const dir = path.join(DATA, 'legislation', 'bills');

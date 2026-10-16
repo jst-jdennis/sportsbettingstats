@@ -8,6 +8,7 @@ before it opens a pull request.
 from __future__ import annotations
 
 import json
+from urllib.parse import urlparse
 import sys
 from collections import defaultdict
 from datetime import date
@@ -174,6 +175,27 @@ def main() -> int:
                     if s2 <= e1:
                         err(f"{name}: overlapping periods for {k}: {s1}..{e1} and {s2}..{e2}")
 
+    # Prevalence studies (a list of study records; rates are never recomputed)
+    p = DATA / "outcomes" / "prevalence_studies.yaml"
+    if p.exists():
+        doc = validate_yaml(p, "prevalence_studies")
+        if doc:
+            ids = [s["study_id"] for s in doc["studies"]]
+            if len(ids) != len(set(ids)):
+                err(f"{p}: duplicate study_id")
+            for s in doc["studies"]:
+                if s["fips"] not in fips_set:
+                    err(f"{p}: study {s['study_id']} has unknown fips {s['fips']}")
+                if s["fieldwork_end"] < s["fieldwork_start"]:
+                    err(f"{p}: study {s['study_id']} fieldwork_end precedes fieldwork_start")
+                if urlparse(str(s["report_url"])).path in ("", "/"):
+                    err(f"{p}: study {s['study_id']} report_url is a bare host; cite the report document")
+                for r in s["rates"]:
+                    lo, hi = r.get("ci_low_pct"), r.get("ci_high_pct")
+                    if lo is not None and hi is not None and not (lo <= r["value_pct"] <= hi):
+                        err(f"{p}: study {s['study_id']} {r['measure']} value lies outside its confidence interval")
+            walk_provenance(doc, str(p.relative_to(ROOT)), prov_blocks)
+
     # Research, legislation, rubric
     for p in sorted((DATA / "research" / "papers").glob("*.yaml")):
         doc = validate_yaml(p, "paper")
@@ -181,7 +203,6 @@ def main() -> int:
             if doc["slug"] != p.stem:
                 err(f"{p}: slug {doc['slug']} does not match filename")
             # Research citations must point at the document, not a publisher homepage.
-            from urllib.parse import urlparse
             def bare(u):
                 try:
                     pr = urlparse(str(u))
