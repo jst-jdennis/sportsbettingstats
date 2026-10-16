@@ -17,6 +17,8 @@ Request file format:
 kind: ingest            # or: archive
 source_id: uscourts-bankruptcy-f2
 period: 2026-Q2         # YYYY-Qn for quarterly sources, YYYY-MM for monthly, omit for Census
+# or, for a back series in one file:
+# periods: [2024-01, 2024-02, 2024-03]
 ```
 
 ```yaml

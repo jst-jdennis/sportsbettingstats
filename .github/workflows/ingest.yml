@@ -46,9 +46,12 @@ jobs:
               python -m wpdc_ingest.archive_docs "out/archive/$name" "${urls[@]}" 2>&1 | tee "out/logs/$name.log" || status=1
             else
               sid=$(python -c "import yaml,sys;print(yaml.safe_load(open(sys.argv[1]))['source_id'])" "$f")
-              per=$(python -c "import yaml,sys;print(yaml.safe_load(open(sys.argv[1])).get('period') or '')" "$f")
-              args=(ingest "$sid"); [ -n "$per" ] && args+=(--period "$per")
-              wpdc "${args[@]}" 2>&1 | tee "out/logs/$name.log" || status=1
+              mapfile -t pers < <(python -c "import yaml,sys;d=yaml.safe_load(open(sys.argv[1]));ps=d.get('periods') or ([d['period']] if d.get('period') else ['']);print('\n'.join(str(p) for p in ps))" "$f")
+              for per in "${pers[@]}"; do
+                args=(ingest "$sid"); [ -n "$per" ] && args+=(--period "$per")
+                echo "### $sid $per"
+                wpdc "${args[@]}" 2>&1 | tee -a "out/logs/$name.log" || status=1
+              done
             fi
             echo "::endgroup::"
           done
