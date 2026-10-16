@@ -1,14 +1,32 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Chart from '../../components/Chart.astro';
 import { bills, profiles, label, fmtDate, asOf } from '../../lib/data';
+import { timeline } from '../../lib/charts';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const bs = bills();
 const names = new Map(profiles().map((p) => [p.fips, p.name]));
+const svg = timeline({
+  id: 'bills', title: 'Bill actions and votes over time', desc: 'Timeline. One row per bill; dots mark recorded legislative actions and floor votes.',
+  rows: bs.map((b) => ({
+    label: `${names.get(b.fips)} ${b.bill_number}`, href: `${base}/legislation/${b.slug}/`,
+    events: [
+      ...(b.actions ?? []).map((a: any) => ({ date: a.date, cls: 's1', title: `${fmtDate(a.date)}, ${label(a.chamber)}: ${a.action_text}` })),
+      ...(b.votes ?? []).map((v: any) => ({ date: v.date, cls: v.result === 'passed' ? 's3' : 's2', title: `${fmtDate(v.date)}, ${label(v.chamber)} vote: ${v.motion}. ${v.yeas} to ${v.nays}, ${v.result}.`, label: `${v.result} ${v.yeas} to ${v.nays}` })),
+    ],
+  })),
+  rowHeight: 40, labelWidth: 170,
+});
 ---
 <Base title="Legislation tracker" asOf={asOf(bs)}>
   <h1>Legislation tracker</h1>
   <p class="lede">Bills that would authorize, restrict or tax sports wagering or prediction markets, with status, votes, sponsors and links to official text.</p>
-  <div class="panel notice" role="note"><strong>Phase 3 section, seeded.</strong> One entry is present. Automated intake from LegiScan and Open States, with vote records confirmed against legislative journals, arrives in Phase 3.</div>
+  <div class="panel notice" role="note"><strong>Phase 3 section, seeded.</strong> {bs.length} entr{bs.length === 1 ? 'y is' : 'ies are'} present. Automated intake from LegiScan and Open States, with vote records confirmed against legislative journals, arrives in Phase 3.</div>
+
+  <h2 id="timeline">Actions and votes</h2>
+  <Chart svg={svg} legend={[{ cls: 's1', name: 'Recorded action' }, { cls: 's3', name: 'Vote passed' }, { cls: 's2', name: 'Vote failed' }]} head={['Bill', 'Date', 'Chamber', 'Event']} rows={bs.flatMap((b) => [...(b.actions ?? []).map((a: any) => [b.bill_number, fmtDate(a.date), label(a.chamber), a.action_text]), ...(b.votes ?? []).map((v: any) => [b.bill_number, fmtDate(v.date), label(v.chamber), `Vote: ${v.motion}, ${v.yeas} to ${v.nays}, ${v.result}`])])} caption="Only actions entered with a source appear. A bill carried over between sessions shows a gap. Select a bill to open its page with the roll call." />
+
+  <h2 id="all">All bills</h2>
   <div class="table-wrap"><table>
     <thead><tr><th scope="col">State</th><th scope="col">Bill</th><th scope="col">Session</th><th scope="col">Segment</th><th scope="col">Status</th><th scope="col">Date</th></tr></thead>
     <tbody>{bs.map((b) => (

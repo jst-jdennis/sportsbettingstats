@@ -1,0 +1,67 @@
+slug: matsuzawa-arnesen-2024
+title: Sports Betting Legalization and Intimate Partner Violence
+authors: [Kyutaro Matsuzawa, Emily Arnesen]
+year_first_circulated: 2024
+publication_status: working_paper
+venue: null
+doi: null
+canonical_url: null
+market_segment: regulated_sportsbook
+unit_of_effect: population_average
+data_used: >-
+  Incident-level police reports of intimate partner violence from the FBI National Incident-Based Reporting
+  System, matched to NFL game outcomes and to the date each state legalized sports wagering.
+design: >-
+  Difference-in-differences that compares the change in reported intimate partner violence on days when the
+  local NFL team loses a game it was favored to win, in states before and after legalization, against the
+  same comparison in states without legal wagering. Upset losses are used because they are unexpected and
+  are when bettors lose money.
+plain_language_summary: >-
+  Earlier work found that reports of intimate partner violence rise after a home team loses a game it was
+  expected to win. This paper asks whether legal sports betting changes the size of that rise. It finds that
+  the increase after an upset loss is larger in states once wagering is legal, by roughly a tenth, and is
+  concentrated where online wagering is available. The effect is measured across all residents of a state on
+  game days; it does not identify households that bet.
+methodology_notes:
+  - The identification uses within-season variation in surprise losses, so it is not driven by long-run trends in violence.
+  - Results depend on the betting line defining which losses count as upsets.
+limitations:
+  - Working paper; the estimate and the sample may change between drafts.
+  - Police reports undercount intimate partner violence and reporting may itself respond to game outcomes.
+  - The SSRN abstract identifier and exact draft date are to be entered from the paper record.
+versions:
+  - version_label: ssrn-2024
+    date: "2024-09-01"
+    date_precision: year
+    url: https://papers.ssrn.com/
+    archive_url: null
+    sha256: null
+    changes_summary: First public working paper draft circulated in 2024. Abstract identifier and date to be entered from SSRN.
+key_figures:
+  - figure_id: ipv-upset-loss-2024
+    description: Additional increase in reported intimate partner violence after an NFL upset loss in states with legal sports wagering, relative to states without
+    value_text: roughly 9 percent
+    specification: Difference-in-differences estimate, all legal states, 2024 draft
+    version_label: ssrn-2024
+    status: current
+    superseded_by: null
+    page_or_table: null
+    outcome_domain: intimate_partner_violence
+    value_numeric: 9
+    value_unit: percent_change
+    range_low: null
+    range_high: null
+    provenance: &mats
+      source_id: ssrn
+      source_url: https://papers.ssrn.com/
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: Entered from secondary summaries, which report the effect as 9 to 10 percent. The PDF must be fetched, hashed and the estimate read from its table before verification.
+citations_in_policy: []
+provenance: *mats

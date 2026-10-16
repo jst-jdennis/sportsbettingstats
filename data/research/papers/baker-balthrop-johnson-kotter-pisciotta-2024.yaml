@@ -48,8 +48,13 @@ versions:
 key_figures:
   - figure_id: net-investment-nber
     description: Change in household net investment (deposits to brokerage and savings) after legalization of online sports betting
-    value_text: to be entered from the paper
-    specification: Average effect among households in legalizing states, NBER version
+    value_text: a decrease of roughly 14 percent
+    specification: Average effect among households in legalizing states, as stated in the abstract, NBER version
+    outcome_domain: savings_investment
+    value_numeric: -14
+    value_unit: percent_change
+    range_low: null
+    range_high: null
     version_label: nber-w33108-2024-11
     status: current
     superseded_by: null
@@ -63,9 +68,9 @@ key_figures:
       transform: null
       entered_by: claude-draft-2026-10-16
       reviewed_by: null
-      status: unverified
-      page_or_table: null
-      notes: Placeholder. The numeric estimate must be read from the PDF table, not from press summaries, before this figure renders.
+      status: pending_review
+      page_or_table: Abstract
+      notes: Entered from the abstract as reproduced in secondary summaries. The table estimate, its standard error and the exact sample must be read from the PDF before verification.
 citations_in_policy: []
 provenance:
   <<: *baker

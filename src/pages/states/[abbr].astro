@@ -5,7 +5,9 @@ import Figure from '../../components/Figure.astro';
 import Limitations from '../../components/Limitations.astro';
 import CiteBox from '../../components/CiteBox.astro';
 import ReviewNotice from '../../components/ReviewNotice.astro';
-import { profiles, pgFunding, predictionMarkets, bills, population, headlineStatus, HEADLINE_LABEL, scopeQualifiers, fmtDate, pct, label, asOf } from '../../lib/data';
+import Chart from '../../components/Chart.astro';
+import { timeline } from '../../lib/charts';
+import { profiles, pgFunding, predictionMarkets, bills, population, headlineStatus, HEADLINE_LABEL, scopeQualifiers, fmtDate, pct, label, asOf, collectProvenance, earliestLaunch } from '../../lib/data';
 export function getStaticPaths() { return profiles().map((p) => ({ params: { abbr: p.abbr.toLowerCase() }, props: { p } })); }
 const { p } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -23,12 +25,46 @@ function perCapita(amount: number | null | undefined): string | null {
   return `$${(amount / Number(pop.population)).toFixed(2)} per resident (population ${Number(pop.population).toLocaleString()}, Census Vintage ${pop.vintage})`;
 }
 const path = `/states/${p.abbr.toLowerCase()}/`;
+// Event timeline: every dated event in the state's files, on one axis.
+type Ev = { date: string; cls: string; title: string; label?: string; row: string; href?: string };
+const events: Ev[] = [];
+for (const r of p.legal_status) {
+  const ch = label(r.channel);
+  if (r.authorized_on) events.push({ row: `${ch} wagering`, date: r.authorized_on, cls: 's0', title: `${ch} authorized ${fmtDate(r.authorized_on)}${r.authority ? `: ${r.authority.citation}` : ''}`, label: 'authorized' });
+  if (r.launched_on) events.push({ row: `${ch} wagering`, date: r.launched_on, cls: r.channel === 'online' ? 's2' : 's1', title: `First ${ch} wager ${fmtDate(r.launched_on)}${r.scope !== 'statewide' && r.scope !== 'not_applicable' ? ` (${label(r.scope)})` : ''}`, label: 'first wager' });
+}
+for (const b of stateBills) {
+  for (const a of b.actions ?? []) events.push({ row: b.bill_number, date: a.date, cls: 's0', title: `${b.bill_number}, ${fmtDate(a.date)}, ${label(a.chamber)}: ${a.action_text}`, href: `${base}/legislation/${b.slug}/` });
+  for (const v of b.votes ?? []) events.push({ row: b.bill_number, date: v.date, cls: 's3', title: `${b.bill_number}, ${fmtDate(v.date)}, ${label(v.chamber)} vote: ${v.yeas} to ${v.nays}, ${v.result}`, label: `${v.result} ${v.yeas} to ${v.nays}`, href: `${base}/legislation/${b.slug}/` });
+}
+for (const a of pm?.state_actions ?? []) if (a.date) events.push({ row: 'Prediction markets', date: a.date, cls: 's3', title: `${fmtDate(a.date)}: ${label(a.action_type)} by ${a.issuing_body} against ${a.target}`, label: label(a.action_type) });
+for (const c of pm?.litigation ?? []) for (const r of c.rulings ?? []) if (r.date) events.push({ row: 'Prediction markets', date: r.date, cls: 's3', title: `${fmtDate(r.date)}, ${r.court}: ${r.summary}`, label: 'ruling' });
+const rowNames = [...new Set(events.map((e) => e.row))];
+const timelineSvg = events.length ? timeline({
+  id: 'events', title: `${p.name}: dated events in this profile`, desc: 'Timeline. One row per subject (each wagering channel, each bill, prediction market actions); dots mark authorization dates, first wagers, bill actions, votes and enforcement actions.',
+  rows: rowNames.map((row) => ({ label: row, events: events.filter((e) => e.row === row) })), rowHeight: 34, labelWidth: 150,
+  start: events.map((e) => e.date).sort()[0] < '2018-01-01' ? undefined : '2018-01-01',
+}) : '';
+const tlLegend = [
+  ...(events.some((e) => e.cls === 's0') ? [{ cls: 's0', name: 'Authorization or bill action' }] : []),
+  ...(events.some((e) => e.cls === 's1') ? [{ cls: 's1', name: 'First retail wager' }] : []),
+  ...(events.some((e) => e.cls === 's2') ? [{ cls: 's2', name: 'First online wager' }] : []),
+  ...(events.some((e) => e.cls === 's3') ? [{ cls: 's3', name: 'Vote, enforcement action or ruling' }] : []),
+];
+const pendingCount = [p, pg, pm, ...stateBills].filter(Boolean).flatMap((o) => collectProvenance(o)).filter((x) => x.status !== 'verified').length;
 ---
 <Base title={`${p.name}: sports wagering and prediction markets`} description={p.summary ?? `Legal status, regulation and consumer protections for sports wagering in ${p.name}.`} asOf={pageAsOf} canonicalPath={path}>
   <p class="meta"><a href={base + '/'}>Map</a> / <a href={base + '/states/'}>States</a> / {p.name}</p>
   <h1>{p.name}</h1>
   <p class="lede"><strong>{HEADLINE_LABEL[hs]}</strong>{quals.length ? ` (${quals.join('; ')})` : ''}. {p.summary ?? ''}</p>
   <ReviewNotice objs={[p, pg, pm, ...stateBills].filter(Boolean)} />
+  <ul class="tiles" aria-label="At a glance">
+    <li><div class="label">Headline status</div><div class="value small">{HEADLINE_LABEL[hs]}</div></li>
+    <li><div class="label">First legal wager</div><div class="value small">{hs === 'none' || hs === 'authorized_not_launched' ? 'None' : fmtDate(earliestLaunch(p))}</div></li>
+    <li><div class="label">Minimum age</div><div class="value">{p.legal_age?.length ? Math.min(...p.legal_age.map((a) => a.age)) : <span class="small">not entered</span>}</div></li>
+    <li><div class="label">Records pending review</div><div class="value">{pendingCount}</div></li>
+  </ul>
+  {events.length > 0 && <Chart svg={timelineSvg} legend={tlLegend} head={['Subject', 'Date', 'Event']} rows={[...events].sort((a, b) => a.date.localeCompare(b.date)).map((e) => [e.row, fmtDate(e.date), e.title])} tableLabel="Events in this timeline" caption={`Every dated event entered for ${p.name}, on one axis. Hover or focus a dot for the detail; the same events are in the table.`} />}
   {!full && <div class="panel" role="note"><strong>Status-only profile.</strong> Legal status and regulator have been entered for {p.name}. Legal age, tax structure, consumer protections, problem gambling funding and prediction market status have not. <a href={base + '/data/#contribute'}>How to add them</a>.</div>}
 
   <nav class="toc" aria-label="On this page"><ul>

@@ -1,29 +1,90 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Chart from '../../components/Chart.astro';
+import SourceRef from '../../components/SourceRef.astro';
 import fs from 'node:fs';
+import { effectFigures, adoptionByYear, OUTCOME_LABEL, label, asOf, papers } from '../../lib/data';
+import { dotPlot, lineChart, wrap } from '../../lib/charts';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const schemas = ['handle_revenue', 'bankruptcy', 'helpline'].map((n) => ({ name: n, s: JSON.parse(fs.readFileSync(`schemas/${n}.tableschema.json`, 'utf8')) }));
+
+// Research estimates, percent change only, so that one axis is honest. Other units are listed in the table.
+const figs = effectFigures();
+const pctFigs = figs.filter((f) => f.fig.value_unit === 'percent_change');
+const domainOrder = Object.keys(OUTCOME_LABEL);
+pctFigs.sort((a, b) => domainOrder.indexOf(a.fig.outcome_domain) - domainOrder.indexOf(b.fig.outcome_domain) || a.paper.year_first_circulated - b.paper.year_first_circulated);
+const unitCls: Record<string, string> = { population_average: 's1', household_level: 's2', bettor_level: 's3', mixed: 's0' };
+const groups: { label: string; at: number }[] = [];
+let lastDomain = '';
+pctFigs.forEach((f, i) => { if (f.fig.outcome_domain !== lastDomain) { groups.push({ label: OUTCOME_LABEL[f.fig.outcome_domain] ?? label(f.fig.outcome_domain), at: i }); lastDomain = f.fig.outcome_domain; } });
+const short = (p: any) => `${p.authors[0].split(' ').pop()}${p.authors.length > 1 ? ' et al.' : ''} (${p.year_first_circulated})`;
+const effectsSvg = dotPlot({
+  id: 'effects', title: 'Estimated effects of sports wagering legalization on measured outcomes', desc: 'Dot plot. Each dot is one published estimate, as a percent change, with the paper and the level the effect is measured at. A bar shows a stated range where the paper gives one. The same figures are in the table below.',
+  rows: pctFigs.map(({ paper, fig }) => ({
+    label: wrap(fig.description, 50, 2),
+    sub: `${short(paper)}, ${label(paper.unit_of_effect)}`,
+    value: fig.value_numeric, low: fig.range_low, high: fig.range_high, cls: unitCls[paper.unit_of_effect] ?? 's0',
+    title: `${paper.title}: ${fig.description}. ${fig.value_text}. ${fig.specification}. Measured at ${label(paper.unit_of_effect)}. Status: ${label(fig.provenance.status)}.`,
+    href: `${base}/research/${paper.slug}/`,
+  })),
+  groups, fmt: (v) => `${v > 0 ? '+' : ''}${v}%`, zeroLabel: 'no change', labelWidth: 330, width: 820, rowHeight: 50,
+});
+const legend = [{ cls: 's1', name: 'Population average' }, { cls: 's2', name: 'Household level' }, { cls: 's3', name: 'Bettor level' }];
+const effectsRows = figs.map(({ paper, fig }) => [OUTCOME_LABEL[fig.outcome_domain] ?? label(fig.outcome_domain), fig.description, fig.value_text, `${fig.value_numeric} ${label(fig.value_unit)}${fig.range_low != null ? ` (${fig.range_low} to ${fig.range_high})` : ''}`, short(paper), label(paper.unit_of_effect), label(fig.provenance.status)]);
+
+// Context series: how many states had live wagering at the end of each year.
+const adoption = adoptionByYear();
+const adoptionSvg = lineChart({
+  id: 'adoption', title: 'States with live sports wagering at year end', desc: 'Step chart of the number of states and DC with any live legal channel, and with live online wagering, at the end of each year since the first legal wager.',
+  series: [
+    { name: 'Any channel live', cls: 's1', points: adoption.map((a) => ({ x: a.year, y: a.any, title: `End of ${a.year}: ${a.any} states with any live channel` })) },
+    { name: 'Online live', cls: 's2', points: adoption.map((a) => ({ x: a.year, y: a.online, title: `End of ${a.year}: ${a.online} states with live online wagering` })) },
+  ],
+  step: true, xTicks: adoption.map((a) => a.year), yFmt: String, height: 260,
+});
+const pageAsOf = asOf(papers());
 ---
-<Base title="Outcome time series">
-  <h1>Outcome time series</h1>
-  <p class="lede">Monthly handle and revenue from state regulators, nonbusiness bankruptcy filings per 100,000 residents from the Administrative Office of the US Courts, problem gambling helpline contacts from state councils, and state prevalence studies. Each series is shown with the state's legalization dates marked and its limitations beside it.</p>
-  <div class="panel notice" role="note"><strong>Phase 2 section.</strong> No series are published yet. The schemas below are final and the two Phase 1 ingestion modules (US Courts bankruptcy tables, New Jersey monthly revenue) write to them. Charts will be rendered to static SVG at build time with a data table under each.</div>
-  <h2>What will and will not be claimed</h2>
+<Base title="Outcomes: what the evidence shows" asOf={pageAsOf}>
+  <h1>Outcomes</h1>
+  <p class="lede">What has been measured about the consequences of legalized sports wagering: the causal estimates in the research library first, because they are the only figures that compare states with and without legal wagering, and the raw state time series (handle and revenue, bankruptcy filings, helpline contacts) as they are entered.</p>
+
+  <h2 id="estimates">Estimated effects of legalization</h2>
+  <p>Each dot is one published estimate of how an outcome changed after a state legalized sports wagering, relative to states that had not. The estimates come from different papers, data and designs, so they are shown side by side, not combined. The color says what the number is an average over: everyone in a state, the households in a transaction dataset, or people who bet. Population averages are smaller than the effect on a household that bets, because most residents do not bet.</p>
+  <Chart svg={effectsSvg} legend={legend} head={['Outcome', 'Figure', 'As stated', 'Charted value', 'Paper', 'Unit of effect', 'Review status']} rows={effectsRows} tableLabel="Estimates in this chart, with figures in other units">
+    <Fragment slot="caption"><strong>Percent change after legalization, by outcome.</strong> Positive values mean the outcome rose. A bar marks a range the paper states (25 to 30 percent for bankruptcies three to four years after online launch). Select a label to open the paper's entry, which lists the specification, the version it comes from and its limitations. Figures entered from secondary summaries are marked pending review and will be re-read from each paper before verification.</Fragment>
+  </Chart>
+  <h3>Reading these estimates</h3>
   <ul>
-    <li>Series are descriptive. A change after a legalization date is shown, not attributed. Causal estimates live in the <a href={base + '/research/'}>research library</a>, tied to their authors and their unit of effect.</li>
+    <li>Bankruptcy and credit score figures (Hollenbeck, Larsen and Proserpio) are population averages from credit bureau records. The bankruptcy effect has been reported at about 28 percent in a 2024 draft, about 10 percent as the average effect in the 2025 draft, and 25 to 30 percent three to four years after online legalization in the same 2025 draft. All three are recorded; the 2024 headline is marked superseded and is not charted.</li>
+    <li>The saving and investing figure (Baker and coauthors) is household level, from transaction data that observes betting deposits directly, and is largest among households that were already financially constrained.</li>
+    <li>Help-seeking (Ayers and coauthors) is measured by search volume, which rises with advertising of the helpline as well as with need.</li>
+    <li>The intimate partner violence figure (Matsuzawa and Arnesen) is the additional rise in police reports after an unexpected NFL loss once wagering is legal, not a change in the overall rate.</li>
+  </ul>
+  <p class="meta">Sources for each figure: {figs.map(({ paper, fig }, i) => <>{i > 0 && '; '}<a href={`${base}/research/${paper.slug}/`}>{short(paper)}</a> <SourceRef p={fig.provenance} compact /></>)}.</p>
+
+  <h2 id="context">Context: how many states these estimates cover</h2>
+  <p>Every estimate above compares states before and after legalization. This is the number of states with live wagering at the end of each year, from the profiles on this site, which is the treatment timeline those papers use.</p>
+  <Chart svg={adoptionSvg} legend={[{ cls: 's1', name: 'Any channel live' }, { cls: 's2', name: 'Online live' }]} head={['Year end', 'Any channel live', 'Retail live', 'Online live']} rows={adoption.map((a) => [a.year, a.any, a.retail, a.online])} caption="Count of states and the District of Columbia whose profile records a first legal wager on or before December 31 of each year. Mobile wagering that works only on licensed premises counts as online, per the classification rule." />
+
+  <h2 id="series">State time series</h2>
+  <p>Monthly handle and revenue from state regulators, nonbusiness bankruptcy filings per 100,000 residents from the Administrative Office of the US Courts, and problem gambling helpline contacts from state councils. Each series will be shown with the state's legalization dates marked and its limitations beside it.</p>
+  <div class="panel notice" role="note"><strong>Phase 2 section.</strong> No raw series are published yet. The schemas below are final and the two Phase 1 ingestion modules (US Courts bankruptcy tables, New Jersey monthly revenue) write to them. Charts will use the same build-time renderer as the ones above, with a data table under each.</div>
+  <h3>What will and will not be claimed</h3>
+  <ul>
+    <li>Series are descriptive. A change after a legalization date is shown, not attributed. Causal estimates stay in the chart above, tied to their authors and their unit of effect.</li>
     <li>Revenue definitions differ by state and are stored verbatim on every row. Cross-state revenue comparisons are labeled with the definitions in use.</li>
     <li>Bankruptcy counts are quarterly, because that is what the courts publish. Monthly state counts exist behind a commercial subscription and are not used.</li>
     <li>Helpline volume rises when the number is advertised more. It measures help-seeking, not prevalence.</li>
   </ul>
-  <h2>Known gaps as of this draft</h2>
+  <h3>Known gaps as of this draft</h3>
   <ul>
     <li>No public state-level time series of 1-800-GAMBLER contacts was found from the National Council on Problem Gambling. State councils' own reports will be used where they exist, with each council's counting rule recorded.</li>
     <li>Prevalence studies use different instruments and are not comparable across studies; they will be presented as study records, not a series.</li>
   </ul>
-  <h2>Schemas</h2>
+  <h3>Schemas</h3>
   {schemas.map(({ name, s }) => (
     <section>
-      <h3><code>data/outcomes/{name}.csv</code></h3>
+      <h4><code>data/outcomes/{name}.csv</code></h4>
       {s.description && <p class="meta">{s.description}</p>}
       <div class="table-wrap"><table>
         <thead><tr><th scope="col">Field</th><th scope="col">Type</th><th scope="col">Constraints</th></tr></thead>

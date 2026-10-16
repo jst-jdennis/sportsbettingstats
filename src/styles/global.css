@@ -64,3 +64,45 @@ th { font-weight: 600; background: var(--panel); }
 details summary { cursor: pointer; }
 .toc { font-size: .9rem; } .toc ul { columns: 2; padding-left: 1.2rem; } @media (max-width: 40rem) { .toc ul { columns: 1; } }
 @media print { header.site nav, .skip, .toc { display: none; } a { color: inherit; text-decoration: none; } .src a::after { content: " (" attr(href) ")"; font-size: .75rem; } }
+
+/* Charts: static SVG rendered at build time. Three categorical slots, validated for color vision deficiency in both modes. */
+:root { --viz-1: #2a78d6; --viz-2: #eb6834; --viz-3: #1baf7a; --viz-muted: #b9bcc2; }
+@media (prefers-color-scheme: dark) { :root { --viz-1: #3987e5; --viz-2: #d95926; --viz-3: #199e70; --viz-muted: #4a4f57; } }
+figure.chart { margin: 1rem 0 1.5rem; padding: .75rem 1rem; border: 1px solid var(--rule); border-radius: 4px; background: var(--bg); }
+figure.chart .chart-svg { width: 100%; height: auto; display: block; font-family: var(--font); }
+figure.chart figcaption { font-size: .9rem; color: var(--muted); margin-top: .5rem; max-width: none; }
+figure.chart figcaption strong { color: var(--fg); }
+figure.chart details { font-size: .9rem; margin-top: .5rem; }
+figure.chart details table { font-size: .85rem; }
+.chart-svg .ax { font-size: 11px; fill: var(--muted); }
+.chart-svg .lbl { font-size: 12px; fill: var(--fg); }
+.chart-svg .grp { font-size: 11px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; fill: var(--muted); }
+.chart-svg .val { font-size: 11px; fill: var(--fg); font-variant-numeric: tabular-nums; }
+.chart-svg .grid { stroke: var(--rule); stroke-width: 1; }
+.chart-svg .base { stroke: var(--muted); stroke-width: 1; }
+.chart-svg .track { stroke: var(--rule); stroke-width: 1; }
+.chart-svg .marker { stroke: var(--fg); stroke-width: 1; }
+.chart-svg a text { fill: var(--link); }
+.chart-svg a:hover text, .chart-svg a:focus text { text-decoration: underline; }
+.chart-svg path.s1, .chart-svg rect.s1, .chart-svg circle.s1 { fill: var(--viz-1); }
+.chart-svg path.s2, .chart-svg rect.s2, .chart-svg circle.s2 { fill: var(--viz-2); }
+.chart-svg path.s3, .chart-svg rect.s3, .chart-svg circle.s3 { fill: var(--viz-3); }
+.chart-svg path.s0, .chart-svg rect.s0, .chart-svg circle.s0 { fill: var(--viz-muted); }
+.chart-svg path.line { fill: none; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.chart-svg path.line.s1 { stroke: var(--viz-1); } .chart-svg path.line.s2 { stroke: var(--viz-2); } .chart-svg path.line.s3 { stroke: var(--viz-3); } .chart-svg path.line.s0 { stroke: var(--viz-muted); }
+.chart-svg line.range { stroke-width: 3; stroke-linecap: round; opacity: .45; }
+.chart-svg line.range.s1 { stroke: var(--viz-1); } .chart-svg line.range.s2 { stroke: var(--viz-2); } .chart-svg line.range.s3 { stroke: var(--viz-3); }
+.chart-svg circle.dot { stroke: var(--bg); stroke-width: 2; }
+.legend .s1::before { background: var(--viz-1); } .legend .s2::before { background: var(--viz-2); } .legend .s3::before { background: var(--viz-3); } .legend .s0::before { background: var(--viz-muted); }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: 1rem; margin: 1rem 0; padding: 0; list-style: none; }
+.tiles li { border: 1px solid var(--rule); border-radius: 4px; padding: .75rem 1rem; }
+.tiles .label { font-size: .85rem; color: var(--muted); }
+.tiles .value { font-size: 2rem; font-weight: 600; line-height: 1.1; }
+.tiles .value.small { font-size: 1.2rem; }
+.flow { width: 100%; height: auto; display: block; max-width: 44rem; font-family: var(--font); }
+.flow rect { fill: var(--panel); stroke: var(--rule); }
+.flow text { font-size: 12px; fill: var(--fg); }
+.flow .small { font-size: 10px; fill: var(--muted); }
+.flow path, .flow line { stroke: var(--muted); fill: none; stroke-width: 1.5; }
+.flow .head { fill: var(--muted); stroke: none; }
+.flow .verified { stroke: var(--s-verified); stroke-width: 2; } .flow .pending { stroke: var(--s-pending); stroke-width: 2; } .flow .bad { stroke: var(--s-unverified); stroke-width: 2; }

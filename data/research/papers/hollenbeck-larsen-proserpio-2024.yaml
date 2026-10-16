@@ -60,6 +60,11 @@ versions:
       lead figure.
 key_figures:
   - figure_id: bankruptcy-headline-2024
+    outcome_domain: bankruptcy
+    value_numeric: 28
+    value_unit: percent_change
+    range_low: null
+    range_high: null
     description: Increase in bankruptcy filing likelihood in states with legal sports gambling, as headlined in the first draft
     value_text: about 28 percent
     specification: Difference-in-differences average effect, 2024 draft
@@ -80,6 +85,11 @@ key_figures:
       page_or_table: null
       notes: Figures entered from secondary summaries of the drafts. Each PDF must be fetched, hashed, archived and the figures read from the stated table before verification.
   - figure_id: bankruptcy-att-2025
+    outcome_domain: bankruptcy
+    value_numeric: 10
+    value_unit: percent_change
+    range_low: null
+    range_high: null
     description: Average treatment effect on the likelihood of filing for bankruptcy in states with access to online sports gambling
     value_text: roughly 10 percent, or about nine more individuals per 100,000 filing
     specification: Average treatment effect on the treated, Table 4, May 2025 draft
@@ -92,6 +102,11 @@ key_figures:
       source_id: ucla-anderson
       source_url: https://www.anderson.ucla.edu/sites/default/files/document/2025-05/Hollenbeck_The_Financial_Consequences_of_Legalized_Sports_Gambling.pdf
   - figure_id: bankruptcy-event-study-3to4y-2025
+    outcome_domain: bankruptcy
+    value_numeric: 27.5
+    value_unit: percent_change
+    range_low: 25
+    range_high: 30
     description: Increase in bankruptcy filing likelihood three to four years after legalization of online sports gambling, relative to pre-treatment levels
     value_text: as much as 25 to 30 percent
     specification: Event-study estimate at the three to four year horizon, May 2025 draft
@@ -104,6 +119,11 @@ key_figures:
       source_id: ucla-anderson
       source_url: https://www.anderson.ucla.edu/sites/default/files/document/2025-05/Hollenbeck_The_Financial_Consequences_of_Legalized_Sports_Gambling.pdf
   - figure_id: credit-score-2025
+    outcome_domain: credit_score
+    value_numeric: -0.3
+    value_unit: percent_change
+    range_low: null
+    range_high: null
     description: Change in average credit score in states that legalized sports gambling
     value_text: a decrease of roughly 0.3 percent
     specification: Average effect, abstract, May 2025 draft
