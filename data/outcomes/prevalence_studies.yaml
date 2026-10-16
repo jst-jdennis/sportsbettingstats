@@ -111,26 +111,26 @@ studies:
       page_or_table: Cover and citation page (PDF pages 1 and 2); fieldwork PDF page 15
   - study_id: ks-kdads-gambling-survey-2017
     fips: '20'
-    title: Kansas Gambling Survey, 2017 wave (as reported in the 2025 Kansas Gambling Survey executive summary)
+    title: 2017 Kansas Gambling Survey, statewide and regional results
     authors: null
     commissioned_by: Kansas Department for Aging and Disability Services
-    conducted_by: Learning Tree Institute at Greenbush (named as the preparer of the 2025 executive summary that reports the 2017 comparison figures; the 2017 report itself has not yet been archived)
+    conducted_by: Learning Tree Institute at Greenbush, Research and Evaluation Department; survey administration by ETC Institute, Olathe, Kansas
     published_at: null
     fieldwork_year: 2017
     fieldwork_start: null
     fieldwork_end: null
     instrument: other
-    instrument_note: Nine problem gambling screening questions; respondents sorted into low, moderate or high risk by the number of yes responses. The instrument's name and cut points are not stated in the executive summary.
+    instrument_note: Nine problem gambling screening questions following the 2012 Kansas survey. Low risk is no positive response, moderate risk one to three, high risk four or more (Table 13).
     sample_size: 1755
-    population: Adult Kansans
-    mode: not_stated
-    margin_of_error_pct_points: null
+    population: Kansas adults, stratified random sample of households by gambling region
+    mode: mixed
+    margin_of_error_pct_points: 2.3
     rates:
       - measure: past_30_day_gambling
-        definition: Reported gambling in the past 30 days (2017 comparison figure)
+        definition: Gambled for money or anything of value in the past 30 days (2017 figure as restated in the 2025 executive summary; the 2017 report's Table 10 should be checked on review)
         value_pct: 19.1
         denominator: all respondents, n=1,755
-        provenance: &ks2017
+        provenance: &ks2017restated
           source_id: ks-legislature
           source_url: https://kslegislature.gov/li/b2025_26/committees/ctte_spc_2025_on_fed_and_st_aff_1/documents/testimony/20250922_27.pdf
           archive_url: sha256:43433b225e7b2365af89dbeee312d286d86a7e29472825512f3aac34334daf53
@@ -138,26 +138,34 @@ studies:
           retrieval_method: pdf
           entered_by: claude-phase2-2026-10-16
           status: pending_review
-          page_or_table: PDF page 3 (printed page 2)
-          notes: Executive summary of the 2025 Kansas Gambling Survey, prepared for KDADS by the Learning Tree Institute at Greenbush, as submitted to the Special Committee on Federal and State Affairs, September 22, 2025.
+          page_or_table: 2025 executive summary, PDF page 3 (printed page 2)
       - measure: low_risk
-        definition: Low risk of problem gambling by the nine screening questions, 2017 (chart "Percent of Respondents at Each Risk Level")
-        value_pct: 84.4
-        provenance: &ks2017risk
-          <<: *ks2017
-          page_or_table: PDF page 5 (printed page 4), risk level chart
+        definition: Low risk, no positive response to any of the nine screening questions (2017 report, summary of findings)
+        value_pct: 87.2
+        provenance: &ks2017
+          source_id: ks-kdads
+          source_url: https://www.kdads.ks.gov/home/showpublisheddocument/568/638507608991730000
+          archive_url: https://web.archive.org/web/20250209021724id_/https://www.kdads.ks.gov/home/showpublisheddocument/568/638507608991730000
+          retrieved_at: '2026-10-16'
+          retrieval_method: pdf
+          entered_by: claude-phase2-2026-10-16
+          status: pending_review
+          page_or_table: Summary of findings, PDF page 10; risk categories Table 13, PDF page 33 (printed page 25)
+          notes: Archived copy sha256 21af979e150d5e3c334bff986101b412fbfdc89510287baef00ac08f26709a2a, fetched through the Wayback Machine because kdads.ks.gov refused the archiver.
       - measure: moderate_risk
-        definition: Moderate risk of problem gambling, 2017
-        value_pct: 11.6
-        provenance: *ks2017risk
+        definition: Moderate risk, one to three positive responses (2017 report)
+        value_pct: 10.1
+        provenance: *ks2017
       - measure: high_risk
-        definition: High risk of problem gambling, 2017
-        value_pct: 4.0
-        provenance: *ks2017risk
-    report_url: https://kslegislature.gov/li/b2025_26/committees/ctte_spc_2025_on_fed_and_st_aff_1/documents/testimony/20250922_27.pdf
-    comparability_note: Comparable with ks-kdads-gambling-survey-2025, which repeats the same screening questions and participation measure and publishes this wave as its baseline. Not comparable with the New Jersey PGSI studies. Entered from the 2025 executive summary because kdads.ks.gov refused the archiver; replace with the 2017 report once archived.
-    limitations: Fieldwork dates, survey mode and weighting are not stated in the document read. Sports betting was not legal in Kansas in 2017.
-    provenance: *ks2017
+        definition: High risk, four or more positive responses (2017 report)
+        value_pct: 2.7
+        provenance: *ks2017
+    report_url: https://www.kdads.ks.gov/home/showpublisheddocument/568/638507608991730000
+    comparability_note: The 2025 Kansas Gambling Survey executive summary restates this wave as 84.4 percent low, 11.6 percent moderate and 4.0 percent high risk, which does not match the 2017 report's own 87.2, 10.1 and 2.7 percent, and the summary does not state its cut points. The two waves share the nine screening questions, but the restated baseline suggests the 2025 summary recut the categories; treat the "more than tripled" comparison in that summary as unconfirmed until the full 2025 report states its thresholds. Not comparable with the New Jersey PGSI studies.
+    limitations: Mail survey with an online option, posted September 8, 2017 to a stratified random sample of households; exact close of fieldwork is not stated. Weighted by age only. Sports betting was not legal in Kansas in 2017.
+    provenance:
+      <<: *ks2017
+      page_or_table: Cover (PDF page 1) and Methodology (PDF page 21, printed page 13)
   - study_id: ks-kdads-gambling-survey-2025
     fips: '20'
     title: Kansas 2025 Gambling Survey, executive summary
@@ -216,6 +224,6 @@ studies:
           <<: *ks2025
           page_or_table: PDF page 12 (printed page 11)
     report_url: https://kslegislature.gov/li/b2025_26/committees/ctte_spc_2025_on_fed_and_st_aff_1/documents/testimony/20250922_27.pdf
-    comparability_note: Comparable with ks-kdads-gambling-survey-2017 by the document's own design. Not comparable with the New Jersey PGSI studies; the Kansas high-risk category is defined by a count of yes answers on a nine-item screen, not by a validated clinical threshold, and the executive summary does not state the cut points. The margin of error of 2.4 points applies to the full sample at 95 percent confidence.
+    comparability_note: Pairs with ks-kdads-gambling-survey-2017 by the document's own design, but the summary's 2017 baseline (84.4, 11.6 and 4.0 percent) does not match the 2017 report (87.2, 10.1 and 2.7 percent with cut points 0, 1 to 3 and 4 or more), and the summary does not state its own cut points. Until the full 2025 report is archived, the risk-level trend between the waves is unconfirmed. Not comparable with the New Jersey PGSI studies; the Kansas high-risk category is a count of yes answers on a nine-item screen, not a validated clinical threshold. The margin of error of 2.4 points applies to the full sample at 95 percent confidence.
     limitations: Executive summary only; the full report on kdads.ks.gov refused the archiver on 2026-10-16. Fieldwork dates, survey mode and weighting are not stated in the summary. Sports betting legalized in Kansas in 2022, between the two waves.
     provenance: *ks2025

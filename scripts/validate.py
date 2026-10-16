@@ -66,6 +66,11 @@ def validate_yaml(path: Path, schema_name: str) -> dict | None:
     return doc
 
 
+def r_measure_rolling(key: tuple) -> bool:
+    """True when a bankruptcy key names the rolling twelve-month measure."""
+    return len(key) == 3 and key[1] == "twelve_months_ending"
+
+
 def validate_csv(path: Path, schema_name: str) -> list[dict]:
     schema_path = SCHEMAS / f"{schema_name}.tableschema.json"
     res = FrResource(path=str(path.relative_to(ROOT)), basepath=str(ROOT), schema=str(schema_path.relative_to(ROOT)))
@@ -166,13 +171,20 @@ def main() -> int:
                 csv_prov_rows.append((name, r))
                 if r["fips"] not in fips_set:
                     err(f"{name}: unknown fips {r['fips']}")
-                k = tuple(r[c] for c in ("fips",) + (("channel", "market_segment") if "channel" in r else ("measure", "chapter") if "measure" in r else ("contact_type",)))
+                k_names = ("fips",) + (("channel", "market_segment") if "channel" in r else ("measure", "chapter") if "measure" in r else ("contact_type",))
+                k = tuple(r[c] for c in k_names)
                 if r["status"] != "superseded":
                     keyed[k].append((r["period_start"], r["period_end"]))
             for k, periods in keyed.items():
                 periods.sort()
+                rolling = "measure" in k_names and r_measure_rolling(k)
                 for (s1, e1), (s2, e2) in zip(periods, periods[1:]):
-                    if s2 <= e1:
+                    if rolling:
+                        # twelve_months_ending windows published each quarter overlap by design;
+                        # only a repeated window is a duplicate
+                        if (s1, e1) == (s2, e2):
+                            err(f"{name}: duplicate period for {k}: {s1}..{e1}")
+                    elif s2 <= e1:
                         err(f"{name}: overlapping periods for {k}: {s1}..{e1} and {s2}..{e2}")
 
     # Prevalence studies (a list of study records; rates are never recomputed)
