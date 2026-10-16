@@ -1,78 +1,67 @@
-fips: '16'
+fips: "16"
 abbr: ID
 name: Idaho
 profile_completeness: status_only
-summary: null
+summary: >-
+  Idaho has not authorized sports wagering. Article III, Section 20 of the Idaho Constitution declares gambling
+  contrary to public policy and strictly prohibited, with exceptions only for the state lottery, pari-mutuel
+  betting and charitable bingo and raffles; authorizing sports wagering would require a constitutional amendment
+  approved by voters. Tribal casinos operate under federal law and compacts, and no state body regulates sports
+  wagering.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: id-legislature
-    source_url: https://legislature.idaho.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: not_applicable
-  status: not_authorized
-  authorized_on: null
-  launched_on: null
-  authority:
-    type: none
-    citation: No statute authorizes sports wagering
-    url: null
-  operator_model: null
-  notes: null
-  provenance:
-    source_id: id-legislature
-    source_url: https://legislature.idaho.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: Idaho Constitution Art. III, Sec. 20 (gambling prohibited, with exceptions for the state lottery, pari-mutuel betting and charitable bingo and raffles); Idaho Code 18-3801 (definition of gambling, which includes risking something of value on the outcome of a sporting event)
+      url: https://legislature.idaho.gov/statutesrules/idconst/ArtIII/Sect20
+    operator_model: null
+    notes: No 2026 bill to authorize sports wagering or to amend Article III, Section 20 was found by search.
+    provenance: &idleg
+      source_id: id-legislature
+      source_url: https://legislature.idaho.gov/statutesrules/idconst/ArtIII/Sect20
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch2-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Citation changed from "No statute authorizes sports wagering" to the constitutional provision, confirmed
+        against legislature.idaho.gov. Status not_authorized retained. The Idaho Code 18-3801 definition is quoted
+        in Idaho Attorney General Opinion of 1993 at https://www.ag.idaho.gov/content/uploads/2018/04/G091793.pdf;
+        read the current section text before citing it as authority. Re-confirm after each legislative session.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: not_applicable
+    status: not_authorized
+    authorized_on: null
+    launched_on: null
+    authority:
+      type: none
+      citation: Idaho Constitution Art. III, Sec. 20; no statute authorizes online sports wagering.
+      url: https://legislature.idaho.gov/statutesrules/idconst/ArtIII/Sect20
+    operator_model: null
+    notes: null
+    provenance: *idleg
 regulators:
-- name: No state body regulates sports wagering; none is authorized
-  url: null
-  type: none
-  roles: []
-  provenance:
-    source_id: id-legislature
-    source_url: https://legislature.idaho.gov/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - name: No state body regulates sports wagering; none is authorized
+    url: null
+    type: none
+    roles: []
+    provenance:
+      <<: *idleg
+      source_url: https://legislature.idaho.gov/
+      notes: The Idaho Lottery and the Idaho State Racing Commission regulate the constitutional exceptions; neither has sports wagering authority.
 legal_age: null
 tax: null
 consumer_protections: null
-limitations: null
+limitations:
+  - Idaho is a comparison state with no regulated sports wagering. Residents can and do use offshore sites, sweepstakes products and, depending on platform geofencing, federally regulated prediction markets; none of that activity appears in any state revenue series.
+  - Problem gambling indicators for Idaho reflect lottery, pari-mutuel and tribal casino gambling and cannot be read as sports wagering effects.

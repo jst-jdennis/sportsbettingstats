@@ -1,81 +1,177 @@
-fips: '11'
+fips: "11"
 abbr: DC
 name: District of Columbia
-profile_completeness: status_only
-summary: null
+profile_completeness: full
+summary: >-
+  The District of Columbia authorized sports wagering through the Sports Wagering Lottery Amendment Act of 2018
+  (D.C. Law 22-312). The Office of Lottery and Gaming runs a District-operated mobile platform (GambetDC from 2020,
+  replaced by FanDuel on April 15, 2024) and licenses private Class A, B and C operators at and around sports
+  venues and retail locations. The Sports Wagering Amendment Act of 2024 (Subtitle R of D.C. Law 25-217) opened
+  District-wide mobile wagering to Class A and Class C operators and replaced the flat 10 percent tax with
+  class-based rates from August 1, 2024.
 legal_status:
-- market_segment: regulated_sportsbook
-  channel: retail
-  scope: statewide
-  status: live
-  authorized_on: '2019-05-03'
-  launched_on: '2020-07-31'
-  authority:
-    type: statute
-    citation: Sports Wagering Lottery Amendment Act of 2018 (D.C. Law 22-312)
-    url: https://code.dccouncil.gov/
-  operator_model: mixed
-  notes: null
-  provenance:
-    source_id: dc-regulator
-    source_url: https://dclottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-- market_segment: regulated_sportsbook
-  channel: online
-  scope: statewide
-  status: live
-  authorized_on: '2019-05-03'
-  launched_on: '2020-05-28'
-  authority:
-    type: statute
-    citation: Sports Wagering Lottery Amendment Act of 2018 (D.C. Law 22-312)
-    url: https://code.dccouncil.gov/
-  operator_model: mixed
-  notes: null
-  provenance:
-    source_id: dc-regulator
-    source_url: https://dclottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
+  - market_segment: regulated_sportsbook
+    channel: retail
+    scope: statewide
+    status: live
+    authorized_on: "2019-05-03"
+    launched_on: "2020-07-31"
+    authority:
+      type: statute
+      citation: Sports Wagering Lottery Amendment Act of 2018 (D.C. Law 22-312), codified at D.C. Code 36-621.01 et seq.; as amended by the Sports Wagering Amendment Act of 2024 (Subtitle R of D.C. Law 25-217)
+      url: https://code.dccouncil.gov/us/dc/council/code/sections/36-621.11
+    operator_model: mixed
+    notes: Retail wagering is offered by District-licensed Class A operators at sports venues, Class B retail licensees, and sports wagering retailers under the District-operated program (D.C. Code 36-621.11).
+    provenance: &dccode
+      source_id: dc-legislature
+      source_url: https://code.dccouncil.gov/us/dc/council/code/sections/36-621.11
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch2-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Status, statute citation and mixed operator model confirmed against D.C. Code 36-621.11 and 36-621.15
+        (code.dccouncil.gov) and D.C. Law 25-217 Subtitle R. authorized_on 2019-05-03 (effective date of D.C. Law
+        22-312) and launched_on 2020-07-31 (first retail sportsbook at Capital One Arena): Not confirmed by search on
+        2026-10-16; seeded value retained. Trade press places the retail opening at the end of July 2020.
+  - market_segment: regulated_sportsbook
+    channel: online
+    scope: statewide
+    status: live
+    authorized_on: "2019-05-03"
+    launched_on: "2020-05-28"
+    authority:
+      type: statute
+      citation: Sports Wagering Lottery Amendment Act of 2018 (D.C. Law 22-312), codified at D.C. Code 36-621.01 et seq.; D.C. Code 36-621.11 (District-operated sports wagering); Sports Wagering Amendment Act of 2024 (Subtitle R of D.C. Law 25-217) permitting mobile wagering by Class A and Class C operators District-wide
+      url: https://code.dccouncil.gov/us/dc/council/code/sections/36-621.11
+    operator_model: mixed
+    notes: >-
+      The District-operated mobile platform was GambetDC from launch until April 15, 2024, when the Office of
+      Lottery and Gaming approved FanDuel as the District's official sports wagering platform and GambetDC stopped
+      accepting wagers (OLG newsroom). Class A and Class C operators may also accept mobile wagers from persons
+      physically located in the District.
+    provenance:
+      <<: *dccode
+      notes: >-
+        Status and statute confirmed against code.dccouncil.gov. authorized_on 2019-05-03 and launched_on 2020-05-28
+        (GambetDC launch): Not confirmed by search on 2026-10-16; seeded value retained. OLG announced the GambetDC
+        platform launch on 2020-05-28 per trade press; no OLG release with the date was returned. The FanDuel
+        replacement date of 2024-04-15 is from the OLG newsroom at
+        https://dclottery.com/about-us/newsroom/dc-office-lottery-gaming-reports-strong-first-month-performance-new-mobile.
 regulators:
-- name: DC Office of Lottery and Gaming
-  url: https://dclottery.com/
-  type: lottery
-  roles:
-  - licensing
-  - enforcement
-  - revenue_reporting
-  provenance:
-    source_id: dc-regulator
-    source_url: https://dclottery.com/
-    archive_url: null
-    retrieved_at: '2026-10-16'
-    retrieval_method: manual_entry
-    transform: null
-    entered_by: claude-draft-2026-10-16
-    reviewed_by: null
-    status: pending_review
-    page_or_table: null
-    notes: Seeded from secondary knowledge during the site draft. Must be checked against the cited regulator
-      or statute page, archived, and reviewed before status can be verified.
-legal_age: null
-tax: null
-consumer_protections: null
-limitations: null
+  - name: DC Office of Lottery and Gaming
+    url: https://dclottery.com/olg
+    type: lottery
+    roles: [licensing, enforcement, revenue_reporting, operation]
+    provenance: &dcolg
+      source_id: dc-regulator
+      source_url: https://dclottery.com/olg/sports-wagering-faqs
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch2-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Name and role confirmed against the OLG sports wagering FAQs and licensing FAQs (dclottery.com/olg). Added the
+        operation role because OLG runs the District-operated platform under D.C. Code 36-621.11. The Office of Tax
+        and Revenue collects the sports wagering tax (otr.cfo.dc.gov/page/sports-wagering-tax).
+legal_age:
+  - age: 18
+    scope: all
+    authority_citation: OLG Sports Wagering FAQs (minimum age to place or cash a sports wager in the District is 18); 30 DCMR Chapter 20 (District-operated sports wagering rules) requires operators to verify participants are at least 18
+    provenance:
+      <<: *dcolg
+      notes: Confirmed against https://dclottery.com/olg/sports-wagering-faqs. The D.C. Code section setting the age was not located by search; cite it when found.
+tax:
+  - channel: all
+    basis: gross_gaming_revenue
+    rate: 0.10
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: >-
+      Tax is 10 percent of gross sports wagering revenue as defined in D.C. Code 36-621.01. Whether promotional
+      credits or free bets are excluded from gross sports wagering revenue was not confirmed by search; only the
+      headline rate and base name are entered.
+    effective_from: "2020-05-28"
+    effective_to: "2024-07-31"
+    destination: null
+    authority_citation: D.C. Code 36-621.15 (prior to amendment by D.C. Law 25-217); Office of Tax and Revenue states the rate remained 10 percent of gross sports wagering revenue until July 31, 2024
+    provenance: &dcotr
+      source_id: dc-legislature
+      source_url: https://code.dccouncil.gov/us/dc/council/code/sections/36-621.15
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-batch2-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Rates and dates per D.C. Code 36-621.15 and https://otr.cfo.dc.gov/page/sports-wagering-tax. The tax applies
+        to licensed operators; the District-operated platform (GambetDC, then FanDuel) is run under contract and its
+        revenue accrues to the District rather than being taxed. effective_from set to the online launch date, which
+        is itself unconfirmed.
+  - channel: all
+    basis: gross_gaming_revenue
+    rate: 0.20
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: As above; promotional credit treatment not confirmed.
+    effective_from: "2024-08-01"
+    effective_to: null
+    destination: null
+    authority_citation: D.C. Code 36-621.15 as amended by the Sports Wagering Amendment Act of 2024 (Subtitle R of D.C. Law 25-217, applicable August 1, 2024); 20 percent of gross sports wagering revenue for Class A operators
+    provenance: *dcotr
+  - channel: retail
+    basis: gross_gaming_revenue
+    rate: 0.10
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: As above; promotional credit treatment not confirmed.
+    effective_from: "2024-08-01"
+    effective_to: null
+    destination: null
+    authority_citation: D.C. Code 36-621.15 as amended by D.C. Law 25-217; 10 percent of gross sports wagering revenue for Class B operators (retail licensees)
+    provenance: *dcotr
+  - channel: all
+    basis: gross_gaming_revenue
+    rate: 0.30
+    tiers: null
+    per_wager_fee_cents: null
+    promo_deduction_rule: As above; promotional credit treatment not confirmed.
+    effective_from: "2024-08-01"
+    effective_to: null
+    destination: null
+    authority_citation: D.C. Code 36-621.15 as amended by D.C. Law 25-217; 30 percent of gross sports wagering revenue for Class C operators (eligible sports team applicants or their assignees)
+    provenance: *dcotr
+consumer_protections:
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: DC Office of Lottery and Gaming
+    durations: [18 months, 3 years, 5 years, lifetime]
+    covers: [sports_wagering_retail, sports_wagering_online, lottery]
+    enrollment_methods: [online, in_person]
+    url: https://dclottery.com/olg/self-exclusion-faqs
+    notes: >-
+      Exclusion reaches OLG-licensed sportsbook locations, licensee wagering websites and apps, DC Lottery
+      headquarters and licensed retailers in the District. The OLG problem gambling resources page describes an
+      online application; an older FAQ required in-person signing at OLG headquarters. Program rule is 30 DCMR 2129.
+    provenance:
+      <<: *dcolg
+      source_url: https://dclottery.com/olg/self-exclusion-faqs
+      notes: Durations and coverage per OLG Self Exclusion FAQs and https://dclottery.com/olg/problem-gambling-resources. An operator page also lists a 1 year option; not confirmed on an OLG page.
+  deposit_limits: null
+  advertising: null
+  credit_card_deposits: null
+  helpline_message: null
+limitations:
+  - The District's published sports wagering figures mix a District-operated platform (GambetDC, then FanDuel) with privately licensed Class A, B and C operators under different tax and revenue arrangements, so District totals are not directly comparable to a single-model state.
+  - Federal enclaves and the two-block exclusion zones around sports venues shaped where mobile wagers could be placed before the 2024 amendments; handle before and after August 2024 reflects different geographic rules.
