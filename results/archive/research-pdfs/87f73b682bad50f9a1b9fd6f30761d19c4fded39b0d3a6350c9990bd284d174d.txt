@@ -1,0 +1,2313 @@
+=== page 1 ===
+NBER WORKING PAPER SERIES
+GAMBLING AWAY STABILITY:
+SPORTS BETTING’S IMPACT ON VULNERABLE HOUSEHOLDS
+Scott R. Baker
+Justin Balthrop
+Mark J. Johnson
+Jason D. Kotter
+Kevin Pisciotta
+Working Paper 33108
+http://www.nber.org/papers/w33108
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+November 2024
+We thank Darren Aiello, Aaron Brown, Evan Calford, Karl Diether, Matthew Gustafson, Junchao
+Liao, Erik Mayer, Ryan Pratt, Tyler Shumway, and seminar and conference participants at Brigham
+Young University and the 2024 Wasatch Finance Conference for helpful feedback The views
+expressed herein are those of the authors and do not necessarily reflect the views of the National
+Bureau of Economic Research.
+NBER working papers are circulated for discussion and comment purposes. They have not been
+peer-reviewed or been subject to the review by the NBER Board of Directors that accompanies
+official NBER publications.
+© 2024 by Scott R. Baker, Justin Balthrop, Mark J. Johnson, Jason D. Kotter, and Kevin Pisciotta.
+All rights reserved. Short sections of text, not to exceed two paragraphs, may be quoted without
+explicit permission provided that full credit, including © notice, is given to the source.
+
+=== page 2 ===
+Gambling Away Stability: Sports Betting’s Impact on Vulnerable Households
+Scott R. Baker, Justin Balthrop, Mark J. Johnson, Jason D. Kotter, and Kevin Pisciotta
+NBER Working Paper No. 33108
+November 2024
+JEL No. D14, G11, G18, G51
+ABSTRACT
+We estimate the causal effect of online sports betting on households' investment, spending, and debt
+management decisions using household transaction data and a staggered difference-in-differences
+framework. Following legalization, sports betting spreads quickly, with both the number of
+participants and frequency of bets increasing over time. This increase does not displace other
+gambling or consumption but significantly reduces savings, as risky bets crowd out positive
+expected value investments. These effects concentrate among financially constrained households,
+as credit card debt increases, available credit decreases, and overdraft frequency rises. Our findings
+highlight the potential adverse effects of online sports betting on vulnerable households.
+Scott R. Baker Jason D. Kotter
+Kellogg School of Management Brigham Young University
+Northwestern University Marriott School of Business
+2211 Campus Drive Provo, UT 84602
+Evanston, IL 60208 jasonkotter@byu.edu
+and NBER
+s-baker@kellogg.northwestern.edu Kevin Pisciotta
+Brigham Young University
+Justin Balthrop kpisciotta@ku.edu
+University of Kansas
+j634b581@ku.edu
+Mark J. Johnson
+Brigham Young University
+Department of Finance
+Provo, UT 84602
+markjjohnson@byu.edu
+
+=== page 3 ===
+1 Introduction
+“It’s very predictable that there are vulnerable people who wouldn’t have gotten
+into trouble except that sports betting came along.” — Rachel Volberg1
+In 2018, the United States Supreme Court overturned a Federal ban on sports betting,
+leading states to rapidly introduce legislation to legalize in-person and online sports betting
+for consumers. The growth of these markets was swift, generating over $120 billion in total
+bets and $11 billion in revenues in 2023.2 This rapid expansion of the sports betting market
+raises important questions about its broader economic and social impacts. Despite being
+marketed as a form of entertainment, the industry’s profitability suggests that the typical
+bettor faces negative expected returns. Moreover, evidence from other gambling contexts
+indicates that bookmakers exploit bettors’ cognitive biases and lack of skill, making betting
+a detrimental financial activity for most households (Levitt, 2004).3
+The key question underlying our research is whether the financial impact of online sports
+betting extends beyond marginal entertainment expenditure — that is, whether sports bet-
+ting displaces more productive financial behaviors, such as saving and investing, and whether
+it exacerbates financial strain, particularly among vulnerable households. If sports betting
+simply substitutes for other discretionary spending, its effects on household financial health
+may be neutral. However, there could be long-term financial impacts if sports betting crowds
+out personal savings or induces households to increase leverage to continue betting. Answers
+to these questions offer important insights into household savings behavior and also inform
+relevant policy decisions regarding the scope and shape of sports betting access.
+1https://www.ft.com/content/2e1a235a-8a46-47f3-b040-5ca21a04ebf4.
+2https://www.espn.com/espn/betting/story/ /id/39563784/sports-betting-industry-posts-record-11b-
+2023-revenue.
+3Sports betting sites often take action to cut off or limit bets from bettors who are winning too often.
+See https://www.wsj.com/business/media/sports-betting-companies-limit-winners-f06ea822.
+1
+
+=== page 4 ===
+To estimate the causal impact of legalized sports betting on household financial deci-
+sions, we use financial transaction data spanning a large population of U.S. consumers that
+provides a comprehensive picture of purchases, after-tax investments, and transfers to online
+betting sites. We then utilize variation induced by state-specific legalization dates for online
+sports betting, where the precise timing of legalization is generally driven by idiosyncratic
+differences in judicial and legislative sessions and schedules. Our study covers all 26 online
+sports betting legalizations in the United States between August 2018 (the first legal bet
+outside Nevada) and September 2023 (the end of our sample period).
+We show that bettors are more likely to be pre-existing gamblers — e.g., four times more
+likely to have played the lotto — and betting is highly persistent, with the average bettor
+steadily increasing transfer amounts over time. Importantly, this betting activity crowds
+out financial investments, leading to a reduction in net deposits to brokerage accounts, in-
+cluding robo-advisors that are primarily used for long-term savings.4 This substitution is
+particularly pronounced among financially constrained households. Additionally, consump-
+tion in complementary entertainment-related categories rises, likely reflecting spillovers from
+increased sports betting. Combined, the increase in betting and associated consumption
+leads to heightened financial instability as households run-up credit card balances and more
+frequently overdraw their bank accounts. The use of debt to fund betting mirrors other
+financial mistakes such as using high-interest loans to fund low-yield investments (Gross
+and Souleles, 2002). Overall, our results suggest that access to online sports betting comes
+at the expense of equity market attachment and exacerbates financial difficulties faced by
+4This tendency is consistent with evidence in Cookson (2018) that households readily substitute between
+positive and negative expected value bets.
+2
+
+=== page 5 ===
+constrained households.
+To isolate these impacts, we use transaction-level data from a large financial aggregator
+containing 230,171 households (and approximately 4.9 million household-quarter observa-
+tions) and employ a two-way fixed effects (TWFE) difference-in-differences (DiD) approach.5
+Wefindthatsportsbettingdepositsareinitiallynear-zero, butspikeimmediatelyuponlegal-
+ization, producinganunconditionalstate-wideincreaseinaveragehouseholdbettingdeposits
+by about $25 per quarter. Conditional on ever placing a bet after a state legalizes online
+sports betting, households deposit on average $180 per quarter. While bets come from all
+along the income distribution, financially constrained households deposit larger fractions of
+their income. We also find deposits continue to increase throughout the post-legalization pe-
+riod on both intensive and extensive margins. On the intensive margin, betting is persistent,
+with about two-thirds of bettors making multiple deposits to online sports betting apps and
+increasing those deposit amounts over time. The increase in amounts deposited over time
+is often substantial, likely reflecting not only learning curves, advertising yields, and social
+norms, but also in some cases addiction and increased tolerance for losses.
+We then examine whether betting affects households’ investing decisions by constructing
+a measure of net deposits to (after-tax) stock brokerages each quarter. We show that treated
+and control households invest similarly during the period leading up to legalization. After
+legalization, treated households experience a relative reduction in net investments of about
+14%. The results are robust to an alternative identification strategy that instruments for
+betting based on the transaction history of users using two-stage least squares (2SLS). This
+5Our estimates are robust to using alternative estimation methods to account for econometric issues
+associated with staggered DiD estimated using TWFE, e.g. Borusyak, Jaravel, and Spiess (2024).
+3
+
+=== page 6 ===
+approach allows us to isolate within state-quarter variation. Based on evidence showing men
+comprise roughly 75% of sports betting activity, we instrument for betting activity with the
+predicted gender of the household account holder. We show that the causal effect of $1 of
+online sports deposits is a reduction in net investment of just under $1.
+In contrast with the sizable effects on equity investments, we find that increases in sports
+betting do not coincide with decreases in participation in lotteries or other online gambling
+outlets like poker sites. Cryptocurrency exchanges see a small decline in deposits, but of
+a much smaller magnitude than either the sports bets themselves or the declines in invest-
+ments. We also test whether our effects are driven by changes in net deposits to ‘gamified’
+brokerages like Robinhood. While net deposits to such brokerages decline, they explain only
+a minority of the total effect observed on investments. Overall, these results suggest that
+most of the displacement driven by increases in sports betting falls on positive expected
+value “investments” rather than other types of negative expected value “bets.”
+We next examine heterogeneity in the substitution patterns across consumers with dif-
+fering levels of financial constraints, finding significantly larger substitution effects among
+more financially constrained households. This result is consistent with Kumar (2009) who
+shows that lower income individuals invest more in lottery-like stocks, and with Dorn, Dorn,
+and Sengmueller (2015) who show that the sensitivity of lottery demand to jackpot size is
+higher for lower income individuals.6
+We then turn to the effects of sports betting on other aspects of households’ saving and
+financial planning decisions. Financially constrained households increase their credit card
+6To provide external validity for our results, we use a separate sample of households from the IRS based
+on all tax filers in the U.S. Constructing a state-by-year panel and estimating a TWFE DiD estimator, we
+findsportsbettinglegalizationsignificantlyreduceshouseholdstockmarketparticipationamongconstrained
+households.
+4
+
+=== page 7 ===
+balances by about $368 relative to less constrained households, an 8% increase in credit card
+debt relative to the sample mean. Additionally, we find that more constrained households
+exhaust more of their credit availability, reduce their credit card payments, and increase
+account overdrafts. Combined, these results suggest that sports betting exacerbates the
+financial constraints of households already operating with less flexibility.
+Finally, we show that sports betting increases households’ expenditures on complemen-
+tarygoodssuchascable, restaurants, andotherentertainment. Overall, theseresultssuggest
+that sports betting leads constrained households to use would-be savings and debt to reduce
+investments and increase spending on complements to gambling, likely leading to a lasting
+deterioration in their longer-term financial health.
+Our paper contributes to the literature studying the relation between households’ invest-
+ing and gambling activities. Several prior papers provide evidence that individual investors
+view trading in the stock market as a fun gambling activity (Statman, 2002; Dorn and Seng-
+mueller, 2009; Grinblatt and Keloharju, 2009; Kumar, 2009; Kumar, Page, and Spalt, 2011;
+Chen, Kumar, and Zhang, 2021; Kormanyos, Hanspal, and Hackethal, 2023). Gao and Lin
+(2015) and Dorn et al. (2015) document a negative relation between lottery jackpot sizes and
+investor trading activity, suggesting that investors substitute between stock market trading
+and alternative gambling opportunities. We provide evidence that sports betting affects not
+just gambling-like trading, but also savings-motivated investing. We also show that the ef-
+fectsareconcentratedinfinanciallyconstrainedhouseholdswiththehighestmarginalbenefit
+of maintaining savings allocations.7
+7Inaconcurrentworkingpaper,Hollenbeck,Larsen,andProserpio(2024),usecreditbureaudatatostudy
+the effect of legalized sports betting on households’ credit quality, debt loads, and likelihood of bankruptcy
+and delinquency. Like us, they find negative effects on credit health, particularly among lower income
+households.
+5
+
+=== page 8 ===
+Our paper also contributes to the literature on the determinants of stock market partic-
+ipation. Kaustia and Torstila (2011) examine the political characteristics that affect stock
+market participation. Using the randomized assignment of lottery prizes across Swedish res-
+¨
+idents, Briggs, Cesarini, Lindqvist, and Ostling (2021) provide evidence that cash windfall
+gains significantly increase stock market participation. Barnea, Cronqvist, and Siegel (2010),
+Grinblatt, Keloharju, and Linnainmaa (2011), and Gan, Lu, Lu, Niu, and Zhou (2023) pro-
+vide evidence that genetic differences in risk preferences, IQ, and physical features affect
+stock market participation. We contribute to this literature by showing that environmental
+factors unrelated to income or political affiliations shift individuals’ investing decisions.
+The spillover effects of legalized sports betting on savings decisions and household bal-
+ance sheets have potentially important policy implications. Several states are still consid-
+ering whether and how to legalize sports betting, and our study takes an important step
+toward quantifying some of the costs of sports betting directly relevant to those decisions.
+In particular, our evidence suggests states can expect that some of the tax revenue they
+earn from sports betting is offset by lost tax revenue on investment income and the public
+costs of managing overextended borrowers. More broadly, increased sports betting activity
+could undermine government efforts to increase long term financial well-being. Our evidence
+suggests a more nuanced approach to sports betting access that can potentially curb impulse
+betting could yield more efficient outcomes, especially for households with the most bind-
+ing budget constraints. Because sports betting is addictive, these issues are unlikely to self
+correct.
+6
+
+=== page 9 ===
+2 History of Online Sports Betting
+Widespread online sports betting in the U.S. began in 2018 when New Jersey became the
+first state outside Nevada to accept a legal online sports wager. Prior to this, single game
+sports betting was prohibited outside Nevada by the Professional and Amateur Sports Pro-
+tection Act (PASPA) of 1992. In March 2009, New Jersey filed a federal lawsuit challenging
+PASPA, despite facing strong opposition from professional sports leagues and the NCAA.
+Nearly ten years later, in May 2018, the Supreme Court struck down PASPA, allowing states
+to pursue their own legalization of sports betting.
+On June 5, 2018, Delaware became the first state to take advantage of the PASPA repeal
+and began accepting single game sports wagers, though only in the form of in-person bets
+placed at legal betting establishments. On August 6, 2018, DraftKings’s online sports book
+accepted the first single game sports wager outside of Nevada. Since then, many states
+have legalized either in-person or online sports betting. Figure 1 shows that, as of the third
+quarter of 2023, single game online sports betting is legal and operational in 25 states plus
+the District of Columbia.8 This rapid legalization of sports betting has led to an explosion
+in betting, with the total wagered amount rising from an average of $1.1 billion per month
+in 2019 to $14 billion in January 2024.9
+Appendix Table A.2 shows the launch dates of online betting in each state. The legal-
+ization of online betting is staggered across time, with relatively equal numbers of states
+launching online betting each year from 2019 to 2023. The reasons behind states’ decisions
+to legalize online sports betting vary. While fiscal motives tied to increasing government
+8At the timing of writing, five additional states have launched online sports betting since the end of our
+sample in Q3 2023. See Appendix Table A.2.
+9https://www.sportsbookreview.com/news/us-betting-revenue-tracker/.
+7
+
+=== page 10 ===
+budgets might play a role, other drivers include changing local attitudes and competitive
+pressures from neighboring states (Green, 2022; Petrotta, 2023). Supporting this idea, we
+show in Appendix Table A.5 that trends in local private- and government-sector economic
+growth do not predict legalization, indicating that the timing of legalization is not driven by
+economic trends that simultaneously affect household spending and investment decisions.
+Concurrent with the legalization of online sports betting, many states also legalized in-
+person betting at approved sports books. Conditional on legalizing sports betting, it is most
+common for states to allow both online and in-person betting. However, a few states only
+allow betting on the physical premises of approved vendors (e.g., racetracks or casinos),
+whether in-person or online (see orange-shaded states in Figure 1). Because our transaction-
+level data (described in Section 3) cannot distinguish between in-person transactions at
+casinos for sports betting purposes and other types of casino transactions, we focus our
+analysis on online sports betting (the blue-shaded states in Figure 1).
+An important detail is the nature of how online sports books enforce legality across state
+borders. All existing laws govern the location at which the bet is placed, not the state
+of residence of the bettor. Betting platforms strictly enforce these rules using geo-location
+technology that makes the platforms inaccessible on devices not located within state borders.
+These rules of course do not prohibit a prospective bettor from driving across state lines to
+place bets, and in practice they do. However these effects are negligible in our data and we
+additionallycontrolforthispotentialnoisebyeliminatingconsumerslocatedinnon-legalized
+counties bordering legalized states.
+8
+
+=== page 11 ===
+3 Data
+In this section, we introduce our main transaction-level data (Section 3.1), describe how
+we use these data to calculate measures of betting and investment (Section 3.2), and sum-
+marize the characteristics of bettors and non-bettors in our sample (Section 3.3).
+3.1 Transaction Level Data
+The primary data source we use to study individuals’ consumption and investment deci-
+sions over time is a proprietary dataset of U.S. consumer transactions from an undisclosed
+U.S. data aggregation and analytics platform. The data provider contracts with financial
+institutions — including major banks, credit card firms, and FinTech firms — to aggregate
+financial information across a user’s financial accounts. Because the data provider contracts
+with financial institutions, rather than with consumers, the data is both more comprehensive
+and free from selection issues that may arise when consumers have to opt in to provide their
+data. The full database includes over 60 million American users and includes billions of
+transactions from 2010 to September 2023. We are able to track users over time and observe
+their transactions through bank accounts and credit cards, which allows us to observe house-
+hold income, spending, and post-tax investment. However, we do not observe demographic
+characteristics such as gender, race, or age.
+Although the data do not constitute a random subset of U.S. consumers, Aiello, Baker,
+Balyuk, Di Maggio, Johnson, and Kotter (2023a) and Aiello, Baker, Balyuk, Di Maggio,
+Johnson, and Kotter (2023b) demonstrate that the sample is broadly representative of the
+general population in terms of geography, spending patterns, and income (excluding low-
+income unbanked consumers). One concern with these data is that we might not observe a
+9
+
+=== page 12 ===
+complete set of a household’s financial accounts for all users, which could bias our measures
+of household income, spending, and investment. The data provider ranks the quality of the
+transaction data based on completeness and account tenure. We focus on a sub-sample of
+230,802 users drawn randomly from the top 10% of the sample based on this measure.
+3.2 Identifying Sports Betting and Other Transactions
+We identify online sports betting activity by searching for deposits to (and withdrawals
+from) online sports betting platforms. These deposits can come from a household’s bank
+account (i.e., transfer from a checking or savings account) or from a credit card. The data
+provider employs advanced analytical tools to determine the names of the primary and
+secondary merchants from transaction descriptions. For most transactions, we have access to
+the full transaction description, enabling us to identify additional sports betting transactions
+not captured by the merchant name.
+We leverage this information to identify deposit and withdrawal transactions involving
+online sports betting platforms.10 To identify sports betting transactions, we start with an
+exhaustive list of online betting platforms from Action Network.11 To avoid false positives
+(e.g., due to some restaurants or cities sharing the name of a platform), we focus on plat-
+forms with at least 1,000 transactions in our data. This leaves us with the following 11
+platforms, in descending order of transaction volume: FanDuel, DraftKings, Betrivers, Bet-
+MGM, Barstool Sportsbook, Betfair Casino, Playsugarhouse, Pointsbet, Kings, Bet365, and
+Unibet. Approximately 70% of the transactions we observe involve DraftKings or FanDuel.
+10Onelimitationofthisapproachisthatthealgorithmmaynotdetecttransferstosportsbettingplatforms
+that use intermediaries, such as PayPal. While we can identify some of these transactions from the full
+transaction description, in cases where we cannot, the primary merchant name is often uninformative.
+11https://www.actionnetwork.com/legal-online-sports-betting/sportsbooks-by-state.
+10
+
+=== page 13 ===
+Our results are qualitatively similar if we focus exclusively on these two venues.
+Tostudyhouseholds’post-taxequitymarketinvestmentdecisions,weidentifytransfersto
+and from equity brokerage accounts, again using the merchant and description information.
+We further separate these transactions into transfers with traditional brokerages — e.g.,
+Charles Schwab, E*Trade, Vanguard, and Fidelity — and transfers with FinTech brokerages
+such as Robinhood. We search for crypto investments in an analogous way using the list of
+crypto brokerages in Aiello et al. (2023a).
+Finally, using transaction descriptions we identify other risk-taking behavior, such as
+money spent on online poker and lottery tickets. Because lottery tickets purchased at reg-
+isters that sell other products (e.g., a grocery store), and most in-person tickets in general,
+are not identifiable in our data, we only identify a small subset of lottery spending.
+We collapse these transaction-level data to the household-quarter level by summing total
+income, investment, and betting/gambling expenses each quarter, which serves as the main
+dataset we use in our regression analysis.12 For this panel, we impute the zip code of the
+household’s residence based on the physical location of merchants that frequently appear in
+the user’s transactions in a given calendar year.13
+Forroughly15%ofoursample,weobserveuptofoursnapshotsofcreditcardinformation.
+These snapshots include the balance on the credit card and the available credit to spend.
+By combining credit card transaction data with these snapshots, we impute (forward and
+backward) the quarterly credit card balance and available credit. We then sum up these
+numbers across all of the household’s credit cards to obtain a quarterly measure of the
+12We estimate all of our two-way fixed effect regression results at the household-by-month level and the
+results are nearly identical.
+13WelimitthesetransactionstoGrocery,Restaurant,Gasoline,GeneralMerchandise,HomeImprovement,
+and Pharmacy transactions.
+11
+
+=== page 14 ===
+household’s total credit card debt and total available credit.
+Finally, wemeasurefinancialconstraintsintwoways. First, wecalculateameasureofthe
+quarterly flow of savings by subtracting total spending from total income. In each quarter,
+we sum the savings flow over the prior four quarters. We then define a household as “low
+savings” if the four-quarter flow of savings is below the sample median. Our second measure
+of constraints is an indicator equal to one if the household has at least one overdraft during
+the previous four quarters.
+3.3 Characteristics of Bettors
+About 7.7% of the households in our sample place online sports bets during our sample
+period, who we label as “bettors.”14 In Table 1, we highlight that bettors and non-bettors
+have similar incomes, after-tax equity investment, and credit card debt burdens, though
+non-bettors have slightly higher of each. However, there are noticeable differences when
+it comes to risky financial behavior. Bettors are more than twice as likely as non-bettors
+to have invested in crypto or overdrawn their bank account, and four times more likely to
+have played online poker or purchased lottery tickets. Bettors are also more likely to have
+received child tax credits during the post-COVID stimulus (25% vs. 14%), suggesting that
+a relatively large fraction of the bettors in our sample have dependent children.
+Table 2 highlights differences across bettors. On average, bettors deposit about $102
+per quarter to a sports betting app, or roughly $2,300 over our sample period. However,
+most of this betting comes from a small set of high-intensity bettors. The top tercile of
+14A similar fraction of the population reported using online gambling services in a Pew Research survey
+in July 2022. The survey showed that 6% of Americans had gambled using online platforms in the prior
+12 months. https://www.pewresearch.org/short-reads/2022/09/14/as-more-states-legalize-the-practice-19-
+of-u-s-adults-say-they-have-bet-money-on-sports-in-the-past-year/
+12
+
+=== page 15 ===
+bettors (based on total betting deposits) deposits an average of $299 per quarter, or 1.7%
+of their income, while the bottom tercile of bettors only deposits an average of $1.39 per
+quarter. Despite these large differences in betting behavior, high- and low-intensity bettors
+look broadly similar in terms of income, investment, and family status, though low-intensity
+bettors have somewhat lower income and investment on average.
+Figure 2 plots the evolution of betting deposits to income over time. Unsurprisingly,
+betting activity increases over time as online sports betting becomes legal in more states
+but also more popular and socially acceptable. However, the increase relative to income is
+most pronounced for households in the bottom tercile of the income distribution. As low
+income households allocate a growing portion of their income to betting, it is important to
+understand what ramifications this has for the financial health of these households.
+We also document that the upward trend in bets comes from a relatively wide swath of
+the population. Figure 3a shows that, conditional on betting at least once in our sample,
+about 70% of bettors subsequently deposit money in sports betting sites at least two more
+times, with almost 40% of bettors doing so over ten times. Only a fifth of first time bettors
+do not subsequently deposit additional funds to a betting site.
+Figure 3b examines the evolution of follow-on deposits over time. The probability of a
+follow-on sports betting deposit hovers around 0.5–0.6 across individuals following an initial
+deposit. This consistently high probability of follow-on deposits yields a steadily increasing
+amount of money deposited to sports betting sites. Figure 3c displays the path of quarterly
+depositsrelativetothesizeofabettor’sfirstdeposit. After12quartersfollowinglegalization,
+bettors deposit around eight times their initial quarterly deposit. Together, the results in
+Figure3indicatethatwhilethegrowthofsportsbettingfollowinglegalizationlikelyhaslarge
+13
+
+=== page 16 ===
+extensive margin effects — expanding as more of the population engages over time — it also
+has meaningful intensive margin effects. The overwhelming majority of bettors not only
+continue betting, but significantly increase the amount of money they deposit to online
+sports apps after their initial deposit.
+To begin to explore the potential consequences of sports betting on household finances,
+Table 3 compares individuals with high and low savings status (above or below median
+savings flows), further partitioned by whether they are bettors or non-bettors. Bettors with
+below median savings allocate close to twice their quarterly income to betting compared
+with bettors with above median savings (0.85% vs. 0.49%). Bettors with below median
+savings also have lower incomes and investments and higher instances of overdrafts and debt
+burdens.
+Focusing only on the below median savings households, Table 3 reveals that bettors
+and non-bettors have similar quarterly incomes, credit card debt burdens, and investments.
+However, low savings bettors are more than twice as likely to overdraw their bank accounts
+as low savings non-bettors. They also have lower available credit. Combined, the patterns
+in Table 3 point in the direction that the impacts of sports betting on household financial
+health may disproportionately affect constrained households.
+4 Staggered State-Level Legalization of Sports Betting
+We study the effect of online sports betting on household finances using the staggered
+passage of sports betting legalizations between 2018 and 2023. We compile a description
+of past and ongoing sports betting legislation in each state from the American Gaming
+Association, and supplement this information with additional internet searches for each
+14
+
+=== page 17 ===
+state.15 Using these data, we define the launch date of online betting as the first date it is
+possible to place an online bet in a state. Appendix Table A.2 shows the launch dates of
+online betting for each state. Because we observe deposits to online betting sites at the daily
+level in our transaction data, we are able to verify that we correctly identify launch dates in
+each state.
+Using our household-by-quarter panel of household inflows, spending, and investment,
+we estimate a two-way fixed effects (TWFE) difference-in-differences regression. Recent
+literature shows that in the presence of a staggered treatment with heterogeneous effects,
+TWFE regressions can result in biased estimates. To address this concern, we also estimate
+all results using the imputation DiD method of Borusyak et al. (2024) and find qualitatively
+and quantitatively similar results (see Appendix Tables A.6–A.19). In our main tables, we
+report estimates of the following TWFE specification:
+𝑦 = 𝛽𝑇𝑟𝑒𝑎𝑡 ×𝑃𝑜𝑠𝑡 +𝜒 +𝛾 +𝛿 +𝛼 +𝜖 , (1)
+𝑖𝑡 𝑠 𝑡 𝑖𝑡 𝑖 𝑡 𝑠 𝑖𝑡
+where 𝑦 measures household i’s spending or investment decisions — e.g., betting deposits
+𝑖𝑡
+or net dollar transfers to equity brokerages — during year-quarter 𝑡. Treat is an indicator
+variable equal to one if the household lives in a state s that legalizes online sports betting
+sometimeduringoursampleperiod.16 Post isequaltooneifyear-quartert occursafteronline
+sports betting goes live in the state. We include up to four years before and after legalization
+for treated states (then we drop treated states from the sample and do not re-use them as
+controls), and include all quarters for states that never legalize sports betting. 𝜒 represents
+𝑖𝑡
+15https://www.americangaming.org/research/state-gaming-map-mobile/.
+16AsFigure1shows,attheendofoursampleinSeptember2023,25stateshadnotlegalizedonlinesports
+betting. We include Mississippi, Montana, and Washington in that list of never treated states; these states
+allow online betting, but only when physically on the premises of an approved retail location.
+15
+
+=== page 18 ===
+a set of time-varying household-level control variables, including household income and the
+amount of stimulus funds received during year-quarter t. 𝛾, 𝛿 , and 𝛼 represent household,
+𝑖 𝑡 𝑠
+year-quarter, and state fixed effects.
+Theinclusionofhouseholdfixedeffectscontrolsforhousehold-specificcharacteristicsthat
+might generally influence betting activity or other spending and investing decisions such as
+education, financial sophistication, and socioeconomic background. This approach isolates
+the impact of legalization by examining the variation in a household’s spending decisions
+between periods when they have legal access to online sports betting and periods when they
+do not. We double cluster standard errors at the individual and state-by-year-quarter level.
+Equation 1 identifies the causal effect of sports betting on household finances, contingent
+on the outcome variables satisfying the parallel trends assumption. The identifying assump-
+tion is that pre-legalization trends in outcomes for households in states that are about to
+legalize sports betting are similar to the trends for households in states that have not yet
+legalized sports betting. Accessing online betting sites from illegal jurisdictions is virtually
+impossible given the resources devoted to identifying this behavior, so this assumption is
+likely trivially satisfied for money spent on online sports betting; households are likely to
+spend very little money betting absent legalization.17 The largest exception is for households
+living in states where online betting is illegal, but close to the borders of states where online
+betting is legal. These households might choose to drive over the border to place legal bets
+on their phones. To address this possibility, we drop from the sample households living in
+counties where it is illegal to bet on sports but that border states where online sports betting
+17In addition to AML and KYC compliance measures, most books adhere to strict geo-location and age
+verification, and will lock or ban accounts attempting to skirt rules using virtual private networks (VPNs).
+16
+
+=== page 19 ===
+is legal.18
+Even if the parallel trends assumption is satisfied for betting, to identify the broader
+effect of sports betting on household finances our experiment requires parallel trends in other
+household spending and investment decisions. For these other outcomes, such as investment,
+it is not clear ex ante that household behavior evolves similarly in treated and control states
+in the period before legalization. We examine these trends and provide evidence supporting
+the validity of the parallel trends assumption in Section 5.
+While the overall effect of sports betting is interesting, the summary statistics in Sec-
+tion 3.3 suggest that any negative effects of betting on household finances are likely con-
+centrated in constrained households. To test this hypothesis, we augment the difference-in-
+differences estimator described in Equation 1 to include an interaction term with various
+indicators for constrained households. Specifically, we estimate:
+𝑦 = 𝛽 𝑇𝑟𝑒𝑎𝑡 ×𝑃𝑜𝑠𝑡 ×𝐶𝑜𝑛𝑠𝑡𝑟𝑎𝑖𝑛𝑒𝑑 +𝛽 𝑇𝑟𝑒𝑎𝑡 ×𝑃𝑜𝑠𝑡 +𝜒 +𝛾 +𝛿 +𝛼 +𝜖 , (2)
+𝑖𝑡 1 𝑠 𝑡 𝑖𝑡 2 𝑠 𝑡 𝑖𝑡 𝑖 𝑡 𝑠 𝑖𝑡
+where Constrained is an indicator variable equal to one if the household is constrained in
+year-quarter t.19 We use two proxies for Constrained, described in Section 3.2: an indicator
+for below median savings flows and an indicator for any overdrafts, both measured over the
+prior four quarters. The identifying assumption under which 𝛽 estimates the causal effect of
+1
+sports betting on the relative behavior of constrained households is that the pre-legalization
+trends of the constrained and unconstrained households in states exposed to the regulatory
+intervention are similar, and that without the regulatory intervention, the relative behavior
+of these constrained and unconstrained households in these states would be expected to be
+18Results are robust to keeping these households in the sample.
+19The other interactions of Constrained with Treat and Post are absorbed by the fixed effects.
+17
+
+=== page 20 ===
+the same before and after the intervention. We further provide evidence supporting this
+assumption in Section 5.
+Our final regression sample includes about 4.9 million household-quarters. Table 4 de-
+scribes the distribution of the variables we use in our regression analysis. Our main outcome
+variables Sports Bets, Net Invest, Net Robinhood, and Net Robo Advisor represent dollar
+amounts spent per household per quarter.
+5 Results
+5.1 Legalization increases betting
+To analyze the impact of sports betting on household betting activity, we estimate Equa-
+tion 1 using our household-by-quarter panel of household transactions. This difference-in-
+differences estimation leverages variation in the timing of legalization across different states
+toisolatethecausaleffectoflegalization. AsshowninColumn(1)ofTable5, thelegalization
+of online sports betting increases average quarterly betting expenditures by $24.91. While
+this amount might seem small, it represents the overall effect averaged across both bettors
+and non-bettors. Conditional on living in a treated state post-legalization, the probability of
+being a bettor is 13.9%. This adoption rate suggests that for households that begin betting
+following legalization, betting expenses increase by about $179 per quarter.20
+Further illustrating this increase in online sports betting, Figure 4 depicts the dynamics
+of betting activity in event time around legalization. To account for the staggered nature
+of legalization and potentially heterogeneous treatment effects, we estimate the event time
+trendsusingtheapproachofBorusyaketal.(2024). Becausethereisnegligiblebettingactiv-
+20Table A.3 in the appendix shows similar results when measuring betting activity using net deposits to
+online betting platforms, rather than gross deposits.
+18
+
+=== page 21 ===
+ity in the quarters preceding legalization, there is no difference in betting across households
+in treated and control states during the pre-period. Immediately following legalization, there
+is a marked relative increase in betting activity among households in treated states. This
+increase continues to rise over time, eventually stabilizing at approximately $60 per quarter
+after three years. This pattern indicates not only an immediate uptake of legalized betting,
+but also a sustained growth in betting activity, likely driven by a combination of marketing,
+growing social acceptance, learning and peer spillovers, and addictions that compel habitual
+losers to continue betting.
+To better understand the magnitude of the increase in betting activity over time, we
+re-estimate the effect of legalization on betting activity using an augmented version of Equa-
+tion 1 that interacts our treatment indicator with a post-treatment linear time trend. The
+results, reported in Appendix Table A.20, are consistent with the trends in Figure 4. Follow-
+ing the legalization of online sports betting, the average household’s betting expenditures
+initially increase by about $4.60 per quarter, growing to approximately $73 per quarter after
+four years. Throughout our remaining analysis, we consistently find that the effects of sports
+betting on household finances increase over the post-legalization period, suggesting that any
+knock-on effects of sports betting are unlikely to revert.21
+We also note that a common strategy to increase adoption among consumers is for sports
+books to offer bonuses (free bets, deposit matching, etc.) in the early days of rolling out
+their product to a state. While these bonuses may take several forms, they each effectively
+increase the amount of betting capital available to customers. All else equal, they reduce the
+amount of deposits required for customers to reach their desired level of betting. Because of
+21See Appendix Tables A.21 through A.25.
+19
+
+=== page 22 ===
+this strategy, our betting results can be thought of as betting capital in excess of this “free
+money”.
+We next explore the extent to which the increase in betting varies for constrained house-
+holds. The results from estimating Equation 2, reported in Columns (2) and (3) of Ta-
+ble 5, show that low-savings households increase their spending on betting by about half the
+amount that high savings households do. In contrast, households that have overdrawn their
+bank accounts in the past year spend more than three times as much as households without
+recent overdrafts. Importantly though, Columns (4) and (5) show that legalization increases
+the fraction of income spent on betting for both low-savings households and households with
+recent overdrafts, compared with less constrained households. The economic magnitude is
+large. The ratio of their income that low-savings households spend on betting is about 32%
+larger than how much high savings households spend. Similarly, households with overdrafts
+spend more than twice the proportion of their income on betting compared with households
+with no overdrafts. The propensity of financially constrained households to increase their
+betting activity relative to their income suggests that the legalization of sports betting may
+exacerbate existing financial strains for these households.
+5.2 Betting reduces investment
+There are many ways that sports betting might affect investment behavior. First, house-
+holds may simply substitute between different aspects of their consumption bundle and leave
+their marginal rate of substitution between current and future consumption fixed (i.e., no
+effect on investment rates). Second, the excitement and potential quick returns from sports
+gambling could lead to more active engagement in financial markets, particularly in high-
+20
+
+=== page 23 ===
+risk, high-reward investment options (i.e., an increase on investment rates). Finally, bettors
+might view the expected returns to betting as higher than the returns to investing, or simply
+valuetheenjoymentofsportsbettingmorethantheyvaluetheexpectedfutureutilitygained
+from saving, and thus, sports betting might displace financial investments. Consistent with
+prior evidence showing that gamblers make risky choices in other parts of their lives, sports
+bettors might also increase other gambling activity that crowds out savings, particularly for
+constrained households.22
+Sports betting might also affect different types of investments in different ways. For
+example, households might employ mental accounting, viewing a proportion of their income
+as available for “gambling” and a separate proportion reserved for safer “investments.” In
+this case, sports betting will substitute for investment in lottery-like positions such as meme
+stocks or options, but have little effect on more traditional savings-motivated investments.23
+This type of behavior is consistent with the evidence in Dorn et al. (2015) showing that while
+increased lottery play displaces risky retail investment, it does not affect trading likely asso-
+ciated with longer-term savings motives. Similarly, Cookson (2018) shows that households
+substitute between prize-linked savings accounts and gambling, further suggesting that some
+households have a fixed appetite for gambling risk.
+We explore these possibilities by estimating the effect of sports betting on net investment
+flows. Net investment in a quarter is a household’s deposits into after-tax retail investment
+22An extensive literature shows that those that gamble are more likely to engage in other risky behaviors
+(see, e.g., Proimos, DuRant, Pierce, and Goodman, 1998; Huang, Jacobs, Derevensky, Gupta, and Paskus,
+2007; Chen, Podolski, Rhee, and Veeraraghavan, 2014; Dowling, Suomi, Jackson, Lavis, Patford, Cockman,
+Thomas, Bellringer, Koziol-Mclain, Battersby et al., 2016; Zhai, Duenas, Wampler, and Potenza, 2020).
+23Prior research suggests investors view trading in lottery-like stocks as another way to gamble (Kumar,
+2009; Jadlow and Mowen, 2010; Kumar et al., 2011; Markiewicz and Weber, 2013; Chen et al., 2021; Kor-
+manyos et al., 2023).
+21
+
+=== page 24 ===
+brokerages minus their withdrawals from these accounts. Table 6 indicates that the legaliza-
+tion of sports betting decreases net investments. The estimate in Column (1) implies that
+net investment falls $53 per quarter, or by about 14% relative to the mean. Figure 5 explores
+this effect over time, estimated following Borusyak et al. (2024).24 In the quarters before
+legalization, average net investment flows are similar for households who live in states that
+will legalize betting relative to households who live in states that will not legalize betting,
+consistent with the parallel trends assumption.
+Thesefiguresfurthershowthatittakessometimeforanyeffectoninvestmenttomanifest.
+In the two to three years after betting becomes legal, there is a noticeable drop in net
+investment relative to states where betting is not yet legal. This result suggests that it
+takes a sustained period of betting before households adjust their investments, which is also
+consistent with Figure 2 and Figure 4 showing that the amount of betting grows over time.
+Further, as discussed in Section 5.1, we also estimate the effect of sports betting on net
+investment while allowing for a post-legalization trend. The results, reported in Appendix
+Table A.21, show that net investment falls by an additional $9 per quarter each quarter since
+legalization (or a decrease of more than $144 by four years after legalization), suggesting that
+these negative expected value substitutions are not self-correcting.
+One way to interpret our analysis thus far is to say that the first stage effect of legalizing
+sports betting is to increase the amount of bets, and the second stage effect is to decrease
+net investments. We next formally estimate a two stage least squares (2SLS) regression
+using the degree to which a household’s spending is male-centric as an instrument. Based
+24We omit states that never legalize online sports betting during our sample period from this event-time
+figure. Appendix Figure A.1 plots event time coefficients estimated using both Callaway and Sant’Anna
+(2021)andSunandAbraham(2021),whicharealternativeapproachestodealingwiththeproblemsinherent
+in staggered difference-in-differences estimation.
+22
+
+=== page 25 ===
+on survey evidence, sports betting, as with many risky activities, skews heavily male. The
+exclusion restriction requires that households with high male-spending do not differentially
+change their investment behavior around the legalization of sports betting for any non-sports
+betting reasons. To tighten this exclusion restriction, we include both state by quarter and
+high male-spending by quarter fixed effects. Thus, any violation of the exclusion restriction
+requires male-centric households to change their investment behavior after the legalization
+of sports betting relative to non-male-centric households in the same state and also relative
+to male-centric households nationwide for reasons that are unrelated to the legalization of
+betting — a narrow concern.
+Because we do not have demographic information in our data, we build on work in Kim
+(2024) to classify the percentage of male shoppers at merchants in our data. We match
+retailers in our data to the industry definitions in Kim (2024) and define a male merchant
+as any retailer where more than 60% of spending comes from male customers. We next
+calculate the transaction weighted average household exposure to male merchants and define
+Top Male as an indicator equal to one for households that are in the top quartile of exposure
+to male merchants. Using this measure of male spending, we estimate the following first
+stage regression:
+𝐵𝑒𝑡𝑠 ×𝑃𝑜𝑠𝑡 ×𝑇𝑟𝑒𝑎𝑡 = 𝛽𝑇𝑜𝑝𝑀𝑎𝑙𝑒 ×𝑃𝑜𝑠𝑡 ×𝑇𝑟𝑒𝑎𝑡 +𝜒 +𝛾 +𝛿 +𝛼 +𝜖 , (3)
+𝑖𝑡 𝑡 𝑠 𝑖 𝑡 𝑠 𝑖𝑡 𝑖 𝑠𝑡 𝑚𝑡 𝑖𝑡
+where Top Male interacted with the post period in treated states is an instrument for a
+household’s betting deposits in the post-legalization period. We include household (i), state
+by quarter (st), and top male by quarter (mt) fixed effects. The instrument significantly
+predicts betting in the post period with a KP F-statistic of 42.
+23
+
+=== page 26 ===
+The second stage regression is defined as:
+𝑦 = 𝛽𝐵𝑒𝑡𝑠 ×̂𝑃𝑜𝑠𝑡 ×𝑇𝑟𝑒𝑎𝑡 +𝜒 +𝛾 +𝛿 +𝛼 +𝜖 , (4)
+𝑖𝑡 𝑖𝑡 𝑡 𝑠 𝑖𝑡 𝑖 𝑠𝑡 𝑚𝑡 𝑖𝑡
+where we instrument for betting deposits in the post period using Equation 3. 𝛽 represents
+the effect of betting $1 on the dollar amount of net investments. This 2SLS specifica-
+tion allows us to control for within-state time trends. Consequently, any concerns that the
+difference-in-differences estimates might be biased by differing time trends across treated
+and control states are alleviated in this setting.
+We report estimates using this 2SLS framework in columns (2) and (3) of Table 6. Col-
+umn (2) shows the reduced form estimate; the coefficient implies that online sports betting
+reduces net investment by $41 per quarter, similar to the difference-in-differences estimate
+in column (1). The 2SLS estimate, reported in column (3), indicates that $1 of online
+sports betting reduces net investments by $0.99. This result suggests that for the average
+household, sports betting entirely crowds out investment through equity brokerages.
+We next examine heterogeneity in investment substitution across financially constrained
+households. On one hand, because households who are financially constrained cannot afford
+to save much, it is possible that the substitution effects are less pronounced among these
+households. On the other hand, financially constrained households have fewer non-essential
+expenditures to cut and they bet a higher fraction of their income. As a result, savings
+displacement might be higher among these households. To explore this question, we return
+to the difference-in-differences framework specified in Equation 2.
+Table 7 shows that the effects of online sports betting on investment are concentrated
+among constrained households. For instance, Column (2) shows that low savings households
+24
+
+=== page 27 ===
+cut net investment by about 41% relative to the sample mean, or about 3 times more than
+the overall sample average. Consistent with this evidence, untabulated 2SLS estimates show
+that $1 of sports betting causes low-savings households to cut net investments by $3.07.
+These constrained households, already in relatively bad financial shape, are more likely to
+divert funds from their investment portfolios to betting activity.
+To determine whether the decline in equity investments stems from a simple substitution
+between “gambling-like” investment and sports betting, as predicted by Dorn et al. (2015)
+and Gao and Lin (2015), or from the displacement of savings-motivated investment, we
+separatelyexaminenetinvestmentsflowingintoRobinhood. Thesebrokerages, whichattract
+a younger and less financially sophisticated clientele, played significant roles in the meme-
+stock investing craze beginning with Gamestop in 2021. If online sports betting primarily
+substitutes for lottery-like financial investing and trading, we expect a disproportionately
+large decline in investments at these brokerages.
+In Column (4) of Table 7, we show that online sports betting significantly reduces net
+investments to Robinhood, with a drop exceeding 30% relative to the average investment in
+these brokerages. However, the dollar effect for Robinhood investments is an order of mag-
+nitude smaller than the overall dollar effect, indicating that the majority of affected dollars
+come from more traditional brokerages. Thus, the decline in net investments is not primar-
+ily driven by brokerages most often used by retail investors to gamble in the stock market.
+Similar to our overall estimate, households with low savings disproportionately cut deposits
+to Robinhood (column (5)); however, frequent overdrafters do not disproportionately cut
+these investments (column (6)).
+To test whether sports betting displaces savings, we measure net investments into Robo
+25
+
+=== page 28 ===
+Advisor brokerages, including Acorns, Betterment, and Wealthfront. These platforms allo-
+cate client investments into a diversified portfolio built from low-cost index funds, making
+them most suitable for long-term savings. Column (7) of Table 7 reports that online sports
+betting reduces net deposits to Robo Advisors by about 22% relative to the mean.25 More-
+over, constrained households reduce deposits to Robo Advisors by about twice as much as
+the full sample (columns (8) and (9)). Combined, the evidence in Table 7 shows that the de-
+cline in investments is not merely a reshuffling between one gambling activity (high-turnover
+retail trading) and another (sports betting). While some reshuffling occurs, online sports
+betting appears to substantially displace savings-motivated investing, with effects largest for
+constrained households.
+While our data have been shown to be representative of the broader population, our
+household-level analysis comprises only a slice of total U.S. households. In Appendix Ta-
+ble A.4, we re-run our experiment at the state-year level using tax filing information for the
+entire U.S. tax-paying population. We measure stock market participation with an indicator
+for whether the household reports capital gains or losses that year and measure financial
+constraints using an indicator variable for whether the household reports income in one of
+the bottom four AGI buckets (i.e., < $50,000). We find no effect on average stock market
+participation, but a significant relative reduction among financially constrained households.
+While this approach loses much of the granularity of our household-level analysis, it suggests
+that our findings generalize to alternative measures and to the broader population.
+25The results in Columns (2) and (3) of Appendix Table A.21 show that, like the overall dollar effect, the
+declines in deposits to FinTech brokerages and savings brokerages also grow over time.
+26
+
+=== page 29 ===
+5.3 Effects of betting on constrained households’ balance sheets
+We next examine a broader measure of household financial well-being: credit card bal-
+ances and available credit. Column (1) of Table 8 shows that following the legalization of
+sports betting, low-savings households increase credit card balances by about $368 relative
+to high savings households, an increase of about 8% relative to the mean. We find a similar
+magnitude in Column (2), though not statistically significant, for households with recent
+overdrafts. Alongside the increase in credit card balances, there is a concomitant reduction
+in available credit (Column (3)). In untabulated results, we also find that legalization sig-
+nificantly increases the probability that low savings households max out their credit cards.
+The propensity to incur higher credit card balances post-legalization suggests that sports
+betting induces some bettors to overextend themselves via high-cost borrowing.
+While we can only measure credit card balances for a subsample of households, we can
+measure quarterly credit card payments for our entire sample. In Columns (5) and (6) of
+Table 8, we show that constrained households reduce the amount of money they pay on their
+creditcardbills. Lowsavingshouseholdsreducetheirquarterlytotalcreditcardpaymentsby
+about $550 following legalization. When combined with the evidence that these households
+increase overall credit card debt, this reduction in payments suggests that increased access
+to sports betting exacerbates financial constraints of already constrained households. The
+reduction in quarterly payments could be a strategy to manage immediate cash flow needs,
+but it results in higher interest accrual and pushes constrained households further into debt.
+As an alternative measure of household balance sheet health, we measure the number
+of times that the household overdraws their bank account over the subsequent 4 quarters.
+27
+
+=== page 30 ===
+Because the number of overdrafts in a quarter is a sparsely populated count variable, we
+estimate this regression using Poisson pseudo-maximum likelihood (Correia, Guimara˜es, and
+Zylkin,2020). Theresults, showninColumns(7)and(8)ofTable8, showthatsportsbetting
+increases the number of times households overdraw their accounts in the future, particularly
+for constrained households. This increase in overdraft occurrences signals acute financial
+distress but also reflects a broader pattern of financial instability.
+Together, these results highlight several implications of sports betting on household fi-
+nancial health. The increase in credit card balances and reduction in available credit among
+low-savings households underscore the potential for online sports betting to aggravate fi-
+nancial stress. The reduced payments towards credit card bills, coupled with rising debt
+levels, indicate that these households do not merely reallocate funds but instead become
+more indebted. The increase in overdrafts further underscores the financial vulnerability of
+constrained households, suggesting that the financial risks of sports betting are dispropor-
+tionately borne by those least able to afford them.
+5.4 Impact of sports betting on other risk-taking
+To what extent does sports betting spill over into other forms of risk taking? In Table 9,
+we examine three types of risky transactions we can identify in our data: lottery play,
+online poker play, and investment in crypto currencies. We find that sports betting has a
+positive spillover effect on lottery play, particularly for those that frequently overdraw their
+accounts (Columns (1) and (2)). Households with recent overdrafts increase their lotto play
+by about 9% of a standard deviation. In contrast, sports betting does not appear to influence
+participation in online poker. The estimated effects are small and statistically insignificant
+28
+
+=== page 31 ===
+(see Columns (3) and (4)). The divergence in these gambling outcomes reveals that online
+sports betting does not uniformly affect all forms of online gambling.
+The observed increase in lottery play among frequent overdraft households raises con-
+cerns about the amplification of financial risk-taking behaviors. These households further
+jeopardize their financial stability by engaging in additional forms of gambling. The lack
+of spillover into online poker underscores the complex interactions and unique appeals of
+different gambling behaviors, indicating that policy responses and regulatory frameworks
+should consider the unique characteristics of different gambling activities.
+In Columns (5) and (6), we find a reduction in cryptocurrency investment following the
+legalization of sports betting, particularly among low savings households. This decrease is
+consistent with a reallocation of financial resources from high-risk investment opportunities,
+like cryptocurrencies, to sports betting, which parallels evidence in Dorn et al. (2015) and
+Gao and Lin (2015) showing that households substitute between “gambling-like” financial
+market trading and lottery play. Although the dollar decrease in crypto investments is much
+smaller than the dollar decrease in equity investments shown in Table 7, the effect on low
+savings households is a 59% decrease relative to the mean.
+5.5 Effects on consumption patterns
+Our evidence shows that sports betting increases betting activity, which, in turn, reduces
+investment rates. For financially constrained households, this behavior also increases debt
+burdens. An important remaining question is how sports betting affects overall household
+consumption. At the aggregate level, we find no evidence that sports betting alters total
+household spending. However, it does significantly shift the composition of spending. In
+29
+
+=== page 32 ===
+addition to the amounts spent on betting itself, households increase their expenditures on
+food and entertainment categories that likely complement the experience of watching and
+betting on live sports, while cutting back on spending in other non-betting categories.26
+These shifts in spending are even more pronounced among financially constrained house-
+holds. As shown in Table 10, sports betting leads these households to significantly increase
+their spending on cable, dining, and entertainment. These spending patterns highlight
+a lifestyle shift where sports betting inspires broader entertainment-related consumption.
+While such changes might seem benign on the surface, our earlier results indicate that con-
+strained households are likely funding this increased leisure spending through higher credit
+card debt and reduced long-term investments. For households already vulnerable to financial
+strain, this behavior further worsens their financial stability.
+6 Conclusion
+The legalization of sports betting has far-reaching consequences for household financial
+health. It increases credit card balances, reduces available credit, increases lottery play, and
+decreases net investments in financial markets. These effects are particularly pronounced
+among financially constrained households. Our findings suggest that while online sports
+betting may offer states a new source of revenue, it also exposes local residents — especially
+those already facing financial difficulties — to significant financial risks.
+Although more work is needed to understand the entertainment value of online sports
+bettingforconsumers, ourfindingsprovidevaluableinsightintothecostsassociatedwiththe
+currentlegalframework. Thesecostshighlightbenefitstoamorenuancedapproachtosports
+26See 2SLS estimates in Appendix Table A.26.
+30
+
+=== page 33 ===
+betting regulation — one that balances the economic and entertainment benefits against the
+increased financial vulnerability faced by households with less flexibility and greater chance
+of developing problematic gambling habits. Our evidence suggests that the online nature
+of sports betting plays a critical role in driving these negative financial outcomes. As a
+result, introducing additional frictions, such as requiring bettors to physically visit specific
+locations to place online bets, could help deter less informed or impulsive betting behavior
+and mitigate some of the adverse effects.
+Other regulatory efforts could further reduce the financial harms associated with sports
+betting while preserving access for households that enjoy betting on sports. For example,
+enhancingpricetransparencyandfosteringcompetitionforcomplexbetsthataredifficultfor
+consumers to value accurately may help curb the most problematic forms of gambling (Cal-
+ford, 2024). As the industry evolves, a deeper understanding of its financial impacts can help
+shape policies that protect vulnerable households while allowing responsible participation in
+this growing market.
+31
+
+=== page 34 ===
+References
+Aiello, D., S. R. Baker, T. Balyuk, M. Di Maggio, M. J. Johnson, and J. D. Kotter. 2023a. The
+Effects of Cryptocurrency Wealth on Household Consumption and Investment. Working Paper
+31445, National Bureau of Economic Research.
+Aiello, D., S. R. Baker, T. Balyuk, M. Di Maggio, M. J. Johnson, and J. D. Kotter. 2023b. Who
+Invests in Crypto? Wealth, Financial Constraints, and Risk Attitudes. Working Paper 31856,
+National Bureau of Economic Research.
+Barnea, A., H. Cronqvist, and S. Siegel. 2010. Nature or nurture: What determines investor
+behavior? Journal of Financial Economics 98:583–604.
+Borusyak, K., X. Jaravel, and J. Spiess. 2024. Revisiting event-study designs: robust and efficient
+estimation. Review of Economic Studies forthcoming.
+Briggs, J., D. Cesarini, E. Lindqvist, and R. O¨stling. 2021. Windfall gains and stock market
+participation. Journal of Financial Economics 139:57–83.
+Calford, E. 2024. Supernudge: A transparent pricing proposal for sports betting. Australian
+National University, College of Business and Economics Working paper,.
+Callaway, B., and P. H. Sant’Anna. 2021. Difference-in-Differences with multiple time periods.
+Journal of Econometrics 225:200–230.
+Chen, Y., A. Kumar, and C. Zhang. 2021. Searching for gambles: Gambling sentiment and stock
+market outcomes. Journal of Financial and Quantitative Analysis 56:2010–2038.
+Chen, Y., E. J. Podolski, S. G. Rhee, and M. Veeraraghavan. 2014. Local Gambling Preferences
+and Corporate Innovative Success. Journal of Financial and Quantitative Analysis 49:77–106.
+Cookson, J. A. 2018. When saving is gambling. Journal of Financial Economics 129:24–45.
+Correia, S., P. Guimar˜aes, and T. Zylkin. 2020. Fast Poisson estimation with high-dimensional
+fixed effects. The Stata Journal: Promoting communications on statistics and Stata 20:95–115.
+Dorn, A. J., D. Dorn, and P. Sengmueller. 2015. Trading as gambling. Management Science
+61:2376–2393.
+Dorn, D., and P. Sengmueller. 2009. Trading as entertainment? Management Science 55:591–603.
+Dowling, N., A. Suomi, A. Jackson, T. Lavis, J. Patford, S. Cockman, S. Thomas, M. Bellringer,
+J. Koziol-Mclain, M. Battersby, et al. 2016. Problem gambling and intimate partner violence: A
+systematic review and meta-analysis. Trauma, Violence, & Abuse 17:43–61.
+Gan, H., S.Lu, W.Lu, G.Niu, andY.Zhou.2023. Beautyandstockmarketparticipation. Journal
+of Banking & Finance 155:106994.
+Gao, X., and T.-C. Lin. 2015. Do individual investors treat trading as a fun and exciting gambling
+activity? Evidencefromrepeatednaturalexperiments. TheReviewofFinancialStudies 28:2128–
+2166.
+32
+
+=== page 35 ===
+Green,M.2022. WhyDidKansasLegalizeSportsBetting? TwoReasonsStandOut. Gambling.com
+July 23, 2022: https://www.idahostatesman.com/sports/article263032318.html.
+Grinblatt, M., and M. Keloharju. 2009. Sensation seeking, overconfidence, and trading activity.
+The Journal of Finance 64:549–578.
+Grinblatt, M., M. Keloharju, and J. Linnainmaa. 2011. IQ and stock market participation. Journal
+of Finance 66:2121–2164.
+Gross, D. B., and N. S. Souleles. 2002. Do liquidity constraints and interest rates matter for
+consumer behavior? Evidence from credit card data. Quarterly Journal of Economics 117:149–
+185.
+Hollenbeck, B., P. Larsen, and D. Proserpio. 2024. The Financial Consequences of Legalized Sports
+Gambling. Available at SSRN: 4903302 Working paper.
+Huang, J.-H., D. F. Jacobs, J. L. Derevensky, R. Gupta, and T. S. Paskus. 2007. Gambling and
+healthriskbehaviorsamongUScollegestudent-athletes: Findingsfromanationalstudy. Journal
+of Adolescent Health 40:390–397.
+Jadlow,J.W.,andJ.C.Mowen.2010. Comparingthetraitsofstockmarketinvestorsandgamblers.
+Journal of Behavioral Finance 11:67–81.
+Kaustia, M., and S. Torstila. 2011. Stock market aversion? Political preferences and stock market
+participation. Journal of Financial Economics 100:98–112.
+Kim, O. 2024. Credit and the Family: The Economic Consequences of Closing the Credit Gap of
+U.S. Couples. Working Paper, available at https://ssrn.com/abstract=3962414.
+Kormanyos,E.,T.Hanspal,andA.Hackethal.2023. Dogamblersinvestinlotterystocks? Working
+paper, SSRN 4307554.
+Kumar, A. 2009. Who gambles in the stock market? The Journal of Finance 64:1889–1933.
+Kumar, A., J. K. Page, and O. G. Spalt. 2011. Religious beliefs, gambling attitudes, and financial
+market outcomes. Journal of Financial Economics 102:671–708.
+Levitt, S. D. 2004. Why are Gambling Markets Organised so Differently from Financial Markets?
+The Economic Journal 114:223–246.
+Markiewicz, L., and E. U. Weber. 2013. Dospert’s gambling risk-taking propensity scale predicts
+excessive stock trading. Journal of Behavioral Finance 14:65–78.
+Petrotta, B. A. 2023. From Prohibition to Promotion: Framing and Sourcing the Legalization of
+Sports Betting in the US. Communication & Sport Forthcoming.
+Proimos,J.,R.H.DuRant,J.D.Pierce,andE.Goodman.1998. Gamblingandotherriskbehaviors
+among 8th-to 12th-grade students. Pediatrics 102:e23–e23.
+Statman, M. 2002. Lottery players/stock traders. Financial Analysts Journal 58:14–21.
+Sun, L., and S. Abraham. 2021. Estimating dynamic treatment effects in event studies with het-
+erogeneous treatment effects. Journal of econometrics 225:175–199.
+33
+
+=== page 36 ===
+Zhai, Z. W., G. L. Duenas, J. Wampler, and M. N. Potenza. 2020. Gambling, substance use and
+violence in male and female adolescents. Journal of Gambling Studies 36:1301–1324.
+34
+
+=== page 37 ===
+Figure 1. Legal Status of Sports Betting Across States. This figure shows the legal status of online
+sports betting in each of the 50 states plus the District of Columbia as of the third quarter of 2023. Online
+and Retail indicates states that allow betting both through online apps and at approved retail locations.
+OnlineOnly indicatesthatbettingisonlylegalthroughthroughonlineappssuchasDraftKingsandFanDuel.
+Retail/Online Onsite indicates that states allow online betting only when done in person at retail locations;
+in-person betting is also legal. Retail Only indicates that betting is only legal in-person at approved sports
+books.
+35
+
+=== page 38 ===
+Figure 2. Trends in Betting as a Fraction of Income. This figure shows the evolution of exposure
+to sports betting over the last decade. We split the sample into income terciles based on the household’s
+average income over the entire sample. We then calculate betting deposits to income in each month as the
+total sum of betting deposits divided by the total sum of income within each income tercile.
+36
+
+=== page 39 ===
+(a) TotalNumberofDepositstoSportsBettingApps (b) ProbabilityofContinuingtoBetOverTime
+(c) SizeofBettingDepositsOverTime
+Figure 3. Trends in Betting Behavior. This figure describes the evolution of betting behavior for
+households that make at least one deposit to online sports betting apps such as DraftKing or FanDuel while
+living in states with legal online sports betting during the first 12 quarters following legalization. Panel (a)
+showsthedistributionofahousehold’stotalnumberdepositstoonlinesportsbettingapps. Panel(b)shows
+thepersistenceofhousehold-levelonlinesportsbettingbehaviorovertime. Thefirstquarterthatahousehold
+deposits money to an online sports betting app is defined as 𝑡 =0; we then track up to 12 quarters following
+this quarter. In each of these quarters following the first bet, a household is defined as a bettor if they make
+at least one deposit to a sports betting app in the rolling forward 4 quarters. The figure graphs the average
+probability of being a bettor in each event-quarter across this sample. Panel (c) shows the average size of
+household-level online sports betting deposits over time. The first quarter that a household deposits money
+to an online sports betting app is defined as 𝑡 = 0; we then track up to 12 quarters following this quarter.
+In each of the quarters following the first bet, we divide the household’s total quarterly deposits to sports
+betting apps by the amount the household deposited in their first betting quarter (i.e. deposits at 𝑡 = 0).
+The figure graphs the average betting deposits to first deposit in each event-quarter across this sample.
+37
+
+=== page 40 ===
+Figure 4. Parallel Trends in Betting around Sports Betting Legalization. This figure presents
+event-timecoefficientsoftheeffectofthelegalizationofsportsbettingonsportsbets(e.g.,depositstosports
+betting apps). The x-axis indicates quarters surrounding the legalization of sports betting, where 𝑡 = 0
+represents the quarter during which online betting was first possible. The y-axis shows the average causal
+effectoflegalizationonquarterlysportsbettingdeposits. Weestimatethedifference-in-differenceevent-time
+coefficients following Borusyak et al. (2024) to account for the staggered rollout of the legalization of state
+betting. The shaded region represents the 95% confidence interval.
+38
+
+=== page 41 ===
+Figure 5. Parallel Trends in Net Investment around Sports Betting Legalization. This figure
+presents event-time coefficients of the effect of the legalization of sports betting on net investment (e.g.,
+deposits less withdrawals at equity brokerages). The x-axis indicates quarters surrounding the legalization
+of sports betting, where 𝑡 = 0 represents the quarter during which online betting was first possible. The
+y-axisshowstheaveragecausaleffectoflegalizationonquarterlynetinvestment. Weestimatethedifference-
+in-difference event-time coefficients following Borusyak et al. (2024) to account for the staggered rollout of
+the legalization of state betting. The shaded region represents the 95% confidence interval.
+39
+
+=== page 42 ===
+Table 1
+Bettor vs. Non-Bettor Characteristics
+This table presents summary statistics for bettors and non-bettors. Bettors are defined as a household that
+deposits any amount of money to an online sports betting app at some point during our sample. Variable
+definitions are found in Appendix Table A.1. We aggregate the underlying data to the household level and
+then report means and standard deviations (in parenthesis) for each indicated subsample.
+Bettor Status
+Non-bettor Bettor Overall
+Pr(Ever Bet) 0 1 0.0765
+(0) (0) (0.266)
+Avg. Quarterly Income 20,107 19,388 20,052
+(15,033) (15,192) (15,046)
+Pr(Ever Invest) 0.497 0.576 0.503
+(0.5) (0.494) (0.5)
+Avg. Quarterly Investment 413 356 408
+(1,726) (1,459) (1,707)
+Pr(Ever Play Poker) 0.0052 0.0242 0.00666
+(0.0719) (0.154) (0.0813)
+Pr(Ever Play Lotto) 0.0343 0.131 0.0417
+(0.182) (0.337) (0.2)
+Pr(Ever Buy Crypto) 0.131 0.284 0.143
+(0.338) (0.451) (0.35)
+Pr(Below Median Savings) 0.47 0.494 0.472
+(0.345) (0.338) (0.345)
+Pr(Ever Overdraw) 0.177 0.414 0.195
+(0.382) (0.493) (0.396)
+CC Debt to Income 0.237 0.22 0.236
+(0.369) (0.31) (0.366)
+Available Credit to Income 0.696 0.554 0.688
+(0.906) (0.764) (0.899)
+Received Child Tax Credit (%) 14.0 25.4 14.9
+(34.7) (43.5) (35.6)
+Observations 230,171
+40
+
+=== page 43 ===
+Table 2
+Bettor Characteristics by Betting Intensity
+This table presents summary statistics for the subsample of bettors, defined as a household that deposits
+any amount of money to an online sports betting app at some point during our sample. Variable definitions
+are found in Appendix Table A.1. Betttors are split into terciles of betting intensity based the total amount
+they deposit to sports betting apps. We aggregate the underlying data to the household level and then
+report means and standard deviations (in parenthesis) for each indicated subsample.
+Total Betting Deposits
+1st Terc 2nd Terc 3rd Terc Total
+Total Betting Deposits 25.8 162 6,816 2,302
+(14.6) (80.3) (17,494) (10,514)
+Avg. Quarterly Betting Deposits 1.39 8.53 299 102
+(1.5) (8.75) (760) (457)
+Avg. Bets to Income (%) 0.0841 0.185 1.74 0.662
+(1.25) (.919) (3.37) (2.26)
+Avg. Quarterly Income 18,477 20,023 19,689 19,388
+(14,028) (15,642) (15,833) (15,192)
+Avg. Quarterly Investment 302 394 374 356
+(1,293) (1,595) (1,476) (1,459)
+Pr(Below Median Savings) 0.514 0.479 0.487 0.494
+(0.341) (0.337) (0.336) (0.338)
+Pr(Ever Overdraw) 0.377 0.398 0.469 0.414
+(0.485) (0.489) (0.499) (0.493)
+CC Debt to Income 0.209 0.224 0.228 0.22
+(0.281) (0.323) (0.326) (0.31)
+Available Credit to Income 0.501 0.583 0.581 0.554
+(0.66) (0.827) (0.795) (0.764)
+Received Child Tax Credit (%) 27.1 26.7 22.2 25.4
+(44.4) (44.2) (41.6) (43.5)
+Observations 17,614
+41
+
+=== page 44 ===
+Table 3
+Household Characteristics by Savings Status
+This table presents summary statistics for bettors and non-bettors split by savings status. Below (above)
+mediansavingshouseholdsaredefinedasthosehouseholdswhohavemore(less)than50%oftheirquarterly
+observations in a low savings status. Low savings status is assigned to a household-quarter when the house-
+hold’s rolling 4-quarter net savings flow (e.g., income less spending) is below the sample median. Bettors
+aredefinedasahouseholdthatdepositsanyamountofmoneytoanonlinesportsbettingappatsomepoint
+duringoursample. VariabledefinitionsarefoundinAppendixTableA.1. Weaggregatetheunderlyingdata
+to the household level and then report means and standard deviations (in parenthesis) for each indicated
+subsample.
+Below Median Savings Above Median Savings
+Bettor Non-Bettor Total Bettor Non-Bettor Total
+Total Betting Deposits 2,119 0 173 2,476 0 179
+(9,187) (0) (2,688) (11,633) (0) (3,192)
+Avg. Quarterly Betting Deposits 91.2 0 7.44 112 0 8.06
+(379) (0) (111) (521) (0) (143)
+Avg. Bets to Income (%) 0.848 0 0.0693 0.485 0 0.0351
+(2.64) (0) (0.791) (1.8) (0) (0.501)
+Avg. Quarterly Income 12,397 12,961 12,915 26,026 26,055 26,053
+(9,932) (10,508) (10,463) (16,304) (15,630) (15,679)
+Avg. Quarterly Investment 87.2 85.1 85.3 612 685 680
+(778) (1,013) (995) (1,855) (2,107) (2,090)
+Pr(Ever Overdraw) 0.466 0.215 0.236 0.365 0.145 0.161
+(0.499) (0.411) (0.424) (0.482) (0.352) (0.367)
+CC Debt to Income 0.308 0.356 0.353 0.168 0.163 0.163
+(0.408) (0.483) (0.479) (0.217) (0.247) (0.245)
+Available Credit to Income 0.686 0.883 0.873 0.474 0.578 0.572
+(1.01) (1.21) (1.2) (.554) (.615) (.612)
+Received Child Tax Credit (%) 19.8 11.5 12.2 30.7 16.1 17.2
+(39.8) (32) (32.7) (46.1) (36.8) (37.7)
+Observations 8,579 96,554 105,133 9,035 116,003 125,038
+42
+
+=== page 45 ===
+Table 4
+Summary Statistics
+Thistablepresentssummarystatisticsforourregressionsample. VariabledefinitionsarefoundinAppendix
+Table A.1. The underlying data is a household quarterly panel made up of 230,171 households from the
+fourth quarter of 2012 to the third quarter of 2023.
+Obs. Mean Std. Dev. Q25 Q50 Q75
+Sports Bets 4,902,383 8.27 235.37 0 0 0
+Bets to Income 4,827,919 0.001 0.012 0 0 0
+Net Invest 4,902,383 387.80 3,013 0 0 0
+Net Robinhood 4,902,383 12.04 385 0 0 0
+Net Robo Advisor 4,902,383 8.04 247 0 0 0
+CC Debt 651,395 4,592 6,849 319 2,062 6,504
+Available Credit 610,646 14,116 13,634 3,605 11,494 20,532
+CC Payments 4,902,383 3,147 5,746 0 750 3,450
+No. Future Overdrafts 4,674,045 0.53 3.40 0 0 0
+Lotto 4,902,383 0.94 31.30 0 0 0
+Poker 4,902,383 0.10 10.19 0 0 0
+Crypto 4,902,383 36.20 685 0 0 0
+Restaurants 4,902,383 1,134 1,106 336 813 1,568
+Cable/Telecom 4,902,383 606 574 106 478 927
+Entertain/Travel 4,902,383 884 1,253 138 423 1,058
+Other Non-bet Spending 4,902,383 13,000 12,308 4,831 9,488 16,969
+Low Savings 4,902,383 0.48 0.50 0 0 1
+Overdraft 4,902,383 0.10 0.29 0 0 0
+Quarterly Income 4,902,383 20,070 18,061 7,997 14,972 26,411
+Stimulus Payments 4,902,383 111 629 0 0 0
+43
+
+=== page 46 ===
+Table 5
+Legalization leads to increased betting
+This table reports estimates of the effect of the legalization of sports betting on betting behavior. The
+underlyingdataareaquarterlyhousehold-levelpanel. Weuseatwo-wayfixedeffectsdifference-in-differences
+(TWFE) regression to estimate the effect of legalizing sports betting. Post × Treat is an indicator equal to
+one for quarters following the launch of online sports betting in states that legalize betting. Low Savings
+is an indicator for household-quarters where the total savings flow over the prior 4 quarters is less than
+the sample median. Overdraft is an indicator for household-quarters where there is at least one overdraft
+over the prior 4 quarters. Columns (1)–(3) estimate the effect of legalization on quarterly deposits to sports
+betting apps, while columns (4) and (5) show the effect on quarterly deposits to sports betting apps divided
+by quarterly income. The regressions include controls for quarterly income and the amount received from
+stimulus payments in the quarter in addition to household, state, and year-quarter fixed effects. Variable
+definitions are found in Appendix Table A.1. Reported 𝑡-statistics in parentheses are heteroskedasticity-
+robust and clustered at the household and state by year-quarter levels. ***, **, and * indicate statistical
+significance at the 1%, 5%, and 10% levels, respectively.
+(1) (2) (3) (4) (5)
+Sports Bets Sports Bets Sports Bets Bets to Income Bets to Income
+Post × Treat 24.91*** 32.23*** 18.42*** 0.00121*** 0.00106***
+(10.01) (10.79) (9.08) (10.92) (10.88)
+Post × Treat × Low Savings -16.43*** 0.000383***
+(-7.73) (4.27)
+Post × Treat × Overdraft 60.39*** 0.00295***
+(7.45) (8.59)
+Low Savings 0.769* -0.000126***
+(1.72) (-5.53)
+Overdraft -9.243*** -0.000481***
+(-4.94) (-6.04)
+Controls Yes Yes Yes Yes Yes
+Household FE Yes Yes Yes Yes Yes
+State FE Yes Yes Yes Yes Yes
+Year-quarter FE Yes Yes Yes Yes Yes
+Observations 4,902,383 4,902,383 4,902,383 4,827,688 4,827,688
+Adjusted 𝑅2 0.273 0.273 0.273 0.231 0.232
+44
+
+=== page 47 ===
+Table 6
+Betting Causes Households to Invest Less
+This table reports estimates of the effect of the legalization of sports betting on investment (i.e., invest-
+ment deposits less withdrawals). Column (1) reports the results from a two-way fixed effects difference-
+in-differences (TWFE) regression, where Post × Treat is an indicator variable equal to one for quarters
+following the launch of online sports betting in states that legalize betting. Columns (2) and (3) show
+estimates from reduced form and 2SLS regressions. Top Male is an indicator variable equal to one for
+households in the top quartile of transactions at male-focused retailers. The sample is limited to house-
+holds for whom we can identify the gender composition of their total spending. We use Top Male × Post
+× Treat as an instrument for deposits to sports betting apps post-legalization (i.e., Bets × Post × Treat).
+The regressions include controls for quarterly income and the amount received from stimulus payments in
+the quarter. The difference-in-differences regressions include household, state, and year-quarter FEs. The
+reduced form and 2SLS regressions include household, state by year-quarter, and top male by year-quarter
+fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑡-statistics in parentheses are
+heteroskedasticity-robust and clustered at the household and state by year-quarter levels. ***, **, and *
+indicate statistical significance at the 1%, 5%, and 10% levels, respectively.
+Diff-in-Diff Reduced Form 2SLS
+(1) (2) (3)
+Net Invest Net Invest Net Invest
+Post × Treat -53.05***
+(-4.41)
+Top Male × Post × Treat -41.21**
+(-2.17)
+Bets × Post × Treat -0.986**
+(-2.08)
+Controls Yes Yes Yes
+Household FE Yes Yes Yes
+State FE Yes No No
+Year-quarter FE Yes No No
+State by Quarter FE No Yes Yes
+Top Male by Quarter FE No Yes Yes
+Observations 4,902,383 3,231,790 3,231,790
+Adjusted 𝑅2 0.245 0.242 0.003
+KP F Stat 42.12
+45
+
+=== page 48 ===
+Table 7
+The Effects are Concentrated in Constrained Households
+This table shows how the estimates of the effect of the legalization of sports betting on investment vary by the extent to which households are
+constrained. The underlying data are a quarterly household-level panel. We use a two-way fixed effects difference-in-differences (TWFE) regression
+to estimate the effect of legalizing sports betting. Post × Treat is an indicator equal to one for quarters following the launch of online sports betting
+in states that legalize betting. Low Savings is an indicator for household-quarters where the total savings flow over the prior 4 quarters is less than
+the sample median. Overdraft is an indicator for household-quarters where there is at least one overdraft over the prior 4 quarters. The dependent
+variable in columns (1)–(3) is net investment (e.g., investment deposits less withdrawals), the dependent variable in columns (4)–(6) is the subset of
+net investments deposits to Robinhood, and the dependent variable in columns (7)–(9) is the subset of investment deposits made to Robo Advisors
+brokerages. The regressions include controls for quarterly income and the amount received from stimulus payments in the quarter in addition to
+household, state, and year-quarter fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑡-statistics in parentheses are
+heteroskedasticity-robust and clustered at the household and state by year-quarter levels. ***, **, and * indicate statistical significance at the 1%,
+5%, and 10% levels, respectively.
+Net Invest Net Robinhood Net Robo Advisor
+(1) (2) (3) (4) (5) (6) (7) (8) (9)
+Post × Treat -53.05*** 27.62** -38.15*** -4.034*** -0.157 -4.282*** -1.781*** -0.387 -1.409**
+(-4.41) (2.01) (-3.15) (-3.44) (-0.10) (-3.54) (-2.64) (-0.47) (-2.04)
+Post × Treat × Low Savings -185.4*** -9.047*** -3.062***
+(-11.43) (-4.88) (-4.22)
+Post × Treat × Overdraft -137.4*** 2.169 -3.516***
+(-9.29) (0.87) (-3.92)
+Low Savings -86.52*** -7.265*** 1.746***
+(-16.00) (-10.04) (3.61)
+Overdraft 42.46*** -3.158** -0.648
+(5.53) (-2.57) (-0.85)
+Controls Yes Yes Yes Yes Yes Yes Yes Yes Yes
+Household FE Yes Yes Yes Yes Yes Yes Yes Yes Yes
+State FE Yes Yes Yes Yes Yes Yes Yes Yes Yes
+Year-quarter FE Yes Yes Yes Yes Yes Yes Yes Yes Yes
+Observations 4,902,383 4,902,383 4,902,383 4,902,383 4,902,383 4,902,383 4,902,383 4,902,383 4,902,383
+Adjusted 𝑅2 0.245 0.245 0.245 0.077 0.078 0.078 0.253 0.253 0.253
+46
+
+=== page 49 ===
+Table 8
+Betting Leads Low Savings Households to Lever Up
+This table reports estimates of the effect of the legalization of sports betting on household debt. The underlying data are a quarterly household-level
+panel. We use a two-way fixed effects difference-in-differences (TWFE) regression to estimate the effect of legalizing sports betting. Post × Treat is
+an indicator equal to one for quarters following the launch of online sports betting in states that legalize betting. Low Savings is an indicator for
+household-quarters where the total savings flow over the prior 4 quarters is less than the sample median. Overdraft is an indicator for household-
+quarters where there is at least one overdraft over the prior 4 quarters. The dependent variable in columns (1) and (2) is total credit card debt.
+The dependent variable in columns (3) and (4) is the amount of credit households have available across all credit cards. The dependent variable in
+columns (5) and (6) is the total amount that the household pays on their credit card bill over the quarter. The dependent variable in columns (7)
+and(8)isthenumberoftimesthehouseholdwilloverdrawtheirbankaccountsinthefollowing4quarters. Columns(1)–(6)areestimatedusingOLS
+regressions, while columns (7) and (8) are estimated using Poisson pseudo-maximum likelihood regressions as described in Correia et al. (2020). The
+regressions include controls for quarterly income and the amount received from stimulus payments in the quarter in addition to household, state, and
+year-quarterfixedeffects. VariabledefinitionsarefoundinAppendixTableA.1. Reported𝑡-statisticsinparenthesesareheteroskedasticity-robustand
+clusteredatthehouseholdandstate byyear-quarterlevels. ***, **, and*indicatestatisticalsignificance atthe1%, 5%, and10%levels, respectively.
+(1) (2) (3) (4) (5) (6) (7) (8)
+CCDebt CCDebt AvailableCredit AvailableCredit CCPayments CCPayments FutureOverdrafts FutureOverdrafts
+Post×Treat -107.1** 24.19 48.38 -64.62 334.9*** -2.501 0.0694** -0.0326
+(-2.02) (0.47) (0.59) (-0.84) (9.66) (-0.11) (2.48) (-0.66)
+Post×Treat×LowSavings 368.4*** -316.3*** -889.9*** 0.0612***
+(5.63) (-3.47) (-14.15) (2.62)
+Post×Treat×Overdraft 328.0 -289.0 -381.6*** 0.164***
+(1.28) (-0.73) (-10.25) (2.86)
+LowSavings 769.7*** -533.1*** -879.1*** -0.0173
+(32.37) (-15.95) (-57.70) (-1.53)
+Overdraft 216.0* -247.4 -4.975 0.505***
+(1.84) (-1.42) (-0.32) (23.43)
+Controls Yes Yes Yes Yes Yes Yes Yes Yes
+HouseholdFE Yes Yes Yes Yes Yes Yes Yes Yes
+StateFE Yes Yes Yes Yes Yes Yes Yes Yes
+Year-quarterFE Yes Yes Yes Yes Yes Yes Yes Yes
+Observations 641,694 641,694 600,923 600,923 4,902,383 4,902,383 916,677 916,677
+Adjusted𝑅2 0.677 0.675 0.862 0.862 0.677 0.672
+47
+
+=== page 50 ===
+Table 9
+The Effects of Sports Betting on Other Risk Taking
+This table reports estimates of the effect of the legalization of sports betting on other forms of risk-taking.
+The underlying data are a quarterly household-level panel. We use a two-way fixed effects difference-in-
+differences(TWFE)regressiontoestimatetheeffectoflegalizingsportsbetting. Post × Treat isanindicator
+equal to one for quarters following the launch of online sports betting in states that legalize betting. Low
+Savings is an indicator for household-quarters where the total savings flow over the prior 4 quarters is
+less than the sample median. Overdraft is an indicator for household-quarters where there is at least one
+overdraft over the prior 4 quarters. The dependent variable in columns (1) and (2) is total lottery spending.
+The dependent variable in columns (3) and (4) is total spending on online poker. The dependent variable
+in columns (5) and (6) is the amount that the household deposits to crypto brokerages (e.g., Coinbase).
+The regressions include controls for quarterly income and the amount received from stimulus payments in
+the quarter in addition to household, state, and year-quarter fixed effects. Variable definitions are found in
+Appendix Table A.1. Reported 𝑡-statistics in parentheses are heteroskedasticity-robust and clustered at the
+household and state by year-quarter levels. ***, **, and * indicate statistical significance at the 1%, 5%,
+and 10% levels, respectively.
+(1) (2) (3) (4) (5) (6)
+Lotto Lotto Poker Poker Crypto Crypto
+Post × Treat 1.138*** 0.874*** 0.0447 0.0298 -4.747 -12.15***
+(4.93) (4.23) (0.82) (0.85) (-1.39) (-3.60)
+Post × Treat × Low Savings -0.132 -0.0125 -16.57***
+(-0.70) (-0.24) (-5.13)
+Post × Treat × Overdraft 1.881*** 0.0875 -2.547
+(3.43) (0.66) (-0.74)
+Low Savings 0.230*** -0.00293 18.02***
+(3.81) (-0.16) (11.65)
+Overdraft -0.178 -0.0116 5.690***
+(-1.00) (-0.31) (3.01)
+Controls Yes Yes Yes Yes Yes Yes
+Household FE Yes Yes Yes Yes Yes Yes
+State FE Yes Yes Yes Yes Yes Yes
+Year-quarter FE Yes Yes Yes Yes Yes Yes
+Observations 4,902,383 4,902,383 4,902,383 4,902,383 4,902,383 4,902,383
+Adjusted 𝑅2 0.350 0.350 0.243 0.243 0.142 0.142
+48
+
+=== page 51 ===
+Table 10
+The Effects of Sports Betting on Consumption
+This table reports estimates of the effect of the legalization of sports betting on other consumption. The
+underlyingdataareaquarterlyhousehold-levelpanel. Weuseatwo-wayfixedeffectsdifference-in-differences
+(TWFE) regression to estimate the effect of legalizing sports betting. Post × Treat is an indicator equal to
+one for quarters following the launch of online sports betting in states that legalize betting. Low Savings
+is an indicator for household-quarters where the total savings flow over the prior 4 quarters is less than
+the sample median. Overdraft is an indicator for household-quarters where there is at least one overdraft
+over the prior 4 quarters. The dependent variable in columns (1) and (2) is total spending on restaurants.
+The dependent variable in columns (3) and (4) is total spending on cable and telecommunication. The
+dependent variable in columns (5) and (6) is total spending on entertainment and travel. The regressions
+include controls for quarterly income and the amount received from stimulus payments in the quarter in
+addition to household, state, and year-quarter fixed effects. Variable definitions are found in Appendix
+Table A.1. Reported 𝑡-statistics in parentheses are heteroskedasticity-robust and clustered at the household
+and state by year-quarter levels. ***, **, and * indicate statistical significance at the 1%, 5%, and 10%
+levels, respectively.
+(1) (2) (3) (4) (5) (6)
+Cable/ Cable/ Entertain/ Entertain/
+Restaurants Restaurants Telecom Telecom Travel Travel
+Post × Treat 27.48*** 61.79*** 31.89*** 40.34*** 62.12*** 73.87***
+(2.96) (6.52) (6.61) (8.15) (5.55) (6.81)
+Post × Treat × Low Savings 100.1*** 25.16*** 47.93***
+(14.51) (10.47) (6.62)
+Post × Treat × Overdraft 84.88*** 26.63*** 71.89***
+(8.05) (5.56) (6.75)
+Low Savings 47.90*** -1.666 93.26***
+(19.31) (-1.57) (31.97)
+Overdraft -24.52*** 17.17*** -9.402**
+(-5.59) (8.63) (-2.29)
+Controls Yes Yes Yes Yes Yes Yes
+Household FE Yes Yes Yes Yes Yes Yes
+State FE Yes Yes Yes Yes Yes Yes
+Year-quarter FE Yes Yes Yes Yes Yes Yes
+Observations 4,902,383 4,902,383 4,902,383 4,902,383 4,902,383 4,902,383
+Adjusted 𝑅2 0.601 0.600 0.665 0.665 0.457 0.456
+49
+
+=== page 52 ===
+Internet Appendix
+50
+
+=== page 53 ===
+Table A.1
+Definition of Variables
+This table provides definitions for the variables used in our analysis. Unless otherwise noted, the source for
+all variables is Yodlee transaction data and the variables are constructed based on the authors’ calculations.
+Variable Definition
+Dependent Variables
+Sports Bets Total quarterly household deposits to online sports betting apps such
+as DraftKings or FanDuel.
+Bets to Income Total quarterly household deposits to online sports betting apps di-
+vided by quarterly income.
+Net Invest Totalquarterlyhouseholddepositstopost-taxbrokerageaccountsless
+withdrawals from these accounts.
+Net Robinhood TotalquarterlyhouseholddepositstoRobinhoodlesswithdrawalsfrom
+these accounts.
+Net Robo Advisor Total quarterly household deposits to Robo Advisor brokerage ac-
+counts (Acorns, Betterment, and Wealthfront) less withdrawals from
+these accounts.
+CC Debt Total credit card balance as of the end of the quarter, summed across
+allofthehousehold’screditcards. Balancesareextrapolatedbasedon
+observablecreditcardflowsfromtwopointintimesnapshotsofcredit
+card balances.
+Available Credit Total dollars of available credit as of the end of the quarter, summed
+across all of the household’s credit cards. Available credit is extrap-
+olated based on observable credit card flows from two point in time
+snapshots of credit card balances.
+CC Payments Total quarterly household payments to credit card companies.
+Future Overdrafts Number of times that the household will overdraw any of their bank
+accounts in the next 4 quarters.
+Lotto Total quarterly household spending on lottery tickets.
+Poker Total quarterly household spending on online poker games.
+Crypto Total quarterly household deposits to crypto brokerages (e.g., Coin-
+base, Gemini, etc.).
+Restaurants Totalquarterlyhouseholdspendingontransactionscategorizedbydata
+provider as restaurants.
+Cable/Telecom Totalquarterlyhouseholdspendingontransactionscategorizedbydata
+provider as cable or telecommunications.
+Entertain/Travel Totalquarterlyhouseholdspendingontransactionscategorizedbydata
+provider as entertainment or travel.
+Control Variables
+Treat Indicator variable equal to one if the household currently lives in a
+statethatlegalizesonlinesportsbettingatsomepointoveroursample
+(throughSeptember2023). Alistofstatesthatlegalizeonlinebetting
+is available in Appendix Table A.2.
+Post Indicator variable equal to one for quarters following the launch of
+online sports betting for households living in a state with legal online
+sportsbetting. LegalizationdatesareavailableinAppendixTableA.2.
+Low Savings Quarterly indicator variable equal to one if the household’s total sav-
+ings flow over the prior 4 quarters is below the sample median. We
+calculate savings flows as total income minus total spending.
+Overdraft Quarterly indicator variable equal to one if the household overdrew
+any of their bank accounts at least one time in the prior 4 quarters.
+51
+
+=== page 54 ===
+Variable Definition
+Control Variables Cont.
+Quarterly Income Totalhouseholdquarterlyincome,definedassalaryplusotherincome
+plus deposits.
+Stimulus Payments Total household quarterly COVID-19 stimulus payments, including
+any child tax credits received.
+Household Characteristics
+Pr(Ever Bet) Indicator variable equal to one if the household ever deposits money
+to a sports betting app during our sample period.
+Avg. quarterly Income Averagequarterlyhouseholdincomeacrossallquartersthatthehouse-
+hold appears in our sample period.
+Pr(Ever Invest) Indicator variable equal to one if the household ever deposits money
+to a post-tax brokerage account during our sample period.
+Avg. quarterly Investment Average quarterly household deposits to post-tax brokerage accounts
+across all quarters that the household appears in our sample period.
+Pr(Ever Play Poker) Indicator variable equal to one if the household ever spends money on
+online poker sites during our sample period.
+Pr(Ever Play Lotto) Indicator variable equal to one if the household ever spends money
+on lottery tickets during our sample period, primarily identified from
+online lottery ticket purchases.
+Pr(Ever Buy Crypto) Indicator variable equal to one if the household ever deposits money
+to a crypto brokerage account during our sample period.
+Pr(Below Median Savings) Averagepercentageofquartersthatthehouseholdhasalagged4quar-
+ter savings flow less than the sample median.
+Pr(Ever Overdraw) Indicator variable equal to one if the household ever overdraws their
+bank accounts during our sample period.
+CC Debt to Income Averageendofquarterhouseholdcreditcardbalancedividedbyaver-
+age quarterly income.
+Available Credit to Income Average end of quarter dollars of available credit across all household
+credit cards divided by average quarterly income.
+Received Child Tax Credit Indicator variable equal to one if the household recieves any amount
+of Covid stimulus or child tax credit.
+Bettor Characteristics
+Total Betting Deposits Totalhouseholddepositstoonlinesportsbettingappsoveroursample
+period.
+Avg. Quarterly Betting Deposits Averagequarterlydepositstoonlinesportsbettingappsoveroursam-
+ple period.
+Avg. Bets to Income (%) Quarterly deposits to online sports betting apps over our sample pe-
+riod, divided by quarterly income, averaged at the household level
+across our sample.
+52
+
+=== page 55 ===
+Table A.2
+Sports Betting Legalization Dates
+Thistableshowsthelegalstatusofsportsbettingbystate. Stateshavelegalizedsportsbettingonlyatretail
+locations, onlythroughonlineapps, orthroughbothmethodsasindicated. NotethatMississippi, Montana,
+and Washington allow online betting, but only when physically on the premises of a retail location. For our
+purposes, we consider these states as not allowing online betting. Launch dates represent the first date on
+which bets could actually be placed. Our experiment is based on the online launch date of sports betting
+in states for which it is legal to bet through online apps. Our sample includes all states that launch online
+sports betting prior to September 2023.
+State Online Betting Retail Betting Online Launch Retail Launch
+Arizona YES YES 9/9/2021 9/9/2021
+Arkansas YES YES 3/6/2022 7/1/2019
+Colorado YES YES 5/1/2020 6/17/2020
+Connecticut YES YES 10/19/2021 9/30/2021
+Delaware YES YES 12/27/2023 6/5/2018
+Florida YES YES 11/7/2023 12/7/2023
+Illinois YES YES 3/5/2022 3/9/2020
+Indiana YES YES 10/3/2019 9/1/2019
+Iowa YES YES 8/15/2019 8/15/2019
+Kansas YES YES 9/1/2022 9/1/2022
+Kentucky YES YES 9/28/2023 9/7/2023
+Louisiana YES YES 1/28/2022 10/6/2021
+Maine YES YES 5/2/2022 5/2/2022
+Maryland YES YES 11/23/2022 12/9/2021
+Massachusetts YES YES 3/10/2023 1/31/2023
+Michigan YES YES 1/22/2021 3/11/2020
+Mississippi NO YES — 8/1/2018
+Montana NO YES — 3/11/2020
+Nebraska NO YES — 6/22/2023
+Nevada YES YES 1/1/2010 1/1/1949
+New Hampshire YES YES 12/30/2019 8/12/2020
+New Jersey YES YES 8/1/2018 6/14/2018
+New Mexico NO YES — 10/16/2018
+New York YES YES 1/8/2022 7/16/2019
+North Carolina YES YES 3/11/2024 3/18/2021
+North Dakota NO YES — 6/23/2021
+Ohio YES YES 1/1/2023 1/1/2023
+Oregon YES YES 8/27/2019 8/27/2019
+Pennsylvania YES YES 5/1/2019 11/15/2018
+Rhode Island YES YES 9/14/2019 11/26/2018
+South Dakota NO YES — 9/9/2021
+Tennessee YES NO 11/1/2020 —
+Vermont YES NO 1/11/2024 —
+Virginia YES YES 1/21/2021 1/21/2021
+Washington NO YES — 9/9/2021
+District of Columbia YES YES 5/28/2020 8/31/2020
+West Virginia YES YES 12/1/2018 9/1/2018
+Wisconsin NO YES — 11/31/2021
+Wyoming YES YES 9/1/2021 9/1/2021
+53
+
+=== page 56 ===
+Table A.3
+Legalization Leads to Increased Net Betting
+This table reports estimates of the effect of the legalization of sports betting on net betting behavior. The
+underlyingdataareaquarterlyhousehold-levelpanel. Weuseatwo-wayfixedeffectsdifference-in-differences
+(TWFE) regression to estimate the effect of legalizing sports betting. Post × Treat is an indicator equal to
+one for quarters following the launch of online sports betting in states that legalize betting. Low Savings is
+an indicator for household-quarters where the total savings flow over the prior 4 quarters is less than the
+sample median. Overdraft is an indicator for household-quarters where there is at least one overdraft over
+the prior 4 quarters. Columns (1)–(3) estimate the effect of legalization on net quarterly deposits to sports
+betting apps (e.g., deposits less withdrawals), while columns (4) and (5) show the effect on net quarterly
+deposits to sports betting apps divided by quarterly income. The regressions include controls for quarterly
+income and the amount received from stimulus payments in the quarter in addition to household, state, and
+year-quarter fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑡-statistics in
+parentheses are heteroskedasticity-robust and clustered at the household and state by year-quarter levels.
+***, **, and * indicate statistical significance at the 1%, 5%, and 10% levels, respectively.
+(1) (2) (3) (4) (5)
+Net Bets Net Bets Net Bets Net Bets to Income Net Bets to Income
+Post × Treat 13.15*** 16.67*** 9.649*** 0.000710*** 0.000664***
+(9.72) (10.45) (8.77) (10.34) (10.94)
+Post × Treat × Low Savings -7.901*** 0.000344***
+(-6.94) (5.08)
+Post × Treat × Overdraft 32.57*** 0.00183***
+(7.57) (7.82)
+Low Savings 0.541** -0.0000643***
+(2.12) (-4.10)
+Overdraft -4.835*** -0.000297***
+(-4.52) (-5.26)
+Controls Yes Yes Yes Yes Yes
+Household FE Yes Yes Yes Yes Yes
+State FE Yes Yes Yes Yes Yes
+Year-quarter FE Yes Yes Yes Yes Yes
+Observations 4,902,383 4,902,383 4,902,383 4,827,692 4,827,692
+Adjusted 𝑅2 0.254 0.254 0.254 0.182 0.182
+54
+
+=== page 57 ===
+Table A.4
+Stock Market Participation Rates from IRS Tax Filings
+This table reports estimates of the effect of the legalization of sports betting on stock market participation
+amongabroadcrosssectionofU.S.taxfilers. Theunderlyingdataareastate-by-yearpanel. Weusetwo-way
+fixed effects difference-in-differences (TWFE) regressions (Columns (1) and (3)) and imputed difference-in-
+differences regressions from Borusyak et al. (2024) (Columns (2) and (4)) to estimate the effect of legalizing
+sportsbetting. Post × Treat isanindicatorvariableequaltoonefortheyearsfollowinglegalizationinstates
+thatlegalizebetting. Thesampleincludeseventyears(-3,+3)between2015and2021forstatesthatlegalize
+(excluding year zero) and all years for states that never legalize. Low Income is an indicator variable for
+households in the bottom four IRS’s AGI brackets (i.e., AGI≤ $50,000). Stock Market Participation is the
+percentage of tax filers in state s during year t that report capital gains or losses that year. The regressions
+include state, and year, and income bucket fixed effects. Variables are defined in Appendix Table A.1.
+Reported 𝑡-statistics in parentheses are heteroskedasticity-robust and clustered at the state level. ***, **,
+and * denote statistical significance at the 1%, 5%, and 10% levels, respectively.
+OLS DID Imputation OLS DID Imputation
+(1) (2) (3) (4)
+Stock Market Stock Market Stock Market Stock Market
+Participation Participation Participation Participation
+Post x Treat -0.000 0.010*** 0.010***
+(-0.10) (2.79) (2.90)
+Post x Treat x Low Income -0.001 -0.034*** -0.034***
+(-0.32) (-4.39) (-6.70)
+Ln(Number of Filers) -0.007 -0.010 -0.022*** -0.020***
+(-0.15) (-0.21) (-4.54) (-4.19)
+State FE Yes Yes Yes Yes
+Year FE Yes Yes Yes Yes
+AGI Bracket FE No No Yes Yes
+Adj. R-squared 0.984 0.990
+Observations 241 243 2,673 2,673
+55
+
+=== page 58 ===
+Table A.5
+Predicting Sports Betting Legalization
+This table reports estimates from state-by-quarter OLS and hazard model regressions predicting the timing
+of a state’s legalization of sports betting. Quarterly estimates of private and state-government employment,
+numberofestablishments,andwagescomefromtheQuarterlyCensusofEmploymentandWages(QCEW).
+Reported 𝑡-statistics in parentheses are heteroskedasticity-robust and clustered at the state level. ***, **,
+and * denote statistical significance at the 1%, 5%, and 10% levels, respectively.
+(1) (2) (3)
+Legalization Legalization Legalization
+Private Employment Growth -5.769 1.602 -0.082
+𝑡−1
+(-1.32) (1.55) (-0.36)
+State Employment Growth 3.985 -0.991 0.162
+𝑡−1
+(0.57) (-0.62) (0.76)
+Private Employment Growth -1.844 0.684 -0.044
+𝑡−4
+(-0.56) (0.86) (-0.22)
+State Employment Growth -7.851 1.488 0.138
+𝑡−4
+(-1.12) (0.99) (0.57)
+Private Establishment Growth -4.700 1.222 0.058
+𝑡−4
+(-1.08) (1.07) (0.36)
+Private Wage Growth 1.441 -0.367 0.036
+𝑡−4
+(0.29) (-0.35) (0.11)
+State Wage Growth 1.768 -0.307 0.158
+𝑡−4
+(0.60) (-0.49) (1.23)
+Ln(Lagged Total Private Income) 0.137 -0.027 -0.088
+(0.78) (-0.69) (-0.64)
+Model Cox Log logistic OLS
+State FE No No Yes
+Year-Quarter FE No No Yes
+Adj. R-squared 0.018
+Observations 1,110 1,110 1,110
+56
+
+=== page 59 ===
+Table A.6
+Imputed Diff-in-Diff Estimates: Betting
+This table reports estimates of the effect of the legalization of sports betting on betting behavior. The
+underlyingdataareaquarterlyhousehold-levelpanel. Weusetheimputeddifference-in-differencesestimator
+from Borusyak et al. (2024) to estimate the effect of legalizing sports betting. Column (1) shows the overall
+estimatefortheeffectoflegalizationonhouseholddepositstoonlinebettingapps(Post×Treat). Columns(2)
+and (3) test for heterogeneity in the effect based on how constrained the household is. In Column (2), we
+measureconstrainedusingLow Savings,whichisanindicatorforhousehold-quarterswherethetotalsavings
+flow over the prior 4 quarters is less than the sample median. In Column (3), we measure constrained using
+Overdraft, which is an indicator for household-quarters where there is at least one overdraft over the prior 4
+quarters. We report the difference in the effect for constrained vs unconstrained households, along with the
+p-value of this difference, at the bottom of the table. The regressions include controls for quarterly income
+and the amount received from stimulus payments in the quarter in addition to household and year-quarter
+fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑍-statistics in parentheses are
+heteroskedasticity-robustandclusteredatthehouseholdlevel. ***,**,and*indicatestatisticalsignificance
+at the 0.1%, 1%, and 5% levels, respectively.
+(1) (2) (3)
+Sports Bets Sports Bets Sports Bets
+Post × Treat 31.62∗∗∗
+(24.09)
+Post × Treat × Constrained=0 39.70∗∗∗ 24.07∗∗∗
+(20.45) (21.58)
+Post × Treat × Constrained=1 21.61∗∗∗ 92.84∗∗∗
+(18.01) (14.95)
+Controls Yes Yes Yes
+Observations 4,886,994 4,886,994 4,886,994
+Constrained Measure Low Savings Overdraft
+Constrained Minus Unconstrained -18.097 68.773
+P-value 0.000 0.000
+57
+
+=== page 60 ===
+Table A.7
+Imputed Diff-in-Diff Estimates: Bets to Income
+This table reports estimates of the effect of the legalization of sports betting on betting behavior. The
+underlyingdataareaquarterlyhousehold-levelpanel. Weusetheimputeddifference-in-differencesestimator
+from Borusyak et al. (2024) to estimate the effect of legalizing sports betting. Column (1) shows the overall
+estimate for the effect of legalization on household deposits to online betting apps divided by quarterly
+income (Post × Treat). Columns (2) and (3) test for heterogeneity in the effect based on how constrained
+the household is. In Column (2), we measure constrained using Low Savings, which is an indicator for
+household-quarters where the total savings flow over the prior 4 quarters is less than the sample median.
+In Column (3), we measure constrained using Overdraft, which is an indicator for household-quarters where
+thereisatleastoneoverdraftovertheprior4quarters. Wereportthedifferenceintheeffectforconstrained
+vs unconstrained households, along with the p-value of this difference, at the bottom of the table. The
+regressions include controls for quarterly income and the amount received from stimulus payments in the
+quarter in addition to household and year-quarter fixed effects. Variable definitions are found in Appendix
+TableA.1. Reported𝑍-statisticsinparenthesesareheteroskedasticity-robustandclusteredatthehousehold
+level. ***, **, and * indicate statistical significance at the 0.1%, 1%, and 5% levels, respectively.
+(1) (2) (3)
+Bets to Income Bets to Income Bets to Income
+Post × Treat 0.00168∗∗∗
+(29.21)
+Post × Treat × Constrained=0 0.00150∗∗∗ 0.00131∗∗∗
+(22.76) (25.80)
+Post × Treat × Constrained=1 0.00192∗∗∗ 0.00467∗∗∗
+(23.42) (18.59)
+Controls Yes Yes Yes
+Observations 4,812,151 4,812,151 4,812,151
+Constrained Measure Low Savings Overdraft
+Constrained Minus Unconstrained 0.0004 0.0034
+P-value 0.000 0.000
+58
+
+=== page 61 ===
+Table A.8
+Imputed Diff-in-Diff Estimates: Net Investments
+This table reports estimates of the effect of the legalization of sports betting on net investments. The
+underlyingdataareaquarterlyhousehold-levelpanel. Weusetheimputeddifference-in-differencesestimator
+from Borusyak et al. (2024) to estimate the effect of legalizing sports betting. Column (1) shows the overall
+estimate for the effect of legalization on net household deposits to brokerages (Post × Treat). Columns (2)
+and (3) test for heterogeneity in the effect based on how constrained the household is. In Column (2), we
+measureconstrainedusingLow Savings,whichisanindicatorforhousehold-quarterswherethetotalsavings
+flow over the prior 4 quarters is less than the sample median. In Column (3), we measure constrained using
+Overdraft, which is an indicator for household-quarters where there is at least one overdraft over the prior 4
+quarters. We report the difference in the effect for constrained vs unconstrained households, along with the
+p-value of this difference, at the bottom of the table. The regressions include controls for quarterly income
+and the amount received from stimulus payments in the quarter in addition to household and year-quarter
+fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑍-statistics in parentheses are
+heteroskedasticity-robustandclusteredatthehouseholdlevel. ***,**,and*indicatestatisticalsignificance
+at the 0.1%, 1%, and 5% levels, respectively.
+(1) (2) (3)
+Net Invest Net Invest Net Invest
+Post × Treat -80.29∗∗∗
+(-10.45)
+Post × Treat × Constrained=0 42.87∗∗∗ -64.02∗∗∗
+(4.28) (-7.98)
+Post × Treat × Constrained=1 -232.9∗∗∗ -212.2∗∗∗
+(-31.75) (-20.26)
+Controls Yes Yes Yes
+Observations 4,886,994 4,886,994 4,886,994
+Constrained Measure Low Savings Overdraft
+Constrained Minus Unconstrained -275.743 -148.202
+P-value 0.000 0.000
+59
+
+=== page 62 ===
+Table A.9
+Imputed Diff-in-Diff Estimates: Robinhood Investments
+ThistablereportsestimatesoftheeffectofthelegalizationofsportsbettingonnetinvestmentsatRobinhood.
+The underlying data are a quarterly household-level panel. We use the imputed difference-in-differences
+estimator from Borusyak et al. (2024) to estimate the effect of legalizing sports betting. Column (1) shows
+the overall estimate for the effect of legalization on net household deposits to Robinhood (Post × Treat).
+Columns (2) and (3) test for heterogeneity in the effect based on how constrained the household is. In
+Column (2), we measure constrained using Low Savings, which is an indicator for household-quarters where
+the total savings flow over the prior 4 quarters is less than the sample median. In Column (3), we measure
+constrainedusingOverdraft,whichisanindicatorforhousehold-quarterswherethereisatleastoneoverdraft
+overtheprior4quarters. Wereportthedifferenceintheeffectforconstrainedvsunconstrainedhouseholds,
+along with the p-value of this difference, at the bottom of the table. The regressions include controls for
+quarterly income and the amount received from stimulus payments in the quarter in addition to household
+and year-quarter fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑍-statistics
+in parentheses are heteroskedasticity-robust and clustered at the household level. ***, **, and * indicate
+statistical significance at the 0.1%, 1%, and 5% levels, respectively.
+(1) (2) (3)
+Net Robinhood Net Robinhood Net Robinhood
+Post × Treat -4.541∗∗∗
+(-4.76)
+Post × Treat × Constrained=0 1.767 -4.418∗∗∗
+(1.33) (-4.54)
+Post × Treat × Constrained=1 -12.36∗∗∗ -5.532∗∗
+(-15.11) (-2.60)
+Controls Yes Yes Yes
+Observations 4,886,994 4,886,994 4,886,994
+Constrained Measure Low Savings Overdraft
+Constrained Minus Unconstrained -14.123 -1.114
+P-value 0.000 0.596
+60
+
+=== page 63 ===
+Table A.10
+Imputed Diff-in-Diff Estimates: Robo Advisors
+ThistablereportsestimatesoftheeffectofthelegalizationofsportsbettingonnetinvestmentsatRoboAdvi-
+sors. Theunderlyingdataareaquarterlyhousehold-levelpanel. Weusetheimputeddifference-in-differences
+estimator from Borusyak et al. (2024) to estimate the effect of legalizing sports betting. Column (1) shows
+theoverallestimatefortheeffectoflegalizationonnethouseholddepositstoRoboAdvisorbrokerages(Post
+× Treat). Columns (2) and (3) test for heterogeneity in the effect based on how constrained the household
+is. In Column (2), we measure constrained using Low Savings, which is an indicator for household-quarters
+where the total savings flow over the prior 4 quarters is less than the sample median. In Column (3), we
+measureconstrainedusingOverdraft,whichisanindicatorforhousehold-quarterswherethereisatleastone
+overdraft over the prior 4 quarters. We report the difference in the effect for constrained vs unconstrained
+households, along with the p-value of this difference, at the bottom of the table. The regressions include
+controls for quarterly income and the amount received from stimulus payments in the quarter in addition to
+household and year-quarter fixed effects. Variable definitions are found in Appendix Table A.1. Reported
+𝑍-statistics in parentheses are heteroskedasticity-robust and clustered at the household level. ***, **, and *
+indicate statistical significance at the 0.1%, 1%, and 5% levels, respectively.
+(1) (2) (3)
+Net Robo Advisor Net Robo Advisor Net Robo Advisor
+Post × Treat -1.709∗
+(-2.57)
+Post × Treat × Constrained=0 -0.457 -1.277
+(-0.54) (-1.86)
+Post × Treat × Constrained=1 -3.261∗∗∗ -5.215∗∗∗
+(-5.25) (-5.73)
+Controls Yes Yes Yes
+Observations 4,886,994 4,886,994 4,886,994
+Constrained Measure Low Savings Overdraft
+Constrained Minus Unconstrained -2.804 -3.938
+P-value 0.000 0.000
+61
+
+=== page 64 ===
+Table A.11
+Imputed Diff-in-Diff Estimates: Debt
+This table reports estimates of the effect of the legalization of sports betting on credit card debt. The
+underlyingdataareaquarterlyhousehold-levelpanel. Weusetheimputeddifference-in-differencesestimator
+from Borusyak et al. (2024) to estimate the effect of legalizing sports betting. Column (1) shows the overall
+estimatefortheeffectoflegalizationonquarter-endcreditcardbalance(Post × Treat). Columns(2)and(3)
+test for heterogeneity in the effect based on how constrained the household is. In Column (2), we measure
+constrained using Low Savings, which is an indicator for household-quarters where the total savings flow
+over the prior 4 quarters is less than the sample median. In Column (3), we measure constrained using
+Overdraft, which is an indicator for household-quarters where there is at least one overdraft over the prior 4
+quarters. We report the difference in the effect for constrained vs unconstrained households, along with the
+p-value of this difference, at the bottom of the table. The regressions include controls for quarterly income
+and the amount received from stimulus payments in the quarter in addition to household and year-quarter
+fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑍-statistics in parentheses are
+heteroskedasticity-robustandclusteredatthehouseholdlevel. ***,**,and*indicatestatisticalsignificance
+at the 0.1%, 1%, and 5% levels, respectively.
+(1) (2) (3)
+CC Debt CC Debt CC Debt
+Post × Treat 115.4∗
+(2.37)
+Post × Treat × Constrained=0 -250.1∗∗∗ 104.1∗
+(-4.87) (2.14)
+Post × Treat × Constrained=1 723.4∗∗∗ 713.0∗∗
+(10.35) (2.98)
+Controls Yes Yes Yes
+Observations 642,363 642,363 642,363
+Constrained Measure Low Savings Overdraft
+Constrained Minus Unconstrained 973.459 608.865
+P-value 0.000 0.011
+62
+
+=== page 65 ===
+Table A.12
+Imputed Diff-in-Diff Estimates: Available Credit
+This table reports estimates of the effect of the legalization of sports betting on available credit. The
+underlyingdataareaquarterlyhousehold-levelpanel. Weusetheimputeddifference-in-differencesestimator
+from Borusyak et al. (2024) to estimate the effect of legalizing sports betting. Column (1) shows the overall
+estimate for the effect of legalization on quarter-end available credit (Post × Treat). Columns (2) and (3)
+test for heterogeneity in the effect based on how constrained the household is. In Column (2), we measure
+constrained using Low Savings, which is an indicator for household-quarters where the total savings flow
+over the prior 4 quarters is less than the sample median. In Column (3), we measure constrained using
+Overdraft, which is an indicator for household-quarters where there is at least one overdraft over the prior 4
+quarters. We report the difference in the effect for constrained vs unconstrained households, along with the
+p-value of this difference, at the bottom of the table. The regressions include controls for quarterly income
+and the amount received from stimulus payments in the quarter in addition to household and year-quarter
+fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑍-statistics in parentheses are
+heteroskedasticity-robustandclusteredatthehouseholdlevel. ***,**,and*indicatestatisticalsignificance
+at the 0.1%, 1%, and 5% levels, respectively.
+(1) (2) (3)
+Available Credit Available Credit Available Credit
+Post × Treat -38.24
+(-0.50)
+Post × Treat × Constrained=0 226.4∗∗ -26.55
+(2.86) (-0.35)
+Post × Treat × Constrained=1 -478.4∗∗∗ -641.1
+(-4.24) (-1.68)
+Controls Yes Yes Yes
+Observations 601,716 601,716 601,716
+Constrained Measure Low Savings Overdraft
+Constrained Minus Unconstrained -704.843 -614.557
+P-value 0.000 0.107
+63
+
+=== page 66 ===
+Table A.13
+Imputed Diff-in-Diff Estimates: Credit Card Payments
+This table reports estimates of the effect of the legalization of sports betting on credit card payments.
+The underlying data are a quarterly household-level panel. We use the imputed difference-in-differences
+estimator from Borusyak et al. (2024) to estimate the effect of legalizing sports betting. Column (1) shows
+the overall estimate for the effect of legalization on quarterly payments on credit card balances (Post ×
+Treat). Columns (2) and (3) test for heterogeneity in the effect based on how constrained the household
+is. In Column (2), we measure constrained using Low Savings, which is an indicator for household-quarters
+where the total savings flow over the prior 4 quarters is less than the sample median. In Column (3), we
+measureconstrainedusingOverdraft,whichisanindicatorforhousehold-quarterswherethereisatleastone
+overdraft over the prior 4 quarters. We report the difference in the effect for constrained vs unconstrained
+households, along with the p-value of this difference, at the bottom of the table. The regressions include
+controls for quarterly income and the amount received from stimulus payments in the quarter in addition to
+household and year-quarter fixed effects. Variable definitions are found in Appendix Table A.1. Reported
+𝑍-statistics in parentheses are heteroskedasticity-robust and clustered at the household level. ***, **, and *
+indicate statistical significance at the 0.1%, 1%, and 5% levels, respectively.
+(1) (2) (3)
+CC Payments CC Payments CC Payments
+Post × Treat -140.3∗∗∗
+(-10.40)
+Post × Treat × Constrained=0 638.3∗∗∗ -88.84∗∗∗
+(36.04) (-6.32)
+Post × Treat × Constrained=1 -1105.0∗∗∗ -557.9∗∗∗
+(-95.10) (-26.60)
+Controls Yes Yes Yes
+Observations 4,886,994 4,886,994 4,886,994
+Constrained Measure Low Savings Overdraft
+Constrained Minus Unconstrained -1743.322 -469.059
+P-value 0.000 0.000
+64
+
+=== page 67 ===
+Table A.14
+Imputed Diff-in-Diff Estimates: Lotto
+Thistablereportsestimatesoftheeffectofthelegalizationofsportsbettingonlotteryplay. Theunderlying
+data are a quarterly household-level panel. We use the imputed difference-in-differences estimator from
+Borusyak et al. (2024) to estimate the effect of legalizing sports betting. Column (1) shows the overall
+estimate for the effect of legalization on the lottery ticket purchases (Post × Treat). Columns (2) and (3)
+test for heterogeneity in the effect based on how constrained the household is. In Column (2), we measure
+constrained using Low Savings, which is an indicator for household-quarters where the total savings flow
+over the prior 4 quarters is less than the sample median. In Column (3), we measure constrained using
+Overdraft, which is an indicator for household-quarters where there is at least one overdraft over the prior 4
+quarters. We report the difference in the effect for constrained vs unconstrained households, along with the
+p-value of this difference, at the bottom of the table. The regressions include controls for quarterly income
+and the amount received from stimulus payments in the quarter in addition to household and year-quarter
+fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑍-statistics in parentheses are
+heteroskedasticity-robustandclusteredatthehouseholdlevel. ***,**,and*indicatestatisticalsignificance
+at the 0.1%, 1%, and 5% levels, respectively.
+(1) (2) (3)
+Lotto Lotto Lotto
+Post × Treat 1.209∗∗∗
+(8.72)
+Post × Treat × Constrained=0 1.255∗∗∗ 0.959∗∗∗
+(7.98) (7.60)
+Post × Treat × Constrained=1 1.151∗∗∗ 3.232∗∗∗
+(6.21) (5.43)
+Controls Yes Yes Yes
+Observations 4,886,994 4,886,994 4,886,994
+Constrained Measure Low Savings Overdraft
+Constrained Minus Unconstrained -0.104 2.273
+P-value 0.602 0.000
+65
+
+=== page 68 ===
+Table A.15
+Imputed Diff-in-Diff Estimates: Poker
+This table reports estimates of the effect of the legalization of sports betting on online poker play. The
+underlyingdataareaquarterlyhousehold-levelpanel. Weusetheimputeddifference-in-differencesestimator
+from Borusyak et al. (2024) to estimate the effect of legalizing sports betting. Column (1) shows the overall
+estimate for the effect of legalization on the online poker spending (Post × Treat). Columns (2) and (3)
+test for heterogeneity in the effect based on how constrained the household is. In Column (2), we measure
+constrained using Low Savings, which is an indicator for household-quarters where the total savings flow
+over the prior 4 quarters is less than the sample median. In Column (3), we measure constrained using
+Overdraft, which is an indicator for household-quarters where there is at least one overdraft over the prior 4
+quarters. We report the difference in the effect for constrained vs unconstrained households, along with the
+p-value of this difference, at the bottom of the table. The regressions include controls for quarterly income
+and the amount received from stimulus payments in the quarter in addition to household and year-quarter
+fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑍-statistics in parentheses are
+heteroskedasticity-robustandclusteredatthehouseholdlevel. ***,**,and*indicatestatisticalsignificance
+at the 0.1%, 1%, and 5% levels, respectively.
+(1) (2) (3)
+Poker Poker Poker
+Post × Treat 0.0589
+(1.33)
+Post × Treat × Constrained=0 0.0800 0.0438
+(1.22) (1.23)
+Post × Treat × Constrained=1 0.0327 0.181
+(0.78) (1.03)
+Controls Yes Yes Yes
+Observations 4,886,994 4,886,994 4,886,994
+Constrained Measure Low Savings Overdraft
+Constrained Minus Unconstrained -0.047 0.137
+P-value 0.497 0.398
+66
+
+=== page 69 ===
+Table A.16
+Imputed Diff-in-Diff Estimates: Crypto
+This table reports estimates of the effect of the legalization of sports betting on crypto investments. The
+underlyingdataareaquarterlyhousehold-levelpanel. Weusetheimputeddifference-in-differencesestimator
+from Borusyak et al. (2024) to estimate the effect of legalizing sports betting. Column (1) shows the overall
+estimate for the effect of legalization on deposits to crypto exchanges (Post × Treat). Columns (2) and (3)
+test for heterogeneity in the effect based on how constrained the household is. In Column (2), we measure
+constrained using Low Savings, which is an indicator for household-quarters where the total savings flow
+over the prior 4 quarters is less than the sample median. In Column (3), we measure constrained using
+Overdraft, which is an indicator for household-quarters where there is at least one overdraft over the prior 4
+quarters. We report the difference in the effect for constrained vs unconstrained households, along with the
+p-value of this difference, at the bottom of the table. The regressions include controls for quarterly income
+and the amount received from stimulus payments in the quarter in addition to household and year-quarter
+fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑍-statistics in parentheses are
+heteroskedasticity-robustandclusteredatthehouseholdlevel. ***,**,and*indicatestatisticalsignificance
+at the 0.1%, 1%, and 5% levels, respectively.
+(1) (2) (3)
+Crypto Crypto Crypto
+Post × Treat -14.21∗∗∗
+(-7.12)
+Post × Treat × Constrained=0 -10.40∗∗∗ -13.88∗∗∗
+(-4.14) (-6.66)
+Post × Treat × Constrained=1 -18.92∗∗∗ -16.84∗∗∗
+(-9.69) (-5.24)
+Controls Yes Yes Yes
+Observations 4,886,994 4,886,994 4,886,994
+Constrained Measure Low Savings Overdraft
+Constrained Minus Unconstrained -8.527 -2.953
+P-value 0.000 0.360
+67
+
+=== page 70 ===
+Table A.17
+Imputed Diff-in-Diff Estimates: Restaurants
+This table reports estimates of the effect of the legalization of sports betting on restaurant spending. The
+underlyingdataareaquarterlyhousehold-levelpanel. Weusetheimputeddifference-in-differencesestimator
+from Borusyak et al. (2024) to estimate the effect of legalizing sports betting. Column (1) shows the overall
+estimate for the effect of legalization on quarterly spending at restaurants (Post × Treat). Columns (2)
+and (3) test for heterogeneity in the effect based on how constrained the household is. In Column (2), we
+measureconstrainedusingLow Savings,whichisanindicatorforhousehold-quarterswherethetotalsavings
+flow over the prior 4 quarters is less than the sample median. In Column (3), we measure constrained using
+Overdraft, which is an indicator for household-quarters where there is at least one overdraft over the prior 4
+quarters. We report the difference in the effect for constrained vs unconstrained households, along with the
+p-value of this difference, at the bottom of the table. The regressions include controls for quarterly income
+and the amount received from stimulus payments in the quarter in addition to household and year-quarter
+fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑍-statistics in parentheses are
+heteroskedasticity-robustandclusteredatthehouseholdlevel. ***,**,and*indicatestatisticalsignificance
+at the 0.1%, 1%, and 5% levels, respectively.
+(1) (2) (3)
+Restaurants Restaurants Restaurants
+Post × Treat 100.1∗∗∗
+(34.47)
+Post × Treat × Constrained=0 29.03∗∗∗ 88.56∗∗∗
+(8.33) (29.66)
+Post × Treat × Constrained=1 188.3∗∗∗ 194.1∗∗∗
+(57.52) (32.96)
+Controls Yes Yes Yes
+Observations 4,886,994 4,886,994 4,886,994
+Constrained Measure Low Savings Overdraft
+Constrained Minus Unconstrained 159.224 105.589
+P-value 0.000 0.000
+68
+
+=== page 71 ===
+Table A.18
+Imputed Diff-in-Diff Estimates: Cable
+This table reports estimates of the effect of the legalization of sports betting on cable spending. The
+underlyingdataareaquarterlyhousehold-levelpanel. Weusetheimputeddifference-in-differencesestimator
+from Borusyak et al. (2024) to estimate the effect of legalizing sports betting. Column (1) shows the overall
+estimatefortheeffectoflegalizationonquarterlyspendingoncableandtelecommunications(Post × Treat).
+Columns (2) and (3) test for heterogeneity in the effect based on how constrained the household is. In
+Column (2), we measure constrained using Low Savings, which is an indicator for household-quarters where
+the total savings flow over the prior 4 quarters is less than the sample median. In Column (3), we measure
+constrainedusingOverdraft,whichisanindicatorforhousehold-quarterswherethereisatleastoneoverdraft
+overtheprior4quarters. Wereportthedifferenceintheeffectforconstrainedvsunconstrainedhouseholds,
+along with the p-value of this difference, at the bottom of the table. The regressions include controls for
+quarterly income and the amount received from stimulus payments in the quarter in addition to household
+and year-quarter fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑍-statistics
+in parentheses are heteroskedasticity-robust and clustered at the household level. ***, **, and * indicate
+statistical significance at the 0.1%, 1%, and 5% levels, respectively.
+(1) (2) (3)
+Cable/Telecom Cable/Telecom Cable/Telecom
+Post × Treat 60.21∗∗∗
+(41.75)
+Post × Treat × Constrained=0 45.86∗∗∗ 54.79∗∗∗
+(26.73) (37.45)
+Post × Treat × Constrained=1 77.98∗∗∗ 104.1∗∗∗
+(46.85) (30.71)
+Controls Yes Yes Yes
+Observations 4,886,994 4,886,994 4,886,994
+Constrained Measure Low Savings Overdraft
+Constrained Minus Unconstrained 32.121 49.354
+P-value 0.000 0.000
+69
+
+=== page 72 ===
+Table A.19
+Imputed Diff-in-Diff Estimates: Entertainment
+This table reports estimates of the effect of the legalization of sports betting on entertainment spending.
+The underlying data are a quarterly household-level panel. We use the imputed difference-in-differences
+estimator from Borusyak et al. (2024) to estimate the effect of legalizing sports betting. Column (1) shows
+the overall estimate for the effect of legalization on quarterly spending on entertainment and travel (Post
+× Treat). Columns (2) and (3) test for heterogeneity in the effect based on how constrained the household
+is. In Column (2), we measure constrained using Low Savings, which is an indicator for household-quarters
+where the total savings flow over the prior 4 quarters is less than the sample median. In Column (3), we
+measureconstrainedusingOverdraft,whichisanindicatorforhousehold-quarterswherethereisatleastone
+overdraft over the prior 4 quarters. We report the difference in the effect for constrained vs unconstrained
+households, along with the p-value of this difference, at the bottom of the table. The regressions include
+controls for quarterly income and the amount received from stimulus payments in the quarter in addition to
+household and year-quarter fixed effects. Variable definitions are found in Appendix Table A.1. Reported
+𝑍-statistics in parentheses are heteroskedasticity-robust and clustered at the household level. ***, **, and *
+indicate statistical significance at the 0.1%, 1%, and 5% levels, respectively.
+(1) (2) (3)
+Entertain/Travel Entertain/Travel Entertain/Travel
+Post × Treat 101.3∗∗∗
+(32.33)
+Post × Treat × Constrained=0 44.87∗∗∗ 91.24∗∗∗
+(11.86) (28.40)
+Post × Treat × Constrained=1 171.3∗∗∗ 183.3∗∗∗
+(48.99) (27.28)
+Controls Yes Yes Yes
+Observations 4,886,994 4,886,994 4,886,994
+Constrained Measure Low Savings Overdraft
+Constrained Minus Unconstrained 126.435 92.051
+P-value 0.000 0.000
+70
+
+=== page 73 ===
+Table A.20
+Online Betting Linearly Grows Following Legalization
+This table reports estimates of the effect of the legalization of sports betting on betting behavior. The
+underlyingdataareaquarterlyhousehold-levelpanel. Weuseatwo-wayfixedeffectsdifference-in-differences
+(TWFE) regression to estimate the effect of legalizing sports betting. # Quarters Post × Treat indicates
+the number of quarters that have passed since the legalization of online sports betting; it is defined as zero
+for all states that have not yet legalized betting. Low Savings is an indicator for household-quarters where
+the total savings flow over the prior 4 quarters is less than the sample median. Overdraft is an indicator for
+household-quarterswhere there isat least one overdraft over the prior4 quarters. Columns (1)–(3) estimate
+the effect of legalization on quarterly deposits to sports betting apps, while columns (4) and (5) show the
+effect on quarterly deposits to sports betting apps divided by quarterly income. The regressions include
+controls for quarterly income and the amount received from stimulus payments in the quarter in addition
+to household, state, and year-quarter fixed effects. Variable definitions are found in Appendix Table A.1.
+Reported𝑡-statisticsinparenthesesareheteroskedasticity-robustandclusteredatthehouseholdandstateby
+year-quarterlevels. ***,**,and*indicatestatisticalsignificanceatthe1%,5%,and10%levels,respectively.
+(1) (2) (3) (4) (5)
+SportsBets SportsBets SportsBets BetstoIncome BetstoIncome
+#QuartersPost×Treat 4.577*** 5.556*** 3.586*** 0.000191*** 0.000168***
+(14.29) (13.84) (13.20) (13.60) (13.15)
+LowSavings×#QuartersPost×Treat -2.270*** 0.0000501***
+(-7.50) (3.77)
+Overdraft×#QuartersPost×Treat 9.309*** 0.000424***
+(8.94) (10.70)
+LowSavings 0.868* -0.000109***
+(1.88) (-4.95)
+Overdraft -9.034*** -0.000432***
+(-4.56) (-5.47)
+Controls Yes Yes Yes Yes Yes
+HouseholdFE Yes Yes Yes Yes Yes
+StateFE Yes Yes Yes Yes Yes
+Year-quarterFE Yes Yes Yes Yes Yes
+Observations 4,902,383 4,902,383 4,902,383 4,827,688 4,827,688
+Adjusted𝑅2 0.273 0.274 0.275 0.232 0.233
+71
+
+=== page 74 ===
+Table A.21
+Effect of Betting on Investments Increases Over Time
+This table reports estimates of the effect of the legalization of sports betting on investment. The underlying
+data are a quarterly household-level panel. We use a two-way fixed effects difference-in-differences (TWFE)
+regression to estimate the effect of legalizing sports betting. # Quarters Post × Treat indicates the number
+of quarters that have passed since the legalization of online sports betting; it is defined as zero for all
+states that have not yet legalized betting. The dependent variable in column (1) is net investment (e.g.,
+investment deposits less withdrawals), while the dependent variable in columns (2) and (3) show the subset
+of investments made in Robinhood and in Robo Advisors. The regressions include controls for quarterly
+income and the amount received from stimulus payments in the quarter in addition to household, state, and
+year-quarter fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑡-statistics in
+parentheses are heteroskedasticity-robust and clustered at the household and state by year-quarter levels.
+***, **, and * indicate statistical significance at the 1%, 5%, and 10% levels, respectively.
+(1) (2) (3)
+Net Invest Net Robinhood Net Robo Advisor
+# Quarters Post × Treat -9.115*** -0.345*** -0.180**
+(-6.98) (-2.67) (-2.22)
+Controls Yes Yes Yes
+Household FE Yes Yes Yes
+State FE Yes Yes Yes
+Year-quarter FE Yes Yes Yes
+Observations 4,902,383 4,902,383 4,902,383
+Adjusted 𝑅2 0.245 0.077 0.253
+72
+
+=== page 75 ===
+Table A.22
+Constrained Households Cut Investments Over Time
+This table shows how the estimates of the effect of the legalization of sports betting on investment vary
+by the extent to which households are constrained. The underlying data are a quarterly household-level
+panel. We use a two-way fixed effects difference-in-differences (TWFE) regression to estimate the effect of
+legalizing sports betting. # Quarters Post × Treat indicates the number of quarters that have passed since
+thelegalizationofonlinesportsbetting; itisdefinedaszeroforallstatesthathavenotyetlegalizedbetting.
+Low Savings is an indicator for household-quarters where the total savings flow over the prior 4 quarters
+is less than the sample median. Overdraft is an indicator for household-quarters where there is at least
+one overdraft over the prior 4 quarters. The dependent variable in columns (1) and (2) is net investment
+(e.g.,investmentdepositslesswithdrawals),whilethedependentvariableincolumns(3)–(6)showthesubset
+of investments made to Robinhood and to Robo Advisors. The regressions include controls for quarterly
+income and the amount received from stimulus payments in the quarter in addition to household, state, and
+year-quarter fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑡-statistics in
+parentheses are heteroskedasticity-robust and clustered at the household and state by year-quarter levels.
+***, **, and * indicate statistical significance at the 1%, 5%, and 10% levels, respectively.
+(1) (2) (3) (4) (5) (6)
+Net Net Net Net Net Net
+Invest Invest Robinhood Robinhood RoboAdvisor RoboAdvisor
+#QuartersPost×Treat -0.960 -7.430*** -0.0242 -0.378*** -0.0263 -0.145*
+(-0.63) (-5.64) (-0.14) (-2.87) (-0.28) (-1.74)
+LowSavings×#QuartersPost×Treat -19.79*** -0.813*** -0.344***
+(-10.81) (-3.64) (-4.23)
+Overdraft×#QuartersPost×Treat -15.48*** 0.257 -0.349***
+(-9.01) (0.75) (-3.55)
+LowSavings -95.61*** -7.866*** 1.622***
+(-19.30) (-11.14) (3.46)
+Overdraft 34.51*** -3.106*** -0.900
+(4.76) (-2.64) (-1.21)
+Controls Yes Yes Yes Yes Yes Yes
+HouseholdFE Yes Yes Yes Yes Yes Yes
+StateFE Yes Yes Yes Yes Yes Yes
+Year-quarterFE Yes Yes Yes Yes Yes Yes
+Observations 4,902,383 4,902,383 4,902,383 4,902,383 4,902,383 4,902,383
+Adjusted𝑅2 0.245 0.245 0.078 0.077 0.253 0.253
+73
+
+=== page 76 ===
+Table A.23
+Low Savings Households Lever Up More Over Time
+This table reports estimates of the effect of the legalization of sports betting on household debt. The underlying data are a quarterly household-level
+panel. We use a two-way fixed effects difference-in-differences (TWFE) regression to estimate the effect of legalizing sports betting. # Quarters Post
+× Treat indicatesthenumberofquartersthathavepassedsincethelegalizationofonlinesportsbetting;itisdefinedaszeroforallstatesthathavenot
+yet legalized betting. Low Savings is an indicator for household-quarters where the total savings flow over the prior 4 quarters is less than the sample
+median. Overdraft is an indicator for household-quarters where there is at least one overdraft over the prior 4 quarters. The dependent variable in
+columns (1) and (2) is total credit card debt. The dependent variable in columns (3) and (4) is the amount of credit households have available across
+all credit cards. The dependent variable in columns (5) and (6) is the total amount that the household pays on their credit card bill over the quarter.
+The dependent variable in columns (7) and (8) is the number of times the household will overdraw their bank accounts in the following 4 quarters.
+Columns (1)–(6) are estimated using OLS regressions, while columns (7) and (8) are estimated using Poisson pseudo-maximum likelihood regressions
+as described in Correia et al. (2020). The regressions include controls for quarterly income and the amount received from stimulus payments in the
+quarter in addition to household, state, and year-quarter fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑡-statistics in
+parenthesesareheteroskedasticity-robustandclusteredatthehouseholdandstatebyyear-quarterlevels. ***,**,and*indicatestatisticalsignificance
+at the 1%, 5%, and 10% levels, respectively.
+(1) (2) (3) (4) (5) (6) (7) (8)
+CCDebt CCDebt AvailableCredit AvailableCredit CCPayments CCPayments FutureOverdrafts FutureOverdrafts
+#QuartersPost×Treat -10.55 11.56 12.68 -2.764 32.43*** -7.695* 0.00625* -0.00983**
+(-1.24) (1.40) (0.85) (-0.19) (6.69) (-1.89) (1.79) (-1.99)
+LowSavings×#QuartersPost×Treat 55.43*** -40.32*** -113.7*** 0.00791***
+(5.40) (-2.63) (-17.90) (2.79)
+Overdraft×#QuartersPost×Treat -27.44 -5.831 -52.42*** 0.0277***
+(-0.86) (-0.11) (-14.69) (4.46)
+LowSavings 775.7*** -543.4*** -899.6*** -0.0160
+(33.05) (-16.35) (-61.59) (-1.45)
+Overdraft 274.4** -276.6 -12.81 0.497***
+(2.39) (-1.59) (-0.82) (22.73)
+Controls Yes Yes Yes Yes Yes Yes Yes Yes
+HouseholdFE Yes Yes Yes Yes Yes Yes Yes Yes
+StateFE Yes Yes Yes Yes Yes Yes Yes Yes
+Year-quarterFE Yes Yes Yes Yes Yes Yes Yes Yes
+Observations 641,694 641,694 600,923 600,923 4,902,383 4,902,383 916,677 916,677
+Adjusted𝑅2 0.677 0.675 0.862 0.862 0.677 0.672
+74
+
+=== page 77 ===
+Table A.24
+Effects of Betting on Other Risk Taking Over Time
+This table reports estimates of the effect of the legalization of sports betting on other forms of risk-taking.
+The underlying data are a quarterly household-level panel. We use a two-way fixed effects difference-in-
+differences (TWFE) regression to estimate the effect of legalizing sports betting. # Quarters Post × Treat
+indicatesthenumberofquartersthathavepassedsincethelegalizationofonlinesportsbetting; itisdefined
+as zero for all states that have not yet legalized betting. Low Savings is an indicator for household-quarters
+wherethetotalsavingsflowovertheprior4quartersislessthanthesamplemedian. Overdraft isanindicator
+forhousehold-quarterswherethereisatleastoneoverdraftovertheprior4quarters. Thedependentvariable
+in columns (1) and (2) is total lottery spending. The dependent variable in columns (3) and (4) is total
+spending on online poker. The dependent variable in columns (5) and (6) is the amount that the household
+depositstocryptobrokerages(e.g.,Coinbase). Theregressionsincludecontrolsforquarterlyincomeandthe
+amount received from stimulus payments in the quarter in addition to household, state, and year-quarter
+fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑡-statistics in parentheses are
+heteroskedasticity-robust and clustered at the household and state by year-quarter levels. ***, **, and *
+indicate statistical significance at the 1%, 5%, and 10% levels, respectively.
+(1) (2) (3) (4) (5) (6)
+Lotto Lotto Poker Poker Crypto Crypto
+# Quarters Post × Treat 0.0754*** 0.0490** 0.0169* 0.0135* -1.360*** -2.252***
+(2.64) (2.03) (1.67) (1.91) (-3.45) (-5.54)
+Low Savings × # Quarters Post × Treat -0.0163 -0.00558 -2.035***
+(-0.72) (-0.73) (-5.19)
+Overdraft × # Quarters Post × Treat 0.177** 0.00888 -0.346
+(2.57) (0.41) (-0.88)
+Low Savings 0.224*** 0.00260 17.44***
+(3.84) (0.14) (11.72)
+Overdraft -0.0366 -0.00351 5.297***
+(-0.21) (-0.09) (2.77)
+Controls Yes Yes Yes Yes Yes Yes
+Household FE Yes Yes Yes Yes Yes Yes
+State FE Yes Yes Yes Yes Yes Yes
+Year-quarter FE Yes Yes Yes Yes Yes Yes
+Observations 4,902,383 4,902,383 4,902,383 4,902,383 4,902,383 4,902,383
+Adjusted 𝑅2 0.350 0.350 0.243 0.243 0.142 0.142
+75
+
+=== page 78 ===
+Table A.25
+The Effects of Sports Betting on Consumption Over Time
+This table reports estimates of the effect of the legalization of sports betting on other consumption. The underlying data are a quarterly household-
+level panel. We use a two-way fixed effects difference-in-differences (TWFE) regression to estimate the effect of legalizing sports betting. # Quarters
+Post × Treat indicates the number of quarters that have passed since the legalization of online sports betting; it is defined as zero for all states that
+have not yet legalized betting. Low Savings is an indicator for household-quarters where the total savings flow over the prior 4 quarters is less than
+the sample median. Overdraft is an indicator for household-quarters where there is at least one overdraft over the prior 4 quarters. The dependent
+variable in columns (1) and (2) is total spending on restaurants. The dependent variable in columns (3) and (4) is total spending on cable and
+telecommunication. The dependent variable in columns (5) and (6) is total spending on entertainment and travel. The regressions include controls
+for quarterly income and the amount received from stimulus payments in the quarter in addition to household, state, and year-quarter fixed effects.
+VariabledefinitionsarefoundinAppendixTableA.1. Reported𝑡-statisticsinparenthesesareheteroskedasticity-robustandclusteredatthehousehold
+and state by year-quarter levels. ***, **, and * indicate statistical significance at the 1%, 5%, and 10% levels, respectively.
+(1) (2) (3) (4) (5) (6)
+Restaurants Restaurants Cable/Telecom Cable/Telecom Entertain/Travel Entertain/Travel
+# Quarters Post × Treat 8.155*** 11.88*** 7.064*** 7.943*** 11.38*** 12.18***
+(5.09) (7.45) (8.95) (10.38) (7.59) (8.54)
+Low Savings × # Quarters Post × Treat 11.58*** 2.700*** 4.811***
+(14.75) (8.32) (6.14)
+Overdraft × # Quarters Post × Treat 9.784*** 3.050*** 8.646***
+(8.03) (4.73) (7.42)
+Low Savings 52.21*** -0.0413 96.50***
+(22.90) (-0.04) (34.44)
+Overdraft -18.78*** 19.66*** -4.781
+(-4.54) (10.40) (-1.24)
+Controls Yes Yes Yes Yes Yes Yes
+Household FE Yes Yes Yes Yes Yes Yes
+State FE Yes Yes Yes Yes Yes Yes
+Year-quarter FE Yes Yes Yes Yes Yes Yes
+Observations 4,902,383 4,902,383 4,902,383 4,902,383 4,902,383 4,902,383
+Adjusted 𝑅2 0.601 0.601 0.665 0.665 0.457 0.456
+76
+
+=== page 79 ===
+Table A.26
+2SLS Estimates of the Effect of Betting on Consumption
+This table reports 2SLS estimates of the effect of the legalization of sports betting on investment. The
+underlying data are a quarterly household-level panel. Post × Treat is an indicator variable equal to one
+for quarters following the launch of online sports betting in states that legalize betting. Top Male is an
+indicator variable equal to one for households in the top quartile of transactions at male-focused retailers.
+The sample is limited to households for whom we can identify the gender composition of at least 60 b.p.
+of their total spending. We use Top Male × Post × Treat as an instrument for deposits to sports betting
+apps post-legalization (i.e., Bets × Post × Treat). Column (1) reports the effect of sports betting on total
+spending, column (2) reports the effect on food and entertainment spending, and column (3) reports the
+effect on all other non-bet spending (i.e., total spending less betting deposits and food and entertainment
+expenses). The regressions include controls for quarterly income and the amount received from stimulus
+payments in the quarter in addition to household, state by year-quarter, and top male by year-quarter
+fixed effects. Variable definitions are found in Appendix Table A.1. Reported 𝑡-statistics in parentheses are
+heteroskedasticity-robust and clustered at the household and state by year-quarter levels. ***, **, and *
+indicate statistical significance at the 1%, 5%, and 10% levels, respectively.
+(1) (2) (3)
+Total Food & Non-bet Spending
+Spending Entertainment Less Food/Entertain
+Bets × Post × Treat -1.410 0.868** -3.114**
+(-1.01) (2.07) (-2.50)
+Controls Yes Yes Yes
+Household FE Yes Yes Yes
+State by Quarter FE Yes Yes Yes
+Top Male by Quarter FE Yes Yes Yes
+Observations 3,231,790 3,231,790 3,231,790
+Adjusted 𝑅2 0.267 0.087 0.244
+Weak ID KP F Stat 42.12 42.12 42.12
+77
+
+=== page 80 ===
+(a) CallawayandSant’Anna(2021) (b) SunandAbraham(2021)
+Figure A.1. Parallel Trends in Net Investment around Sports Betting Legalization. This figure
+presents event-time coefficients of the effect of the legalization of sports betting on net investment (e.g.,
+deposits less withdrawals at equity brokerages). The x-axis indicates quarters surrounding the legalization
+of sports betting, where 𝑡 = 0 represents the quarter during which online betting was first possible. The
+y-axisshowstheaveragecausaleffectoflegalizationonquarterlynetinvestment. Weestimatethedifference-
+in-differenceevent-timecoefficientsfollowingCallawayandSant’Anna(2021)inPanel(a),andfollowingSun
+and Abraham (2021) in Panel (b). These methods account for the staggered rollout of the legalization of
+state betting. The shaded region represents the 95% confidence interval.
+78
