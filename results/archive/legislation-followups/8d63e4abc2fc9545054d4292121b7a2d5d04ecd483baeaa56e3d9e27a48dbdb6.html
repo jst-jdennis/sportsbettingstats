@@ -1,0 +1,914 @@
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	
+	<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	    <meta name="robots" content="noimageindex">
+	    <meta charset="iso-8859-1">
+	    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+	    	    <title>South Carolina Legislature Online - Member Biography</title>
+	    <link rel="SHORTCUT ICON" href="/images/stateflagsmall.ico" />
+		<link rel="icon" href="/images/stateflagsmall.ico" type="image/ico" />
+		<link rel="SHORTCUT ICON" href="/images/South-Carolina-Flag2.ico" />
+
+		<link type="text/css" rel="stylesheet" href="/css/main.css" media="all" />
+				<link type="text/css" rel="stylesheet" href="/css/members.css" media="all" />
+				
+		<!--[if lte IE 7]>
+		<link type="text/css" rel="stylesheet" href="/css/ie7main.css" media="all" />
+		<![endif]-->
+		<!--[if gte IE 7]>
+		<link type="text/css" rel="stylesheet" href="/css/iemain.css" media="all" />
+		<![endif]-->
+		<link type="text/css" rel="stylesheet" href="/css/print.css" media="print" />
+		<link type="text/css" rel="stylesheet" href="/css/supplement.css" media="screen" />
+		<!--<link type="text/css" rel="stylesheet" href="/css/zipsearch.css" media="screen" />
+		<link type="text/css" rel="stylesheet" href="/css/vote.css" media="screen" />
+		<link type="text/css" rel="stylesheet" href="/css/contact.css" media="screen" />
+		<link type="text/css" rel="stylesheet" href="/css/navwrap.css" media="screen" />
+		<link type="text/css" rel="stylesheet" href="/css/linkbar.css" media="screen" />-->
+	
+		<!--<script type="text/javascript" src="/js/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="/js/jquery-1.12.4.min.js"></script>-->
+		<script type="text/javascript" src="/js/jquery-3.5.1.min.js"></script>
+				<script type="text/javascript" src="/js/main_linux.js"></script>
+		
+
+		
+
+
+
+		<!--<script type="text/javascript" src="/js/common.js"></script>
+		<script type="text/javascript" src="/js/utils.js"></script>
+		<script type="text/javascript" src="/js/date.js"></script>
+		<script type="text/javascript" src="/js/lightbox.js"></script>
+		<script type="text/javascript" src="/js/legislation.js"></script>
+		<script type="text/javascript" src="/js/logon_lits.js"></script>
+		<script type="text/javascript" src="/js/message.js"></script>
+		<script type="text/javascript" src="/js/comm_meeting.js"></script>-->
+		<script type="text/vbscript" src="/vbs/comm_meeting.vbs"></script>
+		<!--<script type="text/javascript" src="/js/regs.js"></script>-->
+				
+	   	<script type="text/javascript">
+	    //document.onclick = function () { document.getElementById('transbox').style.display= 'none' };
+	    	var xmlhttp=false;
+			xmlhttp = create_xml_object();
+	
+			function getElement(ele)
+			{
+				var theobj = false;
+				if(typeof ele == 'string')
+					theobj = (document.getElementById)?document.getElementById(ele):document.all[ele];
+				else
+					theobj = ele;
+			
+				return theobj;
+			}
+		
+			function checkreader(friendlyalert)
+			{
+			 	/*friendlyalert=friendlyalert||false;
+			 	
+			 	var browser_info = perform_acrobat_detection();
+				if (!browser_info.acrobat)
+				{
+				 	loadadobebox('adobebox', '/adobe.php');
+					return false;
+				}
+				else if (friendlyalert)
+				{
+			 		alert(friendlyalert);
+				}*/
+				return true;
+			}
+				
+			function loadadobebox(boxname, url)
+			{
+				var response = false;
+	
+				doRequest(xmlhttp, "GET", url, false, null, null);
+				if (xmlhttp.status == 200)
+				{
+		         	response = xmlhttp.responseText;
+				}
+	
+				if(response)
+				{
+			 		var ele = document.getElementById(boxname);
+				 	if (ele)
+				 	{
+				 		ele.style.visibility = 'hidden';
+		 				ele.style.display = 'block';
+	
+		 				positionElement(ele, 'center', 'center', true);
+	
+						ele.innerHTML = response;
+					    ele.style.visibility = 'visible';
+					    ele.style.display = 'block';
+	//				    ele.scrollIntoView(true);
+					}
+				}
+				return response;
+			}
+	
+	
+			function init()
+			{
+		 		var ld=document.getElementById("loading");
+				if(ld)
+				{
+					ld.style.display = 'none';
+				}
+			}
+			
+			function openmore()
+			{
+			 	var id = document.getElementById('quicksearch');
+			 	if (id)
+			 	{
+				 	var pos = findPos(id);
+				 	id.style.zIndex = 10;
+		//		 	id.style.left = pos[0]+'px';
+		//		  	id.style.top = pos[1]+'px';
+				  	id.style.height = '295px';
+				  	id.style.position = 'absolute';
+				  	id.style.backgroundColor = '#f7f4ec';
+				  	var id2 = document.getElementById('searchmore');
+				  	if (id2)
+				  	{
+				  	 	id2.style.display = 'none';
+				  	}
+				  	var id3 = document.getElementById('contactlegislatordiv');
+				  	if (id3)
+				  	{
+				  	 	id3.style.display = 'none';
+				  	}
+				}
+			}
+		
+			function closemore()
+			{
+			 	var id = document.getElementById('quicksearch');
+			 	if (id)
+			 	{
+				  	id.style.height = '135px';
+				  	id.style.position = '';
+				  	id.style.backgroundColor = 'transparent';
+				  	var id2 = document.getElementById('searchmore');
+				  	if (id2)
+				  	{
+				  	 	id2.style.display = 'block';
+				  	}
+				  	var id3 = document.getElementById('contactlegislatordiv');
+				  	if (id3)
+				  	{
+				  	 	id3.style.display = '';
+				  	}
+				}		 	
+			}
+		
+		<!-- This script and many more are available free online at -->
+		<!-- The JavaScript Source!! http://javascript.internet.com -->
+		
+		<!-- Begin
+		function right(e) {
+		var msg = "Use of this image is strictly prohibited unless express written permission is given to the user by South Carolina Legislative Services Agency.";
+		if (navigator.appName == 'Netscape' && e.which == 3) {
+		alert(msg);
+		return false;
+		stopEvent(e);
+		}
+		if (navigator.appName == 'Microsoft Internet Explorer' && event.button==2) {
+		alert(msg);
+		return false;
+			stopEvent(event);
+		}
+		else return true;
+		}
+		
+	function trap() 
+	{
+		if(document.images)
+		{
+			for(i=0;i<document.images.length;i++)
+			{
+				if(document.images[i].className == 'allowcontextmenu')
+				{
+					// this should have no scripting
+				}
+				else
+				{
+				 	document.images[i].onmousedown = right;
+					document.images[i].oncontextmenu = function(){ return false; };
+					//document.images[i].onmouseup = right;
+				}
+			}
+		}
+	}
+
+	function findfwtext(texttofind) 
+	{
+	 	var fwtextele = document.getElementById('fwtext');
+		if(fwtextele)
+		{
+			fwtextele.value = texttofind;
+		}
+	}	
+		// End -->
+		</script>
+
+		<!-- ADDED FOR V4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LJY6FMNQKH"></script>
+
+
+<script type="text/javascript">
+
+//ADDED FOR V4
+//Google tag (gtag.js) 
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LJY6FMNQKH');
+
+ 
+ /* COMMENTING OUT UPGRADING TO V4 -A
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36207109-1']);
+  _gaq.push(['_setDomainName', 'scstatehouse.gov']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+*/
+  
+      $(document).ready(function(){
+        // COMMENTING THIS OUT NO LONGER BEING ACTIVELY USED TO MONITOR FOR TRAFFIC TO SPECIFIC LINKS - A
+        /*
+          var anchors = $('div#contentsection a');
+
+          //console.log('anchors...'+anchors.length);
+          if(anchors.length > 0){
+            //console.log('setting up event handler...');
+            anchors.click(function(){
+              var a = $(this).attr('href');
+              if(_gaq && (a.substr(-3) == 'htm' || a.substr(-4) == 'html' || a.substr(-3) == 'doc' || a.substr(-4) == 'docx' || a.substr(-3) == 'pdf' || a.substr(-3) == 'xls' || a.substr(-4) == 'xlsx')) {
+                //console.log(a);
+                _gaq.push(['_trackPageview', $(this).attr('href')]);
+              }
+              
+              var aText = $(this).text().toLowerCase();
+              if (a.indexOf('getfile.php') > -1 && aText === 'word'){
+                    _gaq.push(['_trackEvent', 'Word Doc', 'Download', ('from page: ' + document.location + ' - href: ' + a)]);
+              }
+
+            });
+          }
+          */
+      });
+
+</script>
+	</head>
+	
+		
+	<body class="home"  onload="init(); trap();">
+	<noscript>Your browser does not support JavaScript!  This page will not render correctly.</noscript> 
+
+
+	
+	<div id="adobebox" style="position:absolute; width:400px; height:150px; border:2px solid #555555; background-color:#cccccc; display:none;"></div>
+	<div id="senatecontainer" >	
+				<div id="header" class="nodisplay" style="text-align:center; height:150px;" >
+									<img id="senateheaderimg" class="nodisplay" alt="South Carolina Legislature" title="South Carolina Legislature" src="/images/blank.gif" />
+								
+				
+				
+			</div>
+			<div class="printdisplay"><img border="0" src="/images/titleprint.jpg" alt="South Carolina Legislature" title="South Carolina Legislature" alt="South Carolina Legislature" title="South Carolina State Legislature" /><br /><hr /><br /></div>
+	
+			<div id="pagebody" >
+	
+	
+<!--<div id="topmessage">
+<br style="display:block; margin-top:10px;">
+Searches and data queries will be unavailable beginning Friday, August 19, 2016, from 8:00 PM until Saturday, August 20th at 8:00 AM<br>due to scheduled maintenance.</div>-->
+				<!-- Prompt IE 8/7/6 users to upgrade to a newer browser. -->
+				<!--[if lte IE 8]>
+				<div class="oldframe">In order to improve your experience using this website, please <a href="http://browsehappy.com/">upgrade your browser</a>.</div>
+				<![endif]-->
+			
+			
+			
+			<div id="menu" class="nodisplay">
+				<ul class="nodisplay">
+				<li><a href="/index.php">Home</a></li>
+<li class="selected"><a style="color:black;" href="/senate.php">Senate</a></li>
+<li><a href="/house.php">House</a></li>
+<li><a href="/committeeinfo.php">Committee&nbsp;Postings&nbsp;and&nbsp;Reports</a></li>
+<li><a href="/council.php">Legislative Council</a></li>
+<li><a href="/citizens.php">Citizens&#39; Interest</a></li>
+<li><a href="/publications.php">Publications</a></li>
+		    	</ul>
+			</div>
+			<div id="search" class="nodisplay" style="height: 28px;"><div class="nodisplay" style="float:right; margin:6px 20px 0px 0;">
+							<!--<a style="color:#f7f4ec; height:15px;" href="#" onClick="rsswindow();"><img border=0 src="/images/lock.png" style="vertical-align: middle; width: 15px; height: 15px;">&nbsp;Staff&nbsp;Portal</a>-->
+<!--				<a style="color:#f7f4ec; height:15px;" href="/splashpage/splashpage.html"><img border=0 src="/images/lock.png" style="vertical-align: middle; width: 15px; height: 15px;">&nbsp;Staff&nbsp;Portal</a> -->
+				<a style="color:#f7f4ec; height:15px;" href="/onlineservices/index.php"><img border="0" src="/images/lock.png" style="vertical-align: middle; width: 15px; height: 15px;">&nbsp;Staff&nbsp;Portal</a>
+			<!--	<a style="color:#f7f4ec; height:15px;" href="/maintenance_portal.php"><img border=0 src="/images/lock.png" style="vertical-align: middle; width: 15px; height: 15px;">&nbsp;Staff&nbsp;Portal</a>-->
+						</div></div>
+			
+	
+				    <div id="submenu" class="nodisplay">
+		    	<ul>
+				<li class="selected"><a style="color:black;" href="/member.php?chamber=S"><span style="display:inline-block; padding-top:8px;">Members</span></a></li><li><a href="/member.php?chamber=S&order=O"><span style="display:inline-block; padding-top:8px;">Officers</span></a></li><li><a href="/committee.php?chamber=S">Standing<br>Comm.</a></li><li><a href="/publicationspage/JtSpecCommList.pdf">Joint<br>Comm.</a></li><li><a href="/email.php?chamber=S"><span style="display:inline-block; padding-top:8px;">Email</span></a></li><li><a href="/meetings.php?chamber=S"><span style="display:inline-block; padding-top:8px;">Meetings</span></a></li><li><a href="/sessphp/sencal.php"><span style="display:inline-block; padding-top:8px;">Calendars</span></a></li><li><a href="/sessphp/sjournal.php"><span style="display:inline-block; padding-top:8px;">Journals</span></a></li><li><a href="/sessphp/sintros.php"><span style="display:inline-block; padding-top:8px;">Introductions</span></a></li><li><a href="/delegations.php"><span style="display:inline-block; padding-top:8px;">Delegations</span></a></li><li><a href="/senatepage/senrule.php"><span style="display:inline-block; padding-top:8px;">Rules</span></a></li><li><a href="/senate/page/"><span style="display:inline-block; padding-top:8px;">Senate Page</span></a></li>				</ul>
+			</div>
+			<div id="sidebar" class="nodisplay">
+	<div id="vidlinks" style="height: 50px;">
+						<!--<img src="/images/videobutton12d.png">-->
+											<ul id="vidsidemenu">
+	<li id="vidinnermenu" style="font-size:16px; margin: 0 0 5px 0;">Chamber Video</li>
+<li id="sbroadcast" style="float: left; width:50%;">
+<a id="liveS" style="width: 100%; text-decoration:underline;" href="javascript:void(0);" onClick="live_stream('S', false, false, '0')">Senate</a><br><a id="liveaudioS" style="margin:-3px 0 0 0; text-decoration:underline; width: 100%; font-size: 8px;" href="javascript:void(0);" onClick="live_stream('S', false, false, '1');">(Audio Only)</a>
+</li>
+<li id="hbroadcast" style="float: left; width:50%;">
+<a id="liveH" style="width: 100%; text-decoration:underline;" href="javascript:void(0);" onClick="live_stream('H', false, false, '0')">House</a><br><a id="liveaudioH" style="margin:-3px 0 0 0; text-decoration:underline; width: 100%; font-size: 8px;" href="javascript:void(0);" onClick="live_stream('H', false, false, '1');">(Audio Only)</a>
+</li>
+						</ul>
+					</div>
+					<div id="commvidlinks"><a href="/video/schedule.php">Video&nbsp;Schedule</a><a style="border-top:1px solid #fff; padding-top:12px;" href="/video/archives.php">Video Archives</a></div>
+										<div id="sidemenu">
+						<ul id="innermenu">
+		
+							<li><a href="/howdoi.php">How do I...</a></li>
+										
+							
+								<li class="nolink" onMouseOver="var ele=document.getElementById('sidesearch'); if(ele){ele.style.display='block'; document.sidesearchform.searchtext.focus();}" onMouseOut="var ele=document.getElementById('sidesearch'); if(ele){ele.style.display='none';}"><div class="nolinkdiv">Quick Search</div>
+								<div id="sidesearch" class="sidesubmenu">
+									<form id="sidesearchform" name="sidesearchform" method="POST" action="/search.php">
+									<input type="hidden" name="search" value="side" />
+									<div class="topelement"><label for="searchtext"><span class="label">Search for:</span></label><input id="searchtext" name="searchtext" type="text"/><a id="searchlink2" href="javascript:void(0);" onClick="document.sidesearchform.submit();"><img id="searchicon" src="/images/searchbutton.png" alt="Search" title="Search"/></a></div>
+			<!--						<div><input type="checkbox" id="searchchoice_all" name="searchchoice_all" value="all" /><label for="searchchoice_all">All</label></div>-->
+									<div style="padding-left:20px;"><input type="radio" id="searchchoice_fullsite" name="category" value="FULLSITE" /><label for="searchchoice_fullsite">&nbsp;Full Site Search</label></div>
+									<div style="padding-left:20px;"><input type="radio" id="searchchoice_billnumber" name="category" value="BILL" /><label for="searchchoice_billnumber">&nbsp;Bill Number</label></div>
+									<div style="padding-left:20px;"><input type="radio" id="searchchoice_legislation" name="category" value="LEGISLATION" CHECKED /><label for="searchchoice_legislation">&nbsp;Legislation</label></div>
+									<div style="padding-left:20px;"><input type="radio" id="searchchoice_budget" name="category" value="BUDGET" /><label for="searchchoice_budget">&nbsp;Budget</label></div>
+									<div style="padding-left:20px;"><input type="radio" id="searchchoice_codeoflaws" name="category" value="CODEOFLAWS" /><label for="searchchoice_codeoflaws">&nbsp;Code of Laws</label></div>
+									<div style="padding-left:20px;"><input type="radio" id="searchchoice_codeofregs" name="category" value="CODEOFREGS" /><label for="searchchoice_codeofregs">&nbsp;Code of Regulations</label></div>
+									<div style="padding-left:20px;"><input type="radio" id="searchchoice_constitution" name="category" value="CONSTITUTION" /><label for="searchchoice_constitution">&nbsp;Constitution</label></div>
+									<div style="padding-left:20px;"><input type="radio" id="searchchoice_housejournals" name="category" value="HOUSEJOURNALS" /><label for="searchchoice_housejournals">&nbsp;House Journals</label></div>
+									<div style="padding-left:20px;"><input type="radio" id="searchchoice_senatejournals" name="category" value="SENATEJOURNALS" /><label for="searchchoice_senatejournals">&nbsp;Senate Journals</label></div>
+									<div class="bottomelement" style="padding-left:20px;"><input type="radio" id="searchchoice_billsummary" name="category" value="SUMMARY" /><label for="searchchoice_billsummary">&nbsp;LSA Bill Summary</label></div>
+								</form>
+									
+								</div>
+							</li>
+							<li><a href="/legislatorssearch.php">Find Your Legislators</a></li>
+							<li id="contactLegislatorLink"><a href="/email.php?chamber=B">Contact Your Legislator</a></li>
+									
+							<li><a href="/legislation.php">Legislation</a></li>
+							<li><a href="/listtracking/main.php" target="LTS">Track Legislation</a></li>
+							<li><a href="/multicriteria2/search.php" target="MCS">Multi-Criteria Search</a></li>
+									<!--<li><a href="#" onclick="multisearchwindow('INTROBOTH');">Multi-Criteria Search</a></li>-->
+									<!--<li><a href="#" onclick="multisearchwindow('INTROMANUAL');">Multi-Criteria Search</a></li>-->
+									<li><a href="/research.php">Research</a></li>
+	
+								<li class="nolink" onMouseOver="var ele=document.getElementById('law'); if(ele){ele.style.display='block';}" onMouseOut="var ele=document.getElementById('law'); if(ele){ele.style.display='none';}"><div class="nolinkdiv">South Carolina Law</div> 
+								<div id="law" class="sidesubmenu">
+									<div class="sidediv topelement"><a href="/newlaws.php">Ratifications &amp; Acts</a></div>
+									<div class="sidediv"><a href="/code/statmast.php">Code of Laws</a></div>
+									<div class="sidediv"><a href="/coderegs/statmast.php">Code of Regulations</a></div>
+									<div class="sidediv"><a href="/scconstitution/scconst.php">Constitution</a></div>
+									<div class="sidediv bottomelement"><a href="/state_register.php">State Register</a></div>
+								</div>
+							</li>
+										<li class="nolink" onMouseOver="var ele=document.getElementById('manual'); if(ele){ele.style.display='block';}" onMouseOut="var ele=document.getElementById('manual'); if(ele){ele.style.display='none';}"><div class="nolinkdiv">Legislative Manual</div>
+								<div id="manual" class="sidesubmenu">
+								
+<!--									<div class="sidediv topelement"><a href="https://web.sc.gov/LSAShoppingcart/Default.aspx" target="_blank">Purchase Manual</a></div>-->
+								
+<!--									<div class="sidediv topelement"><a href="https://secure.scstatehouse.gov/cgi-bin/webstore.exe" target="_blank">Purchase Manual</a></div>-->
+									<div class="sidediv topelement"><a href="javascript:#" onClick="alert('We are sorry, but we are unable to process online transactions at this time.\n\nIf you would still like to make a purchase, please contact us directly at (803) 212-4490 during normal business hours (8:30am - 5:00pm EST).');">Purchase Manual</a></div>
+									<div class="sidediv bottomelement"><a href="/man26/manual26.php">View Manual Online</a></div>
+								</div>
+							</li>
+							<li><a href="http://www.studentconnection.scstatehouse.gov">Student Connection</a></li>
+							<li><a href="/visit.php">Visiting the State House</a></li>
+							<li><a href="/archives.php">Archives</a></li>
+							<li><a href="http://www.sc.gov/Agency-Listing" target="_blank">State Agency Websites</a></li>
+							<!--<li><a href="/stateagencysites.php">State Agency Websites</a></li>-->
+							<li><a href="/citizensinterestpage/media.php">Media Links</a></li>
+				 		</ul>
+			    	</div>
+	
+					<div id="side_ad">
+						<A href="http://www.sc.gov/" target="_blank"><img border=0 src="/images/scgov3.jpg" alt="SC.gov" title="SC.gov" /></a>
+													<A href="http://www.statelibrary.sc.gov" target="_blank"><img border=0 src="/images/scsl_logo_rgb_web.png" alt="StateLibrary.SC.gov" title="StateLibrary.SC.gov" /></a>
+											</div>	    	
+			</div>
+
+	
+	<script type="text/javascript"> 
+		if ( '' === '1'){
+		 	
+			var link = document.getElementById('contactLegislatorLink');
+			if (link != 'undefined' && link != null){
+				link.style.display = 'none'; 
+				link.style.visibility = 'hidden';
+			}
+		}
+		if ( '' === '1'){
+		 	setTimeout(function(){
+				var link2 = document.getElementById('sendMsgLink');
+				if (link2 != 'undefined' && link2 != null){
+					link2.style.display = 'none'; 
+					link2.style.visibility = 'hidden';
+				};
+			}, 20);
+			
+		}  
+	</script>
+<div class="mainwidepanel">
+<div id="breadcrumbs" class="nodisplay">
+<span><a href="/senate.php">Senate</a> &gt; Members of the Senate - Current Session By Last Name</span>
+</div>
+<span>Change View:&nbsp;&nbsp;&nbsp;&nbsp;<a href="/member.php?chamber=S&order=D">(By District)</a></span>
+<h2 class="barheader">Members of the Senate<br> Current Session By Last Name</h2>
+<div id="contentsection"  onContextMenu="stopEvent(event);">
+<div style="font-size: 12px; font-weight: bold; margin: 0 0 0 20px;">-- Senate Mailing List <a style="font-weight: bold;" HREF="/html-pages/senoff.docx">(Word docx)</a> Merge format</div><br>
+<form style="display: block;  text-align: center; margin: 0 0 10px 0;" name="sessionform" method="GET" action="/member.php">
+<input type="hidden" name="chamber" value="S">
+<label for="sessionform_session">By Session: </label><select id="sessionform_session" name="session" onchange="return this.form.submit();">
+<option value="0">Current</option>
+<option value="126">126 (2025 - 2026)</option>
+<option value="125">125 (2023 - 2024)</option>
+<option value="124">124 (2021 - 2022)</option>
+<option value="123">123 (2019 - 2020)</option>
+<option value="122">122 (2017 - 2018)</option>
+<option value="121">121 (2015 - 2016)</option>
+<option value="120">120 (2013 - 2014)</option>
+<option value="119">119 (2011 - 2012)</option>
+<option value="118">118 (2009 - 2010)</option>
+<option value="117">117 (2007 - 2008)</option>
+<option value="116">116 (2005 - 2006)</option>
+<option value="115">115 (2003 - 2004)</option>
+<option value="114">114 (2001 - 2002)</option>
+<option value="113">113 (1999 - 2000)</option>
+<option value="112">112 (1997 - 1998)</option>
+<option value="111">111 (1995 - 1996)</option>
+<option value="110">110 (1993 - 1994)</option>
+<option value="109">109 (1991 - 1992)</option>
+<option value="108">108 (1989 - 1990)</option>
+<option value="107">107 (1987 - 1988)</option>
+<option value="106">106 (1985 - 1986)</option>
+<option value="105">105 (1983 - 1984)</option>
+<option value="104">104 (1981 - 1982)</option>
+<option value="103">103 (1979 - 1980)</option>
+<option value="102">102 (1977 - 1978)</option>
+<option value="101">101 (1975 - 1976)</option>
+</select>
+<noscript><input type="submit" value="Refresh"></noscript>
+</form>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0002272727">District 44</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Brian Adams" title="Photo of Senator Brian Adams" src="/images/members/0002272727.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0002272727">Senator Brian Adams</a>
+(R)<div id="phone"></div><div id="address">606 Gressette Bldg., Columbia, SC 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0013636362">District 1</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Thomas C. Alexander" title="Photo of Senator Thomas C. Alexander" src="/images/members/0013636362.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0013636362">Senator Thomas C. Alexander</a>
+(R)<div id="phone"></div><div id="address">213 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0015340908">District 7</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Karl B. Allen" title="Photo of Senator Karl B. Allen" src="/images/members/0015340908.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0015340908">Senator Karl B. Allen</a>
+(D)<div id="phone"></div><div id="address">610 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0141193165">District 38</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Sean M. Bennett" title="Photo of Senator Sean M. Bennett" src="/images/members/0141193165.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0141193165">Senator Sean M. Bennett</a>
+(R)<div id="phone"></div><div id="address">205 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0143749983">District 27</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Allen Blackmon" title="Photo of Senator Allen Blackmon" src="/images/members/0143749983.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0143749983">Senator Allen Blackmon</a>
+(R)<div id="phone"></div><div id="address">510 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0193181795">District 12</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Lee Bright" title="Photo of Senator Lee Bright" src="/images/members/0193181795.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0193181795">Senator Lee Bright</a>
+(R)<div id="phone"></div><div id="address">608 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0302272691">District 43</a></h1></div>
+<img class="memberpic" alt="Photo of Senator George E. &quot;Chip&quot; Campsen III" title="Photo of Senator George E. &quot;Chip&quot; Campsen III" src="/images/members/0302272691.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0302272691">Senator George E. &quot;Chip&quot; Campsen III</a>
+(R)<div id="phone"></div><div id="address">305 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0328409052">District 3</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Richard J. Cash" title="Photo of Senator Richard J. Cash" src="/images/members/0328409052.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0328409052">Senator Richard J. Cash</a>
+(R)<div id="phone"></div><div id="address">506 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0346590868">District 29</a></h1></div>
+<img class="memberpic" alt="Photo of Senator JD Chaplin" title="Photo of Senator JD Chaplin" src="/images/members/0346590868.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0346590868">Senator JD Chaplin</a>
+(R)<div id="phone"></div><div id="address">512 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0356818139">District 15</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Wes Climer" title="Photo of Senator Wes Climer" src="/images/members/0356818139.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0356818139">Senator Wes Climer</a>
+(R)<div id="phone"></div><div id="address">404 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0402272679">District 5</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Thomas D. &quot;Tom&quot; Corbin" title="Photo of Senator Thomas D. &quot;Tom&quot; Corbin" src="/images/members/0402272679.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0402272679">Senator Thomas D. &quot;Tom&quot; Corbin</a>
+(R)<div id="phone"></div><div id="address">501 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0438636311">District 18</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Ronnie W. Cromer" title="Photo of Senator Ronnie W. Cromer" src="/images/members/0438636311.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0438636311">Senator Ronnie W. Cromer</a>
+(R)<div id="phone"></div><div id="address">410 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0456818127">District 46</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Tom Davis" title="Photo of Senator Tom Davis" src="/images/members/0456818127.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0456818127">Senator Tom Davis</a>
+(R)<div id="phone"></div><div id="address">203 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0477840852">District 19</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Tameika Isaac Devine" title="Photo of Senator Tameika Isaac Devine" src="/images/members/0477840852.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0477840852">Senator Tameika Isaac Devine</a>
+(D)<div id="phone"></div><div id="address">612 Gressette Bldg., Columbia, 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0529545391">District 6</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Jason Elliott" title="Photo of Senator Jason Elliott" src="/images/members/0529545391.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0529545391">Senator Jason Elliott</a>
+(R)<div id="phone"></div><div id="address">502 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0574999931">District 39</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Tom Fernandez" title="Photo of Senator Tom Fernandez" src="/images/members/0574999931.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0574999931">Senator Tom Fernandez</a>
+(R)<div id="phone"></div><div id="address">606 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0635227197">District 4</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Michael W. Gambrell" title="Photo of Senator Michael W. Gambrell" src="/images/members/0635227197.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0635227197">Senator Michael W. Gambrell</a>
+(R)<div id="phone"></div><div id="address">504 Gressette, Columbia 29202</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0638636287">District 10</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Billy Garrett" title="Photo of Senator Billy Garrett" src="/images/members/0638636287.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0638636287">Senator Billy Garrett</a>
+(R)<div id="phone"></div><div id="address">604 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0682386282">District 34</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Stephen L. Goldfinch" title="Photo of Senator Stephen L. Goldfinch" src="/images/members/0682386282.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0682386282">Senator Stephen L. Goldfinch</a>
+(R)<div id="phone"></div><div id="address">602 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0703124916">District 35</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Jeffrey R. Graham" title="Photo of Senator Jeffrey R. Graham" src="/images/members/0703124916.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0703124916">Senator Jeffrey R. Graham</a>
+(D)<div id="phone"></div><div id="address">602 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0729545367">District 37</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Lawrence K. &quot;Larry&quot; Grooms" title="Photo of Senator Lawrence K. &quot;Larry&quot; Grooms" src="/images/members/0729545367.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0729545367">Senator Lawrence K. &quot;Larry&quot; Grooms</a>
+(R)<div id="phone"></div><div id="address">313 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0819318084">District 28</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Greg Hembree" title="Photo of Senator Greg Hembree" src="/images/members/0819318084.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0819318084">Senator Greg Hembree</a>
+(R)<div id="phone"></div><div id="address">402 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0912499891">District 40</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Brad Hutto" title="Photo of Senator Brad Hutto" src="/images/members/0912499891.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0912499891">Senator Brad Hutto</a>
+(D)<div id="phone"></div><div id="address">513 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0920454435">District 21</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Darrell Jackson" title="Photo of Senator Darrell Jackson" src="/images/members/0920454435.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0920454435">Senator Darrell Jackson</a>
+(D)<div id="phone"></div><div id="address">612 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0949431704">District 16</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Michael Johnson" title="Photo of Senator Michael Johnson" src="/images/members/0949431704.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0949431704">Senator Michael Johnson</a>
+(R)<div id="phone"></div><div id="address">510 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0984090791">District 23</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Carlisle Kennedy" title="Photo of Senator Carlisle Kennedy" src="/images/members/0984090791.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0984090791">Senator Carlisle Kennedy</a>
+(R)<div id="phone"></div><div id="address">601 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0993465790">District 11</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Josh Kimbrell" title="Photo of Senator Josh Kimbrell" src="/images/members/0993465790.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0993465790">Senator Josh Kimbrell</a>
+(R)<div id="phone"></div><div id="address">502 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1074431690">District 41</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Matthew W. &quot;Matt&quot; Leber" title="Photo of Senator Matthew W. &quot;Matt&quot; Leber" src="/images/members/1074431690.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1074431690">Senator Matthew W. &quot;Matt&quot; Leber</a>
+(R)<div id="phone"></div><div id="address">504 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1179545313">District 13</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Shane R. Martin" title="Photo of Senator Shane R. Martin" src="/images/members/1179545313.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1179545313">Senator Shane R. Martin</a>
+(R)<div id="phone"></div><div id="address">211 Gressette Bldg., Columbia 29202</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1185227131">District 25</a></h1></div>
+<img class="memberpic" alt="Photo of Senator A. Shane Massey" title="Photo of Senator A. Shane Massey" src="/images/members/1185227131.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1185227131">Senator A. Shane Massey</a>
+(R)<div id="phone"></div><div id="address">311 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=0194318159">District 45</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Margie Bright Matthews" title="Photo of Senator Margie Bright Matthews" src="/images/members/0194318159.jpg"><div class="info">
+<a class="membername" href="/member.php?code=0194318159">Senator Margie Bright Matthews</a>
+(D)<div id="phone"></div><div id="address">508 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1433096420">District 26</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Russell L. Ott" title="Photo of Senator Russell L. Ott" src="/images/members/1433096420.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1433096420">Senator Russell L. Ott</a>
+(D)<div id="phone"></div><div id="address">513 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1454545280">District 14</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Harvey S. Peeler, Jr." title="Photo of Senator Harvey S. Peeler, Jr." src="/images/members/1454545280.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1454545280">Senator Harvey S. Peeler, Jr.</a>
+(R)<div id="phone"></div><div id="address">111 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1511363455">District 33</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Luke A. Rankin" title="Photo of Senator Luke A. Rankin" src="/images/members/1511363455.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1511363455">Senator Luke A. Rankin</a>
+(R)<div id="phone"></div><div id="address">101 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1528408908">District 31</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Mike Reichenbach" title="Photo of Senator Mike Reichenbach" src="/images/members/1528408908.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1528408908">Senator Mike Reichenbach</a>
+(R)<div id="phone"></div><div id="address">604 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1547727087">District 2</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Rex F. Rice" title="Photo of Senator Rex F. Rice" src="/images/members/1547727087.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1547727087">Senator Rex F. Rice</a>
+(R)<div id="phone"></div><div id="address">601 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1617045261">District 32</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Ronnie A. Sabb" title="Photo of Senator Ronnie A. Sabb" src="/images/members/1617045261.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1617045261">Senator Ronnie A. Sabb</a>
+(D)<div id="phone"></div><div id="address">613 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1780681605">District 17</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Everett Stubbs" title="Photo of Senator Everett Stubbs" src="/images/members/1780681605.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1780681605">Senator Everett Stubbs</a>
+(R)<div id="phone"></div><div id="address">506 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1782954332">District 20</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Ed Sutton" title="Photo of Senator Ed Sutton" src="/images/members/1782954332.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1782954332">Senator Ed Sutton</a>
+(D)<div id="phone"></div><div id="address">613 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1811931601">District 42</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Deon T. Tedder" title="Photo of Senator Deon T. Tedder" src="/images/members/1811931601.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1811931601">Senator Deon T. Tedder</a>
+(D)<div id="phone"></div><div id="address">508 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1847727051">District 8</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Ross Turner" title="Photo of Senator Ross Turner" src="/images/members/1847727051.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1847727051">Senator Ross Turner</a>
+(R)<div id="phone"></div><div id="address">512 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1874999775">District 9</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Daniel B. &quot;Danny&quot; Verdin III" title="Photo of Senator Daniel B. &quot;Danny&quot; Verdin III" src="/images/members/1874999775.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1874999775">Senator Daniel B. &quot;Danny&quot; Verdin III</a>
+(R)<div id="phone"></div><div id="address">412 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1889772501">District 22</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Overture Walker" title="Photo of Senator Overture Walker" src="/images/members/1889772501.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1889772501">Senator Overture Walker</a>
+(D)<div id="phone"></div><div id="address">501 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1938636131">District 30</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Kent M. Williams" title="Photo of Senator Kent M. Williams" src="/images/members/1938636131.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1938636131">Senator Kent M. Williams</a>
+(D)<div id="phone"></div><div id="address">608 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1996590730">District 24</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Tom Young, Jr." title="Photo of Senator Tom Young, Jr." src="/images/members/1996590730.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1996590730">Senator Tom Young, Jr.</a>
+(R)<div id="phone"></div><div id="address">303 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div class="memberOutline">
+<div class="member">
+<div class="district"><h1><a href="/member.php?code=1999431789">District 36</a></h1></div>
+<img class="memberpic" alt="Photo of Senator Jeff Zell" title="Photo of Senator Jeff Zell" src="/images/members/1999431789.jpg"><div class="info">
+<a class="membername" href="/member.php?code=1999431789">Senator Jeff Zell</a>
+(R)<div id="phone"></div><div id="address">610 Gressette Bldg., Columbia 29201</div>
+</div>
+</div>
+</div>
+<div style="height: 30px; margin: 0; clear: both;"></div>
+</div>
+					</div>		 <!-- mainwidepanel -->
+					
+				</div>		 <!-- pagebody -->
+				
+				<div id="footer" class="nodisplay" style="height: 30px;" onContextMenu="return false;">
+			<div id="footerdiv" style="margin:0;">
+				South Carolina Legislative Services Agency * 223 Blatt Building * 1105 Pendleton Street * Columbia, SC 29201<!-- * 803-212-4420--><br>
+				
+								<a href="/disclaimer.php">Disclaimer</a> * <a href="/policies.php">Policies</a> * <a href="/credits.php">Photo Credits</a> * <a href="/contact.php">Contact Us</a>
+							</div>
+		</div>
+		<div id="printfooter" class="printdisplay serifNormal" align=center style="font-size: 8pt;">
+			<br>
+			<br>
+			<hr>
+			Legislative Services Agency
+			<br>
+			h t t p : / / w w w . s c s t a t e h o u s e . g o v
+		</div>
+	
+		</div>	<!-- container or main in mobile page-->
+</body>
+</html>
+
