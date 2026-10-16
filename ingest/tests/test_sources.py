@@ -122,3 +122,24 @@ def test_census_api_html_error_raises(tmp_path):
     doc = [d for d in src.discover(None) if d.kind == "json"][0]
     with pytest.raises(LayoutChanged):
         src.parse(RawDocument(doc=doc, path=p, sha256="0" * 64, retrieved_at=date(2026, 10, 16), archive_url=None))
+
+
+def test_nj_tax_returns_sum_across_licensees_and_skip_skin_pages():
+    src = NJDGESportsWagering()
+    raw = raw_for(FIX / "nj_dge107_synthetic.pdf", Period.month(2026, 8), "pdf")
+    recs = {r["channel"]: r for r in src.parse(raw)}
+    assert recs["retail"]["gross_revenue_usd"] == 3_668 + 100_000
+    assert recs["retail"]["promo_deductions_usd"] == -2_000  # parentheses are negative, dash is zero
+    assert recs["retail"]["state_tax_usd"] == 312 + 8_330
+    assert recs["online"]["gross_revenue_usd"] == 5_000_000 + 3_000_000  # skin detail page not double counted
+    assert recs["online"]["state_tax_usd"] == 987_500 + 592_500
+    assert recs["all"]["gross_revenue_usd"] == 3_668 + 100_000 + 8_000_000
+    assert recs["retail"]["handle_usd"] is None
+    rows = [r.finalize() for r in src.normalize(list(recs.values()), raw)]
+    assert all(r["revenue_definition"].startswith("Gross revenue before deductions") for r in rows)
+
+
+def test_nj_tax_returns_wrong_month_raises(tmp_path):
+    src = NJDGESportsWagering()
+    with pytest.raises(LayoutChanged):
+        src.parse(raw_for(FIX / "nj_dge107_synthetic.pdf", Period.month(2026, 9), "pdf"))

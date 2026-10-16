@@ -38,7 +38,13 @@ LANDING_CANDIDATES = [
 ]
 # Historic pattern for the monthly PDF; the CLI confirms the link exists on the landing page before fetching.
 PDF_PATTERN = "https://www.nj.gov/oag/ge/docs/Financials/SWRTaxReturns/{y}/{Month}{y}.pdf"
-REVENUE_DEFINITION = "Gross revenue before deductions for promotional gaming credits (DGE monthly sports wagering report)"
+REVENUE_DEFINITION = "Gross revenue before deductions for promotional gaming credits, summed across licensees from the DGE-107 monthly sports wagering tax returns; adjusted revenue is taxable gross revenue after the promotional gaming credit deduction and adjustments"
+PRESS_RELEASE_PATTERN = "https://www.nj.gov/oag/ge/docs/Financials/PressRelease{y}/{Month}{y}.pdf"
+TAX_RETURN_LINES = {
+    # line number -> (channel, field). Lines 3, 5, 6, 7 are the retail (Sportsbook Lounge) block; 16, 18, 19 the online block.
+    3: ("retail", "gross_revenue_usd"), 5: ("retail", "promo_deductions_usd"), 6: ("retail", "adjusted_revenue_usd"), 7: ("retail", "state_tax_usd"),
+    16: ("online", "gross_revenue_usd"), 18: ("online", "adjusted_revenue_usd"), 19: ("online", "state_tax_usd"),
+}
 MONEY = re.compile(r"\(?-?\$?\s*([\d,]+(?:\.\d+)?)\)?")
 
 
@@ -84,11 +90,70 @@ class NJDGESportsWagering:
 
     def parse(self, raw: RawDocument) -> list[dict[str, Any]]:
         with pdfplumber.open(raw.path) as pdf:
-            text = "\n".join((p.extract_text() or "") for p in pdf.pages)
+            pages = [(p.extract_text() or "") for p in pdf.pages]
+        text = "\n".join(pages)
+        if "MONTHLY SPORTS WAGERING TAX RETURN" in text.upper():
+            return self._parse_tax_returns(pages, raw)
+        return self._parse_press_release(text, raw)
+
+    # ---- DGE-107 monthly tax returns, one form per licensee, compiled into one PDF ----
+    def _parse_tax_returns(self, pages: list[str], raw: RawDocument) -> list[dict[str, Any]]:
+        """Sum the DGE-107 line items across licensees.
+
+        Each licensee's return has a Sportsbook Lounge (retail) block, lines 1 to 13, and an Online
+        Sportsbook block, lines 14 to 25. Skin detail pages repeat lines 14 to 16 per online partner and
+        are skipped so nothing is double counted. Amounts in parentheses are negative; a dash is zero.
+        """
+        totals: dict[tuple[str, str], int] = {}
+        licensees: list[str] = []
+        month_seen: set[str] = set()
+        line_re = re.compile(r"^(\d{1,2})\s+(.+?)\s+\$?\s*(\(?-?[\d,]+\)?|-)\s*$")
+        for page in pages:
+            up = page.upper()
+            if "MONTHLY SPORTS WAGERING TAX RETURN" not in up or "SKIN DETAIL" in up:
+                continue
+            first = page.strip().splitlines()[0].strip() if page.strip() else ""
+            licensees.append(first)
+            m = re.search(r"FOR THE MONTH OF ([A-Z]+ \d{4})", up)
+            if m:
+                month_seen.add(m.group(1))
+            for line in page.splitlines():
+                mm = line_re.match(line.strip())
+                if not mm:
+                    continue
+                n = int(mm.group(1))
+                if n not in TAX_RETURN_LINES:
+                    continue
+                tok = mm.group(3)
+                val = 0 if tok == "-" else _money(tok)
+                key = TAX_RETURN_LINES[n]
+                totals[key] = totals.get(key, 0) + val
+        if not licensees:
+            raise LayoutChanged(f"{raw.path.name}: no DGE-107 tax return pages found")
+        if len(month_seen) != 1:
+            raise LayoutChanged(f"{raw.path.name}: expected one reporting month across forms, saw {sorted(month_seen)}")
+        if raw.doc.period:
+            want = raw.doc.period.start.strftime("%B %Y").upper()
+            if want not in month_seen:
+                raise LayoutChanged(f"{raw.path.name}: forms are for {sorted(month_seen)}, requested {want}")
+        out = []
+        for ch in ("retail", "online"):
+            rec = {"channel": ch, "handle_usd": None, "gross_revenue_usd": totals.get((ch, "gross_revenue_usd")), "adjusted_revenue_usd": totals.get((ch, "adjusted_revenue_usd")), "promo_deductions_usd": totals.get((ch, "promo_deductions_usd"), 0 if ch == "retail" else None), "state_tax_usd": totals.get((ch, "state_tax_usd")), "licensees": len(licensees), "document": "dge-107"}
+            out.append(rec)
+        allrec = {"channel": "all", "handle_usd": None, "document": "dge-107", "licensees": len(licensees)}
+        for f in ("gross_revenue_usd", "adjusted_revenue_usd", "state_tax_usd"):
+            vals = [r[f] for r in out if r[f] is not None]
+            allrec[f] = sum(vals) if vals else None
+        allrec["promo_deductions_usd"] = out[0]["promo_deductions_usd"]
+        out.append(allrec)
+        return out
+
+    # ---- Monthly press release: handle and gross revenue by licensee and channel ----
+    def _parse_press_release(self, text: str, raw: RawDocument) -> list[dict[str, Any]]:
         if "SPORTS WAGERING" not in text.upper():
             raise LayoutChanged(f"{raw.path.name}: 'SPORTS WAGERING' not found in text; first 200 chars: {text[:200]!r}")
-        if "HANDLE" not in text.upper() or "GROSS REVENUE" not in text.upper():
-            raise LayoutChanged(f"{raw.path.name}: expected 'Handle' and 'Gross Revenue' headers; got headers: {text.splitlines()[:6]}")
+        if "HANDLE" not in text.upper():
+            raise LayoutChanged(f"{raw.path.name}: expected a Handle column in the press release; got headers: {text.splitlines()[:6]}")
         section = None
         found: dict[str, dict[str, int]] = {}
         for line in text.splitlines():
@@ -114,18 +179,20 @@ class NJDGESportsWagering:
         if "all" in found:
             for k in ("handle_usd", "gross_revenue_usd"):
                 if abs(found["retail"][k] + found["online"][k] - found["all"][k]) > 2:
-                    raise LayoutChanged(f"{raw.path.name}: retail + internet {k} ({found['retail'][k]} + {found['online'][k]}) does not equal grand total {found['all'][k]}")
-        return [{"channel": ch, **vals} for ch, vals in found.items()]
+                    raise LayoutChanged(f"{raw.path.name}: retail + internet {k} does not equal grand total")
+        return [{"channel": ch, "document": "press-release", **vals} for ch, vals in found.items()]
 
     def normalize(self, records: list[dict[str, Any]], raw: RawDocument) -> list[Row]:
         period = raw.doc.period
         assert period is not None
         rows: list[Row] = []
         for rec in records:
-            prov = provenance.block(SOURCE_ID, raw, method="pdf", entered_by="wpdc_ingest.nj_dge_sports_wagering", page_or_table="Monthly sports wagering report, TOTAL rows")
-            rows.append(Row(values={"fips": "34", "period_start": period.start.isoformat(), "period_end": period.end.isoformat(), "channel": rec["channel"], "market_segment": "regulated_sportsbook",
-                                    "handle_usd": rec["handle_usd"], "gross_revenue_usd": rec["gross_revenue_usd"], "adjusted_revenue_usd": None, "promo_deductions_usd": None, "state_tax_usd": None,
-                                    "revenue_definition": REVENUE_DEFINITION, "is_revised": False},
-                            provenance=provenance.csv_columns(prov),
-                            transform_steps=[f"TOTAL row of the {'Retail' if rec['channel']=='retail' else 'Internet' if rec['channel']=='online' else 'Grand total'} section; dollars rounded to integer"]))
+            doc = rec.get("document", "press-release")
+            page = "DGE-107 monthly sports wagering tax returns, lines 3, 5, 6, 7 (Sportsbook Lounge) and 16, 18, 19 (Online Sportsbook), summed across licensees" if doc == "dge-107" else "Monthly press release, sports wagering TOTAL rows"
+            prov = provenance.block(SOURCE_ID, raw, method="pdf", entered_by="wpdc_ingest.nj_dge_sports_wagering", page_or_table=page)
+            vals = {"fips": "34", "period_start": period.start.isoformat(), "period_end": period.end.isoformat(), "channel": rec["channel"], "market_segment": "regulated_sportsbook",
+                    "handle_usd": rec.get("handle_usd"), "gross_revenue_usd": rec.get("gross_revenue_usd"), "adjusted_revenue_usd": rec.get("adjusted_revenue_usd"), "promo_deductions_usd": rec.get("promo_deductions_usd"), "state_tax_usd": rec.get("state_tax_usd"),
+                    "revenue_definition": REVENUE_DEFINITION, "is_revised": False}
+            steps = [f"summed across {rec.get('licensees', '?')} licensee returns" if doc == "dge-107" else f"TOTAL row of the {rec['channel']} section", "dollars rounded to integer"]
+            rows.append(Row(values=vals, provenance=provenance.csv_columns(prov), transform_steps=steps))
         return rows
