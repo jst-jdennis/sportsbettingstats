@@ -3,16 +3,18 @@ import Base from '../../layouts/Base.astro';
 import Chart from '../../components/Chart.astro';
 import SourceRef from '../../components/SourceRef.astro';
 import Limitations from '../../components/Limitations.astro';
+import PrevalenceCard from '../../components/PrevalenceCard.astro';
 import fs from 'node:fs';
-import { effectFigures, adoptionByYear, OUTCOME_LABEL, label, asOf, papers } from '../../lib/data';
-import { dotPlot, lineChart, wrap } from '../../lib/charts';
+import { effectFigures, adoptionByYear, OUTCOME_LABEL, label, asOf, papers, profiles, headlineStatus, bankruptcy, handleRevenue, helpline, prevalenceStudies, fmtDate, source } from '../../lib/data';
+import { dotPlot, lineChart, barChartH, wrap, compact } from '../../lib/charts';
+import { revenueChart, bankruptcyChart, helplineChart, helplineHead, helplineRows, per100k, MIN_POINTS } from '../../lib/seriesCharts';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const schemas = ['handle_revenue', 'bankruptcy', 'helpline'].map((n) => ({ name: n, s: JSON.parse(fs.readFileSync(`schemas/${n}.tableschema.json`, 'utf8')) }));
 
 // Research estimates, percent change only, so that one axis is honest. Other units are listed in the table.
 const figs = effectFigures();
 const UNIT_FMT: Record<string, (v: number) => string> = {
-  percent_change: (v) => `${v > 0 ? '+' : ''}${v}%`, percentage_points: (v) => `${v > 0 ? '+' : ''}${v} pts`, per_100k: (v) => `${v > 0 ? '+' : ''}${v} per 100k`, usd: (v) => `$${v}`, index_points: (v) => `${v > 0 ? '+' : ''}${v}`,
+  percent_change: (v) => `${v > 0 ? '+' : ''}${v}%`, percentage_points: (v) => `${v > 0 ? '+' : ''}${v} pts`, per_100k: (v) => `${v > 0 ? '+' : ''}${v} per 100k`, usd: (v) => `${v < 0 ? '-' : ''}$${compact(Math.abs(v))}`, index_points: (v) => `${v > 0 ? '+' : ''}${v}`,
 };
 const UNIT_LABEL: Record<string, string> = { percent_change: 'percent change', percentage_points: 'percentage points', per_100k: 'per 100,000 residents', usd: 'US dollars', index_points: 'index points' };
 const pctFigs = [...figs];
@@ -39,7 +41,7 @@ const facets = domains.map((d) => {
   return `<p class="facet">${OUTCOME_LABEL[d] ?? label(d)}, ${UNIT_LABEL[unit]}</p>${svg}`;
 });
 const effectsSvg = facets.join('');
-const legend = [{ cls: 's1', name: 'Population average' }, { cls: 's2', name: 'Household level' }, { cls: 's3', name: 'Bettor level' }, { cls: 'hollow', name: 'Hollow: pending review, entered from a secondary summary' }];
+const legend = [{ cls: 's1', name: 'Population average' }, { cls: 's2', name: 'Household level' }, { cls: 's3', name: 'Bettor level' }, { cls: 'hollow', name: 'Hollow: pending review' }];
 const effectsRows = figs.map(({ paper, fig }) => [OUTCOME_LABEL[fig.outcome_domain] ?? label(fig.outcome_domain), fig.description, fig.value_text, `${fig.value_numeric} ${label(fig.value_unit)}${fig.range_low != null ? ` (${fig.range_low} to ${fig.range_high})` : ''}`, short(paper), label(paper.unit_of_effect), label(fig.provenance.status)]);
 
 // Context series: how many states had live wagering at the end of each year.
@@ -53,6 +55,33 @@ const adoptionSvg = lineChart({
   step: true, xTicks: adoption.map((a) => a.year), yFmt: String, height: 260,
 });
 const pageAsOf = asOf(papers());
+
+// Cross-state bankruptcy comparison for the latest twelve-month period on file, per 100,000 residents, colored by legal status.
+const bkAll = bankruptcy().filter((r) => r.measure === 'twelve_months_ending' && r.chapter === 'all_nonbusiness');
+const bkPeriod = bkAll.map((r) => r.period_end).sort().pop() ?? null;
+const bkRows = bkAll.filter((r) => r.period_end === bkPeriod);
+const statusGroup = (hs: string) => hs === 'retail_and_online' || hs === 'online_only' ? 'online' : hs === 'retail_only' ? 'retail' : 'none';
+const GROUP = { online: { cls: 's2', name: 'Online wagering live' }, retail: { cls: 's1', name: 'Retail wagering only' }, none: { cls: 's0', name: 'No live wagering' } } as const;
+const byFips = new Map(profiles().map((p) => [p.fips, p]));
+const bkStates = bkRows.map((r) => { const p = byFips.get(r.fips)!; const pk = per100k(Number(r.filings), r.fips, Number(r.period_end.slice(0, 4))); return { p, r, pk, group: statusGroup(headlineStatus(p)) }; })
+  .filter((x) => x.pk).sort((a, b) => b.pk!.value - a.pk!.value);
+const bkSvg = bkStates.length ? barChartH({
+  id: 'bk-states', title: `Nonbusiness bankruptcy filings per 100,000 residents, twelve months ending ${fmtDate(bkPeriod)}`, desc: 'Horizontal bar chart, one bar per state ordered from highest to lowest rate, colored by whether the state had live online wagering, retail only, or no live wagering at the end of the period.',
+  rows: bkStates.map(({ p, r, pk, group }) => ({ label: p.name, href: `${base}/states/${p.abbr.toLowerCase()}/`, segments: [{ value: Math.round(pk!.value * 10) / 10, cls: GROUP[group].cls, name: GROUP[group].name, title: `${p.name}: ${Number(r.filings).toLocaleString()} nonbusiness filings, ${pk!.value.toFixed(1)} per 100,000 (population ${Number(pk!.pop!.population).toLocaleString()}, ${pk!.pop!.year}). ${GROUP[group].name}.` }] })),
+  fmt: (v) => String(v), labelWidth: 150, rowHeight: 18,
+}) : '';
+const median = (xs: number[]) => { const a = [...xs].sort((x, y) => x - y); return a.length ? (a.length % 2 ? a[(a.length - 1) / 2] : (a[a.length / 2 - 1] + a[a.length / 2]) / 2) : null; };
+const groupStats = (['online', 'retail', 'none'] as const).map((g) => { const xs = bkStates.filter((x) => x.group === g).map((x) => x.pk!.value); return { g, n: xs.length, median: median(xs) }; });
+const bkSrc = bkRows[0];
+const hrRows = handleRevenue();
+const hlRows = helpline();
+const allProfiles = profiles();
+const revCharts = allProfiles.map((p) => revenueChart(p)).filter((c): c is NonNullable<typeof c> => !!c);
+const hlCharts = allProfiles.map((p) => ({ p, c: helplineChart(p) })).filter((x) => x.c);
+const hlTableRows = hlRows.filter((r) => !hlCharts.some((x) => x.p.fips === r.fips));
+const bkSeries = allProfiles.map((p) => ({ p, c: bankruptcyChart(p) })).filter((x) => x.c);
+const studies = prevalenceStudies();
+const studyStates = [...new Set(studies.map((x) => x.fips))].map((f) => byFips.get(f)!).sort((a, b) => a.name.localeCompare(b.name));
 ---
 <Base title="Outcomes" asOf={pageAsOf}>
   <h1>Outcomes</h1>
@@ -61,11 +90,11 @@ const pageAsOf = asOf(papers());
   <h2 id="estimates">From the research library: estimated effects of legalization</h2>
   <p>Each dot is one published estimate of how an outcome changed after a state legalized sports wagering, relative to states that had not. Each outcome has its own chart and its own axis, because the quantities differ: a bankruptcy filing is a rare event, a credit score is a level where a fraction of a percent is a large move, and net investment is a flow. The estimates are shown side by side, not combined. The color says what the number is an average over: everyone in a state, the households in a transaction dataset, or people who bet. Population averages are smaller than the effect on a household that bets, because most residents do not bet.</p>
   <Chart svg={effectsSvg} legend={legend} head={['Outcome', 'Figure', 'As stated', 'Charted value', 'Paper', 'Unit of effect', 'Review status']} rows={effectsRows} tableLabel="Estimates in these charts, with figures in other units">
-    <Fragment slot="caption"><strong>Estimated change after legalization, one chart per outcome, each in the unit the paper uses.</strong> Positive values mean the outcome rose. A bar marks a range the paper states. A hollow dot is a figure entered from a secondary summary and marked pending review: it has not yet been read from the paper by a second reviewer, and the methodology page's rule that pending records are not headline figures applies to it. Select a label to open the paper's entry, which lists the specification, the version it comes from and its limitations.</Fragment>
+    <Fragment slot="caption"><strong>Estimated change after legalization, one chart per outcome, each in the unit the paper uses.</strong> Positive values mean the outcome rose. A bar marks a range the paper states. A hollow dot is a figure marked pending review: it has been entered with its source and page or table, but not yet checked against that source by a second reviewer, so the methodology page's rule that pending records are not headline figures applies to it. Select a label to open the paper's entry, which lists the specification, the version it comes from and its limitations.</Fragment>
   </Chart>
   <h3>Reading these estimates</h3>
   <ul>
-    <li>Bankruptcy and credit score figures (Hollenbeck, Larsen and Proserpio) are population averages from credit bureau records. The bankruptcy effect has been reported at about 28 percent in a 2024 draft, about 10 percent as the average effect in the 2025 draft, and 25 to 30 percent three to four years after online legalization in the same 2025 draft. All three are recorded; the 2024 headline is marked superseded and is not charted.</li>
+    <li>Bankruptcy and credit score figures (Hollenbeck, Larsen and Proserpio) are population averages from credit bureau records. The October 2024 draft stated both an average 10 percent increase in bankruptcy likelihood and a 25 to 30 percent event-study peak; the April 2025 draft reports about 10 percent and no longer states the peak; a 28 percent figure in 2024 press coverage appears in neither archived draft and is not charted. Each draft's figures are recorded in the entry with the version they come from.</li>
     <li>The intimate partner violence figure (Arnesen and Matsuzawa) is the additional rise in police reports after an unexpected NFL home loss once wagering is legal, in percentage points on top of the upset-loss effect, not a change in the overall rate.</li>
     <li>Two further entries are in the library but not charted until their figures are read from the paper: Baker and coauthors on household saving and investing (household-level transaction data), and Yeola and coauthors on searches for gambling addiction help, which rise with advertising of the helpline as well as with need.</li>
   </ul>
@@ -73,7 +102,7 @@ const pageAsOf = asOf(papers());
     'Each figure is from a different paper, dataset and design; nothing is pooled. Differences between dots partly reflect differences in method.',
     'Working paper figures change between drafts. Each figure is tied to the version it appears in; superseded figures are kept in the entry and are not charted.',
     'Population averages are over everyone in a state, bettors and non-bettors alike. They understate the effect on a household that bets and are not comparable with household-level figures.',
-    'Figures marked pending review were entered from secondary summaries and must be read from the paper before they are treated as verified.',
+    "Figures marked pending review have not been checked against their source by a second reviewer; each entry's provenance note says whether the figure was read from the paper or from a secondary summary.",
   ]} />
   <p class="meta">Sources for each figure: {figs.map(({ paper, fig }, i) => <>{i > 0 && '; '}<a href={`${base}/research/${paper.slug}/`}>{short(paper)}</a> <SourceRef p={fig.provenance} compact /></>)}. Papers in the library whose figures are not yet read from the paper (marked unverified) are listed on the <a href={base + '/research/'}>research page</a> and are not charted.</p>
 
@@ -83,7 +112,43 @@ const pageAsOf = asOf(papers());
 
   <h2 id="series">State time series</h2>
   <p>Monthly handle and revenue from state regulators, nonbusiness bankruptcy filings per 100,000 residents from the Administrative Office of the US Courts, and problem gambling helpline contacts from state councils. Each series will be shown with the state's legalization dates marked and its limitations beside it.</p>
-  <div class="panel notice" role="note"><strong>Phase 2 section.</strong> No raw series are published yet. The schemas below are final and the two Phase 1 ingestion modules (US Courts bankruptcy tables, New Jersey monthly revenue) write to them. Charts will use the same build-time renderer as the ones above, with a data table under each.</div>
+  {bkStates.length > 0 ? (<>
+    <h3 id="bankruptcy-states">Bankruptcy filings per 100,000 residents, by state and legal status</h3>
+    <p>The first ingested period from the Administrative Office of the US Courts, for every state and the District of Columbia. Each bar is nonbusiness filings over the twelve months ending {fmtDate(bkPeriod)}, divided by the Census population estimate for that year. Color marks the state's wagering status at the end of the period. This is a snapshot, not a trend: a back series to 2018 is queued, and until it lands no change after legalization can be shown.</p>
+    <Chart svg={bkSvg} legend={[GROUP.online, GROUP.retail, GROUP.none]} head={['State', 'Legal status', 'Filings', 'Per 100,000', 'Population year', 'Review status']} rows={bkStates.map(({ p, r, pk, group }) => [p.name, GROUP[group].name, Number(r.filings).toLocaleString(), pk!.value.toFixed(1), pk!.pop!.year, label(r.status)])} tableLabel="All states in this chart">
+      <Fragment slot="caption"><strong>Median rate by legal status: </strong>{groupStats.map((g, i) => <>{i > 0 && '; '}{GROUP[g.g].name.toLowerCase()}, {g.n} states, {g.median != null ? g.median.toFixed(1) : 'n/a'} per 100,000</>)}. These medians describe the cross-section; they do not estimate an effect. States differ in bankruptcy exemptions, income, debt levels, medical costs and court practice, all of which move filing rates far more than any single policy, and states that legalized earliest were not chosen at random. The causal estimates above control for this by comparing the same state before and after legalization; this chart cannot. Source: {bkSrc && <>{source(bkSrc.source_id).publisher}, Table F-2, retrieved {fmtDate(bkSrc.retrieved_at)} <span class={`badge ${bkSrc.status}`}>{label(bkSrc.status)}</span></>}. Per 100,000 is computed at build time from the filings and the population table and is never stored.</Fragment>
+    </Chart>
+    <Limitations title="Limitations of the bankruptcy series" items={[schemas.find((x) => x.name === 'bankruptcy')!.s.description, 'The population denominator is the Census Vintage 2025 estimate for the year the period ends, so the rate is as precise as that estimate.', 'The twelve-month total smooths seasonality but still includes the tail of the 2020 to 2021 filing trough in earlier periods once the back series is added.']} />
+    <h3 id="bankruptcy-series">Bankruptcy filings over time, by state</h3>
+    {bkSeries.length ? (<>
+      <p>Quarterly filings per 100,000 residents for every state with at least {MIN_POINTS} quarters on file, with the first legal wager in each channel marked where it falls inside the series. The full set is on each state's page; the three states with complete profiles are shown here.</p>
+      {bkSeries.filter((x) => x.p.profile_completeness === 'full').map(({ p, c }) => <><h4>{p.name}</h4><Chart svg={c!.svg} head={c!.head} rows={c!.rows} caption={c!.caption} tableLabel="Quarters in this chart" /></>)}
+      <p class="meta">Quarterly charts are also on the pages of {bkSeries.filter((x) => x.p.profile_completeness !== 'full').map(({ p }, i, a) => <>{i > 0 && (i === a.length - 1 ? ' and ' : ', ')}<a href={`${base}/states/${p.abbr.toLowerCase()}/`}>{p.name}</a></>)}.</p>
+    </>) : <p class="meta">No state has {MIN_POINTS} quarters on file yet.</p>}
+    <h3>Problem gambling helpline contacts</h3>
+    <p>Helpline volume rises when the number is advertised more, so it measures help-seeking and awareness, not prevalence. Each row carries the operator's own counting rule. A chart appears once a state has {MIN_POINTS} or more periods.</p>
+    {hlCharts.map(({ p, c }) => <><h4>{p.name}</h4><Chart svg={c!.svg} legend={c!.legend} head={c!.head} rows={c!.rows} caption={c!.caption} tableLabel="Periods in this chart" /></>)}
+    {hlTableRows.length ? (<>
+      <div class="table-wrap"><table>
+        <thead><tr><th scope="col">State</th>{helplineHead.map((h) => <th scope="col">{h}</th>)}</tr></thead>
+        <tbody>{hlTableRows.map((r) => <tr><td>{byFips.get(r.fips)?.name}</td>{helplineRows([r])[0].map((c) => <td>{c}</td>)}</tr>)}</tbody>
+      </table></div>
+    </>) : <p class="meta">No rows on file yet.</p>}
+    <h3 id="revenue-series">Monthly sports wagering revenue</h3>
+    {revCharts.length ? revCharts.map((c) => <><h4>{c.title}</h4><Chart svg={c.svg} legend={c.legend} head={c.head} rows={c.rows} caption={c.caption} tableLabel="Months in this chart" /></>) : <p class="meta">{hrRows.length ? `${hrRows.length} rows on file; a chart appears once a state has ${MIN_POINTS} months.` : 'No rows on file yet.'}</p>}
+    <Limitations title="Limitations of the revenue series" items={[schemas.find((x) => x.name === 'handle_revenue')!.s.description]} />
+  </>) : (
+    <div class="panel notice" role="note"><strong>Phase 2 section.</strong> No raw series are published yet. The schemas below are final and the two Phase 1 ingestion modules (US Courts bankruptcy tables, New Jersey monthly revenue) write to them.</div>
+  )}
+  {studies.length > 0 && (<>
+    <h2 id="prevalence">Prevalence studies</h2>
+    <p>State surveys of how many adults gamble, bet on sports, and screen as at risk or as problem gamblers. These are study records, not a series: instruments, thresholds, denominators and survey modes differ, so each card says which other study it may be compared with. Rates are copied as published and never recomputed.</p>
+    {studyStates.map((st) => (<>
+      <h3>{st.name}</h3>
+      {studies.filter((x) => x.fips === st.fips).map((x) => <PrevalenceCard s={x} stateName={st.name} />)}
+    </>))}
+  </>)}
+
   <h3>What will and will not be claimed</h3>
   <ul>
     <li>Series are descriptive. A change after a legalization date is shown, not attributed. Causal estimates stay in the chart above, tied to their authors and their unit of effect.</li>

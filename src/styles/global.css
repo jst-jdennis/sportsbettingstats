@@ -112,3 +112,6 @@ figure.chart .facet:first-of-type { margin-top: 0; }
 .flow path, .flow line { stroke: var(--muted); fill: none; stroke-width: 1.5; }
 .flow .head { fill: var(--muted); stroke: none; }
 .flow .verified { stroke: var(--s-verified); stroke-width: 2; } .flow .pending { stroke: var(--s-pending); stroke-width: 2; } .flow .bad { stroke: var(--s-unverified); stroke-width: 2; }
+.study { margin: 1rem 0; }
+.study h4 { margin: 0 0 .25rem; font-size: 1rem; }
+.study figure.chart { margin: .5rem 0; }
