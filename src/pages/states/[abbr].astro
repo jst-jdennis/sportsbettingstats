@@ -7,7 +7,7 @@ import CiteBox from '../../components/CiteBox.astro';
 import ReviewNotice from '../../components/ReviewNotice.astro';
 import Chart from '../../components/Chart.astro';
 import { timeline } from '../../lib/charts';
-import { profiles, pgFunding, predictionMarkets, bills, population, headlineStatus, HEADLINE_LABEL, scopeQualifiers, fmtDate, pct, label, asOf, collectProvenance, earliestLaunch } from '../../lib/data';
+import { profiles, pgFunding, predictionMarkets, bills, population, headlineStatus, HEADLINE_LABEL, scopeQualifiers, fmtDate, pct, label, asOf, collectProvenance, earliestLaunch, handleRevenue, bankruptcy, per100k, source } from '../../lib/data';
 export function getStaticPaths() { return profiles().map((p) => ({ params: { abbr: p.abbr.toLowerCase() }, props: { p } })); }
 const { p } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -25,6 +25,9 @@ function perCapita(amount: number | null | undefined): string | null {
   return `$${(amount / Number(pop.population)).toFixed(2)} per resident (population ${Number(pop.population).toLocaleString()}, Census Vintage ${pop.vintage})`;
 }
 const path = `/states/${p.abbr.toLowerCase()}/`;
+const hr = handleRevenue(p.fips);
+const bk = bankruptcy(p.fips).filter((r) => r.chapter === 'all_nonbusiness');
+const usd = (v: string) => v === '' || v == null ? 'not reported' : `$${Number(v).toLocaleString()}`;
 // Event timeline: every dated event in the state's files, on one axis.
 type Ev = { date: string; cls: string; title: string; label?: string; row: string; href?: string };
 const events: Ev[] = [];
@@ -167,8 +170,30 @@ const missingSections = [
   ) : <p class="meta">Not yet entered.</p>}
   {pop && <p class="meta">Per resident figures use Census population for {pop.year} (Vintage {pop.vintage}, <span class={`badge ${pop.status}`}>{label(pop.status)}</span>). Nothing per capita is stored; it is recomputed from the two published numbers on every build.</p>}
 
-  <h2 id="outcomes">Outcomes</h2>
-  <p>Monthly handle and revenue, bankruptcy filings per 100,000, helpline contacts and prevalence studies will appear here in Phase 2 with legalization dates marked. The schemas are published now on the <a href={base + '/outcomes/'}>outcomes page</a>.</p>
+  <h2 id="outcomes">Outcomes <span class="segment">regulated sportsbooks</span></h2>
+  {hr.length ? (<>
+    <h3>Monthly sports wagering revenue and tax</h3>
+    <p class="meta">Dollars as reported by the regulator for the period. Revenue definition for each row is in the table notes. Handle is shown when the regulator publishes it.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th scope="col">Period</th><th scope="col">Channel</th><th scope="col" class="num">Handle</th><th scope="col" class="num">Gross revenue</th><th scope="col" class="num">Taxable revenue</th><th scope="col" class="num">Promotional deductions</th><th scope="col" class="num">State tax</th><th scope="col">Source</th></tr></thead>
+      <tbody>{hr.map((r) => (
+        <tr><td>{fmtDate(r.period_start)}</td><td>{label(r.channel)}</td><td class="num">{usd(r.handle_usd)}</td><td class="num">{usd(r.gross_revenue_usd)}</td><td class="num">{usd(r.adjusted_revenue_usd)}</td><td class="num">{usd(r.promo_deductions_usd)}</td><td class="num">{usd(r.state_tax_usd)}</td>
+          <td><span class="src"><span class={`badge ${r.status}`}>{label(r.status)}</span> <a href={r.source_url} rel="external noopener">{source(r.source_id).publisher}</a>, retrieved {fmtDate(r.retrieved_at)}{r.archive_url && <> (<a href={r.archive_url} rel="external noopener">archived</a>)</>}{r.notes && <details><summary>Note</summary><span>{r.notes}</span></details>}</span></td></tr>))}
+      </tbody>
+    </table></div>
+    <p class="meta">{hr[0].revenue_definition}</p>
+  </>) : null}
+  {bk.length ? (<>
+    <h3>Nonbusiness bankruptcy filings</h3>
+    <div class="table-wrap"><table>
+      <thead><tr><th scope="col">Period</th><th scope="col">Measure</th><th scope="col" class="num">Filings</th><th scope="col" class="num">Per 100,000 residents</th><th scope="col">Source</th></tr></thead>
+      <tbody>{bk.map((r) => { const pk = per100k(Number(r.filings), r.fips, Number(r.period_end.slice(0, 4))); return (
+        <tr><td>{fmtDate(r.period_start)} to {fmtDate(r.period_end)}</td><td>{label(r.measure)}</td><td class="num">{Number(r.filings).toLocaleString()}</td><td class="num">{pk ? `${pk.value.toFixed(1)} (population ${Number(pk.pop!.population).toLocaleString()}, vintage ${pk.pop!.vintage})` : 'no population row'}</td>
+          <td><span class="src"><span class={`badge ${r.status}`}>{label(r.status)}</span> <a href={r.source_url} rel="external noopener">{source(r.source_id).publisher}</a>, retrieved {fmtDate(r.retrieved_at)}{r.archive_url && <> (<a href={r.archive_url} rel="external noopener">archived</a>)</>}</span></td></tr>); })}
+      </tbody>
+    </table></div>
+  </>) : null}
+  {!hr.length && !bk.length && <p>Monthly handle and revenue, bankruptcy filings per 100,000, helpline contacts and prevalence studies will appear here as they are ingested, with legalization dates marked. The schemas are published on the <a href={base + '/outcomes/'}>outcomes page</a>.</p>}
 
   <h2 id="legislation">Legislation</h2>
   {stateBills.length ? <ul>{stateBills.map((b) => <li><a href={`${base}/legislation/${b.slug}/`}>{b.bill_number}</a> ({b.session}): {b.title}. Status: {label(b.status)}{b.status_date && <>, {fmtDate(b.status_date)}</>}.</li>)}</ul> : <p class="meta">No bills entered for {p.name} yet.</p>}
