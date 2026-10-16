@@ -91,13 +91,16 @@ def test_uscourts_resolve_raises_without_f2():
         USCourtsBankruptcyF2().resolve(Document(url="u", period=Period.quarter_ending(2026, 6), kind="html"), "<a href='/a.pdf'>F-5A</a>")
 
 
-def test_nj_resolve_prefers_page_link_then_pattern():
+def test_nj_discover_candidates_and_resolve():
     src = NJDGESportsWagering()
-    page = src.discover(Period.month(2026, 8))[0]
-    docs = src.resolve(page, '<a href="/oag/ge/docs/Financials/SportsWagering2026/August2026.pdf">August 2026</a>')
-    assert docs[0].url == "https://www.nj.gov/oag/ge/docs/Financials/SportsWagering2026/August2026.pdf"
-    docs = src.resolve(page, "<p>nothing</p>")
-    assert docs[0].url.endswith("SportsWagering2026/August2026.pdf")
+    docs = src.discover(Period.month(2026, 8))
+    assert [d.kind for d in docs] == ["html", "html", "html", "pdf"]  # landing candidates, then the historic PDF pattern
+    assert docs[-1].url.endswith("SportsWagering2026/August2026.pdf")
+    page = docs[0]
+    found = src.resolve(page, '<a href="/oag/ge/docs/Financials/SportsWagering2026/August2026.pdf">August 2026</a>')
+    assert found[0].url == "https://www.nj.gov/oag/ge/docs/Financials/SportsWagering2026/August2026.pdf"
+    with pytest.raises(LayoutChanged):
+        src.resolve(page, "<p>nothing</p>")
 
 
 def test_census_csv_parse(tmp_path):
