@@ -8,12 +8,19 @@ summary: >-
   Senate File 4760, the 2026 omnibus public safety policy bill, was passed by the Senate 52 to 13 on April 21,
   2026, by the House as amended 116 to 16 on April 30, repassed by the Senate on the conference committee
   report 57 to 9 on May 12, adopted by the House on May 13, presented to the Governor on May 14 and approved on
-  May 18, 2026 as Chapter 97. Among its provisions, as reported at enactment, is a prohibition on offering or
-  advertising event contracts on sports, elections and other listed subjects, the first state law to bar
-  prediction markets outright; the chapter text is being archived and the provision will be summarized from it
-  with section references.
+  May 18, 2026 as Session Law Chapter 97. Article 8 of the chapter, "Prediction markets", adds Minnesota
+  Statutes section 609.7615, which makes it a felony to create, operate or knowingly facilitate a prediction
+  market, or to advertise financial or technological products that promote such transactions, with exceptions
+  for contracts that are not bets under section 609.75 and for insurance and securities contracts regulated
+  under chapters 59A to 79A. The section is effective August 1, 2026 and applies to crimes committed on or
+  after that date. It is the first state statute to prohibit prediction markets outright.
 would:
-  - Prohibit offering or advertising event contracts on listed subjects, including sporting events, in Minnesota (provision to be entered from the chapter text with its section number; description here is from the status page and contemporaneous reporting, not yet from the text).
+  - Define a prediction market as a system that lets consumers wager on the future outcome of a specified event not determined by the parties' own performance, listing athletic events and games of skill (including esports and horse racing), games of cards, dice or machines, war, emergencies and disasters, events happening to a person, elections and government conduct, legal actions, deaths, short-term weather, popular culture events and whether a person will make a statement (Chapter 97, Article 8, Section 3, section 609.7615 subdivision 1).
+  - Make it a felony, for consideration and as part of a business, to create a prediction market; operate a platform for prediction market wagers; facilitate one by listing events, holding or directing funds, administering terms or settlement, acting regularly as counterparty, or setting prices or odds; provide data or verification services to one knowing their use; or provide location, money transfer or payment services knowing their use (subdivision 2).
+  - Make it a felony to advertise or market financial or technological products that promote the prohibited transactions (subdivision 3).
+  - Exempt activities that are not bets under section 609.75 subdivision 3 and contracts authorized and regulated under chapters 59A to 79A, the insurance and securities chapters (subdivision 4). Section 2 of the article amends section 609.75 so that contracts for the future purchase or sale of securities or commodities are not bets except as provided in section 609.7615.
+  - Let the Director of Alcohol and Gambling Enforcement issue cease and desist orders and seek injunctions for violations of section 609.7615 (Article 8, Section 1, amending section 299L.03 subdivision 12).
+  - Take effect August 1, 2026, applying to crimes committed on or after that date (Sections 2 and 3 effective date clauses).
 sponsors:
   - name: Ron Latz
     chamber: senate
@@ -137,8 +144,15 @@ external_ids:
   openstates_id: null
 notes: >-
   The House vote on adopting the conference committee report (May 13, 2026) is not tallied on the status page
-  and is to be entered from the House Journal page 10541. Contemporaneous reporting describes the event
-  contract prohibition as effective August 1, 2026 and challenged in federal court by the Commodity Futures
-  Trading Commission and the platforms; litigation status is not recorded here. The chapter text is queued for
-  archiving so the provision can be cited by section.
-provenance: *mnbill
+  and is to be entered from the House Journal page 10541. Contemporaneous reporting describes federal court
+  challenges to Article 8 by the Commodity Futures Trading Commission and the platforms; litigation status is
+  not recorded here. The chapter text is archived in HTML (sha256
+  cc4917066b8e07af86c9949f5e72fb5990cb26b1f43c0127fb71eee9df55460a) and PDF (81 pages, sha256
+  11e22c7bb72e60fe88607bc4db9d24f48057070dde0f0c64af2a659d163186bd); the "would" entries are read from
+  Article 8 of the HTML text.
+provenance:
+  <<: *mnbill
+  source_url: https://www.revisor.mn.gov/laws/2026/0/Session+Law/Chapter/97/
+  archive_url: https://web.archive.org/web/20261016194151/https://www.revisor.mn.gov/laws/2026/0/Session+Law/Chapter/97/
+  page_or_table: "Session Law 2026, Chapter 97, Article 8 (Prediction markets), Sections 1 to 3"
+  notes: Chapter text archived on a GitHub runner (ingest run 44), sha256 cc4917066b8e07af86c9949f5e72fb5990cb26b1f43c0127fb71eee9df55460a.
