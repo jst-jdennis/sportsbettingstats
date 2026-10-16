@@ -38,7 +38,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   </svg>
   <dl class="kv">
     <dt><span class="badge verified">verified</span></dt><dd>Entered with a citation and independently checked against that source by a second reviewer, whose handle is recorded.</dd>
-    <dt><span class="badge pending_review">pending review</span></dt><dd>Entered with a citation but not yet checked by a second person. Shown with the badge; excluded from grades and headline figures.</dd>
+    <dt><span class="badge pending_review">pending review</span></dt><dd>Entered with a citation but not yet checked by a second person. Shown with the badge, and in charts as hollow markers labeled as entered from secondary summaries; excluded from report card grades.</dd>
     <dt><span class="badge unverified">unverified</span></dt><dd>A placeholder whose value has not been read from the cited source. Rendered only as "not entered".</dd>
     <dt><span class="badge disputed">disputed</span></dt><dd>A correction has been raised in a public issue and is unresolved. The value stays visible with the badge and a link.</dd>
     <dt><span class="badge superseded">superseded</span></dt><dd>Replaced by a later record, for example a regulator restatement or a revised paper draft. Kept in the files for history; not rendered as current.</dd>
@@ -59,7 +59,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <p>Sources are registered with a tier. <strong>Primary</strong> sources produce the number (a regulator, a court, a legislature, a paper). <strong>Secondary</strong> sources aggregate primary data with a documented method (US Courts tables are primary; a bankruptcy institute's state rollup is secondary). <strong>Tertiary</strong> sources, such as trade press and trackers, are used only to find primary documents and are rejected by the validator as the source of any figure. See the <a href={base + '/methodology/sources/'}>source registry</a>.</p>
 
   <h2 id="derived">Derived values</h2>
-  <p>Per capita amounts, per 100,000 rates, growth rates, pre and post legalization windows and grades are computed at build time from stored primary records and are never stored themselves. Anyone with the CSV files and the population table can reproduce every derived number on the site.</p>
+  <p>Per capita amounts, per 100,000 rates, growth rates, pre and post legalization windows and grades are computed at build time from stored primary records and are never stored themselves. Anyone with the CSV files and the population table can reproduce every derived number on the site. Charts never place different outcome measures on a shared axis; each outcome domain has its own scale.</p>
 
   <h2 id="review">Review process</h2>
   <p>Two-person rule. A contributor enters a record with its source; a reviewer with the data-reviewer role checks each value against the source document and approves; the merge sets the reviewer's handle and flips the status to verified. Disputes are public issues. Publisher restatements create a new record and mark the old one superseded. Details are in <a href={SITE.repoUrl + '/blob/main/CONTRIBUTING.md'}>CONTRIBUTING.md</a>.</p>
