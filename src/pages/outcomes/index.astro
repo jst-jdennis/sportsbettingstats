@@ -73,7 +73,7 @@ const pageAsOf = asOf(papers());
     'Each figure is from a different paper, dataset and design; nothing is pooled. Differences between dots partly reflect differences in method.',
     'Working paper figures change between drafts. Each figure is tied to the version it appears in; superseded figures are kept in the entry and are not charted.',
     'Population averages are over everyone in a state, bettors and non-bettors alike. They understate the effect on a household that bets and are not comparable with household-level figures.',
-    'Figures marked pending review have not been checked against their source by a second reviewer; each entry's provenance note says whether the figure was read from the paper or from a secondary summary.',
+    "Figures marked pending review have not been checked against their source by a second reviewer; each entry's provenance note says whether the figure was read from the paper or from a secondary summary.",
   ]} />
   <p class="meta">Sources for each figure: {figs.map(({ paper, fig }, i) => <>{i > 0 && '; '}<a href={`${base}/research/${paper.slug}/`}>{short(paper)}</a> <SourceRef p={fig.provenance} compact /></>)}. Papers in the library whose figures are not yet read from the paper (marked unverified) are listed on the <a href={base + '/research/'}>research page</a> and are not charted.</p>
 
