@@ -1,4 +1,4 @@
-fips: 08
+fips: '08'
 abbr: CO
 name: Colorado
 profile_completeness: status_only

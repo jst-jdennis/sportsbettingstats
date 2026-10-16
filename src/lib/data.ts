@@ -64,7 +64,16 @@ function applyMerges(node: any): any {
   }
   return node;
 }
-function readYaml<T>(p: string): T { return applyMerges(yamlLoad(fs.readFileSync(p, 'utf8'))) as T; }
+// FIPS codes with a leading zero must stay strings. PyYAML keeps them; js-yaml
+// turns an unquoted 08 into 8. Coerce every `fips` key so both agree.
+function coerceFips(node: any): any {
+  if (Array.isArray(node)) return node.map(coerceFips);
+  if (node && typeof node === 'object') {
+    for (const [k, v] of Object.entries(node)) node[k] = k === 'fips' && v != null ? String(v).padStart(2, '0') : coerceFips(v);
+  }
+  return node;
+}
+function readYaml<T>(p: string): T { return coerceFips(applyMerges(yamlLoad(fs.readFileSync(p, 'utf8')))) as T; }
 function readCsv<T = Record<string, string>>(p: string): T[] { return parse(fs.readFileSync(p, 'utf8'), { columns: true, skip_empty_lines: true }) as T[]; }
 
 let _sources: Map<string, Source> | null = null;

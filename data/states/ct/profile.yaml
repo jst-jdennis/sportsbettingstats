@@ -1,4 +1,4 @@
-fips: 09
+fips: '09'
 abbr: CT
 name: Connecticut
 profile_completeness: status_only
