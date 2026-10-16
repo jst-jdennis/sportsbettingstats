@@ -244,12 +244,22 @@ measure of help-seeking and awareness, not prevalence.
 ### 5.4 `prevalence_studies.yaml`
 
 List of study records, not a time series, because methods differ.
+Schema: `schemas/prevalence_studies.schema.json`.
 
-`study_id` (pk), `fips`, `fieldwork_start`, `fieldwork_end`, `commissioned_by`,
-`conducted_by`, `instrument` (enum: `PGSI`, `DSM-IV-NODS`, `DSM-5`, `SOGS`,
-`BBGS`, `other`), `sample_size`, `population`, `mode`, `problem_gambling_rate`,
-`at_risk_rate`, `past_year_sports_bettors_rate`, `confidence_intervals`
-(object), `report_url`, `comparability_note`, src.
+`study_id` (pk), `fips`, `title`, `authors`, `commissioned_by`,
+`conducted_by`, `published_at`, `fieldwork_year`, `fieldwork_start`, `fieldwork_end`
+(null when the report gives only the year),
+`instrument` (enum: `PGSI`, `DSM-IV-NODS`, `DSM-5`, `SOGS`, `BBGS`, `other`),
+`instrument_note` (thresholds), `sample_size`, `population`, `mode`,
+`margin_of_error_pct_points`, `rates[]` (each with `measure`, the report's
+own `definition`, `value_pct`, optional confidence interval, `denominator`
+and its own provenance block with page reference), `report_url`,
+`comparability_note`, `limitations`, src.
+
+Rates are stored as published and never recomputed; a study that reports
+"high risk" under a nine-item screen and one that reports "problem gambling"
+under PGSI 8+ are different measures and are stored under different
+`measure` and `definition` values.
 
 Limitations: instruments and thresholds differ; rates are not comparable
 across studies that use different instruments; the field renders a
@@ -292,12 +302,14 @@ This structure records two different kinds of change explicitly:
 1. A number that changed between drafts (same `figure_id`, two versions,
    old one `superseded`).
 2. Two numbers that coexist in one draft under different specifications
-   (two `figure_id`s, same version). The Hollenbeck case is of this kind:
-   the May 2025 draft reports an average treatment effect of about 10
-   percent (Table 4) and an event-study effect of 25 to 30 percent at
-   three to four years. The 2024 draft and January 2025 testimony headlined
-   27 to 28 percent. The library must show all of this, with dates, rather
-   than pick one.
+   (two `figure_id`s, same version). The Hollenbeck case shows both kinds:
+   the October 2024 draft states an average effect of about 10 percent and
+   an event-study peak of 25 to 30 percent at three to four years; the
+   January 2025 slides show 27 percent; the April 2025 draft reports about
+   10 percent and no longer states the 25 to 30 percent figure; and the
+   28 percent quoted in 2024 press coverage appears in neither archived
+   draft. The library shows all of this, with dates and document hashes,
+   rather than pick one.
 
 A `revision_log` is rendered from `versions[]` and `key_figures[]`; it is
 not a free-text field.

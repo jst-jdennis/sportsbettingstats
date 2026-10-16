@@ -35,11 +35,20 @@ class Period:
 
 @dataclass(frozen=True)
 class Document:
-    """Something discover() found: a URL to fetch or a local path a contributor dropped."""
+    """Something discover() found: a URL to fetch or a local path a contributor dropped.
+
+    When ``kind`` is ``html``, the CLI fetches the page and calls the source's
+    ``resolve(doc, html)`` to turn it into the file documents to ingest.
+    ``meta`` carries per-document facts such as the measure of a table.
+    """
     url: str
     period: Period | None = None
     kind: str = "pdf"          # pdf, xlsx, html, json, csv
     label: str = ""             # human label used in review checklists
+    meta: tuple = ()            # tuple of (key, value) pairs; frozen dataclasses cannot hold a dict
+
+    def get(self, key: str, default=None):
+        return dict(self.meta).get(key, default)
 
 
 @dataclass(frozen=True)
@@ -70,5 +79,6 @@ class Source(Protocol):
     dataset: str                # e.g. "outcomes/bankruptcy.csv"
 
     def discover(self, period: Period | None) -> list[Document]: ...
+    def resolve(self, doc: Document, html: str) -> list[Document]: ...  # only for kind == "html"
     def parse(self, raw: RawDocument) -> list[dict[str, Any]]: ...
     def normalize(self, records: list[dict[str, Any]], raw: RawDocument) -> list[Row]: ...

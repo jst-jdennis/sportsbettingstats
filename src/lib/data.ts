@@ -44,6 +44,8 @@ export interface StateProfile {
   limitations?: string[] | null;
 }
 export interface PgFunding { fips: string; records: any[] }
+export interface PrevalenceRate { measure: string; definition: string; value_pct: number; ci_low_pct?: number | null; ci_high_pct?: number | null; denominator?: string | null; provenance: Provenance }
+export interface PrevalenceStudy { study_id: string; fips: string; title: string; authors?: string[] | null; commissioned_by?: string | null; conducted_by: string; published_at?: string | null; fieldwork_year: number; fieldwork_start?: string | null; fieldwork_end?: string | null; instrument: string; instrument_note?: string | null; sample_size?: number | null; population: string; mode: string; margin_of_error_pct_points?: number | null; rates: PrevalenceRate[]; report_url: string; comparability_note: string; limitations?: string | null; provenance: Provenance }
 export interface PredictionMarkets { fips: string; as_of: string; review_note?: string | null; operating_platforms: any[]; state_actions: any[]; litigation: any[] }
 export interface Bill { slug: string; fips: string; session: string; bill_number: string; title: string; market_segment: string[]; summary: string; would?: string[] | null; sponsors?: any[] | null; status: string; status_date?: string | null; actions?: any[] | null; votes?: any[] | null; text_url?: string | null; legislature_page_url?: string | null; fiscal_note_url?: string | null; fiscal_estimate_text?: string | null; notes?: string | null; provenance: Provenance }
 export interface Paper { slug: string; title: string; authors: string[]; year_first_circulated: number; publication_status: string; venue?: string | null; doi?: string | null; canonical_url?: string | null; market_segment: string; unit_of_effect: string; data_used?: string | null; design?: string | null; plain_language_summary: string; methodology_notes?: string[] | null; limitations?: string[] | null; versions: any[]; key_figures: any[]; citations_in_policy?: any[] | null; provenance: Provenance }
@@ -74,7 +76,17 @@ function coerceFips(node: any): any {
   return node;
 }
 function readYaml<T>(p: string): T { return coerceFips(applyMerges(yamlLoad(fs.readFileSync(p, 'utf8')))) as T; }
-function readCsv<T = Record<string, string>>(p: string): T[] { return parse(fs.readFileSync(p, 'utf8'), { columns: true, skip_empty_lines: true }) as T[]; }
+// Data files do not change during a build, so each CSV is parsed once and the parsed rows are shared.
+// Callers filter or copy before sorting; nothing mutates the cached array.
+const _csvCache = new Map<string, unknown[]>();
+function readCsv<T = Record<string, string>>(p: string): T[] {
+  let rows = _csvCache.get(p);
+  if (!rows) {
+    rows = parse(fs.readFileSync(p, 'utf8'), { columns: true, skip_empty_lines: true }) as unknown[];
+    _csvCache.set(p, rows);
+  }
+  return rows as T[];
+}
 
 let _sources: Map<string, Source> | null = null;
 export function sources(): Map<string, Source> {
@@ -116,6 +128,11 @@ export function pgFunding(abbr: string): PgFunding | null {
 export function predictionMarkets(abbr: string): PredictionMarkets | null {
   const p = path.join(DATA, 'states', abbr.toLowerCase(), 'prediction_markets.yaml');
   return fs.existsSync(p) ? readYaml<PredictionMarkets>(p) : null;
+}
+export function prevalenceStudies(fips?: string): PrevalenceStudy[] {
+  const p = path.join(DATA, 'outcomes', 'prevalence_studies.yaml');
+  if (!fs.existsSync(p)) return [];
+  return readYaml<{ studies: PrevalenceStudy[] }>(p).studies.filter((s) => !fips || s.fips === fips).sort((a, b) => a.fieldwork_year - b.fieldwork_year || (a.fieldwork_start ?? '').localeCompare(b.fieldwork_start ?? ''));
 }
 export function bills(): Bill[] {
   const dir = path.join(DATA, 'legislation', 'bills');
@@ -241,4 +258,56 @@ export function adoptionByYear(): { year: number; any: number; online: number; r
     out.push({ year: y, any: count(), online: count('online'), retail: count('retail') });
   }
   return out;
+}
+
+// ---------- Outcome time series (Phase 2) ----------
+// CSV rows as written by the ingestion layer. Files may not exist yet; readers return [].
+
+export interface SeriesProv { source_id: string; source_url: string; archive_url: string; retrieved_at: string; status: Status; entered_by: string; reviewed_by: string; notes: string }
+export interface HandleRevenueRow extends SeriesProv { fips: string; period_start: string; period_end: string; channel: 'retail' | 'online' | 'all'; market_segment: string; handle_usd: string; gross_revenue_usd: string; adjusted_revenue_usd: string; promo_deductions_usd: string; state_tax_usd: string; revenue_definition: string; is_revised: string }
+export interface BankruptcyRow extends SeriesProv { fips: string; period_start: string; period_end: string; measure: 'quarter' | 'twelve_months_ending'; chapter: string; filings: string }
+export interface HelplineRow extends SeriesProv { fips: string; period_start: string; period_end: string; contact_type: string; contacts: string; operator: string; counting_rule: string }
+
+const _outcomeCache = new Map<string, unknown[]>();
+function readOutcomeCsv<T>(name: string): T[] {
+  let rows = _outcomeCache.get(name);
+  if (!rows) {
+    const p = path.join(DATA, 'outcomes', name);
+    rows = fs.existsSync(p) ? (readCsv<T>(p) as any[]).filter((r) => r.status !== 'superseded') : [];
+    _outcomeCache.set(name, rows);
+  }
+  return rows as T[];
+}
+export function handleRevenue(fips?: string): HandleRevenueRow[] { return readOutcomeCsv<HandleRevenueRow>('handle_revenue.csv').filter((r) => !fips || r.fips === fips).sort((a, b) => a.period_start.localeCompare(b.period_start)); }
+export function bankruptcy(fips?: string): BankruptcyRow[] { return readOutcomeCsv<BankruptcyRow>('bankruptcy.csv').filter((r) => !fips || r.fips === fips).sort((a, b) => a.period_start.localeCompare(b.period_start)); }
+export function helpline(fips?: string): HelplineRow[] { return readOutcomeCsv<HelplineRow>('helpline.csv').filter((r) => !fips || r.fips === fips).sort((a, b) => a.period_start.localeCompare(b.period_start)); }
+
+/** Population for a state in a given year, falling back to the nearest available year. Returns the row so the vintage can be cited. */
+export function populationFor(fips: string, year: number) {
+  const rows = population().filter((r) => r.fips === fips && r.status !== 'superseded');
+  if (!rows.length) return null;
+  return rows.sort((a, b) => Math.abs(Number(a.year) - year) - Math.abs(Number(b.year) - year) || Number(b.vintage) - Number(a.vintage))[0];
+}
+
+/** Filings per 100,000 residents, computed at build and never stored. */
+export function per100k(count: number, fips: string, year: number): { value: number; pop: ReturnType<typeof populationFor> } | null {
+  const pop = populationFor(fips, year);
+  if (!pop) return null;
+  return { value: (count / Number(pop.population)) * 100000, pop };
+}
+
+/** Legalization markers for a state's charts: first legal wager per channel, from the profile. */
+export function legalizationMarkers(p: StateProfile): { date: string; label: string }[] {
+  return p.legal_status.filter((r) => r.launched_on && r.status === 'live').map((r) => ({ date: r.launched_on as string, label: `First ${r.channel} wager` })).sort((a, b) => a.date.localeCompare(b.date));
+}
+
+/** Summary of a series before and after a date: means over the window, with counts, for the pre/post table. Descriptive only. */
+export function prePost(points: { date: string; value: number }[], cut: string, windowMonths = 24) {
+  const d = new Date(cut + 'T00:00:00Z');
+  const lo = new Date(d); lo.setUTCMonth(lo.getUTCMonth() - windowMonths);
+  const hi = new Date(d); hi.setUTCMonth(hi.getUTCMonth() + windowMonths);
+  const pre = points.filter((x) => new Date(x.date + 'T00:00:00Z') >= lo && x.date < cut);
+  const post = points.filter((x) => x.date >= cut && new Date(x.date + 'T00:00:00Z') < hi);
+  const mean = (xs: typeof pre) => xs.length ? xs.reduce((a, x) => a + x.value, 0) / xs.length : null;
+  return { pre: { n: pre.length, mean: mean(pre) }, post: { n: post.length, mean: mean(post) }, windowMonths };
 }

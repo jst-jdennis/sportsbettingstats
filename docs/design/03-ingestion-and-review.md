@@ -169,6 +169,20 @@ page lists states with no data and the reason (`no_legal_market`,
 A hostile reader should be able to see exactly what the site does not
 know. This page is also the maintainers' work queue.
 
+## 6a. Running ingestion where the network is restricted
+
+The build container used for development cannot reach most publishers.
+Rather than weaken the provenance rules, ingestion runs on GitHub Actions
+runners, which can. A contributor commits a request file under
+`ingest/requests/`; the `Ingest requests` workflow fetches, archives
+(local hash plus Wayback capture), parses and normalizes on the runner,
+then returns the rows, the raw documents, extracted PDF text and a
+log summary. The same workflow archives research PDFs so that key figures
+are read from the paper rather than from summaries. Nothing is committed
+by the workflow itself; a maintainer reviews the checklist and commits.
+This keeps the two-person rule intact and makes every fetch reproducible
+from the request file and the run log.
+
 ## 7. Phase 1 working sources
 
 Two automated modules will be fully working in Phase 1:

@@ -24,4 +24,8 @@ def block(source_id: str, raw: RawDocument, *, method: str, entered_by: str, pag
 
 def csv_columns(p: dict[str, Any]) -> dict[str, Any]:
     """The subset of the block that CSV datasets carry as columns."""
-    return {k: p.get(k) for k in ("source_id", "source_url", "archive_url", "retrieved_at", "status", "entered_by", "reviewed_by", "notes")}
+    cols = {k: p.get(k) for k in ("source_id", "source_url", "archive_url", "retrieved_at", "status", "entered_by", "reviewed_by")}
+    # CSV datasets have no page_or_table column; the page or table reference leads the notes so the
+    # reviewer can find the figure in the archived document.
+    cols["notes"] = "; ".join(x for x in (p.get("page_or_table"), p.get("notes")) if x) or None
+    return cols

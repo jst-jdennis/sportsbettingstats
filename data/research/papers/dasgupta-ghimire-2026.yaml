@@ -1,0 +1,75 @@
+slug: dasgupta-ghimire-2026
+title: "Gambling and Substance Use: Early Evidence From Sports Betting Laws"
+authors: [Kabir Dasgupta, Keshar Ghimire]
+year_first_circulated: 2026
+publication_status: published
+venue: Health Economics, volume 35, issue 6, pages 851 to 865 (2026)
+doi: 10.1002/hec.70088
+canonical_url: https://doi.org/10.1002/hec.70088
+market_segment: regulated_sportsbook
+unit_of_effect: population_average
+data_used: >-
+  Behavioral Risk Factor Surveillance System responses from 2016 to 2023 on binge drinking, smoking and marijuana
+  use, matched to the dates on which states legalized retail and online sports betting.
+design: >-
+  Difference-in-differences comparing residents of states that legalized sports betting with residents of states
+  that had not, with separate estimates for online and retail legalization and by sex and age group.
+plain_language_summary: >-
+  The authors ask whether legal sports betting changed alcohol, tobacco or marijuana use. They find that legalizing
+  online sports betting raised the frequency of binge drinking among young men by about 10 percent, with the effect
+  showing at the intensive margin (men who already binge drink doing so more often), and no detectable change in
+  smoking or marijuana use. Retail-only legalization shows smaller effects. These are averages across all young men
+  in a state's survey sample, bettors and non-bettors alike, and rely on self-reported drinking.
+methodology_notes:
+  - Population-average estimates for survey respondents; the subgroup with the clearest effect is men aged 35 and under.
+  - The sample period includes the COVID-19 pandemic, which the authors note may have affected drinking patterns.
+  - The paper studies only the first years after legalization in most states.
+limitations:
+  - Self-reported consumption in BRFSS tends to understate drinking, so the level of binge drinking is measured with error.
+  - BRFSS does not record whether a respondent bets on sports, so the link to betting is at the state-by-date level.
+versions:
+  - version_label: health-economics-2026-03-11
+    date: "2026-03-11"
+    date_precision: day
+    url: https://doi.org/10.1002/hec.70088
+    archive_url: null
+    sha256: null
+    changes_summary: >-
+      Published in Health Economics. No earlier public working paper version was located; if one exists it should
+      be added as an earlier version.
+key_figures:
+  - figure_id: binge-drinking-young-men-online
+    description: Increase in binge drinking frequency among young men after a state legalized online sports betting
+    value_text: approximately 10 percent
+    specification: Difference-in-differences estimate for online legalization, men aged 35 and under, intensive margin, abstract
+    version_label: health-economics-2026-03-11
+    status: current
+    superseded_by: null
+    page_or_table: Abstract
+    outcome_domain: other
+    value_numeric: 10
+    value_unit: percent_change
+    range_low: null
+    range_high: null
+    provenance: &dasgupta
+      source_id: doi-org
+      source_url: https://doi.org/10.1002/hec.70088
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-research-health-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: Abstract
+      notes: >-
+        Journal is Health Economics (Wiley). Figure taken from the abstract text as quoted in search results:
+        legalizing online sports betting increased binge drinking frequency among young men by approximately 10
+        percent, with no discernible impact on smoking. The table estimate behind the rounded figure is to be read
+        from the article.
+citations_in_policy: []
+provenance:
+  <<: *dasgupta
+  notes: >-
+    Title, authors, DOI, volume, issue, pages and publication date taken from the journal citation as listed in
+    search results. Journal is Health Economics.

@@ -1,0 +1,93 @@
+slug: ozer-greenwood-gopal-2024
+title: "Let It Ride! An Empirical Investigation of Problem Gambling and the Implications of Legalized Online Sports Betting"
+authors: [Gorkem Turgut Ozer, Brad N. Greenwood, Anandasivam Gopal]
+year_first_circulated: 2024
+publication_status: published
+venue: Information Systems Research, Articles in Advance (2026)
+doi: 10.1287/isre.2024.1526
+canonical_url: https://doi.org/10.1287/isre.2024.1526
+market_segment: regulated_sportsbook
+unit_of_effect: population_average
+data_used: >-
+  State-level counts of calls to the National Problem Gambling Helpline and state suicide counts, matched to the
+  dates on which each state legalized retail sportsbooks and online sports betting.
+design: >-
+  Staggered difference-in-differences across states, separating the legalization of physical sportsbooks from the
+  legalization of online betting. Heterogeneity is examined by age, marital status, education and sex.
+plain_language_summary: >-
+  The authors ask whether calls to the national problem gambling helpline, and suicide counts, changed when states
+  legalized sports betting. They find that helpline calls did not move with the legalization of physical
+  sportsbooks but rose when states legalized online betting, and that suicide counts also rose after online
+  legalization, with the effects concentrated among young, unmarried, less-educated men. These are state-level
+  averages across everyone in a state, not effects on an individual bettor. Helpline call volume responds to the
+  advertising of the helpline number as well as to need, which the authors discuss but cannot fully separate.
+methodology_notes:
+  - Population-average estimates at the state level. The paper does not observe which callers bet.
+  - The null result for physical sportsbooks is described by the authors as suggestive, since a precisely estimated zero is hard to establish with state-level counts.
+  - The online-betting effect is attributed to ease of mobile access; the paper does not have data on betting volume by channel.
+limitations:
+  - Helpline calls are a measure of help-seeking, not of problem gambling prevalence. Mandatory helpline messaging in advertising raises call volume on its own.
+  - The year of first circulation is inferred from conference presentations (SCECR and CHITA) and a January 2024 seminar listing; the first dated public draft could not be located.
+  - The headline percentage increase in helpline calls circulating in press coverage (about 22.8 percent) was not read from the article and is not entered as a figure.
+versions:
+  - version_label: isr-2026-articles-in-advance
+    date: "2026-01-01"
+    date_precision: year
+    url: https://doi.org/10.1287/isre.2024.1526
+    archive_url: null
+    sha256: null
+    changes_summary: >-
+      Published as an Articles in Advance item in Information Systems Research, volume 0(0). Press coverage of the
+      article appeared in June 2026; the exact online publication date is to be confirmed from the article record.
+key_figures:
+  - figure_id: helpline-calls-online-legalization
+    description: Change in calls to the National Problem Gambling Helpline after a state legalized online sports betting
+    value_text: to be entered from the paper
+    specification: Difference-in-differences estimate for online betting legalization, state-level helpline call counts
+    version_label: isr-2026-articles-in-advance
+    status: current
+    superseded_by: null
+    page_or_table: null
+    outcome_domain: help_seeking
+    value_numeric: null
+    value_unit: null
+    range_low: null
+    range_high: null
+    provenance: &ozer
+      source_id: doi-org
+      source_url: https://doi.org/10.1287/isre.2024.1526
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-research-health-2026-10-16
+      reviewed_by: null
+      status: unverified
+      page_or_table: null
+      notes: >-
+        Journal is Information Systems Research (INFORMS). The abstract text seen in search results states that
+        helpline calls are strongly correlated with online legalization but gives no number; a 22.8 percent figure
+        appears only in George Mason University press coverage. The article must be read before a value is entered.
+  - figure_id: suicides-online-legalization
+    description: Change in state suicide counts after a state legalized online sports betting
+    value_text: to be entered from the paper
+    specification: Difference-in-differences estimate for online betting legalization, state-level suicide counts
+    version_label: isr-2026-articles-in-advance
+    status: current
+    superseded_by: null
+    page_or_table: null
+    outcome_domain: other
+    value_numeric: null
+    value_unit: null
+    range_low: null
+    range_high: null
+    provenance:
+      <<: *ozer
+      notes: Suicide outcome described in the abstract without a numeric estimate. To be read from the article.
+citations_in_policy: []
+provenance:
+  <<: *ozer
+  status: pending_review
+  notes: >-
+    Title, authors and DOI confirmed from the DOI record returned in search results. Publication date and the
+    first circulation year remain to be confirmed. Journal is Information Systems Research.

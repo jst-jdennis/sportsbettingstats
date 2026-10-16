@@ -267,12 +267,12 @@ sources:
 - source_id: ks-kdads
   publisher: Kansas Department for Aging and Disability Services
   publisher_type: state_agency
-  title: Problem Gambling and Addictions Grant Fund reports
-  url: https://kdads.ks.gov/
+  title: Problem Gambling Services page, sub-committee annual reports and the Kansas Gambling Surveys
+  url: https://www.kdads.ks.gov/services-programs/behavioral-health/problem-gambling
   access_method: pdf
   update_cadence: annual
   license: null
-  reliability_notes: null
+  reliability_notes: KDADS administers the Problem Gambling and Addictions Grant Fund and publishes the Governor's Behavioral Health Services Planning Council problem gambling sub-committee annual reports (helpline counts by state fiscal year, July to June) and the periodic Kansas Gambling Survey. Documents are served from showpublisheddocument URLs that carry a version timestamp and can change when a file is re-uploaded; the archive hash identifies the copy read.
   tier: primary
   fips: '20'
 - source_id: ssrn
@@ -339,7 +339,8 @@ sources:
   access_method: pdf
   update_cadence: irregular
   license: Publisher terms
-  reliability_notes: Peer-reviewed. Research letters are short and report a single headline estimate; read the supplement for state-level figures.
+  reliability_notes: Peer-reviewed. Research letters are short and report a single headline estimate; read the supplement
+    for state-level figures.
   tier: primary
   fips: null
 - source_id: press-trade
@@ -1492,6 +1493,39 @@ sources:
     release in source_url.
   tier: primary
   fips: '19'
+- source_id: ccgnj-800gambler
+  publisher: Council on Compulsive Gambling of New Jersey
+  publisher_type: nonprofit
+  title: 1-800-GAMBLER helpline annual reports and newsletters (New Jersey)
+  url: https://800gambler.org/about-us/annual-reports/
+  access_method: pdf
+  update_cadence: annual
+  license: null
+  reliability_notes: The Council operates the New Jersey 1-800-GAMBLER helpline and is the primary source for its own contact counts. Counting rules (intake calls, total calls, texts and chats) and fiscal year definitions vary between publications and are recorded per row. Rights to the national 1-800-GAMBLER number were contested with the National Council on Problem Gambling; check which operator's figures a document reports.
+  tier: primary
+  fips: '34'
+- source_id: nj-dge-prevalence-reports
+  publisher: New Jersey Division of Gaming Enforcement (reports by the Rutgers Center for Gambling Studies)
+  publisher_type: state_regulator
+  title: Prevalence of online and land-based gambling in New Jersey (2017 and 2023 reports)
+  url: https://www.nj.gov/oag/ge/2023news/PrevalenceReport2023Final.pdf
+  access_method: pdf
+  update_cadence: irregular
+  license: null
+  reliability_notes: Commissioned by the DGE and conducted by Rutgers University. The two waves use different fieldwork years and the 2023 report's fieldwork predates most of the pandemic-era online growth it is often cited for; read fieldwork dates before comparing.
+  tier: primary
+  fips: '34'
+- source_id: ks-klrd
+  publisher: Kansas Legislative Research Department
+  publisher_type: legislature
+  title: Fiscal memoranda and briefs, including uses of the Problem Gambling and Addictions Grant Fund
+  url: https://klrd.gov/2024/02/01/uses-of-problem-gambling-and-addictions-grant-funds/
+  access_method: pdf
+  update_cadence: irregular
+  license: null
+  reliability_notes: Nonpartisan legislative staff summaries of agency budget requests; figures are restated from KDADS submissions and should be cited as such.
+  tier: primary
+  fips: '20'
 - source_id: ks-attorney-general
   publisher: Kansas Attorney General
   publisher_type: state_agency
@@ -2041,5 +2075,64 @@ sources:
   update_cadence: irregular
   license: Author terms
   reliability_notes: Working papers are revised in place; hash and archive each version.
+  tier: primary
+  fips: null
+- source_id: doi-org
+  publisher: Journal article resolved through doi.org (publisher named in the record notes)
+  publisher_type: academic
+  title: Peer-reviewed journal articles by DOI
+  url: https://doi.org/
+  access_method: pdf
+  update_cadence: irregular
+  license: Publisher terms
+  reliability_notes: Use the DOI URL as source_url. The journal and the article page are named in notes. Published
+    versions are stable; cite the table or section.
+  tier: primary
+  fips: null
+- source_id: arxiv
+  publisher: arXiv (Cornell University)
+  publisher_type: academic
+  title: arXiv preprint server
+  url: https://arxiv.org/
+  access_method: pdf
+  update_cadence: irregular
+  license: Author terms
+  reliability_notes: Versions are numbered (v1, v2) and each is permanently available, which makes revision logging
+    exact.
+  tier: primary
+  fips: null
+- source_id: university-working-paper
+  publisher: University or research center working paper series (institution named in the record notes)
+  publisher_type: academic
+  title: Author or institution hosted working papers
+  url: https://example.invalid/working-papers
+  access_method: pdf
+  update_cadence: irregular
+  license: Author terms
+  reliability_notes: Author-hosted PDFs change in place without notice. Hash and archive every version; record the
+    institution and the date on the title page in notes.
+  tier: primary
+  fips: null
+- source_id: newyorkfed-staff-reports
+  publisher: Federal Reserve Bank of New York
+  publisher_type: federal_agency
+  title: Staff Reports series
+  url: https://www.newyorkfed.org/research/staff_reports
+  access_method: pdf
+  update_cadence: irregular
+  license: Public
+  reliability_notes: Staff reports are numbered and revised in place; record the report number and the date on the
+    title page.
+  tier: primary
+  fips: null
+- source_id: iza-discussion-papers
+  publisher: IZA Institute of Labor Economics
+  publisher_type: academic
+  title: IZA Discussion Paper series
+  url: https://www.iza.org/publications/dp
+  access_method: pdf
+  update_cadence: irregular
+  license: Author terms
+  reliability_notes: Discussion papers are numbered (DP nnnnn) and stable by number.
   tier: primary
   fips: null

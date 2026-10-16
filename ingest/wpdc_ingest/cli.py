@@ -41,6 +41,7 @@ def main(argv: list[str] | None = None) -> int:
     ing.add_argument("source_id", choices=sorted(REGISTRY))
     ing.add_argument("--period", help="YYYY-MM for monthly sources, YYYY-Qn for quarterly")
     ing.add_argument("--local", type=Path, help="Use a downloaded file instead of fetching (manual drop or fixture)")
+    ing.add_argument("--candidate", type=int, default=0, help="With --local: index of the discovered document the file stands for (see wpdc discover)")
     ing.add_argument("--no-wayback", action="store_true")
     ing.add_argument("--dry-run", action="store_true", help="Parse and print rows; write nothing")
     sub.add_parser("validate", help="Run the repository validator")
@@ -57,14 +58,49 @@ def main(argv: list[str] | None = None) -> int:
     src = load(a.source_id)
     period = parse_period(a.period)
     docs = src.discover(period)
-    doc = docs[0]
-    ext = doc.kind
+    raws = []
     if a.local:
-        raw = archive.from_local(src.source_id, Document(url=doc.url, period=doc.period, kind=doc.kind, label=doc.label), a.local, ext)
+        doc = docs[a.candidate]
+        if doc.kind == "html":
+            # A manual drop skips page discovery; the file is the document itself.
+            kind = a.local.suffix.lstrip(".").lower() or "pdf"
+            doc = Document(url=doc.url, period=doc.period, kind=kind, label=doc.label, meta=(("measure", "quarter"),))
+        raws.append(archive.from_local(src.source_id, doc, a.local, doc.kind))
     else:
-        raw = archive.fetch(src.source_id, doc, ext, wayback=not a.no_wayback)
-    records = src.parse(raw)
-    rows = [r.finalize() for r in src.normalize(records, raw)]
+        last_err: Exception | None = None
+        done_measures: set[str] = set()  # with fetch_all, one parsed document per measure is enough
+        for doc in docs:
+            try:
+                candidate = []
+                if doc.kind == "html":
+                    html = archive.fetch_bytes(doc.url).decode("utf-8", "replace")
+                    files = [f for f in src.resolve(doc, html) if not (f.get("measure") and f.get("measure") in done_measures)]
+                    print(f"resolved {len(files)} document(s) still needed from {doc.url}")
+                    if not files:
+                        continue
+                    for f in files:
+                        candidate.append(archive.fetch(src.source_id, f, f.kind, wayback=not a.no_wayback))
+                else:
+                    if doc.get("measure") and doc.get("measure") in done_measures:
+                        continue
+                    candidate.append(archive.fetch(src.source_id, doc, doc.kind, wayback=not a.no_wayback))
+                # Parse now so that a wrong-shaped candidate (an HTML error page served as 200) falls through.
+                for raw in candidate:
+                    print(f"parsing {raw.path.name} ({raw.doc.label}) sha256={raw.sha256[:12]} archive_url={raw.archive_url}")
+                    src.parse(raw)
+                raws.extend(candidate)
+                done_measures.update(m for m in (r.doc.get("measure") for r in candidate) if m)
+                if not getattr(src, "fetch_all", False):
+                    break
+            except Exception as e:  # noqa: BLE001
+                last_err = e
+                print(f"skip {doc.url}: {type(e).__name__}: {e}")
+        if not raws:
+            raise SystemExit(f"no document could be fetched and parsed for {src.source_id}: {last_err}")
+    rows = []
+    for raw in raws:
+        records = src.parse(raw)
+        rows.extend(r.finalize() for r in src.normalize(records, raw))
     key, sort = KEYS[src.dataset]
     if a.dry_run:
         for r in rows:

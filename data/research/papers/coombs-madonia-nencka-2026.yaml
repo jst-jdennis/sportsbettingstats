@@ -1,0 +1,83 @@
+slug: coombs-madonia-nencka-2026
+title: "Gambling with State Budgets: Legalized Sports Betting and Lost Lottery Revenue"
+authors: [Kyle Coombs, Greg Madonia, Peter Nencka, Austin C. Smith]
+year_first_circulated: 2026
+publication_status: working_paper
+venue: IZA Discussion Paper no. 18724 (June 2026)
+doi: null
+canonical_url: https://www.iza.org/publications/dp/18724
+market_segment: regulated_sportsbook
+unit_of_effect: population_average
+data_used: >-
+  State lottery revenue data by state and period, matched to the dates on which states legalized sports betting
+  after the 2018 Murphy v. NCAA decision, together with state tax collections from sports betting used to
+  compute the combined effect on state revenue.
+design: >-
+  Staggered difference-in-differences comparing lottery revenue in states that legalized sports betting with
+  lottery revenue in states that had not yet done so, with a further calculation combining the lottery loss
+  with the tax revenue states collect from sports betting.
+plain_language_summary: >-
+  The authors ask whether legal sports betting draws spending away from state lotteries. They find that after a
+  state legalized sports betting its lottery revenue fell by about 10 to 13 percent and that the decline
+  persisted. Because states keep a much smaller share of each dollar bet on sports than of each dollar spent on
+  lottery tickets, the combined effect on state revenue from the two sources is estimated to be negative, but
+  that combined estimate is imprecise. The figures are state-level averages, not effects on individual lottery
+  players or bettors.
+methodology_notes:
+  - State-level (population-average) estimates of revenue, not estimates of substitution by individual consumers.
+  - The combined-revenue estimate depends on each state's sports betting tax rate and on how much of the lottery decline is net new spending on sports betting rather than spending that left gambling entirely.
+limitations:
+  - Working paper; the imprecise combined-revenue estimate in particular may change in later drafts.
+  - Lottery revenue can move for reasons unrelated to sports betting, such as jackpot cycles and the introduction of new lottery products, which a state-by-period design controls for only in part.
+  - The 10 to 13 percent figure entered here comes from the abstract as quoted in search results; the tables have not been read.
+versions:
+  - version_label: iza-dp18724-2026-06
+    date: "2026-06-01"
+    date_precision: month
+    url: https://www.iza.org/publications/dp/18724
+    archive_url: null
+    sha256: null
+    changes_summary: >-
+      IZA Discussion Paper no. 18724, dated June 2026 on the RePEc record. The same paper is posted on SSRN as
+      abstract 7168420 with the fourth author listed as Austin Smith; its posting date was not confirmed, so it
+      is not entered as a separate version.
+key_figures:
+  - figure_id: lottery-revenue-decline-2026
+    description: Change in state lottery revenue after a state legalized sports betting
+    value_text: a persistent 10 to 13 percent decline
+    specification: Staggered difference-in-differences on state lottery revenue, abstract
+    version_label: iza-dp18724-2026-06
+    status: current
+    superseded_by: null
+    page_or_table: Abstract
+    outcome_domain: other
+    value_numeric: -11.5
+    value_unit: percent_change
+    range_low: -13
+    range_high: -10
+    provenance: &coombs
+      source_id: iza-discussion-papers
+      source_url: https://www.iza.org/publications/dp/18724
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: Midpoint of the stated 10 to 13 percent range entered as value_numeric, signed negative for a decline
+      entered_by: agent-research-followup-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: Abstract
+      notes: >-
+        IZA Discussion Paper no. 18724. Figure taken from the abstract as quoted in search results: legalization
+        leads to a persistent 10 to 13 percent decline in lottery revenue, and the effect on combined state
+        revenue from sports betting and lotteries is negative but imprecise. The outcome is state revenue, which
+        has no dedicated outcome_domain value, so it is filed under other. The IZA page and PDF could not be
+        opened from the build container.
+citations_in_policy: []
+provenance:
+  <<: *coombs
+  transform: null
+  page_or_table: null
+  notes: >-
+    Title, authors, discussion paper number and date (June 2026) taken from the IZA and RePEc records as shown
+    in search results; author affiliations listed there are Vassar College, California State University Chico
+    and Miami University. The fourth author appears as Austin C. Smith on RePEc and Austin Smith on SSRN.

@@ -1,0 +1,135 @@
+slug: goss-mangrum-2026
+title: "Sports Betting Across Borders: Spatial Spillovers, Credit Distress, and Fiscal Externalities"
+authors: [Jacob Goss, Daniel Mangrum]
+year_first_circulated: 2026
+publication_status: working_paper
+venue: Federal Reserve Bank of New York Staff Report no. 1184 (February 2026, revised March 2026)
+doi: null
+canonical_url: https://www.newyorkfed.org/research/staff_reports/sr1184
+market_segment: regulated_sportsbook
+unit_of_effect: population_average
+data_used: >-
+  Consumer spending data that identify sportsbook transactions, matched to county of residence and to the
+  dates on which states legalized mobile sports betting, together with consumer credit records used to measure
+  delinquency on credit cards, auto loans and other consumer debts. The abstract states that 38 states had
+  legalized mobile sports betting since the 2018 Murphy v. NCAA decision.
+design: >-
+  Extended two-way fixed effects event study that separately identifies the direct effect of legalization in a
+  state and the spillover effect on counties in non-legal states by distance to the nearest legal state.
+  Outcomes are sportsbook spending and take-up, delinquency on consumer debts, and implied state tax revenue.
+plain_language_summary: >-
+  The authors ask what happened to sportsbook spending and consumer credit after states legalized mobile sports
+  betting, and whether residents of neighboring states that had not legalized were also affected. They report
+  that sportsbook spending rose about tenfold and the share of people betting rose by about 3 percentage points,
+  that counties in non-legal states within 15 miles of a legal state picked up spillover spending of about 14
+  percent of the direct effect, fading to zero by about 60 miles, and that the share of borrowers delinquent on
+  consumer debt rose by about 0.3 percentage points from a base of about 10.7 percent, with the rise concentrated
+  among borrowers under 40 on credit cards and auto loans. All reported effects are averages across every
+  resident or borrower in a county or state, bettors and non-bettors alike; the authors also report an implied
+  effect per new bettor, which is much larger, by dividing the population effect by the take-up rate.
+methodology_notes:
+  - Population-average estimates. The abstract notes that ignoring spatial spillovers attenuates estimates and under-counts the affected population, since control counties near legal states are partly treated.
+  - The implied per-bettor delinquency effect (about 10 percentage points) is the population effect divided by the roughly 3 percent take-up rate and is a derived quantity, not a direct estimate on bettors.
+  - The staff report was revised in March 2026; the March version is the one indexed by RePEc and should be treated as current.
+limitations:
+  - Working paper that has already been revised once; figures may change in later drafts or in a journal version.
+  - Spending data identify sportsbook transactions through payment records and will miss cash, offshore and some payment channels; credit records do not observe who bets.
+  - The delinquency figures entered here come from the abstract as quoted in search results; the tables have not been read.
+versions:
+  - version_label: sr1184-2026-02
+    date: "2026-02-01"
+    date_precision: month
+    url: https://www.newyorkfed.org/research/staff_reports/sr1184
+    archive_url: null
+    sha256: null
+    changes_summary: First public version of Staff Report no. 1184, as dated on the New York Fed listing. The original PDF has not been opened.
+  - version_label: sr1184-2026-03
+    date: "2026-03-01"
+    date_precision: month
+    url: https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1184.pdf
+    archive_url: null
+    sha256: null
+    changes_summary: >-
+      Revised version dated March 2026 on the New York Fed listing, with the same report number. A related
+      Liberty Street Economics post dated 2026-03-25 ("Sports Betting Is Everywhere, Especially on Credit
+      Reports") summarizes this version. The paper is also posted on SSRN as abstract 6300183; its posting
+      date was not confirmed, so it is not entered as a separate version.
+key_figures:
+  - figure_id: delinquency-overall-2026
+    description: Increase in the share of borrowers delinquent on consumer debt in states that legalized mobile sports betting, relative to a pre-legalization base of about 10.7 percent
+    value_text: 0.3 percentage points from a 10.7 percent base
+    specification: Direct effect of legalization on overall delinquency, extended two-way fixed effects, abstract of the March 2026 revision
+    version_label: sr1184-2026-03
+    status: current
+    superseded_by: null
+    page_or_table: Abstract
+    outcome_domain: loan_delinquency
+    value_numeric: 0.3
+    value_unit: percentage_points
+    range_low: null
+    range_high: null
+    provenance: &goss
+      source_id: newyorkfed-staff-reports
+      source_url: https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1184.pdf
+      archive_url: null
+      retrieved_at: "2026-10-16"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: agent-research-followup-2026-10-16
+      reviewed_by: null
+      status: pending_review
+      page_or_table: Abstract
+      notes: >-
+        Federal Reserve Bank of New York Staff Report no. 1184. Figure taken from the abstract as quoted in
+        search results: overall delinquency rises 0.3 percentage points from a 10.7 percent base, with spillover
+        delinquency rising nearly 0.2 percentage points. A prior search reported the unrounded values as 0.31
+        percentage points on a 10.71 percent baseline; those unrounded values have not been seen in the paper
+        and are to be confirmed from the tables. The PDF could not be opened from the build container.
+  - figure_id: delinquency-credit-card-under-40-2026
+    description: Increase in the share of borrowers under age 40 who are delinquent on credit cards after their state legalized mobile sports betting
+    value_text: one percentage point
+    specification: Direct effect of legalization, borrowers under 40, credit card delinquency, abstract of the March 2026 revision
+    version_label: sr1184-2026-03
+    status: current
+    superseded_by: null
+    page_or_table: Abstract
+    outcome_domain: loan_delinquency
+    value_numeric: 1
+    value_unit: percentage_points
+    range_low: null
+    range_high: null
+    provenance:
+      <<: *goss
+      notes: >-
+        Abstract as quoted in search results: under-40 auto loan delinquency increases by half a percentage point
+        and credit card delinquency by one percentage point, driving the overall increase in delinquency. The
+        Liberty Street Economics post of 2026-03-25 gives 1.02 percentage points for credit cards and 0.55 for
+        auto loans among under-40 borrowers; those unrounded values are to be confirmed from the paper's tables.
+  - figure_id: take-up-2026
+    description: Increase in the share of people with any sportsbook spending after their state legalized mobile sports betting
+    value_text: 3.1 percentage points
+    specification: Direct effect of legalization on sportsbook take-up, consumer spending data, abstract of the March 2026 revision
+    version_label: sr1184-2026-03
+    status: current
+    superseded_by: null
+    page_or_table: Abstract
+    outcome_domain: betting_participation
+    value_numeric: 3.1
+    value_unit: percentage_points
+    range_low: null
+    range_high: null
+    provenance:
+      <<: *goss
+      notes: >-
+        Abstract as quoted in search results: legalization increases total sportsbook spending roughly tenfold
+        and take-up by 3.1 percentage points. Spillover spending in non-legal counties within 15 miles of a legal
+        state is about 14 percent of the direct effect, declining to roughly zero by 60 miles.
+citations_in_policy: []
+provenance:
+  <<: *goss
+  source_url: https://www.newyorkfed.org/research/staff_reports/sr1184
+  page_or_table: null
+  notes: >-
+    Title, authors, report number, original date (February 2026) and revision date (March 2026) taken from the
+    New York Fed Staff Reports listing and the RePEc record as shown in search results. Neither page could be
+    opened from the build container.
