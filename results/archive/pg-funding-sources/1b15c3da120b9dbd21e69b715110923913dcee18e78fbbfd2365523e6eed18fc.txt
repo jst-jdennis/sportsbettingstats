@@ -1,0 +1,807 @@
+=== page 1 ===
+No. 63 Page 1 of 31
+2023
+No. 63. An act relating to sports wagering.
+(H.127)
+It is hereby enacted by the General Assembly of the State of Vermont:
+Sec. 1. 31 V.S.A. chapter 25 is added to read:
+CHAPTER 25. SPORTS WAGERING
+Subchapter 1. Authority of the Department
+§ 1301. DEFINITIONS
+As used in this chapter:
+(1) “Adjusted gross sports wagering revenue” means gross sports
+wagering receipts, excluding voided bets, less winnings paid to authorized
+participants and any federal excise tax.
+(2) “Board” means the Board of Liquor and Lottery.
+(3) “Collegiate sports event” means a sports or athletic event
+participated in or offered or sponsored by a public or private institution that
+offers educational services beyond the secondary level.
+(4) “Commissioner” means the Commissioner of Liquor and Lottery or
+designee.
+(5) “Department” means the Department of Liquor and Lottery.
+(6) “High school sports event” means a sports or athletic event
+participated in or offered or sponsored by a public or private institution that
+offers educational services at the secondary level.
+VT LEG #371232 v.1
+
+=== page 2 ===
+No. 63 Page 2 of 31
+2023
+(7) “Mobile sports wagering platform” means the combination of
+hardware, software, and data networks that are used to manage, administer,
+record, or control sports wagers through mobile devices or the Internet.
+(8) “Operator” means a party who is authorized by contract or
+agreement with the Department to conduct a sportsbook.
+(9) “Prohibited sports bettor” means:
+(A) any member or employee of the Department and any spouse,
+child, sibling, or parent residing in the same household as a member or
+employee of the Department;
+(B) any principal or employee of any operator;
+(C) any contractor of the Department or its operators when the
+contract relates to the conduct of sports wagering;
+(D) any contractor or employee of an entity that conducts sports
+wagering in another jurisdiction when the bettor, as a result of the bettor’s
+contract or employment, possesses confidential or nonpublic information
+relating to the wager being placed;
+(E) any amateur or professional athlete if the sports wager is based in
+whole or part on a sport or athletic event overseen by the athlete’s governing
+sports body;
+(F) any sports agent, owner, or employee of a team; player; umpire;
+referee; coach; union official; or official of a sport’s governing body if the
+VT LEG #371232 v.1
+
+=== page 3 ===
+No. 63 Page 3 of 31
+2023
+sports wager is based in whole or in part on a sport or athletic event overseen
+by the governing body that oversees the individual’s sport;
+(G) any individual placing a wager as an agent of or proxy for a
+prohibited sports bettor; or
+(H) any person under 21 years of age.
+(10)(A) “Prohibited sports event” means any:
+(i) collegiate sports event in which one of the participants is a
+collegiate team of a college institution that is primarily located in Vermont,
+unless the collegiate sports event is subject to the provisions of subdivision (B)
+of this subdivision (10);
+(ii) high school or collegiate sports event that takes place in
+Vermont; and
+(iii) amateur or professional sports event where the participants
+are primarily under 18 years of age.
+(B) “Prohibited sports event” does not mean the games of a collegiate
+sports tournament in which a Vermont college team participates, nor does it
+include any games of a collegiate sports tournament that occur outside
+Vermont even though some of the individual games or events are held in
+Vermont.
+(11) “Sportsbook” means the business of accepting sports wagers on any
+sports event by any system or method of wagering.
+VT LEG #371232 v.1
+
+=== page 4 ===
+No. 63 Page 4 of 31
+2023
+(12) “Sports event” means an event at which two or more persons
+participate in a sports or athletic event. “Sports event” also means horse racing
+and equestrian events.
+(13) “Sports governing body” means the organization that prescribes
+final rules and enforces codes of conduct with respect to a sporting event and
+the participants in a sporting event.
+(14) “Sports wager” means cash or cash equivalent paid by an individual
+to participate in sports wagering.
+(15)(A) “Sports wagering” means wagering on:
+(i) sporting events or any portion of a sporting event; or
+(ii) the individual performance statistics of athletes participating in
+a sports event or a combination of sports events.
+(B) “Sports wagering” means wagering on the matters enumerated in
+subdivision (A) of this subdivision (15) by any system or method of wagering,
+including in-person communication and electronic communication through
+Internet websites accessed via a mobile device or computer and mobile device
+applications.
+(C) “Sports wagering” includes single game bets, teaser bets, parlays,
+over-under bets, money line bets, pools, exchange wagering, in-game
+wagering, in-play bets, proposition bets, and straight bets.
+(D) “Sports wagering” does not mean participation in a fantasy sports
+contest pursuant to subchapter 3 of this chapter.
+VT LEG #371232 v.1
+
+=== page 5 ===
+No. 63 Page 5 of 31
+2023
+(16) “Type of wager” means the form of a wager offered by an operator,
+such as those described in subdivision (15)(C) of this section.
+§ 1302. DEPARTMENT OF LIQUOR AND LOTTERY; AUTHORITY AND
+DUTIES
+(a) The Department is authorized to operate sports wagering within the
+State.
+(b)(1) The Commissioner shall negotiate and contract to authorize a
+minimum of two but not more than six operators to operate a sportsbook in
+Vermont through a mobile sports wagering platform.
+(2) This subsection shall not be construed to require the Department to
+authorize unqualified applicants to conduct a sportsbook. If the competitive
+bidding process fails to produce a sufficient number of qualified applicants, the
+Department may:
+(A) decline to authorize any operators to operate a sportsbook; or
+(B) authorize a single operator to conduct a sportsbook.
+(c) The Department, either independently or through its operator, shall
+provide:
+(1) Age verification measures to be undertaken to block access to and
+prevent sports wagers by persons under 21 years of age.
+(2) Identity verification through secure online databases or by
+examination of a person’s photo identification and the review of a
+supplemental, contemporaneous photograph of the person.
+VT LEG #371232 v.1
+
+=== page 6 ===
+No. 63 Page 6 of 31
+2023
+(3) That mobile sports wagers must be initiated and received within the
+State of Vermont and may not be intentionally routed outside the State. The
+incidental intermediate routing of a mobile sports wager shall not determine
+the location or locations in which the wager is initiated, received, or otherwise
+made.
+(4) Wager limits for daily, weekly, and monthly amounts consistent with
+the best practices in addressing problem gambling.
+(5) A statewide voluntary self-exclusion program for players to exclude
+themselves from wagering for a set period of time. The Department shall
+establish a uniform self-exclusion program that ensures a listed player is
+excluded from placing wagers with any of the State’s authorized sports
+wagering operators and fantasy sports contest operators.
+(6) Security mechanisms to ensure the confidentiality of wagering and
+personal and financial information except as otherwise authorized by this
+chapter.
+(7) Measures to ensure that wagers are not placed by a prohibited sports
+bettor.
+(d) A sports governing body or college may request that the Department
+restrict, limit, or exclude wagering on a sporting event or series of sporting
+events. The Department shall review the request and seek input from the
+Department’s operators. If the Department determines it is appropriate, then
+the Department may grant the request or part of the request to prohibit
+VT LEG #371232 v.1
+
+=== page 7 ===
+No. 63 Page 7 of 31
+2023
+unlawful activity, protect the integrity of the event, or protect public
+confidence in the integrity of the sports event.
+(e) The Department shall have authority to review and approve types of
+wagers and categories of sports events before an operator is permitted to offer
+the wager to the public. The Department shall approve types of wagers and
+categories of sports events in a reasonable time frame. Once a particular
+category of sports event or type of wager is approved for its first use, it may be
+used on multiple events without further approval. The Department may issue
+general approval for operators to offer wagers on enumerated categories of
+sports events and types of wagers.
+(f) The Department shall only approve wagers on sports events that:
+(1) have verifiable outcomes that can be generated by a reliable and
+independent processes; and
+(2) are conducted in conformity with applicable laws.
+(g) The Department shall include in its contract with each operator:
+(1) a provision that prohibits the use of sports wagering advertisements,
+logos, trademarks, or brands on products that are sold in Vermont and intended
+primarily for persons under 21 years of age; and
+(2) an advertising plan, which shall include strategies to limit unwanted
+advertising and advertising aimed at persons under 21 years of age.
+VT LEG #371232 v.1
+
+=== page 8 ===
+No. 63 Page 8 of 31
+2023
+§ 1303. PROCEDURES
+(a)(1) The Board shall adopt procedures pursuant to 3 V.S.A. § 835 to
+govern the establishment and operation of any sportsbook authorized by this
+chapter. For each procedure proposed to be adopted or amended pursuant to
+this section, the Board shall publish the proposal on the Department of Liquor
+and Lottery’s website, provide notice of the proposal to all operators, provide
+not less than 30 days for public comment on the proposal, and hold not less
+than two public hearings at which members of the public may seek additional
+information or submit oral or written comments on the proposal.
+(2) The Board shall not be required to initiate rulemaking pursuant to
+3 V.S.A. § 831(c) in relation to a procedure adopted pursuant to this section.
+(3) A procedure adopted pursuant to this section shall have the force of
+law and be binding on all persons who play or offer sports wagering within the
+State.
+(b) The Board shall adopt procedures pursuant to this section that govern
+the following minimum standards for the Department’s operators:
+(1) minimum computer system security, including:
+(A) documented system security testing performed by a licensed
+third-party contractor approved by the Department;
+(B) unique identification and verification systems for wagers;
+(C) procedures to prevent past posting of wagers;
+(D) minimum data that must be recorded relating to each wager;
+VT LEG #371232 v.1
+
+=== page 9 ===
+No. 63 Page 9 of 31
+2023
+(E) system redundancy to ensure recording of wagers during a system
+outage; and
+(F) integration with an independent control system to ensure integrity
+of system wagering information;
+(2) sports wagering system requirements that meet or exceed Gaming
+Laboratories International’s GLI-33: Standards for Event Wagering Systems,
+and its appendices, as amended or modified;
+(3) minimum house rules, including:
+(A) the method for calculation and payment of winning wagers;
+(B) the effect of schedule changes for a sports event;
+(C) the method of notifying bettors of odds or proposition changes;
+(D) acceptance of wagers at terms other than those posted;
+(E) circumstances under which the operator will void a bet; and
+(F) treatment of errors, late bets, and related contingencies;
+(4) minimum accounting controls, including:
+(A) processes for recording the collection of wagers, payment of
+wagers, and cancellation of wagers issued; and
+(B) requirements for an annual audit of accounting controls;
+(5) minimum internal control standards;
+(6) minimum cash reserves to be maintained by each operator; and
+(7) promotional play requirements that:
+(A) require each operator to provide unambiguous notice of the:
+VT LEG #371232 v.1
+
+=== page 10 ===
+No. 63 Page 10 of 31
+2023
+(i) date and time the promotion or bonus is active and expires;
+(ii) rules of play;
+(iii) nature and value of prizes or awards;
+(iv) eligibility restrictions or limitations;
+(v) wagering and redemption requirements, including any
+limitations;
+(vi) eligible events or wagers;
+(vii) cancellation requirements; and
+(viii) terms and conditions that are full, accurate, concise,
+transparent, and do not contain misleading information;
+(B) prohibit promotions or bonuses from being described as free or
+risk-free if those promotions or bonuses require the player to incur any loss or
+risk the player’s own money to use or withdraw winnings from the free wager;
+(C) prohibit the operator from restricting the player from
+withdrawing the player’s own funds or withdrawing winnings from wagers
+placed using the player’s own funds;
+(D) ensure that the promotion or bonus rules shall be available to
+patrons and the Department; and
+(E) require operators to adopt procedures for the issuance,
+acceptance, and tracking of promotions or bonuses.
+VT LEG #371232 v.1
+
+=== page 11 ===
+No. 63 Page 11 of 31
+2023
+§ 1304. REVENUES TO SPORTS WAGERING ENTERPRISE FUND
+The revenues and fees received by the Department pursuant to this chapter
+shall be deposited in the Sports Wagering Enterprise Fund.
+§ 1305. CONFIDENTIALITY OF RECORDS
+(a) When produced or acquired by the Department pursuant to this chapter,
+the following records are exempt from public inspection and copying under the
+Public Records Act and shall be kept confidential:
+(1) personal information and background check documents;
+(2) any lists of names, including information related to voluntary self-
+exclusion;
+(3) trade secrets, business records, financial records, and related
+information; and
+(4) records relating to operator security, technology, facilities, or
+systems.
+(b) The Public Records Act exemptions created in this section shall not be
+subject to the provisions of 1 V.S.A. § 317(e) (repeal of Public Records Act
+exemptions).
+§ 1306. EXEMPTION
+The provisions of 13 V.S.A. chapter 51, relating to gambling and lotteries,
+shall not apply to sports wagering or a fantasy sports contest conducted
+pursuant to this chapter.
+VT LEG #371232 v.1
+
+=== page 12 ===
+No. 63 Page 12 of 31
+2023
+Subchapter 2. Sports Wagering Operators
+§ 1320. SPORTS WAGERING OPERATORS; COMPETITIVE BIDDING
+PROCESS
+(a) The Commissioner shall select operators through a competitive bidding
+process. It is the intent of the General Assembly that the Department shall be
+guided by and prioritize the following when conducting the competitive
+bidding process, selecting operators, and structuring agreements with the
+operators:
+(1) maximizing revenues to the State;
+(2) reducing the illegal market and converting wagerers to the legal
+market; and
+(3) protecting Vermonters from problem gambling.
+(b) The Board shall adopt procedures pursuant to 3 V.S.A. § 835 to
+establish criteria for the selection of operators. At a minimum, the Board’s
+guidelines shall require an applicant to include the following in the proposal:
+(1) an estimate of the applicant’s potential adjusted gross sports
+wagering revenue and the percentage of adjusted gross sports wagering
+revenue from mobile sports wagering the applicant will pay to the State if
+selected to be an operator;
+(2) the number of individually branded websites the operator proposes
+to use for its sports wagering operations in Vermont;
+VT LEG #371232 v.1
+
+=== page 13 ===
+No. 63 Page 13 of 31
+2023
+(3) the applicant’s responsible gaming plan and a description of
+responsible gaming safeguards that the applicant currently employs;
+(4) a list of all jurisdictions where the applicant and any parent
+companies are currently authorized to conduct sports wagering operations;
+(5) the applicant’s player acquisition model, advertising and affiliate
+programs, and marketing budget, including details on how the applicant will
+convert customers from wagering through illegal channels to wagering legally
+in the State;
+(6) the estimated time frame for implementing the applicant’s sports
+wagering operations;
+(7) the applicant’s integrity monitoring systems, including any current
+affiliations related to integrity monitoring; and
+(8) the applicant’s plan for maximizing sustainable, long-term revenue
+for the State, including a detailed market analysis.
+(c) Each operator selected through the competitive bidding process shall
+pay an operator fee of $550,000.00. The Commissioner and an operator may
+negotiate the renewal term upon which the fee will be reassessed. However,
+the Department shall not require an operator to pay the fee more than once in
+any three-year period.
+(d) Each operator shall pay to the Department a revenue share that is
+determined by the Department through the competitive bidding process,
+VT LEG #371232 v.1
+
+=== page 14 ===
+No. 63 Page 14 of 31
+2023
+provided that the revenue share shall not be less than 20 percent of adjusted
+gross sports wagering revenue.
+(e) The Board shall adopt procedures governing the review and
+consideration of criminal background checks as a component of the
+competitive bidding process. The procedures shall establish standards for
+determining whether an applicant should not be selected as an operator due to
+the criminal history of the applicant’s principals or other individuals who
+control the operator applicant. The Department shall obtain a copy of
+fingerprint-based Vermont criminal history records, out-of-state criminal
+history records, and criminal history records from the Federal Bureau of
+Investigation for each operator applicant, principal of an operator applicant,
+and any individual who controls an operator applicant.
+(f) Notwithstanding subsection (e) of this section, the Department may
+accept third-party criminal background checks submitted by an operator
+applicant, principal of an operator applicant, or any individual who controls an
+operator applicant in lieu of obtaining those records from the Vermont Crime
+Information Center. The third-party background check shall:
+(1) be conducted by a third-party consumer reporting agency or
+background screening company that is in compliance with the federal Fair
+Credit Reporting Act; and
+(2) include a multistate and multijurisdiction criminal record locator.
+VT LEG #371232 v.1
+
+=== page 15 ===
+No. 63 Page 15 of 31
+2023
+§ 1321. PROHIBITED ACTIVITIES
+The Department’s operators are prohibited from the following activities:
+(1) accepting or making payment relating to sports wagers made by
+prohibited sports bettors;
+(2) accepting sports wagers on prohibited sports events; or
+(3) accepting sports wagers from persons who are physically outside the
+State of Vermont at the time the sports wager is placed.
+§ 1322. MAINTAINING SPORTS INTEGRITY
+The Department and its operators may participate in national and
+international monitoring services and associations and may share betting
+information with those entities and sports governing bodies in order to ensure
+the integrity of sports wagers and sports events. The Commissioner may
+restrict, limit, or exclude wagering on a sports event if the Commissioner
+determines that the restriction, limitation, or exclusion is necessary to ensure
+the integrity of the sportsbook.
+§ 1323. ACCESS TO FINANCIAL REPORTS
+The Department may require financial and compliance reports from its
+operators at any time and may conduct audits of these reports to ensure that the
+State receives the contractual share of revenue.
+VT LEG #371232 v.1
+
+=== page 16 ===
+No. 63 Page 16 of 31
+2023
+§ 1324. COMPLIANCE OVERSIGHT
+(a) The Department shall retain oversight of its operators to ensure that all
+sports wagering activities are conducted in accordance with this chapter, any
+contractual terms, and any procedures adopted by the Department.
+(b) Any failure to comply with this chapter, contractual terms, or any
+procedures adopted by the Department may be brought before the Board of
+Liquor and Lottery. The Board shall have the authority to impose sanctions on
+an operator for a violation, including monetary penalties, suspension of
+operator operations within the State, and the termination of all operator
+operations within the State. The Department may also bring an action in a
+Vermont court for damages, injunctive relief, or enforcement of monetary
+penalties related to any contract violation.
+§ 1325. CRIMES AND PENALTIES
+(a) A corporation, association, or partnership that is not permitted to
+conduct sports wagering pursuant to this chapter that operates, conducts, or
+exposes sports wagering for play or accepts a bet or wager associated with
+sports wagering shall:
+(1) for a first violation of this subsection, be fined not more than
+$50,000.00 or imprisoned not more than six months, or both;
+(2) for a second violation of this subsection, be fined not more than
+$150,000.00 or imprisoned not more than one year, or both; and
+VT LEG #371232 v.1
+
+=== page 17 ===
+No. 63 Page 17 of 31
+2023
+(3) for a third or subsequent violation of this subsection, be fined not
+more than $300,000.00 or imprisoned not more than two years, or both.
+(b) An operator who violates a provision of this chapter shall be fined:
+(1) for a first violation, not more than $25,000.00;
+(2) for a second violation, not more than $75,000.00; and
+(3) for a third violation, not more than $150,000.00.
+(c) Upon the violation of a provision of this chapter by an operator, the
+Department may terminate its contract with the operator and revoke the
+operator’s privilege to offer sports wagering within the State.
+Subchapter 3. Fantasy Sports Contests
+§ 1330. DEFINITIONS
+As used in this subchapter:
+(1) “Computer script” means a list of commands that can be executed by
+a program, scripting engine, or similar mechanism that a fantasy sports player
+can use to automate participation in a fantasy sports contest.
+(2) “Confidential fantasy sports contest information” means nonpublic
+information available to a fantasy sports operator that relates to a fantasy sports
+player’s activity in a fantasy sports contest and that, if disclosed, may give
+another fantasy sports player an unfair competitive advantage in a fantasy
+sports contest.
+VT LEG #371232 v.1
+
+=== page 18 ===
+No. 63 Page 18 of 31
+2023
+(3) “Fantasy sports contest” means a virtual or simulated sporting event
+governed by a uniform set of rules adopted by a fantasy sports operator in
+which:
+(A) a fantasy sports player may earn one or more cash prizes or
+awards, the value of which a fantasy sports operator discloses in advance of the
+contest;
+(B) a fantasy sports player uses the player’s knowledge and skill of
+sports data, performance, and statistics to create and manage a fantasy sports
+team;
+(C) a fantasy sports team earns fantasy points based on the sports
+performance statistics accrued by individual athletes or teams, or both, in real
+world sporting events;
+(D) the outcome is determined by the number of fantasy points
+earned; and
+(E) the outcome is not determined by the score, the point spread, the
+performance of one or more teams, or the performance of an individual athlete
+in a single real world sporting event.
+(4) “Fantasy sports operator” means a person that offers to members of
+the public the opportunity to participate in a fantasy sports contest for
+consideration.
+(5) “Fantasy sports player” means an individual who participates in a
+fantasy sports contest for consideration.
+VT LEG #371232 v.1
+
+=== page 19 ===
+No. 63 Page 19 of 31
+2023
+(6) “Location percentage” mean the percentage, rounded to the nearest
+tenth of a percent, of the total of all entry fees collected from fantasy sports
+players located in Vermont, divided by the total entry fees collected from all
+fantasy sports players in fantasy sports contests.
+(7) “Net fantasy sports contest revenues” means the amount equal to the
+total of all entry fees that a fantasy sports operator collects from all fantasy
+sports players, less the total of all sums paid out as winnings to all fantasy
+sports players, multiplied by the location percentage for Vermont.
+§ 1331. CONSUMER PROTECTION
+(a) A fantasy sports operator shall adopt commercially reasonable policies
+and procedures to:
+(1) prevent participation in a fantasy sports contest it offers to the public
+with a cash prize of $5.00 or more by:
+(A) the fantasy sports operator;
+(B) an employee of the fantasy sports operator or a relative of the
+employee who lives in the same household; or
+(C) a professional athlete or official who participates in one or more
+real world sporting events in the same sport as the fantasy sports contest;
+(2) prevent the disclosure of confidential fantasy sports contest
+information to an unauthorized person;
+(3) require that a fantasy sports player is 18 years of age or older and
+verify the age of each player using one or more commercially available
+VT LEG #371232 v.1
+
+=== page 20 ===
+No. 63 Page 20 of 31
+2023
+databases, which the government or businesses regularly use to verify and
+authenticate age and identity;
+(4) limit and disclose to prospective players the number of entries a
+fantasy sports player may submit for each fantasy sports contest;
+(5) limit a fantasy sports player to not more than one username or
+account;
+(6) prohibit the use of computer scripts that provide a player with a
+competitive advantage over another player;
+(7) segregate player funds from operational funds, or maintain a reserve
+in the form of cash, cash equivalents, payment processor receivables, payment
+processor reserves, an irrevocable letter of credit, a bond, or a combination
+thereof in an amount that equals or exceeds the amount of deposits in fantasy
+sports player accounts, for the benefit and protection of fantasy sports player
+funds held in the player’s accounts; and
+(8) notify fantasy sports players that winnings of a certain amount may
+be subject to income taxation.
+(b) A fantasy sports operator shall have the following duties:
+(1) The operator shall provide a link on its website to information and
+resources addressing addiction and compulsive behavior and where to seek
+assistance with these issues in Vermont and nationally.
+(2)(A) The operator shall enable a fantasy sports player to restrict
+irrevocably the player’s own ability to participate in a fantasy sports contest,
+VT LEG #371232 v.1
+
+=== page 21 ===
+No. 63 Page 21 of 31
+2023
+for a period of time the player specifies, by submitting a request to the operator
+through its website or by online chat with the operator’s agent.
+(B) The operator shall provide to a player who self-restricts the
+player’s participation information concerning:
+(i) available resources addressing addiction and compulsive
+behavior;
+(ii) how to close an account and restrictions on opening a new
+account during the period of self-restriction;
+(iii) requirements to reinstate an account at the end of the period;
+and
+(iv) how the operator addresses reward points and account
+balances during and after the period of self-restriction, and when the player
+closes the player’s account.
+(3) The operator shall provide a player access to the following
+information for the previous six months:
+(A) a player’s play history, including money spent, games played,
+previous line-ups, and prizes awarded; and
+(B) a player’s account details, including deposit amounts, withdrawal
+amounts, and bonus information, including amounts remaining for a pending
+bonus and amounts released to the player.
+(c)(1) A fantasy sports operator shall contract with a third party to perform
+an annual independent audit, consistent with the standards established by the
+VT LEG #371232 v.1
+
+=== page 22 ===
+No. 63 Page 22 of 31
+2023
+American Institute of Certified Public Accountants, to ensure compliance with
+the requirements in this chapter.
+(2) The fantasy sports operator shall submit the results of the
+independent audit to the Attorney General.
+(d) A fantasy sports operator shall not extend credit to a fantasy sports
+player.
+(e) A fantasy sports operator shall not offer a fantasy sports contest based
+on the performance of participants in college, high school, or youth athletic
+events.
+§ 1332. FAIR AND TRUTHFUL ADVERTISING
+(a) A fantasy sports operator shall not depict in an advertisement to
+consumers in this State:
+(1) minors, other than professional athletes who may be minors;
+(2) students;
+(3) schools or colleges; or
+(4) school or college settings, provided that an incidental depiction of
+nonfeatured minors does not violate this section.
+(b) A fantasy sports operator shall not state or imply in an advertisement to
+consumers in this State endorsement by:
+(1) minors, other than professional athletes who may be minors;
+(2) collegiate athletes;
+(3) colleges; or
+VT LEG #371232 v.1
+
+=== page 23 ===
+No. 63 Page 23 of 31
+2023
+(4) college athletic associations.
+(c)(1) A fantasy sports operator shall include in an advertisement to
+consumers in this State information concerning assistance available to problem
+gamblers or shall direct consumers to a reputable source of that information.
+(2) If an advertisement is of insufficient size or duration to provide the
+information required in subdivision (1) of this subsection, the advertisement
+shall refer to a website or application that does prominently include such
+information.
+(d) A fantasy sports operator shall only make representations concerning
+winnings that are accurate, not misleading, and capable of substantiation at the
+time of the representation. For purposes of this subsection, an advertisement is
+misleading if it makes representations about average winnings without equally
+prominently representing the average net winnings of all players.
+§ 1333. REGISTRATION
+On or before October 15 of each year in which a fantasy sports operator
+offers a fantasy sports contest to consumers in this State, the operator shall file
+an annual registration with the Department on a form adopted for that purpose
+and pay to the Department an annual registration fee in the amount of
+$5,000.00.
+§ 1334. ENFORCEMENT
+(a) A person that violates a provision of this chapter commits an unfair and
+deceptive act in commerce in violation of 9 V.S.A. § 2453.
+VT LEG #371232 v.1
+
+=== page 24 ===
+No. 63 Page 24 of 31
+2023
+(b) The Attorney General has the authority to adopt rules to implement the
+provisions of this chapter and to conduct civil investigations, enter into
+assurances of discontinuance, and bring civil actions as provided under 9
+V.S.A. chapter 63, subchapter 1.
+Subchapter 4. Responsible Gaming and Problem Gambling
+§ 1340. RESPONSIBLE GAMING AND PROBLEM GAMBLING;
+OPERATOR PLANS, DUTIES, AND REPORT
+(a) Responsible gaming plan. Annually, each operator shall submit to the
+Department and the Department of Mental Health a responsible gaming plan
+that shall include information related to the posting of materials related to
+problem gambling, resources to be made available to bettors expressing
+concerns about problem gambling, house-imposed player limits, and self-
+exclusion programs. The Commissioner shall require each applicant to submit
+a responsible gaming plan prior to authorizing the applicant to conduct a
+sportsbook within the State.
+(b) Plan review. At least every five years, each operator shall be subject to
+an independent review of the operator’s responsible gaming plan, as assessed
+by industry standards and performed by a third party approved by the
+Department. The Department may require the operator to pay for the
+independent review.
+(c) Problem gambling report. Annually on or before January 15, the
+Department, in consultation with the Department of Mental Health, shall
+VT LEG #371232 v.1
+
+=== page 25 ===
+No. 63 Page 25 of 31
+2023
+submit to the General Assembly a report on the impact of sports wagering on
+problem gambling in Vermont, including an analysis of demographic
+populations that are disproportionately impacted by problem gambling. The
+Department may require the operators to pay for the costs associated with
+preparing and submitting the report.
+(d) Operator platform requirements. The Department shall ensure that each
+operator utilizes a mobile sports wagering platform that:
+(1) prohibits an individual from establishing more than one account;
+(2) prohibits an individual from using a credit card to establish an
+account or place wagers;
+(3) allows a person to limit the amount of money that may be deposited
+into an account and spent per day through an account;
+(4) establishes a statewide voluntary self-exclusion process to allow a
+person to:
+(A) exclude themselves from establishing an account;
+(B) exclude themselves from placing wagers through an account; or
+(C) limit the amount such person may spend using such an account;
+(5) provides responsible gaming and problem gambling information to
+participants; and
+(6) conspicuously displays on each applicable Internet website or mobile
+application:
+(A) a link to a description of the provisions of this subsection (d);
+VT LEG #371232 v.1
+
+=== page 26 ===
+No. 63 Page 26 of 31
+2023
+(B) a link to responsible gaming and problem gambling information;
+(C) a telephone number that an individual may use to obtain
+information about problem gambling;
+(D) a link to information about the voluntary self-exclusion process
+described in subdivision (4) of this subsection (d);
+(E) a periodic pop-up message displaying the amount of time an
+individual has spent on the operator’s Internet website or mobile application;
+(F) a means to initiate a break in play to discourage excessive play;
+and
+(G) a clear display of the amount of money available to the individual
+in the individual’s account.
+(e) Advertising restrictions. Sports wagering advertisements shall not:
+(1) depict any individual under 21 years of age, except live footage or
+images of athletes in sporting events on which sports wagering is permitted;
+(2) depict any individual under 21 years of age in any way that may be
+construed as the underage individual participating in or endorsing sports
+wagering; or
+(3) target individuals under 21 years of age, other individuals who are
+ineligible to participate in sports wagering, individuals with gambling
+problems, or other vulnerable individuals.
+(f) Vermont postsecondary campuses. A postsecondary school located in
+the State shall not permit sports wagering to be advertised on property
+VT LEG #371232 v.1
+
+=== page 27 ===
+No. 63 Page 27 of 31
+2023
+belonging to the postsecondary school, except for generally available
+advertising, including television, radio, and digital advertising. An operator
+shall not advertise in a manner that targets the area of a college or university
+campus.
+§ 1341. SPORTS WAGERING ENTERPRISE FUND
+(a) The Sports Wagering Enterprise Fund is established. It shall consist of
+all revenues and fees received by the Department pursuant to this chapter and
+all amounts that are from time to time appropriated to the Department for
+purposes of this chapter.
+(b) The Department’s administrative and operating costs shall be allocated
+to and paid from the Fund based on generally accepted accounting principles.
+§ 1341a. PROBLEM GAMBLING PROGRAM
+(a) The Department of Mental Health shall establish and administer the
+Problem Gambling Program to:
+(1) provide support to agencies, organizations, and persons that provide
+education, assistance, awareness, treatment, and recovery services to persons
+and families experiencing difficulty as a result of addictive or problematic
+gambling;
+(2) promote public awareness of and provide education concerning
+gambling addiction using online capabilities and other best practices; and
+(3) promote public awareness of assistance programs for gambling
+addiction using online capabilities and other best practices.
+VT LEG #371232 v.1
+
+=== page 28 ===
+No. 63 Page 28 of 31
+2023
+(b) On or before January 15 of each year, the Department of Mental Health
+shall submit to the General Assembly a report detailing the expenditures
+related to the Problem Gambling Program in the preceding fiscal year and
+summarizing the programs and activities supported by those expenditures.
+Sec. 2. DEPARTMENT OF LIQUOR AND LOTTERY; FANTASY SPORTS
+CONTEST REPORT AND RECOMMENDATIONS
+(a) On or before January 15, 2024, the Department of Liquor and Lottery
+shall submit to the House Committee on Government Operations and Military
+Affairs and the Senate Committee on Economic Development, Housing and
+General Affairs a report on the current status of fantasy sports contests in
+Vermont.
+(b) The report shall include:
+(1) an examination of the number of fantasy sports contest operators, the
+amount of players who participate in fantasy sports contests, and the State’s
+compliance monitoring and enforcement of the laws governing fantasy sports
+contests; and
+(2) recommendations for how the current statutes governing fantasy
+sports contests may be amended to address any issues identified in the report.
+Sec. 2a. APPROPRIATIONS
+(a) In fiscal year 2024, the following sums are appropriated from the Sports
+Wagering Enterprise Fund:
+VT LEG #371232 v.1
+
+=== page 29 ===
+No. 63 Page 29 of 31
+2023
+(1) $250,000.00 to the Department of Mental Health for purposes of
+establishing and administering the Problem Gambling Program;
+(2) $550,000.00 to the Department of Liquor and Lottery in anticipation
+of receipts from sports wagering operator fees; and
+(3) $100,000.00 to the Agency of Digital Services for purposes of
+establishing the self-exclusion program required by this act.
+(b) The appropriation to the Problem Gambling Program in subsection (a)
+of this section shall be combined with the fiscal year 2024 funding from the
+State Lottery Fund for the same purpose. Any contract scope of work,
+memorandum of understanding parameters, or program design shall be
+executed in consultation with the Chief Prevention Officer.
+(1) On or before January 15, 2024, the Department of Mental Health,
+Department of Liquor and Lottery, and Chief Prevention Officer shall report to
+the General Assembly on the status of the Problem Gambling Program,
+Program funding, and the projected use of the Program. The report shall detail
+how the Program funding aligns with other similar programs.
+(2) The report required by this subsection shall include
+recommendations for allocations for problem gambling programs:
+(A) for fiscal year 2025, in the form of a specific appropriation from
+each enterprise fund; and
+VT LEG #371232 v.1
+
+=== page 30 ===
+No. 63 Page 30 of 31
+2023
+(B) for fiscal year 2026 and after, in the form of a recommended
+minimum appropriation or percentage of revenue allocation from each
+enterprise fund.
+Sec. 3. 31 V.S.A. § 655 is amended to read:
+§ 655. DUTIES OF THE COMMISSIONER
+* * *
+(b) The Commissioner shall:
+* * *
+(7) Subject to the approval of the Board, establish a user agreement
+with the Vermont Crime Information Center in accordance with 20 V.S.A.
+chapter 117 for the purpose of obtaining Vermont criminal history records,
+out-of-state criminal history records, and criminal history records from the
+Federal Bureau of Investigation to review applications of any sports wagering
+operator or for any Lottery sales agent license issued under this title.
+Sec. 4. 32 V.S.A. § 5823 is amended to read:
+§ 5823. VERMONT INCOME OF INDIVIDUALS, ESTATES, AND
+TRUSTS
+* * *
+(b) For any taxable year, the Vermont income of a nonresident individual,
+estate, or trust is the sum of the following items of income to the extent they
+are required to be included in the adjusted gross income of the individual or the
+gross income of an estate or trust for that taxable year:
+VT LEG #371232 v.1
+
+=== page 31 ===
+No. 63 Page 31 of 31
+2023
+* * *
+(6) proceeds from wagering transactions made within the State; or any
+Vermont State Lottery, tri-state lottery, or multijurisdictional lottery ticket paid
+to a person who purchased the ticket in Vermont, including payments received
+from a third party for the transfer of the rights to future proceeds related to the
+ticket,; and the Commissioner may require withholding of any taxes due to the
+State under this subdivision from payments of wagering or lottery proceeds.
+* * *
+Sec. 5. REPEAL
+9 V.S.A. chapter 116 (fantasy sports contests) is repealed.
+Sec. 6. EFFECTIVE DATE
+This act shall take effect on passage.
+Date Governor signed bill: June 14, 2023
+VT LEG #371232 v.1

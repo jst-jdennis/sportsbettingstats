@@ -1,0 +1,1750 @@
+=== page 1 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+Chapter 356
+(House Bill 940)
+AN ACT concerning
+Gaming – Regulation of Fantasy Gaming Competitions and Implementation of
+Sports Wagering – Supplementary Appropriation
+FOR the purpose of requiring certain fantasy competition operators to register with the
+State Lottery and Gaming Control Commission under certain circumstances;
+authorizing the State Lottery and Gaming Control Commission to impose a certain
+fee for the registration of a fantasy competition operator; requiring a fantasy
+competition operator to pay certain fees and a certain percentage of the proceeds
+from fantasy competitions to the State Lottery and Gaming Control Commission;
+requiring the State Lottery and Gaming Control Commission to distribute the
+proceeds from fantasy competitions in a certain manner; altering the authorized uses
+of the Problem Gambling Fund; authorizing certain license holders to accept wagers
+on certain sporting events from certain individuals and by certain methods at certain
+locations; requiring the State Lottery and Gaming Control Commission to regulate
+sports wagering in the State; requiring the State Lottery and Gaming Control
+Commission to consider the use of certain technology to carry out certain duties;
+requiring certain persons to apply to the State Lottery and Gaming Control
+Commission for certain licenses; requiring certain fees for the issuance and renewal
+of certain licenses; providing for the terms of certain licenses; providing that certain
+applicants and licensees are subject to certain minority business participation goals;
+authorizing the State Lottery and Gaming Control Commission to provide waivers
+or exemptions from certain licensing requirements under certain circumstances;
+requiring applicants for certain licenses to pay certain fees set by the State Lottery
+and Gaming Control Commission; providing for the distribution of certain licensing
+fees collected by the State Lottery and Gaming Control Commission; providing that
+certain applicants and licensees have a certain responsibility; requiring certain
+applicants and licensees to provide certain information, assistance, and cooperation;
+requiring applicants and licensees to establish certain qualification criteria,
+including the existence of a certain labor peace agreement; establishing certain
+procedures and requirements for the issuance of certain licenses; authorizing a
+holder of a certain sports wagering license to sell or transfer ownership of the license
+under certain circumstances; authorizing the State Lottery and Gaming Control
+Commission to grant or deny certain licenses; authorizing the State Lottery and
+Gaming Control Commission to deny, suspend, or revoke a license and reprimand or
+fine a licensee under certain circumstances; authorizing the State Lottery and
+Gaming Control Commission to impose a certain penalty under certain
+circumstances; authorizing certain sports wagering licensees to enter into certain
+agreements for the operation of online sports wagering; providing that an individual
+may register for online sports wagering either in person or online; prohibiting certain
+individuals from making a wager and certain sports wagering licensees from
+accepting a wager from certain individuals; requiring certain sports wagering
+– 1 –
+
+=== page 2 ===
+Ch. 356 2021 LAWS OF MARYLAND
+licensees to establish certain procedures, provide certain safeguards, and report
+certain information to the State Lottery and Gaming Control Commission;
+authorizing the State Lottery and Gaming Control Commission to prohibit certain
+types or forms of wagering or certain individuals from wagering at the request of
+certain interested parties under certain circumstances; requiring the State Lottery
+and Gaming Control Commission to respond to certain requests from certain
+interested parties by a certain time; providing for the accounting and distribution of
+certain sports wagering proceeds and certain unclaimed winning wagers; requiring
+the State Lottery and Gaming Control Commission to adopt certain regulations;
+requiring the State Lottery and Gaming Control Commission to report annually to
+the Governor and the General Assembly on certain matters on or before a certain
+date; requiring the State Lottery and Gaming Control Commission to report to the
+General Assembly, on or before a certain date, on certain information concerning
+certain license holders, certain market saturation information, and whether the
+number of certain licenses should be increased in order to meet a demand for sports
+wagering in the State; requiring the State Lottery and Gaming Control Commission,
+before submitting a certain report, to provide the Legislative Policy Committee at least
+a certain number of days to comment on the report; establishing a Sports Wagering
+Application Review Commission, its membership, and certain eligibility
+requirements for membership; providing for certain reimbursements and staffing;
+authorizing the Sports Wagering Application Review Commission to award not more
+than a certain number of certain sports wagering licenses; requiring the State
+Lottery and Gaming Control Commission and the Sports Wagering Application
+Review Commission, in consultation with certain entities, to evaluate a certain study
+of the sports wagering industry, make a certain determination relating to certain
+business participation in the sports wagering industry, evaluate certain
+race–neutral programs and other methods, consider certain matters, and adopt
+certain regulations; requiring the Sports Wagering Application Review Commission,
+in a certain manner, to seek to achieve racial, ethnic, and gender diversity when
+awarding certain licenses and to conduct certain outreach to certain small, minority,
+and women business owners and entrepreneurs for certain purposes; providing for
+the termination of the Sports Wagering Application Review Commission; authorizing
+the Governor to reconstitute the Sports Wagering Application Review Commission
+under certain circumstances; establishing the Small, Minority–Owned, and
+Women–Owned Business Sports Wagering Assistance Fund as a special, nonlapsing
+fund; specifying the purpose of the Fund; requiring the Department of Commerce to
+administer the Fund; requiring the State Treasurer to hold the Fund and the
+Comptroller to account for the Fund; specifying the contents of the Fund; specifying
+the purpose for which the Fund may be used; providing for the investment of money
+in and expenditures from the Fund; repealing a certain limitation on the holder of a
+video lottery operation license for Worcester County or certain other persons to build
+or convert certain lodging facilities on or within a certain distance of the facility;
+requiring a certain certification agency, in consultation with the Office of the
+Attorney General and the Governor’s Office of Small, Minority, and Women Business
+Affairs, to initiate a certain analysis; requiring a certain certification agency to
+submit a certain report to the Legislative Policy Committee on or before a certain
+– 2 –
+
+=== page 3 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+date; requiring the Governor to include certain appropriations in the annual budget
+bill for a certain fiscal year; making this Act a supplementary appropriation to fund
+certain education–related programs; providing that the appropriation provided under
+this Act shall have priority over any other appropriation from the additional revenues
+resulting from this Act that are credited to a certain fund for a certain fiscal year;
+making the provisions of this Act severable; making this Act an emergency measure;
+declaring the intent of the General Assembly; making conforming changes; defining
+certain terms; and generally relating to wagering on fantasy competitions and
+sporting events.
+BY renumbering
+Article – State Government
+Section 9–1D–01(b) and 9–1D–01(c), respectively
+to be Section 9–1D–02 and 9–1D–05, respectively
+Annotated Code of Maryland
+(2014 Replacement Volume and 2020 Supplement)
+BY repealing and reenacting, without amendments,
+Article – Education
+Section 5–219(b) 5–206(b)
+Annotated Code of Maryland
+(2018 Replacement Volume and 2020 Supplement)
+(As enacted by Chapter 36 of the Acts of the General Assembly of 2021)
+BY repealing and reenacting, with amendments,
+Article – Education
+Section 5–219(f) 5–206(f)
+Annotated Code of Maryland
+(2018 Replacement Volume and 2020 Supplement)
+(As enacted by Chapters 36, 37, and 38 of the Acts of the General Assembly of 2021)
+BY repealing and reenacting, without amendments,
+Article – State Government
+Section 9–1A–01(a) and (k)
+Annotated Code of Maryland
+(2014 Replacement Volume and 2020 Supplement)
+BY repealing and reenacting, with amendments,
+Article – State Government
+Section 9–1A–03, 9–1A–33(b), 9–1A–36(h)(3), and 9–1D–01(a)
+Annotated Code of Maryland
+(2014 Replacement Volume and 2020 Supplement)
+BY repealing and reenacting, with amendments,
+Article – State Government
+Section 9–1D–02 and 9–1D–05
+– 3 –
+
+=== page 4 ===
+Ch. 356 2021 LAWS OF MARYLAND
+Annotated Code of Maryland
+(2014 Replacement Volume and 2020 Supplement)
+(As enacted by Section 1 of this Act)
+BY adding to
+Article – State Government
+Section 9–1D–03 and 9–1D–04; and 9–1E–01 through 9–1E–15 9–1E–16 to be under
+the new subtitle “Subtitle 1E. Sports Wagering”
+Annotated Code of Maryland
+(2014 Replacement Volume and 2020 Supplement)
+SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
+That Section(s) 9–1D–01(b) and 9–1D–01(c), respectively, of Article – State Government of
+the Annotated Code of Maryland be renumbered to be Section(s) 9–1D–02 and 9–1D–05,
+respectively.
+SECTION 2. AND BE IT FURTHER ENACTED, That the Laws of Maryland read
+as follows:
+Article – Education
+5–219. 5–206.
+(b) There is The Blueprint for Maryland’s Future Fund.
+(f) The Fund consists of:
+(1) Revenue distributed to the Fund under TITLE 9, SUBTITLES 1D AND
+1E OF THE STATE GOVERNMENT ARTICLE AND §§ 2–605.1 2–4A–02, 2–605.1, 2–1302.1,
+and 2–1303 of the Tax – General Article;
+(2) Money appropriated in the State budget for the Fund; and
+(3) Any other money from any other source accepted for the benefit of the
+Fund.
+Article – State Government
+9–1A–01.
+(a) In this subtitle the following words have the meanings indicated.
+(k) “Commission” means the State Lottery and Gaming Control Commission.
+9–1A–03.
+– 4 –
+
+=== page 5 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+(a) Except as provided in subsection (b) of this section, any additional forms or
+expansion of commercial gaming other than as expressly provided in this subtitle AND
+SUBTITLE 1E OF THIS TITLE are prohibited.
+(b) This subtitle, including the authority provided to the Commission under this
+subtitle, does not apply to:
+(1) lotteries conducted under Subtitle 1 of this title;
+(2) wagering on horse racing conducted under Title 11 of the Business
+Regulation Article;
+(3) the operation of slot machines as provided under Titles 12 and 13 of the
+Criminal Law Article; or
+(4) other gaming conducted under Titles 12 and 13 of the Criminal Law
+Article.
+9–1A–33.
+(b) (1) (i) There is a Problem Gambling Fund in the Maryland Department
+of Health.
+(ii) The purpose of the Fund is primarily to provide funding for
+problem gambling treatment and prevention programs, including:
+1. inpatient and residential services;
+2. outpatient services;
+3. intensive outpatient services;
+4. continuing care services;
+5. educational services;
+6. services for victims of domestic violence; and
+7. other preventive or rehabilitative services or treatment.
+(2) The Problem Gambling Fund is a special, nonlapsing fund that is not
+subject to § 7–302 of the State Finance and Procurement Article.
+(3) Money in the Problem Gambling Fund shall be invested and reinvested
+by the Treasurer, and interest and earnings shall accrue to the Fund.
+– 5 –
+
+=== page 6 ===
+Ch. 356 2021 LAWS OF MARYLAND
+(4) Except as provided in paragraph (5) of this subsection, expenditures
+from the Problem Gambling Fund shall be made only by the Maryland Department of
+Health to:
+(i) establish a 24–hour hotline for compulsive and problem gamblers
+and to provide counseling and other support services for compulsive and problem gamblers;
+(ii) establish an outreach program for compulsive and problem
+gamblers, including individuals who requested placement on the voluntary exclusion list
+established by the Commission under § 9–1A–24 of this subtitle, for the purpose of
+participating in problem gambling treatment and prevention programs; [and]
+(iii) develop and implement free or reduced cost problem gambling
+treatment and prevention programs, including the programs established under Title 19,
+Subtitle 8 of the Health – General Article; AND
+(IV) DEVELOP AND IMPLEMENT FREE OR REDUCED COST
+PROBLEM GAMBLING TREATMENT AND PREVENTION PROGRAMS TARGETED AT
+INDIVIDUALS WITH PROBLEM GAMBLING ISSUES RELATED TO SPORTS WAGERING,
+PARTICIPATION IN FANTASY COMPETITIONS, AND OTHER FORMS OF WAGERING,
+WHETHER LEGAL OR ILLEGAL, CONDUCTED IN THE STATE OR THROUGH ONLINE
+MEANS.
+(5) After satisfying the requirements of paragraph (4) of this subsection,
+any unspent funds in the Problem Gambling Fund may be expended by the Maryland
+Department of Health on drug and other addiction treatment services.
+(6) Expenditures from the Problem Gambling Fund shall be made in
+accordance with an appropriation approved by the General Assembly in the annual State
+budget or by the budget amendment procedure provided for in § 7–209 of the State Finance
+and Procurement Article.
+9–1A–36.
+(h) (3) (i) With respect to a video lottery operation license awarded to a
+location under paragraph (1)(iv) of this subsection, the holder of the video lottery operation
+license or any other person with a direct or indirect legal or financial interest in the Ocean
+Downs racetrack or video lottery facility may not[:
+1. build any type of hotel, motel, or other public lodging
+accommodation on or within 10 miles of the property owned by the holder of the license on
+which a video lottery facility is operated;
+– 6 –
+
+=== page 7 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+2. convert an existing facility on or within 10 miles of the
+property described in item 1 of this subparagraph into any type of hotel, motel, or other
+public lodging accommodation; or
+3.] build or operate a conference center or convention center,
+amusement park, amusement rides, arcade, or miniature golf course on or within 10 miles
+of the property [described in item 1 of this subparagraph] OWNED BY THE HOLDER OF THE
+LICENSE ON WHICH A VIDEO LOTTERY FACILITY IS OPERATED.
+(ii) The prohibitions under subparagraph (i) of this paragraph apply
+to any subsequent holder of a video lottery operation license awarded under paragraph
+(1)(iv) of this subsection.
+9–1D–01.
+(a) In this [section, “fantasy] SUBTITLE THE FOLLOWING WORDS HAVE THE
+MEANINGS INDICATED.
+(B) “COMMISSION” HAS THE MEANING STATED IN § 9–1A–01 OF THIS TITLE.
+(C) “ENTRY FEE” MEANS CASH OR CASH EQUIVALENTS THAT A FANTASY
+COMPETITION PLAYER IS REQUIRED TO PAY TO A FANTASY COMPETITION
+OPERATOR IN ORDER TO PARTICIPATE IN A FANTASY COMPETITION.
+(D) “FANTASY competition” includes any online fantasy or simulated game or
+contest such as fantasy sports, in which:
+(1) participants own, manage, or coach imaginary teams;
+(2) all prizes and awards offered to winning participants are established
+and made known to participants in advance of the game or contest;
+(3) the winning outcome of the game or contest reflects the relative skill of
+the participants and is determined by statistics generated by actual individuals (players or
+teams in the case of a professional sport); and
+(4) no winning outcome is based:
+(i) solely on the performance of an individual athlete; or
+(ii) on the score, point spread, or any performances of any single
+real–world team or any combination of real–world teams.
+– 7 –
+
+=== page 8 ===
+Ch. 356 2021 LAWS OF MARYLAND
+(E) (1) “FANTASY COMPETITION OPERATOR” MEANS ANY PERSON THAT
+OFFERS SERVICES IN CONNECTION WITH FANTASY COMPETITIONS TO INDIVIDUALS
+BY MEANS OF:
+(I) THE INTERNET;
+(II) A SMART PHONE APPLICATION; OR
+(III) ANY OTHER ELECTRONICS, DIGITAL MEDIA,
+COMMUNICATION TECHNOLOGY, OR DEVICE.
+(2) “FANTASY COMPETITION OPERATOR” INCLUDES, FOR PURPOSES
+OF THE FEDERAL BANK SECRECY ACT OF 1970 AND ITS RELATED REGULATIONS, A
+GAMING ESTABLISHMENT HAVING AT LEAST $1,000,000 IN ANNUAL GROSS
+REVENUE.
+(2) (3) “FANTASY COMPETITION OPERATOR” DOES NOT INCLUDE
+AN INDIVIDUAL WHO:
+(I) ORGANIZES A FANTASY COMPETITION IN WHICH THE
+INDIVIDUAL ALSO PARTICIPATES; AND
+(II) RECEIVES NO COMPENSATION FOR ORGANIZING THE
+FANTASY COMPETITION; AND
+(III) IS NOT AFFILIATED WITH A FANTASY COMPETITION
+OPERATOR.
+(F) “FANTASY COMPETITION PLAYER” MEANS AN INDIVIDUAL WHO
+PARTICIPATES IN A FANTASY COMPETITION OFFERED BY A FANTASY COMPETITION
+OPERATOR.
+(G) “LOCATION PERCENTAGE” MEANS, FOR A FANTASY COMPETITION, THE
+PERCENTAGE, ROUNDED TO THE NEAREST ONE–TENTH OF A PERCENT, OF THE
+TOTAL ENTRY FEES COLLECTED BY A FANTASY COMPETITION OPERATOR FROM
+FANTASY COMPETITION PLAYERS IN THE STATE DIVIDED BY THE TOTAL ENTRY FEES
+COLLECTED FROM ALL FANTASY COMPETITION PLAYERS, REGARDLESS OF THE
+PLAYERS’ LOCATIONS, OF THE FANTASY CONTESTS.
+(G) (H) “PROCEEDS” MEANS, FOR A FANTASY COMPETITION, THE
+AMOUNT OF ENTRY FEES COLLECTED BY A FANTASY COMPETITION OPERATOR FROM
+ALL FANTASY COMPETITION PLAYERS ENTERING THE FANTASY COMPETITION, LESS
+– 8 –
+
+=== page 9 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+WINNINGS PAID TO FANTASY COMPETITION PLAYERS, MULTIPLIED BY THE
+RESIDENT LOCATION PERCENTAGE.
+(H) “RESIDENT PERCENTAGE” MEANS, FOR A FANTASY COMPETITION, THE
+PERCENTAGE, ROUNDED TO THE NEAREST ONE–HUNDREDTH OF A PERCENT, OF THE
+TOTAL ENTRY FEES COLLECTED BY A FANTASY COMPETITION OPERATOR FROM
+STATE RESIDENTS DIVIDED BY THE TOTAL ENTRY FEES COLLECTED FROM ALL
+PLAYERS, REGARDLESS OF THE PLAYERS’ LOCATIONS, OF THE FANTASY CONTESTS.
+9–1D–02.
+[(1)] (A) Notwithstanding the provisions of Title 12 of the Criminal Law
+Article or any other title, and except as provided under [paragraph (2)] SUBSECTION (B)
+of this [subsection] SECTION, the prohibitions against betting, wagering, and gambling do
+not apply to participation in a fantasy competition.
+[(2)] (B) A person may not operate a kiosk or machine that offers fantasy
+competition to the public in a place of business physically located in the State.
+9–1D–03.
+(A) A FANTASY COMPETITION OPERATOR SHALL REGISTER WITH THE
+COMMISSION AND PAY AN INITIAL REGISTRATION FEE OF $50,000 BEFORE THE
+FANTASY COMPETITION OPERATOR MAY OFFER A FANTASY COMPETITION OR
+SERVICES IN CONNECTION WITH A FANTASY COMPETITION IN THE STATE.
+(B) (1) UNLESS A REGISTRATION IS RENEWED FOR A 1–YEAR TERM, THE
+REGISTRATION EXPIRES 1 YEAR FROM THE PAYMENT OF THE INITIAL REGISTRATION
+FEE OR A REGISTRATION RENEWAL FEE INITIAL DATE OF REGISTRATION.
+(2) BEFORE A REGISTRATION EXPIRES, THE REGISTRATION MAY BE
+RENEWED FOR 1 YEAR, IF THE FANTASY COMPETITION OPERATOR PAYS A
+REGISTRATION RENEWAL FEE OF $50,000.
+(C) THE COMMISSION MAY IMPOSE A FEE FOR THE REGISTRATION OF A
+FANTASY COMPETITION OPERATOR IN ACCORDANCE WITH THIS SECTION.
+9–1D–04.
+(A) A FANTASY COMPETITION OPERATOR SHALL RETAIN 85% OF THE
+PROCEEDS AND PAY THE REMAINDER TO THE COMMISSION.
+– 9 –
+
+=== page 10 ===
+Ch. 356 2021 LAWS OF MARYLAND
+(B) THE COMMISSION SHALL DISTRIBUTE THE PROCEEDS PAID UNDER
+SUBSECTION (A) OF THIS SECTION TO THE BLUEPRINT FOR MARYLAND’S FUTURE
+FUND ESTABLISHED UNDER § 5–219 5–206 OF THE EDUCATION ARTICLE.
+9–1D–05.
+(A) The [State Lottery and Gaming Control] Commission [may] SHALL adopt
+regulations to carry out the provisions of this [section] SUBTITLE.
+(B) THE REGULATIONS ADOPTED UNDER THIS SECTION MAY INCLUDE
+REQUIREMENTS FOR THE ESTABLISHMENT OF A VOLUNTARY EXCLUSION LIST.
+SUBTITLE 1E. SPORTS WAGERING.
+9–1E–01.
+(A) IN THIS SUBTITLE THE FOLLOWING WORDS HAVE THE MEANINGS
+INDICATED.
+(B) “COMMISSION” HAS THE MEANING STATED IN § 9–1A–01 OF THIS TITLE.
+(C) “GAMING ESTABLISHMENT” MEANS, FOR PURPOSES OF THE FEDERAL
+BANK SECRECY ACT OF 1970 AND ITS RELATED REGULATIONS, A SPORTS
+WAGERING LICENSEE HAVING AT LEAST $1,000,000 IN ANNUAL GROSS REVENUE.
+(C) (D) (1) “HORSE RACING LICENSEE” MEANS:
+(I) THE HOLDER OF A LICENSE ISSUED BY THE STATE RACING
+COMMISSION UNDER TITLE 11, SUBTITLE 5 OF THE BUSINESS REGULATION
+ARTICLE, INCLUDING, IN THE CASE OF A SUBSIDIARY OF THE MARYLAND STATE
+FAIR AND AGRICULTURAL SOCIETY, INC., A SUBSIDIARY OF THE LICENSE HOLDER;
+AND
+(II) THE HOLDER OF A PERMIT ISSUED UNDER TITLE 11,
+SUBTITLE 8, PART III OF THE BUSINESS REGULATION ARTICLE TO HOLD
+SATELLITE SIMULCAST BETTING IN CHARLES COUNTY TO HOLD RACING IN ANNE
+ARUNDEL COUNTY.
+(2) “HORSE RACING LICENSEE” DOES NOT INCLUDE THE HOLDER OF
+A LICENSE ISSUED UNDER § 11–526 OF THE BUSINESS REGULATION ARTICLE.
+(D) (E) “MOBILE SPORTS WAGERING LICENSEE” MEANS A SPORTS
+WAGERING LICENSEE WHO IS AUTHORIZED TO CONDUCT AND OPERATE ONLINE
+SPORTS WAGERING.
+– 10 –
+
+=== page 11 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+(E) (F) “ONLINE SPORTS WAGERING” MEANS SPORTS WAGERING
+THROUGH AN ONLINE GAMING SYSTEM:
+(1) ON A COMPUTER, A MOBILE DEVICE, OR ANY OTHER INTERACTIVE
+DEVICE; AND
+(2) THAT IS ACCEPTED BY A SPORTS WAGERING LICENSEE OR AN
+ONLINE SPORTS WAGERING OPERATOR.
+(F) (G) “ONLINE SPORTS WAGERING OPERATOR” MEANS AN ENTITY
+REGISTERED WITH A STATE TO DO BUSINESS WITHIN A JURISDICTION OF THE
+UNITED STATES THAT HOLDS A LICENSE ISSUED BY THE COMMISSION UNDER THIS
+SUBTITLE TO OPERATE ONLINE SPORTS WAGERING ON BEHALF OF A SPORTS
+WAGERING LICENSEE.
+(G) (H) “PROCEEDS” MEANS THE AMOUNT OF MONEY WAGERED ON A
+SPORTING EVENT THAT IS NOT RETURNED TO SUCCESSFUL BETTORS BUT IS
+OTHERWISE ALLOCATED UNDER THIS SUBTITLE, INCLUDING THE CASH
+EQUIVALENTS OF ANY MERCHANDISE OR THING OF VALUE AWARDED AS A PRIZE TO
+SUCCESSFUL BETTORS, LESS:
+(1) THE AMOUNT RETURNED TO SUCCESSFUL BETTORS;
+(2) THE CASH EQUIVALENTS OF ANY MERCHANDISE OR THING OF
+VALUE AWARDED AS A PRIZE TO SUCCESSFUL BETTORS;
+(1) (3) FREE BETS AND PROMOTIONAL CREDITS REDEEMED BY
+BETTORS; AND
+(2) (4) ALL EXCISE TAXES PAID BY A SPORTS WAGERING LICENSEE
+PURSUANT TO IN ACCORDANCE WITH FEDERAL LAW.
+(H) (I) (1) “SPORTING EVENT” MEANS:
+(I) A PROFESSIONAL SPORTS OR ATHLETIC EVENT;
+(II) A COLLEGIATE SPORTS OR ATHLETIC EVENT;
+(III) AN OLYMPIC OR INTERNATIONAL SPORTS OR ATHLETIC
+EVENT;
+(IV) AN ELECTRONIC SPORTS OR VIDEO GAME COMPETITION IN
+WHICH EACH PARTICIPANT IS AT LEAST 18 YEARS OLD;
+– 11 –
+
+=== page 12 ===
+Ch. 356 2021 LAWS OF MARYLAND
+(V) A MOTOR RACE EVENT SANCTIONED BY A MOTOR RACING
+GOVERNING ENTITY;
+(VI) EXCEPT AS OTHERWISE PROHIBITED UNDER TITLE 11 OF
+THE BUSINESS REGULATION ARTICLE OR THE FEDERAL INTERSTATE HORSE
+RACING ACT, A HORSE RACE, HELD IN OR OUT OF THE STATE, IF CONSENTED TO AND
+APPROVED BY:
+1. THE HORSE RACING LICENSEE OF THE APPLICABLE
+BREED;
+2. THE ORGANIZATION REPRESENTING THE MAJORITY
+OF THE OWNERS AND TRAINERS OF THE APPLICABLE BREED IN THE STATE;
+3. THE ORGANIZATION REPRESENTING THE MAJORITY
+OF THE APPLICABLE BREEDERS IN THE STATE; AND
+4. THE STATE RACING COMMISSION; OR
+(VII) ANY PORTION OF A SPORTING EVENT, INCLUDING THE
+INDIVIDUAL PERFORMANCE STATISTICS OF ATHLETES OR COMPETITORS IN A
+SPORTING EVENT; OR
+(VIII) AN AWARD EVENT OR COMPETITION OF NATIONAL OR
+INTERNATIONAL PROMINENCE IF EXPRESSLY AUTHORIZED BY THE COMMISSION.
+(2) “SPORTING EVENT” DOES NOT INCLUDE:
+(I) A HIGH SCHOOL SPORTS OR ATHLETIC EVENT; OR
+(II) A FANTASY COMPETITION REGULATED UNDER SUBTITLE
+1D OF THIS TITLE.
+(I) (J) “SPORTS WAGERING” MEANS THE BUSINESS OF ACCEPTING
+WAGERS ON ANY SPORTING EVENT BY ANY SYSTEM OR METHOD OF WAGERING,
+INCLUDING SINGLE–GAME BETS, TEASER BETS, PARLAYS, OVER–UNDER,
+MONEYLINE, POOLS, EXCHANGE WAGERING, IN–GAME WAGERING, IN–PLAY BETS,
+PROPOSITION BETS, AND STRAIGHT BETS.
+(J) (K) (1) “SPORTS WAGERING FACILITY LICENSEE” MEANS A SPORTS
+WAGERING LICENSEE WHO IS AUTHORIZED TO CONDUCT AND OPERATE SPORTS
+– 12 –
+
+=== page 13 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+WAGERING AT THE SPORTS WAGERING FACILITY OWNED, LEASED, OR OCCUPIED BY
+THE SPORTS WAGERING LICENSEE.
+(2) “SPORTS WAGERING FACILITY LICENSEE” INCLUDES THE
+HOLDER OF A CLASS A A–1, A–2, B–1, OR B–2 SPORTS WAGERING FACILITY LICENSE
+OR A CLASS B SPORTS WAGERING FACILITY LICENSE ISSUED UNDER § 9–1E–06 OF
+THIS SUBTITLE.
+(K) (L) “SPORTS WAGERING LICENSE” MEANS A LICENSE ISSUED BY THE
+COMMISSION UNDER THIS SUBTITLE THAT AUTHORIZES THE HOLDER TO ACCEPT
+WAGERS ON SPORTING EVENTS.
+(L) (M) “SPORTS WAGERING LICENSEE” MEANS THE HOLDER OF A
+SPORTS WAGERING LICENSE.
+(M) (N) “VIDEO LOTTERY FACILITY” HAS THE MEANING STATED IN §
+9–1A–01 OF THIS TITLE.
+(N) (O) “VIDEO LOTTERY OPERATION LICENSE” HAS THE MEANING
+STATED IN § 9–1A–01 OF THIS TITLE.
+(O) (P) “VIDEO LOTTERY OPERATOR” HAS THE MEANING STATED IN §
+9–1A–01 OF THIS TITLE.
+9–1E–02.
+IT IS THE INTENT OF THE GENERAL ASSEMBLY THAT THIS SUBTITLE IS TO BE
+IMPLEMENTED IN A MANNER THAT, TO THE EXTENT PERMITTED BY STATE AND
+FEDERAL LAW, MAXIMIZES THE ABILITY OF MINORITIES, WOMEN, AND MINORITY
+AND WOMEN–OWNED BUSINESSES TO PARTICIPATE IN THE SPORTS WAGERING
+INDUSTRY, INCLUDING THROUGH THE OWNERSHIP OF ENTITIES LICENSED TO
+CONDUCT SPORTS WAGERING UNDER THIS SUBTITLE.
+9–1E–03.
+(A) (1) UNLESS THE CONTEXT REQUIRES OTHERWISE, THE
+REQUIREMENTS UNDER §§ 9–1A–04, 9–1A–06, 9–1A–07, 9–1A–08, 9–1A–12,
+9–1A–14, 9–1A–18, 9–1A–19, 9–1A–20, AND 9–1A–25 OF THIS TITLE APPLY TO THE
+AUTHORITY, DUTIES, AND RESPONSIBILITIES OF THE COMMISSION, A SPORTS
+WAGERING LICENSEE, AND AN EMPLOYEE OR A CONTRACTOR OF A SPORTS
+WAGERING LICENSEE UNDER THIS SUBTITLE.
+– 13 –
+
+=== page 14 ===
+Ch. 356 2021 LAWS OF MARYLAND
+(2) THE COMMISSION SHALL CONSIDER THE USE OF TECHNOLOGY,
+REMOTE SURVEILLANCE, AND OTHER SIMILAR MEASURES TO CARRY OUT ITS DUTIES
+UNDER THIS SUBSECTION AND § 9–1E–04 OF THIS SUBTITLE.
+(B) THIS SUBTITLE AUTHORIZES A SPORTS WAGERING LICENSEE TO
+CONDUCT AND OPERATE SPORTS WAGERING IN THE STATE AS PROVIDED IN THIS
+SUBTITLE.
+(C) A SPORTS WAGERING LICENSEE:
+(1) SHALL:
+(I) COMPLY WITH ALL STATE AND FEDERAL DATA SECURITY
+LAWS; AND
+(II) MAINTAIN ALL SPORTS WAGERING DATA SECURELY FOR AT
+LEAST 5 YEARS; AND
+(2) MAY NOT:
+(I) SHARE ANY PERSONALLY IDENTIFIABLE INFORMATION
+WITH ANY THIRD PARTIES WITHOUT PERMISSION, EXCEPT AS NEEDED TO OPERATE
+SPORTS WAGERING AND ADMINISTER THE LICENSEE’S OBLIGATIONS UNDER THIS
+SUBTITLE;
+(II) TARGET ADVERTISING TO INDIVIDUALS WHO ARE
+PROHIBITED FROM PARTICIPATING IN SPORTS WAGERING AND OTHER AT–RISK
+INDIVIDUALS; OR
+(III) ENGAGE IN ANY FALSE OR DECEPTIVE ADVERTISING.
+(D) (1) EXCEPT AS PROVIDED IN PARAGRAPH (2) OF THIS SUBSECTION, A
+SPORTS WAGERING FACILITY IS SUBJECT TO LOCAL ZONING LAWS.
+(2) THE USE OF A FACILITY FOR SPORTS WAGERING IS NOT REQUIRED
+TO BE SUBMITTED TO OR APPROVED BY ANY COUNTY OR MUNICIPAL ZONING BOARD,
+AUTHORITY, OR UNIT IF THE FACILITY IS PROPERLY ZONED AND OPERATING AS OF
+THE EFFECTIVE DATE OF THIS ACT FOR THE FOLLOWING ACTIVITIES:
+(I) OPERATION OF A VIDEO LOTTERY FACILITY;
+(II) PARI–MUTUEL BETTING ON HORSE RACING; OR
+– 14 –
+
+=== page 15 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+(III) OPERATION OF ELECTRONIC BINGO OR ELECTRONIC TIP JAR
+MACHINES.
+9–1E–04.
+(A) EXCEPT AS OTHERWISE PROVIDED IN THIS SUBTITLE, THE COMMISSION
+SHALL REGULATE SPORTS WAGERING AND THE CONDUCT OF SPORTS WAGERING TO
+THE SAME EXTENT THAT THE COMMISSION REGULATES THE OPERATION OF VIDEO
+LOTTERY TERMINALS AND TABLE GAMES UNDER SUBTITLE 1A OF THIS TITLE.
+(B) IN ACCORDANCE WITH THIS SUBTITLE, THE COMMISSION SHALL ADOPT
+REGULATIONS THAT ESTABLISH:
+(1) SUBJECT TO § 9–1E–15(H) 9–1E–15 OF THIS SUBTITLE, THE FORM
+AND CONTENT OF AN APPLICATION FOR ANY LICENSE REQUIRED UNDER THIS
+SUBTITLE;
+(2) THE METHODS, PROCEDURES, AND FORM FOR DELIVERY OF
+INFORMATION FROM AN APPLICANT OR A LICENSEE CONCERNING ANY PERSON’S
+FAMILY, HABITS, CHARACTER, ASSOCIATES, CRIMINAL RECORD, BUSINESS
+ACTIVITIES, AND FINANCIAL AFFAIRS;
+(3) THE PROCEDURES FOR THE FINGERPRINTING OF AN APPLICANT
+FOR ANY LICENSE REQUIRED UNDER THIS SUBTITLE OR OTHER METHODS OF
+IDENTIFICATION THAT MAY BE NECESSARY IN THE JUDGMENT OF THE COMMISSION
+TO ACCOMPLISH EFFECTIVE ENFORCEMENT OF THE PROVISIONS OF THIS SUBTITLE;
+(4) THE GROUNDS AND PROCEDURES FOR REPRIMANDS OF
+LICENSEES OR THE REVOCATION OR SUSPENSION OF LICENSES ISSUED UNDER THIS
+SUBTITLE;
+(5) THE MANNER AND METHOD OF COLLECTION OF TAXES, FEES, AND
+CIVIL PENALTIES;
+(6) STANDARDS, PROCEDURES, AND RULES THAT GOVERN THE
+CONDUCT OF SPORTS WAGERING, INCLUDING:
+(I) THE APPROVAL PROCESS FOR SELF–SERVICE KIOSKS,
+DEVICES, OR MACHINES, SECURITY MEASURES FOR THE KIOSKS, DEVICES, OR
+MACHINES, THE AMOUNT OF WAGERS AUTHORIZED ON THE KIOSKS, DEVICES, OR
+MACHINES, AND ANY OTHER MATTER RELATING TO A SELF–SERVICE KIOSK, DEVICE,
+OR MACHINE NECESSARY TO CARRY OUT THE PROVISIONS OF THIS SUBTITLE;
+– 15 –
+
+=== page 16 ===
+Ch. 356 2021 LAWS OF MARYLAND
+(II) THE TYPES OF WAGERS ON SPORTING EVENTS THAT MAY BE
+ACCEPTED BY A SPORTS WAGERING LICENSEE AND PROHIBITED WAGERS, SUCH AS
+WAGERS ON INJURIES, PENALTIES, THE OUTCOME OF PLAYER DISCIPLINARY
+RULINGS, REPLAY REVIEWS, AND OTHER TYPES OR FORMS OF WAGERING THAT ARE
+CONTRARY TO PUBLIC POLICY OR UNFAIR TO BETTORS;
+(III) THE TYPES AND VALUES OF PROMOTIONAL ITEMS THAT MAY
+BE GIVEN AWAY TO ENCOURAGE SPORTS WAGERING;
+(IV) THE MANNER IN WHICH WAGERS ARE RECEIVED, AND
+PAYOUTS ARE REMITTED, AND POINT SPREADS, LINES, AND ODDS ARE DETERMINED;
+(V) THE MAXIMUM WAGERS THAT MAY BE ACCEPTED BY A
+SPORTS WAGERING LICENSEE OR ONLINE SPORTS WAGERING OPERATOR FROM A
+SINGLE BETTOR ON A SINGLE SPORTING EVENT;
+(VI) THE AMOUNT OF CASH RESERVES OR OTHER FINANCIAL
+SECURITY TO BE MAINTAINED BY SPORTS WAGERING LICENSEES TO COVER
+WINNING WAGERS;
+(VII) ACCEPTABLE FORMS OF PAYMENT AND ADVANCE DEPOSIT
+METHODS BY BETTORS;
+(VIII) MINIMUM UNIFORM STANDARDS OF ACCOUNTANCY
+METHODS, PROCEDURES, AND FORMS AS ARE NECESSARY TO ENSURE
+CONSISTENCY, COMPARABILITY, AND EFFECTIVE DISCLOSURE OF ALL FINANCIAL
+INFORMATION, INCLUDING PERCENTAGES OF PROFIT;
+(IX) PERIODIC FINANCIAL REPORTS AND THE FORM OF THE
+REPORTS, INCLUDING AN ANNUAL AUDIT PREPARED BY A CERTIFIED PUBLIC
+ACCOUNTANT LICENSED TO DO BUSINESS IN THE STATE IN ACCORDANCE WITH THE
+STATEMENT ON STANDARDS FOR ATTESTATION ENGAGEMENTS AND GENERALLY
+ACCEPTED ACCOUNTING PRINCIPLES;
+(X) REQUIRING LICENSEES UNDER THIS SUBTITLE TO
+DEMONSTRATE AND MAINTAIN FINANCIAL VIABILITY; AND
+(XI) ENSURING THAT SPORTS WAGERING IS CONDUCTED
+LEGALLY; AND
+(XII) REQUIRING LICENSEES TO PROMINENTLY PUBLISH
+COMPLAINT PROCEDURES; AND
+– 16 –
+
+=== page 17 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+(XIII) ESTABLISHING A LIST OF INDIVIDUALS WHO ARE TO BE
+MANDATORILY EXCLUDED OR EJECTED BY A SPORTS WAGERING LICENSEE FROM ANY
+FACILITY OR WEBSITE OPERATED BY A SPORTS WAGERING LICENSEE; AND
+(7) ANY OTHER REGULATION NECESSARY TO CARRY OUT THE
+PROVISIONS OF THIS SUBTITLE.
+(C) (1) THE COMMISSION, IN CONSULTATION WITH THE CERTIFICATION
+AGENCY AS DEFINED IN § 14–301 OF THE STATE FINANCE AND PROCUREMENT
+ARTICLE, THE GOVERNOR’S OFFICE OF SMALL, MINORITY, AND WOMEN BUSINESS
+AFFAIRS, AND THE OFFICE OF THE ATTORNEY GENERAL, SHALL:
+(I) EVALUATE A STUDY OF THE SPORTS WAGERING INDUSTRY
+AND MARKET TO DETERMINE WHETHER THERE IS A COMPELLING INTEREST TO
+IMPLEMENT REMEDIAL MEASURES, IN ADDITION TO THE APPLICATION OF THE
+STATE MINORITY BUSINESS ENTERPRISE PROGRAM UNDER TITLE 14, SUBTITLE 3
+OF THE STATE FINANCE AND PROCUREMENT ARTICLE OR A SIMILAR PROGRAM, TO
+ASSIST MINORITIES AND WOMEN IN THE SPORTS WAGERING INDUSTRY;
+(II) EVALUATE RACE–NEUTRAL PROGRAMS OR OTHER
+METHODS THAT MAY BE USED TO ADDRESS THE NEEDS OF MINORITY AND WOMEN
+APPLICANTS AND MINORITY AND WOMEN–OWNED BUSINESSES SEEKING TO
+PARTICIPATE IN THE SPORTS WAGERING INDUSTRY; AND
+(III) ADOPT REGULATIONS TO IMPLEMENT REMEDIAL
+MEASURES, IF NECESSARY AND TO THE EXTENT PERMITTED BY STATE AND FEDERAL
+LAW, BASED ON THE FINDINGS OF THE STUDY EVALUATED UNDER ITEM (I) OF THIS
+PARAGRAPH.
+(2) THE COMMISSION MAY REPORT TO THE GENERAL ASSEMBLY, IN
+ACCORDANCE WITH § 2–1257 OF THE STATE GOVERNMENT ARTICLE, ANY
+INFORMATION THAT THE COMMISSION DETERMINES IS NECESSARY TO CONSIDER,
+DEVELOP, OR IMPLEMENT ANY REMEDIAL MEASURES REQUIRED UNDER THIS
+SECTION.
+9–1E–05.
+(A) THE FOLLOWING PERSONS SHALL BE LICENSED UNDER THIS SUBTITLE:
+(1) A PERSON THAT OPERATES SPORTS WAGERING;
+(2) A PERSON THAT OPERATES SPORTS WAGERING ON BEHALF OF A
+SPORTS WAGERING LICENSEE, INCLUDING AN ONLINE SPORTS WAGERING
+OPERATOR;
+– 17 –
+
+=== page 18 ===
+Ch. 356 2021 LAWS OF MARYLAND
+(3) A PERSON NOT LICENSED UNDER ITEM (1) OR (2) OF THIS
+SUBSECTION THAT MANAGES, OPERATES, SUPPLIES, PROVIDES SECURITY FOR, OR
+PROVIDES SERVICE, MAINTENANCE, OR REPAIRS FOR SPORTS WAGERING
+EQUIPMENT AND DEVICES; AND
+(4) AN INDIVIDUAL DIRECTLY EMPLOYED IN THE OPERATION OF
+SPORTS WAGERING BY A SPORTS WAGERING LICENSEE IF THE INDIVIDUAL DOES
+NOT OTHERWISE HOLD A VALID LICENSE UNDER SUBTITLE 1A OF THIS TITLE.
+(B) THE COMMISSION MAY BY REGULATION REQUIRE A PERSON THAT
+CONTRACTS WITH A LICENSEE AND THE PERSON’S EMPLOYEES TO OBTAIN A
+LICENSE UNDER THIS SUBTITLE IF THE COMMISSION DETERMINES THAT THE
+LICENSING REQUIREMENTS ARE NECESSARY IN ORDER TO PROTECT THE PUBLIC
+INTEREST AND ACCOMPLISH THE POLICIES ESTABLISHED BY THIS SUBTITLE.
+(C) (1) FOR ALL LICENSES REQUIRED UNDER THIS SUBTITLE, IF AN
+APPLICANT HOLDS A VALID LICENSE IN THIS STATE OR ANOTHER STATE AND THE
+COMMISSION DETERMINES THAT THE LICENSING STANDARDS OF THE OTHER STATE
+ISSUING AGENCY ARE COMPREHENSIVE AND THOROUGH AND PROVIDE SIMILAR AND
+ADEQUATE SAFEGUARDS TO THOSE PROVIDED IN THIS SUBTITLE, THE COMMISSION
+MAY:
+(1) (I) WAIVE SOME OR ALL OF THE REQUIREMENTS OF THIS
+SUBTITLE; AND
+(2) (II) ISSUE A LICENSE TO THAT APPLICANT.
+(2) EXCEPT AS PROVIDED UNDER THIS SUBTITLE OR IN REGULATION,
+THE COMMISSION MAY NOT WAIVE A REQUIREMENT UNDER PARAGRAPH (1) OF THIS
+SUBSECTION THAT RELATES TO:
+(I) MINORITY BUSINESS ENTERPRISE PARTICIPATION GOALS
+AND PROCEDURES ESTABLISHED UNDER § 9–1E–07(B) OF THIS SUBTITLE; OR
+(II) A REQUIREMENT OF THE SPORTS WAGERING APPLICATION
+REVIEW COMMISSION UNDER § 9–1E–15 OF THIS SUBTITLE.
+(D) (1) ON EXCEPT AS PROVIDED IN PARAGRAPH (3) OF THIS
+SUBSECTION, ON THE REQUEST OF AN APPLICANT, THE COMMISSION MAY GRANT AN
+EXEMPTION OR A WAIVER OF A LICENSING REQUIREMENT OR GROUNDS FOR DENIAL
+OF A LICENSE IF THE COMMISSION DETERMINES THAT THE REQUIREMENT OR
+GROUNDS FOR DENIAL OF A LICENSE AS APPLIED TO THE APPLICANT ARE NOT
+– 18 –
+
+=== page 19 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+NECESSARY TO PROTECT THE PUBLIC INTEREST OR ACCOMPLISH THE POLICIES
+ESTABLISHED BY THIS SUBTITLE.
+(2) ON GRANTING TO AN APPLICANT AN EXEMPTION OR A WAIVER
+UNDER THIS SUBSECTION, OR AT ANY TIME AFTER AN EXEMPTION OR A WAIVER HAS
+BEEN GRANTED, THE COMMISSION MAY:
+(I) LIMIT OR PLACE RESTRICTIONS ON THE EXEMPTION OR
+WAIVER AS THE COMMISSION CONSIDERS NECESSARY IN THE PUBLIC INTEREST;
+AND
+(II) REQUIRE THE PERSON THAT IS GRANTED THE EXEMPTION
+OR WAIVER TO COOPERATE WITH THE COMMISSION AND TO PROVIDE THE
+COMMISSION WITH ANY ADDITIONAL INFORMATION REQUIRED BY THE
+COMMISSION AS A CONDITION OF THE WAIVER OR EXEMPTION.
+(3) EXCEPT AS PROVIDED UNDER THIS SUBTITLE OR IN REGULATION,
+THE COMMISSION MAY NOT GRANT AN EXEMPTION OR A WAIVER OF A LICENSING
+REQUIREMENT ADOPTED BY THE SPORTS WAGERING APPLICATION REVIEW
+COMMISSION IN ACCORDANCE WITH § 9–1E–15(H)(2) OF THIS SUBTITLE TO
+IMPLEMENT REMEDIAL MEASURES BASED ON THE FINDINGS OF A STUDY OF THE
+SPORTS WAGERING INDUSTRY AND MARKET.
+9–1E–06.
+(A) (1) THE ON AN AWARD OF A LICENSE BY THE SPORTS WAGERING
+APPLICATION REVIEW COMMISSION ESTABLISHED UNDER § 9–1E–15 OF THIS
+SUBTITLE MAY, THE COMMISSION SHALL:
+(I) ISSUE A CLASS A A–1 SPORTS WAGERING FACILITY LICENSE
+TO AN APPLICANT THAT MEETS THE REQUIREMENTS FOR LICENSURE UNDER THIS
+SUBTITLE WHO IS:
+1. A VIDEO LOTTERY OPERATOR WITH MORE THAN 1,000
+VIDEO LOTTERY TERMINALS OR; OR
+2. A HORSE RACING LICENSEE; OR
+3. 2. A. THE OWNER, OR THE DESIGNEE OF THE OWNER,
+OF A STADIUM IN PRINCE GEORGE’S COUNTY THAT IS PRIMARILY USED FOR
+PROFESSIONAL FOOTBALL (NFL);
+– 19 –
+
+=== page 20 ===
+Ch. 356 2021 LAWS OF MARYLAND
+B. THE OWNER, OR THE DESIGNEE OF THE OWNER, OF A
+PROFESSIONAL FOOTBALL (NFL) FRANCHISE THAT IS A LESSEE OF A STADIUM IN
+BALTIMORE CITY; OR
+C. THE OWNER, OR THE DESIGNEE OF THE OWNER, OF A
+PROFESSIONAL MAJOR LEAGUE BASEBALL FRANCHISE THAT IS A LESSEE OF A
+STADIUM IN BALTIMORE CITY;
+(II) SUBJECT TO PARAGRAPH (2) OF THIS SUBSECTION, ISSUE
+NOT MORE THAN FIVE 10 CLASS B SPORTS WAGERING FACILITY LICENSES TO ANY
+APPLICANT WHO MEETS THE REQUIREMENTS FOR LICENSURE UNDER THIS
+SUBTITLE; AND
+(III) ISSUE NOT MORE THAN 10 15 MOBILE SPORTS WAGERING
+LICENSES TO ANY APPLICANT WHO MEETS THE REQUIREMENTS FOR LICENSURE
+UNDER THIS SUBTITLE.
+D. THE OWNER, OR THE DESIGNEE OF THE OWNER, OF A
+PROFESSIONAL HOCKEY LEAGUE (NHL) FRANCHISE, THAT IS A LESSEE OF A
+STADIUM IN THE STATE;
+E. THE OWNER, OR THE DESIGNEE OF THE OWNER, OF A
+PROFESSIONAL BASKETBALL ASSOCIATION (NBA) FRANCHISE, THAT IS A LESSEE OF
+A STADIUM IN THE STATE; OR
+F. THE OWNER, OR THE DESIGNEE OF THE OWNER, OF A
+PROFESSIONAL SOCCER LEAGUE (MLS) FRANCHISE, THAT IS A LESSEE OF A
+STADIUM IN THE STATE;
+(II) ISSUE A CLASS A–2 SPORTS WAGERING FACILITY LICENSE
+TO AN APPLICANT THAT MEETS THE REQUIREMENTS FOR LICENSURE UNDER THIS
+SUBTITLE WHO IS:
+1. A VIDEO LOTTERY OPERATOR WITH 1,000 OR FEWER
+VIDEO LOTTERY TERMINALS; OR
+2. A HORSE RACING LICENSEE;
+(III) SUBJECT TO PARAGRAPHS (2) AND (3) OF THIS SUBSECTION,
+ISSUE A CLASS B–1 SPORTS WAGERING FACILITY LICENSE TO ANY APPLICANT WHO
+MEETS THE REQUIREMENTS FOR LICENSURE UNDER THIS SUBTITLE AND WHO IS NOT
+ELIGIBLE FOR A CLASS B–2 SPORTS WAGERING FACILITY LICENSE;
+– 20 –
+
+=== page 21 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+(IV) SUBJECT TO PARAGRAPHS (2) AND (3) OF THIS SUBSECTION,
+ISSUE A CLASS B–2 SPORTS WAGERING FACILITY LICENSE TO ANY APPLICANT WHO
+IS A PERSON WITH LESS THAN:
+1. 25 FULL–TIME EQUIVALENT EMPLOYEES; OR
+2. $3,000,000 IN ANNUAL GROSS RECEIPTS; AND
+(V) ISSUE NOT MORE THAN 60 MOBILE SPORTS WAGERING
+LICENSES TO ANY APPLICANT WHO MEETS THE REQUIREMENTS FOR LICENSURE
+UNDER THIS SUBTITLE.
+(2) (I) THE COMMISSION SHALL ISSUE A CLASS B–1 OR CLASS
+B–2 SPORTS WAGERING FACILITY LICENSE TO AN APPLICANT THAT MEETS THE
+REQUIREMENTS FOR LICENSURE UNDER THIS SUBTITLE WHO IS:
+1. THE HOLDER OF A LICENSE ISSUED BY THE STATE
+RACING COMMISSION UNDER § 11–524 OF THE BUSINESS REGULATION ARTICLE,
+INCLUDING A SUBSIDIARY OF THE LICENSE HOLDER;
+2. A PERSON WHO IS THE OWNER OR LESSEE OF A
+FACILITY APPROVED FOR SATELLITE SIMULCAST BETTING BEFORE JANUARY 1,
+2021, UNLESS THE SATELLITE SIMULCAST FACILITY IS LOCATED AT A VIDEO
+LOTTERY FACILITY OR A RACETRACK; AND
+3. A PERSON WHO HOLDS A COMMERCIAL BINGO
+LICENSE, IF THE FACILITY AT WHICH THE PERSON OPERATES COMMERCIAL BINGO
+WAS PERMITTED TO OPERATE AT LEAST 200 ELECTRONIC BINGO MACHINES OR
+ELECTRONIC TIP JAR MACHINES ON JANUARY 1, 2021.
+(II) IN ADDITION TO THE CLASS B–1 AND B–2 SPORTS
+WAGERING FACILITY LICENSES ISSUED IN ACCORDANCE WITH SUBPARAGRAPH (I) OF
+THIS PARAGRAPH, THE COMMISSION MAY ISSUE NOT MORE THAN 30 CLASS B–1 AND
+CLASS B–2 SPORTS WAGERING FACILITY LICENSES UNDER PARAGRAPH (1) OF THIS
+SUBSECTION.
+(2) (3) THE SPORTS WAGERING APPLICATION REVIEW
+COMMISSION ESTABLISHED UNDER § 9–1E–15 OF THIS SUBTITLE MAY NOT ISSUE
+AWARD A CLASS B B–1 OR B–2 SPORTS WAGERING FACILITY LICENSE TO AN
+APPLICANT:
+(I) WHO IS ELIGIBLE TO APPLY FOR A CLASS A A–1 OR A–2
+SPORTS WAGERING FACILITY LICENSE UNDER PARAGRAPH (1) OF THIS
+SUBSECTION;
+– 21 –
+
+=== page 22 ===
+Ch. 356 2021 LAWS OF MARYLAND
+(II) WHO HOLDS A CLASS A A–1 OR A–2 SPORTS WAGERING
+FACILITY LICENSE; OR
+(III) WHOSE SPORTS WAGERING FACILITY WILL BE LOCATED:
+1. WITHIN A 15–MILE RADIUS OF A CLASS A A–1 OR A–2
+SPORTS WAGERING FACILITY LOCATED IN ALLEGANY COUNTY, CECIL COUNTY, OR
+WORCESTER COUNTY; OR
+2. WITHIN A 10–MILE 1.5–MILE RADIUS OF ANY A CLASS
+A A–1 OR A–2 SPORTS WAGERING FACILITY LOCATED IN A COUNTY NOT DESCRIBED
+UNDER ITEM 1 OF THIS ITEM OR ANY OTHER CLASS B B–1 OR B–2 SPORTS
+WAGERING FACILITY.
+(3) (4) A FOR–PROFIT ENTITY, NONPROFIT ORGANIZATION, OR
+PUBLIC–PRIVATE PARTNERSHIP OPERATING AT THE RACING LOCATION DESCRIBED
+UNDER TITLE 11, SUBTITLE 7 OF THE BUSINESS REGULATION ARTICLE LOCATED
+ON LANDS OWNED BY THE DEPARTMENT OF NATURAL RESOURCES MAY APPLY FOR
+A CLASS B B–1 OR B–2 SPORTS WAGERING FACILITY LICENSE.
+(5) IF AN APPLICANT DESIGNATES AN ENTITY TO HOLD THE LICENSE
+UNDER PARAGRAPH (1)(I)2 OF THIS SUBSECTION, THE DESIGNEE SHALL BE
+CONSIDERED THE APPLICANT AND SUBJECT TO THE REQUIREMENTS OF THE
+APPLICATION PROCESS.
+(3) (4) (6) AN IN ADDITION TO ANY OTHER PERSON, AN APPLICANT
+FOR OR HOLDER OF A CLASS A A–1, A–2, B–1, OR B–2 SPORTS WAGERING FACILITY
+LICENSE OR A CLASS B SPORTS WAGERING FACILITY LICENSE MAY APPLY FOR A
+MOBILE SPORTS WAGERING LICENSE UNDER THIS SUBSECTION.
+(B) AN APPLICANT FOR A SPORTS WAGERING LICENSE SHALL PAY TO THE
+COMMISSION AN APPLICATION FEE OF:
+(1) $250,000 $2,000,000 FOR A CLASS A A–1 SPORTS WAGERING
+FACILITY LICENSE;
+(2) $1,000,000 FOR A CLASS A–2 SPORTS WAGERING FACILITY
+LICENSE;
+(2) (3) $50,000 $250,000 FOR A CLASS B B–1 SPORTS WAGERING
+FACILITY LICENSE; AND
+– 22 –
+
+=== page 23 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+(4) $50,000 FOR A CLASS B–2 SPORTS WAGERING FACILITY LICENSE;
+AND
+(3) (5) $500,000 FOR A MOBILE SPORTS WAGERING LICENSE.
+(C) THE HOLDER OF A SPORTS WAGERING LICENSE SHALL PAY TO THE
+COMMISSION AN ANNUAL LICENSE FEE OF:
+(1) $50,000 FOR A CLASS A SPORTS WAGERING FACILITY LICENSE;
+(2) $10,000 FOR A CLASS B SPORTS WAGERING FACILITY LICENSE;
+AND
+(3) $100,000 FOR A MOBILE SPORTS WAGERING LICENSE.
+(D) (C) (1) THE TERM OF A SPORTS WAGERING LICENSE UNDER THIS
+SECTION IS 5 YEARS.
+(2) ON APPLICATION BY THE SPORTS WAGERING LICENSEE AND
+PAYMENT OF THE LICENSE RENEWAL FEE UNDER PARAGRAPH (3) OF THIS
+SUBSECTION, THE COMMISSION MAY SHALL RENEW FOR 5 YEARS A SPORTS
+WAGERING LICENSE IF THE LICENSEE COMPLIES WITH ALL STATUTORY AND
+REGULATORY REQUIREMENTS.
+(3) THE LICENSE RENEWAL FEE IS EQUAL TO 1% OF THE LICENSEE’S
+AVERAGE ANNUAL GROSS SPORTS WAGERING REVENUES PROCEEDS FROM SPORTS
+WAGERING FOR THE PRECEDING 5–YEAR 3–YEAR PERIOD LESS ANY PROCEEDS
+REMITTED BY THE LICENSEE IN ACCORDANCE WITH § 9–1E–12 OF THIS SUBTITLE.
+(E) (D) (1) A SPORTS WAGERING LICENSEE MAY NOT BEGIN
+ACCEPTING WAGERS ON SPORTING EVENTS UNTIL THE APPLICATION FEE UNDER
+SUBSECTION (B) OF THIS SECTION IS PAID IN FULL AND THE APPLICANT
+REIMBURSES THE COMMISSION FOR EXPENSES RELATED TO PERFORMING
+BACKGROUND INVESTIGATIONS.
+(2) THE APPLICATION FEE UNDER SUBSECTION (B) OF THIS SECTION
+IS NONREFUNDABLE.
+9–1E–07.
+(A) AN APPLICANT FOR A LICENSE UNDER THIS SUBTITLE SHALL SUBMIT TO
+THE COMMISSION AN APPLICATION, ON OR BEFORE THE DATE SET BY THE
+COMMISSION:
+– 23 –
+
+=== page 24 ===
+Ch. 356 2021 LAWS OF MARYLAND
+(1) AN APPLICATION IN THE FORM THAT THE COMMISSION
+REQUIRES; AND
+(2) IF THE APPLICANT IS APPLYING FOR A SPORTS WAGERING
+LICENSE, AN AFFIDAVIT ATTESTING TO:
+(I) THE NUMBER OF MINORITY AND WOMEN OWNERS OF THE
+APPLICANT;
+(II) THE OWNERSHIP INTEREST OF ANY MINORITY AND WOMEN
+OWNERS OF THE APPLICANT;
+(III) THE NUMBER OF MINORITY AND WOMEN EMPLOYEES OF
+THE APPLICANT; AND
+(IV) THE NUMBER OF CURRENT CONTRACTS THE APPLICANT HAS
+WITH MINORITY– AND WOMEN–OWNED SUBCONTRACTORS; AND
+(V) ANY OTHER INFORMATION CONSIDERED NECESSARY BY
+THE COMMISSION OR THE SPORTS WAGERING APPLICATION REVIEW COMMISSION
+ESTABLISHED UNDER § 9–1E–15 OF THIS SUBTITLE.
+(2) ON OR BEFORE THE DATE SET BY THE COMMISSION.
+(B) (1) A SPORTS WAGERING LICENSEE IS SUBJECT TO:
+(I) THE MINORITY BUSINESS PARTICIPATION GOAL
+ESTABLISHED FOR A UNIT BY THE SPECIAL SECRETARY FOR THE OFFICE OF SMALL,
+MINORITY, AND WOMEN BUSINESS AFFAIRS UNDER § 14–302(A)(1)(II) OF THE
+STATE FINANCE AND PROCUREMENT ARTICLE; AND
+(II) ANY OTHER CORRESPONDING PROVISIONS OF LAW UNDER
+TITLE 14, SUBTITLE 3 OF THE STATE FINANCE AND PROCUREMENT ARTICLE.
+(2) THE MINORITY BUSINESS PARTICIPATION GOAL APPLIES TO:
+(I) CONSTRUCTION RELATED TO SPORTS WAGERING; AND
+(II) PROCUREMENT RELATED TO THE OPERATION OF SPORTS
+WAGERING, INCLUDING PROCUREMENT OF EQUIPMENT AND ONGOING SERVICES.
+(B) (1) THE FINDINGS AND EVIDENCE RELIED ON BY THE GENERAL
+ASSEMBLY FOR THE CONTINUATION OF THE MINORITY BUSINESS ENTERPRISE
+– 24 –
+
+=== page 25 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+PROGRAM UNDER TITLE 14, SUBTITLE 3 OF THE STATE FINANCE AND
+PROCUREMENT ARTICLE ARE INCORPORATED IN THIS SUBSECTION.
+(2) TO THE EXTENT PRACTICABLE AND AUTHORIZED BY THE UNITED
+STATES CONSTITUTION, A SPORTS WAGERING LICENSEE SHALL COMPLY WITH THE
+STATE’S MINORITY BUSINESS ENTERPRISE PROGRAM.
+(3) (I) ON OR BEFORE 6 MONTHS AFTER THE ISSUANCE OF A
+SPORTS WAGERING LICENSE UNDER THIS SUBTITLE, THE GOVERNOR’S OFFICE OF
+SMALL, MINORITY, AND WOMEN BUSINESS AFFAIRS, IN CONSULTATION WITH THE
+OFFICE OF THE ATTORNEY GENERAL AND THE SPORTS WAGERING LICENSEE,
+SHALL ESTABLISH A CLEAR PLAN FOR SETTING REASONABLE AND APPROPRIATE
+MINORITY BUSINESS ENTERPRISE PARTICIPATION GOALS AND PROCEDURES FOR
+THE PROCUREMENT OF GOODS AND SERVICES RELATED TO SPORTS WAGERING,
+INCLUDING PROCUREMENT OF CONSTRUCTION, EQUIPMENT, AND ONGOING
+SERVICES.
+(II) TO THE EXTENT PRACTICABLE, THE GOALS AND
+PROCEDURES SPECIFIED IN SUBPARAGRAPH (I) OF THIS PARAGRAPH SHALL BE
+BASED ON THE REQUIREMENTS OF TITLE 14, SUBTITLE 3 OF THE STATE FINANCE
+AND PROCUREMENT ARTICLE AND THE REGULATIONS IMPLEMENTING THAT
+SUBTITLE.
+(3) (4) ON OR AFTER JULY 1, 2024, THE PROVISIONS OF THIS
+SUBSECTION AND ANY REGULATIONS ADOPTED UNDER THIS SUBSECTION SHALL BE
+OF NO EFFECT AND MAY NOT BE ENFORCED.
+(C) (1) THIS SUBSECTION DOES NOT APPLY TO THE APPLICATION OR
+LICENSE RENEWAL FEES FOR A SPORTS WAGERING LICENSE REQUIRED UNDER §
+9–1E–06 OF THIS SUBTITLE.
+(2) (I) SUBJECT TO SUBPARAGRAPH (II) OF THIS PARAGRAPH, THE
+COMMISSION SHALL ADOPT REGULATIONS THAT ESTABLISH AN APPLICATION FEE
+AND LICENSE RENEWAL FEE FOR A LICENSE UNDER THIS SUBTITLE.
+(II) THE APPLICATION FEE FOR AN ONLINE SPORTS WAGERING
+OPERATOR LICENSE MAY NOT BE LESS THAN $5,000.
+(3) AN APPLICANT SHALL SUBMIT THE APPLICATION FEE WITH THE
+APPLICATION.
+(4) THE TERM OF THE LICENSE IS 5 YEARS.
+– 25 –
+
+=== page 26 ===
+Ch. 356 2021 LAWS OF MARYLAND
+(D) ON A PROPERLY APPROVED TRANSMITTAL PREPARED BY THE
+COMMISSION, THE COMPTROLLER SHALL PAY THE FOLLOWING AMOUNTS FROM
+THE INITIAL LICENSE APPLICATION FEES, ANNUAL LICENSE FEES, AND LICENSE
+RENEWAL FEES COLLECTED BY THE COMMISSION UNDER THIS SECTION AND §
+9–1E–06 OF THIS SUBTITLE:
+(1) AN AMOUNT TO THE STATE LOTTERY AND GAMING CONTROL
+AGENCY NECESSARY TO REIMBURSE THE AGENCY FOR EXPENSES RELATED TO
+PERFORMING BACKGROUND INVESTIGATIONS AND OTHER ACTIVITIES RELATED TO
+THE ISSUANCE AND RENEWAL OF SPORTS WAGERING LICENSES; AND
+(2) 5% OF THE FEES COLLECTED FOR EACH CLASS A–1 AND A–2
+SPORTS WAGERING FACILITY LICENSE TO THE SMALL, MINORITY–OWNED, AND
+WOMEN–OWNED BUSINESS SPORTS WAGERING ASSISTANCE FUND ESTABLISHED
+UNDER § 9–1E–16 OF THIS SUBTITLE; AND
+(3) THE REMAINDER TO THE BLUEPRINT FOR MARYLAND’S FUTURE
+FUND ESTABLISHED UNDER § 5–219 5–206 OF THE EDUCATION ARTICLE.
+(E) (1) APPLICANTS AND LICENSEES SHALL HAVE THE AFFIRMATIVE
+RESPONSIBILITY TO ESTABLISH BY CLEAR AND CONVINCING EVIDENCE THE
+APPLICANT’S OR LICENSEE’S QUALIFICATIONS.
+(2) APPLICANTS AND LICENSEES SHALL PROVIDE INFORMATION
+REQUIRED BY THIS SUBTITLE AND SATISFY REQUESTS FOR INFORMATION RELATING
+TO QUALIFICATIONS IN THE FORM SPECIFIED BY THE COMMISSION, IF APPLICABLE.
+(3) (I) APPLICANTS AND LICENSEES SHALL:
+1. PROVIDE ASSISTANCE OR INFORMATION REQUIRED
+BY THE COMMISSION; AND
+2. COOPERATE IN AN INQUIRY, AN INVESTIGATION, OR A
+HEARING CONDUCTED BY THE COMMISSION.
+(II) ON ISSUANCE OF A FORMAL REQUEST TO ANSWER OR
+PRODUCE INFORMATION, EVIDENCE, OR TESTIMONY, IF AN APPLICANT OR A
+LICENSEE REFUSES TO COMPLY, THE APPLICATION OR LICENSE MAY BE DENIED,
+SUSPENDED, OR REVOKED BY THE COMMISSION.
+(4) (I) IF THE APPLICANT IS AN INDIVIDUAL, THE APPLICANT
+SHALL BE PHOTOGRAPHED AND FINGERPRINTED FOR IDENTIFICATION AND
+INVESTIGATION PURPOSES.
+– 26 –
+
+=== page 27 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+(II) IF THE APPLICANT IS NOT AN INDIVIDUAL, THE
+COMMISSION BY REGULATION MAY ESTABLISH THE CATEGORIES OF INDIVIDUALS
+WHO SHALL BE PHOTOGRAPHED AND FINGERPRINTED FOR IDENTIFICATION AND
+INVESTIGATION PURPOSES.
+(5) (I) APPLICANTS AND LICENSEES SHALL INFORM THE
+COMMISSION OF AN ACT OR OMISSION THAT THE PERSON KNOWS OR SHOULD KNOW
+CONSTITUTES A VIOLATION OF THIS SUBTITLE OR THE REGULATIONS ADOPTED
+UNDER THIS SUBTITLE.
+(II) APPLICANTS AND LICENSEES MAY NOT DISCRIMINATE
+AGAINST A PERSON WHO IN GOOD FAITH INFORMS THE COMMISSION OF AN ACT OR
+OMISSION THAT THE PERSON BELIEVES CONSTITUTES A VIOLATION OF THIS
+SUBTITLE OR THE REGULATIONS ADOPTED UNDER THIS SUBTITLE.
+(6) APPLICANTS AND LICENSEES SHALL PRODUCE INFORMATION,
+DOCUMENTATION, AND ASSURANCES TO ESTABLISH THE FOLLOWING
+QUALIFICATION CRITERIA BY CLEAR AND CONVINCING EVIDENCE:
+(I) THE FINANCIAL STABILITY, INTEGRITY, AND
+RESPONSIBILITY OF THE APPLICANT OR LICENSEE;
+(II) THE INTEGRITY OF ANY FINANCIAL BACKERS, INVESTORS,
+MORTGAGEES, BONDHOLDERS, AND HOLDERS OF OTHER EVIDENCES OF
+INDEBTEDNESS THAT BEAR A RELATION TO THE APPLICATION;
+(III) THE APPLICANT’S OR LICENSEE’S GOOD CHARACTER,
+HONESTY, AND INTEGRITY;
+(IV) SUFFICIENT BUSINESS ABILITY AND EXPERIENCE OF THE
+APPLICANT OR LICENSEE; AND
+(V) THAT:
+1. UNLESS THE APPLICANT OR LICENSEE ALREADY HAS
+A COLLECTIVE BARGAINING AGREEMENT, THE APPLICANT OR LICENSEE HAS
+ENTERED INTO A LABOR PEACE AGREEMENT WITH EACH LABOR ORGANIZATION
+THAT IS ACTIVELY ENGAGED IN REPRESENTING OR ATTEMPTING TO REPRESENT
+SPORTS WAGERING INDUSTRY WORKERS IN THE STATE;
+2. THE LABOR PEACE AGREEMENT IS VALID AND
+ENFORCEABLE UNDER 29 U.S.C. § 158;
+– 27 –
+
+=== page 28 ===
+Ch. 356 2021 LAWS OF MARYLAND
+3. THE LABOR PEACE AGREEMENT PROTECTS THE
+STATE’S REVENUES BY PROHIBITING THE LABOR ORGANIZATION AND ITS MEMBERS
+FROM ENGAGING IN PICKETING, WORK STOPPAGES, BOYCOTTS, AND ANY OTHER
+ECONOMIC INTERFERENCE WITH THE OPERATION OF SPORTS WAGERING WITHIN
+THE FIRST 5 YEARS OF THE EFFECTIVE DATE OF A SPORTS WAGERING LICENSE; AND
+4. THE LABOR PEACE AGREEMENT APPLIES TO ALL
+OPERATIONS CONDUCTED BY THE APPLICANT OR LICENSEE AT A FACILITY OR
+LOCATION WHERE SPORTS WAGERING IS CONDUCTED.
+(F) (1) ON THE FILING OF AN APPLICATION FOR ANY LICENSE REQUIRED
+UNDER THIS SUBTITLE AND ANY SUPPLEMENTAL INFORMATION REQUIRED BY THE
+COMMISSION, THE COMMISSION SHALL CONDUCT A BACKGROUND INVESTIGATION
+ON THE QUALIFICATIONS OF THE APPLICANT AND ANY PERSON WHO IS REQUIRED
+TO BE QUALIFIED UNDER THIS SUBTITLE AS A CONDITION OF A LICENSE.
+(2) THE COMMISSION MAY REFER AN APPLICATION FOR A LICENSE
+TO AN APPROVED VENDOR UNDER § 9–1A–20 OF THIS TITLE TO CONDUCT THE
+BACKGROUND INVESTIGATION FOR THE COMMISSION.
+(G) (1) AFTER RECEIVING THE RESULTS OF THE BACKGROUND
+INVESTIGATION, THE COMMISSION MAY EITHER GRANT A LICENSE TO AN
+APPLICANT WHOM THE COMMISSION DETERMINES TO BE QUALIFIED OR DENY THE
+LICENSE TO AN APPLICANT WHOM THE COMMISSION DETERMINES TO BE NOT
+QUALIFIED OR DISQUALIFIED.
+(2) IF AN APPLICATION FOR A LICENSE IS DENIED, THE COMMISSION
+SHALL PREPARE AND FILE AN ORDER DENYING THE LICENSE WITH A STATEMENT OF
+THE REASONS FOR THE DENIAL, INCLUDING THE SPECIFIC FINDINGS OF FACT.
+(H) (1) AN INDIVIDUAL MAY NOT KNOWINGLY GIVE FALSE INFORMATION
+OR MAKE A MATERIAL MISSTATEMENT IN AN APPLICATION REQUIRED FOR ANY
+LICENSE UNDER THIS SUBTITLE OR IN ANY SUPPLEMENTAL INFORMATION
+REQUIRED BY THE COMMISSION.
+(2) AN INDIVIDUAL WHO VIOLATES THIS SECTION IS GUILTY OF A
+MISDEMEANOR AND ON CONVICTION IS SUBJECT TO IMPRISONMENT NOT
+EXCEEDING 3 YEARS OR A FINE NOT EXCEEDING $5,000 OR BOTH.
+(I) (1) THE HOLDER OF A CLASS B–1 OR B–2 SPORTS WAGERING
+FACILITY LICENSE OR A MOBILE SPORTS WAGERING LICENSE MAY ONLY SELL OR
+TRANSFER OWNERSHIP OF THE LICENSE IF THE LICENSEE WAS ACTIVELY ENGAGED
+IN OPERATING SPORTS WAGERING IN THE STATE FOR AT LEAST 3 YEARS
+– 28 –
+
+=== page 29 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+IMMEDIATELY PRECEDING THE SALE OR TRANSFER OF THE OWNERSHIP OF THE
+LICENSE.
+(2) NOTHING IN PARAGRAPH (1) OF THIS SUBSECTION MAY BE
+CONSTRUED TO LIMIT THE ABILITY OF THE COMMISSION TO ENFORCE THIS
+SUBTITLE.
+9–1E–08.
+(A) THE COMMISSION MAY DENY A LICENSE TO AN APPLICANT FOR A
+LICENSE UNDER § 9–1E–05 OF THIS SUBTITLE, REPRIMAND OR FINE A LICENSEE, OR
+SUSPEND OR REVOKE A LICENSE FOR A VIOLATION OF:
+(1) THIS SUBTITLE;
+(2) A REGULATION ADOPTED UNDER THIS SUBTITLE; OR
+(3) A CONDITION THAT THE COMMISSION SETS.
+(B) FOR EACH VIOLATION SPECIFIED IN SUBSECTION (A) OF THIS SECTION,
+THE COMMISSION MAY IMPOSE A PENALTY NOT EXCEEDING $5,000.
+(C) EACH DAY THAT A PERSON IS IN VIOLATION UNDER THIS SECTION
+SHALL BE CONSIDERED A SEPARATE VIOLATION.
+(D) TO DETERMINE THE AMOUNT OF THE PENALTY IMPOSED UNDER
+SUBSECTION (B) OF THIS SECTION, THE COMMISSION SHALL CONSIDER:
+(1) THE SERIOUSNESS OF THE VIOLATION;
+(2) THE HARM CAUSED BY THE VIOLATION; AND
+(3) THE GOOD FAITH OR LACK OF GOOD FAITH OF THE PERSON WHO
+COMMITTED THE VIOLATION.
+(E) EXCEPT AS OTHERWISE PROVIDED IN THIS SUBTITLE, NOTHING
+CONTAINED IN THIS SUBTITLE ABROGATES OR LIMITS THE CRIMINAL LAWS OF THE
+STATE OR LIMITS THE AUTHORITY OF THE GENERAL ASSEMBLY TO ENACT
+STATUTES ESTABLISHING CRIMINAL OFFENSES AND PENALTIES RELATING TO
+SPORTS WAGERING OPERATIONS.
+9–1E–09.
+– 29 –
+
+=== page 30 ===
+Ch. 356 2021 LAWS OF MARYLAND
+(A) A SPORTS WAGERING FACILITY LICENSEE MAY ACCEPT WAGERS ON
+SPORTING EVENTS THAT ARE MADE:
+(1) BY AN INDIVIDUAL PHYSICALLY PRESENT:
+(I) IN AT A VIDEO LOTTERY FACILITY, IF THE SPORTS
+WAGERING LICENSEE IS A VIDEO LOTTERY OPERATOR;
+(II) AT PIMLICO RACE COURSE, ON LIVE RACING DAYS OR DAYS
+ON WHICH AN EVENT WITH AN ANTICIPATED ATTENDANCE OF AT LEAST 2,000
+INDIVIDUALS IS HELD, OR A RACE TRACK LOCATED AT LAUREL PARK OR IN
+TIMONIUM, IF THE SPORTS WAGERING LICENSEE IS A HORSE RACING LICENSEE
+UNDER TITLE 11, SUBTITLE 5, PART II OF THE BUSINESS REGULATION ARTICLE;
+(III) AT THE MARYLAND STATE FAIRGROUNDS IN TIMONIUM, IF
+THE SPORTS WAGERING LICENSEE IS A HORSE RACING LICENSEE UNDER TITLE 11,
+SUBTITLE 5, PART III OF THE BUSINESS REGULATION ARTICLE;
+(IV) AT A FACILITY IDENTIFIED IN THE PERMIT ISSUED UNDER
+TITLE 11, SUBTITLE 8, PART III OF THE BUSINESS REGULATION ARTICLE TO HOLD
+SATELLITE SIMULCAST BETTING IN CHARLES COUNTY, IF THE SPORTS WAGERING
+LICENSEE IS A HORSE RACING LICENSEE;
+(V) (III) SUBJECT TO SUBSECTION (D) OF THIS SECTION, AT A
+STADIUM PRIMARILY USED FOR PROFESSIONAL FOOTBALL OR (NFL),
+PROFESSIONAL MAJOR LEAGUE BASEBALL, PROFESSIONAL HOCKEY (NHL),
+PROFESSIONAL BASKETBALL (NBA), OR PROFESSIONAL SOCCER (MLS), IF THE
+SPORTS WAGERING LICENSEE IS THE OWNER OR A LESSEE OR THE DESIGNEE OF THE
+OWNER OR LESSEE OF THE STADIUM; OR
+(IV) AT THE MARYLAND STATE FAIRGROUNDS IN TIMONIUM, IF
+THE SPORTS WAGERING LICENSEE IS THE HOLDER OF A LICENSE ISSUED BY THE
+STATE RACING COMMISSION UNDER § 11–524 OF THE BUSINESS REGULATION
+ARTICLE, OR A SUBSIDIARY OF THE LICENSE HOLDER;
+(V) AT A SATELLITE SIMULCAST FACILITY, IF THE SPORTS
+WAGERING LICENSEE IS THE OWNER OR LESSEE OF A SATELLITE SIMULCAST
+FACILITY DESCRIBED UNDER § 9–1E–06(A)(2) OF THIS SUBTITLE;
+(VI) AT A COMMERCIAL BINGO FACILITY WITH AT LEAST 200
+ELECTRONIC BINGO MACHINES OR ELECTRONIC TIP JAR MACHINES, IF THE SPORTS
+WAGERING LICENSEE IS A COMMERCIAL BINGO OPERATOR DESCRIBED UNDER §
+9–1E–06(A)(2) OF THIS SUBTITLE; OR
+– 30 –
+
+=== page 31 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+(III) (VI) (VII) SUBJECT TO SUBSECTION (E) OF THIS SECTION,
+AT THE FACILITY IDENTIFIED IN THE APPLICATION APPROVED BY THE SPORTS
+WAGERING APPLICATION REVIEW COMMISSION, IF THE SPORTS WAGERING
+LICENSEE IS A HOLDER OF A CLASS B B–1 OR B–2 SPORTS WAGERING FACILITY
+LICENSE; OR
+(IV) SUBJECT TO SUBSECTION (D) OF THIS SECTION, AT A
+STADIUM PRIMARILY USED FOR PROFESSIONAL FOOTBALL OR PROFESSIONAL
+BASEBALL IF THE SPORTS WAGERING LICENSEE IS THE OPERATOR OF A VIDEO
+LOTTERY FACILITY LOCATED IN THE SAME COUNTY AS THE STADIUM; OR
+(2) ON A SELF–SERVICE KIOSK, DEVICE, OR MACHINE, APPROVED BY
+THE COMMISSION, LOCATED IN A FACILITY OR AT A LOCATION IDENTIFIED UNDER
+ITEM (1) OF THIS SUBSECTION.
+(B) A MOBILE SPORTS WAGERING LICENSEE MAY ACCEPT WAGERS ON
+SPORTING EVENTS THAT ARE MADE THROUGH ONLINE SPORTS WAGERING BY AN
+INDIVIDUAL PHYSICALLY LOCATED IN THE STATE.
+(C) TO PARTICIPATE IN ONLINE SPORTS WAGERING UNDER THIS SECTION,
+AN INDIVIDUAL SHALL REGISTER:
+(1) IF THE MOBILE SPORTS WAGERING LICENSEE IS ALSO A SPORTS
+WAGERING FACILITY LICENSEE, IN PERSON AT A FACILITY OR LOCATION IDENTIFIED
+UNDER SUBSECTION (A)(1) OF THIS SECTION; OR
+(2) ONLINE USING A WEBSITE OR MOBILE APPLICATION APPROVED
+BY THE COMMISSION.
+(D) A SPORTS WAGERING LICENSEE AUTHORIZED TO ACCEPT IN–PERSON
+WAGERS AT A STADIUM UNDER SUBSECTION (A)(1)(IV) (A)(1)(V) OF THIS SECTION:
+(1) MAY ACCEPT WAGERS AT THE STADIUM ONLY IN TICKETED AREAS
+AND ONLY ON LIVE GAME DAYS AND DAYS ON WHICH AN EVENT WITH AN
+ANTICIPATED ATTENDANCE OF AT LEAST 10,000 INDIVIDUALS IS HELD; AND
+(2) SHALL OWN OR LEASE THE SPORTS WAGERING EQUIPMENT AT
+THE STADIUM AND SHALL, WITH ITS EMPLOYEES, OPERATE THE EQUIPMENT.
+(D) (1) SUBJECT TO PARAGRAPH (2) OF THIS SUBSECTION, A SPORTS
+WAGERING FACILITY LICENSEE MAY CONTRACT WITH ANY OTHER SPORTS WAGERING
+FACILITY LICENSEE TO PROVIDE SPORTS WAGERING SERVICES ON BEHALF OF THE
+– 31 –
+
+=== page 32 ===
+Ch. 356 2021 LAWS OF MARYLAND
+LICENSEE AT A LOCATION WHERE THE LICENSEE IS AUTHORIZED TO ACCEPT WAGERS
+ON SPORTING EVENTS.
+(2) IF A SPORTS WAGERING LICENSEE AUTHORIZED TO ACCEPT
+WAGERS AT A STADIUM UNDER SUBSECTION (A)(1)(III) OF THIS SECTION CONTRACTS
+WITH A VIDEO LOTTERY OPERATOR, OR AN AFFILIATE OR A SUBSIDIARY OF THAT
+VIDEO LOTTERY OPERATOR, TO PROVIDE SPORTS WAGERING SERVICES AT THE
+STADIUM, THE LICENSEE MAY CONTRACT ONLY WITH A VIDEO LOTTERY OPERATOR,
+OR AN AFFILIATE OR A SUBSIDIARY OF THAT VIDEO LOTTERY OPERATOR, THAT
+OPERATES A VIDEO LOTTERY FACILITY LOCATED IN THE SAME COUNTY AS THE
+STADIUM.
+(E) A SPORTS WAGERING FACILITY LICENSEE AUTHORIZED TO ACCEPT
+IN–PERSON WAGERS AT THE RACING LOCATION DESCRIBED UNDER TITLE 11,
+SUBTITLE 7 OF THE BUSINESS REGULATION ARTICLE LOCATED ON LANDS OWNED
+BY THE DEPARTMENT OF NATURAL RESOURCES MAY ONLY ACCEPT WAGERS IN THE
+SPECIAL EVENT ZONE.
+9–1E–10.
+(A) (1) A MOBILE SPORTS WAGERING LICENSEE:
+(I) MAY CONDUCT AND OPERATE ONLINE SPORTS WAGERING;
+OR
+(II) SUBJECT TO PARAGRAPH (3) OF THIS SUBSECTION AND
+SUBSECTION (B) OF THIS SECTION, MAY ENTER INTO A CONTRACT WITH AN ONLINE
+SPORTS WAGERING OPERATOR TO CONDUCT ONLINE SPORTS WAGERING ON ITS
+BEHALF.
+(2) A PERSON OTHER THAN THE MOBILE SPORTS WAGERING
+LICENSEE MAY NOT CONDUCT ONLINE SPORTS WAGERING, EXCEPT FOR TESTING
+PURPOSES, UNTIL THE PERSON RECEIVES FROM THE COMMISSION AN ONLINE
+SPORTS WAGERING LICENSE.
+(3) (I) A MOBILE SPORTS WAGERING LICENSEE MAY NOT
+CONTRACT WITH MORE THAN ONE ONLINE SPORTS WAGERING OPERATOR TO
+CONDUCT ONLINE SPORTS WAGERING ON THE LICENSEE’S BEHALF.
+(II) ALL MOBILE SPORTS WAGERING LICENSEES THAT ARE
+RELATED ENTITIES ARE TREATED AS A SINGLE MOBILE SPORTS WAGERING
+LICENSEE FOR PURPOSES OF THE LIMITATION UNDER SUBPARAGRAPH (I) OF THIS
+PARAGRAPH.
+– 32 –
+
+=== page 33 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+(B) (1) THE DUTIES AND RESPONSIBILITIES OF AN ONLINE SPORTS
+WAGERING OPERATOR MAY NOT BE ASSIGNED, DELEGATED, SUBCONTRACTED, OR
+TRANSFERRED TO A THIRD PARTY WITHOUT THE PRIOR APPROVAL OF THE
+COMMISSION.
+(2) A THIRD PARTY MUST BE LICENSED AS AN ONLINE SPORTS
+WAGERING OPERATOR BEFORE OFFERING ONLINE SPORTS WAGERING.
+(C) AN ONLINE SPORTS WAGERING OPERATOR MAY CONDUCT ONLINE
+SPORTS WAGERING ON BEHALF OF MORE THAN ONE MOBILE SPORTS WAGERING
+LICENSEE.
+9–1E–11.
+(A) AN INDIVIDUAL MAY NOT WAGER ON A SPORTING EVENT AND A SPORTS
+WAGERING LICENSEE MAY NOT ACCEPT A WAGER FROM AN INDIVIDUAL ON A
+SPORTING EVENT IF THE INDIVIDUAL:
+(1) IS UNDER THE AGE OF 21 YEARS;
+(2) IS NOT PHYSICALLY PRESENT IN THE STATE;
+(3) IS AN ATHLETE, A COACH, A REFEREE, OR A DIRECTOR OR AN
+EMPLOYEE OF A SPORTS GOVERNING ENTITY OR ANY OF ITS MEMBER TEAMS;
+(4) IS THE DIRECT OR INDIRECT LEGAL OR BENEFICIAL OWNER OF
+10% OR MORE OF A SPORTS GOVERNING ENTITY OR ANY OF ITS MEMBER TEAMS IF
+ANY MEMBER TEAM OF THAT SPORTS GOVERNING ENTITY PARTICIPATES IN THE
+SPORTING EVENT;
+(5) HAS ACCESS TO CERTAIN TYPES OF EXCLUSIVE INFORMATION ON
+ANY SPORTING EVENT OVERSEEN BY THAT INDIVIDUAL’S SPORTS GOVERNING
+ENTITY;
+(6) HOLDS A POSITION OF AUTHORITY OR INFLUENCE SUFFICIENT TO
+EXERT INFLUENCE OVER THE PARTICIPANTS IN A SPORTING EVENT, INCLUDING
+COACHES, MANAGERS, HANDLERS, OR ATHLETIC TRAINERS;
+(7) IS IDENTIFIED ON A MANDATORY OR VOLUNTARY SPORTS
+WAGERING EXCLUSION LIST MAINTAINED BY THE COMMISSION;
+(8) IS THE OPERATOR, DIRECTOR, OFFICER, OWNER, OR EMPLOYEE
+OF THE SPORTS WAGERING LICENSEE OR ONLINE SPORTS WAGERING OPERATOR OR
+– 33 –
+
+=== page 34 ===
+Ch. 356 2021 LAWS OF MARYLAND
+ANY RELATIVE OF THE LICENSEE OR OPERATOR LIVING IN THE SAME HOUSEHOLD
+AS THE LICENSEE OR OPERATOR;
+(9) HAS ACCESS TO NONPUBLIC CONFIDENTIAL INFORMATION HELD
+BY THE SPORTS WAGERING LICENSEE OR ONLINE SPORTS WAGERING OPERATOR; OR
+(10) IS A CATEGORY OF INDIVIDUALS PROHIBITED BY THE
+COMMISSION UNDER SUBSECTION (E) OF THIS SECTION FROM WAGERING ON A
+SPORTING EVENT.
+(B) FOR ONLINE SPORTS WAGERING, A MOBILE SPORTS WAGERING
+LICENSEE SHALL:
+(1) HAVE IN PLACE TECHNICAL AND OPERATIONAL MEASURES TO
+PREVENT ACCESS BY INDIVIDUALS WHO ARE UNDERAGE OR PHYSICALLY LOCATED
+OUTSIDE THE STATE, INCLUDING:
+(I) AGE VERIFICATION PROCEDURES, WHICH MAY REQUIRE
+THE USE OF A REPUTABLE INDEPENDENT THIRD PARTY THAT IS IN THE BUSINESS
+OF VERIFYING AN INDIVIDUAL’S PERSONALLY IDENTIFIABLE INFORMATION; AND
+(II) THE USE OF GEOLOCATION TECHNOLOGY TO VERIFY A
+BETTOR’S GEOGRAPHIC LOCATION;
+(2) INCLUDE ON ITS ONLINE SPORTS WAGERING WEBSITE A
+DESCRIPTION OF THE POSSIBLE REPERCUSSIONS FOR AN UNDERAGE OR
+OUT–OF–STATE BETTOR, WHICH MAY INCLUDE IMMEDIATE STOPPAGE OF PLAY,
+ACCOUNT CLOSURE, AND FORFEITURE AND CONFISCATION OF WINNINGS; AND
+(3) ESTABLISH PROCEDURES TO PREVENT PROHIBITED INDIVIDUALS
+FROM WAGERING ON SPORTING EVENTS.
+(C) A SPORTS WAGERING LICENSEE SHALL:
+(1) PROMPTLY REPORT TO THE COMMISSION:
+(I) ANY CRIMINAL OR DISCIPLINARY PROCEEDINGS AGAINST
+THE LICENSEE OR ITS EMPLOYEES IN CONNECTION WITH THE LICENSEE’S SPORTS
+WAGERING OPERATION;
+(II) ANY ABNORMAL BETTING ACTIVITY OR PATTERNS THAT
+MAY INDICATE A CONCERN ABOUT THE INTEGRITY OF A SPORTING EVENT;
+– 34 –
+
+=== page 35 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+(III) ANY OTHER CONDUCT WITH THE POTENTIAL TO CORRUPT
+THE OUTCOME OF A SPORTING EVENT FOR PURPOSES OF FINANCIAL GAIN,
+INCLUDING MATCH FIXING; AND
+(IV) ANY SUSPICIOUS OR ILLEGAL WAGERING ACTIVITIES,
+INCLUDING THE USE OF FUNDS DERIVED FROM ILLEGAL ACTIVITY, WAGERS TO
+CONCEAL OR LAUNDER FUNDS DERIVED FROM ILLEGAL ACTIVITY, USE OF AGENTS
+TO PLACE WAGERS, OR USE OF FALSE IDENTIFICATION; AND
+(2) MAINTAIN RECORDS OF SPORTS WAGERING OPERATIONS IN
+ACCORDANCE WITH REGULATIONS ADOPTED BY THE COMMISSION.
+(D) THE COMMISSION IS AUTHORIZED TO SHARE ANY INFORMATION UNDER
+THIS SECTION WITH ANY LAW ENFORCEMENT AGENCY, SPORTS TEAM, SPORTS
+GOVERNING ENTITY, OR REGULATORY AGENCY THE COMMISSION DEEMS
+APPROPRIATE.
+(E) (1) IN THIS SUBSECTION, “INTERESTED PARTY” MEANS:
+(I) A SPORTS WAGERING LICENSEE;
+(II) A PROFESSIONAL SPORTS TEAM, LEAGUE, ASSOCIATION, OR
+GOVERNING ENTITY; OR
+(III) AN INSTITUTION OF HIGHER EDUCATION.
+(2) IF AN INTERESTED PARTY BELIEVES THAT A TYPE OR FORM OF
+WAGERING OR A CATEGORY OF INDIVIDUALS WAGERING ON SPORTING EVENTS IS
+CONTRARY TO PUBLIC POLICY, IS UNFAIR TO CONSUMERS, OR AFFECTS THE
+INTEGRITY OF A PARTICULAR SPORT OR THE SPORTS WAGERING INDUSTRY, THE
+INTERESTED PARTY MAY SUBMIT TO THE COMMISSION, IN WRITING, A REQUEST TO
+PROHIBIT THE TYPE OR FORM OF SPORTS WAGERING OR THE CATEGORY OF
+INDIVIDUALS FROM WAGERING ON SPORTING EVENTS.
+(3) THE AFTER CONDUCTING A PUBLIC HEARING ON A REQUEST
+SUBMITTED UNDER PARAGRAPH (2) OF THIS SUBSECTION, THE COMMISSION MAY
+GRANT A THE REQUEST SUBMITTED UNDER PARAGRAPH (2) OF THIS SUBSECTION
+ON A SHOWING OF GOOD CAUSE BY THE INTERESTED PARTY.
+(4) THE COMMISSION SHALL RESPOND TO A REQUEST UNDER THIS
+SUBSECTION CONCERNING A PARTICULAR SPORTING EVENT BEFORE THE START OF
+THE SPORTING EVENT TO THE GREATEST EXTENT FEASIBLE, OR AS SOON AS
+PRACTICABLE.
+– 35 –
+
+=== page 36 ===
+Ch. 356 2021 LAWS OF MARYLAND
+9–1E–12.
+(A) (1) THE COMMISSION SHALL ACCOUNT TO THE COMPTROLLER FOR
+ALL OF THE REVENUE UNDER THIS SUBTITLE.
+(2) THE PROCEEDS FROM SPORTS WAGERING, LESS THE AMOUNT
+RETAINED BY THE LICENSEE UNDER SUBSECTION (B)(1) OF THIS SECTION, SHALL
+BE UNDER THE CONTROL OF THE COMPTROLLER AND DISTRIBUTED AS PROVIDED
+UNDER SUBSECTION (B) OF THIS SECTION.
+(B) (1) (I) EXCEPT AS PROVIDED IN SUBPARAGRAPHS (II) AND (III)
+(II), (III), AND (IV) OF THIS PARAGRAPH, ALL PROCEEDS FROM SPORTS WAGERING
+SHALL BE ELECTRONICALLY TRANSFERRED DAILY MONTHLY INTO THE STATE
+LOTTERY FUND ESTABLISHED UNDER SUBTITLE 1 OF THIS TITLE.
+(II) A CLASS A–1 AND A–2 SPORTS WAGERING FACILITY
+LICENSEE SHALL RETAIN 85% OF THE PROCEEDS FROM SPORTS WAGERING
+CONDUCTED AT THE LOCATIONS DESCRIBED IN § 9–1E–09(A) OF THIS SUBTITLE.
+(III) A MOBILE SPORTS WAGERING LICENSEE SHALL RETAIN:
+1. OF THE FIRST $5,000,000 OF PROCEEDS FROM
+ONLINE SPORTS WAGERING RECEIVED BY THE SPORTS WAGERING LICENSEE
+DURING THE CALENDAR YEAR, 85% OF THE PROCEEDS; AND
+2. OF ANY PROCEEDS FROM ONLINE SPORTS WAGERING
+RECEIVED BY THE SPORTS WAGERING LICENSEE DURING THE CALENDAR YEAR
+EXCEEDING $5,000,000, 82.5% OF THE PROCEEDS.
+(III) A CLASS B–1 AND B–2 SPORTS WAGERING FACILITY
+LICENSEE SHALL RETAIN 85% OF THE PROCEEDS FROM SPORTS WAGERING
+CONDUCTED AT THE LOCATION DESCRIBED IN THE LICENSEE’S APPLICATION.
+(IV) A MOBILE SPORTS WAGERING LICENSEE SHALL RETAIN 85%
+OF THE PROCEEDS FROM ONLINE SPORTS WAGERING RECEIVED BY THE LICENSEE.
+(2) ALL PROCEEDS FROM SPORTS WAGERING IN THE STATE LOTTERY
+FUND ESTABLISHED UNDER SUBTITLE 1 OF THIS TITLE SHALL BE DISTRIBUTED ON
+A MONTHLY BASIS, ON A PROPERLY APPROVED TRANSMITTAL PREPARED BY THE
+COMMISSION TO THE BLUEPRINT FOR MARYLAND’S FUTURE FUND ESTABLISHED
+UNDER § 5–219 5–206 OF THE EDUCATION ARTICLE.
+– 36 –
+
+=== page 37 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+(C) A WINNING WAGER ON A SPORTING EVENT THAT IS NOT CLAIMED BY THE
+WINNER WITHIN 182 DAYS AFTER THE WAGER IS WON SHALL:
+(1) BECOME THE PROPERTY OF THE STATE; AND
+(2) BE DISTRIBUTED TO THE BLUEPRINT FOR MARYLAND’S FUTURE
+FUND ESTABLISHED UNDER § 5–219 OF THE EDUCATION ARTICLE THE PROBLEM
+GAMBLING FUND ESTABLISHED UNDER § 9–1A–33 OF THIS TITLE.
+(D) IF A SPORTS WAGERING LICENSEE RETURNS TO SUCCESSFUL PLAYERS
+MORE THAN THE AMOUNT OF MONEY WAGERED ON ANY DAY IN ANY MONTH, THE
+LICENSEE MAY SUBTRACT THAT AMOUNT FROM THE PROCEEDS OF UP TO 90
+FOLLOWING DAYS THE THREE FOLLOWING MONTHS.
+9–1E–13.
+(A) ALL WAGERS ON SPORTING EVENTS AUTHORIZED UNDER THIS
+SUBTITLE SHALL BE INITIATED, RECEIVED, AND OTHERWISE MADE WITHIN THE
+STATE UNLESS OTHERWISE DETERMINED BY THE COMMISSION IN ACCORDANCE
+WITH APPLICABLE FEDERAL AND STATE LAWS.
+(B) CONSISTENT WITH THE INTENT OF THE UNITED STATES CONGRESS AS
+ARTICULATED IN THE UNLAWFUL INTERNET GAMBLING ENFORCEMENT ACT OF
+2006, THE INTERMEDIATE ROUTING OF ELECTRONIC DATA RELATING TO A LAWFUL
+INTRASTATE WAGER AUTHORIZED UNDER THIS SUBTITLE MAY NOT DETERMINE THE
+LOCATION IN WHICH THE WAGER IS INITIATED, RECEIVED, OR OTHERWISE MADE.
+(C) NOTWITHSTANDING THE PROVISIONS OF THIS SUBTITLE, A WAGER ON A
+SPORTING EVENT MAY BE ACCEPTED OR POOLED WITH A WAGER FROM AN
+INDIVIDUAL WHO IS NOT PHYSICALLY PRESENT IN THE STATE IF THE COMMISSION
+DETERMINES THAT ACCEPTING OR POOLING THE WAGER IS NOT INCONSISTENT
+WITH FEDERAL LAW OR THE LAW OF THE JURISDICTION, INCLUDING ANY FOREIGN
+NATION, IN WHICH THE INDIVIDUAL IS LOCATED, OR THAT SUCH WAGERING IS
+CONDUCTED IN ACCORDANCE WITH A RECIPROCAL AGREEMENT TO WHICH THE
+STATE IS A PARTY THAT IS NOT INCONSISTENT WITH FEDERAL LAW.
+9–1E–14.
+(A) ON OR BEFORE JULY 1 EACH YEAR, EACH SPORTS WAGERING LICENSEE
+SHALL REPORT TO THE COMMISSION ON:
+(1) THE NUMBER OF MINORITY AND WOMEN OWNERS OF THE
+APPLICANT LICENSEE;
+– 37 –
+
+=== page 38 ===
+Ch. 356 2021 LAWS OF MARYLAND
+(2) THE OWNERSHIP INTEREST OF ANY MINORITY AND WOMEN
+OWNERS OF THE APPLICANT LICENSEE;
+(3) THE NUMBER OF MINORITY AND WOMEN EMPLOYEES OF THE
+APPLICANT LICENSEE;
+(4) THE NUMBER OF CURRENT CONTRACTS THE LICENSEE HAS WITH
+MINORITY– AND WOMEN–OWNED SUBCONTRACTORS; AND
+(4) (5) ANY OTHER INFORMATION CONSIDERED NECESSARY BY
+THE COMMISSION.
+(B) ON OR BEFORE DECEMBER 1 EACH YEAR, THE COMMISSION SHALL
+REPORT TO THE GOVERNOR AND, IN ACCORDANCE WITH § 2–1257 OF THIS ARTICLE,
+TO THE GENERAL ASSEMBLY ON:
+(1) THE OPERATION OF SPORTS WAGERING IN THE STATE; AND
+(2) SPORTS WAGERING REVENUES FROM THE IMMEDIATELY
+PRECEDING FISCAL YEAR, INCLUDING THE HANDLE, HOLD, HOLD PERCENTAGE,
+AND PROCEEDS, BROKEN DOWN BY CATEGORIES DEFINED BY THE COMMISSION.
+(C) (1) SUBJECT TO PARAGRAPH (2) OF THIS SUBSECTION, ON OR BEFORE
+DECEMBER 1, 2025, THE COMMISSION SHALL REPORT TO THE GENERAL ASSEMBLY,
+IN ACCORDANCE WITH § 2–1257 OF THE STATE GOVERNMENT ARTICLE, ON THE
+RACIAL, ETHNIC, GENDER, AND GEOGRAPHIC DIVERSITY OF HOLDERS OF CLASS
+B–1 AND B–2 SPORTS WAGERING FACILITY LICENSES AND MOBILE SPORTS
+WAGERING LICENSES UNDER THIS SUBTITLE, THE LEVEL OF MARKET SATURATION
+OF SPORTS WAGERING IN THE STATE, AND WHETHER THE NUMBER OF CLASS B–1
+AND B–2 SPORTS WAGERING FACILITY LICENSES AND MOBILE SPORTS WAGERING
+LICENSES THAT MAY BE ISSUED UNDER THIS SUBTITLE SHOULD BE INCREASED IN
+ORDER TO ADDRESS THE DEMAND FOR SPORTS WAGERING IN THE STATE.
+(2) BEFORE THE COMMISSION SUBMITS THE REPORT DESCRIBED
+UNDER PARAGRAPH (1) OF THIS SUBSECTION, THE COMMISSION SHALL PROVIDE
+THE LEGISLATIVE POLICY COMMITTEE WITH AT LEAST 30 DAYS TO SUBMIT
+COMMENTS TO THE COMMISSION.
+9–1E–15.
+(A) THERE IS A SPORTS WAGERING APPLICATION REVIEW COMMISSION.
+– 38 –
+
+=== page 39 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+(B) (1) THE SPORTS WAGERING APPLICATION REVIEW COMMISSION
+CONSISTS OF THE FOLLOWING SEVEN MEMBERS:
+(I) THE CHAIR OF THE COMMISSION, OR THE CHAIR’S
+DESIGNEE;
+(II) TWO MEMBERS APPOINTED BY THE GOVERNOR;
+(III) TWO MEMBERS APPOINTED BY THE PRESIDENT OF THE
+SENATE, WHO MAY NOT BE MEMBERS OF THE SENATE; AND
+(IV) TWO MEMBERS APPOINTED BY THE SPEAKER OF THE
+HOUSE, WHO MAY NOT BE MEMBERS OF THE HOUSE OF DELEGATES.
+(2) THE MEMBERSHIP OF THE SPORTS WAGERING APPLICATION
+REVIEW COMMISSION APPOINTED UNDER THIS SUBSECTION SHOULD REFLECT THE
+RACE, GENDER, AND GEOGRAPHIC DIVERSITY OF THE POPULATION OF THE STATE.
+(3) THE GOVERNOR SHALL DESIGNATE A CHAIR OF THE SPORTS
+WAGERING APPLICATION REVIEW COMMISSION FROM AMONG THE MEMBERS
+DESCRIBED UNDER PARAGRAPH (1)(I) AND (II) OF THIS SUBSECTION.
+(4) THE GOVERNOR, IN CONSULTATION WITH THE PRESIDENT OF
+THE SENATE AND THE SPEAKER OF THE HOUSE, MAY REMOVE A MEMBER OF THE
+SPORTS WAGERING APPLICATION REVIEW COMMISSION FOR INEFFICIENCY,
+MISCONDUCT IN OFFICE, OR NEGLECT OF DUTY.
+(C) A MEMBER OF THE SPORTS WAGERING APPLICATION REVIEW
+COMMISSION:
+(1) SHALL BE AT LEAST 21 YEARS OLD;
+(2) SHALL BE A CITIZEN OF THE UNITED STATES;
+(3) SHALL BE A RESIDENT OF THE STATE;
+(4) SHALL BE KNOWLEDGEABLE AND EXPERIENCED IN FISCAL
+MATTERS AND SHALL HAVE AT LEAST 10 YEARS OF SUBSTANTIAL EXPERIENCE:
+(I) AS AN EXECUTIVE WITH FIDUCIARY RESPONSIBILITIES IN
+CHARGE OF A LARGE ORGANIZATION OR FOUNDATION;
+(II) IN AN ACADEMIC FIELD RELATING TO FINANCE OR
+ECONOMICS; OR
+– 39 –
+
+=== page 40 ===
+Ch. 356 2021 LAWS OF MARYLAND
+(III) AS AN ECONOMIST, A FINANCIAL ANALYST, OR AN
+ACCOUNTANT, OR AS A PROFESSIONAL IN A SIMILAR PROFESSION RELATING TO
+FISCAL MATTERS OR ECONOMICS;
+(5) MAY NOT HAVE BEEN CONVICTED OF OR GRANTED PROBATION
+BEFORE JUDGMENT FOR A SERIOUS CRIME OR A CRIME THAT INVOLVES GAMBLING
+OR MORAL TURPITUDE;
+(6) MAY NOT HAVE AN OFFICIAL RELATIONSHIP TO A PERSON THAT IS
+APPLYING FOR OR HOLDS A LICENSE UNDER THIS SUBTITLE OR SUBTITLE 1D OF
+THIS TITLE;
+(7) MAY NOT HAVE ANY DIRECT OR INDIRECT FINANCIAL INTEREST,
+OWNERSHIP, OR MANAGEMENT, INCLUDING HOLDING ANY STOCKS, BONDS, OR
+OTHER SIMILAR FINANCIAL INTERESTS IN ANY GAMING ACTIVITIES, INCLUDING
+HORSE RACING, VIDEO LOTTERY TERMINALS, FANTASY COMPETITIONS, OR
+LOTTERY;
+(8) MAY NOT RECEIVE OR SHARE IN, DIRECTLY OR INDIRECTLY, THE
+RECEIPTS OR PROCEEDS OF ANY GAMING ACTIVITIES, INCLUDING HORSE RACING
+OR LOTTERY;
+(9) MAY NOT HAVE A BENEFICIAL INTEREST IN ANY CONTRACT FOR
+THE MANUFACTURE OR SALE OF GAMING DEVICES, THE CONDUCT OF ANY GAMING
+ACTIVITY, OR THE PROVISION OF ANY INDEPENDENT CONSULTING SERVICES IN
+CONNECTION WITH ANY GAMING ESTABLISHMENT OR GAMING ACTIVITY;
+(10) MAY NOT BE AN ELECTED OFFICIAL OF STATE OR LOCAL
+GOVERNMENT; AND
+(11) SHALL FILE A FINANCIAL DISCLOSURE STATEMENT WITH THE
+STATE ETHICS COMMISSION IN ACCORDANCE WITH TITLE 15, SUBTITLE 6 OF THIS
+ARTICLE.
+(D) A MEMBER OF THE SPORTS WAGERING APPLICATION REVIEW
+COMMISSION:
+(1) MAY NOT RECEIVE COMPENSATION FOR SERVING ON THE SPORTS
+WAGERING LICENSE REVIEW COMMISSION; BUT
+(2) IS ENTITLED TO REIMBURSEMENT FOR EXPENSES UNDER THE
+STANDARD STATE TRAVEL REGULATIONS, AS PROVIDED IN THE STATE BUDGET.
+– 40 –
+
+=== page 41 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+(E) (1) THE COMMISSION AND THE DEPARTMENT OF LEGISLATIVE
+SERVICES SHALL PROVIDE STAFF TO THE SPORTS WAGERING APPLICATION
+REVIEW COMMISSION.
+(2) THE DEPARTMENT OF LEGISLATIVE SERVICES SHALL CONTRACT
+WITH AN INDEPENDENT CONSULTANT THAT HAS AT LEAST 10 YEARS OF
+SUBSTANTIAL EXPERIENCE IN CONSULTING ON MATTERS RELATING TO THE GAMING
+INDUSTRY TO ASSIST THE SPORTS WAGERING APPLICATION REVIEW COMMISSION
+IN THE REVIEW AND ANALYSIS OF APPLICATIONS SUBMITTED UNDER THIS SECTION.
+(F) THE SPORTS WAGERING APPLICATION REVIEW COMMISSION:
+(1) SHALL REVIEW APPLICATIONS FOR LICENSURE SPORTS
+WAGERING LICENSES SUBMITTED IN ACCORDANCE WITH § 9–1E–06 OF THIS
+SUBTITLE; AND
+(2) SHALL AWARD:
+(I) A CLASS A–1 OR A–2 FACILITY LICENSE TO ANY APPLICANT
+THAT MEETS THE REQUIREMENTS FOR LICENSURE UNDER THIS SUBTITLE; AND
+(II) A CLASS B–1 OR B–2 FACILITY LICENSE TO ANY APPLICANT
+THAT IS DESCRIBED UNDER § 9–1E–06(A)(2)(I) OF THIS SUBTITLE AND MEETS THE
+REQUIREMENTS FOR LICENSURE UNDER THIS SUBTITLE; AND
+(2) MAY AWARD NOT MORE THAN FIVE 10 CLASS B SPORTS WAGERING
+FACILITY LICENSES AND 10 15 MOBILE SPORTS WAGERING LICENSES TO QUALIFIED
+APPLICANTS, THROUGH A COMPETITIVE PROCESS CONSISTENT WITH THE PROCESS
+FOR COMPETITIVE SEALED PROPOSALS UNDER TITLE 13 OF THE STATE FINANCE
+AND PROCUREMENT ARTICLE.
+(3) MAY NOT AWARD A CLASS B–1 OR B–2 SPORTS WAGERING
+FACILITY LICENSE, OTHER THAN TO AN APPLICANT DESCRIBED UNDER §
+9–1E–06(A)(2)(I) OF THIS SUBTITLE, OR A MOBILE SPORTS WAGERING LICENSE
+UNTIL AFTER THE SPORTS WAGERING APPLICATION REVIEW COMMISSION ADOPTS
+THE REGULATIONS REQUIRED UNDER SUBSECTION (H) OF THIS SECTION.
+(G) NOTHING IN THIS SUBTITLE MAY BE CONSTRUED TO PREEMPT THE
+EXCLUSIVE AUTHORITY OF THE SPORTS WAGERING APPLICATION REVIEW
+COMMISSION TO AWARD SPORTS WAGERING LICENSES IN ACCORDANCE WITH THIS
+SUBTITLE.
+– 41 –
+
+=== page 42 ===
+Ch. 356 2021 LAWS OF MARYLAND
+(H) (1) THIS SUBSECTION APPLIES ONLY TO CLASS B–1 OR B–2 SPORTS
+WAGERING FACILITY LICENSES, OTHER THAN LICENSES ISSUED TO AN APPLICANT
+DESCRIBED UNDER § 9–1E–06(A)(2)(I) OF THIS SUBTITLE, AND MOBILE SPORTS
+WAGERING LICENSES.
+(2) SUBJECT TO PARAGRAPH (2) (3) OF THIS SUBSECTION, THE
+SPORTS WAGERING APPLICATION REVIEW COMMISSION SHALL ADOPT
+REGULATIONS GOVERNING THE EVALUATION OF APPLICATIONS FOR CLASS B–1 OR
+B–2 SPORTS WAGERING FACILITY LICENSES, OTHER THAN LICENSES ISSUED TO AN
+APPLICANT DESCRIBED UNDER § 9–1E–06(A)(2)(I) OF THIS SUBTITLE, AND MOBILE
+LICENSURE SPORTS WAGERING LICENSES SUBMITTED IN ACCORDANCE WITH §
+9–1E–06 OF THIS SUBTITLE.
+(2) (3) THE SPORTS WAGERING APPLICATION REVIEW
+COMMISSION, IN CONSULTATION WITH THE CERTIFICATION AGENCY AS DEFINED IN
+§ 14–301 OF THE STATE FINANCE AND PROCUREMENT ARTICLE, THE GOVERNOR’S
+OFFICE OF SMALL, MINORITY, AND WOMEN BUSINESS AFFAIRS, AND THE OFFICE
+OF THE ATTORNEY GENERAL, SHALL:
+(I) EVALUATE A STUDY OF THE SPORTS WAGERING INDUSTRY
+AND MARKET TO DETERMINE WHETHER THERE IS A COMPELLING INTEREST TO
+IMPLEMENT REMEDIAL MEASURES, IN ADDITION TO THE APPLICATION OF THE
+STATE MINORITY BUSINESS ENTERPRISE PROGRAM UNDER TITLE 14, SUBTITLE 3
+OF THE STATE FINANCE AND PROCUREMENT ARTICLE OR A SIMILAR PROGRAM, TO
+ASSIST MINORITIES AND WOMEN IN THE SPORTS WAGERING INDUSTRY;
+(II) EVALUATE RACE–NEUTRAL PROGRAMS OR OTHER
+METHODS THAT MAY BE USED TO ADDRESS THE NEEDS OF MINORITY AND WOMEN
+APPLICANTS MINORITIES, WOMEN, AND MINORITY AND WOMEN–OWNED
+BUSINESSES SEEKING TO PARTICIPATE IN THE SPORTS WAGERING INDUSTRY,
+INCLUDING THROUGH THE OWNERSHIP OF ENTITIES LICENSED TO CONDUCT
+SPORTS WAGERING UNDER THIS SUBTITLE; AND
+(III) CONSIDER WHETHER AN APPLICANT FOR A CLASS B–1 OR
+B–2 SPORTS WAGERING FACILITY LICENSE INTENDS TO CONDUCT SPORTS
+WAGERING AT A FACILITY LOCATED IN AN OPPORTUNITY ZONE OR AN ENTERPRISE
+ZONE;
+(IV) CONSIDER ALLOWING EARLY ACCESS TO THE MOBILE
+SPORTS WAGERING MARKET TO ENTITIES WITH A MEANINGFUL PARTNERSHIP WITH
+MINORITIES, WOMEN, AND MINORITY– AND WOMEN–OWNED BUSINESSES; AND
+– 42 –
+
+=== page 43 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+(V) ADOPT EMERGENCY REGULATIONS TO IMPLEMENT
+REMEDIAL MEASURES, IF NECESSARY AND TO THE EXTENT PERMITTED BY STATE
+AND FEDERAL LAW, BASED ON THE FINDINGS OF THE STUDY EVALUATED UNDER
+ITEM (I) OF THIS PARAGRAPH.
+(3) (4) THE SPORTS WAGERING APPLICATION REVIEW
+COMMISSION SHALL:
+(I) TO THE EXTENT PERMITTED BY FEDERAL AND STATE LAW,
+ACTIVELY SEEK TO ACHIEVE RACIAL, ETHNIC, AND GENDER DIVERSITY WHEN
+AWARDING LICENSES; AND
+(II) ENCOURAGE APPLICANTS WHO QUALIFY AS A MINORITY
+BUSINESS ENTERPRISE, AS DEFINED IN § 14–301 OF THE STATE FINANCE AND
+PROCUREMENT ARTICLE, OR WHO ARE SMALL, MINORITY, OR WOMEN–OWNED
+BUSINESS ENTITIES TO APPLY FOR SPORTS WAGERING LICENSES UNDER THIS
+SUBTITLE.
+(I) (1) IF AN APPLICANT IS SEEKING INVESTORS IN THE ENTITY
+APPLYING FOR A SPORTS WAGERING LICENSE, THE APPLICANT SHALL TAKE THE
+FOLLOWING STEPS BEFORE BEING AWARDED A LICENSE BY THE SPORTS WAGERING
+APPLICATION REVIEW COMMISSION:
+(I) MAKE SERIOUS, GOOD–FAITH EFFORTS TO SOLICIT AND
+INTERVIEW A REASONABLE NUMBER OF MINORITY AND WOMEN INVESTORS; AND
+(II) AS PART OF THE APPLICATION, SUBMIT A STATEMENT THAT
+LISTS THE NAMES AND ADDRESSES OF ALL MINORITY AND WOMEN INVESTORS
+INTERVIEWED AND WHETHER OR NOT ANY OF THOSE INVESTORS HAVE PURCHASED
+AN EQUITY SHARE IN THE ENTITY SUBMITTING AN APPLICATION.
+(2) IF AN APPLICANT IS AWARDED A LICENSE BY THE SPORTS
+WAGERING APPLICATION REVIEW COMMISSION, THE APPLICANT SHALL SIGN A
+MEMORANDUM OF UNDERSTANDING WITH THE SPORTS WAGERING APPLICATION
+REVIEW COMMISSION THAT REQUIRES THE AWARDEE TO AGAIN MAKE SERIOUS,
+GOOD–FAITH EFFORTS TO INTERVIEW MINORITY AND WOMEN INVESTORS IN ANY
+FUTURE ATTEMPTS TO RAISE VENTURE CAPITAL OR ATTRACT NEW INVESTORS TO
+THE ENTITY AWARDED THE LICENSE.
+(3) THE GOVERNOR’S OFFICE OF SMALL, MINORITY, AND WOMEN
+BUSINESS AFFAIRS, IN CONSULTATION WITH THE OFFICE OF THE ATTORNEY
+GENERAL, SHALL PROVIDE ASSISTANCE TO ALL POTENTIAL APPLICANTS AND
+– 43 –
+
+=== page 44 ===
+Ch. 356 2021 LAWS OF MARYLAND
+POTENTIAL MINORITY AND WOMEN INVESTORS TO SATISFY THE REQUIREMENTS
+UNDER PARAGRAPHS (1)(I) AND (2) OF THIS SUBSECTION.
+(J) THE SPORTS WAGERING APPLICATION REVIEW COMMISSION MAY NOT
+AWARD A SPORTS WAGERING LICENSE TO A PERSON THAT IS NOT QUALIFIED UNDER
+THIS SECTION OR THIS SUBTITLE.
+(K) (1) THE SPORTS WAGERING APPLICATION REVIEW COMMISSION
+SHALL REFER TO THE STATE LOTTERY AND GAMING CONTROL COMMISSION THE
+NAME AND ALL RELEVANT INFORMATION CONCERNING A PERSON THAT MAKES AN
+APPLICATION UNDER THIS SECTION.
+(2) ON RECEIPT OF THE INFORMATION IN PARAGRAPH (1) OF THIS
+SUBSECTION, THE STATE LOTTERY AND GAMING CONTROL COMMISSION SHALL
+EVALUATE WHETHER AN APPLICANT IS QUALIFIED TO HOLD A SPORTS WAGERING
+LICENSE UNDER THIS SUBTITLE.
+(3) ON COMPLETION OF ITS DETERMINATION, THE STATE LOTTERY
+AND GAMING CONTROL COMMISSION SHALL NOTIFY THE SPORTS WAGERING
+APPLICATION REVIEW COMMISSION OF ITS EVALUATION AS TO WHETHER AN
+APPLICANT IS QUALIFIED TO HOLD A SPORTS WAGERING LICENSE UNDER THIS
+SUBTITLE.
+(L) AFTER AN AWARD OF A SPORTS WAGERING LICENSE UNDER THIS
+SECTION, THE SPORTS WAGERING APPLICATION REVIEW COMMISSION SHALL
+NOTIFY THE STATE LOTTERY AND GAMING CONTROL COMMISSION OF THE
+SUCCESSFUL APPLICANTS.
+(M) AFTER AN AWARD OF A SPORTS WAGERING LICENSE UNDER THIS
+SECTION, THE STATE LOTTERY AND GAMING CONTROL COMMISSION SHALL:
+(1) ISSUE THE SPORTS WAGERING LICENSE IN ACCORDANCE WITH
+THE PROVISIONS OF THIS SUBTITLE; AND
+(2) BE RESPONSIBLE FOR ALL MATTERS RELATING TO REGULATION
+OF THE LICENSEE.
+(N) (1) AN UNSUCCESSFUL APPLICANT FOR A SPORTS WAGERING
+LICENSE UNDER THIS SECTION MAY SEEK, UNDER TITLE 15 OF THE STATE FINANCE
+AND PROCUREMENT ARTICLE, REVIEW BY THE STATE BOARD OF CONTRACT
+APPEALS OF THE AWARDING OF THE SPORTS WAGERING LICENSE BY THE SPORTS
+WAGERING APPLICATION REVIEW COMMISSION.
+– 44 –
+
+=== page 45 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+(2) A PROCEEDING UNDER THIS SUBSECTION SHALL:
+(I) TAKE PRECEDENCE ON THE BOARD’S DOCKET;
+(II) BE HEARD AT THE EARLIEST PRACTICABLE DATE; AND
+(III) BE EXPEDITED IN EVERY WAY.
+(O) (1) NOTHING IN THIS SUBTITLE MAY BE CONSTRUED TO REQUIRE THE
+SPORTS WAGERING APPLICATION REVIEW COMMISSION TO AWARD ALL FIVE 10
+CLASS B SPORTS WAGERING FACILITY LICENSES OR ALL 10 15 MOBILE SPORTS
+WAGERING LICENSES AUTHORIZED UNDER THIS SUBTITLE.
+(2) NOTWITHSTANDING ANY OF THE PROVISIONS OF THIS SUBTITLE,
+THE SPORTS WAGERING APPLICATION REVIEW COMMISSION MAY NOT AWARD A
+SPORTS WAGERING LICENSE UNDER THIS SUBTITLE UNLESS THE SPORTS
+WAGERING APPLICATION REVIEW COMMISSION DETERMINES AND DECLARES THAT
+AN APPLICANT SELECTED FOR AWARD OF THE LICENSE IS IN THE PUBLIC INTEREST
+AND IS CONSISTENT WITH THE PURPOSES OF THIS SUBTITLE.
+(P) THE SPORTS WAGERING APPLICATION REVIEW COMMISSION MAY
+AWARD A SPORTS WAGERING LICENSE THAT IS REVOKED OR SURRENDERED
+UTILIZING THE CRITERIA ESTABLISHED IN THIS SUBTITLE.
+(Q) (1) EXCEPT AS PROVIDED IN PARAGRAPH (2) OF THIS SUBSECTION,
+THE SPORTS WAGERING APPLICATION REVIEW COMMISSION SHALL TERMINATE
+ON JANUARY 1, 2028.
+(2) THE GOVERNOR MAY RECONSTITUTE THE SPORTS WAGERING
+APPLICATION REVIEW COMMISSION, WHICH SHALL INCLUDE THE APPOINTMENT OF
+NEW MEMBERS BASED ON THE CRITERIA ESTABLISHED UNDER SUBSECTIONS (B)
+AND (C) OF THIS SECTION:
+(I) 1 YEAR PRIOR TO THE EXPIRATION OF A SPORTS WAGERING
+LICENSE; OR
+(II) FOLLOWING THE REVOCATION OR SURRENDER OF A SPORTS
+WAGERING LICENSE.
+9–1E–16.
+(A) IN THIS SECTION, “FUND” MEANS THE SMALL, MINORITY–OWNED, AND
+WOMEN–OWNED BUSINESS SPORTS WAGERING ASSISTANCE FUND.
+– 45 –
+
+=== page 46 ===
+Ch. 356 2021 LAWS OF MARYLAND
+(B) THERE IS A SMALL, MINORITY–OWNED, AND WOMEN–OWNED
+BUSINESS SPORTS WAGERING ASSISTANCE FUND.
+(C) THE PURPOSE OF THE FUND IS TO ASSIST SMALL, MINORITY–OWNED,
+AND WOMEN–OWNED BUSINESSES ENTERING THE SPORTS WAGERING MARKET.
+(D) THE DEPARTMENT OF COMMERCE SHALL ADMINISTER THE FUND.
+(E) (1) THE FUND IS A SPECIAL, NONLAPSING FUND THAT IS NOT
+SUBJECT TO § 7–302 OF THE STATE FINANCE AND PROCUREMENT ARTICLE.
+(2) THE STATE TREASURER SHALL HOLD THE FUND SEPARATELY,
+AND THE COMPTROLLER SHALL ACCOUNT FOR THE FUND.
+(F) THE FUND CONSISTS OF:
+(1) REVENUE DISTRIBUTED TO THE FUND UNDER § 9–1E–07(D) OF
+THIS SUBTITLE;
+(2) MONEY APPROPRIATED IN THE STATE BUDGET TO THE FUND; AND
+(3) ANY OTHER MONEY FROM ANY OTHER SOURCE ACCEPTED FOR THE
+BENEFIT OF THE FUND.
+(G) THE FUND MAY BE USED ONLY FOR GRANTS OR LOANS TO SMALL,
+MINORITY–OWNED, OR WOMEN–OWNED BUSINESSES FOR:
+(1) SPORTS WAGERING LICENSE APPLICATION ASSISTANCE;
+(2) ASSISTANCE WITH SPORTS WAGERING OPERATIONS; OR
+(3) TARGETED TRAINING TO SUPPORT PARTICIPATION IN THE SPORTS
+WAGERING INDUSTRY.
+(H) (1) THE STATE TREASURER SHALL INVEST THE MONEY OF THE FUND
+IN THE SAME MANNER AS OTHER STATE MONEY MAY BE INVESTED.
+(2) ANY INTEREST EARNINGS OF THE FUND SHALL BE CREDITED TO
+THE GENERAL FUND OF THE STATE.
+(I) EXPENDITURES FROM THE FUND MAY BE MADE ONLY IN ACCORDANCE
+WITH THE STATE BUDGET.
+– 46 –
+
+=== page 47 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+SECTION 3. AND BE IT FURTHER ENACTED, That it is the intent of the General
+Assembly that the Sports Wagering Application Review Commission established under §
+9–1E–15 of the State Government Article, as enacted by Section 2 of this Act, shall:
+(1) evaluate the studies of the sports and event wagering industry
+conducted by National Economic Research Associates, Inc., and Keen Independent
+Research and any other information that the Commission deems necessary;
+(2) examine the factors examined and remedial measures implemented by
+the Natalie M. LaPrade Medical Cannabis Commission with respect to the licensure of
+medical cannabis growers, processors, and dispensaries and determine whether similar
+factors and remedial measures may be applied to the sports wagering industry; and
+(3) in order to maintain the competitiveness of the State’s gaming program,
+conduct its work as expeditiously as possible and in a manner that is in the best interests
+of Maryland and its citizens.
+SECTION 4. AND BE IT FURTHER ENACTED, That the certification agency
+designated by the Board of Public Works under § 14–303(b) of the State Finance and
+Procurement Article to certify and decertify minority business enterprises, in consultation
+with the Office of the Attorney General and the Governor’s Office of Small, Minority, and
+Women Business Affairs, shall:
+(1) initiate an analysis of the following to evaluate compliance with any
+federal and constitutional requirements:
+(i) the Minority Business Enterprise Program requirements of §
+10A–404 of the State Finance and Procurement Article and § 9–1E–07(b) of the State
+Government Article, as enacted by Section 2 of this Act;
+(ii) any remedial measures implemented in accordance with §
+9–1E–15 of the State Government Article, as enacted by Section 2 of this Act; and
+(iii) the disparity study submitted pursuant to Chapter 340 of the
+Acts of the General Assembly of 2017 to evaluate compliance with the requirements of any
+federal and constitutional requirements and; and
+(2) submit a report on the analysis to the Legislative Policy Committee of
+the General Assembly, in accordance with § 2–1257 of the State Government Article, on or
+before December 1, 2023.
+SECTION 5. AND BE IT FURTHER ENACTED, That:
+(a) For fiscal year 2023, the Governor shall include in the annual budget bill an
+appropriation in the amount of:
+– 47 –
+
+=== page 48 ===
+Ch. 356 2021 LAWS OF MARYLAND
+(1) $1,500,000 for Morgan State University; and
+(2) $1,500,000 for Bowie State University.
+(b) The appropriation required under subsection (a) of this section shall be used to
+establish a Center for the Study of Data Analytics and Sports Gaming at each university.
+(c) The Center shall study and analyze emerging sports technologies, e–sports,
+operations management, policy, and regulation, and support scholarly inquiry on the
+dimensions and impacts of gaming to academic, industry, nonprofit, and government
+audiences.
+SECTION 6. AND BE IT FURTHER ENACTED, That for fiscal year 2022 only and
+from only those additional revenues resulting from this Act that are credited to the Blueprint
+for Maryland’s Future Fund for fiscal year 2022, and from no other funds, and subject to
+the provisions of law relating to budgetary procedure to the extent applicable, the amounts
+specified below are hereby appropriated and authorized to be disbursed to the following
+programs authorized by Chapter 36 of the Acts of the General Assembly of 2021 in the
+following priority order from as much of those additional revenues as are received by the
+State:
+(1) Accountability and Implementation Board – $4,800,000;
+(2) Model Curriculum and Instructional Materials – $2,500,000;
+(3) Expert Review Teams – $1,300,000;
+(4) Career and Technology Education Committee – $700,000;
+(5) Blueprint for Maryland’s Future Program Training – $2,000,000;
+(6) Maryland State Department of Education Financial System –
+$2,500,000; and
+(7) An educational organization that received funding under the Funding
+for Educational Organizations (R00A03) – Other Institutions (R00A03.03) in fiscal year
+2020 but not in fiscal years 2021 or 2022 – $500,000.
+SECTION 5. AND BE IT FURTHER ENACTED, That this Act shall take effect June
+1, 2021.
+SECTION 7. AND BE IT FURTHER ENACTED, That, if any provision of this Act or
+the application thereof to any person or circumstance is held invalid for any reason in a
+court of competent jurisdiction, the invalidity does not affect other provisions or any other
+application of this Act that can be given effect without the invalid provision or application,
+and for this purpose the provisions of this Act are declared severable.
+– 48 –
+
+=== page 49 ===
+LAWRENCE J. HOGAN, JR., Governor Ch. 356
+SECTION 8. AND BE IT FURTHER ENACTED, That this Act is an emergency
+measure, is necessary for the immediate preservation of the public health or safety, has been
+passed by a yea and nay vote supported by three–fifths of all the members elected to each of
+the two Houses of the General Assembly, and shall take effect from the date it is enacted.
+Approved by the Governor, May 18, 2021.
+– 49 –

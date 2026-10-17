@@ -1,0 +1,910 @@
+=== page 1 ===
+CHAPTER 147 1
+CHAPTER 147
+( HB 551 )
+AN ACT relating to wagering and making an appropriation therefor.
+Be it enacted by the General Assembly of the Commonwealth of Kentucky:
+SECTION 1. A NEW SECTION OF KRS CHAPTER 230 IS CREATED TO READ AS FOLLOWS:
+(1) (a) There is hereby established in the State Treasury a restricted account to be known as the sports
+wagering administration fund. The fund shall consist of moneys received from the moneys collected
+under Sections 10, 11, and 14 of this Act and state appropriations.
+(b) 1. The amounts deposited in the fund shall be used as follows:
+a. For administrative expenses relating to or associated with the purposes of sports
+wagering which shall be disbursed by the Finance and Administration Cabinet upon
+the warrant of the Public Protection Cabinet; and
+b. Two and one-half percent (2.5%) of the funds shall be deposited in the Kentucky
+problem gambling assistance account established in Section 2 of this Act.
+2. The remaining funds shall be deposited in the Kentucky permanent pension fund established
+in KRS 42.205.
+3. Any interest accruing to the fund shall become a part of the fund and shall not lapse.
+(2) Notwithstanding KRS 45.229, fund amounts not expended at the close of a fiscal year shall not lapse but
+shall be carried forward into the next fiscal year.
+(3) Moneys deposited in the fund are hereby appropriated for the purposes set forth in this section and shall not
+be appropriated or transferred by the General Assembly for any other purposes.
+SECTION 2. A NEW SECTION OF KRS CHAPTER 230 IS CREATED TO READ AS FOLLOWS:
+(1) (a) There is established in the State Treasury a revolving account to be known as the Kentucky problem
+gambling assistance account.
+(b) The account shall be administered by the director of the Division of Behavioral Health of the
+Department for Behavioral Health, Developmental and Intellectual Disabilities, and shall consist of
+moneys distributed to it under Section 1 of this Act.
+(c) Notwithstanding KRS 45.229, moneys remaining in the account at the close of a fiscal year shall not
+lapse but shall carry forward into the succeeding fiscal year. Interest earned on any moneys in the
+account shall accrue to the account.
+(d) Except for administrative expenses of the Division of Behavioral Health relating to the account,
+which shall be limited to fifty thousand dollars ($50,000) per fiscal year, all moneys in the account
+are appropriated for, and shall be used exclusively for, the purposes of:
+1. Providing support to agencies, groups, organizations, and persons that provide education,
+assistance, and counseling to persons and families experiencing difficulty as a result of
+addiction to alcohol or drugs, or addictive or compulsive gambling;
+2. Promoting public awareness of, and providing education about, addictions;
+3. Establishing and funding programs to certify addiction counselors;
+4. Promoting public awareness of assistance programs for addicts; and
+5. Paying the costs and expenses associated with the treatment of addictions.
+(2) The Cabinet for Health and Family Services shall promulgate administrative regulations to establish
+criteria for the expenditure of funds from the Kentucky problem gambling assistance account. The
+administrative regulations shall:
+Legislative Research Commission PDF Version
+
+=== page 2 ===
+2 ACTS OF THE GENERAL ASSEMBLY
+(a) Establish standards for the types of agencies, groups, organizations, and persons eligible to receive
+funding;
+(b) Establish standards for the types of activities eligible for funding;
+(c) Establish standards for the appropriate documentation of past performance and the activities of
+agencies, groups, organizations, and persons requesting funding;
+(d) Establish standards for the development of performance measures or other evidence of successful
+expenditure of awarded funds;
+(e) Set forth procedures for the submission, evaluation, and review of applications for funding;
+(f) Set forth procedures for making funding awards to requesting entities who have demonstrated the
+capability to efficiently and effectively provide the necessary services;
+(g) Establish requirements and procedures for the monitoring of funds awarded, including requirements
+for the submission of reports and documentation supporting expenditures; and
+(h) Include any other provisions related to funding or the administration of the account as determined by
+the cabinet.
+(3) On or before October 1, 2024, and every October 1 thereafter, the director of the Division of Behavioral
+Health, in cooperation with the commissioner of the Department for Behavioral Health, Developmental and
+Intellectual Disabilities and the secretary of the Cabinet for Health and Family Services, shall submit an
+annual report detailing activities and expenditures associated with the Kentucky problem gambling
+assistance account for the preceding fiscal year. The annual report shall be submitted to:
+(a) The Legislative Research Commission; and
+(b) The Governor.
+Section 3. KRS 230.210 is amended to read as follows:
+As used in this chapter, unless the context requires otherwise:
+(1) "Advance deposit account wagering" means a form of pari-mutuel wagering in which an individual may
+establish an account with a person or entity licensed by the racing commission, and may place a pari-mutuel
+wager through that account that is permitted by law;
+(2) "Advance deposit account wagering licensee" means a person or entity licensed by the racing commission to
+conduct advance deposit account wagering and accept deposits and wagers, issue a receipt or other
+confirmation to the account holder evidencing such deposits and wagers, and transfer credits and debits to and
+from accounts;
+(3) "Amateur youth sporting event" means any sporting event in which an individual:
+(a) Shall be less than eighteen (18) years of age to participate; and
+(b) Is prohibited, as a condition of participating in the sporting event, from receiving direct or indirect
+compensation for the use of the individual's athletic skill in any manner with respect to the sport in
+which the particular sporting event is conducted;
+(4)[(3)] "Appaloosa race" or "Appaloosa racing" means that form of horse racing in which each horse
+participating in the race is registered with the Appaloosa Horse Club of Moscow, Idaho, and is mounted by a
+jockey;
+(5)[(4)] "Arabian" means a horse that is registered with the Arabian Horse Registry of Denver, Colorado;
+(6)[(5)] "Association" means any person licensed by the Kentucky Horse Racing Commission under KRS
+230.300 and engaged in the conduct of a recognized horse race meeting;
+(7) "Geofence" means a virtual geographic boundary defined by Global Positioning System (GPS) or Radio
+Frequency Identification (RFID) technology;
+(8)[(6)] "Harness race" or "harness racing" means trotting and pacing races of the standardbred horses;
+(9)[(7)] "Horse race meeting" means horse racing run at an association licensed and regulated by the Kentucky
+Horse Racing Commission, and may include Thoroughbred, harness, Appaloosa, Arabian, paint, and quarter
+horse racing;
+
+=== page 3 ===
+CHAPTER 147 3
+(10)[(8)] "Host track" means the track conducting racing and offering its racing for intertrack wagering, or, in the
+case of interstate wagering, means the Kentucky track conducting racing and offering simulcasts of races
+conducted in other states or foreign countries;
+(11)[(9)] "Intertrack wagering" means pari-mutuel wagering on simulcast horse races from a host track by
+patrons at a receiving track;
+(12)[(10)] "Interstate wagering" means pari-mutuel wagering on simulcast horse races from a track located in
+another state or foreign country by patrons at a receiving track or simulcast facility;
+(13)[(11)] "Kentucky quarter horse, paint horse, Appaloosa, and Arabian purse fund" means a purse fund
+established to receive funds as specified in KRS 230.3771 for purse programs established in KRS 230.446 to
+supplement purses for quarter horse, paint horse, Appaloosa, and Arabian horse races. The purse program shall
+be administered by the Kentucky Horse Racing Commission;
+(14)[(12)] "Kentucky resident" means:
+(a) An individual domiciled within this state;
+(b) An individual who maintains a place of abode in this state and spends, in the aggregate, more than one
+hundred eighty-three (183) days of the calendar year in this state; or
+(c) An individual who lists a Kentucky address as his or her principal place of residence when applying for
+an account to participate in advance deposit account wagering;
+(15) "Licensed facility for sports wagering" means the designated areas to conduct sports wagering for a track
+licensed to conduct sports wagering pursuant to Section 10 of this Act;
+(16)[(13)] "Licensed premises" means a track or simulcast facility licensed by the racing commission under this
+chapter;
+(17)[(14)] "Paint horse" means a horse registered with the American Paint Horse Association of Fort Worth,
+Texas;
+(18)[(15)] "Pari-mutuel wagering," "pari-mutuel system of wagering," or "mutuel wagering" each means any
+method of wagering previously or hereafter approved by the racing commission in which one (1) or more
+patrons wager on a horse race or races, whether live, simulcast, or previously run. Wagers shall be placed in
+one (1) or more wagering pools, and wagers on different races or sets of races may be pooled together. Patrons
+may establish odds or payouts, and winning patrons share in amounts wagered including any carryover
+amounts, plus any amounts provided by an association less any deductions required, as approved by the racing
+commission and permitted by law. Pools may be paid out incrementally over time as approved by the racing
+commission;
+(19) "Person" means an individual, sole proprietorship, partnership, association, fiduciary, corporation, limited
+liability company, or any other business entity;
+(20)[(16)] "Principal" means any of the following individuals associated with a partnership, trust, association,
+limited liability company, or corporation that is licensed to conduct a horse race meeting or an applicant for a
+license to conduct a horse race meeting:
+(a) The chairman and all members of the board of directors of a corporation;
+(b) All partners of a partnership and all participating members of a limited liability company;
+(c) All trustees and trust beneficiaries of an association;
+(d) The president or chief executive officer and all other officers, managers, and employees who have
+policy-making or fiduciary responsibility within the organization;
+(e) All stockholders or other individuals who own, hold, or control, either directly or indirectly, five
+percent (5%) or more of stock or financial interest in the collective organization; and
+(f) Any other employee, agent, guardian, personal representative, or lender or holder of indebtedness who
+has the power to exercise a significant influence over the applicant's or licensee's operation;
+(21)[(17)] "Quarter horse" means a horse that is registered with the American Quarter Horse Association of
+Amarillo, Texas;
+Legislative Research Commission PDF Version
+
+=== page 4 ===
+4 ACTS OF THE GENERAL ASSEMBLY
+(22)[(18)] "Racing commission" means the Kentucky Horse Racing Commission;
+(23)[(19)] "Receiving track" means a track where simulcasts are displayed for wagering purposes. A track that
+submits an application for intertrack wagering shall meet all the regulatory criteria for granting an association
+license of the same breed as the host track, and shall have a heated and air-conditioned facility that meets all
+state and local life safety code requirements and seats a number of patrons at least equal to the average daily
+attendance for intertrack wagering on the requested breed in the county in which the track is located during the
+immediately preceding calendar year;
+(24)[(20)] "Simulcast facility" means any facility approved pursuant to the provisions of KRS 230.380 to
+simulcast live racing and conduct pari-mutuel wagering on live racing;
+(25)[(21)] "Simulcasting" means the telecast of live audio and visual signals of horse races for the purpose of pari-
+mutuel wagering;
+(26) "Sporting event" means an event at which two (2) or more persons participate in athletic contests, or an
+event that takes place in relation to athletic contests as approved by the racing commission but shall not
+include horse racing or amateur youth sports or athletic events in which the majority of participants are
+under the age of eighteen (18);
+(27) "Sports governing body" means the organization, league, or association that oversees a sport, prescribes
+final rules, and enforces codes of conduct with respect to such sport and participants therein;
+(28) "Sports wagering" means the wagering conducted under this chapter on sporting events or portions of
+sporting events, or on the individual performance statistics of athletes in a sporting event or combination of
+sporting events in conformance with federal law and as authorized by the racing commission pursuant to
+this chapter;
+(29) "Sports wagering device" means a mechanical, electrical, or computerized contrivance, terminal, device,
+apparatus, software, piece of equipment, or supply approved by the racing commission for conducting
+sports wagering under this chapter. This term includes a personal computer, mobile device, or other device
+used in connection with sports wagering not conducted at a licensed facility for sports wagering;
+(30) "Sports wagering service provider" or "service provider" means a person authorized to conduct or manage
+sports wagering through an agreement with a track and provide these services at a licensed facility for
+sports wagering, simulcast facility, or through a website or mobile interface approved by the racing
+commission;
+(31)[(22)] "Telephone account wagering" means a form of pari-mutuel wagering where an individual may deposit
+money in an account at a track and may place a wager by direct telephone call or by communication through
+other electronic media owned by the holder of the account to the track;
+(32)[(23)] "Thoroughbred race" or "Thoroughbred racing" means a form of horse racing in which each horse
+participating in the race is a Thoroughbred, (i.e., meeting the requirements of and registered with The Jockey
+Club of New York) and is mounted by a jockey; and
+(33)[(24)] "Track" means any association duly licensed by the Kentucky Horse Racing Commission to conduct
+horse racing and shall include:
+(a) For facilities in operation as of 2010, the location and physical plant described in the "Commonwealth
+of Kentucky Initial/Renewal Application for License to Conduct Live Horse Racing, Simulcasting, and
+Pari-Mutuel Wagering," filed for racing to be conducted in 2010;
+(b) Real property of an association, if the association received or receives approval from the racing
+commission after 2010 for a location at which live racing is to be conducted; or
+(c) One (1) facility or real property that is:
+1. Owned, leased, or purchased by an association within a sixty (60) mile radius of the association's
+racetrack but not contiguous to racetrack premises, upon racing commission approval; and
+2. Not within a sixty (60) mile radius of another licensed track premise where live racing is
+conducted and not within a forty (40) mile radius of a simulcast facility, unless any affected track
+or simulcast facility agrees in writing to permit a noncontiguous facility within the protected
+geographic area.
+SECTION 4. A NEW SECTION OF KRS CHAPTER 230 IS CREATED TO READ AS FOLLOWS:
+
+=== page 5 ===
+CHAPTER 147 5
+(1) The racing commission shall institute a system of sports wagering in conformance with federal law, this
+chapter, and by administrative regulations promulgated under the authority of Section 6 of this Act.
+(2) Sports wagering shall not be offered in this state except as authorized by this section and Section 10 of this
+Act. A track that holds a license to operate sports wagering may contract with sports wagering service
+providers to conduct or manage sports wagering operations as authorized by this chapter. Sports wagering
+may be provided at a licensed facility for sports wagering or online through a website or mobile application.
+The licensed facility for sports wagering or a sports wagering service provider may provide sports wagering
+through a website or mobile interface as approved by the racing commission. The racing commission may
+provide temporary licenses to licensed facilities for sports wagering or sports wagering service providers, if
+the commission deems that the information submitted by them is sufficient to determine the applicant’s
+suitability. The racing commission shall promulgate administrative regulations to establish the suitability
+for temporary and ordinary license applications for licensed facilities for sports wagering, sports wagering
+service providers, and any related parties.
+(3) Sports wagering licensees and service providers that accept wagers online via websites and mobile
+applications shall impose the following requirements:
+(a) Prior to placing a wager online via websites or mobile applications operated by either a sports
+wagering licensee or a service provider, a patron shall register the patron's sports wagering account
+with the operating sports wagering licensee or service provider either in person at a licensed facility
+for sports wagering or remotely through the service provider’s website or mobile application;
+(b) 1. The registration process shall include attestation that the patron meets the requirements to
+place a wager with a sports wagering licensee or service provider in this state.
+2. Prior to verification of a patron’s identity, a sports wagering licensee or service provider shall
+not allow the patron to engage in sports wagering, make a deposit, or process a withdrawal via
+the patron’s sports wagering account.
+3. A sports wagering licensee or service provider shall implement commercially and
+technologically reasonable procedures to prevent access to sports wagering by any person
+under the age of eighteen (18):
+a. At a licensed facility; and
+b. Online via website or mobile application.
+4. A sports wagering licensee or service provider may use information obtained from third
+parties to verify that a person is authorized to open an account, place wagers, and make
+deposits and withdrawals;
+(c) A sports wagering licensee or service provider shall adopt an account registration policy to ensure
+that all patrons are authorized to place a wager with a sports wagering licensee or service provider
+within the Commonwealth of Kentucky. This policy shall include, without limitation, a mechanism by
+which to:
+1. Verify the name and age of the patron;
+2. Verify that the patron is not prohibited from placing a wager; and
+3. Obtain the following information:
+a. A physical address other than a post office box;
+b. A phone number;
+c. A unique user name; and
+d. An e-mail account;
+(d) A sports wagering licensee or service provider shall use all commercially and technologically
+reasonable means to ensure that each patron is limited to one (1) account with that service provider
+in the Commonwealth, but nothing in this paragraph restricts a patron from holding other sports
+wagering accounts in other jurisdictions;
+Legislative Research Commission PDF Version
+
+=== page 6 ===
+6 ACTS OF THE GENERAL ASSEMBLY
+(e) A sports wagering licensee or service provider, in addition to complying with state and federal law
+pertaining to the protection of the private, personal information of patrons, shall use all other
+commercially and technologically reasonable means to protect this information consistent with
+industry standards;
+(f) A sports wagering licensee or service provider shall use all commercially and technologically
+reasonable means to verify the identity of the patron making a deposit or withdrawal;
+(g) A sports wagering licensee or service provider shall utilize geolocation or geofencing technology to
+ensure that wagers are only accepted from patrons who are physically located in the Commonwealth.
+A sports wagering licensee or service provider shall maintain in this state its servers used to transmit
+information for purposes of accepting or paying out wagers on a sporting event placed by patrons in
+this state;
+(h) A patron may fund the patron's account using any acceptable form of payment or advance deposit
+method, which shall include the use of cash, cash equivalents, credit cards, debit cards, automated
+clearing house, other electronic methods, and any other form of payment authorized by the racing
+commission; and
+(i) The racing commission may enter into agreements with other jurisdictions or entities to facilitate,
+administer, and regulate multi-jurisdictional sports betting by sports betting operators to the extent
+that entering into the agreement is consistent with state and federal laws and the sports betting
+agreement is conducted only in the United States.
+(4) A track may contract with no more than three (3) service providers at a time to conduct and manage
+services and technology which support the operation of sports betting both on the track and online via
+websites and mobile applications. The website or mobile application used to offer sports betting shall be
+offered only under the same brand as the track or that of the service provider contracted with the track, or
+both.
+(5) A track or service provider through an agreement with a licensed track shall not offer sports wagering until
+the racing commission has issued a sports wagering license to the track, except for temporary licenses
+authorized under Section 11 of this Act.
+(6) (a) A track licensed under Section 10 of this Act may offer sports wagering at a facility that meets the
+definition of "track" in Section 3 of this Act.
+(b) A simulcast facility may offer sports wagering through an agreement with a track by using any of
+that track's already established service providers.
+SECTION 5. A NEW SECTION OF KRS CHAPTER 230 IS CREATED TO READ AS FOLLOWS:
+(1) Sporting events that may be wagered upon include but are not limited to:
+(a) Professional sporting events;
+(b) College sporting events sanctioned by the National Collegiate Athletic Association, the National
+Association of Intercollegiate Athletics, or other collegiate athletic body recognized by the racing
+commission;
+(c) Amateur sporting events;
+(d) International sporting events, including but not limited to the Olympics and World Cup Soccer;
+(e) Electronic sports, e-sports, and competitive video game events; and
+(f) Any other event authorized by the racing commission.
+(2) (a) A sports governing body may submit a request to the racing commission to restrict, limit, or exclude a
+certain type, form, or category of sports wagering with respect to covered sporting events of that body,
+if the sport's governing body believes that this type, form, or category of sports wagering with respect
+to covered sporting events of that body may undermine the integrity or perceived integrity of that
+body or covered sporting events of that body. The sport's governing body shall provide the racing
+commission with notice of this request in the form and manner required by the racing commission.
+(b) The racing commission shall request comment from tracks and service providers on all requests
+made under paragraph (a) of this subsection. After giving due consideration to all comments
+received, the racing commission shall grant the request if the requesting body demonstrates good
+
+=== page 7 ===
+CHAPTER 147 7
+cause that this type, form, or category of sports wagering is likely to undermine the integrity or
+perceived integrity of the sport's governing body or covered sporting events of that body.
+(c) The racing commission shall respond to a request concerning a particular event before the start of
+the event, or if it is not feasible to respond before the start of the event, no later than seven (7) days
+after the request is made. If the racing commission determines that the requestor is more likely than
+not to prevail in successfully demonstrating good cause for its request, the racing commission may
+provisionally grant the request of the sport's governing body until the racing commission makes a
+final determination as to whether the requestor has demonstrated good cause. Absent this provisional
+grant by the racing commission, tracks and service providers may continue to offer sports wagering
+on covered sporting events that are the subject of the request during the pendency of the racing
+commission’s consideration of the applicable request.
+Section 6. KRS 230.215 is amended to read as follows:
+(1) (a) It is the policy of the Commonwealth of Kentucky, in furtherance of its responsibility to foster and to
+encourage legitimate occupations and industries in the Commonwealth and to promote and to conserve
+the public health, safety, and welfare, and it is hereby declared the intent of the Commonwealth to
+foster and to encourage the horse breeding industry within the Commonwealth and to encourage the
+improvement of the breeds of horses.
+(b) Further, it is the policy and intent of the Commonwealth to foster and to encourage the business of
+legitimate horse racing with pari-mutuel wagering thereon in the Commonwealth on the highest
+possible plane. Further, it hereby is declared the policy and intent of the Commonwealth that all racing
+not licensed under this chapter is a public nuisance and may be enjoined as such.
+(c) Further, it is hereby declared the policy and intent of the Commonwealth that the conduct of horse
+racing, or the participation in any way in horse racing, or the entrance to or presence where horse racing
+is conducted, is a privilege and not a personal right; and that this privilege may be granted or denied by
+the racing commission or its duly approved representatives acting in its behalf.
+(d) Further, it is hereby declared the policy and intent of the Commonwealth that citizens shall be
+allowed to enjoy wagering on sporting events in a controlled environment that protects the citizens
+from cheating and fraud, and that such wagering shall be best controlled and overseen by the
+Kentucky Horse Racing Commission, which has demonstrated a long and successful history of
+regulating wagering.
+(2) (a) It is hereby declared the purpose and intent of this chapter in the interest of the public health, safety, and
+welfare, to vest in the racing commission forceful control of horse racing in the Commonwealth with
+plenary power to promulgate administrative regulations prescribing conditions under which all
+legitimate horse racing and wagering thereon is conducted in the Commonwealth so as to encourage the
+improvement of the breeds of horses in the Commonwealth, to regulate and maintain horse racing at
+horse race meetings in the Commonwealth of the highest quality and free of any corrupt, incompetent,
+dishonest, or unprincipled horse racing practices, and to regulate and maintain horse racing at race
+meetings in the Commonwealth so as to dissipate any cloud of association with the undesirable and
+maintain the appearance as well as the fact of complete honesty and integrity of horse racing in the
+Commonwealth.
+(b) In addition, it is hereby declared the purpose and intent of this chapter to vest in the racing
+commission exclusive jurisdiction over sports wagering in the Commonwealth, with plenary power to
+promulgate administrative regulations prescribing conditions under which all sports wagering is to
+be conducted.
+(c) In addition to the general powers and duties vested in the racing commission by this chapter, it is the
+intent hereby to vest in the racing commission the power to eject or exclude from association grounds or
+any part thereof any person, licensed or unlicensed, whose conduct or reputation is such that his or her
+presence on association grounds may, in the opinion of the racing commission, reflect on the honesty
+and integrity of horse racing or interfere with either the orderly conduct of horse racing or the orderly
+conduct of sports wagering.
+Section 7. KRS 230.225 is amended to read as follows:
+Legislative Research Commission PDF Version
+
+=== page 8 ===
+8 ACTS OF THE GENERAL ASSEMBLY
+(1) The Kentucky Horse Racing Commission is created as an independent agency of state government to regulate
+the conduct of horse racing and pari-mutuel wagering on horse racing, sports wagering, and related activities
+within the Commonwealth of Kentucky. The racing commission shall be attached to the Public Protection
+Cabinet for administrative purposes.
+(2) (a) The Kentucky Horse Racing Commission shall consist of fifteen (15) members appointed by the
+Governor, with the secretaries of the Public Protection Cabinet, Tourism, Arts and Heritage Cabinet,
+and Economic Development Cabinet, or their designees, serving as ex officio nonvoting members.
+(b) Two (2) members shall have no financial interest in the business or industry regulated.
+(c) The members of the racing commission shall be appointed to serve for a term of four (4) years, except
+the initial terms shall be staggered as follows:
+1. Five (5) members shall serve for a term of four (4) years;
+2. Five (5) members shall serve for a term of three (3) years; and
+3. Five (5) members shall serve for a term of two (2) years.
+(d) Any member appointed to fill a vacancy occurring other than by expiration of a term shall be appointed
+for the remainder of the unexpired term.
+(e) In making appointments, the Governor may consider members broadly representative of the
+Thoroughbred industry and members broadly representative of the standardbred, quarter horse,
+Appaloosa, or Arabian industries. The Governor may also consider recommendations from the
+Kentucky Thoroughbred Owners and Breeders, Inc., the Kentucky Division of the Horsemen's
+Benevolent and Protective Association, the Kentucky Harness Horsemen's Association, and other
+interested organizations.
+(3) (a) Members of the racing commission shall receive no compensation for serving on the commission, but
+shall be reimbursed for travel expenses for attending meetings and performing other official functions
+consistent with the reimbursement policy for state employees established by KRS 45.101 and
+administrative regulations promulgated thereunder.
+(b) The Governor shall appoint one (1) member of the racing commission to serve as its chairperson who
+shall serve at the pleasure of the Governor.
+(c) The Governor shall further designate a second member to serve as vice chair with authority to act in the
+absence of the chairperson.
+(d) Before entering upon the discharge of their duties, all members of the Kentucky Horse Racing
+Commission shall take the constitutional oath of office.
+(4) (a) The racing commission shall establish and maintain a general office for the transaction of its business
+and may in its discretion establish a branch office or offices.
+(b) The racing commission may hold meetings at any of its offices or at any other place when the
+convenience of the racing commission requires.
+(c) All meetings of the racing commission shall be open and public, and all persons shall be permitted to
+attend meetings.
+(d) A majority of the voting members of the racing commission shall constitute a quorum for the
+transaction of its business or exercise of any of its powers.
+(5) Except as otherwise provided, the racing commission shall be responsible for the following:
+(a) Developing and implementing programs designed to ensure the safety and well-being of horses,
+jockeys, and drivers;
+(b) Developing programs and procedures that will aggressively fulfill its oversight and regulatory role on
+such matters as medical practices and integrity issues;
+(c) Recommending tax incentives and implementing incentive programs to ensure the strength and growth
+of the equine industry;
+(d) Designing and implementing programs that strengthen the ties between Kentucky's horse industry and
+the state's universities, with the goal of significantly increasing the economic impact of the horse
+
+=== page 9 ===
+CHAPTER 147 9
+industry on Kentucky's economy, improving research for the purpose of promoting the enhanced health
+and welfare of the horse, and other related industry issues;[ and]
+(e) Developing and supporting programs which ensure that Kentucky remains in the forefront of equine
+research;
+(f) Developing monitoring programs to ensure the highest integrity of sporting events and sports
+wagering; and
+(g) Developing a program to share wagering information with sports governing bodies upon which
+sports wagering may be conducted. The program shall be designed to assist the racing commission in
+determining potential problems or questionable activity and provide reports to sports governing
+bodies effectively.
+Section 8. KRS 230.240 is amended to read as follows:
+(1) (a) In addition to the employees referred to in KRS 230.230, the executive director of the racing
+commission may employ, dismiss, or take other personnel action and determine the reasonable
+compensation of stewards, supervisors of mutuels, supervisors of sports wagering, veterinarians,
+inspectors, accountants, security officers, and other employees deemed by the executive director to be
+essential at or in connection with any horse race meeting and in the best interest of racing, or those
+deemed by the executive director to be integral to the conduct of sports wagering.
+(b) Three (3) Thoroughbred stewards shall be employed at each Thoroughbred race meeting as follows:[.]
+1. Two (2) stewards shall be employed and compensated by the Commonwealth, subject to
+reimbursement by the racing associations pursuant to subsection (3) of this section; and[.]
+2. One (1) Thoroughbred steward shall be employed and compensated by the racing association
+hosting the race meeting.
+(c) Three (3) standardbred judges shall be employed at each standardbred race meeting as follows:[.]
+1. Two (2) standardbred judges shall be employed and compensated by the Commonwealth, subject
+to reimbursement by the racing associations pursuant to subsection (3) of this section; and[.]
+2. One (1) standardbred judge shall be employed and compensated by the racing association hosting
+the race meeting.
+(d) The security officers shall be peace officers and conservators of the peace on racing commission
+property and at all race tracks and grounds in the Commonwealth and shall possess all the common law
+and statutory powers and privileges now available or hereafter made available to sheriffs, constables
+granted police powers, and police officers for the purpose of enforcing all laws relating directly or
+indirectly to the conduct of horse racing and pari-mutuel wagering thereon, the conduct of sports
+wagering, or the enforcement of laws relating to the protection of persons or property on premises
+licensed by the racing commission.
+(e) The racing commission, for the purpose of maintaining integrity and honesty in racing, shall prescribe
+by administrative regulation the powers and duties of the persons employed under this section and
+qualifications necessary to competently perform their duties. In addition, the racing commission shall be
+responsible for seeing that racing officials employed under the provisions of this section have adequate
+training to perform their duties in a competent manner.
+(2) (a) The racing commission shall promulgate administrative regulations for effectively preventing the use of
+improper devices at race meetings or in the conduct of sports wagering, and restricting or prohibiting
+the use and administration of drugs or stimulants or other improper acts to horses prior to the horse
+participating in a race.
+(b) The racing commission may acquire, operate, and maintain, or contract for the maintenance and
+operation of, a testing laboratory and related facilities, for the purpose of saliva, urine, or other tests,
+and to purchase supplies and equipment for and in connection with the laboratory or testing processes.
+(c) The expense of the laboratory or other testing processes, whether furnished by contract or otherwise,
+together with all supplies and equipment used in connection therewith, shall be paid by the various
+associations licensed under this chapter in the manner and in proportions as the racing commission shall
+by administrative regulation provide.
+Legislative Research Commission PDF Version
+
+=== page 10 ===
+10 ACTS OF THE GENERAL ASSEMBLY
+(3) (a) The expenses of the commission and the compensation of all employees referred to in this section shall
+be paid by the licensee conducting a horse race meeting or pari-mutuel wagering on live or historic
+horse racing, provided that the expenses of the commission and the compensation of employees under
+this section related to administering the system of sports wagering shall be paid by the sports
+wagering administration fund established in Section 1 of this Act.
+(b) The salary of the executive director to the racing commission shall be prorated among and paid by the
+various persons[associations] licensed under this chapter in the manner as the racing commission shall,
+by administrative regulation, provide.
+(c) Except for the Thoroughbred steward and the standardbred judge authorized in subsection (1) of this
+section, the employees referred to in this section shall be deemed employees of the racing commission,
+and are paid by the licensee or association.
+(4) Each person, as a condition precedent to the privilege of receiving a license under this chapter to conduct a
+horse race meeting, shall be deemed to have agreed to pay expenses and compensation as provided in this
+section and as may be actually and reasonably incurred.
+Section 9. KRS 230.260 is amended to read as follows:
+The racing commission, in the interest of breeding or the improvement of breeds of horses and in the interest of
+ensuring the integrity of authorized sports wagering, shall have all powers necessary and proper to carry out fully
+and effectually the provisions of this chapter including but without limitation the following:
+(1) The racing commission is vested with jurisdiction and supervision over all horse race meetings and sports
+wagering in this Commonwealth and over all associations and all persons on association grounds and may
+eject or exclude therefrom or any part thereof, any person, licensed or unlicensed, whose conduct or reputation
+is such that the person's[his] presence on association grounds may, in the opinion of the racing commission,
+negatively reflect on the honesty and integrity of horse racing, or on sporting events upon which sports
+wagers may be placed, or interfere with the orderly conduct of horse racing or racing at horse race meetings;
+provided, however, no persons shall be excluded or ejected from association grounds solely on the ground of
+race, color, creed, national origin, ancestry, or sex;
+(2) The racing commission is vested with jurisdiction over any person or entity that offers advance deposit
+account wagering to Kentucky residents. Any such person or entity under the jurisdiction of the racing
+commission shall be licensed by the racing commission, and the racing commission may impose a license fee
+not to exceed ten thousand dollars ($10,000) annually. The racing commission shall, by administrative
+regulation promulgated in accordance with KRS Chapter 13A, establish conditions and procedures for the
+licensing of advance deposit account wagering providers to include but not be limited to:
+(a) A fee schedule for applications for licensure; and
+(b) Reporting requirements to include quarterly reporting on:
+1. The amount wagered on Kentucky races; and
+2. The total amount wagered by Kentuckians;
+(3) The racing commission is vested with jurisdiction over any totalisator company that provides totalisator
+services to a racing association located in the Commonwealth. A totalisator company under the jurisdiction of
+the racing commission shall be licensed by the racing commission, regardless of whether a totalisator company
+is located in the Commonwealth or operates from a location or locations outside of the Commonwealth, and
+the racing commission may impose a license fee on a totalisator company. The racing commission shall, by
+administrative regulation promulgated in accordance with KRS Chapter 13A, establish conditions and
+procedures for the licensing of totalisator companies, and a fee schedule for applications for licensure;
+(4) The racing commission is vested with jurisdiction over any manufacturer, wholesaler, distributor, or vendor of
+any equine drug, medication, therapeutic substance, or metabolic derivative which is purchased by or delivered
+to a licensee or other person participating in Kentucky horse racing by means of the Internet, mail delivery, in-
+person delivery, or other means;
+(5) The racing commission is vested with jurisdiction over any horse training center or facility in the
+Commonwealth that records official timed workouts for publication;
+(6) The racing commission may require an applicant for a license under subsections (2) and (3) of this section to
+submit to a background check of the applicant, or of any individual or organization associated with the
+
+=== page 11 ===
+CHAPTER 147 11
+applicant. An applicant shall be required to reimburse the racing commission for the cost of any background
+check conducted;
+(7) The racing commission, its representatives and employees, may visit, investigate and have free access to the
+office, track, facilities, or other places of business of any licensee, or any person owning a horse or performing
+services regulated by this chapter on a horse registered to participate in a breeders incentive fund under the
+jurisdiction of the racing commission;
+(8) The racing commission shall have full authority to prescribe necessary and reasonable administrative
+regulations and conditions under which horse racing at a horse race meeting shall be conducted in this state
+and to fix and regulate the minimum amount of purses, stakes, or awards to be offered for the conduct of any
+horse race meeting;
+(9) Applications for licenses shall be made in the form, in the manner, and contain information as the racing
+commission may, by administrative regulation, require. Fees for all licenses issued under KRS 230.310 shall
+be prescribed by and paid to the racing commission;
+(10) The racing commission shall establish by administrative regulation minimum fees for jockeys to be effective
+in the absence of a contract between an employing owner or trainer and a jockey. The minimum fees shall be
+no less than those of July 1, 1985;
+(11) The racing commission may refuse to issue or renew a license, revoke or suspend a license, impose
+probationary conditions on a license, issue a written reprimand or admonishment, impose fines or penalties,
+deny purse money, require the forfeiture of purse money, or any combination thereof with regard to a licensee
+or other person participating in Kentucky horse racing for violation of any federal or state statute, regulation,
+or steward's or racing commission's directive, ruling, or order to preserve the integrity of Kentucky horse
+racing or to protect the racing public. The racing commission shall, by administrative regulation, establish the
+criteria for taking the actions described in this subsection;
+(12) The racing commission may issue subpoenas for the attendance of witnesses before it and for the production of
+documents, records, papers, books, supplies, devices, equipment, and all other instrumentalities related to pari-
+mutuel horse racing or sports wagering within the Commonwealth. The racing commission may administer
+oaths to witnesses and require witnesses to testify under oath whenever, in the judgment of the racing
+commission, it is necessary to do so for the effectual discharge of its duties;
+(13) The racing commission shall have authority to compel any racing association licensed under this chapter to file
+with the racing commission at the end of its fiscal year, a balance sheet, showing assets and liabilities, and an
+earnings statement, together with a list of its stockholders or other persons holding a beneficial interest in the
+association;
+(14) The racing commission shall promulgate administrative regulations establishing safety standards for jockeys,
+which shall include the use of rib protection equipment. Rib protection equipment shall not be included in a
+jockey's weight;[ and]
+(15) (a) The racing commission shall promulgate administrative regulations establishing a self-exclusion list for
+individuals who self-identify as being problem or compulsive gamblers.
+(b) Each racing association shall display a notice to the public of the self-exclusion list and the method or
+methods individuals may use to self-identify at the track, online, or by phone.
+(c) Self-exclusion information collected by each racing association shall be forwarded to the racing
+commission, and the information from the racing associations shall be compiled into a comprehensive
+list that shall be provided to all racing associations.
+(d) Pursuant to KRS 61.878(1)(a), information collected under this subsection shall be excluded from the
+application of KRS 61.870 to 61.884; and
+(16) (a) The racing commission shall promulgate administrative regulations to establish standards for the
+conduct of sports wagering, including standards for receiving and paying out wagers, offering sports
+wagering through a website or mobile application, maintaining and auditing books and financial
+records, securely maintaining records of bets and wagers, integrity requirements for sports wagering
+and related data, suitability requirements for providers of associated equipment, geofence standards
+for wager placement, designated areas for sports wagering, surveillance and monitoring systems, and
+other reasonable technical criteria related to conducting sports wagering.
+Legislative Research Commission PDF Version
+
+=== page 12 ===
+12 ACTS OF THE GENERAL ASSEMBLY
+(b) The racing commission shall promulgate administrative regulations related to age requirements for
+placing sports wagers, availability of information related to sports wagers, and licensing
+requirements, including temporary authorizations, for service providers, vendors, and suppliers.
+SECTION 10. A NEW SECTION OF KRS CHAPTER 230 IS CREATED TO READ AS FOLLOWS:
+(1) Except as provided in subsection (6) of Section 4 of this Act, no person shall conduct, manage, or offer to
+conduct sports wagering within the Commonwealth of Kentucky without obtaining a license from the
+racing commission.
+(2) As a prerequisite to obtaining a sports wagering license, a person shall be licensed as an association under
+KRS 230.300. If sports wagering is conducted by the track that chooses not to contract with a service
+provider, it shall comply with the standards established by the racing commission for service providers to
+ensure the integrity of the system of sports wagering before conducting sports wagering in the
+Commonwealth.
+(3) In addition to the requirement in subsection (2) of this section, an initial fee of five hundred thousand
+dollars ($500,000) shall be paid to the racing commission before a sports wagering license may be issued to
+a track.
+(4) An annual renewal fee of fifty thousand dollars ($50,000) shall be required for each sports wagering
+license.
+(5) Licensing fees paid under this section shall be deposited into the sports wagering administration fund
+established by Section 1 of this Act.
+SECTION 11. A NEW SECTION OF KRS CHAPTER 230 IS CREATED TO READ AS FOLLOWS:
+(1) The racing commission may issue a service provider license to a qualified applicant.
+(2) A person applying for a service provider license under this chapter shall pay a nonrefundable application
+fee of fifty thousand dollars ($50,000) to the racing commission.
+(3) In determining whether to grant a service provider’s license to an applicant, the racing commission shall
+consider:
+(a) The applicant and its past, current, or future operations; and
+(b) A person that is deemed to have control over the applicant. For the purposes of this section, the
+following persons are deemed to have control over an applicant:
+1. Each corporate holding company, parent company, or subsidiary company of a corporate
+applicant or licensee and each person that owns five percent (5%) or more of the corporate
+applicant or licensee and that has the ability to control the activities of the corporate applicant
+or licensee or elect a majority of the board of directors of that corporate applicant or licensee;
+2. Each person associated with a noncorporate applicant or licensee that directly or indirectly
+holds a beneficial or proprietary interest in the noncorporate applicant’s or licensee’s business
+operation or that the director otherwise determines has the ability to control the noncorporate
+applicant or licensee; and
+3. Any officer or director of an applicant or licensee having the power to exercise significant
+influence over decisions concerning any part of the applicant's or licensee's relevant sports
+wagering business operation in this state.
+(4) A service provider licensee shall pay an annual renewal fee of ten thousand dollars ($10,000).
+(5) A person applying for a service provider license to conduct sports wagering through an agreement with a
+licensed track may receive a temporary license to immediately commence sports wagering operations if the
+applicant:
+(a) Satisfies the racing commission’s requirements for a temporary license, which may consider
+operations in other jurisdictions in the United States; and
+(b) Pays the initial licensing fee of fifty thousand dollars ($50,000) under subsection (2) of this section to
+the racing commission.
+(6) A temporary license granted to an applicant for a service provider to offer sports wagering under subsection
+(5) of this section may be valid for up to one (1) year, during which a permanent license shall be granted or
+
+=== page 13 ===
+CHAPTER 147 13
+denied. An applicant shall not be eligible for an extended or renewed temporary license. The racing
+commission reserves the right to revoke any license issued pursuant to this chapter if it determines that the
+licensee has violated any provisions of this chapter or is otherwise deemed unfit for a license.
+(7) Fees paid under this section shall be deposited into the sports wagering administration fund established by
+Section 1 of this Act.
+Section 12. KRS 230.310 is amended to read as follows:
+(1) Every person not required to be licensed under KRS 230.300 who desires to participate in horse racing in the
+Commonwealth as a horse owner, trainer, jockey, apprentice jockey, agent, stable employee, racing official,
+association employee, or employee of a person or concern contracting with the association to provide a service
+or commodity and which requires their presence on association grounds during a race meeting, or veterinarian,
+farrier, horse dentist, or supplier of food, tack, medication, or horse feed, or in any other capacity as the racing
+commission shall from time to time establish by administrative regulation, shall first apply to the racing
+commission for a license to participate in the activity on association grounds during a race meeting. No person
+required to be licensed by this section may participate in any activity required to be licensed on association
+grounds during a race meeting without a valid license therefor. An applicant for a license shall submit to the
+racing commission fingerprints as may be required and other information necessary and reasonable for
+processing a license application. The racing commission is authorized to exchange fingerprint data with the
+Department of Kentucky State Police and the Federal Bureau of Investigation in order to conduct a criminal
+history background check of an applicant. The racing commission may issue a license if it finds that the
+financial responsibility, age, experience, reputation, competence, and general fitness of the applicant to
+perform the activity permitted by a license are consistent with the best interest of racing and the maintenance
+of the honesty, integrity, and high quality thereof.
+(2) Every person who desires to participate in sports wagering in the Commonwealth working in a licensed
+facility for sports wagering, directly supervising individuals who have the capability of affecting the
+outcome of sports wagering, or having the capability to affect the outcome of sports wagering through
+deployment of code to production for any critical component of a sports wagering system or the capability to
+deploy code to production shall first apply to the commission for a valid occupational license to participate
+in that activity. An applicant for an occupational license shall submit to the racing commission fingerprints
+as may be required and other information necessary and reasonable for processing a license application.
+The racing commission is authorized to exchange fingerprint data with the Department of Kentucky State
+Police and the Federal Bureau of Investigation in order to conduct a criminal history background check of
+an applicant. The racing commission may issue a license if it finds that the financial responsibility, age,
+experience, reputation, competence, and general fitness of the applicant to perform the activity permitted by
+a license are consistent with the best interest of sports wagering in the Commonwealth, and the
+maintenance of the honesty, integrity, and high quality thereof.
+(3) A license may be issued for the calendar year for which an applicant applies or, if authorized by administrative
+regulation, a license may be issued that expires on the last day of the birth month of the licensee. A license
+may be renewed by the racing commission. The license shall be valid at all horse race meetings in the
+Commonwealth during the period for which it is issued unless suspended or revoked under the administrative
+regulations promulgated by the racing commission under this chapter. The occupational license to participate
+in sports wagering may be suspended or revoked pursuant to administrative regulations promulgated by the
+racing commission under this chapter. With respect to horse owners and trainers, the racing commission may
+promulgate administrative regulations to facilitate and promote uniform, reciprocal licensing with other states.
+Section 13. KRS 230.361 is amended to read as follows:
+(1) (a) The racing commission shall promulgate administrative regulations governing and regulating mutuel
+wagering on horse races under what is known as the pari-mutuel system of wagering.
+(b) The wagering shall be conducted only by a person licensed under this chapter to conduct a race meeting
+and only upon the licensed premises, and provided further that only pari-mutuel wagering on
+simulcasting shall be allowed at simulcast facilities.
+(c) The pari-mutuel system of wagering shall be operated only by a totalizator or other mechanical
+equipment approved by the racing commission. The racing commission shall not require any particular
+make of equipment.
+Legislative Research Commission PDF Version
+
+=== page 14 ===
+14 ACTS OF THE GENERAL ASSEMBLY
+(2) The racing commission shall promulgate administrative regulations governing and regulating sports
+wagering, including administrative regulations for the deposit of funds by credit or debit cards or other
+means of electronic funds transfer. The racing commission shall promulgate administrative regulations to
+establish a fully functioning sports wagering system within six (6) months after the effective date of this Act.
+(3) The operation of a pari-mutuel system for betting, or the conduct of sports wagering, where authorized by law
+shall not constitute grounds for the revocation or suspension of any license issued and held under KRS
+242.1238 and 243.265.
+(4)[(3)] All reported but unclaimed pari-mutuel winning tickets held in this state by any person or association
+operating a pari-mutuel or similar system of betting at horse race meetings shall be presumed abandoned if not
+claimed by the person entitled to them within one (1) year from the time the ticket became payable.
+(5)[(4)] The racing commission may issue a license to conduct pari-mutuel wagering on steeple chases or other
+racing over jumps; if all proceeds from the wagering, after expenses are deducted, is used for charitable
+purposes. If the dates requested for such a license have been granted to a track within a forty (40) mile radius
+of the race site, the racing commission shall not issue a license until it has received written approval from the
+affected track. Pari-mutuel wagering licensed and approved under this subsection shall be limited to four (4)
+days per year. All racing and wagering authorized by this subsection shall be conducted in accordance with
+applicable administrative regulations promulgated by the racing commission.
+SECTION 14. A NEW SECTION OF KRS CHAPTER 138 IS CREATED TO READ AS FOLLOWS:
+(1) As used in this section:
+(a) "Adjusted gross revenue" means the total sum of wagers collected on all sporting events, less
+winnings paid to participants in the contest and all excise taxes paid pursuant to federal law;
+(b) "Department" means Department of Revenue;
+(c) "Sporting event" has the same meaning as in Section 3 of this Act;
+(d) "Sports wagering" has the same meaning as in Section 3 of this Act; and
+(e) "Taxpayer" means any person liable for tax under this section.
+(2) An excise tax is imposed on persons licensed to conduct sports wagering under Sections 10 and 11 of this
+Act at a rate of:
+(a) Nine and three-quarters percent (9.75%) on the adjusted gross revenue on wagers placed at the
+licensed track; and
+(b) Fourteen and one-quarter percent (14.25%) on the adjusted gross revenue on wagers placed online
+via websites or mobile applications or other off-site technology approved by the Kentucky Horse
+Racing Commission;
+and shall be appropriated to the sports wagering administration fund established in Section 1 of this Act
+and appropriated for the purposes established in that section.
+(3) The department shall enforce the provisions of and collect the taxes and penalties imposed in this section,
+and in doing so it shall have the general powers and duties granted it in KRS Chapters 131 and 135,
+including the power to enforce, by an action in the Franklin Circuit Court, the collection of the taxes,
+penalties, and other payments imposed or required by this section.
+(4) The tax imposed by this section is due and payable to the department monthly and shall be remitted on or
+before the twentieth day of the next succeeding calendar month. If a taxpayer's adjusted gross revenue for a
+month is a negative number, the taxpayer may carry over the negative amount to the return filed for the
+subsequent month. However, no amount shall be carried over in any period more than twelve (12) months
+after the month in which the amount carried over was originally due.
+(5) (a) Payment shall be accompanied by a return prescribed by the department.
+(b) The return form shall report, at a minimum:
+1. The total sum of wagers collected in person and electronically through a mobile application;
+2. Winnings paid in person and electronically through a mobile application;
+3. Adjusted gross revenue in person and electronically through a mobile application;
+
+=== page 15 ===
+CHAPTER 147 15
+4. Tax rates applied to adjusted gross revenue in person and electronically through a mobile
+application;
+5. The tax due from adjusted gross revenues in person and electronically through a mobile
+application;
+6. Federal excise taxes paid; and
+7. The total wagering tax due.
+(6) Wagering taxes due and payable in accordance with this section shall be paid via electronic funds transfer.
+The taxpayer shall provide the department with all protocol documentation and electronic funds transfer
+data necessary to facilitate the timely transfer of funds.
+(7) Any taxpayer who violates any provision of this section shall be subject to the uniform civil penalties
+imposed pursuant to KRS 131.180 and interest at the tax interest rate as defined in KRS 131.010(6).
+(8) The Kentucky Horse Racing Commission may suspend, revoke, or decline to renew a license upon the
+taxpayer's failure to timely submit payment of taxes due under this section or the administrative regulations
+promulgated by the department.
+(9) The taxes imposed by this section shall be in lieu of all other state and local taxes and fees imposed on the
+operation of, or the proceeds from, the operation of sports wagering.
+SECTION 15. A NEW SECTION OF KRS CHAPTER 230 IS CREATED TO READ AS FOLLOWS:
+(1) A person shall not place a sports wager on a game or event in which the person is a participant.
+(2) As used in this section, "participant" includes:
+(a) Players;
+(b) Coaches;
+(c) Referees, umpires, judges, or other officials involved in enforcing the rules of the game;
+(d) Spouses and close family members of persons included in paragraphs (a) to (c) of this subsection;
+(e) Owners or shareholders of more than five percent (5%) interest in professional sports teams who
+might have influence over players and coaches through the ability to hire or fire; and
+(f) Other persons identified by the racing commission as participants.
+(3) A person is guilty of tampering with the outcome of a sporting event when the person interacts with a
+player, coach, referee, or other participant with the intent to persuade the participant to act in a way that
+would:
+(a) Alter the outcome of the sporting event; or
+(b) Alter actions within the sporting event upon which people might place sports wagers.
+SECTION 16. A NEW SECTION OF KRS CHAPTER 230 IS CREATED TO READ AS FOLLOWS:
+(1) An employee of any track shall not wager or be paid a prize from any wager placed with that sports
+wagering licensee or placed online via a website or mobile application with a service provider licensee that
+has an agreement with that sports wagering licensee.
+(2) An employee of any service provider licensee offering sports wagering through an agreement with a track
+shall not wager or be paid a prize from any wager placed with that track or placed online via a website or
+mobile application with a service provider licensee that has an agreement with that track.
+Section 17. KRS 230.990 is amended to read as follows:
+(1) Any person who violates KRS 230.070 or KRS 230.080(3) shall be guilty of a Class D felony.
+(2) Any person who violates KRS 230.090 shall be guilty of a Class A misdemeanor.
+(3) Any person who violates KRS 230.680 shall be guilty of a Class A misdemeanor.
+(4) Any person who refuses to make any report or to turn over sums as required by KRS 230.361 to 230.373 shall
+be guilty of a Class A misdemeanor.
+Legislative Research Commission PDF Version
+
+=== page 16 ===
+16 ACTS OF THE GENERAL ASSEMBLY
+(5) Any person failing to appear before the racing commission at the time and place specified in the summons
+issued pursuant to KRS 230.260(12), or refusing to testify, shall be guilty of a Class B misdemeanor. False
+swearing on the part of any witness shall be deemed perjury and punished as such.
+(6) (a) A person is guilty of tampering with or interfering with a horse race when, with the intent to influence
+the outcome of a horse race, he or she uses any device, material, or substance not approved by the
+Kentucky Horse Racing Commission on or in any participant involved in or eligible to compete in a
+horse race to be viewed by the public.
+(b) Any person who, while outside the Commonwealth and with intent to influence the outcome of a horse
+race contested within the Commonwealth, tampers with or interferes with any equine participant
+involved in or eligible to compete in a horse race in the Commonwealth is guilty of tampering with or
+interfering with a horse race.
+(c) Tampering with or interfering with a horse race is a Class C felony.
+(7) Any participant who wagers on a sporting event in violation of Section 15 of this Act is guilty of a Class A
+misdemeanor.
+(8) Any person tampering with the outcome of a sporting event in violation of Section 15 of this Act is guilty of
+a Class C felony.
+Section 18. KRS 243.500 is amended to read as follows:
+Any license may be revoked or suspended for the following causes:
+(1) Conviction of the licensee or the licensee's agent, servant, or employee for selling any illegal alcoholic
+beverages on the licensed premises.
+(2) Making any false, material statements in an application or renewal application for a license or supplemental
+license.
+(3) Conviction of the licensee or any of the licensee's agents, servants, or employees of:
+(a) Two (2) violations of the terms and provisions of KRS Chapters 241 to 244, or any act regulating the
+manufacture, sale, and transportation of alcoholic beverages within two (2) consecutive years;
+(b) Two (2) misdemeanors directly or indirectly attributable to the use of alcoholic beverages within two (2
+) consecutive years; or
+(c) Any felony.
+(4) Failure or default of a licensee to pay an excise tax or any part of the tax or any penalties imposed by or under
+the provisions of any statutes, ordinances, or Acts of Congress relative to taxation, or for a violation of any
+related administrative regulations promulgated by the Department of Revenue.
+(5) Revocation of any license or permit provided in KRS 243.060, 243.070, 243.600, and 243.610, or granted
+under any Act of Congress relative to the regulation of the manufacture, sale, and transportation of alcoholic
+beverages.
+(6) Setting up, conducting, operating, or keeping, on the licensed premises, any gambling game, device, machine,
+contrivance, lottery, gift enterprise, handbook, or facility for betting or transmitting bets on horse races; or
+permitting to be set up, conducted, operated, kept, or engaged in, on the licensed premises, any gambling
+game, device, machine, contrivance, lottery, gift enterprise, handbook, or facility. This subsection shall not
+apply to:
+(a) The sale of lottery tickets sold under the provisions of KRS Chapter 154A;
+(b) The operation of a pari-mutuel system for betting, or the operation of sports wagering, where
+authorized by law;
+(c) The conduct of charitable gaming by a charitable organization licensed or permitted under KRS Chapter
+238; or
+(d) Special temporary raffles of alcoholic beverages under KRS 243.036.
+(7) Conviction of the licensee, the licensee's agents, servants, or employees for:
+(a) The trafficking or possession upon the licensed premises of controlled or illegal substances described in
+KRS Chapter 218A, including synthetic drugs;
+
+=== page 17 ===
+CHAPTER 147 17
+(b) Knowingly permitting the trafficking or possession by patrons upon the licensed premises of controlled
+or illegal substances described in KRS Chapter 218A, including synthetic drugs; or
+(c) Knowingly receiving stolen property upon the licensed premises.
+(8) Failure to comply with the terms of a final order of the board.
+Section 19. KRS 525.090 is amended to read as follows:
+(1) A person is guilty of loitering when the person[he]:
+(a) Loiters or remains in a public place for the purpose of gambling with cards, dice or other gambling
+paraphernalia, except that the provisions of this section shall not apply if the person is participating in
+charitable gaming defined by KRS 238.505, or is engaged in sports wagering licensed under KRS
+Chapter 230;[ or]
+(b) Loiters or remains in a public place for the purpose of unlawfully using a controlled substance;[ or]
+(c) Loiters or remains in or about a school, college or university building or grounds, not having any reason
+or relationship involving custody of or responsibility for a pupil or student or any other specific
+legitimate reason for being there and not having written permission from anyone authorized to grant the
+same; or
+(d) Loiters or remains in any transportation facility, unless specifically authorized to do so, for the purpose
+of soliciting or engaging in any business, trade or commercial transactions involving the sale of
+merchandise or services.
+(2) Loitering is a violation.
+Section 20. KRS 68.182 is amended to read as follows:
+(1) Occupational license fees levied under KRS 67.083, 68.180, and 68.197 by the fiscal court of a county,
+consolidated local government, urban-county government, charter county government, or unified local
+government may apply to racetrack extensions.
+(2) As used in this section:
+(a) "Historical horse race" has the same meaning as in KRS 138.511; and
+(b) 1. "Racetrack extension" means any facility:
+a. Owned, leased, or purchased by an association licensed by the Kentucky Horse Racing
+Commission under KRS 230.300;
+b. That meets the definition of "track" under subsection (33)(c) of Section 3 of this Act[KRS
+230.210(24)(c)]; and
+c. Where pari-mutuel wagering on historical horse races is conducted on terminals approved
+by the Kentucky Horse Racing Commission.
+2. "Racetrack extension" does not include a facility or real property used for training horses or at
+which live horse races are run for stakes, purses, or prizes under the jurisdiction of the Kentucky
+Horse Racing Commission.
+Section 21. KRS 91.202 is amended to read as follows:
+(1) Occupational license fees levied under KRS 91.200 by the legislative body of a city of the first class may
+apply to racetrack extensions.
+(2) As used in this section:
+(a) "Historical horse race" has the same meaning as in KRS 138.511; and
+(b) 1. "Racetrack extension" means any facility:
+a. Owned, leased, or purchased by an association licensed by the Kentucky Horse Racing
+Commission under KRS 230.300;
+b. That meets the definition of "track" under subsection (33)(c) of Section 3 of this Act[KRS
+230.210(24)(c)]; and
+Legislative Research Commission PDF Version
+
+=== page 18 ===
+18 ACTS OF THE GENERAL ASSEMBLY
+c. Where pari-mutuel wagering on historical horse races is conducted on terminals approved
+by the Kentucky Horse Racing Commission.
+2. "Racetrack extension" does not include a facility or real property used for training horses or at
+which live horse races are run for stakes, purses, or prizes under the jurisdiction of the Kentucky
+Horse Racing Commission.
+Section 22. KRS 92.282 is amended to read as follows:
+(1) Occupational license fees levied under KRS 92.281 by the legislative body of a city may apply to racetrack
+extensions.
+(2) As used in this section:
+(a) "Historical horse race" has the same meaning as in KRS 138.511; and
+(b) 1. "Racetrack extension" means any facility:
+a. Owned, leased, or purchased by an association licensed by the Kentucky Horse Racing
+Commission under KRS 230.300;
+b. That meets the definition of "track" under subsection (33)(c) of Section 3 of this Act[KRS
+230.210(24)(c)]; and
+c. Where pari-mutuel wagering on historical horse races is conducted on terminals approved
+by the Kentucky Horse Racing Commission.
+2. "Racetrack extension" does not include a facility or real property used for training horses or at
+which live horse races are run for stakes, purses, or prizes under the jurisdiction of the Kentucky
+Horse Racing Commission.
+Section 23. KRS 436.480 is amended to read as follows:
+KRS Chapter 528 shall not apply to pari-mutuel or sports wagering authorized under the provisions of KRS Chapter
+230.
+Section 24. If any provision of this Act or the application thereof to any person or circumstance is held
+invalid, the invalidity shall not affect other provisions or applications of the Act that can be given effect without the
+invalid provision or application, and to this end the provisions of this Act are severable.
+Signed by Governor March 31, 2023.

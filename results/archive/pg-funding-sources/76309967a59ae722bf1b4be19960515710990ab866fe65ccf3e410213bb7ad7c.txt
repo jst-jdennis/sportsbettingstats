@@ -1,0 +1,279 @@
+=== page 1 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0181
+ENROLLED ACT NO. 23, HOUSE OF REPRESENTATIVES
+SIXTY-SEVENTH LEGISLATURE OF THE STATE OF WYOMING
+2023 GENERAL SESSION
+AN ACT relating to gaming; requiring permitting and
+licensure for online sports wagering as specified;
+specifying fees; specifying persons subject to criminal
+background checks for online sports wagering; specifying
+limitations and procedures on revenue calculation for
+purposes of remitting online sports wagering revenue to the
+gaming commission; amending requirements for application
+review for online sports wagering permits and licenses;
+making conforming amendments; and providing for an
+effective date.
+Be It Enacted by the Legislature of the State of Wyoming:
+Section 1. W.S. 9-24-101(a)(vii), (xv) and by
+creating new paragraphs (xvi) and (xvii), 9-24-103(b)(iv),
+(f), (h)(intro), (i), (j)(iii) through (vii), (n)(intro),
+(iii), (o) and by creating new subsections (p) and (q),
+9-24-104 and 9-24-106(a)(intro) and (c)(ii) are amended to
+read:
+9-24-101. Definitions.
+(a) As used in this chapter:
+(vii) "Online sports wagering revenue" means the
+total of all wagers placed by patrons with an online sports
+wagering operator, excluding the actual dollar value of
+free wagers and promotional play provided, minus all
+payments to patrons and minus any applicable federal excise
+taxes. Payments to patrons include all payments of cash,
+cash equivalents, merchandise and any other thing of value;
+(xv) "Sports wagering vendor" means a vendor
+that provides services to a sports wagering operator that
+1
+
+=== page 2 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0181
+ENROLLED ACT NO. 23, HOUSE OF REPRESENTATIVES
+SIXTY-SEVENTH LEGISLATURE OF THE STATE OF WYOMING
+2023 GENERAL SESSION
+the sports wagering operator uses to accept online sports
+wagers, including geolocation services, know your customer
+services, payment processors, server host providers,
+integrity monitoring services, cyber security services and
+data providers.
+(xvi) "Critical component" means any part or
+component of a mobile application or digital platform that:
+(A) Records, stores, processes, shares,
+transmits or receives sensitive information, including
+validation numbers and personal identification numbers; or
+(B) Stores the results or the current
+status of a patron's wager with an online sports wagering
+operator.
+(xvii) "Key personnel" means any person employed
+in an executive or supervisory capacity by a license
+holder, permit holder or applicant and who is authorized to
+make discretionary decisions that exhibit influence or
+control over gaming operations.
+9-24-103. Permits; licenses; fees; application.
+(b) A qualified gaming entity applying for a sports
+wagering operator permit shall do so on a uniform
+application furnished by the commission. The fee for both
+an initial application and renewal application shall be two
+thousand five hundred dollars ($2,500.00). The application
+shall require an applicant, at a minimum, to provide:
+(iv) Consent to permit Allowance for the
+commission to obtain fingerprints and to conduct a national
+criminal history record check of the applicant, and each
+2
+
+=== page 3 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0181
+ENROLLED ACT NO. 23, HOUSE OF REPRESENTATIVES
+SIXTY-SEVENTH LEGISLATURE OF THE STATE OF WYOMING
+2023 GENERAL SESSION
+individual disclosed under subsection (g) of this section
+and each person required to be licensed under subsections
+(p) and (q) of this section in accordance with procedures
+established by the commission. This subsection shall not
+require an applicant or individual who has submitted to a
+criminal background check in this or any other state within
+the twelve (12) months before submitting the application to
+resubmit to another criminal background check provided that
+the applicant or individual submits the results of the
+previous criminal background check and affirms that there
+has been no material change in the criminal history since
+the time of the criminal background check. The cost of the
+criminal history record background check shall be paid
+using a portion of the applicant's application fee;
+(f) Sports wagering operator and fees, sports
+wagering vendor permit fees and license fees charged
+pursuant to subsections (c), and (e), (p) and (q) of this
+section shall be deposited in the sports wagering account,
+which is hereby created. Subject to legislative
+appropriation, amounts within the account may be used by
+the commission for all expenses incurred in administering
+this chapter. On a quarterly basis, the commission shall
+transfer amounts within the account in excess of five
+hundred thousand dollars ($500,000.00) to the state
+treasurer for credit to the general fund.
+(h) The commission shall, not more than sixty (60)
+ninety (90) days after the date of receipt of an
+application for a permit or license or application for
+renewal of a permit under W.S. 9-24-103 or license under
+this section, either:
+(i) Issue the permit or license; or
+3
+
+=== page 4 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0181
+ENROLLED ACT NO. 23, HOUSE OF REPRESENTATIVES
+SIXTY-SEVENTH LEGISLATURE OF THE STATE OF WYOMING
+2023 GENERAL SESSION
+(j) The commission shall deny an application under
+this article upon finding any of the following:
+(iii) The applicant, license holder or permit
+holder failed or refused to cooperate in the investigation
+of a crime related to gambling, corruption of a public
+official or any organized criminal activity;
+(iv) The applicant, license holder or permit
+holder has intentionally not disclosed the existence or
+identity of other persons who have control of the applicant
+or permit holder as required by this section;
+(v) The applicant, license holder or permit
+holder has had a permit or license revoked by any
+government authority responsible for the regulation of
+sports wagering;
+(vi) The applicant, license holder or permit
+holder has not demonstrated financial responsibility
+sufficient to adequately meet the requirements of this
+chapter, as specified by rule of the commission; or
+(vii) The applicant, license holder or permit
+holder has not met the requirements of this section, any
+other provision of this chapter, commission rules or any
+applicable federal laws.
+(n) Permit holders and license holders under this
+article shall have an ongoing obligation to disclose in
+writing any material change in the information provided in
+the application to the commission, including:
+(iii) Any civil action brought against the
+permit holder or license holder; and
+4
+
+=== page 5 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0181
+ENROLLED ACT NO. 23, HOUSE OF REPRESENTATIVES
+SIXTY-SEVENTH LEGISLATURE OF THE STATE OF WYOMING
+2023 GENERAL SESSION
+(o) If the commission denies an application or
+intends to revoke or suspend a permit or license issued
+under this article, it shall notify the applicant, licensee
+or permittee in writing, stating the grounds for denial,
+revocation or suspension and informing the person of a
+right to submit, within not more than thirty (30) days, any
+additional documentation relating to the grounds for
+denial, revocation or suspension. Upon receiving any
+additional documentation, the commission shall reconsider
+its decision and inform the applicant of its decision
+within not more than twenty (20) days of the submission of
+information for reconsideration. A denial of an application
+or a revocation or suspension of a permit or license under
+this article shall be subject to the contested case
+procedures of the Wyoming Administrative Procedure Act.
+(p) Key personnel of an applicant, license holder or
+permit holder who may exercise ultimate decision making
+authority over the applicant's, permit holder's or license
+holder's online sports wagering operations in this state
+shall be licensed by the commission. The commission shall
+charge a fee of two hundred fifty dollars ($250.00) for an
+initial license and renewal application under this
+subsection. An initial license and any renewal license
+issued under this subsection shall each be valid for five
+(5) years.
+(q) Any employee of an applicant, license holder or
+permit holder who is not subject to licensure under
+subsection (p) of this section and who is authorized to
+change and is capable of changing play or outcome of wagers
+through the deployment of code to production for any
+critical component of the applicant's, permit holder's or
+license holder's mobile application or digital platform in
+5
+
+=== page 6 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0181
+ENROLLED ACT NO. 23, HOUSE OF REPRESENTATIVES
+SIXTY-SEVENTH LEGISLATURE OF THE STATE OF WYOMING
+2023 GENERAL SESSION
+this state shall be licensed by the commission. The
+commission shall charge a fee of two hundred fifty dollars
+($250.00) for an initial license and renewal application
+under this subsection. An initial license and any renewal
+license issued under this subsection shall each be valid
+for five (5) years.
+9-24-104. Distribution of revenue.
+(a) Not later than the fifteenth day of each month,
+in accordance with commission rules, a sports wagering
+operator shall remit ten percent (10%) of online sports
+wagering revenue from the prior month to the commission,
+except as provided in subsection (b) of this section. Each
+fiscal year, the first three hundred thousand dollars
+($300,000.00) of revenue generated under this section is
+continuously appropriated to the department of health to be
+distributed to the counties for the purpose of funding
+county health programs to prevent and treat problematic
+gambling behavior and the remainder of monies remitted to
+the commission shall be deposited by the state treasurer
+into the general fund.
+(b) If the amount of online sports wagering revenue
+for any month is a negative figure, the sports wagering
+operator shall not remit a sports wagering payment under
+subsection (a) of this section for that month. The sports
+wagering operator may carry over and calculate the online
+sports wagering loss for that month in accordance with the
+following:
+(i) The loss for that month may be carried over
+and calculated as a deduction against online sports
+wagering revenue for the immediately succeeding month,
+6
+
+=== page 7 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0181
+ENROLLED ACT NO. 23, HOUSE OF REPRESENTATIVES
+SIXTY-SEVENTH LEGISLATURE OF THE STATE OF WYOMING
+2023 GENERAL SESSION
+provided that no operator shall carry over more than the
+total amount of loss for that month;
+(ii) The loss for that month may be carried over
+and deducted until the negative figure has been brought to
+a balance of zero dollars ($0.00);
+(iii) After the negative figure is brought to a
+balance of zero dollars ($0.00) or after the immediately
+succeeding month, whichever is earlier, no amount of that
+month's loss shall be carried over or deducted under this
+subsection.
+9-24-106. Penalties; compliance.
+(a) Any person who knowingly accepts online sports
+wagers or otherwise operates a business of sports wagering
+and does not possess a valid permit or license issued by
+the commission under this chapter shall be subject to the
+following, in addition to any penalty imposed under W.S.
+6-7-102:
+(c) The commission shall develop a compliance program
+that includes establishing procedures to review online
+sports wagering and related activities occurring in the
+state to ensure compliance with and enforcement of this
+chapter. The program shall include review and evaluation of
+the conduct of:
+(ii) Persons operating without a valid permit or
+license under this chapter, engaging in activities not
+authorized or regulated under this chapter or pursuing or
+engaging in activities otherwise in violation of this
+chapter.
+7
+
+=== page 8 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0181
+ENROLLED ACT NO. 23, HOUSE OF REPRESENTATIVES
+SIXTY-SEVENTH LEGISLATURE OF THE STATE OF WYOMING
+2023 GENERAL SESSION
+Section 2. This act is effective immediately upon
+completion of all acts necessary for a bill to become law
+as provided by Article 4, Section 8 of the Wyoming
+Constitution.
+(END)
+Speaker of the House President of the Senate
+Governor
+TIME APPROVED: _________
+DATE APPROVED: _________
+I hereby certify that this act originated in the House.
+Chief Clerk
+8

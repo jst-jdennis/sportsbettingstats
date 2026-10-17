@@ -1,0 +1,627 @@
+=== page 1 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+AN ACT relating to online sports wagering; authorizing
+online sports wagering; providing for regulation by the
+Wyoming gaming commission; imposing fees; requiring
+rulemaking; creating an account; providing for the
+collection and distribution of revenues from online sports
+wagering to the state; providing for a continuous
+appropriation; creating penalties; specifying that fantasy
+sports contests are not gambling; and providing for
+effective dates.
+Be It Enacted by the Legislature of the State of Wyoming:
+Section 1. W.S. 9-24-101 through 9-24-106 are created
+to read:
+CHAPTER 24
+GAMING COMMISSION REGULATED ACTIVITIES
+ARTICLE 1
+ONLINE SPORTS WAGERING
+9-24-101. Definitions.
+(a) As used in this chapter:
+(i) "Cash equivalent" means an asset that is
+convertible to cash and approved for use in connection with
+online sports wagering. Approved cash equivalents include:
+(A) Travelers checks;
+(B) Foreign currency and coin;
+(C) Certified checks, cashier's checks and
+money orders;
+1
+
+=== page 2 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+(D) Personal checks and drafts;
+(E) Digital, crypto and virtual currencies;
+(F) Online and mobile payment systems that
+support online money transfers;
+(G) Credit cards and debit cards;
+(H) Prepaid access instruments;
+(J) Any other form of asset that is
+convertible to cash approved by commission rules.
+(ii) "Commission" means the Wyoming gaming
+commission;
+(iii) "Director" means the executive director of
+the commission;
+(iv) "Fantasy sports contest" means a simulated
+game or contest with an entry fee that meets all of the
+following conditions:
+(A) No fantasy sports contest team is
+composed entirely of individual contestants who are members
+of the same real world sports team;
+(B) Each prize and award or the value of
+all prizes and awards offered to winning fantasy sports
+contest players is made known to the fantasy sports contest
+players in advance of the fantasy sports contest;
+2
+
+=== page 3 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+(C) Each winning outcome reflects the
+relative knowledge and skill of the fantasy sports contest
+players and is determined by the aggregated statistical
+results of the performance of multiple individual
+contestants who each fantasy sports contest player has
+selected to form that player's fantasy sports contest team.
+The individual performances of the individual contestants
+in the fantasy sports contest directly correspond with the
+actual performances of those contestants in a real world
+sporting event in which those individuals participated;
+(D) A winning outcome is not based on the
+performance of a single real world sports team, any
+combination of real world sports teams or a single
+contestant in a real world sporting event, nor is it based
+on the score or point spread of one (1) or more real world
+sporting events;
+(E) The fantasy sports contest does not
+constitute or involve a slot machine or a fixed, commercial
+electrical gaming device.
+(v) "Fantasy sports contest player" means a
+person who engages in selecting individual contestants to
+comprise a team for a fantasy sports contest;
+(vi) "Online sports wagering" means engaging in
+sports wagering conducted by a sports wagering operator
+through a sports wagering account over the internet by use
+of a computer, digital platform or mobile application on a
+mobile device, any of which uses communications technology
+to accept sports wagers or any system or method of
+electronic sports wagering approved by commission rules.
+"Online sports wagering" shall not include or be conducted
+from any physical location created by a sports wagering
+3
+
+=== page 4 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+operator or vendor for a patron to physically visit to
+place a wager;
+(vii) "Online sports wagering revenue" means the
+total of all wagers placed by patrons with an online sports
+wagering operator, excluding free wagers and promotional
+play, minus all payments to patrons and minus any
+applicable federal excise taxes. Payments to patrons
+include all payments of cash, cash equivalents, merchandise
+and any other thing of value;
+(viii) "Patron" means a person who places an
+online sports wagering wager;
+(ix) "Prohibited sports wager" means:
+(A) A wager involving any sporting event or
+other event where the majority of contestants or athletes
+in the sporting event are under the age of eighteen (18)
+years;
+(B) Any wagering category not authorized by
+law or commission rules adopted in compliance with law.
+(x) "Qualified gaming entity" means a gaming
+entity that offers online sports wagering through
+computers, digital platforms or mobile applications in not
+less than three (3) jurisdictions in the United States
+pursuant to a state regulatory structure;
+(xi) "Sporting event" means any professional
+sports event or athletic event, any Olympic or
+international sports event or athletic event, any amateur
+sports event or athletic event, any collegiate sports event
+or athletic event, electronic sports, or any portion
+4
+
+=== page 5 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+thereof, including the individual performance statistics of
+contestants or athletes in sports events, athletic events
+or a combination of sports and athletic events, or any
+other event approved by commission rules;
+(xii) "Sports wagering" means the business of
+accepting wagers from patrons on sporting events through
+online sports wagering. "Sports wagering" wagers include
+single game bets, teaser bets, parlays, over-under,
+moneyline, pools, exchange wagering, in-game wagering,
+in-play bets, proposition bets and straight bets. "Sports
+wagering" shall not include any of the following:
+(A) Activities other than online sports
+wagering that are exempted from criminal penalties under
+W.S. 6-7-101 through 6-7-104;
+(B) Activities outside of this chapter
+authorized or regulated by the commission;
+(C) Lotteries authorized by law;
+(D) Fantasy sports contests;
+(E) Prohibited sports wagers.
+(xiii) "Sports wagering account" means a
+financial record established by a sports wagering operator
+for an individual patron into which the patron may deposit
+and from which the patron may withdraw funds for sports
+wagering and other purchases, and into which the sports
+wagering operator may credit winnings or other amounts due
+to that patron or authorized by that patron. In compliance
+with any other applicable law, a sports wagering account
+5
+
+=== page 6 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+may be established electronically through an approved
+mobile application or digital platform;
+(xiv) "Sports wagering operator" means any
+qualified gaming entity authorized by the commission to
+accept online sports wagers;
+(xv) "Sports wagering vendor" means a vendor
+that provides services to a sports wagering operator that
+the sports wagering operator uses to accept online sports
+wagers, including geolocation services, know your customer
+services, payment processors and data providers.
+9-24-102. Online sports wagering regulation;
+rulemaking.
+(a) The commission shall regulate online sports
+wagering and sports wagering operators and vendors.
+(b) The commission shall promulgate rules to
+implement this chapter. The rules the commission
+promulgates shall establish standards and procedures for
+online sports wagering and associated sports wagering
+systems. The rules shall include:
+(i) Governance of the conduct of online sports
+wagering and the system of wagering associated with online
+sports wagering, including all of the following:
+(A) Terms and conditions for online sports
+wagering that are compliant with all applicable federal
+laws;
+6
+
+=== page 7 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+(B) Identification of the sporting events
+upon which online sports wagers may be accepted and methods
+of play;
+(C) The manner in which online sports
+wagers are received and payoffs are remitted;
+(D) Procedures for managing and resolving
+suspected cheating, sports wagering irregularities and
+complaints;
+(E) A requirement that for a patron to make
+a lawful wager the patron must be physically present in the
+state when making the wager unless otherwise authorized by
+the commission;
+(F) A requirement for each sports wagering
+operator to use a geolocation system to ensure that a
+patron making an online sports wager is physically present
+in the state when making the wager unless otherwise
+authorized by the commission;
+(G) Internal controls for all aspects of
+online sports wagering, including procedures for system
+integrity, system security, operations and accounting;
+(H) Operational controls for online gaming
+accounts;
+(J) Procedures to ensure that sports
+wagering operators do not offer prohibited sports wagers.
+(ii) Establishing the method for calculating
+online sports wagering revenue and standards for the
+counting and recording of cash and cash equivalents
+7
+
+=== page 8 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+received in the conduct of online sports wagering, to
+include methods for ensuring that internal controls are
+followed, financial records are maintained and audits are
+conducted;
+(iii) Reasonable minimum qualifications for
+sports wagering operators;
+(iv) Any other matters necessary for overseeing
+online sports wagering and sports wagering operators and
+vendors.
+(c) In promulgating rules pursuant to this section,
+the commission shall examine the regulations implemented in
+other states where online sports wagering is conducted and
+shall, as far as practicable, adopt a similar regulatory
+framework to maximize revenue generated for the state.
+9-24-103. Permits; fees; application.
+(a) A sports wagering operator shall possess a permit
+issued by the commission to accept online sports wagers. No
+person shall accept online sports wagers without holding a
+valid permit issued by the commission.
+(b) A qualified gaming entity applying for a sports
+wagering operator permit shall do so on a uniform
+application furnished by the commission. The fee for both
+an initial application and renewal application shall be two
+thousand five hundred dollars ($2,500.00). The application
+shall require an applicant, at a minimum, to provide:
+(i) The full name, current address and contact
+information of the applicant;
+8
+
+=== page 9 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+(ii) Disclosure of each person who has control
+of the applicant as described in subsection (g) of this
+section;
+(iii) The applicant's fingerprints and the
+fingerprints of individuals identified in subsection (g) of
+this section considered to have control of an applicant or
+permit holder;
+(iv) Consent to permit the commission to conduct
+a criminal history record check of the applicant and each
+individual disclosed under subsection (g) of this section
+in accordance with procedures established by the
+commission. This subsection shall not require an applicant
+or individual who has submitted to a criminal background
+check in this or any other state within the twelve (12)
+months before submitting the application to resubmit to
+another criminal background check provided that the
+applicant or individual submits the results of the previous
+criminal background check and affirms that there has been
+no material change in the criminal history since the time
+of the criminal background check. The cost of the criminal
+history record background check shall be paid using a
+portion of the applicant's application fee;
+(v) Other information and permissions as
+requested by the commission;
+(vi) For the applicant and each person disclosed
+under subsection (g) of this section, a record of previous
+issuances and denials of any gambling related license or
+application under Wyoming statutes or in any other
+jurisdiction in the United States;
+9
+
+=== page 10 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+(vii) Any additional information required by
+commission rules.
+(c) The commission shall charge a permit fee of one
+hundred thousand dollars ($100,000.00) for an initial
+sports wagering operator permit. An initial permit and any
+renewal permit shall each be valid for five (5) years. The
+commission shall charge a fee of fifty thousand dollars
+($50,000.00) for a sports wagering operator permit renewal.
+(d) A sports wagering vendor shall possess a permit
+issued by the commission to conduct business in the state.
+No person shall provide vendor services to a sports
+wagering operator without holding a valid permit issued by
+the commission.
+(e) The commission shall charge a fee of ten thousand
+dollars ($10,000.00) for an initial sports wagering vendor
+permit. An initial permit and any renewal permit shall each
+be valid for five (5) years. The commission shall charge a
+fee of five thousand dollars ($5,000.00) for a sports
+wagering vendor permit renewal.
+(f) Sports wagering operator and sports wagering
+vendor permit fees charged pursuant to subsections (c) and
+(e) of this section shall be deposited in the sports
+wagering account, which is hereby created. Subject to
+legislative appropriation, amounts within the account may
+be used by the commission for all expenses incurred in
+administering this chapter. On a quarterly basis, the
+commission shall transfer amounts within the account in
+excess of five hundred thousand dollars ($500,000.00) to
+the state treasurer for credit to the general fund.
+10
+
+=== page 11 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+(g) The following persons are considered to have
+control of a sports wagering operator permit applicant or
+permit holder:
+(i) Each holding company, parent company or
+subsidiary company of the applicant or permit holder;
+(ii) Each person, except for a bank or other
+licensed lending institution that holds a mortgage or other
+lien acquired in the ordinary course of business, who owns
+fifteen percent (15%) or more of a corporate applicant or
+permit holder and has the ability to:
+(A) Control the activities of the corporate
+applicant or permit holder; or
+(B) Elect a majority of the board of
+directors of that corporate applicant or permit holder.
+(iii) Each person associated with a noncorporate
+applicant or permit holder who directly or indirectly holds
+a beneficial or proprietary interest in the noncorporate
+applicant's or permit holder's business operations or who
+the commission otherwise determines has the ability to
+control the noncorporate applicant or permit holder;
+(iv) Key personnel of an applicant or permit
+holder, including any executive, employee or agent having
+the power to exercise ultimate decision making authority
+over the applicant's or permit holder's sports wagering
+operations in this state.
+(h) The commission shall, not more than sixty (60)
+days after the date of receipt of an application for a
+11
+
+=== page 12 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+permit or application for renewal of a permit under W.S.
+9-24-103, either:
+(i) Issue the permit; or
+(ii) Deny the application based on the grounds
+that the applicant failed to qualify as provided by
+subsection (j) of this section.
+(j) The commission shall deny an application under
+this article upon finding any of the following:
+(i) The applicant or permit holder has been
+convicted of, forfeited bail on or pleaded guilty to:
+(A) A crime involving theft, dishonesty or
+fraud;
+(B) Bribery or unlawfully influencing a
+public official;
+(C) A felony crime involving physical harm
+to a person; or
+(D) Any other crime identified by rule of
+the commission that negatively impacts the applicant's
+credibility or the security, integrity or fairness of
+online sports wagering.
+(ii) The applicant tampered with submitted
+documentation or concealed, failed to disclose or otherwise
+attempted to mislead the commission with respect to any
+material fact contained in the application or contained in
+any other information required of or submitted by an
+applicant to the commission;
+12
+
+=== page 13 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+(iii) The applicant or permit holder failed or
+refused to cooperate in the investigation of a crime
+related to gambling, corruption of a public official or any
+organized criminal activity;
+(iv) The applicant or permit holder has
+intentionally not disclosed the existence or identity of
+other persons who have control of the applicant or permit
+holder as required by this section;
+(v) The applicant or permit holder has had a
+permit revoked by any government authority responsible for
+the regulation of sports wagering;
+(vi) The applicant or permit holder has not
+demonstrated financial responsibility sufficient to
+adequately meet the requirements of this chapter, as
+specified by rule of the commission; or
+(vii) The applicant or permit holder has not met
+the requirements of this section, any other provision of
+this chapter, commission rules or any applicable federal
+laws.
+(k) Given a sufficient number of applicants, at any
+one (1) time the commission shall issue not less than five
+(5) sports wagering operator permits to applicants that
+satisfy the requirements under this chapter. If an
+insufficient number of applicants apply for a sports
+wagering operator permit, this provision shall not be
+interpreted to direct the commission to issue a permit to
+an unqualified applicant.
+13
+
+=== page 14 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+(m) The commission shall issue a permit to a sports
+wagering vendor that is currently operating in good
+standing in a similar role in at least three (3)
+jurisdictions in the United States under a state regulatory
+structure and that has paid all required fees under
+subsection (e) of this section.
+(n) Permit holders under this article shall have an
+ongoing obligation to disclose in writing any material
+change in the information provided in the application to
+the commission, including:
+(i) Changes to names and contact information;
+(ii) Arrests, convictions, guilty pleas,
+disciplinary actions or license denials in Wyoming or any
+other jurisdiction;
+(iii) Any civil action brought against the
+permit holder; and
+(iv) Any other information specified by rule of
+the commission.
+(o) If the commission denies an application or
+intends to revoke or suspend a permit issued under this
+article, it shall notify the applicant or permittee in
+writing, stating the grounds for denial, revocation or
+suspension and informing the person of a right to submit,
+within not more than thirty (30) days, any additional
+documentation relating to the grounds for denial,
+revocation or suspension. Upon receiving any additional
+documentation, the commission shall reconsider its decision
+and inform the applicant of its decision within not more
+than twenty (20) days of the submission of information for
+14
+
+=== page 15 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+reconsideration. A denial of an application or a revocation
+or suspension of a permit under this article shall be
+subject to the contested case procedures of the Wyoming
+Administrative Procedure Act.
+9-24-104. Distribution of revenue.
+Not later than the fifteenth day of each month, in
+accordance with commission rules, a sports wagering
+operator shall remit ten percent (10%) of online sports
+wagering revenue from the prior month to the commission.
+Each fiscal year, the first three hundred thousand dollars
+($300,000.00) of revenue generated under this section is
+continuously appropriated to the department of health to be
+distributed to the counties for the purpose of funding
+county health programs to prevent and treat problematic
+gambling behavior and the remainder of monies remitted to
+the commission shall be deposited by the state treasurer
+into the general fund.
+9-24-105. Age to engage in online sports wagering.
+No person under the age of eighteen (18) years shall engage
+in online sports wagering.
+9-24-106. Penalties; compliance.
+(a) Any person who knowingly accepts online sports
+wagers or otherwise operates a business of sports wagering
+and does not possess a valid permit issued by the
+commission under this chapter shall be subject to the
+following, in addition to any penalty imposed under W.S.
+6-7-102:
+15
+
+=== page 16 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+(i) For a first offense, a civil penalty of
+twenty-five thousand dollars ($25,000.00);
+(ii) For a second or subsequent offense, a civil
+penalty of fifty thousand dollars ($50,000.00).
+(b) When a series of similar events result in a
+violation under this chapter or commission rules, those
+events that occur within the same month shall be treated as
+one offense and not separate and distinct offenses.
+(c) The commission shall develop a compliance program
+that includes establishing procedures to review online
+sports wagering and related activities occurring in the
+state to ensure compliance with and enforcement of this
+chapter. The program shall include review and evaluation of
+the conduct of:
+(i) Sports wagering operators, sports wagering
+vendors, qualified gaming entities, patrons and any other
+person permitted or authorized to engage in activities
+under this chapter; and
+(ii) Persons operating without a valid permit
+under this chapter, engaging in activities not authorized
+or regulated under this chapter or pursuing or engaging in
+activities otherwise in violation of this chapter.
+Section 2. W.S. 6-7-101(a)(iii) by creating new
+subparagraphs (N) and (O) and 11-25-104(d) and (o) are
+amended to read:
+6-7-101. Definitions.
+(a) As used in this article:
+16
+
+=== page 17 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+(iii) "Gambling" means risking any property for
+gain contingent in whole or in part upon lot, chance, the
+operation of a gambling device or the happening or outcome
+of an event, including a sporting event, over which the
+person taking a risk has no control, but does not include
+any of the following:
+(N) Online sports wagering regulated under
+W.S. 9-24-101 through 9-24-106;
+(O) Fantasy sports contests as defined in
+W.S. 9-24-101(a)(iv).
+11-25-104. Gaming commission; officers; director;
+meetings; quorum; records; licenses generally; effect of
+financial interest in events.
+(d) Any member of the commission who owns or has any
+interest, or whose spouse or member of his immediate family
+has any interest, in any activity regulated by the
+commission or in an animal participating in a pari-mutuel
+event shall disclose that interest and shall not
+participate in any commission decision involving a protest
+regarding that activity or occurring at that pari-mutuel
+event.
+(o) In addition to all other duties, the commission,
+in the reasonable exercise of its discretion, shall:
+(i) Enforce W.S. 6-7-101 through 6-7-104;
+(ii) Regulate online sports wagering and sports
+wagering operators and vendors under W.S. 9-24-101 through
+9-24-106.
+17
+
+=== page 18 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+Section 3. Not later than September 1, 2021, the
+commission shall promulgate rules required by this act.
+18
+
+=== page 19 ===
+ORIGINAL HOUSE ENGROSSED
+BILL NO. HB0133
+ENROLLED ACT NO. 50, HOUSE OF REPRESENTATIVES
+SIXTY-SIXTH LEGISLATURE OF THE STATE OF WYOMING
+2021 GENERAL SESSION
+Section 4.
+(a) Except as provided in subsection (b) of this
+section, this act is effective September 1, 2021.
+(b) Sections 3 and 4 of this act are effective
+immediately upon completion of all acts necessary for a
+bill to become law as provided by Article 4, Section 8 of
+the Wyoming Constitution.
+(END)
+Speaker of the House President of the Senate
+Governor
+TIME APPROVED: _________
+DATE APPROVED: _________
+I hereby certify that this act originated in the House.
+Chief Clerk
+19

@@ -1,0 +1,2862 @@
+=== page 1 ===
+West Virginia Lottery
+Financial Report
+June 30, 2025
+
+=== page 2 ===
+West Virginia Lottery
+Contents
+Independent Auditor’s Report................................................................................1
+Management’s Discussion and Analysis..................................................................4
+Financial Statements
+Statements of Net Position .............................................................................................13
+Statements of Revenues, Expenses and Changes in Fund Net Position.........................14
+Statement of Cash Flows.................................................................................................15
+Notes to Financial Statements ........................................................................................17
+Required Supplementary Information
+Schedules of the Proportionate Share of the Net Pension Liability (Asset) ...................50
+Schedules of Contributions to the PERS..........................................................................51
+Schedules of the Proportionate Share of the Net OPEB Liability (Asset) .......................52
+Schedules of Contributions to the RHBT.........................................................................53
+Notes to Required Supplementary Information .............................................................54
+Independent Auditor’s Report on Internal Control Over Financial
+Reporting and on Compliance and Other Matters Based on an Audit
+of Financial Statements Performed in Accordance with Government
+Auditing Standards.............................................................................................60
+Other Financial Information
+Form 7 – Deposits Disclosure..........................................................................................62
+Form 8 – Investments Disclosure....................................................................................63
+Form 8A – Deposits and Investments Reconciliation......................................................64
+Form 10A – Due to Other Funds –Primary Government................................................65
+Form 11 – Due from/to Other Funds –Component Units..............................................66
+Form 15 –Transfers In-Out.............................................................................................67
+
+=== page 3 ===
+Independent Auditor’s Report
+To the West Virginia Lottery Commission
+Charleston, West Virginia
+Report on the Audit of the Financial Statements
+Opinion
+We have audited the accompanying financial statements of the West Virginia Lottery (the Lottery), a
+component unit of the State of West Virginia, as of and for the years ended June 30, 2025 and 2024 and
+the related notes to the financial statements, which collectively comprise the Lottery’s basic financial
+statements as listed in the table of contents.
+In our opinion, the financial statements referred to above present fairly, in all material respects, the
+financial position of the Lottery, as of June 30, 2025 and 2024, and the changes in financial position, and
+cash flows for the years then ended in accordance with accounting principles generally accepted in the
+United States of America.
+Basis for Opinion
+We conducted our audit in accordance with auditing standards generally accepted in the United States of
+America and the standards applicable to financial audits contained in Government Auditing Standards,
+issued by the Comptroller General of the United States. Our responsibilities under those standards are
+further described in the Auditor’s Responsibilities for the Audit of the Financial Statements section of our
+report. We are required to be independent of the Lottery and to meet our other ethical responsibilities,
+in accordance with the relevant ethical requirements relating to our audit. We believe that the audit
+evidence we have obtained is sufficient and appropriate to provide a basis for our audit opinion.
+Responsibilities of Management for the Financial Statements
+Management is responsible for the preparation and fair presentation of the financial statements in
+accordance with accounting principles generally accepted in the United States of America, and for the
+design, implementation, and maintenance of internal control relevant to the preparation and fair
+presentation of financial statements that are free from material misstatement, whether due to fraud or
+error.
+In preparing the financial statements, management is required to evaluate whether there are conditions
+or events, considered in the aggregate, that raise substantial doubt about the Lottery’s ability to continue
+as a going concern for twelve months beyond the financial statement date, including any currently known
+information that may raise substantial doubt shortly thereafter.
+www.becpas.com
+
+=== page 4 ===
+Auditor’s Responsibilities for the Audit of the Financial Statements
+Our objectives are to obtain reasonable assurance about whether the financial statements as a whole are
+free from material misstatement, whether due to fraud or error, and to issue an auditor’s report that
+includes our opinion. Reasonable assurance is a high level of assurance but is not absolute assurance and
+therefore is not a guarantee that an audit conducted in accordance with generally accepted auditing
+standards and Government Auditing Standardswill always detect a material misstatement when it exists.
+The risk of not detecting a material misstatement resulting from fraud is higher than for one resulting
+from error, as fraud may involve collusion, forgery, intentional omissions, misrepresentations, or the
+override of internal control. Misstatements are considered material if there is a substantial likelihood that,
+individually or in the aggregate, they would influence the judgment made by a reasonable user based on
+the financial statements.
+In performing an audit in accordance with generally accepted auditing standards and Government
+Auditing Standards, we:
+ Exercise professional judgment and maintain professional skepticism throughout the audit.
+ Identify and assess the risks of material misstatement of the financial statements, whether due
+to fraud or error, and design and perform audit procedures responsive to those risks. Such
+procedures include examining, on a test basis, evidence regarding theamounts and disclosures in
+the financial statements.
+ Obtain an understanding of internal control relevant to the audit in order to design audit
+procedures that are appropriate in the circumstances, but not for the purpose of expressing an
+opinion on the effectiveness of the Lottery’s internal control. Accordingly, no such opinion is
+expressed.
+ Evaluate the appropriateness of accounting policies used and the reasonableness of significant
+accounting estimates made by management, as well as evaluate the overall presentation of the
+financial statements.
+ Conclude whether, in our judgment, there are conditions or events, considered in the aggregate,
+that raise substantial doubt about the Lottery’s ability to continue as a going concern for a
+reasonable period of time.
+We are required to communicate with those charged with governance regarding, among other matters,
+the planned scope and timing of the audit, significant audit findings, and certain internal control-related
+matters that we identified during the audit.
+Required Supplementary Information
+Accounting principles generally accepted in the United States of America require that the management’s
+discussion and analysis and the schedules of the proportionate share of the net pension liability (asset),
+the schedules of contributions to the PERS, the schedules of the proportionate share of the net OPEB
+liability (asset), the schedules of contributions to the RHBT, and the notes to required supplementary
+information be presented to supplement the basic financial statements. Such information is the
+responsibility of management and, although not a part of the basic financial statements, is required by
+the Governmental Accounting Standards Board who considers it to be an essential part of financial
+reporting for placing the basic financial statements in an appropriate operational, economic, or historical
+2
+
+=== page 5 ===
+context. We have applied certain limited procedures to the required supplementary information in
+accordance with auditing standards generally accepted in the United States of America, which consisted
+of inquiries of management about the methods of preparing the information and comparing the
+information for consistency with management’s responses to our inquiries, the basic financial statements,
+and other knowledge we obtained during our audit of the basic financial statements. We do not express
+an opinion or provide any assurance on the information because the limited procedures do not provide
+us with sufficient evidence to express an opinion or provide any assurance.
+Supplementary Information
+Our audit was conducted for the purpose of forming opinions on the financial statements that collectively
+comprise the Lottery’s basic financial statements. The other financial information described in the table
+of contents is presented for purposes of additional analysis and is not a required part of the basic financial
+statements. Such information is the responsibility of management and was derived from and relates
+directly to the underlying accounting and other records used to prepare the basic financial statements.
+The information has been subjected to the auditing procedures applied in the audit of the basic financial
+statements and certain additional procedures, including comparing and reconciling such information
+directly to the underlying accounting and other records used to prepare the basic financial statements or
+to the basic financial statements themselves, and other additional procedures in accordance with auditing
+standards generally accepted in the United States of America. In our opinion, the other financial
+information is fairly stated in all material respects in relation to the basic financial statements as a whole.
+Other Reporting Required by Government Auditing Standards
+In accordance with Government Auditing Standards, we have also issued our report dated September
+30, 2025 on our consideration of the Lottery’s internal control over financial reporting and on our tests
+of its compliance with certain provisions of laws, regulations, contracts, and grant agreements and other
+matters. The purpose of that report is solely to describe the scope of our testing of internal control over
+financial reporting and compliance and the results of that testing, and not to provide an opinion on the
+effectiveness of the Lottery’s internal control over financial reporting or on compliance. That report is an
+integral part of an audit performed in accordance with Government Auditing Standards in considering the
+Lottery’s internal control over financial reporting and compliance.
+CERTIFIED PUBLIC ACCOUNTANTS
+Charleston, West Virginia
+September 30, 2025
+3
+
+=== page 6 ===
+WEST VIRGINIA LOTTERY
+MANAGEMENT’S DISCUSSION AND ANALYSIS
+(Unaudited)
+Our discussion of the West Virginia Lottery’s (the Lottery) financial performance provides for an overview
+of the Lottery’s financial activities for the fiscal years ended June 30, 2025 and 2024. In reading the
+Management’s Discussion and Analysis (MD&A), the current year refers to fiscal year ending June 30,
+2025, and the prior year refers to fiscal year ending June 30, 2024. This analysis is to be considered in
+conjunction with the financial statements, which begin on page13.
+Financial Highlights
+In 2025, the Lottery’s operating income decreased $3.7 million or 0.7% compared to the prior year. The
+following summary is provided below:
+ Lotteryrevenues for the current year decreased $20.9million or 1.6%compared to the prior year, which
+decreased $28.6million or 2.2% from2023.
+ Commissions for the current year decreased $11.2 million or 2.2% compared to the prior year, which
+decreased $14.4million or 2.7% from2023.
+ Gross profit for the current year decreased $387 thousand or 0.1% compared to the prior year, which
+decreased $8million or 1.3% from2023.
+ Nonoperating expenses decreased $1.7 million or 0.3% compared to the prior year, which decreased
+$11million or 1.9% from2023. The predominant nonoperating expense is the distributions to the State
+of West Virginia, which decreased $5.9million or 1%compared to the prior year, which decreased $7
+million or 1.2% from2023.
+Using This Annual Report
+The Lottery is a component unit of the State of West Virginia, and is accounted for as a proprietary type
+enterprise fund using the accrual basis of accounting much like a private business entity. As such, this report
+consists of a series of financial statements, along with explanatory notes to the financial statements. To
+assess the Lottery’s financial position, the reader of these statements should pay particular attention to
+changes in the components of assets and liabilities as set forth in the Statementsof Net Positionand changes
+inoperating revenues, expenses andnonoperating distributions to the State of West Virginia as set forth in
+the Statements of Revenues, Expenses and Changes in Fund Net Position.
+Statements of Net Position
+As shown in Table 1, current assets for the current year decreased $47.4million or 17.7% compared to the
+prior year, which decreased $58.7million or 18.0%from 2023,due toa decrease in cash during the period
+primarily due to a timing of transfers.
+Capital assetsof land, building and equipment, net of accumulated depreciation and amortization, decreased
+in the current year by $295 thousand or 0.7%, due to depreciation compared to the prior year which
+decreased by $1.04millionor 2.5% from 2023, due to depreciation. For additional information on capital
+assets, please refer to Note 4to the financial statements.
+Deferred outflows of resources fluctuate for each of the years presented in accordance with the Lottery’s
+proportionate share of pension and OPEB benefits.
+Restricted net pension and OPEB assets fluctuate in accordance with Lottery’s respective proportionate
+share of the calculation in each of the years presented.
+(Continued)
+4
+
+=== page 7 ===
+WEST VIRGINIA LOTTERY
+MANAGEMENT’S DISCUSSION AND ANALYSIS
+(Unaudited)
+Statements of Net Position (Continued)
+Table 1
+Assetsand Deferred Outflowsof Resources
+(in $000’s)
+2025 2024 2023
+Assets
+Current assets $ 220,495 $ 267,889 $ 326,570
+Noncurrent assets,
+Capital assets net of accumulated
+depreciation and amortization 40,076 40,371 41,409
+Restricted net pension & OPEB assets 885 228 -
+Total assets $ 261,456 $ 308,488 $ 367,979
+Deferred Outflows of Resources
+Deferred outflows of resources $ 2,251 $ 1,471 $ 2,340
+As shown in Table 2, the Lottery’s current liabilities for the current year decreased $45 million or 18.2%
+compared to the prior year, which decreased $59.2 million or 19.3% compared to 2023 due to a decrease
+in transferspayableto the State of West Virginia as a result oftiming of transfers.
+Deferred inflows of resources fluctuate for each of the years presented in accordance with the Lottery’s
+proportionate share of pension and OPEB benefits.
+Net position-net investmentin capital assets decreased in the current yearby $295thousandor 0.7% due
+to depreciation, compared to the prior year which decreased by $1.04 million or 2.5% compared to 2023,
+due to depreciation.Refer to Note 4to the financial statements for additional information on capital assets.
+Net position – restricted for net pension and OPEB increased $657 thousand or 288.2% compared to the
+prior year which increased $228 thousand or 100% compared to 2023.
+Net position–unrestricted decreased $2.4millionor 11.3%for the year ended June 30, 2025compared to
+the prior year which increased $1.1millionor 5.6% compared to 2023.
+Table 2
+Liabilities, Deferred Inflowsof Resourcesand Net Position
+(in $000’s)
+2025 2024 2023
+Current liabilities $ 202,985 $ 248,057 $ 307,241
+Noncurrent liabilities - - 883
+Total liabilities $ 202,985 $ 248,057 $ 308,124
+Deferred inflows of resources $ 1,182 $ 370 $ 766
+Net position
+Net investmentin capital assets $ 40,076 $ 40,372 $ 41,409
+Restricted for pensionand OPEB 885 228 -
+Unrestricted 18,579 20,933 20,020
+Total net position $ 59,540 $ 61,532 $ 61,429
+(Continued)
+5
+
+=== page 8 ===
+WEST VIRGINIA LOTTERY
+MANAGEMENT’S DISCUSSION AND ANALYSIS
+(Unaudited)
+Capital Assets
+Capital assets as of June 30, 2025 amounted to $65.7 million (at cost). This investment in capital assets
+includes land, building, construction in progress, and equipment. Total capital assets for the current year
+increased $1.7 millionor 2.7% from the prior fiscal year.
+Table 3
+Capital Assets
+(in $000’s)
+2025 2024 2023
+Construction in progress $ 212 $ 2,811 $ 2,153
+Land 1,681 1,681 $ 1,681
+Building 48,243 48,243 48,243
+Equipment 15,522 11,180 11,180
+Total assets $ 65,658 $ 63,915 $ 63,257
+Capital asset activities included the acquisition of a new security system in addition to assets under
+construction in progress being placed in service during the year ending June 30, 2025. Additional
+information on capital assets can be found in Note 4 of the financial statements.
+(Continued)
+6
+
+=== page 9 ===
+WEST VIRGINIA LOTTERY
+MANAGEMENT’S DISCUSSION AND ANALYSIS
+(Unaudited)
+Revenues, Expenses and Changes in Fund Net Position
+The content of Table 4 is a summary of activities and is related to the discussion of Table 5.
+Table 4
+Revenues, Expenses and Changes in Fund Net Position
+(in $000’s)
+2025 2024 2023
+Revenues:
+Draw based games $ 68,458 $ 93,357 $ 93,339
+Scratch-off games 155,609 164,648 171,856
+eInstants 13,092 - -
+Racetrack video lottery 475,498 476,731 498,269
+Limited video lottery 473,964 488,365 493,640
+Table games 32,361 32,775 34,922
+Historic resort 4,220 6,137 6,404
+Sports wagering 5,676 5,278 5,262
+Interactive wagering 46,159 28,621 20,845
+1,275,037 1,295,912 1,324,537
+Less commissions:
+Draw based games 4,660 6,528 6,538
+Scratch-off games 10,892 11,525 12,029
+Racetrack video lottery 245,183 245,547 255,882
+Limited video lottery 232,242 239,300 241,884
+Table games 13,770 13,960 14,846
+Historic resort 2,021 3,078 3,176
+508,768 519,938 534,355
+Less draw based gamesprize costs 33,755 46,097 47,401
+Less scratch-off ticketsprize costs 106,615 113,131 117,251
+Less eInstant prizes 10,303 - -
+Less ticket costs 1,793 1,933 2,233
+Less vendor fees and costs 10,384 11,008 11,525
+162,850 172,169 178,410
+Gross profit 603,419 603,805 611,772
+Administrative expenses:
+Advertising and promotions 7,213 5,221 5,626
+Wages and related benefits 13,601 13,341 10,891
+Telecommunications 974 804 762
+Contractual and professional 14,208 12,232 11,315
+Lease 221 246 282
+Depreciation and amortization 2,038 1,696 1,686
+Other administrative expenses 2,989 3,800 2,605
+41,244 37,340 33,167
+Other operating income 11,581 11,036 10,373
+Operating income 573,756 577,501 588,978
+Nonoperating income (expense):
+Investment income 9,800 13,505 9,297
+Distributions to municipalities and counties (9,290) (9,572) (9,675)
+Distributions for capital reinvestment (12,775) (11,912) (11,606)
+Distributions to the State of West Virginia (563,483) (569,419) (576,461)
+Net Income (1,992) 103 533
+Net position, beginning of year 61,532 61,429 60,896
+Net position, end of year $ 59,540 $ 61,532 $ 61,429
+(Continued)
+7
+
+=== page 10 ===
+WEST VIRGINIA LOTTERY
+MANAGEMENT’S DISCUSSION AND ANALYSIS
+(Unaudited)
+Sales and Prizes, Commissions, Ticket Costs and Vendor Fees
+Table 5 compares sales (referred to as lottery revenues in financial statements), prizes, commissions, ticket
+printing costs, vendor fees and costs and gross profit for each lottery game category for fiscal years 2025,
+2024, and 2023. Sales and gross profits fluctuated in certain categories; however, gross profit percentages
+remained consistent from year to year.
+Table 5
+Lottery Sales
+(in $000’s)
+Scratch-off Games Draw Based Games eInstants Racetrack Video Lottery
+2025 2024 2023 2025 2024 2023 2025 2024 2023 2025 2024 2023
+Gross sales $ 155,609 $ 164,648 $ 171,856 $ 68,458 $ 93,357 $ 93,339 $ 13,092 $ - $ - $ 475,498 $ 476,731 $ 498,269
+Less direct costs:
+Prizes and bonuses 106,615 113,131 117,251 33,755 46,097 47,401 10,303 - - - - -
+Commissions 10,892 11,525 12,029 4,660 6,528 6,538 - - - 245,183 245,547 255,882
+Ticket printing costs 1,793 1,933 2,233 - - - - - - - - -
+Vendor fees and costs 6,585 6,921 7,430 2,843 4,087 4,095 956 - - - - -
+Total direct costs 125,885 133,510 138,943 41,258 56,712 58,034 11,259 - - 245,183 245,547 255,882
+Gross Profit $ 29,724 $ 31,138 $ 32,913 $ 27,200 $ 36,645 $ 35,305 $ 1,833 $ - $ - $ 230,315 $ 231,184 $ 242,387
+Gross profit percentage 19.1% 18.9% 19.2% 39.7% 39.3% 37.8% 14.0% 0.0% 0.0% 48.4% 48.5% 48.6%
+* On-line games include the results of Powerball® and Mega Millions which are significant components of the results described above.
+Limited Video Lottery Table Games Historic Resort Sports Wagering
+2025 2024 2023 2025 2024 2023 2025 2023 2022 2025 2024 2023
+Gross sales $ 473,964 $ 488,365 $ 493,640 $ 32,361 $ 32,775 $ 34,922 $ 4,220 $ 6,137 $ 6,404 $ 5,676 $ 5,278 $ 5,262
+Less direct costs:
+Prizes and bonuses - - - - - - - - - - - -
+Commissions 232,242 239,300 241,884 13,770 13,960 14,846 2,021 3,078 3,176 - - -
+Ticket printing costs - - - - - - - - - - - -
+Vendor fees and costs - - - - - - - - - - - -
+Total direct costs 232,242 239,300 241,884 13,770 13,960 14,846 2,021 3,078 3,176 - - -
+Gross Profit $ 241,722 $ 249,065 $ 251,756 $ 18,591 $ 18,815 $ 20,076 $ 2,199 $ 3,059 $ 3,228 $ 5,676 $ 5,278 $ 5,262
+Gross profit percentage 51.0% 51.0% 51.0% 57.4% 57.4% 57.5% 52.1% 49.8% 50.4% 100.0% 100.0% 100.0%
+Interactive Wagering Total
+2025 2024 2023 2025 2024 2023
+Gross sales $ 46,159 $ 28,621 $ 20,845 $ 1,275,037 $ 1,295,912 $ 1,324,537
+Less direct costs:
+Prizes and bonuses - - - 150,673 159,228 164,652
+Commissions - - - 508,768 519,938 534,355
+Ticket printing costs - - - 1,793 1,933 2,233
+Vendor fees and costs - - - 10,384 11,008 11,525
+Total direct costs - - - 671,618 692,107 712,765
+Gross Profit $ 46,159 $ 28,621 $ 20,845 $ 603,419 $ 603,805 $ 611,772
+Gross profit percentage 100.0% 100.0% 100.0% 47.3% 46.6% 46.2%
+Scratch-off GamesSales
+Scratch-off Games sales for the current year decreased by $9million or 5.5% compared to the prior year,
+which had decreased $7 million or 4.2% from 2023. Thirty-one games were introduced in 2025, bringing
+the total number of available game options to approximately forty. The Lottery continues to implement the
+results of research and design efforts, including developing families of games, offering varied play styles,
+and continually monitoring the mix of price points, prize structures, play styles, and colors to provide the
+best possible variety.
+(Continued)
+8
+
+=== page 11 ===
+WEST VIRGINIA LOTTERY
+MANAGEMENT’S DISCUSSION AND ANALYSIS
+(Unaudited)
+Scratch-off Games Sales(Continued)
+In 2025, six ten-dollar tickets, four twenty-dollar tickets, and one thirty-dollar ticket were introduced, along
+with eleven five-dollar tickets and two three-dollar tickets. The Lottery continues to review and adjust
+games and order quantities to maximize revenue for the State. Over the last two fiscal years, the average
+number of games available has increased from twenty-eight to thirty-three.
+Scratch-off gamesprizes and commissions have a direct correlation to sales, therefore, as sales increase, so
+do the related prizes and commissions paid by the Lottery. Prize expenses for scratch-off games are
+controllable by designing and printing a predetermined number and value of winning tickets. While each
+game has a designed prize payout structure, the overall amount paid as prize expense is consistent over
+time.
+Vendor fees and costs are 4.3% of scratch-off gamesand draw based gamessales for 2025, 2024and 2023.
+The Lottery (as is the case with most lotteries located in North America) has elected to enter into a long-
+term contract with a vendor to provide a central computer system, retailer terminals and related equipment
+to sell and cash all tickets for scratch-off and draw basedgames.
+Powerball® Sales
+Powerball® is a $2 Multi-State (MUSL) Lottery game designed to grow large jackpot amounts, with
+occasional jackpots in excess of $400 million. Sales for the current year decreased $20.3million or 47.7%
+compared to the prior year, which increased $5.3 million or 14.2% from 2023. Sales are generally driven
+by the jackpot size.
+Prize costs are 50% of sales and over time such prize payouts generally reflect the design of the game and
+the related mathematical odds of winning.
+Traditional retailers are those retailers licensed by the Lottery to sell scratch-off and draw based games
+(which includes Powerball®) and by statute were paid 7% of such sales.
+Mega Millions®Sales
+As of April 8, 2025, Mega Millions® sales offers jackpots starting at $50 million and prizes nowranging
+from $10 to $10,000,000, which is an increase from jackpots starting at $15 million and a range of prizes
+from $1 to $1,000,000. Sales for the current year decreased $4.9 million or 22.2% compared to the prior
+year, which decreased $2.5million or 10.2% from 2023.
+Approximately 50% of every dollar wagered goes back to the players in prizes and by statute 7% of sales
+are paid to retailer commissions.
+All Other Draw BasedGames
+All other draw based games consist of Daily 3, Daily 4, Cash 25, Travel Keno, Cash Pop and one Multi-
+State gamesLotto America™. Sales for the current year increased $361 thousandor 1.3% compared to the
+prior year, which decreased $2.8millionor 8.9% from 2023.
+In general, prize costs by game will increase or decrease from year-to-year in proportion to the sales for a
+particular game. Prizes and commissions have remained consistent as presented in Tables4and 5.
+(Continued)
+9
+
+=== page 12 ===
+WEST VIRGINIA LOTTERY
+MANAGEMENT’S DISCUSSION AND ANALYSIS
+(Unaudited)
+eInstant Games
+Sales of eInstant tickets began October 22, 2024.The Lottery introduced 29 eInstant games during FY 2025
+which are sold through the Lottery’s iLottery portal. These games allow wagers of $.10 to $30.00. The
+Lottery has a long-term contract with a vendor to provide management of the Lottery’s iLottery portal as
+well as the development and implementation of new games.
+Racetrack Video Lottery
+Racetrack video lottery revenues are reported as total wagers net of prizes and credits. Revenues for the
+current year decreased $1.2million or 0.3%compared to the prior year, which decreased $21.5million or
+4.3% from 2023.
+A portion of racetrack video lottery sales, as prescribed by statute, are paid to racetracks and other private
+entities associated with the racing industry and are reported as commissions. See Note 6 to the financial
+statements for further discussion of racetrack video lottery distributions. Commissions in the current year
+decreased $361 thousand or 0.1% compared to the prior year, which decreased $10.3 million or 4%
+compared to 2023.
+As player preferences shift over time racetracks continually re-evaluate their gaming environments, leading
+to updates in the layout and design oftheir gaming floors. The Number of Machinesat June 30 in Table 6
+wasrestated in 2023 to more accurately depict the total number of actual machines in operation.
+Table 6
+Limited Video Lottery
+Salesfor the current year decreased $14.4million or 3% compared to the prior year, which decreased $5.3
+million or 1% from 2023. Commissions are paid to operators and retailers as provided for by statute and
+have a direct correlation to changes in sales. For the current year, commissions decreased $7.1million or
+3% compared to the prior year,decreased $2.6million or 1% from 2023.
+Table 7illustrates the number of machines which increased by42machines for the current year compared
+to the prior year decrease of 37 machines from 2023. The Number of Machine at June 30 in Table 7 was
+restated in 2023 to more accurately depict the total number of actual machines in operation.
+(Continued)
+10
+044,4
+345,4
+276,4
+Total Number of Machines
+5,000 at June 30
+4,500
+4,000
+3,500
+3,000
+2,500
+2,000
+1,500
+1,000
+2025 2024 2023
+
+=== page 13 ===
+WEST VIRGINIA LOTTERY
+MANAGEMENT’S DISCUSSION AND ANALYSIS
+(Unaudited)
+Limited Video Lottery(Continued)
+Table 7
+Table Games
+Revenues from table games are calculated at a 35% privilege tax of adjusted gross receipts. Revenues for
+the current year decreased $414thousandor 1.3% compared to the prior year, which decreased $2.1million
+or 6.2% from 2023.
+A portion of table games revenues are paid to entities associated with the racetracks and are reported as
+commissions. See Note 8 to the financial statements. Commissions for the current year decreased $190
+thousandor1.4% compared to the prior year, which decreased $886thousand or 6%from 2023.
+Historic Resort
+Video Lottery revenues from Historic Resort are calculated as defined in Note 9to the financial statements.
+Revenues from Historic Resort table games are calculated at a 35% privilege tax of adjusted gross receipts.
+Combined revenues of video lottery and table games at the Historic Resort, for the current year decreased
+$1.9millionor 31.2% compared to the prior year,which decreased $267thousand or 4.2% from 2023.
+A portion of revenues are paid to entities associated with the Historic Resort and are reported as
+commissions. Commissions for the current year decreased $1.1 million or 34.4% compared to the prior
+year, which decreased $98thousand or 3.1% from 2023.
+Sports Wagering
+On March 3, 2019, the West Virginia Legislature passed Senate Bill 415 which allowed for the four
+racetracks and historic resort in West Virginia to permit wagering on certain professional or collegiate
+sports or athletic events and other events authorized as Lottery sports wagering activities.
+Sports wagering revenues are calculated as defined in Note 10 to the financial statements and are derived
+from privilege taxes (of 10%) on the licensed racetracks and Historic Resort for sports wagering activities.
+Revenues for the current year increased $398thousandor 7.5% compared to the prior year, which increased
+$16thousand or 0.3%from 2023.
+(Continued)
+11
+256,8 016,8 746,8
+Total Number of Machines
+at June 30
+9,000
+8,000
+7,000
+6,000
+5,000
+4,000
+3,000
+2,000
+1,000
+2024 2023 2022
+
+=== page 14 ===
+WEST VIRGINIA LOTTERY
+MANAGEMENT’S DISCUSSION AND ANALYSIS
+(Unaudited)
+Interactive Wagering
+On March 9, 2019, the West Virginia Legislature passed House Bill 2934 which allowed for the four
+racetrack casinos and the casino in a historic resort hotel in West Virginia to conduct interactive wagering.
+This allows the placing of wagers through a server-based gaming system using a computer network of
+interoperable packet switched data networks through which the operator may offer authorized interactive
+games. Revenues for the current year increased $17.5millionor 61.3% compared to the prior year,which
+increased $7.7million or 37.3% from 2023.
+Other Operating Income
+Refer to Table 4. Changes in other operating income are primarily related to fees collected for the permitting
+and licensure of manufacturers, operators, retailers and service technicians.
+Nonoperating Income / Expense
+Refer to Table 4. Nonoperating expenses reflect a 2% distribution to counties and incorporated
+municipalities of net terminal income from limited video lottery operations. This distribution will fluctuate
+with any changes in limited video lottery revenues.
+A portion of net revenue from racetrack video lottery is accrued and distributed to each racetrack for capital
+improvements.
+Refer to Table 8. The Lottery’s distributions to the State of West Virginia, for the current fiscal year
+decreased by $5.9million compared to the prior year, which decreased by $7millionfrom 2023.
+Table 8
+Requests for Information
+This financial report is designed to provide a general overview of the Lottery’s operations. Questions
+concerning any of the information provided in this report or requests for additional financial information
+should be addressed to Deputy Director of Finance and Administration, West Virginia Lottery, 900
+Pennsylvania Avenue, Charleston WV 25302
+12
+365 965 675
+600
+500
+400
+300
+200
+100
+0
+2025 2024 2023
+SNOILLIM
+NI
+Distributions to the
+State of West Virginia
+
+=== page 15 ===
+Financial Statements
+
+=== page 16 ===
+WEST VIRGINIA LOTTERY
+STATEMENTS OF NET POSITION
+(In Thousands)
+June 30, 2025 and 2024
+ASSETS 2025 2024
+CURRENT ASSETS
+Cash and cash equivalents (Note 3) $ 181,724 $ 227,763
+Accounts receivable 37,340 38,583
+Inventory 1,209 1,330
+Other assets 222 213
+Total current assets 220,495 267,889
+NONCURRENT ASSETS
+Capital assets (Note 4) 65,658 63,915
+Less accumulated depreciation and amortization (Note 4) (25,582) (23,544)
+40,076 40,371
+Restricted net pension asset (Note 13) 883 24
+Restricted net OPEB asset (Note 14) 2 204
+Total noncurrent assets 40,961 40,599
+Total assets 261,456 308,488
+DEFERRED OUTFLOWS OF RESOURCES
+Deferred outflows of resources related to pension
+and OPEB (Notes 13 and 14) 2,251 1,471
+LIABILITIES
+CURRENT LIABILITIES
+Accrued nonoperating distributions to the State of West Virginia (Note 12) 142,469 190,015
+Estimated prize claims 22,031 19,293
+Accounts payable 3,813 5,104
+Other accrued liabilities 34,672 33,645
+Total current liabilities 202,985 248,057
+DEFERRED INFLOWS OF RESOURCES
+Deferred inflows of resources related to pension
+and OPEB (Notes 13 and 14) 1,182 370
+NET POSITION
+Net investment in capital assets 40,076 40,371
+Restricted for pension and OPEB 885 228
+Unrestricted 18,579 20,933
+Total net position $ 59,540 $ 61,532
+The accompanying notes are an integral part of these financial statements.
+13
+
+=== page 17 ===
+WEST VIRGINIA LOTTERY
+STATEMENTS OF REVENUES, EXPENSES AND CHANGES IN FUND NET POSITION
+(In Thousands)
+Years Ended June 30, 2025 and 2024
+2025 2024
+LOTTERY REVENUES
+Draw games $ 68,458 $ 93,357
+Scratch-off games 155,609 164,648
+eInstant games 13,092 -
+Racetrack video lottery (Note 6) 475,498 476,731
+Limited video lottery (Note 7) 473,964 488,365
+Table games (Note 8) 32,361 32,775
+Historic resort (Note 9) 4,220 6,137
+Sports wagering (Note 10) 5,676 5,278
+Interactive wagering (Note 11) 46,159 28,621
+1,275,037 1,295,912
+LESS COMMISSIONS
+Draw games 4,660 6,528
+Scratch-off games 10,892 11,525
+Racetrack video lottery (Note 6) 245,183 245,547
+Limited video lottery (Note 7) 232,242 239,300
+Table games (Note 8) 13,770 13,960
+Historic resort (Note 9) 2,021 3,078
+508,768 519,938
+Less draw games prize costs 33,755 46,097
+Less scratch off games prize costs 106,615 113,131
+Less eInstant games prize costs 10,303 -
+Less ticket costs 1,793 1,933
+Less vendor fees and costs 10,384 11,008
+162,850 172,169
+Gross profit 603,419 603,805
+ADMINISTRATIVE EXPENSES
+Advertising and promotions 7,213 5,221
+Wages and related benefits 13,601 13,341
+Telecommunications 974 804
+Contractual and professional 14,208 12,232
+Lease 221 246
+Depreciation and amortization 2,038 1,696
+Other administrative expenses 2,989 3,800
+41,244 37,340
+Other operating income 11,581 11,036
+Operating income 573,756 577,501
+NONOPERATING INCOME (EXPENSES)
+Investment income 9,800 13,505
+Distributions to municipalities and counties (9,290) (9,572)
+Distributions for capital reinvestment (12,775) (11,912)
+Distributions to the State of West Virginia (Note 12) (563,483) (569,419)
+(575,748) (577,398)
+Change in net position (1,992) 103
+NET POSITION, beginning 61,532 61,429
+NET POSITION, ending $ 59,540 $ 61,532
+The accompanying notes are an integral part of these financial statements.
+14
+
+=== page 18 ===
+WEST VIRGINIA LOTTERY
+STATEMENTS OF CASH FLOWS
+(In Thousands)
+Years Ended June 30, 2025 and 2024
+2025 2024
+Cash flows from operating activities:
+Cash receipts from customers and other sources $ 1,287,861 $ 1,303,620
+Cash payments for:
+Personnel costs ( 12,907) ( 13,442)
+Suppliers ( 28,484) ( 19,409)
+Other operating costs ( 668,482) ( 689,402)
+Cash provided by operating activities 577,988 581,367
+Cash flows from noncapital financing activities:
+Nonoperating distributions to the State of West Virginia ( 611,029) ( 631,798)
+Distributions to municipalities and counties ( 9,309) ( 9,613)
+Distributions to racetracks from racetrack capital
+reinvestment fund ( 11,746) ( 13,720)
+Cash used in noncapital financing activities ( 632,084) ( 655,131)
+Cash flows from capital financing activities:
+Purchase of capital assets ( 1,743) ( 658)
+Cash flows from investing activities:
+Investment earnings 9,800 13,505
+Decrease in cash and cash equivalents ( 46,039) ( 60,917)
+CASH AND CASH EQUIVALENTS, beginning 227,763 288,680
+CASH AND CASH EQUIVALENTS, ending $ 181,724 $ 227,763
+(Continued)
+15
+
+=== page 19 ===
+WEST VIRGINIA LOTTERY
+STATEMENTS OF CASH FLOWS
+(In Thousands)
+Years Ended June 30, 2025 and 2024
+2025 2024
+Reconciliation of operating income to net cash provided by
+operating activities:
+Operating income $ 573,756 $ 577,501
+Adjustments to reconcile operating income to cash
+provided by operating activities:
+Depreciation and amortization 2,038 1,696
+Pension expense 440 803
+OPEB expense ( 32) ( 668)
+OPEB support ( 7) 127
+Changes in operating accounts:
+(Increase) decrease in:
+Accounts receivable 1,243 ( 3,328)
+Inventory 121 ( 102)
+Other assets ( 9) 1,194
+Deferred outflows of resources ( 1,026) ( 900)
+Increase (decrease) in:
+Estimated prize claims 2,738 1,212
+Accounts payable ( 1,291) 1,431
+Other accrued liabilities 17 2,401
+Cash provided by operating activities $ 577,988 $ 581,367
+The accompanying notes are an integral part of these financial statements
+16
+
+=== page 20 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 1. Legislative Enactment
+The West Virginia Lottery (the Lottery) was established by the State Lottery Act (the Act) passed April
+13, 1985, which created a fund in the State Treasury designated as the “State Lottery Fund.” The
+purpose of the Act was to establish and implement a state-operated lottery under the supervision of a
+state lottery commission (the Commission) and a Director. The Commission, consisting of seven
+members,and the Director are appointed by the Governor. Under the Act, the Commission has certain
+powers and the duty to establish rules for conducting games, to select the type and number of gaming
+systems or games, to enter into contracts and agreements, and to do all acts necessary or incidental to
+the performance of its duties and exercise of its power and duty to operate the Lottery in a highly
+efficient manner. The Act provides that a minimum annual average of 45% of the gross amount received
+from each lottery shall be allocated for prizes and also provides for certain limitations on expenses
+necessary for operation and administration of the Lottery. To the extent available, remaining net profits
+are to be distributed to the State of West Virginia (the State) and local governments as required by law.
+As the State is able to impose its will over the Lottery, the Lottery is considered a component unit of
+the State and its financial statements are presented in the comprehensive annual financial report of the
+State as a discretely presentedcomponent unit.
+Note 2. Summary of Significant Accounting Policies
+Basis of presentation
+The West Virginia Lottery is accounted for as a proprietary fund special purpose government engaged
+in business type activities.In accordance with accounting principles generally accepted in the United
+States of Americafor governmental entities, the financial statements are prepared on the accrual basis
+of accounting which requires recognition of revenue when earned and expenses whenincurred.
+Use of estimates
+Certain estimates and assumptions are required by management in the preparation of the financial
+statements in accordance with generally accepted accounting principles (GAAP). The significant
+estimates and assumptions that affect the reporting of amounts of assets and liabilities at the statement
+of net position dates and revenues and expenses for the years then ended are those required in the
+determination of estimated prize claims. Actual results in the near-term could differ from the estimates
+used to prepare these financial statements.
+Lottery game operations
+The West Virginia Lottery derives its revenues from seven basic types of lottery games: scratch-off
+games, draw games, eInstant games, video type games, table games, and taxes derived from sportsand
+interactivewagering.The Lottery develops multiple game themes and prize structures to comply with
+its enabling legislation, including aggregate annual minimum prize provisions. All bonded retailers and
+agents comprised principally of grocery and convenience stores serve as the primary distribution
+channel for scratch-offand drawlottery sales to the general public.
+The Lottery has contracted with a private vendor to manufacture, distribute, and provide data processing
+support for scratch-off, draw, and e-instant lottery games. Under the terms of the agreements, the
+Lottery pays a percentage of gross revenues for the processing and manufacturing of the games.
+Revenue from scratch-offgames is recognized when game tickets are sold to retailers, and the related
+prize expense is recorded based on the specific game prize structure. Scratch-offticket sales and related
+prizes do not include the value of free plays issued for the purpose of increasing the odds of winning a
+prize.
+(Continued)
+17
+
+=== page 21 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 2. Summary of Significant Accounting Policies (Continued)
+Lottery game operations (Continued)
+Sales of draw game lottery tickets are made by licensed agents to the public with the use of
+computerized terminals or through the mobile platform. Draw games include POWERBALL®, a
+multi-state “jackpot” game; LOTTO AMERICA, a multi-state “lotto” game; MEGA MILLIONS®, a
+multi-state “lotto” game; Cash Pop and Cash25 “lotto” games; Daily 3 and 4 “numbers” games; and
+KenoGo, anonline“keno” game. Revenue is recognized when the agent sells the tickets to the public.
+Prize expense is recognized on the basis of actual drawing results. For the year ended June 30, 2025,
+sales of draw based games were $66,605,663 from retail locations and $1,851,816 through the mobile
+platform.
+Revenue for eInstant games is recognized when games are sold to the players on the E-instant portal.
+Prize expense foreInstant games is recorded as an estimate at the time the related revenue is recognized
+based on the long term estimated prize structure of each game.
+Commissions are paid to scratch-off game retailers and draw game agents at the rate ofseven percent
+of gross sales. A portion of the commission not to exceed one and one quarter percent of gross sales
+may be paid from unclaimed prize moneys. The amount paid from unclaimed prize moneys is credited
+against prize costs. In addition, retailers and agents are paid limited bonus incentives that include prize
+shares on winning tickets they sold and a ticket cashing bonus on winning tickets they cash. On a
+weeklybasis, retailers and agents must remit amounts due to the Lottery.Retailers may not be able to
+order additional scratch-offtickets if payment has not been made for the previous billing period, while
+an agent's draw gameterminal may be rendered inactive if payment is not received. No one retailer or
+agent accounts for a significant amount of the Lottery'ssales or accounts receivable. Historically,credit
+losses have been nominal and no allowance for doubtful accounts receivable is considered necessary.
+Racetrack video lottery is a self-activated video version of lottery games. The board-operated games
+allow a player to place bets for the chance to be awarded credits which can either be redeemed for cash
+or be replayed as additional bets. The games allow a player to use coins, currency, tokens, or tickets to
+place bets for the chance to receive coins, tokens, or ticket awards, whichmay be redeemed for cash or
+used for replay in the games.The racetrack video lottery games' prize structures are designed toaward
+prizes, or credits, at a stipulated rate of total bets played, and prize expense is netted against total video
+credits played. The Lottery recognizes as racetrack video lottery revenue “gross terminal income”
+equivalent to all wagers, net of related prizes. Amounts required by statute to be paid to private and
+local government entities are reported as commissions.
+Racetrack video lottery legislation has established specific requirements for racetrack video lottery and
+imposed certain restrictions limiting the licensing for the operation of racetrack video lottery games to
+horse and dog racetracks in West Virginia, subject to local county elections permitting the same. The
+legislation further stipulates the distribution of revenues from racetrack video lottery games, and
+requires any licensed racetrack to be responsible for acquiring the necessary equipment and bearing the
+risk associated with the costs of operating and marketing the games.
+Limited video lottery is also a self-activated video version of lottery games located in limited licensed
+retailer areas restricted for adult amusement. The games allow a player to use currency to place bets for
+the chance to receive free games or vouchers, which may be redeemed for cash. The limited video
+lottery games’ prize structures are designed to award prizes, at a stipulated rate of total bets played, and
+prizeexpense is netted against total video credits played. The Lottery recognizes as limited video lottery
+(Continued)
+18
+
+=== page 22 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 2. Summary of Significant Accounting Policies (Continued)
+Lottery game operations (Continued)
+revenue “gross terminal income” equivalent to all wagers, net of related prizes. Amounts required by
+statute to be paid to private entities are reported as commissions. Limited video lottery permit holders
+are statutorily responsible for acquiring equipment and bearing the risk associated with the costs of
+operating the games.
+Table games legislation has established specific requirements for table games and imposed certain
+restrictions limiting the licensing for operation of table games to horse and dog racetracks anda historic
+resort in West Virginia, subject to local county elections permitting the same. Each location licensed
+as an agent of the Commission to operate West Virginia table games shall have written rules of play
+for each table game it operates which must be approved by the Commission. All wagers and pay-offs
+of winning wagers shall be made according to those rules of play. For the privilege of holding a table
+games license, there is levied a privilege tax of thirty-five percent of each licensee’s adjusted gross
+receipts from the operation of Lottery table games which the Lottery records as revenue. Amounts
+required by statute to be paid to private and local government entities are reported as commissions. The
+legislation further stipulates the distribution of revenues from West Virginia table games, and requires
+any licensed location to be responsible for acquiring the necessary equipment and bearing the risk
+associated with the costs of operating and marketing the games.
+Historic resort lottery games are a combination of self-activated video lottery games as well as table
+games which are located at a licensed historic resort hotel as defined by the WV Code. Video lotteries
+at the historic resort are board-operated games that allow a player to place bets for the chance to be
+awarded credits which can either be redeemed for cash or be replayed as additional bets. The video
+lottery games allow a player to use coins, currency, tokens, or tickets, to place bets for the chance to
+receive coins,tokens, or ticketawards which may be redeemed for cash or used for replay in the games.
+The historic resort video lottery games’ prize structures are designed to award prizes, or credits, at a
+stipulated rate of total bets played, and prize expense is netted against total video credits played. The
+Lottery recognizes video lottery revenue consisting of “gross terminal income” equivalent to all wagers,
+net of related prizes;and historic resort table games revenue consisting of a privilege tax of thirty-five
+percent of adjusted gross receipts for the operation of table game as historic resort lottery revenues.
+Amounts required by statute to be paid to the private and local government entities are reported as
+commissions. The Lottery Act as amended has established specific requirements for historic resort
+video and table games lotteries and imposed certain restrictions limiting the licensing for operation of
+historic resort lottery games in West Virginia, subject to local county elections permitting the same.
+The legislation further stipulates the distribution of revenues from historic resort lottery games, and
+requires the licensed historic resort to be responsible for acquiring the necessary equipment and bearing
+the risk associated with the costs of operating and marketing the games.
+Sports wagering legislation has established specific requirements for sports wagering and imposed
+certain restrictions limiting the licensing for operation of sports wagering to horse and dog racetracks
+and the historic resort in West Virginia. Each location licensed as an agent of the Lottery to operate
+West Virginia sports wagering shall have written rules of play which must be approved by the Lottery.
+All wagers and pay-offs of winning wagers shall be made according to those rules play. For the
+privilege of holding a sports wagering license, there is levied a privilege tax of ten percent of each
+licensee’s adjusted gross sports wagering receipts from the operation of sports wagering which the
+Lottery records as revenue. The legislation requires any licensed location to be responsible for acquiring
+(Continued)
+19
+
+=== page 23 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 2. Summary of Significant Accounting Policies (Continued)
+Lottery game operations (Continued)
+the necessary equipment and bearing the risk associated with the costs of operating and marketing
+sports wagering.
+Interactive wagering legislation has established specific requirements for interactive wagering and
+imposed certain restrictions limiting the licensing for operation of interactive wagering to horse and
+dog racetracks and thehistoric resort in West Virginia. Each location licensed as an agent of the Lottery
+to operate West Virginia interactivewagering shall have written rules of play which must be approved
+by the Lottery. All wagers and pay-offs of winning wagers shall be made according to those rules of
+play. For the privilege of holding an interactive wagering license, there is levied a privilege tax of
+fifteen percent of each licensee’s adjusted gross interactive wagering receipts from the operation of
+interactive wagering which the Lottery records as revenue. The legislation requires any licensed
+location to be responsible for acquiring the necessary equipment and bearing the risk associated with
+the costs ofoperating and marketing interactive wagering.
+Cash and cash equivalents
+Cash and cash equivalents consist primarily of deposits on hand with the State Treasurer of West
+Virginia and interest-earning deposits in State investments pools maintained by the West Virginia
+Board of Treasury Investments (BTI). The West Virginia Money Market Pool is carried at amortized
+cost.
+Inventory
+Inventory consists of instant game tickets available for sale to approved Lottery retailers and are carried
+atthe lower ofcost or market as determined by the specific identification method.
+Other assets
+Other assets consist of deposits restricted for payment of certain Multi-State Lottery Association
+activities and prepaid expenses.
+Capital assets
+The Lottery has adopted a policy of capitalizing assets with individual amounts exceeding $25,000 and
+a useful life greater than one year. These assets include a building, leasehold improvements, and
+purchased equipment comprised principally of technology property, office furnishings and equipment
+necessary to administer lottery games, and are carried at cost. Depreciation is computed bythe straight-
+line method over the estimated economic useful lives of the assets, which are as follows:
+Building 40 years
+Leasehold improvements 5 years
+Equipment 3-5 years
+The Lottery leases, under cancelable leases,various office spaces for field operations. The Lottery also
+leases various equipment under agreements considered to be cancelable leases.
+(Continued)
+20
+
+=== page 24 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 2. Summary of Significant Accounting Policies (Continued)
+Compensated absences
+The Lottery accrues a liability for estimated amounts that may arise in connection with compensated
+absences at the current rate of employee payattributable to services already renderedthat accumulates
+and is more likely than not to be used for time off or otherwise paid or settled. The liability also includes
+any salary-related payments that are directly and incrementally associated with payments for leave.
+Certain types of leave, such as parental leave, military leave, and jury duty leave, are not recognized
+until the leave commences. Additionally, leave expected to be converted to defined benefit
+postemployment benefits is excluded from this liability. The Lottery’s compensated absence activity
+for the years endedJune 30, 2025and June 30, 2024are as follows(in thousands):
+Year Ending June 30
+2025 2024
+Beginning compensated absences $ 888 $ 807
+Net change in compensated absences 5 81
+Ending compensated absences $ 893 $ 888
+Pensions
+For purposes of measuring the net pensionasset orliability, deferred outflows of resources and deferred
+inflows of resources related to pensions, and pension expense, information about the fiduciary net
+position of the Public Employees Retirement System (PERS) and additions to/deductions from PERS’s
+fiduciary net position have been determined on the same basis as they are reported by PERS. For this
+purpose, benefit payments (including refunds of employee contributions) are recognized when due and
+payable in accordance with the benefit terms. Investments of the PERS are reported at fair value.
+Postemployment benefits other than pensions (OPEB).
+For purposes of measuring the net OPEB asset or liability, deferred outflows of resources and deferred
+inflows of resources related to OPEB, and OPEB expense, information about the fiduciary net position
+of the West Virginia Retiree Health Benefit Trust OPEB Plan (RHBT) and additions to/deductions from
+RHBT's fiduciary net position have been determined on the same basis as they are reported by RHBT.
+For this purpose, RHBT recognizes benefit payments when due and payable in accordance with the
+benefit terms. Investments are reported at fair value, except for certain pooled investments, money
+market investments and participating interest-earning investment contracts that have a maturity at the
+time of purchase of one year or less, which are reported at amortized cost.
+Deferred outflows of resources/deferred inflows of resources
+Deferred outflows of resources represents a consumption of net assetsthat applies to future periods and
+so will not be recognized as an outflow of resources (expense) until that time. Currently the Lottery has
+recognized deferred outflows of resources related to pensions and OPEB (See Notes 13 and 14).
+Deferred inflows of resources represents an acquisition of net assets that applies to future periods and
+so will not be recognized as an inflow of resources (revenue) until that time. Currently the Lottery has
+recognized deferred inflows of resources related to pensionsand OPEB(See Notes13and 14).
+(Continued)
+21
+
+=== page 25 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 2. Summary of Significant Accounting Policies (Continued)
+Net position
+Net position is presented as either unrestricted, restricted for pension and OPEB, restricted by enabling
+legislation for capital project, or as net investment in capital assets, whichrepresents the net book value
+of all property and equipment of the Lottery. When an expense is incurred for purposes for which both
+restricted and unrestricted net position is available, restricted resources are applied first.
+Operating revenues and expenses
+Operating revenues and expenses for proprietary funds such as the Lottery are revenues and expenses
+that result from providing services and producing and delivering goods and/or services. Operating
+revenues for the Lottery are derived from providing various types of lottery games and the receipt of
+gaming related taxes. Operating expenses include commissions, prize costs, other direct costs of
+providing and regulating lottery games, and administrative expenses. All revenues and expenses not
+meeting this definition are reported as nonoperating revenues and expenses.
+Advertising and promotions
+The Lottery expenses the costs of advertising and promotions as they are incurred.
+Note 3. Cash and Cash Equivalents
+At June 30, 2025 and 2024, the carrying amounts of deposits with financial institutions were $1,427
+thousand and $491 thousand, respectively, with bank balances of $1,470 and $510 thousand,
+respectively. Deposits up to $250 thousand are insured by the Federal Depository Insurance
+Corporation. Any balances over the insured amount are collateralized with securities held by the State
+of West Virginia’s agent in the State’s name.
+At June 30, 2025 and 2024, the carrying amounts of deposits with financial institutions, the State
+Treasurer, and the West Virginia Board of Treasury Investments (BTI) were as follows (in thousands):
+2025 2024
+Deposits with financialinstitutions $ 1,427 $ 491
+Cash on hand at the Treasurer’s Office 7,207 4,237
+Investments with BTI reported as cash equivalents 173,090 223,035
+$ 181,724 $ 227,763
+The State Treasurer has statutory responsibility for the daily cash management activities of the State’s
+agencies, departments, boards and commissions and transfers funds to the BTI for investment in
+accordance with West Virginia statutes, policies set by the BTI and by provisions of bond indentures
+and trust agreements when applicable.
+The Lottery’s cash balances are invested by the BTI in the BTI’s West Virginia Money Market Pool.
+Investment income is pro-rated to the Lottery at rates specified by the BTI based on the balance of the
+deposits maintained in relation to the total deposits of all state agencies participating in the pool.
+Investments in the West Virginia Money Market Pool are available to the Lottery with overnight notice.
+(Continued)
+22
+
+=== page 26 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 3. Cash and cash equivalents (Continued)
+Credit Risk
+Credit risk is the risk that an issuer or other counterparty to an investment will not fulfill its obligations.
+The WV Money Market has been rated AAAm by Standard & Poor’s. A fund rated AAAm has
+extremely strong capacity to maintain principal stability and to limit exposure to principal losses due
+to credit, market, and/or liquidity risks. AAAm is the highest principal stability fund rating assigned
+by Standard & Poor’s.
+The BTI limits the exposure to credit risk in the WV Money Market Pool by requiring all long-term
+corporate debt be rated A+ or higher by Standard& Poor’s (or its equivalent) and short-term corporate
+debt be rated at A-1 or higher by Standard & Poor’s (or its equivalent). The following table provides
+information on the credit ratings of the WV Money Market Pool’s investments (in thousands):
+Carrying Value Percent of
+Security Type Rating (in Thousands) Pool Assets
+Corporate Bonds and Notes A-1+ $ 35,000 0.40%
+Commercial Paper A-1+ 3,314,070 38.42
+A-1 2,751,539 31.90
+Negotiable certificates of deposit A-1+ 841,000 9.75
+A-1 696,010 8.07
+Money market funds AAAm 3,691 0.04
+Repurchase agreements (underlying
+securities):
+U.S. Treasury bonds and notes* AA+ 846,600 9.81
+U.S. Agency bonds and notes AA+ 138,500 1.61
+$ 8,626,410 100.00%
+* U.S. Treasury issues are explicitly guaranteed by the United States government and are not considered to have credit risk.
+Interest Rate Risk
+Interest rate risk is the risk that changes in interest rates will adversely affect the fair value of an
+investment. The overall weighted average maturity of the investments of the WV Money Market Pool
+cannot exceed 60 days. Maximum maturity of individualsecurities cannot exceed 397 days from date
+of purchase, except for government floating rate notes, which can be up to 762 days. The following
+table provides information on the weighted average maturities for the various asset types in the WV
+Money MarketPool:
+Carrying Value WAM
+Security Type (In Thousands) (Days)
+Corporate bonds and notes $ 35,000 1
+Commercial paper 6,065,609 46
+Negotiable certificates of deposit 1,537,010 49
+Repurchase agreements 985,100 1
+Money market funds 3,691 1
+$ 8,626,410 41
+(Continued)
+23
+
+=== page 27 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 3. Cashand cash equivalents (Continued)
+Other Risks of Investing
+Other risks of investing can include concentration of credit risk, custodial credit risk, and foreign
+currency risk.
+Concentration of credit risk is the risk of loss attributed to the magnitude of a pool or account’s
+investment in a single corporate issuer. The BTI investment policy prohibits those pools and accounts
+permitted to hold corporate securities from investingmore than 5% of their assets in any one corporate
+name or one corporate issue.
+The custodial credit risk for investments is the risk that, in the event of the failure of the counterparty
+to a transaction, the BTI will not be able to recover the value of investment or collateral securities that
+are in the possession of an outside party. Repurchase agreements are required to be collateralized by
+at least 102% of their value, and the collateral is held in the name of the BTI. The BTI or its agent does
+not release cash or securities until the counterparty delivers its side of the transaction.
+Foreign currency risk is the risk that changes in exchange rates will adversely affect the fair value of
+an investment or a deposit. The West Virginia Money Market Pool holds no interests in foreign
+currency or interests valued in foreign currency.
+Note 4. Capital Assets
+A summary of capitalasset activity is as follows (in thousands):
+Historical Historical Historical
+cost at cost at cost at
+June 30, June 30, June 30,
+2023 Additions Deletions 2024 Additions Deletions 2025
+Capital assets, not depreciated
+Construction in progress $ 2,153 $ 658 $ - $ 2,811 $ - $ (2,599) $ 212
+Land 1,681 - - 1,681 - - 1,681
+Capital assets, being
+depreciated
+Building 48,243 - - 48,243 - - 48,243
+Equipment 11,180 - - 11,180 4,342 - 15,522
+$ 63,257 $ 658 $ - $ 63,915 $ 4,342 $ (2,599) $ 65,658
+Accumulated Accumulated Accumulated
+depreciation depreciation depreciation
+at June 30, at June 30, at June 30,
+2023 Additions Deletions 2024 Additions Deletions 2025
+Building $ 12,631 $ 1,233 $ - $ 13,864 $ 1,228 $ - $ 15,092
+Equipment 9,217 463 - 9,680 810 - 10,490
+$ 21,848 $ 1,696 $ - $ 23,544 $ 2,038 $ - $ 25,582
+(Continued)
+24
+
+=== page 28 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 5. Participation in the Multi-State Lottery
+The Lottery is a member of the Multi-State Lottery (MUSL), which operates the semi-weekly
+POWERBALL® jackpot lotto game,the LOTTO AMERICA game, and MEGA MILLIONS® jackpot
+game on behalf of other participating lotteries. MUSL is currently comprised of 33 member state
+lotteries, including the District of Columbia and the United States Virgin Islands. MUSL is managed
+by a Board of Directors, which is comprised of the lottery directors or their designee from each of the
+party states. The Board of Directors’ responsibilities to administer the Multi-State Lottery
+POWERBALL®, LOTTO AMERICA, and MEGA MILLIONS® games are performed by advisory
+committees or panels staffed by officers and independent contractors appointed by the board. These
+officers and consultants serve at the pleasure of the board and the board prescribes their powers, duties
+and qualifications. The Executive Committee carries out the budgeting and financing of MUSL, while
+the board contracts the annual independent audit. A copy of the audit may be obtained by writing to the
+Multi-State Lottery Association, 4400 N.W. Urbandale Drive, Urbandale, Iowa 50322.
+Each MUSL member sells game tickets through its agents and makes weekly wire transfers to the
+MUSL in an amount equivalent to the total prize pool less the amount of prizes won in each state.
+Lesser prizes are paid directly to the winners by each member lottery. The prize pool for
+POWERBALL®, LOTTO AMERICA and MEGA MILLIONS® is 50% of each drawing period's
+sales, with minimum jackpot levels.
+Revenues derived from the Lottery's participation in the POWERBALL® jackpot game were
+$22,304,620 and $42,617,885 for the years ended June 30, 2025 and 2024, respectively, and related
+prize costs were $11,075,546and $21,291,938, respectively.
+Revenues derived from the Lottery’s participation in the LOTTO AMERICA game were $6,983,973
+and $5,353,868for the yearsended June 30, 2025and 2024, respectively,and related prize costs were
+$3,440,080and $2,677,007, respectively.
+Revenues derived from the Lottery’s participation in the MEGA MILLIONS®game were $17,356,042
+and $22,303,942for the yearsended June 30, 2025and 2024, respectively, and related prize costs were
+$8,664,159and $11,088,147,respectively.
+MUSL places a percentage of game sales from each game in separate prize reserve funds that serve as
+a contingency reserve to protect the respective MUSL Product Groups from unforeseen prize liabilities.
+These funds can only be used at the discretion of therespective MUSL Product Group. Once the prize
+reserve funds exceed the designated limit, the excess becomes part of that particular prize pool. Prize
+reserve fund monies are refundable to MUSL Product Group members if the MUSL disbands or, after
+one year, if a member leaves the MUSL. The applicable sales percentage contribution as well as the
+reserve fund limit for the MUSL games is as follows(in thousands):
+(Continued)
+25
+
+=== page 29 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 5. Participation in the Multi-State Lottery (Continued)
+Required Contribution (% of Sales) Reserve Fund Cap
+POWERBALL® 2% $125,000
+LOTTO AMERICA 3% $9,000
+MEGA MILLIONS® 1% $45,000
+The Lottery’s share of the prize reserve fund balances with MUSL as of June 30, were as follows (in
+thousands):
+2025 2024
+Total Total
+Prize Reserve Lottery Share Prize Reserve Lottery Share
+POWERBALL ® $ 130,714 $ 1,138 $ 127,046 $ 1,138
+LOTTO AMERICA 11,258 882 8,854 681
+MEGA MILLONS ® 98,329 728 101,456 764
+$ 240,301 $ 2,748 $ 237,356 $ 2,583
+Lottery prize reserves held by the MUSL are invested according to a Trust agreement the Lottery has
+with MUSL outlining investment policies. The policies restrict investments to direct obligations of the
+United States Government, perfected repurchase agreements, and obligations issued or guaranteed as
+to payment of principal and interest by agencies or instrumentalities of the United States Government,
+andmutual funds of approved investments. The average portfolio maturity is never more than one year,
+except that up to one third of the portfolio may have an average maturity of up to two years. The
+maximum maturity for any one security does not exceed five years.
+The interest earned on prize reserve fund monies is used to pay MUSL operating expenses and any
+amounts over and above the expenses are credited to an unreserved fund. The Lottery records this
+interest when earned. This fund had a balance of $35,176,503 and $23,147,833 at June 30, 2025 and
+2024, of which the Lottery’s share was $222,434and $213,100, respectively.
+Note 6. Racetrack Video Lottery
+The racetrack video lottery legislation stipulates the distribution of racetrack video lottery revenues.
+This legislation has been amended since inception to restate revenue distribution based on revenue
+benchmarks. Initially, four percent (4%) of gross terminal revenue is allocated for lottery administrative
+costs. Fifty-seven percent (57%) of net terminal revenue (gross less 4%) is allocated in lieu of
+commissions to: the racetracks (46.5%); other private entities associated with the racing industry
+(8.7%); and the local county and municipal governments (2%). The remaining forty-three percent
+(43%) of net terminal revenue is allocated for distribution to the State as specified in the Racetrack
+Video Lottery Act or subsequent State budget, as described in Note 12 titled “Nonoperating
+Distributions to the State of West Virginia.”
+(Continued)
+26
+
+=== page 30 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 6. Racetrack Video Lottery (Continued)
+The first benchmark occurs when the current year net terminal revenue meets the fiscal year 1999 net
+terminal revenue. The counties and incorporated municipalities split 50/50 the two percent (2%) net
+terminal revenue.
+The second benchmark occurs when the current year gross terminal revenue meets the fiscal year 2001
+gross terminal revenue. The four percent (4%) is no longer allocated for lottery administrative costs;
+instead the State receives this for distribution as specified by legislation or the State budget.
+The final benchmark occurs when the current year net terminal revenue meets the fiscal year 2001 net
+terminal revenue. At this point, a 10% surcharge is applied to net terminal revenue, with 62% of the
+surcharge allocated for distribution to the State as specified by legislation or the State budget, and 38%
+of the surcharge allocated to separate capital reinvestment funds for each licensed racetrack. After
+deduction of the surcharge, 49% of the net terminal revenue is allocated in lieu of commissions to: the
+racetracks (42%); other private entities associated with the racing industry (5%); and the local county
+and incorporated municipality governments (2%). The remaining net terminal revenue (51%) is
+allocated for distribution to the State as specified in the Racetrack Video Lottery Act or subsequent
+Statebudget, as described in Note 12.
+Amounts from the capital reinvestment fund may be distributed to each racetrack if qualifying
+expenditures are made within the statutory timeframe; otherwise, amounts accumulated in the fund
+revert to the state excess lottery revenue fund.
+A summary of racetrack video lottery revenues for the years ended June 30, 2025and 2024, follows (in
+thousands):
+2025 2024
+Total credits (bets) played $ 5,739,737 $ 5,622,912
+Credits (prizes) won (5,169,055) (5,060,971)
+Promotional credits played (95,184) (85,210)
+Gross terminal income 475,498 476,731
+Administrative costs (13,625) (13,572)
+Net terminal income 461,873 463,159
+Commissions (245,183) (245,547)
+Racetrack video lottery revenues
+available for distribution $ 216,690 $ 217,612
+A summary of racetrack video lottery revenues paid or accrued for certain State funds to conform with
+the legislation follows (in thousands):
+2025 2024
+State Lottery Fund $ 99,708 $ 99,322
+State Excess Lottery Revenue Fund 112,290 113,505
+Capital Reinvestment Fund 4,692 4,785
+Total nonoperating distributions $ 216,690 $ 217,612
+(Continued)
+27
+
+=== page 31 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 6. Racetrack Video Lottery (Continued)
+On March 12, 2011, the Legislature passed Senate Bill 550 (amended March 24, 2021 by Senate Bill 9
+to extend the fund through 2030), whichprovides for the creation of the Racetrack Modernization Fund.
+The Modernization Fund is available to reimburse the licensed tracks $1 for every $2 spent on the costs
+of facility modernization. For the years ended June 30, 2015 through June 30, 2030, the Lottery may
+transfer up to $9million from racetrack administrative surplus funds to the Modernization Fund, which
+is allocated to each track on a pro rata basis according to their administrative contribution for the fiscal
+year. For the years ended June 30, 2025and 2024, the Lottery transferred approximately $8.5million
+and $8.8 million to the Racetrack Modernization Fundrespectively.
+Note 7. Limited Video Lottery
+The limited video lottery legislation established specific requirements imposing certain restrictions
+limiting the licensing for the operation of limited video lottery games to 9,000 terminals placed in
+licensed retailers. These licensed retailers must hold a qualifying permit for the sale and consumption
+on premises of alcohol or non-intoxicating beer. The Lottery has been charged with the administration,
+monitoring and regulation of these machines. The legislation further stipulates the distribution of
+revenues from limitedgross terminal income be deposited into the state lottery fund for administrative
+costs. Then, the state share percentage is 50 percent of gross profit is to be transferred to the State
+Excess Lottery Revenue Fund. Two percent is distributed to counties and incorporated municipalities
+in the manner prescribed by the statute. The remaining amount of gross profit is paid to retailers and/or
+operators as prescribed in the Act and is recorded as limited video lottery commissions in the financial
+statements. Municipal andcounty distributions are accountedfor as nonoperating expenses. A summary
+of limited video lottery revenues for the years ended June 30, 2025and 2024follows (in thousands):
+2025 2024
+Total credits played $ 6,339,553 $ 6,520,801
+Credits (prizes) won (5,865,589) (6,032,436)
+Gross terminal income 473,964 488,365
+Administrative costs (9,479) (9,766)
+Gross profit 464,485 478,599
+Commissions (232,242) (239,300)
+Distributions to municipalities and counties (9,290) (9,572)
+Limited video lottery revenues
+available for distribution $ 222,953 $ 229,727
+Note 8. Table Games
+The passage of table games legislation allowed local referendums in each of the four counties in which
+a race track is located to approve table games. All four counties have authorized table games at their
+respective tracks.
+Table games include blackjack, roulette, craps, and various types of poker. The Lottery receives a
+privilege tax of 35% of adjusted gross receipts, from each licensed racetrack, which is deposited weekly
+into the Lottery’s racetrack table game fund.
+(Continued)
+28
+
+=== page 32 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 8. Table Games (Continued)
+From the gross amounts deposited into the table games fund, the Lottery, on a monthly basis retains
+3% of the adjusted gross receipts for administrative expenses. From the administrative allowance, at
+least $100,000 and not more than $500,000 annually will be transferred to the Lottery’s compulsive
+gambling treatment fund.
+The Lottery then transfers 2.25% of adjusted gross receipts from all thoroughbred and greyhound
+racetracks participating in licensed table games to the special funds established by each thoroughbred
+and greyhound racetrack table games licensee for the payment of regular racetrack purses to be divided
+equally among each licensee. A transfer of 1.8% of the adjusted gross receipts is made from all licensed
+racetracks to the thoroughbred development fund and the greyhound breeding development fund to be
+dividedpro rata among the development funds.
+Transfers of 2% of the adjusted gross receipts are made from each licensed racetrack to the county
+commissions of the counties where racetracks participating in licensed table games are located to be
+divided pro rata among the counties. Transfers of 3% ofthe adjusted gross receipts are made from each
+licensed racetrack to the governing bodies of municipalities within counties where racetracks
+participating in licensed table games are located as prescribed by statute. A transfer of .5% of the
+adjusted gross receipts to the governing bodies of municipalities in which a racetrack table games
+licensee is located is to be divided equally among the municipalities. The Lottery, in accordance with
+the enabling legislation, will distribute the remaining amounts hereinafter referred to as the net amounts
+in the racetrack table games funds as follows:
+ A transfer of 4% into a special fund to be established by the West Virginia Racing Commission to be
+used for payment into the pension plan for all employees of each licensed racing association.
+ A transfer of 10%, to be divided and paid in equal shares, to each county commission in the state where
+table games are not located.
+ A transfer of 10%, to be divided and paid in equal shares, to the governing bodies of each municipality
+in the state where table games are not located.
+ A transfer of 76%to the Excess Lottery Fund.
+The table games adjusted gross receipts for the year ended June 30, 2025and 2024were$92,459,638
+and $93,643,697, respectively. A summary of table games revenues for the yearsended June 30, 2025
+and 2024follows (in thousands):
+2025 2024
+Table games privilege tax $ 32,361 $ 32,775
+Interest on table games fund 242 302
+Administrative costs (2,774) (2,809)
+Total available for distribution 29,829 30,268
+(Continued)
+29
+
+=== page 33 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 8. Table Games (Continued)
+2025 2024
+Less distributions:
+Racetrack purse funds 2,080 2,107
+Thoroughbred & greyhound development funds 1,664 1,686
+Racing commission pension plan 823 836
+Municipalities/counties 9,203 9,331
+Total distributions 13,770 13,960
+Table games distribution to the state
+Excess Lottery Fund $ 16,059 $ 16,308
+Note 9. Historic Resort Hotel
+The Historic Resort Hotel legislation authorizes video lottery and table games at a licensed historic
+resort hotel which is defined as “a resort hotel registered with the United States Department of the
+Interior as a national historic landmark in its National Registry of Historic Places having not fewer than
+five hundred guest rooms under common ownership and having substantial recreational guest amenities
+in addition to the gaming facility.”
+Historic resort video lottery
+Historic Resort Hotel legislation, as amended, dictates the distribution of video lottery revenues. Thirty
+three and a half percent (33.5%) of gross terminal income is allocated to Historic Resort Hotel Fund,
+two and a half percent (2.5%) is allocated to the State Excess Lottery Revenue Fund, and seventeen
+percent (17%) of gross terminal income is allocated to the Human Resource Benefit Fund. The
+remaining forty-seven percent (47%) of gross terminal income is then subject to a ten percent (10%)
+surcharge which is allocated to separate capital reinvestment funds for thelicensed historic resort hotel.
+After deduction of the surcharge, the remaining forty-two and three-tenths percent (42.3%) of gross
+terminal income is retained by the historic resort hotel. A summary of historic resort hotel video lottery
+revenues for the yearsended June 30, 2025and 2024follows (in thousands):
+2025 2024
+Total credits played $ 46,433 $ 54,666
+Credits (prizes) won (43,023) (49,679)
+Promotional credits played (896) (970)
+Gross terminal income 2,514 4,017
+Capital reinvestment (118) (189)
+Excess Lottery (23) (36)
+Hotel commissions (1,064) (1,699)
+Net terminal income $ 1,309 $ 2,093
+Historic Resort Hotel Fund $ 882 $ 1,410
+Human Resource Benefit Fund 427 683
+Total $ 1,309 $ 2,093
+(Continued)
+30
+
+=== page 34 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 9. Historic Resort Hotel (Continued)
+Historic resort table games
+Each historic resort hotel licensee is subject to a privilege tax of thirty five percent (35%) of adjusted
+gross receipts, of which thirty percent (30%) is deposited directly into the Historic Resort Hotel Fund
+and five percent (5%) is deposited directly into the Human Resource Benefit Fund. The historic resort
+hotel table games adjusted gross receipts for the yearsended June 30, 2025and 2024were$4,873,397
+and $6,056,562, respectively.
+The following table shows the privilege tax and the accrued distributions (in thousands) for the years
+ended June 30, 2025and 2024:
+2025 2024
+Table games privilege tax $ 1,706 $ 2,120
+Historic Resort Hotel Fund $ 1,462 $ 1,818
+Human Resource Benefit Fund 244 302
+Total distributions $ 1,706 $ 2,120
+Historic resort hotel fund
+Historic Resort Hotel Fund deposits are allocated after a fifteen percent (15%) lottery administrative
+cost. The remaining Historic Resort Hotel Fund net income (gross deposits less 15%) aredistributed as
+follows:
+ 4% is paid to the county where the gaming facility is located;
+ 2.5% is paid to the municipality where the gaming facility is located as prescribed by statute;
+ 2.5% is divided and paid in equal shares to the remaining municipalities in the county where the
+gaming facility is located;
+ 2.5% is divided and paid in equal shares, to each county commission in the state where the gaming
+facility is not located;
+ 2.5% is divided and paid in equal shares, to each municipality in the State not already receiving a
+distribution.
+ 86% is transferred to the Excess Lottery Revenue Fund.
+A summary of Historic Resort Hotel Fund revenues and related distributions is as follows (in thousands)
+for the years ended June 30, 2025and 2024:
+(Continued)
+31
+
+=== page 35 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 9. Historic Resort Hotel (Continued)
+Historic resort hotel fund (Continued)
+2025 2024
+Historic Resort Hotel video lottery $ 882 $ 1,410
+Historic Resort table games 1,462 1,817
+Interest on Historic ResortHotel Fund 53 72
+Historic Resort Hotel Fund deposits 2,397 3,299
+Administrative costs (355) (490)
+Historic Resort Hotel Fund net income $ 2,042 $ 2,809
+Municipalities/Counties $ 286 $ 393
+Excess Lottery Revenue Fund 1,756 2,416
+Total distributions $ 2,042 $ 2,809
+Note 10. Sports Wagering
+Each racetrack and historic resort hotel licensee is subject to a privilege tax of ten percent (10%) of
+adjusted gross wagering receipts, whichwill be deposited weekly into the Sports Wagering Fund.
+From the privilege tax deposited into the Sports Wagering Fund, the Lottery, on a monthly basis shall:
+Retain 15% for administrative expenses of which any surplus in excess of $250,000 shall be reported
+to the Joint Committee on Government and Finance and remitted to the State Treasurer.
+After the reduction for administrative expenses, the net profit shall be deposited into the State Lottery
+Fund until a total of $15 million is deposited. The remainder of net profit shall be deposited into the
+Public Employees Insurance Agency Financial Stability Fund.
+The Sports Wagering adjusted gross wagering receipts for the year-to-date ended June 30, 2025 and
+2024were $56,762,516and $52,781,182respectively.The following table shows the privilege tax and
+the accrued distributions is as follows (in thousands), for the years endedJune 30, 2025and 2024:
+2025 2024
+Sports wagering privilege tax $ 5,676 $ 5,278
+Interest on sports wagering fund 86 81
+Administrative costs (851) (792)
+Total available for distribution $ 4,911 $ 4,567
+(Continued)
+32
+
+=== page 36 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note11. InteractiveWagering
+Interactive Wagering legislation passed in 2019 per House Bill 2934. Each racetrack and historic resort
+hotel licensee is subject to a privilegetax of fifteen percent (15%) of adjusted gross interactive gaming
+receipts, whichwill be deposited weekly into the Interactive Wagering Fund.
+From the privilege tax deposited into the Interactive Wagering Fund, the Commission, on a monthly
+basis shall:
+Retain 15% for administrative expenses of which any surplus in excess of $250,000 shall be reported
+to the Joint Committee on Government and Finance and remitted to the State Treasurer.
+In each fiscal year, the Lottery Commission shall deposit one-quarter of a percent of the net profit into
+each of the four special funds established by the Racing Commission, pursuant to §29-22A-10 and §29-
+22C-27 to be used for payment into the pension plan for the employees of the licensed racing
+associations in this state.
+After the reduction for administrative expenses and the pension plans for the racing associations, the
+net profit shall be deposited into the State Lottery Fund.
+The Interactive Wagering adjusted gross interactive gaming receipts for the year-to-date ended June
+30, 2025and 2024were $307,728,449and $190,804,357respectively. The privilege tax and the accrued
+distributions (in thousands) for the years ended June 30, 2025and 2024are as follows:
+2025 2024
+Interactive wagering privilege tax $ 46,159) $ 28,621)
+Interest on Interactive wagering fund 570) 554
+Administrative costs (6,924) (4,293)
+Total available for distribution 39,805) 2424)24,882
+Racetrack Pension Funds $ 398) $ 249)
+State Lottery Fund 39,407) 24243)24,633
+Total distributions $ 39,805) $ 24,882)
+(Continued)
+33
+
+=== page 37 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 12. Nonoperating Distributions to the State of West Virginia
+The Lottery periodically distributes surplus funds, exclusive of amounts derived from limited video
+lottery and a portion of racetrack video lottery funds, to the State of West Virginia in accordance with
+the current governing legislation. For the years ended June 30, 2025 and 2024, the State Legislature
+budgeted $211,648,806 and $207,819,148, respectively, of estimated profits of the Lottery for
+distributions to designated special revenue accounts of the State of West Virginia. With regard to the
+State Lottery Fund, legislation stipulates that debt service payments be given a priority over all other
+transfers in instances where estimated profits are not sufficient to provide for payment of all
+appropriated distributions. Debt service payments of $1,800,000,$1,000,000, and $500,000per month
+for the first ten months of each fiscal year currently have such priority.Transfers made pursuant to the
+State Excess Lottery Revenue Fund have similar requirements; currently debt service payments are
+$6,600,000per month for the first ten months of each fiscal year. In addition, Legislationprovides that,
+if in any month, there is a shortage of funds in the State Excess Lottery Revenue Fund to make debt
+service payments, the necessary amount shall be transferred from the State Lottery Fund to cover such
+shortfall, after the State Lottery Fund debt service payments have been made. Repayments to the State
+Lottery Fund are required to be made in subsequent months as funds become available.
+All budgetary appropriations were satisfied for the years ending June 30, 2025and 2024. The Lottery
+accrued additional distributions from the State Lottery Fund and State Excess Lottery Revenue Fund
+of $142,468,961 and $190,014,554, for the years ended June 30, 2025 and 2024 respectively. The
+Lottery does not have a legally adopted annual budget.
+A summary of distributions to certain state agencies to conform with the various legislation follows (in
+thousands):
+2025 2024
+State Lottery Fund:
+Bureau of Senior Services $ 83,771 $ 79,479
+Department of Education 48,559 14,386
+Library Commission 11,514 11,514
+Higher Education -Central Office 7,531 7,430
+Tourism 7,087 6,956
+Natural Resources 3,903 3,779
+Division of Culture & History 4,294 4,283
+Economic Development Authority 9,997 9,995
+School Building Authority 18,000 18,000
+General Revenue Fund - 35,000
+Fire Protection Fund 12,000 12,000
+Community and Technical College 4,992 4,997
+Total State Lottery Fund 211,648 207,819
+(Continued)
+34
+
+=== page 38 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 12. Nonoperating Distributions to the State of West Virginia (Continued)
+2025 2024
+State Excess Lottery Revenue Fund:
+General Purpose Account 65,000 65,000
+Education Improvement Fund 29,000 29,000
+WV Infrastructure Council Fund 46,000 46,000
+Higher Education Improvement Fund 15,000 15,000
+State Park Improvement Fund 1,505 1,505
+School Building Authority 17,642 18,965
+Economic Development Fund 15,912 25,412
+Refundable Credit -General Revenue Fund 9,967 10,000
+Racing Commission 2,800 2,800
+General Revenue Fund - 71,000
+WV Department of Health and Human Resources 134,762 77,717
+Distributions toStatutory Funds andPurposes
+Parking Garage Fund 716 716
+Capitol Dome and Improvements Fund 1,796 1,796
+Capitol Renovation and Improvements Fund 2,381 2,381
+Development Office PromotionFund 1,299 1,299
+Research ChallengeFund 1,732 1,732
+Tourism Promotion Fund 4,808 4,808
+Cultural Facilities and Capitol ResourcesFund 1,500 1,251
+State Debt ReductionFund 20,000 20,000
+General RevenueFund 1,168 1,168
+Historic Resort HotelFund 24 24
+Racing Commission 3,464 3,464
+Non-Governmental Budgeted Transfers 22,383 22,383
+Total State Excess Lottery Revenue Fund 398,859 423,421
+TotalDistributions 610,507 631,240
+Veterans Instant Ticket Fund 522 558
+Total nonoperating distributions to the State of
+West Virginia (cash basis) 611,029 631,798
+Accrued nonoperating distributions,
+beginning of year (190,015) (252,394)
+Accrued nonoperating distributions,
+end of year 142,469 190,015
+Total nonoperating distributions to the
+State of West Virginia $ 563,483 $ 569,419
+(Continued)
+35
+
+=== page 39 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 13. PensionBenefits
+Plan description
+All full-time Lottery employees are eligible and required to participate in the West Virginia Public
+Employees' Retirement System (PERS). The PERS is one of several plans administered by the West
+Virginia Consolidated Public Retirement Board (CPRB). The CPRB issues a publicly available
+financial report that includes financial statements for PERS that can be obtained at
+www.wvretirement.com.
+PERS is a multiple employer defined benefit cost sharing public employee retirement system covering
+substantially all employees of the State and its component units, as well as employees of participating
+non-State governmental entities who are not participants of another state or municipal retirement
+system.
+Benefits provided
+PERS provides retirement benefits as well as death and disability benefits. Qualification for normal
+retirement is age 60 with five years of service or at least age 55 with age and service equal to 80 or
+greater. For all employees hired after July 1, 2015, qualification for normal retirement is age 62 with
+10 years of service. The straight-life annuity retirement benefit is equivalent to 2% of average salary
+multiplied by years of service. Final average salary is the average annual salary from the highest 36
+consecutive months withinthe last fifteen years of employment. For all employees hired after July 1,
+2015, final average salary is the average annual salary of the highest 60 consecutive months within the
+last fifteen years of employment. Terminated members with at least five years of contributory service
+who do not withdraw their accumulated contributions may elect to receive their retirement annuity
+beginning at age 62. For all employees hired after July 1, 2015, this age increases to 64with 10 years
+of service.
+Chapter 5, Article 10 of the West Virginia State Code assigns the authority to establish and amend the
+provisions of the plan to the State Legislature.
+Contributions
+Contributions as a percentage of payroll for members are established by statutes, subject to legislative
+limitations and are not actuarially determined. Contributions as a percentage of payroll for employers
+are established by the CPRB. Current funding policy requires contributions, consisting of member
+contributions of 4.5% of annual earnings and employer contributions of 9.0% of covered payroll for
+each of the years ended June 30, 2025, 2024, and 2023. All members hired after July 1, 2015, will
+contribute6% of annual earnings. Contributions to the pension plan from the Lottery were $962,967,
+$900,500, and $841,400for the yearsended June 30, 2025, 2024and 2023, respectively.
+Pension asset, pension expense, and deferred outflows of resources and deferred inflows of resources
+related to pensions
+At June 30, 2025and 2024, respectively, the Lottery reported anasset of $883,284 and $23,593for its
+proportionate share of the net pension asset. The net pension asset reported at June 30, 2025 was
+measured as of June 30, 2024, and the total pension liability used to calculate the net pension asset was
+determined by an actuarial valuation as of July 1, 2023,
+(Continued)
+36
+
+=== page 40 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 13. Pension Benefits (Continued)
+Pension asset, pension expense, and deferred outflows of resources and deferred inflows of resources
+related to pensions(continued)
+rolled forward to the measurement date of June 30, 2024.The Lottery’s proportion of the net pension
+assetwas based on the Lottery’s share of contributions to the pension plan relative to the contributions
+of all participating plan employers for the year ended June 30, 2024. At June 30, 2024, the Lottery’s
+proportion was 0.54percent, which is anincreaseof.01from its proportion as of June 30, 2023.
+For the years ended June 30, 2025and 2024, respectively,the Lottery recognized pension expense of
+$438,140and $804,173. At June 30, 2025and 2024, the Lottery reported deferred outflows of resources
+anddeferred inflows of resources related to pensions from the following sources(in thousands):
+June 30, 2025
+Deferred Deferred
+Outflows of Inflows of
+Resources Resources
+Net difference between projected and actual
+earnings on pension plan investments $ - $ 1,028
+Differences between expected and actual experience 1,200 -
+Changes in assumptions - 81
+Changes in proportion and differences between
+Lottery contributions and proportionate share of
+contributions - 19
+Lottery contributions made subsequent to the
+measurement date of June 30, 2024 963 -
+Total $ 2,163 $ 1,128
+June 30, 2024
+Deferred Deferred
+Outflows of Inflows of
+Resources Resources
+Net difference between projected and actual
+earnings on pension plan investments $ 143 $ -
+Differences between expected and actual experience 200 -
+Changes inassumptions 153 -
+Changes in proportion and differences between
+Lottery contributions and proportionate share
+of contributions 1 27
+Lottery contributions made subsequent to the
+measurement date of June 30, 2023 901 -
+Total $ 1,398 $ 27
+(Continued)
+37
+
+=== page 41 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 13. Pension Benefits (Continued)
+Pension asset, pension expense, and deferred outflows of resources and deferred inflows of resources
+related to pensions(continued)
+The $962,967 reported as deferred outflows of resources related to pensions resulting from Lottery
+contributions subsequent to the measurement date will be recognized as a reduction of the net pension
+liability (or an increase in the net pension asset) in the year ended June 30, 2026. Other amounts
+reported as deferred outflows and inflows of resources related to pensions will be recognized in pension
+expense as follows:
+Year Ended June 30:
+2026 $ (460)
+2027 1,277
+2028 (379)
+2029 (366)
+Actuarial assumptions
+The total pension liability, reported as of June 30, 2025,was determined by an actuarial valuation as of
+July 1, 2023, with a measurement date of June 30, 2024, using the following actuarial assumptions,
+applied to all periods included in the measurements unless otherwise specified:
+Inflation 2.75percent
+Salary increases 2.75-7.37percent, average, including inflation
+Investment rate of return 7.25 percent, net of pension plan investment expense
+Mortality rates were based on 100% of Pub-2010 General Employees table, below-median, headcount
+weighted, projected generationally with scale MP-2021 for active employees, 111% of Pub-2010
+General Retiree Male table, below-median, headcount weighted, projected generationally with scale
+MP-2021 for retired healthy males, 118% of Pub-2010 General Retiree Female table, below-median,
+headcount weighted, projected generationallywith scale MP-2021for retired healthy females, 119% of
+Pub-2010 General / Teachers Disabled Male table, headcount weighted, projectedgenerationallywith
+scale MP-2021 for disabled males, 124% of Pub-2010 General / Teachers Disabled Female table,
+headcount weighted, projected generationally with scale MP-2021for disabled females, 109% of Pub-
+2010 Contingent Survivor Male table, below-median, headcount weighted, projected generationally
+with scale MP-2021 for beneficiary males, and 121% of Pub-2010 Contingent Survivor Female table,
+below-median, headcount weighted, projected generationally with scale MP-2021 for beneficiary
+females.
+An experience study, which wasbased on the years 2018through 2023was used for the 2023 actuarial
+valuationthat was rolled forward to the measurement date of June 30, 2024.
+The total pension liability, reported as of June 30, 2024, was determined by an actuarial valuation as of
+July 1, 2022, with a measurement date of June 30, 2023, using the following actuarial assumptions,
+applied to all periods included in the measurements unless otherwise specified:
+(Continued)
+38
+
+=== page 42 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 13. Pension Benefits (Continued)
+Pension asset, pension expense, and deferred outflows of resources and deferred inflows of resources
+related to pensions(continued)
+Inflation 2.75percent
+Salary increases 2.75-6.75 percent, average, including inflation
+Investment rate of return 7.25 percent, net of pension plan investment expense
+Mortality rates were based on 100% of Pub-2010 General Employees table, below-median, headcount
+weighted, projected generationally with scale MP-2018 for active employees, 108% of Pub-2010
+General Retiree Male table, below-median, headcount weighted, projectedgenerationallywith scale.
+MP-2018 for retired healthy males, 122% of Pub-2010 General Retiree Female table, below-median,
+headcount weighted, projected generationallywith scale MP-2018 for retired healthy females, 118% of
+Pub-2010 General / Teachers Disabled Male table, headcount weighted, projectedgenerationallywith
+scale MP-2018 for disabled males, and 117% of Pub-2010 General / Teachers Disabled Female table,
+headcount weighted, projected generationally with scale MP-2018 for disabled females.
+Experience studies, which were based on the years 2015 through 2020 for economic assumptions and
+2013 through 2018 for all other assumptions, were used for the 2022actuarial valuation.
+The long-term rates of return on pension plan investments were determined using the building block
+method in which estimatesof expected future real rates of return (expected returns, net of pension plan
+investment expense and inflation) are developed for each major asset class. These ranges are combined
+to produce the long-term expected rate of return by weighting the expected future real rates of return
+by the target asset allocation percentagesand by adding expected inflation. Bestestimates of long-term
+geometricrates of return are summarized in the following table:
+Long-term
+Target Expected Rate
+Asset Class Allocation of Return
+Domesticequity 22.5% 6.5%
+International equity 22.5% 9.1%
+Fixed income 15.0% 4.3%
+Real estate 12.0% 5.8%
+Private equity 12.0% 9.2%
+Private credit 6.0% 9.8%
+Hedge funds 10.0% 4.6%
+(Continued)
+39
+
+=== page 43 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 13. Pension Benefits (Continued)
+Discount rate
+The discount rate used to measure the total pension liability was 7.25 percent. The projection of cash
+flows used to determine the discount rate assumed that employer contributions will continue to follow
+the current funding policies. Based on these assumptions, the pension plan’s fiduciary net position was
+projected to be available to make all projected future benefit payments of current plan members.
+Therefore, the long-term expected rate of return on pension plan investments was applied to all periods
+of projected benefit payments to determine the total pension liability.
+Sensitivity to change in the discount rate
+Regarding the sensitivity of the net pension asset (liability)to changes in the discount rate, the following
+table presents the Lottery’s proportionate share of the net pension asset(liability)calculated using the
+current discount rate of 7.25% as well as what the Lottery’s proportionate share of the net pension asset
+(liability)would be if it were calculated using a discount rate that is one percentage point lower or one
+percentage point higher than the current rate (in thousands):
+Net Pension Liability (Asset)
+1% decrease (6.25%) $ (4,495)
+Current discount rate (7.25%) $ 883
+1% increase (8.25%) $ 5,425
+Note 14. Other Postemployment Benefits
+Plan description
+The West Virginia Other Postemployment Benefit Plan (the OPEB Plan) is a cost-sharing, multiple-
+employer, defined benefit other post-employment benefit plan and covers the retirees of State agencies,
+colleges and universities, county boards of education, and other government entities as set forth in the
+West Virginia Code Section 5-16D-2 (the Code). The financial activities of the OPEB Plan are
+accounted for in the West Virginia Retiree Health Benefit Trust Fund (RHBT), a fiduciary fund of the
+State of West Virginia. The OPEB Plan is administered by a combination of the West Virginia Public
+Employees Insurance Agency (PEIA) and the RHBT staff. OPEB Plan benefits are established and
+revised by PEIA and the RHBT management with approval of their Finance Board.The PEIA issues a
+publicly available financial report of the RHBT that can be obtained at www.peia.wv.gov or by writing
+to the West Virginia Public Employees Insurance Agency, 601 57th Street, SE Suite 2, Charleston, WV
+25304.
+Benefits provided
+The Lottery employees who retire are eligible for PEIA health and life benefits, provided they meet the
+minimum eligibility requirements of the Public Employees’ Retirement System (PERS)or meet certain
+other eligibility requirements of other West Virginia Consolidated Public Retirement Board (CPRB)
+sponsored retirement plans. RHBT provides medical and prescription drug insurance and life insurance
+benefits to those qualified participants. Life insurance is provided through a vendor and is primarily
+funded by member contributions. The medical and prescription drug insurance is provided through two
+(Continued)
+40
+
+=== page 44 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 14. Other Postemployment Benefits(Continued)
+Benefits provided(continued)
+options; Self-Insured Preferred Provider Benefit Plan -primarily for non-Medicare-eligible retirees and
+spouses or External Managed Care Organizations -primarily for Medicare-eligible retirees and spouses.
+The RHBT Medicare-eligible retired employees and their Medicare-eligible dependents receive
+medical and drug coverage from a Medicare AdvantagePrescription DrugPlan(MAPD) administered
+by a vendor. Under this arrangement, the vendor assumes the financial risk of providing comprehensive
+medical and drug coverage with limited co-payments. Non-Medicare retirees will continue enrollment
+in PEIA's Preferred Provider Benefit or the Managed Care Option. The RHBT collects employer
+contributions for Managed Care Organization (MCO) participants and remits capitation payments to
+the MCO. Survivors of retirees have the option of purchasing the medical and prescription drug
+coverage.
+Eligible participants hired after June 30, 2010, will be required to fully fund premium contributions
+upon retirement. The Plan is a closed plan to new entrants.
+Contributions
+West Virginia Code section 5-16D-6 assigns to the PEIA Finance Board the authority to establish and
+amend contribution requirements of the plan members and the participating employers. Participating
+employers are required by statute to contribute at a rate assessed each year by the RHBT. The annual
+contractually required rate is the same for all participating employers. Employer contributions represent
+what the employer was billed during the respective year for their portion of the pay as you go premiums,
+commonly referred to as paygo, retiree leave conversion billings, and other matters, including billing
+adjustments. The annual contractually required per active policyholder per month rates for State non-
+general funded agencies and other participating employers effective June 30, 2025, 2024, and 2023,
+respectively, were:
+2025 2024 2023
+Paygo Premium $ 34 $ - $ 70
+Contributions to the OPEB plan from the Lottery were $62,740,$32 and $124,581for the yearsended
+June 30, 2025, 2024, and 2023, respectively.
+Members retired before July 1, 1997, pay retiree healthcare contributions at the highest sponsor
+subsidized rate, regardless of their actual years of service. Members retired between July 1, 1997 and
+June 30, 2010, pay a subsidized rate depending on the member's years of service. Members hired on or
+after July 1, 2010, pay retiree healthcare contributions with no sponsor provided implicit or explicit
+subsidy.
+(Continued)
+41
+
+=== page 45 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 14. Other Postemployment Benefits (Continued)
+Retiree leave conversion contributions from the employer depend on the retiree's date of hire and years
+of service at retirement as described below;
+• Members hired before July 1, 1988, may convert accrued sick or annual leave days into 100% of
+the required retiree healthcare contribution.
+• Members hired from July 1, 1988, to June 30, 2001, may convert accrued sick or annual leave days
+into 50% of the required retiree healthcare contribution.
+The conversion rate is two days of unused sick and annual leave days per month for single healthcare
+coverage and three days of unused sick and annual leave days per month for family healthcare coverage.
+Contributions by nonemployer contributing entities in special funding situations
+The State of West Virginia is a nonemployer contributing entity that provides funding through SB 419,
+effective July 1, 2012, amended by West Virginia Code §11-21-96 (the Code). The State provides a
+supplemental pre-funding source dedicating $30 million annually to the RHBT Fund from annual
+collections of the Personal Income Tax Fund and dedicated for payment of the unfunded liability of the
+RHBT. The $30 million transferred pursuant to this Code shall be transferred until the Governor
+certifies to the Legislature that an independent actuarial study has determined that the unfunded liability
+of RHBT has been provided for in its entirety or July 1, 2037, whichever date is earlier. Under the
+current policy, the OPEB Plan is considered fully funded at a funded ratio, on a present value of
+benefits, of more than 120%. This funding is to the advantage of all RHBT contributing employers.
+The State is a nonemployer contributing entity that provides funding through SB 469, which, was
+passed February 10, 2012, granting OPEB liability relief to the 55 County Boards of Education effective
+July 1, 2012. The public school support plan (PSSP) is a basic foundation allowance program that
+provides funding to the local school boards for "any amount of the employer's annual required
+contribution allocated and billed to the county boards for employees who are employed as professional
+employees, employees who are employed as service personnel and employees who are employed as
+professional student support personnel", within the limits authorized by the State Code. This special
+funding under the school aid formula subsidizes employer contributions of the county boards of
+education.The amount of special funding for the PSSP for the OPEB Plan’s fiscal year 2024 was $0 as
+a result of $0 Paygo billed in fiscal year 2024.
+OPEB assets, OPEB expense (revenues), and deferred outflows of resources and deferred inflows of
+resources related to OPEB
+At June 30, 2025 and 2024, the Lottery reported an asset for its proportionate share of the RHBT net
+OPEB asset that reflected a reduction for State OPEB support provided to the Lottery. The amount
+recognized by the Lottery as its proportionate share of the net OPEB asset, the related State support,
+and the total portion of the net OPEB asset that was associated with the Lottery was as follows (in
+thousands):
+(Continued)
+42
+
+=== page 46 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 14. Other Postemployment Benefits (Continued)
+OPEB assets, OPEB expenses (revenues), and deferred outflows of resources and deferred inflows of
+resources related to OPEB (continued)
+2025 2024
+Lottery’s proportionate share of net OPEB asset $ 2 $ 204
+State’s special funding proportionate share of the net OPEB
+asset associated with the Lottery 7 87
+Total portion of net OPEB asset associated with the Lottery $ 9 $ 291
+The net OPEB asset reported at June 30, 2025was measured as of June 30, 2024, and the total OPEB
+assetused to calculate the net OPEB assetwas determined by an actuarial valuation as of June 30, 2023,
+and rolled forward to a measurement date of June 30, 2024. The Lottery’s proportion of the net OPEB
+asset was based on its proportionate share of employer and non-employer contributions to the OPEB
+Plan for the fiscal year ended on the measurement date. At June 30, 2024, the Lottery’s proportion was
+.006percent, which was a decrease of .12 percentfrom its proportion measured as of June 30, 2023.
+For the years ended June 30, 2025 and 2024, respectively, the Lottery recognized OPEB expense
+(revenue) of ($31,867) and ($668,096) and for support provided by the State under special funding
+situations (revenue)expense of $6,534and ($127,486). At June 30, 2025 and 2024, the Lottery reported
+deferred outflows of resources and deferred inflows of resources related to OPEB from the following
+sources(in thousands):
+June 30, 2025
+Deferred Outflows Deferred Inflows
+of Resources of Resources
+Differences between expected and actual experience $ 8 $ 2
+Net difference between projected and actual earnings
+on OPEB plan investments - 3
+Changes in assumptions 1 3
+Changes in proportion and differences between Lottery
+contributions and proportionate share of contributions 16 46
+Lottery contributions subsequent to the measurement
+date of June 30, 2024 63 -
+Total $ 88 $ 54
+(Continued)
+43
+
+=== page 47 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 14. Other Postemployment Benefits (Continued)
+OPEB assets, OPEB expenses (revenues), and deferred outflows of resources and deferred inflows of
+resources related to OPEB (continued)
+June 30, 2024
+Deferred Outflows Deferred Inflows
+of Resources of Resources
+Differences between expected and actual experience $ - $ 119
+Net difference between projected and actual earnings
+on OPEB plan investments - 3
+Changes in assumptions 56 114
+Changes in proportion and differences between Lottery
+contributions and proportionate share of contributions 18 106
+Lottery contributions subsequent to the measurement
+dateof June 30, 2023 - -
+Total $ 74 $ 342
+The amount of $62,740 reported as deferred outflows of resources related to OPEB resulting from
+Lotterycontributions subsequent to the measurement date will be recognized as an increase in the net
+OPEB asset in the year ended June 30, 2026. Other amounts reported as deferred outflows of resources
+and deferred inflows of resources related to OPEB will be recognized in OPEB expense as follows(in
+thousands):
+Year Ended June 30:
+2026 $ (33)
+2027 6
+2028 3
+2029 (5)
+Actuarial assumptions
+The total OPEB liability, reported as of June 30, 2025 and 2024, was determined by actuarial valuations
+as of June 30, 2023 and 2022, respectively, using the following actuarial assumptions, applied to all
+periods included in the measurement, unless otherwise specified:
+Inflation 2.50%
+Salary increases Rates based on 2015 – 2020 OPEB experience study and
+dependent on pension plan participation and attained age, and
+rangefrom 2.75% to 5.18%, including inflation.
+Investment rate of return 7.4%, net of OPEB plan investment expense, including inflation
+(Continued)
+44
+
+=== page 48 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 14. Other Postemployment Benefits (Continued)
+OPEB assets, OPEB expenses (revenues), and deferred outflows of resources and deferred inflows of
+resources related to OPEB (continued)
+Actuarial assumptions
+Healthcare cost trend rates
+(June 30, 2023 actuarial valuation) Trend rate for pre-Medicare and Medicare per capita costs at5.0%
+medical and 8.0% drug. The trends increase over four years to
+7.0% and 9.5%, respectively. The trends then decrease linearly
+for 5 years until ultimate trend rate of 4.50% is reached in plan
+year 2033.
+Healthcare cost trend rates
+(June 30, 2022actuarial valuation) Trend rate for pre-Medicare and Medicare per capita costs of 7.0%
+medical and 8.0% drug. The trends increase over four years to
+9.0% and 9.5%, respectively. The trends then decrease linearly for
+5 years until ultimate trend rate of 4.5% is reached in plan year
+end 2032.
+Actuarial cost method Entry Age Normal
+Amortization method Level percentage of payroll
+Remaining amortization period 20 year closed period beginning June 30, 2017
+Mortality rates
+Post-retirement mortality retirement rates were based on Pub-2010 General Healthy Retiree Mortality
+Tables projected with MP-2021 and scaling factors of 100% for males and 108% for females for
+Teachers’ Retirement System (TRS), Pub-2010 General Below-Median Healthy Retiree Mortality
+Tables projected with MP-2021and scaling factors of 106% for males and 113% for females for PERS,
+and Pub-2010 Public Safety Healthy Retiree Mortality Tables projected with scale MP-2021 and
+scaling factors of 100% for males and females for West Virginia Death, Disability, and Retirement
+Fund (Trooper A) and West Virginia State Police Retirement System (Trooper B). Pre-retirement
+mortality rates were basedon Pub-2010 General Employee Mortality Tables projected withMP-2021
+and scaling factors of 100% for males and females for TRS, Pub-2010 Below-Median Income General
+Employee Mortality Tables projected with MP-2021for PERS, and Pub-2010 Public Safety Employee
+Mortality Tables projected with scale MP-2021for Troopers A and B.
+The actuarial assumptions used in the June 30, 2023 and 2022 valuationswere based on the results of
+an actuarial experience study for the period of July 1, 2015-June 30, 2020.
+The actuarial valuation as of June 30, 2023, reflects changes to the healthcare-related assumptions
+which include per capita claims costs, healthcare trend rate, coverage and continuance, and participation
+rates.
+The long-term expected rate of return of 7.40% on OPEB plan investments was determined by a
+combination of an expected long-term rate of return of 7.60% for long-term assets invested with the
+West Virginia Investment Management Board (WVIMB) and an expected short-term rate of return of
+(Continued)
+45
+
+=== page 49 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 14. Other Postemployment Benefits (Continued)
+OPEB assets, OPEB expenses (revenues), and deferred outflows of resources and deferred inflows of
+resources related to OPEB (continued)
+Actuarial assumptions(continued)
+2.75% for assets invested with the West Virginia Board of Treasury Investments (WVBTI). Long-term
+pre-funding assets are invested with the WVIMB. The strategic asset allocation consists of 45% equity,
+15% fixed income, 6% private credit and income, 12% private equity, 10% hedge fund and 12% real
+estate invested. Short-term assets used to pay current year benefits and expenses are invested with the
+WVBTI.
+The long-term rate of return on OPEB plan investments aredetermined using a building block method
+in which best estimateranges of expected futurerates of returnaredeveloped for each major asset class.
+These ranges are combined to produce the long-term expected rate of return by weighting the expected
+future rates of return by the target asset allocation percentage. The OPEB Plan’s investment advisors,
+including the WVIMB, provided target asset allocations, capital market assumptions (CMA), and
+forecast returns. The projected return for the Money Market Pool held with the WVBTI was estimated
+based on the WVIMB assumed inflation of 2.50% plus a 25 basis point spread. The target allocation
+and estimates of annualized long-term expected real returns assuming a 10-year horizon are
+summarized below:
+Long-Term Expected Real
+Asset Class Target Allocation Rate of Return
+Equity 45.0% 7.4%
+Fixed Income 15.0% 3.9%
+Private Credit and Income 6.0% 7.4%
+Private Equity 12.0% 10.0%
+Hedge Funds 10.0% 4.5%
+Real Estate 12.0% 7.7%
+Discount rate
+A single discount of 7.4% was used to measure the total OPEB liability. This single discount rate was
+based on the expected rate of return on OPEB plan investments of 7.4%. The projection of cash flows
+used to determine this single discount rate assumed that employer contributions will be made in
+accordance with the prefunding and investment policies. Based on these assumptions, the OPEB plan's
+fiduciary net position was projected to be available to make all projected future benefit payments of
+current plan members. Therefore, the long-term expected rate of return on OPEB plan investments was
+applied to all periods of projected benefit payments to determine the total OPEB liability.
+Other key assumptions
+Members hired on or after July 1, 2010, pay 100% of thecostsof coverage, resulting in no implicit or
+explicit employer cost. Consequently, these members are excluded from the actuarial valuation.
+(Continued)
+46
+
+=== page 50 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 14. Other Postemployment Benefits (Continued)
+Sensitivity of the Lottery’s proportionate share of the net OPEB asset (liability) to changes in the
+discount rate
+The following presents the Lottery’s proportionate share of the net OPEB asset (liability) calculated
+using the current discount rate, as well as what the Lottery’s proportionateshare of the net OPEB asset
+(liability) would be if it were calculated using a discount rate that is 1-percentage point lower or 1-
+percentage-point higher than the current rate (in thousands):
+Current
+1% Decrease Discount Rate 1% Increase
+(6.4%) (7.4%) (8.4%)
+Lottery’s proportionate share of
+the net OPEB asset(liability) $ (10) $ 2 $ 13
+Sensitivity of the Lottery’s proportionate share of net OPEB asset (liability) to changes in the
+healthcare cost trend rates
+The following presents the Lottery’s proportionate share of the net OPEB liability (asset), as well as
+what the Lottery’s proportionate share of the net OPEB liability (asset) would be if it were calculated
+using healthcare cost trend rates that are 1-percentage-point lower or 1-percentage point higher than
+the current rates(in thousands):
+Current
+Healthcare
+Cost Trend
+1% Decrease Rates 1% Increase
+Lottery’s proportionate share of
+the net OPEB asset(liabilities) $ 18 $ 2 $ (17)
+Note 15. Commitments
+The Lottery Commission has designated unexpended administrative funds from various fiscal years for
+the acquisition of capital assets. As of June 30, 2025 and 2024, $4,783,397 and $5,321,574,
+respectively, are included in unrestricted net position for this purpose.
+Note 16. Risk Management
+The Lottery is exposed to various risks of loss related to torts; theft of, or damage to, and destruction
+of assets; errors and omissions; injuries to employees; and natural disasters. The Lottery participates
+in several risk management programs administered by the State of West Virginia and other providers.
+Each of the state administered risk pools have issued separate audited financial reports on their
+operations. Those reports include the required supplementary information regarding the reconciliation
+of claims liabilities by type of contract and ten-year claim development information. Complete
+financial statements of the individual risk pools can be obtained directly from their respective
+administrative offices.
+(Continued)
+47
+
+=== page 51 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 16. Risk Management(Continued)
+Public Employees' Insurance Agency (PEIA)
+The Lottery participates in the Public Employees Insurance Agency (PEIA), which provides an
+employee benefit insurance program to employees. PEIA was established by the State of West Virginia
+for State agencies, institutions of higher education, Boards of Education and component units of the
+State. In addition, local governmental entities and certain charitable and public service organizations
+may request to be covered by PEIA. PEIA provides a base employee benefit insurance program, which
+includes hospital, surgical, major medical, prescription drug and basic life and accidental death.
+Underwriting and rate setting policies are established by PEIA. The cost of all coverage, as determined
+by PEIA, shall be paid by the participants. Premiums are established by PEIA and are paid monthly,
+and are dependent upon, among other things, coverage required, number of dependents, state vs. non
+state employees and active employees vs. retired employees and level of compensation. Coverage under
+these programs is limitedto $1 million for lifetime for health and $10,000 of life insurance coverage.
+The PEIA risk pool retains all risks for the health and prescription features of its indemnity plan. PEIA
+has fully transferred the risks of coverage of the Managed Care Organization (MCO) Plan to the plan
+provider and has transferred the risks of the life insurance coverage to a third party insurer. PEIA
+presently charges equivalent premiums for participants in either the indemnity plan or the MCO Plan.
+Altogether, PEIA insures approximately 205,000 individuals, including participants and dependents.
+Board of Risk and Insurance Management (BRIM)
+The Lottery participates in the West Virginia Board of Risk and Insurance Management (BRIM), a risk
+poolcurrently operating as arisk management and insurance program for all State agencies, component
+units, and other local governmental agencies who wish to participate. The Lottery pays an annual
+premium to BRIM for its general insurance coverage. Underwriting and rate setting policies are
+established by BRIM. The cost of all coverage as determined by BRIM shall be paid by the participants.
+The BRIM risk pool retains the risk of the first $1 million per property event and purchases excess
+insurance on losses above that level. Excess coverage through an outside insurer under this program is
+limited to $200 million per event, subject to limits on certain property. BRIM has $1 million per
+occurrence coverage maximum on all third-party liability claims. During the year ended June 30, 2025,
+no changes in coverage were made and paid claims did not exceed coverage.
+Workers compensation insurance
+The Lottery carries workers compensation insurance coverage through acommercial insurance carrier.
+The commercial insurance carrieris paid a monthly rated premium to provide compensation for injuries
+sustained in the course of employment.
+Note 17. Contingencies and Uncertainties
+The Lottery is involved in certain claims and legal actions arising from the ordinary course of
+conducting business. Although the outcome of these claims and legal actions are presently
+indeterminable; it is the opinion of the Lottery’smanagement, after a review of legal activities, that no
+adjustments to the financial statements are warranted and that any resolution of outstanding claims or
+legal actions are not expected to have a material adverse effect on the accompanying financial
+statements.
+(Continued)
+48
+
+=== page 52 ===
+WEST VIRGINIA LOTTERY
+NOTES TO FINANCIAL STATEMENTS
+June 30, 2025
+Note 18. New Accounting Standards
+In April 2024, the GASB issued Statement No. 103, Financial Reporting Model Improvements. This
+Statement enhances the effectiveness of the financial reporting mode in providing information that is
+essential for decision making and to address certain applications issues identified by the GASB. The
+provisions of this statement are effective forreporting periods beginning after June 15, 2025.
+In September 2024, the GASB issued Statement No. 104, Disclosure of Certain Capital Assets. This
+Statement provides users of government financial statements with essential information about certain
+types of capital assets in order to make informed decisions and assess accountability. The provisions of
+this statement are effective for reporting periods beginning after June 15, 2025.
+Management has not determined the effect these new GASB Statements may have on prospective
+financial statements.
+49
+
+=== page 53 ===
+Required
+Supplementary
+Information
+
+=== page 54 ===
+WEST VIRGINIA LOTTERY
+SCHEDULES OF THE PROPORTIONATE SHARE OF THE NET PENSION LIABILITY (ASSET)
+(In Thousands)
+Public Employees Retirement System Plan
+Years Ended June 30
+2025 2024 2023 2022 2021 2020 2019 2018 2017 2016
+Lottery's proportion (percentage) of the net pension liability (asset) 0.54% 0.53% 0.49% 0.51% 0.52% 0.53% 0.53% 0.53% 0.52% 0.55%
+Lottery's proportionate share of the net pension liability (asset) $ (883) $ (24) $ 735 $ (4,467) $ 2,740 $ 1,147 $ 1,360 $ 2,274 $ 4,800 $ 3,044
+Lottery's covered payroll $ 10,011 $ 9,344 $ 8,040 $ 8,130 $ 8,100 $ 7,890 $ 7,345 $ 7,192 $ 7,259 $ 7,421
+Lottery's proportionate share of the net pension liability (asset)
+as a percentage of its covered payroll (8.82%) (0.26%) 9.14% (54.94%) 33.83% 14.54% 18.52% 31.62% 66.12% 41.02%
+Plan fiduciary net position as a percentage of the total
+pension liability 101.85% 100.05% 98.17% 111.07% 92.89% 96.99% 96.33% 93.67% 86.11% 91.29%
+Note: All amounts presented are as of the measurement date,
+which is one year prior to the fiscal year end date.
+See Independent Auditor's Report and accompanying Notes to Required Supplementary Information.
+50
+
+=== page 55 ===
+WEST VIRGINIA LOTTERY
+SCHEDULES OF CONTRIBUTIONS TO THE PERS
+(In Thousands)
+Years Ended June 30
+2025 2024 2023 2022 2021 2020 2019 2018 2017 2016
+Statutorily required contribution $ 963 $ 901 $ 841 $ 804 $ 813 $ 810 $ 789 $ 808 $ 863 $ 980
+Contributions in relation to the statutorily
+required contribution 963 901 841 804 813 810 789 808 863 980
+Contribution deficiency (excess) $ - $ - $ - $ - $ - $ - $ - $ - $ - $ -
+Lottery's covered payroll $10,700 $10,011 $9,344 $8,040 $8,130 $8,100 $7,890 $7,345 $7,192 $7,259
+Contributions as a percentage of covered
+payroll 9.00% 9.00% 9.00% 10.00% 10.00% 10.00% 10.00% 11.00% 12.00% 13.50%
+See Independent Auditor's Report and accompanying Notes to Required Supplementary Information.
+51
+
+=== page 56 ===
+WEST VIRGINIA LOTTERY
+SCHEDULES OF THE PROPORTIONATE SHARE OF THE NET OPEB LIABILITY (ASSET)
+(In Thousands)
+Retirement Health Benefit Trust Plan
+Years Ended June 30
+2025 2024 2023 2022 2021 2020 2019 2018
+West Virginia Lottery's proportion (percentage)
+of the net OPEB liability (asset) 0.01% 0.13% 0.13% 0.15% 0.15% 0.15% 0.15% 0.14%
+West Virginia Lottery's proportionate share
+of the net OPEB liability (asset) $ (2) $ (204) $ 148 $ (46) $ 654 $ 2,551 $ 3,187 $ 3,501
+State's proportionate share of the net OPEB $ (7) $ (87) $ 51 $ (9) $ 145 $ 522 $ 659 $ 719
+liability (asset) associated with the Lottery
+Total $ (9) $ (291) $ 199 $ (55) $ 799 $ 3,073 $ 3,846 $ 4,220
+West Virginia Lottery's covered-employee payroll $ 4,688 $ 4,723 $ 4,645 $ 4,810 $ 4,942 $ 4,909 $ 4,999 $ 5,264
+West Virginia Lottery's proportionate share of the net OPEB
+liability (asset) as a percentage of its covered-employee payroll (0.04%) (4.32%) 3.19% (0.96%) 13.23% 51.97% 63.75% 66.51%
+Plan fiduciary net position as a percentage of the total OPEB liability 102.19% 109.66% 93.59% 101.81% 73.49% 39.69% 30.98% 25.10%
+Note: All amounts presented are as of the measurement date,
+which is one year prior to the fiscal year end date.
+See Independent Auditor's Report and accompanying Notes to Required Supplementary Information.
+52
+
+=== page 57 ===
+WEST VIRGINIA LOTTERY
+SCHEDULES OF CONTRIBUTIONS TO THE RHBT
+(In Thousands)
+Years Ended June 30
+2024 2024 2023 2022 2021 2020 2019 2018 2017
+Statutorily required contribution $ - $ - $ 124 $ 152 $ 279 $ 287 $ 317 $ 303 $ 292
+Contributions in relation to the statutorily required contribution - - 124 152 279 287 317 303 292
+Contribution deficiency (excess) $ - $ - $ - $ - $ - $ - $ - $ - $ -
+West Virginia Lottery's covered-employee payroll $ 4,566 $ 4,688 $ 4,723 $ 4,645 $ 4,810 $ 4,942 $ 4,909 $ 4,999 $ 5,264
+Contributions as a percentage of covered-employee payroll 0.00% 0.00% 2.63% 3.27% 5.80% 5.81% 6.46% 6.06% 5.55%
+See Independent Auditor's Report and accompanying Notes to Required Supplementary Information.
+53
+
+=== page 58 ===
+WEST VIRGINIA LOTTERY
+NOTES TO REQUIRED SUPPLEMENTARY INFORMATION
+June 30, 2025
+Note 1. Trend Information Presented
+The accompanying schedules of the Lottery’s proportionate share of the net OPEB and pension
+liabilities(assets) and contributions to RHBT and PERS are required supplementary information to be
+presented for 10 years. However, until a full 10-year trend is compiled, information is presented in the
+schedules for those years for which information is available.
+Note 2. Pension Plan Amendments
+The PERS was amended to make changes, which applyto new employees hired on or after July 1, 2015
+as follows:
+ For employees hired prior to July 1, 2015, qualification for normal retirement is age 60 with five
+years of service or at least age 55 with age and service equal to 80 or greater. A member may
+retire with the pension reduced actuarially if the member is at least 55 and has at least 10 years
+of contributory service, or at any age with 30 years of contributory service.For employees hired
+after July 1, 2015, qualification for normal retirement is 62 with 10 years ofservice. A member
+hired after July 1, 2015 may retire with the pension reduced actuarially if the member is between
+the ages 60 and 62 with at least ten years of contributory service, between ages 57 and 62 with
+at least twenty years of contributory service or between the ages 55 and 62 with at least thirty
+years of contributory service.
+ The straight life annuity retirement benefit is equivalent to 2% of average salary multiplied by
+years of service. For employees hired prior to July 1, 2015, average salary is the average of the
+three consecutive highest annual earnings out of the last fifteen years of earnings. For all
+employees hired on or after July 1, 2015 average salary is the average of the five consecutive
+highest annual earnings out of the last fifteen years of earnings.
+ For employees hired prior to July 1, 2015, terminated members with at least five years of
+contributory service who do not withdraw their accumulated contributions may elect to receive
+their retirement annuity beginning at age 62. For all employees hired on or after July 1, 2015,
+this age increases to 64 with at least ten years of contributory service, or age 63 with at least
+twenty years of contributory service.
+ For all employees hired prior to July 1, 2015, employees are required to contribute 4.5% of
+annual earnings. All employees hired on or after July 1, 2015, are required to contribute 6% of
+annual earnings.
+(Continued)
+54
+
+=== page 59 ===
+West Virginia Lottery
+Notes to Required Supplementary Information
+June 30, 2025
+Note 3.Pension Plan Changes in Assumptions
+The information in the schedules of the proportionate share of the net pension liability (asset) was based on actuarial valuations rolled forward to measurement dates of June 30 of
+each year presented below using the following actuarial assumptions:
+Projected Salary Increases Withdrawal rates
+Inflation Discount Experience
+State Nonstate Rate Rate Mortality Rates State Nonstate Disability Rates Study
+2024 2.75% - 6.86% 3.57% - 7.37% 2.75% 7.25% Active-100% of Pub-2010 General Employees table, 2.28 - 45.63% 3.25 - 31.63% 0.004 - 0.250% 2018-2023
+below-median, headcount weighted, projected
+generationally with scale MP-2021;
+Retired healthy males-111% of Pub-2010 General Retiree
+Male table, below-median, headcount weighted,
+projected generationally with scale MP-2021;
+Retired healthy females-118% of Pub-2010 General
+Retiree Female table, below-median, headcount
+weighted, projected generationally with scale MP-2021;
+Disabled males-119% of Pub-2010 General / Teachers
+Disabled Male table, headcount weighted, projected
+generationally with scale MP-2021;
+Disabled females-124% of Pub-2010 General / Teachers
+Disabled Female table, headcount weighted, projected
+generationally with scale MP-2021;
+Beneficiary males-109% of Pub-2010 Contingent Survivor
+Male table, below-median, headcount weighted,
+projected generationally with scale MP-2021;
+Beneficiary females-121% of Pub-2010 Contingent
+Survivor Female table, below-median, headcount
+weighted, projected generationally with scale MP-2021
+2023 2.75% - 5.55% 3.6% - 6.75% 2.75% 7.25% Active-100% of Pub-2010 General Employees table, 2.28 - 45.63% 2.50 - 35.88% 0.005 - 0.540% 2015-2020 -
+below-median, headcount weighted, projected economic
+generationally with scale MP-2018; assumptions
+Retired healthy males-108% of Pub-2010 General Retiree and 2013-
+Male table, below-median, headcount weighted, 2018 all
+projected generationally with scale MP-2018;
+other
+Retired healthy females-122% of Pub-2010 General
+assumptions
+Retiree Female table, below-median, headcount
+weighted, projected generationally with Scale MP-2018;
+Disabled males-118% of Pub-2010 General / Teachers
+Disabled Male table, headcount weighted, projected
+generationally with scale MP-2018;
+Disabled females-118% of Pub-2010 General / Teachers
+Disabled Female table, below-median, headcount
+weighted, projected generationally with scale MP-2018;
+Beneficiary males-112% of Pub-2010 Contingent Survivor
+Male table, below-median, headcount weighted,
+projected generationally with scale MP-2018;
+Beneficiary females-115% of Pub-2010 Contingent
+Survivor Female table, below-median, headcount
+weighted, projected generationally with scale MP-2018
+2022 2.75% - 5.55% 3.6% - 6.75% 2.75% 7.25% Active-100% of Pub-2010 General Employees table, 2.28 - 45.63% 2.50 - 35.88% 0.005 - 0.540% 2015-2020 -
+below-median, headcount weighted, projected economic
+generationally with scale MP-2018; assumptions
+Retired healthy males-108% of Pub-2010 General Retiree and 2013-
+Male table, below-median, headcount weighted, 2018 all
+projected generationally with scale MP-2018;
+other
+Retired healthy females-122% of Pub-2010 General
+assumptions
+Retiree Female table, below-median, headcount
+weighted, projected generationally with Scale MP-2018;
+Disabled males-118% of Pub-2010 General / Teachers
+Disabled Male table, headcount weighted, projected
+generationally with scale MP-2018;
+Disabled females-118% of Pub-2010 General / Teachers
+Disabled Female table, below-median, headcount
+weighted, projected generationally with scale MP-2018;
+Beneficiary males-112% of Pub-2010 Contingent Survivor
+Male table, below-median, headcount weighted,
+projected generationally with scale MP-2018;
+Beneficiary females-115% of Pub-2010 Contingent
+Survivor Female table, below-median, headcount
+weighted, projected generationally with scale MP-2018
+55
+
+=== page 60 ===
+West Virginia Lottery
+Notes to Required Supplementary Information
+June 30, 2025
+Note 3.Pension Plan Changes in Assumptions (Continued)
+Projected Salary Increases Withdrawal rates
+Inflation Discount Experience
+State Nonstate Rate Rate Mortality Rates State Nonstate Disability Rates Study
+2021 2.75% - 5.55% 3.6% - 6.75% 2.75% 7.25% Active-100% of Pub-2010 General Employees table, 2.28 - 45.63% 2.50 - 35.88% 0.005 - 0.540% 2015-2020 -
+below-median, headcount weighted, projected economic
+generationally with scale MP-2018; assumptions
+Retired healthy males-108% of Pub-2010 General Retiree and 2013-
+Male table, below-median, headcount weighted, 2018 all
+projected generationally with scale MP-2018;
+other
+Retired healthy females-122% of Pub-2010 General
+assumptions
+Retiree Female table, below-median, headcount
+weighted, projected generationally with Scale MP-2018;
+Disabled males-118% of Pub-2010 General / Teachers
+Disabled Male table, headcount weighted, projected
+generationally with scale MP-2018;
+Disabled females-118% of Pub-2010 General / Teachers
+Disabled Female table, below-median, headcount
+weighted, projected generationally with scale MP-2018;
+Beneficiary males-112% of Pub-2010 Contingent Survivor
+Male table, below-median, headcount weighted,
+projected generationally with scale MP-2018;
+Beneficiary females-115% of Pub-2010 Contingent
+Survivor Female table, below-median, headcount
+weighted, projected generationally with scale MP-2018
+2020 3.1% - 5.3% 3.35% - 6.5% 3.00% 7.50% Active-100% of Pub-2010 General Employees table, 2.28 - 45.63% 2.50 - 35.88% 0.005 - 0.540% 2013-2018
+below-median, headcount weighted, projected
+generationally with scale MP-2018;
+Retired healthy males-108% of Pub-2010 General Retiree
+Male table, below-median, headcount weighted,
+projected generationally with scale MP-2018;
+Retired healthy females-122% of Pub-2010 General
+Retiree Female table, below-median, headcount
+weighted, projected generationally with Scale MP-2018;
+Disabled males-118% of Pub-2010 General / Teachers
+Disabled Male table, headcount weighted, projected
+generationally with scale MP-2018;
+Disabled females-118% of Pub-2010 General / Teachers
+Disabled Female table, below-median, headcount
+weighted, projected generationally with scale MP-2018;
+Beneficiary males-112% of Pub-2010 Contingent Survivor
+Male table, below-median, headcount weighted,
+projected generationally with scale MP-2018;
+Beneficiary females-115% of Pub-2010 Contingent
+Survivor Female table, below-median, headcount
+weighted, projected generationally with scale MP-2018
+2019 3.1% - 5.3% 3.35% - 6.5% 3.00% 7.50% Active-100% of Pub-2010 General Employees table, 2.28 - 45.63% 2.00 - 35.88% 0.005 - 0.540% 2013-2018
+below-median, headcount weighted, projected
+generationally with scale MP-2018;
+Retired healthy males-108% of Pub-2010 General Retiree
+Male table, below-median, headcount weighted,
+projected generationally with scale MP-2018;
+Retired healthy females-122% of Pub-2010 General
+Retiree Female table, below-median, headcount
+weighted, projected generationally with Scale MP-2018;
+Disabled males-118% of Pub-2010 General / Teachers
+Disabled Male table, headcount weighted, projected
+generationally with scale MP-2018;
+Disabled females-118% of Pub-2010 General / Teachers
+Disabled Female table, below-median, headcount
+weighted, projected generationally with scale MP-2018;
+Beneficiary males-112% of Pub-2010 Contingent Survivor
+Male table, below-median, headcount weighted,
+projected generationally with scale MP-2018;
+Beneficiary females-115% of Pub-2010 Contingent
+Survivor Female table, below-median, headcount
+weighted, projected generationally with scale MP-2018
+56
+
+=== page 61 ===
+West Virginia Lottery
+Notes to Required Supplementary Information
+June 30, 2025
+Note 3.Pension Plan Changes in Assumptions (Continued)
+Projected Salary Increases Withdrawal rates
+Inflation Discount Experience
+State Nonstate Rate Rate Mortality Rates State Nonstate Disability Rates Study
+2018 3.0% - 4.6% 3.35% - 6.0% 3.00% 7.50% Healthy males -110% of RP-2000 Non-Annuitant, Scale AA 1.75 - 35.1% 2 - 35.8% 0. - 0.675% 2009-2014
+fully generational
+Healthy females - 101% of RP-2000 Non-Annuitant, Scale
+AA fully generational
+Retired healthy males-110% of RP-2000 Healthy
+Annuitant, Scale AA fully generational
+Retired healthy females-101 % of RP-2000 Healthy
+Annuitant, Scale AA fully generational
+Disabled Males-96% of RP-2000 Disabled Annuitant, Scale
+AA fully generational
+Disabled Females-107% of RP-2000 Disabled Annuitant,
+Scale AA fully generational
+2017 3.0% - 4.6% 3.35% - 6.0% 3.00% 7.50% Healthy males -110% of RP-2000 Non-Annuitant, Scale AA 1.75 - 35.1% 2 - 35.8% 0. - 0.675% 2009-2014
+fully generational
+Healthy females - 101% of RP-2000 Non-Annuitant, Scale
+AA fully generational
+Retired healthy males-110% of RP-2000 Healthy
+Annuitant, Scale AA fully generational
+Retired healthy females-101 % of RP-2000 Healthy
+Annuitant, Scale AA fully generational
+Disabled Males-96% of RP-2000 Disabled Annuitant, Scale
+AA fully generational
+Disabled Females-107% of RP-2000 Disabled Annuitant,
+Scale AA fully generational
+2016 3.0% - 4.6% 3.35% - 6.0% 3.00% 7.50% Healthy males -110% of RP-2000 Non-Annuitant, Scale AA 1.75 - 35.1% 2 - 35.8% 0. - 0.675% 2009-2014
+fully generational
+Healthy females - 101% of RP-2000 Non-Annuitant, Scale
+AA fully generational
+Retired healthy males-110% of RP-2000 Healthy
+Annuitant, Scale AA fully generational
+Retired healthy females-101 % of RP-2000 Healthy
+Annuitant, Scale AA fully generational
+Disabled Males-96% of RP-2000 Disabled Annuitant, Scale
+AA fully generational
+Disabled Females-107% of RP-2000 Disabled Annuitant,
+Scale AA fully generational
+2015 3.0% - 4.6% 3.35% - 6.0% 1.90% 7.50% Healthy males - 110% of RP-2000 Non-Annuitant, Scale 1.75 - 35.1% 2 - 35.8% 0. - 0.675% 2009-2014
+AA; Healthy females - 101% of RP-2000 Non-Annuitant,
+Scale AA; Disabled males - 96% of RP-2000 Disabled
+Annuitant, Scale AA; Disabled females - 107% of RP-2000
+Disabled Annuitant, Scale AA
+57
+
+=== page 62 ===
+West Virginia Lottery
+Notes to Required Supplementary Information
+June 30, 2025
+Note 4.OPEB Plan Changes in Assumptions
+The information in the schedules of the proportionate share of the net OPEB liability (asset) was based on actuarial valuations rolled forward to measurement dates of June 30 of each year
+presented below using the following actuarial assumptions:
+Investment
+Rate of
+Return &
+Discount Experience
+Inflation Salary Increases Rate Mortality Rates Healthcare Cost Trend Rates Study
+2024 2.50% Rates based on 7.40%, net of Post-Retirement: Pub-2010 General Healthy Retiree Mortality Tables projected with Trend rate for pre-Medicare and Medicare per capita 2015-2020
+2015-2020 OPEB OPEB plan MP-2021 and scaling factors of 100% for males and 108% for females for TRS; Pub- costs of 5.0% medical and 8.0% drug. The trends
+experience study investment 2010 General Below-Median Healthy Retiree Mortality Tables projected with MP- increase over four years to 7.0% and 9.5%,
+and dependent on expense, 2021 and scaling factors of 106% for males and 113% for females for PERS; Pub- respectively. The trends then decrease linearly for 5
+pension plan including 2010 Public Safety Healthy Retiree Mortality Tables projected with scale MP-2021 years until ultimate trend rate of 4.5% is reached in
+participation and inflation and scaling factors of 100% for males and females for Trooper A and Trooper B; plan year end 2033.
+attained age, and Pre-Retirement: Pub-2010 General Employee Mortality Tables projected with MP-
+range from 2.75% 2021 and scaling factors of 100% for males and females for TRS; Pub-2010 Below-
+to 5.18%, including Median Income General Employee Mortality Tables projected with MP-2021 for
+inflation PERS; Pub-2010 Public Safety Employee Mortality Tables projected with scale MP-
+2021 for Trooper A and Trooper B
+2023 2.50% Rates based on 7.40%, net of Post-Retirement: Pub-2010 General Healthy Retiree Mortality Tables projected with Trend rate for pre-Medicare and Medicare per capita 2015-2020
+2015-2020 OPEB OPEB plan MP-2021 and scaling factors of 100% for males and 108% for females for TRS; Pub- costs of 7.0% medical and 8.0% drug. The trends
+experience study investment 2010 General Below-Median Healthy Retiree Mortality Tables projected with MP- increase over four years to 9.0% and 9.5%,
+and dependent on expense, 2021 and scaling factors of 106% for males and 113% for females for PERS; Pub- respectively. The trends then decrease linearly for 5
+pension plan including 2010 Public Safety Healthy Retiree Mortality Tables projected with scale MP-2021 years until ultimate trend rate of 4.50% is reached in
+participation and inflation and scaling factors of 100% for males and females for Trooper A and Trooper B; plan year end 2032.
+attained age, and Pre-Retirement: Pub-2010 General Employee Mortality Tables projected with MP-
+range from 2.75% 2021 and scaling factors of 100% for males and females for TRS; Pub-2010 Below-
+to 5.18%, including Median Income General Employee Mortality Tables projected with MP-2021 for
+inflation PERS; Pub-2010 Public Safety Employee Mortality Tables projected with scale MP-
+2021 for Trooper A and Trooper B
+2022 2.25% Rates based on 6.65%, net of Post-Retirement: Pub-2010 General Healthy Retiree Mortality Tables projected with Trend rate for pre-Medicare per capita costs of 7.0% 2015-2020
+2015-2020 OPEB OPEB plan MP-2021 and scaling factors of 100% for males and 108% for females for TRS; Pub- for plan year end 2023, decreasing by 0.50% for two
+experience study investment 2010 Below-Median Income General Healthy Retiree Mortality Tables projected years then by 0.25% each year thereafter, until
+and dependent on expense, with MP-2021 and scaling factors of 106% for males and 113% for females for PERS; ultimate trend rate of 4.25% is reached in plan year
+pension plan including Pub-2010 Public Safety Healthy Retiree Mortality Tables projected with scale MP- 2032. Trend rate for Medicare per capita costs of
+participation and inflation 2021 and scaling factors of 100% for males and females for Trooper A and Trooper 8.83% for plan year end 2023, decreasing ratably each
+attained age, and B; year thereafter, until ultimate trend rate of 4.25% is
+range from 2.75% Pre-Retirement: Pub-2010 General Employee Mortality Tables projected with MP- reached in plan year end 2032.
+to 5.18%, including 2021 for TRS; Pub-2010 Below-Median Income General Employee Mortality Tables
+inflation projected with MP-2021 for PERS; Pub-2010 Public Safety Employee Mortality
+Tables projected with scale MP-2021 for Trooper A and Trooper B
+2021 2.25% Rates based on 6.65%, net of Post-Retirement: Pub-2010 General Healthy Retiree Mortality Tables projected with Trend rate for pre-Medicare per capita costs of 7.0% 2015-2020
+2015-2020 OPEB OPEB plan MP-2019 and scaling factors of 100% for males and 108% for females for TRS; Pub- for plan year end 2020, decreasing by 0.50% for one
+experience study investment 2010 Below-Median Income General Healthy Retiree Mortality Tables projected year then by 0.25% each year thereafter, until ultimate
+and dependent on expense, with MP-2019 and scaling factors of 106% for males and 113% for females for PERS; trend rate of 4.25% is reached in plan year 2032. Trend
+pension plan including Pub-2010 Public Safety Healthy Retiree Mortality Tables projected with scale MP- rate for Medicare per capita costs of (31.11%) for plan
+participation and inflation 2019 and scaling factors of 100% for males and females for Trooper A and Trooper year end 2022, 9.15% for plan year end 2023,
+attained age, and B; decreasing ratably each year thereafter, until ultimate
+range from 2.75% Pre-Retirement: Pub-2010 General Employee Mortality Tables projected with MP- trend rate of 4.25% is reached in plan year end 2036.
+to 5.18%, including 2019 for TRS; Pub-2010 Below-Median Income General Employee Mortality Tables
+inflation projected with MP-2019 for PERS; Pub-2010 Public Safety Employee Mortality
+Tables projected with scale MP-2019 for Trooper A and Trooper B
+2020 2.25% Specific to the 6.65%, net of Post-Retirement: Pub-2010 General Healthy Retiree Mortality Tables projected with Trend rate for pre-Medicare per capita costs of 7.0% 2015-2020
+OPEB covered OPEB plan MP-2019 and scaling factors of 100% for males and 108% for females for TRS; Pub- for plan year end 2022, decreasing by 0.25% each year
+group. Ranging investment 2010 Below-Median Income General Healthy Retiree Mortality Tables projected thereafter, until ultimate trend rate of 4.25% is
+from 2.75% to expense, with MP-2019 and scaling factors of 106% for males and 113% for females for PERS; reached in plan year 2032. Trend rate for Medicare per
+5.18%, including including Pub-2010 Public Safety Healthy Retiree Mortality Tables projected with scale MP- capita costs of (31.11%) for plan year end 2022, 9.15%
+inflation inflation 2019 and scaling factors of 100% for males and females for Trooper A and Trooper for plan year end 2023, 8.40% for plan year end 2024,
+B; decreasing gradually each year thereafter, until
+Pre-Retirement: Pub-2010 General Employee Mortality Tables projected with MP- ultimate trend rate of 4.25% is reached in plan year
+2019 for TRS; Pub-2010 Below-Median Income General Employee Mortality Tables end 2036.
+projected with MP-2019 for PERS; Pub-2010 Public Safety Employee Mortality
+Tables projected with scale MP-2019 for Trooper A and Trooper B
+2019 2.75% Dependent upon 7.15%, net of Post-Retirement: RP–2000 Healthy Annuitant Mortality Table projected with Scale Trend rate for pre-Medicare per capita costs of 8.5% 2013-2018
+pension system. OPEB plan AA on a fully generational basis for PERS and TRS; RP-2014 Healthy Annuitant for plan year end 2020, decreasing by 0.5% each year
+Ranging from 3.0% investment Mortality Table projected with scale MP-2016 on a fully generational basis for thereafter, until ultimate trend rate of 4.5% is reached
+to 6.5%, including expense, Trooper A and Trooper B); in plan year 2028. Trend rate for Medicare per capita
+inflation including Pre-Retirement: RP–2000 Non-Annuitant Mortality Table projected with Scale AA costs of 3.1% for plan year end 2020. 9.5% for plan
+inflation on a fully generational basis for PERS and TRS; RP-2014 Employee Mortality Table year end 2021, decreasing by 0.5% each year
+projected to 2020 with Scale MP-2016 on a fully generational basis for Trooper A thereafter, until ultimate trend rate of 4.5% is reached
+and Trooper B in plan year end 2031.
+58
+
+=== page 63 ===
+West Virginia Lottery
+Notes to Required Supplementary Information
+June 30, 2025
+Note 4.OPEB Plan Changes in Assumptions (Continued)
+Investment
+Rate of
+Return &
+Discount Experience
+Inflation Salary Increases Rate Mortality Rates Healthcare Cost Trend Rates Study
+2018 2.75% Dependent upon 7.15%, net of Post-Retirement: RP–2000 Healthy Annuitant Mortality Table projected with Scale Actual trend used for fiscal year 2018. For fiscal years 2010-2015
+pension system. OPEB plan AA on a fully generational basis for PERS and TRS; RP-2014 Healthy Annuitant on and after 2019, trend starts at 8.0% and 10.0% for
+Ranging from 3.0% investment Mortality Table projected with scale MP-2016 on a fully generational basis for pre and post-Medicare, respectively, and gradually
+to 6.5%, including expense, Trooper A and Trooper B); decreases to an ultimate trend rate of 4.50%. Excess
+inflation including Pre-Retirement: RP–2000 Non-Annuitant Mortality Table projected with Scale AA trend rate of 0.13% and 0.00% for pre and post-
+inflation on a fully generational basis for PERS and TRS; RP-2014 Employee Mortality Table Medicare, respectively, is added to healthcare trend
+projected to 2020 with Scale MP-2016 on a fully generational basis for Trooper A rates pertaining to per capita claims costs beginning in
+and Trooper B 2022 to account for the Excise Tax.
+2017 2.75% Dependent upon 7.15%, net of Post-Retirement: RP–2000 Healthy Annuitant Mortality Table projected with Scale Actual trend used for fiscal year 2017. For fiscal years 2010-2015
+pension system. OPEB plan AA on a fully generational basis for PERS and TRS; RP-2000 Healthy Annuitant on and after 2018, trend starts at 8.5% and 9.75% for
+Ranging from 3.0% investment Mortality Table projected to 2025 with scale BB for Trooper A and Trooper B); pre and post-Medicare, respectively, and gradually
+to 6.5%, including expense, Pre-Retirement: RP–2000 Non-Annuitant Mortality Table projected with Scale AA decreases to an ultimate trend rate of 4.50%. Excess
+inflation including on a fully generational basis for PERS and TRS; RP-2000 Non-Annuitant Mortality trend rate of 0.14% and 0.29% for pre and post-
+inflation Table projected to 2020 with Scale BB for Trooper A and Trooper B Medicare, respectively, is added to healthcare trend
+rates pertaining to per capita claims costs beginning in
+2020 to account for the Excise Tax.
+59
+
+=== page 64 ===
+Independent Auditor’s Report on Internal Control Over Financial
+Reporting and on Compliance and Other Matters Based on an Audit of
+Financial Statements Performed in Accordance With
+Government Auditing Standards
+To the West Virginia Lottery Commission
+Charleston, West Virginia
+We have audited, in accordance with the auditing standards generally accepted in the United States of
+America and the standards applicable to financial audits contained in Government Auditing Standards
+issued by the Comptroller General of the United States, the financial statements of the West Virginia
+Lottery (the Lottery), as of and for the year ended June 30, 2025 and the related notes to the financial
+statements, which collectively comprise the Lottery’s basic financial statements, and have issued our
+report thereon dated September 30, 2025.
+Internal Control over Financial Reporting
+In planning and performing our audit of the financial statements, we considered the Lottery’s internal
+control over financial reporting (internal control) as a basis for designing audit procedures that are
+appropriate in the circumstances for the purpose of expressing our opinion on the financial statements,
+but not for the purpose of expressing an opinion on the effectiveness of the Lottery’s internal control.
+Accordingly, we do not express an opinion on the effectiveness of the Lottery’s internal control.
+A deficiency in internal control exists when the design or operation of a control does not allow
+management or employees, in the normal course of performing their assigned functions, to prevent, or
+detect and correct misstatements on a timely basis. A materialweaknessis a deficiency, or a combination
+of deficiencies, in internal control such that there is a reasonable possibility that a material misstatement
+of the Lottery’s financial statements will not be prevented, or detected and corrected on a timely basis. A
+significant deficiencyis a deficiency, or a combination of deficiencies, in internal control that is less severe
+than a material weakness, yet important enough to merit attention by those charged with governance.
+Our consideration of internal control was for the limited purpose described in the first paragraph of this
+section and was not designed to identify all deficiencies in internal control that might be material
+weaknesses or significant deficiencies. Given these limitations, during our audit we did not identify any
+deficiencies in internal control that we consider to be material weaknesses. However, material
+weaknesses or significant deficiencies may exist that were not identified.
+Report on Compliance and Other Matters
+As part of obtaining reasonable assurance about whether the Lottery’s financial statements are free from
+material misstatement, we performed tests of its compliance with certain provisions of laws, regulations,
+contracts, and grant agreements, noncompliance with which could have a direct and material effect on
+the financial statements. However, providing an opinion on compliance with those provisions was not an
+www.becpas.com
+
+=== page 65 ===
+objective of our audit, and accordingly, we do not express such an opinion. The results of our tests
+disclosed no instances of noncompliance or other matters that are required to be reported under
+Government Auditing Standards.
+Purpose of this Report
+The purpose of this report is solely to describe the scope of our testing of internal control and compliance
+and the results of that testing, and not to provide an opinion on the effectiveness of the entity’s internal
+control or on compliance. This report is an integral part of an audit performed in accordance with
+Government Auditing Standardsin considering the entity’s internal control and compliance. Accordingly,
+this communication is not suitable for any other purpose.
+CERTIFIED PUBLIC ACCOUNTANTS
+Charleston, West Virginia
+September 30, 2025
+61
+
+=== page 66 ===
+Other Financial
+Information
+
+=== page 67 ===
+STATE OF WEST VIRGINIA FORM 7
+DEPARTMENT OF ADMINISTRATION - FINANCE DIVISION
+FINANCIAL ACCOUNTING AND REPORTING SECTION
+GAAP REPORTING FORM - DEPOSITS DISCLOSURE
+Audited Agency West Virginia Lottery - June 30, 2025
+Per GASB Statement 40 the Agency must disclose its deposit policy. The deposit policy must be formally adopted through legal or contractual provisions. Disclosure of any statutory policies are also required. Please provide in the space below the Agency's deposit policy.
+See Note (3)
+2 3A 3B 3C Foreign Currency Risk
+Amount
+Collateralized with
+securities held by the
+pledging financial Collateralized with securities
+institution's trust held by the pledging financial
+Restricted Total department or agent Amount Collateralized with securities held by institution trust department or
+Carrying Carrying Carrying FDIC Insured Collateralized in the government's Uninsured and the pledging financial institution but agency but not in the name of
+Amount Amount Amount Bank Balance Amount Amount name Uncollateralized not in the name of the depositor the depositor Currency Type Maturity Fair Value
+Balances as of June 30, 2025
+Cash with Treasurer
+Per wvOASIS Opening Balance Report 7,207 7,207
+Cash with Municipal Bond Commission 0
+Cash on Hand 0
+Cash in Transit to wvOASIS 0
+Cash with Board of Trustees 0
+Cash in Outside Bank Accounts 1,427 1,427 1,470 250 1,220 1,220
+Cash in Escrow 0
+Certificates of Deposits (Non-Negotiable) 0
+Other: ___________________ 0
+Total 8,634 0 8,634 1,470 250 1,220 1,220 0 0 0 0
+PLEASE SEND COMPLETED FORMS TO:
+State of West Virginia
+Financial Accounting and Reporting Section
+2101 Washington Street East
+Building 17, 3rd Floor
+Charleston, WV 25305
+Telephone Number (304) 558-4083
+Fax Number (304) 558-4084
+See Independent Auditor's Report.
+62
+
+=== page 68 ===
+STATE OF WEST VIRGINIA FORM 8
+DEPARTMENT OF ADMINISTRATION - FINANCE DIVISION
+FINANCIAL ACCOUNTING AND REPORTING SECTION
+GAAP REPORTING FORM - INVESTMENTS DISCLOSURE
+Audited Agency West Virginia Lottery - June 30, 2025
+Per GASB Statement 40 the Agency must disclose its investment policy. The investment policy must be formally adopted through legal or contractual provisions. Disclosure of any statutory policies are also required. Please provide in the space below the Agency's investment policy.
+See Note (3)
+Interest Rate Risk - Segmented Time Distribution
+Reported Reported Fair Value Measurement's Using Credit Ratings Investment Maturities (in years)
+Amount Amount Level 1 Level 2 Level 3 Fair Cost Total Reported Standard & Less More Foreign Currency Risk
+Unrestricted Restricted Value Value Value Poor's Moody's Fitch than 1 1 - 5 6 -10 than 10 Currency Type Maturity Fair Value
+Investments with Investment Mgmt Board (IMB)
+Per wvOASIS Opening Balance Report
+Investment Earnings not Posted to wvOASIS
+As of 6/30/25
+Investments with Board of Treasury Investments (BTI)
+Per Opening Balance Report 172,465 172,465 172,465
+Investment Earnings not Posted to wvOASIS
+As of 6/30/25 625 625 625
+Investments Outside IMB:
+U.S. Treasury Obligations
+U.S. Government Agencies
+Other Government Bonds
+Corporate Bonds
+Corporate Stocks
+Mutual Bond Funds
+Mutual Stock Funds
+Mutual Money Market Funds
+Commercial Paper
+Bank Investment Contract
+Guaranteed Investment Contract
+Repurchase Agreements ****
+State/Local Gov't Securities
+Certificates of Deposit (Negotiable)
+Other Investments (describe):
+Total Outside Investments 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Investments by Fair Value Level
+Debt Securities
+U.S. Treasury securities
+Commercial mortgage-backed securities
+Collateralized debt obligations
+Residential mortgage-backed securities
+Corporate Bonds
+Total Debt Securities 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Equity Securities
+__________________________________
+__________________________________
+Other __________________________
+Total Equity Securities 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Venture Capital Investments
+Direct venture capital - ______________
+Direct venture capital - ______________
+Total Venture Capital Investments 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Private Equity Funds - International
+Total Venture Capital Investments 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Investments Measured at the Net Asset Value (NAV)
+Equity long/short hedge funds
+Event-driven hedge funds
+Global opportunities hedge funds
+Multi-strategy hedge funds
+Real estate funds
+Total Investments Measured at the NAV 0 0 0 0 0 0 0 0 0 0 0 0
+Total Investments Measured at Fair Value 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Investments Derivative Instruments
+Interest Rate Swaps
+Foreign exchange contracts (liabilities)
+Total Investment Derivative Instruments 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+**** MUST COMPLETE THE BELOW INFORMATION IF REPURCHASE AGREEMENTS WERE IDENTIFIED ABOVE:
+Collateral Description Fair Market Credit Rating PLEASE SEND COMPLETED FORMS TO:
+On The Repurchase Value of
+Agreements Collateral Moody's S&P
+State of West Virginia
+Financial Accounting and Reporting Section
+2101 Washington Street East
+Building 17, 3rd Floor
+Charleston, WV 25305
+See Independent Auditor's Report.
+63
+
+=== page 69 ===
+STATE OF WEST VIRGINIA FORM 8A
+DEPARTMENT OF ADMINISTRATION - FINANCE DIVISION
+FINANCIAL ACCOUNTING AND REPORTING SECTION
+GAAP REPORTING FORM - DEPOSITS AND INVESTMENTS RECONCILIATION
+Audited Agency WV Lottery - June 30, 2025
+Reconciliation of cash, cash equivalents and investments as reported in the financial statements
+to the amounts disclosed in the footnote:
+Deposits:
+Cash and cash equivalents as reported on balance sheet $ 181,724
+Less: cash equivalents disclosed as investments (173,090)
+Add: restricted cash and cash equivalents disclosed as deposits -
+Other (describe)
+Carrying amount of deposits as disclosed on Form 7 $ 8,634
+Investments:
+Investments as reported on balance sheet $ -
+Add: restricted investments disclosed as investments
+Add: cash equivalents disclosed as investments 173,090
+Other (describe)
+Reported amount of investments as disclosed on Form 8 $ 173,090
+PLEASE SEND COMPLETED FORMS TO:
+State of West Virginia
+Financial Accounting and Reporting Section
+2101 Washington Street East
+Building 17, 3rd Floor
+Charleston, WV 25305
+Telephone Number: 304-558-4083
+Fax Number: 304-558-4084
+See Independent Auditor's Report.
+64
+
+=== page 70 ===
+WEST VIRGINIA LOTTERY
+DUE TO OTHER FUNDS - PRIMARY GOVERNMENT
+FOR FISCAL YEAR ENDED JUNE 30, 2025
+(Expressed in Thousands)
+FORM 10A
+Payable to Amount Fund
+Amounts reported as accrued nonoperating distributions to the
+State of West Virginia:
+Bureau of Senior Services $ 19,775 5405
+Department of Education-Public Ed 7,081 3951
+Library Commission 3,397 3559
+Division of Tourism 2,100 3067
+Natural Resources 1,163 3267
+Culture and History 950 3534
+Building Commission 999 2252
+School Building Authority 1,800 3963
+School Building Authority 1,764 3514
+Veterans Instant Ticket Fund 31 1338
+Community and Technical College 500 4908
+West Virginia Infrastructure Council 547 3390
+Surplus 97,986 Unappropriated
+Total amounts payable to primary government $ 138,093
+Total amounts payable to primary government per above $ 138,093
+Total amounts payable to component units per Form 11 4,376
+Accrued nonoperating distributions to State of West Virginia $ 142,469 (1)
+(1)Agrees to audited balance sheet
+See Independent Auditor's Report.
+65
+
+=== page 71 ===
+WEST VIRGINIA LOTTERY - DUE FROM/TO OTHER FUNDS - COMPONET UNITS
+FOR FISCAL YEAR ENDED JUNE 30, 2025
+(Expressed in Thousands)
+FORM 11
+Payable to Amount Fund Amount
+5 $ 642 9067 203
+12 3,734 > 9068 439
+4925 895
+4297 1,500
+4185 1,151
+Total $ 4,376 4896 188
+Total amounts payable to component units per above $ 4,376
+Total amounts payable to primary government per Form 10 138,093
+$
+(1)Agrees to audited balance sheet 142,469 (1)
+Note: There were no amounts due from component units as of June 30, 2025
+Component Units
+1.Water Development Auth. 8. Parkways & Economic Dev.,
+2.Solid Waste Management and Tourism Authority
+3.Educational Broadcasting 9. Regional Jail Authority
+4.WV State Rail Authority 10.Racing Commission
+5.Economic Development 11.Public Defenders Corporation
+6.Jobs Investment Trust 12.Higher Education Institutions
+7.Housing Development Fund
+See Independent Auditor's Report.
+66
+
+=== page 72 ===
+WEST VIRGINIA LOTTERY
+TRANSFERS IN/OUT
+FOR FISCAL YEAR ENDED JUNE 30, 2025
+FORM 15
+(Expressed in Thousands)
+WV OASIS WV OASIS
+FUND FROMAgency Transferring From Amount Agency Transferring To FUND TO Amount
+Lottery Fund
+WV Development Office 2252 $ 9,997
+Division of Tourism 3067 7,087
+Division of Natural Resources 3267 3,903
+Division of Culture & History 3534 4,294
+Library Commission 3559 11,514
+Dept. of Educ. - Public Education 3951 48,559
+School Bldg Authority 3963 18,000
+Community and Technical College-Capital Imp 4908 4,992
+Higher Education- Policy Commission 4925 3,031
+Higher Education- Policy Commission 4185 3,867
+Higher Education- Policy Commission 4896 633
+Bureau of Senior Services 5405 83,771
+7202 Traditional Lottery $ 51,934 Fire Protection Fund 7158 6,000
+7203 Racetrack Video Lottery 112,258 County Fire Protection Fund 6007 3,000
+7214 Sports Wagering 4,403 All County Fire Protection Fund 6008 3,000
+7215 Interactive Wagering 43,575 Veterans Instant Ticket Fund 1338 522
+$ 212,170 $ 212,170
+Excess Lottery Fund
+WV Racing Commission 7308 $ 2,800
+State Park Improvement Fund 3277 1,505
+Refundable Credit 7207 9,967
+Higher Education Improvement Fund 4297 15,000
+Economic Development Fund 9065 9,494
+Economic Development Fund 9067 2,028
+Economic Development Fund 9068 4,390
+School Bldg Authority 3514 17,642
+Education Improvement 4295 29,000
+West Virginia Infrastructure Council 3390 46,000
+7203 Racetrack Video Lottery $ 127,460 General Purpose 7206 65,000
+7205 Limited Video Lottery 252,402 WV Lottery Statutory Transfers * 61,271
+7210 Table Games 17,037 Division of Human Services 5365 134,762
+7212 Historic Resort Hotel 1,960 $ 398,859
+$ 398,859
+Grand Total 611,029
+*7213 Pass Through Account Fund Amount
+General Revenue Fund 0614 1,168
+Tourism Promotion Fund 3072 4,808
+Historic Resort Hotel 7212 24
+Development Office Promotion Fund 3171 1,299
+Research Challenge Fund 4931 1,732
+Capitol Renovation & Improvement Fund 2462 2,381
+Parking Garage Fund 2461 216
+Parking Garage Fund 2255 500
+Cultural Facilities & Capitol Resources Fund 3537 1,500
+Capitol Dome & Capitol Improvements Fund 2257 1,796
+State Debt Reduction Fund 7007 20,000
+Non-State Agencies N/A 25,847
+Total Statutory Pass Through Account 61,271
+See Independent Auditor's Report.
+67
