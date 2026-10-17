@@ -227,3 +227,13 @@ def test_uscourts_resolve_accepts_reuploaded_file_suffix():
     html = '<a href="/data-news/data-tables/2018/06/30/bankruptcy-filings/f-2-three-months">x</a><a href="/sites/default/files/bf_f2.3_0630.2018_0.pdf">y</a><a href="/sites/default/files/bf_f2_0630.2018.pdf">z</a>'
     docs = {d.get("measure"): d for d in src.resolve(page, html)}
     assert docs["quarter"].url.endswith("/bf_f2.3_0630.2018_0.pdf") and docs["twelve_months_ending"].url.endswith("/bf_f2_0630.2018.pdf")
+
+
+def test_archive_docs_extension_from_type_url_or_bytes():
+    from wpdc_ingest.archive_docs import extension
+    assert extension("https://x/a.xlsx", "application/octet-stream", b"PK\x03\x04xl/workbook.xml") == "xlsx"
+    assert extension("https://x/report?id=1", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", b"PK") == "xlsx"
+    assert extension("https://x/page?f=1", "text/html; charset=utf-8", b"<!DOCTYPE html>") == "html"
+    assert extension("https://x/r.pdf", "", b"%PDF-1.7") == "pdf"
+    assert extension("https://x/d", "text/csv", b"a,b") == "csv"
+    assert extension("https://x/d", "", b"\x00\x01") == "bin"
