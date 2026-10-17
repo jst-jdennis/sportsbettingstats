@@ -100,9 +100,114 @@ consumer_protections:
     url: https://gaming.wyo.gov/resources/responsible-gaming/self-exclusion
     notes: The Commission's program lets a person commit to refrain from sports wagering and other gambling offered by the Commission and its permittees; applicants may submit a request online or download and file a form. Available durations were not retrieved.
     provenance: *wygc
-  deposit_limits: null
-  advertising: null
-  credit_card_deposits: null
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: false
+    player_set_required_at_signup: false
+    cooling_off_on_increase_hours: null
+    statutory_cap_usd: null
+    authority_citation: Wyoming Gaming Commission Online Sports Wagering Rules, Chapter 6 (sports wagering accounts), Section 12 (responsible gaming limits); see also Chapter 6, Sections 3, 4 and 13
+    notes: >-
+      Account holders may set responsible gaming limits, and deposit limits must be offered on daily, weekly and
+      monthly bases. Any decrease to a limit is effective immediately or at the point in time clearly indicated to
+      the patron; any increase becomes effective only after the previous limit period has expired and the patron
+      reaffirms the change, so the cooling-off period is the remainder of the limit period rather than a fixed
+      number of hours. Section 4 requires a Commission-approved patron protection page listing available measures
+      such as self-imposed limits and how to invoke them; Section 13 lets a patron suspend an account for at least
+      72 hours. The excerpts show no default limit and no requirement to set a limit at registration. Quoted from a
+      search excerpt of a mirror of the cited rule; the official page itself could not be opened from the drafting
+      environment.
+    provenance:
+      <<: *wygc
+      source_url: https://gaming.wyo.gov/rules-and-regs
+      archive_url: sha256:3b86f7f49c3d21498fca9a2566a7678d12fd5de9f2fefe29df793d75873e396b
+      retrieved_at: "2026-10-17"
+      entered_by: claude-draft-2026-10-17
+      page_or_table: Online Sports Wagering Rules, Chapter 6, Section 12
+      notes: >-
+        Checked on 2026-10-17 against the archived Cornell LII copy of the section (sha256 99bf89e69d4f): 038-6 Wyo. Code R. section 6-12: deposit, wager and time limits on a daily, weekly and monthly basis, with an increase effective only after the period expires and the player reaffirms it; the regulator's own document could not be fetched.
+        The Commission's rules page lists the Online Sports Wagering chapters and refers readers to the Secretary of
+        State for the current text. The operative language (deposit limits offered on a daily, weekly and monthly
+        basis; any decrease to these limits shall be effective immediately or at the point in time clearly indicated
+        to the patron; any increase effective only after the prior period ends and the patron reaffirms the change)
+        was quoted from search excerpts of the Cornell LII and Justia mirrors of Wyoming Administrative Code agency
+        038, sub-agency 0002, Chapter 6, Section 12
+        (https://www.law.cornell.edu/regulations/wyoming/038-6-Wyo-Code-R-SSSS-6-12 and
+        https://regulations.justia.com/states/wyoming/agency-038/sub-agency-0002/chapter-6/section-6-12). Neither the
+        official page nor the mirrors could be opened from the drafting environment; the Justia copy is current
+        through 2024-09-21 and Chapter 6 was listed for final adoption at a 2024 Commission meeting, so confirm
+        against the adopted text.
+  advertising:
+    - rule_type: other
+      text: >-
+        The Commission shall prohibit sports wagering advertising that it determines to be deceptive to the public.
+      authority_citation: Wyoming Gaming Commission Online Sports Wagering Rules, Chapter 8 (responsible gaming), Section 5 (advertising)
+      provenance:
+        <<: *wygc
+        source_url: https://gaming.wyo.gov/rules-and-regs
+        archive_url: sha256:3b86f7f49c3d21498fca9a2566a7678d12fd5de9f2fefe29df793d75873e396b
+        retrieved_at: "2026-10-17"
+        entered_by: claude-draft-2026-10-17
+        page_or_table: Online Sports Wagering Rules, Chapter 8, Section 5
+        notes: >-
+          Archiving on 2026-10-17 did not yield the section text: the Chapter 8 rule text could not be fetched (the mirror returned 403 and the Commission rules page carries only links); the clause rests on the search excerpt.
+          Operative language quoted from search excerpts of the Cornell LII and Justia mirrors of Wyoming
+          Administrative Code agency 038, sub-agency 0002, Chapter 8, Section 5
+          (https://www.law.cornell.edu/regulations/wyoming/agency-038/subagency-0002/chapter-8/038-8-Wyo-Code-R-SSSS-8-5
+          and https://regulations.justia.com/states/wyoming/agency-038/sub-agency-0002/chapter-8/section-8-5/): the
+          Commission shall prohibit sports wagering advertising that it determines to be deceptive to the public.
+          The official page could not be opened from the drafting environment. The Commission's directives page also
+          lists a Responsible Marketing Code for Sports Wagering whose text was not retrieved.
+    - rule_type: responsible_gambling_message_required
+      text: >-
+        Every form of advertising must contain a statement that minors are not allowed to open or have access to
+        sports wagering accounts, together with information on programs to prevent, treat or monitor compulsive or
+        problem gambling and on self-exclusion procedures.
+      authority_citation: Wyoming Gaming Commission Online Sports Wagering Rules, Chapter 8 (responsible gaming), Section 5 (advertising)
+      provenance:
+        <<: *wygc
+        source_url: https://gaming.wyo.gov/rules-and-regs
+        archive_url: sha256:3b86f7f49c3d21498fca9a2566a7678d12fd5de9f2fefe29df793d75873e396b
+        retrieved_at: "2026-10-17"
+        entered_by: claude-draft-2026-10-17
+        page_or_table: Online Sports Wagering Rules, Chapter 8, Section 5
+        notes: >-
+          Archiving on 2026-10-17 did not yield the section text: the Chapter 8 rule text could not be fetched (the mirror returned 403 and the Commission rules page carries only links); the clause rests on the search excerpt.
+          Operative language quoted from search excerpts of the Cornell LII and Justia mirrors of Chapter 8, Section
+          5 (URLs as on the preceding row): the Commission shall also require that every form of advertising contain
+          a statement that minors are not allowed to open or have access to sports wagering accounts, plus
+          information on compulsive or problem gambling programs and self-exclusion procedures. The rule names no
+          helpline number in the excerpt, so no helpline_message record is made. Section 1 of the same chapter
+          requires a Responsible Gaming Plan covering promotional materials about problem gambling and treatment
+          resources and procedures to prevent underage gambling. The official page could not be opened from the
+          drafting environment.
+  credit_card_deposits:
+    allowed: true
+    authority_citation: Wyoming Gaming Commission Online Sports Wagering Rules, Chapter 6 (sports wagering accounts), Section 7 (approved funding methods, which list credit and debit cards); W.S. 9-24-101 (cash equivalent includes credit cards and debit cards)
+    notes: >-
+      Permitted by the funding methods list: a patron's sports wagering account may be funded using approved methods
+      that produce a sufficient audit trail for verification of the source of the wagers, and the list includes
+      credit and debit cards, electronic payment systems, prepaid instruments and other methods; for card and
+      electronic funds transfer deposits the patron may be charged fees that are deducted from the account. The
+      enrolled 2021 act (HB 133) defines cash equivalent to include credit cards and debit cards. No prohibition on
+      credit card funding was found in the excerpts. Quoted from a search excerpt of a mirror of the cited rule; the
+      official page itself could not be opened from the drafting environment.
+    provenance:
+      <<: *wygc
+      source_url: https://gaming.wyo.gov/rules-and-regs
+      archive_url: sha256:3b86f7f49c3d21498fca9a2566a7678d12fd5de9f2fefe29df793d75873e396b
+      retrieved_at: "2026-10-17"
+      entered_by: claude-draft-2026-10-17
+      page_or_table: Online Sports Wagering Rules, Chapter 6, Section 7
+      notes: >-
+        Archiving on 2026-10-17 confirmed the section in part: the enrolled 2021 HB 133 lists credit cards and debit cards among cash equivalents; the Chapter 6 Section 7 rule text itself could not be fetched (the mirror returned 403 and the Commission rules page carries only links).
+        Operative language quoted from a search excerpt of the Justia mirror of Wyoming Administrative Code agency
+        038, sub-agency 0002, Chapter 6, Section 7
+        (https://regulations.justia.com/states/wyoming/agency-038/sub-agency-0002/chapter-6/section-6-7): a patron's
+        sports wagering account may be funded using approved methods which shall produce a sufficient audit trail for
+        verification of the source of the wagers, with credit and debit cards among the listed methods. The statutory
+        definition comes from the excerpt of the enrolled act at https://www.wyoleg.gov/2021/Enroll/HB0133.pdf. The
+        official page could not be opened from the drafting environment; confirm against the adopted Chapter 6 text.
   helpline_message: null
 limitations:
   - Wyoming's taxable revenue excludes promotional play without a cap, so its reported revenue and tax series are not comparable with states that tax gross revenue.

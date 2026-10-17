@@ -2226,3 +2226,14 @@ sources:
   reliability_notes: Monthly reports and matching csv files by master sports wagering licensee with handle (total wagers), adjusted gross sports wagering receipts and tax, split by retail and online; revenue is due to the Board on the last day of the following month, so the series lags two months. Added 2026-10-17 for the Phase 6 revenue series.
   tier: primary
   fips: '17'
+- source_id: wv-sos-csr
+  publisher: West Virginia Secretary of State, Code of State Rules
+  publisher_type: state_agency
+  title: West Virginia Code of State Rules, Title 179 (West Virginia Lottery legislative rules, including the Sports Wagering Rule 179 CSR 9 and the Interactive Wagering Rule 179 CSR 10)
+  url: https://apps.sos.wv.gov/adlaw/csr/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added 2026-10-17 for the consumer protection records. The Secretary of State's rule pages list each rule's effective versions (the Sports Wagering Rule version effective 2025-04-30 is listed as active) and serve the filed text as PDF; archive the version cited, because the rule is re-filed after legislative authorization.
+  tier: primary
+  fips: '54'

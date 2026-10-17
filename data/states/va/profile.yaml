@@ -101,7 +101,34 @@ consumer_protections:
     provenance:
       <<: *valot
       notes: Durations, scope and enrollment methods as stated on the Lottery's program page. Statutory basis is Va. Code 58.1-4015.1.
-  deposit_limits: null
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: false
+    player_set_required_at_signup: false
+    cooling_off_on_increase_hours: null
+    statutory_cap_usd: null
+    authority_citation: 11VAC5-80-120 (sports betting consumer protection program)
+    notes: >-
+      A permit holder shall honor requests from a sports bettor to self-exclude from all sports betting activities for
+      a period of at least 72 hours, to set deposit limits, to set limits on the sports bettor's total betting
+      activity, or to limit participation to bets below an established limit, and must offer these self-imposed limits
+      on each sports betting platform the bettor uses to make deposits into a segregated account. A bettor may make a
+      limit more restrictive at any time but shall not have the option to make it less restrictive until the prior
+      restriction has expired; the rule states no fixed number of hours, so cooling_off_on_increase_hours is null.
+      No default limit and no requirement to set a limit at registration appear in the excerpt.
+    provenance:
+      <<: *valeg
+      source_url: https://law.lis.virginia.gov/admincode/title11/agency5/chapter80/section120/
+      archive_url: sha256:a770427a3ed411747b06185444d8ef9ae84cbc5454a11e9862247236ddd921a2
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      page_or_table: 11VAC5-80-120
+      notes: >-
+        Archived copy checked on 2026-10-17: 11VAC5-80-120 A and B: requests to set deposit limits must be honored; a limit may be made more restrictive at any time and less restrictive only after the prior restriction has expired.
+        Operative language quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting environment. The deposit limit rule sits in the consumer
+        protection chapter (11VAC5-80) rather than in 11VAC5-70; the 11VAC5-70-260 house rules excerpt only requires
+        rules on permissible methods of funding a wager.
   advertising:
     - rule_type: no_under_age_targeting
       text: Advertising, marketing and promotional materials may not target persons under 21, may not use imagery, endorsements or language designed to appeal to persons under 21, may not feature anyone who is or appears to be under 21 (except professional athletes who are minors), and may not be placed in media outlets that appeal primarily to persons under 21.
@@ -115,7 +142,29 @@ consumer_protections:
       provenance:
         <<: *valeg
         source_url: https://law.lis.virginia.gov/vacode/title58.1/chapter40/section58.1-4034/
-  credit_card_deposits: null
+  credit_card_deposits:
+    allowed: false
+    authority_citation: Va. Code 58.1-4031 and 58.1-4034, as amended by 2026 Acts c. 926 (HB 515), effective 2026-07-01
+    notes: >-
+      As amended in 2026, Va. Code 58.1-4031 directs the Director of the Virginia Lottery to approve methods for
+      sports bettors to fund sports betting accounts, including automated clearinghouse payments, debit cards and wire
+      transfers, but provides that the Director shall not approve credit cards; the companion amendment to 58.1-4034
+      requires a permit holder to take reasonable measures to prohibit the acceptance of credit cards to fund sports
+      betting accounts on its platform. Before 2026-07-01 no statute or regulation prohibited credit card funding.
+    provenance:
+      <<: *valeg
+      source_url: https://law.lis.virginia.gov/vacode/title58.1/chapter40/section58.1-4031/
+      archive_url: sha256:adcdd25442f6b4e279e357c3b049c4f25db3717f2f473bb2b8feade5faf438b2
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      page_or_table: Va. Code 58.1-4031; history note 2026, c. 926
+      notes: >-
+        Archived copy checked on 2026-10-17: 58.1-4031 as amended by 2026 c. 926 says the Director shall not approve credit cards as a funding method, and 58.1-4034 requires a permit holder to take reasonable measures to prohibit their acceptance.
+        Operative language quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting environment. The permit holder duty is from the search
+        excerpt of https://law.lis.virginia.gov/vacodeupdates/title58.1/section58.1-4034/; the 2026-07-01 effective
+        date is the standard effective date for 2026 Regular Session acts and was reported in the bill tracking
+        excerpts, not read from the chapter text.
   helpline_message: null
 limitations:
   - Virginia reports adjusted gross revenue after promotional and other deductions, which is not comparable with gross revenue series such as New Jersey's. The deduction rule changed in 2022, so taxable revenue series before and after that date are not on the same basis.

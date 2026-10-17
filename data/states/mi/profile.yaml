@@ -122,8 +122,56 @@ consumer_protections:
       <<: *mireg
       source_url: https://www.michigan.gov/mgcb/news/2026/10/08/mgcb-issues-33-cease-and-desist-letters
   advertising: null
-  credit_card_deposits: null
-  helpline_message: null
+  credit_card_deposits:
+    allowed: true
+    authority_citation: MCL 432.410(1)(e) (Lawful Sports Betting Act; Board rules must permit funding by, at a minimum, cash, cash equivalents, automated clearing house, debit cards and credit cards); Mich. Admin. Code R 432.755a (internet sports betting account funding methods)
+    notes: >-
+      The statute directs the Board's rules to set out the ways in which an authorized participant may fund an
+      internet sports betting account, "that must include, at a minimum, the use of cash, cash equivalents, automated
+      clearing house, debit cards, credit cards, and any other form of payment authorized by the board." The Board's
+      internet sports betting rules (R 432.755a) list the participant's credit or debit card first among permitted
+      funding methods; only the JCAR draft text of that rule was returned by search, so confirm the adopted wording.
+      Recorded as allowed because the statute and the funding methods list permit it and nothing prohibits it. Quoted
+      from a search excerpt of the cited page; the page itself could not be opened from the drafting environment.
+    provenance:
+      <<: *mileg
+      source_url: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-432-410
+      archive_url: sha256:6a6aa3acc3327c6533af9def8310649d083b0e09dcacb385db43842776a265d2
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      page_or_table: MCL 432.410(1)(e)
+      notes: >-
+        Archived copy checked on 2026-10-17: MCL 432.410(1)(e): board rules must permit funding by at minimum cash, cash equivalents, automated clearing house, debit cards and credit cards.
+        Excerpt language: "The ways in which an authorized participant may fund his or her internet sports betting
+        account, that must include, at a minimum, the use of cash, cash equivalents, automated clearing house, debit
+        cards, credit cards, and any other form of payment authorized by the board." Rule R 432.755a seen in the JCAR
+        draft of the Internet Sports Betting Rules (2020-009 TY) at
+        https://council.legislature.mi.gov/JCAR/File?path=%2FJCARFiles%2F2020+Documents+Received%2FDraft+Proposed+Rules%2F2020-009+TY+Internet+Sports+Betting+Rules+DraftRuleVersion_5.doc.htm
+        ("An authorized participant's internet sports betting account may be funded through the use of any of the
+        following", first item credit or debit card). Quoted from search excerpts of the cited pages; the pages
+        themselves could not be opened from the drafting environment.
+  helpline_message:
+    required: true
+    required_number: null
+    authority_citation: Lawful Sports Betting Act, MCL 432.412 (responsible gaming provisions; section number per the Legislature's index of Act 149 of 2019, subsection not confirmed). The duty is to display the hotline number on the internet sports betting platform; no adopted rule requiring it in advertisements was located
+    provenance:
+      <<: *mileg
+      source_url: https://www.legislature.mi.gov/documents/2019-2020/publicact/htm/2019-PA-0149.htm
+      archive_url: sha256:3b87999581c872b89068a08a6a0622de1184854425b0172bfee1a042ac0b5ea3
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      page_or_table: MCL 432.412
+      notes: >-
+        Archived copy checked on 2026-10-17: 2019 PA 149 requires the operator to display on the platform, in a clear, conspicuous and accessible manner, the number of the toll-free compulsive gambling hotline maintained by the state.
+        Excerpt language: "A sports betting operator shall display or require its internet sports betting platform
+        provider to display, on the internet sports betting platform used by the sports betting operator, in a clear,
+        conspicuous, and accessible manner the number of the toll-free compulsive gambling hotline." The statute names
+        no number; the Board's responsible gaming materials use 1-800-GAMBLER and the Michigan Lottery page lists
+        800-270-7117. Senate Bill 714 (2025-2026), which would require a helpline disclaimer in advertisements, is an
+        introduced bill and not law. Quoted from a search excerpt of the cited page; the page itself could not be
+        opened from the drafting environment.
 limitations:
   - Michigan reports adjusted gross sports betting receipts after an uncapped free play deduction, so reported revenue is materially below gross revenue and below the figures of states such as New Jersey or Massachusetts.
   - Tribal operators report internet sports betting through the Board but their retail wagering is governed by compacts and is not in the state series.

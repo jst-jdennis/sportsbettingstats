@@ -109,7 +109,40 @@ consumer_protections:
       <<: *igc
       source_url: https://www.in.gov/igc/files/sportswagering/Sports-Wagering-FAQs.pdf
       notes: FAQs last updated 2024-03-26 per the document header.
-  deposit_limits: null
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: false
+    player_set_required_at_signup: false
+    cooling_off_on_increase_hours: 24
+    statutory_cap_usd: null
+    authority_citation: 68 IAC 27-12-3 (sports wagering accounts; self-imposed limitations)
+    notes: >-
+      Patrons must be provided with an easy and obvious method to impose limitations for wagering parameters,
+      including deposits, wagers and time-based limitations; limits take effect immediately or at the time indicated
+      to the patron; more restrictive operator-imposed limits take priority; once implemented, the severity of a
+      self-imposed limit may be reduced only upon twenty-four hour notice, or as required by the Commission, which is
+      recorded as cooling_off_on_increase_hours 24. No default limit is imposed and no limit must be chosen at
+      registration. The Commission's sports wagering FAQs (updated 2024-03-26) add that daily, weekly or monthly
+      deposit limits may be set, decreases take effect immediately and increases apply after the current period ends.
+      Quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting
+      environment.
+    provenance:
+      <<: *igc
+      source_url: https://www.in.gov/igc/files/sportswagering/Rules-for-Sports-Wagering.PDF
+      archive_url: sha256:dd4dcd77a1c0889cc6a29cebedfc7b48af5a34559baa3f2baae8dc27beba87a6
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      page_or_table: 68 IAC 27-12-3
+      notes: >-
+        Archiving on 2026-10-17 confirmed the section in part: 68 IAC 27-12 is in the archived Commission compilation of the sports wagering rules; the 24 hour notice wording was not matched in the extracted text, so the figure rests on the search excerpt.
+        Excerpt language: "Patrons must be provided with an easy and obvious method to impose limitations for wagering
+        parameters, including, but not limited to, deposits, wagers, time-based limitations"; "it must only be possible
+        to reduce the severity of self-imposed limitations upon twenty-four (24) hour notice, or as required by the
+        commission"; "The self-imposed limitations set by a patron must not override more restrictive operator imposed
+        limitations. The more restrictive limitations must take priority." Quoted from a search excerpt of the cited
+        page; the page itself could not be opened from the drafting environment. The PDF is the Commission's copy of
+        the 2021 final rule (LSA #20-420); the codified text at iar.iga.in.gov was not returned by search.
   advertising:
     - rule_type: other
       text: Sports wagering advertising must state that patrons must be at least twenty-one years of age to wager.
@@ -118,7 +151,33 @@ consumer_protections:
         <<: *igc
         source_url: https://www.in.gov/igc/files/sportswagering/Rules-for-Sports-Wagering.PDF
         notes: Rule subsection number to be cited when the PDF is read in full. Helpline message requirements were not confirmed and are left null.
-  credit_card_deposits: null
+  credit_card_deposits:
+    allowed: true
+    authority_citation: 68 IAC 27-12-5 (sports wagering account funding methods include a credit or debit card); 68 IAC 27-7-6 (payment for a wager by credit or debit card only through a sports wagering account)
+    notes: >-
+      The rule lists the methods by which a sports wagering account may be funded, beginning with a credit or debit
+      card and including cash or vouchers at an approved cashiering location, a verified reloadable prepaid card,
+      promotional credit, winnings, documented operator adjustments, ACH transfer, wire transfer or another method
+      approved by the Commission; a patron may pay for a wager by credit or debit card only if the patron holds a
+      sports wagering account with the operator. No Indiana statute or rule located by search prohibits credit card
+      funding, so allowed is recorded as true because the funding methods list permits it. Quoted from a search
+      excerpt of the cited page; the page itself could not be opened from the drafting environment.
+    provenance:
+      <<: *igc
+      source_url: https://www.in.gov/igc/files/sportswagering/Rules-for-Sports-Wagering.PDF
+      archive_url: sha256:dd4dcd77a1c0889cc6a29cebedfc7b48af5a34559baa3f2baae8dc27beba87a6
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      page_or_table: 68 IAC 27-12-5 and 68 IAC 27-7-6
+      notes: >-
+        Archived copy checked on 2026-10-17: 68 IAC 27-12-5: a patron's account may be funded through a patron's credit or debit card.
+        Excerpt summary of 68 IAC 27-12-5: an account may be funded by a credit or debit card, cash or vouchers at an
+        approved cashiering location, a verified reloadable prepaid card, promotional credit, winnings, documented
+        operator adjustments, ACH transfer, wire transfer, or another method the commission approves; 68 IAC 27-7-6:
+        a patron may pay for a wager by credit or debit card only if the patron has a sports wagering account. Quoted
+        from a search excerpt of the cited page; the page itself could not be opened from the drafting environment.
+        Emergency versions (LSA #20-76, #20-283, #21-36(E)) carry the same funding list.
   helpline_message: null
 limitations:
   - Indiana's adjusted gross receipts deduct winnings and a capped allowance for uncollectible receivables but not promotional credits, so taxable revenue is close to gross revenue and not comparable to states that deduct promotions.

@@ -100,7 +100,48 @@ consumer_protections:
       <<: *vtdll
       source_url: https://liquorandlottery.vermont.gov/exclusion-list
       notes: Durations and enrollment method as stated on the Department's exclusion list page.
-  deposit_limits: null
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: false
+    player_set_required_at_signup: false
+    cooling_off_on_increase_hours: null
+    statutory_cap_usd: null
+    authority_citation: 31 V.S.A. chapter 25 (Act 63 of 2023), operator platform requirements subsection (shown as section 1302(d) in the enacted act; confirm the codified section number); State of Vermont Sports Wagering Procedures (Department of Liquor and Lottery), responsible gaming section
+    notes: >-
+      The statute requires the Department to ensure that each operator's mobile platform allows a person to limit the
+      amount of money that may be deposited into an account and spent per day through an account, and separately
+      requires daily, weekly and monthly wager limits consistent with best practices in addressing problem gambling.
+      The Department's Sports Wagering Procedures (July 19, 2023, and the enhanced procedures adopted May 13, 2026)
+      require each sportsbook to allow a player to limit the amount deposited into and spent through an account; the
+      2023 procedures offered deposit limits on a daily, weekly and monthly basis. The 2026 procedures add a lifetime
+      deposit threshold of 2,500 dollars at which wagering stops until the player acknowledges the threshold and may
+      set limits or close the account; that is an acknowledgment, not a default limit, so mandatory_default is false.
+      No rule read makes the player set a limit at signup, and no fixed cooling-off period for an increase was shown
+      in the excerpts. Quoted from search excerpts of the cited pages; the pages themselves could not be opened from
+      the drafting environment.
+    provenance:
+      <<: *vtleg
+      source_url: https://legislature.vermont.gov/statutes/fullchapter/31/025
+      archive_url: sha256:a42615cf5afcde2507e6c0a7718e878b50e1608123bacfca6613688577f69d4e
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      page_or_table: 31 V.S.A. chapter 25, operator platform requirements (section 1302(d) in Act 63 as enacted)
+      notes: >-
+        Archived copy checked on 2026-10-17: 31 V.S.A. chapter 25 requires wager limits for daily, weekly and monthly amounts consistent with best practices in addressing problem gambling.
+        Quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting
+        environment. Excerpt: "The Department shall ensure that each operator utilizes a mobile sports wagering
+        platform that: (1) prohibits an individual from establishing more than one account; (2) prohibits an
+        individual from using a credit card to establish an account or place wagers; (3) allows a person to limit the
+        amount of money that may be deposited into an account and spent per day through an account". The same text
+        appears in Act 63 as enacted at
+        https://legislature.vermont.gov/Documents/2024/Docs/ACTS/ACT063/ACT063%20As%20Enacted.pdf. The Department's
+        procedures are at
+        https://liquorandlottery.vermont.gov/sites/liqlot/files/documents/VT%20Sports%20Wagering%20Procedures%2007-19-23.pdf
+        (2023) and
+        https://liquorandlottery.vermont.gov/sites/liqlot/files/documents/Enhanced%20Procedures%20as%20Adopted%20on%205.13.26.pdf
+        (2026), whose excerpt reads "a Sportsbook shall allow a player to limit the amount of money that may be
+        deposited into an account and spent through an account".
   advertising:
     - rule_type: no_under_age_targeting
       text: Sports wagering advertisements, logos, trademarks or brands may not be used on products sold in Vermont that are aimed primarily at persons under 21, and operators must file an advertising plan with the Department.

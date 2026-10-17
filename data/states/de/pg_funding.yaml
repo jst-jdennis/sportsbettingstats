@@ -18,17 +18,19 @@ records:
   authority_citation: Del. Code tit. 29, 4815(b) (distribution of video lottery and table game proceeds)
   provenance:
     source_id: de-legislature
-    source_url: https://delcode.delaware.gov/title29/c048/index.html
-    archive_url: null
+    source_url: https://delcode.delaware.gov/title29/c048/sc01/index.html
+    archive_url: sha256:ead3e030a31f8ef47c0a0b6b4bc72cdece88a76f0ca5d3db18c7c044a3d4dbdd
     retrieved_at: '2026-10-17'
     retrieval_method: html_table
     transform: null
     entered_by: claude-draft-2026-10-17
     reviewed_by: null
     status: pending_review
-    page_or_table: Title 29, Chapter 48, Section 4815(b)
-    notes: 'The Delaware Code page could not be opened from this container and the web search budget ran out before the subsection
-      could be confirmed, so the exact paragraph within 4815(b) is unverified. The operative language was quoted in a search
+    page_or_table: Del. Code tit. 29, 4815(b)(3) (video lottery proceeds) and the table game proceeds paragraph of 4815(b)
+    notes: 'Archived copy checked on 2026-10-17: 4815(b)(3) directs, of the proceeds returned to the State under that paragraph,
+      "$250,000 or 1%, whichever is greater" to the Division of Substance Abuse and Mental Health for funding programs for
+      the treatment, education and assistance of compulsive gamblers and their families, and the table game proceeds paragraph
+      makes the same direction "to be used exclusively" for those programs. The operative language was quoted in a search
       excerpt of a secondary compilation of state statutes (not cited): after administrative and law enforcement costs, "$250,000
       or 1%, whichever is greater, of the proceeds returned to the State under this paragraph" goes to the Division of Substance
       Abuse and Mental Health. The Delaware Council on Gambling Problems states on its own site that the 1994 video lottery
