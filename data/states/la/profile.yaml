@@ -154,7 +154,38 @@ consumer_protections:
     provenance:
       <<: *lareg
       source_url: https://lgcb.dps.louisiana.gov/media/marptxjv/requestforselfexclusion.pdf?d=85042
-  deposit_limits: null
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: false
+    player_set_required_at_signup: false
+    cooling_off_on_increase_hours: 72
+    statutory_cap_usd: null
+    authority_citation: LAC 42:VI.515 (protection for problem or compulsive gamblers, self-imposed limits)
+    notes: >-
+      LAC 42:VI.515 requires operators to implement and maintain procedures that allow players to limit themselves
+      from placing a sports wager for a set period of time, from paying more than a certain amount of money for a
+      sports wager, and from depositing more than a set amount of funds into their sports wagering account. Players
+      may adjust the self-limits to be more restrictive as often as they choose but may not make the time period or
+      limits less restrictive within 72 hours of setting them. The same section provides an online self-restriction
+      period of at least 30 days, distinct from the state self-exclusion list. No default limit and no requirement to
+      choose a limit at registration appear in the excerpt. The parallel Lottery sports wagering rule, LAC 42:XV.1145,
+      carries the same language.
+    provenance:
+      <<: *lareg
+      source_url: https://lgcb.dps.louisiana.gov/media/p5fhudbe/20220120-emergency-rulelgcblouisiana-sports-wageringclear-copy.pdf
+      archive_url: https://web.archive.org/web/20251225205402/https://lgcb.dps.louisiana.gov/media/p5fhudbe/20220120-emergency-rulelgcblouisiana-sports-wageringclear-copy.pdf
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      page_or_table: LAC 42:VI.515
+      notes: >-
+        Archiving on 2026-10-17 confirmed the section in part: the archived emergency rule contains the self-limit program language (patrons may self-limit access to functions and amenities of the sports wagering platform); the 72 hour and 30 day clauses were not located in the extracted two-column text.
+        Operative language quoted from a search excerpt of the Louisiana Administrative Code text of 42:VI.515; the
+        excerpt was served from the code reprint at
+        https://regulations.justia.com/states/louisiana/title-42/part-vi/chapter-5/section-vi-515/ (current through
+        September 2024). The cited document is the Board's own published sports wagering rule and was returned by the
+        same searches, but it could not be opened from the drafting environment, so the maintainer should confirm
+        the clause and the section number against it or the Office of the State Register's Title 42.
   advertising:
     - rule_type: no_under_age_targeting
       text: Licensees and operators must ensure that sports wagering advertisements do not target prohibited players, persons under 21, or self-restricted or excluded persons, and must not send marketing to self-restricted or self-excluded persons during their exclusion period.

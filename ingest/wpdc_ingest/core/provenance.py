@@ -10,7 +10,9 @@ def block(source_id: str, raw: RawDocument, *, method: str, entered_by: str, pag
     return {
         "source_id": source_id,
         "source_url": raw.doc.url,
-        "archive_url": raw.archive_url,
+        # A Wayback capture when one was obtained; otherwise the content hash of the archived document, so
+        # every row carries a fingerprint of what was parsed.
+        "archive_url": raw.archive_url or f"sha256:{raw.sha256}",
         "retrieved_at": raw.retrieved_at.isoformat(),
         "retrieval_method": method,
         "transform": transform,

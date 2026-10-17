@@ -102,9 +102,103 @@ consumer_protections:
       <<: *wvleg
       source_url: https://code.wvlegislature.gov/29-22D-15/
       notes: 2024 HB 4700 amended 29-22D-15 and directed the Lottery Commission to propose a legislative rule on patron exclusion and complaint procedures.
-  deposit_limits: null
-  advertising: null
-  credit_card_deposits: null
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: false
+    player_set_required_at_signup: false
+    cooling_off_on_increase_hours: null
+    statutory_cap_usd: null
+    authority_citation: 179 CSR 9, section 13.4.4 (mobile applications and other digital platforms must have rules governing self-imposed responsible gaming limits and the ability for the patron to establish those limits); compare 179 CSR 10, section 6.22 (interactive wagering deposit, spend and time limits on a daily, weekly and monthly basis)
+    notes: >-
+      The sports wagering rule requires online sports pool sites and apps to carry rules governing self-imposed
+      responsible gaming limits and the ability for the patron to establish those limits; it does not, in the
+      excerpt, specify limit periods, a default limit, a limit at registration or a cooling-off period. The
+      Lottery's separate interactive wagering rule (179 CSR 10, section 6.22) requires deposit and spend limits on a
+      daily, weekly and monthly basis and a daily time limit, with decreases effective no later than the next login
+      and increases effective only after the previous limit period expires; that rule governs interactive casino
+      wagering, not sports wagering, and is noted for comparison only. Quoted from a search excerpt of a mirror of
+      the cited rule; the official page itself could not be opened from the drafting environment.
+    provenance:
+      source_id: wv-sos-csr
+      source_url: https://apps.sos.wv.gov/adlaw/csr/rule.aspx?rule=179-09
+      archive_url: sha256:fdc4344ae40c1bcf3142c8c7c5805c569575c211a6b14fa7259414cc2f01ada8
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-17
+      reviewed_by: null
+      status: pending_review
+      page_or_table: 179 CSR 9, section 13.4.4
+      notes: >-
+        Checked on 2026-10-17 against the archived Cornell LII copy of the section (sha256 3d0eb4c4d70f): 179 CSR 9 section 13.4.4: rules governing self-imposed responsible gaming limits and the ability for the patron to establish those limits; the regulator's own document could not be fetched.
+        The Secretary of State's Code of State Rules page lists the Sports Wagering Rule version effective 2025-04-30
+        as active. The operative language (online sports pool sites and apps must have rules governing self-imposed
+        responsible gaming limits and the ability for the patron to establish those limits) was quoted from a search
+        excerpt of the Cornell LII mirror of section 179-9-13
+        (https://www.law.cornell.edu/regulations/west-virginia/W-Va-C-S-R-SS-179-9-13); the interactive wagering
+        comparison comes from the LII mirror of 179-10-6
+        (https://www.law.cornell.edu/regulations/west-virginia/W-Va-C-S-R-SS-179-10-6). Neither the official page nor
+        the mirror could be opened from the drafting environment; confirm against the 2025-04-30 rule text.
+  advertising:
+    - rule_type: other
+      text: >-
+        The Director shall approve all advertising of sports wagering systems in advance of a sports pool operator,
+        its sports pool intermediaries, its agents or its affiliates publishing or otherwise releasing such
+        advertisements; further requirements are defined by the Commission in its minimum internal control
+        standards. The Commission may cap the amount or percentage of revenue used for promotional credits, set
+        quarterly by Commission order, and any excess promotional credit must be accounted for as taxable revenue.
+      authority_citation: 179 CSR 9, section 21 (advertising), subsections 21.1 and 21.2
+      provenance:
+        source_id: wv-sos-csr
+        source_url: https://apps.sos.wv.gov/adlaw/csr/rule.aspx?rule=179-09
+        archive_url: sha256:fdc4344ae40c1bcf3142c8c7c5805c569575c211a6b14fa7259414cc2f01ada8
+        retrieved_at: "2026-10-17"
+        retrieval_method: manual_entry
+        transform: null
+        entered_by: claude-draft-2026-10-17
+        reviewed_by: null
+        status: pending_review
+        page_or_table: 179 CSR 9, section 21
+        notes: >-
+          Checked on 2026-10-17 against the archived Cornell LII copy of the section (sha256 9f96a9fbd68e): 179 CSR 9 section 21 (Advertising) is in the archived copy; the regulator's own document could not be fetched.
+          Operative language quoted from a search excerpt of the Cornell LII mirror of section 179-9-21
+          (https://www.law.cornell.edu/regulations/west-virginia/W-Va-C-S-R-SS-179-9-21): the Director shall approve
+          all advertising of sports wagering systems in advance of a sports pool operator, its sports pool
+          intermediaries, its agents, or its affiliates publishing or otherwise releasing such advertisements; further
+          requirements shall be defined by the Commission in its MICS; any excess promotional credit offered must be
+          accounted for as taxable revenue, with the amount set quarterly by Commission Order. The official page
+          could not be opened from the drafting environment. The excerpt shows no under-age, college, risk-free or
+          helpline rule in section 21; W. Va. Code 29-22D-4 authorizes (but in the excerpt does not itself require)
+          rules placing the 1-800-GAMBLER statement in every designated sports wagering area and on mobile platforms,
+          so no helpline_message record is made here.
+  credit_card_deposits:
+    allowed: true
+    authority_citation: 179 CSR 9, section 14 (sports wagering accounts; a patron's sports wagering account for online sports pools may be funded through a patron's credit or debit card, among other listed methods)
+    notes: >-
+      Permitted by the funding methods list: the rule provides that a patron's sports wagering account for online
+      sports pools may be funded through a patron's deposit account established for sports wagering under 179 CSR
+      8-121, a patron's credit or debit card, and other listed methods. No prohibition on credit card funding appears
+      in the excerpts of 179 CSR 9 or W. Va. Code 29-22D. Quoted from a search excerpt of a mirror of the cited rule;
+      the official page itself could not be opened from the drafting environment.
+    provenance:
+      source_id: wv-sos-csr
+      source_url: https://apps.sos.wv.gov/adlaw/csr/rule.aspx?rule=179-09
+      archive_url: sha256:fdc4344ae40c1bcf3142c8c7c5805c569575c211a6b14fa7259414cc2f01ada8
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-17
+      reviewed_by: null
+      status: pending_review
+      page_or_table: 179 CSR 9, section 14
+      notes: >-
+        Checked on 2026-10-17 against the archived Cornell LII copy of the section (sha256 592fd8b4e341): 179 CSR 9 section 14.4.2: a sports wagering account may be funded through a patron's credit or debit card; the regulator's own document could not be fetched.
+        Operative language quoted from a search excerpt of the Cornell LII mirror of section 179-9-14
+        (https://www.law.cornell.edu/regulations/west-virginia/W-Va-C-S-R-SS-179-9-14): a patron's sports wagering
+        account for online sports pools may be funded through the use of a patron's deposit account established for
+        sports wagering according to the requirements provided in W. Va. Code of State Rules 179-8-121; a patron's
+        credit or debit card; and further listed methods. The official page could not be opened from the drafting
+        environment; confirm against the 2025-04-30 rule text.
   helpline_message: null
 limitations:
   - West Virginia reports adjusted gross receipts (gross receipts less winnings), which is closer to a gross revenue measure than states that deduct promotional credits; compare with care.

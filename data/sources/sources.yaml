@@ -234,11 +234,12 @@ sources:
   publisher: Kansas Lottery
   publisher_type: state_regulator
   title: Sports wagering revenue reports
-  url: https://www.kslottery.com/
-  access_method: html_table
+  url: https://www.kslottery.com/publications/sports-monthly-revenues/
+  access_method: pdf
   update_cadence: monthly
   license: null
-  reliability_notes: The Lottery is the statutory operator and publishes monthly handle and revenue by casino manager.
+  reliability_notes: The Lottery is the statutory operator and publishes a monthly sports wagering revenues
+    PDF and a monthly detail breakdown by casino manager on its publications page (confirmed 2026-10-17).
     Page location has changed since launch.
   tier: primary
   fips: '20'
@@ -2170,3 +2171,69 @@ sources:
   reliability_notes: The department publishes the statutory annual report on its share of the sports wagering privilege tax by January 1 each year; report PDFs sit under tn.gov/content/dam/tn/mentalhealth/documents and move when the site is reorganized, so archive each one. The department's site now uses the name Department of Behavioral Health.
   tier: primary
   fips: '47'
+- source_id: pa-pgcb-sports-wagering-monthly
+  publisher: Pennsylvania Gaming Control Board
+  publisher_type: state_regulator
+  title: Sports wagering revenue, monthly report summary by fiscal year
+  url: https://gamingcontrolboard.pa.gov/news-and-transparency/revenue
+  access_method: xlsx
+  update_cadence: monthly
+  license: null
+  reliability_notes: One page per state fiscal year (July to June) under the Revenue section, each with the monthly sports wagering report summary as xlsx and pdf; handle, gross revenue, promotional credits, taxable revenue and tax by licensee, retail and online. Added 2026-10-17 for the Phase 6 revenue series; the workbook layout the module expects is recorded in ingest/wpdc_ingest/sources/pa_pgcb_sports_wagering.py.
+  tier: primary
+  fips: '42'
+- source_id: ny-gaming-commission-mobile-sports-monthly
+  publisher: New York State Gaming Commission
+  publisher_type: state_regulator
+  title: Monthly mobile sports wagering report, statewide
+  url: https://gaming.ny.gov/
+  access_method: pdf
+  update_cadence: monthly
+  license: null
+  reliability_notes: Statewide monthly handle and gross gaming revenue for mobile sports wagering, on a cash basis, by month of the April to March state fiscal year; a weekly report and a per-operator table are published alongside. Files sit under gaming.ny.gov/system/files/documents/<year>/<month>/ and the same file name is reused each month, so archive each edition. Added 2026-10-17 for the Phase 6 revenue series.
+  tier: primary
+  fips: '36'
+- source_id: mi-mgcb-sports-betting-monthly
+  publisher: Michigan Gaming Control Board
+  publisher_type: state_regulator
+  title: Internet sports betting and retail sports betting revenue tables
+  url: https://www.michigan.gov/mgcb
+  access_method: xlsx
+  update_cadence: monthly
+  license: null
+  reliability_notes: Monthly tables by operator with handle, gross sports betting receipts, adjusted gross receipts and tax, for internet sports betting (from January 2021) and retail sports betting at the Detroit casinos (from March 2020); tribal retail is not reported. The monthly press release links the current tables. Added 2026-10-17 for the Phase 6 revenue series.
+  tier: primary
+  fips: '26'
+- source_id: oh-occc-sports-gaming-monthly
+  publisher: Ohio Casino Control Commission
+  publisher_type: state_regulator
+  title: Ohio sports gaming revenue reports
+  url: https://casinocontrol.ohio.gov/about/revenue-reports/04-revenue-reports
+  access_method: xlsx
+  update_cadence: monthly
+  license: null
+  reliability_notes: One pdf per month and one xlsx per calendar year from January 2023, listing gross receipts, winnings paid, voided wagers, promotional credits, revenue and taxable revenue by online proprietor and retail proprietor, with online and retail subtotals; lottery sports gaming kiosks (type C) are reported by the Ohio Lottery, not here. Amounts are as reported to the Commission and can differ from the Department of Taxation. Added 2026-10-17 for the Phase 6 revenue series.
+  tier: primary
+  fips: '39'
+- source_id: il-igb-sports-wagering-monthly
+  publisher: Illinois Gaming Board
+  publisher_type: state_regulator
+  title: Sports wagering reports, monthly, by licensee
+  url: https://igb.illinois.gov/sports-wagering/sports-reports.html
+  access_method: api
+  update_cadence: monthly
+  license: null
+  reliability_notes: Served only through the Board's report form (igbapps.illinois.gov/SportsReports_AEM.aspx), which returns CSV or PDF for a month range by report type; the ingestion module posts the form for each month and stores the tax summary (accrual AGR and tax by licensee and location) and the activity detail (cash handle by sport level and location) together. Revenue is due to the Board on the last day of the following month, so the series lags two months. Added 2026-10-17 for the Phase 6 revenue series.
+  tier: primary
+  fips: '17'
+- source_id: wv-sos-csr
+  publisher: West Virginia Secretary of State, Code of State Rules
+  publisher_type: state_agency
+  title: West Virginia Code of State Rules, Title 179 (West Virginia Lottery legislative rules, including the Sports Wagering Rule 179 CSR 9 and the Interactive Wagering Rule 179 CSR 10)
+  url: https://apps.sos.wv.gov/adlaw/csr/
+  access_method: html_table
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added 2026-10-17 for the consumer protection records. The Secretary of State's rule pages list each rule's effective versions (the Sports Wagering Rule version effective 2025-04-30 is listed as active) and serve the filed text as PDF; archive the version cited, because the rule is re-filed after legislative authorization.
+  tier: primary
+  fips: '54'

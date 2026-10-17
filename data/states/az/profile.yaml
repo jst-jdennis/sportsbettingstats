@@ -124,9 +124,92 @@ consumer_protections:
       source_url: https://problemgambling.az.gov/self-exclusion
       notes: Program page and EWFS form (https://problemgambling.az.gov/sites/default/files/EWFS%20Self-Exclusion%20filliable_0.pdf) found by search on 2026-10-16; statutory basis A.R.S. 5-1320. problemgambling.az.gov is a Department of Gaming site.
   deposit_limits: null
-  advertising: null
-  credit_card_deposits: null
-  helpline_message: null
+  advertising:
+    - rule_type: no_under_age_targeting
+      text: Advertising, marketing and promoting of event wagering shall not target, or otherwise be of a kind that specifically appeals to, persons under 21 years of age, and shall not be placed in venues where most of the audience is reasonably expected to be under 21; event wagering brands may not appear on youth-oriented merchandise.
+      authority_citation: A.A.C. R19-4-110(A) and (D)
+      provenance:
+        <<: *azdg
+        source_url: https://gaming.az.gov/sites/default/files/Article%201%20-%20Event%20Wagering%20v1.1.pdf
+        retrieved_at: "2026-10-17"
+        retrieval_method: manual_entry
+        entered_by: claude-draft-2026-10-17
+        page_or_table: R19-4-110
+        notes: >-
+          Checked on 2026-10-17 against the archived Cornell LII copy of the section (sha256 61a97ff19d97): R19-4-110 (responsible advertising) and R19-4-150 (responsible gaming message with the toll-free crisis helpline on all advertisements) are in the archived copies; the regulator's own document could not be fetched.
+          Operative language quoted from a search excerpt of the Arizona Administrative Code text of this section (served from the reprint at https://www.law.cornell.edu/regulations/arizona/Ariz-Admin-Code-SS-R19-4-110); the cited document is the Department of Gaming's own publication of A.A.C. Title 19, Chapter 4, Article 1 and could not be opened from the drafting environment, so the maintainer should confirm the clause against it or the Secretary of State's current Title 19 text.
+    - rule_type: other
+      text: Advertising, marketing and promoting of event wagering shall not be misleading or contain false information, shall not promote irresponsible or excessive participation in event wagering, and shall not imply that event wagering guarantees success.
+      authority_citation: A.A.C. R19-4-110(B) and (C)
+      provenance:
+        <<: *azdg
+        source_url: https://gaming.az.gov/sites/default/files/Article%201%20-%20Event%20Wagering%20v1.1.pdf
+        retrieved_at: "2026-10-17"
+        retrieval_method: manual_entry
+        entered_by: claude-draft-2026-10-17
+        page_or_table: R19-4-110
+        notes: >-
+          Checked on 2026-10-17 against the archived Cornell LII copy of the section (sha256 61a97ff19d97): R19-4-110 (responsible advertising) and R19-4-150 (responsible gaming message with the toll-free crisis helpline on all advertisements) are in the archived copies; the regulator's own document could not be fetched.
+          Operative language quoted from a search excerpt of the Arizona Administrative Code text of this section (served from the reprint at https://www.law.cornell.edu/regulations/arizona/Ariz-Admin-Code-SS-R19-4-110); the cited document is the Department of Gaming's own publication of A.A.C. Title 19, Chapter 4, Article 1 and could not be opened from the drafting environment, so the maintainer should confirm the clause against it or the Secretary of State's current Title 19 text.
+    - rule_type: other
+      text: Event wagering advertising may not be placed in college or university owned news outlets or promoted on college campuses, other than through generally available media.
+      authority_citation: A.A.C. R19-4-110
+      provenance:
+        <<: *azdg
+        source_url: https://gaming.az.gov/sites/default/files/Article%201%20-%20Event%20Wagering%20v1.1.pdf
+        retrieved_at: "2026-10-17"
+        retrieval_method: manual_entry
+        entered_by: claude-draft-2026-10-17
+        page_or_table: R19-4-110
+        notes: >-
+          Checked on 2026-10-17 against the archived Cornell LII copy of the section (sha256 61a97ff19d97): R19-4-110 (responsible advertising) and R19-4-150 (responsible gaming message with the toll-free crisis helpline on all advertisements) are in the archived copies; the regulator's own document could not be fetched.
+          Operative language quoted from a search excerpt of the Arizona Administrative Code text of this section (served from the reprint at https://www.law.cornell.edu/regulations/arizona/Ariz-Admin-Code-SS-R19-4-110); the cited document is the Department of Gaming's own publication of A.A.C. Title 19, Chapter 4, Article 1 and could not be opened from the drafting environment, so the maintainer should confirm the clause against it or the Secretary of State's current Title 19 text. The rule was adopted in 2021 and amended effective 2022-04-15 per the reprint; a helpline message requirement was not shown in any excerpt and is not entered.
+    - rule_type: responsible_gambling_message_required
+      text: Event wagering advertisements on television, radio, the internet, in print and on billboards must carry a responsible gaming message with a crisis helpline number; retail wagering areas must post signs in English and Spanish at public entrances and exits directing persons with gambling problems to the statewide toll-free helpline, text line and website, and each event wagering platform or kiosk must display similar messaging that is obvious and easy to find.
+      authority_citation: A.A.C. R19-4-150 (self-exclusion and responsible gaming)
+      provenance:
+        <<: *azdg
+        source_url: https://gaming.az.gov/sites/default/files/Article%201%20-%20Event%20Wagering%20v1.1.pdf
+        retrieved_at: "2026-10-17"
+        retrieval_method: manual_entry
+        entered_by: claude-draft-2026-10-17
+        page_or_table: R19-4-150
+        notes: >-
+          Checked on 2026-10-17 against the archived Cornell LII copy of the section (sha256 e7d919fba437): R19-4-110 (responsible advertising) and R19-4-150 (responsible gaming message with the toll-free crisis helpline on all advertisements) are in the archived copies; the regulator's own document could not be fetched.
+          Operative language quoted from a search excerpt of the Arizona Administrative Code text of R19-4-150 (served from the reprint at https://www.law.cornell.edu/regulations/arizona/Ariz-Admin-Code-SS-R19-4-150); the cited document is the Department of Gaming's own publication of A.A.C. Title 19, Chapter 4, Article 1 and could not be opened from the drafting environment, so the maintainer should confirm the clause against it or the Secretary of State's current Title 19 text. The excerpt did not name the helpline number, so required_number is left null (the Department's statewide line is commonly given as 1-800-NEXT-STEP, not confirmed from the rule).
+  credit_card_deposits:
+    allowed: true
+    authority_citation: A.A.C. R19-4-128 (forms of payment)
+    notes: >-
+      Permitted by the funding methods list. R19-4-128 provides that an event wager or a deposit into a player account
+      may be made with cash, cash equivalents, electronic funds transfer, credit card, debit card, check, wire transfer,
+      winnings, or promotional or bonus credit, and that other forms of payment may be utilized upon written approval
+      of the Department. Adopted by final exempt rulemaking at 27 A.A.R. 1167, effective 2021-07-26.
+    provenance:
+        <<: *azdg
+        source_url: https://gaming.az.gov/sites/default/files/Article%201%20-%20Event%20Wagering%20v1.1.pdf
+        retrieved_at: "2026-10-17"
+        retrieval_method: manual_entry
+        entered_by: claude-draft-2026-10-17
+        page_or_table: R19-4-128
+        notes: >-
+          Checked on 2026-10-17 against the archived Cornell LII copy of the section (sha256 e56d692039a9): R19-4-128 lists cash, cash equivalent, electronic funds transfer, credit card, debit card, check, wire transfer, winnings and promotional credit as forms of payment; the regulator's own document could not be fetched.
+          Operative language quoted from a search excerpt of the Arizona Administrative Code text of this section (served from the reprint at https://www.law.cornell.edu/regulations/arizona/Ariz-Admin-Code-SS-R19-4-128); the cited document is the Department of Gaming's own publication of A.A.C. Title 19, Chapter 4, Article 1 and could not be opened from the drafting environment, so the maintainer should confirm the clause against it or the Secretary of State's current Title 19 text.
+  helpline_message:
+    required: true
+    required_number: null
+    authority_citation: A.A.C. R19-4-150 (self-exclusion and responsible gaming)
+    provenance:
+      <<: *azdg
+      source_url: https://gaming.az.gov/sites/default/files/Article%201%20-%20Event%20Wagering%20v1.1.pdf
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      page_or_table: R19-4-150
+      notes: >-
+        Checked on 2026-10-17 against the archived Cornell LII copy of the section (sha256 e7d919fba437): R19-4-150 requires signage at retail entrances, helpline messaging on each platform and kiosk, and a responsible gaming message with the helpline number on all advertisements; the regulator's own document could not be fetched.
+        Same rule as the responsible gaming advertising row: advertisements must carry a responsible gaming message with
+        a crisis helpline number, and each platform or kiosk must display helpline messaging. Operative language quoted from a search excerpt of the Arizona Administrative Code text of R19-4-150 (served from the reprint at https://www.law.cornell.edu/regulations/arizona/Ariz-Admin-Code-SS-R19-4-150); the cited document is the Department of Gaming's own publication of A.A.C. Title 19, Chapter 4, Article 1 and could not be opened from the drafting environment, so the maintainer should confirm the clause against it or the Secretary of State's current Title 19 text. The excerpt did not name the helpline number, so required_number is left null (the Department's statewide line is commonly given as 1-800-NEXT-STEP, not confirmed from the rule).
 limitations:
   - Arizona reports adjusted gross event wagering receipts after free bet deductions that were capped on a declining schedule and that differ by operator launch year, so the taxable base is not comparable across years or with gross revenue states such as New Jersey.
   - Wagers placed on tribal land under the compacts are reported through the Department's event wagering series but tribal casino gaming revenue is not; sports wagering cannot be isolated from the tribal contribution series.

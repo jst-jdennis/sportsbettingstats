@@ -43,21 +43,26 @@ export interface TableAt { page: string; id: string }
 
 /** Monthly gross sports wagering revenue by channel. Handle is plotted only when the regulator publishes it. */
 export function revenueChart(p: StateProfile, at: TableAt): SeriesChart | null {
-  const rows = hrFor(p.fips).filter((r) => r.market_segment === 'regulated_sportsbook' && r.gross_revenue_usd !== '');
+  const segment = hrFor(p.fips).filter((r) => r.market_segment === 'regulated_sportsbook');
+  // Plot gross revenue where the regulator reports it; where only the taxable figure is published (Kansas), plot that and say so.
+  const field: 'gross_revenue_usd' | 'adjusted_revenue_usd' = segment.some((r) => r.gross_revenue_usd !== '') ? 'gross_revenue_usd' : 'adjusted_revenue_usd';
+  const measure = field === 'gross_revenue_usd' ? 'gross revenue' : 'taxable revenue';
+  const rows = segment.filter((r) => r[field] !== '');
   const channels = (['retail', 'online'] as const).filter((c) => rows.some((r) => r.channel === c));
-  const series = channels.map((c, i) => ({ name: label(c).replace(/^./, (ch) => ch.toUpperCase()), cls: i === 0 ? 's1' : 's2', points: rows.filter((r) => r.channel === c).map((r) => ({ x: dateX(r.period_start), y: Number(r.gross_revenue_usd), title: `${label(c)}, ${monthName(r.period_start)}: gross revenue ${usd(Number(r.gross_revenue_usd))}${r.state_tax_usd ? `, tax ${usd(Number(r.state_tax_usd))}` : ''}${r.is_revised === 'true' ? ' (revised)' : ''}` })) }));
+  const series = channels.map((c, i) => ({ name: label(c).replace(/^./, (ch) => ch.toUpperCase()), cls: i === 0 ? 's1' : 's2', points: rows.filter((r) => r.channel === c).map((r) => ({ x: dateX(r.period_start), y: Number(r[field]), title: `${label(c)}, ${monthName(r.period_start)}: ${measure} ${usd(Number(r[field]))}${r.handle_usd ? `, handle ${usd(Number(r.handle_usd))}` : ''}${r.state_tax_usd ? `, tax ${usd(Number(r.state_tax_usd))}` : ''}${r.is_revised === 'true' ? ' (revised)' : ''}` })) }));
   const n = Math.max(0, ...series.map((s) => s.points.length));
   if (n < MIN_POINTS) return null;
   const markers = legalizationMarkers(p).map((mk) => ({ x: dateX(mk.date), label: mk.label }));
   const xs = series.flatMap((s) => s.points.map((pt) => pt.x));
   const hasHandle = rows.some((r) => r.handle_usd !== '');
   const first = rows[0], last = rows[rows.length - 1];
-  const svg = lineChart({ id: `rev-${p.abbr.toLowerCase()}`, title: `${p.name}: monthly gross sports wagering revenue by channel`, desc: 'Line chart of monthly gross revenue for each channel, with vertical lines at the first legal wager in each channel. The same values are in the table below.', series, markers, xTicks: yearTicks(xs), xFmt: String, yFmt: usd, dotR: 2.5, gapX: 0.2, hollow: rows.every((r) => r.status !== 'verified'), height: 320 });
+  const svg = lineChart({ id: `rev-${p.abbr.toLowerCase()}`, title: `${p.name}: monthly ${measure} from sports wagering by channel`, desc: `Line chart of monthly ${measure} for each channel, with vertical lines at the first legal wager in each channel. The same values are in the table below.`, series, markers, xTicks: yearTicks(xs), xFmt: String, yFmt: usd, dotR: 2.5, gapX: 0.2, hollow: rows.every((r) => r.status !== 'verified'), height: 320 });
   const all = rows.filter((r) => r.channel === 'all');
+  const months = all.length || n;
   return {
-    svg, n, title: `${p.name}: monthly gross revenue`, legend: series.map((s) => ({ cls: s.cls, name: `${s.name} gross revenue` })),
-    table: revenueTable(p, at, rows),
-    caption: `${monthName(first.period_start)} to ${monthName(last.period_start)}, ${all.length || n} months. Gross revenue before promotional deductions, as the regulator defines it: ${rows[0].revenue_definition} ${hasHandle ? '' : 'Handle (the amount wagered) is not published in any primary document from this regulator, so it is not shown and no hold percentage is computed. '}Not seasonally adjusted; months follow the sports calendar. Source: ${provLine(last)}.`,
+    svg, n, title: `${p.name}: monthly ${measure}`, legend: series.map((s) => ({ cls: s.cls, name: `${s.name} ${measure}` })),
+    table: revenueTable(p, at, segment),
+    caption: `${monthName(first.period_start)} to ${monthName(last.period_start)}, ${months} months. ${field === 'gross_revenue_usd' ? 'Gross revenue before promotional deductions, as the regulator defines it' : 'This regulator publishes only the taxable revenue figure, defined as'}: ${rows[0].revenue_definition} ${hasHandle ? '' : 'Handle (the amount wagered) is not published in any primary document from this regulator, so it is not shown and no hold percentage is computed. '}Not seasonally adjusted; months follow the sports calendar. Source: ${provLine(last)}.`,
   };
 }
 

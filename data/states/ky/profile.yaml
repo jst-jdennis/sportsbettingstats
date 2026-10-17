@@ -141,10 +141,99 @@ consumer_protections:
       <<: *kyleg
       source_url: https://apps.legislature.ky.gov/law/kar/titles/809/010/007/REG/
       notes: Regulation text as published by the Legislative Research Commission, including the July 1, 2024 technical amendment.
-  deposit_limits: null
-  advertising: null
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: false
+    player_set_required_at_signup: false
+    cooling_off_on_increase_hours: null
+    statutory_cap_usd: null
+    authority_citation: 809 KAR 10:004 (sports wagering accounts; account holder deposit and spend limits)
+    notes: >-
+      A licensee shall allow an account holder to limit the amount of money that may be deposited into an account and
+      spent through an account; a deposit limit shall be offered on a daily, weekly and monthly basis. Any decrease
+      to these limits is effective immediately or at the point in time clearly indicated to the account holder; any
+      increase becomes effective only after the time period of the previous limit has expired, so the cooling-off
+      period is the remainder of the limit period rather than a fixed number of hours. The excerpt shows no default
+      limit and no requirement to set a limit at registration. Quoted from a search excerpt of the cited page; the
+      page itself could not be opened from the drafting environment.
+    provenance:
+      <<: *kyleg
+      source_url: https://apps.legislature.ky.gov/law/kar/titles/809/010/004/
+      archive_url: sha256:243a029c253003019020187ffd48057f6c5d2a198f9d907f72ab0f14ae3e87f8
+      retrieved_at: "2026-10-17"
+      entered_by: claude-draft-2026-10-17
+      page_or_table: 809 KAR 10:004, deposit limit provisions
+      notes: >-
+        Archived copy checked on 2026-10-17: 809 KAR 10:004 Section 8, Patron-imposed Limits: deposit and wager limits offered on a daily, weekly and monthly basis.
+        Operative language in the excerpt of the Legislative Research Commission's regulation page and the July 1,
+        2024 technical amendment (https://apps.legislature.ky.gov/law/kar/downloads/docs/15394/document.engrossed.pdf):
+        a licensee shall allow an account holder to limit the amount of money that may be deposited into an account
+        and spent through an account; a deposit limit shall be offered on a daily, weekly, and monthly basis; any
+        decrease shall be effective immediately or at the point in time that was clearly indicated to the account
+        holder; any increase shall become effective only after the time period of the previous limit has expired.
+        Quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting
+        environment. Check whether 2026 HB 904 (effective 2026-07-15) altered these provisions.
+  advertising:
+    - rule_type: other
+      text: >-
+        A licensee shall not allow, conduct or participate in any false or misleading advertising or marketing
+        concerning its sports wagering operations. Representations concerning winnings must be accurate, not
+        misleading and capable of substantiation at the time of the representation; an advertisement is misleading if
+        it makes representations about average winnings without equally prominently representing the average net
+        winnings of all patrons.
+      authority_citation: 809 KAR 10:007 (responsible gaming and advertising; advertising and marketing section)
+      provenance:
+        <<: *kyleg
+        source_url: https://apps.legislature.ky.gov/law/kar/titles/809/010/007/
+        archive_url: sha256:61961419c3d21a356608ed2ef99e47bf92d0ebbbb812909f00586f5f064bc50b
+        retrieved_at: "2026-10-17"
+        entered_by: claude-draft-2026-10-17
+        page_or_table: 809 KAR 10:007, advertising and marketing section
+        notes: >-
+          Archived copy checked on 2026-10-17: 809 KAR 10:007 Section 3: no false or misleading advertising, and representations about winnings must be accurate and capable of substantiation.
+          Quoted from a search excerpt of the cited page and of the July 1, 2024 technical amendment
+          (https://apps.legislature.ky.gov/law/kar/downloads/docs/15397/document.engrossed.pdf); the page itself could
+          not be opened from the drafting environment. The 2024 technical amendment replaced "commission" with
+          "corporation" throughout.
+    - rule_type: no_under_age_targeting
+      text: >-
+        A licensee shall not advertise or market at elementary, middle or high school activities. The prohibition
+        excludes an advertisement distributed via mass media, such as television, radio, print media or the
+        Internet, if the advertisement is not specifically directed toward (but could be incidentally received by)
+        elementary, middle or high schools.
+      authority_citation: 809 KAR 10:007 (responsible gaming and advertising; advertising and marketing section)
+      provenance:
+        <<: *kyleg
+        source_url: https://apps.legislature.ky.gov/law/kar/titles/809/010/007/
+        archive_url: sha256:61961419c3d21a356608ed2ef99e47bf92d0ebbbb812909f00586f5f064bc50b
+        retrieved_at: "2026-10-17"
+        entered_by: claude-draft-2026-10-17
+        page_or_table: 809 KAR 10:007, advertising and marketing section
+        notes: >-
+          Archived copy checked on 2026-10-17: 809 KAR 10:007 Section 3: no false or misleading advertising, and representations about winnings must be accurate and capable of substantiation.
+          Quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting
+          environment. The excerpt shows no college or university restriction and no rule on risk-free language or
+          affiliates; those are absent from this profile rather than confirmed absent from the regulation.
   credit_card_deposits: null
-  helpline_message: null
+  helpline_message:
+    required: true
+    required_number: null
+    authority_citation: 809 KAR 10:007 (responsible gaming program; sign bearing a toll-free number for a corporation-approved problem gambling assistance organization)
+    provenance:
+      <<: *kyleg
+      source_url: https://apps.legislature.ky.gov/law/kar/titles/809/010/007/
+      archive_url: sha256:61961419c3d21a356608ed2ef99e47bf92d0ebbbb812909f00586f5f064bc50b
+      retrieved_at: "2026-10-17"
+      entered_by: claude-draft-2026-10-17
+      page_or_table: 809 KAR 10:007, responsible gaming program section
+      notes: >-
+        Archived copy checked on 2026-10-17: 809 KAR 10:007 requires a sign bearing a toll-free number for a corporation-approved problem gambling assistance organization on the website or application and at every licensed premises.
+        Operative language in the excerpt: the licensee shall post in a conspicuous place on the licensee's Web site
+        or mobile application and in every licensed premises a sign that bears a toll-free number for a
+        corporation-approved organization that provides assistance to problem or compulsive gamblers, along with
+        corporation-approved disclosures on the dangers of problem gambling. The rule names no specific number in the
+        excerpt, so required_number is null. Quoted from a search excerpt of the cited page; the page itself could
+        not be opened from the drafting environment.
 limitations:
   - Kentucky reports adjusted gross revenue after winnings and federal excise tax, with no promotional deduction, so its revenue series is closer to gross revenue than states that deduct free play.
   - The minimum wagering age was 18 from launch until July 15, 2026, so Kentucky handle before that date includes bettors aged 18 to 20 who are excluded in most other states.
