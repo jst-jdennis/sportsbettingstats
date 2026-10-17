@@ -1,0 +1,953 @@
+=== page 1 ===
+Martin O'Malley, Governor Ch. 624
+Chapter 624
+(Senate Bill 882)
+AN ACT concerning
+Gaming – Video Lottery Terminals
+FOR the purpose of altering a certain requirement that the State Lottery Commission
+conduct certain hearings; clarifying the authority of the Video Lottery Facility
+Location Commission to award video lottery operation licenses under this
+subtitle; altering a certain requirement to allow certain individuals or business
+entities to enter into certain agreements; clarifying the authority of the State
+Lottery Commission to issue certain licenses under this subtitle; authorizing the
+State Lottery Commission to waive a certain requirement for certain investors;
+altering the time period for certain licenses issued by the State Lottery
+Commission; altering certain eligibility criteria and disqualifying criteria used
+by the State Lottery Commission for a video lottery operation license; providing
+that certain video lottery terminal operations may begin in a temporary facility
+under certain circumstances; providing for when the term for a video lottery
+operation license begins; providing that the admissions and amusement tax
+does not apply to the operation of video lottery terminals; altering certain
+requirements for a video lottery facility in Allegany County; altering the
+distribution of certain proceeds from a certain account to a video lottery facility
+in Allegany County under certain circumstances; clarifying that the Video
+Lottery Facility Location Commission may reissue a video lottery operation
+license under certain circumstances; repealing the authority for the State
+Racing Commission to issue a certain racing license for a certain track in
+Allegany County; making certain provisions of this Act subject to a certain
+contingency; defining a certain term certain terms; altering certain definitions;
+making technical changes; and generally relating to the operation of video
+lottery terminals in the State.
+BY repealing and reenacting, with amendments,
+Article – State Government
+Section 9–1A–01, 9–1A–02(d), 9–1A–04(a), 9–1A–05, 9–1A–07, 9–1A–08,
+9–1A–11, 9–1A–13(a), 9–1A–16, 9–1A–20(b), 9–1A–26, 9–1A–27,
+9–1A–33(a), and 9–1A–36
+Annotated Code of Maryland
+(2009 Replacement Volume)
+BY repealing and reenacting, without amendments,
+Article – State Government
+Section 9–1A–02(a) and (b)
+Annotated Code of Maryland
+– 1 –
+
+=== page 2 ===
+Ch. 624 2010 LAWS OF MARYLAND
+(2009 Replacement Volume)
+BY repealing and reenacting, with amendments,
+Article – Business Regulation
+Section 11–510
+Annotated Code of Maryland
+(2004 Replacement Volume and 2009 Supplement)
+SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF
+MARYLAND, That the Laws of Maryland read as follows:
+Article – State Government
+9–1A–01.
+(a) In this subtitle the following words have the meanings indicated.
+(b) “Applicant” means a person who applies for any license required under
+this subtitle.
+(c) “Associated equipment” means hardware located on the licensee’s
+premises that is connected to the video lottery system for the purpose of performing
+communication, validation, or other functions, but not including the communication
+facilities of a regulated utility or the video lottery terminals.
+(d) “Average payout percentage” means the average percentage of money
+used by players to play a video lottery terminal that is returned to players of that
+video lottery terminal.
+(E) “AWARD” MEANS THE ACT, BY THE VIDEO LOTTERY FACILITY
+LOCATION COMMISSION, OF APPROVING THE ISSUANCE OF A VIDEO LOTTERY
+OPERATION LICENSE BY THE STATE LOTTERY COMMISSION TO AN APPLICANT
+FOR THE OPERATION OF VIDEO LOTTERY TERMINALS AT A SPECIFIED
+LOCATION.
+[(e)] (F) “Background investigation” means a security, criminal, and credit
+investigation of a person who applies for or who is granted a license under this
+subtitle.
+[(f)] (G) “Career offender” means a person whose behavior is pursued in an
+occupational manner or context for the purpose of economic gain and who utilizes
+methods that are deemed by the Commission as criminal violations inimical to the
+interest of the State.
+– 2 –
+
+=== page 3 ===
+Martin O'Malley, Governor Ch. 624
+[(g)] (H) “Career offender cartel” means a group of persons who operate
+together as career offenders.
+[(h)] (I) “Central monitor and control system” means a central system
+provided to and controlled by the Commission to which video lottery terminals
+communicate for purposes of:
+(1) information retrieval;
+(2) retrieval of the win and loss determination from video lottery
+terminals; and
+(3) programs to activate and disable video lottery terminals.
+[(i)] (J) “Central Repository” means the Criminal Justice Information
+System Central Repository of the Department of Public Safety and Correctional
+Services.
+[(j)] (K) “Commission” means the State Lottery Commission.
+[(k)] (L) “Control” means the authority to direct the management and
+policies of an applicant or licensee.
+[(l)] (M) “Costs” means, unless the context otherwise requires, the expenses
+incurred by the Commission in the administration of this subtitle, including:
+(1) the costs of leasing or the capitalized cost of purchasing the video
+lottery terminals, central monitor and control system, and associated equipment and
+software;
+(2) the costs to repair and maintain the video lottery terminals,
+central monitor and control system, and associated equipment and software to the
+extent these costs are not included in the costs of leasing or purchasing the video
+lottery terminals, central monitor and control system, and associated equipment and
+software;
+(3) the costs of testing and examination of video lottery terminals and
+the central monitor and control system; and
+(4) the costs of performing background investigations and other
+related activities.
+[(m)] (N) “Family” means spouse, parents, grandparents, children,
+grandchildren, siblings, uncles, aunts, nephews, nieces, fathers–in–law,
+mothers–in–law, daughters–in–law, sons–in–law, brothers–in–law, and
+– 3 –
+
+=== page 4 ===
+Ch. 624 2010 LAWS OF MARYLAND
+sisters–in–law, whether by whole blood or half blood, by marriage, adoption, or
+natural relationship.
+(O) “INSTITUTIONAL INVESTOR” MEANS:
+(1) A RETIREMENT FUND ADMINISTERED BY A PUBLIC AGENCY
+FOR THE EXCLUSIVE BENEFIT OF FEDERAL, STATE, OR LOCAL PUBLIC
+EMPLOYEES;
+(2) AN INVESTMENT COMPANY REGISTERED UNDER THE
+INVESTMENT COMPANY ACT OF 1940;
+(3) A COLLECTIVE INVESTMENT TRUST ORGANIZED BY BANKS
+UNDER PART 9 OF THE RULES OF THE COMPTROLLER OF THE CURRENCY;
+(4) A CLOSED END INVESTMENT TRUST;
+(5) A CHARTERED OR LICENSED LIFE INSURANCE COMPANY;
+(6) A PROPERTY AND CASUALTY INSURANCE COMPANY;
+(7) A BANKING OR OTHER CHARTERED OR LICENSED LENDING
+INSTITUTION;
+(8) AN INVESTMENT ADVISOR REGISTERED UNDER THE
+INVESTMENT ADVISORS ACT OF 1940; OR
+(9) ANY OTHER PERSON REGISTERED IN ANY FOREIGN
+JURISDICTION AND REGULATED IN ACCORDANCE WITH A STATUTE OF ANY
+FOREIGN JURISDICTION THAT THE COMMISSION DETERMINES TO BE
+SUBSTANTIALLY SIMILAR TO THAT REGULATED BY THE INVESTMENT COMPANY
+ACT OF 1940 OR THE INVESTMENT ADVISORS ACT OF 1940.
+[(n)] (P) “License” means, unless the context otherwise requires, a license
+required under this subtitle.
+[(o)] (Q) “Licensee” means an applicant who has been issued a license
+required under this subtitle.
+[(p)] (R) “Manufacturer” means a person:
+(1) that is engaged in the business of designing, building, constructing,
+assembling, manufacturing, or distributing a central monitor and control system,
+– 4 –
+
+=== page 5 ===
+Martin O'Malley, Governor Ch. 624
+video lottery terminals, associated equipment or software, or the cabinet in which a
+video lottery terminal is housed;
+(2) that produces a product that is intended for sale, lease, or other
+assignment to the Commission or a licensee; and
+(3) that contracts with the Commission or a licensee for the sale, lease,
+or other assignment of a product described in paragraph (1) of this subsection.
+[(q)] (S) “Own” means having a beneficial or proprietary interest of at least
+[10%] 5% in the property or business of an applicant or licensee.
+[(r)] (T) “Player” means an individual who plays a video lottery terminal at
+a video lottery facility licensed by the Commission.
+[(s)] (U) (1) “Proceeds” means the part of the amount of money bet
+through video lottery terminals that is not returned to successful players but is
+otherwise allocated under this subtitle.
+(2) (i) Subject to subparagraph (ii) of this paragraph, “proceeds”
+does not include money given away by a video lottery operation licensee as free
+promotional play and used by players to bet in a video lottery terminal.
+(ii) After the first fiscal year of operations, the exclusion
+specified in subparagraph (i) of this paragraph may not exceed a percentage
+established by the Commission by regulation of the proceeds received in the prior
+fiscal year by the video lottery operation licensee under § 9–1A–27(a)(2) of this
+subtitle.
+[(t)] (V) “Progressive jackpot” means a prize that increases as one or more
+video lottery terminals are connected to a progressive jackpot system.
+[(u)] (W) “Progressive jackpot system” means a system capable of linking
+one or more video lottery terminals in one or more licensed facilities and offering one
+or more common progressive jackpots.
+[(v)] (X) “Video lottery” means gaming or betting conducted using a video
+lottery terminal.
+[(w)] (Y) “Video lottery destination location” means a location that is eligible
+for or has been awarded in the manner provided by law a video lottery operation
+license.
+[(x)] (Z) “Video lottery employee” means an employee of a person who holds
+a license.
+– 5 –
+
+=== page 6 ===
+Ch. 624 2010 LAWS OF MARYLAND
+[(y)] (AA) “Video lottery facility” means a facility at which players play video
+lottery terminals under this subtitle.
+[(z)] (BB) “Video lottery operation license” means a license AWARDED BY
+THE VIDEO LOTTERY FACILITY LOCATION COMMISSION AND issued BY THE
+STATE LOTTERY COMMISSION to a person that allows players to operate video
+lottery terminals.
+(CC) “VIDEO LOTTERY OPERATOR” MEANS A PERSON LICENSED TO
+OPERATE A VIDEO LOTTERY FACILITY UNDER THIS SUBTITLE.
+[(aa)] (DD) (1) “Video lottery terminal” means any machine or other device
+that, on insertion of a bill, coin, token, voucher, ticket, coupon, or similar item, or on
+payment of any consideration:
+(i) is available to play or simulate the play of any game of
+chance in which the results, including the options available to the player, are
+randomly determined by the machine or other device; and
+(ii) by the element of chance, may deliver or entitle the player
+who operates the machine or device to receive cash, premiums, merchandise, tokens,
+or anything of value, whether the payout is made automatically from the device or in
+any other manner.
+(2) “Video lottery terminal” includes a machine or device:
+(i) that does not directly dispense money, tokens, or anything of
+value to winning players; and
+(ii) described under paragraph (1) of this subsection that uses
+an electronic credit system making the deposit of bills, coins, or tokens unnecessary.
+(3) “Video lottery terminal” does not include an authorized slot
+machine operated by an eligible organization under Title 12, Subtitle 3 of the Criminal
+Law Article.
+9–1A–02.
+(a) This subtitle is statewide and exclusive in its effect.
+(b) (1) The Commission shall regulate the operation of video lottery
+terminals in accordance with this subtitle.
+(2) The Maryland State Lottery Agency shall provide assistance to the
+Commission in the performance of the Commission’s duties under this subtitle.
+– 6 –
+
+=== page 7 ===
+Martin O'Malley, Governor Ch. 624
+(d) Only a person with a video lottery operation license issued [by the
+Commission] UNDER THIS SUBTITLE may offer a video lottery terminal for public use
+in the State under this subtitle.
+9–1A–04.
+(a) The Commission shall:
+(1) [hear and decide,] promptly and in reasonable order, MAKE A
+DETERMINATION ON license applications and causes affecting the granting[,
+suspension, revocation,] or renewal of licenses under this subtitle;
+(2) ISSUE LICENSES IN ACCORDANCE WITH THIS SUBTITLE;
+(3) AFTER A HEARING, PROMPTLY AND IN REASONABLE ORDER,
+MAKE A DETERMINATION ON THE SUSPENSION OR REVOCATION OF LICENSES
+UNDER THIS SUBTITLE;
+[(2)] (4) after a hearing, suspend or revoke as applicable the license
+of a licensee who has a license suspended or revoked in another state;
+[(3)] (5) conduct hearings concerning civil violations of this subtitle
+or regulations issued under this subtitle;
+[(4)] (6) collect application, license, and other fees to cover the
+administrative costs of this subtitle related to licensing;
+[(5)] (7) deposit application, license, and other fees to a bank account
+that the State Treasurer designates to the credit of the State Lottery Fund to cover the
+administrative costs of this subtitle related to licensing;
+[(6)] (8) levy and collect civil penalties for civil violations of the
+provisions of this subtitle or regulations issued under this subtitle;
+[(7)] (9) be present at a video lottery operation through its employees
+and agents at any time during the operation of any video lottery terminal for the
+purpose of certifying revenue from the video lottery terminals, receiving complaints
+from the public, and conducting any other investigation into the operation of the video
+lottery terminals and the maintenance of the video lottery terminals and associated
+equipment and software as the Commission may deem necessary and proper; and
+[(8)] (10) review and rule on any complaint by a licensee regarding
+any investigative procedures of the Commission that are unnecessarily disruptive of
+video lottery operations.
+– 7 –
+
+=== page 8 ===
+Ch. 624 2010 LAWS OF MARYLAND
+9–1A–05.
+(a) The Video Lottery Facility Location Commission established under §
+9–1A–36 of this subtitle may not:
+(1) [issue] AWARD more than five video lottery operation licenses;
+(2) award more than 15,000 video lottery terminals for operation at
+video lottery facilities in the State; and
+(3) subject to the requirements of § 9–1A–36(h) and (i) of this subtitle,
+award more than 4,750 terminals for operation at any video lottery facility.
+(b) An owner or operator of a video lottery destination location described
+under § 9–1A–01 of this subtitle may submit an application for a video lottery
+operation license.
+(c) A VIDEO LOTTERY OPERATION license issued under this subtitle is not
+valid at a geographic location other than the geographic location [of the video lottery
+destination location at the time the license is issued] AUTHORIZED IN THE LICENSE
+AWARDED BY THE VIDEO LOTTERY FACILITY LOCATION COMMISSION AND
+ISSUED BY THE STATE LOTTERY COMMISSION.
+(d) (1) In this subsection, “owner” includes any type of owner or
+beneficiary of a business entity, including an officer, director, principal employee,
+partner, investor, stockholder, or beneficial owner of the business entity and,
+notwithstanding any other provisions of this subtitle, including a person having any
+ownership interest regardless of the percentage of ownership interest.
+(2) An individual or business entity may not own an interest in more
+than one video lottery facility.
+(3) A member of the Senate of Maryland or the House of Delegates
+may not be an owner or an employee of any business entity that holds a video lottery
+operation license.
+(4) NOTWITHSTANDING PARAGRAPHS (1) AND (2) OF THIS
+SUBSECTION, AN INDIVIDUAL OR BUSINESS ENTITY MAY ENTER INTO A
+MANAGEMENT AGREEMENT TO OPERATE A FACILITY LOCATED IN ALLEGANY
+COUNTY THAT IT DOES NOT OWN, SUBJECT TO THE APPROVAL OF THE VIDEO
+LOTTERY FACILITY LOCATION COMMISSION AND THE STATE LOTTERY
+COMMISSION.
+9–1A–07.
+– 8 –
+
+=== page 9 ===
+Martin O'Malley, Governor Ch. 624
+(a) [An] EXCEPT AS PROVIDED IN § 9–1A–36 OF THIS SUBTITLE, AN
+applicant for a license shall submit to the Commission an application:
+(1) in the form that the Commission requires; and
+(2) on or before the date set by the Commission.
+(b) (1) This subsection does not apply to license fees for a video lottery
+operation license.
+(2) The Commission shall by regulation establish a fee for a license
+under this subtitle.
+(3) An applicant shall submit the fee with the application.
+(c) (1) Applicants and licensees shall have the affirmative responsibility
+to establish by clear and convincing evidence the person’s qualifications.
+(2) Applicants and licensees shall provide information required by this
+subtitle and satisfy requests for information relating to qualifications in the form
+specified by the Commission OR THE VIDEO LOTTERY FACILITY LOCATION
+COMMISSION, IF APPLICABLE.
+(3) Applicants and licensees shall consent to inspections, searches, and
+seizures authorized by this subtitle or regulations issued under this subtitle.
+(4) (i) Applicants and licensees shall have the continuing duty to:
+1. provide assistance or information required by the
+Commission; and
+2. cooperate in an inquiry, investigation, or hearing
+conducted by the Commission.
+(ii) On issuance of a formal request to answer or produce
+information, evidence, or testimony, if an applicant or licensee refuses to comply, the
+application or license of the person may be denied, suspended, or revoked by the
+Commission.
+(5) (i) If the applicant is an individual, the applicant shall be
+photographed and fingerprinted for identification and investigation purposes.
+(ii) If the applicant is not an individual, the Commission by
+regulation may establish the categories of individuals who shall be photographed and
+fingerprinted for identification and investigation purposes.
+– 9 –
+
+=== page 10 ===
+Ch. 624 2010 LAWS OF MARYLAND
+(6) (i) Applicants and licensees shall have a duty to inform the
+Commission of an act or omission that the person knows or should know constitutes a
+violation of this subtitle or the regulations issued under this subtitle.
+(ii) Applicants and licensees may not discriminate against a
+person who in good faith informs the Commission of an act or omission that the person
+believes constitutes a violation of this subtitle or the regulations issued under this
+subtitle.
+(7) Applicants and licensees shall produce information,
+documentation, and assurances to establish the following qualification criteria by clear
+and convincing evidence:
+(i) the financial stability, integrity, and responsibility of the
+applicant or licensee;
+(ii) the integrity of any financial backers, investors, mortgagees,
+bondholders, and holders of other evidences of indebtedness that bear a relation to the
+application;
+(iii) the applicant’s or licensee’s good character, honesty, and
+integrity;
+(iv) sufficient business ability and experience of the applicant or
+licensee; and
+(v) that:
+1. the applicant or licensee has entered into a labor
+peace agreement with each labor organization that is actively engaged in representing
+or attempting to represent video lottery and hospitality industry workers in the State;
+2. the labor peace agreement is valid and enforceable
+under 29 U.S.C. § 185;
+3. the labor peace agreement protects the State’s
+revenues by prohibiting the labor organization and its members from engaging in
+picketing, work stoppages, boycotts, and any other economic interference with the
+operation of the video lottery facility within the first 5 years of the effective date of the
+video lottery operation license; and
+4. the labor peace agreement applies to all operations at
+the video lottery facility that are conducted by a lessee or tenant or under a
+management agreement.
+– 10 –
+
+=== page 11 ===
+Martin O'Malley, Governor Ch. 624
+(d) On the filing of an application for any license required under this subtitle
+and any supplemental information required by the Commission, the Commission shall:
+(1) refer the application to the Department of State Police or an
+approved vendor under § 9–1A–20 of this subtitle to conduct a background
+investigation on the qualifications of the applicant and any person who is required to
+be qualified under this subtitle as a condition of a license; and
+(2) if the applicant is applying for a video lottery operation license,
+conduct a hearing on the qualifications of the applicant and any person who is
+required to be qualified under this subtitle as a condition of a license.
+(e) (1) [After] EXCEPT FOR A VIDEO LOTTERY OPERATION LICENSE,
+AFTER receiving the results of the background investigation [and conducting any
+hearing required under this subtitle], the Commission may either grant a license to an
+applicant whom the Commission determines to be qualified or deny the license to an
+applicant whom the Commission determines to be not qualified or disqualified.
+(2) If an application for a license is denied, the Commission shall
+prepare and file an order denying the license with a statement of the reasons for the
+denial, including the specific findings of fact.
+(f) (1) Except FOR A VIDEO LOTTERY OPERATION LICENSE as provided
+in § 9–1A–13 of this subtitle, if satisfied that an applicant is qualified to receive a
+license, and on tender of all required application, license, and other fees and taxes, and
+any bond required under § 9–1A–04(e) of this subtitle, the Commission shall issue a
+license for a term of [1 year] 3 YEARS.
+(2) THE COMMISSION MAY STAGGER THE TERMS OF LICENSES.
+(g) (1) An individual may not knowingly give false information or make a
+material misstatement in an application required for any license under this subtitle or
+in any supplemental information required by the Commission.
+(2) An individual who violates this section is guilty of a misdemeanor
+and on conviction is subject to imprisonment not exceeding 3 years or a fine not
+exceeding $5,000 or both.
+9–1A–08.
+(a) In addition to other information required by this subtitle, a business
+entity applying for a video lottery operation license shall provide the following
+information:
+(1) the organization, financial structure, and nature of all businesses
+operated by the business entity;
+– 11 –
+
+=== page 12 ===
+Ch. 624 2010 LAWS OF MARYLAND
+(2) the names, personal employment, and, when applicable, criminal
+histories of the officers, directors, partners, and principal employees of the business
+entity;
+(3) the names of all holding, intermediary, and subsidiary companies
+or other similar business entities of the business entity;
+(4) the organization, financial structure, and nature of all businesses
+operated by the business entity’s holding, intermediary, and subsidiary companies or
+other similar business entities;
+(5) the rights and privileges acquired by the holders of different
+classes of authorized securities, partnership interests, or other similar ownership
+interests of the business entity and its holding, intermediary, and subsidiary
+companies or other similar business entities;
+(6) the terms on which the securities, partnership interests, or other
+similar ownership interests have been or are to be offered;
+(7) the terms and conditions of all outstanding loans, mortgages, trust
+deeds, pledges, or other indebtedness or security devices utilized by the business
+entity;
+(8) the extent of the equity security holding in the business entity of
+the officers, directors, partners, and underwriters and their remuneration in the form
+of salary, wages, fees, or otherwise;
+(9) the names of persons other than the directors and officers who
+occupy positions specified by the Commission or whose compensation exceeds an
+amount determined by the Commission;
+(10) the names of persons who own or control the business entity;
+(11) a description of all bonus and profit sharing arrangements;
+(12) copies of management and service contracts; and
+(13) a listing of stock options.
+(b) If a business entity that applies for a video lottery operation license is a
+subsidiary or if a business entity holding a video lottery operation license is to become
+a subsidiary, each holding company and each intermediary company with respect to
+the business entity shall, as a condition of the subsidiary acquiring or retaining a
+video lottery operation license:
+– 12 –
+
+=== page 13 ===
+Martin O'Malley, Governor Ch. 624
+(1) qualify to do business in the State; or
+(2) furnish the Commission with the information required under
+subsection (a) of this section and other information that the Commission OR THE
+VIDEO LOTTERY FACILITY LOCATION COMMISSION may require.
+(c) (1) [An] EXCEPT AS PROVIDED IN PARAGRAPH (2) OF THIS
+SUBSECTION, AN individual applying for a video lottery operation license shall
+provide, to the extent applicable to an individual, the information required under
+subsection (a) of this section in the form required by the Commission.
+(2) THE COMMISSION MAY WAIVE THE REQUIREMENT TO
+PROVIDE THE INFORMATION REQUIRED UNDER SUBSECTION (A) OF THIS
+SECTION FOR AN INSTITUTIONAL INVESTOR.
+(d) The Commission shall [deny] DISQUALIFY AN APPLICANT FOR a video
+lottery operation license [to an applicant who is disqualified] on the basis of any of the
+following criteria:
+(1) failure of the applicant to prove by clear and convincing evidence
+that the applicant and each person who owns or controls the application are qualified
+under the provisions of this subtitle;
+(2) failure of the applicant or any person required to be qualified
+under this subtitle as a condition of a license to provide information, documentation,
+and assurances required by this subtitle or requested by the Commission;
+(3) failure of the applicant or any person required to be qualified
+under this subtitle as a condition of a license to reveal any fact material to
+qualification;
+(4) supplying, by the applicant or any person required to be qualified
+under this subtitle as a condition of a license, information that is untrue or misleading
+as to a material fact concerning the qualification criteria;
+(5) conviction of the applicant or of any person required to be qualified
+under this subtitle as a condition of a license of an offense under the laws of the
+United States or any jurisdiction within the United States that is a criminal offense
+involving moral turpitude or a gambling offense;
+(6) current prosecution of the applicant or a person who is required to
+be qualified under this subtitle as a condition of a license for an offense described
+under item (5) of this subsection, provided that, at the request of the applicant, the
+Commission may defer its decision on the application during the pendency of the
+charge;
+– 13 –
+
+=== page 14 ===
+Ch. 624 2010 LAWS OF MARYLAND
+(7) pursuit by the applicant or a person who is required to be qualified
+under this subtitle as a condition of a license of economic gain in an occupational
+manner or context that is in violation of the laws of the State, if the pursuit creates a
+reasonable belief that participation of the applicant in video lottery operations would
+be inimical to the policies of this subtitle;
+(8) identification of the applicant or a person who is required to be
+qualified under this subtitle as a condition of a license as a career offender or a
+member of a career offender cartel or an associate of a career offender or career
+offender cartel in a manner that creates a reasonable belief that the association is of a
+nature as to be inimical to the policies of this subtitle;
+(9) the committing of an act by the applicant or a person who is
+required to be qualified under this subtitle as a condition of a license that would
+constitute an offense described under item (5) of this subsection, even if the act has not
+been or may not be prosecuted under the criminal laws of the State; AND
+(10) willful defiance by the applicant or a person who is required to be
+qualified under this subtitle as a condition of a license of a legislative investigatory
+body or other official investigatory body of the United States or a jurisdiction within
+the United States when the body is engaged in the investigation of crimes relating to
+gambling, official corruption, or organized crime activity[; and
+(11) any other reason established in regulations of the Commission as a
+reason for denying a license].
+9–1A–11.
+(a) Any video lottery operation licenses not issued OR AWARDED for a
+location authorized under this subtitle shall automatically revert to the State.
+(b) (1) Except as provided in paragraph (2) of this subsection, a licensee
+shall commence operation of video lottery terminals in a permanent facility at the
+location for which the video lottery operation license has been [issued] AWARDED
+within 18 months after the license is [issued] AWARDED.
+(2) (i) On a determination by the Commission that extenuating
+circumstances exist that are beyond the control of [a licensee] AN AWARDEE and have
+prevented the [licensee] AWARDEE from complying with the requirements of
+paragraph (1) of this subsection, the Commission may allow the [licensee] AWARDEE
+an extension of 6 months to comply with the requirements.
+(ii) The Commission may not grant more than two extensions to
+[a licensee] AN AWARDEE under this paragraph.
+– 14 –
+
+=== page 15 ===
+Martin O'Malley, Governor Ch. 624
+(3) If a video lottery operation [licensee] AWARDEE fails to comply
+with the requirements of this subsection, the license [issued] AWARDED to the
+[licensee] AWARDEE shall be revoked and shall automatically revert to the State.
+(c) (1) Nothing in this subtitle may be construed to prohibit a video
+lottery operation licensee that is [awarded] ISSUED a license [at a racetrack location]
+from beginning video lottery terminal operations in a temporary facility that meets the
+minimum requirements established in regulations adopted by the State Lottery
+Commission.
+(2) Notwithstanding the provisions of paragraph (1) of this subsection,
+a video lottery operation licensee [at a racetrack location] shall be operational in a
+permanent facility no later than 30 months after the issuance AWARD of the video
+lottery operation license.
+(D) FOR A LOCATION IN ALLEGANY COUNTY, VIDEO LOTTERY
+TERMINALS MAY BE TEMPORARILY LOCATED IN THE ROCKY GAP LODGE AND
+RESORT UNTIL A PERMANENT FACILITY IS CONSTRUCTED, SUBJECT TO THE
+REQUIREMENTS OF SUBSECTION (B) OF THIS SECTION.
+9–1A–13.
+(a) The initial term of a video lottery operation license is 15 years FROM THE
+DATE ON WHICH THE VIDEO LOTTERY FACILITY BECOMES OPERATIONAL IN A
+TEMPORARY OR PERMANENT FACILITY IS ISSUED THE LICENSE BY THE
+COMMISSION.
+9–1A–16.
+(a) For all licenses required under this subtitle other than a video lottery
+operation license, if an applicant or licensee holds a valid license in another state and
+the Commission determines that the licensing standards of the other state are
+comprehensive, thorough, and provide similar adequate safeguards to those provided
+in this subtitle, the Commission may:
+(1) waive some or all of the requirements of this subtitle; and
+(2) issue a license to a person having a similar license in another
+state.
+(b) (1) Except as provided in subsection (c) of this section, on the request
+of an applicant, the Commission may grant an exemption or waiver of a licensing
+requirement or grounds for denial of a license if the Commission determines that the
+requirement or grounds for denial of a license as applied to the applicant are not
+– 15 –
+
+=== page 16 ===
+Ch. 624 2010 LAWS OF MARYLAND
+necessary in order to protect the public interest or accomplish the policies established
+by this subtitle.
+(2) On granting to an applicant an exemption or waiver of a licensing
+requirement or grounds for denial of a license, or at any time after a waiver or
+exemption has been granted, the Commission may:
+(i) limit or place restrictions on the exemption or waiver as the
+Commission considers necessary in the public interest; and
+(ii) require the person that is granted the exemption or waiver
+to cooperate with the Commission and to provide the Commission with any additional
+information required by the Commission as a condition of the waiver or exemption.
+(c) The Commission may not waive any of the requirements of this subtitle
+[for issuance of] RELATED TO a video lottery operation license.
+9–1A–20.
+(b) The Department of State Police or an approved vendor shall:
+(1) conduct a background investigation in a timely manner of:
+(i) AN APPLICANT FOR a video lottery [terminal] operation
+[licensee] LICENSE;
+(ii) a video lottery operator; and
+(iii) any other applicant the Commission considers necessary;
+and
+(2) cooperate with the Commission in obtaining and providing the
+necessary background investigation information.
+9–1A–26.
+(a) (1) [All] EXCEPT AS PROVIDED IN PARAGRAPH (2) OF THIS
+SUBSECTION, ALL proceeds from the operation of video lottery terminals shall be
+electronically transferred daily into the State Lottery Fund established under Subtitle
+3 of this title and distributed as provided under § 9–1A–27 of this subtitle.
+(2) THE REQUIREMENT UNDER PARAGRAPH (1) OF THIS
+SUBSECTION DOES NOT APPLY ON A DAY WHEN STATE GOVERNMENT IS CLOSED.
+– 16 –
+
+=== page 17 ===
+Martin O'Malley, Governor Ch. 624
+(b) (1) The Commission shall account to the Comptroller for all of the
+revenue under this subtitle.
+(2) The proceeds from video lottery terminals shall be under the
+control of the Comptroller and shall be distributed as provided under § 9–1A–27 of this
+subtitle.
+(C) THE ADMISSIONS AND AMUSEMENT TAX MAY NOT BE IMPOSED ON
+ANY PROCEEDS FROM THE OPERATION OF VIDEO LOTTERY TERMINALS.
+9–1A–27.
+(a) On a properly approved transmittal prepared by the Commission, the
+Comptroller shall pay the following amounts from the proceeds of video lottery
+terminals at each video lottery facility:
+(1) 2% to the State Lottery Agency for costs as defined in § 9–1A–01 of
+this subtitle;
+(2) to EXCEPT AS PROVIDED IN SUBSECTION (B) OF THIS SECTION,
+TO the video lottery operation licensee, the percentage stated in the accepted [bid]
+APPLICATION for the location, not to exceed 33%;
+(3) 5.5% in local impact grants, in accordance with § 9–1A–31 of this
+subtitle;
+(4) 7% to the Purse Dedication Account established under § 9–1A–28
+of this subtitle, not to exceed a total of $100,000,000 to the Account annually;
+(5) (I) EXCEPT AS PROVIDED IN ITEM (II) OF THIS ITEM, for the
+first 8 years of operations at a video lottery facility, 2.5% to the Racetrack Facility
+Renewal Account established under § 9–1A–29 of this subtitle, not to exceed a total of
+$40,000,000 to the Account annually;
+(II) FOR THE FIRST 5 YEARS OF OPERATIONS AT A VIDEO
+LOTTERY FACILITY IN ALLEGANY COUNTY, 2.5% TO THE VIDEO LOTTERY
+OPERATION LICENSEE THAT SATISFIES THE REQUIREMENT UNDER SUBSECTION
+(B) OF THIS SECTION;
+(6) 1.5% to the Small, Minority, and Women–Owned Businesses
+Account established under § 9–1A–35 of this subtitle; and
+(7) the remainder to the Education Trust Fund established under §
+9–1A–30 of this subtitle.
+– 17 –
+
+=== page 18 ===
+Ch. 624 2010 LAWS OF MARYLAND
+(B) FOR A LOCATION FOR THE FIRST 5 YEARS OF OPERATIONS AT A
+VIDEO LOTTERY FACILITY IN ALLEGANY COUNTY, THE COMPTROLLER SHALL
+PAY TO THE VIDEO LOTTERY OPERATION LICENSEE, ON A PROPERLY APPROVED
+TRANSMITTAL PREPARED BY THE COMMISSION, THE PERCENTAGE
+PERCENTAGES AUTHORIZED IN SUBSECTION (A)(2) AND (5)(II) OF THIS SECTION
+AS STATED IN THE ACCEPTED APPLICATION FOR THE LOCATION:
+(1) (I) NOT TO EXCEED 35.5% FOR 5 YEARS, IF THE APPLICANT
+THAT IS AWARDED THE FOR A VIDEO LOTTERY OPERATION LICENSE AGREES TO
+PURCHASE THE ROCKY GAP LODGE AND RESORT; AND.
+(II) NOT TO EXCEED 33% AFTER THE 5–YEAR PERIOD
+UNDER ITEM (I) OF THIS PARAGRAPH; OR
+(2) NOT TO EXCEED 33% IF THE VIDEO LOTTERY OPERATION
+AWARDEE DOES NOT PURCHASE THE ROCKY GAP LODGE AND RESORT.
+(b) (C) (1) If the costs of the State Lottery Agency are less than the
+proceeds specified in subsection (a)(1) of this section, any amount not distributed to
+the State Lottery Agency shall be paid to the Education Trust Fund established under
+§ 9–1A–30 of this subtitle.
+(2) The costs of the Commission shall be as provided in the State
+budget.
+9–1A–33.
+(a) The Commission shall:
+(1) establish an annual fee of $425, to be paid by each video lottery
+operation licensee, for each video lottery [position] TERMINAL operated by the
+licensee during the year, based on the maximum number of terminal positions in use
+during the year; and
+(2) distribute the fees collected under item (1) of this subsection to the
+Problem Gambling Fund established in subsection (b) of this section.
+9–1A–36.
+(a) There is a Video Lottery Facility Location Commission.
+(b) (1) The Video Lottery Facility Location Commission consists of seven
+members.
+(2) (i) Three of the members shall be appointed by the Governor.
+– 18 –
+
+=== page 19 ===
+Martin O'Malley, Governor Ch. 624
+(ii) Two of the members shall be appointed by the President of
+the Senate but may not be members of the Senate of Maryland.
+(iii) Two of the members shall be appointed by the Speaker of
+the House of Delegates but may not be members of the House.
+(3) The membership of the Video Lottery Facility Location
+Commission appointed under this subsection should reflect the race, gender, and
+geographic diversity of the population of the State.
+(4) One of the members appointed by the Governor shall be the chair
+of the Video Lottery Facility Location Commission.
+(5) The Governor, in consultation with the President of the Senate and
+the Speaker of the House of Delegates, may remove a member of the Video Lottery
+Facility Location Commission for inefficiency, misconduct in office, or neglect of duty.
+(c) A member of the Video Lottery Facility Location Commission:
+(1) shall be at least 21 years of age;
+(2) shall be a citizen of the United States;
+(3) shall be a resident of the State;
+(4) shall be knowledgeable and experienced in fiscal matters and shall
+have at least 10 years substantial experience:
+(i) as an executive with fiduciary responsibilities in charge of a
+large organization or foundation;
+(ii) in an academic field relating to finance or economics; or
+(iii) as an economist, financial analyst, or accountant, or as a
+professional in a similar profession relating to fiscal matters or economics;
+(5) may not have been convicted of or granted probation before
+judgment for a serious crime or a crime that involves gambling or moral turpitude;
+(6) may not have an official relationship to a person that holds a
+license under this subtitle;
+(7) may not have any direct or indirect financial interest, ownership,
+or management, including holding any stocks, bonds, or other similar financial
+– 19 –
+
+=== page 20 ===
+Ch. 624 2010 LAWS OF MARYLAND
+interests in any gaming activities, including horse racing, video lottery terminals, or
+lottery;
+(8) may not receive or share in, directly or indirectly, the receipts or
+proceeds of any gaming activities, including horse racing or lottery;
+(9) may not have a beneficial interest in any contract for the
+manufacture or sale of gaming devices, the conduct of any gaming activity, or the
+provision of any independent consulting services in connection with any gaming
+establishment or gaming activity;
+(10) may not be an elected official of State or local government; and
+(11) shall file a financial disclosure statement with the State Ethics
+Commission in accordance with Title 15, Subtitle 6 of this article.
+(d) A member of the Video Lottery Facility Location Commission:
+(1) may not receive compensation for serving on the Video Lottery
+Facility Location Commission; but
+(2) is entitled to reimbursement for expenses under the Standard
+State Travel Regulations, as provided in the State budget.
+(e) (1) The Commission and the Department of Legislative Services shall
+provide staff to the Video Lottery Facility Location Commission.
+(2) The Department of Legislative Services shall contract with an
+independent consultant that has at least 10 years substantial experience in consulting
+on matters relating to the gaming industry to assist and advise the Video Lottery
+Facility Location Commission in the review and analysis of [bids] APPLICATIONS
+submitted under this section.
+(f) The Video Lottery Facility Location Commission may award not more
+than five video lottery operation licenses to qualified [bidders] APPLICANTS, through
+a competitive [bidding] process consistent with the process for competitive sealed
+proposals under Title 13 of the State Finance and Procurement Article.
+(g) The Video Lottery Facility Location Commission may not award more
+than one video lottery facility operation license in a single county or Baltimore City.
+(h) (1) In order to qualify for a video lottery operation license [for a video
+lottery destination location] under this section, a proposed video lottery facility shall
+be located in one of the following counties:
+– 20 –
+
+=== page 21 ===
+Martin O'Malley, Governor Ch. 624
+(i) a location in Anne Arundel County, within 2 miles of MD
+Route 295;
+(ii) a location in Cecil County, within 2 miles of Interstate 95;
+(iii) EXCEPT AS PROVIDED IN § 9–1A–11(D) OF THIS
+SUBTITLE, a location on State property associated with the Rocky Gap State Park in
+Allegany County that shall be in a SEPARATE building that [is physically separate
+from] MAY BE ADJACENT OR CONNECTED TO the Rocky Gap Lodge and Golf Resort;
+(iv) a location in Worcester County, within 1 mile of the
+intersection of Route 50 and Route 589; or
+(v) a location in Baltimore City that is:
+1. located:
+A. in a nonresidential area;
+B. within one–half mile of Interstate 95;
+C. within one–half mile of MD Route 295; and
+D. on property that is owned by Baltimore City on the
+date on which the application for a video lottery operation license is submitted; and
+2. not adjacent to or within one–quarter mile of property
+that is:
+A. zoned for residential use; and
+B. used for a residential dwelling on the date the
+application for a video lottery operation license is submitted.
+(2) Nothing in [paragraph (1)(v)1D of this subsection] THIS SUBTITLE
+may be construed to preempt the exclusive authority of the Video Lottery Facility
+Location Commission to award video lottery operation licenses in accordance with this
+subtitle.
+(3) (i) With respect to a video lottery operation license [issued for]
+AWARDED TO a location under paragraph (1)(iv) of this subsection, the holder of the
+video lottery operation license or any other person with a direct or indirect legal or
+financial interest in the Ocean Downs racetrack or video lottery facility may not:
+– 21 –
+
+=== page 22 ===
+Ch. 624 2010 LAWS OF MARYLAND
+1. build any type of hotel, motel, or other public lodging
+accommodation on or within 10 miles of the property owned by the holder of the
+license on which a video lottery facility is operated;
+2. convert an existing facility on or within 10 miles of
+the property described in item 1 of this subparagraph into any type of hotel, motel, or
+other public lodging accommodation;
+3. build or operate a conference center or convention
+center, amusement park, amusement rides, arcade, or miniature golf course on or
+within 10 miles of the property described in item 1 of this subparagraph; or
+4. offer to patrons of the video lottery facility the playing
+of live music, floor shows, dancing, dancing exhibitions, performances, or any other
+form of live entertainment in or near the video lottery facility, provided that the holder
+of the video lottery operation license for the location under paragraph (1)(iv) of this
+subsection or another person with a direct or indirect legal or financial interest in the
+Ocean Downs racetrack or the video lottery facility may allow:
+A. live fireworks displays to be conducted on the
+property; and
+B. a single piano that is played by an individual.
+(ii) The prohibitions under subparagraph (i) of this paragraph
+apply to any subsequent holder of a video lottery operation license [issued] AWARDED
+under paragraph (1)(iv) of this subsection.
+(i) (1) Except as provided in paragraphs (2) and (3) of this subsection, the
+Video Lottery Facility Location Commission may not allocate more than the following
+number of video lottery terminals for:
+(i) a location in Anne Arundel County – 4,750 video lottery
+terminals;
+(ii) a location in Baltimore City – 3,750 video lottery terminals;
+(iii) a location in Cecil County – 2,500 video lottery terminals;
+(iv) a location in Rocky Gap State Park (Allegany County) –
+1,500 video lottery terminals; and
+(v) a location in Worcester County – 2,500 video lottery
+terminals.
+– 22 –
+
+=== page 23 ===
+Martin O'Malley, Governor Ch. 624
+(2) The Video Lottery Facility Location Commission may allocate
+video lottery terminals in a manner that is different from the allocation provided in
+paragraph (1) of this subsection on a determination that the market factors and other
+factors evaluated under subsection (k) of this section warrant the different allocation,
+provided that no one location may be allocated more than 4,750 video lottery
+terminals.
+(3) (i) Beginning with the termination date for the Video Lottery
+Facility Location Commission and every 3 years thereafter, if all of the video lottery
+terminals authorized under this subtitle are not allocated or have been allocated but
+are not in regular operation, the State Lottery Commission may allocate or reallocate
+video lottery terminals to video lottery operation licensees in a manner that ensures
+that the highest potential revenues are achieved.
+(ii) In determining the highest potential revenues to be achieved
+by additional video lottery terminals at each potential location, the State Lottery
+Commission shall consider the market performance of the existing video lottery
+terminals at each location.
+(j) (1) [A bid] AN APPLICATION submitted for a video lottery operation
+license [at a video lottery destination location] under this section [shall be submitted
+by February 1, 2009, and] shall include an initial license fee in the [bid]
+APPLICATION of at least $3,000,000 for each 500 video lottery terminals included in
+the [bid] APPLICATION.
+(2) All initial license fees submitted under this subtitle shall accrue to
+the Education Trust Fund established under § 9–1A–30 of this subtitle.
+(3) [A bid] AN APPLICATION submitted for a video lottery operation
+license under this section shall provide for at least $25,000,000 in direct investment by
+the applicant in construction and related costs for each 500 video lottery terminals
+contained in the proposed [bid] APPLICATION that shall be prorated based on the
+exact number of video lottery terminals contained in the [bid] APPLICATION.
+(k) (1) In awarding a video lottery operation license, the Video Lottery
+Facility Location Commission shall evaluate the factors under this subsection in the
+manner specified.
+(2) The decision by the Video Lottery Facility Location Commission to
+award a license shall be weighted by 70% based on business and market factors
+including:
+(i) the highest potential benefit and highest prospective total
+revenues to be derived by the State;
+– 23 –
+
+=== page 24 ===
+Ch. 624 2010 LAWS OF MARYLAND
+(ii) the potential revenues from a proposed location based on a
+market analysis;
+(iii) the extent to which the proposed location encourages
+Maryland gaming participants to remain in the State;
+(iv) the extent to which the proposed location demonstrates that
+the facility will be a substantial regional and national tourist destination;
+(v) the proposed facility capital construction plans and
+competitiveness of the proposed facility;
+(vi) the amount of gross revenues to be allocated to the VIDEO
+LOTTERY operator over the term of the license;
+(vii) the percent of ownership by entities meeting the definition
+of minority business enterprise under Title 14, Subtitle 3 of the State Finance and
+Procurement Article;
+(viii) the extent to which the proposed location will preserve
+existing Maryland jobs and the number of net new jobs to be created; and
+(ix) the contents of the licensee’s plan to achieve minority
+business participation goals in accordance with the requirements described under §
+9–1A–10(a)(1) and (2) of this subtitle.
+(3) The decision by the Video Lottery Facility Location Commission to
+award a license shall be weighted by 15% based on economic development factors,
+including:
+(i) the anticipated wages and benefits for new jobs to be
+created; and
+(ii) any additional economic development planned in the area of
+the proposed facility.
+(4) The decision by the Video Lottery Facility Location Commission to
+award a license shall be weighted by 15% based on location siting factors, including:
+(i) the existing transportation infrastructure surrounding the
+proposed facility location;
+(ii) the negative impact, if any, of a proposed facility location on
+the surrounding residential community; and
+– 24 –
+
+=== page 25 ===
+Martin O'Malley, Governor Ch. 624
+(iii) the need for additional public infrastructure expenditures at
+the proposed facility.
+(l) The Video Lottery Facility Location Commission may not award a video
+lottery operation license to a person that is not qualified under this section or this
+subtitle.
+(m) (1) The Video Lottery Facility Location Commission shall refer to the
+State Lottery Commission the name and all relevant information concerning a person
+that makes [a bid] AN APPLICATION under this section.
+(2) On receipt of the information in paragraph (1) of this subsection,
+the State Lottery Commission shall [determine] EVALUATE whether [a bidder] AN
+APPLICANT is qualified to hold a video lottery operation license under this subtitle.
+(3) On completion of its determination, the State Lottery Commission
+shall notify the Video Lottery Facility Location Commission of [the determination] ITS
+EVALUATION as to whether [a bidder] AN APPLICANT is qualified to hold a video
+lottery operation license under this subtitle.
+(N) AFTER AN AWARD OF A VIDEO LOTTERY OPERATION LICENSE
+UNDER THIS SECTION, THE VIDEO LOTTERY FACILITY LOCATION COMMISSION
+SHALL NOTIFY THE STATE LOTTERY COMMISSION OF THE SUCCESSFUL
+APPLICANTS.
+[(n)] (O) After AN award of a video lottery operation license under this
+section, the State Lottery Commission shall:
+(1) ISSUE THE VIDEO LOTTERY OPERATION LICENSE; AND
+(2) be responsible for all matters relating to regulation of the licensee.
+[(o)] (P) An unsuccessful [bidder] APPLICANT for a video lottery operation
+license under this section may seek, under Title 15 of the State Finance and
+Procurement Article, review by the State Board of Contract Appeals of the awarding of
+the video lottery operation license by the Video Lottery Facility Location Commission.
+[(p)] (Q) (1) Nothing in this subtitle may be construed to require the
+Video Lottery Facility Location Commission to [issue] AWARD all five video lottery
+operation licenses authorized under this subtitle.
+(2) Notwithstanding any of the provisions of this subtitle, the Video
+Lottery Facility Location Commission may not award a video lottery operation license
+under this subtitle unless the Video Lottery Facility Location Commission determines
+– 25 –
+
+=== page 26 ===
+Ch. 624 2010 LAWS OF MARYLAND
+and declares that [a bid] AN APPLICANT selected for award of the license is in the
+public interest and is consistent with the purposes of this subtitle.
+[(q)] (R) The Video Lottery Facility Location Commission may [reissue]
+AWARD a video lottery operation license that is revoked or surrendered utilizing the
+criteria established in this subtitle.
+[(r)] (S) (1) Except as provided in paragraph (2) of this subsection, the
+Video Lottery Facility Location Commission shall terminate on January 1, 2015.
+(2) The Governor may reconstitute the Video Lottery Facility Location
+Commission, which shall include the appointment of new members based on the
+criteria established under subsections (b) and (c) of this section:
+(i) one year prior to the expiration of a video lottery operation
+license; or
+(ii) following the revocation or surrender of a video lottery
+operation license.
+SECTION 2. AND BE IT FURTHER ENACTED, That the Laws of Maryland
+read as follows:
+Article – Business Regulation
+11–510.
+(a) Except as provided in subsection (b) of this section, the Commission may
+not issue a license, or award racing days, for racing at a mile track.
+(b) The Commission may issue a license and award racing days only to:
+(1) the Maryland Jockey Club of Baltimore City, Inc.; AND
+(2) the Laurel Racing Assoc., Inc.[; and
+(3) one other racing association for racing at a track located in
+Allegany County that is owned and operated by the racing association.]
+SECTION 3. AND BE IT FURTHER ENACTED, That, Section 2 of this Act
+shall take effect contingent on the purchase of the Rocky Gap Lodge and Resort,
+located in Allegany County, by a video lottery operation licensee, and if a video lottery
+operation license awardee does not agree to purchase the Rocky Gap Lodge and
+Resort, Section 2 of this Act shall be null and void without the necessity of further
+action by the General Assembly.
+– 26 –
+
+=== page 27 ===
+Martin O'Malley, Governor Ch. 624
+SECTION 2. 4. AND BE IT FURTHER ENACTED, That, except as provided in
+Section 3 of this Act, this Act shall take effect June 1, 2010.
+Approved by the Governor, May 20, 2010.
+– 27 –

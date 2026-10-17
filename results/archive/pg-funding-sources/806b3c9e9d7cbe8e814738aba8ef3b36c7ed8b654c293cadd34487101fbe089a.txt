@@ -1,0 +1,2456 @@
+=== page 1 ===
+OREGON'S PROBLEM GAMBLING
+TREATMENT AND SUPPORT SERVICES:
+EVALUATION REPORT
+Fiscal Year 2024-25
+OREGON HEALTH AUTHORITY
+PROBLEM GAMBLING SERVICES
+
+=== page 2 ===
+ACKNOWLEDGMENTS
+Special thanks go to the staff at Oregon Health Authority (OHA), Problem Gambling Services (PGS),
+particularly Greta Coe, for the time spent meeting with the evaluators and compiling program materials for
+the evaluation team’s review.
+This evaluation would not be possible without the PGS contracted gambling treatment providers, who input
+client data. Together our efforts create a more informed and evidence-driven system of care.
+This report was produced under the State of Oregon Contract Number 169063 between OHA and Problem
+Gambling Solutions, Inc. The members of the Problem Gambling Solutions, Inc. team working on this report
+are listed within the below suggested citation.
+Suggested citation: Yamagata, G. Vazquez, P., & Marotta, J. (2026). 2024-25 Gambling
+Treatment Services Evaluation Report: Oregon Health Authority, Problem Gambling
+Services. Salem, OR: Oregon Health Authority.
+
+=== page 3 ===
+TABLE OF CONTENT
+Introduction 04
+Overall Problem Gambling Treatment & Support Services 13
+Client Demographics 30
+Gambling Behavior 36
+Well-Being Self-Assessments, Concerned Others, & Attitudes 40
+Treatment Characteristics, Substance Use, & Gambling-Related Problems 43
+Treatment Discharge Details 52
+Residential & Department of Corrections Treatment Services 59
+GamFin & Evive Support 64
+Follow-up Treatment Evaluation 71
+Summary 82
+
+=== page 4 ===
+INTRODUCTION
+Since legislation created the Problem Gambling Treatment Fund in 1992 (ORS 409.430), Oregon has been committed to offering publicly funded gambling treatment. Addressing
+gambling related harms in Oregon has evolved over the years from supporting only gambling treatment into a comprehensive system. The Oregon Lottery operates responsible
+gambling programs, supports research, and runs problem gambling public awareness campaigns while the Oregon Health Authority (OHA) efforts focus on building strong partnerships
+for collaborative efforts to drive prevention, education, and treatment initiatives. In state fiscal year 2024-25, approximately eight million dollars in Oregon Lottery revenues were
+transferred to the OHA for administering their Problem Gambling Services (PGS).
+The present report focuses on state fiscal year 2024-25 (July 1, 2024, to June 30, 2025) gambling treatment and support services of the OHA Problem Gambling Services system,
+which accounts for a large percentage of the entire program budget. These funds allow for gambling treatment and recovery services to be made available to any Oregon resident,
+without any out-of-pocket costs, who has problems related to gambling, either as an individual or a person who has been affected by someone else's gambling (e.g., family, friends,
+significant others, colleagues).
+Information and help is made available to the public
+Oregon Problem Gambling Resources: www.opgr.org
+Problem Gam bling Helpline: My Limit (1-877-695-4648)
+4
+
+=== page 5 ===
+DESCRIPTION OF SERVICES & PROVIDERS
+Problem gambling occurs on a spectrum, along which individuals can move back and forth throughout their lifetime
+and recovery journey. Depending on the severity of the problem and the needs of an individual, there are a number of
+options for engaging in help-seeking and treatment services.
+Gambling without Mild gambling Moderate gambling Severe gambling
+Non-gambling
+problems problems problems problems
+Spectrum of problem gambling severity
+OHA supports efforts to identify individuals experiencing harmful gambling and to help them engage in positive
+change. Awareness campaigns and helpline resources encourage those who are passively looking for help to move
+into active help-seeking. Entities contracted by OHA to address gambling harm provide an array of services from early
+intervention, treatment, treatment supplements, and support for ongoing recovery, which are covered in this section.
+Passively or Diverse
+Not seeking help actively looking for treatment Recovery support
+help services
+Spectrum of engagement in problem gambling services
+5
+
+=== page 6 ===
+PUBLICLY FUNDED GAMBLING TREATMENT & SUPPORT SERVICES
+Gambling Treatment and Support Services in Oregon
+1% of Oregon Lottery revenues are
+transferred from lottery proceeds to
+Oregon has one of the largest gambling treatment systems in the nation, offering
+fund free public treatment services for
+gambling outpatient treatment services in most counties throughout the state,
+individuals with gambling problems
+residential treatment, and several unique or culturally-specific services. All publicly
+Oregon Legislature and their families, as well as
+funded treatment services are offered at no out-of-pocket cost to individuals and
+prevention programming and other
+concerned others impacted by gambling (e.g., partner, parent, child, etc.).
+services (see figure).
+This report covers services provided by treatment providers and agencies contracted
+The Oregon Health Authority
+with OHA to deliver state-funded gambling treatment services, along with important
+administers the funds, providing
+Oregon Health Authority,
+supplemental services provided by a gambling helpline, a gambling health app, and a
+approximately $8,000,000 annually
+Problem Gambling
+company offering financial counseling for those in gambling treatment.
+for problem gambling services.
+Services
+Local Treatment Change Tools and
+Problem Gambling Research & Prevention, Awareness, Workforce Recovery Support &
+Providers & Treatment
+Helpline Evaluation & Outreach Development Advocacy
+Agencies Supplements
+Services covered in this report
+6
+
+=== page 7 ===
+TYPES OF PROBLEM GAMBLING TREATMENT AND SUPPORT SERVICES
+Funded by the Oregon Health Authority’s Problem Gambling Services (PGS), interventions are designed to address a range of gambling-related problems using a level-of-care approach.
+In this model, individuals are offered the most effective and least restrictive intervention approach before being “stepped up” to a higher level of care if needed, and “stepped down” to a
+lower level of care when appropriate. Evive, a digital health app, and GEAR, a minimal intervention program, are the lowest levels of care, followed by outpatient treatment (which
+includes culturally-specific programs), and residential treatment, the highest level of care offered in Oregon. Peer support can be an additional source of support for individuals during
+their recovery process, at any level of care.
+Home-Based Minimal Intervention Gambling Reduction and Recovery Outpatient Gambling Treatment Residential Gambling Treatment
+(GEAR) for Incarcerated Populations
+In FY2024-25, 97 problem gambling There is one residential treatment
+(GRIP)
+counselors from 42 different agencies facility located in Marion County that is
+A treatment option often utilized by
+GRIP is a program delivered within contracted with PGS to provide designed exclusively for gambling
+individuals who travel frequently,
+Oregon Department of Corrections problem gambling treatment services. disorder treatment.
+require anonymity, or are looking for a
+facilities consisting of a 12 session
+home-based minimal intervention.
+Outpatient treatment may include The co-ed treatment facility provides
+structured psychoeducational group
+individual and family therapy, group peer support, counseling, and nutritious
+This program consists of a workbook
+designed for incarcerated adults
+therapies, and peer support, and meals. The location is in an unlocked
+that is designed to be completed at
+electing to address gambling related
+community recovery group home-like environment with support for
+home with telephone or video-
+issues
+participation is encouraged. visitations.
+conferencing support from a counselor.
+Financial Counseling (GamFin) Digital Health App (Evive) Culturally-Specific Service Peer Support
+Programs
+GamFin provides financial counseling A digital option for those interested in Five programs provided peer support
+and recovery tools for individuals and using a health app designed to support Oregon’s gambling treatment system services in FY2024-25.
+loved ones in financial distress that is changes in gambling behavior. The app works diligently to ensure that culturally
+Peer mentors (or peer support
+gambling related. allows users to set their gambling relevant and linguistically appropriate
+specialists) utilize their lived experience
+management or stop goal. It offers treatment services for Hispanic or
+with problem gambling to support
+education, behavior monitoring tools, Latino, Black or African-American,
+others in recovery.
+cognitive behavioral lessons, and a Native American, and Asian-American
+digital support community. individuals and families are available.
+7
+
+=== page 8 ===
+EVALUATION OVERVIEW
+The OHA problem gambling treatment system includes a robust evaluation program composed of two
+primary components: (1) A data collection system that collects intake, discharge, and encounter data
+inputted directly from gambling treatment providers, and (2) a follow-up treatment evaluation that
+collects longer-term client outcome data collected by an independent researcher. The data collection
+system used in FY2024-25 was an OHA PGS-developed system named the Problem Gambling Network
+(PG Net) Data Collection System. PG Net was created as a web-based system where contracted
+gambling treatment providers log in and enter intake, discharge, and encounter data. In FY2024-25,
+OHA PGS contracted with Problem Gambling Solutions, Inc. to provide PG Net data analysis and
+reporting functions, along with administering a gambling treatment follow-up evaluation. These two
+evaluation components are described in greater detail later in this section.
+The current report reflects data captured from two primary sources for FY2024-25:
+The PG Net system for clients who were seen by OHA contracted gambling treatment providers.
+Data collected from the problem gambling treatment follow-up evaluation.
+Other secondary data sources for FY2024-25 include:
+Information gathered from Oregon’s Problem Gambling Helpline.
+A GamFin report outlining OHA PGS client participation, activities, and program benefits.
+A report on OHA PGS client use of the Evive Digital Health Application.
+Information on activities and client profiles of individuals receiving problem gambling treatment
+services under Medicaid.
+Detailed information about PG Net, including a PG Net Users Guide with all the data fields, can
+be found on the OHA Problem Gambling Services website: https://www.oregon.gov/PGNet.
+8
+
+=== page 9 ===
+PROBLEM GAMBLING NETWORK (PG NET) PROBLEM GAMBLING TREATMENT
+DATA COLLECTION SYSTEM FOLLOW-UP EVALUATION
+OHA gambling treatment providers are required to enter intake, discharge, The current follow-up evaluation protocol was initiated in July 2023. Clients are
+and encounter data into PG Net for all gambling treatment-enrolled clients. eligible to participate in the evaluation upon enrolling in treatment services,
+including outpatient treatment for problem gambling or gaming, residential
+The data system allows OHA to evaluate all programs consistently, resulting
+treatment for problem gambling, or outpatient services as a concerned other.
+in the ability to utilize treatment data to inform policy, practice, and
+Participating clients in outpatient treatment complete telephone surveys after
+continual improvement efforts. Most data fields within PG Net are required;
+30, 90, 180, and 365 days from the date they enrolled in services. Clients also
+however, several are optional and sometimes left incomplete.
+have the opportunity to provide feedback when they exit treatment and are
+followed for up to a year after exiting, completing telephone surveys 180 and
+With partially empty data fields, analyses are limited. For example, missing
+365 days later.
+data on gender identity can result in an underestimate of clients who identify
+outside of the male/female binary. In the end, underrepresented groups are
+Participating clients enrolled in residential treatment complete a telephone
+left unrepresented. To address this, OHA PGS initiated a program to improve
+survey about their experience once, though they may continue to participate
+data quality and data collection methods moving forward, which will be
+when established with an outpatient provider.
+reflected in future reports.
+The evaluation allows the treatment system to be evaluated by an external
+The system provides insights into:
+research team, providing important feedback about client experiences and
+Demographics of clients utilizing services throughout the state.
+behavior change.
+Effectiveness of the services provided.
+How treatments offered by client demographics relate to treatment The evaluation gathers information on:
+success. Treatment motivation and recovery goals.
+How treatment and utilization factors apply to treatment success. Gambling behaviors and urges.
+Local programs' compliance with contractually required performance Supportive factors, such as wellness variables, recovery community
+standards and metrics. engagement, and social support.
+Treatment experience, including both qualitative and quantitative ratings.
+9
+
+=== page 10 ===
+METHOD
+The primary scope of this analysis includes all clients who had an encounter during the FY2024-25 period and whose activities were reported in the PG Net data management
+system or collected through phone-based surveys. This includes clients admitted to the program in a previous fiscal year who had at least one encounter in FY2024-25, as well as
+those who were either admitted or discharged within FY2024-25. Notably, these results do not include clients receiving treatment through private insurance, unless otherwise
+stated. Limited analysis of Medicaid activities with clients diagnosed with a gambling disorder is conducted using a non–PG Net data source.
+The analyses are primarily descriptive, providing (1) an in-depth profile of clients in the PGS treatment population, (2) an account of encounter activities by treatment providers,
+(3) an examination of program performance based on client discharge data, and (4) client feedback and behavioral changes based on survey data.
+Charts are used extensively to make complex data more accessible and understandable. Tables are also used when a more detailed, precise data representation is required.
+Statistical tests are used when it is important to establish an insight with statistical rigor. A 0.05 level of significance is used. The Python and R programming languages are used to
+perform the analyses.
+10
+
+=== page 11 ===
+FY2024-25
+GEOGRAPHIC LOCATION OF
+PROBLEM GAMBLING TREATMENT
+SERVICES IN OREGON
+Key
+Outpatient treatment locations
+Residential treatment locations
+Correctional locations
+Tribal behavioral health locations
+Telehealth Services Expand Access to Treatment
+Oregonians have the opportunity to enroll
+in gambling treatment services virtually,
+expanding access to individuals without
+programs nearby.
+11
+
+=== page 12 ===
+TREATMENT SERVICE ANALYSES
+OHA PGS-funded treatment services are analyzed and presented in this report in five
+categories:
+Overall Treatment Services
+(a) Service delivery, (b) Clients and encounters, (c) Treatment programs, (d) County of
+residence, (e) Referral source, (f) Wait time, (g) Encounter location, and (h) Telehealth use
+Client Demographics
+(a) Gender, (b), Primary ethnicity, (c) Age, (d) Marital status, (e) Age of dependents, (f) Annual
+income, (g) Military status, and (h) Educational attainment
+Gambling Behavior
+(a) Primary gambling activities and (b) Primary gambling venues
+Well-being and Concerned Others Attitudes
+(a) Measures of well-being, and (b) Attitudes
+Substance Use, Treatment Characteristics, and Problem Gambling-Related Problems
+(a) Substance use, (b) Prior treatment episodes, (c) Client-reported problem behaviors related
+to gambling, (d) Counselor diagnostic impressions, (e) Diagnostic Profile of Medicaid clients,
+and (d) Gambling disorder severity
+Treatment Discharge Details
+(a) Reasons for discharge, (b) Behavioral indicators, (c) Factors associated with successful
+program completion, (d) Cost and encounter characteristics associated with successful
+program completion, and (e) Referrals following program discharge
+12
+
+=== page 13 ===
+OVERALL TREATMENT &
+SUPPORT SERVICES
+13
+
+=== page 14 ===
+OVERALL TREATMENT SERVICES DELIVERED
+Client Services Delivery
+During FY2024-25, the OHA Problem Gambling Services (PGS) system delivered a total of 17,634
+encounters to approximately 833 clients. The majority of encounters (89.5%) were funded by OHA,
+Definitions
+with the remaining 10.5% funded through Medicaid-funded PG services and Medicaid-funded
+integrated PG specific services. In addition, OHA PGS provided access to the Evive problem
+An encounter is a unit of direct client contact (e.g., a
+gambling harm-reduction digital support app to 211 Oregonians and facilitated free financial
+session between a client and a provider). The length of an
+consultations through GamFin for approximately 42 Oregonians.*
+encounter varies by treatment service type.
+100
+For example, an encounter in traditional outpatient
+89.5
+counseling is often 53-60 minutes long, whereas an
+80
+encounter in residential treatment may last a full day.
+60
+As defined in this report, a Medicaid client is an individual
+whose costs of encounters are covered under Medicaid
+40
+(not covered under the OHA PGS System) and not
+tracked in PG Net.
+20
+10.5
+0
+OHA PGS-funded Medicaid funded
+* The number of Oregonians receiving GamFin services is an estimate based on total clients receiving services.
+14
+
+=== page 15 ===
+OHA PGS FUNDED TREATMENT PROGRAMS
+The network of problem gambling services funded by OHA PGS offers a wide range of treatment
+options tailored to individual needs. The majority of clients were enrolled in Traditional Treatment, while
+8% received services through the ODOC program, 7% received Residential Treatment, and 1%
+participated in the GEAR program.
+100
+83.8
+80
+Definitio
+n 60
+40
+20
+8.4
+7.0
+0.8
+0
+Traditional Outpatient ODOC Residential GEAR
+stneilC
+fo
+%
+Treatment Types
+Traditional Outpatient: Traditional outpatient treatment is typically
+delivered in a community mental health and/or addiction treatment
+setting and may include individual and family counseling, group
+therapies, peer support, and outpatient counseling, delivered by a
+certified gambling addiction counselors who are also mental health
+or substance abuse professionals. This service is available to any
+Percent of Clients Enrolled by Treatment Type
+Oregon resident with gambling or gaming related concerns.
+Oregon Department of Corrections (ODOC): OHA PGS supports
+the Gambling Reduction and Recovery for Incarcerated Populations
+(GRIP) Program, available at Coffee Creek Correctional Facility and
+Columbia River Correctional Institution. GRIP is a psychoeducational
+group consisting of 12 sessions specifically designed for incarcerated
+adults who are concerned about their gambling behavior, either as a
+current issue or as a threat to their post-release success.
+Residential: Treatment that involves individuals staying at a
+treatment facility that provides an immersive and comprehensive
+gambling disorder treatment program.
+GEAR: A telehealth program that offers minimal intervention. The
+program consists of a self-help workbook that is designed to be
+Treatment Type
+completed at home with remote support from a professional
+counselor.
+15
+
+=== page 16 ===
+CLIENT TREATMENT TYPES
+In FY2024-25, 91% of clients received services for their own gambling behaviors, 100
+91.1
+8% were individuals affected by another persons gambling (concerned others),
+and less than 1% received services related to social gaming, either for themselves
+80
+or as concerned others. In FY2023-24, the distribution of gambling-related
+clients was similar.
+60
+40
+In FY2024–25, OHA PGS began treating clients for issues related to social
+gaming. Social gaming issues involve excessive play of electronic games that
+20
+interfere with daily functioning, relationships, or well-being and do not
+necessarily involve gambling or gambling-like features. 8.0
+0.7 0.1
+0
+Gambling Client Gambling Concerned Other Gaming Client Gaming Concerned Other
+16
+
+=== page 17 ===
+70
+60
+50
+40
+30
+20
+10
+0
+t m
+e n
+t
+O t
+h e
+r
+e f e
+r r
+al
+m a
+ti o
+n
+t m
+e n
+t
+e f e
+r r
+al
+e a r r o r e a R r
+e f e r r
+al
+t
+o
+T r
+V e r
+b
+al
+p
+e e
+S
+e
+n
+t
+i
+n f
+a n s f
+e
+r
+t
+o
+T r
+e r b
+al
+G
+E
+A
+R t r V
+al m
+b r
+e r W a
+V
+Outcome
+tnecreP
+8% of callers reported their primary language was Spanish. 1-844-TU VALES
+HELPLINE CALL CLIENT SERVICES
+Helpline Call Outcomes
+OHA contracts problem gambling helpline services via phone (1-877-MY-LIMIT, available 24/7), chat
+(opgr.org, 9:00 AM–9:00 PM, Monday through Friday), and text (1-503-6000, 9:00 AM–9:00 PM).
+In FY2024-25, the helpline received 564 calls from individuals seeking support for their own
+58
+gambling behaviors or from concerned others. This volume was virtually unchanged from the 560
+calls received in FY2023-24.
+Of these calls, 72% resulted in verbal referrals to treatment counselors, peer support specialists, or
+the GEAR program, and 7% involved a warm transfer to crisis counseling services. Additionally, 7% of
+callers were provided with informational resources, while 27% received other types of support
+services. (Note, callers may receive multiple services during a single contact; therefore, percentages
+27
+do not sum to 100%.).
+13
+Eighty-nine percent of callers were seeking help for their own gambling behaviors, while the
+remaining 11% were concerned others. In addition, 8% of callers reported Spanish as their primary 7 7
+language.
+1
+Live Chat Text Call Helpline
+www.opgr.org 503-713-6000 En: 1-877-MY-LIMIT
+9am - 9pm M-F 9am - 9pm M-F Es: 1-844-TU VALES
+17
+
+=== page 18 ===
+HELPLINE ONLINE CLIENT SERVICES
+During the 2024 calendar year, the Oregon Problem Gambling Resource
+website (opgr.com) recorded 644,000 site sessions, a 126% increase from
+the previous year. In addition, 16,856 site visitors engaged in an action
+(e.g., live chat, search for a community meeting, such as Gamblers
+Anonymous, and learn about Evive), a 9% increase from the previous year.
+The website also facilitated 123 helpline text interactions and 846 helpline
+chats, resulting in 404 referrals to treatment services.
+1000
+846.0
+800
+600
+400
+200
+123.0
+0
+Helpline live chats Helpline text
+18
+
+=== page 19 ===
+TRADITIONAL TREATMENT
+SUPPORT SERVICES
+19
+
+=== page 20 ===
+TRADITIONAL TREATMENT SERVICES DELIVERED
+Client Services Delivery
+Changes in Traditional Treatment Clients
+Through its network of 42 problem gambling treatment programs, the PGS Traditional Treatment programs
+in OHA PGS System
+conducted 12,288 treatment encounters, serving 698 unique clients during FY2024-25. Compared to the
+previous year, the number of encounters increased by 46%, however, the number of unique clients served
+decreased by 16%. The increase in total encounters may be partially explained by improved data submission
+practices, leading to more complete capture of service encounters, as well as the inclusion of peer service
+395
+400
+encounters that were not previously recorded in the PG Net system.
+Over the course of the
+When the 2024-25 fiscal year began on July 1, 2024, there were 285 clients currently enrolled in Traditional
+year...
+Treatment. Over the course of the year, an additional 553 clients were admitted, while 443 were discharged,
+300 resulting in a net gain of 110 clients by the end of the fiscal year (June 30, 2025).
+285
+Eighty-nine percent of clients received services for their own gambling behaviors, 10% were concerned
+553 clients
+others, and 1% received services related to social gaming. This distribution of clients was similar to that in the
+enrolled
+previous fiscal year.
+200 &
+443
+clients
+exited
+100
+During FY2024-25, 698 Oregon adults received outpatient gambling treatment
+services through PGS-funded programs, and an additional 159 clients received
+Medicaid-funded treatment.
+0
+Start of FY2024-25 End of FY2024-25
+20
+
+=== page 21 ===
+MONTHLY PGS DELIVERED SERVICES
+On average, the PGS PG Net system recorded 1,024 encounters per month during FY2024-25, compared to 899 per month in FY2023-24. The increase observed this fiscal year may
+reflect more accurate reporting of encounters, as well as the inclusion of peer service encounters that were not previously captured in the PG Net system.
+In FY2024-25, January and April recorded the highest monthly encounter counts, while August and September recorded the lowest. Monthly encounter patterns in FY2024-25 were not
+correlated with those observed in FY2023-24. FY2024-25 Medicaid encounters followed similar patterns to those observed in Traditional Treatment activities.
+Treatment Service Encounters, by Month
+1189
+1200 1175 1164
+1126
+1026
+1013 1007 1002
+1000
+931
+913
+870 872
+811
+800 767 770 762 777
+746
+684 677 693
+654
+600 576
+492
+400
+200
+0
+Jul Aug Sep Oct Nov Dec Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Jan Feb Mar Apr May Jun
+sretnuocnE
+fo
+#
+2023 2024 2025
+FY2023-24 FY2024-25
+21
+
+=== page 22 ===
+MONTHLY PGS TRADITIONAL TREATMENT CLIENT ADMISSIONS
+Approximately 46 clients per month were admitted into the OHA PGS Traditional Treatment system in FY2024-25. Within FY2024-25, March and April recorded the highest number of
+admissions, while June, October, and November had the lowest. Similar to encounter volumes, monthly admission patterns showed no correlation between FY2023-24 and FY2024-25.
+Client Admissions, by Month
+70
+64
+60
+57 57
+53
+49
+50 48
+47 47
+46
+45 45
+44 44
+43 43
+42
+41 Definitio 40
+39 39 39 39 39
+40
+n
+30
+27
+20
+10
+0
+Jul Aug Sep Oct Nov Dec Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Jan Feb Mar Apr May Jun
+stneilC
+fo
+#
+2022 2023 2024
+FY2023-24 FY2024-25
+Note: Oregon Department of Corrections clients included under “Traditional Treatment” in FY2023-24 and were not included within this category in FY2024-25
+22
+
+=== page 23 ===
+20
+15
+10
+5
+0
+Jul Aug Sep Oct Nov Dec Jan Feb Mar Apr May Jun
+Month
+tnecreP
+HELPLINE CLIENT SUPPORT ACTIVITIES
+Helpline Calls, by Month
+Helpline calls during FY2024-25 followed a different monthly pattern than both treatment
+encounters and admissions. A disproportionate share of calls occurred during the spring months
+(April, May, and June), approximately 50% higher than would be expected if calls were evenly
+distributed across the year. Mondays and Fridays were the most common days for calls, while
+Saturdays and Sundays were the least common.
+14.0
+Call volume increased around 8:00 a.m., peaked between 1:00 and 3:00 p.m., and declined
+12.6
+during the evening and overnight hours.
+10.5
+9.0
+8.0
+7.8
+7.6 7.6
+6.9
+6.7
+10
+5.3
+8
+3.9
+6
+4
+2
+0
+m m m m m m m m m m m m m m m m m m m m m m m m
+a a a a a a a a a a a p p p p p p p p p p p p a
+1 2 a m,
+1
+1 a m,
+2
+2 a m,
+3
+3 a m,
+4
+4 a m,
+5
+5 a m,
+6
+6 a m,
+7
+7 a m,
+8
+8 a m,
+9
+9 a m, 1
+0
+1 0 a m,
+11
+11 a m, 1
+2
+1 2 p m,
+1
+1 p m,
+2
+2 p m,
+3
+3 p m,
+4
+4 p m,
+5
+5 p m,
+6
+6 p m,
+7
+7 p m,
+8
+8 p m,
+9
+9 p m, 1
+0
+1 0 p m,
+11
+11 p m, 1
+2
+Hour of day
+23
+tnecreP
+Helpline Call, by Time of Day
+Polynomial Trend Line
+
+=== page 24 ===
+TREATMENT SERVICES DELIVERED
+The most common treatment service delivered was Individual Gambling Counseling followed by Group Counseling.
+Group Counseling includes both group work while in active treatment and continuing care for individuals who have
+completed their primary problem gambling treatment. During FY2024-25, 20 clients received continuing care, a large
+decline from the 34 clients who received such services in FY2023-24. Peer-delivered services were the third most
+common type of treatment service delivered.
+The largest year-over-year change was the increase in reported peer services, which accounted for 1.7% of all Regular
+Treatment services in FY2023-24. This increase is largely attributable to the inclusion of the HOPE Peer Mentoring
+Program, the program that delivers the majority of peer services, which was not included in the PG Net data system in
+FY2023-24 and therefore was not reflected in that year’s reporting. In FY2024-25, five agencies delivered some level of
+peer-delivered services, compared to eight agencies in the previous year. Definitio
+n
+60
+51.1
+50
+40
+30
+22.9
+20
+11.2
+10
+4.6 4.3 4.3
+1.6
+0
+stneilC
+fo
+%
+Continuing Care Services
+Support services provided in a group setting to
+individuals who have completed treatment for their
+problem gambling related challenges. These services
+are designed as an aftercare support to help clients
+maintain the progress they made during treatment
+and continue their recovery journey. Services include
+skill reinforcement, long-term recovery focus, and
+emotional support.
+Treatment Services
+Medicaid
+The distribution of the two most common service
+types among Medicaid-covered clients was similar to
+that of clients receiving non-Medicaid-funded
+services, with 45% allocated to Individual Gambling
+Counseling and 21% to Group Counseling.
+Individual Group Case Referral
+Peer Delivered Family Assessment &
+Gambling Counseling Management & Services
+Services Counseling Screening
+Counseling Treatment
+Planning
+24
+
+=== page 25 ===
+CLIENT LOCATION Client County of Residence
+The largest counties in Oregon accounted for the largest share of clients in the PGS
+% of clients in PGS % over or under
+County % of Oregon population (1) treatment population. Specifically, the top four most populous counties,
+treatment population represented (2)
+Multnomah, Washington, Lane, and Marion, made up 66% of the treatment
+Multnomah 24.3 18.9 28.5
+population.
+Washington 19.2 14.5 32.2
+However, the representation of counties in the treatment population does not
+Lane 12.3 9.1 35.4
+always align with their relative sizes in Oregon's overall population. For example,
+Marion 9.5 8.4 13.3 Multnomah County represents 24.3% of the Regular Treatment population but only
+18.9% of the state's population, indicating that it had a disproportionately larger
+Clackamas 7.7 10.1 -23.9
+share of the treatment population than expected. Similarly, Umatilla County
+Josephine 2.9 2.1 38.2
+accounted for 2.6% of the treatment population but only 1.9% of the state
+population. In contrast, counties such as Jackson, Deschutes, and Yamhill had
+Deschutes 2.8 5 -44.3
+treatment population shares that were smaller than their relative shares of the
+Umatilla 2.6 1.9 35.9
+overall state population. Specifically, these counties are underrepresented by 62%,
+Linn 2.3 3.1 -26.9 44%, and 36%, respectively.
+Crook 2.2 0.6 238.7
+Jackson 2 5.3 -62
+Over- & Under-Representation
+Yamhill 1.7 2.6 -35.5 It is useful to compare the percentage of clients in a geographical area (such as
+a county) and compare it to the percentage of the population that the county
+Columbia 1.7 1.3 32.3
+represents. Such an analysis allows us to gauge whether there are more or
+Out of Oregon 1.2 0 NA
+fewer clients relative to the population size. In some cases, the analysis might
+Other 7.8 17 -54 reveal that some areas might be underserved or that there are geographical
+clusters of individuals with higher rates of gambling problems.
+1. https://www.oregon-demographics.com/counties_by_population.
+2. % overserved and underserved are computed by (% of clients in county / % of Oregon population)*100 – 100 and
+then multiplied by 100 to convert to a percentage. Positive values mean that the county had a greater share of
+clients relative to its population size. Negative values have the opposite interpretation.
+25
+
+=== page 26 ===
+CLIENT REFERRAL SOURCE
+About one in three clients treated in the Traditional Treatment program in FY2024-25 Gambling Referred From Code
+reported self-referring to the program. Referrals from other sources (e.g., schools and
+interventions) were the second most common, followed by helpline referrals. This Legal System 1.7%
+distribution differs markedly from FY2023-24, when more than 60% of clients reported Outpatient Mentor 1.2%
+2.8% Residential 3%
+self-referring into treatment.
+Other Providers
+16.3%
+Self
+35.6%
+36%
+of clients referred themselves to gambling treatment
+Helpline
+20.7%
+21%
+were referred by the gambling helpline: MYLIMIT (1-877-695-4648)
+Other
+21.4%
+Insights from the Follow-Up Project
+16%
+were referred by behavioral health providers
+Readiness to engage in treatment services is an individual process. Participants in
+the follow-up evaluation tended to describe their decision to reach out for help as a
+result of growing consequences. Common stressors that motivated treatment-
+seeking included severe financial loss, realizing that they had lost control, strain on
+important relationships, and serious negative impacts on mental health.
+26
+
+=== page 27 ===
+WAIT TIME
+Wait time: First Client Contact to First Offered
+Minimizing client wait time, the number of workdays between a client contacting a treatment
+Appointment
+provider and the first offered appointment, is important. The window of opportunity for
+individuals to feel motivated to seek gambling treatment can be narrow. Short wait times
+8.9%
+enable timely intervention, reducing the risk of gambling-related problems escalating.
+24.9%
+For admissions to Traditional Treatment that took place during FY2024-25, the PGS system
+11.4%
+had an average wait time of 4.5 workdays (median of 2 workdays). About a fourth of
+individuals seeking treatment were able to see a treatment provider without delay (same-day
+appointment).
+Short Wait Times Get People Into Treatment Quickly
+About one-fourth of Oregon adults seeking gambling treatment were able to see a
+54.8%
+provider the same day.
+0 1-5 6-10 11+
+Days
+27
+
+=== page 28 ===
+Location of Client Encounters
+Office encounters were the most common location for client treatment in
+FY2024-25, accounting for about half of total FY2024-25 encounters.
+Telehealth was the second most common method of delivering
+50
+47.7
+encounters, followed by other places of service. The decrease in telehealth
+41.6 encounters over time has stabilized since its peak during the COVID-19
+40
+pandemic. (see graph presented on the following page entitled, “Trends in
+Telehealth Service Delivery”.)
+30
+Telehealth accounted for 42% of client
+20
+encounters. Compared to FY2023-24,
+telehealth encounters declined by 5%,
+10.8
+reflecting stabilization of the downward
+10
+trend since their peak during the COVID-19
+pandemic.
+0
+Office Telehealth Other Place of Service
+Location
+sretnuocnE
+fo
+%
+ENCOUNTER LOCATION
+28
+
+=== page 29 ===
+The use of telehealth has declined over time, ranging from a peak of 55.2% in July 2023 to a low of 35.5% in June 2023. Telehealth utilization has stabilized since the pandemic peak,
+averaging about 42% over the past 18 months.
+60 55.2
+50
+40
+35.5
+30
+20
+10
+0
+J ul A u g S e p O c t N o v D e c J a n F e b M a r A p r M a y J u n J ul A u g S e p O c t N o v D e c J a n F e b M a r A p r M a y J u n J ul A u g S e p O c t N o v D e c J a n F e b M a r A p r M a y J u n
+htlaeheleT
+%
+TRENDS IN TELEHEALTH SERVICE DELIVERY
+2022 2023 2024
+29
+
+=== page 30 ===
+TRADITIONAL GAMBLING TREATMENT
+CLIENT DEMOGRAPHICS
+30
+
+=== page 31 ===
+GENDER IDENTITY
+In FY2024–25, 53% of Traditional Treatment clients were male, 46% were female, and
+1% identified as transgender or another unspecified gender. According to 2024 U.S. 53% of clients identify as male.
+Census estimates, Oregon’s population is 49% male and 51% female.* Thus, males
+46% of clients identify as female.
+appear overrepresented in Traditional Treatment by approximately 9% relative to their
+Less than one percent (1%)*** of clients
+proportion in the general population. However, the most recent Oregon gambling
+identify as transgender or another
+behavior survey** found that males scored in the Problem Gambling “High-Risk” range
+unspecified gender.
+(8+) on the Problem Gambling Severity Index at twice the rate of females (8.3% vs.
+4.1%). When treatment participation is considered relative to estimated clinical need,
+***This is likely an underrepresentation, due
+males are in fact underrepresented in gambling treatment, while females appear to be
+to missing data.
+accessing state-supported gambling treatment at roughly twice the rate of males with
+comparable levels of risk.
+Clients in the Medicaid population were also disproportionately male, with 57% males
+and 44% female.
+Helpline
+Females were more likely to be concerned other clients, accounting for 83% of this Calls in FY2024-25 exhibited a gender identification
+group. They were also more likely to use telehealth services, with a participation rate of distribution similar to that of the OHA PGS treatment
+57%, compared to 50% for males. While females were more likely than males to rely on system, with 58% identifying as male and 42% as female.
+the helpline as a referral source, this difference was not statistically significant.
+*https://www.census.gov/quickfacts/fact/table/OR/PST045223
+**Marotta, J., Yamagata, G., & Vasquez, P. (2025). 2024 Oregon Adult Gambling Attitudes, Behavior, and Health Survey. Hillsboro OR: Oregon Council on Problem Gambling
+31
+
+=== page 32 ===
+RACE/ETHNICITY
+Clients are asked to report all race and ethnicity categories with which they identify, consistent with the
+REALD framework (see sidebar). About 2% identified with multiple race or ethnicity categories, which is REALD: Race, Ethnicity, Language & Disability**
+roughly half the rate observed in FY2023-24.
+“REALD was passed into Oregon law and is a new type of
+White was the largest represented ethnicity in the PGS treatment system, reflecting the demographics of
+demographic information that is collected by health care providers.
+Oregon's population. According to the US Census Bureau, approximately 85% of Oregonians were
+Collecting this information helps to identify health inequities for
+classified as “White Alone” as of 2024. In contrast, 70% of clients receiving Regular Treatment identified as
+populations within Oregon. Having this data allows the Oregon
+“White Alone,” indicating a greater representation of racial and ethnic minority groups in the PGS system.
+Health Authority (OHA) to better understand the different
+populations we work with and serve, and will help us move toward the
+It is important to note that 33% of the race/ethnicity data were either missing or the client declined to
+goal of ending health inequities by 2030”.
+answer the question. This introduces the potential for self-selection bias, resulting in a subsample that may
+not fully represent the treatment population.
+Primary ethnicity categories included seven options provided by
+REALD: American Indian and Alaska Native, Asian, Black and African
+American, Hispanic and Latino/a/x, Middle Eastern/North African,
+Race/Ethnic Identity of Clients
+White, or Native Hawaiian and Pacific Islander, all of which have more
+specific cultural identity options (e.g., Asian Indian, Chinese, etc.).
+White (72.1%)
+Additionally, there is an “Other” category.
+Hispanic or Latino/x (13.3%)
+Black and African American (6.9%)
+Asian (5.2%)
+American Indian and Alaska Native (2.8%)
+Helpline
+Other (1.8%)
+In FY2024-25, 65% of callers identified their primary race and ethnicity
+Native Hawaiian and Pacific Islander (0.4%)
+as White, followed by Hispanic or Latino/x (17%), Black or African
+0 20 40 60 80
+American (7%), Asian (6%), and Other (6%). Overall, this distribution
+closely mirrors that of clients in the OHA PGS treatment system.
+% of Clients
+* The difference is statistically significant at the 5% level of significance. ** Source: https://www.oregon.gov/oha/ph/birthdeathcertificates/registervitalrecords/pages/reald.aspx
+32
+
+=== page 33 ===
+CLIENT AGE & MILITARY STATUS
+Client Age
+Overall, the average age of clients at the time of admission was 49, with females being older than males (53 versus 46).*
+This age profile was very similar to that of the previous year, which also had an average age of 49 (54 for females and 45
+for males). Medicaid clients were slightly younger, with an average age of 42 (46 for females and 39 for males).
+Only 1.7% of clients were under the age of 21, while the majority (66%) were between the ages of 30 and 59. By
+comparison, a recent 2023 census report indicated that just 39% of the general population falls within this age range,**
+highlighting the older age profile of individuals who seek gambling treatment.
+In FY2024–25, 11% of clients reported first gambling before age 18, 11% between ages 18 and 21, and 78% at age 21 or
+older.
+24.6
+25
+21.8
+19.7
+20
+17.4
+15
+10
+8.1
+6.8
+5
+1.7
+0
+* The difference is statistically significant at the 5% level of significance.
+** https://censusreporter.org/profiles/04000US41-oregon/.
+*** https://usafacts.org/topics/veterans/state/oregon/#:~:text=The%20population%20share%
+20of%20a,nonveteran%20populations%20in%20Oregon%20compare?%E2%80%9D.
+stneilC
+fo
+%
+Client Military Service Status
+6% of clients were connected to the military, compared
+to an estimated 7.4% of Oregonians who were veterans
+in 2022.*** It is possible that many veterans seeking
+help for gambling problems are seen within the
+Veterans Administration Medical Centers and would
+not show up in the PG Net data.
+% of Military-connected individuals in
+Gambling Treatment
+Yes
+6%
+No
+94%
+<21 21-29 30-39 40-49 50-59 60-69 70+
+Age Group
+33
+
+=== page 34 ===
+MARITAL STATUS, DEPENDENTS, & EDUCATION
+Client Marital Status Age of Client Dependents
+At the time of admission, the most common marital
+status among Traditional Treatment clients was More than half of the clients (80%) have one or
+married, followed by never married and divorced. more dependents relying on them financially.
+28% have one or more infant or children
+Males were more likely than females to have never dependents
+married.* 70% have one or more adult dependents
+11% have one or more older adult dependents
+(65 or older)
+40 38.1
+29.7
+39.9
+30
+40 38.6
+24.7
+20 30
+20
+10
+15.6
+4.1
+3.3
+10
+0 6.0
+0
+<12 High School 13-16 17+
+stneilC
+fo
+%
+deirraM reveN deirraM decroviD detarapeS dewodiW
+Educational Attainment
+Slightly over one-half (53%) of Traditional Treatment clients
+reported having a high school education or less. An
+additional 39% reported having a four-year degree (four
+years of post-secondary education), which aligns with recent
+estimates indicating that 38% of Oregonians aged 25 and
+older hold a four-year degree.** There was no statistically
+significant difference in post-secondary educational
+attainment between male and female clients.
+Martial Status Highest Level of Education (Years)
+* The difference is statistically significant at the 5% level of significance.
+**https://www.oregonlive.com/business/2024/11/record-number-of-oregonians-have-college-degrees.html
+34
+
+=== page 35 ===
+CLIENT INCOME
+Nearly two-thirds (approximately 67%) of Traditional Treatment clients
+reported being employed full-time or part-time. The remaining clients 60 Publicly Funded Problem
+were retired, unemployed, or reported another employment status, such
+Gambling Services
+as no longer being in the labor force.
+50.2
+50 These financial statistics highlight the
+The average annual individual income was $38,704 (median: $18,672). critical role that OHA PGS plays in
+Slightly less than two out of three clients (62%) earned less than $30,000 supporting individuals struggling with
+per year, including 11% who reported no individual income. Compared to 40 gambling issues. Many of these
+the prior fiscal year, average income increased by 7%, up from $36,255, individuals lack the financial means to
+while median income increased by 4%. receive treatment in the absence of
+publicly funded programs.
+30
+Additionally, 23% of clients reported receiving income from fixed sources,
+such as pensions, disability benefits, or public assistance.
+19.7
+20
+It should be noted that these financial measures reflect individual client
+income only and do not include household finances, such as income from
+12.0
+partners or other family members. 10.8
+10
+7.4
+Financial Challenges are Not Uncommon for Clients By making problem gambling services
+available at no cost, OHA PGS ensures
+0
+About 11% of clients in treatment reported having no income, and
+None $30k or $30-60k $60-100k $100k+ that support is available regardless of
+50% earned less than $30,000 annually. Additionally, 13% were
+less
+financial circumstances.
+uninsured.
+Annual Income ($)
+stneilC
+fo
+%
+35
+
+=== page 36 ===
+TRADITIONAL GAMBLING TREATMENT
+GAMBLING BEHAVIOR
+36
+
+=== page 37 ===
+PRIMARY GAMBLING ACTIVITIES
+Clients reported their problematic gambling activities, with the option to select multiple choices. On average,
+Traditional Treatment clients reported 1.3 problematic gambling activities, and 2.4% reported three or more
+100
+activities. Males engaged in a higher average number of problematic gambling activities (1.4) than females
+(1.2).*
+82.4
+80
+Electronic gaming was by far the most prevalent problematic gambling activity (82%), making it nearly six
+times more common than the general Other category of activities (which includes games such as bingo).
+Table and card games were the third most commonly reported problematic gambling activities. 60
+Wagering on sports-related events has grown substantially in popularity over the past five years. Ten percent
+40
+of clients reported sports-related wagering as a problematic gambling activity. Males were nearly eight times
+more likely than females to report sports-related wagering (15.4% vs. 2.1%, respectively*).
+20
+14.3
+12.4 11.7
+9.6
+1.4
+0
+stneilc
+fo
+%
+gnimaG
+cinortcelE
+rehtO sdraC
+/
+semaG
+elbaT
+sgniKtfarD
+.lcxe
+,yrettoL
+gniregaW
+sstropS
+gnilbmag
+oN
+Client Primary Gambling Activities
+Gaming Devices Sports Betting is Most Common
+in Males
+Clients being treated for social gaming issues
+reported the devices and game genres they most Males are nearly 8 times more likely than
+commonly used. The most frequently reported
+females to report gambling on Sporting Events
+game genre was sandbox games, and the most
+or Sports Betting as one of their problematic
+commonly used device was the smartphone.
+gambling activities.
+81% of callers to the gambling helpline reported Electronic Gaming as their most
+problematic form of gambling activities.
+* The difference is statistically significant at the 5% level of significance.
+37
+
+=== page 38 ===
+Wagering on Sports-Related Activities by Age
+Younger Adults Sports Gamble the Most
+The popularity of betting on sporting events was significantly associated with
+age. Clients aged 29 and under reported the highest participation rate, while
+very few clients aged 60 and over reported sports-related primary gambling
+activities.
+<21 21-29 30-39 40-49 50-59 60-69 70+
+stneilc
+fo
+%
+30
+27.0
+25
+22.0
+20
+16.0
+15
+10.0
+10
+7.0
+5
+2.0
+0
+Age Group
+38
+
+=== page 39 ===
+PRIMARY GAMBLING VENUES
+Similar to gambling activities, clients are asked to report their primary
+gambling venues, allowing for multiple selections. Video lottery
+Client Primary Gambling Venue
+retailers were by far the most popular gambling venue, followed by
+70 casinos.
+65.9
+The finding that video lottery retailers represented the most common
+60
+primary gambling venue among persons seeking treatment for
+problem gambling is not surprising. Research suggests that electronic
+50
+gaming machines (EGMs) (e.g., video lottery terminals) represent a
+form of gambling activity with heightened ‘addictive potential’ and
+40
+increased availability of EGMs has been linked to the severity of
+gambling problems.
+30
+26.0
+The Oregon Lottery licenses more than 11,500 video lottery terminals
+20 17.6 in nearly 4,000 locations throughout the state.
+1.Dowling N, Smith D, Thomas T . Electronic gaming machines: are they the ‘crack cocaine’ of
+10 8.0
+7.3
+gambling? Addiction 2005; 100: 33–45.
+5.1
+4.0
+2.Lund I . Gambling behaviour and the prevalence of gambling problems in adult EGM gamblers
+when EGMs are banned. A natural experiment. J Gambling Studies 2009; 25: 215–225.
+0
+3.Australia PC. Gambling Inquiry. 2009 Available
+Video Casino Internet Restaurant Grocery Other Card Room
+athttp://www.pc.gov.au/projects/inquiry/gambling-2009.
+Lottery No Video Store 4.Livingstone C, Adams PJ . Harm promotion: observations on the symbiosis between government
+and private industries in Australasia for the development of highly accessible gambling markets.
+Retailer
+Addiction 2011; 106: 3–8.
+Venue
+stneilC
+fo
+%
+* The difference is statistically significant at the 5% level of significance.
+39
+
+=== page 40 ===
+TRADITIONAL GAMBLING TREATMENT
+WELL-BEING SELF-
+ASSESSMENTS, CONCERNED
+OTHERS, & ATTITUDES
+40
+
+=== page 41 ===
+WELL-BEING
+Dissatisfied Satisfied
+70
+70
+60
+50 48
+40
+40 38 38
+34
+30 30
+29
+30 27 28 27
+24
+22
+21
+20 18
+16
+13
+10
+10 8
+0
+Financial Emotional Rational General Social Daily Living Occupational Physical Spiritual Intellectual
+During the intake process, clients are asked to rate their satisfaction with ten well-being measures over the past 30 days. Responses are recorded using a three-point Likert scale
+(Dissatisfied, Neutral, and Satisfied). The chart displays the proportions of Dissatisfied and Satisfied responses only; Neutral responses are omitted to improve interpretability.
+Measures are ordered by the highest levels of dissatisfaction.
+Client dissatisfaction is highest in the financial domain, with nearly three out of four clients reporting dissatisfaction, followed by emotional and relationship well-being. This pattern
+suggests that individuals entering treatment commonly experience challenges across multiple life domains.
+Males and females reported similar levels of dissatisfaction across all domains, with no statistically significant differences observed.
+41
+
+=== page 42 ===
+CONCERNED OTHERS: FEELINGS AND ATTITUDES
+Key
+100
+92
+Resentful: Feels resentful towards the person in their life
+79
+80 74
+72 experiencing gambling problems
+69
+60 53
+Anger: Feels anger toward the person with a gambling
+37 problem
+40
+Distrustful: Feels distrustful of the person with a gambling
+20
+problem
+0
+Distrust Ineffective Hopeless Angry Resentful Responsible Unhealthy
+Guilty: Feels guilty or responsible for causing or
+contributing to the gambling
+Feeling
+Hopelessness: Feels hopeless about the gambling
+problem
+During the intake process, concerned other clients are asked about their feelings toward the person in
+Ineffective: Feels ineffective as a support person to the
+their life experiencing gambling problems. The data show very high agreement with negative emotional
+person with the gambling problem
+and cognitive states, particularly those associated with loss of trust, reduced self-efficacy, and emotional
+Unhealthy: Has experienced physical health problems
+distress. In addition, about one in three concerned other clients have experienced physical health issues
+due to the stress of the situation
+associated with the gambling issues in their lives.
+stneilC
+fo
+%
+42
+
+=== page 43 ===
+TRADITIONAL GAMBLING TREATMENT
+TREATMENT CHARACTERISTICS,
+SUBSTANCE USE, & GAMBLING-
+RELATED PROBLEMS
+43
+
+=== page 44 ===
+SUBSTANCE USE AND ISSUES
+100
+84.3
+80
+73.2
+71.0
+67.6
+60 Clients were asked about their substance use within the six months prior to
+entering gambling treatment. On average, clients reported using three substances.
+40
+Although alcohol was the most commonly reported substance, high levels of use
+20 were observed across all substances assessed.
+0
+Alcohol Cannabis Tobacco Substances
+Clients were also asked whether they had experienced problems related to their
+30
+27.5
+substance use within six months before admission. Among clients who used the
+25
+21.1 respective substances, alcohol was associated with the highest rate of reported
+20 17.9
+problems, followed by tobacco, other substances, and cannabis. Males reported
+16.5
+15 higher rates of alcohol-related problems than females (31% vs. 22%, respectively),
+10 while females reported higher rates of tobacco-related problems (24% vs. 19%,
+respectively). However, both results were marginally statistically insignificant. Both
+5
+males and females reported similar rates of problems related to cannabis and other
+0
+Alcohol Tobacco Substances Cannabis
+substances.
+44
+
+=== page 45 ===
+TREATMENT CHARACTERISTICS
+Prior Treatment Episodes
+68% of clients had at least one episode of treatment for
+gambling, substance use, or mental health prior to their most
+Gambling Treatment Clients are Likely to Have Sought Behavioral Health
+recent admission to the PGS TraditionalTreatment system.
+Treatment Before
+These episodes represent professional counseling for at least
+one of these areas. Among these, mental health treatment was
+the most common (44%), followed closely by gambling (37%),
+and substance use (28%). These results were comparable to the
+37% 28% 44%
+previous year.
+had previously had previously had previously
+Gender-specific trends indicate that females were more likely
+received treatment received treatment received treatment
+than males to have received prior treatment for mental health
+for gambling for substance use for mental health
+issues,* while males were more likely to have sought treatment
+34% for males 32% for males 38% for males
+for substance use.* During FY2024-25, 157 clients reported
+compared to 41% compared to 23% compared to 49%
+having been treated for a substance use disorder (SUD) before
+for females. for females. for females.
+or concurrently with their admission into gambling treatment; of
+these clients, 23% were female, and 32% were male.
+* The difference is statistically significant at the 5% level of significance.
+45
+
+=== page 46 ===
+Client-Reported Problems Related to Their Gambling
+Gambling-Related Problem % of Clients Endorsing
+Upon intake, clients are asked whether they experience specific problems related to their
+Financial 82
+gambling. Twelve percent reported no problems, 16% reported one, 32% reported two, and
+40% reported three or more problems. Financial problems were the most prevalent, with Relationship 75
+about four out of five clients reporting them. Relationship-related issues were a close second,
+Job or school 33
+with three out of four clients reporting relationship problems. These patterns were similar to
+Suicidality* 33
+those observed in FY2023–24.
+Banktuptcy 11
+Legal 10
+Overall, clients reported an average of 2.2 problems, with no statistically significant
+differences between males and females.
+Number of Gambling-Related Problems Reported by Clients
+None
+11.6%
+Three or more One
+40.3% 15.9%
+Financial problems are the most
+Suicidal thoughts or actions affects
+reported problem among clients.
+one out of three Traditional
+Gambling Treatment clients.
+82% report financial problems
+Two
+32.1%
+*Suicide threat was positive if client reported suicidal thoughts, threats, actions, or plans.
+46
+
+=== page 47 ===
+Counselor Diagnostic Impressions For Traditional Treatment Clients
+A diagnostic impression is a
+The most common primary diagnostic impression was Gambling Disorder, which was assigned to 97% of clients. The most
+provisional diagnosis used when there
+common secondary diagnoses were substance-related disorders, followed by mood disorders, each affecting approximately one
+is enough information to make a
+in five Traditional Gambling Treatment clients.
+working diagnosis, but the clinician
+wishes to indicate a significant degree
+Most clients received a single diagnostic impression, although 40% received two or more. On average, clients received 1.6
+of diagnostic uncertainty.
+diagnostic impressions, with no meaningful differences between males and females.
+Number of Diagnostic Impressions Clients Funded by Medicaid
+In FY2024-25, among clients diagnosed with a Gambling Disorder in the Medicaid system, 84% had Gambling
+Disorder as a primary diagnosis, 14% had it listed as a secondary diagnosis, and the remaining 2% had it listed as a
+Three or more
+15.5%
+tertiary or quaternary diagnosis. The five most common co-occurring diagnoses among clients with Gambling
+Disorder were Alcohol Use Disorder (13%), Amphetamine-Type Substance Use Disorder (9%), Generalized Anxiety
+Disorder (7%), Post-traumatic Stress Disorder (7%), and Disruptive Behavior Disorders (2%).
+Clients Funded by Medicaid Within the Integrated Co-occuring Disorder Program (ICD)
+In FY2024-25, slightly less than half of ICD clients had Gambling Disorder as the primary diagnosis, approximately
+One
+Two
+57% one-third had it listed as a secondary diagnosis, and the remaining 21% had it listed as a tertiary or quaternary
+27.5%
+diagnosis.
+The most common pairs of diagnoses are Gambling Disorder and Substance Use Disorder (22%), Gambling Disorder
+and Mental Health (8%), Substance Use Disorder and Mental Health (7%), and Gambling Disorder and Other (0.7%).
+47
+
+=== page 48 ===
+Gambling Disorder Severity
+At admission, clients undergo a comprehensive psychosocial assessment that typically includes an evaluation of
+Gambling Disorder severity based on DSM-5 diagnostic criteria. Overall, 18% of Traditional Treatment clients were
+Gambling Disorder Severity
+diagnosed with Mild severity, 36% with Moderate severity, and 39% with Severe severity in FY2024-25. In comparison,
+Male Female
+during FY2023-24, the proportion of clients diagnosed with severe Gambling Disorder was 31%, which is statistically
+50
+significantly lower than in FY2024–25.
+44.0
+Females exhibited a higher rate of Severe severity diagnoses compared to males.*
+40 39.3
+DSM-5-TR Diagnostic Criteria: Gambling Disorder
+35.3
+1.Persistent and recurrent problematic gambling behavior leading to clinically significant impairment or
+31.7
+distress as indicated by the individual exhibiting four or more of the following in a 12-month period:
+30
+a.Needs to gamble with increasing amounts of money in order to achieve the desired excitement.
+b.Is restless or irritable when attempting to cut down or stop gambling.
+c.Has made repeated unsuccessful efforts to control, cut back, or stop gambling.
+d.Is often preoccupied with gambling.
+20
+18.3 e.Often gambles when feeling distressed.
+16.1
+f.After losing money gambling, often returns another day to get even.
+g.Lies to conceal the extent of involvement with gambling.
+h.Has jeopardized or lost a significant relationship, job, or educational or career opportunity because of
+10
+8.3 gambling.
+7.1
+i.Relies on others to provide money to relieve desperate financial situations caused by gambling.
+2.The gambling behavior is not better explained by a manic episode.
+0
+Subclinical Mild Moderate Severe
+* Based on Gambling Disorder DSM5 Diagnostic Criteria.
+stneilc
+fo
+%
+Specify if: Episodic or Persistent; Specify if: In early remission
+Mild: 4-5 criteria met; Moderate: 6-7 criteria met; Severe: 8-9 criteria met
+Diagnostic Severity Level
+** The difference is statistically significant at the 5% level of significance.
+48
+
+=== page 49 ===
+With respect to race and ethnicity, clients identifying as Black or African American had the highest rate of severe Gambling Disorder, followed by White, Hispanic or Latino/x, and
+Asian clients.
+Gambling Disorder Severity by Race/Ethnicity
+Subclinical Mild Moderate Severe
+50
+44.4
+42.6
+40.8
+40
+36.8
+35.0
+33.3
+31.6
+30
+25.9 25.9
+21.1
+20 18.8
+16.7
+10.5
+10
+7.4
+5.4
+3.7
+0
+Black and African-American White Hispanic or Latino/x Asian
+stneilC
+fo
+%
+49
+
+=== page 50 ===
+Traditional Treatment Clients aged 50–59 had the highest rate of severe Gambling Disorder assessments,*
+followed by those aged 30–39, and 40–49. Collectively, clients aged 30–59 accounted for 66% of the treatment
+population, indicating that severe Gambling Disorder was most prevalent within this age range.
+Age Severity (%)
+Subclinical Mild Moderate Severe
+Under 21 0 66.7 33.3 0
+21-29 12.1 15.2 39.4 33.3
+30-39 4.9 17.5 35 42.7
+40-49 7.5 16.5 39.8 36.1
+50-59 5.4 11.7 28.8 54.1
+60-69 11.7 14.9 40.4 33
+70 or older 10.5 39.5 31.6 18.4
+*The difference is statistically significant at the 5% level of significance
+50
+
+=== page 51 ===
+GAMBLING SEVERITY AS RELATED TO WELLNESS ISSUES
+Issue with substance use No issue with substance use
+70
+61.9
+60
+52.7 Traditional Treatment clients who use and report issues with substances and
+50
+45.1 43.9 tobacco have statistically significantly higher rates of severe Gambling Disorder
+38.5
+40
+35.7
+33.3 33.7 than those who do not report such issues. For example, clients reporting
+30
+substance-related issues had rates of severe Gambling Disorder nearly twice as
+20
+high as those who did not report such issues. No statistically significant
+10
+differences were observed for issues related to alcohol or cannabis.
+0
+Substance Tobacco Alcohol Cannabis
+Dissatisfied Satisfied or neutral
+A similar pattern was observed
+50
+47 47 47
+46 across well-being domains. Clients
+45
+43 43
+40 39 who reported dissatisfaction with
+38 38
+36 36 36
+35
+33 33 34 financial, general life, relational,
+32 32
+30
+occupational, daily living, and
+emotional well-being had
+20
+20
+significantly higher rates of severe
+10 Gambling Disorder.
+0
+Financial General Rational Occupational Daily Living Emotional Intellectual Spiritual Social Physical
+51
+
+=== page 52 ===
+TRADITIONAL GAMBLING TREATMENT
+TREATMENT DISCHARGE
+DETAILS
+52
+
+=== page 53 ===
+REASONS FOR DISCHARGE
+Clients seeking treatment for gambling behaviors:
+Gambling Concerned
+Overall, in FY2024-25, 39% of clients successfully completed treatment based on OHA PGS criteria
+Client Other
+for program completion. This represents a 4% increase from the previous fiscal year.
+Treatment Completed 39.4 28.3
+The second most common discharge reason was clients stopping treatment against staff advice (36%).
+Together, successful completion and discontinuation against staff advice accounted for 76% of all
+Stopped Coming, Against Staff Advice 36.2 47.8
+treatment outcomes. The third most common discharge reason was further treatment not appropriate
+(6%).
+Further Treatment Not Appropriate at this
+6.3 15.2
+Program
+There was no statistically significant difference in program completion rates between male and female
+clients. Client Refused Services 6.2 4.3
+Concerned Other related to gambling behaviors:
+Moved from Catchment Area 4.8 2.2
+Concerned Other clients had significantly lower treatment completion rates, with fewer than one in
+three completing treatment. Slightly less than half stopped treatment against staff advice.
+Non-Compliance with rules and
+2.9 0
+Regulations
+Physical/Mental Illness 1.5 2.2
+Oregon Health Authority, Problem Gambling Services
+Successful completion: Client-
+Achieves at least 75% of their short-term treatment goals Evaluation Services Only 1.2 0
+Completes a continued wellness plan (i.e., relapse prevention plan)
+Experiences a lack of engagement in problem gambling behaviors for at least 30 Conflicting Hours 1.2 0
+consecutive days before completing services
+Incarcerated 0.4 0
+53
+
+=== page 54 ===
+REASONS FOR DISCHARGE
+Insights from the Follow-Up Research Project
+Previously, “treatment success” from counseling services has been measured by a client meeting predetermined outcome metrics followed by a
+collaborative termination between a client and counselor. However, people leave treatment for a variety of reasons that can be difficult to capture.
+A small number of participants (n = 16) shared their reasons for disengaging from treatment services.
+Participants’ decisions to leave treatment reflected a combination of personal readiness, logistical barriers, and program fit. The majority of
+respondents stated that they were discharged from treatment due to their perceived completion, or getting what they wanted out of treatment.
+Many felt they had met their goals or gained the tools and knowledge they needed to continue in their recovery independently. Others reported
+an impact of life transitions or logistical challenges, such as moving to a new city, changes in their schedules, or not being able to attend during
+the available appointment times.
+Several participants described barriers related to treatment accessibility or format, including limited scheduling flexibility, lack of telehealth
+options, or discomfort in shared spaces (e.g., waiting rooms with individuals in distress or acute intoxication). A few mentioned that they did not
+feel connected to their therapist or get what they wanted out of treatment, prompting them to disengage.
+63% of participants expressed a desire to reenroll in services when they were called to discuss their reasons for exiting treatment.
+Sample Details: 16 total participants shared their reasons for terminating services. Two participants were enrolled in services as a concerned other
+(i.e., have a loved one struggling with gambling), and 14 were in services for their own gambling. Of those who had received services for gambling, all
+expressed a goal to abstain from gambling altogether, 83% of whom felt like they were meeting their goal at the time of the interview. Notably, the
+two participants who did not feel that they were meeting their goals for recovery were the only two who reported an additional recovery goal, one
+being cigarettes and the other alcohol use.
+54
+
+=== page 55 ===
+CLIENT GOAL SETTING AND
+WELLNESS PLAN COMPLETION
+Clients seeking treatment for gambling are asked several questions
+regarding behavioral change. One question asks about their
+80 gambling goal. Clients can indicate whether their goal is to quit
+74.6
+gambling or to reduce their gambling. Some clients selected both
+options, presumably because they intended to quit certain forms of
+gambling while reducing their overall gambling behavior.
+60 Approximately three out of four clients reported a goal of quitting
+gambling, while 43% reported a goal of reducing their gambling.
+47.9
+42.7
+In terms of successful program completion, clients whose goal was
+40
+to quit gambling were more likely to complete treatment
+successfully than those who did not.*
+One of the criteria for clients to be considered to be successfully
+20
+discharged was the completion of a wellness plan. Slightly less than
+half of the clients had completed a wellness plan prior to discharge.
+Clients aged 60 or over were more likely to have a wellness plan
+prior to discharge compared to clients aged 30 or younger.*
+0
+Goal to quit gambling Wellness plan developed prior to discharge Goal to reduce gambling
+*The difference is statistically significant at the 5% level of significance.
+55
+
+=== page 56 ===
+FACTORS ASSOCIATED WITH SUCCESSFUL COMPLETION
+Adjusted successful completion rate.
+When discharge reasons not related to the treatment process (e.g., client relocation, illness, or evaluation-only encounters) are excluded, the successful completion rate for Regular
+Treament is 40%. This adjusted rate also excludes records with excessive missing or suspect data to support more reliable identification of factors associated with Traditional Gambling
+Treatment program success.
+Successful problem gambling treatment is a complicated issue involving many different factors and is highly specific to individuals. However, it is possible to draw several general
+observations from the discharge data and other information collected about the client. When removing discharge categories external to the treatment process and focusing of the
+resulting adjusted successful completions, we can identify several factor associated with treatment success.
+Clients who completed 7+ treatment encounters are nearly five times more likely to successfully complete treatment,* compared to those
+Treatment who completed 7 or fewer (51% vs 11%).**
+encounters 43% of clients discontinued treatment against their counselors’ advice. Maintaining client engagement in treatment programs remains a
+challenge.
+The data suggest that both a prior history of substance use disorder treatment and current substance-related issues are associated with
+Co-
+lower treatment success rates. Specifically, Regular Treatment clients who reported one or more prior substance use disorder treatment
+occurring episodes had a success rate of 28%, compared with 45% among those with no prior treatment history.** In addition, clients who did not
+issues report current tobacco use or use of substances other than alcohol or cannabis were approximately 2.75 times more likely to successfully
+complete treatment.**
+* Discharges unrelated to a client’s willingness to complete treatment, such as illness, incarceration, moving out of the service area, etc. have been removed.
+** The difference is statistically significant at the 5% level of significance.
+56
+
+=== page 57 ===
+Clients were asked if they experienced the following gambling-related problems: Financial, Relationship, Job or school, Suicidality,
+Bankruptcy, and Legal. Because the presence of gambling-related problems further complicates the treatment process and creates
+Gambling-
+bidirectional influences we expected those reporting more gambling related problems would have lower successful completion rates. For
+related
+example, Gambling Disorder can contribute to relationship problems, which in turn may exacerbate gambling behavior. However, we found
+problems
+only job or school related problems was statistically related to outcome. Clients who reported job- or school-related problems were 33% less
+likely to successfully complete treatment.*
+Clients who reported greater satisfaction across multiple well-being domains were more likely to successfully complete treatment.
+Well-being
+Specifically, clients who reported dissatisfaction in any of the 10 well-being domains discussed earlier in this report were significantly less
+indicators
+likely to successfully complete treatment.
+Exploring How Multiple Factors Relate to Treatment Success
+To move beyond single-variable analyses and account for potential interactions among predictors, a decision tree model was used to identify variables most strongly associated with treatment
+completion. The three most influential variables were having seven or more treatment encounters, reporting no dissatisfaction across any of the 10 well-being metrics, and having no prior
+substance use disorder treatment episodes.
+These variables were subsequently included in a regression model to estimate their independent associations with treatment success. Having seven or more encounters was the strongest
+predictor of successful completion (odds ratio = 9.97)*, indicating that clients who remained in treatment for at least seven encounters had nearly ten times the odds of successful completion
+compared with those with fewer encounters, after adjusting for the other significant factors. Clients who reported no dissatisfaction across the well-being metrics had 6.5 times higher odds of
+successful completion,* while those with no prior substance use disorder treatment history had 2.6 times higher odds of success.*
+* The difference is statistically significant at the 5% level of significance.
+57
+
+=== page 58 ===
+Client Referrals at Treatment Discharge
+% of clients with
+successful
+Referred to organization
+treatment
+At discharge, clients are provided with referrals to other organizations that align with their individual needs. In
+discharge
+FY2024-25, Gamblers Anonymous was the most common referral (54%), followed by other outpatient services
+Gamblers Anonymous 53.6 (39%). In addition, 3 clients remained in treatment under the program’s Continuing Care Group Services.
+Other Outpatient Services 38.5
+During the fiscal year, 31% of clients in the Traditional Treatment program reported having previously received
+None 32.7
+treatment for gambling-related issues, indicating that reoccurrence into formal treatment is not uncommon.
+Other 15.3 Given that the average cost of successful treatment was $5,008 (median $3,789), repeated treatment episodes
+represent a meaningful cost to the system.
+Peer Run Organization 9.9
+Evive 2.8
+It is generally considered best practice to provide referrals to additional supportive services following the
+completion of addiction treatment. For clients who successfully complete treatment, referrals to peer-led or
+Residential 2.4
+community-based support services may be particularly beneficial in supporting sustained recovery.
+GEAR 1.2
+GamFin 1.0
+* Some clients may have received multiple referral types. 2. Analysis of FY2024-25 clients receiving treatment.
+** Outlying and other suspect data have been removed. Figures should be interpreted with caution.
+1
+2
+58
+
+=== page 59 ===
+RESIDENTIAL &
+DEPARTMENT OF
+CORRECTIONS
+TREATMENT SERVICES
+59
+
+=== page 60 ===
+RESIDENTIAL TREATMENT.
+1
+Overview
+In FY2024-25, OHA PGS served 58 clients in residential treatment. During the year, 48 clients were admitted, 51 were discharged,
+and a total of 2,712 treatment encounters were delivered. Nearly all clients (98%) were referred from outpatient treatment
+programs, with the remaining 2% referred from unspecified sources. The average wait time was 10 workdays, although 17% of
+clients were admitted on the day of initial contact.
+Demographics
+There is one residential
+Fifty-six percent of residential clients identified as male, while 44% identified as female; however, this difference was not
+treatment facility located in
+statistically significant. Similarly, although the average age of male clients was higher than that of female clients, the difference
+Marion County that is
+was not statistically significant. Approximately 6% of residential clients reported being veterans. Nearly half of clients were
+designed exclusively for
+divorced, representing twice the rate observed among Traditional Outpatient Treatment clients. Finally, two out of three clients
+gambling disorder
+reported a high school education or less, and the average reported income ($22,389) was 42% lower than that reported by clients
+in the Traditional Outpatient Treatment Program. treatment.
+The co-ed treatment facility
+Gambling Activities
+The most commonly cited problematic gambling activity was electronic gaming (90% of clients), occurring at a rate approximately provides peer support,
+13 times higher than the next most frequently reported activity, table games and cards. Approximately 7% of clients reported counseling, and nutritious
+engaging in two or more problematic gambling activities.
+meals. The location has 8
+beds is in an unlocked
+Well-being
+home-like environment with
+Similar to what was observed among Traditional Outpatient Treatment clients, there was a high degree of dissatisfaction across
+support for visitations.
+the ten well-being domains reported by treatment providers. However, the average rate of dissatisfaction across these well-being
+measures was substantially higher for residential clients (61%) than for Regular Treatment clients (34%).*
+* The difference is statistically significant at the 5% level.
+60
+
+=== page 61 ===
+Problem gambling-related issues and previous treatment episodes 98.0
+100
+87.5
+Clients in residential treatment reported patterns of gambling-related problems
+80
+similar to those observed in other treatment settings. Nearly all clients (98%) reported
+financial issues, followed by relationship and employment or school-related issues.
+More than 90% of clients reported experiencing multiple gambling-related problems,
+58.6
+60
+and approximately one-third reported experiencing four to five distinct issues.
+Eighty-four percent of residential clients had previously received treatment for
+40
+gambling disorder, while 48% had been treated for substance use disorder and 44%
+for a mental health condition. In addition, 57% of clients had previously received
+21.8
+treatment for two to three of these conditions. 20 16.7
+6.9
+Gambling Disorder Severity
+0
+Not surprisingly, residential clients exhibited the highest rate of Gambling Disorder
+Financial Relational Job and School Legal Bankruptcy Suicide Threat
+Severity, much higher than that observed for Traditional Outpatient Treatment
+Clients (76% vs 35%).*
+Gambling Dischange Type Label %
+Gambling Treatment Discharge Types Treatment Completed 56.9
+In FY2024-25, 57% of clients completed the residential treatment program
+Stopped Coming, Against Staff Advice 15.7
+successfully, which is higher than Traditional Outpatient Treatment clients.* One of
+Non-Compliance with Rules and Regulations 15.7
+the primary reasons for this high success rate is that the average residential client
+engages in 53 encounters. Further Treatment Not Appropriate at this Program 7.8
+Client Refused Services 3.9
+* The difference is statistically significant at the 5% level.
+61
+
+=== page 62 ===
+OREGON DEPARTMENT OF CORRECTIONS
+Overview
+Oregon Department of Corrections (ODOC), in partnership with OHA PGS, supports the Gambling Reduction and Recovery for Incarcerated Populations (GRIP) Program, available
+at Coffee Creek Correctional Facility and Columbia River Correctional Institution. GRIP is a psychoeducational group consisting of 12 sessions specifically designed for incarcerated
+adults who meet the criteria for a gambling disorder.
+In FY2024-25, the GRIP program served 70 clients, representing a decrease of 28 clients compared with the previous fiscal year. During the year, the program admitted 69 clients
+and discharged 70, and provided a total of 643 client encounters within the ODOC system. All encounters were delivered in a group setting.
+Demographics
+Males accounted for 73% of clients, compared with 27% who identified as female.* The average client age was 39 years, with no statistically significant differences between males
+and females. Approximately 2% of clients reported being veterans. The most common marital status was unmarried (55%), followed by divorced (28%). Only 12% of clients were
+married, and 5% were separated. Fewer than one in four clients reported educational attainment beyond a high school diploma.
+Gambling Activities
+Similar to both Regular Treatment and residential clients, ODOC clients’ primary problematic gambling activity was electronic gaming, with 93% reporting this activity.
+Well-being, Issues with Substances, and Problems Related to Gambling Activities
+Information on ODOC clients’ satisfaction across well-being measures, substance-related issues, and gambling-related problems were not available.
+* The difference is statistically significant at the 5% level.
+62
+
+=== page 63 ===
+GY: New slide, formatting required
+Problem Gambling Disorder Serverity %
+Gambling Disorder Severity
+Subclinical 12.9
+In FY2024-25, 23% of ODOC clients had Mild Gambling Disorder severity, 27% Moderate, and 37%
+Mild 22.9
+Severity severity. The Severe gambling disorder severity level was about the same as for Traditional
+Outpatient Treatment clients (39%), but lower than those for residential clients (76%). Moderate 27.1
+Severe 37.1
+Gambling Discharge Type Label %
+Gambling Treatment Discharge Types
+Treatment Completed 77.1
+ODOC clients had the highest treatment completion rate (77%), with only 4% discontinuing
+Moved from Catchment Area 17.1
+treatment either by stopping attendance against staff advice or refusing services. When clients who
+Stopped Coming, Against Staff Advice 2.9
+did not complete the program due to moving out of the catchment area or conflicting schedules
+are excluded, the treatment completion rate increases to 95%.
+Client Refused Services 1.4
+* The difference is statistically significant at the 5% level. Conflicting Hours 1.4
+63
+
+=== page 64 ===
+GAMFIN AND EVIVE
+SUPPORT
+64
+
+=== page 65 ===
+GAMFIN
+In FY2023-24, OHA PGS partnered with GamFin to provide support for clients experiencing gambling-
+related financial distress. Oregonians can access OHA PGS-supported GamFin services through a
+gambling treatment referral, gambling helpline referral, or through self-referral. A typical GamFin client
+receives two to three services and then is well on their way, with the opportunity to return for refreshers if
+needed. Across FY2023-24 and FY2024-25,* GamFin delivered 152 sessions to 51 clients. Outcome
+reporting indicated improvements across several measures, including financial distress (IFDFW),
+gambling behaviors (PGSI), and symptoms of anxiety and depression (PHQ-4).
+GamFin is an organization that provides financial
+counseling and support for individuals and families
+64.0
+experiencing gambling-related financial distress. It
+connects people affected by problem gambling with
+50.0
+expert financial counselors who help with budgeting, debt
+38.0 management, credit rebuilding, and overall financial
+recovery, often in a confidential and judgment-free setting.
+GamFin also offers group sessions, training, and resources
+for clinicians and treatment providers to better integrate
+financial counseling into gambling disorder treatment.
+Health Metrics
+* Separate data for FY2024-25 is not available.
+stneilC
+niFmaG
+fo
+%
+Decrease in Financial Decrease in Gambling Improved Anxiety &
+Distress Behaviors Depression Symptoms
+65
+
+=== page 66 ===
+OHA PGS CLIENT PROFILES WHO UTILIZED GAMFIN
+Slightly over half of Oregonians who used GamFin were male (52%). Income Categories
+Asians were substantially overrepresented among GamFin users,
+accounting for 16% of participants despite representing 6.8% of the $200k+
+<$35k
+overall Oregon population. Black or African Americans were also 11%
+14%
+overrepresented (11% versus 2.5%), as were individuals identifying as
+Hispanic or Latino/x , whose participation exceeded their share of the
+$150-200K
+Oregon population by approximately 36%.
+11%
+$35-50K
+The most common age group using the service was 35-44, representing 12%
+28% of users. Individuals aged 65–74 accounted for 23% of service users,
+nearly twice their proportion in the Oregon population.
+$100-150k
+18%
+$50-75K
+21%
+$75K-100K
+13%
+66
+
+=== page 67 ===
+GAMFIN SESSION DISCUSSION
+THEMES
+Three major themes that occur during discussions include:
+Mastering the skills of managing dysfunctional family dynamics is essential
+to long-term recovery.
+Inconsistent income, a feature of the growing gig economy, is exacerbating
+problem gambling with the introduction of additional uncertainty (feast or
+famine mentality).
+Trusted accountability partners play an oversized role in the recovery
+process.
+67
+
+=== page 68 ===
+EVIVE DIGITAL SUPPORT TOOL
+Evive is a free, evidence-based digital support app designed to help people understand and change their relationship with gambling. It offers personalized tools and guidance for
+individuals at any stage, whether they want to gamble more safely, cut back, or stop gambling entirely. Users choose the pathway that matches their goals and receive daily check-ins,
+progress tracking, educational content, urge management tools, and access to community support, available 24/7 on a smartphone or other device. The app is confidential and available in
+Oregon and many other states, and it can be used on its own or alongside other resources such as formal treatment services.
+68
+
+=== page 69 ===
+EVIVE DIGITAL SUPPORT TOOL ONBOARDING AND ACTIVITY TYPES
+During FY2024-25, OHA PGS began supporting the Evive digital health support tool for clients enrolled in its treatment program, as well as more broadly for Oregon residents who may
+be experiencing gambling-related issues. During the year, 211 users downloaded the app, and 178 (86%) successfully completed onboarding. Over half of users (55%) reported quitting
+gambling as their goal, while 27% aimed to reduce their gambling and 18% sought to better manage their gambling activities.
+Within Evive, users can engage in a range of activities designed to support their gambling-related goals, such as tracking their gambling expenditures and time, engaging in educational
+content, journaling, or joining the Evive support community to read or post messages. During the FY2024-25 reporting period, approximately two-thirds of users opened at least one
+educational lesson, and about half completed at least one lesson and used the journaling tool. Fewer users, to date, have used Evive to access external resources, engaged with the
+Gambling Tracker, or joined the user community.
+70 67.0
+60
+49.0
+48.0
+50 46.0
+40
+31.0
+29.0
+30
+20
+14.0
+10
+0
+gnidraobnO
+gnitelpmoC
+stneilC
+fo
+%
+Evive App Activities
+Opened Completed Engaged with Used the Opened Engaged with Became a
+Lessons Lessons Stop Goal Utility Journaling Tool External Gambling Community
+Resources Tracker Member
+Activity
+69
+
+=== page 70 ===
+EVIVE CLIENT PROFILE AND USAGE
+The average age of Evive users was 47, nearly identical to the average age of 48 among clients
+treated in the OHA PGS treatment system in FY2024–25. Users engaged with the app for an
+average of 17.5 sessions, compared to a median of 3 sessions, suggesting that while many users User Survey Data Suggests
+engage briefly, a subset of users is deeply engaged with the platform.
+Evive Works!
+Among users who utilized the Evive Gambling Tracker to report total gambling dollars won or lost,
+the average reported loss was $688 (median loss of $40), with the largest reported loss totaling Sixty percent of users reported
+$7,330. Similarly, among users who tracked days gambled, the average number of days reported meeting their goal to stop or
+was one, with a maximum of 22 days during FY2024–25. control their gambling within 7 to
+29 days of downloading the app.
+Importantly, survey data also
+Stability in Goal Setting show that success increases with
+continued use. After six months,
+Overall, 97% of Evive users had the same gambling-related goal at the end of the reporting
+more than 75% of users agreed or
+period as the goal they selected during onboarding. Because users can change goals
+strongly agreed with the
+multiple times, this does not necessarily imply that goals remained unchanged throughout
+statement: “I am meeting my goal
+use. That said, no users ended the reporting period with a goal other than quitting after
+to stop or control my gambling.”
+initially selecting quitting. Three percent of users ended the period with a goal of quitting
+after initially choosing to manage their gambling activities. Among users whose onboarding
+goal was to reduce gambling, 8% ended the period with a goal of quitting, while 2% ended
+with a goal of managing their gambling activities.
+70
+
+=== page 71 ===
+FOLLOW-UP
+TREATMENT
+EVALUATION
+71
+
+=== page 72 ===
+MOTIVATION TO SEEK HELP
+Additional insights from the follow-up evaluation are presented in this section. These data points represent the experiences and perspectives of a subset of clients (N = 63) enrolled in the
+treatment system who agreed to participate in the gambling treatment follow-up research project.
+Participants were asked what led to their decision to seek help for gambling. The most common theme reported was severe financial loss or instability, which was reported by over half of
+the participants (51%). Loss of control, or realizing that the problem was escalating and feeling unable to stop, was reported by nearly a fourth of participants (22.2%). Some (14%) described
+that the toll gambling had taken on their relationships motivated them to seek help, such as having caused a separation, hiding gambling from their loved ones, or receiving pressure from
+family to seek help. 8% reported serious emotional distress, such as depression, shame, and suicidal ideation, that pushed them to change their gambling behavior. Finally, a few
+participants (3%) reported that it was a professional referral, such as from a medical provider or hotline, that helped them seek gambling-specific treatment.
+Reasons Participants Reported Seeking Help
+“I got to a point where I was financially just spread thin, to a point where I would borrow money from other people for Problem Gambling
+to pay my bills. When I got paid, I had to pay the other people back before I could even pay my bills.”
+1.Financial Crisis & Debt
+“Me estaba desesperando... Perdí dinero; lo perdí todo… Ya no quería existir… Perdí mi trabajo... Estoy muy
+2.Loss of Control
+agradecida por esta ayuda.”
+3.Relationship Strain & Impacts on Family
+“I wanted to understand what’s happening to me. I’m a functioning gambler. I want to understand why I can’t just 4.Emotional Distress & Mental Health Impact
+walk away when I’m up.”
+5.Professional Referral
+Importantly, when asked if there was anything that could have helped them seek help sooner, over half of the participants expressed that they needed to come to the conclusion on their
+own, and that there was nothing external that could have helped them sooner. However, many expressed that they were unaware of the services, and increased awareness of gambling
+treatment would have encouraged them to seek help sooner.
+72
+
+=== page 73 ===
+INTERVENTIONS AND TREATMENT FACTORS
+Homework & Goals
+While the same general principles tend to be present across types of therapies, the nuances in how treatment looks can vary depending on a provider’s theoretical orientation
+(i.e., how they understand and treat a problem) and the client’s needs. To establish a sense of what counseling services look like among participants in this initiative, participants
+were asked whether their counselor assigned them exercises to practice outside of their sessions or worked with them to create goals for between sessions. Across surveys,
+homework was assigned over two-thirds of the time, and between-session goals were created over three-fourths of the time.
+Peer Support
+Peer support services are available to clients at select service agencies, as well as external organizations like Voices of Problem Gambling Recovery and Grupo Latino. Notably,
+participants utilizing peer support services are not reporting many encounters. For example, on average, participants report interacting with a peer only once in the previous
+month across timepoints. By the time of the first survey, only 23% of follow-up participants were simultaneously receiving peer support services. Engaged participants rated
+the helpfulness of their peer support as 2.9, where zero means ‘not at all helpful’ and five means ‘very helpful’, although this period was characterized by confusion about
+utilizing peer support services. Satisfaction ratings increased with each time point, reaching 3.9 by the 180-day survey. Overall, participating in peer support services is
+statistically significantly related to a greater likelihood of self-reported goal achievement in recovery (p < .001).
+Community-Based Support
+Of note, a number of participants describe feeling a sense of community support from attending psychoeducation classes, most commonly including Gamblers Anonymous,
+as well as Alcoholics Anonymous, Narcotics Anonymous, Celebrate Recovery, SMART Recovery, Recovery Dharma, Charlie Health, and general recovery groups. Participants
+also cited psychoeducational recovery classes offered by treatment clinics. Generally, participants reported attending an average of two group meetings per month. By the
+30-day survey, only 23% of participants were simultaneously engaged in community support, rating their satisfaction with it at 4.3 out of five. By the 90-day survey, 42%
+reported community support involvement, rating it 4.25 out of five. Engagement decreased over time, with 35% at the 180-day survey and 27% at the 365-day survey, but
+ratings remained high, at 4.2 and 4.3, respectively. Importantly, participating in community recovery support groups is significantly related to a greater likelihood of self-
+reported achievement of goals for recovery (p < .001).
+73
+
+=== page 74 ===
+Money Barriers
+Money barriers, also referred to as financial safety strategies, are practices or restrictions that an individual
+can implement to protect their money from being lost to gambling. Limiting the amount of cash one
+carries was the most common barrier reported, and having someone else manage their money was rated as
+the most helpful.
+58
+60
+Participants shared additional strategies to safeguard their
+49
+50 money, including:
+40
+Puts money into Visa gift cards
+30
+Accountability in transparent budgeting or sharing
+19
+18 20 16 of location
+Self-exclusion from casinos, individual apps, and
+10
+ATM withdrawals
+0
+Not carrying debit cards
+Money manager Limiting cash Closing credit cards Receipts Technology
+Giving someone else any cash earnings, who sends
+it back digitally
+True Link card
+Participants who reported using money barriers were also asked to rate their perceived helpfulness of each
+No access to online accounts
+endorsed strategy in their recovery using a numerical scale from zero (i.e., ‘not at all helpful’) to five (i.e.,
+‘very helpful’). Overall, having someone else manage one’s finances was rated 4.5, closing credit cards was
+rated as 4.4, using technology (e.g., recovery apps, site blockers) was rated 4.0, and providing receipts on
+purchases received a 3.9 rating.
+stnapicitraP
+fo
+%
+Money Barrier Strategy
+74
+
+=== page 75 ===
+Goals for Recovery
+Recovery goals vary from person to person and may naturally change over time. The majority of participants reported a goal of abstaining from either gambling or video gaming.
+Importantly, participant-reported goals (i.e., abstain or limit) were not a statistically significant predictor of perceived treatment outcomes at any time point. At the start of engaging
+with treatment services, 74% described their goal for gambling recovery to be abstinence, while 26% wanted to set limits for themselves, such as only spending a predetermined amount
+for a specific frequency or limiting the types of games played. By the 90-day survey, 83% were aiming to abstain, by the 180-day survey, it fell back to 74%, increasing to 83% again after
+365 days. The level of perceived success participants felt they had in meeting their identified goal (i.e., abstaining or limiting gambling or gaming) changed over time, beginning at 77%
+after 30 days, staying steady at 75% after 90 days, increasing to 91% after 180 days, and falling slightly to 82% after one year.
+On average, half of the participants identified additional recovery goals, largely for alcohol and tobacco use, as well as cannabis, other substances (e.g., opioids, amphetamines), eating,
+spending, and sexual behaviors. Identifying other recovery goals, in addition to gambling or video gaming, was a statistically significant predictor of perceived treatment outcomes
+(p = .004). The participants who identified additional goals for their recovery were also more likely to be engaged in peer support services (p < .001) as well as community recovery support
+(p = .001), but not co-occurring treatment.
+Quality of Life
+4
+Factors related to quality of life were also assessed
+at each time point. Participants were asked to rate
+3
+the overall quality of life and eight unique domains
+on a scale from zero (completely dissatisfied) to five
+2
+(completely satisfied) over the previous 30 days.
+Over time spent in treatment, quality of life ratings
+1
+increased. At 30 days, a higher rating of quality of
+life overall and each domain was a statistically
+0
+significant predictor of positive self-perceived 30-Day 90-Day 180-Day 365-Day
+treatment outcomes (p < .001).
+)5-0(
+gnitaR
+noitcafsitaS
+75
+
+=== page 76 ===
+Gambling Behavior
+Actual reported gambling behavior varied at each time point. Across the board, most
+participants reported not gambling in any of the previous 30 days from their interview. Of
+those who reported any number of gambling days during the previous 30 days, the
+frequency varied substantially, ranging from one to every day. The proportion of
+participants who reported no days gambled in the past month, however, increased
+substantially over time in treatment.
+What Helped Clients Not Gamble?
+Participants who reported no gambling in the 30 days prior were
+asked what had helped them to abstain. The following is a list of
+actions participants reported that helped them not gamble:
+1.Internal motivation, readiness for change
+2.Counseling, treatment, and other structured support
+3.Accountability and social support
+4.Money barriers/financial safety strategies
+5.Improved self-awareness and emotional growth
+6.Prioritizing meaningful activities and values, distraction
+7.Gambling consequences, shame
+8.Spirituality and recovery mindset
+stneilC
+fo
+%
+0 Days 1-3 Days 4-9 Days 10+ Days
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+30-Day 90-Day 180-Day 365-Day
+76
+
+=== page 77 ===
+SOURCES OF SUPPORT
+Co-occurring Disorder Treatment
+56% of participants in the study reported receiving additional treatment for co-occurring mental health or addiction concerns. 52% of participants in the study reported taking a
+prescription medication for their recovery or mental health at some point during the year. Those engaged in additional treatment (p = .002) and those with a psychiatric
+prescription (p = .001) were statistically more likely to have a positive self-perception of their treatment outcome.
+Supportive Others
+Family was, generally, a consistent source of support for participants. On average, looking
+across time points, respondents rated their agreement with the statement, “I am very
+supported by my family”, a 4.3 out of five possible.
+4 4
+4
+Support ratings tended to increase over time; having greater support from family, friends,
+3
+3
+and a community of others in recovery may help clients stay engaged for longer, or, as
+clients stay engaged and make positive changes in their lives, perceived support from
+2
+others may increase.
+At the time of completing the 30-day survey, participants were more likely to report 1
+positive perceptions of treatment outcomes when they also reported greater levels of
+support from family (p < .001), friends (p < .001), and other people in recovery (p < .001). At 0
+Family Friends Recovery Community
+any point during treatment, participants who reported having a family member attend
+treatment with them were more likely to report positive self-perceived treatment
+outcomes overall (p < .001).
+)5-0(
+gnitaR
+troppuS
+Source of Support
+77
+
+=== page 78 ===
+SATISFACTION WITH SERVICES
+A handful of questions about the therapeutic alliance, overall satisfaction ratings, and open-ended questions about experiences assessed counseling service satisfaction. Overall,
+counseling services received high satisfaction ratings across the board.
+Therapeutic Alliance
+Participants were asked to rate four dimensions of therapeutic alliance. They were asked to rate their level of agreement on a scale of zero (“completely disagree”) to five (“completely
+agree”) with statements about therapist fit, session content, treatment from their therapist, and session feel. Therapeutic alliance was assessed at each time point using four questions and
+a rating scale of zero to five. Participants were asked about their therapist match, the relevance of sessions, feeling understood, and overall fit. When summed together, an average
+therapeutic alliance score was derived. Across timepoints, therapeutic alliance remained generally high, from 4.6 out of five at 30 and 90 days, 4.7 at 180 days, and 4.9 at 365 days.
+Additionally, a higher-rated therapeutic alliance statistically significantly predicted positive self-reported treatment outcomes (p < .001).
+Overall Satisfaction
+Similarly, participants were asked to rate their overall satisfaction with treatment up to the point of the
+survey, using a scale from zero (“very unsatisfied”) to five (“completely satisfied”). The average rating
+95% of the time, participants stated they would
+across time points was 4.6, with little variation across time.
+recommend the same services to a loved one if
+they needed help with gambling.
+Additionally, when asked if they would refer a friend or family member who was hypothetically looking
+for help with problem gambling or video gaming to the services they were receiving, over 95% of the
+participants stated they would.
+78
+
+=== page 79 ===
+Most Helpful Part of Treatment
+At each survey point, participants were given the opportunity to share what they felt had been most helpful in their treatment or recovery
+“This counselor cares
+so far. Across all time points, the sample includes 95 responses; noteably this includes a number of the same participants across multiple
+about me… he didn’t give
+time points. Overall, how treatment is delivered matters as much as the content of treatment. Most frequently (in 72% of cases), clients
+up on me.”
+shared that the relationship with their counselor made the biggest difference in their treatment progression. Specifically cited were feeling
+safe, heard, and supported, having a strong therapeutic alliance with their counselor, and being met with compassion after a relapse
+Mentioned almost half of the time (48%) was the acquisition of knowledge pertaining to problem gambling and addiction. Learning the
+“why” about addictive behaviors, reviewing the addiction cycle, understanding the role of neurochemistry in addiction, and being able to
+“Becoming aware of why
+reframe addiction as an illness helped remove some of the shame. 41% described the value of accountability with regular check-ins and
+I’m gambling… it’s not just
+having someone to follow up with on their goals. The flexibility and accessibility of services available within the treatment system were cited
+me not having willpower.”
+by 36% of respondents, and whole-person care that also addressed co-occurring mental health concerns and life stressors outside of
+gambling or gaming was noted by 34% of participants.
+Specific skills and strategies for reducing gambling or gaming behaviors, or reducing related harms, such as financial safety strategies,
+setting goals, and developing coping skills, were mentioned by 32% of participants. Group recovery support, including classes and
+“The classes and hearing
+community groups, as well as connecting with others who shared lived experience, was endorsed by 29% of participants; these reduced
+other people’s input… I’m
+isolation, validated, and normalized the recovery experience. Internal motivation and readiness to change also mattered, mentioned 22% of
+not the only one.”
+the time, with participants describing needing to get to a place of being ready to commit to change. A small number of respondents (18%)
+brought up the organizational quality of programs, mentioning clear communication and follow-through. Even fewer (4%) cited outside
+medication management as a helpful part of their recovery.
+79
+
+=== page 80 ===
+Least Helpful Part of Treatment
+Similarly, participants were given the opportunity to share what they felt had been least helpful in their treatment or recovery so far.
+Largely, themes of what was least helpful for clients were related to administrative challenges. For example, the most frequently
+cited were service accessibility and scheduling barriers, mentioned by 32% of participants. Long wait times to begin treatment,
+session cancellations, understaffing, or lack of geographically accessible services were mentioned as frustrations for about a third of
+participants. 17% specifed inconstency in care continuity, describing counselor changes, lack of follow-up, or challenges with
+transferring care between organizations.
+Group service formats came with their challenges, as they sometimes felt chaotic and uncomfortable, were too broad and hard to
+relate to, or were more specific and too small; this was mentioned 28% of the time. Across treatment more broadly, some (23%)
+reported that reading assignments, workbooks, or class curriculum felt repetitive or not engaging enough. 19%, however, expressed
+frustration in the broader sociopolitical system, noting the challenges to public health in the widespread promotion of gambling as
+a legal activity, with limited treatment services available. Similarly, 13% reported that there are constant gambling cues in their
+community, which they felt undermined their recovery efforts.
+Some expressed a lack of broader support, including access to legal and financial relief. In contrast to many who felt their counselor
+alliance was strong, 18% found their counselor match to be unideal, and switching counselors to be a stressor. 15% wanted more
+peer support options, including more specific group availability and peer services broadly.
+At a personal level, 12% felt that treatment moved too slowly and expressed anxiety about wanting to see faster changes. 11% had
+external stressors that they felt impacted their treatment progress, such as unsupportive family members or legal stressors, which
+exacerbated urges to gamble. 10% noted their own low level of readiness or engagement in the treatment process as being
+unhelpful to their recovery. Only 8% of participants felt that treatment, overall, was unhelpful; notably, these participants tended to
+express wanting more clear and active guidance than they had received.
+Additionally, 21% of respondents, when asked what had been least helpful in their treatment so far, stated that nothing stood out as
+particularly unhelpful, and that things had been only positive thus far.
+80
+
+=== page 81 ===
+RESIDENTIAL TREATMENT
+Participants described seeking residential services for similar reasons that outpatient clients described seeking help. Most commonly,
+for example, participants described reaching a crisis point where gambling had become unmanageable, whether that be financially,
+emotionally, or legally. Several cited critical moments of financial loss or legal consequences that forced them to confront their
+gambling behavior. Some described referrals from counselors, community recovery groups, or the court system, and others noted that
+they had tried to manage their gambling on their own and realized that they needed more help to maintain recovery. Some viewed
+residential treatment as an opportunity for structure and dedicated focus on healing, away from life stressors. Overall, the decision to
+seek residential treatment was motivated by a mix of desperation, external encouragement, and renewed commitment to recovery,
+“I never thought that
+with participants emphasizing the need for a more immersive and supportive environment than outpatient care could offer. On
+I could get to where I
+average, participants waited 10 days to get into residential services, with some reporting same- or next-day enrollment when they
+am today… I might
+called.
+become a gambling
+counselor one day.”
+26% of participants shared that they have additional recovery goals, such as being in recovery for methamphetamines, alcohol,
+marijuana, or being clean and sober. 100% of participants felt that they were meeting their recovery goals after they completed
+residential treatment. On average, the urge to gamble over the past week was rated as 1.5 out of five. Overall, the program received
+high ratings (4.7/5), and 93% of participants would refer a loved one who needed help with gambling.
+Participants described the most helpful aspects of residential treatment as the combination of safety, structure, supportive
+relationships, and opportunities for learning and self-discovery. Being physically removed from gambling triggers and immersed in a
+structured, compassionate environment enabled them to focus on recovery. Psychoeducation deepened understanding of addiction,
+while peer and counselor relationships provided empathy and accountability. Engaging in creative and physical activities promoted
+holistic healing. Collectively, these elements fostered personal growth, connection, and renewed hope for lasting recovery.
+81
+
+=== page 82 ===
+SUMMARY
+82
+
+=== page 83 ===
+SUMMARY
+Oregon’s publicly funded gambling treatment services are making a difference. During FY2024-25,
+the OHA Problem Gambling Services system delivered a total of 17,634 counseling and peer mentor
+sessions to approximately 833 individuals, including serving 58 persons with high needs in a
+specialized gambling treatment residential program. In addition, 211 Oregonians engaged with the
+Evive digital health app and 42 individuals received free financial consultations through GamFin.
+These services were primarily funded through an Oregon law that directs 1% of Oregon Lottery
+“I'm feeling grateful about
+proceeds to OHA Problem Gambling Services, enabling Oregonians who experience gambling
+[treatment]. I'm feeling good about
+related harm to receive high quality and comprehensive care at no out-of-pocket costs to them.
+myself [for] taking the step. I've been
+seeing the posters and signs for a
+OHA Problem Gambling Services help persons in need initiate, maintain, or reengage in problem
+while now and felt like I should call. I
+gambling recovery. The majority of participants reported decreased urges, fewer days gambled, and
+finally decided to call; they were
+increased quality of life as time engaged in services went on. Importantly, services extend beyond
+impactful.”
+outpatient care; residential services and simultaneous support from peer support mentors and
+community-based recovery groups appear to have beneficial outcomes for those who utilize the
+services. Recovery is not a linear process, and help-seeking occurs at different paces.
+Findings detailed in this report provide valuable insights into the population that obtains gambling
+treatment services. Evaluation efforts of the OHA Problem Gambling Treatment System continue to
+include a client follow-up component, involving client interviews with evaluators at various time
+points across their recovery journey. These efforts helped us better understand what was least and
+most helpful to clients in their recovery and further our efforts to continually improve OHA-funded
+gambling treatment services.
+83
+
+=== page 84 ===
+FINDING SUCCESS IN OREGON GAMBLING TREATMENT SERVICES
+Individuals served Treatment success
+in fiscal year when completing
+2024-2025 31+ sessions
+833 25% 72%
+Received an appointment the
+same day as their first call for
+help
+84
+
+=== page 85 ===
+Oregon Health Authority problem gambling treatment services include a range of supports. A problem gambling helpline, a
+FISCAL YEAR
+digital health app (Evive), and a minimal intervention program (GEAR), are the lowest levels of care. The next step up is
+comprised of a network of outpatient treatment programs (which includes culturally-specific programs and programs within
+2024-25
+correctional facilities). The highest level of care is a residential gambling treatment program. Peer support services are also
+PROGRAM offered and can be an additional source of support during an individual’s recovery process, at any level of care.
+EVALUATION The helpline received 564 calls from individuals seeking support for their own gambling behaviors or from concerned others. Of
+these calls, 72% resulted in referrals to treatment and 7% involved a warm transfer to crisis counseling services.
+KEY FINDINGS
+Oregon’s gambling treatment system provided treatment to 833 individuals. Additionally, 211 Oregonians found support through
+the Evive digital health support app and GamFin services provided free financial consultations for approximately 42 Oregonians.
+91% of clients received services for their own gambling behaviors, 8% were individuals affected by another persons gambling
+(concerned others), and less than 1% received services related to social gaming.
+Treatment was available quickly, with 25% of clients enrolling the same day they made contact with a program. On average, there
+was a 4.5 workday lag between contact and first available appointment.
+Telehealth continued to decrease from a high of 55% of encounters in July 2022 to 42% over the past 18 months.
+Successful treatment was defined by the absence of harmful gambling, completion of treatment goals, and development of a
+wellness plan. The adjusted successful treatment completion rate was 40%. Clients who completed 7+ treatment encounters are
+nearly five times more likely to successfully complete treatment, compared to those who completed 7 or fewer (51% vs 11%)
+Severe gambling disorder, co-occurring disorders, and the presence of a greater number of gambling-related problems were
+associated with less of a likelihood to successfully complete treatment.
+The majority of follow-up evaluation participants reported decreased urges, fewer days gambled, and increased quality of life as
+time engaged in services went on.
+85
+
+=== page 86 ===
+Population Served
+Overall, clients were more likely to identify as male, White, with an average age of 49. Females
+seeking treatment tended to be older than males. Slightly over half of the clients had completed
+more than a high school degree.
+6% of clients were connected to the military. 38% of clients were married, 30% never married,
+and one-third previously married but currently not (e.g., separated, divorced, widowed).
+80% of clients reported one or more dependents relying on them financially. Nearly two-thirds
+reported being employed full-time or part-time. About 61% of the clients earned less than
+$30,000 annually including 11% reporting no income.
+8% of clients were loved ones of a person with a gambling disorder seeking concerned others
+supportive counseling, and 91% were individuals addressing their own gambling concerns and
+less than 1% received services related to social gaming.
+Of clients who sought treatment for gambling, electronic gaming was by far the most frequently
+reported primary gambling activity (82%). Wagering on sports-related events has grown to 9.6%.
+Males were 8 times more likely to report sporting events as their primary activities compared to
+females (14.4% versus 2.1%, respectively). Video lottery retailers were the most common primary
+gambling venue (66%).
+A large proportion of people entering gambling treatment had a complicated clinical profile: 43%
+of clients had 2 or more co-occurring conditions, 39% presented with a severe level of gambling
+disorder, and 33% were experiencing suicidal thoughts, threats, or engaging in associated actions
+or plans.
+86
+
+=== page 87 ===
+OHA PGS PROBLEM GAMBLING TREATMENT SYSTEM
+STRENGTHS AREAS TO IMPROVE UPON
+Cost-free treatment programs that are widely available with short wait times
+Retention. A large proportion of clients leave treatment early.
+(in most cases).
+Follow-up engagement. Most clients are not participating in the follow-up
+Wide range of treatment programs that align with clients’ diverse therapeutic
+program.
+needs.
+Data collection compliance rates of treatment providers need
+Culturally-specific and linguistically appropriate services for multiple
+improvement.
+ethnicities.
+Penetration: Relatively few individuals with gambling issues are accessing
+Treatment programs delivered by certified problem gambling treatment
+OHA PGS problem gambling treatment services.
+counselors.
+OPPORTUNITIES
+THREATS
+Expansion of problem gambling treatment services in the criminal legal
+Increase in problem gambling associated with the rapid growth of sports
+system, following success of current programs.
+betting and non-traditional forms of gambling, such as prediction markets.
+Program improvement using data to inform system development.
+Increase in problem gambling on account of technological advances.
+Utilization of gambling treatment data at provider level.
+Without robust problem gambling prevention efforts to keep pace with
+Increased access to technologies and tools to support gambling treatment
+the popularity and cultural acceptance of gambling, a greater number of
+and recovery.
+Oregon will likely experience gambling related problems.
+Low community readiness to address problem gambling.
+87
+
+=== page 88 ===
+CONTACTS AND RESOURCES
+Oregon Health Authority, Problem Gambling Services
+www.oregon.gov/PGS
+Greta Coe, Problem Gambling Services Manager
+Greta.L.Coe@oha.oregon.gov / (503) 602-4444
+Oregon Problem Gambling Helpline (24/7 toll free)
+1-877-MY-LIMIT / Es: 1-844-888-2537
+Oregon Problem Gambling Resources
+www.opgr.org/
+Change starts here.
+Help is free and confidential.
+88

@@ -1,0 +1,1298 @@
+=== page 1 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 01_100 Executive Office 000 General Fund (Direct) 7,047,343
+20 01_100 Executive Office 003 Interagency Transfers 2,329,134
+20 01_100 Executive Office 006 Federal Funds 2,068,035
+20 01_100 Executive Office 100 Administrative 12,467,075
+20 01_100 Executive Office P09 Disability Affairs Trust Fund 251,057
+20 01_100 Executive Office S01 Children's Trust Fund 771,506
+01_100 Total 12,467,075
+20 01_101 Indian Affairs 002 Fees and Self‐generated Revenues 12,158
+20 01_101 Indian Affairs 100 Administrative 146,962
+20 01_101 Indian Affairs G07 Avoyelles Parish Local Govt. Gaming Mitiga 134,804
+01_101 Total 146,962
+20 01_102 Inspector General 000 General Fund (Direct) 2,162,936
+20 01_102 Inspector General 006 Federal Funds 16,330
+20 01_102 Inspector General 100 Administrative 2,179,266
+01_102 Total 2,179,266
+20 01_103 Mental Health Adv 000 General Fund (Direct) 3,640,516
+20 01_103 Mental Health Adv 003 Interagency Transfers 174,555
+20 01_103 Mental Health Adv 100 Administrative 4,677,899
+20 01_103 Mental Health Adv S08 Indigent Parent Representation Program Fun 862,828
+01_103 Total 4,677,899
+20 01_106 LA Tax Commission 000 General Fund (Direct) 2,376,421
+20 01_106 LA Tax Commission 100 Property Taxation Regulatory/Oversight 4,816,287
+20 01_106 LA Tax Commission RV4 Tax Commission Expense Fund 2,439,866
+01_106 Total 4,816,287
+20 01_107 DOA 000 General Fund (Direct) 49,756,304
+20 01_107 DOA 002 Fees and Self‐generated Revenues 37,114,919
+20 01_107 DOA 003 Interagency Transfers 58,465,103
+20 01_107 DOA 006 Federal Funds 801,260,229
+20 01_107 DOA 100 Executive Administration 94,905,742
+20 01_107 DOA 300 Community Development Block Grant 814,548,722
+20 01_107 DOA A00 Auxiliary Account 37,272,091
+20 01_107 DOA V26 Energy Performance Contract Fund 30,000
+20 01_107 DOA V29 State Emergency Response Fund 100,000
+01_107 Total 946,726,555
+20 01_109 Coastal Authority 003 Interagency Transfers 4,981,080
+20 01_109 Coastal Authority 006 Federal Funds 38,815,892
+20 01_109 Coastal Authority 100 Implementation 137,635,720
+20 01_109 Coastal Authority N10 Natural Resource Restoration Trust Fund 33,917,830
+20 01_109 Coastal Authority Z12 Coastal Protection and Restoration Fund 59,920,918
+01_109 Total 137,635,720
+20 01_111 Homeland Security 000 General Fund (Direct) 2,669,169
+20 01_111 Homeland Security 002 Fees and Self‐generated Revenues 245,944
+20 01_111 Homeland Security 003 Interagency Transfers 775,827
+20 01_111 Homeland Security 006 Federal Funds 699,822,318
+20 01_111 Homeland Security 100 Administrative 704,513,258
+20 01_111 Homeland Security V29 State Emergency Response Fund 1,000,000
+01_111 Total 704,513,258
+
+=== page 2 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 01_112 Military Affairs 000 General Fund (Direct) 37,298,049
+20 01_112 Military Affairs 002 Fees and Self‐generated Revenues 5,760,110
+20 01_112 Military Affairs 003 Interagency Transfers 2,589,021
+20 01_112 Military Affairs 006 Federal Funds 50,813,783
+20 01_112 Military Affairs 100 Military Affairs 60,487,187
+20 01_112 Military Affairs 300 Education 35,329,941
+20 01_112 Military Affairs A00 Auxiliary Account 693,835
+20 01_112 Military Affairs P38 Camp Minden Fire Protection Fund 50,000
+01_112 Total 96,510,963
+20 01_116 LA Defender Board 003 Interagency Transfers 50,000
+20 01_116 LA Defender Board 100 Louisiana Public Defender Board 40,272,873
+20 01_116 LA Defender Board CR5 DNA Testing Post‐Conviction Relief for Ind 50,000
+20 01_116 LA Defender Board S08 Indigent Parent Representation Program Fun 979,680
+20 01_116 LA Defender Board V31 Louisiana Public Defender Fund 39,193,193
+01_116 Total 40,272,873
+20 01_124 La Stad/Expo Dist 002 Fees and Self‐generated Revenues 77,108,999
+20 01_124 La Stad/Expo Dist 100 Administrative 94,603,857
+20 01_124 La Stad/Expo Dist G19 New Orleans Sports Franchise Assistance Fu 2,749,852
+20 01_124 La Stad/Expo Dist RVA Sports Facility Assistance Fund 4,145,006
+20 01_124 La Stad/Expo Dist TC8 New Orleans Sports Franchise Fund 10,000,000
+20 01_124 La Stad/Expo Dist V33 La. Stadium & Expo. District License Plate 600,000
+01_124 Total 94,603,857
+20 01_129 LCLE 000 General Fund (Direct) 3,828,044
+20 01_129 LCLE 003 Interagency Transfers 1,708,420
+20 01_129 LCLE 006 Federal Funds 39,566,527
+20 01_129 LCLE 100 Federal 39,431,013
+20 01_129 LCLE 200 State 14,748,828
+20 01_129 LCLE CR1 Crime Victims Reparations Fund 5,483,167
+20 01_129 LCLE E32 Tobacco Tax Health Care Fund 2,361,585
+20 01_129 LCLE JU5 Innocence Compensation Fund 865,179
+20 01_129 LCLE V02 Drug Abuse Education and Treatment Fund 366,919
+01_129 Total 54,179,841
+20 01_133 Elderly Affairs 000 General Fund (Direct) 29,143,180
+20 01_133 Elderly Affairs 002 Fees and Self‐generated Revenues 12,500
+20 01_133 Elderly Affairs 006 Federal Funds 23,368,120
+20 01_133 Elderly Affairs 100 Administrative 7,848,305
+20 01_133 Elderly Affairs 200 Title III, Title V, Title VII and NSIP 31,445,864
+20 01_133 Elderly Affairs 400 Parish Councils on Aging 6,900,000
+20 01_133 Elderly Affairs 500 Senior Centers 6,329,631
+01_133 Total 52,523,800
+20 01_254 Racing Commission 002 Fees and Self‐generated Revenues 4,820,992
+20 01_254 Racing Commission 100 Louisiana State Racing Commission 13,019,837
+20 01_254 Racing Commission G05 Video Draw Poker Device Purse Supplement F 2,956,920
+20 01_254 Racing Commission G09 Pari‐mutuel Live Racing Fac. Gaming Contro 5,241,925
+01_254 Total 13,019,837
+20 01_255 Financial Institut 002 Fees and Self‐generated Revenues 14,968,731
+20 01_255 Financial Institut 100 Office of Financial Institutions 14,968,731
+01_255 Total 14,968,731
+
+=== page 3 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 03_130 Veterans Affairs 000 General Fund (Direct) 6,580,688
+20 03_130 Veterans Affairs 002 Fees and Self‐generated Revenues 1,423,534
+20 03_130 Veterans Affairs 003 Interagency Transfers 1,680,879
+20 03_130 Veterans Affairs 006 Federal Funds 1,125,386
+20 03_130 Veterans Affairs 100 Administrative 4,309,911
+20 03_130 Veterans Affairs 200 Claims 554,958
+20 03_130 Veterans Affairs 300 Contact Assistance 3,746,211
+20 03_130 Veterans Affairs 400 State Approval Agency 452,202
+20 03_130 Veterans Affairs 500 State Veterans Cemetery 1,862,733
+20 03_130 Veterans Affairs S07 Louisiana Military Family Assistance Fund 115,528
+03_130 Total 10,926,015
+20 03_131 La Vets Home 002 Fees and Self‐generated Revenues 2,070,940
+20 03_131 La Vets Home 006 Federal Funds 8,356,822
+20 03_131 La Vets Home 100 Louisiana Veterans Home 10,427,762
+03_131 Total 10,427,762
+20 03_132 NE Vets Home 002 Fees and Self‐generated Revenues 2,637,923
+20 03_132 NE Vets Home 006 Federal Funds 9,661,874
+20 03_132 NE Vets Home 100 Northeast Louisiana Veterans Home 12,299,797
+03_132 Total 12,299,797
+20 03_134 SW Vets Home 002 Fees and Self‐generated Revenues 3,002,380
+20 03_134 SW Vets Home 003 Interagency Transfers 201,260
+20 03_134 SW Vets Home 006 Federal Funds 10,239,225
+20 03_134 SW Vets Home 100 Southwest Louisiana Veterans Home 13,442,865
+03_134 Total 13,442,865
+20 03_135 NW Vets Home 002 Fees and Self‐generated Revenues 3,286,781
+20 03_135 NW Vets Home 006 Federal Funds 9,744,003
+20 03_135 NW Vets Home 100 Northwest Louisiana Veterans Home 13,030,784
+03_135 Total 13,030,784
+20 03_136 SE Vets Home 002 Fees and Self‐generated Revenues 2,773,554
+20 03_136 SE Vets Home 003 Interagency Transfers 329,273
+20 03_136 SE Vets Home 006 Federal Funds 10,075,636
+20 03_136 SE Vets Home 100 Southeast Louisiana Veterans Home 13,178,463
+03_136 Total 13,178,463
+20 04_139 Sec of State 000 General Fund (Direct) 52,719,555
+20 04_139 Sec of State 002 Fees and Self‐generated Revenues 29,006,921
+20 04_139 Sec of State 003 Interagency Transfers 118,000
+20 04_139 Sec of State 100 Administrative 12,119,548
+20 04_139 Sec of State 200 Elections 63,993,530
+20 04_139 Sec of State 300 Archives and Records 4,356,155
+20 04_139 Sec of State 400 Museum and Other Operations 2,921,082
+20 04_139 Sec of State 500 Commercial 9,618,647
+20 04_139 Sec of State SS2 Voting Technology Fund 5,161,921
+20 04_139 Sec of State SSA Help Louisiana Vote Fund, Election Admin 5,889,487
+20 04_139 Sec of State T09 Shrev. Riverfr Conv. Ctr. & Indep. Stadium 113,078
+04_139 Total 93,008,962
+
+=== page 4 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 04_141 Attorney General 000 General Fund (Direct) 17,354,514
+20 04_141 Attorney General 002 Fees and Self‐generated Revenues 7,026,950
+20 04_141 Attorney General 003 Interagency Transfers 24,015,339
+20 04_141 Attorney General 006 Federal Funds 7,851,063
+20 04_141 Attorney General 100 Administrative 8,546,838
+20 04_141 Attorney General 200 Civil Law 24,169,384
+20 04_141 Attorney General 300 Criminal Law and Medicaid Fraud 17,533,195
+20 04_141 Attorney General 400 Risk Litigation 19,840,736
+20 04_141 Attorney General 500 Gaming 7,214,917
+20 04_141 Attorney General G03 Video Draw Poker Device Fund 3,658,584
+20 04_141 Attorney General G04 Riverboat Gaming Enforcement Fund 2,242,470
+20 04_141 Attorney General G09 Pari‐mutuel Live Racing Fac. Gaming Contro 870,042
+20 04_141 Attorney General H14 Medical Assistance Programs Fraud Detectio 1,904,918
+20 04_141 Attorney General I09 Insurance Fraud Investigation Fund 982,440
+20 04_141 Attorney General JS5 Department of Justice Legal Support Fund 4,171,814
+20 04_141 Attorney General JS6 Tobacco Control Special Fund 15,000
+20 04_141 Attorney General JS7 Department of Justice Debt Collection Fund 3,425,947
+20 04_141 Attorney General JS9 Tobacco Settlement Enforcement Fund 400,000
+20 04_141 Attorney General P25 Sex Offender Registry Technology Fund 948,489
+20 04_141 Attorney General Z13 Louisiana Fund 2,437,500
+04_141 Total 77,305,070
+20 04_146 Lieutenant Governo 000 General Fund (Direct) 1,092,973
+20 04_146 Lieutenant Governo 002 Fees and Self‐generated Revenues 10,000
+20 04_146 Lieutenant Governo 003 Interagency Transfers 672,296
+20 04_146 Lieutenant Governo 006 Federal Funds 5,488,059
+20 04_146 Lieutenant Governo 100 Administrative 1,507,908
+20 04_146 Lieutenant Governo 200 Grants 5,755,420
+04_146 Total 7,263,328
+20 04_147 State Treasurer 002 Fees and Self‐generated Revenues 9,232,496
+20 04_147 State Treasurer 003 Interagency Transfers 1,686,944
+20 04_147 State Treasurer 100 Administrative 5,288,364
+20 04_147 State Treasurer 200 Financial Accountability and Control 3,520,323
+20 04_147 State Treasurer 300 Debt Management 1,334,182
+20 04_147 State Treasurer 400 Investment Management 1,588,026
+20 04_147 State Treasurer H19 Medicaid Trust Fund for the Elderly 19,640
+20 04_147 State Treasurer Z11 Louisiana Quality Education Support Fund 499,093
+20 04_147 State Treasurer Z17 Health Excellence Fund 97,575
+20 04_147 State Treasurer Z18 Education Excellence Fund 97,573
+20 04_147 State Treasurer Z19 TOPS Fund 97,574
+04_147 Total 11,730,895
+20 04_158 Public Service Com 100 Administrative 3,923,547
+20 04_158 Public Service Com 200 Support Services 2,283,955
+20 04_158 Public Service Com 300 Motor Carrier Registration 628,641
+20 04_158 Public Service Com 400 District Offices 2,886,393
+20 04_158 Public Service Com Y01 Motor Carrier Regulation Fund 275,000
+20 04_158 Public Service Com Y03 Utility and Carrier Inspection/Supervision 9,198,433
+20 04_158 Public Service Com Y04 Telephonic Solicitation Relief Fund 249,103
+04_158 Total 9,722,536
+
+=== page 5 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 04_160 Agriculture and Fo 000 General Fund (Direct) 18,787,387
+20 04_160 Agriculture and Fo 002 Fees and Self‐generated Revenues 6,981,777
+20 04_160 Agriculture and Fo 003 Interagency Transfers 678,592
+20 04_160 Agriculture and Fo 006 Federal Funds 9,809,973
+20 04_160 Agriculture and Fo 100 Management and Finance 19,821,406
+20 04_160 Agriculture and Fo 300 Agricultural and Environmental Sciences 12,904,367
+20 04_160 Agriculture and Fo 400 Animal Health and Food Safety 14,268,504
+20 04_160 Agriculture and Fo 500 Agro‐Consumer Services 8,925,234
+20 04_160 Agriculture and Fo 600 Forestry 15,443,193
+20 04_160 Agriculture and Fo 700 Soil and Water Conservation 2,010,509
+20 04_160 Agriculture and Fo A02 Structural Pest Control Commission Fund 1,603,535
+20 04_160 Agriculture and Fo A07 Louisiana Agricultural Finance Authority F 11,805,932
+20 04_160 Agriculture and Fo A09 Pesticide Fund 5,723,155
+20 04_160 Agriculture and Fo A11 Forest Protection Fund 806,606
+20 04_160 Agriculture and Fo A14 Forestry Productivity Fund 333,333
+20 04_160 Agriculture and Fo A15 Petroleum Products Fund 4,628,921
+20 04_160 Agriculture and Fo A17 Livestock Brand Commission Fund 40,000
+20 04_160 Agriculture and Fo A18 Agricultural Commodity Dealers & Warehouse 2,318,769
+20 04_160 Agriculture and Fo A21 Seed Fund 807,008
+20 04_160 Agriculture and Fo A22 Sweet Potato Pests and Diseases Fund 200,000
+20 04_160 Agriculture and Fo A23 Weights and Measures Fund 2,981,233
+20 04_160 Agriculture and Fo A29 Feed and Fertilizer Fund 3,266,992
+20 04_160 Agriculture and Fo A30 Horticulture and Quarantine Fund 2,600,000
+04_160 Total 73,373,213
+20 04_165 Commissioner of In 002 Fees and Self‐generated Revenues 30,161,661
+20 04_165 Commissioner of In 006 Federal Funds 717,475
+20 04_165 Commissioner of In 100 Administrative/Fiscal 12,521,106
+20 04_165 Commissioner of In 200 Market Compliance 20,308,730
+20 04_165 Commissioner of In I08 Administrative Fund ‐ Department of Insura 1,069,532
+20 04_165 Commissioner of In I09 Insurance Fraud Investigation Fund 654,168
+20 04_165 Commissioner of In I12 Auto. Theft and Insurance Fraud Prev. Auth 227,000
+04_165 Total 32,829,836
+20 05_251 LED ‐ Secretary 000 General Fund (Direct) 12,616,563
+20 05_251 LED ‐ Secretary 003 Interagency Transfers 637,997
+20 05_251 LED ‐ Secretary 100 Executive and Administration 18,932,270
+20 05_251 LED ‐ Secretary ED6 Louisiana Economic Development Fund 5,677,710
+05_251 Total 18,932,270
+20 05_252 DED ‐ Bus Dev 000 General Fund (Direct) 8,018,271
+20 05_252 DED ‐ Bus Dev 002 Fees and Self‐generated Revenues 3,092,284
+20 05_252 DED ‐ Bus Dev 003 Interagency Transfers 125,000
+20 05_252 DED ‐ Bus Dev 006 Federal Funds 1,833,416
+20 05_252 DED ‐ Bus Dev 100 Business Development Program 21,456,246
+20 05_252 DED ‐ Bus Dev 200 Business Incentives Program 3,555,612
+20 05_252 DED ‐ Bus Dev ED6 Louisiana Economic Development Fund 7,242,887
+20 05_252 DED ‐ Bus Dev EDH Louisiana Entertainment Development Fund 2,700,000
+20 05_252 DED ‐ Bus Dev EDM Marketing Fund 2,000,000
+05_252 Total 25,011,858
+
+=== page 6 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 06_261 CRT ‐ Secretary 000 General Fund (Direct) 5,163,814
+20 06_261 CRT ‐ Secretary 002 Fees and Self‐generated Revenues 200,086
+20 06_261 CRT ‐ Secretary 003 Interagency Transfers 1,739,409
+20 06_261 CRT ‐ Secretary 006 Federal Funds 198,246
+20 06_261 CRT ‐ Secretary 100 Administrative 1,084,799
+20 06_261 CRT ‐ Secretary 200 Management and Finance 5,703,904
+20 06_261 CRT ‐ Secretary 300 La Seafood Promotion & Marketing Board 805,615
+20 06_261 CRT ‐ Secretary W02 Seafood Promotion and Marketing Fund 292,763
+06_261 Total 7,594,318
+20 06_262 CRT ‐ State Librar 000 General Fund (Direct) 3,491,947
+20 06_262 CRT ‐ State Librar 002 Fees and Self‐generated Revenues 90,000
+20 06_262 CRT ‐ State Librar 003 Interagency Transfers 821,436
+20 06_262 CRT ‐ State Librar 006 Federal Funds 2,924,040
+20 06_262 CRT ‐ State Librar 100 Library Services 7,327,423
+06_262 Total 7,327,423
+20 06_263 CRT ‐ State Museum 000 General Fund (Direct) 4,262,721
+20 06_263 CRT ‐ State Museum 002 Fees and Self‐generated Revenues 1,196,043
+20 06_263 CRT ‐ State Museum 003 Interagency Transfers 1,440,474
+20 06_263 CRT ‐ State Museum 100 Museum 6,899,238
+06_263 Total 6,899,238
+20 06_264 CRT ‐ State Parks 000 General Fund (Direct) 17,677,796
+20 06_264 CRT ‐ State Parks 002 Fees and Self‐generated Revenues 1,179,114
+20 06_264 CRT ‐ State Parks 003 Interagency Transfers 221,387
+20 06_264 CRT ‐ State Parks 006 Federal Funds 1,178,895
+20 06_264 CRT ‐ State Parks 100 Parks and Recreation 37,201,312
+20 06_264 CRT ‐ State Parks CT4 La. State Parks Improvement and Repair Fun 16,444,120
+20 06_264 CRT ‐ State Parks CT9 Poverty Point Reservoir Development Fund 500,000
+06_264 Total 37,201,312
+20 06_265 CRT ‐ Cultural Dev 000 General Fund (Direct) 2,016,987
+20 06_265 CRT ‐ Cultural Dev 002 Fees and Self‐generated Revenues 692,884
+20 06_265 CRT ‐ Cultural Dev 003 Interagency Transfers 2,501,591
+20 06_265 CRT ‐ Cultural Dev 006 Federal Funds 2,089,456
+20 06_265 CRT ‐ Cultural Dev 100 Cultural Development 3,679,409
+20 06_265 CRT ‐ Cultural Dev 200 Arts 2,956,612
+20 06_265 CRT ‐ Cultural Dev 300 Administrative 783,841
+20 06_265 CRT ‐ Cultural Dev CT5 Archaeological Curation Fund 118,944
+06_265 Total 7,419,862
+20 06_267 CRT ‐ Tourism 002 Fees and Self‐generated Revenues 26,463,357
+20 06_267 CRT ‐ Tourism 003 Interagency Transfers 43,216
+20 06_267 CRT ‐ Tourism 006 Federal Funds 447,660
+20 06_267 CRT ‐ Tourism 100 Administrative 1,812,427
+20 06_267 CRT ‐ Tourism 200 Marketing 21,487,042
+20 06_267 CRT ‐ Tourism 300 Welcome Centers 3,654,764
+06_267 Total 26,954,233
+
+=== page 7 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 07_273 DOTD ‐ Admin 002 Fees and Self‐generated Revenues 26,505
+20 07_273 DOTD ‐ Admin 003 Interagency Transfers 554,215
+20 07_273 DOTD ‐ Admin 100 Office of the Secretary 10,578,986
+20 07_273 DOTD ‐ Admin 200 Office of Management and Finance 41,403,620
+20 07_273 DOTD ‐ Admin 54N TTF‐Federal 10,437,622
+20 07_273 DOTD ‐ Admin 54P TTF‐Regular 40,964,264
+07_273 Total 51,982,606
+20 07_276 DOTD ‐ Eng/Ops 002 Fees and Self‐generated Revenues 26,155,910
+20 07_276 DOTD ‐ Eng/Ops 003 Interagency Transfers 12,513,382
+20 07_276 DOTD ‐ Eng/Ops 006 Federal Funds 21,632,793
+20 07_276 DOTD ‐ Eng/Ops 100 Engineering 96,654,188
+20 07_276 DOTD ‐ Eng/Ops 300 Office of Planning 49,250,938
+20 07_276 DOTD ‐ Eng/Ops 400 Operations 423,378,107
+20 07_276 DOTD ‐ Eng/Ops 600 Aviation 2,253,522
+20 07_276 DOTD ‐ Eng/Ops 700 Office of Multimodal Commerce 2,344,112
+20 07_276 DOTD ‐ Eng/Ops 54N TTF‐Federal 137,538,932
+20 07_276 DOTD ‐ Eng/Ops 54P TTF‐Regular 369,489,706
+20 07_276 DOTD ‐ Eng/Ops HW3 Right‐of‐Way Permit Processing Fund 430,000
+20 07_276 DOTD ‐ Eng/Ops HW9 State Highway Improvement Fund 5,000,000
+20 07_276 DOTD ‐ Eng/Ops HWA LTRC Transportation Training and Ed. Ctr. 724,590
+20 07_276 DOTD ‐ Eng/Ops HWE Crescent City Transition Fund 387,684
+20 07_276 DOTD ‐ Eng/Ops P35 Louisiana Highway Safety Fund 2,000
+20 07_276 DOTD ‐ Eng/Ops P37 Louisiana Bicycle and Pedestrian Safety Fu 5,870
+07_276 Total 573,880,867
+20 08_400 Corrections‐Admin 000 General Fund (Direct) 86,610,176
+20 08_400 Corrections‐Admin 002 Fees and Self‐generated Revenues 1,565,136
+20 08_400 Corrections‐Admin 003 Interagency Transfers 11,313,439
+20 08_400 Corrections‐Admin 006 Federal Funds 2,230,697
+20 08_400 Corrections‐Admin 10A Office of the Secretary 4,023,090
+20 08_400 Corrections‐Admin 10B Office of Management and Finance 55,256,099
+20 08_400 Corrections‐Admin 10C Adult Services 41,220,937
+20 08_400 Corrections‐Admin 10D Board of Pardons and Parole 1,219,322
+08_400 Total 101,719,448
+20 08_402 La State Pen 000 General Fund (Direct) 138,809,001
+20 08_402 La State Pen 002 Fees and Self‐generated Revenues 13,271,864
+20 08_402 La State Pen 003 Interagency Transfers 172,500
+20 08_402 La State Pen 100 Administration 18,530,114
+20 08_402 La State Pen 200 Incarceration 122,764,282
+20 08_402 La State Pen A00 Auxiliary Account 6,158,969
+20 08_402 La State Pen A01 Auxiliary Account ‐ Rodeo 4,800,000
+08_402 Total 152,253,365
+
+=== page 8 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 08_403 Juvenile Justice 000 General Fund (Direct) 122,055,552
+20 08_403 Juvenile Justice 002 Fees and Self‐generated Revenues 775,487
+20 08_403 Juvenile Justice 003 Interagency Transfers 14,456,472
+20 08_403 Juvenile Justice 006 Federal Funds 891,796
+20 08_403 Juvenile Justice 900 Contract Services 34,301,704
+20 08_403 Juvenile Justice 10A Administration 16,191,841
+20 08_403 Juvenile Justice 10B North Region 36,808,806
+20 08_403 Juvenile Justice 10C Central/Southwest Region 22,298,078
+20 08_403 Juvenile Justice 10D Southeast Region 28,492,218
+20 08_403 Juvenile Justice A00 Auxiliary 235,682
+20 08_403 Juvenile Justice CR2 Youthful Offender Management Fund 149,022
+08_403 Total 138,328,329
+20 08_405 Avoyelles Corr Ctr 000 General Fund (Direct) 30,106,018
+20 08_405 Avoyelles Corr Ctr 002 Fees and Self‐generated Revenues 2,549,220
+20 08_405 Avoyelles Corr Ctr 003 Interagency Transfers 144,859
+20 08_405 Avoyelles Corr Ctr 100 Administration 3,523,900
+20 08_405 Avoyelles Corr Ctr 200 Incarceration 27,348,427
+20 08_405 Avoyelles Corr Ctr A00 Auxiliary Account 1,927,770
+08_405 Total 32,800,097
+20 08_406 La Corr Inst Women 000 General Fund (Direct) 23,684,496
+20 08_406 La Corr Inst Women 002 Fees and Self‐generated Revenues 1,651,972
+20 08_406 La Corr Inst Women 003 Interagency Transfers 72,430
+20 08_406 La Corr Inst Women 100 Administration 2,725,358
+20 08_406 La Corr Inst Women 200 Incarceration 21,201,715
+20 08_406 La Corr Inst Women A00 Auxiliary Account 1,481,825
+08_406 Total 25,408,898
+20 08_407 Winn Corr Ctr 000 General Fund (Direct) 12,868,385
+20 08_407 Winn Corr Ctr 002 Fees and Self‐generated Revenues 124,782
+20 08_407 Winn Corr Ctr 003 Interagency Transfers 51,001
+20 08_407 Winn Corr Ctr 100 Administration 299,140
+20 08_407 Winn Corr Ctr 700 Purchase of Correctional Services 12,745,028
+08_407 Total 13,044,168
+20 08_408 Allen Corr Ctr 000 General Fund (Direct) 13,885,128
+20 08_408 Allen Corr Ctr 002 Fees and Self‐generated Revenues 1,350,542
+20 08_408 Allen Corr Ctr 003 Interagency Transfers 78,032
+20 08_408 Allen Corr Ctr 100 Administration 2,953,201
+20 08_408 Allen Corr Ctr 200 Incarceration 11,383,783
+20 08_408 Allen Corr Ctr A00 Auxiliary Account 976,718
+08_408 Total 15,313,702
+20 08_409 Dixon Corr Inst 000 General Fund (Direct) 41,574,265
+20 08_409 Dixon Corr Inst 002 Fees and Self‐generated Revenues 3,012,452
+20 08_409 Dixon Corr Inst 003 Interagency Transfers 1,715,447
+20 08_409 Dixon Corr Inst 100 Administration 4,114,652
+20 08_409 Dixon Corr Inst 200 Incarceration 40,226,317
+20 08_409 Dixon Corr Inst A00 Auxiliary Account 1,961,195
+08_409 Total 46,302,164
+
+=== page 9 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 08_413 Hunt Corr Ctr 000 General Fund (Direct) 62,560,410
+20 08_413 Hunt Corr Ctr 002 Fees and Self‐generated Revenues 2,723,605
+20 08_413 Hunt Corr Ctr 003 Interagency Transfers 243,048
+20 08_413 Hunt Corr Ctr 100 Administration 7,747,925
+20 08_413 Hunt Corr Ctr 200 Incarceration 55,805,648
+20 08_413 Hunt Corr Ctr A00 Auxiliary Account 1,973,490
+08_413 Total 65,527,063
+20 08_414 Wade Corr Ctr 000 General Fund (Direct) 27,033,536
+20 08_414 Wade Corr Ctr 002 Fees and Self‐generated Revenues 2,083,281
+20 08_414 Wade Corr Ctr 003 Interagency Transfers 77,283
+20 08_414 Wade Corr Ctr 100 Administration 3,285,743
+20 08_414 Wade Corr Ctr 200 Incarceration 24,326,522
+20 08_414 Wade Corr Ctr A00 Auxiliary Account 1,581,835
+08_414 Total 29,194,100
+20 08_415 Adult Prob/Parole 000 General Fund (Direct) 55,087,676
+20 08_415 Adult Prob/Parole 002 Fees and Self‐generated Revenues 19,230,105
+20 08_415 Adult Prob/Parole 800 Field Services 69,205,598
+20 08_415 Adult Prob/Parole 10A Administration and Support 6,126,183
+20 08_415 Adult Prob/Parole CR6 Adult Probation & Parole Officer Retiremen 960,000
+20 08_415 Adult Prob/Parole P25 Sex Offender Registry Technology Fund 54,000
+08_415 Total 75,331,781
+20 08_416 B.B. "Sixty" Corr 000 General Fund (Direct) 24,609,252
+20 08_416 B.B. "Sixty" Corr 002 Fees and Self‐generated Revenues 2,314,135
+20 08_416 B.B. "Sixty" Corr 003 Interagency Transfers 156,064
+20 08_416 B.B. "Sixty" Corr 100 Administration 3,122,704
+20 08_416 B.B. "Sixty" Corr 200 Incarceration 22,342,976
+20 08_416 B.B. "Sixty" Corr A00 Auxiliary Account 1,613,771
+08_416 Total 27,079,451
+20 08_418 Mgmt and Finance 002 Fees and Self‐generated Revenues 18,451,483
+20 08_418 Mgmt and Finance 003 Interagency Transfers 3,766,719
+20 08_418 Mgmt and Finance 200 Management & Finance 29,875,110
+20 08_418 Mgmt and Finance G03 Video Draw Poker Device Fund 1,985,619
+20 08_418 Mgmt and Finance G04 Riverboat Gaming Enforcement Fund 5,671,289
+08_418 Total 29,875,110
+
+=== page 10 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 08_419 State Police 002 Fees and Self‐generated Revenues 149,591,523
+20 08_419 State Police 003 Interagency Transfers 23,103,242
+20 08_419 State Police 006 Federal Funds 10,894,158
+20 08_419 State Police 100 Traffic Enforcement 152,327,634
+20 08_419 State Police 200 Criminal Investigation 30,797,646
+20 08_419 State Police 300 Operational Support 119,426,757
+20 08_419 State Police 400 Gaming Enforcement 26,627,479
+20 08_419 State Police E32 Tobacco Tax Health Care Fund 4,723,172
+20 08_419 State Police G03 Video Draw Poker Device Fund 5,297,174
+20 08_419 State Police G04 Riverboat Gaming Enforcement Fund 57,904,728
+20 08_419 State Police G09 Pari‐mutuel Live Racing Fac. Gaming Contro 1,952,084
+20 08_419 State Police I09 Insurance Fraud Investigation Fund 4,409,997
+20 08_419 State Police P05 P.S. DWI Test Maintenance & Training Fund 440,825
+20 08_419 State Police P07 Louisiana Towing and Storage Fund 330,000
+20 08_419 State Police P11 Concealed Handgun Permit Fund 2,900,000
+20 08_419 State Police P12 Right to Know Fund 26,069
+20 08_419 State Police P13 Underground Damages Prevention Fund 50,609
+20 08_419 State Police P19 Hazardous Materials Emergency Response Fun 106,453
+20 08_419 State Police P21 Explosives Trust Fund 251,182
+20 08_419 State Police P25 Sex Offender Registry Technology Fund 25,000
+20 08_419 State Police P28 Criminal Identification and Information Fu 8,500,000
+20 08_419 State Police P29 Louisiana State Police Salary Fund 15,600,000
+20 08_419 State Police P31 Department of Public Safety Peace Officers 268,648
+20 08_419 State Police P34 Unified Carrier Registration Agreement Fun 1,788,049
+20 08_419 State Police P39 Insurance Verification System Fund 33,217,963
+20 08_419 State Police P41 Drivers License Escrow Fund 292,077
+20 08_419 State Police V01 Oil Spill Contingency Fund 7,506,563
+08_419 Total 329,179,516
+20 08_420 Motor Vehicles 000 General Fund (Direct) 100,000
+20 08_420 Motor Vehicles 002 Fees and Self‐generated Revenues 49,993,649
+20 08_420 Motor Vehicles 003 Interagency Transfers 325,000
+20 08_420 Motor Vehicles 006 Federal Funds 1,890,750
+20 08_420 Motor Vehicles 100 Licensing 65,979,851
+20 08_420 Motor Vehicles P24 OMV Customer Service and Technology Fund 6,000,000
+20 08_420 Motor Vehicles P34 Unified Carrier Registration Agreement Fun 171,007
+20 08_420 Motor Vehicles P39 Insurance Verification System Fund 1,181,921
+20 08_420 Motor Vehicles P42 Handling Fee Escrow Fund 6,317,524
+08_420 Total 65,979,851
+20 08_422 State Fire Marshal 002 Fees and Self‐generated Revenues 2,500,000
+20 08_422 State Fire Marshal 003 Interagency Transfers 651,000
+20 08_422 State Fire Marshal 006 Federal Funds 90,600
+20 08_422 State Fire Marshal 100 Fire Prevention 23,154,677
+20 08_422 State Fire Marshal I03 Two Percent Fire Insurance Fund 1,750,000
+20 08_422 State Fire Marshal P01 Louisiana Fire Marshal Fund 16,568,077
+20 08_422 State Fire Marshal P32 LA Life Safety & Property Protection Trust 725,000
+20 08_422 State Fire Marshal P36 Industrialized Building Program Fund 300,000
+20 08_422 State Fire Marshal P43 Volunteer Firefighter Tuition Reimbursemen 250,000
+20 08_422 State Fire Marshal V20 Louisiana Manufactured Housing Commission 320,000
+08_422 Total 23,154,677
+
+=== page 11 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 08_423 Gaming Control Bd 100 Louisiana Gaming Control Board 940,121
+20 08_423 Gaming Control Bd G04 Riverboat Gaming Enforcement Fund 857,028
+20 08_423 Gaming Control Bd G09 Pari‐mutuel Live Racing Fac. Gaming Contro 83,093
+08_423 Total 940,121
+20 08_424 Liq Petro Gas Com 100 Administrative 1,587,979
+20 08_424 Liq Petro Gas Com P16 LPG Commission Rainy Day Fund 1,587,979
+08_424 Total 1,587,979
+20 08_425 La Hwy Safety Com 002 Fees and Self‐generated Revenues 503,131
+20 08_425 La Hwy Safety Com 003 Interagency Transfers 412,350
+20 08_425 La Hwy Safety Com 006 Federal Funds 22,747,732
+20 08_425 La Hwy Safety Com 100 Administrative 23,663,213
+08_425 Total 23,663,213
+20 09_300 Jeff Par Hum Serv 000 General Fund (Direct) 15,254,629
+20 09_300 Jeff Par Hum Serv 007 Fees and Self‐generated Revenues‐Select Ag 2,925,000
+20 09_300 Jeff Par Hum Serv 008 Interagency Transfers ‐ Select Agencies 2,148,630
+20 09_300 Jeff Par Hum Serv 100 Jefferson Parish Human Services Authority 20,328,259
+09_300 Total 20,328,259
+20 09_301 Flor Par Hum Serv 000 General Fund (Direct) 14,331,116
+20 09_301 Flor Par Hum Serv 007 Fees and Self‐generated Revenues‐Select Ag 2,254,288
+20 09_301 Flor Par Hum Serv 008 Interagency Transfers ‐ Select Agencies 5,911,635
+20 09_301 Flor Par Hum Serv 100 Florida Parishes Human Services Authority 22,497,039
+09_301 Total 22,497,039
+20 09_302 Cap Area Hum Serv 000 General Fund (Direct) 16,799,073
+20 09_302 Cap Area Hum Serv 007 Fees and Self‐generated Revenues‐Select Ag 3,553,108
+20 09_302 Cap Area Hum Serv 008 Interagency Transfers ‐ Select Agencies 7,817,123
+20 09_302 Cap Area Hum Serv 100 Capital Area Human Services District 28,169,304
+09_302 Total 28,169,304
+20 09_303 Dev Disab Council 000 General Fund (Direct) 507,517
+20 09_303 Dev Disab Council 006 Federal Funds 1,576,474
+20 09_303 Dev Disab Council 100 Developmental Disabilities Council 2,083,991
+09_303 Total 2,083,991
+20 09_304 Metro Hum Serv 000 General Fund (Direct) 18,414,500
+20 09_304 Metro Hum Serv 006 Federal Funds 1,355,052
+20 09_304 Metro Hum Serv 007 Fees and Self‐generated Revenues‐Select Ag 1,229,243
+20 09_304 Metro Hum Serv 008 Interagency Transfers ‐ Select Agencies 6,891,013
+20 09_304 Metro Hum Serv 100 Metropolitan Human Services District 27,889,808
+09_304 Total 27,889,808
+20 09_305 Med Vendor Admin 000 General Fund (Direct) 101,958,094
+20 09_305 Med Vendor Admin 002 Fees and Self‐generated Revenues 4,200,000
+20 09_305 Med Vendor Admin 003 Interagency Transfers 473,672
+20 09_305 Med Vendor Admin 006 Federal Funds 357,688,971
+20 09_305 Med Vendor Admin 200 Medical Vendor Administration 465,728,906
+20 09_305 Med Vendor Admin H14 Medical Assistance Programs Fraud Detectio 1,407,500
+20 09_305 Med Vendor Admin H28 Health Care Redesign Fund 669
+09_305 Total 465,728,906
+
+=== page 12 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 09_306 Med Vendor Pymnts 000 General Fund (Direct) 1,956,431,704
+20 09_306 Med Vendor Pymnts 002 Fees and Self‐generated Revenues 481,336,101
+20 09_306 Med Vendor Pymnts 003 Interagency Transfers 102,020,133
+20 09_306 Med Vendor Pymnts 006 Federal Funds 9,783,818,363
+20 09_306 Med Vendor Pymnts 100 Payments to Private Providers 11,310,019,701
+20 09_306 Med Vendor Pymnts 200 Payments to Public Providers 231,715,318
+20 09_306 Med Vendor Pymnts 300 Medicare Buy‐Ins & Supplements 546,556,636
+20 09_306 Med Vendor Pymnts 400 Uncompensated Care Costs 1,141,631,653
+20 09_306 Med Vendor Pymnts H08 Louisiana Medical Assistance Trust Fund 626,593,018
+20 09_306 Med Vendor Pymnts H19 Medicaid Trust Fund for the Elderly 1,652,229
+20 09_306 Med Vendor Pymnts H20 Health Trust Fund 5,333,333
+20 09_306 Med Vendor Pymnts H30 New Opportunities Waiver (NOW) Fund 19,042,567
+20 09_306 Med Vendor Pymnts H37 Hospital Stabilization Fund 93,659,011
+20 09_306 Med Vendor Pymnts H39 Tobacco Tax Medicaid Match Fund 127,644,071
+20 09_306 Med Vendor Pymnts Z13 Louisiana Fund 6,178,399
+20 09_306 Med Vendor Pymnts Z17 Health Excellence Fund 26,214,379
+09_306 Total 13,229,923,308
+20 09_307 Office of Sec 000 General Fund (Direct) 50,378,197
+20 09_307 Office of Sec 002 Fees and Self‐generated Revenues 2,652,401
+20 09_307 Office of Sec 003 Interagency Transfers 11,781,437
+20 09_307 Office of Sec 006 Federal Funds 20,872,418
+20 09_307 Office of Sec 100 Management and Finance 86,241,703
+20 09_307 Office of Sec H09 Nursing Home Residents' Trust Fund 150,000
+20 09_307 Office of Sec H14 Medical Assistance Programs Fraud Detectio 407,250
+09_307 Total 86,241,703
+20 09_309 SCLHSA 000 General Fund (Direct) 15,724,855
+20 09_309 SCLHSA 007 Fees and Self‐generated Revenues‐Select Ag 2,841,180
+20 09_309 SCLHSA 008 Interagency Transfers ‐ Select Agencies 4,518,158
+20 09_309 SCLHSA 100 South Central Louisiana Human Services Aut 23,084,193
+09_309 Total 23,084,193
+20 09_310 NEDHSA 000 General Fund (Direct) 10,407,014
+20 09_310 NEDHSA 007 Fees and Self‐generated Revenues‐Select Ag 773,844
+20 09_310 NEDHSA 008 Interagency Transfers ‐ Select Agencies 4,350,714
+20 09_310 NEDHSA 100 Northeast Delta Human Services Authority 15,531,572
+09_310 Total 15,531,572
+20 09_320 AgingandAdultServ. 000 General Fund (Direct) 21,461,274
+20 09_320 AgingandAdultServ. 002 Fees and Self‐generated Revenues 1,014,167
+20 09_320 AgingandAdultServ. 003 Interagency Transfers 28,432,833
+20 09_320 AgingandAdultServ. 006 Federal Funds 181,733
+20 09_320 AgingandAdultServ. 100 Administration Protection and Support 32,206,389
+20 09_320 AgingandAdultServ. 300 Villa Feliciana Medical Complex 23,058,046
+20 09_320 AgingandAdultServ. A00 Auxiliary Account 60,000
+20 09_320 AgingandAdultServ. H09 Nursing Home Residents' Trust Fund 2,300,000
+20 09_320 AgingandAdultServ. S04 Traumatic Head & Spinal Cord Injury Trust 1,934,428
+09_320 Total 55,324,435
+
+=== page 13 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 09_324 LA Emrg Rsp Ntwk 000 General Fund (Direct) 1,771,457
+20 09_324 LA Emrg Rsp Ntwk 002 Fees and Self‐generated Revenues 12,334
+20 09_324 LA Emrg Rsp Ntwk 003 Interagency Transfers 40,000
+20 09_324 LA Emrg Rsp Ntwk 100 Louisiana Emergency Response Network Board 1,823,791
+09_324 Total 1,823,791
+20 09_325 Acadiana Area HSD 000 General Fund (Direct) 14,691,398
+20 09_325 Acadiana Area HSD 007 Fees and Self‐generated Revenues‐Select Ag 1,536,196
+20 09_325 Acadiana Area HSD 008 Interagency Transfers ‐ Select Agencies 3,204,025
+20 09_325 Acadiana Area HSD 100 Acadiana Area Human Services District 19,431,619
+09_325 Total 19,431,619
+20 09_326 Public Health 000 General Fund (Direct) 55,687,027
+20 09_326 Public Health 002 Fees and Self‐generated Revenues 48,075,248
+20 09_326 Public Health 003 Interagency Transfers 5,424,020
+20 09_326 Public Health 006 Federal Funds 263,822,694
+20 09_326 Public Health 200 Public Health Services 382,766,081
+20 09_326 Public Health E02 Telecommunications for the Deaf Fund 2,716,136
+20 09_326 Public Health H18 Vital Records Conversion Fund 155,404
+20 09_326 Public Health P14 Emergency Medical Technician Fund 9,000
+20 09_326 Public Health Q08 Oyster Sanitation Fund 55,292
+20 09_326 Public Health Z13 Louisiana Fund 6,821,260
+09_326 Total 382,766,081
+20 09_330 Office of Behavior 000 General Fund (Direct) 109,798,925
+20 09_330 Office of Behavior 002 Fees and Self‐generated Revenues 678,915
+20 09_330 Office of Behavior 003 Interagency Transfers 94,212,677
+20 09_330 Office of Behavior 006 Federal Funds 66,372,569
+20 09_330 Office of Behavior 100 Behavioral Health Admin & Community Oversi 92,850,818
+20 09_330 Office of Behavior 300 Hospital Based Treatment 183,439,938
+20 09_330 Office of Behavior A00 Auxiliary Account 20,000
+20 09_330 Office of Behavior E32 Tobacco Tax Health Care Fund 2,361,585
+20 09_330 Office of Behavior H10 Compulsive and Problem Gaming Fund 2,583,873
+20 09_330 Office of Behavior H12 Health Care Facility Fund 302,212
+09_330 Total 276,310,756
+20 09_340 Citizens w/Dev Dis 000 General Fund (Direct) 30,458,768
+20 09_340 Citizens w/Dev Dis 002 Fees and Self‐generated Revenues 4,263,361
+20 09_340 Citizens w/Dev Dis 003 Interagency Transfers 127,147,456
+20 09_340 Citizens w/Dev Dis 006 Federal Funds 6,992,903
+20 09_340 Citizens w/Dev Dis 100 Administration and General Support 3,092,913
+20 09_340 Citizens w/Dev Dis 200 Community‐Based 28,274,282
+20 09_340 Citizens w/Dev Dis 600 Pinecrest Supports and Services Center 136,868,811
+20 09_340 Citizens w/Dev Dis A00 Auxiliary Account 626,482
+09_340 Total 168,862,488
+20 09_375 ICHSA 000 General Fund (Direct) 8,288,205
+20 09_375 ICHSA 006 Federal Funds 395,629
+20 09_375 ICHSA 007 Fees and Self‐generated Revenues‐Select Ag 1,300,000
+20 09_375 ICHSA 008 Interagency Transfers ‐ Select Agencies 2,437,773
+20 09_375 ICHSA 100 Imperial Calcasieu Human Services Authorit 12,421,607
+09_375 Total 12,421,607
+
+=== page 14 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 09_376 CLHSD 000 General Fund (Direct) 9,929,850
+20 09_376 CLHSD 007 Fees and Self‐generated Revenues‐Select Ag 1,502,783
+20 09_376 CLHSD 008 Interagency Transfers ‐ Select Agencies 4,289,511
+20 09_376 CLHSD 100 Central Louisiana Human Services District 15,722,144
+09_376 Total 15,722,144
+20 09_377 NWLHSD 000 General Fund (Direct) 8,987,927
+20 09_377 NWLHSD 007 Fees and Self‐generated Revenues‐Select Ag 1,500,000
+20 09_377 NWLHSD 008 Interagency Transfers ‐ Select Agencies 4,901,742
+20 09_377 NWLHSD 100 Northwest Louisiana Human Services Distric 15,389,669
+09_377 Total 15,389,669
+20 10_360 Off Child & Family 000 General Fund (Direct) 208,169,246
+20 10_360 Off Child & Family 002 Fees and Self‐generated Revenues 15,422,309
+20 10_360 Off Child & Family 003 Interagency Transfers 16,520,568
+20 10_360 Off Child & Family 006 Federal Funds 457,583,222
+20 10_360 Off Child & Family 100 Division of Management and Finance 167,762,408
+20 10_360 Off Child & Family 200 Division of Child Welfare 241,694,728
+20 10_360 Off Child & Family 300 Division of Family Support 289,065,256
+20 10_360 Off Child & Family S02 Fraud Detection Fund 724,294
+20 10_360 Off Child & Family S11 SNAP Fraud and Abuse Detection & Preventio 10,000
+20 10_360 Off Child & Family V13 Battered Women Shelter Fund 92,753
+10_360 Total 698,522,392
+20 11_431 NATR ‐ Secretary 000 General Fund (Direct) 885,758
+20 11_431 NATR ‐ Secretary 002 Fees and Self‐generated Revenues 150,000
+20 11_431 NATR ‐ Secretary 003 Interagency Transfers 4,266,439
+20 11_431 NATR ‐ Secretary 006 Federal Funds 3,123,797
+20 11_431 NATR ‐ Secretary 100 Executive 18,878,594
+20 11_431 NATR ‐ Secretary N04 Fisherman's Gear Compensation Fund 632,000
+20 11_431 NATR ‐ Secretary N05 Oilfield Site Restoration Fund 9,820,600
+11_431 Total 18,878,594
+20 11_432 NATR ‐ Conservatio 000 General Fund (Direct) 2,813,399
+20 11_432 NATR ‐ Conservatio 002 Fees and Self‐generated Revenues 19,000
+20 11_432 NATR ‐ Conservatio 003 Interagency Transfers 961,060
+20 11_432 NATR ‐ Conservatio 006 Federal Funds 3,060,483
+20 11_432 NATR ‐ Conservatio 100 Oil and Gas Regulatory 24,486,974
+20 11_432 NATR ‐ Conservatio N08 Underwater Obstruction Removal Fund 350,000
+20 11_432 NATR ‐ Conservatio N09 Oil and Gas Regulatory Fund 17,283,032
+11_432 Total 24,486,974
+20 11_434 NATR ‐ Min Resourc 000 General Fund (Direct) 4,096,036
+20 11_434 NATR ‐ Min Resourc 002 Fees and Self‐generated Revenues 20,000
+20 11_434 NATR ‐ Min Resourc 003 Interagency Transfers 575,000
+20 11_434 NATR ‐ Min Resourc 100 Mineral Resources Management 9,996,548
+20 11_434 NATR ‐ Min Resourc N07 Mineral and Energy Operation Fund 5,305,512
+11_434 Total 9,996,548
+
+=== page 15 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 11_435 NATR ‐ Coastal Res 000 General Fund (Direct) 167,791
+20 11_435 NATR ‐ Coastal Res 002 Fees and Self‐generated Revenues 19,000
+20 11_435 NATR ‐ Coastal Res 003 Interagency Transfers 3,199,486
+20 11_435 NATR ‐ Coastal Res 006 Federal Funds 2,421,455
+20 11_435 NATR ‐ Coastal Res 100 Coastal Management 6,912,848
+20 11_435 NATR ‐ Coastal Res N02 Coastal Resources Trust Fund 901,717
+20 11_435 NATR ‐ Coastal Res V01 Oil Spill Contingency Fund 203,399
+11_435 Total 6,912,848
+20 12_440 Office of Revenue 002 Fees and Self‐generated Revenues 107,041,014
+20 12_440 Office of Revenue 003 Interagency Transfers 305,000
+20 12_440 Office of Revenue 100 Tax Collection 99,074,173
+20 12_440 Office of Revenue 300 Alcohol and Tobacco Control 6,742,189
+20 12_440 Office of Revenue 400 Office of Charitable Gaming 2,179,652
+20 12_440 Office of Revenue EDH Louisiana Entertainment Development Fund 100,000
+20 12_440 Office of Revenue RVC Tobacco Regulation Enforcement Fund 550,000
+12_440 Total 107,996,014
+20 13_856 Environ Quality 002 Fees and Self‐generated Revenues 24,790
+20 13_856 Environ Quality 003 Interagency Transfers 30,000
+20 13_856 Environ. Quality 006 Federal Funds 1,458,661
+20 13_856 Environ Quality 006 Federal Funds 18,175,640
+20 13_856 Environ. Quality 100 Office of the Secretary 8,188,183
+20 13_856 Environ Quality 200 Office of Environmental Compliance 24,247,937
+20 13_856 Environ Quality 300 Office of Environmental Services 15,520,065
+20 13_856 Environ Quality 400 Office of Management and Finance 51,821,526
+20 13_856 Environ Quality 500 Office of Environmental Assessment 34,230,975
+20 13_856 Environ. Quality Q01 Hazardous Waste Site Cleanup Fund 20,000
+20 13_856 Environ Quality Q01 Hazardous Waste Site Cleanup Fund 4,606,331
+20 13_856 Environ. Quality Q02 Environmental Trust Fund 6,479,522
+20 13_856 Environ Quality Q02 Environmental Trust Fund 71,386,783
+20 13_856 Environ Quality Q03 Clean Water State Revolving Fund 2,855,500
+20 13_856 Environ Quality Q05 Motor Fuels Underground Tank 15,649,485
+20 13_856 Environ. Quality Q06 Waste Tire Management Fund 225,000
+20 13_856 Environ Quality Q06 Waste Tire Management Fund 12,775,000
+20 13_856 Environ Quality Q07 Lead Hazard Reduction Fund 95,000
+20 13_856 Environ. Quality V01 Oil Spill Contingency Fund 5,000
+20 13_856 Environ Quality V01 Oil Spill Contingency Fund 221,974
+13_856 Total 134,008,686
+20 14_474 WorkforceSupp/Trai 000 General Fund (Direct) 8,595,933
+20 14_474 WorkforceSupp/Trai 002 Fees and Self‐generated Revenues 272,219
+20 14_474 WorkforceSupp/Trai 003 Interagency Transfers 6,603,143
+20 14_474 WorkforceSupp/Trai 006 Federal Funds 159,788,188
+20 14_474 WorkforceSupp/Trai 100 Office of the Secretary 4,568,062
+20 14_474 WorkforceSupp/Trai 200 Office of Workers Compensation Administrat 15,134,499
+20 14_474 WorkforceSupp/Trai 300 Office of Unemployment Insurance Administr 27,570,530
+20 14_474 WorkforceSupp/Trai 400 Office of Workforce Development 148,724,514
+20 14_474 WorkforceSupp/Trai 700 Office of Management and Finance 19,212,459
+20 14_474 WorkforceSupp/Trai 800 Office of Information Systems 13,378,912
+20 14_474 WorkforceSupp/Trai 10A Office of the 2nd Injury Board 59,493,416
+20 14_474 WorkforceSupp/Trai LB1 Workers' Compensation Second Injury Fund 60,541,231
+
+=== page 16 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 14_474 WorkforceSupp/Trai LB4 Office of Workers' Compensation Admin. Fun 17,317,164
+20 14_474 WorkforceSupp/Trai LB5 Incumbent Worker Training Account 25,808,274
+20 14_474 WorkforceSupp/Trai LB6 Employment Security Administration Account 4,000,000
+20 14_474 WorkforceSupp/Trai LB7 Penalty and Interest Account 4,605,607
+20 14_474 WorkforceSupp/Trai S05 Blind Vendors Trust Fund 550,633
+14_474 Total 288,082,392
+20 16_511 WFIS‐Mgmt/Finance 003 Interagency Transfers 19,500
+20 16_511 WFIS‐Mgmt/Finance 006 Federal Funds 109,315
+20 16_511 WFIS‐Mgmt/Finance 100 Management and Finance 11,922,936
+20 16_511 WFIS‐Mgmt/Finance RK1 Rockefeller Wildlife Refuge & Game Preserv 24,040
+20 16_511 WFIS‐Mgmt/Finance RS1 Marsh Island Operating Fund 6,200
+20 16_511 WFIS‐Mgmt/Finance W01 Conservation Fund 11,730,222
+20 16_511 WFIS‐Mgmt/Finance W02 Seafood Promotion and Marketing Fund 23,209
+20 16_511 WFIS‐Mgmt/Finance W08 LA Duck License Stamp and Print Fund 10,450
+16_511 Total 11,922,936
+20 16_512 WFIS‐Secretary 002 Fees and Self‐generated Revenues 20,000
+20 16_512 WFIS‐Secretary 003 Interagency Transfers 244,304
+20 16_512 WFIS‐Secretary 006 Federal Funds 3,614,259
+20 16_512 WFIS‐Secretary 100 Administrative 3,303,400
+20 16_512 WFIS‐Secretary 200 Enforcement 39,062,802
+20 16_512 WFIS‐Secretary Q08 Oyster Sanitation Fund 234,525
+20 16_512 WFIS‐Secretary RK1 Rockefeller Wildlife Refuge & Game Preserv 116,846
+20 16_512 WFIS‐Secretary RS1 Marsh Island Operating Fund 32,038
+20 16_512 WFIS‐Secretary W01 Conservation Fund 37,742,188
+20 16_512 WFIS‐Secretary W05 Wildlife Habitat and Natural Heritage Trus 106,299
+20 16_512 WFIS‐Secretary W15 Louisiana Help Our Wildlife Fund 20,000
+20 16_512 WFIS‐Secretary W29 Enforcement Emergency Situation Response A 135,943
+20 16_512 WFIS‐Secretary W36 Litter Abatement and Education Account 99,800
+16_512 Total 42,366,202
+20 16_513 WFIS‐Wildlife 002 Fees and Self‐generated Revenues 230,000
+20 16_513 WFIS‐Wildlife 003 Interagency Transfers 2,500,000
+20 16_513 WFIS‐Wildlife 006 Federal Funds 17,263,028
+20 16_513 WFIS‐Wildlife 200 Wildlife 47,929,853
+20 16_513 WFIS‐Wildlife RK1 Rockefeller Wildlife Refuge & Game Preserv 2,988,687
+20 16_513 WFIS‐Wildlife RK2 Rockefeller Wildlife Refuge Trust & Protec 1,658,514
+20 16_513 WFIS‐Wildlife RS1 Marsh Island Operating Fund 410,181
+20 16_513 WFIS‐Wildlife V01 Oil Spill Contingency Fund 399,352
+20 16_513 WFIS‐Wildlife W01 Conservation Fund 17,788,664
+20 16_513 WFIS‐Wildlife W03 Louisiana Fur Public Education & Marketing 100,000
+20 16_513 WFIS‐Wildlife W05 Wildlife Habitat and Natural Heritage Trus 502,625
+20 16_513 WFIS‐Wildlife W07 Scenic Rivers Fund 1,500
+20 16_513 WFIS‐Wildlife W08 LA Duck License Stamp and Print Fund 476,752
+20 16_513 WFIS‐Wildlife W09 Louisiana Alligator Resource Fund 1,826,815
+20 16_513 WFIS‐Wildlife W11 Natural Heritage Account 76,450
+20 16_513 WFIS‐Wildlife W16 Louisiana Wild Turkey Stamp Fund 81,118
+20 16_513 WFIS‐Wildlife W20 Conservation ‐‐ Waterfowl Account 15,000
+20 16_513 WFIS‐Wildlife W23 Conservation of the Black Bear Account 48,500
+20 16_513 WFIS‐Wildlife W24 Conservation‐‐Quail Account 5,000
+20 16_513 WFIS‐Wildlife W26 Conservation‐‐White Tail Deer Account 5,000
+
+=== page 17 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 16_513 WFIS‐Wildlife W32 White Lake Property Fund 1,297,667
+20 16_513 WFIS‐Wildlife W37 MC Davis Conservation Fund 155,000
+20 16_513 WFIS‐Wildlife W39 Hunters for the Hungry Account 100,000
+16_513 Total 47,929,853
+20 16_514 WFIS‐Fisheries 002 Fees and Self‐generated Revenues 116,976
+20 16_514 WFIS‐Fisheries 003 Interagency Transfers 10,716,873
+20 16_514 WFIS‐Fisheries 006 Federal Funds 10,508,651
+20 16_514 WFIS‐Fisheries 100 Fisheries 49,463,192
+20 16_514 WFIS‐Fisheries Q08 Oyster Sanitation Fund 110,488
+20 16_514 WFIS‐Fisheries W01 Conservation Fund 17,136,595
+20 16_514 WFIS‐Fisheries W04 Artificial Reef Development Fund 5,118,402
+20 16_514 WFIS‐Fisheries W18 Oyster Development Fund 149,989
+20 16_514 WFIS‐Fisheries W22 Shrimp Marketing and Promotion Account 70,331
+20 16_514 WFIS‐Fisheries W27 Aquatic Plant Control Fund 1,400,000
+20 16_514 WFIS‐Fisheries W28 Public Oyster Seed Ground Development Acco 2,366,291
+20 16_514 WFIS‐Fisheries W33 Crab Promotion and Marketing Account 42,577
+20 16_514 WFIS‐Fisheries W34 Derelict Crab Trap Removal Program Account 101,265
+20 16_514 WFIS‐Fisheries W40 Saltwater Fish Research and Conservation F 1,624,754
+16_514 Total 49,463,192
+20 17_560 State Civil Servic 002 Fees and Self‐generated Revenues 814,443
+20 17_560 State Civil Servic 003 Interagency Transfers 11,765,842
+20 17_560 State Civil Servic 100 Administration and Support 12,580,285
+17_560 Total 12,580,285
+20 17_561 CS‐Muni Fire/Polic 100 Administration 2,384,413
+20 17_561 CS‐Muni Fire/Polic I06 Municipal Fire & Police Civil Serv. Oper. 2,384,413
+17_561 Total 2,384,413
+20 17_562 Ethics Admin 000 General Fund (Direct) 4,410,421
+20 17_562 Ethics Admin 002 Fees and Self‐generated Revenues 175,498
+20 17_562 Ethics Admin 100 Administration 4,585,919
+17_562 Total 4,585,919
+20 17_563 State Police Comm 000 General Fund (Direct) 553,115
+20 17_563 State Police Comm 003 Interagency Transfers 35,000
+20 17_563 State Police Comm 100 Administration 588,115
+17_563 Total 588,115
+20 17_565 Tax Appeals 000 General Fund (Direct) 645,982
+20 17_565 Tax Appeals 002 Fees and Self‐generated Revenues 389,258
+20 17_565 Tax Appeals 003 Interagency Transfers 478,564
+20 17_565 Tax Appeals 100 Administrative 1,115,872
+20 17_565 Tax Appeals 200 Local Tax Division 397,932
+17_565 Total 1,513,804
+20 19_600 LSU System 000 General Fund (Direct) 361,575,925
+20 19_600 LSU System 002 Fees and Self‐generated Revenues 585,607,236
+20 19_600 LSU System 003 Interagency Transfers 7,614,116
+20 19_600 LSU System 006 Federal Funds 13,018,275
+20 19_600 LSU System 200 Louisiana State University and A&M College 562,153,204
+20 19_600 LSU System 300 Louisiana State University at Alexandria 22,008,687
+20 19_600 LSU System 500 LSU Health Sciences Center at New Orleans 148,544,925
+20 19_600 LSU System 600 Louisiana State University at Eunice 15,691,751
+20 19_600 LSU System 700 Louisiana State University at Shreveport 47,654,792
+
+=== page 18 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 19_600 LSU System 800 Louisiana State University Agricultural Ce 96,048,204
+20 19_600 LSU System 10A Pennington Biomedical Research Center 18,255,056
+20 19_600 LSU System 10B LSU Health Sciences Center at Shreveport 87,333,726
+20 19_600 LSU System E32 Tobacco Tax Health Care Fund 5,990,293
+20 19_600 LSU System G10 Support Education In Louisiana First Fund 19,567,239
+20 19_600 LSU System G11 Equine Health Studies Program Fund 750,000
+20 19_600 LSU System I02 Fireman Training Fund 3,357,261
+20 19_600 LSU System I03 Two Percent Fire Insurance Fund 210,000
+19_600 Total 997,690,345
+20 19_610 Hlth Care Serv Div 000 General Fund (Direct) 23,981,083
+20 19_610 Hlth Care Serv Div 002 Fees and Self‐generated Revenues 15,670,284
+20 19_610 Hlth Care Serv Div 003 Interagency Transfers 17,616,847
+20 19_610 Hlth Care Serv Div 006 Federal Funds 4,850,666
+20 19_610 Hlth Care Serv Div 700 Lallie Kemp Regional Medical Center 62,118,880
+19_610 Total 62,118,880
+20 19_615 Southern U System 000 General Fund (Direct) 45,838,434
+20 19_615 Southern U System 002 Fees and Self‐generated Revenues 104,819,361
+20 19_615 Southern U System 003 Interagency Transfers 3,028,515
+20 19_615 Southern U System 006 Federal Funds 3,654,209
+20 19_615 Southern U System 100 Southern Board of Supervisors 3,305,062
+20 19_615 Southern U System 200 Southern Univ‐Agricultural & Mechanical Co 89,735,312
+20 19_615 Southern U System 300 Southern University Law Center 18,916,074
+20 19_615 Southern U System 400 Southern University ‐ New Orleans 24,666,348
+20 19_615 Southern U System 500 Southern University ‐ Shreveport 15,890,494
+20 19_615 Southern U System 600 SU Agricultural Research/Extension Center 9,451,501
+20 19_615 Southern U System E32 Tobacco Tax Health Care Fund 1,000,000
+20 19_615 Southern U System G09 Pari‐mutuel Live Racing Fac. Gaming Contro 50,000
+20 19_615 Southern U System G10 Support Education In Louisiana First Fund 2,824,272
+20 19_615 Southern U System G12 Southern University AgCenter Program Fund 750,000
+19_615 Total 161,964,791
+20 19_620 U of Louisiana Sys 000 General Fund (Direct) 223,947,532
+20 19_620 U of Louisiana Sys 007 Fees and Self‐generated Revenues‐Select Ag 669,783,145
+20 19_620 U of Louisiana Sys 008 Interagency Transfers ‐ Select Agencies 509,923
+20 19_620 U of Louisiana Sys 100 BD of Suprs‐Univ of LA System 3,849,004
+20 19_620 U of Louisiana Sys 200 Nicholls State University 59,923,590
+20 19_620 U of Louisiana Sys 300 Grambling State University 49,062,954
+20 19_620 U of Louisiana Sys 400 Louisiana Tech University 132,913,127
+20 19_620 U of Louisiana Sys 500 McNeese State University 71,848,690
+20 19_620 U of Louisiana Sys 600 University of Louisiana ‐ Monroe 99,820,491
+20 19_620 U of Louisiana Sys 700 Northwestern State University 83,617,885
+20 19_620 U of Louisiana Sys 800 Southeastern Louisiana University 126,683,548
+20 19_620 U of Louisiana Sys 900 University of Louisiana ‐ Lafayette 187,150,687
+20 19_620 U of Louisiana Sys 10A University of New Orleans 97,293,900
+20 19_620 U of Louisiana Sys E30 Calcasieu Parish Fund 491,870
+20 19_620 U of Louisiana Sys G10 Support Education In Louisiana First Fund 15,839,532
+20 19_620 U of Louisiana Sys TA0 Calcasieu Parish HIED Improvement Fund 1,591,874
+19_620 Total 912,163,876
+
+=== page 19 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 19_649 Comm/Tech Coll Sys 000 General Fund (Direct) 119,871,045
+20 19_649 Comm/Tech Coll Sys 002 Fees and Self‐generated Revenues 172,650,000
+20 19_649 Comm/Tech Coll Sys 100 LCTCS Board of Supervisors 19,149,749
+20 19_649 Comm/Tech Coll Sys 200 Baton Rouge Community College 38,201,614
+20 19_649 Comm/Tech Coll Sys 300 Delgado Community College 77,227,169
+20 19_649 Comm/Tech Coll Sys 400 Nunez Community College 10,437,970
+20 19_649 Comm/Tech Coll Sys 500 Bossier Parish Community College 33,003,866
+20 19_649 Comm/Tech Coll Sys 600 South Louisiana Community College 32,954,142
+20 19_649 Comm/Tech Coll Sys 700 River Parishes Community College 14,895,111
+20 19_649 Comm/Tech Coll Sys 800 Louisiana Delta Community College 18,887,834
+20 19_649 Comm/Tech Coll Sys 900 Northwest LA Technical Community College 6,988,076
+20 19_649 Comm/Tech Coll Sys 10A SOWELA Technical Community College 20,020,975
+20 19_649 Comm/Tech Coll Sys 10B L.E. Fletcher Technical Community College 11,780,963
+20 19_649 Comm/Tech Coll Sys 10C LCTCSOnline 1,286,145
+20 19_649 Comm/Tech Coll Sys 10D Northshore Technical Community College 16,099,299
+20 19_649 Comm/Tech Coll Sys 10E Central Louisiana Technical Community Coll 10,860,437
+20 19_649 Comm/Tech Coll Sys E18 Higher Education Initiatives Fund 3,094,092
+20 19_649 Comm/Tech Coll Sys E30 Calcasieu Parish Fund 163,957
+20 19_649 Comm/Tech Coll Sys E34 Orleans Parish Excellence Fund 349,241
+20 19_649 Comm/Tech Coll Sys E38 Workforce Training Rapid Response Fund 10,000,000
+20 19_649 Comm/Tech Coll Sys G10 Support Education In Louisiana First Fund 5,134,391
+20 19_649 Comm/Tech Coll Sys TA0 Calcasieu Parish HIED Improvement Fund 530,624
+19_649 Total 311,793,350
+20 19_653 Deaf and Visually 000 General Fund (Direct) 23,024,655
+20 19_653 Deaf and Visually 002 Fees and Self‐generated Revenues 109,745
+20 19_653 Deaf and Visually 003 Interagency Transfers 2,425,345
+20 19_653 Deaf and Visually 100 Administration and Shared Services 10,814,551
+20 19_653 Deaf and Visually 200 Louisiana School for the Deaf 9,437,628
+20 19_653 Deaf and Visually 300 Louisiana School for the Visually Impaired 5,459,580
+20 19_653 Deaf and Visually A00 Auxiliary Account 2,500
+20 19_653 Deaf and Visually Z18 Education Excellence Fund 154,514
+19_653 Total 25,714,259
+20 19_655 Special Ed Ctr 002 Fees and Self‐generated Revenues 15,000
+20 19_655 Special Ed Ctr 003 Interagency Transfers 19,219,061
+20 19_655 Special Ed Ctr 200 LSEC Education 19,309,919
+20 19_655 Special Ed Ctr Z18 Education Excellence Fund 75,858
+19_655 Total 19,309,919
+20 19_657 Sch for Math,Sci, 000 General Fund (Direct) 5,604,698
+20 19_657 Sch for Math,Sci, 002 Fees and Self‐generated Revenues 650,459
+20 19_657 Sch for Math,Sci, 003 Interagency Transfers 3,127,870
+20 19_657 Sch for Math,Sci, 400 Louisiana Virtual School 200,000
+20 19_657 Sch for Math,Sci, 500 Living and Learning Community 9,265,815
+20 19_657 Sch for Math,Sci, Z18 Education Excellence Fund 82,788
+19_657 Total 9,465,815
+20 19_658 Thrive Academy 000 General Fund (Direct) 4,878,870
+20 19_658 Thrive Academy 003 Interagency Transfers 1,861,697
+20 19_658 Thrive Academy 100 Instruction Program 6,740,567
+19_658 Total 6,740,567
+
+=== page 20 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 19_662 Educational TV Aut 000 General Fund (Direct) 6,379,912
+20 19_662 Educational TV Aut 002 Fees and Self‐generated Revenues 2,466,273
+20 19_662 Educational TV Aut 003 Interagency Transfers 415,917
+20 19_662 Educational TV Aut 200 Broadcasting 9,262,102
+19_662 Total 9,262,102
+20 19_666 BESE 000 General Fund (Direct) 982,669
+20 19_666 BESE 002 Fees and Self‐generated Revenues 21,556
+20 19_666 BESE 100 Administration 1,223,005
+20 19_666 BESE 200 Louisiana Quality Education Support Fund 23,500,000
+20 19_666 BESE E23 Louisiana Charter School Startup Loan Fund 218,780
+20 19_666 BESE Z11 Louisiana Quality Education Support Fund 23,500,000
+19_666 Total 24,723,005
+20 19_671 Board of Regents 000 General Fund (Direct) 310,816,011
+20 19_671 Board of Regents 006 Federal Funds 53,545,312
+20 19_671 Board of Regents 007 Fees and Self‐generated Revenues‐Select Ag 11,830,299
+20 19_671 Board of Regents 008 Interagency Transfers ‐ Select Agencies 6,827,214
+20 19_671 Board of Regents 100 Board of Regents 59,027,835
+20 19_671 Board of Regents 200 Office of Student Financial Assistance 390,437,868
+20 19_671 Board of Regents 300 LA Universities Marine Consortium 11,696,195
+20 19_671 Board of Regents A00 Auxiliary‐LA Univ Marine Consortium 4,130,000
+20 19_671 Board of Regents E04 Proprietary School Students Protection Fun 200,000
+20 19_671 Board of Regents E18 Higher Education Initiatives Fund 342,000
+20 19_671 Board of Regents E41 Med. & Allied Health Prof Ed School & Loan 200,000
+20 19_671 Board of Regents G10 Support Education In Louisiana First Fund 38,636
+20 19_671 Board of Regents RK2 Rockefeller Wildlife Refuge Trust & Protec 60,000
+20 19_671 Board of Regents Z11 Louisiana Quality Education Support Fund 22,230,000
+20 19_671 Board of Regents Z19 TOPS Fund 59,202,426
+19_671 Total 465,291,898
+20 19_673 NOCCA 000 General Fund (Direct) 6,161,325
+20 19_673 NOCCA 003 Interagency Transfers 2,159,354
+20 19_673 NOCCA 200 NOCCA Instruction 8,401,029
+20 19_673 NOCCA Z18 Education Excellence Fund 80,350
+19_673 Total 8,401,029
+20 19_678 DOE State Activiti 000 General Fund (Direct) 32,979,250
+20 19_678 DOE State Activiti 002 Fees and Self‐generated Revenues 6,527,887
+20 19_678 DOE State Activiti 003 Interagency Transfers 20,063,484
+20 19_678 DOE State Activiti 006 Federal Funds 96,650,178
+20 19_678 DOE State Activiti 100 Administrative Support 27,962,932
+20 19_678 DOE State Activiti 200 District Support 128,277,069
+20 19_678 DOE State Activiti A00 Auxiliary Account 1,149,260
+20 19_678 DOE State Activiti W36 Litter Abatement and Education Account 1,168,462
+19_678 Total 157,389,261
+
+=== page 21 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 19_681 Subgrantee Assista 000 General Fund (Direct) 101,483,854
+20 19_681 Subgrantee Assista 002 Fees and Self‐generated Revenues 9,418,903
+20 19_681 Subgrantee Assista 003 Interagency Transfers 40,265,657
+20 19_681 Subgrantee Assista 006 Federal Funds 1,119,587,857
+20 19_681 Subgrantee Assista 100 School & District Supports 984,974,217
+20 19_681 Subgrantee Assista 200 School & District Innovations 69,098,096
+20 19_681 Subgrantee Assista 300 Student‐Centered Goals 235,014,773
+20 19_681 Subgrantee Assista Z18 Education Excellence Fund 18,330,815
+19_681 Total 1,289,087,086
+20 19_682 Recovery Sch.Distr 000 General Fund (Direct) 65,185
+20 19_682 Recovery Sch.Distr 002 Fees and Self‐generated Revenues 34,655,274
+20 19_682 Recovery Sch.Distr 003 Interagency Transfers 118,763,288
+20 19_682 Recovery Sch.Distr 006 Federal Funds 250,000
+20 19_682 Recovery Sch.Distr 100 Recovery School District 12,750,660
+20 19_682 Recovery Sch.Distr 400 Recovery School District ‐ Construction 140,983,087
+19_682 Total 153,733,747
+20 19_695 Min Foundation Pro 000 General Fund (Direct) 3,558,420,983
+20 19_695 Min Foundation Pro 100 Minimum Foundation 3,853,234,519
+20 19_695 Min Foundation Pro G01 Lottery Proceeds Fund 187,587,373
+20 19_695 Min Foundation Pro G10 Support Education In Louisiana First Fund 107,226,163
+19_695 Total 3,853,234,519
+20 19_697 Non‐Pub Educat Ass 000 General Fund (Direct) 21,170,559
+20 19_697 Non‐Pub Educat Ass 100 Required Services 11,292,704
+20 19_697 Non‐Pub Educat Ass 200 School Lunch Salary Supplement 7,002,614
+20 19_697 Non‐Pub Educat Ass 400 Textbook Administration 129,586
+20 19_697 Non‐Pub Educat Ass 500 Textbooks 2,745,655
+19_697 Total 21,170,559
+20 19_699 Special Schools 000 General Fund (Direct) 5,115,482
+20 19_699 Special Schools 002 Fees and Self‐generated Revenues 826,159
+20 19_699 Special Schools 003 Interagency Transfers 3,291,289
+20 19_699 Special Schools 100 Special School Districts Administration 1,676,338
+20 19_699 Special Schools 200 Special School District ‐ Instruction 7,556,592
+19_699 Total 9,232,930
+20 20_451 Housing StOffender 000 General Fund (Direct) 160,556,263
+20 20_451 Housing StOffender 10G Local Housing of Adult Offenders 127,697,720
+20 20_451 Housing StOffender 10H Transitional Work Program 18,416,443
+20 20_451 Housing StOffender 10J Local Reentry Services 5,900,000
+20 20_451 Housing StOffender 10K Criminal Justice Reinvestment Initiative 8,542,100
+20_451 Total 160,556,263
+20 20_452 Housing Juveniles 000 General Fund (Direct) 1,550,170
+20 20_452 Housing Juveniles 100 Local Housing of Juvenile Offenders 1,550,170
+20_452 Total 1,550,170
+20 20_901 Sales Tax Deds 100 Sales Tax Dedications ‐ Local Entities 52,225,345
+20 20_901 Sales Tax Deds T01 Acadia Parish Visitor Enterprise Fund 97,244
+20 20_901 Sales Tax Deds T02 Allen Parish Capital Improvements Fund 215,871
+20 20_901 Sales Tax Deds T03 Ascension Parish Visitor Enterprise Fund 1,250,000
+20 20_901 Sales Tax Deds T05 Avoyelles Parish Visitor Enterprise Fund 120,053
+20 20_901 Sales Tax Deds T06 Beauregard Parish Community Improvement Fu 225,278
+20 20_901 Sales Tax Deds T07 Bienville Parish Tourism/Econ. Development 27,527
+
+=== page 22 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 20_901 Sales Tax Deds T08 Bossier City Riverfront and Civic Center F 1,874,272
+20 20_901 Sales Tax Deds T09 Shrev. Riverfr Conv. Ctr. & Indep. Stadium 1,822,408
+20 20_901 Sales Tax Deds T10 West Calcasieu Community Center Fund 1,292,593
+20 20_901 Sales Tax Deds T11 Caldwell Parish Economic Development Fund 169
+20 20_901 Sales Tax Deds T12 Cameron Parish Tourism Development Fund 19,597
+20 20_901 Sales Tax Deds T14 Town of Homer Economic Development Fund 18,782
+20 20_901 Sales Tax Deds T15 Concordia Parish Economic Development Fund 87,738
+20 20_901 Sales Tax Deds T16 DeSoto Parish Visitor Enterprise Fund 698,315
+20 20_901 Sales Tax Deds T17 EBR Parish Riverside Centroplex Fund 1,249,308
+20 20_901 Sales Tax Deds T18 East Carroll Parish Visitor Enterprise Fun 7,158
+20 20_901 Sales Tax Deds T19 East Feliciana Tourist Commission Fund 2,693
+20 20_901 Sales Tax Deds T20 Evangeline Visitor Enterprise Fund 43,071
+20 20_901 Sales Tax Deds T21 Franklin Parish Visitor Enterprise Fund 33,811
+20 20_901 Sales Tax Deds T23 Iberia Parish Tourist Commission Fund 424,794
+20 20_901 Sales Tax Deds T24 Iberville Parish Visitor Enterprise Fund 116,858
+20 20_901 Sales Tax Deds T25 Jackson Parish Economic Development/Touris 27,775
+20 20_901 Sales Tax Deds T26 Jefferson Parish Convention Center Fund 3,096,138
+20 20_901 Sales Tax Deds T27 Jefferson Davis Parish Visitor Enterprise 155,131
+20 20_901 Sales Tax Deds T28 Lafayette Parish Visitor Enterprise Fund 3,140,101
+20 20_901 Sales Tax Deds T29 Lafourche Parish Enterprise Fund 349,984
+20 20_901 Sales Tax Deds T30 LaSalle Economic Development District Fund 21,791
+20 20_901 Sales Tax Deds T31 Lincoln Parish Visitor Enterprise Fund 262,429
+20 20_901 Sales Tax Deds T32 Livingston Parish Tourism/Economic Dpt. Fu 332,516
+20 20_901 Sales Tax Deds T34 Morehouse Parish Visitor Enterprise Fund 40,972
+20 20_901 Sales Tax Deds T36 N.O. Metro. Convention and Visitors Bureau 11,200,000
+20 20_901 Sales Tax Deds T37 Ouachita Parish Visitor Enterprise Fund 1,552,486
+20 20_901 Sales Tax Deds T38 Plaquemines Parish Visitor Enterprise Fund 228,102
+20 20_901 Sales Tax Deds T39 Pointe Coupee Parish Visitor Enterprise Fu 40,281
+20 20_901 Sales Tax Deds T40 Alexandria/Pineville Exhibition Hall Fund 250,417
+20 20_901 Sales Tax Deds T41 Red River Visitor Enterprise Fund 34,733
+20 20_901 Sales Tax Deds T42 Richland Parish Visitor Enterprise Fund 116,715
+20 20_901 Sales Tax Deds T43 Sabine Parish Tourism Improvement Fund 172,203
+20 20_901 Sales Tax Deds T44 St. Bernard Parish Enterprise Fund 116,399
+20 20_901 Sales Tax Deds T45 St. Charles Parish Enterprise Fund 229,222
+20 20_901 Sales Tax Deds T47 St. James Parish Enterprise Fund 30,756
+20 20_901 Sales Tax Deds T48 St. John the Baptist Convention Facility F 329,036
+20 20_901 Sales Tax Deds T49 St. Landry Parish Historical Development F 373,159
+20 20_901 Sales Tax Deds T50 St. Martin Parish Enterprise Fund 172,179
+20 20_901 Sales Tax Deds T51 St. Mary Parish Visitor Enterprise Fund 580,000
+20 20_901 Sales Tax Deds T52 St. Tammany Parish Fund 1,859,500
+20 20_901 Sales Tax Deds T53 Tangipahoa Parish Tourist Commission Fund 522,008
+20 20_901 Sales Tax Deds T54 Tensas Parish Visitor Enterprise Fund 1,941
+20 20_901 Sales Tax Deds T55 Houma/Terrebonne Tourist Fund 573,447
+20 20_901 Sales Tax Deds T56 Union Parish Visitor Enterprise Fund 27,232
+20 20_901 Sales Tax Deds T57 Vermilion Parish Visitor Enterprise Fund 114,843
+20 20_901 Sales Tax Deds T60 Webster Parish Conv. & Visitors Commission 170,769
+20 20_901 Sales Tax Deds T61 West Baton Rouge Parish Visitor Enterprise 515,436
+20 20_901 Sales Tax Deds T62 West Carroll Parish Visitor Enterprise Fun 42,076
+20 20_901 Sales Tax Deds T64 Winn Parish Tourism Fund 56,665
+
+=== page 23 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 20_901 Sales Tax Deds TA1 Shreveport‐Bossier City Visitor Enterprise 557,032
+20 20_901 Sales Tax Deds TA2 Vernon Parish Legis. Community Improvement 428,272
+20 20_901 Sales Tax Deds TA3 Alexandria/Pineville Area Tourism Fund 242,310
+20 20_901 Sales Tax Deds TA4 Rapides Parish Economic Development Fund 370,891
+20 20_901 Sales Tax Deds TA5 Natchitoches Parish Visitor Enterprise Fun 130,000
+20 20_901 Sales Tax Deds TA6 Lincoln Parish Municipalities Fund 258,492
+20 20_901 Sales Tax Deds TA7 EBR Parish Community Improvement Fund 2,575,872
+20 20_901 Sales Tax Deds TA8 East Baton Rouge Parish Enhancement Fund 1,387,936
+20 20_901 Sales Tax Deds TA9 Washington Parish Tourist Commission Fund 43,025
+20 20_901 Sales Tax Deds TB0 Grand Isle Tourist Commission Account 28,295
+20 20_901 Sales Tax Deds TB1 Jeff Par C.C. Fund ‐ Gretna Tourist Com A 118,389
+20 20_901 Sales Tax Deds TB2 Lake Charles Civic Center Fund 1,158,003
+20 20_901 Sales Tax Deds TB3 New Orleans Area Economic Development Fund 466
+20 20_901 Sales Tax Deds TB4 River Parishes Conv, Tour, and Visitors Co 201,547
+20 20_901 Sales Tax Deds TB5 St. Francisville Economic Development Fund 178,424
+20 20_901 Sales Tax Deds TB6 Tangipahoa Parish Economic Development Fun 175,760
+20 20_901 Sales Tax Deds TB7 Washington Parish Infrastructure and Park 50,000
+20 20_901 Sales Tax Deds TB8 Pineville Economic Development Fund 222,535
+20 20_901 Sales Tax Deds TB9 Washington Parish Econ Dvp & Tourism Fund 14,486
+20 20_901 Sales Tax Deds TC0 Terrebonne Parish Visitor Enterprise Fund 564,845
+20 20_901 Sales Tax Deds TC1 Bastrop Municipal Center Fund 40,357
+20 20_901 Sales Tax Deds TC2 Rapides Parish Coliseum Fund 74,178
+20 20_901 Sales Tax Deds TC3 Madison Parish Visitor Enterprise Fund 34,326
+20 20_901 Sales Tax Deds TC4 Natchitoches Historic District Development 319,165
+20 20_901 Sales Tax Deds TC5 Baker Economic Development Fund 39,499
+20 20_901 Sales Tax Deds TC6 Claiborne Parish Tourism & Econ. Dvp Fund 517
+20 20_901 Sales Tax Deds TC7 E. N. Morial Conv Ctr Phase IV Expan. Proj 2,000,000
+20 20_901 Sales Tax Deds TC9 Lafourche Parish ARC Training/Development 344,734
+20 20_901 Sales Tax Deds TD1 Grant Parish Economic Development Fund 2,007
+20 20_901 Sales Tax Deds TD2 New Orleans Quality of Life Fund 4,300,000
+20_901 Total 52,225,345
+20 20_903 Parish Trans 100 Parish Road 38,445,000
+20 20_903 Parish Trans 200 Mass Transit 4,955,000
+20 20_903 Parish Trans 300 Off‐system Roads and Bridges Match 3,000,000
+20 20_903 Parish Trans TT1 Transportation Trust Fund 46,400,000
+20_903 Total 46,400,000
+20 20_905 Interim Emerg Bd 000 General Fund (Direct) 36,808
+20 20_905 Interim Emerg Bd 100 Administrative 36,808
+20_905 Total 36,808
+20 20_906 DAs & Assist Das 000 General Fund (Direct) 26,907,217
+20 20_906 DAs & Assist Das 100 District Attorneys & Assistant District At 32,357,217
+20 20_906 DAs & Assist Das G03 Video Draw Poker Device Fund 5,400,000
+20 20_906 DAs & Assist Das G09 Pari‐mutuel Live Racing Fac. Gaming Contro 50,000
+20_906 Total 32,357,217
+20 20_923 Corr Debt Service 000 General Fund (Direct) 5,079,780
+20 20_923 Corr Debt Service 100 Corrections Debt Service 5,079,780
+20_923 Total 5,079,780
+
+=== page 24 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 20_924 Video Draw Poker ‐ 100 State Aid 40,277,500
+20 20_924 Video Draw Poker ‐ G03 Video Draw Poker Device Fund 40,277,500
+20_924 Total 40,277,500
+20 20_925 Unclaimed Property 100 Unclaimed Property Leverage Fund Debt Serv 15,000,000
+20 20_925 Unclaimed Property ST4 Unclaimed Property Leverage Fund 15,000,000
+20_925 Total 15,000,000
+20 20_930 High Ed‐Debt Servi 000 General Fund (Direct) 38,716,506
+20 20_930 High Ed‐Debt Servi 100 Debt Service and Maintenance 38,716,506
+20_930 Total 38,716,506
+20 20_931 LED Debt Service 000 General Fund (Direct) 26,533,050
+20 20_931 LED Debt Service 100 LED Debt Service/State Commitments 42,940,711
+20 20_931 LED Debt Service ED5 Louisiana Mega‐project Development Fund 4,407,404
+20 20_931 LED Debt Service EDR Rapid Response Fund 12,000,257
+20_931 Total 42,940,711
+20 20_932 2% Fire Ins Fund 100 State Aid 18,340,000
+20 20_932 2% Fire Ins Fund I03 Two Percent Fire Insurance Fund 18,340,000
+20_932 Total 18,340,000
+20 20_933 Gov's Conferences 000 General Fund (Direct) 458,028
+20 20_933 Gov's Conferences 100 Governor's Conferences and Interstate Comp 458,028
+20_933 Total 458,028
+20 20_939 Prepaid Wireless T 002 Fees and Self‐generated Revenues 14,000,000
+20 20_939 Prepaid Wireless T 100 Prepaid Wireless Tele 911 Svc 14,000,000
+20_939 Total 14,000,000
+20 20_940 EMS‐Parishes & Mun 002 Fees and Self‐generated Revenues 150,000
+20 20_940 EMS‐Parishes & Mun 100 Emergency Medical Services 150,000
+20_940 Total 150,000
+20 20_941 Agri & Forest Pass 000 General Fund (Direct) 1,485,292
+20 20_941 Agri & Forest Pass 002 Fees and Self‐generated Revenues 248,532
+20 20_941 Agri & Forest Pass 003 Interagency Transfers 265,443
+20 20_941 Agri & Forest Pass 006 Federal Funds 9,056,260
+20 20_941 Agri & Forest Pass 100 Agriculture and Forestry ‐ Pass Through Fu 15,139,561
+20 20_941 Agri & Forest Pass A07 Louisiana Agricultural Finance Authority F 200,000
+20 20_941 Agri & Forest Pass A13 Ag. Commodity Commission Self‐Insurance Fu 350,000
+20 20_941 Agri & Forest Pass A14 Forestry Productivity Fund 3,000,000
+20 20_941 Agri & Forest Pass A27 Grain and Cotton Indemnity Fund 534,034
+20_941 Total 15,139,561
+20 20_945 State Aid to Local 000 General Fund (Direct) 2,370,853
+20 20_945 State Aid to Local 100 Miscellaneous Aid 25,658,975
+20 20_945 State Aid to Local E29 St. Landry Parish Excellence Fund 652,987
+20 20_945 State Aid to Local E30 Calcasieu Parish Fund 983,741
+20 20_945 State Aid to Local E32 Tobacco Tax Health Care Fund 11,902,391
+20 20_945 State Aid to Local E33 Bossier Parish Truancy Program Fund 298,807
+20 20_945 State Aid to Local G13 Beautification/Improvement N.O. City Park 1,900,196
+20 20_945 State Aid to Local G14 Greater New Orleans Sports Foundation Fund 1,000,000
+20 20_945 State Aid to Local G15 Algiers Economic Development Foundation Fu 100,000
+20 20_945 State Aid to Local G16 N.O. Urban Tourism and Hospitality Train. 200,000
+20 20_945 State Aid to Local G17 Beautification Proj. for N.O. Neighborhood 200,000
+20 20_945 State Aid to Local G18 Friends of NORD Fund 100,000
+
+=== page 25 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 20_945 State Aid to Local RVA Sports Facility Assistance Fund 100,000
+20 20_945 State Aid to Local S06 Rehab. for the Blind/Visually Impaired Fun 2,000,000
+20 20_945 State Aid to Local STI Oil and Gas Royalties Dispute Payments Fun 450,000
+20 20_945 State Aid to Local V25 Overcollections Fund 3,400,000
+20_945 Total 25,658,975
+20 20_950 Special Acts 000 General Fund (Direct) 1,860,167
+20 20_950 Special Acts 100 Judgments 1,860,167
+20_950 Total 1,860,167
+20 20_966 Supp Pay Law Enf 000 General Fund (Direct) 124,042,083
+20 20_966 Supp Pay Law Enf 100 Municipal Police Supplemental Payments 35,274,083
+20 20_966 Supp Pay Law Enf 200 Firefighters' Supplemental Payments 34,072,000
+20 20_966 Supp Pay Law Enf 300 Constables and Justices of the Peace Payme 980,000
+20 20_966 Supp Pay Law Enf 400 Deputy Sheriffs' Supplemental Payments 53,716,000
+20_966 Total 124,042,083
+20 20_977 DOA ‐ Debt Servi/M 000 General Fund (Direct) 52,939,457
+20 20_977 DOA ‐ Debt Servi/M 002 Fees and Self‐generated Revenues 38,425
+20 20_977 DOA ‐ Debt Servi/M 003 Interagency Transfers 38,298,369
+20 20_977 DOA ‐ Debt Servi/M 100 Debt Service and Maintenance 91,276,251
+20_977 Total 91,276,251
+20 21_800 Group Benefits 004 Internal Service Fund ‐ F&SGR 1,560,982,029
+20 21_800 Group Benefits 005 Internal Service Fund ‐ IAT 198,733
+20 21_800 Group Benefits E00 State Group Benefits 1,561,180,762
+21_800 Total 1,561,180,762
+20 21_804 Risk Management 004 Internal Service Fund ‐ F&SGR 17,829,633
+20 21_804 Risk Management 005 Internal Service Fund ‐ IAT 184,534,813
+20 21_804 Risk Management E00 Risk Management 204,364,446
+20 21_804 Risk Management V19 Future Medical Care Fund 2,000,000
+21_804 Total 204,364,446
+20 21_806 La Property Assist 004 Internal Service Fund ‐ F&SGR 5,693,916
+20 21_806 La Property Assist 005 Internal Service Fund ‐ IAT 1,915,846
+20 21_806 La Property Assist E00 Louisiana Property Assistance 7,609,762
+21_806 Total 7,609,762
+20 21_807 Fed Prop Assist 004 Internal Service Fund ‐ F&SGR 3,096,973
+20 21_807 Fed Prop Assist 005 Internal Service Fund ‐ IAT 234,342
+20 21_807 Fed Prop Assist E00 Federal Property Assistance 3,331,315
+21_807 Total 3,331,315
+20 21_811 Prison Enterprises 004 Internal Service Fund ‐ F&SGR 8,903,697
+20 21_811 Prison Enterprises 005 Internal Service Fund ‐ IAT 24,837,346
+20 21_811 Prison Enterprises E00 Prison Enterprises 33,741,043
+21_811 Total 33,741,043
+20 21_815 OTS Services 004 Internal Service Fund ‐ F&SGR 1,518,473
+20 21_815 OTS Services 005 Internal Service Fund ‐ IAT 393,866,153
+20 21_815 OTS Services E00 Office of Technology Services 395,384,626
+21_815 Total 395,384,626
+20 21_816 Divi Admin Law 004 Internal Service Fund ‐ F&SGR 28,897
+20 21_816 Divi Admin Law 005 Internal Service Fund ‐ IAT 8,469,232
+20 21_816 Divi Admin Law E00 Administration 8,498,129
+21_816 Total 8,498,129
+
+=== page 26 ===
+AP‐DOCUMENT
+FY SCHED AGENCY APPROP APPROPRIATION NAME AMOUNT
+20 21_820 State Procurement 004 Internal Service Fund ‐ F&SGR 5,447,546
+20 21_820 State Procurement 005 Internal Service Fund ‐ IAT 5,447,546
+20 21_820 State Procurement E00 Office of State Procurement 10,895,092
+21_820 Total 10,895,092
+20 21_829 Aircraft Services 004 Internal Service Fund ‐ F&SGR 429,215
+20 21_829 Aircraft Services 005 Internal Service Fund ‐ IAT 1,835,431
+20 21_829 Aircraft Services E00 Flight Maintenance 2,264,646
+21_829 Total 2,264,646
+20 21_860 Clean Water E00 Clean Water State Revolving Fund 90,000,000
+20 21_860 Clean Water Q03 Clean Water State Revolving Fund 90,000,000
+21_860 Total 90,000,000
+20 21_861 Safe Dr Wtr Rev Ln E00 Safe Drinking Water Revolving Loan Fund 34,000,000
+20 21_861 Safe Dr Wtr Rev Ln H22 Drinking Water Revolving Loan Fund 34,000,000
+21_861 Total 34,000,000
+20 23_949 La Judiciary 000 General Fund (Direct) 151,460,091
+20 23_949 La Judiciary 003 Interagency Transfers 9,392,850
+20 23_949 La Judiciary 100 Louisiana Judiciary 171,093,866
+20 23_949 La Judiciary JU1 Trial Court Case Management Information Fu 4,017,201
+20 23_949 La Judiciary JU2 Judges' Supplemental Compensation Fund 6,223,724
+23_949 Total 171,093,866
+20 24_951 House of Reps 000 General Fund (Direct) 28,717,038
+20 24_951 House of Reps 100 House of Representatives 28,717,038
+24_951 Total 28,717,038
+20 24_952 Senate 000 General Fund (Direct) 21,553,399
+20 24_952 Senate 100 Senate 21,553,399
+24_952 Total 21,553,399
+20 24_954 Legislative Audito 000 General Fund (Direct) 8,184,454
+20 24_954 Legislative Audito 007 Fees and Self‐generated Revenues‐Select Ag 23,525,043
+20 24_954 Legislative Audito 100 Legislative Auditor 31,359,497
+20 24_954 Legislative Audito A00 Legislative Auditor ‐ Ancillary Enterprise 350,000
+24_954 Total 31,709,497
+20 24_955 Legis Fiscal Offic 000 General Fund (Direct) 2,886,664
+20 24_955 Legis Fiscal Offic 100 Legislative Fiscal Office 2,886,664
+24_955 Total 2,886,664
+20 24_960 Legis Budget Contr 100 Legislative Budgetary Control Council 10,000,000
+20 24_960 Legis Budget Contr ST6 Legislative Capitol Technology Enhancement 10,000,000
+24_960 Total 5,000,000
+20 24_962 La St Law Institut 000 General Fund (Direct) 1,131,401
+20 24_962 La St Law Institut 100 Louisiana State Law Institute 1,131,401
+24_962 Total 1,131,401
+Grand Total 32,692,334,299

@@ -1,0 +1,948 @@
+=== page 1 ===
+CHAPTER 53-06.1
+GAMES OF CHANCE
+53-06.1-01. Definitions.
+As used in this chapter:
+1. "Adjusted gross proceeds" means gross proceeds less cash prizes, cost of
+merchandise prizes, gaming tax, and federal excise tax imposed under section 4401 of
+the Internal Revenue Code [26 U.S.C. 4401].
+2. "Alcoholic beverage establishment" means an establishment licensed under section
+5-01-21 or chapter 5-02 where alcoholic beverages are sold, dispensed, and
+consumed by guests on the premises. The term does not include a liquor store, gas
+station, grocery store, or convenience store.
+3. "Charitable organization" means an organization whose primary purpose is for relief of
+poor, distressed, underprivileged, diseased, elderly, or abused persons, prevention of
+cruelty to children or animals, or similar condition of public concern.
+4. "Civic and service organization" means an organization whose primary purpose is to
+promote the common good and social welfare of a community as a sertoma, lion,
+rotary, jaycee, kiwanis, or similar organization.
+5. "Closely related organization" means an organization that controls, is controlled by, or
+is under common control with another organization. Control exists when an
+organization has the authority or ability to elect, appoint, or remove a majority of the
+officers or directors of another organization or, by policy, contract, or otherwise, has
+the authority or ability to directly or indirectly direct or cause the direction of the
+management or policies of another organization.
+6. "Distributor" means a person that sells, markets, or distributes equipment designed for
+use in the conduct of games.
+7. "Educational organization" means a nonprofit public or private elementary or
+secondary school, two-year or four-year college, or university.
+8. "Electronic pull tab device" means a device, approved by the attorney general, which
+electronically displays pull tabs.
+9. "Eligible organization" means a veterans, charitable, educational, religious, fraternal,
+civic and service, public safety, or public-spirited organization domiciled in North
+Dakota or authorized by the secretary of state as a foreign corporation under chapter
+10-33, incorporated as a nonprofit organization, and which has been regularly and
+actively fulfilling its primary purpose within this state during the two immediately
+preceding years. However, an educational organization does not need to be
+incorporated or be in existence for two years. An organization's primary purpose may
+not involve the conduct of games. The organization may be issued a license by the
+attorney general. For purposes of this section, a foreign corporation authorized under
+chapter 10-33 is not an eligible organization unless authorized to conduct a raffle
+under chapter 20.1-04 or 20.1-08 and may not conduct a game other than a raffle
+under chapter 20.1-04 or 20.1-08.
+10. "Fraternal organization" means an organization, except a school fraternity, which is a
+branch, lodge, or chapter of a national or state organization and exists for the common
+business, brotherhood, or other interests of its members. The organization must have
+qualified for exemption from federal income tax under section 501(c)(8) or 501(c)(10)
+of the Internal Revenue Code.
+11. "Games" means games of chance.
+12. "Gross proceeds" means all cash and checks received from conducting games.
+13. "Licensed organization" means an eligible organization licensed by the attorney
+general.
+14. "Manufacturer" means, for a pull tab or bingo card, a person who designs, prints,
+assembles, or produces the product. For a pull tab dispensing device, electronic pull
+tab device operating system, bingo card marking device, or electronic raffle system, a
+manufacturer means the person who directly controls and manages development of
+Page No. 1
+
+=== page 2 ===
+and owns the rights to the proprietary software encoded on a processing chip that
+enables the device or system to operate.
+15. "Net income" means gross proceeds less cash prizes, cost of merchandise prizes, and
+expenses to conduct the gaming activity.
+16. "Net proceeds" means adjusted gross proceeds less allowable expenses and gaming
+tax.
+17. "Permit" means a local permit or restricted event permit issued by a governing body of
+a city or county to a nonprofit organization or group of people domiciled in North
+Dakota.
+18. "Person" means any person, partnership, corporation, limited liability company,
+association, or organization.
+19. "Prize board" means a board used with pull tabs to award cash or merchandise prizes.
+20. "Public safety organization" means an organization whose primary purpose is to
+provide firefighting, ambulance service, crime prevention, or similar emergency
+assistance.
+21. "Public-spirited organization" means an organization whose primary purpose is for
+scientific research, amateur sports competition, safety, literary, arts, preservation of
+cultural heritage, educational activities, educational public service, youth, economic
+development, tourism, community medical care, community recreation, or similar
+organization, which does not meet the definition of any other type of eligible
+organization. However, a nonprofit organization or a group of people recognized as a
+public-spirited organization by a governing body of a city or county for obtaining a
+permit does not need to meet this definition.
+22. "Pull tab" means a folded or banded ticket or jar ticket, a pull tab card with break-open
+tabs, or an electronic pull tab displaying concealed numbers or symbols or
+combinations of concealed numbers and symbols which are exposed by a player to
+determine the outcome. The terms "pull tab" and "jar ticket" are used interchangeably
+unless otherwise stated. A winning pull tab contains certain symbols, numbers, or
+combinations of symbols and numbers and may contain multiple winning symbols,
+numbers, or combinations of symbols and numbers which have been previously
+designated as winning symbols or numbers.
+23. "Religious organization" means a church, body of communicants, or group gathered in
+common membership whose primary purpose is for advancement of religion, mutual
+support and edification in piety, worship, and religious observances.
+24. "Veterans organization" means any congressionally chartered post organization, or
+any branch or lodge or chapter of a nonprofit national or state organization whose
+membership consists of individuals who are or were members of the armed services or
+forces of the United States. The organization must have qualified for exemption from
+federal income tax under section 501(c)(19) of the Internal Revenue Code.
+53-06.1-01.1. Gaming commission.
+1. The state gaming commission consists of the chairman and four other members
+appointed by the governor, with the consent of the senate. The members serve
+three-year terms and until a successor is appointed and qualified. If the senate is not
+in session when the term of a member expires, the governor may make an interim
+appointment, and the interim appointee holds office until the senate confirms or rejects
+the appointment. A member appointed to fill a vacancy arising from other than the
+natural expiration of a term serves only for the unexpired portion of the term. The
+terms of the commissioners must be staggered so no more than two terms expire each
+July first.
+2. A person is ineligible for appointment to the commission if that person has not been a
+resident of this state for at least two years before the date of appointment. A person is
+also ineligible if that person is not of such character and reputation as to promote
+public confidence in the administration of gaming in this state. A person is also
+ineligible if that person has been convicted of a felony criminal offense or has pled
+guilty or been found guilty of any violation of chapter 12.1-06, 12.1-08, 12.1-09,
+Page No. 2
+
+=== page 3 ===
+12.1-10, 12.1-11, 12.1-12, 12.1-22, 12.1-23, 12.1-24, 12.1-28, 53-06.1, or 53-06.2, or
+has pled guilty or been found guilty of any violation of section 6-08-16 or 6-08-16.2, or
+has pled guilty or been found guilty of any offense or violation that has a direct bearing
+on the person's fitness to be involved in gaming, or who has committed an equivalent
+offense or violation of the laws of another state or of the United States. A person who
+has a financial interest in gaming or is an employee or a member of the gaming
+committee of a licensed organization or distributor cannot be a member of the
+commission. For the purpose of this subsection, a financial interest includes the
+receiving of any direct payment from an eligible organization for property, services, or
+facilities provided to that organization.
+3. Commission members are entitled to seventy-five dollars per day for compensation for
+each day spent on commission duties and mileage and expense reimbursement as
+allowed to other state employees.
+4. The commission shall adopt rules in accordance with chapter 28-32, to administer and
+regulate the gaming industry, including methods of conduct, play, and promotion of
+games; minimum procedures and standards for recordkeeping and internal control;
+requiring tax returns and reports from organizations or distributors; methods of
+competition and doing business by distributors and manufacturers; acquisition and use
+of gaming equipment; quality standards or specifications for the manufacture of pull
+tabs, paper bingo cards, electronic pull tab devices, pull tab dispensing devices, bingo
+card marking devices, and fifty-fifty raffle systems; to ensure that net proceeds are
+used for educational, charitable, patriotic, fraternal, religious, or public-spirited uses; to
+protect and promote the public interest; to ensure fair and honest games; to ensure
+that fees and taxes are paid; and to prevent and detect unlawful gambling activity.
+53-06.1-01.2. Duty of attorney general to participate in certain hearings - Employment
+of private counsel by commission.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-02. Organizations eligible - Use of net proceeds.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-02.1. Waiver of two-year active requirement - Local permit.
+Repealed by S.L. 1995, ch. 484, § 35.
+53-06.1-03. Permits, site authorization, and licenses - Organization requirements -
+Site inspection.
+1. Except as authorized by the attorney general, an organization that has its license
+suspended or revoked, or has relinquished or not renewed its license and not
+disbursed its net proceeds, is ineligible for a license or permit. Only one of two or more
+closely related organizations may have a license or permit at one time. A college or
+university fraternity, sorority, or club is not closely related to an educational
+organization. An organization shall apply for a permit as follows:
+a. An organization recognized as a public-spirited organization by the governing
+body of a city or county may apply for permits. A local permit may allow the
+organization to conduct only raffles, bingo, or sports pools. A restricted event
+permit may allow the organization to conduct only raffles, bingo, sports pools,
+paddlewheels, twenty-one, and poker. The organization or closely related
+organizations as a whole may only award a primary prize that does not exceed
+fifteen thousand dollars and total prizes of all games do not exceed fifty thousand
+dollars per year. These maximum prize amounts do not apply to raffles conducted
+under chapter 20.1-08. The determination of what is a "public-spirited
+organization" is within the sole discretion of the governing body. An organization
+shall disclose on the application its intended use of the net income from the
+Page No. 3
+
+=== page 4 ===
+gaming activity. A governing body may issue a permit for games to be held at
+designated times and places.
+b. An organization shall apply to the governing body of the city or county in which
+the proposed site is located. Application must be made on a form prescribed by
+the attorney general. Approval may be granted at the discretion of the governing
+body. A governing body may establish a fee not to exceed twenty-five dollars for
+each permit. A permit must be on a fiscal year basis from July first to June
+thirtieth or on a calendar-year basis.
+c. An organization that has a local permit or a restricted event permit may use the
+net income from the gaming activity for any purpose that does not violate this
+chapter or gaming rules, unless the organization is a state political party or
+legislative district party committee, the organization may use the net income from
+a raffle for a political purpose. For purposes of this subdivision, a public-spirited
+use includes a political purpose.
+d. An organization that has a restricted event permit is restricted to one event per
+year and:
+(1) May not pay remuneration to employees for personal services;
+(2) Shall use chips as wagers;
+(3) Shall redeem a player's chips for merchandise prizes or cash;
+(4) Shall disburse net income to eligible uses referenced in subdivision c, if
+applicable, and in section 53-06.1-11.1; and
+(5) Shall file a report prescribed by the attorney general with the governing body
+and attorney general.
+2. An eligible organization shall apply for a license to conduct only bingo, electronic quick
+shot bingo, raffles, calcuttas, pull tabs, punchboards, twenty-one, paddlewheels,
+poker, or sports pools by:
+a. First securing approval for a site authorization from the governing body of the city
+or county in which the proposed site is located. The approved authorization must
+be recorded on a site authorization form that is to accompany the license
+application to the attorney general for final approval. An eligible organization may
+request a specific site location on the site authorization form.
+(1) A governing body may deny a site authorization only in accordance with an
+ordinance or written policy adopted or amended following public comment.
+Under the ordinance or policy, the governing body:
+(a) May not require an eligible organization to donate net proceeds to the
+city, county, or related political subdivision or for community programs
+or services within the city or county as a condition for receiving a site
+authorization from the city or county;
+(b) May not deny a site authorization solely because the eligible
+organization has not conducted gaming at the site;
+(c) May not require that an eligible organization be located at a specific
+site or require a site to enter a lease with a specific organization as a
+condition of site authorization;
+(d) May require a signed agreement between an eligible organization and
+a site owner before approving a site authorization. The agreement
+must be contingent on securing approval for the site authorization
+from the governing body of the city or county;
+(e) May limit the type of games, the number of electronic pull tab devices
+or tables for the game of twenty-one per site, the number of sites the
+governing body may approve per licensed organization, and the
+number of sites upon which a licensed organization may conduct
+games within the city or county;
+(f) May establish qualifications for an eligible organization to receive a
+site authorization; and
+(g) May charge a one hundred dollar fee for a site authorization.
+(2) This subsection may not be construed to prohibit a governing body from:
+Page No. 4
+
+=== page 5 ===
+(a) Creating and enforcing rules that are more stringent than state law
+regarding charitable gaming as otherwise permitted in code; or
+(b) Denying a site authorization for just cause, including, after
+consultation with the attorney general, a violation of state law or local
+rules.
+b. Annually applying for a license from the attorney general before July first on a
+form prescribed by the attorney general and remitting a one hundred seventy-five
+dollar license fee for each city or county that approves a site authorization. The
+attorney general shall deposit twenty-five dollars of this fee into the charitable
+gaming technology fund under section 53-06.1-12.4. However, the attorney
+general may allow an organization that only conducts a raffle or calcutta in two or
+more cities or counties to annually apply for a consolidated license and remit a
+one hundred seventy-five dollar license fee for each city or county in which a site
+is located. The attorney general shall deposit twenty-five dollars of this fee into
+the charitable gaming technology fund under section 53-06.1-12.4. An
+organization shall document that it qualifies as an eligible organization. If an
+organization amends its primary purpose as stated in its articles of incorporation
+or materially changes its basic character, the organization shall reapply for
+licensure. The attorney general may deny issuance of a license or deny renewal
+of a license to an eligible organization that has obtained approval of site
+authorization under subdivision a, if the organization or site is not in compliance
+with applicable laws and rules.
+3. A licensed organization or organization that has a permit shall conduct games as
+follows:
+a. Only one licensed organization or organization that has a permit may conduct
+games at an authorized site on a day, except a raffle or a sports pool conducted
+under a local permit may be conducted for a special occasion by another licensed
+organization or organization that has a permit when one of these conditions is
+met:
+(1) When the area for the raffle or a sports pool is physically separated from the
+area where games are conducted by the regular organization.
+(2) Upon request of the regular organization and with the approval of the
+alcoholic beverage establishment, the regular organization's license or
+permit is suspended for that specific time of day by the attorney general.
+b. Except for a temporary site authorized for fourteen or fewer consecutive days for
+not more than two events per quarter or a licensed organization authorized on or
+before January 1, 2023, to conduct gaming at more than fifteen sites, a licensed
+organization, including a closely related organization, may not have more than
+fifteen sites.
+c. Games of electronic quick shot bingo, electronic pull tabs, pull tabs, punchboards,
+twenty-one, paddlewheels, poker, and sports pools may be conducted only during
+the hours when alcoholic beverages may be dispensed according to applicable
+regulations of the state, county, or city. Electronic pull tabs must be conducted in
+a designated area where patrons must be twenty-one years of age or older to
+enter.
+d. An organization may not permit a person under twenty-one years of age to
+directly or indirectly play pull tabs, punchboards, twenty-one, calcuttas, sports
+pools, paddlewheels, or poker. An organization may not permit an individual
+under eighteen years of age to directly or indirectly play electronic quick shot
+bingo. An organization may not permit an individual under eighteen years of age
+to directly or indirectly play bingo unless the individual is accompanied by an
+adult, bingo is conducted by an organization that has a permit, or the game's
+prize structure does not exceed that allowed for a permit.
+e. An organization may not install more than ten electronic pull tab devices at a site.
+Page No. 5
+
+=== page 6 ===
+f. An organization with more than fifteen licensed sites under subdivision b may not
+increase its number of sites beyond the number of sites licensed as of January 1,
+2023.
+g. An organization conducting gaming at an authorized site on January 1, 2023,
+may continue to operate gaming, including as provided under subsection 1 of
+section 53-06.1-06, at the authorized site regardless of whether the authorized
+site is an alcoholic beverage establishment as defined under section 53-06.1-01.
+h. For a raffle board, an organization permitted to conduct raffles shall sell the
+numbered squares on the board for the same price and may sell squares at a site
+thirty days before the drawing.
+4. A permit, or site authorization and license, must be displayed at a site.
+5. The attorney general may issue a conditional license to an eligible organization whose
+regularly issued license has expired or been suspended, revoked, or relinquished. The
+attorney general shall designate the time period for which the conditional license is
+valid and may impose any conditions.
+6. A governing body or local law enforcement official may inspect a site's gaming
+equipment and examine or cause to be examined any gaming-related books and
+records of a licensed organization or organization that has a permit.
+53-06.1-03.1. Bingo sites - Limit on rent.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-03.2. Twenty-one sites - Limit on rent.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-03.3. Pull tab sites - Limit on rent.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-03.4. Electronic video gaming devices - Limit on rent.
+Disapproved by R.M. December 5, 1989, S.L. 1991, ch. 744.
+53-06.1-04. College fraternities and sororities allowed to conduct raffles, sports
+pools, and bingo - Use of proceeds.
+Repealed by S.L. 1995, ch. 484, § 35.
+53-06.1-05. Local permit for educational organizations, college fraternities, and
+sororities for raffles, sports pools, and bingo.
+Repealed by S.L. 1995, ch. 484, § 35.
+53-06.1-05.1. Regulation by city or county of number of twenty-one tables per site and
+number of sites per licensed organization.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-06. Persons permitted to conduct games - Equipment.
+1. No person, except a member, volunteer, an employee of a licensed organization or an
+organization that has a permit, or an employee of a temporary employment agency
+who provides services to a licensed organization, may manage, control, or conduct
+any game. "Member" includes a member of an auxiliary organization. In conducting
+pull tabs or prize boards through a dispensing device, selling pull tabs through a
+pull-tab device, selling raffle tickets, or conducting sports pools, the attorney general
+may allow an employee of an alcoholic beverage establishment to provide limited
+assistance to an organization.
+2. Except when authorized by the attorney general or allowed by the gaming rules, an
+eligible organization shall procure gaming equipment only from a licensed distributor.
+No equipment or prizes may be purchased at an excessive price.
+Page No. 6
+
+=== page 7 ===
+3. An organization and distributor shall maintain complete, accurate, and legible bank
+and accounting records in North Dakota for all gaming activity and establish a system
+of internal control as prescribed by rule. The governing board of an eligible
+organization is primarily responsible and may be held accountable for the proper
+determination and use of net proceeds. If an organization does not renew its license or
+its license is denied, relinquished, or revoked and it has not disbursed all of its net
+proceeds, the organization shall file an action plan as prescribed by the gaming rules
+with the attorney general.
+4. The value of a merchandise prize awarded in a game is its retail price, excluding sales
+tax.
+5. A person is restricted from being involved in gaming and the attorney general shall
+conduct a criminal history record check as follows:
+a. (1) A person who has pled guilty to or been found guilty of a felony offense as
+defined by the laws of this state, other states, or the federal government, or
+has pled guilty to or been found guilty of a violation of this chapter, a gaming
+rule, chapter 12.1-28 or 53-06.2, or offenses of other states or the federal
+government equivalent to offenses defined in these chapters, regardless of
+whether the person has completed or received a deferred imposition of
+sentence or suspended sentence, may not be a licensed distributor, be an
+investor in or board member or consultant to a licensed distributor, or be
+employed by a licensed distributor, and may not be employed by a licensed
+organization to conduct games, for five years from the date of conviction,
+release from incarceration, or expiration of parole or probation, whichever is
+the latest.
+(2) Paragraph 1 does not apply if the offense to which the person pled guilty or
+has been found guilty is a misdemeanor and the person has received a
+deferred imposition of sentence and has fully complied with the terms of the
+deferral.
+b. A person who has pled guilty to or been found guilty of a misdemeanor offense in
+violation of section 6-08-16.1 or chapter 12.1-06, 12.1-23, or 12.1-24 or offenses
+of other states, the federal government, or a municipality equivalent to these
+offenses, regardless if the person has completed or received a suspended
+sentence, may not be a licensed distributor or be employed by a licensed
+distributor, and may not be employed by a licensed organization to conduct
+games, for two years from the date of conviction, release from incarceration, or
+expiration of parole or probation, whichever is the latest, unless the person has
+received a deferred imposition of sentence and has fully complied with the terms
+of the deferral.
+c. Unless an employee is exempt by the gaming rules or attorney general, the
+attorney general shall conduct a criminal history record check of each employee
+of a licensed organization or distributor and charge a fee prescribed by section
+12-60-16.9. The fee may be waived by the attorney general if a federal agency or
+local law enforcement agency has done a record check. The attorney general
+may require advance payment of any additional fee necessary to pay the cost of
+a record check of a person for whom adequate background information sources
+are not readily available. The advance payment must be placed in the attorney
+general's refund fund. The unused funds must be returned to the person within
+thirty days of the conclusion of the record check. Unless a federal or local law
+enforcement agency conducts the record check, the attorney general shall notify
+the organization or distributor of the result. The attorney general shall keep the
+information confidential except in the proper administration of this chapter or any
+gaming rule or to provide to an authorized law enforcement agency.
+6. For a site where bingo is the primary game or a site that is leased by a licensed
+organization, the organization may not pay bingo prizes in which the total bingo prizes
+exceed total bingo gross proceeds for a period prescribed by gaming rule. However, if
+Page No. 7
+
+=== page 8 ===
+bingo is the primary game at the site, a bingo prize that equals or exceeds ten
+thousand dollars is excluded from the total of the bingo prizes.
+7. A city or county may require a person conducting games to obtain a local work permit,
+charge a reasonable fee, and conduct a criminal history record check.
+53-06.1-06.1. Local work permits.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-07. Games allowed.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-07.1. Limitations on hours and participation.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-07.2. Poker.
+Poker may be conducted on not more than two occasions per year. An organization may
+supply the dealer. The maximum single bet is one dollar. Not more than three raises, of not
+more than one dollar each, may be made among all the players in each round of bets. For
+nontournament activity, an organization shall charge each player a fee not to exceed two dollars
+per one-half hour of playing time, collected in advance. For a tournament, an organization shall
+charge each player an entry fee and the amount of prizes may not exceed ninety percent of the
+gross proceeds.
+53-06.1-07.3. Calcuttas.
+A calcutta may only be conducted for a professional or amateur sporting event held in this
+state but not for elementary, secondary, or postsecondary education sports events. Only one
+wager per competitor may be allowed in a calcutta pool. The amount of prizes may not exceed
+ninety percent of the gross proceeds. A player may not place a wager on a competitor in a
+calcutta sporting event unless the competitor is eighteen years of age or older.
+53-06.1-07.4. Paddlewheels.
+A paddlewheel is a mechanical vertical wheel marked off into equally spaced sections that
+contain numbers or symbols, and which after being spun, uses a pointer to indicate the winning
+number or symbol. The maximum price per paddlewheel ticket or chip is two dollars. A table and
+chips must be used to register a player's wager when a prize is a variable multiple of the wager.
+Otherwise, a ticket must be used. A player may not place wagers totaling more than twenty
+dollars on each spin of the paddlewheel. Cash, chips, or merchandise prizes may be awarded.
+No single cash prize, value of chips, or the retail value of the merchandise prize to be awarded
+for a winning ticket or chip may exceed one hundred dollars.
+53-06.1-08. Punchboards and pull tabs.
+Unless all top tier winning pull tabs or punchboard punches of a game have been
+redeemed, or unless otherwise permitted by a gaming rule or the attorney general, a person or
+organization may not close the game after it has been placed in play. The maximum sales price
+per pull tab and punchboard punch is two dollars. The maximum prize value of a top tier winning
+pull tab or punchboard punch is five hundred dollars. The game of pull tabs may only be
+conducted by commingling deals.
+53-06.1-08.1. Limitation on pull tab prizes.
+Repealed by S.L. 1995, ch. 484, § 35.
+53-06.1-08.2. Electronic pull tab device requirements.
+An electronic pull tab device must display an electronic pull tab in which the player may win
+credits that can be redeemed for cash or used to purchase more pull tabs. The device may not
+Page No. 8
+
+=== page 9 ===
+directly dispense coins, cash, tokens, or anything else of value other than a credit ticket
+voucher.
+53-06.1-09. Sports pools.
+A sports pool must be for a professional sport only. The maximum wager is twenty-five
+dollars. The amount of prizes may not exceed ninety percent of the gross proceeds.
+53-06.1-10. Twenty-one.
+The organization shall provide playing chips of various denominations to players although
+the organization may use a metal coin rather than a fifty-cent chip. The organization may set the
+minimum limit for the original wager at not more than three dollars on one active table. If there is
+more than one active table at a site, the organization may set a higher minimum wager on
+additional tables. The maximum limit per wager may be set by the organization at not more than
+twenty-five dollars. Wagers in increments of one dollar must be accepted between the posted
+minimum and the posted maximum limit. A player may not play more than two hands at the
+same time. Only the player actually playing a hand may place a wager on that hand. Each
+player plays the player's hand against the dealer's hand. Any requirement to pool tips is within
+the sole discretion of each organization. Except for a site that has twenty-one gross proceeds
+averaging less than ten thousand dollars per quarter, an organization may not conduct
+twenty-one at the site with wagers exceeding two dollars unless the organization has first
+installed video surveillance equipment as required by rules and the equipment is approved by
+the attorney general.
+53-06.1-10.1. Raffles.
+1. A prize for a raffle may be cash or merchandise but may not be real estate. No single
+cash prize may exceed twenty-five thousand dollars and the total cash prizes in one
+day may not exceed twenty-five thousand dollars. However, on not more than two
+occasions per year a licensed organization may, at the request of a winning player,
+exchange a merchandise prize valued at not more than twenty-five thousand dollars
+for a cash prize.
+2. The maximum cash prize limits of this section do not apply to a public-spirited
+organization that supports amateur collegiate athletics.
+3. An organization permitted to conduct raffles in this state may conduct an electronic
+fifty-fifty raffle either by manual drawing or by using a random number generator.
+Electronic fifty-fifty raffle tickets must be sold and drawings held onsite at the location
+of and on the date of the event. Electronic fifty-fifty raffles may not be conducted online
+over the internet.
+4. A licensed organization permitted to conduct raffles in this state may sell online over
+the internet and may accept an electronic payment, including payment by a debit card
+or a credit card, for the purchase of a raffle ticket. An organization that accepts
+payment by credit card for the purchase of a raffle ticket shall limit an individual's ticket
+purchases using a credit card to five hundred dollars per day, not to exceed
+one thousand five hundred dollars per week. If a licensed organization accepts
+electronic payment for the purchase of a raffle ticket, the organization shall verify the
+ticket purchaser is at least eighteen years of age and physically is located in the state.
+53-06.1-10.2. Electronic quick shot bingo.
+1. Electronic quick shot bingo is a bingo game played on portable hand-held bingo
+devices utilizing electronic bingo card images. The maximum sales price per electronic
+bingo card is five dollars. The bingo game is played using twenty-four predrawn letters
+and numbers and may use up to six bonus letters and numbers to achieve
+predetermined patterns. The letters and numbers may only be drawn by the
+organization either manually or with the use of a random number generator, once
+during a business day and before the beginning of any session. It is not required for
+each bingo game to have a winner. The bingo devices used in conjunction with a site
+Page No. 9
+
+=== page 10 ===
+operating system automatically daubs the called letters and numbers via a radio
+frequency signal or wi-fi transmission on a maximum of sixteen electronic bingo cards
+for an individual game. The site operating system, including the point-of-sale, allows
+an employee to deposit credits received from a player by cash, check, or debit card to
+a temporary credit account to be used by a player for the purchase of electronic bingo
+cards. The devices may determine a winning bingo and must accumulate the winning
+prize amounts in a separate winnings account which may only be redeemed by an
+employee.
+2. An electronic quick shot bingo marking device under subsection 1 is not a
+"coin-operated gaming device" as defined in subsection 4 of section 12.1-28-02.
+53-06.1-11. Gross proceeds - Allowable expenses - Rent limits.
+1. All money received from games must be accounted for according to the gaming rules.
+Gaming activity for a quarter must be reported on a tax return form prescribed by the
+attorney general. Unless otherwise authorized by the attorney general, the purchase
+price of a merchandise prize must be paid from a gaming bank account by check. A
+cash prize paid by check must be paid from a gaming bank account. No check drawn
+from a gaming or trust bank account may be payable to "cash" or a fictitious payee. A
+cash prize that exceeds an amount set by rule must be accounted for by a receipt
+prescribed by the gaming rules.
+2. Allowable expenses may be deducted from adjusted gross proceeds. The allowable
+expense limit is sixty percent of the adjusted gross proceeds per quarter.
+3. Cash shorts incurred in games and interest and penalty are classified as expenses.
+4. For a site where bingo is conducted:
+a. If bingo is the primary game, the monthly rent must be reasonable.
+b. If bingo is not the primary game, but is conducted with twenty-one, paddlewheels,
+or pull tabs, no additional rent is allowed.
+5. For a site where bingo is not the primary game:
+a. If twenty-one or paddlewheels is conducted, the monthly rent may not exceed two
+hundred dollars multiplied by the necessary number of tables based on criteria
+prescribed by gaming rule. For each twenty-one table with a wager greater than
+five dollars, an additional amount up to one hundred dollars may be added to the
+monthly rent. If pull tabs is also conducted involving only a jar bar, the monthly
+rent for pull tabs may not exceed an additional one hundred seventy-five dollars.
+If pull tabs is conducted involving only a dispensing device or a jar bar and
+dispensing device, the monthly rent for pull tabs may not exceed an additional
+three hundred twenty-five dollars.
+b. If twenty-one and paddlewheels are not conducted but pull tabs is conducted
+involving either a jar bar or dispensing device, the monthly rent may not exceed
+four hundred dollars.
+c. If pull tabs is conducted using one or more electronic pull tab devices, the
+monthly rent may not exceed one hundred seventy-five dollars per machine for
+the first five machines in the same venue. For each additional machine in the
+same venue beyond five, the monthly rent may not exceed seventy-five dollars
+per machine up to a maximum of one thousand two hundred fifty dollars per
+month for all electronic pull tab devices in a single venue.
+53-06.1-11.1. Restricted use of money in certain political activities - Eligible uses of
+net proceeds.
+1. Except as provided in subdivision c of subsection 1 of section 53-06.1-03:
+a. A licensed organization or an organization that has a permit may not use money
+from any source for placing an initiated or referred measure on a ballot or for a
+political campaign to promote or oppose a person for public office.
+b. Except for a use related to an organization's primary purpose, a licensed
+organization or organization that has a permit may not use net proceeds to
+influence legislation or promote or oppose referendums or initiatives.
+Page No. 10
+
+=== page 11 ===
+c. Any funds expended by a licensed organization or an organization that has a
+permit to promote or oppose an initiated or referred measure that is on the ballot
+or for any activities of a lobbyist under section 54-05.1-02, that are not
+compensation or expenses paid to a lobbyist, and that are not required to be
+reported under section 54-05.1-03 must be reported to the attorney general as
+prescribed by the attorney general. A violation of this subsection subjects an
+organization to a suspension of its license or permit for up to one year.
+2. A licensed organization or an organization that has a restricted event permit shall
+disburse net proceeds within the period prescribed by rule and for only these
+educational, charitable, patriotic, fraternal, religious, or public-spirited uses:
+a. Uses for stimulating and promoting state and community-based economic
+development programs within the state which improve the quality of life of
+community residents.
+b. Uses for developing, promoting, and supporting tourism within a city, county, or
+the state.
+c. Uses benefiting an indefinite number of persons by bringing them under the
+influence of education, cultural programs, or religion which include disbursements
+to provide:
+(1) Scholarships for students, if the disbursement is deposited in a scholarship
+fund for defraying the cost of education to students and the scholarships are
+awarded through an open and fair selection process.
+(2) Supplementary assistance to a public or private nonprofit educational
+institution registered with or accredited by any state.
+(3) Assistance to libraries and museums.
+(4) Assistance for the performing arts and humanities.
+(5) Preservation of cultural heritage.
+(6) Youth community, social welfare, and athletic activities.
+(7) Adult amateur athletic activities within the state, including team uniforms and
+equipment.
+(8) Maintenance of places of public worship or support of a body of
+communicants, gathered in common membership for mutual support and
+edification in piety, worship, or religious observances.
+(9) Scientific research.
+d. Uses benefiting an indefinite number of persons by relieving them of disease,
+suffering, or constraint which include disbursements to provide:
+(1) Assistance to an individual or family suffering from poverty or
+homelessness.
+(2) Encouragement and enhancement of the active participation of the elderly in
+our society.
+(3) Services to the abused.
+(4) Services to persons with an addicted behavior toward alcohol, gambling, or
+drugs.
+(5) Funds to combat juvenile delinquency and rehabilitate ex-offenders.
+(6) Relief for the sick, diseased, and terminally ill and their physical well-being.
+(7) Funds for emergency relief and volunteer services.
+(8) Funds to nonprofit nursing homes, nonprofit day care centers, and nonprofit
+medical facilities.
+(9) Social services and education programs aimed at aiding emotionally and
+physically distressed, handicapped, elderly, and underprivileged persons.
+(10) Funds for crime prevention, fire protection and prevention, and public safety.
+(11) Funds to relieve, improve, and advance the physical and mental conditions,
+care and medical treatment, and health and welfare of injured or disabled
+veterans.
+e. Uses that perpetuate the memory and history of the dead.
+Page No. 11
+
+=== page 12 ===
+f. Uses increasing comprehension of and devotion to the principles upon which the
+nation was founded, including disbursements to aid in teaching the principles of
+liberty, truth, justice, and equality. However, beauty pageants do not qualify.
+g. The erection or maintenance of public buildings, facilities, utilities, or waterworks.
+h. Uses lessening the burden of government which include disbursements to an
+entity that is normally funded by a city, county, state, or United States government
+and disbursements directly to a government entity or its agency.
+i. Uses benefiting a definite number of persons who are the victims of loss of home
+or household possessions through explosion, fire, flood, or storm and the loss is
+not covered by insurance.
+j. Uses benefiting a definite number of persons suffering from a seriously disabling
+disease or injury causing severe loss of income or incurring extraordinary medical
+expense which is not covered by insurance.
+k. Uses, for community service projects, by chambers of commerce exempt from
+federal income tax under section 501(c)(6) of the Internal Revenue Code. A
+project qualifies if it develops or promotes public services, including education,
+housing, transportation, recreation, crime prevention, fire protection and
+prevention, safety, tourism, and health. Uses that directly benefit a chamber of
+commerce do not qualify.
+l. Uses for or of benefit to efforts in support of the health, comfort, or well-being of
+the community which include disbursements to provide:
+(1) Funds for adult bands, including drum and bugle corps.
+(2) Funds for trade shows and conventions conducted in this state.
+(3) Funds for nonprofit organizations that operate a humane society, zoo, or fish
+or wildlife reproduction and habitat enhancement program.
+(4) Funds for public transportation, community celebration, and recreation.
+(5) Funds for preservation and cleanup of the environment.
+m. To the extent net proceeds are used toward the primary purpose of a charitable,
+educational, religious, public safety, or public-spirited organization, or are used for
+a veterans or public cemetery by a veterans organization, that has obtained a
+final determination from the internal revenue service as qualifying for exemption
+from federal income tax under section 501(c)(3) or 501(c)(19) of the Internal
+Revenue Code, the organization may establish a special trust fund or foundation
+as a contingency for funding or maintaining the organization's future program
+services should the organization discontinue conducting games or dissolve.
+n. Uses for a fundraising activity unrelated to an organization's primary purpose
+provided that the gross revenue from the activity is disbursed to uses prescribed
+by this subsection.
+o. The administrative and program management expenses of a statewide veterans'
+organization.
+3. The eligible uses in subsection 2 do not include the erection, acquisition, property
+taxes, special assessments, improvement, maintenance, or repair of real property
+owned or leased by an organization unless the real property is used exclusively for an
+eligible use, by a fraternal or veterans organization, or for office or storage space
+under subsection 4.
+4. A licensed organization or recipient of net proceeds may not use net proceeds for
+administrative or operating expenses involving the conduct of games, but may
+designate space within real property used for an organization's primary purpose as
+office or storage space for gaming-related administration.
+5. A veterans organization may use up to twenty percent of net proceeds per quarter for
+the costs of food and beverages, including alcoholic beverages, incurred operating the
+veterans organization's club. A veterans organization may operate one club in one
+location.
+Page No. 12
+
+=== page 13 ===
+53-06.1-11.2. Charitable gaming operating fund - Attorney general - Allocations -
+Transfer to the general fund.
+1. There is created in the state treasury the charitable gaming operating fund. The fund
+consists of all gaming taxes, monetary fines, and interest and penalties collected
+under this chapter.
+2. Excluding moneys in the charitable gaming operating fund appropriated by the
+legislative assembly for administrative and operating costs associated with charitable
+gaming, the attorney general shall allocate remaining moneys in the charitable gaming
+operating fund on a quarterly basis as follows:
+a. Seventy-five thousand dollars to the gambling disorder prevention and treatment
+fund.
+b. Subject to legislative appropriations, five percent of the total moneys deposited in
+the charitable gaming operating fund to cities and counties in proportion to the
+taxes collected under section 53-06.1-12 from licensed organizations conducting
+games within each city, for sites within city limits, or within each county, for sites
+outside city limits. If a city or county allocation is less than two hundred dollars,
+that city or county is not entitled to receive a payment for the quarter and the
+undistributed amount must be included in the total amount to be distributed to
+other cities and counties for the quarter.
+3. The attorney general shall transfer to the general fund the balance of net proceeds in
+the charitable gaming operating fund which exceed the amount appropriated by the
+legislative assembly for administrative and operating costs associated with charitable
+gaming for the subsequent biennium before the end of each biennium.
+53-06.1-12. Gaming tax - Deposits. (Retroactive application - See note)
+1. Except as provided in subsection 2, a gaming tax is imposed on the total adjusted
+gross proceeds received by a licensed organization in a quarter and the tax must be
+computed and paid to the attorney general on a quarterly basis on the tax return. This
+tax must be paid from adjusted gross proceeds and is not part of the allowable
+expenses. For a licensed organization with adjusted gross proceeds:
+a. Not exceeding fifty thousand dollars the tax is one percent of adjusted gross
+proceeds.
+b. Exceeding fifty thousand dollars the tax is five hundred dollars plus twelve
+percent of adjusted gross proceeds exceeding fifty thousand dollars.
+2. For a licensed organization permitted to conduct raffles in this state with adjusted
+gross proceeds exceeding fifty thousand dollars, a gaming tax of one percent of gross
+proceeds is imposed on the total gross proceeds received by the licensed organization
+from raffles in a quarter. The tax must be computed and paid to the attorney general
+on a quarterly basis on the tax return. The tax must be paid from adjusted gross
+proceeds and is not part of the allowable expenses.
+3. The tax must be paid to the attorney general at the time tax returns are filed.
+4. The attorney general shall deposit gaming taxes, monetary fines, and interest and
+penalties collected in the charitable gaming operating fund.
+53-06.1-12.1. Deposits.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-12.2. Pull tab excise tax.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-12.3. Interest, penalty, and estimated tax.
+1. Assessment of interest. If a licensed organization does not pay tax due by the original
+date of a tax return, or if additional tax is due based on an audit or math verification of
+the return and it is not paid by the original due date of the return, the organization shall
+Page No. 13
+
+=== page 14 ===
+pay interest on the tax at the rate of twelve percent per annum computed from the
+original due date of the return through the date the tax is paid.
+2. Assessment of penalty. If a licensed organization does not pay tax due on a tax return
+by the original or extended due date of the return, or if additional tax is due based on
+an audit or math verification of the return and it is not paid by the original or extended
+due date of the return, the organization shall pay a penalty of five percent of the tax, or
+twenty-five dollars, whichever is greater. If an organization does not file a tax return by
+the original or extended due date of the return, the organization shall pay a penalty of
+five percent of the tax, or twenty-five dollars, whichever is greater, for each month or
+fraction of a month during which the return is not filed, not exceeding a total of
+twenty-five percent.
+3. The attorney general may require a licensed organization to make monthly estimated
+gaming tax payments if the attorney general determines that the organization is in poor
+financial condition. If an organization fails to pay any tax or estimated tax, interest, or
+penalty by the original due date or date set by the attorney general, the attorney
+general may bring court action to collect it and may suspend the organization's license.
+The attorney general may for good cause waive all or part of any interest or penalty
+and may waive any minimal tax.
+4. If a licensed organization has failed to file a tax return, has been notified by the
+attorney general of the delinquency, and refuses or neglects within thirty days after the
+notice to file a proper return, the attorney general shall determine the adjusted gross
+proceeds and gaming tax due according to the best information available and assess
+the tax at not more than double the amount. Interest and penalty also must be
+assessed.
+5. The attorney general may authorize a licensed organization to pay any delinquent tax,
+interest, or penalty on an installment plan and may set any qualifying conditions.
+53-06.1-12.4. Charitable gaming technology fund - Continuing appropriation.
+There is created in the state treasury a special fund known as the charitable gaming
+technology fund. The fund consists of all moneys deposited in the fund pursuant to this chapter.
+Moneys in the fund are appropriated to the attorney general on a continuing basis and may be
+used only for contracting for and purchasing equipment and software for a charitable gaming
+technology system, training employees to operate the system, and maintaining and updating the
+system.
+53-06.1-13. Examination of books and records.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-13.1. Financial statements.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-14. Distributors and manufacturers.
+1. A manufacturer of pull tabs, bingo cards, electronic quick shot bingo systems and
+devices, or bingo card marking devices shall apply annually for a license and pay a
+license fee of five thousand five hundred dollars. A manufacturer of electronic pull tab
+systems and devices shall apply annually for a license and pay a license fee of ten
+thousand dollars. The attorney general shall deposit one thousand five hundred dollars
+of these fees into the charitable gaming technology fund under section 53-06.1-12.4. A
+manufacturer of paper pull tab dispensing devices shall apply annually for a license
+and pay a license fee of one thousand five hundred dollars. The attorney general shall
+deposit five hundred dollars of this fee into the charitable gaming technology fund
+under section 53-06.1-12.4. A manufacturer of electronic raffle systems shall apply
+annually for a license and pay a license fee of one thousand dollars. The attorney
+general shall deposit five hundred dollars of this fee into the charitable gaming
+technology fund under section 53-06.1-12.4. A distributor shall apply annually for a
+Page No. 14
+
+=== page 15 ===
+license and pay a license fee of two thousand dollars. The attorney general shall
+deposit five hundred dollars of this fee into the charitable gaming technology fund
+under section 53-06.1-12.4. Application must be made before the first day of April in
+each year on a form prescribed by the attorney general.
+2. A licensed distributor may not sell, market, or distribute gaming equipment except to a
+licensed distributor, licensed organization, organization that has a permit, or other
+person authorized by gaming rule or the attorney general. A manufacturer of a pull tab
+dispensing device, pull tab, electronic pull tab device, bingo card marking device,
+bingo card, or fifty-fifty raffle system may only sell, market, or distribute the
+manufacturer's pull tab dispensing device and processing chip encoded with
+proprietary software, pull tab, electronic pull tab device, bingo card marking device,
+bingo card, or fifty-fifty raffle system to a licensed distributor. A licensed distributor may
+purchase or acquire a pull tab dispensing device and processing chip encoded with
+proprietary software, pull tab, electronic pull tab device, bingo card marking device,
+bingo card, or fifty-fifty raffle system only from a licensed manufacturer or licensed
+distributor. However, a distributor may purchase or acquire a used pull tab dispensing
+device or electronic pull tab device from a licensed organization. A distributor may not
+duplicate a manufacturer's processing chip encoded with proprietary software. No
+gaming equipment or prize may be sold or leased at an excessive price.
+3. A licensed distributor shall affix a North Dakota gaming stamp to each deal of pull tabs,
+raffle board, punchboard, sports pool board, calcutta board, and series of paddlewheel
+ticket cards sold or otherwise provided to a licensed organization or organization that
+has a permit and shall purchase the stamps from the attorney general for thirty-five
+cents each. Ten cents of each stamp sold by the attorney general, up to thirty-six
+thousand dollars per biennium, must be credited to the attorney general's operating
+fund to defray the costs of issuing and administering the gaming stamps. If an
+organization hosts an event with a raffle board and only sells numbered squares on
+the day of event, the organization is exempt from the requirements under this
+subsection.
+4. A licensed organization, organization that has a permit, licensed manufacturer, or
+North Dakota wholesaler of liquor or alcoholic beverages may not be a distributor or
+stockholder of a distributor. A distributor may not be a stockholder of a manufacturer.
+5. In addition to the license fee, the attorney general may require advance payment of
+any fee necessary to pay the cost of a record check of an applicant according to
+subdivision c of subsection 5 of section 53-06.1-06.
+6. A licensed manufacturer may not refuse to sell deals of pull tabs, paper bingo cards, or
+gaming equipment to a licensed distributor unless:
+a. A specific deal of pull tabs is sold on an exclusive basis;
+b. The manufacturer does not sell deals of pull tabs, paper bingo cards, or gaming
+equipment to any distributor in the state;
+c. A gaming law or rule prohibits the sale;
+d. The distributor has not provided the manufacturer with proof of satisfactory credit
+or is delinquent on any payment owed to the manufacturer; or
+e. The distributor has not met the manufacturer's standard minimum order quantity
+and freight terms.
+53-06.1-15. Form and display of license and local permit.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-15.1. Authority of the attorney general.
+The attorney general may:
+1. Inspect all sites in which gaming is conducted or inspect all premises where gaming
+equipment is manufactured or distributed. The attorney general may require a licensed
+manufacturer to reimburse the attorney general for the reasonable actual cost of
+transportation, lodging, meals, and incidental expenses incurred in inspecting the
+manufacturer's facility.
+Page No. 15
+
+=== page 16 ===
+2. Inspect all gaming equipment and supplies.
+3. Seize, remove, or impound any gaming equipment, supplies, games, or books and
+records for the purpose of examination and inspection.
+4. Demand access to and inspect, examine, photocopy, and audit all books and records
+of applicants, organizations, lessors, manufacturers, distributors, and affiliated
+companies concerning any income, expense, or use of net proceeds, and determine
+compliance with this chapter or gaming rules.
+5. Permit the commissioner or proper representative of the internal revenue service of
+the United States to inspect a tax return or furnish a copy of the tax return, or
+information concerning any item contained in the return, or disclosed by any audit or
+investigation report of the gaming activity of any organization or player, or
+recordkeeping information. However, information cannot be disclosed to the extent that
+the attorney general determines that the disclosure would identify a confidential
+informant or seriously impair any civil or criminal investigation. Except when directed
+by judicial order, or for pursuing civil or criminal charges regarding a violation of this
+chapter or a gaming rule, or as is provided by law, the attorney general may not
+divulge nor make known, to any person, any income or expense item contained in any
+tax return or disclosed by an audit or investigative report of any taxpayer provided to
+the attorney general by the internal revenue service.
+6. Require a representative of a licensed organization or distributor to participate in
+training or for good cause prohibit the person from being involved in gaming as an
+employee or volunteer. The attorney general may for good cause prohibit a person
+from providing personal or business services to an organization or distributor.
+7. Prohibit a person from playing games if the person violates this chapter, chapter
+12.1-28 or 53-06.2, or a gaming rule.
+8. Require or authorize an organization to pay or prohibit an organization from paying a
+bingo, electronic quick shot bingo, or raffle prize to a player on a dispute or based on a
+factual determination or a hearing by the attorney general.
+9. Based on reasonable ground or written complaint, suspend, deny, or revoke an
+organization's permit or an organization's, distributor's, or manufacturer's application or
+license for violation, by the organization, distributor, or manufacturer or any officer,
+director, agent, member, or employee of the organization, distributor, or manufacturer,
+of this chapter or any gaming rule.
+10. Impose a monetary fine on a licensed organization, organization that has a permit,
+distributor, manufacturer, owner of an authorized site, or third-party business operating
+gaming and working as an agent of the charity for failure to comply with this chapter or
+any gaming rule. This fine may be in addition to or in lieu of a license suspension or
+revocation. The monetary fine for each violation by:
+a. An organization is a minimum of twenty-five dollars and may not exceed two
+percent of the organization's average quarterly gross proceeds, or five thousand
+dollars, whichever is greater.
+b. A distributor is a minimum of one hundred dollars and may not exceed five
+thousand dollars.
+c. A manufacturer is a minimum of five hundred dollars and may not exceed two
+hundred fifty thousand dollars.
+d. An owner of an authorized site is a minimum of two hundred fifty dollars and may
+not exceed two thousand five hundred dollars.
+11. At any time within three years after any amount of fees, monetary fine, interest,
+penalty, or tax required to be paid pursuant to this chapter becomes due, bring a civil
+action to collect the amount due. However, if for any reason there is a change in
+adjusted gross proceeds or tax liability by an amount which is in excess of twenty-five
+percent of the amount of adjusted gross proceeds or tax liability originally reported on
+the tax return, any additional tax determined to be due may be assessed within six
+years after the due date of the tax return, or six years after the tax return was filed,
+whichever period expires later. An action may be brought although the person owing
+the fees or tax is not presently licensed.
+Page No. 16
+
+=== page 17 ===
+12. Institute an action in any district court for declaratory or injunctive relief against a
+person, whether or not the person is a gaming licensee, as the attorney general
+deems necessary to prevent noncompliance with this chapter or gaming rules.
+13. For good cause, require a licensed organization to use the attorney general's
+recordkeeping system for any or all games.
+53-06.1-15.2. Attorney general may bring civil action for collection of fees and tax and
+to force compliance.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-15.3. Exchange and secrecy of information regarding the internal revenue
+service.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-15.4. Conditional license - Issuance.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-16. Violation of law or rule - Fraudulent scheme or technique to cheat or skim
+unlawful - Penalty.
+1. Except as otherwise provided by this chapter, a person who knowingly makes a false
+statement on a request for record check form or in any application for a permit, or
+license, or in any accompanying statement, knowingly signs a false record or report, or
+who fails to maintain sufficient books and records or adequate internal control to
+substantiate gross proceeds, prizes, cash profits, expenses, or disbursement of net
+proceeds, or who falsifies any books or records, including any transaction involving the
+direct or indirect conduct of games, or who violates this chapter, any gaming rule, or of
+any term of a permit or license is guilty of a class A misdemeanor. If convicted, the
+person forfeits any gaming license or permit issued to it and is ineligible to reapply for
+a gaming license or permit for a period of time determined by the attorney general.
+2. It is unlawful for a person:
+a. To use bogus or counterfeit chips or pull tabs or to substitute or use any game,
+cards, pull tabs, or game piece that have been marked or tampered with.
+b. To employ or have on one's person any cheating device to facilitate cheating in
+any game, or to attempt to commit or commit a theft, or to assist in committing
+any other fraudulent scheme.
+c. To willfully use any fraudulent scheme or technique, including when a person
+directly or indirectly solicits, provides, or receives inside information of the status
+of a game of pull tabs for the benefit of any person.
+d. To alter or counterfeit a site authorization, license, or North Dakota gaming
+stamp.
+e. To knowingly cause, aid, abet, or conspire with another person or to cause any
+person to violate this chapter or a gaming rule.
+A person violating this subsection is guilty of a class A misdemeanor unless the total
+amount gained through the use of these items, schemes, or techniques resulted in a
+person obtaining over five hundred dollars, then the offense is a class C felony.
+However, if a person knowingly uses a fraudulent scheme regarding soliciting,
+providing, using, or receiving inside information involving the game of pull tabs or uses
+a fraudulent scheme or technique to cheat or skim involving pull tabs, twenty-one,
+paddlewheels, or bingo, regardless of the amount gained, the offense is a class C
+felony.
+53-06.1-16.1. Bogus chips, marked cards, cheating devices, or fraudulent schemes
+unlawful - Penalty.
+Repealed by S.L. 1997, ch. 428, § 21.
+Page No. 17
+
+=== page 18 ===
+53-06.1-16.2. License suspension or revocation - Ineligibility for local permit.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-17. Rules.
+Repealed by S.L. 1997, ch. 428, § 21.
+53-06.1-18. Compulsive gambling prevention, awareness, crisis intervention,
+rehabilitation, and treatment services.
+Repealed by S.L. 2001, ch. 460, § 14.
+Page No. 18

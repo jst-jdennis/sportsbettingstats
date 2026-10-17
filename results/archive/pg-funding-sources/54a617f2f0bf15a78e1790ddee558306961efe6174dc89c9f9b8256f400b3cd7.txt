@@ -1,0 +1,1096 @@
+=== page 1 ===
+NORTH CAROLINA GENERAL ASSEMBLY
+2025 Session
+Legislative Fiscal Memo
+Short Title:
+Bill Number:
+Sponsor(s): 2026 Appropriations Act.
+Senate Bill 257 (S257-PCCS55034-NExr-2)
+SUMMARY TABLE Sen. Brent Jackson, Sen. Ralph Hise, and Sen. Michael V. Lee
+This summary table only reflects provisions in the 2026 Appropriations Act (also referred to as
+the Conference Budget) that impact State General Fund revenues. The fiscal impacts of other
+FISCAL IMPACT OF THE CONFERENCE BUDGET ($ in millions)
+revenue changes are reflected in tables throughout the note.
+FY 2026-27 FY 2027-28 FY 2028-29 FY 2029-30 FY 2030-31
+State Impact
+General Fund Revenue $ 3 17.0 $ 1 ,483.8 $ 2 ,937.0 $ 2 ,501.9 $ 1 ,872.6
+Less Expenditures - - - - -
+General Fund Impact $ 3 17.0 $ 1 ,483.8 $ 2 ,937.0 $ 2 ,501.9 $ 1 ,872.6
+NET GENERAL FUND IMPACT $ 3 17.0 $ 1 ,483.8 $ 2 ,937.0 $ 2 ,501.9 $ 1 ,872.6
+FISCAL IMPACT SUMMARY
+State Tax Changes
+Personal Income Tax
+•
+Section 44.1(a) repeals conditional tax rate reductions between 2027 and 2034 that are
+• subject to General Fund revenue triggers being met.
+Section 44.1(a) also reduces the tax rate from 3.99% in 2026 to 3.49% in 2027, and from
+3.49% to 3.24% in 2030 and from 3.24% to 2.99% in 2033. These rate reductions are not
+• conditional on revenue triggers.
+Section 44.1(a1) authorizes up to two future rate reductions between 2035 and 2040 that
+• become effective if General Fund revenue meets specified revenue trigger amounts.
+Sales anSde cUtisoen T 4a4x.2 creates an itemized deduction for gambling losses, mirroring federal tax law.
+•
+Section 44.3 requires a nonprofit hospital or hospital authority and its affiliates or
+component units to be treated as one entity for purposes of claiming a refund of State or
+FISCAL RESEARCH DIVISION Page 1 of 24 July 1, 2026
+
+=== page 2 ===
+local sales tax. This would not apply to any UNC affiliated or contracted hospitals; each of
+• those hospitals would continue being subject to individual refund caps.
+Section 44.4 repeals the sales and use tax exemption for electricity used in datacenters with
+Insuranaclel nPerte mprioucmese Tdsa xintended to be retained by the State.
+•
+Section 44.5 eliminates the Insurance Regulatory Charge (“Charge”) paid by insurers and
+offsets this by increasing insurance premiums tax rates for premiums subject to the Charge.
+This provision also eliminates the reimbursement of operating costs from the Insurance
+Sports WReagguelraitnogr yT aFxund to the General Fund.
+•
+Section 44.7(a) increases the sports wagering tax rate paid by sports wagering operators
+• from 18% to 23%.
+Section 44.7(b) changes the distribution of proceeds from the tax on sports wagering
+operators, effective July 1, 2026, by capping the amount of revenue the North Carolina Major
+Events, Games, and Attractions Fund can receive at $30 million annually, adding North
+Carolina State University and the University of North Carolina at Chapel Hill as recipients of
+revenue proceeds, and setting limits for the total revenue that may be distributed annually
+Predicttioon e Macahr kuentisv Terasxity program.
+•
+Other TSaexc Ctihoann 4g4e.s8 establishes a tax on prediction markets equal to 6% of net trading fee revenue.
+•
+Section 44.6 makes various changes to laws regulating vapor products, including the
+creation of a Specialty Retailer of Vapor Products License with an initial license tax of $1,000
+Fees anpde rO rtehtaeirl Clohcaantigoens.
+•
+Section 5.5(a) and Section 44.5 redirect interest earned from various special funds to the
+• General Fund.
+Section 44.11 establishes a new article of sales tax that allows Sampson County to levy up to
+an additional ½% of local sales tax with a successful voter referendum and county
+• commissioner approval.
+Section 44.12 increases the maximum amount charged for various fire fees assessed by
+Brunswick County, which are used to support fire protection services instead of a dedicated
+• tax.
+Section 16.21 increases various General Court of Justice fees by $30.
+FISCAL RESEARCH DIVISION Page 2 of 24 July 1, 2026
+
+=== page 3 ===
+•
+Section 16.23 increases the Telecommunications and Data Connectivity Fee that applies to
+• all court cases by $10.
+Section 20.11 increases the fee charged to users of the Division of Criminal Information
+• Network by $8 for each user type.
+Section 16.30 increases the Indigent Defense Service fee by $20, which applies to criminal
+• court cases and the receipts are directed to the Private Assigned Counsel Fund.
+Section 16.22 increases the Driving While Impaired Civil License Revocation Fee by $100
+• and modifies the distribution of fee revenue.
+Section 22.1 increases the Divorce Filing fee, and all proceeds are directed to the Domestic
+• Violence Center Fund.
+Section 37.1 expands a fee within the Secretary of State’s office for securities salespersons
+• registering with multiple dealers.
+Section 12.11 increases non-Title V Air Quality permit fees to offset reduced fee
+revenue from other sources. Section 12.16 adds underground storage tank permits to the
+• express permitting program.
+Section 15.1 increases the Boating Registration fees to support abandoned and derelict
+• vessel removal.
+Section 43.15 directs the N.C. Board of Transportation to set tolls on all ferry routes, both
+currently tolled and untolled, consistent with a vessel replacement schedule devised by the
+• NC Ferry Division. Future toll receipts will be deposited in the Ferry Capital Fund.
+Section 43.21 directs the N.C. Board of Transportation to establish fees for certain traffic,
+right of way, subdivision, road additions, and inspections. Fees are prohibited
+• from exceeding the costs associated with related work.
+• Section 43.20 increases the annual vegetation maintenance permit fee from $200 to $400.
+Section 9J.14, effective October 1, 2027, directs a portion of county local sales tax revenues
+be withheld for purposes relating to the Supplemental Nutrition Assistance Program
+• (SNAP) benefit cost-share requirements resulting from Public Law 119-21 (H.R. 1).
+Section 9L.1 increases several fees that the NC Medical Board can charge.
+FISCAL RESEARCH DIVISION Page 3 of 24 July 1, 2026
+
+=== page 4 ===
+FISCAL ANALYSIS
+TAX CHANGES
+Personal Income Tax
+Estimated General Fund Impact of Personal Income Tax Changes ($ in millions)
+FY 2026-27 FY 2027-28 FY 2028-29 FY 2029-30 FY 2030-31
+Changes to Personal Income
+$ - $ 1 ,067.2 $ 2,502.0 $ 2 ,045.7 $ 1 ,392.4
+Tax Rates, 2027-2034
+Conditional Rate Reductions,
+$ - $ - $ - $ - $ -
+2035-2040
+Itemized Deduction of
+Total $$ ( (4400..33)) $$ 1 , 0 (4179..57) $$ 2 , 4 (8201..55) $$ 2 , 0 (2223..70) $$ 1 , 3 (6292..95)
+Gambling Losses
+Changes to Personal Income Tax Rates, 2027-2034 (Sec. 44.1(a))
+The bill repeals conditional personal income tax rate reductions between 2027 and 2034 that are
+subject to General Fund revenue triggers and reduces the personal income tax rate from 3.99% to
+3.49% in 2027 and from 3.49% to 3.24% in 2030 and from 3.24% to 2.99% in 2033. These rate
+reductions are not subject to General Fund revenue triggers.
+Under current law, the tax rate is projected to be 3.49% in 2027 and 2.99% in 2028 because the FY
+2025-26 and FY 2026-27 triggers are anticipated to be met, reducing the tax rate from 3.99% in
+2026 to 3.49% in 2027 and to 2.99% in 2028. The bill removes the conditional General Fund
+revenue triggers and makes personal income tax reductions certain through 2033.
+The personal income tax rates forecasted under current law and set in the Conference Budget
+are cToambplaer 1e:d P ine rTsaobnlae l1 I nbceolomwe. Tax Rates, Under Current Law and the Conference Budget
+Tax Rate Forecasted Tax Rate under the
+Tax Year
+under Current Law Budget
+2026 3.99% 3.99%
+2027 3.49% 3.49%
+2028 2.99% 3.49%
+2029 2.99% 3.49%
+2030 2.99% 3.24%
+2031 2.99% 3.24%
+2032 2.99% 3.24%
+2033 2.99% 2.99%
+2034 2.99% 2.99%
+FISCAL RESEARCH DIVISION Page 4 of 24 July 1, 2026
+
+=== page 5 ===
+To calculate the net impact of the changes to PIT rates described above, the Fiscal Research Division
+(FRD) calculated fiscal year blended tax rates, the fiscal year tax base, and the estimated collections
+under each set of tax rates. Table 2 shows the results of that calculation, with
+additional calculation detail following. Overall, the changes to PIT rates are expected to increase
+GenTeraabl lFeu 2n:d P reervseonnuael bIny croomugeh Tlya $x7 E bsitlilmionat oevde Br athsee ,n FeYx tB 5l efinsdcaeld y Teaarxs .R ates, and Collections,
+Under Current Law and the Conference Budget, $ in Millions
+FY FY FY FY FY
+Category
+2026-27 2027-28 2028-29 2029-30 2030-31
+PIT FY Tax Base* $449,594 $474,321 $500,409 $527,931 $556,968
+Current Law:
+3.77% 3.27% 2.99% 2.99% 2.99%
+FY Blended Tax Rate
+Conference Budget:
+3.77% 3.49% 3.49% 3.38% 3.24%
+FY Blended Tax Rate
+Current Law:
+$17,077.2** $15,486.6 $14,962.2 $15,785.1 $16,653.3
+Estimated PIT Collections
+Conference
+BudgeDti:f Efesrtiemnactee:d PIT $17,077.2 $16,553.8 $17,464.3 $17,830.9 $18,045.8
+EsCtiomlleactteidon PsI T - $1,067.2 $2,502.0 $2,045.7 $1,392.4
+Collections
+*Includes an ad hoc downward adjustment for FY 2026-27 to account for calendar-driven increases to PIT revenue.
+**May 2026 Consensus Revenue Forecast Estimate. All other estimates are based on FRD analysis.
+nd
+Dollar figures are rounded to the nearest hundred thousand, and percentages are rounded to the 2 decimal point.
+Table 2 Calculation Detail
+1. Calcu late the tax rate applicable to each fiscal year under both current law and the
+Conference B udget.
+st nd
+a. Calculation: (Rate in 1 Tax Year of FY * 55%) + (Rate in 2 Tax Year of FY * 45%)
+i. Rationale: FRD estimated share of withholding, estimated payments, and
+final payments attributable to each tax year, based on timing of collections in
+historical collections data.
+2. Calculate tax base for FY 2026-27.
+a. Calculation: ($17,077.2 - $150)/3.77%
+i. Rationale: FY 2026-27 has 53 Wednesdays, so an additional withholding
+payment from accelerated withholders increases collections anomalously by
+roughly $150 million. This timing difference does not reflect the overall size
+of the tax base, so its impact is removed before calculating the tax base.
+FISCAL RESEARCH DIVISION Page 5 of 24 July 1, 2026
+
+=== page 6 ===
+3. Calculate tax base for FY 2027-28 through FY 2030-31.
+a. Calculation: (FY Blended Tax Base in Prior FY) * 1.055
+i. Rationale: 5.5% is the compound annual growth rate of total federally
+adjusted gross income (FAGI) on all North Carolina PIT returns from 2003-
+2023, the most recent year available.
+4. Calculate PIT collections for each FY, comparing current law and Conference Budget.
+a. Calculation: (FY Tax Base) * (FY Blended Tax Rate)
+5. Calculate fiscal impact (Difference: Current Law and Conference Budget)
+a. Calculation: (Conference Budget: Estimated PIT Collections) - (Current Law:
+Estimated PIT Collections)
+The net impact is due to differences in tax rates between fiscal years. There is no fiscal impact in FY
+2026-27 because the tax rates are expected to be equal under current law and the Conference
+Budget. In future fiscal years, the difference is largest in magnitude when the Conference Budget
+blended tax rates have the largest difference from expected blended tax rates under current law.
+Conditional Rate Reductions, 2035-2040 (Sec. 44.1(b))
+The bill authorizes up to 2 additional rate reductions between 2035 and 2040 that are conditional
+and subject to General Fund revenue triggers being exceeded. Whenever General Fund revenue in
+a given fiscal year exceeds the threshold amount specified for that fiscal year, the personal income
+st
+tax rate drops by one-quarter percentage point (0.25%) beginning January 1 of the following tax
+yeTaar.b Tleab 3le: N3e sth Goewnse trhael fFisucnadl y Reeavr,e tnriugeg eArm amouonutnst sR, eaqnudi traexd y teoa rT ariffgegceter da. P ersonal Income Tax
+Rate Reduction, Conference Budget ($ in Millions)
+Trigger Amount Tax Year
+Fiscal Year
+Under Conference Budget Affected
+2033-34 $40,258 2035
+2034-35 $41,087 2036
+2035-36 $41,965 2037
+2036-37 $42,896 2038
+2037-38 $43,892 2039
+2038-39 $44,957 2040
+For example, if actual General Fund revenue in FY 2033-34 exceeds the trigger threshold for the
+fiscal year ($40.258 billion), this would trigger a rate reduction from 2.99% in 2034 to 2.74% in
+2035. If actual General Fund revenue does not exceed a trigger amount, the tax rate will remain at
+the tax rate from the prior year.
+The personal income tax rate could fall to a terminal rate of 2.49% by as early as 2036 or as late as
+2040. This section has no fiscal impact over the next five fiscal years but may reduce the personal
+income tax rate in future years. However, depending on the time of impact, the full year impact
+of each future conditional rate reduction is estimated to be between $1.8 to $2.2 billion.
+FISCAL RESEARCH DIVISION Page 6 of 24 July 1, 2026
+
+=== page 7 ===
+Itemized Deduction of Gambling Losses (Sec. 44.2)
+This section allows personal income taxpayers that itemize deductions to deduct gambling losses
+up to the extent deductible for federal tax purposes. FRD estimates this item would reduce revenue
+by an estimated $40.3 million in FY 2026-27 and between $19.7 million and $23 million over each
+of the following four fiscal years.
+Taxpayers that itemize deductions with gambling losses could deduct gambling losses retroactively
+to tax year 2025, to the extent they are deductible under federal tax law. FRD anticipates this section
+would have a larger fiscal impact in the first year of enactment due to taxpayers filing amended
+returns in FY 2026-27.
+To estimate the fiscal impact of this section, FRD used data from the North Carolina Lottery
+Commission on the amount of sports wagering winnings paid out each calendar year. FRD
+multiplied these reported figures by 8%, the historical rate at which taxpayers itemize, and FRD
+assumes losses deducted do not exceed winnings.
+It is possible residents could have deductible gambling losses from other sources, but FRD does not
+have usable data on other sources.
+FRD multiplied the applicable personal income tax rate for each year and accounted for federal loss
+limitation rules in calculating the fiscal impact for the itemized loss deduction. FRD assumes growth
+in the amount of losses deducted as the sports wagering market continues to mature in North
+CSaarleosli naan.d Use Tax
+Estimated General Fund Impact of Sales and Use Tax Changes ($ in millions)
+FY 2026-27 FY 2027-28 FY 2028-29 FY 2029-30 FY 2 030-31
+Treatment of
+Nonprofit Hospitals 20.7 41.4 43.9 46.6 49.3
+Datacenter Electricity
+Total 42.1 64.5 68.7 73.2 77.9
+Exemption 21.4 23.1 24.8 26.6 28.6
+Treatment of Nonprofit Hospitals (Section 44.3)
+This section requires nonprofit hospitals or hospital authorities and their affiliates to be treated as
+one entity for purposes of claiming a refund of State or local sales tax. To determine the fiscal
+impact, FRD examined historical sales tax refund data from hospitals and medical
+accommodations, specifically refund amounts stratified by size of refund, with several underlying
+assumptions.
+Sales tax refunds are processed semiannually with purchases made January 1 through June 30
+refunded in the fall and purchases made July 1 through December 31 refunded the following
+FISCAL RESEARCH DIVISION Page 7 of 24 July 1, 2026
+
+=== page 8 ===
+spring. Because this section becomes effective when the bill becomes law, it would not be reflected
+in the fall refund. Assuming a half-year impact, FRD estimates that this will increase State revenue
+by about $22 million and local revenues by about $10 million in FY 2026-27. Roughly $1.3
+million is anticipated to be transferred to the Highway Fund and Highway Trust Fund, so the net
+General Fund impact is $20.7 million in FY 2026-27. In subsequent full fiscal years-where two
+refunds would apply rather than one as in FY 2026-27—this change is estimated to increase General
+Fund revenues by about $40 million annually and local government revenues by about $20 million
+annually thereafter.
+Repeal Sales Tax Exemption for Electricity used in Datacenters (Section 44.4)
+This section repeals the exemption for electricity used in datacenters. When the bill becomes law,
+electricity used by datacenters will be subject to the combined general sales tax rate of 7%. The
+proceeds of revenue from electricity used in datacenters are not intended to be shared with cities.
+To determine the fiscal impact, FRD used an estimate of electricity exemptions for datacenters from
+the NC Department of Commerce and applied an annual growth rate. In early 2026, the Department
+of Commerce estimated that datacenters receive an annual sales tax exemption of roughly $20
+million. FRD calculated an annual growth rate of 7.3 percent using data on electricity sales tax
+collections from the NC Department of Revenue. This growth rate captures changes in energy prices
+and consumer demand for electricity. Using this method, FRD estimates that repealing the
+exemption for electricity used in datacenters will increase State General Fund revenue by about
+$In2s1u.4r amniclleio Pnr ienm FiYu 2m0s2 T6-a2x7.
+Section 44.5 eliminates the Insurance Regulatory Charge (“Charge” or “the Charge”), a fee paid by
+insurers. It offsets the elimination of the Charge by increasing insurance premiums tax rates for
+premiums subject to the Charge by a percentage equal to the Charge, and eliminates the
+reimbursement of operating costs from the Insurance Regulatory Fund (IRF) to the General Fund.
+Overall, the effect of Section 44.5 is to shift special fund revenue to the General Fund. To offset the
+elimination of the Charge, tax rates of premiums subject to the Charge are increased as follows:
+o
+o
+Other Insurance Contracts: 2.0235% (previously 1.9%, a 6.5% increase)
+o
+Workers’ Compensation: 2.6625% (previously 2.5%, a 6.5% increase)
+Prepaid Health Plans: 2.0235% (previously 1.9%, a 6.5% increase)
+Under current law, insurers pay the Charge at a rate of 6.5% of their insurance premiums tax
+liability for most lines of insurance subject to tax. Charge proceeds are deposited in the IRF, a
+special fund used to reimburse the General Fund for the operating expenses of the Department of
+Insurance and other agencies.
+Table 5 shows the calculations used to arrive at the fiscal impact of the change for both the General
+Fund and the State, with additional calculation detail following. The changes to the Insurance
+Premiums Tax, Charge, and IRF reimbursement are expected to increase General Fund revenue
+FISCAL RESEARCH DIVISION Page 8 of 24 July 1, 2026
+
+=== page 9 ===
+by approximately $225 million over the next 5 fiscal years. However, net State revenue is reduced
+by approximately $21 million, due to a reduction in IRF revenue and retaliatory tax collections (see
+expTlaanbaltei o4n: Foins cpaalg Iem 1p0a).c t of Various Changes to Insurance Premiums Tax, Charge, and IRF
+General Fund Reimbursement, Conference Budget ($ in Millions)
+FY FY FY FY FY
+Category
+2026-27 2027-28 2028-29 2029- 30 2030-31
+Insurance Premiums Tax Revenue Estimate $1,696.7 $1,795.1 $1,899.2 $2,009.4 $2,125.9
+Estimated Revenue from Taxes Subject to
+Insurance Regulatory Charge (Charge)
+$1,549.1 $1,638.9 $1,734.0 $1,834.6 $1,941.0
+(Other Insurance Contracts, Workers'
+Compensation, and Prepaid Health Plans)
+Subtotal: Estimated Charge Collections under
+Current Law $100.7 $106.5 $112.7 $119.2 $126.2
+(6.5% of revenue from Taxes Subject to Charge)
+% of Premiums Tax Collections subject to Rate
+54.7% 100.0% 100.0% 100.0% 100.0%
+Increase in each FY (1/1/2027 effective date)
+Decrease in Retaliatory Tax Collection - $(5.2) $(5.2) $(5.2) $(5.2)
+Net Increase in Tax Revenue $55.0 $101.3 $107.5 $114.0 $121.0
+Decrease in General Fund Reimbursement from
+Net General Fund Impact ($$504.3.7 ) ($$4564..76) ($$5524..78) ($$5594..73) ($$6564..73)
+IRF (7/1/2026 effective date)
+Net State Revenue Impact - $(5.2) $(5.2) $(5.2) $(5.2)
+Decrease in Charge Collections (IRF Revenue) $(55.0) $(106.5) $(112.7) $(119.2) $(126.2)
+Table 4 Calculation Detail
+•
+o
+Insurance Premiums Tax Revenue Estimate
+Calculation: May 2026 Consensus Revenue Forecast estimate for FY 2026-27, grown by
+• 20-year compound annual growth rate (5.8% per year)
+o
+Estimated Revenue from Taxes Subject to Insurance Regulatory Charge (Charge)
+o
+Calculation: 91.3% * (Insurance Premiums Tax Revenue Estimate.)
+This is the percentage of revenue attributable to other insurance contracts, workers
+compensation, and prepaid health plans in FY 2024-25 per Table 50 of the Statistical
+Abstract of North Carolina Taxes. (“Other insurance contracts” includes major categories
+• such as fire and casualty insurance and life insurance.)
+o
+Subtotal: Estimated Charge Collections under Current Law
+o
+Calculation: (Estimated Revenue from Taxes Subject to Charge) * 6.5%
+This figure exactly equals the estimated increase in tax revenue for a full fiscal year from
+the tax rate increases, prior to consideration of retaliatory taxes.
+FISCAL RESEARCH DIVISION Page 9 of 24 July 1, 2026
+
+=== page 10 ===
+•
+o
+% of Premiums Tax Collections subject to Rate Increase in each FY
+Due to the 1/1/2027 effective date, there is a partial year impact in FY 2026-27. FRD
+analysis of historical data indicates that about 54.7% of gross insurance premiums tax
+collections occur in April and June, when the new rates would impact estimated
+• payments for insurers.
+o
+Decrease in Retaliatory Tax Collection
+North Carolina charges insurers from states with higher insurance premiums taxes a
+retaliatory tax. Currently, the Charge is not part of the calculation of the North Carolina
+tax rate when comparing the rate with another state for retaliatory tax purposes. By
+increasing the State’s rate, retaliatory premiums revenue will be reduced due to a smaller
+o
+differential between the State and other states with higher rates.
+Based on a comparative analysis of other state rates, the share of the financial services
+sector in each state, and the amount of retaliatory premiums tax collected in the State in
+o
+2023 and 2024, FRD estimates this figure to be a $5.2 million reduction per year.
+This has no impact in FY 2026-27 as final payments calculating the “true-up” payment
+• for retaliatory premiums tax will not be paid until March 2028.
+o
+Net Increase in Tax Revenue
+Calculation: ((Subtotal: Estimated Charge Collections under Current Law) * (% of
+Premiums Tax Collections subject to Rate Increase in each FY)) + (Decrease in Retaliatory
+• Tax Collection)
+o
+Decrease in General Fund Reimbursement from IRF
+This figure is from OSBM’s Condition of the Fund for FY 2026-27. It is flat because future
+reimbursement is conditional upon additional appropriations to IRF-supported agencies
+• Netf rGoemn etrhael G Feunnedra Ilm Apssaecmt bly.
+o
+Calculation: (Net Increase in Tax Revenue) + (Decrease in General Fund Reimbursement
+• from IRF)
+o
+Decrease in IRC Collections (IRF Revenue)
+• NetC Satlactuela Rtieovne: n(-u1e) I*m (Spuabcttotal: Estimated Charge Collections under Current Law)
+o
+Calculation: (Net Increase in Tax Revenue) + (Decrease in Charge Collections (IRF
+o
+Revenue)
+Note that the decrease in General Fund reimbursements is not counted in this
+calculation, as from the State’s perspective, that would be counting the same revenue
+o
+twice. IRF revenue includes future General Fund reimbursements.
+Vapor ProTdhuec tosn Llyi cfeunnsdes Tfoarxegone by the State due to these changes are retaliatory taxes.
+Section 44.6 creates a new Specialty Retailer of Vapor Products License. A license tax of $1,000 is
+due with the initial application for a license.
+FISCAL RESEARCH DIVISION Page 10 of 24 July 1, 2026
+
+=== page 11 ===
+To estimate the fiscal impact of the new license tax, FRD used estimates of the number of tobacco
+retailers in North Carolina in the 2022 Economic Census, which is the most recent data
+available. More specifically, FRD used the North American Industry Classification System (NAICS)
+code 459991, which includes tobacco, electronic cigarette, and other smoking supplies retailers.
+While vapor products are sold at other types of retail stores, this NAICS code is most likely to capture
+specialty vapor product retailers as defined in Section 44.6. In 2022, there were 938 tobacco,
+electronic cigarette, and other smoking supplies retailers in the State. Assuming that all of these
+retailers would require a new license, and that the number of retailers has remained constant, FRD
+estimates that the Specialty Retailer of Vapor Products License will generate about $938,000 in the
+first year of implementation. Based on the effective date of July 1, 2027, this would represent
+the fiscal impact in FY 2027-28.
+NAICS code 459991 was introduced in the 2022 Economic Census, so it is possible that some
+retailers that would require a license are included in other NAICS codes. Thus, this
+method may undercount the true number of tobacco retailers and actual license tax collections may
+be greater than the estimate provided here.
+The fiscal impact in future years depends on how many new specialty vapor retailers are
+established. FRD cannot estimate the fiscal impact in future years for several reasons. First,
+the previous Economic Census datasets do not contain a NAICS code specific to tobacco retailers,
+so it is not possible to estimate growth in the industry over time. Second, the Business Dynamic
+Statistics dataset, which contains data on business turnover, does not report data for tobacco
+retailers. Lastly, FRD has not found a reliable industry source for vapor retail growth or business
+tSupronrotvse Wr. a gering Tax
+Section 44.7 increases the tax on sports wagering operators from 18% to 23% and changes the
+spo•r ts wagering distribution formula. Modifications to the formula include:
+•
+• Increasing the total amount of revenue distributed to UNC Athletic Institutions,
+• Adding UNC-Chapel Hill and NC State University as revenue recipients,
+• Capping the amount each UNC school may receive under the formula,
+Increasing revenue deposited in the General Fund, and
+Capping the amount of revenue distributed to the Major Events, Games, and Attractions Fund
+at $30 million annually.
+The•s e modifications will impact various funds as de. scribed below.
+Major Events, Games, and Attractions Fund Under current law, the Fund receives 30% of
+sports wagering tax revenues after all initial dollar-amount allocations are made (Lottery
+Commission expenses, DHHS for gambling addiction treatment and education, etc.). The May
+2026 Consensus Revenue Forecast estimates the Fund would receive $45.3 million in FY
+2026-27 following the allocation currently in law. The bill caps the allocation at $30 million
+annually. Consequently, the Fund's revenues for FY 2026-27 are estimated to decrease by
+$15.3 million.
+FISCAL RESEARCH DIVISION Page 11 of 24 July 1, 2026
+
+=== page 12 ===
+•
+UNC Constituent Institutions’ Athletic Programs. Under current law, 13 constituent
+1
+institutions each receive the same allocation of sports wagering revenues through a two-
+o
+step process:
+o
+First, each institution receives $300,000 from the initial allocation of revenues, and
+Second, each institution receives an equal share (or 1/13th) of 20% of the revenue
+remaining after all initial allocations are made.
+Under the bill, the amount of revenue allocated to each UNC institution's athletic program is
+determined based on the Division and the types of sports in which its athletic programs compete
+as shown inT Taabbllee 55: b Meleotwho. d of Distributing Sports Wagering Tax Revenuesto UNC
+Institutions under the Conference Budget
+Institutions Athletic UNC Institutions Sports Wagering
+Programs Included Revenues Un der Conference Budget
+19.5% of revenue after initial
+Division I and Division All institutions with allocations split 15 ways
+II majority Institutions athletic programs (capped at $2.9 million per
+institution)
+NC A&T,
+NC Central,
+UNC-Asheville,
+UNC-Greensboro,
+UNC-Wilmington, An additional 2.2% after initial
+Division I Institutions Western Carolina, allocations split 11 ways
+Appalachian State, (capped at $400,000 per institution)
+East Carolina,
+NC State,
+UNC-Chapel Hill,
+UNC-Charlotte
+are
+Appalachian State, An additional 5.7% of revenue after
+Division I institutions whose
+East Carolina, initial allocations split 5 ways
+football teams in the NCAA
+NC State, (capped at $2.5 million per
+Division I Football Bowl
+UNC-Chapel Hill, institution)*
+Subdivision
+UNC-Charlotte
+*Th•i s piece of the distribution formula is not effective until July 1, 2027.
+General Fund. Under current law, the General Fund receives 50% of the proceeds remaining
+after all initial allocations are made. Under the bill, the General Fund receives all
+remaining proceeds following the distributions to the NC Major Events, Games,
+and Attractions Fund, UNC institutions, and the Youth Outdoor Engagement
+Commission. Compared to the May 2026 Consensus Revenue Forecast, this will
+• increase General Fund revenue by $50.7 million in FY 2026-27.
+UNC Institutions. A comparison of revenue distributions for each affected university under
+current law and under the bill are included in Appendix A.
+FISCAL RESEARCH DIVISION Page 12 of 24 July 1, 2026
+
+=== page 13 ===
+Prediction Markets Tax
+Section 44.9 establishes a new tax on prediction markets. The tax is applied to prediction market
+operators’ net trading fee revenue at a rate of 6 percent.
+To estimate the fiscal impact of this tax, FRD used industry data to estimate the size of the North
+Carolina market and associated fee revenue. Based on a report from investment
+firm AllianceBernstein Holding L. P. (“Bernstein”), prediction markets are expected
+to reach roughly $240 billion in trading volume nationwide in 2026. According to industry sources,
+about 0.7 percent of the total trading volume ($2.16 billion) is attributed to North Carolina. Gross
+fee revenue for prediction market operators is equal to about 1.31 percent of total trading volume,
+which is about $28.3 million in North Carolina. However, about 25 percent of gross fee revenue is
+paid out to customers due to incentives and promotions, resulting in a taxable base of $21.2 million
+in calendar year 2026.
+Because prediction markets are a rapidly growing industry, FRD used an estimate for national
+trading volume in 2030 of $1 trillion from the Bernstein report to calculate the tax base in future
+years. Using this method, FRD estimates that with an effective date of January 1, 2027, a 6 percent
+tax on net trading fee revenue will generate about $1 million in FY 2026-27. Estimates for future
+years are adjusted to account for industry growth and North Carolina’s anticipated growing market
+share.
+Table 6 below shows estimates of the revenue generated from a 6% tax on net trading fee revenue
+in each calendar year. To calculate the impact for years after FY 2026-27, the estimated revenue is
+averaged for the two cTaalebnled a6r: yPeraerdsi icntciolund Meda irnk ae tf iEscsatilm yeaatre.s ($ in millions)
+2026 2027 2028 2029 2030 2031
+Implied Market Size - USA $240,000 $342,893 $489,898 $699,927 $1,000,000 $1,428,720
+Implied Market Size - NC $2,160 $3,429 $5,389 $8,399 $13,000 $20,002
+Gross Fee Revenue - NC $28.3 $44.9 $70.6 $110.0 $170.3 $262.0
+Net Fee Revenue - NC $21.2 $33.7 $52.9 $82.5 $127.7 $196.5
+Revenue at 6% Net Tax $1.3 $2.0 $3.2 $5.0 $7.7 $11.8
+[This section intentionally left blank.]
+FISCAL RESEARCH DIVISION Page 13 of 24 July 1, 2026
+
+=== page 14 ===
+FEES AND OTHER CHANGES
+Table 7 summarizes the estimated fiscal impact of fee and other finance changes over FY 2026-
+27, its corresponding sectTioanb loef 7th: eS ubmudmgeatr, ya nodf Ftheee sim apnadc Otetdh aerre Cah. anges
+FY 2026-27 Estimated Fiscal
+Fees and Other Finance Changes in Conference Budget
+Im pact ($ in millions)
+General Fund
+Redirect Investment Income from Certain Funds to Strengthen
+• $250.0
+General Fund (General Fund)
+• General Court of Justice Fees Increase (JPS) $12.2
+SpeSceiacul Friutniedss S aanleds Amgaenn cDyu Rael cReeipgtisstration Fee Establishment
+• $0.9
+(GenGov)
+Redirect Investment Income from Certain Funds to Strengthen
+• $(250.0)
+General Fund (7 Special Funds)
+• Withhold a portion of Certain Local Sales Tax for SNAP FY 2026-27: $0.0
+Benefit Cost (Local/HHS) FY 2027-28: $150.0
+• Additional Sampson County Local Sales Tax (Local) Unknown
+• Brunswick Fire Fees (Local) Unknown
+• Underground Storage Tank Express Permit (AgNER) $0.2
+• Non-Title V Air Quality Permits (AgNER) $0.9
+• Underground Storage Tank Express Permit (AgNER) $0.2
+• Boating fee Increase (AgNER) $0.8
+• Telecommunications and Data Connectivity Fee Increase (JPS) $6.4
+• Division of Criminal Information Network Fees Increase (JPS) $2.4
+• Indigent Defense Service Fee Increase (JPS) $6.7
+• Divorce Filing Fee Increase (GenGov) $1.3
+• NC Medical Board Fees Increase (HHS) Unknown
+• DWI Revocation Fee (JPS) $1.3
+• NC DOT Fee-Setting Authority (Transp.) Unknown
+• Ferry Tolling (Transp.) Unknown
+• Selective Vegetation Removal Permit (Transp.) $0.1
+ORethdeirre Fctin Inanvecset mCheannt gInesc o me from Certain Funds to Strengthen General Fund
+Section 5.5(a) redirects investment income earned from various interest-bearing special funds to
+the General Fund. The following funds accrue interest to the General Fund beginning in FY 2026-
+27: •
+•
+• State Capital and Infrastructure Fund (Budget Code 24001)
+Needs-Based Public School Capital Fund (Budget Code 29110)
+Water Infrastructure Fund (Budget Code 24327)
+FISCAL RESEARCH DIVISION Page 14 of 24 July 1, 2026
+
+=== page 15 ===
+•
+•
+• Information Technology Fund (Budget Code 24667)
+• School Technology Fund (Budget Code 23511)
+Hurricane Helene Fund (Budget Code 23027)
+Insurance Regulatory Fund (Budget Code 23900) (redirected in section 44.5)
+Based on estimated cash balances and 1-year US Treasury rates in FY 2025-26, FRD estimates that
+these funds will generate $250 million in investment income for the General Fund in FY 2026-27. In
+future fiscal years, based on Moodys Analytics baseline forecast of 1-year US Treasury rates, and
+assuminTga bfllaet 8ca: sEhs tbiamlaantceeds Ifnrovmes FtmY e2n0t2 6In-2c7o,m FeR Dto e tshtiem Gaetense trhael Fimupnadc ftrso smho Swpne icnia Tl aFbulen d9s b elow:
+($ in millions)
+Category FY 2026-27 FY 2027-28 FY 2028-29 FY 2029-30 FY 2030-31
+Previous Year's 1-Year
+US Treasury Average
+3.70% 3.75% 3.70% 3.71% 3.72%
+Return (Moody's
+Interest Redirected
+$250.0 $253.4 $250.2 $250.7 $251.3
+Analytics)
+to General Fund
+Increases to General Fund revenue are equally offset by decreases in revenue to each of the 7 special
+fSuNnAdPs Smtaetnet iBoenneedfi at bCoovste-.S Thhaerrinegfo Dreu,e t htoe rPea iysm neon nt eEtr rimorp Raactt eosn State revenue.
+Section 9J.14 requires that a portion of local sales tax distributed to counties (and ultimately
+municipalities and special districts, such as fire districts) be withheld to fund SNAP benefits in years
+the State’s payment error rate (PER) triggers a cost-sharing obligation from the federal government
+resulting from changes in Public Law 119-21 (H.R. 1). Such withholdings and payments would begin
+October 1, 2027. As background, local sales tax is collected at the state level and then distributed
+to local governments. The first 2% of sales tax generated about $4.9 billion in FY 2024-25.
+Using federal FY 2024-25 PER data, FRD estimates the State would be required to pay about $150
+million as its share per federal requirements. The table below shows the methodology the bill sets
+out for determining the amount of local sales tax to be withheld in applicable years, which is the
+tota•l (or sum) of two parts:
+• Part I applies to all 100 counties regardless of their PER (which totals about $37 million that
+would have been withheld), and
+Part II only applies to counties with a county penalty factor (which totaled about $113
+million of the State’s $150 million cost share requirement estimate).
+As Table 10 below shows, all 100 counties will have 0.75% of their local sales tax withheld and used
+to pay for SNAP benefits, and counties with certain error rates will have an additional portion of
+local sales tax withheld.
+FISCAL RESEARCH DIVISION Page 15 of 24 July 1, 2026
+
+=== page 16 ===
+The amounts each county is estimated to be required to have withheld from their local sales tax
+distribution for the State’s benefit cost-share obligation under the bill’s requirements can be found
+in Appendix B. These estimates are based on FY 2024-25 distributions of the first 2 cents of local
+sales tax and arTea nbolet i9n:teTnhdee Sdu tmo r oeffl 2ec Mt aectthuoadl sco Dset-tsehramrei naemso tuhnet sA. m ount Counties
+Contribute to SNAP Benefits
+Method of Determining Amount of Local Sales Tax
+Part Applies to
+to be Withheld for SNAP Benefit
+All 100
+I 0.75% of a County’s First 2 cents of Local Sales Tax Revenues
+Counties
+Step 1. County’s penalty
+factor (which is essentially
+the ratio of the statewide County’s First 2
+x
+Payment Error Rate dollar cents of Local Sales Tax Revenues
+amount attributable to that
+Counties county) State
+with a Total Amt Total of all 100
+II
+Payment the is Counties’ 0.75% of
+Error Rate required to pa y First 2 cents of
+Dollar toward SNAP - Local Sales Tax
+Amount benefit costs Revenues
+Step 2. Result of Step 1 x
+The sum of all 100 counties’ assessment factor,
+which is the product of a county’s penalty factor
+All 100 and its first 2
+Counties cents of Local Sales Tax Revenues
++
+Total Counties
+Withheld wit h
+Sum of Above Steps
+Certain
+Error
+Rates
+Note: Such withholding would only occur in years where the State’s Payment Error Rate results in a
+benefit cost-sharing fiscal obligation.
+Additional Sampson County Local Sales Tax
+Section 44.11 authorizes Sampson County to levy up to an additional ½% of local sales tax. The tax
+must pass a successful referendum and receive approval from the county commissioners, and would
+be phased in at ¼ cent (¼%) increments until reaching the max ½% cap. The section also specifies
+that the proceeds from this additional tax would be used only for public school capital outlay and
+operating expenses and is not required to be shared with municipalities within the county.
+Under current law, all 100 counties levy the first 2-cents (2%) of sales tax (Articles 39, 40, and 42),
+48 counties (including Sampson County) levy the optional quarter-cent (¼%, Article 46), and four
+FISCAL RESEARCH DIVISION Page 16 of 24 July 1, 2026
+
+=== page 17 ===
+levy the Public Transit tax (¼% or ½%, Article 43). Sampson County currently levies a total sales
+tax of 7.25% (4.75% state + 2.25% local sales tax). To estimate the fiscal impact, FRD applied the
+¼% rate to the County’s FY 2024-25 revenues from the first cent of local sales tax excluding food
+and adjusted this figure for forecasted changes in retail sales. This results in FRD estimating each
+¼% levied will generate an additional $2.1 million each year and by around $4.3 million annually if
+iBnrcurnesawseicdk t Coo tuhnet fyu Flli r½e %Fe.e s
+Section 44.12 increases the maximum amount charged for various fire fees assessed by Brunswick
+County, which are used to support fire protection services instead of a dedicated tax. FRD is unable
+to estimate the impact because Brunswick County sets its own fire fees.
+Agr•ic ulStuecreti oann d1 2N.1a1tu-Nraoln a-nTdit lEec oVn oAmiri cQ Rueasloituyr cPeesr (mAigtsN.ER)
+Effective when the bill becomes law, this
+section increases Non-Title V Air Quality permit fees used to fund air quality programs to
+offset reduced revenue from other sources. Using historical fee collections data, FRD
+• eSestcitmioant e1s2 .t1h6is-U sSeTct iEoxnp wreislls inCcerretiafsicea stpioenc.i al fund receipts by $830,000 annually.
+Effective when the bill becomes law, this section
+adds underground storage tank (UST) permits to the express permitting program. This
+gives permittees an option to pay for a faster turnaround time for installation reviews for
+• USeScTti. o FnR 1D5 .e1s-tBiomaattinesg tFheise sIencctrieoans ew.ill increase permit revenue by $157,000 annually.
+This section increases boating registration fees effective
+October 1, 2026. These receipts are deposited in the Motor Boat fund to be used for
+abandoned and derelict vessel removal. This section is estimated to increase receipts to that
+fund by $760,000 in FY 2026-27 and by $1.0 million in subsequent full fiscal years.
+Gen•e raSl eGcotvioenr n3m7.e1n-Ste (cGuernitGieosv S)a lesman Registration.
+This section establishes a registration fee for
+securities salesmen with multiple dealers, which is expected to generate about $937,500
+recurring. The fiscal impact was calculated applying the new proposed rate ($250) to
+• hSeiscttoiornic a2l2 v.1o-lDuimvoersc. eF Fuinlidnsg f Froeme. this fee revert to the General Fund.
+This section increases the fee for filing for a divorce which is
+expected to generate about $1.3 million recurring for the Domestic Violence Center Fund.
+The fiscal impact was calculated by applying the new proposed rate, $125, to
+historical volumes of fees, and comparing it to collections at the current rate, $75. All
+proceeds from this fee are collected by county Registers of Deeds and remitted to a special
+fund in the Secretary of State’s office that is then used for grants to domestic violence
+centers.
+FISCAL RESEARCH DIVISION Page 17 of 24 July 1, 2026
+
+=== page 18 ===
+Hea•l th Saencdt iHonu m9La.n1 -SMeerdviiccaesl B(HoaHrSd) F ees.
+This section increases various fees the N.C. Medical Board
+assesses, such as for applications and license renewals. No estimate is available for this
+change, but any such increase in revenue would remain outside State funds and in the
+Medical Board’s accounts.
+Jus•ti ceS aencdti oPnu b1l6i.c2 S1a-Gfeetnye (rJaPlS C) o urt of Justice Fees.
+The estimated fiscal impact of increases to the
+General Court of Justice Fees are based on the number of cases for which the fee was
+collected in FY 2022-23 multiplied by the $30 increase. The net General Fund fiscal
+impact is estimated to be $12.2 million in FY 2026-27 and $21.0 million in FY 2027-28 and
+• eSeaccthi ofins c2a0l. 1y1e-aUr saefrt eFre. e for Division of Criminal Information Network
+. This section increases
+the State Bureau of Investigation’s fee assessed for users of the Division of Criminal
+Information Network by $8. The estimated fiscal impact was calculated by applying the new
+proposed rates ($33 for desktop users and $20 for mobile users) to historical fee collections
+and volumes at the prior rates ($25 for desktop users and $12 for mobile users) and
+comparing the difference. Revenue for FY 2026-27 was increased to reflect an
+• aSenctticioipna 1te6d.2 43-.5T%ele icnocmremasuen iicna utisoenrss baansde dD aotna h Cisotnonreiccatli vtirteyn Fdese. .
+This section would increase
+the Telecommunications and Data Connectivity Fee from $4 to $14, effective December 1,
+2026. This fee applies to all court cases, and supports the upgrade, maintenance, and
+operation of the judicial and county courthouse telecommunications and data
+connectivity. Fiscal Research utilized the Administrative Office of the Courts’ 2023-24
+Statistical and Operational Report of Budget Management and Financial Services to derive
+the estimated revenue. The current $4 fee generated $4,329,148. Dividing the revenue
+by $4 ($1,082,287) and then multiplying that figure by $10 results in an estimated $10.8
+million in additional revenue. The estimate was rounded up to $11 million and then
+• pSercotriaotne d1 6fo.3r0 F-IYn d2i0g2e6n-t2 D7e dfeunes teo S tehrev iDcee cFeemeb. er 1, 2026 effective date.
+This section increases the Indigent Defense fee
+from $5 to $25, effective December 1, 2026. This fee applies to criminal court cases with
+receipts directed to the Private Assigned Counsel Fund and was last increased in February
+2022. Fiscal Research utilized data from the Administrative Office of the Courts to estimate
+average caseload. The current $5 fee generates an average of $2.8 million, with an average
+of 567,594 criminal cases. Using the same average caseload, increasing the fee from $20 to
+• $Se2c5t iiosn a n16ti.c2i2p-aDtWedI tRoe gveoncaertiaotne $F1ee1.3 million in additional annual revenue.
+. Fees are collected to restore a license revoked under an
+implied-consent (DWI) offense. Currently, 50% of receipts go to the General Fund, 25% goes
+to counties to support jails, and 25% goes to DHHS Division of Public Health for the chemical
+alcohol testing program. This section reduces the allocation to the General Fund to 25%,
+increases the amount going to counties to 50%, and keeps the DHHS allocation at 25%. The
+FISCAL RESEARCH DIVISION Page 18 of 24 July 1, 2026
+
+=== page 19 ===
+estimated fiscal impact of increasing the Revocation Fee is based on actual fee collections
+from FY 2022-23. Under the revised allocation, $1.68 million in additional revenue would be
+allocated to counties annually, $561,000 in additional revenue would be allocated to
+DHHS annually, and there is no impact to the General Fund.
+Tran• spSoerctatitoionn 4 3.21-Authorize DOT Board to Set Fees.
+This section directs the N.C. Board of
+Transportation to establish fees for driveway permits, traffic impact analysis, various right
+of way (ROW) encroachments, subdivision reviews, and road additions and other
+inspections. The section specifies that fees should be set following a public involvement
+process and are not to exceed the cost of performing the analysis or inspection for issuing
+the permit. These proceeds are deposited in the Highway Fund, and FRD is unable to
+• eSestcitmioant e4 3th.1e5 f-iFsecrarly i mCpaapcitt bael caFuusned the rates the Board will adopt are unknown.
+. This section, which becomes effective January 1,
+2027, directs the N.C. Board of Transportation to implement tolls on all ferry routes, and
+increase current tolls, with the intention of paying for vessel replacement on a specified
+o
+schedule. The section allows for:
+Commuter passes would be codified for coastal resident and active-duty military ferry
+o
+users. The fee will be set at $150, then the Board can set the a new rate July 1, 2028.
+o
+Exemptions to tolls codified for school buses (public and private schools).
+Eliminates language separating Ferry Capital Fund spending by division and budget
+o
+fund. Revenue will continue to be budgeted by the route collected.
+Ferry Division shall use currently available operational funds for equipment and capital
+to implement tolling on untolled routes.
+These proceeds are deposited in the Ferry Capital Fund. FRD is unable to estimate the fiscal impact
+of th• is sSeeccttiioonn b4e3c.2a0u-sSee tlehcet irvaet eVse tgheet aBtoioanrd R wemillo avdaol pPt earrme iut.nknown.
+This section, which becomes effective
+when the bill becomes law, increases the annual vegetation maintenance permit fee from
+$200 to $400. These proceeds are deposited in the Highway Fund. FRD estimates this fee
+increase will generate an additional $71,979 in FY 2026-27 based on historical fee collection
+data.
+[This section intentionally left blank.]
+FISCAL RESEARCH DIVISION Page 19 of 24 July 1, 2026
+
+=== page 20 ===
+AppeTnadbilxe A A: 1S:p Soprtosr Wts aWgearginergi Rnegv Reenvueen Duiest Driibsuttriiobnu Ctioomnp Caormisopna,r Uisnodne,r F CYu 2rr0e2n6t -L2a7w E asntidm thaete s
+Conference Budget
+Conference
+Revenue Recipient Current Law Difference
+Budget
+1 (18% Tax Rate ) (23% Tax Rate)
+Non-University Allocations
+2
+3 DOR Administration Costs $500,000 $500,000 $0
+4 DOR North Carolina Amateur Sports $1,000,000 $1,000,000 $0
+5 Lottery Estimated Administration Costs $2,000,000 $2,000,000 $0
+DHHS Gambling Addiction Education and
+6 $2,000,000 $2,000,000 $0
+Treatment Programs
+WRC Youth Outdoor Engagement
+7 $1,000,000 $1,000,000 $0
+Commission
+University of North Carolina System
+8
+9 Appalachian State University $2,600,000 $3,000,000 $400,000
+10 East Carolina University $2,600,000 $3,000,000 $400,000
+11 Elizabeth City State University $2,600,000 $2,600,000 $0
+12 Fayetteville State University $2,600,000 $2,600,000 $0
+North Carolina Agricultural & Technical
+13 $2,600,000 $3,000,000 $400,000
+State University
+14 North Carolina Central University $2,600,000 $3,000,000 $400,000
+15 University of North Carolina at Asheville $2,600,000 $3,000,000 $400,000
+16 University of North Carolina at Charlotte $2,600,000 $3,000,000 $400,000
+17 University of North Carolina at Greensboro $2,600,000 $3,000,000 $400,000
+18 University of North Carolina at Pembroke $2,600,000 $2,600,000 $0
+19 University of North Carolina at Wilmington $2,600,000 $3,000,000 $400,000
+20 Western Carolina University $2,600,000 $3,000,000 $400,000
+21 Winston-Salem State University $2,600,000 $2,600,000 $0
+22 North Carolina State University $0 $3,000,000 $3,000,000
+23 University of North Carolina at Chapel Hill $0 $3,000,000 $3,000,000
+Department of Commerce
+24
+25 Major Events, Games, and Attractions Fund $45,300,000 $30,000,000 -$15,300,000
+General Fund
+26 $75,400,000 $126,100,000 $50,700,000
+Total Sports Wagering Revenue $161,200,000 $206,000,000 $44,800,000
+Notes: These estimates are based on historical revenue collections and FRD growth assumptions.
+27
+Totals are rounded to the nearest $100,000 and may not sum.
+FISCAL RESEARCH DIVISION Page 20 of 24 July 1, 2026
+
+=== page 21 ===
+Table A2: Sports Wagering Revenue Distribution Comparison, FY 2027-28 Estimates
+Conference
+Revenue Recipient Current Law Difference
+Budget
+1 (18% Tax Rate ) (23% Tax Rate)
+Non-University Allocations
+2
+3 DOR Administration Costs $500,000 $500,000 $0
+4 DOR North Carolina Amateur Sports $1,000,000 $1,000,000 $0
+5 Lottery Estimated Administration Costs $2,000,000 $2,000,000 $0
+DHHS Gambling Addiction Education and
+6 $2,000,000 $2,000,000 $0
+Treatment Programs
+WRC Youth Outdoor Engagement
+7 $1,000,000 $1,000,000 $0
+Commission
+University of North Carolina System
+8
+9 Appalachian State University $2,900,000 $5,800,000 $2,900,000
+10 East Carolina University $2,900,000 $5,800,000 $2,900,000
+11 Elizabeth City State University $2,900,000 $2,900,000 $0
+12 Fayetteville State University $2,900,000 $2,900,000 $0
+North Carolina Agricultural & Technical
+13 $2,900,000 $3,300,000 $400,000
+State University
+14 North Carolina Central University $2,900,000 $3,300,000 $400,000
+15 University of North Carolina at Asheville $2,900,000 $3,300,000 $400,000
+16 University of North Carolina at Charlotte $2,900,000 $5,800,000 $2,900,000
+17 University of North Carolina at Greensboro $2,900,000 $3,300,000 $400,000
+18 University of North Carolina at Pembroke $2,900,000 $2,900,000 $0
+19 University of North Carolina at Wilmington $2,900,000 $3,300,000 $400,000
+20 Western Carolina University $2,900,000 $3,300,000 $400,000
+21 Winston-Salem State University $2,900,000 $2,900,000 $0
+22 North Carolina State University $0 $5,800,000 $5,800,000
+23 University of North Carolina at Chapel Hill $0 $5,800,000 $5,800,000
+Department of Commerce
+24
+25 Major Events, Games, and Attractions Fund $50,100,000 $30,000,000 -$20,100,000
+General Fund
+26 $83,500,000 $129,700,000 $46,200,000
+Total Sports Wagering Revenue $177,300,000 $226,600,000 $49,300,000
+Notes: These estimates are based on historical revenue collections and FRD growth assumptions.
+27
+Totals are rounded to the nearest $100,000 and may not sum.
+FISCAL RESEARCH DIVISION Page 21 of 24 July 1, 2026
+
+=== page 22 ===
+Note: This table is for illustrative purposes only and is not intended to reflect actual cost-share
+Aamppoeunndtsix. B: Estimate of NC SNAP Benefit Cost-Share by County for State FY 2027-28
+NC SNAP Benefit Cost-Share County Breakdown
+Total,
+County Sales Penalty Factor Flat Penalty $ Total , Penalty for SFY
+SNAP PER $ Proportional Annualized
+# County Tax (Share of State's (0.75% of Sales Annualized 2027-28 (Oct. 1 -
+FFY 2024-25 Penalty $ Penalty (% of
+FY 2024-25 Total PER $) Tax) Penalty $ June 30)
+Sales Tax)
+1 ALAMANCE $85,962,255 $364 0 .015 $680,022 $644,717 $1,324,739 1.54% $993,554
+2 ALEXANDER $11,028,594 $209 0 .009 $50,093 $82,714 $132,808 1.20% $99,606
+3 ALLEGHANY $4,230,330 - - $31,727 $31,727 0.75% $23,796
+4 ANSON $6,725,347 $134 0 .005 $19,585 $50,440 $70,026 1.04% $52,519
+5 ASHE $10,884,514 $269 0 .011 $63,632 $81,634 $145,266 1.33% $108,949
+6 AVERY $11,612,146 - - $87,091 $87,091 0.75% $65,318
+7 BEAUFORT $19,449,671 $536 0 .022 $226,564 $145,873 $372,436 1.91% $279,327
+8 BERTIE $4,407,794 $411 0 .017 $39,371 $33,058 $72,429 1.64% $54,322
+9 BLADEN $9,842,032 - - $73,815 $73,815 0.75% $55,361
+10 BRUNSWICK $85,509,950 $221 0 .009 $410,698 $641,325 $1,052,023 1.23% $789,017
+11 BUNCOMBE $158,434,703 $151 0 .006 $519,925 $1,188,260 $1,708,185 1.08% $1,281,139
+12 BURKE $32,896,222 $135 0 .006 $96,515 $246,722 $343,236 1.04% $257,427
+13 CABARRUS $116,452,394 $1,075 0 .044 $2,720,636 $873,393 $3,594,029 3.09% $2,695,522
+14 CALDWELL $29,115,770 - - $218,368 $218,368 0.75% $163,776
+15 CAMDEN $3,316,027 - - $24,870 $24,870 0.75% $18,653
+16 CARTERET $43,333,497 - - $325,001 $325,001 0.75% $243,751
+17 CASWELL $5,279,112 $517 0 .021 $59,315 $39,593 $98,908 1.87% $74,181
+18 CATAWBA $79,495,973 - - $596,220 $596,220 0.75% $447,165
+19 CHATHAM $32,847,330 - - $246,355 $246,355 0.75% $184,766
+20 CHEROKEE $13,018,212 - - $97,637 $97,637 0.75% $73,227
+21 CHOWAN $5,814,006 - - $43,605 $43,605 0.75% $32,704
+22 CLAY $4,130,596 - - $30,979 $30,979 0.75% $23,235
+23 CLEVELAND $42,998,415 $310 0 .013 $289,686 $322,488 $612,174 1.42% $459,131
+24 COLUMBUS $16,339,655 $146 0 .006 $51,845 $122,547 $174,393 1.07% $130,795
+25 CRAVEN $43,939,721 - - $329,548 $329,548 0.75% $247,161
+26 CUMBERLAND $141,096,455 $399 0 .016 $1,223,496 $1,058,223 $2,281,720 1.62% $1,711,290
+27 CURRITUCK $18,274,908 - - $137,062 $137,062 0.75% $102,796
+28 DARE $46,101,253 - - $345,759 $345,759 0.75% $259,320
+29 DAVIDSON $60,990,530 $1,141 0 .047 $1,512,383 $457,429 $1,969,812 3.23% $1,477,359
+30 DAVIE $15,696,829 - - $117,726 $117,726 0.75% $88,295
+31 DUPLIN $17,666,351 - - $132,498 $132,498 0.75% $99,373
+32 DURHAM $187,515,686 $89 0 .004 $362,695 $1,406,368 $1,769,062 0.94% $1,326,797
+33 EDGECOMBE $16,159,732 $175 0 .007 $61,459 $121,198 $182,657 1.13% $136,993
+34 FORSYTH $174,741,668 $1,829 0 .075 $6,945,824 $1,310,563 $8,256,387 4.72% $6,192,290
+35 FRANKLIN $25,101,362 $109 0 .004 $59,462 $188,260 $247,722 0.99% $185,791
+36 GASTON $97,262,181 $866 0 .035 $1,830,524 $729,466 $2,559,991 2.63% $1,919,993
+37 GATES $2,542,057 $177 0 .007 $9,778 $19,065 $28,844 1.13% $21,633
+38 GRAHAM $3,078,652 - - $23,090 $23,090 0.75% $17,317
+39 GRANVILLE $19,590,902 $269 0 .011 $114,530 $146,932 $261,462 1.33% $196,097
+40 GREENE $4,829,191 - - $36,219 $36,219 0.75% $27,164
+41 GUILFORD $255,035,894 $1,926 0 .079 $10,675,081 $1,912,769 $12,587,851 4.94% $9,440,888
+42 HALIFAX $18,177,166 - - $136,329 $136,329 0.75% $102,247
+43 HARNETT $45,948,801 $409 0 .017 $408,424 $344,616 $753,040 1.64% $564,780
+44 HAYWOOD $29,599,351 - - $221,995 $221,995 0.75% $166,496
+45 HENDERSON $53,961,762 $133 0 .005 $155,974 $404,713 $560,687 1.04% $420,515
+46 HERTFORD $7,538,033 $140 0 .006 $22,935 $56,535 $79,470 1.05% $59,603
+47 HOKE $14,124,437 - - $105,933 $105,933 0.75% $79,450
+48 HYDE $2,223,055 - - $16,673 $16,673 0.75% $12,505
+49 IREDELL $98,469,603 - - $738,522 $738,522 0.75% $553,892
+50 JACKSON $21,677,124 - - $162,578 $162,578 0.75% $121,934
+51 JOHNSTON $89,335,509 $575 0 .024 $1,116,363 $670,016 $1,786,380 2.00% $1,339,785
+52 JONES $2,400,560 - - $18,004 $18,004 0.75% $13,503
+53 LEE $29,670,415 - - $222,528 $222,528 0.75% $166,896
+54 LENOIR $20,439,491 - - $153,296 $153,296 0.75% $114,972
+55 LINCOLN $38,114,645 - - $285,860 $285,860 0.75% $214,395
+56 MACON $20,550,113 - - $154,126 $154,126 0.75% $115,594
+57 MADISON $6,851,191 - - $51,384 $51,384 0.75% $38,538
+58 MARTIN $7,776,398 - - $58,323 $58,323 0.75% $43,742
+59 MCDOWELL $18,010,060 - - $135,075 $135,075 0.75% $101,307
+60 MECKLENBURG $650,969,138 $4,030 0 .165 $57,013,677 $4,882,269 $61,895,946 9.51% $46,421,960
+FISCAL RESEARCH DIVISION Page 22 of 24 July 1, 2026
+
+=== page 23 ===
+NC SNAP Benefit Cost-Share County Breakdown
+Total,
+County Sales Penalty Factor Flat Penalty $ Total , Penalty for SFY
+SNAP PER $ Proportional Annualized
+# County Tax (Share of State's (0.75% of Sales Annualized 2027-28 (Oct. 1 -
+FFY 2024-25 Penalty $ Penalty (% of
+FY 2024-25 Total PER $) Tax) Penalty $ June 30)
+Sales Tax)
+61 MITCHELL $6,239,562 - - $46,797 $46,797 0.75% $35,098
+62 MONTGOMERY $8,722,942 - - $65,422 $65,422 0.75% $49,067
+63 MOORE $54,955,410 $135 0 .006 $161,234 $412,166 $573,400 1.04% $430,050
+64 NASH $41,551,702 $232 0 .009 $209,503 $311,638 $521,141 1.25% $390,856
+65 NEW HANOVER $150,712,672 $672 0 .027 $2,201,064 $1,130,345 $3,331,409 2.21% $2,498,557
+66 NORTHAMPTON $4,782,745 - - $35,871 $35,871 0.75% $26,903
+67 ONSLOW $84,989,716 $491 0 .020 $906,904 $637,423 $1,544,327 1.82% $1,158,245
+68 ORANGE $61,599,034 $178 0 .007 $238,291 $461,993 $700,284 1.14% $525,213
+69 PAMLICO $4,418,935 - - $33,142 $33,142 0.75% $24,857
+70 PASQUOTANK $19,400,659 - - $145,505 $145,505 0.75% $109,129
+71 PENDER $26,652,109 $91 0 .004 $52,709 $199,891 $252,600 0.95% $189,450
+72 PERQUIMANS $4,147,789 $768 0 .031 $69,230 $31,108 $100,338 2.42% $75,253
+73 PERSON $15,220,552 - - $114,154 $114,154 0.75% $85,616
+74 PITT $75,146,405 $366 0 .015 $597,727 $563,598 $1,161,325 1.55% $870,994
+75 POLK $7,439,350 - - $55,795 $55,795 0.75% $41,846
+76 RANDOLPH $57,565,887 $702 0 .029 $878,245 $431,744 $1,309,990 2.28% $982,492
+77 RICHMOND $16,435,874 $852 0 .035 $304,331 $123,269 $427,600 2.60% $320,700
+78 ROBESON $42,274,847 $61 0 .002 $56,044 $317,061 $373,105 0.88% $279,829
+79 ROCKINGHAM $32,558,812 $121 0 .005 $85,618 $244,191 $329,810 1.01% $247,357
+80 ROWAN $55,987,654 - - $419,907 $419,907 0.75% $314,931
+81 RUTHERFORD $24,926,515 - - $186,949 $186,949 0.75% $140,212
+82 SAMPSON $20,428,349 - - $153,213 $153,213 0.75% $114,909
+83 SCOTLAND $11,614,934 - - $87,112 $87,112 0.75% $65,334
+84 STANLY $27,022,988 - - $202,672 $202,672 0.75% $152,004
+85 STOKES $13,970,543 - - $104,779 $104,779 0.75% $78,584
+86 SURRY $33,429,466 - - $250,721 $250,721 0.75% $188,041
+87 SWAIN $6,134,096 - - $46,006 $46,006 0.75% $34,504
+88 TRANSYLVANIA $15,640,580 $269 0 .011 $91,436 $117,304 $208,741 1.33% $156,556
+89 TYRRELL $1,190,303 - - $8,927 $8,927 0.75% $6,695
+90 UNION $98,026,534 $915 0 .037 $1,949,299 $735,199 $2,684,498 2.74% $2,013,373
+91 VANCE $17,545,140 $78 0 .003 $29,742 $131,589 $161,330 0.92% $120,998
+92 WAKE $592,175,172 $1,421 0 .058 $18,287,649 $4,441,314 $22,728,963 3.84% $17,046,722
+93 WARREN $4,967,339 - - $37,255 $37,255 0.75% $27,941
+94 WASHINGTON $3,693,679 $266 0 .011 $21,353 $27,703 $49,055 1.33% $36,792
+95 WATAUGA $31,838,915 - - $238,792 $238,792 0.75% $179,094
+96 WAYNE $47,147,790 $79 0 .003 $80,947 $353,608 $434,556 0.92% $325,917
+97 WILKES $24,829,391 - - $186,220 $186,220 0.75% $139,665
+98 WILSON $35,764,099 - - $268,231 $268,231 0.75% $201,173
+99 YADKIN $11,795,504 - - $88,466 $88,466 0.75% $66,350
+100YANCEY $6,895,111 - - $51,713 $51,713 0.75% $38,785
+TOTALS $4,938,423,870 $24,442 $112,961,821 $37,038,179 $150,000,000 $112,500,000
+[This section intentionally left blank]
+FISCAL RESEARCH DIVISION Page 23 of 24 July 1, 2026
+
+=== page 24 ===
+TECHNICAL CONSIDERATIONS
+ND/ A A T . A SOURCES
+EPARTMENTSOF OMMERCE NVIRONMENTAL UALITY EALTH AND UMAN
+NCD C , E Q , H H
+ERVICES ABOR EVENUE RANSPORTATION AND ECRETARY OF TATE ILDLIFE ESOURCES
+S , L , R , T , S S . W R
+OMMISSION DMINISTRATIVE FFICE OF THE OURTS EE EPORT ONSENSUS EVENUE
+C . A O C . OSBMF R . C R
+ORECAST OODYS NALYTICS INANCIAL YSTEM OTTERY OMMISSION ENSUS
+F . M ’ A . NCF S (NCFS). NC L C . U.S.C
+UREAU ERNSTEIN OODYS NALYTICS
+BLEGISL . A B TIVE FISC . A M L NOT ’ E A– PURPOS . E AND LIMITATIONS
+This document is an official fiscal analysis prepared pursuant to Chapter 120 of the General
+Statutes and rules adopted by the Senate and House of Representatives. The estimates in this
+analysis are based on the data, assumptions, and methodology described in the Fiscal Analysis
+section of this document. This document only addresses sections of the bill that have projected
+direct fiscal impacts on State or local governments and does not address sections that have no
+pCr
+O
+o
+N
+je
+T
+c
+A
+te
+C
+d
+T
+fIi
+N
+sc
+F
+a
+O
+l
+R
+im
+M
+p
+A
+a
+T
+c
+I
+t
+O
+s.
+N
+QEu
+ST
+es
+IM
+tio
+A
+n
+T
+s
+E
+o Pn
+R
+t
+E
+h
+P
+is
+A
+a
+R
+n
+E
+a
+D
+ly Bsi
+Y
+s should be directed to the Fiscal Research Division at (919) 733-4910.
+Nick Clerkin, Brent Lucas, Nick Long, Alannah Knight, Jonathan Tart, Morgan Weiss, Aaron Cornell,
+Meredith Randolph, Margaret Young, Susie Camilleri, Francisco Celis Villagrana, Kristine Leggett,
+Bridget Edwards, Sean Hamel, Katherine Tamer, Snigdha Das
+E S TIMATE APPROVED BY
+Brian Matteson, Director of Fiscal Research
+Fiscal Research Division
+June 30, 2026
+FISCAL RESEARCH DIVISION Page 24 of 24 July 1, 2026

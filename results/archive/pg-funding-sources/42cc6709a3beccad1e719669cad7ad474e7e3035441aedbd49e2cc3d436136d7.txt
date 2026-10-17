@@ -1,0 +1,312 @@
+=== page 1 ===
+March 31, 2025 - Updated December 17, 2025
+To: The Honorable Kathy Hochul
+Members of the New York State Legislature
+On behalf of the New York State Gaming Commission and the Office of Addiction Services and
+Supports (OASAS), we respectfully submit this annual report as required by N.Y. Racing, Pari-
+Mutuel Wagering and Breeding Law Section 1367-a(6). The statute requires the Commission and
+OASAS to submit an annual report to the Governor and Legislature “on the impact of mobile
+sports wagering on problem gamblers in New York, including, to the extent practicable, an
+analysis of demographics which are disproportionately impacted by the problem gambling.”
+The 2024 report is the first to include specific data points from the nine licensed mobile sports
+wagering operators in New York State. The regulation addressing such was adopted in April
+2025, meaning operators were not required to record such datapoints in 2024. Regardless, the
+Commission provided a template worksheet to all operators with instruction and guidance to
+provide existing data. The Commission and OASAS spent significant time processing the millions
+of datapoints submitted in response and working with operators to obtain comparable datasets.
+Inconsistent and incompatible data submissions led to delays in completing this report. Optional
+patron-provided demographic data was not yet required to be maintained by operators in 2024
+and therefore is not included in this report.
+However, this report provides baseline statistics on general account and wager information on
+which to build future evaluation and research.
+The Commission and OASAS will continue to partner to research, analyze and address
+demographic statistics regarding mobile sports wagering to ensure that resources are best
+directed where they are needed, and that protections are put in place to protect vulnerable New
+Yorkers.
+Respectfully Submitted,
+Robert Williams Chinazo Cunningham, M.D., M.S.
+Executive Director Commissioner
+New York State Gaming Commission New York State Office of Addiction Services and Supports
+1
+
+=== page 2 ===
+N.Y. Racing, Pari-Mutuel Wagering and Breeding Law § 1367-a(6)
+The commission, in conjunction with the office of addiction services and supports, shall annually
+cause a report to be prepared and distributed to the governor and the legislature on the impact
+of mobile sports wagering on problem gamblers in New York, including, to the extent
+practicable, an analysis of demographics which are disproportionately impacted by the problem
+gambling. The costs associated with the preparation and distribution of the report shall be borne
+by mobile sports wagering licensees and the commission shall be authorized to assess a fee
+against mobile sports wagering licensees for these purposes. The commission, or in the case
+that an independent integrity monitor has been established, such independent integrity monitor
+shall also report biannually to the governor and the legislature on the effectiveness of the
+statutory and regulatory controls in place to ensure the integrity of mobile sports wagering
+operations.
+N.Y. Mental Hygiene Law § 19.07(a)
+The office of alcoholism and substance abuse services is charged with the responsibility for
+assuring the development of comprehensive plans, programs, and services in the areas of
+research, prevention, care, treatment, rehabilitation, including relapse prevention and recovery
+maintenance, education, and training of persons who abuse or are dependent on alcohol and/or
+substances and their families. Such plans, programs, and services shall be developed with the
+cooperation of the office, the other offices of the department where appropriate, local
+governments, consumers and community organizations and entities. The office shall provide
+appropriate facilities and shall encourage the provision of facilities by local government and
+community organizations and entities. The office is also responsible for developing plans,
+programs and services related to compulsive gambling education, prevention and treatment
+consistent with section 41.57 of this chapter.
+2
+
+=== page 3 ===
+Background
+Chapter 59 of the Laws of 2021 amended N.Y. Racing, Pari-Mutuel Wagering and Breeding Law
+§ 1367 and added § 1367-a to authorize mobile sports wagering when the sports wager is made
+through virtual or electronic means from a location within New York State (NYS) and is
+transmitted to and accepted by electronic equipment located at a licensed commercial casino
+gaming facility. The statute also directed the Gaming Commission to conduct a competitive
+bidding process to award mobile sports wagering licenses. The Commission unanimously
+accepted the review committee’s recommendations and awarded nine platform providers and
+operators with 10-year licenses at a tax rate of 51 percent.
+The first mobile sports wager in NYS was placed January 8, 2022. Since then, the Commission
+has enacted additional regulatory measures to protect the betting public, including but not
+limited to the prohibition of mobile sports wagering marketing and advertising on college
+campuses and ensuring all operators understand New York’s requirement that a gambling harms
+message be included on all advertising,
+OASAS oversees a continuum of care for addiction services that includes prevention, treatment,
+harm reduction and recovery support. Access to both inpatient and outpatient services for those
+affected by harms related to gambling, including for those who have been diagnosed with
+gambling disorder, are available throughout the state. Further, there are a range of community-
+based prevention efforts to raise the awareness the prevention and risk reduction of gambling.
+Further, OASAS seeks to mitigate potential harms associated with gambling by promoting harm
+reduction strategies such as setting additional time and money wagered limits, and limiting
+alcohol and drug use while gambling. In 2025, OASAS released a statewide public awareness
+campaign, Take a Pause, targeting those that are participating in mobile sports wagering and
+encouraging them to take a short survey that provides normative feedback on their current
+gambling behaviors and tips and resources if needed.
+Definitions of Certain Terms Used in this Report
+Term Definition
+An individual who is physically present in New York State when
+Authorized Sports Bettor
+placing a sports wager
+A specific transaction placed by a patron on an authorized sporting
+Wager
+event or events or an occurrence or occurrences therein
+Any interaction with a mobile sports wagering operator. This
+Transaction includes but is not limited to placing wagers, checking balances,
+scrolling through wagering options, etc.
+Single wagers Wager on a single play or event in a single sport
+Parlay A wager combining two or more single wagers
+Wagers that are not tied to a sport and could not be differentiated
+Special wager
+as having been parlay or single wager
+3
+
+=== page 4 ===
+Revenue for Gambling Harms Treatment and Education
+Currently, $6 million annually from New York State’s tax on mobile sports wagering is dedicated
+for gambling harms education and treatment purposes, pursuant to N.Y. Racing, Pari-Mutuel
+Wagering and Breeding Law § 1367(8). Beginning in 2026, an additional $6 million annually is
+directed for such purposes.
+In addition to revenue from mobile sports wagering operators, existing commercial casino
+operators, of which there are currently four, pay an annual fee of $500 per slot machine and
+table to New York State for OASAS-directed gambling harms treatment and education. By
+statute, any additional commercial casino sited in New York must pay a $750 annual fee per slot
+machine and table to New York State for gambling harms treatment and education.
+Marketing and Advertising Regulations
+New York State’s mobile sports wagering regulations:
+• Hold licensees responsible for the content of their advertising, marketing and branding;
+• Require all public-facing advertisements to clearly include the HOPEline to increase
+awareness and availability of services for those affected by gambling harms;
+• Prohibit false, deceptive, or misleading statements;
+• Require that material facts and terms and conditions in all marketing and promotions be
+clearly and conspicuously disclosed;
+• Allow customers to opt-out of receiving future direct advertisements;
+• Prohibit advertisements to underage persons or design elements that appeal primarily to
+underage persons; and
+• Prohibit mobile sports wagering from being promoted or advertised in college or
+university-owned news assets such as school newspapers, radio, or television broadcasts.
+The Commission’s Gaming Division and Compliance unit review all operators’ proposed
+marketing and advertising materials to ensure they comply with these regulations.
+Licensed Mobile Sports Wagering Operators – 2024
+Bally Bet BetMGM Caesars Sportsbook
+DraftKings ESPN Bet Fanatics Sportsbook
+FanDuel Sportsbook Resorts World Bet Rush Street Interactive
+Sports Wagering Regulation
+Mobile sports wagering is codified in New York State Racing, Pari-Mutuel Wagering and Breeding
+Law § 1367. The Commission’s regulation of mobile sports wagering is covered by section 5330.
+Geolocation
+New York State law defines an “authorized sports bettor” as “an individual who is physically
+present in this state when placing a sports wager…” Part 5330 of the Commission’s regulations
+require licensed operators to obtain Commission-approved geolocation services to ensure that
+all wagering account activity takes place within NYS’ borders (§ 5330.44).
+4
+
+=== page 5 ===
+Accounts and Wagering
+In 2024:
+New Yorkers wagered $22,575,774,693 representing more than 1.7 billion transactions on
+mobile sports wagering platforms. (Table 2) Generally, the specific location of account
+activity within the state was consistent with population density across the state.
+There were 4,805,450 unique mobile sports wagering accounts created.
+The average amount wagered per account was $4,329 in which the average amount per
+wager was $41. See Appendix 1 for data reported by mobile sports wagering operators.
+Accounts and Wagers Reported by Mobile Sports Wagering Operators, 2024
+Amount Wagered by Account Holders1 $22,575,774,693
+Revenue to Mobile Sports Wagering Operators $2,056,220,600
+Average Amount Wagered per Account2 $4,329
+Average Amount Wagered per Wager2 $41
+Number of Accounts2 4,805,450
+Transactions Placed 3 1,706,094,983
+Number of Unique Accounts Established in 20244 2,143,721
+1 All accounts are authorized on mobile sports wagering operator platforms
+2 Averages were calculated overall rather than averaged by operator
+3 Data provided geolocation services provider GeoComply
+4 Accounts established between Jan. 8, 2024 – Jan. 7, 2025
+Leagues with Limited Menu and Restricted Wagering ($500 max) set by Commission
+Athletes Unlimited Contests
+American Cornhole League
+National Lacrosse League
+NCAA Division I Lacrosse
+Indoor Football League
+World Snooker Championship
+World Table Tennis
+International Table Tennis Federation
+European Table Tennis Union
+Sao Paolo Challenger
+World Jai Alai Battle Court
+SailGP
+Bare Knuckle Fighting
+5
+
+=== page 6 ===
+Wager Determination
+In 2024, New Yorkers wagered $17 billion in single wagers (by sport, below) and $5.6 million in
+parlay wagers (irrespective of sport, below). Of the total amount wagered in single wagers, 35
+percent of wagers were for basketball, 20 percent of wagers were for American football, and 18
+percent of wagers were for baseball.
+Single Wager Amounts per Sport and Parlay Wagers, 2024
+Leagues,
+Wager
+Levels or
+Sport Variations Amount Wagered % of Total
+Sanctioning
+Allowed
+Bodies
+Aussie rules football 1 13 $7,371,377 <1%
+Auto racing 11 56 $17,561,511 <1%
+Baseball 6 302 $3,071,081,324 18%
+Basketball 25 260 $5,991,563,161 35%
+Boxing 7 28 $38,232,237 <1%
+Cricket 11 54 $41,039,165 <1%
+Cycling 2 4 $265,464 <1%
+Combat sports 3 20 $215,385,879 1%
+Darts 1 47 $22,983,277 <1%
+Football 4 459 $3,423,297,906 20%
+Golf 9 175 $40,042,486 <1%
+Hockey 13 135 $875,017,773 5%
+Lacrosse 1 19 $3,112,556 <1%
+Olympics n/a n/a $98,933,576 1%
+Other n/a n/a $122,386,735 1%
+Rugby 6 33 $3,592,541 <1%
+Soccer 52 183 $951,792,366 6%
+Softball 1 5 $82,782 <1%
+Tennis 6 106 $2,088,028,910 12%
+Volleyball 3 4 $4,415,568 <1%
+Total 162 1,903 $17,016,186,595 .
+Parlay n/a $5,559,465,267 .
+Grand Total1 $22,575,774,693 .
+1 $122,831 was wagered as "special" wagers which are not tied to a sport and could not be differentiated as having
+been parlay or single wager. This amount is added to the Grand Total.
+6
+
+=== page 7 ===
+Account-Related Information on Mobile Sports Wagering Platforms
+A range of account-related information is provided to authorized sports bettors on the mobile
+sport wagering platforms, including deposit limits, time limits, total wager limits, maximum, and
+loss limits. The availability of these self-imposed responsible gaming limits within each mobile
+sports operator’s website or mobile application are required by Commission Rule 5330.34.
+In 2024, all mobile sport wagering operators offered at least one of these account-related
+information notification points. Among the nine sports wagering operators in NYS, 89 percent
+offered total wager limit information, 78 percent offered time limit information, 67 percent offered
+maximum wager size limit information, and 44 percent offered loss limit information.
+Mobile Sports Wagering Platform Account Information Notifying Authorized Sports Bettors
+of Gambling Activity Mobile Sports Wagering Operators, 2024
+Number of Percent of
+Account information available
+Operators Operators
+>1 account-related information on platform 9 100%
+Deposit limits offered 9 100%
+Total wager limits offered 8 89%
+Time limits offered 7 78%
+Maximum wager size limits offered 6 67%
+Loss limits offered 5 44%
+Underage Access
+New York State Racing, Pari-Mutuel Wagering and Breeding Law § 1367-a(4)(a)(iii) obligates each
+mobile sports wagering operator to implement measures to prohibit minors from participating in
+any sports wagering activity. The Commission, OASAS and the New York Council on Problem
+Gambling launched new training modules for retail and gaming facility employees to recognize
+and prevent underage access in 2024.
+Additionally, as part of Commission Rule 5325.2(b)(3)(x) and New York State Racing, Pari-Mutuel
+Wagering and Breeding Law § 1367-a(4)(a)(xv), applied through Commission Rules 5329.34 and
+5330.34, each operator was obligated to submit for approval, a problem-gaming plan that
+includes procedures to prevent gaming by minors.
+Through the end of 2024, the Commission was informed of 1,871 alleged occasions of underaged
+participation through lawfully created accounts. All verified underage access was due to lawfully
+established accounts created by of-age individuals providing access to and play by underage
+individuals. In all circumstances, the subject account was closed.
+This is a marked increase in underage attempts from 2023, when the Commission was informed
+of 54 such occasions. The increase is partly attributable to operators enhancing existing know-
+your-customer measures to better detect attempts at underage play.
+7
+
+=== page 8 ===
+Voluntary Self-Exclusion
+New York State has a robust voluntary self-exclusion (VSE) program for those individuals who
+recognize that they should no longer participate in legal gambling. An individual can self-exclude
+from all legal gambling statewide for one year, three years, five years or for their lifetime. This
+program is unique in that it prohibits participation in all legal gambling options regulated by the
+Commission, including mobile sports wagering.
+Between January 1, 2017, and December 31, 2024, 8,200 individuals signed up for self-exclusion.
+In 2024, there were 4,541 active individuals on the self-exclusion list.
+HOPEline
+OASAS operates a multi-lingual 24/7 confidential HOPEline (1-877-846-7369) which provides on-
+demand crisis support and referrals for those experiencing gambling harms and/or substance use
+harms. Calls are answered by bachelor’s- and master’s-level clinicians who have training in crisis
+response and who have extensive knowledge of gambling and substance use harms. Callers
+receive referrals as needed including to community-based supports as well as warm transfers to
+one of seven Problem Gambling Resource Centers throughout the State. Further, all callers have
+the option to talk to a peer with lived experience.
+Between January 1, 2020 and December 31, 2024, the volume of calls to the HOPEline increased
+30.7 percent from 2,345 calls in 2020 to 3,064 calls in 2024. The increase coincides with
+additional exposure and access to the HOPEline through public service announcements,
+gambling operator advertisements, and other promotional efforts to highlight the line as a
+resource for those experiencing gambling harms.
+Prior to mobile sports wagering launching in January 2022, the top reason for calls made by
+those experiencing gambling harms were harms related to casino-based gambling. Since January
+2022, the top reason has been online betting (e.g. mobile sports wagering).
+In 2024, the demographic group contacting the HOPEline the most frequently was males
+between the ages of 25-44.
+Looking Forward
+The practical implementation of the Commission’s regulations regarding mobile sports wagering
+data collection becomes effective February 28, 2026. At that time, operators are expected to
+provide – on a template provided by the Commission and OASAS – datasets and demographics
+for calendar year 2025. OASAS and the Commission will promptly compile and analyze the data
+against the 2024 baseline information provided in this report.
+Collectively, the Commission and OASAS will continue their collaborative work to curb gambling-
+related harms and ensure help is available for those who need it. The agencies will also make
+improvements as needed to policies and regulations as new data and circumstances warrant.
+8
+
+=== page 9 ===
+Appendix 1. Account Wagering Activity per Account and per Wager, by
+Mobile Sports Wagering Operator, New York State, 2024
+Operator Avg wagered per account Avg wagered per wager
+Operator 1 $2,290 $109
+Operator 2 $5,206 $30
+Operator 3 $1,963 $88
+Operator 4 $1,817 $75
+Operator 5 $6,650 $43
+Operator 6 $4,058 $89
+Operator 7 $4,509 $75
+Operator 8 $3,294 $113
+Operator 9 $11,678 $43
+9
