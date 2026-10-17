@@ -215,8 +215,7 @@ def main(argv: list[str]) -> int:
         jobs += [(f["url"], dict(f.get("data") or {})) for f in req.get("forms") or []]
     else:
         jobs = [(u, None) for u in argv[1:]]
-    urls = [u for u, _ in jobs]
-    workers = max(1, min(int(os.environ.get("WPDC_ARCHIVE_WORKERS", "6")), len(urls) or 1))
+    workers = max(1, min(int(os.environ.get("WPDC_ARCHIVE_WORKERS", "6")), len(jobs) or 1))
     rc = 0
 
     def emit(rec: dict) -> None:
@@ -225,14 +224,13 @@ def main(argv: list[str]) -> int:
                 f.write(json.dumps(rec) + "\n")
             print(json.dumps(rec), flush=True)
 
-    begun: dict[str, float] = {}  # url -> when a worker actually started it
+    begun: dict[int, float] = {}  # job id -> when a worker actually started it (several forms may share a URL)
 
-    forms = {u: f for u, f in jobs}
-
-    def run(url: str) -> dict:
+    def run(job: tuple[str, dict | None]) -> dict:
+        url, form = job
         with _lock:
-            begun[url] = time.monotonic()
-        rec = archive_one(out, url, forms.get(url))
+            begun[id(job)] = time.monotonic()
+        rec = archive_one(out, url, form)
         emit(rec)
         return rec
 
@@ -241,32 +239,32 @@ def main(argv: list[str]) -> int:
     # waiting for the stuck thread once every other document is done.
     pool = ThreadPoolExecutor(max_workers=workers)
     pending: dict = {}
-    queue = list(urls)
+    queue = list(jobs)
 
     def submit_next() -> None:
         while queue and len(pending) < workers:
-            u = queue.pop(0)
-            pending[pool.submit(run, u)] = u
+            j = queue.pop(0)
+            pending[pool.submit(run, j)] = j
 
     submit_next()
     gave_up = False
     while pending:
         done, _ = wait(list(pending), timeout=5, return_when=FIRST_COMPLETED)
         for fut in done:
-            u = pending.pop(fut)
+            j = pending.pop(fut)
             try:
                 if fut.result().get("error"):
                     rc = 1
             except Exception as e:  # noqa: BLE001
                 rc = 1
-                emit({"url": u, "retrieved_at": date.today().isoformat(), "error": f"worker crashed: {e}"})
+                emit({"url": j[0], "retrieved_at": date.today().isoformat(), "error": f"worker crashed: {e}"})
         now = time.monotonic()
-        for fut, u in list(pending.items()):
+        for fut, j in list(pending.items()):
             with _lock:
-                t0 = begun.get(u)
+                t0 = begun.get(id(j))
             if t0 is not None and now - t0 > DOC_DEADLINE:
                 pending.pop(fut)
-                emit({"url": u, "retrieved_at": date.today().isoformat(), "error": f"gave up after {DOC_DEADLINE}s"})
+                emit({"url": j[0], "retrieved_at": date.today().isoformat(), "error": f"gave up after {DOC_DEADLINE}s"})
                 rc = 1
                 gave_up = True
         submit_next()

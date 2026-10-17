@@ -353,3 +353,16 @@ def test_oh_yearly_report_parses_months_and_crosschecks():
         src.normalize(recs, raw_for(FIX / "oh_occc_sports_gaming_2026_report04.pdf", Period.month(2026, 5), "pdf"))
     with pytest.raises(LayoutChanged):
         src.parse(raw_for(FIX / "ks_lottery_sports_wagering_2026-01.pdf", None, "pdf"))
+
+
+def test_pa_first_fiscal_year_has_eight_months_and_no_pre_promo_revenue():
+    from wpdc_ingest.sources.pa_pgcb_sports_wagering import PAPGCBSportsWagering
+    src = PAPGCBSportsWagering()
+    raw = raw_for(FIX / "pa_pgcb_sports_wagering_fy2018-19.xlsx", None, "xlsx")
+    recs = src.parse(raw)
+    assert [(r["year"], r["month"]) for r in recs][0] == (2018, 11) and len(recs) == 8
+    rows = [r.finalize() for r in src.normalize(recs, raw)]
+    nov_all = next(r for r in rows if r["period_start"] == "2018-11-01" and r["channel"] == "all")
+    assert nov_all["handle_usd"] == 1_414_587 and nov_all["adjusted_revenue_usd"] == 508_997 and nov_all["gross_revenue_usd"] is None and nov_all["promo_deductions_usd"] is None
+    nov_online = next(r for r in rows if r["period_start"] == "2018-11-01" and r["channel"] == "online")
+    assert nov_online["handle_usd"] == 0
