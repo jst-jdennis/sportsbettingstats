@@ -2220,7 +2220,7 @@ sources:
   publisher_type: state_regulator
   title: Sports wagering reports, monthly, by licensee
   url: https://igb.illinois.gov/sports-wagering/sports-reports.html
-  access_method: csv
+  access_method: api
   update_cadence: monthly
   license: null
   reliability_notes: Served only through the Board's report form (igbapps.illinois.gov/SportsReports_AEM.aspx), which returns CSV or PDF for a month range by report type; the ingestion module posts the form for each month and stores the tax summary (accrual AGR and tax by licensee and location) and the activity detail (cash handle by sport level and location) together. Revenue is due to the Board on the last day of the following month, so the series lags two months. Added 2026-10-17 for the Phase 6 revenue series.
