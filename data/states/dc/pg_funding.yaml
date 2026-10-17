@@ -3,37 +3,32 @@ records:
 - fiscal_year: 2025
   amount_usd: null
   amount_type: null
-  funding_mechanism: statutory_earmark_fixed
-  mechanism_text: The District's sports wagering tax statute directs the first $200,000 of sports wagering tax revenue each
-    year to programs run through the Department of Behavioral Health to prevent, treat and research gambling addiction. The
-    2018 act originally split the remainder between the Early Childhood Development Fund and the Neighborhood Safety and Engagement
-    Fund, and the code now marks that second paragraph repealed. Press and Council oversight reporting in 2023 said the Department
-    of Behavioral Health had not spent the set-aside and that the FY2024 budget did not fund it, so the reviewer should confirm
-    whether the $200,000 is still budgeted in the latest Budget Support Act.
+  funding_mechanism: unknown
+  mechanism_text: D.C. Code 36-621.15 as currently codified imposes the sports wagering tax (20, 10 or 30 percent of gross
+    sports wagering revenue by operator class) and shows subsections (c) and (d) as repealed. Subsection (c)(1), added by
+    D.C. Law 22-312 in 2019, had directed the first 200,000 dollars of the tax each year to Department of Behavioral Health
+    programs to prevent, treat and research gambling addiction; the section has since been amended by D.C. Law 25-50 (2023),
+    25-217 (2024) and 26-55 (2025), and the current text carries no problem gambling earmark. No appropriation line for problem
+    gambling services was located, so the current mechanism is recorded as unknown.
   administering_agency: District of Columbia Department of Behavioral Health
   includes:
   - treatment
   - prevention
   - research
-  authority_citation: D.C. Code 36-621.15(c)(1)
+  authority_citation: D.C. Code 36-621.15 (subsection (c) repealed); D.C. Law 22-312, sec. 2(e) (original earmark)
   provenance:
     source_id: dc-legislature
     source_url: https://code.dccouncil.gov/us/dc/council/code/sections/36-621.15
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261017152847/https://code.dccouncil.gov/us/dc/council/code/sections/36-621.15
     retrieved_at: '2026-10-17'
     retrieval_method: manual_entry
     transform: null
     entered_by: claude-draft-2026-10-17
     reviewed_by: null
     status: pending_review
-    page_or_table: subsection (c)
-    notes: 'Operative language as excerpted from the DC Code site: "(c) The increased revenue realized from the tax imposed
-      under subsection (a) of this section shall be directed as follows: (1) The first $200,000 of revenue shall be used to
-      fund programs through the Department of Behavioral Health to prevent, treat, and research gambling addiction; and (2)
-      Repealed." The code.dccouncil.gov host was blocked by this session''s network policy, so the clause was taken from the
-      search engine''s excerpt of that page rather than from a direct fetch; the reviewer must open the section and confirm
-      the text as amended by the Sports Wagering Amendment Act of 2024 (Subtitle R of D.C. Law 25-217). Amount to be taken
-      from the Department of Behavioral Health chapter of the approved FY2025 or FY2026 budget (budget.dc.gov); 2023 reporting
-      said no money was requested for gambling addiction programs in FY2024. Archiving on 2026-10-17 did not yield the section
-      text: the D.C. Code page archived is rendered by script and holds no section text; the clause remains as taken from
-      the search excerpt until a reviewer opens the page.'
+    page_or_table: D.C. Code 36-621.15 as displayed on the Council's code site, with its history line
+    notes: 'Archived copy checked on 2026-10-17: the current section reads "(c) Repealed. (d) Repealed." and its history lists
+      amendments by D.C. Law 23-16 (2019), 25-50 (2023), 25-217 (2024) and 26-55 (2025); which act repealed subsection (c)
+      was not determined from this page. The earlier draft of this record, written from a search excerpt of an older version
+      of the section, recorded the 200,000 dollar earmark as current; it is superseded by this reading. A reviewer should
+      check the Department of Behavioral Health budget chapter for a problem gambling line before changing this to appropriation.'

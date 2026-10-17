@@ -1,5 +1,5 @@
 {
- "data_fingerprint": "514f8b1f008a987622462e8e1a2be489095c91bdb1d5aad3c220e44328e67a73",
+ "data_fingerprint": "319790e4b9bd57f373be8d737ea0de27ea9ac776b97577f16776d3f1863c3e4b",
  "derived_inputs": {
   "advertising_rule_count": "Number of rows in consumer_protections.advertising; null when the list is absent.",
   "advertising_substantive_count": "Rows in consumer_protections.advertising whose rule_type is not responsible_gambling_message_required.",
@@ -549,7 +549,7 @@
       {
        "retrieved_at": "2026-10-17",
        "source_id": "co-legislature",
-       "source_url": "https://content.leg.colorado.gov/sites/default/files/documents/2024A/bills/sl/2024a_sl_212.pdf",
+       "source_url": "https://leg.colorado.gov/sites/default/files/images/olls/crs2024-title-44.pdf",
        "status": "pending_review"
       }
      ],
@@ -826,7 +826,7 @@
      "status": "not_entered"
     },
     {
-     "condition": "funding_mechanism is a statutory earmark",
+     "condition": "funding_mechanism is unknown",
      "criterion_id": "pg_funding",
      "evidence": [
       {
@@ -837,11 +837,11 @@
       }
      ],
      "inputs": {
-      "pg_funding_mechanism": "statutory_earmark_fixed"
+      "pg_funding_mechanism": "unknown"
      },
-     "label": "Statutory earmark",
+     "label": "Mechanism unknown",
      "max_points": 3,
-     "points": 3,
+     "points": 0,
      "status": "scored"
     },
     {
@@ -870,7 +870,7 @@
    ],
    "name": "District of Columbia",
    "pct": null,
-   "points": 6,
+   "points": 3,
    "points_entered": 8,
    "profile_completeness": "full",
    "review": null,
@@ -965,7 +965,7 @@
       {
        "retrieved_at": "2026-10-17",
        "source_id": "de-legislature",
-       "source_url": "https://delcode.delaware.gov/title29/c048/index.html",
+       "source_url": "https://delcode.delaware.gov/title29/c048/sc01/index.html",
        "status": "pending_review"
       }
      ],
