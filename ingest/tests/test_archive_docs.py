@@ -32,6 +32,13 @@ class Handler(http.server.BaseHTTPRequestHandler):
             self.send_header("Content-Length", str(len(body)))
             self.end_headers()
             self.wfile.write(body)
+        elif self.path == "/form":
+            body = b'<html><form method="post"><input type="hidden" name="__VIEWSTATE" value="abc&amp;1"/><select name="month"></select></form></html>'
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
         elif self.path == "/slow":
             self.send_response(200)
             self.send_header("Content-Type", "application/pdf")
@@ -46,6 +53,36 @@ class Handler(http.server.BaseHTTPRequestHandler):
         else:
             self.send_response(404)
             self.end_headers()
+
+
+    def do_POST(self):  # noqa: N802
+        n = int(self.headers.get("Content-Length", "0"))
+        body = self.rfile.read(n).decode()
+        from urllib.parse import parse_qs
+        q = parse_qs(body)
+        ok = q.get("__VIEWSTATE") == ["abc&1"] and q.get("month") == ["August"]
+        out = b"licensee,handle\nA,1\n" if ok else b"bad form"
+        self.send_response(200 if ok else 400)
+        self.send_header("Content-Type", "text/csv")
+        self.send_header("Content-Length", str(len(out)))
+        self.end_headers()
+        self.wfile.write(out)
+
+
+def test_archive_docs_posts_a_form_with_harvested_hidden_fields(tmp_path: Path):
+    srv = http.server.ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+    port = srv.server_address[1]
+    threading.Thread(target=srv.serve_forever, daemon=True).start()
+    req = tmp_path / "req.yaml"
+    req.write_text(f"kind: archive\nlabel: t\nurls:\n  - http://127.0.0.1:{port}/fast\nforms:\n  - url: http://127.0.0.1:{port}/form\n    data:\n      month: August\n")
+    env = dict(os.environ, NO_PROXY="127.0.0.1", no_proxy="127.0.0.1", WPDC_WAYBACK_CONCURRENCY="1")
+    out = tmp_path / "out"
+    proc = subprocess.run([sys.executable, "-m", "wpdc_ingest.archive_docs", str(out), "--request", str(req)], cwd=Path(__file__).resolve().parents[1], env=env, capture_output=True, text=True, timeout=120)
+    srv.shutdown()
+    recs = {json.loads(l)["url"].rsplit("/", 1)[1]: json.loads(l) for l in (out / "index.jsonl").read_text().splitlines()}
+    assert proc.returncode == 0, proc.stderr
+    assert recs["form"]["method"] == "post" and recs["form"]["form"] == {"month": "August"} and recs["form"]["file"].endswith(".csv")
+    assert (out / recs["form"]["file"]).read_bytes().startswith(b"licensee,handle")
 
 
 def test_archive_docs_run_ends_despite_a_trickling_server(tmp_path: Path):

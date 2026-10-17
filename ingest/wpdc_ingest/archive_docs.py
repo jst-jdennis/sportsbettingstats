@@ -4,6 +4,13 @@ Used by the ingest workflow for research PDFs and regulator documents so that
 figures can be read from the document itself rather than from summaries.
 
   python -m wpdc_ingest.archive_docs <out_dir> <url> [<url> ...]
+  python -m wpdc_ingest.archive_docs <out_dir> --request <request.yaml>
+
+A request file carries ``urls`` (plain GETs) and may carry ``forms``: entries
+with ``url`` and ``data`` that are fetched by first GETting the page, taking
+its hidden inputs (ASP.NET view state and the like), merging ``data`` over
+them and POSTing the result to the same URL. The index records the method
+and the form fields so the fetch can be repeated.
 
 Writes, per URL: <sha256>.<ext>, <sha256>.txt (extracted text for PDFs),
 and appends a line to index.jsonl with url, sha256, size, wayback URL and
@@ -32,6 +39,9 @@ import time
 from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, wait
 from datetime import date
 from pathlib import Path
+
+import html as html_mod
+import re
 
 import requests
 
@@ -133,10 +143,38 @@ def extension(url: str, ctype: str, content: bytes) -> str:
     return "bin"
 
 
-def archive_one(out: Path, url: str) -> dict:
+def hidden_inputs(html: str) -> dict[str, str]:
+    out: dict[str, str] = {}
+    for m in re.finditer(r'<input[^>]*type="hidden"[^>]*>', html, re.I):
+        tag = m.group(0)
+        n = re.search(r'name="([^"]*)"', tag)
+        v = re.search(r'value="([^"]*)"', tag)
+        if n:
+            out[n.group(1)] = html_mod.unescape(v.group(1)) if v else ""
+    return out
+
+
+def post_form(url: str, data: dict, deadline: int = FETCH_DEADLINE) -> tuple[requests.Response, bytes]:
+    """GET the page for its hidden fields, then POST the merged form. Browser headers throughout."""
+    page = requests.get(url, headers=BROWSER_HEADERS, timeout=(30, 60))
+    page.raise_for_status()
+    form = hidden_inputs(page.text)
+    form.update({k: str(v) for k, v in data.items()})
+    r = requests.post(url, data=form, headers={**BROWSER_HEADERS, "Referer": url}, timeout=(30, deadline), allow_redirects=True)
+    r.raise_for_status()
+    return r, r.content
+
+
+def archive_one(out: Path, url: str, form: dict | None = None) -> dict:
     rec: dict = {"url": url, "retrieved_at": date.today().isoformat()}
+    if form is not None:
+        rec["method"] = "post"
+        rec["form"] = form
     try:
-        r, content = fetch_within(url)
+        if form is not None:
+            r, content = post_form(url, form)
+        else:
+            r, content = fetch_within(url)
         ctype = r.headers.get("Content-Type", "")
         ext = extension(url, ctype, content)
         digest = sha256_bytes(content)
@@ -169,7 +207,15 @@ def main(argv: list[str]) -> int:
     out = Path(argv[0])
     out.mkdir(parents=True, exist_ok=True)
     idx = out / "index.jsonl"
-    urls = argv[1:]
+    jobs: list[tuple[str, dict | None]] = []
+    if len(argv) >= 3 and argv[1] == "--request":
+        import yaml
+        req = yaml.safe_load(Path(argv[2]).read_text()) or {}
+        jobs += [(u, None) for u in req.get("urls") or []]
+        jobs += [(f["url"], dict(f.get("data") or {})) for f in req.get("forms") or []]
+    else:
+        jobs = [(u, None) for u in argv[1:]]
+    urls = [u for u, _ in jobs]
     workers = max(1, min(int(os.environ.get("WPDC_ARCHIVE_WORKERS", "6")), len(urls) or 1))
     rc = 0
 
@@ -181,10 +227,12 @@ def main(argv: list[str]) -> int:
 
     begun: dict[str, float] = {}  # url -> when a worker actually started it
 
+    forms = {u: f for u, f in jobs}
+
     def run(url: str) -> dict:
         with _lock:
             begun[url] = time.monotonic()
-        rec = archive_one(out, url)
+        rec = archive_one(out, url, forms.get(url))
         emit(rec)
         return rec
 
