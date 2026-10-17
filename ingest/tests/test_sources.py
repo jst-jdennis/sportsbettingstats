@@ -237,3 +237,34 @@ def test_archive_docs_extension_from_type_url_or_bytes():
     assert extension("https://x/r.pdf", "", b"%PDF-1.7") == "pdf"
     assert extension("https://x/d", "text/csv", b"a,b") == "csv"
     assert extension("https://x/d", "", b"\x00\x01") == "bin"
+
+
+def test_ny_statewide_monthly_report_parses_every_month_and_crosschecks_totals():
+    from wpdc_ingest.sources.ny_gaming_commission_mobile_sports import NYGamingCommissionMobileSports, REVENUE_DEFINITION
+    src = NYGamingCommissionMobileSports()
+    raw = raw_for(FIX / "ny_monthly_mobile_statewide_2026-09.pdf", None, "pdf")
+    recs = src.parse(raw)
+    assert len(recs) == 56  # January 2022 to August 2026
+    aug26 = next(r for r in recs if (r["year"], r["month"]) == (2026, 8))
+    assert (aug26["handle_usd"], aug26["gross_revenue_usd"], aug26["state_tax_usd"]) == (1_731_302_503, 168_476_334, 85_934_232)
+    apr23 = next(r for r in recs if (r["year"], r["month"]) == (2023, 4))  # row with a blank adjustments cell
+    assert (apr23["handle_usd"], apr23["gross_revenue_usd"], apr23["state_tax_usd"]) == (1_544_465_378, 138_820_564, 70_798_487)
+    jan22 = next(r for r in recs if (r["year"], r["month"]) == (2022, 1))  # first month, on the page with Unclaimed Funds
+    assert jan22["handle_usd"] == 1_669_719_034 and jan22["state_tax_usd"] == 63_310_867
+    rows = [r.finalize() for r in src.normalize(recs, raw)]
+    assert len(rows) == 56 and all(r["channel"] == "online" and r["fips"] == "36" for r in rows)
+    first = min(rows, key=lambda r: r["period_start"])
+    assert first["period_start"] == "2022-01-01" and first["period_end"] == "2022-01-31"
+    assert rows[0]["revenue_definition"] == REVENUE_DEFINITION and rows[0]["adjusted_revenue_usd"] == rows[0]["gross_revenue_usd"]
+    assert "page" in rows[0]["notes"]
+    # a single requested month filters to that month; a month not in the edition fails loudly
+    one = src.normalize(recs, raw_for(FIX / "ny_monthly_mobile_statewide_2026-09.pdf", Period.month(2025, 11), "pdf"))
+    assert len(one) == 1 and one[0].values["handle_usd"] == 2_606_597_963
+    with pytest.raises(LayoutChanged):
+        src.normalize(recs, raw_for(FIX / "ny_monthly_mobile_statewide_2026-09.pdf", Period.month(2026, 9), "pdf"))
+
+
+def test_ny_report_layout_change_raises(tmp_path):
+    from wpdc_ingest.sources.ny_gaming_commission_mobile_sports import NYGamingCommissionMobileSports
+    with pytest.raises(LayoutChanged):
+        NYGamingCommissionMobileSports().parse(raw_for(FIX / "nj_dge_synthetic.pdf", None, "pdf"))

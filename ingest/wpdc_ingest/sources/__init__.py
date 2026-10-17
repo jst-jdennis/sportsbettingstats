@@ -7,6 +7,7 @@ REGISTRY = {
     "uscourts-bankruptcy-f2": "wpdc_ingest.sources.uscourts_bankruptcy:USCourtsBankruptcyF2",
     "nj-dge-sports-wagering-monthly": "wpdc_ingest.sources.nj_dge_sports_wagering:NJDGESportsWagering",
     "census-pep-state-totals": "wpdc_ingest.sources.census_population:CensusPopulation",
+    "ny-gaming-commission-mobile-sports-monthly": "wpdc_ingest.sources.ny_gaming_commission_mobile_sports:NYGamingCommissionMobileSports",
 }
 
 
