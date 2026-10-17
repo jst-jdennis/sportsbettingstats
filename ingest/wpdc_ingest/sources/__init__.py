@@ -11,6 +11,7 @@ REGISTRY = {
     "ks-lottery-sports-wagering": "wpdc_ingest.sources.ks_lottery_sports_wagering:KSLotterySportsWagering",
     "mi-mgcb-sports-betting-monthly": "wpdc_ingest.sources.mi_mgcb_internet_sports_betting:MIMGCBInternetSportsBetting",
     "oh-occc-sports-gaming-monthly": "wpdc_ingest.sources.oh_occc_sports_gaming:OHOCCCSportsGaming",
+    "il-igb-sports-wagering-monthly": "wpdc_ingest.sources.il_igb_sports_wagering:ILIGBSportsWagering",
     "ny-gaming-commission-mobile-sports-monthly": "wpdc_ingest.sources.ny_gaming_commission_mobile_sports:NYGamingCommissionMobileSports",
 }
 

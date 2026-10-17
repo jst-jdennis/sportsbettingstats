@@ -159,12 +159,16 @@ class PAPGCBSportsWagering:
                 if abs(rec["retail"][k] + rec["online"][k] - rec["total"][k]) > 2:
                     raise LayoutChanged(f"{raw.path.name}: retail + online {k} differs from total for {y}-{mo:02d}")
             out.append(rec)
+        # The fiscal year total column is the regulator's own sum. When it disagrees with the months (the
+        # 2019/20 workbook carries the previous year's total), the months stand and every row says so.
+        mismatches = []
         if total_col is not None:
             for b in ("total", "retail", "online"):
                 for k in ("handle", "taxable"):
                     fy_total = blocks[b][k][total_col]
                     if fy_total is not None and abs(float(fy_total) - sums.get((b, k), 0.0)) > 2:
-                        raise LayoutChanged(f"{raw.path.name}: {b} {k} months sum to {sums.get((b, k)):.2f} but the fiscal year total column says {fy_total}")
+                        mismatches.append(f"{b} {k}: months sum to {sums.get((b, k)):,.0f} dollars, fiscal year total column shows {float(fy_total):,.0f}")
+        self._fy_note = ("The workbook's fiscal year total column does not equal the sum of its months (" + "; ".join(mismatches) + "); the monthly figures are recorded as printed and the column is treated as the regulator's error") if mismatches else None
         if not out:
             raise LayoutChanged(f"{raw.path.name}: no reported months")
         self._sheet = ws.title
@@ -189,7 +193,7 @@ class PAPGCBSportsWagering:
                 gross = None if unreported else (rev if rev is not None else v.get("taxable"))
                 prov = provenance.block(SOURCE_ID, raw, method="xlsx", entered_by="wpdc_ingest.pa_pgcb_sports_wagering",
                                         page_or_table=f"sheet {sheet!r}, GRAND TOTAL block, {b.capitalize()} Sports Wagering rows, column {p.start:%B %Y}",
-                                        notes="Retail has no promotional credit row in the report, so retail gross revenue equals its taxable revenue; the 2 percent local share assessment is omitted from state tax" if b == "retail" else None)
+                                        notes="; ".join(x for x in [("Retail has no promotional credit row in the report, so retail gross revenue equals its taxable revenue; the 2 percent local share assessment is omitted from state tax" if b == "retail" else None), getattr(self, "_fy_note", None)] if x) or None)
                 vals = {"fips": "42", "period_start": p.start.isoformat(), "period_end": p.end.isoformat(), "channel": ch, "market_segment": "regulated_sportsbook",
                         "handle_usd": round(v["handle"]), "gross_revenue_usd": round(gross) if gross is not None else None, "adjusted_revenue_usd": round(v["taxable"]),
                         "promo_deductions_usd": None if unreported else (round(v["promo"]) if v.get("promo") is not None else (0 if b == "retail" else None)),

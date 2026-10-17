@@ -40,12 +40,17 @@ REVENUE_DEFINITION = ("Settled Wagers, Revenues and State Share as printed in th
                       "Lottery's sports wagering revenues, the base of the 10 percent state share; an operator with negative revenue in a month is "
                       "printed as zero; statewide totals across casino managers and their platform providers")
 MONTHS = {m: i + 1 for i, m in enumerate(["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"])}
-ROW_RE = re.compile(r"^(.*?)\s+\$([\d,]+)\s+\$([\d,]+)\s+\$([\d,]+)\s*$")
+ROW_RE = re.compile(r"^(.*?)\s*\$([\d,]+)\s+\$([\d,]+)\s+\$([\d,]+)\s*$")
 NUMS_RE = re.compile(r"^\$([\d,]+)\s+\$([\d,]+)\s+\$([\d,]+)\s*$")
 
 
 def _i(s: str) -> int:
     return int(s.replace(",", ""))
+
+
+def _key(s: str) -> str:
+    """A label with spaces and hyphens removed, so lines rebuilt from character positions compare equal."""
+    return re.sub(r"[\s-]+", "", s).lower()
 
 
 class KSLotterySportsWagering:
@@ -72,17 +77,42 @@ class KSLotterySportsWagering:
             keys = sorted(found)
         return [Document(url=found[k], period=Period.month(*k), kind="pdf", label=f"Kansas Lottery sports wagering revenues, {k[0]}-{k[1]:02d}") for k in keys]
 
+    @staticmethod
+    def _lines_from_chars(page) -> list[str]:
+        """Rebuild text lines from character positions.
+
+        Some editions (April 2025 onward) set each glyph with wide spacing, so pdfplumber's default word
+        clustering yields one letter per word. Characters are grouped by their top coordinate and joined,
+        with a space wherever the gap to the next character exceeds half the font size.
+        """
+        rows: dict[int, list] = {}
+        for c in page.chars:
+            if not c["text"].strip():
+                continue
+            rows.setdefault(round(c["top"] / 2), []).append(c)
+        out = []
+        for key in sorted(rows):
+            cs = sorted(rows[key], key=lambda c: c["x0"])
+            line = cs[0]["text"]
+            for a, b in zip(cs, cs[1:]):
+                line += (" " if b["x0"] - a["x1"] > a["size"] * 0.5 else "") + b["text"]
+            out.append(line)
+        return out
+
     def parse(self, raw: RawDocument) -> list[dict[str, Any]]:
         with pdfplumber.open(raw.path) as pdf:
-            text = pdf.pages[0].extract_text() or ""
-        lines = [l.strip() for l in text.splitlines() if l.strip()]
-        if not lines or "Sports Wagering Revenues" not in lines[0] or "Monthly Summary" not in " ".join(lines[:3]):
+            page = pdf.pages[0]
+            text = page.extract_text() or ""
+            lines = [l.strip() for l in text.splitlines() if l.strip()]
+            if not any("settledwagers" in _key(l) and "stateshare" in _key(l) for l in lines[:8]):
+                lines = [l.strip() for l in self._lines_from_chars(page) if l.strip()]
+        if not lines or "sportswageringrevenues" not in _key(lines[0]) or "monthlysummary" not in _key(" ".join(lines[:3])):
             raise LayoutChanged(f"{raw.path.name}: first page is not the monthly summary; first lines: {lines[:3]}")
-        mh = next((re.fullmatch(r"([A-Z][a-z]+) (\d{4})", l) for l in lines[:5] if re.fullmatch(r"([A-Z][a-z]+) (\d{4})", l)), None)
+        mh = next((m for m in (re.fullmatch(r"([A-Z][a-z]+) ?(\d{4})", l) for l in lines[:5]) if m), None)
         if not mh or mh.group(1) not in MONTHS:
             raise LayoutChanged(f"{raw.path.name}: no month heading in {lines[:5]}")
         year, month = int(mh.group(2)), MONTHS[mh.group(1)]
-        if not any("Settled Wagers" in l and "Revenues" in l and "State Share" in l for l in lines[:8]):
+        if not any("settledwagers" in _key(l) and "revenues" in _key(l) and "stateshare" in _key(l) for l in lines[:8]):
             raise LayoutChanged(f"{raw.path.name}: header with Settled Wagers, Revenues and State Share not found")
         channel = "retail"
         ops: dict[str, list[tuple[int, int, int]]] = {"retail": [], "online": []}
@@ -90,20 +120,21 @@ class KSLotterySportsWagering:
         totals = None
         pending_sub = False
         for l in lines:
-            if l.startswith("Subtotal - Retail"):
-                m = ROW_RE.match(l); subs["retail"] = (_i(m.group(2)), _i(m.group(3)), _i(m.group(4))); channel = "online"; continue
-            if l.startswith("Subtotal - Online"):
-                m = ROW_RE.match(l); subs["online"] = (_i(m.group(2)), _i(m.group(3)), _i(m.group(4))); continue
-            if l.startswith("Subtotal -") or l == "Subtotal":
+            k = _key(l)
+            m = ROW_RE.match(l)
+            if k.startswith("subtotalretail") and m:
+                subs["retail"] = (_i(m.group(2)), _i(m.group(3)), _i(m.group(4))); channel = "online"; continue
+            if k.startswith("subtotalonline") and m:
+                subs["online"] = (_i(m.group(2)), _i(m.group(3)), _i(m.group(4))); continue
+            if k.startswith("subtotal") and not m:
                 pending_sub = True; continue
             if pending_sub:
-                m = NUMS_RE.match(l)
-                if m:
-                    subs["online"] = (_i(m.group(1)), _i(m.group(2)), _i(m.group(3))); pending_sub = False; continue
-            if l.startswith("Totals"):
-                m = ROW_RE.match(l); totals = (_i(m.group(2)), _i(m.group(3)), _i(m.group(4))); continue
-            m = ROW_RE.match(l)
-            if m and not l.startswith("Casino"):
+                m2 = NUMS_RE.match(l)
+                if m2:
+                    subs["online"] = (_i(m2.group(1)), _i(m2.group(2)), _i(m2.group(3))); pending_sub = False; continue
+            if k.startswith("totals") and m:
+                totals = (_i(m.group(2)), _i(m.group(3)), _i(m.group(4))); continue
+            if m and not k.startswith("casino"):
                 ops[channel].append((_i(m.group(2)), _i(m.group(3)), _i(m.group(4))))
         if "retail" not in subs or "online" not in subs or totals is None:
             raise LayoutChanged(f"{raw.path.name}: subtotal or totals rows missing (found {sorted(subs)}, totals={totals})")
