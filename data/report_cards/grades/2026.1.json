@@ -1,5 +1,5 @@
 {
- "data_fingerprint": "03472602a9607d54f7777fdab0dc5b60fead3425f213789d7658e5c979fc3126",
+ "data_fingerprint": "065c58b7b4b96fb64551732e9a4296ebd129762e87befa29e2ec9276b531d51f",
  "derived_inputs": {
   "advertising_rule_count": "Number of rows in consumer_protections.advertising; null when the list is absent.",
   "advertising_substantive_count": "Rows in consumer_protections.advertising whose rule_type is not responsible_gambling_message_required.",
@@ -43,33 +43,31 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "no study on file",
      "criterion_id": "prevalence_research",
      "evidence": [],
      "inputs": {
-      "prevalence_searched": null,
+      "prevalence_searched": true,
       "prevalence_years_since_latest": null
      },
-     "label": null,
+     "label": "No study found",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     }
    ],
    "fips": "02",
-   "grade": null,
+   "grade": "F",
    "inputs_pending_review": 1,
    "market": "no_regulated_market",
-   "missing_criteria": [
-    "prevalence_research"
-   ],
+   "missing_criteria": [],
    "name": "Alaska",
-   "pct": null,
+   "pct": 0.0,
    "points": 0,
-   "points_entered": 3,
+   "points_entered": 5,
    "profile_completeness": "status_only",
-   "review": null,
-   "status": "incomplete"
+   "review": "provisional",
+   "status": "complete"
   },
   {
    "abbr": "AL",
@@ -95,33 +93,31 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "no study on file",
      "criterion_id": "prevalence_research",
      "evidence": [],
      "inputs": {
-      "prevalence_searched": null,
+      "prevalence_searched": true,
       "prevalence_years_since_latest": null
      },
-     "label": null,
+     "label": "No study found",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     }
    ],
    "fips": "01",
-   "grade": null,
+   "grade": "F",
    "inputs_pending_review": 1,
    "market": "no_regulated_market",
-   "missing_criteria": [
-    "prevalence_research"
-   ],
+   "missing_criteria": [],
    "name": "Alabama",
-   "pct": null,
+   "pct": 0.0,
    "points": 0,
-   "points_entered": 3,
+   "points_entered": 5,
    "profile_completeness": "status_only",
-   "review": null,
-   "status": "incomplete"
+   "review": "provisional",
+   "status": "complete"
   },
   {
    "abbr": "AR",
@@ -225,17 +221,17 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "no study on file",
      "criterion_id": "prevalence_research",
      "evidence": [],
      "inputs": {
-      "prevalence_searched": null,
+      "prevalence_searched": true,
       "prevalence_years_since_latest": null
      },
-     "label": null,
+     "label": "No study found",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     }
    ],
    "fips": "05",
@@ -245,13 +241,12 @@
    "missing_criteria": [
     "deposit_limits",
     "advertising",
-    "credit_cards",
-    "prevalence_research"
+    "credit_cards"
    ],
    "name": "Arkansas",
    "pct": null,
    "points": 8,
-   "points_entered": 8,
+   "points_entered": 10,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -863,17 +858,17 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "no study on file",
      "criterion_id": "prevalence_research",
      "evidence": [],
      "inputs": {
-      "prevalence_searched": null,
+      "prevalence_searched": true,
       "prevalence_years_since_latest": null
      },
-     "label": null,
+     "label": "No study found",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     }
    ],
    "fips": "11",
@@ -883,13 +878,12 @@
    "missing_criteria": [
     "deposit_limits",
     "advertising",
-    "credit_cards",
-    "prevalence_research"
+    "credit_cards"
    ],
    "name": "District of Columbia",
    "pct": null,
    "points": 3,
-   "points_entered": 8,
+   "points_entered": 10,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -1224,33 +1218,31 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "no study on file",
      "criterion_id": "prevalence_research",
      "evidence": [],
      "inputs": {
-      "prevalence_searched": null,
+      "prevalence_searched": true,
       "prevalence_years_since_latest": null
      },
-     "label": null,
+     "label": "No study found",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     }
    ],
    "fips": "15",
-   "grade": null,
+   "grade": "F",
    "inputs_pending_review": 1,
    "market": "no_regulated_market",
-   "missing_criteria": [
-    "prevalence_research"
-   ],
+   "missing_criteria": [],
    "name": "Hawaii",
-   "pct": null,
+   "pct": 0.0,
    "points": 0,
-   "points_entered": 3,
+   "points_entered": 5,
    "profile_completeness": "status_only",
-   "review": null,
-   "status": "incomplete"
+   "review": "provisional",
+   "status": "complete"
   },
   {
    "abbr": "IA",
@@ -1427,33 +1419,31 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "no study on file",
      "criterion_id": "prevalence_research",
      "evidence": [],
      "inputs": {
-      "prevalence_searched": null,
+      "prevalence_searched": true,
       "prevalence_years_since_latest": null
      },
-     "label": null,
+     "label": "No study found",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     }
    ],
    "fips": "16",
-   "grade": null,
+   "grade": "F",
    "inputs_pending_review": 1,
    "market": "no_regulated_market",
-   "missing_criteria": [
-    "prevalence_research"
-   ],
+   "missing_criteria": [],
    "name": "Idaho",
-   "pct": null,
+   "pct": 0.0,
    "points": 0,
-   "points_entered": 3,
+   "points_entered": 5,
    "profile_completeness": "status_only",
-   "review": null,
-   "status": "incomplete"
+   "review": "provisional",
+   "status": "complete"
   },
   {
    "abbr": "IL",
@@ -2598,33 +2588,31 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "no study on file",
      "criterion_id": "prevalence_research",
      "evidence": [],
      "inputs": {
-      "prevalence_searched": null,
+      "prevalence_searched": true,
       "prevalence_years_since_latest": null
      },
-     "label": null,
+     "label": "No study found",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     }
    ],
    "fips": "23",
-   "grade": null,
+   "grade": "B",
    "inputs_pending_review": 6,
    "market": "regulated_market",
-   "missing_criteria": [
-    "prevalence_research"
-   ],
+   "missing_criteria": [],
    "name": "Maine",
-   "pct": null,
+   "pct": 77.8,
    "points": 14,
-   "points_entered": 16,
+   "points_entered": 18,
    "profile_completeness": "full",
-   "review": null,
-   "status": "incomplete"
+   "review": "provisional",
+   "status": "complete"
   },
   {
    "abbr": "MI",
@@ -3541,17 +3529,17 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "no study on file",
      "criterion_id": "prevalence_research",
      "evidence": [],
      "inputs": {
-      "prevalence_searched": null,
+      "prevalence_searched": true,
       "prevalence_years_since_latest": null
      },
-     "label": null,
+     "label": "No study found",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     }
    ],
    "fips": "31",
@@ -3562,13 +3550,12 @@
     "self_exclusion",
     "deposit_limits",
     "advertising",
-    "credit_cards",
-    "prevalence_research"
+    "credit_cards"
    ],
    "name": "Nebraska",
    "pct": null,
    "points": 5,
-   "points_entered": 5,
+   "points_entered": 7,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -3668,17 +3655,17 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "no study on file",
      "criterion_id": "prevalence_research",
      "evidence": [],
      "inputs": {
-      "prevalence_searched": null,
+      "prevalence_searched": true,
       "prevalence_years_since_latest": null
      },
-     "label": null,
+     "label": "No study found",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     }
    ],
    "fips": "33",
@@ -3689,13 +3676,12 @@
     "self_exclusion",
     "deposit_limits",
     "advertising",
-    "credit_cards",
-    "prevalence_research"
+    "credit_cards"
    ],
    "name": "New Hampshire",
    "pct": null,
    "points": 2,
-   "points_entered": 5,
+   "points_entered": 7,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -4855,17 +4841,17 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "no study on file",
      "criterion_id": "prevalence_research",
      "evidence": [],
      "inputs": {
-      "prevalence_searched": null,
+      "prevalence_searched": true,
       "prevalence_years_since_latest": null
      },
-     "label": null,
+     "label": "No study found",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     }
    ],
    "fips": "44",
@@ -4876,13 +4862,12 @@
     "self_exclusion",
     "deposit_limits",
     "advertising",
-    "credit_cards",
-    "prevalence_research"
+    "credit_cards"
    ],
    "name": "Rhode Island",
    "pct": null,
    "points": 3,
-   "points_entered": 5,
+   "points_entered": 7,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -4911,33 +4896,31 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "no study on file",
      "criterion_id": "prevalence_research",
      "evidence": [],
      "inputs": {
-      "prevalence_searched": null,
+      "prevalence_searched": true,
       "prevalence_years_since_latest": null
      },
-     "label": null,
+     "label": "No study found",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     }
    ],
    "fips": "45",
-   "grade": null,
+   "grade": "D",
    "inputs_pending_review": 1,
    "market": "no_regulated_market",
-   "missing_criteria": [
-    "prevalence_research"
-   ],
+   "missing_criteria": [],
    "name": "South Carolina",
-   "pct": null,
+   "pct": 40.0,
    "points": 2,
-   "points_entered": 3,
+   "points_entered": 5,
    "profile_completeness": "status_only",
-   "review": null,
-   "status": "incomplete"
+   "review": "provisional",
+   "status": "complete"
   },
   {
    "abbr": "SD",
@@ -5182,17 +5165,17 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "no study on file",
      "criterion_id": "prevalence_research",
      "evidence": [],
      "inputs": {
-      "prevalence_searched": null,
+      "prevalence_searched": true,
       "prevalence_years_since_latest": null
      },
-     "label": null,
+     "label": "No study found",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     }
    ],
    "fips": "47",
@@ -5200,13 +5183,12 @@
    "inputs_pending_review": 5,
    "market": "regulated_market",
    "missing_criteria": [
-    "advertising",
-    "prevalence_research"
+    "advertising"
    ],
    "name": "Tennessee",
    "pct": null,
    "points": 11,
-   "points_entered": 13,
+   "points_entered": 15,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -5287,33 +5269,31 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "no study on file",
      "criterion_id": "prevalence_research",
      "evidence": [],
      "inputs": {
-      "prevalence_searched": null,
+      "prevalence_searched": true,
       "prevalence_years_since_latest": null
      },
-     "label": null,
+     "label": "No study found",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     }
    ],
    "fips": "49",
-   "grade": null,
+   "grade": "F",
    "inputs_pending_review": 1,
    "market": "no_regulated_market",
-   "missing_criteria": [
-    "prevalence_research"
-   ],
+   "missing_criteria": [],
    "name": "Utah",
-   "pct": null,
+   "pct": 0.0,
    "points": 0,
-   "points_entered": 3,
+   "points_entered": 5,
    "profile_completeness": "status_only",
-   "review": null,
-   "status": "incomplete"
+   "review": "provisional",
+   "status": "complete"
   },
   {
    "abbr": "VA",
@@ -5444,33 +5424,31 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "no study on file",
      "criterion_id": "prevalence_research",
      "evidence": [],
      "inputs": {
-      "prevalence_searched": null,
+      "prevalence_searched": true,
       "prevalence_years_since_latest": null
      },
-     "label": null,
+     "label": "No study found",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     }
    ],
    "fips": "51",
-   "grade": null,
+   "grade": "C",
    "inputs_pending_review": 7,
    "market": "regulated_market",
-   "missing_criteria": [
-    "prevalence_research"
-   ],
+   "missing_criteria": [],
    "name": "Virginia",
-   "pct": null,
+   "pct": 72.2,
    "points": 13,
-   "points_entered": 16,
+   "points_entered": 18,
    "profile_completeness": "full",
-   "review": null,
-   "status": "incomplete"
+   "review": "provisional",
+   "status": "complete"
   },
   {
    "abbr": "VT",
@@ -5595,33 +5573,31 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "no study on file",
      "criterion_id": "prevalence_research",
      "evidence": [],
      "inputs": {
-      "prevalence_searched": null,
+      "prevalence_searched": true,
       "prevalence_years_since_latest": null
      },
-     "label": null,
+     "label": "No study found",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     }
    ],
    "fips": "50",
-   "grade": null,
+   "grade": "C",
    "inputs_pending_review": 6,
    "market": "regulated_market",
-   "missing_criteria": [
-    "prevalence_research"
-   ],
+   "missing_criteria": [],
    "name": "Vermont",
-   "pct": null,
+   "pct": 66.7,
    "points": 12,
-   "points_entered": 16,
+   "points_entered": 18,
    "profile_completeness": "full",
-   "review": null,
-   "status": "incomplete"
+   "review": "provisional",
+   "status": "complete"
   },
   {
    "abbr": "WA",
@@ -5988,33 +5964,31 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "no study on file",
      "criterion_id": "prevalence_research",
      "evidence": [],
      "inputs": {
-      "prevalence_searched": null,
+      "prevalence_searched": true,
       "prevalence_years_since_latest": null
      },
-     "label": null,
+     "label": "No study found",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     }
    ],
    "fips": "54",
-   "grade": null,
+   "grade": "C",
    "inputs_pending_review": 6,
    "market": "regulated_market",
-   "missing_criteria": [
-    "prevalence_research"
-   ],
+   "missing_criteria": [],
    "name": "West Virginia",
-   "pct": null,
+   "pct": 61.1,
    "points": 11,
-   "points_entered": 16,
+   "points_entered": 18,
    "profile_completeness": "full",
-   "review": null,
-   "status": "incomplete"
+   "review": "provisional",
+   "status": "complete"
   },
   {
    "abbr": "WY",
@@ -6139,41 +6113,42 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "no study on file",
      "criterion_id": "prevalence_research",
      "evidence": [],
      "inputs": {
-      "prevalence_searched": null,
+      "prevalence_searched": true,
       "prevalence_years_since_latest": null
      },
-     "label": null,
+     "label": "No study found",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     }
    ],
    "fips": "56",
-   "grade": null,
+   "grade": "D",
    "inputs_pending_review": 6,
    "market": "regulated_market",
-   "missing_criteria": [
-    "prevalence_research"
-   ],
+   "missing_criteria": [],
    "name": "Wyoming",
-   "pct": null,
+   "pct": 50.0,
    "points": 9,
-   "points_entered": 16,
+   "points_entered": 18,
    "profile_completeness": "full",
-   "review": null,
-   "status": "incomplete"
+   "review": "provisional",
+   "status": "complete"
   }
  ],
  "summary": {
-  "graded": 2,
+  "graded": 13,
   "grades": {
-   "C": 2
+   "B": 1,
+   "C": 5,
+   "D": 2,
+   "F": 5
   },
-  "incomplete": 49,
+  "incomplete": 38,
   "no_regulated_market": 11,
   "states": 51
  }

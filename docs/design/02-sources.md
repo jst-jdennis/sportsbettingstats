@@ -191,7 +191,11 @@ source for this site's standards). Confidence: confirmed.
   comparable across instruments. Modeled as study records, not a series.
 - Tier: primary. Confidence: confirmed that studies exist for many
   states; which states have one is itself a tracked fact and a report card
-  criterion.
+  criterion. A web search on 2026-10-17, recorded per state under
+  `searches:` in `data/outcomes/prevalence_studies.yaml`, found at least
+  one candidate study for 31 of the 48 states without a study on file and
+  none for the other 17; several candidates are decades old (Texas 1995,
+  Wisconsin 1996, Mississippi 1997, South Dakota 1994).
 
 ### B7. Census Bureau population estimates
 

@@ -146,6 +146,14 @@ export function prevalenceSearch(fips: string): PrevalenceSearch | null {
   const all = (readYaml<{ searches?: PrevalenceSearch[] }>(p).searches ?? []).filter((s) => s.fips === fips).sort((a, b) => a.searched_on.localeCompare(b.searched_on));
   return all[all.length - 1] ?? null;
 }
+/** The latest recorded prevalence study search per state, every state that has one. */
+export function prevalenceSearches(): PrevalenceSearch[] {
+  const p = path.join(DATA, 'outcomes', 'prevalence_studies.yaml');
+  if (!fs.existsSync(p)) return [];
+  const latest = new Map<string, PrevalenceSearch>();
+  for (const s of (readYaml<{ searches?: PrevalenceSearch[] }>(p).searches ?? []).slice().sort((a, b) => a.searched_on.localeCompare(b.searched_on))) latest.set(s.fips, s);
+  return [...latest.values()];
+}
 export function bills(): Bill[] {
   const dir = path.join(DATA, 'legislation', 'bills');
   return fs.readdirSync(dir).filter((f) => f.endsWith('.yaml')).map((f) => readYaml<Bill>(path.join(dir, f)))

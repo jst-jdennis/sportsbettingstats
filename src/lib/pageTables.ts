@@ -6,7 +6,7 @@
 import fs from 'node:fs';
 import type { Provenance, StateProfile, Bill, Paper, StateGrade, GradeEvidence } from './data';
 import {
-  profiles, pgFunding, predictionMarkets, bills, papers, population, prevalenceStudies, sources, rubrics, grades,
+  profiles, pgFunding, predictionMarkets, bills, papers, population, prevalenceStudies, prevalenceSearches, sources, rubrics, grades,
   headlineStatus, HEADLINE_LABEL, scopeQualifiers, earliestLaunch, fmtDate, pct, label, OUTCOME_LABEL, effectFigures, adoptionByYear,
   bankruptcy, handleRevenue, helpline, reviewSummary, source,
 } from './data';
@@ -230,6 +230,25 @@ export function outcomesPage(): PageTables {
   for (const p of all) { const c = revenueChart(p, at(`revenue-${p.abbr.toLowerCase()}`)); if (c) { charts.revenue.push({ p, c }); tables.push(c.table); } }
   outcomesChartCache = charts;
   if (prevalenceStudies().length) tables.push(prevalenceTable(page, null, true));
+  {
+    // One row per state and candidate: what the latest dated search for a prevalence study found.
+    const studied = new Set(prevalenceStudies().map((s) => s.fips));
+    const rows: Cell[][] = [];
+    for (const p of all) {
+      const s = prevalenceSearches().find((x) => x.fips === p.fips);
+      const onFile = studied.has(p.fips);
+      if (!s && !onFile) { rows.push([L(p.name, stateHref(p)), 'not yet searched', '', '', '', '', '']); continue; }
+      const result = onFile ? 'study entered' : s!.found ? 'study found, not yet entered' : 'no study found';
+      const cands = s?.candidates?.length ? s.candidates : [null];
+      for (const c of cands) rows.push([L(p.name, stateHref(p)), result, s ? D(s.searched_on) : '', c ? L(c.title, c.url) : '', c?.year ?? '', c?.note ?? '', s?.notes ?? '']);
+    }
+    tables.push({
+      ...at('prevalence-searches'), title: 'Prevalence study searches: what the latest dated search found in each state',
+      head: ['State', 'Result', 'Searched on', 'Candidate study', 'Year', 'Candidate note', 'Search notes'],
+      rows, num: [4],
+      note: 'A state is scored "no study found" only on the strength of a dated search whose scope is recorded with it. A candidate is a study that appeared in the search and has not yet been read, archived and entered; its rates are not shown until it is. Candidate links point to the copy the search returned, which is not always the publishing agency\'s own.',
+    });
+  }
   for (const name of ['handle_revenue', 'bankruptcy', 'helpline']) {
     const s = JSON.parse(fs.readFileSync(`schemas/${name}.tableschema.json`, 'utf8'));
     tables.push({ ...at(`schema-${name.replace(/_/g, '-')}`), title: `Schema of data/outcomes/${name}.csv`, head: ['Field', 'Type', 'Constraints'], rows: s.fields.map((f: any) => [f.name, f.type, f.constraints ? Object.entries(f.constraints).map(([k, v]) => `${k}: ${Array.isArray(v) ? v.join(' | ') : v}`).join('; ') : '']), note: s.description ?? null });
