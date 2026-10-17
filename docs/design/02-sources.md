@@ -94,6 +94,27 @@ source for this site's standards). Confidence: confirmed.
     of guessing.
 - Tier: primary. Confidence: confirmed for the states named; likely for
   the remainder.
+- Report pages confirmed on 2026-10-17 for the Phase 6 states (the
+  module for each state records the file layout it was written against):
+  - Pennsylvania: Gaming Control Board revenue pages by fiscal year
+    (`gamingcontrolboard.pa.gov/news-and-transparency/revenue/sports-wagering-fy-YYYYYYYY`),
+    each with a monthly sports wagering summary in xlsx and pdf.
+  - New York: Gaming Commission monthly and weekly statewide mobile
+    sports wagering reports (`gaming.ny.gov/system/files/documents/<year>/<month>/monthly-mobile-sports-wagering-report-statewide.pdf`),
+    reporting handle and gross gaming revenue on a cash basis by month
+    of the April to March fiscal year.
+  - Michigan: Gaming Control Board internet sports betting and retail
+    sports betting revenue tables, linked from the monthly press release.
+  - Kansas: Lottery publications page, "Sports Wagering Monthly Revenues"
+    PDF (`kslottery.com/publications/sports-monthly-revenues/`).
+  - Ohio: Casino Control Commission revenue reports page, one xlsx per
+    year and one pdf per month (`casinocontrol.ohio.gov/about/revenue-reports/04-revenue-reports`),
+    gross receipts, winnings paid, voided wagers and promotional credits
+    by proprietor, online and retail.
+  - Illinois: Gaming Board sports wagering reports page
+    (`igb.illinois.gov/sports-wagering/sports-reports.html`), monthly pdf
+    and csv by licensee; figures are due the last day of the following
+    month, so the series lags two months.
 
 ### B2. US Courts, Bankruptcy Filings Statistics (Table F-2 and F-5A)
 
