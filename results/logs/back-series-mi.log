@@ -1,0 +1,2 @@
+skip https://www.michigan.gov/mgcb/detroit-casinos/resources/revenues-and-wagering-tax-information: HTTPError: 403 Client Error: Forbidden for url: https://www.michigan.gov/mgcb/detroit-casinos/resources/revenues-and-wagering-tax-information
+no document could be fetched and parsed for mi-mgcb-sports-betting-monthly: 403 Client Error: Forbidden for url: https://www.michigan.gov/mgcb/detroit-casinos/resources/revenues-and-wagering-tax-information
