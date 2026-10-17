@@ -1,5 +1,5 @@
 {
- "data_fingerprint": "7b8be0eafa42fdbc082bdb6b763266fa390223759c174203a89464283dc22cb3",
+ "data_fingerprint": "f8b14410db922af2d884b57cbb2d86288e18696315320756bfdd6a244bcb2d0e",
  "derived_inputs": {
   "advertising_rule_count": "Number of rows in consumer_protections.advertising; null when the list is absent.",
   "advertising_substantive_count": "Rows in consumer_protections.advertising whose rule_type is not responsible_gambling_message_required.",
