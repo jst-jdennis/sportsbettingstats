@@ -298,15 +298,18 @@ searches:
       url: https://npr.brightspotcdn.com/a8/e9/fa8e258d4228832686d87ec5b64b/2026-arizona-dpg-summary-of-suvey-findings-report-final.pdf
       note: 'Copy hosted by a public radio station; the Division''s own page for the report was not in the results and should
         be cited once found. Headline figures reported by the Division: 84 percent past-year participation, 18 percent with
-        at least one indicator of harm, about 4 percent meeting clinical criteria; a three-year follow-up to the FY2022-23 study.'
+        at least one indicator of harm, about 4 percent meeting clinical criteria; a three-year follow-up to the FY2022-23 study.
+        Archive check 2026-10-17: resolved, PDF 44 pages, sha256 9dc0b6a3214c.'
     - title: 'Arizona Department of Gaming prevalence study (earlier edition, undated in the excerpt: 69 percent past-year participation)'
       year: null
       url: https://nextstep.az.gov/sites/default/files/prevalencestudy.pdf
-      note: On the Department's own domain; year to be read from the document.
+      note: 'On the Department''s own domain; year to be read from the document. Archive check 2026-10-17: HTTP 403 Forbidden
+        to the runner after a redirect to problemgambling.az.gov; the document is unconfirmed at this URL.'
     - title: 'Gambling and problem gambling in Arizona: report to the Arizona Lottery (Volberg, 2003)'
       year: 2003
       url: https://prism.ucalgary.ca/handle/1880/48467
-      note: University of Calgary repository copy of the first statewide study.
+      note: 'University of Calgary repository copy of the first statewide study. Archive check 2026-10-17: resolved, web page,
+        redirected to https://ucalgary.scholaris.ca/items/631f914f-c6c4-444a-9d8c-34c929614b82, sha256 a6003dd60992.'
   - fips: '05'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -334,13 +337,15 @@ searches:
         2005 to 2006)
       year: 2006
       url: https://prism.ucalgary.ca/items/e58fe0cf-5d69-48a3-8ad3-d1d631b31676
-      note: University of Calgary repository copy; the Office's own copy was not in the results.
+      note: 'University of Calgary repository copy; the Office''s own copy was not in the results. Archive check 2026-10-17:
+        resolved, web page, redirected to https://ucalgary.scholaris.ca/items/e58fe0cf-5d69-48a3-8ad3-d1d631b31676, sha256 548db3cb5b07.'
     - title: Gambling and associated health risks in California, 2023 California Health Interview Survey gambling module (UCLA
         Center for Health Policy Research fact sheet, 2024)
       year: 2024
       url: https://healthpolicy.ucla.edu/sites/default/files/2024-09/gambling-and-associated-health-risks-california-fact-sheet-2024.pdf
-      note: State-funded population health survey with a gambling module, not a dedicated prevalence survey; a state audit found
-        the Office lacks current prevalence data.
+      note: 'State-funded population health survey with a gambling module, not a dedicated prevalence survey; a state audit
+        found the Office lacks current prevalence data. Archive check 2026-10-17: resolved, PDF 9 pages, sha256 b66b398ec572.
+        Wayback https://web.archive.org/web/20261017195746/https://healthpolicy.ucla.edu/sites/default/files/2024-09/gambling-and-associated-health-risks-california-fact-sheet-2024.pdf'
   - fips: 08
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -355,8 +360,9 @@ searches:
         1997)'
       year: 1997
       url: https://sbg.colorado.gov/sites/sbg/files/Problem_Gambling_prevalence_study.pdf
-      note: Hosted by the Division of Gaming. A UNLV survey of 500 residents commissioned in 2026 has interim results in trade
-        press only; final findings expected 2027.
+      note: 'Hosted by the Division of Gaming. A UNLV survey of 500 residents commissioned in 2026 has interim results in trade
+        press only; final findings expected 2027. Archive check 2026-10-17: HTTP 404 Not Found; the document is unconfirmed
+        at this URL.'
   - fips: 09
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -371,8 +377,9 @@ searches:
         Services; presentation with UMass SEIGMA)
       year: 2024
       url: https://www.umass.edu/seigma/media/445/download
-      note: Slide deck copy; the DMHAS report itself to be located on portal.ct.gov. Reported problem gambling 1.8 percent,
-        at risk 4.9 percent; sources disagree on the sample size (5,239 or more than 8,000).
+      note: 'Slide deck copy; the DMHAS report itself to be located on portal.ct.gov. Reported problem gambling 1.8 percent,
+        at risk 4.9 percent; sources disagree on the sample size (5,239 or more than 8,000). Archive check 2026-10-17: resolved,
+        PDF 19 pages, sha256 0d58ae669b69.'
   - fips: '10'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -387,7 +394,9 @@ searches:
         of Alcoholism, Drug Abuse and Mental Health, 1998)
       year: 1998
       url: https://prism.ucalgary.ca/items/b7d5e4ca-9e95-400b-9514-c326340aa077/full
-      note: A 2002 replication (2,638 interviews) is cited in a Maryland fiscal note; no Delaware survey after 2002 was returned.
+      note: 'A 2002 replication (2,638 interviews) is cited in a Maryland fiscal note; no Delaware survey after 2002 was returned.
+        Archive check 2026-10-17: resolved, web page, redirected to https://ucalgary.scholaris.ca/items/b7d5e4ca-9e95-400b-9514-c326340aa077/full,
+        sha256 48e82fc6fc90.'
   - fips: '11'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -416,7 +425,8 @@ searches:
         for the Florida Council on Compulsive Gambling, 2011)
       year: 2011
       url: https://gamblinghelp.org/assets/research_pdfs/Gambling_and_Problem_Gambling_Prevalence_Among_Adults_in_Florida_August_10_2011.pdf
-      note: Council-funded replication of the 2002 University of Florida baseline; no later statewide adult survey was returned.
+      note: 'Council-funded replication of the 2002 University of Florida baseline; no later statewide adult survey was returned.
+        Archive check 2026-10-17: resolved, PDF 127 pages, sha256 6d1880401055.'
   - fips: '13'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -431,12 +441,14 @@ searches:
         of adults assessed with a gambling problem)
       year: null
       url: https://dbhdd.georgia.gov/sites/dbhdd.georgia.gov/files/imported/DBHDD/AD/Gambling/PG_in_GA_09_11.pdf
-      note: File name suggests 2009 to 2011; the survey year is to be read from the document.
+      note: 'File name suggests 2009 to 2011; the survey year is to be read from the document. Archive check 2026-10-17: HTTP
+        403 Forbidden to the runner; the document is unconfirmed at this URL.'
     - title: Gambling and Problem Gambling in Georgia (Georgia State University survey of 1,602 residents, 2007; third in a
         series after 1994 and 2000)
       year: 2007
       url: https://prism.ucalgary.ca/items/7d51b89f-8140-4c75-8c2c-2ade0494d073/full
-      note: University of Calgary repository copy.
+      note: 'University of Calgary repository copy. Archive check 2026-10-17: resolved, web page, redirected to https://ucalgary.scholaris.ca/items/7d51b89f-8140-4c75-8c2c-2ade0494d073/full,
+        sha256 cedb7749de4d.'
   - fips: '15'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -477,7 +489,9 @@ searches:
     - title: Illinois statewide gambling assessment (IDHS, Health Resources in Action), 2022
       year: 2022
       url: https://illinois.gov/news/press-release.22378.html
-      note: IDHS press release reporting 3.8 percent of adults with a gambling problem; report PDF not located in results.
+      note: 'IDHS press release reporting 3.8 percent of adults with a gambling problem; report PDF not located in results.
+        Archive check 2026-10-17: resolved, web page, redirected to https://www.illinois.gov/news/release.html?releaseid=22378,
+        sha256 d4fc78fec6e8.'
     notes: Report PDF still not located; IDHS press release 22378 (2022-06-16) remains the citation.
   - fips: '18'
     searched_on: '2026-10-17'
@@ -492,12 +506,15 @@ searches:
     - title: Adult Gambling Behaviors in Indiana 2021 (Prevention Insights, Indiana University)
       year: 2021
       url: https://ipgap.indiana.edu/documents/2021_adult_gambling_behaviors_in_indiana.pdf
+      note: 'Archive check 2026-10-17: resolved, PDF 43 pages, sha256 bcc4512890fd.'
     - title: Adult Gambling Behaviors in Indiana 2022 results
       year: 2022
       url: https://data.prevention.iu.edu/agbi/
+      note: 'Archive check 2026-10-17: resolved, web page, sha256 24479a152773.'
     - title: Indiana 2024 adult gambling survey (online sports betting findings)
       year: 2024
       url: https://ipgap.indiana.edu/news-ipgap/2025-online-sports-betting.html
+      note: 'Archive check 2026-10-17: HTTP 404 Not Found; the document is unconfirmed at this URL.'
   - fips: '19'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -510,9 +527,11 @@ searches:
     - title: 'Gambling Attitudes and Behaviors: A 2013 Survey of Adult Iowans (IDPH)'
       year: 2013
       url: https://publications.iowa.gov/31773/1/2013_adult_iowans_survey.pdf
-    - title: 'Gambling Attitudes and Behaviors: A 2021 Survey of Adult Iowans'
+      note: 'Archive check 2026-10-17: resolved, PDF 285 pages, sha256 efff5d2daec7. Wayback https://web.archive.org/web/20261017200259/https://publications.iowa.gov/31773/1/2013_adult_iowans_survey.pdf'
+    - title: '2021 Iowa Health Wellbeing: Use of Substances and Gambling Survey (Iowa Publications Online, May 2022)'
       year: 2021
       url: https://publications.iowa.gov/43316
+      note: 'Archive check 2026-10-17: resolved, web page, redirected to https://publications.iowa.gov/43316/, sha256 bd1b59e87c6f.'
     notes: Series also includes 2015 and 2018 editions per results.
   - fips: '21'
     searched_on: '2026-10-17'
@@ -527,9 +546,12 @@ searches:
     - title: Kentucky gambling prevalence survey (KYCPG / UK Survey Research Center)
       year: 2008
       url: https://prism.ucalgary.ca/handle/1880/49228
+      note: 'Archive check 2026-10-17: resolved, web page, redirected to https://ucalgary.scholaris.ca/items/8af17269-f146-4a35-84a3-44980c12268b,
+        sha256 67226d41ebb7.'
     - title: KYCPG prevalence page
       year: 2008
       url: https://www.kycpg.org/?p=27
+      note: 'Archive check 2026-10-17: HTTP 404 Not Found; the document is unconfirmed at this URL.'
   - fips: '22'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -543,9 +565,11 @@ searches:
     - title: Louisiana Study on Problem Gambling (LDH, Picard Center)
       year: 2016
       url: https://ldh.la.gov/assets/docs/BehavioralHealth/LA_Study_Gambling.pdf
+      note: 'Archive check 2026-10-17: resolved, PDF 282 pages, sha256 c17949249e86.'
     - title: 2008 Louisiana Study on Problem Gambling
       year: 2008
       url: https://ldh.la.gov/assets/docs/BehavioralHealth/publications/2008gamblingstudy.pdf
+      note: 'Archive check 2026-10-17: resolved, PDF 252 pages, sha256 91cb705ab937.'
     notes: A 1998 study is also catalogued at prism.ucalgary.ca.
   - fips: '23'
     searched_on: '2026-10-17'
@@ -570,9 +594,11 @@ searches:
     - title: Maryland gambling prevalence study 2022 (Maryland Center of Excellence on Problem Gambling)
       year: 2022
       url: https://www.mdproblemgambling.com/wp-content/uploads/2023/10/Prevalence-Study-2022.pdf
+      note: 'Archive check 2026-10-17: resolved, PDF 73 pages, sha256 c9d4cface97a.'
     - title: 2024 Maryland Gambling Report
       year: 2024
       url: https://www.mdproblemgambling.com/wp-content/uploads/2025/09/2024-MD-Gambling-Report.pdf
+      note: 'Archive check 2026-10-17: resolved, PDF 80 pages, sha256 45bc17d2aed6.'
   - fips: '25'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -586,10 +612,13 @@ searches:
     - title: 'Gambling and Problem Gambling in Massachusetts: Results of a Baseline Population Survey (SEIGMA)'
       year: 2017
       url: https://massgaming.com/wp-content/uploads/Gambling-and-Problem-Gambling-in-Massachusetts-Results-of-a-Baseline-Pop....pdf
-      note: Baseline survey 2013-14, revised 2017; URL as shown in results (truncated filename).
+      note: 'Baseline survey 2013-14, revised 2017; URL as shown in results (truncated filename). Archive check 2026-10-17:
+        this URL resolves to SEIGMA fact sheet 06 on gambling attitudes (June 2018, 3 pages), not the baseline report; the report''s
+        own URL is still to be located.'
     - title: SEIGMA Follow-up General Population Survey gambling behavior snapshot (draft)
       year: 2024
       url: https://www.umass.edu/seigma/sites/default/files/FGPS%20Gambling%20Behavior%20Snapshot%20DRAFT%20January%203%202024.pdf
+      note: 'Archive check 2026-10-17: HTTP 404 Not Found; the document is unconfirmed at this URL.'
   - fips: '26'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -603,9 +632,13 @@ searches:
     - title: 2006 Survey of Gambling Behaviors in Michigan (MDCH)
       year: 2006
       url: https://www.michigan.gov/documents/mdch/2006_Survey_of_Gambling_Behaviors_in_MI_report_181572_7.pdf
+      note: 'Archive check 2026-10-17: resolved, PDF 46 pages, redirected to https://www.michigan.gov/-/media/Project/Websites/mdhhs/Folder1/Folder61/2006_Survey_of_Gambling_Behaviors_in_MI_report.pdf?rev=1c1e24eefb0f4cfd95ae0b9f6b287ec1,
+        sha256 a38660820f24.'
     - title: Gambling Behaviors in Michigan 2013 (MDCH)
       year: 2013
       url: https://www.michigan.gov/documents/mdch/gamblingreport2013_458725_7.pdf
+      note: 'Archive check 2026-10-17: resolved, PDF 54 pages, redirected to https://www.michigan.gov/-/media/Project/Websites/mdhhs/Folder1/Folder85/gamblingreport2013.pdf?rev=f6ae82a335de42f09bc01f8b79358d6e,
+        sha256 65e0b9e9273f.'
   - fips: '27'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -619,10 +652,12 @@ searches:
     - title: 'Gambling in Minnesota: a study of participation, attitudes and effects (DHS / Wilder Research), spring 2019 survey'
       year: 2020
       url: https://mn.gov/dhs/people-we-serve/adults/services/gambling-problems/resources/gambling-survey.jsp
+      note: 'Archive check 2026-10-17: the page returned a bot check (Radware captcha) to the runner, so the document is unconfirmed.'
     - title: Wilder Research report page
       year: 2020
       url: https://wilder.org/node/5872
-      note: Results cite 1.3 percent problem gambling.
+      note: 'Results cite 1.3 percent problem gambling. Archive check 2026-10-17: HTTP 404 Not Found; the document is unconfirmed
+        at this URL.'
   - fips: '28'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -636,6 +671,8 @@ searches:
     - title: Gambling and Problem Gambling in Mississippi (Volberg, for Mississippi Council on Problem and Compulsive Gambling)
       year: 1997
       url: https://prism.ucalgary.ca/items/6b81ae6c-a51f-428d-941f-607d004a7d1c/full
+      note: 'Archive check 2026-10-17: resolved, web page, redirected to https://ucalgary.scholaris.ca/items/6b81ae6c-a51f-428d-941f-607d004a7d1c/full,
+        sha256 a8b5663ed784.'
     notes: No later statewide adult study appeared in results.
   - fips: '29'
     searched_on: '2026-10-17'
@@ -650,11 +687,13 @@ searches:
     - title: 2022 Missouri Gambling Prevalence Study (Spare, Harwell, Mills, Lee and Lewis, 2023)
       year: 2023
       url: https://888betsoff.org/resources/publications/2022MOGamblingPrevalenceStudy.pdf
-      note: About 3,259 adults; 4.1 percent met gambling disorder criteria, 20.8 percent at risk.
+      note: 'About 3,259 adults; 4.1 percent met gambling disorder criteria, 20.8 percent at risk. Archive check 2026-10-17:
+        resolved, PDF 45 pages, sha256 db50680840dc.'
     - title: 'Missouri DMH behavioral health brief: Gambling in Missouri (January 2026)'
       year: 2026
       url: https://dmh.mo.gov/sites/dmh/files/media/pdf/2026/01/mobhewbrief202601-gambling-in-missouri.pdf
-      note: State brief citing the 2022 study figures.
+      note: 'State brief citing the 2022 study figures. Archive check 2026-10-17: HTTP 404 Not Found; the document is unconfirmed
+        at this URL.'
   - fips: '30'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -668,8 +707,8 @@ searches:
     - title: Montana Gambling Study Commission report (1998 statewide household survey, University of Montana)
       year: 1998
       url: https://www.stoppredatorygambling.org/wp-content/uploads/2012/12/Montana-Gambling-Study-Commission-Report-6.pdf
-      note: 1,227 completions; past year probable pathological gamblers about 1.6 percent of 1997 adults. Hosted copy on an
-        advocacy site; original state host not located.
+      note: '1,227 completions; past year probable pathological gamblers about 1.6 percent of 1997 adults. Hosted copy on an
+        advocacy site; original state host not located. Archive check 2026-10-17: resolved, PDF 6 pages, sha256 5a0fcbbabde6.'
     notes: 'Montana DOJ problem gambling page cites only a 2013 national survey estimate (2.2 percent) for Montana: https://dojmt.gov/gaming/compulsive-gambling/.
       No newer Montana-specific adult survey appeared.'
   - fips: '31'
@@ -698,10 +737,12 @@ searches:
     - title: Gambling Behaviors, Perceptions and Risks Among Nevada Adults (UNLV International Gaming Institute for DPBH)
       year: 2025
       url: https://www.dpbh.nv.gov/siteassets/programs/bbhwp/board-materials/acpg-materials/gambling-behaviors-perceptions-and-risks-among-nevada-adults.pdf
-      note: 1,078 adults, PGSI; dated November 1, 2025.
+      note: '1,078 adults, PGSI; dated November 1, 2025. Archive check 2026-10-17: resolved, PDF 41 pages, sha256 e15a7ce29640.'
     - title: 'Gambling and problem gambling in Nevada: report to the Nevada Department of Human Resources (Volberg)'
       year: 2002
       url: https://prism.ucalgary.ca/handle/1880/49238
+      note: 'Archive check 2026-10-17: resolved, web page, redirected to https://ucalgary.scholaris.ca/items/56af792f-f59d-40f7-8934-7b9f08f4e780,
+        sha256 de0cc2cda5d7.'
   - fips: '33'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -727,11 +768,14 @@ searches:
     - title: Gambling and problem gambling in New Mexico (Volberg and Bernhard, Gemini Research)
       year: 2006
       url: https://prism.ucalgary.ca/handle/1880/44211
+      note: 'Archive check 2026-10-17: resolved, web page, redirected to https://ucalgary.scholaris.ca/items/a52362d4-2012-4f3a-8542-29cf38dd6713,
+        sha256 9011981b679e.'
     - title: 'Problem Gambling in New Mexico: a study of at-risk youth and adults (PIRE, for Responsible Gaming Association
         of New Mexico)'
       year: 2020
       url: https://chapelhill.pire.org/project/problem-gambling-in-new-mexico-a-study-of-at-risk-youth-and-adults/
-      note: Project page; published results not located in results.
+      note: 'Project page; published results not located in results. Archive check 2026-10-17: HTTP 403 Forbidden to the runner;
+        the document is unconfirmed at this URL.'
   - fips: '36'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -745,10 +789,12 @@ searches:
     - title: 2020 New York State Problem Gambling Prevalence Survey (OASAS with RTI International)
       year: 2020
       url: https://oasas.ny.gov/system/files/documents/2024/03/oasas_gambling_survey_2020.pdf
-      note: 3,823 complete responses; 0.7 percent problem or pathological, 4.4 percent at risk.
+      note: '3,823 complete responses; 0.7 percent problem or pathological, 4.4 percent at risk. Archive check 2026-10-17: resolved,
+        PDF 4 pages, sha256 aee8253d051e. Wayback https://web.archive.org/web/20260514124539/https://oasas.ny.gov/system/files/documents/2024/03/oasas_gambling_survey_2020.pdf'
     - title: Gambling in New York State (OASAS household survey)
       year: 2006
       url: https://coap.gaming.ny.gov/gaming/20140409forum/Other Materials/OASAS, Gambling in New York State (2006).pdf
+      note: 'Archive check 2026-10-17: HTTP 404 Not Found; the document is unconfirmed at this URL.'
     notes: 'A ten year statewide assessment effort was announced April 2026: https://www.governor.ny.gov/news/governor-hochul-announces-launch-new-10-year-statewide-effort-assess-gambling-addiction-and'
   - fips: '37'
     searched_on: '2026-10-17'
@@ -764,11 +810,13 @@ searches:
     - title: North Carolina BRFSS gambling module, problem gambling status, statewide 2020
       year: 2020
       url: https://schs.dph.ncdhhs.gov/data/brfss/2020/region8/gambstat.html
-      note: 'BRFSS population survey item, not a dedicated study: 5.5 percent problem gambling statewide (n 4,485).'
+      note: 'BRFSS population survey item, not a dedicated study: 5.5 percent problem gambling statewide (n 4,485). Archive
+        check 2026-10-17: HTTP 403 Forbidden to the runner; the document is unconfirmed at this URL.'
     - title: North Carolina BRFSS gambling module, problem gambling status, statewide 2023
       year: 2023
       url: https://schs.dph.ncdhhs.gov/data/brfss/2023/region7/gambstat.html
-      note: 5.0 percent (n 3,010).
+      note: '5.0 percent (n 3,010). Archive check 2026-10-17: HTTP 403 Forbidden to the runner; the document is unconfirmed
+        at this URL.'
     notes: Revised after a second query. The NC Problem Gambling Program administrator cites the BRFSS 5.5 percent estimate
       (WUNC, 2024-02-23).
   - fips: '38'
@@ -784,10 +832,12 @@ searches:
     - title: 'Gambling and Problem Gambling in North Dakota: 2024 (Gemini Research for NDHHS)'
       year: 2025
       url: https://www.hhs.nd.gov/sites/www/files/documents/BH/Data/ND%20Gambling%20Prevalence%20Survey%20Final%20Report.pdf
-      note: 3,030 respondents; problem gambler 1.42 percent weighted.
+      note: '3,030 respondents; problem gambler 1.42 percent weighted. Archive check 2026-10-17: HTTP 404 Not Found; the document
+        is unconfirmed at this URL.'
     - title: ND Gambling Prevalence Survey research snapshot
       year: 2025
       url: https://www.hhs.nd.gov/sites/www/files/documents/BH/Data/ND%20Gambling%20Prevalence%20Survey%20Research%20Snapshot.pdf
+      note: 'Archive check 2026-10-17: HTTP 404 Not Found; the document is unconfirmed at this URL.'
   - fips: '39'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -801,13 +851,18 @@ searches:
       year: 2023
       url: https://dam.assets.ohio.gov/image/upload/casinocontrol.ohio.gov/responsible-gambling/Reports/2022 Ohio Gambling Survey
         Highlights 10.18.23 v2 (2).pdf
-      note: 14,569 adults; 2.8 percent meet gambling disorder criteria.
+      note: '14,569 adults; 2.8 percent meet gambling disorder criteria. Archive check 2026-10-17: resolved, PDF 2 pages, redirected
+        to https://dam.assets.ohio.gov/image/upload/casinocontrol.ohio.gov/responsible-gambling/Reports/2022%20Ohio%20Gambling%20Survey%20Highlights%2010.18.23%20v2%20(2).pdf,
+        sha256 60f95341891b.'
     - title: Ohio Gambling Survey (Ohio State CHRR series page)
       year: 2022
       url: https://www.chrr.ohio-state.edu/gamblingsurvey/
+      note: 'Archive check 2026-10-17: resolved, web page, sha256 e33fc0a9fcc8.'
     - title: 2012 Survey of At-Risk and Problem Gambling Prevalence Among Ohioans
       year: 2012
       url: https://prism.ucalgary.ca/handle/1880/50350
+      note: 'Archive check 2026-10-17: resolved, web page, redirected to https://ucalgary.scholaris.ca/items/b70d3a0e-14a6-43da-8f16-581117b2f882,
+        sha256 753bd19f25a6.'
   - fips: '41'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -821,13 +876,19 @@ searches:
     - title: Gambling in Oregon, 2023 BRFSS research brief (OHA)
       year: 2023
       url: https://www.oregon.gov/oha/HSD/Problem-Gambling/Documents/Gambling in Oregon%2C 2023 BRFSS Research Brief.pdf
-      note: BRFSS module with BBGS; 3.5 percent of past-year gamblers at risk.
+      note: 'BRFSS module with BBGS; 3.5 percent of past-year gamblers at risk. Archive check 2026-10-17: resolved, PDF 5 pages,
+        redirected to https://www.oregon.gov/oha/HSD/Problem-Gambling/Documents/Gambling%20in%20Oregon%2C%202023%20BRFSS%20Research%20Brief.pdf,
+        sha256 9610c78141d1.'
     - title: 'Gambling and problem gambling in Oregon: report to the Oregon Gambling Addiction Treatment Foundation'
       year: 1997
       url: https://prism.ucalgary.ca/handle/1880/49243
+      note: 'Archive check 2026-10-17: resolved, web page, redirected to https://ucalgary.scholaris.ca/items/146ed849-c155-438b-9da2-9a66fdd642df,
+        sha256 a619b158e1f9.'
     - title: OHA problem gambling data and research page
       year: 2025
       url: https://www.oregon.gov/oha/HSD/Problem-Gambling/Pages/Data.aspx
+      note: 'Archive check 2026-10-17: resolved, web page, redirected to https://www.oregon.gov/oha/BH/Providers/Pages/PG-Data.aspx,
+        sha256 5286a2f46716.'
   - fips: '42'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -841,9 +902,11 @@ searches:
     - title: 2023 Online Gambling Report (Penn State for DDAP)
       year: 2023
       url: https://www.ddap.pa.gov/Documents/Agency%20Publications/2023%20Online%20Gambling%20Report.pdf
+      note: 'Archive check 2026-10-17: redirected to the pa.gov search page; the PDF has moved and is still to be located.'
     - title: 'Penn State SSRI: 2025 assessment (first general population problem gambling estimate, 2.5 to 6.4 percent)'
       year: 2026
       url: https://www.psu.edu/news/social-science-research-institute/story/online-gambling-participation-increased-pennsylvania-2025
+      note: 'Archive check 2026-10-17: resolved, web page, sha256 36b370a9ea77.'
   - fips: '44'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -881,11 +944,13 @@ searches:
     - title: Gambling and Problem Gambling in South Dakota (University of South Dakota Business Research Bureau)
       year: 1991
       url: https://prism.ucalgary.ca/handle/1880/47803?mode=full
-      note: 1,560 adults, SOGS.
+      note: '1,560 adults, SOGS. Archive check 2026-10-17: resolved, web page, redirected to https://ucalgary.scholaris.ca/items/5eb3a6bc-84cf-410d-b2ad-8353856515ff,
+        sha256 eb6dd7239078.'
     - title: 'Gambling and problem gambling in South Dakota: a follow-up survey'
       year: 1994
       url: https://prism.ucalgary.ca/handle/1880/451
-      note: 1,767 adults.
+      note: '1,767 adults. Archive check 2026-10-17: resolved, web page, redirected to https://ucalgary.scholaris.ca/items/45741594-180e-48b6-a187-bf24342ed3e9,
+        sha256 28fd41805ba5.'
     notes: No newer South Dakota statewide survey appeared; the NCPG 1.4 percent figure cited in press is unsourced.
   - fips: '47'
     searched_on: '2026-10-17'
@@ -912,10 +977,13 @@ searches:
     - title: 1992 Texas Survey of Adult Gambling Behavior (Texas Commission on Alcohol and Drug Abuse)
       year: 1992
       url: https://prism.ucalgary.ca/handle/1880/49251
-      note: 6,308 adults.
+      note: '6,308 adults. Archive check 2026-10-17: resolved, web page, redirected to https://ucalgary.scholaris.ca/items/5803fa78-3ab6-46c7-80ec-8bd36595fcd8,
+        sha256 62907453ff1a.'
     - title: 'Gambling in Texas: 1995 Surveys of Adult and Adolescent Gambling Behavior (TCADA)'
       year: 1995
       url: https://prism.ucalgary.ca/handle/1880/49250
+      note: 'Archive check 2026-10-17: resolved, web page, redirected to https://ucalgary.scholaris.ca/items/2adef3f2-76c8-449a-b2a9-5efaac1992a6,
+        sha256 170f793ddb62.'
     notes: Nothing after 1995 appeared.
   - fips: '49'
     searched_on: '2026-10-17'
@@ -965,13 +1033,16 @@ searches:
     - title: Washington State Adult Problem Gambling Prevalence Study (HCA, WSU SESRC Data Report 21-025)
       year: 2021
       url: https://www.hca.wa.gov/assets/program/wa-state-adult-problem-gambling-prevalence-study.pdf
-      note: 9,413 respondents; 1.4 percent of adults classified as problem gamblers per WSIPP.
+      note: '9,413 respondents; 1.4 percent of adults classified as problem gamblers per WSIPP. Archive check 2026-10-17: resolved,
+        PDF 174 pages, sha256 7237937c3d63.'
     - title: 'WSIPP: Findings from the 2021 Survey of Health and Recreation in Washington State, gambling behaviors and prevalence'
       year: 2022
       url: https://wsipp.wa.gov/ReportFile/1750/Wsipp_Findings-From-the-2021-Survey-of-Health-and-Recreation-in-Washington-State-Gambling-Behaviors-and-Prevalence_Report.pdf
+      note: 'Archive check 2026-10-17: resolved, PDF 28 pages, sha256 e8c761d3f71f. Wayback https://web.archive.org/web/20261017201430/https://wsipp.wa.gov/ReportFile/1750/Wsipp_Findings-From-the-2021-Survey-of-Health-and-Recreation-in-Washington-State-Gambling-Behaviors-and-Prevalence_Report.pdf'
     - title: HCA legislative report on the problem gambling prevalence study
       year: 2022
       url: https://www.hca.wa.gov/assets/program/leg-report-problem-gambling-prevalence-study-20221007.pdf
+      note: 'Archive check 2026-10-17: HTTP 404 Not Found; the document is unconfirmed at this URL.'
   - fips: '54'
     searched_on: '2026-10-17'
     searched_by: claude-session-2026-10-17 (web search)
@@ -997,7 +1068,8 @@ searches:
     - title: The social costs of gambling in Wisconsin (Thompson, Gazel and Rickman, Wisconsin Policy Research Institute)
       year: 1996
       url: https://prism.ucalgary.ca/handle/1880/49232
-      note: Random sample of 1,000 adults; 0.90 percent serious problem gamblers.
+      note: 'Random sample of 1,000 adults; 0.90 percent serious problem gamblers. Archive check 2026-10-17: resolved, web page,
+        redirected to https://ucalgary.scholaris.ca/items/1b653242-831a-44c8-9640-376b7036641f, sha256 aec9701a6fe5.'
     notes: No newer Wisconsin statewide survey appeared; the council's 333,000 figure is a national extrapolation per PolitiFact.
   - fips: '56'
     searched_on: '2026-10-17'
