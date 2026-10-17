@@ -82,7 +82,8 @@ class PAPGCBSportsWagering:
         docs: list[Document] = []
         for fy in fys:
             for pat in FY_PAGES:
-                docs.append(Document(url=pat.format(a=fy, b=fy + 1), period=period, kind="html", label=f"PGCB sports wagering revenue page, fiscal year {fy}/{fy + 1}", meta=(("fy", fy),)))
+                # measure lets the CLI stop at the first page per fiscal year that yields a parsed workbook
+                docs.append(Document(url=pat.format(a=fy, b=fy + 1), period=period, kind="html", label=f"PGCB sports wagering revenue page, fiscal year {fy}/{fy + 1}", meta=(("fy", fy), ("measure", f"fy{fy}"))))
         return docs
 
     def resolve(self, doc: Document, html: str) -> list[Document]:
@@ -95,7 +96,7 @@ class PAPGCBSportsWagering:
                 cands.append(href if href.startswith("http") else "https://gamingcontrolboard.pa.gov" + href)
         if not cands:
             raise LayoutChanged(f"No sports wagering xlsx link on {doc.url}")
-        return [Document(url=cands[0], period=doc.period, kind="xlsx", label=f"PGCB monthly sports wagering report summary, fiscal year {fy}/{fy + 1}", meta=(("fy", fy),))]
+        return [Document(url=cands[0], period=doc.period, kind="xlsx", label=f"PGCB monthly sports wagering report summary, fiscal year {fy}/{fy + 1}", meta=(("fy", fy), ("measure", f"fy{fy}")))]
 
     def parse(self, raw: RawDocument) -> list[dict[str, Any]]:
         wb = openpyxl.load_workbook(raw.path, data_only=True, read_only=False)
@@ -120,8 +121,8 @@ class PAPGCBSportsWagering:
                     month_cols.append((c, int(m.group(2)), MONTHS[m.group(1)]))
                 elif "total" in v.lower():
                     total_col = c
-        if len(month_cols) != 12:
-            raise LayoutChanged(f"{raw.path.name}: expected 12 month columns, found {len(month_cols)}: {[v for v in rows[hdr_i] if v]}")
+        if not 6 <= len(month_cols) <= 12:  # the first fiscal year, 2018/19, runs from November
+            raise LayoutChanged(f"{raw.path.name}: expected 6 to 12 month columns, found {len(month_cols)}: {[v for v in rows[hdr_i] if v]}")
         gt = next((i for i, r in enumerate(rows) if _norm(r[0]) == "grand total"), None)
         if gt is None:
             raise LayoutChanged(f"{raw.path.name}: no GRAND TOTAL row; last labels: {[r[0] for r in rows[-30:] if r[0]]}")
@@ -181,13 +182,17 @@ class PAPGCBSportsWagering:
             p = Period.month(rec["year"], rec["month"])
             for ch, b in (("retail", "retail"), ("online", "online"), ("all", "total")):
                 v = rec[b]
-                gross = v.get("revenue") if v.get("revenue") is not None else v.get("taxable")
+                # Early fiscal years print a zero Revenue row while taxable revenue is positive: revenue before
+                # promotional credits was not reported then, so it is left empty rather than recorded as zero.
+                rev = v.get("revenue")
+                unreported = rev is not None and rev == 0 and (v.get("taxable") or 0) != 0
+                gross = None if unreported else (rev if rev is not None else v.get("taxable"))
                 prov = provenance.block(SOURCE_ID, raw, method="xlsx", entered_by="wpdc_ingest.pa_pgcb_sports_wagering",
                                         page_or_table=f"sheet {sheet!r}, GRAND TOTAL block, {b.capitalize()} Sports Wagering rows, column {p.start:%B %Y}",
                                         notes="Retail has no promotional credit row in the report, so retail gross revenue equals its taxable revenue; the 2 percent local share assessment is omitted from state tax" if b == "retail" else None)
                 vals = {"fips": "42", "period_start": p.start.isoformat(), "period_end": p.end.isoformat(), "channel": ch, "market_segment": "regulated_sportsbook",
-                        "handle_usd": round(v["handle"]), "gross_revenue_usd": round(gross), "adjusted_revenue_usd": round(v["taxable"]),
-                        "promo_deductions_usd": round(v["promo"]) if v.get("promo") is not None else (0 if b == "retail" else None),
+                        "handle_usd": round(v["handle"]), "gross_revenue_usd": round(gross) if gross is not None else None, "adjusted_revenue_usd": round(v["taxable"]),
+                        "promo_deductions_usd": None if unreported else (round(v["promo"]) if v.get("promo") is not None else (0 if b == "retail" else None)),
                         "state_tax_usd": round(v["tax"]), "revenue_definition": REVENUE_DEFINITION, "is_revised": False}
                 rows.append(Row(values=vals, provenance=provenance.csv_columns(prov), transform_steps=["GRAND TOTAL block row for the month", "dollars and cents rounded to whole dollars"]))
         return rows

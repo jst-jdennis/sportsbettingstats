@@ -130,10 +130,137 @@ consumer_protections:
     provenance:
       <<: *mereg
       source_url: https://www.maine.gov/dps/sites/maine.gov.dps/files/inline-files/Sports%20Wagering%20Rules%2011.1.23.pdf
-  deposit_limits: null
-  advertising: null
-  credit_card_deposits: null
-  helpline_message: null
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: false
+    player_set_required_at_signup: false
+    cooling_off_on_increase_hours: null
+    statutory_cap_usd: null
+    authority_citation: 16-633 CMR Chapter 63 (Responsible Wagering Program), Section 4 (restrictions), Gambling Control Unit sports wagering rules effective November 1, 2023; adopted under 8 M.R.S. ch. 35 (Director's rulemaking on responsible gaming)
+    notes: >-
+      Each operator's responsible wagering program must offer patrons restrictions covering at least amounts wagered,
+      time from wagering, deposit amounts and session times, must include a process to prevent individuals who have
+      requested restrictions from placing wagers, and must give each such individual additional responsible wagering
+      resources. The excerpt shows no default limit, no requirement to set a limit at registration and no fixed
+      cooling-off period for an increase, so those fields are false or null. Quoted from a search excerpt of the
+      cited page; the page itself could not be opened from the drafting environment.
+    provenance: &mech63
+      <<: *mereg
+      source_url: https://www.maine.gov/dps/sites/maine.gov.dps/files/inline-files/Chapter%2063%20Responsible%20Wagering.pdf
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      page_or_table: Chapter 63, Section 4
+      notes: >-
+        Archiving on 2026-10-17 did not yield the section text: maine.gov refused the runner's fetches (403) even with browser headers, so the Chapter 63 rule could not be archived; the clause rests on the search excerpt.
+        Quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting
+        environment. Excerpt: the program must offer restrictions on, at a minimum, "amounts wagered, time from
+        wagering, deposit amounts, and session times", with "a process for the operator to prevent individuals who
+        have requested restrictions from placing wagers; for each such individual, operators shall provide additional
+        responsible wagering resources". The same chapter appears in the compiled rules at
+        https://www.maine.gov/dps/sites/maine.gov.dps/files/inline-files/Sports%20Wagering%20Rules%2011.1.23.pdf.
+  advertising:
+    - rule_type: no_under_age_targeting
+      text: Sports wagering advertising may not use cartoon characters, professional or Olympic athletes, celebrities, entertainers, images, symbols or language designed to appeal specifically to those under 21, may not depict persons under 21 wagering, and must not state or imply an endorsement by a minor; operators must also display on their websites, apps or advertisements that it is unlawful for a person under 21 to wager on sports in Maine.
+      authority_citation: 16-633 CMR Chapter 64 (Advertising and Promotions), Section 3 (items D through H; letters to be confirmed); 16-633 CMR Chapter 63, Section 2(F)
+      provenance: &mech64
+        <<: *mereg
+        source_url: https://www.maine.gov/dps/sites/maine.gov.dps/files/inline-files/Chapter%2064%20Advertising.pdf
+        retrieved_at: "2026-10-17"
+        retrieval_method: manual_entry
+        entered_by: claude-draft-2026-10-17
+        page_or_table: Chapter 64, Section 3
+        notes: >-
+          Archiving on 2026-10-17 did not yield the section text: maine.gov refused the runner's fetches (403) even with browser headers, so the Chapter 64 rule could not be archived; the clause rests on the search excerpt.
+          Quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting
+          environment. Excerpt: "The use of cartoon characters, professional or Olympic athletes, celebrities,
+          entertainers, images, symbols and or language designed to appeal specifically to those under 21 years old
+          is prohibited"; "Sports wagering advertising must not state or imply an endorsement by a minor". Chapter 63
+          Section 2(F) excerpt: "A clear and conspicuous display on the operator's website(s), mobile app(s) or
+          advertisements indicating that it is unlawful for a person under twenty-one (21) years of age to wager on
+          sports in the State of Maine" (https://www.maine.gov/dps/sites/maine.gov.dps/files/inline-files/Chapter%2063%20Responsible%20Wagering.pdf).
+    - rule_type: responsible_gambling_message_required
+      text: Sports wagering advertising must include the disclaimer "Persons under 21 years of age may not participate in sports wagering" and the 1-800-GAMBLER hotline phone number for assistance.
+      authority_citation: 16-633 CMR Chapter 64, Section 3(I)
+      provenance:
+        <<: *mech64
+        notes: >-
+          Quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting
+          environment. Excerpt: "Sports wagering advertising must include a disclaimer as follows: 'Persons under 21
+          years of age may not participate in sports wagering' and the 1-800 GAMBLER hotline phone number shall be
+          included for assistance".
+    - rule_type: other
+      text: Inaccurate or misleading statements regarding the likelihood of winning are prohibited, and guarantees of success, riches or gambling winnings are prohibited.
+      authority_citation: 16-633 CMR Chapter 64, Section 3(A) and (B)
+      provenance:
+        <<: *mech64
+        notes: >-
+          Quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting
+          environment. Excerpt: "A. Inaccurate or misleading statements regarding the likelihood of winning are
+          prohibited; B. Guarantees of success, riches or gambling winnings are prohibited".
+    - rule_type: other
+      text: Sports wagering advertising must not specifically target patrons who have a gambling addiction, including patrons who have requested to be restricted from play temporarily or excluded formally from access to sports wagering systems; operators must also have procedures to prevent promotional communications from reaching persons on the unauthorized (self-exclusion) list.
+      authority_citation: 16-633 CMR Chapter 64, Section 3 (problem gambling items, shown as J and K in the excerpt; letters to be confirmed); 16-633 CMR Chapter 63, Section 2
+      provenance:
+        <<: *mech64
+        notes: >-
+          Quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting
+          environment. Excerpt: "Sports wagering advertising must not specifically target sports wagering patrons who
+          have a gambling addiction, including sports wagering patrons who have requested to be restricted from play
+          temporarily or excluded formally from access to sports wagering systems".
+    - rule_type: other
+      text: Sports wagering advertising is prohibited on Maine college campuses where it would primarily reach persons under 21, except through advertising that is generally available; licensees are responsible for the content and conduct of all advertising, marketing or branding done on their behalf or to their benefit, and must retain copies of advertising for five years and provide them to the Director on request.
+      authority_citation: 16-633 CMR Chapter 64, Sections 2 and 3 (campus advertising and licensee responsibility; subsection letters to be confirmed)
+      provenance:
+        <<: *mech64
+        notes: >-
+          Paraphrased from a search excerpt of the cited page; the page itself could not be opened from the drafting
+          environment. Excerpt: licensees are responsible "for the content and conduct of any and all sports wagering
+          advertising, marketing, or branding done on its behalf or to its benefit"; "Each sports wagering operator
+          shall retain a copy of all advertising, marketing, branding and other promotional materials ... for five (5)
+          years"; the excerpt summarized the campus rule as a bar on advertising on Maine college campuses that
+          mainly reaches persons under 21, except through generally available advertising.
+  credit_card_deposits:
+    allowed: false
+    authority_citation: 8 M.R.S. 1214-A (credit cards prohibited), enacted by Public Law 2025, chapter 628 (LD 2080, 132nd Legislature), effective 90 days after adjournment of the 132nd Legislature; 16-633 CMR sports wagering rules (effective November 1, 2023), permitted funding sources for mobile accounts exclude credit cards and provide that extending credit to patron accounts is strictly prohibited
+    notes: >-
+      Statute prohibits it. Public Law 2025, chapter 628 provides that an operator and a management services licensee
+      conducting sports wagering (and, as amended, internet gaming under 8 M.R.S. 1412-A) may not accept a wager from
+      a person using a credit card, and directs the Director of the Gambling Control Unit to ensure through rulemaking
+      that a person does not use a credit card to make a wager. Before that act, the Unit's 2023 rules listed the
+      permitted funding sources for a mobile sports wagering account (the patron's deposit account, cash or chips at a
+      facility lounge, promotional credit, winnings, operator adjustments and other means approved by the Director)
+      without credit cards and stated that providing credit to patron accounts is strictly prohibited. The exact
+      effective date and whether the Unit has amended its rules to match were not confirmed. Quoted from search
+      excerpts of the cited pages; the pages themselves could not be opened from the drafting environment.
+    provenance:
+      <<: *mereg
+      source_url: https://www1.maine.gov/dps/gcu/bill-tracker/VLA-132-Session-Bills
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      page_or_table: LD 2080 entry (Public Law 2025, chapter 628)
+      notes: >-
+        Archiving on 2026-10-17 confirmed the section in part: the Legislature's committee amendment to LD 2080 is archived and carries the 8 M.R.S. 1214-A language barring wagers made with a credit card; the Gambling Control Unit's bill tracker and rules on maine.gov refused the runner (403) even with browser headers.
+        Quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting
+        environment. Excerpt: "Public Law 2025, chapter 628 prohibits an operator and a management services licensee
+        conducting either sports wagering or Internet gaming on behalf of an operator from accepting wagers from a
+        person using a credit card" and "the director of the Gambling Control Unit within the Department of Public
+        Safety must ensure that a person does not use a credit card to make a wager". The committee amendment text
+        (8 MRSA 1214-A: "An operator and a management services licensee under section 1209 conducting sports
+        wagering on behalf of an operator may not accept a wager on a sports event from a person using a credit
+        card") is at https://legislature.maine.gov/backend/App/services/getDocument.aspx?documentId=123031. The 2023
+        funding-source rule is in
+        https://www.maine.gov/dps/sites/maine.gov.dps/files/inline-files/Sports%20Wagering%20Rules%2011.1.23.pdf.
+  helpline_message:
+    required: true
+    required_number: 1-800-GAMBLER
+    authority_citation: 16-633 CMR Chapter 64 (Advertising and Promotions), Section 3(I) (the 1-800-GAMBLER hotline number shall be included in sports wagering advertising); 8 M.R.S. ch. 35 (Director's rulemaking on display of problem gambling resources)
+    provenance:
+      <<: *mech64
+      notes: >-
+        Quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting
+        environment. Excerpt: "the 1-800 GAMBLER hotline phone number shall be included for assistance".
 limitations:
   - Maine's market is small and dominated by two online operators under tribal licenses, so monthly figures are volatile and operator-level reports can identify individual firms.
   - Retail wagering began only in September 2024 at a single location, so the retail series is short and nearly all handle is online.

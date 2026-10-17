@@ -353,3 +353,35 @@ def test_oh_yearly_report_parses_months_and_crosschecks():
         src.normalize(recs, raw_for(FIX / "oh_occc_sports_gaming_2026_report04.pdf", Period.month(2026, 5), "pdf"))
     with pytest.raises(LayoutChanged):
         src.parse(raw_for(FIX / "ks_lottery_sports_wagering_2026-01.pdf", None, "pdf"))
+
+
+def test_pa_first_fiscal_year_has_eight_months_and_no_pre_promo_revenue():
+    from wpdc_ingest.sources.pa_pgcb_sports_wagering import PAPGCBSportsWagering
+    src = PAPGCBSportsWagering()
+    raw = raw_for(FIX / "pa_pgcb_sports_wagering_fy2018-19.xlsx", None, "xlsx")
+    recs = src.parse(raw)
+    assert [(r["year"], r["month"]) for r in recs][0] == (2018, 11) and len(recs) == 8
+    rows = [r.finalize() for r in src.normalize(recs, raw)]
+    nov_all = next(r for r in rows if r["period_start"] == "2018-11-01" and r["channel"] == "all")
+    assert nov_all["handle_usd"] == 1_414_587 and nov_all["adjusted_revenue_usd"] == 508_997 and nov_all["gross_revenue_usd"] is None and nov_all["promo_deductions_usd"] is None
+    nov_online = next(r for r in rows if r["period_start"] == "2018-11-01" and r["channel"] == "online")
+    assert nov_online["handle_usd"] == 0
+
+
+def test_mi_workbook_statewide_group_and_operator_crosscheck():
+    from wpdc_ingest.sources.mi_mgcb_internet_sports_betting import MIMGCBInternetSportsBetting, REVENUE_DEFINITION
+    src = MIMGCBInternetSportsBetting()
+    raw = raw_for(FIX / "mi_mgcb_internet_sports_betting_2026.xlsx", None, "xlsx")
+    recs = src.parse(raw)
+    assert [(r["year"], r["month"]) for r in recs] == [(2026, m) for m in range(1, 9)]
+    jan = recs[0]
+    assert round(jan["handle_usd"]) == 491_260_369 and round(jan["gross_revenue_usd"]) == 58_036_388 and round(jan["adjusted_revenue_usd"]) == 36_965_495 and round(jan["state_tax_usd"]) == 2_538_064
+    rows = [r.finalize() for r in src.normalize(recs, raw)]
+    assert len(rows) == 8 and rows[0]["channel"] == "online" and rows[0]["fips"] == "26" and rows[0]["revenue_definition"] == REVENUE_DEFINITION
+    first = src.parse(raw_for(FIX / "mi_mgcb_internet_sports_betting_2021.xlsx", None, "xlsx"))
+    assert len(first) == 12 and first[0]["month"] == 1
+    html = '<a href="/mgcb/-/media/x/Internet-Sports-Betting---2026.xlsx?rev=1&amp;hash=2">2026 Internet Sports Betting Revenues and Taxes&nbsp;Excel</a><a href="/a.pdf">2026 Internet Sports Betting Revenues and Taxes PDF</a>'
+    docs = src.resolve(Document(url="u", period=Period.month(2026, 3), kind="html"), html)
+    assert len(docs) == 1 and docs[0].url.startswith("https://www.michigan.gov/mgcb/-/media/x/Internet-Sports-Betting---2026.xlsx?rev=1&hash=2")
+    with pytest.raises(LayoutChanged):
+        src.parse(raw_for(FIX / "pa_pgcb_sports_wagering_fy2024-25.xlsx", None, "xlsx"))

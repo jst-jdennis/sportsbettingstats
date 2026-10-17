@@ -9,6 +9,7 @@ REGISTRY = {
     "census-pep-state-totals": "wpdc_ingest.sources.census_population:CensusPopulation",
     "pa-pgcb-sports-wagering-monthly": "wpdc_ingest.sources.pa_pgcb_sports_wagering:PAPGCBSportsWagering",
     "ks-lottery-sports-wagering": "wpdc_ingest.sources.ks_lottery_sports_wagering:KSLotterySportsWagering",
+    "mi-mgcb-sports-betting-monthly": "wpdc_ingest.sources.mi_mgcb_internet_sports_betting:MIMGCBInternetSportsBetting",
     "oh-occc-sports-gaming-monthly": "wpdc_ingest.sources.oh_occc_sports_gaming:OHOCCCSportsGaming",
     "ny-gaming-commission-mobile-sports-monthly": "wpdc_ingest.sources.ny_gaming_commission_mobile_sports:NYGamingCommissionMobileSports",
 }
