@@ -1,0 +1,37 @@
+# Second archiving pass: alternate URLs for the funding records whose section text did not come back
+# on the first pass, plus the consumer protection pages drafted for Massachusetts, Vermont, Connecticut
+# and Maine. Runs from a throwaway branch; delete the branch once the results are read.
+kind: archive
+label: pg-second-pass
+urls:
+  - https://delcode.delaware.gov/title29/c048/sc01/index.html
+  - https://code.dccouncil.gov/us/dc/council/code/sections/36-621.15.html
+  - https://code.dccouncil.gov/us/dc/council/code/sections/36-621.15
+  - https://iga.in.gov/pdf-documents/124/2025/ic/titles/004/articles/033/chapters/012/4-33-12.pdf
+  - https://iga.in.gov/laws/2025/ic/titles/4/articles/33/chapters/12
+  - https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=04&div=0&chpt=15&sctn=9&subsctn=0
+  - https://dss.sd.gov/behavioralhealth/gambling.aspx
+  - https://statutes.capitol.texas.gov/Docs/HS/pdf/HS.461A.pdf
+  - https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=GOV&division=3.&title=2.&part=2.&chapter=1.&article=1.
+  - https://www.cga.ct.gov/current/pub/chap_229a.htm
+  - https://www.cga.ct.gov/current/pub/chap_319j.htm
+  - https://www.ilga.gov/legislation/ilcs/fulltext.asp?DocName=023000100K13
+  - https://www.tn.gov/content/dam/tn/mentalhealth/documents/2023__Tennessee_Sports_Gaming_Act_Annual_Report.pdf
+  - https://billstatus.ls.state.ms.us/documents/2025/html/SB/3000-3099/SB3036PS.htm
+  - https://www.lsc.ohio.gov/assets/organizations/legislative-service-commission/files/2025-catalog-of-budget-line-items-cac.pdf
+  - https://leg.colorado.gov/sites/default/files/images/olls/crs2024-title-44.pdf
+  - https://www.nysenate.gov/legislation/laws/PML/1367
+  - https://www.mass.gov/doc/205-cmr-248-sports-wagering-account-management/download
+  - https://www.mass.gov/regulations/205-CMR-24800-sports-wagering-account-management
+  - https://legislature.vermont.gov/statutes/fullchapter/31/025
+  - https://liquorandlottery.vermont.gov/sites/liqlot/files/documents/VT%20Sports%20Wagering%20Procedures%2007-19-23.pdf
+  - https://liquorandlottery.vermont.gov/sites/liqlot/files/documents/Enhanced%20Procedures%20as%20Adopted%20on%205.13.26.pdf
+  - https://eregulations.ct.gov/eRegsPortal/Search/getDocument?guid=%7B3037BC7E-0100-CBF0-A99D-BCC1148E33B6%7D
+  - https://eregulations.ct.gov/eRegsPortal/Search/getDocument?guid=%7B3037BC7E-0100-C253-B9BB-1EDAA6A60765%7D
+  - https://eregulations.ct.gov/eRegsPortal/Browse/getDocument?guid=%7B4036BC7E-0000-CB24-A8AB-4BF5F355C236%7D
+  - https://www.maine.gov/dps/sites/maine.gov.dps/files/inline-files/Chapter%2063%20Responsible%20Wagering.pdf
+  - https://www.maine.gov/dps/sites/maine.gov.dps/files/inline-files/Chapter%2064%20Advertising.pdf
+  - https://www.maine.gov/dps/sites/maine.gov.dps/files/inline-files/Sports%20Wagering%20Rules%2011.1.23.pdf
+  - https://legislature.maine.gov/backend/App/services/getDocument.aspx?documentId=123031
+  - https://dsd.maryland.gov/regulations/Pages/36.10.18.05.aspx
+  - https://mgaleg.maryland.gov/2026RS/bills/hb/hb0518t.pdf
