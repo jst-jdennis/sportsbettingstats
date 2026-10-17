@@ -1,0 +1,621 @@
+=== page 1 ===
+Ch. 812a INTERACTIVEGAMINGPLAYERACCOUNTS 58 § 812a.1
+CHAPTER 812a. INTERACTIVE GAMING PLAYERACCOUNTS
+Sec.
+812a.1. Definitions.
+812a.2. Playeraccountregistration.
+812a.3. Accountsecurity.
+812a.4. Singleaccountrequirement.
+812a.5. Accounttermsandconditionsdisclosures.
+812a.6. Self-exclusionlist.
+812a.7. Playerfundingofaccounts.
+812a.8. Playerloyaltyprograms.
+812a.9. Playeraccountcontrols.
+812a.10. Playerwithdrawals.
+812a.11. Playeraccountstatements.
+812a.12. Suspendedaccounts.
+812a.13. Dormantaccounts.
+812a.14. Useofplayerdata.
+Authority
+TheprovisionsofthisChapter812aaddedunder4Pa.C.S.§§ 1202(b)(30)and13B02,unlessoth-
+erwisenoted.
+Source
+TheprovisionsofthisChapter812aaddedAugust27,2021,effectiveAugust28,2021,51Pa.B.
+5389,unlessnotedotherwise.
+CrossReferences
+This chapter cited in 58 Pa.Code § 814a.1 (relating to general requirements); 58 Pa.Code
+§ 830a.9(relatingtoeligiblepassengers;accounts;fundingofplay;withdrawals);and58Pa.Code
+§ 1401a.1(relatingtoscope).
+§ 812a.1. Definitions.
+The following words and terms, when used in this chapter, have the following
+meanings, unless the context clearly indicates otherwise:
+Electronic identifier—A unique identifier, such as a username or account
+number, other than personal identifying information (for example, a Social
+Security number), used to identify a player.
+Player session—A player session consists of all activities and communica-
+tions performed by an authorized registered player and the interactive gaming
+system between the time the registered player logs in to the interactive gaming
+system and the time the registered player logs out or is logged out of the inter-
+active gaming system.
+Strong authentication—A method that is intrinsically stringent enough to
+ensure the security of the system it protects by withstanding any attacks it is
+likely to encounter by combining at least two mutually-independent factors so
+that the compromise of one method should not lead to the compromise of the
+second and includes one nonreusable element, which cannot easily be repro-
+duced or stolen from the Internet, to verify the identity of a registered player.
+812a-1
+(406739) No.565 Dec. 21
+
+=== page 2 ===
+58 § 812a.2 GAMINGCONTROLBOARD Pt. VII
+§ 812a.2. Player account registration.
+(a) Prior to engaging in interactive gaming, a player shall establish an inter-
+active gaming account.
+(b) To establish an interactive gaming account, the player shall provide all of
+the following information:
+(1) The player’s legal name.
+(2) The player’s date of birth.
+(3) The entire or last four digits of the player’s Social Security number, if
+voluntarily provided, or equivalent for a foreign player such as a passport or
+taxpayer identification number.
+(4) The player’s address.
+(5) The player’s e-mail address.
+(6) The player’s telephone number.
+(7) Any other information collected from the player to verify his identity.
+(c) An interactive gaming certificate holder or interactive gaming operator
+shall create and maintain an electronic player file containing the information the
+player submitted to establish the player account.
+(d) The electronic player file created by an interactive gaming certificate
+holder or interactive gaming operator must encrypt the information in an elec-
+tronic player file.
+(i) As part of the annual security audit required under § 809a.6(d)(3),
+the independent third party shall verify that the information included con-
+tainedintheelectronicplayerfilesmaintainedbytheinteractivegamingcer-
+tificate holder or interactive gaming operator is properly encrypted.
+(e) The interactive gaming certificate holder or interactive gaming operator
+shall verify the player’s identity and record the document number of the
+government-issued credential examined, or other methodology for remote, multi-
+sourced authentication, which may include third-party and governmental data-
+bases, as approved by the Board.
+(f) The interactive gaming certificate holder or interactive gaming operator
+shallverifythattheplayerisofthelegalageof21yearsofage,notself-excluded
+or otherwise prohibited from participation in interactive gaming.
+(g) The interactive gaming certificate holder or interactive gaming operator
+shall require the player to affirm that the information provided to the interactive
+gaming certificate holder is accurate.
+(h) The interactive gaming certificate holder or interactive gaming operator
+shall record the player’s acceptance of the interactive gaming certificate holder’s
+terms and conditions to participate in interactive gaming.
+(i) The interactive gaming certificate holder or interactive gaming operator
+shall record the player’s acknowledgement that the legal age for interactive gam-
+ing is 21 years of age and that he is prohibited from allowing any other person
+to access or use his interactive gaming account.
+812a-2
+(406740) No.565 Dec. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 3 ===
+Ch. 812a INTERACTIVEGAMINGPLAYERACCOUNTS 58 § 812a.3
+(j) The interactive gaming certificate holder or interactive gaming operator
+shall record the player’s acknowledgement that any violations of the interactive
+gamingregulationsaresubjecttothepenaltiesprovidedintheactandmayresult
+in criminal prosecution under 18 Pa.C.S. (relating to Crimes Code).
+(k) The interactive gaming certificate holder or interactive gaming operator
+shallrequiretheplayertoestablishapasswordorotheraccesssecurityfeatureas
+approved by the Board and advise the player of the ability to utilize strong
+authentication login protection.
+(l) The interactive gaming certificate holder or interactive gaming operator
+shall notify the player of the establishment of the account by e-mail or first class
+mail.
+§ 812a.3. Account security.
+(a) An interactive gaming system must utilize sufficient security to ensure
+player access is appropriately limited to the registered account holder. Unless
+otherwise authorized by the Board, security measures must include, at a mini-
+mum, all of the following:
+(1) Ausername.
+(2) Apassword of sufficient length and complexity to ensure its effective-
+ness.
+(3) Upon account creation, the option for users to choose strong authenti-
+cation login protection.
+(4) When a player logs into his registered interactive gaming account, the
+system must display the date and time of the player’s previous log on.
+(5) An option to permit a player to elect to receive an electronic notifica-
+tion to the player’s registered e-mail address, cellular phone or other device
+each time an interactive gaming account is accessed.
+(6) The interactive gaming system must require a player to re-enter his
+username and password after 15 minutes of user inactivity.
+(b) An interactive gaming certificate holder or interactive gaming operator
+may not permit the creation of anonymous interactive gaming accounts or
+accounts using fictitious names.Aregistered player may, while engaged in inter-
+active gaming, represent himself using a screen name other than his actual name.
+(c) An interactive gaming system must provide an account statement with
+accountdetailstoaplayerondemand,eitherdisplayedontheinteractivegaming
+websiteormobileapporavailableforimmediatedownload,whichmustinclude
+information as required under this chapter.
+(d) An interactive gaming system must utilize sufficient security to ensure
+third-party access to player accounts is limited as follows:
+(1) Networkshareddrivescontainingapplicationfilesanddataforinterac-
+tivegamingsystemmustbesecuredsothatonlyauthorizedpersonnelmaygain
+access.
+812a-3
+(405845) No.564 Nov. 21
+
+=== page 4 ===
+58 § 812a.4 GAMINGCONTROLBOARD Pt. VII
+(2) Login accounts and passwords required to administer network and
+other equipment are secured so that only authorized Information Technology
+(IT) personnel from the interactive gaming certificate holder or interactive
+gaming operator may gain access to these devices.
+(3) Remote access by vendor personnel to any component of the interac-
+tive gaming system is allowed for purposes of support or updates and is
+enabledonlywhenapprovedbyauthorizedITpersonnelemployedbythetech-
+nology provider.
+(e) Interactive gaming certificate holders and interactive gaming operators
+mayutilizethird-partyvendorstoverifyplayerinformationsolongasthoseven-
+dors are licensed by the Board when required and the agreements related to the
+provided services is submitted to the Board.
+§ 812a.4. Single account requirement.
+(a) Aplayer shall have only one interactive gaming account for each interac-
+tive gaming certificate holder or interactive gaming operator. Each interactive
+gamingaccountmustbenontransferable,uniquetotheplayerwhoestablishesthe
+account, and distinct from any other account number that the player may have
+established with the interactive gaming certificate holder or interactive gaming
+operator for noninteractive gaming activity.
+(b) Each registered player account shall be treated independently and players
+may not be permitted to transfer funds between accounts held with different
+interactive gaming certificate holders or interactive gaming operators. Registered
+players are prohibited from transferring funds to an account held by another
+player.
+(c) To ensure compliance with this subpart, interactive gaming certificate
+holders and interactive gaming operators shall:
+(1) Record and maintain the physical location of the registered player
+while logged in to the interactive gaming account.
+(2) Ensurethataregisteredplayerdoesnotoccupymorethanoneposition
+at a game at any given time unless otherwise approved by the Board to permit
+a registered player to occupy more than one position at a game at any given
+time.
+§ 812a.5. Account terms and conditions disclosures.
+(a) During the registration process the player shall agree to the terms and
+conditions which govern the relationship between the interactive gaming certifi-
+cate holder or interactive gaming operator and the player. The terms and condi-
+tions must include a privacy policy which governs the protection and use of the
+player’s data.
+(b) The terms and conditions provided to players by interactive gaming cer-
+tificateholdersandinteractivegamingoperatorsshallbesubmittedtotheBureau
+812a-4
+(405846) No.564 Nov. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 5 ===
+Ch. 812a INTERACTIVEGAMINGPLAYERACCOUNTS 58 § 812a.6
+of Gaming Operations for review. The terms and conditions must contain, at
+minimum, all of the following:
+(1) The name and address of the interactive gaming certificate holder or
+interactive gaming operator.
+(2) Astatement that the interactive gaming certificate holder or interactive
+gaming operator is licensed and regulated by the Board for the purposes of
+operating and offering interactive gaming services in this Commonwealth.
+(3) Arequirement that the player acknowledges that he has read the terms
+and conditions and agrees to be bound by them.
+(4) A requirement that the player will comply with all applicable laws,
+statutes and regulations.
+(5) Astatementthatnoindividualunder21yearsofagemayparticipatein
+interactivegamingandthatitisacriminaloffensetoallowapersonwhoisnot
+legally of age to participate in interactive gaming in this Commonwealth.
+(6) Astatementthattheplayerconsentstoverificationofregistrationinfor-
+mationincludingname,address,dateofbirth,SocialSecuritynumber,passport
+identification (for non-United States residents) and any other identification
+information required to confirm age and identity.
+(7) A statement that the player consents to verification of his location for
+the duration of play of interactive games.
+(8) Astatementthatplayershavetherighttosetresponsiblegaminglimits
+and to self-exclude from interactive gaming.
+(9) Adispute resolution policy including notifying players of their right to
+file a complaint with the Board.
+(10) Aplayer disconnection policy.
+(11) Any other information that may be required by the Board.
+§ 812a.6. Self-exclusion list.
+(a) Allinteractivegamingcertificateholdersandinteractivegamingoperators
+shall have a link on its interactive gaming web site to the self-exclusion page of
+the Board web site.
+(b) Any player seeking to self-exclude from interactive gaming shall follow
+the procedures in the Board’s regulations.
+§ 812a.7. Player funding of accounts.
+(a) Aplayer’s interactive gaming account may be funded through the use of
+all of the following:
+(1) Cash deposits made directly with the interactive gaming certificate
+holder or interactive gaming operator.
+(2) Personal checks, cashier’s checks, wire transfer and money order
+deposits made directly or mailed to the interactive gaming certificate holder or
+interactive gaming operator.
+(3) Aplayer’s credit card or debit card, including prepaid cards.
+812a-5
+(405847) No.564 Nov. 21
+
+=== page 6 ===
+58 § 812a.7 GAMINGCONTROLBOARD Pt. VII
+(4) A player’s deposit of cash, gaming vouchers or gaming chips at a
+cashiering location approved by the Board.
+(5) A player’s reloadable prepaid card, which has been verified as being
+issued to the player and is nontransferable.
+(6) Cash complimentaries, promotional credits or bonus credits.
+(7) Winnings.
+(8) Automatedclearinghouse(ACH)transfer,providedthattheinteractive
+gaming certificate holder or interactive gaming operator has security measures
+and controls to preventACH fraud.AfailedACH deposit attempt may not be
+consideredfraudulentiftheplayerhassuccessfullydepositedfundsthroughan
+ACH transfer on a previous occasion with no outstanding chargebacks. If the
+interactive gaming certificate holder or interactive gaming operator suspects
+fraudaftermultiplefailedACHdepositattempts,theinteractivegamingcertifi-
+cate holder or interactive gaming operator may temporarily freeze or suspend
+the player’s account to investigate and, if the interactive gaming certificate
+holder or interactive gaming operator determines that fraud has occurred, sus-
+pend the player’s account.
+(9) Adjustmentsmadebytheinteractivegamingcertificateholderorinter-
+active gaming operator following the resolution of disputes provided there is
+documented notification to the player.
+(10) Any other means as approved by the Board.
+(b) An interactive gaming certificate holder or interactive gaming operator
+shallneitherextendcredittoaplayernorallowthedepositoffundsintoaninter-
+active gaming account that are derived from the extension of credit by affiliates
+oragentsoftheinteractivegamingcertificateholderorinteractivegamingopera-
+tor.
+(c) A player’s interactive gaming account may not have a negative account
+balance as a result of the placement of any wager in the interactive gaming sys-
+tem.
+(d) Player account balances must be updated after each game cycle to ensure
+thatsufficientfundsareavailableforanyfuturerealmoneygamestheplayermay
+choose to play.
+(e) Interactive gaming certificate holders or interactive gaming operators
+shall not accept or facilitate a wager:
+(1) On any interactive game not approved by the Board for play in this
+Commonwealth.
+(2) Onanyinteractivegamewhichthecertificateholderoroperatorknows
+or reasonably should know is not between individuals.
+(3) Onanyinteractivegamewhichthecertificateholderoroperatorknows
+orreasonablyshouldknowismadebyapersonwhohaselectedtotemporarily
+suspendhisorherinteractivegamingaccountandtheperiodoftemporarysus-
+pension has not expired.
+812a-6
+(405848) No.564 Nov. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 7 ===
+Ch. 812a INTERACTIVEGAMINGPLAYERACCOUNTS 58 § 812a.8
+(4) Onanyinteractivegamewhichthecertificateholderoroperatorknows
+orreasonablyshouldknowismadebyapersonontheinteractivegamingself-
+exclusion list or the Board’s involuntary exclusion list as it pertains to interac-
+tive gaming.
+(5) From a person who the interactive gaming certificate holder or interac-
+tivegamingoperatorknowsorreasonablyshouldknowisplacingthewagerin
+violation of State or Federal law.
+(6) From any licensed individual who is not permitted to participate in
+interactive gaming by virtue of his position with an interactive gaming certifi-
+cate holder, interactive gaming operator or other affiliated entity.
+(f) All adjustments to interactive gaming accounts for amounts of $500 or
+under shall be periodically reviewed by supervisory personnel as set forth in the
+interactive gaming certificate holder’s or interactive gaming operator’s internal
+controls.Allotheradjustmentsshallbeauthorizedbysupervisorypersonnelprior
+to being entered.
+§ 812a.8. Player loyalty programs.
+If player loyalty programs are supported by an interactive gaming system, all
+of the following must apply:
+(1) Redemption of registered player loyalty points earned must be by a
+secure transaction that automatically debits the points balance for the value of
+the prize redeemed.
+(2) Allregisteredplayerloyaltydatabasetransactionsaretoberecordedby
+the interactive gaming system. If the player loyalty program is provided by an
+external service provider, the interactive gaming system must be capable of
+securely communicating with that service.
+(3) The interactive gaming system must make readily accessible to the
+registeredplayeralltermsandconditionsgoverningeachavailablepromotional
+or bonus feature.
+(4) The terms and conditions must be clear and unambiguous, especially
+when bonuses or promotions are limited to certain tables or nontournament
+play, or when other specific conditions apply.
+§ 812a.9. Player account controls.
+(a) Aplayersessionisstartedwhenaplayerlogsintotheinteractivegaming
+system.
+(1) Aplayer must be provided with the electronic identifier created by the
+interactive gaming certificate holder or interactive gaming operator, if appli-
+cable, and a password to start a session.
+(2) Theinteractivegamingsystemmustallowplayerstochangetheirpass-
+words.
+(3) When a player has forgotten his password or PIN, the interactive gam-
+ing system must provide a secure process for the reauthentication of the player
+812a-7
+(422017) No.605 Apr. 25
+
+=== page 8 ===
+58 § 812a.9 GAMINGCONTROLBOARD Pt. VII
+and the retrieval or resetting, or both, of the password or PIN. Processes for
+dealingwithlostplayeruserIDsorpasswordsmustbeclearlydescribedtothe
+player.
+(4) When a player logs in to the interactive gaming system, the date and
+time of his prior player session must be displayed.
+(5) Each player session must have a unique identifier assigned by the
+interactive gaming system which distinguishes the current session from previ-
+ous and future sessions.
+(b) During a peer-to-peer game, the software must permit a player to set an
+away from computer status (that is, self-imposed session inactivity). This func-
+tionality must be fully described in the help screens or applicable terms and con-
+ditions.
+(1) The away from computer status must disallow all play and also cause
+the player’s turn to be automatically skipped during any round of play which
+takes place while this status is active.
+(2) If a player sets an away from computer status during the middle of a
+round of play, he automatically forfeits play for that round (for example, for a
+round of poker, the software must automatically fold the player’s hand during
+the next round of betting).
+(3) Ifaplayerperformsanygameactionwithinthegamewindowwhilein
+an away from computer status, the status must be removed and the player will
+be enrolled into the next round of play. Nongame sensitive actions, such as
+accessingthehelpmenufromthegamewindowdonotrequirethisstatustobe
+removed.
+(4) Ifactionhasnotbeentakenbytheplayerwithinthetimeperiodspeci-
+fiedinthehelpscreensorthetermsandconditions,orboth,theplayermustbe
+automatically placed into the away from computer status.
+(5) Ifaplayerhasbeenintheawayfromcomputerstatusforover30min-
+utes, the player must be automatically logged out of the game or player
+account, or both.
+(c) Interactivegamingsystemsmustemployamechanismthatdetectssession
+inactivity and terminates a player session when applicable.
+(1) If the interactive gaming system fails to receive a response from the
+interactive gaming device within 15 minutes, whether the player has been in
+away from computer mode or not, the interactive gaming system must imple-
+ment a user inactivity timeout and terminate the player session.
+(2) If a player session is terminated due to player inactivity timeout, the
+interactive gaming device must display to the player the player session termi-
+nation (that is, the user inactivity timeout) upon the player’s next attempted
+action on the interactive gaming system.
+(3) Further game play is not permitted until the interactive gaming system
+and the interactive gaming device establish a new session.
+812a-8
+(422018) No.605 Apr. 25 Copyright(cid:2)2025CommonwealthofPennsylvania
+
+=== page 9 ===
+Ch. 812a INTERACTIVEGAMINGPLAYERACCOUNTS 58 § 812a.9
+(d) Aplayer session ends when:
+(1) The player notifies the interactive gaming system that the session is
+finished (for example, logs out).
+(2) Asession inactivity timeout is reached.
+(3) The interactive gaming system terminates the session.
+(i) When the interactive gaming system terminates a player session, a
+record must be written to an audit file that includes the termination reason.
+(ii) The interactive gaming system must attempt to send a session fin-
+ished message to the interactive gaming device each time a session is termi-
+nated by the interactive gaming system.
+(e) The Board’s Responsible Gaming logo linking to a responsible gaming
+page shall be placed at the top of the interactive gaming web site. The respon-
+sible gaming page must contain, at a minimum, all of the following:
+(1) Information about potential risks associated with gambling and where
+to get help for a gambling problem.
+(2) A list of the responsible gaming measures that can be invoked by the
+player,suchasplayersessiontimelimitsandbetlimits,andanoptiontoenable
+the player to invoke those measures.
+(3) Mechanisms which detect unauthorized use of the player’s account,
+suchasobservingtheLastLoginTimeDisplay,theIPaddressofthelastlogin
+and reviewing financial account information.
+(4) A link to the terms and conditions that the player agreed to be bound
+to by entering and playing on the site.
+(5) Alink to the applicable privacy policy.
+(6) Alink to Board’s web site.
+(f) All links to player protection services (for example, self-exclusion and
+other player-imposed limits) provided by third parties are to be tested by the
+interactive gaming certificate holder or interactive gaming operator periodically
+as required by the Board. Game play may not occur when links used to supply
+informationonplayerprotectionservicesarenotdisplayedorarenotoperational.
+When the link to player protection services is no longer available, the interactive
+gaming certificate holder or interactive gaming operator shall provide an alterna-
+tive support service.
+(g) Players must be provided with a clear mechanism to impose self-
+limitations for gaming parameters including deposits, wagers, losses and player
+session durations as required by the Board. The self-limitation mechanism must
+provide all of the following functionality:
+(1) Any decrease to self-limitations for gaming must be effective no later
+than the player’s next login. Any increase to these limits must become effec-
+tive only after the time-period of the previous limit has expired and the player
+reaffirms the requested increase.
+(i) Forexample,aplayersetsa$1,000monthlydepositlimitonthe1st
+dayofthemonth.Theplayermaynotincreasethislimittomorethan$1,000
+812a-9
+(405851) No.564 Nov. 21
+
+=== page 10 ===
+58 § 812a.9 GAMINGCONTROLBOARD Pt. VII
+until the 1st day of the following month. The same player may decrease the
+limit to less than $1,000 at any point, and shall be effective at the player’s
+next login.
+(2) Adeposit limit as determined by the player must be offered on a daily,
+weekly and monthly basis, and must specify the maximum amount of money a
+player may deposit into his interactive gaming account during the designated
+period of time.
+(3) Aspend limit as determined by the player must be offered on a daily,
+weekly and monthly basis, and must specify the maximum amount of player
+deposits that may be put at risk during a designated period of time.
+(4) Asingle wager limit as determined by the player must be offered and
+mustspecifythemaximumamountofanysinglewageraplayermayputatrisk
+in a single wager in an interactive game.
+(i) This single wager limit is not applicable for peer-to-peer poker
+games offered by interactive gaming certificate holders or operators.
+(ii) Notwithstanding the provisions of paragraph (1), a requested
+increase in the player’s single wager limit (that is, from $50 to $100) shall
+not take effect for 24 hours after the request is made.
+(5) A time-based limit as determined by the player must be offered on a
+daily basis and must specify the maximum amount of time that a player may
+spendplayingonaninteractivegamingsystem,providedthatifthetime-based
+limit is reached a player will be permitted to complete any round of play, or
+active or prepaid tournament.
+(6) A table limit as determined by the player must be offered and must
+specify the maximum amount a registered player may bring to a peer-to-peer
+interactive gaming table.
+(7) The self-limitations set by a player may not override any system
+imposed limitations or contradict information within the game rules.
+(h) The interactive gaming system must be capable of applying system-
+imposed limits as required by the terms and conditions agreed to by the player
+upon registration and as required by the Board. System-imposed limits must
+adhere to all of the following:
+(1) Players must be notified in advance of any system-imposed limits and
+their effective dates.
+(2) Once updated, system-imposed limits must be consistent with what is
+disclosed to the player.
+(3) Upon receiving any system-limitation request, the interactive gaming
+systemmustensurethatallspecifiedlimitsarecorrectlyimplementedimmedi-
+ately or at a specified time (that is, next login, next day, and the like) that was
+clearly indicated to the player.
+(4) In cases when system-imposed limitation values (for example, deposit,
+wager, loss and player session duration) are greater than self-imposed player
+limit values, the system-imposed limitations must take priority.
+812a-10
+(405852) No.564 Nov. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 11 ===
+Ch. 812a INTERACTIVEGAMINGPLAYERACCOUNTS58 § 812a.10
+(i) Playersmustbeprovidedwithaneasyandobviousmechanismtotempo-
+rarily suspend his or her interactive gaming account. The temporary suspension
+mechanism must provide all of the following functionality:
+(1) The player must be provided with the option to temporarily suspended
+his or her interactive gaming account for a specified period of time as defined
+in the terms and conditions, or indefinitely.
+(2) In the case of temporary suspension, the interactive gaming system
+must ensure that:
+(i) Immediatelyuponprocessingthetemporarysuspension,newbetsor
+depositsarenotacceptedfromthatplayeruntilthetemporarysuspensionhas
+expired.
+(ii) Duringthetemporarysuspensionperiod,theplayerisnotprevented
+from withdrawing any or all of his account balance, provided that the inter-
+active gaming system acknowledges that the funds have cleared.
+(iii) In the case of indefinite temporary suspension, the interactive gam-
+ing system must ensure that:
+(A) Theplayerispaidinfullforhisaccountbalance,providedthatthe
+interactive gaming system acknowledges that the funds have cleared.
+(B) All player accounts must be closed or deactivated.
+(j) The interactive gaming system must provide a clear mechanism to advise
+the player of the right to make a complaint against the interactive gaming certifi-
+cateholder,interactivegamingoperatororanotherplayer(thatis,whencollusion
+is suspected or when a player is disruptive or abusive).
+Authority
+Theprovisionsofthis§ 812a.9amendedunder4Pa.C.S.§§ 1202(b)(30),13A02(1)and(2)and
+13B02(a)(3),(6),(7)and(9).
+Source
+Theprovisionsofthis§ 812a.9amendedJanuary10,2025,effectiveJanuary11,2025,55Pa.B.
+261.Immediatelyprecedingtextappearsatserialpages(405849)to(405853)(406714).
+§ 812a.10. Player withdrawals.
+(a) An interactive gaming certificate holder or interactive gaming operator
+shall establish protocols for players to withdraw funds, whether an interactive
+gaming account is open or closed.
+(b) An interactive gaming certificate holder or interactive gaming operator
+shall prevent unauthorized withdrawals from an interactive gaming account.
+(c) Funds may be withdrawn from a player’s interactive gaming account for
+all of the following:
+(1) The funding of game play.
+(2) Acash-out at the cashier’s cage upon player’s request.
+(3) Acash-outthroughtheissuanceofacheckfromtheinteractivegaming
+certificate holder or interactive gaming operator.
+812a-11
+(422019) No.605 Apr. 25
+
+=== page 12 ===
+58 § 812a.11 GAMINGCONTROLBOARD Pt. VII
+(4) A cash-out transfer to a player’s reloadable prepaid cash card, which
+has been verified as being issued to the player and is nontransferable.
+(5) Adjustmentsmadebytheinteractivegamingcertificateholderorinter-
+active gaming operator following the resolution of disputes provided there is
+documented notification to the player.
+(6) Cash-out transfers directly to the player’s individual account with a
+bank or other financial institution (banking account) provided that the interac-
+tive gaming certificate holder or interactive gaming operator verifies the valid-
+ity of the account with the financial institution.
+(7) Any other means approved by the Board.
+(d) An interactive gaming certificate holder or interactive gaming operator
+may not permit a player to transfer funds to another player.
+§ 812a.11. Player account statements.
+(a) At the request of a player, interactive gaming systems must provide an
+interactive gaming account statement which must include detailed account activ-
+ity for at least the 6 months preceding the request. In addition, an interactive
+gamingsystemmust,uponrequest,becapableofprovidingasummarystatement
+ofallplayeractivityduringthepastyear.Informationtobeprovidedonthesum-
+mary statement must include, at a minimum, all of the following:
+(1) Deposits to the interactive gaming account.
+(2) Withdrawals from the interactive gaming account.
+(3) Win or loss statistics.
+(4) Beginning and ending account balances.
+(5) Self-imposed responsible gaming limit history, if applicable.
+(b) Account statements must be either displayed on the interactive gaming
+web site or mobile app or available for immediate download, or if requested by
+the player, sent to the player’s registered address (e-mail or first class) for the
+time period specified.
+§ 812a.12. Suspended accounts.
+(a) Interactive gaming systems must employ a mechanism to place an inter-
+active gaming account in a suspended mode:
+(1) Whenrequestedbytheplayerforaspecifiedperiodoftime,whichmay
+not be less than 72 hours.
+(2) When required by the Board.
+(3) Wheninitiatedbyaninteractivegamingcertificateholderorinteractive
+gaming operator that has evidence to indicate any of the following:
+(i) Illegal activity.
+(ii) Anegative player account balance.
+(iii) Aviolation of the terms of service has taken place on an authorized
+registered player’s interactive gaming account.
+812a-12
+(422020) No.605 Apr. 25 Copyright(cid:2)2025CommonwealthofPennsylvania
+
+=== page 13 ===
+Ch. 812a INTERACTIVEGAMINGPLAYERACCOUNTS58 § 812a.13
+(b) When an interactive gaming account is in a suspended mode, the interac-
+tive gaming certificate holder or interactive gaming operator may not remove
+funds from the account without prior approval from the Board. In addition, the
+interactive gaming system must do all of the following:
+(1) Prevent the player from engaging in interactive gaming.
+(2) Prevent the player from depositing funds.
+(3) Preventtheplayerfromwithdrawingfundsfromhisinteractivegaming
+account, unless the suspended mode was initiated by the player.
+(4) Prevent the player from making changes to his interactive gaming
+account.
+(5) Prevent the removal of the interactive gaming account from the inter-
+active gaming system.
+(6) Prominently display to the authorized player that the account is in a
+suspended mode, the restrictions placed on the account and any further course
+of action needed to remove the suspended mode.
+(c) An interactive gaming certificate holder or interactive gaming operator
+shall notify the player by mail (first class or e-mail) whenever his interactive
+gaming account has been closed or placed in a suspended mode.The notification
+must include the restrictions placed on the account and any further course of
+action needed to remove the restriction.
+(d) Asuspended account may be restored:
+(1) Upon expiration of the time period established by the player.
+(2) When permission is granted by the Board.
+(3) When the interactive gaming certificate holder or interactive gaming
+operator has lifted the suspended status.
+§ 812a.13. Dormant accounts.
+(a) An interactive gaming account will be deemed dormant if there is no
+activity (logins, game play, withdrawals, contacts with customer service) for
+2 years.
+(b) Interactive gaming certificate holders and interactive gaming operators
+shallprovidenotificationtotheplayerattheplayer’sregisteredaddress(physical
+or electronic) if the player’s interactive gaming account remains dormant for
+1 year.
+(c) Funds remaining on deposit in an interactive gaming account which is
+dormant and for which the player has not requested payment must be abandoned
+60 days after the notice in subsection (b) is provided. Interactive gaming certifi-
+cate holders and interactive gaming operators shall report abandoned funds from
+dormant accounts in accordance with rules and regulations on abandoned and
+unclaimedpropertysetforthbythePennsylvaniaTreasury,BureauofAbandoned
+and Unclaimed Property.
+812a-13
+(422021) No.605 Apr. 25
+
+=== page 14 ===
+58 § 812a.14 GAMINGCONTROLBOARD Pt. VII
+§ 812a.14. Use of player data.
+(a) An interactive gaming certificate holder, interactive gaming operator, or
+an employee or other person engaged in duties related to the conduct of interac-
+tive gaming may not disclose information about the name of a player, or other
+identifying information.
+(b) Interactivegamingcertificateholdersorinteractivegamingoperatorswith
+employeeswhohavedirectcontactwithplayersbyphone,e-mail,electronicchat
+or other means shall implement training for those employees, at the start of their
+employment and at regular intervals thereafter, addressing recognition of the
+nature and symptoms of problem gambling behavior and how to assist players in
+obtaining information regarding help for a gambling problem and self-exclusion
+program.
+[Nextpageis813-1.]
+812a-14
+(422022) No.605 Apr. 25 Copyright(cid:2)2025CommonwealthofPennsylvania

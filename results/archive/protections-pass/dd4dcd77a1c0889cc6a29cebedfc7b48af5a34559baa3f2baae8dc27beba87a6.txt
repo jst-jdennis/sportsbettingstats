@@ -1,0 +1,1723 @@
+=== page 1 ===
+ARTICLE 27. SPORTS WAGERING
+Rule 1. General Provisions
+Rule 2. Sports Wagering Licensure
+Rule 3. General Requirements For Sports Wagering Operators
+Rule 4. Sports Wagering Integrity; Confidential Information
+Rule 5. Internal Controls and House Rules
+Rule 6. Sports Wagering System Requirements
+Rule 7. Patron Wagers
+Rule 8. Sports Wagering Kiosks
+Rule 9. Sports Wagering Reports; Wagering Revenue; Computation of Taxes; Reconciliation
+Rule 10. Accounting Controls for the Sports Wagering Lounge
+Rule 11. Geofence Requirement
+Rule 12. Sports Wagering Accounts
+Rule 13. Responsible Gaming and Self-Restriction
+Rule 14. Prohibitions on Participating in Sports Wagering
+Rule 1. General Provisions
+68 IAC 27-1-1 Applicability
+68 IAC 27-1-2 Definitions
+68 IAC 27-1-3 Deviation from provisions
+68 IAC 27-1-1 Applicability
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 1. This article applies to sports wagering. (Indiana Gaming Commission; 68 IAC 27-1-1; filed Jun 25, 2021, 2:59 p.m.:
+20210721-IR-068200420FRA)
+68 IAC 27-1-2 Definitions
+Authority: IC 4-38-3-1
+Affected: IC 4-33; IC 4-35; IC 4-38
+Sec. 2. The definitions in IC 4-33, IC 4-35, IC 4-38, and 68 IAC 1, and the following definitions apply throughout this
+article:
+(1) "ACH" means Automated Clearing House, which is a network that connects all banking and financial institutions within
+the United States.
+(2) "Adjusted gross receipts" means:
+(A) the total of all cash and property (including checks received by a certificate of authority holder, whether collected
+or not) received from authorized sports wagering offered by a certificate of authority holder; minus
+(B) the total of:
+(i) all cash paid out as winnings to sports wagering patrons, including the cash equivalent of any merchandise
+or thing of value awarded as a prize; and
+(ii) uncollectible gaming receivables, not to exceed the lesser of:
+(AA) a reasonable provision for uncollectible patron checks received from sports wagering; or
+(BB) two percent (2%) of the total of all sums (including checks, whether collected or not) less the
+amount paid out as winnings to sports wagering patrons.
+For purposes of this subdivision, a counter or personal check that is invalid or unenforceable under this article is considered
+cash received by the certificate of authority holder from sports wagering.
+(3) "Affiliate" means an individual or entity that utilizes an Internet website to promote and direct patrons to sports wagering
+Internet websites in exchange for a commission or fee.
+(4) "Age and identity verification" means a method, system, or device used by a sports wagering operator to verify the
+validity of a patron's age and the patron's identity.
+Indiana Administrative Code Page 1
+
+=== page 2 ===
+SPORTS WAGERING
+(5) "Authentication process" means a method used by a sports wagering system to verify the validity of software.
+(6) "Canceled wager" means a wager that has been canceled by the sports wagering system due to an issue with an event
+that prevents the wager's completion.
+(7) "Division" means the sports wagering division of the Indiana gaming commission.
+(8) "Dormant account" means a sports wagering patron account that has had no login or wagering activity for a period of
+three (3) years.
+(9) "Event number" means a set of alpha or numeric, or both alpha and numeric characters, that correspond to a sports event
+or an event ancillary to a sports event.
+(10) "Good cause", as set forth in IC 4-38-9-4, includes, but is not limited to, information provided by a sports governing
+body that indicates a credible threat to the integrity of sports wagering that is beyond the control of the sports governing
+body to preemptively remedy or mitigate.
+(11) "Independent geofence provider" means an independent individual or entity approved by the executive director or the
+executive director's designee to provide requisite geofencing technology to a sports wagering operator to ensure that all
+mobile or online wagers are placed within the state of Indiana.
+(12) "Independent integrity monitoring provider" means an independent individual or entity approved by the executive
+director or the executive director's designee to receive reports of unusual betting activity from a sports wagering operator
+for the purpose of assisting in identifying suspicious wagering activity.
+(13) "Layoff wager" means a wager placed by a sports wagering operator with another sports wagering operator for the
+purpose of offsetting patron wagers.
+(14) "Multisource authentication" means a type of strong authentication that uses two (2) of the following to verify a patron's
+identity:
+(A) Information known only to the patron, such as a password, pattern, or answers to challenge questions.
+(B) An item possessed by a patron, such as an electronic token, physical token, or an identification card.
+(C) A patron's biometric data, such as fingerprints or facial or voice recognition.
+(15) "Patron" means an individual participating in sports wagering activities conducted under IC 4-38.
+(16) "Prohibited sports wagering participant" means any of the following individuals:
+(A) An individual that is prohibited under IC 4-38 from participating in sports wagering.
+(B) An individual listed on the commission's exclusion list kept under 68 IAC 6-1 or that has a voluntarily excluded
+person status as defined under 68 IAC 6-3.
+(C) An individual that has signed up for statewide Internet self-restriction.
+(D) An occupational licensee employed by or associated with a supplier licensee.
+(E) An individual whose participation may undermine the integrity of the wagering or the sports event or who is
+excluded from wagering for other good cause, including, but not limited to, an attempt to place a wager as an agent
+or a proxy.
+(17) "Proxy server" means a computer server that allows a patron to disguise his or her computer's geolocation, which is
+the real-world geographic location of a patron, when accessing a sports wagering operator's sports wagering platform.
+(18) "Secure transaction file" means a file that contains data, which cannot be modified without detection.
+(19) "Sports governing body" means an organization that prescribes final rules and enforces codes of conduct with respect
+to a sporting event, member clubs, and participants therein.
+(20) "Sports wagering account" means an account established by a sports wagering operator for an individual patron to use
+for online sports wagering.
+(21) "Sports wagering kiosk" means an automated device that may be used for sports wagering voucher and ticket
+processing and automated functions as approved by the commission.
+(22) "Sports wagering lounge" means a designated area in a licensed facility where sports wagering is conducted.
+(23) "Sports wagering operation" means the business of accepting wagers under IC 4-38 at a licensed facility, online, or by
+mobile device.
+(24) "Sports wagering operator" means a certificate of authority holder or vendor licensed to conduct sports wagering.
+(25) "Sports wagering patron funds" means the cash or cash equivalents that are owned by the sports wagering patrons, are
+maintained in segregated patron accounts, and are not commingled with the sports wagering operator's operational funds.
+(26) "Sports wagering patron session" means a period of time when a patron is logged on to an Internet or mobile sports
+Indiana Administrative Code Page 2
+
+=== page 3 ===
+SPORTS WAGERING
+wagering system.
+(27) "Sports wagering registrant" means an individual or entity that is contracted to provide goods or services that the
+commission determines affects the conduct of sports wagering, but falls outside of the scope of a supplier's license under
+IC 4-33-7 or a sports wagering service provider license under IC 4-38-7.
+(28) "Sports wagering system" means all equipment and software used in conjunction with the sports wagering operation,
+including, but not limited to, the following:
+(A) Sports wagering interactive components, including all hardware, software, and associated equipment that comprise
+the sports wagering platform for the purpose of authorizing sports wagering and online and mobile sports wagering.
+(B) Self-service sports wagering kiosks.
+(C) Ticket or voucher redemption devices.
+(D) Any other device, service, or system that the commission determines to be related to the sports wagering system.
+(29) "Sports wagering ticket" means a printed record issued or an electronic record maintained by the sports wagering
+system that evidences a sports wager.
+(30) "Sports wagering voucher" means a printed record, or digital representation thereof, issued by a sports wagering system
+that may be used to fund a wager or may be redeemable for cash.
+(31) "Strong authentication" means a method that has been demonstrated to the satisfaction of the division to effectively
+provide higher security than a user name and password alone.
+(32) "Supplier" means a person who holds a supplier's license under IC 4-33-7 and 68 IAC 2-2.
+(33) "Suspicious wagering activity" means unusual wagering activity that cannot be explained and is indicative of match-
+fixing, the manipulation of an event, misuse of inside information, or other prohibited activity.
+(34) "Unusual wagering activity" means abnormal wagering activity exhibited by patrons and deemed by a sports wagering
+operator as a potential indicator of suspicious wagering activity. Unusual wagering activity may include the size of a patron's
+wager or increased wagering volume on a particular event or wager type.
+(Indiana Gaming Commission; 68 IAC 27-1-2; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-1-3 Deviation from provisions
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 3. The executive director may approve deviations from the provisions of this article upon written request if the
+executive director determines that:
+(1) the requirement or procedure is impractical or burdensome; and
+(2) the alternative means of satisfying the requirement or procedure:
+(A) fulfills the purpose of IC 4-38;
+(B) is in the best interest of the public and sports wagering in Indiana; and
+(C) does not violate IC 4-38.
+(Indiana Gaming Commission; 68 IAC 27-1-3; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+Rule 2. Sports Wagering Licensure
+68 IAC 27-2-1 Application fees
+68 IAC 27-2-2 Applications
+68 IAC 27-2-3 Licensing process
+68 IAC 27-2-4 Temporary license
+68 IAC 27-2-5 Issuance of a permanent license
+68 IAC 27-2-6 License requirements
+68 IAC 27-2-7 Reapplication for denied license
+68 IAC 27-2-8 Renewal of license
+68 IAC 27-2-9 Request for hearing on notice of denial or nonrenewal of license
+68 IAC 27-2-10 Revocation, suspension, and disciplinary action
+68 IAC 27-2-11 Duty to maintain suitability, duty to disclose; transfer of ownership interest
+Indiana Administrative Code Page 3
+
+=== page 4 ===
+SPORTS WAGERING
+68 IAC 27-2-12 Inspections
+68 IAC 27-2-13 Reporting of interest in a license
+68 IAC 27-2-14 Reporting of interest in a license
+68 IAC 27-2-15 Supplier licensing related to sports wagering
+68 IAC 27-2-16 Occupational licensing
+68 IAC 27-2-17 Request for review of or hearing on notice of denial or nonrenewal of occupational
+license
+68 IAC 27-2-18 Sports wagering manager
+68 IAC 27-2-19 Sports wagering registration requirement
+68 IAC 27-2-20 Sports wagering registrant application
+68 IAC 27-2-21 Determination of suitability for sports wagering registrants
+68 IAC 27-2-1 Application fees
+Authority: IC 4-38-3-1
+Affected: IC 4-38-4-3
+Sec. 1. All required application fees described under IC 4-38 shall be submitted to the commission in the form of a certified
+check or cashier's check made payable to the Indiana gaming commission, or other form as prescribed by the commission. (Indiana
+Gaming Commission; 68 IAC 27-2-1; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-2 Applications
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 2. (a) Application procedures shall be as follows:
+(1) An applicant is seeking a privilege and assumes and accepts any and all risk of adverse publicity, notoriety,
+embarrassment, criticism, or other action or financial loss that may occur in connection with the application process or the
+public disclosure of information requested. The applicant expressly waives any claim for damages that may result from the
+application process.
+(2) A misrepresentation or omission made with respect to an application may be grounds for denial of the application.
+(3) An applicant must submit a fully executed original application.
+(4) An application is deemed filed when the commission has received the completed application forms, including the
+information that the commission has required.
+(5) The completed applications must be filed as follows:
+(A) In the commission's office in Indianapolis, Indiana.
+(B) Prior to the expiration of appropriate deadlines established and published by the commission.
+(6) An applicant is under a continuing duty to disclose any changes in the information submitted to the commission.
+(b) An application for a sports wagering certificate of authority or vendor's license shall include the following information:
+(1) The name, address, and legal information of the applicant.
+(2) A Personal Disclosure Form 1 for a substantial owner, key person, or other person that the commission deems necessary
+to allow the commission to ensure that the applicant meets the statutory criteria for licensure.
+(3) A description of all sports wagering services, equipment, devices, and supplies offered for sale or lease by the applicant
+in connection with sports wagering.
+(4) Details regarding the corporate form of the applicant.
+(5) Relevant contracts related to the sports wagering activities the applicant will provide.
+(6) Disclosure of any criminal, civil, or administrative action brought against the applicant.
+(7) Description of all other licenses held by the applicant.
+(8) Description of the applicant's business plan related to the sports wagering activities it will provide, including employment
+plans, and server location.
+(9) The past three (3) years of financial records of the applicant.
+Indiana Administrative Code Page 4
+
+=== page 5 ===
+SPORTS WAGERING
+(10) Organizational and ownership charts of the applicant.
+(c) An application for a sports wagering service provider license shall include the following information:
+(1) The name, address, and legal information of the applicant.
+(2) A description of all sports wagering services, equipment, devices, and supplies offered for sale or lease by the applicant
+in connection with sports wagering.
+(3) Details regarding the corporate form of the applicant.
+(4) Organizational and ownership charts of the applicant.
+(5) Disclosure of any criminal, civil, or administrative action brought against the applicant.
+(6) Description of all other licenses held by the applicant.
+(7) Information regarding any testing, certifications, or approvals on any component required to provide sports wagering
+services or products from any authorized independent gaming laboratory or other gaming jurisdictions.
+(d) An applicant may not withdraw an application for a sports wagering license without leave of the executive director or
+commission. The executive director or commission shall grant a request for leave to withdraw a license if received prior to
+commission action on licensure under this rule unless a withdrawal is not in the best interest of the state of Indiana and the gaming
+industry. (Indiana Gaming Commission; 68 IAC 27-2-2; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-3 Licensing process
+Authority: IC 4-38-3-1
+Affected: IC 4-38-4-6; IC 4-38-6-7; IC 4-38-7-4
+Sec. 3. An application for a sports wagering license shall be subject to the following process:
+(1) Applicant must submit a complete application, including an application fee and all required attachments.
+(2) The commission shall begin investigating the applicant.
+(3) The commission may issue a temporary license in accordance with IC 4-38 and section 4 of this rule.
+(4) Upon completing its investigation of the applicant, the commission shall vote to grant or deny the application.
+(5) If the commission grants the application, it shall issue a permanent license.
+(Indiana Gaming Commission; 68 IAC 27-2-3; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-4 Temporary license
+Authority: IC 4-38-3-1
+Affected: IC 4-38-4-6; IC 4-38-6-7; IC 4-38-7-4
+Sec. 4. (a) After the commission receives a completed application, an application fee, and, for a vendor or sports wagering
+service provider applicant, an agreement or statement of intent indicating that a licensee or licensee applicant will utilize the applicant
+for the provision of goods and services, the commission shall obtain the applicant's fingerprints at a time and place directed by the
+executive director.
+(b) If the application or a criminal history check completed by an enforcement agent, or both, reveals that the applicant:
+(1) has not been convicted of a felony under Indiana law, the laws of any other state, or the laws of the United States; or
+(2) meets the statutory criteria set forth in IC 4-38;
+the commission may issue the applicant a temporary license.
+(c) The temporary license shall:
+(1) be on a form prescribed by the commission; and
+(2) meet the specifications set forth in section 6 of this rule.
+(d) An applicant who receives a temporary license may offer sports wagering related goods and services until:
+(1) a permanent license is issued; or
+(2) the temporary license is withdrawn.
+(e) A temporary license shall not be transferred.
+(f) If an applicant fails to provide or ceases providing a licensee with goods or services, the applicant shall:
+(1) advise the commission immediately; and
+(2) return the temporary license to the commission.
+Indiana Administrative Code Page 5
+
+=== page 6 ===
+SPORTS WAGERING
+Failure to advise the commission that the applicant has failed to begin or has ceased providing a licensee with goods and services
+is grounds for the commission to withdraw the temporary license and deny licensure in the future.
+(g) Procedures for the withdrawal of a temporary supplier's license include, but are not limited to, the following:
+(1) The executive director, upon written notice to the applicant and the licensee who has signed a statement of intent, may
+withdraw a temporary license if the executive director determines that the background investigation reveals that the applicant
+is not suitable for licensure.
+(2) If an applicant's temporary license is withdrawn, the applicant shall not be permitted to provide any licensee with any
+sports wagering goods or services.
+(3) If the executive director withdraws an applicant's temporary license, the executive director shall immediately forward
+the application to the commission for commission action.
+(4) The applicant may seek to voluntarily withdraw its application for a license in accordance with this rule before the
+commission acts in response to a withdrawal of the applicant's temporary license.
+(h) An applicant must comply with all requests for information, documents, or other materials relating to the applicant and
+the application during the temporary license period, during which time the commission will conduct its investigation. (Indiana
+Gaming Commission; 68 IAC 27-2-4; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-5 Issuance of a permanent license
+Authority: IC 4-38-3-1
+Affected: IC 4-33-8; IC 4-38
+Sec. 5. The applicant shall meet the following standards, qualifications, or criteria to be issued a permanent sports wagering
+license:
+(1) The applicant must qualify to receive a license under IC 4-38.
+(2) An applicant for a certificate of authority or vendor's license must have all key persons and substantial owners qualify
+to receive Level 1 occupational licenses under IC 4-33-8 and 68 IAC 2-3.
+(3) The applicant, in the case of an individual, or the applicant's substantial owners, must be twenty-one (21) years of age.
+(4) The applicant must demonstrate a level of:
+(A) skill;
+(B) experience;
+(C) knowledge; and
+(D) ability;
+necessary to conduct the sports wagering activities that the applicant seeks to provide.
+(5) The applicant must not have been convicted of any offense for a violation of a gaming law in any jurisdiction.
+(6) The applicant must not appear on the exclusion list of any jurisdiction for having violated a rule of gaming.
+(7) The applicant or the applicant's substantial owners must be in substantial compliance with all state and federal tax laws.
+(Indiana Gaming Commission; 68 IAC 27-2-5; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-6 License requirements
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 6. (a) The temporary and permanent licenses issued under this rule shall be on forms prescribed by the commission
+and shall display the following:
+(1) The applicant's name and business address.
+(2) The license number assigned by the commission.
+(3) The signature of the executive director of the commission.
+(4) The date the license was issued.
+(5) The date that the license will expire.
+(6) Any other information the commission deems necessary to identify the licensee, and any conditions or restrictions that
+are placed on the license.
+Indiana Administrative Code Page 6
+
+=== page 7 ===
+SPORTS WAGERING
+(b) The temporary and permanent supplier's licenses shall remain the property of the commission at all times. The
+commission may:
+(1) revoke;
+(2) suspend;
+(3) cancel; or
+(4) restrict;
+the license under 68 IAC 13.
+(c) A vendor licensee must return the license and all applicable occupational licenses to the commission if the vendor
+licensee ceases to provide any certificate of authority holder with sports wagering activities. (Indiana Gaming Commission; 68 IAC
+27-2-6; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-7 Reapplication for denied license
+Authority: IC 4-38-1-4; IC 4-38-3-1
+Affected: IC 4-38-6-6; IC 4-38-8-1
+Sec. 7. A person whose application for a sports wagering license has been denied may not reapply for a sports wagering
+license for a period of one (1) year from the date on which the commission voted to deny the applicant's application, unless the
+commission grants leave. The commission may grant leave for reapplication if the applicant can demonstrate that the reason the
+original application was denied no longer exists or bars suitability for licensure. (Indiana Gaming Commission; 68 IAC 27-2-7; filed
+Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-8 Renewal of license
+Authority: IC 4-38-1-4; IC 4-38-3-1
+Affected: IC 4-38-6-6; IC 4-38-8-1
+Sec. 8. (a) A certificate of authority and vendor's license shall be renewed in accordance with IC 4-38.
+(b) The sports wagering operator shall submit the required annual administrative fee described under IC 4-38 on or before
+one (1) year after the date that the sports wagering operator commences sports wagering operations and on each annual anniversary
+date thereafter.
+(c) A sports wagering operator shall undergo a complete investigation every three (3) years to determine that the sports
+wagering operator remains in compliance with this article and IC 4-38. A certificate of authority holder shall complete its first three
+(3) year investigation concurrently with the next three (3) year reinvestigation of its associated casino license or gambling game
+license.
+(d) The commission may refuse to renew a certificate of authority or vendor's license if the sports wagering operator no
+longer meets the requirements set forth in this article or IC 4-38. Alternatively, the commission may renew the certificate of authority
+or vendor's license and provide the sports wagering operator thirty (30) days, or other time frame as agreed to by the commission
+and the sports wagering operator, to come into compliance with this article and IC 4-38. (Indiana Gaming Commission; 68 IAC 27-2-
+8; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-9 Request for hearing on notice of denial or nonrenewal of license
+Authority: IC 4-38-1-4; IC 4-38-3-1
+Affected: IC 4-38
+Sec. 9. (a) An applicant, certificate of authority holder, vendor, or sports wagering service provider licensee who is served
+with a notice of denial or nonrenewal of a license under this article may request a hearing under 68 IAC 7.
+(b) If the applicant, certificate of authority holder, vendor, or sports wagering service provider licensee does not timely
+request a hearing, the notice of denial or nonrenewal becomes the final order of the commission denying the application or not
+renewing the certificate or license. (Indiana Gaming Commission; 68 IAC 27-2-9; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-
+068200420FRA)
+Indiana Administrative Code Page 7
+
+=== page 8 ===
+SPORTS WAGERING
+68 IAC 27-2-10 Revocation, suspension, and disciplinary action
+Authority: IC 4-38-1-4; IC 4-38-3-1
+Affected: IC 4-33; IC 4-35; IC 4-38
+Sec. 10. (a) The commission or executive director may take any action against a certificate of authority holder, vendor, or
+sports wagering service provider licensee at any time, including, but not limited to:
+(1) revocation; or
+(2) suspension;
+of the certificate or license at any time that the commission or executive director determines the certificate of authority holder or
+licensee is in violation of IC 4-33, IC 4-35, IC 4-38, or this article, or if such action is in the best interest of Indiana and will protect
+and enhance the credibility and integrity of sports wagering operations.
+(b) If the commission determines that a sports wagering licensee is in violation of IC 4-38 or this article, the commission
+may take action as the commission deems necessary, including commencing disciplinary proceedings assessing monetary penalties.
+Disciplinary action shall be pursued against the certificate of authority holder or licensee in accordance with the procedures in 68
+IAC 13, except any provision therein that is inapplicable to sports wagering. (Indiana Gaming Commission; 68 IAC 27-2-10; filed
+Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-11 Duty to maintain suitability, duty to disclose; transfer of ownership interest
+Authority: IC 4-38-1-4; IC 4-38-3-1
+Affected: IC 4-33; IC 4-35; IC 4-38
+Sec. 11. (a) A certificate of authority holder, vendor licensee, sports wagering service provider licensee, and a registrant
+have a continuing duty to maintain suitability for licensure. A license issued under this rule does not create a property right, but is
+a revocable privilege granted by the state contingent upon continuing suitability for licensure.
+(b) The sports wagering operators, sports wagering service providers, and registrant applicants are responsible for the
+following:
+(1) Ensuring that all aspects of the sports wagering operation are conducted in accordance with IC 4-33, IC 4-35, IC 4-38,
+68 IAC, directives of the commission, applicable internal controls of the sports wagering operator, and all other state,
+federal, and local laws.
+(2) The acts of its employees and agents in the course of their employment.
+(c) Certificate of authority holders, vendors, registrants, and sports wagering service provider licensees shall notify the
+commission of a material change in the information submitted in the application, or a matter that renders the licensee ineligible to
+hold a certificate of authority, vendor or sports wagering service provider license, or registration.
+(d) An ownership interest in a certificate of authority or vendor's license shall not be transferred unless the transfer complies
+with 68 IAC 5. (Indiana Gaming Commission; 68 IAC 27-2-11; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-12 Inspections
+Authority: IC 4-38-1-4; IC 4-38-3-1
+Affected: IC 4-38
+Sec. 12. A sports wagering operator must make available for inspection by the commission, executive director, or its agents
+or investigators, local sheriffs, or their agents or investigators, and police departments, upon demand, all papers, books, and records
+produced, used, or kept in connection with sports betting, and all portions of the premises where sports betting is conducted or where
+a sports betting system is housed. Upon demand, employees and agents of the commission and division must be given access to any
+portion of the premises of a sports wagering operator for the purpose of inspecting or examining records or documents, sports betting
+systems, or the conduct of sports betting activity. (Indiana Gaming Commission; 68 IAC 27-2-12; filed Jun 25, 2021, 2:59 p.m.:
+20210721-IR-068200420FRA)
+Indiana Administrative Code Page 8
+
+=== page 9 ===
+SPORTS WAGERING
+68 IAC 27-2-13 Reporting of interest in a license
+Authority: IC 4-38-1-4; IC 4-38-3-1
+Affected: IC 4-33-10-2.1; IC 4-38
+Sec. 13. (a) As used in this rule, "interest" has the meaning set forth in IC 4-33-10-2.1(h).
+(b) As used in this rule, "publicly traded corporation" has the meaning set forth in 68 IAC 5-1-1(b)(2).
+(c) A sports wagering operator or applicant that is not a publicly traded corporation must file a quarterly report that sets forth
+those persons who hold an interest in the certificate of authority or vendor's license.
+(d) The quarterly report must be filed, in the formats directed by the executive director or the executive director's designee,
+by the fifteenth day of the month following the close of the quarter based on the calendar quarter. The executive director may require
+a sports wagering operator to file the report at any other time that the executive director determines it is necessary to ensure
+compliance with IC 4-33-10-2.1.
+(e) The report must be filed with the following persons:
+(1) The directors of background and financial investigations for the commission.
+(2) The Indiana election division.
+(Indiana Gaming Commission; 68 IAC 27-2-13; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-14 Reporting of interest in a license
+Authority: IC 4-38-1-4; IC 4-38-3-1
+Affected: IC 4-33; IC 4-35; IC 4-38
+Sec. 14. (a) A publicly traded corporation that is a sports wagering operator or applicant that files:
+(1) Form 13-G;
+(2) Form 4;
+(3) Form 10;
+(4) Form 10-Q;
+(5) Form 10-K;
+(6) Form 8-K;
+(7) Form 1-A;
+(8) Registration Statement S-1;
+(9) Registration Statement SB-2;
+(10) Registration Statement 10-SB;
+(11) Report 10-KSB;
+(12) Report 10-QSB;
+(13) Schedule 13e-3;
+(14) Schedule 14D-9; or
+(15) any filing required by Rule 14f-1 promulgated under the Securities Exchange Act of 1934 (15 U.S.C. 78a et seq.);
+shall notify the directors of background and financial investigations for the commission within ten (10) business days of filing the
+document with the Securities and Exchange Commission.
+(b) A publicly traded corporation that is a sports wagering operator that receives any material document filed with the
+Securities and Exchange Commission by any other person relating to the publicly traded corporation shall, within ten (10) business
+days following receipt, file one (1) copy of the document with the commission.
+(c) A publicly traded corporation that is a sports wagering operator shall do the following:
+(1) File a list of record holders and beneficial owners of its voting securities with the commission annually.
+(2) Report to the commission the election or appointment of any director, executive officer, or any other officer of the
+licensee, holding company, or intermediary company thereof who is actively and directly engaged in the administration or
+supervision of the sports wagering operator.
+(3) Advise the commission, in writing, that a key person or substantial owner of the publicly traded corporation has disposed
+of any of the publicly traded corporation's voting securities by the fifteenth day of the month following the transaction.
+(d) A sports wagering operator, intermediary, or holding company thereof shall file any other document requested by the
+Indiana Administrative Code Page 9
+
+=== page 10 ===
+SPORTS WAGERING
+commission to ensure compliance with IC 4-33, IC 4-35, IC 4-38, or this article within thirty (30) days or any other time established
+by the commission. (Indiana Gaming Commission; 68 IAC 27-2-14; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-15 Supplier licensing related to sports wagering
+Authority: IC 4-38-1-4; IC 4-38-3-1
+Affected: IC 4-33-7
+Sec. 15. An applicant for a supplier's license, or a currently licensed supplier licensee, under IC 4-33-7 and 68 IAC 2-2, that
+offers sports wagering system components or services is also subject to IC 4-38 and this article. (Indiana Gaming Commission; 68
+IAC 27-2-15; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-16 Occupational licensing
+Authority: IC 4-38-1-4; IC 4-38-3-1
+Affected: IC 4-33-8; IC 4-38-9-1
+Sec. 16. (a) All key persons and substantial owners of a sports wagering operator applicant must obtain a Level 1
+occupational license.
+(b) An employee, independent contractor, agent, or subagent of a sports wagering operator shall obtain a Level 2
+occupational license under 68 IAC 2-3 if the executive director or the executive director's designee determines it is necessary. In
+making that determination, the executive director or the executive director's designee shall consider the:
+(1) frequency and duration of the individual's work for a sports wagering operator or access to the sports wagering system
+that relate to the conduct or integrity of sports wagering; and
+(2) tasks that the individual will perform as part of the individual's job duties in a licensed facility or while accessing the
+sports wagering system that relate to the conduct or integrity of sports wagering.
+(c) If a sports wagering operator experiences an unexpected vacancy in a position that requires a Level 1 license, the
+executive director or the executive director's designee may grant emergency relief by permitting the licensee to fill the vacancy, for
+up to thirty (30) days, with an individual who has not submitted a license application, which may be extended for good cause. For
+the executive director to grant emergency relief, the following must occur:
+(1) The licensee must submit a written request that includes, at a minimum:
+(A) the name of the replacement;
+(B) the professional qualifications of the replacement;
+(C) the gaming licensure history of the replacement, including a detailed description of any disciplinary actions or
+investigations in another jurisdiction; and
+(D) a detailed explanation of why the replacement must begin the replacement's job duties prior to submitting an
+application.
+(2) The executive director shall determine whether:
+(A) continued vacancy of the position is likely to have a significant detrimental effect on the:
+(i) profitability of;
+(ii) integrity of; or
+(iii) tax revenues gained from;
+sports wagering; and
+(B) based on the information available at the time, the replacement is likely to be deemed suitable for licensure
+following submission of an application and a full investigation.
+(d) Except as outlined in this section, occupational licensing of an employee, independent contractor, agent, or subagent
+of a sports wagering operator shall be governed by IC 4-33-8 and 68 IAC 2-3. (Indiana Gaming Commission; 68 IAC 27-2-16; filed
+Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-17 Request for review of or hearing on notice of denial or nonrenewal of occupational license
+Authority: IC 4-38-1-4; IC 4-38-3-1
+Affected: IC 4-38-9-1
+Indiana Administrative Code Page 10
+
+=== page 11 ===
+SPORTS WAGERING
+Sec. 17. (a) An occupational licensee applicant who is served with a notice of denial or nonrenewal may request a hearing
+on the notice of denial or nonrenewal under 68 IAC 7.
+(b) If the applicant does not request a waiver or a hearing on the notice of denial or nonrenewal, the denial or nonrenewal
+becomes the final order of the commission denying the application for an occupational license. (Indiana Gaming Commission; 68
+IAC 27-2-17; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-18 Sports wagering manager
+Authority: IC 4-38-1-4; IC 4-38-3-1
+Affected: IC 4-38-9-1
+Sec. 18. A sports wagering operator shall have at least one (1) manager level position designated as a Level 1 occupational
+licensee. (Indiana Gaming Commission; 68 IAC 27-2-18; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-19 Sports wagering registration requirement
+Authority: IC 4-38-1-4; IC 4-38-3-1
+Affected: IC 4-33-7; IC 4-38-2-20
+Sec. 19. (a) An individual or entity that is contracted to provide goods or services that the executive director or the executive
+director's designee determines affects the conduct of sports wagering, but falls outside of the scope of a supplier's license under IC
+4-33-7 or a sports wagering service provider under IC 4-38-2-20, shall be required to register with the commission as a sports
+wagering registrant.
+(b) Affiliates that provide marketing or other services meant to promote sports wagering websites shall register with the
+commission under this section.
+(c) A sports wagering operator shall conduct due diligence in a commercially reasonable manner regarding the:
+(1) criminal history;
+(2) character; and
+(3) reputation;
+of each contracted sports wagering registrant. This information shall be provided to the commission upon request. (Indiana Gaming
+Commission; 68 IAC 27-2-19; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-20 Sports wagering registrant application
+Authority: IC 4-38-1-4; IC 4-38-3-1
+Affected: IC 4-38
+Sec. 20. (a) An application for a sports wagering registrant must pay a nonrefundable application fee in the amount of five
+hundred dollars ($500) to the commission in the form of a certified check or cashier's check made payable to the Indiana gaming
+commission or other form as prescribed by the commission.
+(b) An application for a sports wagering registration shall include the following information:
+(1) The name, address, and legal information of the applicant.
+(2) A description of the sports wagering related services the applicant will provide.
+(3) Details regarding the corporate form of the applicant.
+(4) The identification any Indiana sports wagering licensees that are contracted with the applicant for the service described
+under section 19 of this rule.
+(5) Organizational and ownership charts of the applicant.
+(Indiana Gaming Commission; 68 IAC 27-2-20; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-2-21 Determination of suitability for sports wagering registrants
+Authority: IC 4-38-1-4; IC 4-38-3-1
+Affected: IC 4-38
+Indiana Administrative Code Page 11
+
+=== page 12 ===
+SPORTS WAGERING
+Sec. 21. (a) A sports wagering registrant shall at all times conduct himself or herself in a manner that does not compromise
+the integrity of sports wagering in Indiana, tarnish the image and reputation of the state of Indiana, or reflect poorly on an Indiana
+sports wagering operator. In making this determination, the commission may consider the following:
+(1) Criminal records.
+(2) Suspension of licenses or registration certificates, or their equivalent, or any other adverse actions in other jurisdictions.
+(3) Associations with businesses and individuals.
+(4) Compliance with sports wagering laws and regulations in Indiana and other jurisdictions.
+(5) Any other factors related to the integrity of sports wagering in Indiana as the commission deems appropriate.
+(b) A certificate of registration does not create a property right, but is a revocable privilege granted by the state contingent
+upon continuing suitability for registration. If the commission determines that a sports wagering registrant is no longer suitable, the
+commission may initiate a disciplinary action to revoke, restrict, or suspend the certificate of registration or take such other action
+as the commission deems necessary, including action upon the sports wagering operator.
+(c) If the commission finds a sports wagering registrant to be unsuitable, the registration is subject to cancellation. A sports
+wagering operator shall, upon written notification of a finding of unsuitability, immediately terminate all relationships, direct or
+indirect, with such sports wagering registrant. No determination of suitability of a sports wagering registrant shall preclude a later
+determination by the commission of unsuitability. A registrant who is served with a revocation, suspension, or monetary penalty under
+this article may request a hearing under 68 IAC 7.
+(d) Sports wagering registrants have a continuing duty to notify the commission of any change in information previously
+submitted to the commission. Written notification must be submitted within ten (10) calendar days of the change or the occurrence
+of the event. Upon notification that a registrant is no longer doing business in Indiana, the entity's registration shall cease. The
+registrant shall be required to reapply if the registrant resumes business operations in Indiana. (Indiana Gaming Commission; 68 IAC
+27-2-21; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+Rule 3. General Requirements For Sports Wagering Operators
+68 IAC 27-3-1 Reserve requirement
+68 IAC 27-3-2 System assessment
+68 IAC 27-3-3 Patron complaints
+68 IAC 27-3-4 Sports wagering transactions
+68 IAC 27-3-5 Security requirement
+68 IAC 27-3-1 Reserve requirement
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 1. A sports wagering operator shall maintain a reserve in the form of cash, cash equivalents, payment processor
+reserves, payment processor receivables, an irrevocable letter of credit, a bond, or combination thereof, of not less than the greater
+of five hundred thousand dollars ($500,000) or the amount necessary to ensure the ability to cover the outstanding sports wagering
+liability. (Indiana Gaming Commission; 68 IAC 27-3-1; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-3-2 System assessment
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 2. (a) Each sports wagering operator shall, within ninety (90) days of commencing operations, and annually thereafter,
+perform a system integrity and security assessment of sports wagering systems and online sports wagering systems conducted by an
+independent professional selected by the licensee and subject to approval of the executive director or the executive director's
+designee. The independent professional's report on the assessment shall be submitted to the commission and shall include:
+(1) scope of review;
+(2) name and company affiliation of the individual or individuals who conducted the assessment;
+(3) date of assessment;
+Indiana Administrative Code Page 12
+
+=== page 13 ===
+SPORTS WAGERING
+(4) findings;
+(5) recommended corrective action, if applicable; and
+(6) the operator's response to the findings and recommended corrective action.
+(b) The annual system assessment shall be provided to the commission not later than July 15 of each year, with the first
+annual system assessment to be provided to the commission not later than July 15, 2021. (Indiana Gaming Commission; 68 IAC 27-3-
+2; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-3-3 Patron complaints
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 3. (a) A sports wagering operator shall attempt to resolve all patron disputes with the patron. A sports wagering operator
+shall investigate each patron complaint and provide a response to the patron within ten (10) calendar days. The complaint must be
+made in writing.
+(b) For complaints related to patron accounts, settlement of wagers, and illegal activity that cannot be resolved to the
+satisfaction of the patron, a copy of the complaint and the sports wagering operator's response, including all relevant documentation,
+shall be provided to the division, as applicable. (Indiana Gaming Commission; 68 IAC 27-3-3; filed Jun 25, 2021, 2:59 p.m.:
+20210721-IR-068200420FRA)
+68 IAC 27-3-4 Sports wagering transactions
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 4. To conduct sports wagering retail transactions, a sports wagering operator shall submit a plan to the commission that
+meets the requirements of 68 IAC 12-1-5, and shall be approved by the executive director or the executive director's designee. Sports
+wagering transactions shall be conducted from:
+(1) a sports wagering lounge counter located in the sports wagering lounge or other window locations as approved by the
+executive director or the executive director's designee;
+(2) sports wagering kiosks in locations as approved by the executive director or the executive director's designee; or
+(3) a designated window in the cashier's cage for the redemption of winning sports wagering tickets only.
+(Indiana Gaming Commission; 68 IAC 27-3-4; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-3-5 Security requirement
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 5. (a) Sports wagering operations within a licensed facility shall be designed to promote optimum security of the
+licensed facility, and shall include the installation and maintenance of security and surveillance equipment, including closed circuit
+television equipment, under the requirements set forth in 68 IAC 12-1.
+(b) The commission shall have direct access to the system and its transmissions.
+(c) Nothing in this section shall preclude the commission from permitting a sports wagering operator to conduct sports
+wagering, subject to appropriate terms and conditions, in a location other than a sports wagering lounge upon petition of a sports
+wagering operator.
+(d) A sports wagering operator shall submit a surveillance plan for approval by the executive director or the executive
+director's designee prior to accepting wagers in any approved sports wagering lounge or approved sports wagering kiosk locations
+in the licensed facility. (Indiana Gaming Commission; 68 IAC 27-3-5; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+Rule 4. Sports Wagering Integrity; Confidential Information
+68 IAC 27-4-1 Sports wagering integrity; confidential information
+68 IAC 27-4-2 Obligation to report certain events
+Indiana Administrative Code Page 13
+
+=== page 14 ===
+SPORTS WAGERING
+68 IAC 27-4-3 Licensing independent integrity monitoring providers
+68 IAC 27-4-1 Sports wagering integrity; confidential information
+Authority: IC 4-38-3-1
+Affected: IC 4-38-9
+Sec. 1. (a) A sports wagering operator shall have internal controls in place to identify unusual betting activity and report
+such activity to an independent integrity monitoring provider.
+(b) All independent integrity monitoring providers shall share information with each member and shall disseminate all
+reports of unusual activity to all member sports wagering operators. All sports wagering operators shall review such reports and notify
+the independent integrity monitoring provider whether they have experienced similar activity.
+(c) If an independent integrity monitoring provider finds that previously reported unusual betting activity rises to the level
+of suspicious wagering activity, it shall immediately notify all other independent integrity monitoring providers, their member sports
+wagering operators, the division, and all other regulatory agencies as directed by the division. All independent integrity monitoring
+providers receiving a report under this section shall share such report with their member sports wagering operators.
+(d) A sports wagering operator must submit a yearly report to the division, which details its integrity monitoring services
+and summarizes any unusual betting activity or other suspicious wagering activity notifications issued during that time period.
+(e) A sports wagering operator receiving a report of suspicious wagering activity shall be permitted to suspend wagering
+on events related to the report, but may cancel only related wagers after receiving approval from the executive director or the
+executive director's designee.
+(f) If the division receives a suspicious wagering activity report from an independent integrity monitoring service provider,
+the division shall notify the relevant sports governing body as expeditiously as possible.
+(g) The division may require a sports wagering operator to provide any hardware necessary to the division for evaluation
+of its sports wagering offering or to conduct further monitoring of data provided by its system.
+(h) All information and data received under this section or this article by the commission related to unusual or suspicious
+wagering activity shall be considered confidential and shall not be revealed in whole or in part, except upon the lawful order of a
+court of competent jurisdiction or, with any law enforcement entity, member club, sports governing body, or regulatory agency that
+the commission deems appropriate. (Indiana Gaming Commission; 68 IAC 27-4-1; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-
+068200420FRA)
+68 IAC 27-4-2 Obligation to report certain events
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 2. A sports wagering operator shall provide a written notice to the executive director or the executive director's designee
+as soon as the sports wagering operator licensee becomes aware of the following:
+(1) A violation or apparent violation of a rule of the commission by any of the following:
+(A) The sports wagering operator.
+(B) A substantial owner, key person, or employee of the sports wagering operator.
+(C) A person acting, or authorized to act, on behalf of or in furtherance of the interests of the sports wagering operator
+licensee or an affiliate of the licensee.
+(2) A change in status of an owner's license, supplier's license, or the equivalent issued to the sports wagering operator
+licensee, or an affiliate by any other governmental entity.
+(3) Civil litigation filed against the:
+(A) sports wagering operator licensee's Indiana operations; or
+(B) sports wagering operator licensee that could significantly impact the sports wagering operator licensee's Indiana
+operations.
+(4) A criminal, civil, or administrative action, threatened action, or investigation initiated by any governmental entity against
+the sports wagering operator licensee.
+(5) Claims made by a governmental entity concerning the tax liability of a sports wagering operator licensee or a key person
+Indiana Administrative Code Page 14
+
+=== page 15 ===
+SPORTS WAGERING
+or substantial owner of the sports wagering operator licensee.
+(6) A civil, criminal, administrative, or tax action initiated:
+(A) by or against an employee of the sports wagering operator if the action relates to the gaming activity conducted
+by the sports wagering operator; or
+(B) against a key person, substantial owner, or an affiliate of a sports wagering operator licensee, if the action relates
+to a gaming operation under the jurisdiction of a governmental entity.
+(7) A bankruptcy, receivership, or debt adjustment initiated by or against the sports wagering operator licensee, or an
+affiliate thereof, or the sports wagering operator's substantial owners.
+(8) A compliance review conducted by the Internal Revenue Service under the Bank Secrecy Act of 1970. The sports
+wagering operator licensee must provide a copy of the compliance review report or the equivalent within ten (10) days of
+the receipt of the report by the sports wagering operator.
+(9) An action, event, or nonevent, with respect to which the executive director has instructed the sports wagering operator
+to provide notice so that the executive director can ensure that the sports wagering operator continues to maintain suitability
+for licensure.
+(Indiana Gaming Commission; 68 IAC 27-4-2; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-4-3 Licensing independent integrity monitoring providers
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 3. Any independent integrity monitoring provider operating in Indiana must obtain a sports wagering service provider
+license. (Indiana Gaming Commission; 68 IAC 27-4-3; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+Rule 5. Internal Controls and House Rules
+68 IAC 27-5-1 Internal control procedures
+68 IAC 27-5-2 Internal controls
+68 IAC 27-5-3 House rules
+68 IAC 27-5-4 Quarterly statements for withholding cash winnings from delinquent child support
+obligors
+68 IAC 27-5-1 Internal control procedures
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 1. The internal control procedures in this article are subject to the following:
+(1) Amendment procedures contained within 68 IAC 11-1-4.
+(2) Emergency procedures contained within 68 IAC 11-1-5.
+(Indiana Gaming Commission; 68 IAC 27-5-1; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-5-2 Internal controls
+Authority: IC 4-38-3-1
+Affected: IC 4-38-11; IC 5-14
+Sec. 2. Prior to beginning sports wagering operations, a sports wagering operator must submit for approval under 68 IAC
+11 internal controls for the following:
+(1) In the event of a failure of the sports wagering system's ability to pay winning wagers, the sports wagering operator shall
+have internal controls detailing the method of paying winning wagers. The sports wagering operator shall also file an
+incident report for each system failure and document the date, time, and reason for the failure along with the date and time
+the system is restored with the division.
+(2) The internal controls shall address the following items regarding the sports wagering system and online sports wagering
+Indiana Administrative Code Page 15
+
+=== page 16 ===
+SPORTS WAGERING
+systems, at a minimum:
+(A) In the event of a failure of the sports wagering system's ability to pay winning wagers, the sports wagering
+operator shall have internal controls detailing the method of paying winning wagers. The sports wagering operator
+shall also file an incident report for each system failure and document the date, time, and reason for the failure along
+with the date and time the system is restored with the division.
+(B) User access controls for all sports wagering personnel.
+(C) Segregation of duties.
+(D) Automated and manual risk management procedures.
+(E) Procedures for identifying and reporting fraud and suspicious conduct including identifying unusual betting
+activity and reporting such activity to an independent integrity monitoring provider.
+(F) Procedures to prevent wagering by prohibited sports wagering participants. However, an individual that has
+enrolled for a statewide Internet self-restriction is only restricted from placing wagers online or via mobile device.
+(G) Procedures for sports wagering operator-imposed exclusion of patrons, including:
+(i) providing a notification containing operator-imposed exclusion status and general instructions for resolution;
+(ii) ensuring that immediately upon executing the operator-imposed exclusion order, no new wagers or deposits
+are accepted from the patron, until such time as the operator-imposed exclusion has been revoked; and
+(iii) ensuring that the patron is not prevented from withdrawing any or all of the patron's account balance,
+provided that the sports wagering operator acknowledges that the funds have cleared, and that the reason or
+reasons for exclusion would not prohibit a withdrawal.
+(H) Description of anti-money laundering compliance standards, which shall include limitations placed on anonymous
+wagering at the sports wagering kiosks.
+(I) Process for submitting or receiving approval of all types of wagers available to be offered by the system.
+(J) Description of process for accepting wagers and issuing payouts, plus any additional controls for accepting wagers
+and issuing payouts in excess of ten thousand dollars ($10,000).
+(K) Description of process for accepting multiple wagers from one (1) patron in a twenty-four (24) hour cycle,
+including process to identify patron structuring of wagers to circumvent recording and reporting requirements.
+(L) For sports wagering conducted by a vendor, a description of how revenue will be reported to the certificate of
+authority holder and how the certificate of authority holder will remit taxes as required by IC 4-38.
+(M) Detailed procedures for reconciliation of assets and documents contained in a sports wagering lounge cashier's
+drawer, sports wagering kiosks, and online sports wagering, which shall include the drop, fill, and count procedures
+for sports wagering kiosks.
+(N) Procedures for cashing winning tickets at the cage after the sports wagering lounge has closed, if applicable.
+(O) Procedures for accepting value game chips for sports wagers, if applicable.
+(P) Procedures for issuance and acceptance of promotional funds for sports wagering.
+(Q) Description of all integrated third-party systems.
+(R) Identifying and restricting prohibited sports wagering participants. However, an individual that has enrolled for
+a statewide Internet self-restriction is restricted only from placing wagers online or via mobile device.
+(S) Instituting a process to close out dormant accounts.
+(T) Detailed procedures for making adjustments to a patron's account, providing a method for a patron to close out
+an account, and detail how a patron will be refunded after the closure of an account.
+(U) Detailed procedure for W-2G issuance when triggered.
+(V) If the sports wagering system allows online wagering, method for verifying geolocation systems to establish a
+patron's geographic location.
+(W) Maintaining the security of identity and financial information of patrons.
+(X) Withholding winnings from delinquent child support obligors in accordance with IC 4-38-11, including a plan
+for complying with IC 4-38-11 if the sports wagering operator allows the redemption of tickets via mail.
+(Y) Detailed problem gambling program procedures.
+(Z) Method for securely implementing the statewide Internet self-restriction program.
+(AA) Method for securely issuing, modifying, and resetting a patron's account password, personal identification
+number (PIN), or other approved security feature, when applicable.
+Indiana Administrative Code Page 16
+
+=== page 17 ===
+SPORTS WAGERING
+(BB) Methods of patron notification, including any password or security modification via electronic mail or regular
+mail, text message, or other manner approved by the executive director or the executive director's designee. Such
+methods shall include at a minimum:
+(i) proof of identity, if in person;
+(ii) the correct response to two (2) or more challenge questions; or
+(iii) strong authentication.
+(CC) Procedures for receiving, investigating, and responding to all patron complaints and submitting any unresolved
+patron complaint reports to the division.
+(DD) Detailing the location of the sports wagering servers, including any third party remote location servers, and what
+controls will be in place to ensure security of the sports wagering servers.
+(EE) Terms and conditions for sports wagering shall be included as an appendix.
+(FF) Description of the process for line setting and line moving.
+(GG) If allowed, method of redeeming lost tickets.
+(HH) Method by which the sports wagering operator will identify and cancel wagers in accordance with IC 4-38,
+including defining "obvious error".
+(II) Method for deploying changes and updates to the sports wagering system, including notification to the
+commission.
+(JJ) Any other internal control deemed necessary by the executive director or the executive director's designee to
+ensure the integrity of sports wagering.
+(3) The sports wagering operator shall stamp or otherwise mark each page of the internal control procedures submitted to
+the commission with the word "CONFIDENTIAL" if the material submitted is not subject to disclosure under IC 4-38 or
+IC 5-14.
+(Indiana Gaming Commission; 68 IAC 27-5-2; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-5-3 House rules
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 3. (a) A sports wagering operator shall adopt comprehensive house rules, which shall be approved by the executive
+director or the executive director's designee. The house rules shall address the following items regarding the sports wagering system
+and online sports wagering systems, at a minimum:
+(1) Method for calculation and payment of winning wagers.
+(2) Effect of schedule changes.
+(3) Method of notifying patrons of odds or proposition changes.
+(4) Acceptance of wagers at other than posted terms.
+(5) Expiration of any winning ticket one (1) year after the date of the event.
+(6) Lost ticket policy, if applicable.
+(7) Method of contacting the sports wagering operator for questions and complaints.
+(8) Description of prohibited sports wagering participants.
+(9) Method of funding a sports wager.
+(10) If the sports wagering operator permits a patron to redeem a winning wagering ticket by mail, patron instructions on
+how to do so. A sports wagering voucher may not be redeemed by mail.
+(11) Maximum payouts; however, such limits shall be established only through limiting the amount wagered and cannot be
+applied to reduce a winning wager amount.
+(12) A policy by which the sports wagering operator can cancel wagers in accordance with IC 4-38, including defining
+"obvious error".
+(13) Instructions on how to commence enrollment in the available self-exclusion programs along with relevant hyperlinks.
+Instructions on how to impose available wagering limitations on a patron's account along with relevant hyperlinks.
+(14) Instructions on how to impose available wagering limitations on a patron's account along with relevant hyperlinks.
+(b) The house rules, together with any other information the executive director deems appropriate, shall be conspicuously
+Indiana Administrative Code Page 17
+
+=== page 18 ===
+SPORTS WAGERING
+displayed in the sports wagering lounge, posted on the sports wagering operator's Internet website, and included in the terms and
+conditions of the sports wagering account, and copies shall be made readily available to patrons.
+(c) Amendments to the house rules must be approved by the executive director or the executive director's designee. (Indiana
+Gaming Commission; 68 IAC 27-5-3; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-5-4 Quarterly statements for withholding cash winnings from delinquent child support obligors
+Authority: IC 4-38-3-1
+Affected: IC 4-38-11
+Sec. 4. The sports wagering operator shall prepare and submit quarterly to the commission a summary of cash winnings
+withheld under IC 4-38-11. The summary shall include, without limitation, the following information:
+(1) The date on which the sports wagering operator withheld the cash winnings.
+(2) The amount of cash withheld for delinquent child support.
+(3) The amount of cash retained for an administrative fee in accordance with IC 4-38-11.
+(4) The following information from the obligor:
+(A) Full name.
+(B) Address.
+(C) Last four (4) digits of the obligor's Social Security number.
+(D) The child support case identifier for the case to which the bureau will apply the withheld cash winnings.
+(E) The name of the person who prepared the summary.
+(5) The sports wagering operator shall prepare and submit quarterly to the commission an updated list of the names of the
+employees who are authorized to participate in the withholding process.
+(6) These reports shall be deemed confidential.
+(Indiana Gaming Commission; 68 IAC 27-5-4; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+Rule 6. Sports Wagering System Requirements
+68 IAC 27-6-1 Certification testing
+68 IAC 27-6-2 Server location
+68 IAC 27-6-3 Cloud storage of duplicate data
+68 IAC 27-6-4 Sports wagering system requirements; logging
+68 IAC 27-6-1 Certification testing
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 1. (a) Prior to conducting sports wagering, and annually thereafter, the entire sports wagering system used in
+conjunction with the sports wagering operation shall be submitted to an Indiana approved authorized independent testing laboratory
+for certification testing under 68 IAC 2-6-3. A sports wagering operator's first annual recertification shall be due on or before three
+hundred sixty-five (365) days from the receipt of the Indiana gaming commission's approved independent testing laboratory
+certification correspondence.
+(b) All wagers shall be initiated, received, and otherwise made within the state of Indiana unless otherwise permitted by the
+commission in accordance with applicable federal and state laws. Consistent with the intent of the United States Congress as
+articulated in the Unlawful Internet Gambling Enforcement Act of 2006 (31 U.S.C. 5361 et seq.), the intermediate routing of
+electronic data relating to a lawful intrastate wager authorized under this provision shall not determine the location or locations in
+which such wager is initiated, received, or otherwise made.
+(c) A sports wagering operator shall document and maintain any system malfunction or deviation from the sports wagering
+system and maintain that data for a minimum period of three (3) years.
+(d) A sports wagering operator shall provide the executive director or the executive director's designee with access to
+wagering transactions and related data. (Indiana Gaming Commission; 68 IAC 27-6-1; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-
+068200420FRA)
+Indiana Administrative Code Page 18
+
+=== page 19 ===
+SPORTS WAGERING
+68 IAC 27-6-2 Server location
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 2. A sports wagering operator must locate a server in the state of Indiana. The location selected must have adequate
+security, including twenty-four (24) hour surveillance, and be approved by the executive director or the executive director's designee.
+(Indiana Gaming Commission; 68 IAC 27-6-2; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-6-3 Cloud storage of duplicate data
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 3. The executive director or the executive director's designee may approve of the use of cloud storage for duplicate data
+upon written request by a sports wagering operator. (Indiana Gaming Commission; 68 IAC 27-6-3; filed Jun 25, 2021, 2:59 p.m.:
+20210721-IR-068200420FRA)
+68 IAC 27-6-4 Sports wagering system requirements; logging
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 4. (a) All online sports wagering systems authorized by IC 4-38 and this article shall be designed to ensure the integrity
+and confidentiality of all patron communications and ensure the proper identification of the sender and receiver of all
+communications. If communications are performed across a public or third-party network, the system shall either encrypt the data
+packets or utilize a secure communications protocol to ensure the integrity and confidentiality of the transmission.
+(b) Sports wagering systems shall employ a mechanism capable of maintaining a separate copy of all of the information
+required to be logged in this section on a separate and independent logging device capable of being administered by an employee
+with no incompatible function. If the online sports wagering system can be configured such that any logged data is contained in a
+secure transaction file, a separate logging device is not required.
+(c) Sports wagering systems shall provide a mechanism for the commission to query and export, in a format required by the
+commission, all online sports wagering system data.
+(d) The sports wagering system shall be designed to comply with all federal requirements including, but not limited to,
+suspicious activity reporting and W-2G reporting. (Indiana Gaming Commission; 68 IAC 27-6-4; filed Jun 25, 2021, 2:59 p.m.:
+20210721-IR-068200420FRA)
+Rule 7. Patron Wagers
+68 IAC 27-7-1 Commission approval required
+68 IAC 27-7-2 Commission approval of wagering on other events
+68 IAC 27-7-3 Unauthorized events offered for wagering
+68 IAC 27-7-4 Wager and source of data requirements
+68 IAC 27-7-5 Wager funding
+68 IAC 27-7-6 Patron sports wagering account required for credit or debit card wagering
+68 IAC 27-7-7 Wager displays
+68 IAC 27-7-8 Ticket contents
+68 IAC 27-7-9 Currency transaction reports and multiple transaction logs
+68 IAC 27-7-10 House rules
+68 IAC 27-7-11 Canceled events and markets
+68 IAC 27-7-12 Cancellation of wagers
+68 IAC 27-7-13 Cashier canceled wagers
+68 IAC 27-7-14 Prohibiting wagers for good cause
+68 IAC 27-7-15 Layoff wagers
+Indiana Administrative Code Page 19
+
+=== page 20 ===
+SPORTS WAGERING
+68 IAC 27-7-16 Promotions
+68 IAC 27-7-17 Responsible advertising
+68 IAC 27-7-1 Commission approval required
+Authority: IC 4-38-3-1
+Affected: IC 4-38-5
+Sec. 1. Before accepting wagers on any event category from patrons, a sports wagering operator must receive event category
+approval from the executive director or the executive director's designee. The sports wagering operator shall provide notice to the
+executive director or the executive director's designee, and such notice shall include the name of the sports governing body and a
+description of its policies and procedures regarding event integrity. The commission reserves the right to prohibit the acceptance of
+any wagers, and may order the cancellation of wagers and require refunds on any event for which wagering would negatively impact
+the integrity of sports wagering in the state. (Indiana Gaming Commission; 68 IAC 27-7-1; filed Jun 25, 2021, 2:59 p.m.: 20210721-
+IR-068200420FRA)
+68 IAC 27-7-2 Commission approval of wagering on other events
+Authority: IC 4-38-3-1
+Affected: IC 4-38-5
+Sec. 2. A request for approval to accept wagers on an event other than professional and collegiate sporting events shall be
+made by a sports wagering operator on such forms approved by the executive director, and shall include:
+(1) a full description of the event and the manner in which wagers would be placed and winning wagers would be
+determined;
+(2) a full description of any technology that would be utilized to offer the event;
+(3) assurance that the event meets the requirements of section 4 of this rule; and
+(4) any other information related to the nature of the event deemed necessary by the executive director or the executive
+director's designee.
+(Indiana Gaming Commission; 68 IAC 27-7-2; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-7-3 Unauthorized events offered for wagering
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 3. (a) If it is determined that a sports wagering operator has offered an unauthorized event for wagering, the sports
+wagering operator shall cancel and refund all wagers associated with that event.
+(b) If any wagers contemplated in subsection (a) cannot be refunded at the time the unauthorized event is identified, the
+sports wagering operator shall provide the commission with a report detailing such wagers. (Indiana Gaming Commission; 68 IAC
+27-7-3; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-7-4 Wager and source of data requirements
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 4. (a) A sports wagering operator shall only accept sports wagers for events for which:
+(1) the outcome can be verified;
+(2) the outcome can be generated by a reliable and independent process;
+(3) the outcome is not affected by any wager placed; and
+(4) the event is conducted in conformity with all applicable laws.
+(b) The commission reserves the right to disapprove of the source of data for any reason, including, but not limited to, the
+type of wager and method of data collection. (Indiana Gaming Commission; 68 IAC 27-7-4; filed Jun 25, 2021, 2:59 p.m.:
+Indiana Administrative Code Page 20
+
+=== page 21 ===
+SPORTS WAGERING
+20210721-IR-068200420FRA)
+68 IAC 27-7-5 Wager funding
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 5. Patron wagers placed in a sports wagering lounge, sports wagering kiosk, or other approved area within a licensed
+facility shall be made with:
+(1) cash;
+(2) cash equivalent;
+(3) a credit or debit card, provided the patron has created a sports wagering account;
+(4) promotional funds;
+(5) sports wagering vouchers;
+(6) value gaming chips; and
+(7) any other means approved by the executive director or the executive director's designee.
+(Indiana Gaming Commission; 68 IAC 27-7-5; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-7-6 Patron sports wagering account required for credit or debit card wagering
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 6. A patron may only place a wager via credit or debit card, whether the patron places the wager at a sports wagering
+lounge, sports wagering kiosk, online, or by a mobile device, if the patron has a sports wagering account with the sports wagering
+operator. (Indiana Gaming Commission; 68 IAC 27-7-6; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-7-7 Wager displays
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 7. The available wagers shall be displayed in a manner visible to the public and the operator's closed circuit television
+system. The display shall include:
+(1) the event number;
+(2) the odds; and
+(3) a brief description of the event.
+(Indiana Gaming Commission; 68 IAC 27-7-7; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-7-8 Ticket contents
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 8. Upon completion of a wagering transaction, the patron shall receive a virtual or printed wager record, which shall
+contain at a minimum the following information:
+(1) The date and time the wager was placed.
+(2) The date and time the event is expected to occur.
+(3) Any patron choices involved in the wager as follows:
+(A) Wager selection.
+(B) Type of wager and line postings.
+(C) Any special condition or conditions applying to the wager.
+(D) Payout.
+(4) Total amount wagered, including any promotional/bonus credits, if applicable.
+Indiana Administrative Code Page 21
+
+=== page 22 ===
+SPORTS WAGERING
+(5) Event and market identifiers.
+(6) Unique identification number of the wager record.
+(7) For printed wager records, the following must be included:
+(A) Sports wagering lounge name.
+(B) Unique sports wagering device identification that issued the wager record.
+(C) Expiration period, if applicable.
+(Indiana Gaming Commission; 68 IAC 27-7-8; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-7-9 Currency transaction reports and multiple transaction logs
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 9. Wagers and payouts made under this article shall be subject to the requirements described in 68 IAC 15-2. (Indiana
+Gaming Commission; 68 IAC 27-7-9; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-7-10 House rules
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 10. The house rules and information available to the patron through the sports wagering device, or upon request at a
+licensed facility, must clearly state what is to occur when an event or market is canceled, including the handling of wagers with
+multiple events, such as parlays, where one (1) or more of these legs are canceled. If a single event or market is canceled for any
+reason, all wagers are to be refunded in full as soon as reasonably possible. (Indiana Gaming Commission; 68 IAC 27-7-10; filed
+Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-7-11 Canceled events and markets
+Authority: IC 4-38-3-1
+Affected: IC 4-38-11
+Sec. 11. (a) A sports wagering operator shall cancel a wager made by a prohibited sports wagering participant and refund
+the amount wagered. A sports wagering operator must cancel a wager under this section at the time the sports wagering operator
+becomes aware or should have been aware that the patron is a prohibited sports wagering participant.
+(b) Notwithstanding subsection (a), if it is determined the prohibited sports wagering participant is delinquent in child
+support as described under IC 4-38-11, the sports wagering operator shall do the following:
+(1) Comply with the provisions of IC 4-38-11.
+(2) After withholding the amount of delinquent child support owed, return any overage amount to the prohibited sports
+wagering participant.
+(Indiana Gaming Commission; 68 IAC 27-7-11; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-7-12 Cancellation of wagers
+Authority: IC 4-38-3-1
+Affected: IC 4-38-5-6
+Sec. 12. A sports wagering operator may, in its discretion, cancel an accepted wager for obvious error as set forth in IC 4-38-
+5-6. "Obvious error" shall be defined in the sports wagering operator's house rules. (Indiana Gaming Commission; 68 IAC 27-7-12;
+filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-7-13 Cashier canceled wagers
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Indiana Administrative Code Page 22
+
+=== page 23 ===
+SPORTS WAGERING
+Sec. 13. A cashier may not cancel a wager for which the cashier wrote the ticket and must instead call a supervisor to cancel
+the wager. (Indiana Gaming Commission; 68 IAC 27-7-13; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-7-14 Prohibiting wagers for good cause
+Authority: IC 4-38-3-1
+Affected: IC 4-38-9-4
+Sec. 14. (a) Under IC 4-38-9-4, a sports governing body may request that the executive director or the executive director's
+designee prohibit a particular event or making wagers of a particular type upon a demonstration of good cause.
+(b) To demonstrate good cause, the sports governing body should provide, in writing, information that indicates a credible
+threat to the integrity of sports wagering that is beyond the control of the sports governing body to preemptively remedy or mitigate.
+(c) To ensure proper consideration, the request should be sent to the commission at least seventy-two (72) hours before the
+event. At any time, however, a sports governing body should report information if it involves allegations of match-fixing, the
+manipulation of an event, misuse of inside information, or other prohibited activity.
+(d) The commission shall promptly review the information provided and respond as expeditiously as possible to the request.
+(e) In making its determination, the commission may consult with an independent monitoring provider and other
+jurisdictions. (Indiana Gaming Commission; 68 IAC 27-7-14; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-7-15 Layoff wagers
+Authority: IC 4-38-3-1
+Affected: IC 4-38-9-3
+Sec. 15. Layoff wagers are prohibited under IC 4-38-9-3(3). (Indiana Gaming Commission; 68 IAC 27-7-15; filed Jun 25,
+2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-7-16 Promotions
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 16. (a) Patrons must be able to access information pertaining to any available promotions or bonuses. This information
+must be clear and unambiguous, especially where promotions or bonuses are limited to certain events or markets, or when other
+specific conditions apply.
+(b) A record of all promotional or bonus wagering offers shall be maintained in an electronic file that is readily available
+to the division. All bonus and promotional wagering offers shall be stated in clear and unambiguous terms and shall be readily
+accessible by the patron after the offer is accepted and prior to completion. Offer terms and the record of all offers shall include at
+a minimum:
+(1) the date and time presented;
+(2) the date and time the offer is active and expires;
+(3) patron eligibility, including any limitations on patron participation;
+(4) any restriction on withdrawals of funds;
+(5) wagering requirements and limitations;
+(6) the order in which funds are used for wagers;
+(7) eligible events or wagers; and
+(8) rules regarding cancellation.
+(c) All promotions and bonuses must:
+(1) include terms and conditions that are full, accurate, clear, concise, and transparent, and not contain misleading
+information;
+(2) ensure advertising materials include material terms and conditions for that promotion or bonus and have those material
+terms in close proximity to the headline claim of the promotion or bonus and in a reasonably prominent size;
+(3) disclose applicable terms if the patron has to risk or lose the patron's own money as part of the promotion or bonus or
+Indiana Administrative Code Page 23
+
+=== page 24 ===
+SPORTS WAGERING
+has conditions attached to the patron's own money as a result of the promotion or bonus;
+(4) not be described as risk free if the patron needs to incur any loss or risk the patron's own money to use or withdraw
+winnings from the risk free bet; and
+(5) not restrict the patron from withdrawing the patron's own funds or withdrawing winnings from bets placed using the
+patron's own funds.
+(Indiana Gaming Commission; 68 IAC 27-7-16; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-7-17 Responsible advertising
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 17. (a) No sports wagering operator shall allow, conduct, or participate in any false or misleading advertising
+concerning its sports wagering operations.
+(b) All advertising and marketing materials published, aired, displayed, or distributed by or on behalf of any sports wagering
+operator shall comply with the following:
+(1) Must not directly advertise or promote sports wagering to minors.
+(2) Shall conspicuously display a prominent message, which states: "If you or someone you know has a gambling problem
+and wants help, call 1-800-9-WITH-IT".
+(3) Shall state patrons must be at least twenty-one (21) years of age or older to wager.
+(4) Shall not imply greater chances of winning versus other sports wagering operators.
+(5) Shall not imply greater chances of winning based on wagering in greater quantity or amount.
+(6) All direct marketing shall allow the option to unsubscribe.
+(Indiana Gaming Commission; 68 IAC 27-7-17; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+Rule 8. Sports Wagering Kiosks
+68 IAC 27-8-1 Sports wagering kiosk location
+68 IAC 27-8-2 Testing and certification
+68 IAC 27-8-3 Reconciliation
+68 IAC 27-8-4 Transaction reports
+68 IAC 27-8-5 Connection to sports wagering system
+68 IAC 27-8-1 Sports wagering kiosk location
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 1. (a) A sports wagering operator may utilize sports wagering kiosks located in a licensed facility for wagering
+transactions in conjunction with a sports wagering system in a location approved by the executive director or the executive director's
+designee.
+(b) Sports wagering kiosks shall be subject to the approvals and other requirements of 68 IAC 2-6. (Indiana Gaming
+Commission; 68 IAC 27-8-1; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-8-2 Testing and certification
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 2. Before being deployed for use at a licensed facility, all sports wagering kiosks must be submitted to an Indiana
+approved authorized independent testing laboratory for testing and receive the required certification under 68 IAC 2-6-3. (Indiana
+Gaming Commission; 68 IAC 27-8-2; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+Indiana Administrative Code Page 24
+
+=== page 25 ===
+SPORTS WAGERING
+68 IAC 27-8-3 Reconciliation
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 3. The sports wagering operator's accounting department shall reconcile the sports wagering kiosks on a daily basis
+pursuant to internal controls. Any variance of five hundred dollars ($500) or more shall be documented by the accounting department
+and reported in writing to the commission's audit department within seventy-two (72) hours of the end of the gaming day during which
+the variance was discovered. The report shall indicate the cause of the variance and shall contain any documentation required to
+support the stated explanation. (Indiana Gaming Commission; 68 IAC 27-8-3; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-
+068200420FRA)
+68 IAC 27-8-4 Transaction reports
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 4. Each sports wagering kiosk or sports wagering kiosk computer system shall be capable of generating a transaction
+report, which documents each attempted and completed transaction. Unless otherwise approved by the commission, the report shall
+include, at a minimum:
+(1) the date and time;
+(2) a description of the transaction;
+(3) the value of credit card and debit card transactions;
+(4) the value of currency dispensed and inserted;
+(5) the value of all sports wagering vouchers dispensed and inserted; and
+(6) the value of all sports wagering tickets dispensed and inserted.
+(Indiana Gaming Commission; 68 IAC 27-8-4; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-8-5 Connection to sports wagering system
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 5. (a) When used to redeem sports wagering tickets or vouchers, sports wagering kiosks shall work in conjunction with
+an approved sports wagering system and shall be designed to:
+(1) accurately obtain the unique identification number of the item presented for redemption and cause such information to
+be accurately and securely relayed to the sports wagering system for the purpose of redemption;
+(2) issue currency or a sports wagering voucher, or both, in exchange for the item presented only if the sports wagering
+system has authorized and recorded the transaction; and
+(3) return a sports wagering ticket and voucher to the patron when it cannot be validated by the sports wagering system or
+is otherwise unredeemable.
+(b) When used to redeem sports wagering vouchers, the sports wagering kiosk or sports wagering kiosk computer system
+shall be capable of generating a voucher redemption report for each gaming day. The report shall include the voucher's unique
+identifier, the date and time of redemption, and the value of the voucher.
+(c) When used to redeem sports wagering tickets, the sports wagering kiosk or sports wagering kiosk computer system shall
+be capable of generating a ticket redemption report for each gaming day. The report shall include the ticket's unique identifier, the
+date and time of redemption, and the value of the ticket.
+(d) When used to issue sports wagering vouchers, the sports wagering kiosk or sports wagering kiosk computer system shall
+be capable of generating a voucher issuance report for each gaming day. The report shall include the voucher's unique identifier, the
+date and time of issuance, and the value of the voucher.
+(e) When used for credit card and debit card transactions, the sports wagering kiosk or sports wagering kiosk computer
+system shall be capable of generating a credit card and debit card transaction report for each gaming day. The report shall include
+the transaction's unique identifier, the date and time of transaction, and the value of the transaction. (Indiana Gaming Commission;
+Indiana Administrative Code Page 25
+
+=== page 26 ===
+SPORTS WAGERING
+68 IAC 27-8-5; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+Rule 9. Sports Wagering Reports; Wagering Revenue; Computation of Taxes; Reconciliation
+68 IAC 27-9-1 Reports required
+68 IAC 27-9-2 Calculation of taxes
+68 IAC 27-9-1 Reports required
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 1. (a) The sports wagering system shall be required to generate those reports necessary to record the adjusted gross
+receipts, wagering liability, ticket redemption, and such other information relating to sports wagering as deemed necessary by the
+executive director or as required by internal controls. Such reporting shall be done using cash basis accounting.
+(b) To determine the daily win amount, the sports wagering operator's accounting department shall compare a win report
+from the sports wagering system to the reconciliation of the sports wagering drawers. The operator shall be required to calculate and
+report adjusted gross sports wagering receipts using the higher amount identified in such comparison, unless otherwise authorized
+by the commission in its internal controls.
+(c) The sports wagering operator shall permit duly authorized representatives of the commission's audit department to
+examine the operator's accounts and records for the purpose of certifying total gross revenue receipts and adjusted gross revenue
+receipts.
+(d) Such information shall be entered on forms prescribed by the commission. (Indiana Gaming Commission; 68 IAC 27-9-
+1; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-9-2 Calculation of taxes
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 2. (a) Remittance of wagering taxes shall be the sole responsibility of the certificate of authority holder.
+(b) If the amount of adjusted gross receipts on a gaming day is a negative figure, the certificate of authority holder shall remit
+no sports wagering tax for that gaming day. Any negative adjusted gross receipts shall be carried over and calculated as a deduction
+on Form RG-1 on the subsequent gaming days until the negative figure has been brought to a zero (0) balance. (Indiana Gaming
+Commission; 68 IAC 27-9-2; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+Rule 10. Accounting Controls for the Sports Wagering Lounge
+68 IAC 27-10-1 Internal audit procedures
+68 IAC 27-10-2 Observation and testing of cashiering and credit
+68 IAC 27-10-3 Accounting controls for the sports wagering lounge
+68 IAC 27-10-4 Transactions
+68 IAC 27-10-5 Annual financial audit
+68 IAC 27-10-6 Special audits
+68 IAC 27-10-1 Internal audit procedures
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 1. The procedures and requirements outlined in 68 IAC 15-8-1 shall apply to sports wagering operators and sports
+wagering operations. (Indiana Gaming Commission; 68 IAC 27-10-1; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+Indiana Administrative Code Page 26
+
+=== page 27 ===
+SPORTS WAGERING
+68 IAC 27-10-2 Observation and testing of cashiering and credit
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 2. (a) The sports wagering operator shall establish procedures for the observation and testing of the compliance with
+the system of internal controls for sports wagering cashiering and credit.
+(b) The internal auditor or equivalent shall observe and review, on a semiannual basis, the following procedures, at a
+minimum:
+(1) The countdown procedures.
+(2) The casino cage accountability to the general ledger.
+(3) The casino cage accountability to the main bank, vault, and change banks.
+(4) Check cashing procedures and issuance of credit procedures.
+(5) Shift and day procedures.
+(6) Any other procedures deemed necessary by the executive director or the commission to ensure compliance with IC 4-38
+and this article.
+(c) The internal auditors or equivalent shall test, on a quarterly basis, the following procedures, at a minimum:
+(1) Reconcile summary sheets to physical instruments on a sample basis.
+(2) Review processing of payments on returned checks.
+(3) If applicable, review procedures and controls over the primary, secondary, and nonvalue chip inventory.
+(4) Ascertain compliance with credit limits and other preestablished credit issuance procedures.
+(5) Any other procedures deemed necessary by the executive director or the commission to ensure compliance with IC 4-38
+and this article.
+(Indiana Gaming Commission; 68 IAC 27-10-2; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-10-3 Accounting controls for the sports wagering lounge
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 3. (a) A cashier shall begin a shift with an imprest amount of sports wagering inventory, consisting of currency and coin.
+No funds shall be added to or removed from the sports wagering inventory during such shift except:
+(1) in collection of sports wagers;
+(2) in order to make change for a patron buying a sports wagering ticket;
+(3) in collection for the issuance of sports wagering vouchers;
+(4) in payment of winning or properly canceled or refunded sports wagering tickets;
+(5) in payment of sports wagering vouchers; or
+(6) in exchanges with the cashier's cage, a satellite cage, or sports wagering lounge booth vault supported by proper
+documentation, and which documentation shall be sufficient for accounting reconciliation purposes.
+(b) A sports wagering count sheet shall be completed and signed by a supervisor, and the following information, at a
+minimum, shall be recorded thereon at the commencement of a shift:
+(1) The date, time, and shift of preparation.
+(2) The denomination of currency and coin in the sports wagering inventory issued to the cashier.
+(3) The total amount of each denomination of currency and coin in the sports wagering inventory issued to the cashier.
+(4) The sports wagering window number to which the cashier is assigned.
+(5) The signature of the sports wagering shift supervisor.
+(c) A cashier assigned to a cashier window shall count and verify the sports wagering inventory at the sports wagering vault,
+and shall agree the count to the sports wagering count sheet. The cashier shall sign the count sheet attesting to the accuracy of the
+information recorded thereon. The sports wagering inventory shall be placed in a cashier's drawer and transported directly to the
+appropriate sports wagering lounge booth window by the cashier.
+(d) If the system generated sports wagering window net receipts for the shift do not agree with the sports wagering count
+sheet total plus the sports wagering inventory, the shift supervisor shall record any overage or shortage. If the count does not agree,
+Indiana Administrative Code Page 27
+
+=== page 28 ===
+SPORTS WAGERING
+the cashier and the shift supervisor shall attempt to determine the cause of the discrepancy in the count. Any discrepancy that cannot
+be resolved by the cashier and the shift supervisor shall be reported in writing to the department supervisor in charge at such time.
+Any discrepancy in excess of five hundred dollars ($500) shall be reported to the commission. The report shall include the :
+(1) date on which the discrepancy occurred;
+(2) shift during which the discrepancy occurred;
+(3) name of the cashier;
+(4) name of the supervisor;
+(5) window number; and
+(6) amount of the discrepancy.
+(e) The sports wagering lounge booth shift supervisor shall compare the cashier window net for the shift as generated by
+the terminal, and if it agrees with the sports wagering count sheet total plus the sports wagering inventory, shall agree the count to
+the sports wagering count sheet and sign the sports wagering count sheet attesting to the accuracy. (Indiana Gaming Commission;
+68 IAC 27-10-3; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-10-4 Transactions
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 4. The sports wagering operator shall establish policies and procedures to ensure that all transactions that flow through
+the casino cage within the sports wagering lounge are accounted for. These policies and procedures shall include, but are not limited
+to, the following:
+(1) All transactions shall be recorded on a main bank or vault accountability form or its equivalent on a per shift basis.
+(2) All increases or decreases to the main bank or vault shall be supported by the appropriate documentation.
+(3) At the end of a shift, the cashiers assigned to the outgoing shift shall:
+(A) record on a main bank or vault accountability form, or its equivalent, the face value of each cage inventory item
+counted and the total of the opening and closing cage inventories; and
+(B) reconcile the total closing inventory with the total opening inventory.
+(4) At the conclusion of each gaming day, copies of the main bank or vault accountability forms and all supporting
+documentation shall be forwarded to the accounting department.
+(5) Signature requirements shall be established for outgoing and incoming cashiers.
+(6) Any other policies and procedures deemed necessary by the executive director to ensure compliance with IC 4-38 and
+this article.
+(Indiana Gaming Commission; 68 IAC 27-10-4; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-10-5 Annual financial audit
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 5. Each sports wagering operator shall conduct an annual financial audit of its sports wagering financial statements
+under the requirements of 68 IAC 15-14. The financial audit shall be due within ninety (90) days after the end of the sports wagering
+operator's fiscal year or other time frame as agreed to by the commission and the sports wagering operator. This requirement does
+not apply to a certificate of authority holder that only conducts sports wagering activities through a vendor. (Indiana Gaming
+Commission; 68 IAC 27-10-5; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-10-6 Special audits
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 6. (a) To ensure the integrity of gaming or compliance with IC 4-38 and this title, the commission may require, at any
+time, a special audit of a sports wagering operator to be conducted by an independent certified public accountant who is, or whose
+Indiana Administrative Code Page 28
+
+=== page 29 ===
+SPORTS WAGERING
+firm is, licensed in Indiana. The commission may establish the scope, procedures, and reporting requirements of a special audit.
+(b) The sports wagering operator is responsible for the costs of a special audit. (Indiana Gaming Commission; 68 IAC 27-
+10-6; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+Rule 11. Geofence Requirement
+68 IAC 27-11-1 Geofence requirement
+68 IAC 27-11-2 Consideration to geofence the location of a particular sporting event
+68 IAC 27-11-1 Geofence requirement
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 1. (a) In order to prevent unauthorized use of the Internet or a mobile device to place a sports wager when a patron is
+not within the state of Indiana, the sports wagering operator shall utilize a geofence system to reasonably detect the physical location
+of a patron attempting to access the online sports wagering system and place a wager, and to monitor and block unauthorized attempts
+to access the online sports wagering system in order to place a wager when a patron is not within the permitted boundary.
+(b) The executive director shall approve technical specifications for geolocation systems and any specific requirements
+related to geofence technology. (Indiana Gaming Commission; 68 IAC 27-11-1; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-
+068200420FRA)
+68 IAC 27-11-2 Consideration to geofence the location of a particular sporting event
+Authority: IC 4-38-3-1
+Affected: IC 4-38; IC 21-12-1-8
+Sec. 2. (a) The executive director will consider a request by a sports governing body or an eligible institution, as defined
+by IC 21-12-1-8, to utilize a geofence to prohibit wagers at the location of a particular sporting event, provided the request includes:
+(1) information indicating a credible threat to the integrity of sports wagering at the particular location of the sporting event
+that is beyond the control of the sports governing body to preemptively remedy or mitigate;
+(2) confirmation from a geofence service provider licensed by the commission establishing that utilization of a geofence
+to prohibit wagers at the location of the particular sporting event has been executed; and
+(3) an evaluation that no other means exist to remedy or mitigate the specific risk to sports wagering at the location of the
+particular sporting event, and that geofencing is the only appropriate measure to address the issue.
+(b) In considering the request, the commission may consult with an independent monitoring provider and other jurisdictions.
+(Indiana Gaming Commission; 68 IAC 27-11-2; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+Rule 12. Sports Wagering Accounts
+68 IAC 27-12-1 Account required
+68 IAC 27-12-2 Age and identify verification
+68 IAC 27-12-3 Patron account controls
+68 IAC 27-12-4 Account requirements
+68 IAC 27-12-5 Account funding
+68 IAC 27-12-6 Failed ACH deposits
+68 IAC 27-12-7 Transfer of funds prohibited
+68 IAC 27-12-8 Account review requirements
+68 IAC 27-12-9 Account information
+68 IAC 27-12-10 Account closure
+68 IAC 27-12-11 Patron account withdrawal
+68 IAC 27-12-12 Dormant patron accounts
+68 IAC 27-12-13 Unclaimed funds in a dormant patron account
+Indiana Administrative Code Page 29
+
+=== page 30 ===
+SPORTS WAGERING
+68 IAC 27-12-1 Account required
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 1. (a) A sports wagering operator shall limit each patron to one (1) active and continuously used sports wagering
+account and username.
+(b) A sports wagering operator shall implement rules and publish procedures to terminate all accounts of any sports wagering
+account patron that establishes, or seeks to establish, multiple active accounts, whether directly or by use of another person as a proxy.
+(Indiana Gaming Commission; 68 IAC 27-12-1; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-12-2 Age and identify verification
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 2. A full identity check must be undertaken before a patron is allowed to place a wager as follows:
+(1) Only patrons at least twenty-one (21) years of age may deposit funds or participate in wagering. The sports wagering
+operator must deny the ability to deposit funds or participate in wagering to any person that submits a birth date that
+indicates the person is under the legal participation age.
+(2) Patron verification must use commercially reasonable standards to confirm that the patron is not a prohibited sports
+wagering participant.
+(3) Details of patron verification must be kept in a secure manner.
+(4) Third-party service providers may be used for age and identity verification of patrons.
+(5) The operator must have a documented policy for the handling of patrons discovered to be using an account in a
+fraudulent manner, including, but not limited to:
+(A) the maintenance of information about any patron's activity, such that if fraudulent activity is detected, the
+regulatory body has all of the necessary information to take appropriate action;
+(B) the suspension of any patron account discovered to be providing access to fraudulent patrons; and
+(C) the treatment of deposits, wagers, and wins associated with a fraudulent patron's account.
+(Indiana Gaming Commission; 68 IAC 27-12-2; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-12-3 Patron account controls
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 3. (a) Patron protection information must be readily accessible to the patron. The patron protection information must
+contain at a minimum:
+(1) information about potential risks associated with excessive participation, and where to get help related to wagering
+responsibly;
+(2) the self-imposed limitations that shall be available to the patron at both the time of account registration and first deposit;
+(3) a list of the available patron protection measures that can be invoked by the patron, such as self-imposed limits, and
+information on how to invoke those measures; and
+(4) mechanisms in place that detect unauthorized use of the patron's account, such as reviewing credit card statements
+against known deposits.
+(b) Patrons must be provided with an easy and obvious method to impose limitations for wagering parameters, including,
+but not limited to, deposits, wagers, time-based limitations and a patron option to decline the ability to cancel a pending withdrawal
+request. The self-imposed limitation method must provide the following functionality:
+(1) Upon receiving any self-imposed limitation order, the sports wagering operator must ensure that all specified limits are
+correctly implemented immediately or at the point in time that was clearly indicated to the patron.
+(2) The self-imposed limitations set by a patron must not override more restrictive operator imposed limitations. The more
+restrictive limitations must take priority.
+Indiana Administrative Code Page 30
+
+=== page 31 ===
+SPORTS WAGERING
+(3) Once established by a patron and implemented by the sports wagering system, it must only be possible to reduce the
+severity of self-imposed limitations upon twenty-four (24) hour notice, or as required by the commission.
+(4) Self-imposed limitations must not be compromised by internal status events, such as self-imposed exclusion orders and
+revocations.
+(Indiana Gaming Commission; 68 IAC 27-12-3; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-12-4 Account requirements
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 4. In order to establish a sports wagering account, a sports wagering operator shall do the following:
+(1) Create an electronic patron file, which shall include at a minimum:
+(A) the patron's legal name;
+(B) the patron's date of birth;
+(C) the patron's Social Security number, or the last four (4) digits thereof, or an equivalent identification number for
+a noncitizen patron, such as a passport or taxpayer identification number;
+(D) the patron's sports wagering account number or username;
+(E) the patron's residential address; a post office box is not acceptable;
+(F) the patron's electronic mail address;
+(G) the patron's telephone number;
+(H) any other information collected from the patron used to verify the patron's identity;
+(I) the method used to verify the patron's identity; and
+(J) the date of verification.
+(2) Encrypt all of the following information contained in an electronic patron file:
+(A) Any portion of the patron's Social Security number or an equivalent identification number for a noncitizen patron,
+such as a passport or taxpayer identification number.
+(B) The patron's passwords and personal identification numbers (PINs).
+(C) The patron's personal financial information.
+(3) Verify the patron's identity in accordance with:
+(A) reliable forms of personal identification specified in internal controls; or
+(B) other methodology for remote multisource authentication, which may include third-party and governmental
+databases, as approved by the executive director or the executive director's designee.
+(4) Record the document number of the government issued identification credential examined, if applicable. If a government
+issued identification credential is not required for registration, the electronic record that details the process used to confirm
+patron identity must be recorded.
+(5) Require the patron to establish a password or other access security feature as approved by the commission and advise
+the patron of the ability to utilize strong authentication log in protection.
+(6) Record the patron's certification that the information provided to the operator is accurate.
+(7) Record the patron's acknowledgment that the legal age for sports wagering is twenty-one (21) years of age, and that the
+patron is prohibited from allowing any other person to access or use the patron's sports wagering account.
+(8) Notify the patron of the establishment of the account via electronic mail or regular mail.
+(9) Record the patron's acceptance of the sports wagering operator's terms and conditions to participate in wagering through
+the mobile application or any authorized digital platform accepting wagers online. The terms and conditions must include
+the following:
+(A) Name of the party or parties with whom the patron is entering into a contractual relationship, including any
+licensee.
+(B) Patron's consent to have the licensee confirm the patron's age and identity.
+(C) Rules and obligations applicable to the patron other than house rules, including, but not limited to:
+(i) prohibition from allowing any other person to access or use the patron's account;
+(ii) prohibition from engaging in mobile wagering activity, unless the patron is physically present in Indiana;
+Indiana Administrative Code Page 31
+
+=== page 32 ===
+SPORTS WAGERING
+(iii) consent to the monitoring and recording by the operator or the division, or both, of any wagering
+communications and geographic location information; and
+(iv) consent to the jurisdiction of the state of Indiana to resolve any disputes arising out of sports wagering
+activity.
+(D) Availability of account statements detailing patron account activity.
+(E) Privacy policies, including information access.
+(F) Legal age policy, including a statement that it is a criminal offense to allow a person who is under twenty-one (21)
+years of age to participate in mobile wagering.
+(G) Full explanation of all rules applicable to dormant accounts.
+(H) Patron's right to set responsible gaming limits and to self-exclude.
+(I) Patron's right to suspend the patron's account.
+(J) Whenever the terms and conditions that apply to mobile wagering are changed, the licensee shall require a patron
+to acknowledge acceptance of such change. Unless otherwise authorized by the division, the patron's acknowledgment
+shall be date and time stamped by the Internet or mobile gaming system, as applicable.
+(Indiana Gaming Commission; 68 IAC 27-12-4; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-12-5 Account funding
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 5. A patron's sports wagering account for sports wagering may be funded through the use of:
+(1) a patron's credit or debit card;
+(2) a patron's deposit of cash or vouchers at a cashiering location approved by the executive director or the executive
+director's designee;
+(3) a patron's reloadable prepaid card, which has been verified as being issued to the patron and is nontransferable;
+(4) promotional credit;
+(5) winnings;
+(6) adjustments made by the sports wagering operator with documented notification to the patron;
+(7) an ACH transfer, provided that the operator has security measures and controls to prevent ACH fraud regarding failed
+ACH deposits;
+(8) a wire transfer; or
+(9) any other means approved by the commission.
+(Indiana Gaming Commission; 68 IAC 27-12-5; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-12-6 Failed ACH deposits
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 6. A failed ACH deposit attempt shall not be considered fraudulent if the patron has successfully deposited funds via
+an ACH transfer on a previous occasion with no outstanding chargebacks. Otherwise, the operator shall do the following:
+(1) Temporarily block the patron's account for investigation of fraud after five (5) consecutive failed ACH deposit attempts
+within a ten (10) minute time period. If there is no evidence of fraud, the block may be vacated.
+(2) Suspend the patron's account after five (5) additional consecutive failed ACH deposit attempts within a ten (10) minute
+time period.
+(Indiana Gaming Commission; 68 IAC 27-12-6; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-12-7 Transfer of funds prohibited
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Indiana Administrative Code Page 32
+
+=== page 33 ===
+SPORTS WAGERING
+Sec. 7. A sports wagering operator shall not permit a patron to transfer funds from a patron account to another patron
+account. (Indiana Gaming Commission; 68 IAC 27-12-7; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-12-8 Account review requirements
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 8. All adjustments to patron accounts for amounts of five hundred dollars ($500) or less shall be periodically reviewed
+by supervisory personnel as set forth in the sports wagering operator's internal controls. All other adjustments shall be authorized
+by supervisory personnel prior to being entered. (Indiana Gaming Commission; 68 IAC 27-12-8; filed Jun 25, 2021, 2:59 p.m.:
+20210721-IR-068200420FRA)
+68 IAC 27-12-9 Account information
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 9. (a) Sports wagering systems shall provide an account statement with account details to a patron on demand, which
+shall include detailed account activity for at least six (6) months. In addition, an online sports wagering system shall, upon request,
+be capable of providing a summary statement of all patron activity during the past two (2) years.
+(b) A sports wagering operator shall periodically reverify a patron's identification upon reasonable suspicion that the patron's
+identification has been compromised. (Indiana Gaming Commission; 68 IAC 27-12-9; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-
+068200420FRA)
+68 IAC 27-12-10 Account closure
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 10. A sports wagering system shall provide a conspicuous and readily accessible method for a patron to close the
+patron's account through the account management or similar page or through the sports wagering system's customer support team.
+Any balance remaining in a patron's sports wagering account closed by a patron shall be refunded under the operator's internal
+controls. (Indiana Gaming Commission; 68 IAC 27-12-10; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-12-11 Patron account withdrawal
+Authority: IC 4-38-3-1
+Affected: IC 4-38; IC 32-34-1
+Sec. 11. (a) A patron must be allowed to withdraw the funds maintained in the patron's account, whether such account is
+open or closed.
+(b) A sports wagering operator must honor such patron request to withdraw funds within five (5) business days of the
+request, unless the conditions set forth in subsection (c) are met.
+(c) The sports wagering operator may decline to honor a patron request to withdraw funds only if the sports wagering
+operator believes in good faith that the patron engaged in either fraudulent conduct or other conduct that would put the sports
+wagering operator in violation of the law. In such cases, the sports wagering operator shall:
+(1) provide notice to the patron of the nature of the investigation of the account; and
+(2) conduct its investigation in a reasonable and expedient fashion, providing the patron additional written notice of the
+status of the investigation every tenth business day starting from the day the original notice was provided to the patron.
+(d) For purposes of this provision, a request for withdrawal will be considered honored if it is processed by the sports
+wagering operator notwithstanding a delay by a payment processor, credit card issuer, or the custodian of a financial account.
+(Indiana Gaming Commission; 68 IAC 27-12-11; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+Indiana Administrative Code Page 33
+
+=== page 34 ===
+SPORTS WAGERING
+68 IAC 27-12-12 Dormant patron accounts
+Authority: IC 4-38-3-1
+Affected: IC 4-38; IC 32-34-1
+Sec. 12. A sports wagering operator shall consider a patron account to be dormant if the patron has not logged into the
+account for at least three (3) years. A dormant account shall be closed by the sports wagering operator. (Indiana Gaming
+Commission; 68 IAC 27-12-12; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-12-13 Unclaimed funds in a dormant patron account
+Authority: IC 4-38-3-1
+Affected: IC 4-38; IC 32-34-1
+Sec. 13. (a) Subject to the provisions of IC 32-34-1.5-4 and IC 32-34-1.5-15, funds of patrons that remain in a dormant
+patron account shall be presumed abandoned.
+(b) The sports wagering operator shall report and deliver all funds of patrons that are presumed abandoned to the office of
+the Indiana attorney general as provided in IC 32-34-1.5-29.
+(c) At least sixty (60) days prior to reporting any funds of the patron to the attorney general, the sports wagering operator
+shall provide notice to the patron's last known address and conduct due diligence to locate the patron. (Indiana Gaming Commission;
+68 IAC 27-12-13; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA; filed Sep 29, 2022, 1:12 p.m.: 20221005-IR-
+068220297ACA)
+Rule 13. Responsible Gaming and Self-Restriction
+68 IAC 27-13-1 Responsible gaming requirement
+68 IAC 27-13-2 Statewide Internet self-restriction
+68 IAC 27-13-3 Removal from statewide Internet self-restriction
+68 IAC 27-13-4 Direct marketing to prohibited sports wagering participants
+68 IAC 27-13-5 Sports wagering operator self-exclusion
+68 IAC 27-13-1 Responsible gaming requirement
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 1. Each sports wagering website or mobile application shall display a responsible gaming logo in a manner approved
+by the executive director or the executive director's designee to direct a patron to the sports wagering operator's responsible gaming
+webpage. The responsible gaming webpage shall be accessible to a patron during a sports wagering patron session and shall contain,
+at a minimum:
+(1) a prominent message, which states: "If you or someone you know has a gambling problem and wants help, call 1-800-9-
+WITH-IT";
+(2) a direct link to the Indianagamblinghelp.com website and other Internet resources dedicated to helping people with
+potential gambling problems as directed by the commission;
+(3) a link to the Indiana statewide Internet self-restriction program administered by the commission; and
+(4) a clear statement of the sports wagering operator's policy and commitment to responsible gaming, along with a link to
+the sports wagering operator's specific self-exclusion program.
+(Indiana Gaming Commission; 68 IAC 27-13-1; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-13-2 Statewide Internet self-restriction
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 2. (a) Individuals wishing to self-restrict from online sports wagering statewide may do so via the commission's website.
+Indiana Administrative Code Page 34
+
+=== page 35 ===
+SPORTS WAGERING
+(b) Individuals may choose statewide Internet self-restriction for a period of one (1) year or five (5) years.
+(c) The commission shall maintain an official statewide Internet self-restriction list. The commission shall notify each sports
+wagering operator of any addition to or deletion from the list by transmitting a notice directly to each sports wagering operator.
+(d) Sports wagering operators must restrict wagering by statewide Internet self-restriction participants and may not market
+to statewide Internet self-restricted participants.
+(e) The statewide Internet self-restriction program is confidential, and the names of restricted persons may be disseminated
+only by the commission to a sports wagering operator for purposes of enforcement or to another entity designated by statute.
+(f) Sports wagering operators shall be responsible for the actions of third-party business partners and contractors related
+to the statewide Internet self-restriction program. (Indiana Gaming Commission; 68 IAC 27-13-2; filed Jun 25, 2021, 2:59 p.m.:
+20210721-IR-068200420FRA)
+68 IAC 27-13-3 Removal from statewide Internet self-restriction
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 3. (a) A person who has registered for the statewide Internet self-restriction program may, upon the expiration of the
+selected term of self-restriction, submit a notice to the commission requesting removal from the statewide Internet self-restriction
+program.
+(b) The commission shall advise sports wagering operators of the person's removal from the statewide Internet self-
+restriction program within ten (10) business days.
+(c) Sports wagering operators may elect to continue excluding previously self-restricted persons. (Indiana Gaming
+Commission; 68 IAC 27-13-3; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-13-4 Direct marketing to prohibited sports wagering participants
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 4. (a) A sports wagering operator shall make all reasonable attempts to ensure that prohibited sports wagering
+participants do not receive direct marketing from the sports wagering operator.
+(b) A sports wagering operator will satisfy this requirement if the sports wagering operator removes the prohibited sports
+wagering participant's name from the list of patrons to whom direct marketing materials are sent, and the prohibited sports wagering
+participant does not receive direct marketing materials more than forty-five (45) days after the sports wagering operator receives
+notice identifying the prohibited sports wagering participant. (Indiana Gaming Commission; 68 IAC 27-13-4; filed Jun 25, 2021,
+2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-13-5 Sports wagering operator self-exclusion
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 5. Each sports wagering operator shall establish and maintain a self-exclusion program for patrons specific to that sports
+wagering operator. The sports wagering operator specific self-exclusion program is separate from the commission's statewide Internet
+self-restriction program. (Indiana Gaming Commission; 68 IAC 27-13-5; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-
+068200420FRA)
+Rule 14. Prohibitions on Participating in Sports Wagering
+68 IAC 27-14-1 Patron restrictions on sports wagering
+68 IAC 27-14-2 Prohibited sports wagering participants
+Indiana Administrative Code Page 35
+
+=== page 36 ===
+SPORTS WAGERING
+68 IAC 27-14-1 Patron restrictions on sports wagering
+Authority: IC 4-38-3-1
+Affected: IC 4-38
+Sec. 1. (a) In addition to the prohibited sports wagering patrons, and except as provided in subsection (b), the following
+individuals may not participate in sports wagering:
+(1) A member of the commission.
+(2) An employee of the commission.
+(3) An agent of the commission.
+(4) The spouse of any individual in subdivisions (1), (2), and (3).
+(b) A member, employee, or agent of the commission may participate in sports wagering if that person:
+(1) has received the written authorization from the executive director or the executive director's designee to participate in
+sports wagering as part of the person's employment; and
+(2) is participating only to the extent authorized by the executive director or the executive director's designee.
+(Indiana Gaming Commission; 68 IAC 27-14-1; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+68 IAC 27-14-2 Prohibited sports wagering participants
+Authority: IC 4-38-3-1
+Affected: IC 4-38-5; IC 4-38-9-3; IC 5-14-3-4
+Sec. 2. (a) For each sport that the commission approves sports wagering to be conducted, the commission shall:
+(1) accept through its website a list, and any other information provided, concerning prohibited sports wagering participants
+under IC 4-38-9-3(5), from the relevant sports governing body; and
+(2) provide the list, and any other information provided, concerning prohibited sports wagering participants to sports
+wagering operators.
+(b) When such information is not submitted to the commission, sports wagering operators shall use commercially reasonable
+measures to identify individuals outlined in IC 4-38-9-3(5).
+(c) A sports wagering operator may not knowingly accept a wager from such prohibited sports wagering participants.
+(d) The information provided under this section shall be considered confidential under IC 4-38-5 and IC 5-14-3-4(a)(2).
+(Indiana Gaming Commission; 68 IAC 27-14-2; filed Jun 25, 2021, 2:59 p.m.: 20210721-IR-068200420FRA)
+*
+Indiana Administrative Code Page 36

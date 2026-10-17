@@ -1,0 +1,354 @@
+    <!-- #region Login -->
+    <!-- #endregion -->
+
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head id="Head1">
+		    <title>Code of Virginia (2026 Updates)</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<link rel="apple-touch-icon" href="./images/favicon-law16.png" sizes="16x16" />
+		<link rel="apple-touch-icon" href="./images/favicon-law32.png" sizes="32x32" />
+        <script src="/Scripts/session.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="/Content/base.css" type="text/css" media="all" />
+		<!--[if lt IE 9 ]><link rel="stylesheet" href="./Content/720_grid.css" type="text/css" /><![endif]-->
+		<link rel="stylesheet" href="/Content/720_grid.css" type="text/css" media="screen and (min-width: 720px)" />
+		<link rel="stylesheet" href="/Content/986_grid.css" type="text/css" media="screen and (min-width: 986px)" />
+		<link rel="stylesheet" href="/Content/1236_grid.css" media="screen and (min-width: 1236px)" />
+		<link rel="stylesheet" href="/Content/font-awesome.min.css" />
+		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css' />
+		<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT Serif:r,i,400,700" />
+		
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,300italic,400italic,700italic' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="/Content/jquery.fancybox.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="/Content/jquery.qtip.min.css" type="text/css" media="all" />
+		
+	
+
+		<style type="text/css">.fancybox-margin {margin-right: 0px;}</style>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-F6YYKCXH17"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-F6YYKCXH17');
+        </script>
+        <script src="/Scripts/jquery.min.js" type="text/javascript"></script>
+        <script src="/Scripts/jquery-ui.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $('document').ready(function () {
+                $('#print').attr("aria-label", "Print Button");
+                $('#txtsearch-in').attr("aria-label", "Search within the current selection");
+                
+                $("#mobile-menu-toggle").click(function () {
+                    $("#section-menu").toggleClass("open");
+                    $(".mobile-overlay").toggleClass("open");
+                });
+
+                $(".mobile-overlay").click(function () {
+                    $("#section-menu").removeClass("open");
+                    $(".mobile-overlay").removeClass("open");
+                });
+            });
+        </script>
+        <script>
+            $(function () {
+                var searchList = document.getElementById("searchList");
+                if (!searchList.length) {
+                    return;
+                }
+
+                var path = (window.location.pathname || "").toLowerCase();
+                var selectedValue = "all";
+                document.getElementById("searchList").value = "LAW";
+
+                if (path.includes("/admincode")) {
+                    selectedValue = "admin";
+                    document.getElementById("searchBtn").value = "Administrative_Code";
+                } else if (path.includes("/constitution")) {
+                    selectedValue = "constitution";
+                    document.getElementById("searchBtn").value = "Constitution";
+                } else if (path.includes("/vacode")) {
+                    selectedValue = "code";
+                    document.getElementById("searchBtn").value = "Code_of_Virginia";
+                } else if (path.includes("/charters")) {
+                    selectedValue = "charters";
+                    document.getElementById("searchBtn").value = "Charters";
+                } else if (path.includes("/authorities")) {
+                    selectedValue = "authorities";
+                    document.getElementById("searchBtn").value = "Authorities";
+                } else if (path.includes("/compacts")) {
+                    selectedValue = "compacts";
+                    document.getElementById("searchBtn").value = "Compacts";
+                } else if (path.includes("/uncodifiedacts")) {
+                    selectedValue = "uncodified";
+                    document.getElementById("searchBtn").value = "Uncodified_Acts";
+                }
+
+                searchList.querySelectorAll("option").forEach(function(option) {
+                    option.selected = false;
+                });
+                var selectedOption = searchList.querySelector('option[value="' + selectedValue + '"]');
+                if (selectedOption) {
+                    selectedOption.selected = true;
+                }
+            });
+        </script>
+	</head>
+
+<body>
+    <input aria-hidden="true" type="text" style="width:0;height:0;visibility:hidden;position:absolute;left:0;top:0" /> 
+    <input aria-hidden="true" type="password" style="width:0;height:0;visibility:hidden;position:absolute;left:0;top:0" />
+    <input aria-hidden="true" type="hidden" id="hidSignIn" value="0" />
+    
+    
+    <div class="mobile-overlay"></div>
+    <div class="top-bar"></div>
+    <header>
+        <nav>
+            <div class="lis-links-content full">
+                <ul>
+                    <li><a href="https://virginiageneralassembly.gov/">Virginia General Assembly</a> /</li>
+                    <li><a href="https://help.lis.virginia.gov">LIS Learning Center</a> /</li>
+                    <li><a href="https://lis.virginia.gov/privacy">Privacy Policy</a> /</li>
+                    <li><a href="https://lis.virginia.gov">LIS home</a> /</li>
+                    <li><a href="https://lis.virginia.gov/register-account">Register Account</a> /</li>
+                    <li><a href="https://lis.virginia.gov/login">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="grid-wrapper one-and-three halves">
+        
+			<a href="https://lis.virginia.gov" id="logo-link">
+				<img alt="LIS Logo" src="/images/lis_logo.png" /> 
+			</a>
+		
+        <div class="portal-links">
+            <ul>
+                <li>
+                    <a class="txt-blue" href="https://lis.virginia.gov">Session Information</a>
+                </li>
+                <li>
+                    <a class="txt-dark-blue" href="https://lis.virginia.gov/bill-search">Bills & Resolutions</a>
+                </li>
+                <li>
+                    <a class="txt-green" href="https://budget.lis.virginia.gov/default/2025/1">State Budget</a>
+                </li>
+                <li>
+                    <a class="txt-light-green" href="https://law.lis.virginia.gov/">Virginia Law</a>
+                </li>
+                <li>
+                    <a class="txt-orange" href="https://rga.lis.virginia.gov/">Reports to the General Assembly</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mobile-menu">
+            <i id="mobile-menu-toggle" class="fa fa-bars"></i>
+        </div>
+    </div>
+        
+        
+        <div class="va-law">
+            <div class="grid">
+                <div class="row">
+                    <div class="slot-0-1-2">
+                        <h1><a href="https://law.lis.virginia.gov">Virginia Law</a></h1>
+                    </div>
+                    <div class="slot-3-4-5">
+                        <div class="input-group .search-comp ">
+                            <div class="input-group-btn">
+                                <label for="searchList" class="sr-only">Select Search Type</label>
+                                <select id="searchList" name="searchTypeSelect" class="btn input-sm btn-default dropdown-toggle" aria-label="Select Search Type">
+                                    <option value="all">All</option>
+                                    <option value="code">Code of Virginia</option>
+                                    <option value="admin">Administrative Code</option>
+                                    <option value="constitution">Constitution</option>
+                                    <option value="charters">Charters</option>
+                                    <option value="authorities">Authorities</option>
+                                    <option value="compacts">Compacts</option>
+                                    <option value="uncodified">Uncodified Acts</option>
+                                </select>
+                            </div>
+                            <input aria-label="search input" type="text" id="txtSearch" class="form-control input-sm" placeholder="Search" />
+                            <span class="input-group-btn">
+                                <button aria-label="search button" class="btn btn-sm btn-default" id="searchBtn" type="submit" value="LAW">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                        </div>
+                        <!-- /input-group -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="grid">
+            	<!-- #region Variables -->
+	<!-- #endregion -->
+	<!-- #region Highlights -->
+	<!-- #endregion -->
+	<!-- #region Build Pages -->
+	<!-- #endregion -->
+
+
+<body class="flipcol ">
+	<input type="hidden" id="hidST" />
+	<input type="hidden" id="hidToC" value="1" />
+	<input type="hidden" id="hidID" />
+	<input type="hidden" id="hidNote" value="" />
+    <input type="hidden" id="hidPage" value="vacodeupdates" />
+	<div class="grid">
+		<div class="row">
+			<div class="slot-6-7-8">
+				<section id="pageTitle"><!--googleon: index--><h2 class='pg-title'>Code of Virginia</h2><!--googleoff: index--></section>
+				<section class="breadcrumbs" id="breadcrumbs"><p><p><a href='/vacode/'>Table of Contents</a> &raquo; <a href='/vacode/title58.1/'>Title 58.1. Taxation</a> &raquo; <a href='/v/title58.1/chapter40/'>Chapter 40. Virginia Lottery Law; Sports Betting</a>  &raquo; <span class='breadcrumb-inactive'>§ 58.1-4034. Duties of permit holders</span></p></p></section>
+				<section class="content-header-menu" id="menucontainer">
+					<nav class="content-header-menu-left"><ul><li><a title='§ 58.1-1021.04:1. (Effective until October 1, 2026) Distributor&apos;s or remote retail seller&apos;s license; penalties' href='/vacodeupdates/title58.1/section58.1-1021.04:1/''><i class='fa fa-long-arrow-left'></i></a> Section <a title='§ 58.1-4103. Voluntary exclusion program' href='/vacodeupdates/title58.1/section58.1-4103/''><i class='fa fa-long-arrow-right'></i></a></li></ul></nav>
+					<div class="scroll_top" aria-hidden="true"><i href="#" class="fa fa-arrow-up"></i></div>
+					<nav class="content-header-menu-middle"><ul><li><span id='printNorm'><a title='Print page' id='print' href='' ><i class='fa fa-print'></i> Print</a></span></li><li><a id='A3' data-section='vacode/58.1-4034' title ='Download PDF' href=''><i class='fa fa-file-text'></i> PDF</a></li><li><a class='fancybox fancybox.iframe' href='/emailForm'><i class='fa fa-envelope'></i> email</a></li></ul></nav>
+							<nav class="content-header-menu-right"></nav>
+
+				</section>
+				<p id="note" class="sidenote"></p>
+				<p class="sidenote alert rptCheckbox"><strong>Creating a Report:</strong> Check the sections you'd like to appear in the report, then use the "Create Report" button at the bottom of the page to generate your report. Once the report is generated you'll then have the option to download it as a pdf, print or email the report.</p>
+				<article id="vacode" class="content">
+					<div id="printStuff"><div id='printHeader'>Code of Virginia<br/>Title 58.1. Taxation<br/>Chapter 40. Virginia Lottery Law; Sports Betting</div><div id='printDate'>10/17/2026</div></div>
+					<span id='va_code'><h2> § 58.1-4034. Duties of permit holders. <span style='font-family:Lato;font-size:1em;color:#757575;'>(2026 updated section)</span></h2><section class='body' data-table='CoV'><p>A. A permit holder shall ensure that its sports betting operation takes reasonable measures to:</p><p>1. Ensure that only persons physically located in Virginia are able to place bets through its sports betting platform, if applicable;</p><p>2. Protect the confidential information of bettors using its sports betting platform or placing bets at its sports betting facility;</p><p>3. Prevent betting on events that are prohibited by § <a href='/vacode/58.1-4039/'>58.1-4039</a>, underage betting as prohibited by § <a href='/vacode/58.1-4040/'>58.1-4040</a>, and bets by persons who are prohibited from sports betting by § <a href='/vacode/58.1-4041/'>58.1-4041</a>;</p><p>4. Allow persons to restrict themselves from placing bets with the permit holder, including sharing, at the person's request, his request for self-exclusion with the Department for the sole purpose of disseminating the request to other permit holders;</p><p>5. Establish procedures to detect suspicious or illegal betting activity, including measures to immediately report such activity to the Department;</p><p>6. Provide for the issuance of applicable tax forms to persons who meet the reporting threshold for income from sports betting; and</p><p>7. If applicable, allow sports bettors to establish and fund sports betting accounts over the Internet on a sports betting platform, which may be funded through methods including automated clearinghouse payments, debit cards, wire transfers, or any other method approved by the Director under § <a href='/vacode/58.1-4031/'>58.1-4031</a>. A permit holder shall take reasonable measures to prohibit the acceptance of credit cards to fund sports betting accounts on its sports betting platform.</p><p>B. A permit holder shall maintain records on:</p><p>1. All bets, including the bettor's personal information, the amount and type of bet, the time and location of the bet, and the outcome of the bet; and</p><p>2. Suspicious or illegal betting activity.</p><p>C. A permit holder shall disclose the records described in subsection B to the Department upon request and shall maintain such records for at least three years after the related sports event occurs.</p><p>D. 1.  If a sports governing body notifies the Department that real-time information-sharing for bets placed on its sporting events is necessary and desirable, permit holders shall, as soon as is commercially reasonable, share the information required to be retained pursuant to subdivision B 1 of § <a href='/vacode/58.1-4034/'>58.1-4034</a> with the sports governing body or its designee with respect to bets on its sporting events. The information shared pursuant to this subsection shall be shared pseudonymously and shall not include personal information associated with any bettor. A permit holder shall not be required to share any information that is required to be kept confidential under federal or Virginia law.</p><p>2. A sports governing body shall use information shared pursuant to this subsection only for the purpose of integrity monitoring and shall not use such information for any commercial purpose. A sports governing body shall provide for security measures with respect to such information so as to prevent unauthorized access and distribution.</p><p>E. In advertising its sports betting operations, a permit holder shall ensure that its advertisements:</p><p>1. Do not target persons under the age of 21;</p><p>2. Disclose the identity of the permit holder;</p><p>3. Provide information about or links to resources related to gambling addiction; and</p><p>4. Are not misleading to a reasonable person.</p><p>F. A permit holder shall not sublicense, convey, concede, or otherwise transfer its permit to a third party unless granted approval by the Director. The Director shall charge a nonrefundable fee of $200,000 for a permit transfer. Such fees shall be deposited into the Gaming Regulatory Fund established pursuant to § <a href='/vacode/58.1-4048/'>58.1-4048</a>.</p><p>G. 1.  A permit holder may operate its sports betting platform under a brand other than its own but is prohibited from holding itself out to the public as a sports betting operation under more than one brand, and a permit holder shall conspicuously display its utilized brand to sports bettors; however, if a permit holder is a major league sports franchise, it shall not be required to associate the name of its sports betting platform with the name of the major league sports franchise and shall be allowed to hold its sports betting platform out to the public under a separate brand name.</p><p>2. A permit holder is prohibited from cooperatively marketing its sports betting platform with any business issued a license pursuant to the provisions of Title 4.1. This prohibition shall not apply to any motor sports facility, major league sports franchise, or operator of a facility issued a permit pursuant to the provisions of subdivision D 4 or D 5 of § <a href='/vacode/58.1-4032/'>58.1-4032</a>, provided that such motor sports facility, major league sports franchise, or operator of a facility shall be authorized to cooperatively market only on the premises of its stadium. If casino gaming is authorized under the laws of the Commonwealth and a casino gaming operator is licensed by the Department as a permit holder, the prohibition in this subdivision shall not apply to such operator, provided that such operator shall be authorized to cooperatively market only on the premises of its casino gaming establishment. A permit holder shall not be allowed an exemption from the prohibition in this subdivision unless (i) such permit holder complies with any applicable local zoning ordinances and (ii) the local governing body approves by ordinance cooperative marketing with respect to the permit holder's stadium or casino gaming establishment.</p><p>H. A permit holder shall not purchase or use any personal biometric data unless the permit holder has received written permission from the athlete's exclusive bargaining representative.</p><p>I. Permit holders shall at all times maintain cash reserves in amounts to be established by Board regulation.</p><p>2020, cc. <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?201+ful+CHAP1218'>1218</a>, <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?201+ful+CHAP1256'>1256</a>; 2023, cc. <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?231+ful+CHAP0586'>586</a>, <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?231+ful+CHAP0587'>587</a>; 2026, c. <a href='https://lis.virginia.gov/bill-details/20261/HB515/text/CHAP0926'>926</a>.</p></section></span>
+
+
+
+				</article>
+                        <nav class="content-footer-menu"><input style="margin-left:35%;" type='button' class='btn btn-sm btn-primary rptCheckbox' id='singlebutton' value='Create Report' name='singlebutton'> <a class='reportClick rptCheckbox' title='Cancel Report' href=''> Cancel</a><ul class="rptSwap" style="visibility: visible;"><li>&nbsp;</li></ul></nav>
+
+			</div>
+			<div class="slot-9">
+				<nav id="section-menu">
+					<ul class="section-header-menu">
+						<li>
+							<a href="/vacode">Code of Virginia</a>
+						</li>
+						<li class="sub-menu">
+							<a href="/vacodepopularnames">Popular Names</a>
+						</li>
+						<li id="covUpdates" class="sub-menu selected" aria-label="Currently selected page">
+							<a  href='/vacodeupdates/'>2026 Updates</a>
+						</li>
+						<li id='search-box' class="sub-menu">
+							<label class="form-title" for="search-text">Section Look Up</label>
+							<div action='/search' id='search-form' method='get' target='_top'>
+								<input aria-label="Section look up input" title="Section look up input" type="text" id='search-text' name='q' placeholder='ex.  2.2-4007.01' readonly onfocus="if (this.hasAttribute('readonly')) {this.removeAttribute('readonly'); this.blur(); this.focus(); }"/>
+								<button aria-label="Section look up button" title="Section look up button" id='search-button' type='submit'>Go</button>
+							</div>
+						</li>
+						<li>
+							<a href="/admincode">Administrative Code</a>
+						</li>
+						<li>
+							<a href="/constitution">Constitution of Virginia</a>
+						</li>
+						<li>
+							<a href="/charters">Charters</a>
+						</li>
+						<li>
+							<a href="/authorities">Authorities</a>
+						</li>
+						<li>
+							<a href="/compacts">Compacts</a>
+						</li>
+						<li>
+							<a href="/uncodifiedacts">Uncodified Acts</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!-- / .grid -->
+    <script type="text/javascript">var siteurl = 'https://law.lis.virginia.gov';</script>
+	<script src="/Scripts/jquery.min.js" type="text/javascript"></script>
+	<script src="/Scripts/responsive.js" type="text/javascript"></script>
+	<script src="/Scripts/modernizer.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/Scripts/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/Scripts/jquery.fancybox.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/Scripts/fancybox/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+	<script src="/Scripts/fancybox/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></script>
+	<script src="/Scripts/jquery.floatThead.min.js" type="text/javascript"></script>
+	<script src="/Scripts/printThisCoV.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.cookie.js" type="text/javascript"></script>
+	<script src="/Scripts/search.js" type="text/javascript"></script>
+	<script src="/Scripts/searchCoV.js" type="text/javascript"></script>
+	<script src="/Scripts/isFontFaceSupported.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.qtip.js" type="text/javascript"></script>
+	
+	<link rel="stylesheet" href="/Content/msgBoxLight.css" />
+	<script src="/Scripts/jquery.msgBox.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/Scripts/tinymce/tinymce.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/Scripts/edit.js" type="text/javascript"></script>
+	<script src="/Scripts/CoVInit.js" type="text/javascript"></script>
+	
+	<script src="/Scripts/report.js" type="text/javascript"></script>
+	<script src="/Scripts/default.js" type="text/javascript"></script>
+	<script src="/Scripts/pdf.js" type="text/javascript"></script>
+</body>
+        </div>
+        
+        
+        <div class="footer">
+            <nav class="footer-links" style="line-height: 1.4;">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div aria-hidden="true" id='generic_login_div' style="display:none;z-index:9999;padding:10px;" class="corners dropshadow">
+                            <h3>Sign In</h3>
+                            <div class='form-row'>
+                                <label id='lblusername' for='username'>Username:&nbsp; </label>
+                                <input type='text' class="user" name='username' placeholder="Username" id='username' />
+                                <label id="userError"></label>
+                            </div>
+                            <div class='form-row'>
+                                <label id='lblpassword' for='password'>Password:&nbsp; </label>
+                                <input type='password' class="pass" name='password' placeholder="Password" id='password' />
+                                <label id="passError"></label>
+                            </div>
+                            <div class='submit-row'>
+                                <input type='button' id="btnLogin" class="button" value='Login' />
+                                <a onclick='hideLogin()' class="hover">Cancel</a>
+                            </div>
+                        </div>
+                        <div id="dialog-modal" style="display:none;"></div>
+                        <span class="col-xs-12 text-center">
+                            <ul>
+                                <li><a href="https://lis.virginia.gov">LIS Home</a></li>
+                                <li><a id="aLIAB" href="https://lis.virginia.gov/register-account">Lobbyist-in-a-Box</a></li>
+                                <li><a href="https://lis.virginia.gov/privacy">Privacy Policy</a></li>
+                                
+                            </ul>
+                            <p>
+                                © Copyright Commonwealth of Virginia,
+                                <script>document.write(new Date().getFullYear())</script>. All rights reserved. Site developed by the <a href="http://dlas.virginia.gov">Division of Legislative Automated Systems (DLAS)</a>.
+                                <a aria-hidden="true" href="" id="signin" onclick="showLogin();return false;">Sign In</a>
+                                
+                            </p>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+</body>
+</html>
+
+<!--[if lt IE 10 ]><script async src="<%: FriendlyUrl.Href("~/Scripts/placeHolder.js" type="text/javascript"></script><![endif]-->
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="~/Scripts/html5shiv.js"></script>
+<script src="~/Scripts/respond.js"></script>
+<![endif]-->
+
+<script src="/Scripts/SwitchMode.js" type="text/javascript"></script>

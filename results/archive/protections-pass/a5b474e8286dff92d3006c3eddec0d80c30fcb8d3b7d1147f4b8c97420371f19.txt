@@ -1,0 +1,1956 @@
+=== page 1 ===
+Chapter 461
+2015 EDITION
+Oregon State Lottery
+GENERAL PROVISIONS 461.257 Judicial order suspending voluntary as-
+signment laws upon finding of adverse tax
+461.010 Definitions
+consequences for all prize winners
+461.015 Short title
+461.260 Distribution of tickets and shares; rules
+461.020 Purpose
+461.030 Local laws preempted; applicability of LOTTERY GAME RETAILERS
+other laws; severability 461.300 Selection of retailers; rules; contracts
+461.040 Effect on other gambling laws 461.310 Compensation for retailers
+461.050 Location of offices 461.330 Display of certificate of authority; bond
+or letter of credit; payments for tickets
+ADMINISTRATION or shares
+(Oregon State Lottery Commission) 461.335 Temporary letter of authority; grounds for
+revocation
+461.100 Oregon State Lottery Commission; mem-
+bers; duties; meetings
+LOTTERY VENDORS AND
+461.110 Criminal identification information avail- CONTRACTORS
+able to lottery; fingerprints; service and
+461.400 Procurements
+execution of warrants
+461.410 Vendor disclosure for major procurements
+461.120 Commission exempt from certain laws;
+rulemaking; applicability of Administra- 461.420 Contract with vendor convicted of crime
+tive Procedures Act prohibited
+461.130 Authority of commission; delegation; con- 461.430 Contractor required to comply with appli-
+tracts for security services cable laws; performance bond
+461.140 Annual budget report 461.440 Commission’s authority to contract; rules
+461.445 Policy on payment to contractors
+(State Lottery Director)
+LOTTERY FINANCES
+461.150 State lottery director; appointment; assis-
+tant directors; duties and powers 461.500 Lottery to be self-supporting; allocation
+of revenues
+461.160 Authority of director to contract for ser-
+vices 461.510 State Lottery Fund; types of disburse-
+ments
+461.170 Coordination between director and com-
+mission 461.512 Management of lottery moneys received
+by county; report on use of moneys
+461.180 Studies; accountability; audits; delegation
+461.520 Establishment of checking accounts and
+461.190 Assistant Director for Security
+petty cash fund
+461.530 Oregon State Lottery Fund
+OPERATION OF LOTTERY
+461.535 Intercollegiate Athletic Fund
+461.200 Operation of lottery; Oregon State Lot-
+tery Responsible Gambling Code of Prac- 461.540 Administrative Services Economic Devel-
+tice opment Fund
+461.202 Transportation of gambling devices 461.543 Sports Lottery Account; distribution of
+revenues
+461.210 Security measures; ticket content; rules
+461.544 Use of proceeds of video lottery games
+461.215 Video lottery games
+461.547 Distribution of certain video lottery re-
+461.217 Video lottery game regulation; limitation venues to counties for economic develop-
+on number and placement of terminals; ment
+rules
+461.548 Video lottery proceeds to be treated sepa-
+461.220 Number and value of prizes; required in- rately from other lottery proceeds
+formation on lottery tickets; rules; adver-
+tising 461.549 Use of video lottery proceeds for treat-
+ment of gambling-related behavioral
+461.230 Method for determining winners; rules problems
+461.240 Sale price of tickets and shares; rules 461.550 Expenditure limitation not applicable to
+461.250 Validation and payment of prizes; tabu- lottery
+lation of sales and prizes; assignment of 461.553 ODAS Economic Development Distrib-
+prizes; payment on behalf of deceased utions Fund
+winner; claim period; ineligibility of lot-
+461.555 Capital Construction Trust Fund; sources;
+tery employees; rules
+uses
+461.251 Reporting of certain prize winners to De-
+461.557 DOT Economic Development Distributions
+partment of Human Services
+Fund
+461.253 Voluntary assignment of prizes; petition
+461.559 Reversion of lottery allocations
+for judicial order; issuance of order; com-
+mission intervention in proceeding 461.560 Taxation of sales and prizes
+Title 36 Page 1 (2015 Edition)
+
+=== page 2 ===
+PUBLIC HEALTH AND SAFETY
+PROHIBITED CONDUCT 461.725 Enforcement officers to enforce prohibi-
+461.600 Sales to minors tion on gray machines
+461.740 Policy on hiring by firms receiving
+MISCELLANEOUS lottery-funded benefits
+461.700 Additional disclosure requirements; costs
+of investigation RESPONSIBLE GAMBLING
+CODE OF PRACTICES ACT
+461.715 Holding of certain lottery prizes for child
+support; rules; procedure 461.800 Short title
+461.719 Holding of certain lottery prizes for over- 461.810 Definitions
+payment of assistance; rules; procedures 461.820 Promotion of responsible gambling
+Title 36 Page 2 (2015 Edition)
+
+=== page 3 ===
+OREGON STATE LOTTERY 461.050
+GENERAL PROVISIONS 461.030 Local laws preempted; appli-
+cability of other laws; severability. (1)
+461.010 Definitions. Unless the context
+This chapter shall be applicable and uniform
+requires otherwise, the definitions contained
+in this chapter shall govern the construction throughout the state and all political subdi-
+of this chapter. visions and municipalities therein, and no
+local authority shall enact any ordinances,
+(1) “Commissioner” means one of the
+rules or regulations in conflict with the pro-
+members of the lottery commission appointed
+by the Governor pursuant to the Constitu- visions hereof.
+tion of the State of Oregon and this chapter (2) Any other state or local law or regu-
+to oversee the state lottery. lation providing any penalty, disability or
+(2) “Director” means the Director of the prohibition for the manufacture, transporta-
+Oregon State Lottery appointed by the Gov- tion, distribution, advertising, possession or
+ernor pursuant to the Constitution of the sale of any lottery tickets or shares shall not
+State of Oregon and this chapter as the chief apply to the tickets or shares of the state
+administrator of the Oregon State Lottery.
+lottery. The gambling laws of the State of
+(3) “Lottery” or “state lottery” means the Oregon shall not apply to lottery tickets or
+Oregon State Lottery established and oper- shares, or to the operation of the state lot-
+ated pursuant to the Constitution of the tery established by the Constitution of the
+State of Oregon and this chapter.
+State of Oregon and this chapter.
+(4) “Lottery commission” or
+(3) If any provision of this chapter or the
+“commission” means the five-member body
+application thereof to any person or circum-
+appointed by the Governor pursuant to the
+stance is held invalid, such invalidity shall
+Constitution of the State of Oregon and this
+not affect other provisions or applications of
+chapter to oversee the lottery and the direc-
+tor. this chapter which can be given effect with-
+out the invalid provision or application, and
+(5) “Lottery contractor” means a person
+to this end the provisions of this chapter are
+with whom the state lottery has contracted
+severable.
+for the purpose of providing goods and ser-
+vices for the state lottery. (4) This chapter is dependent and is con-
+(6) “Lottery game” or “game” means any ditioned upon the passage by the voters at
+procedure authorized by the commission the November 6, 1984, general election of an
+whereby prizes are distributed among per- amendment to section 4, Article XV of the
+sons who have paid, or unconditionally Oregon Constitution authorizing state opera-
+agreed to pay, for tickets or shares that pro- tion of a lottery.
+vide the opportunity to win such prizes.
+(5) The Oregon State Lottery is subject
+(7) “Lottery game retailer” means a per-
+to:
+son with whom the lottery commission has
+contracted for the purpose of selling tickets (a) Statewide financial reporting required
+or shares in lottery games to the public. in ORS 291.040.
+(8) “Lottery vendor” or “vendor” means (b) The mass transit assessment under
+any person who submits a bid, proposal or ORS 291.405.
+offer to provide goods or services to the
+(c) The deposit of state money to the
+commission or lottery.
+State Treasurer under ORS 293.265. [1985 c.2
+(9) “Person” means any natural person
+§8(2),(3),(5),(6),(9); 1985 c.302 §8(2),(3),(5),(6),(9)]
+or corporation, trust, association, partner-
+ship, joint venture, subsidiary or other busi- 461.040 Effect on other gambling laws.
+ness entity. [1985 c.2 §1(7); 1985 c.302 §1(7); 2013 c.1 Nothing contained in this chapter shall be
+§69] construed to repeal or modify existing state
+461.015 Short title. This chapter shall laws with respect to gambling, except that
+be known as the Oregon State Lottery Act the state-operated lottery established by the
+of 1984. [1985 c.2 §1(1); 1985 c.302 §1(1)] Constitution of the State of Oregon and this
+chapter shall not be subject to such laws.
+461.020 Purpose. The people of the State
+[1985 c.2 §1(3); 1985 c.302 §1(3)]
+of Oregon declare that the purpose and in-
+tent of this chapter is to provide additional 461.050 Location of offices. The Oregon
+moneys for the public purpose described in State Lottery shall have its principal offices
+section 4, Article XV of the Constitution of in the capital city. [1985 c.302 §8(7)]
+the State of Oregon through the operation
+461.055 [1995 c.341 §2; 1997 c.645 §1; 1999 c.1093 §16;
+of a state lottery without the imposition of
+2003 c.794 §286; repealed by 2007 c.569 §1]
+additional or increased taxes. [1985 c.2 §1(2);
+1985 c.302 §1(2)]
+Title 36 Page 3 (2015 Edition)
+
+=== page 4 ===
+461.100 PUBLIC HEALTH AND SAFETY
+ADMINISTRATION (9) A quorum of the commission shall
+consist of a majority of the members of the
+(Oregon State Lottery Commission)
+commission then in office. All decisions of
+461.100 Oregon State Lottery Com- the commission shall be made by a majority
+mission; members; duties; meetings. (1) vote of all of the commissioners then in of-
+The Oregon State Lottery Commission is fice.
+hereby created in state government.
+(10) The commission shall prepare quar-
+(2)(a) The Oregon State Lottery Commis- terly and annual reports of the operation of
+sion shall consist of five members appointed the state lottery. Such reports shall include
+by the Governor and confirmed by the Senate a full and complete statement of state lottery
+who shall serve at the pleasure of the Gov- revenues, prize disbursements, expenses, net
+ernor. revenues and all other financial transactions
+involving state lottery funds. The commission
+(b) The members shall be appointed for
+shall, not less than annually, contact inter-
+terms of four years.
+ested parties, including those named in ORS
+(c) Vacancies shall be filled within 30 461.180 (3), and provide them with such
+days by the Governor, subject to confirma- quarterly and annual reports as they may
+tion by the Senate, for the unexpired portion request. [1985 c.2 §2(1) to (10); 1985 c.302 §2(1) to (10);
+of the term in which they occur. 1991 c.30 §1]
+(3) At least one of the commissioners 461.110 Criminal identification infor-
+shall have a minimum of five years’ experi- mation available to lottery; fingerprints;
+ence in law enforcement and at least one of service and execution of warrants. (1)
+the commissioners shall be a certified public Upon the request of the Oregon State Lot-
+accountant. No person shall be appointed as tery Commission or the Director of the Ore-
+a lottery commissioner who has been con- gon State Lottery, the office of the Attorney
+victed of a felony or a gambling related of- General and the Oregon State Police shall
+fense. No more than three members of the furnish to the director and to the Assistant
+commission shall be members of the same Director for Security such information as
+political party. may tend to ensure security, integrity, hon-
+(4) The commission shall exercise all esty and fairness in the operation and ad-
+powers necessary to effectuate the purpose ministration of the Oregon State Lottery as
+of this chapter. In all decisions, the commis- the office of the Attorney General and the
+sion shall take into account the particularly Oregon State Police may have in their pos-
+sensitive nature of the lottery and shall act session, including, but not limited to, manual
+to promote and insure integrity, security, or computerized information and data.
+honesty and fairness in the operation and (2) In order to determine an applicant’s
+administration of the state lottery. suitability to enter into a contract with or to
+(5) Lottery commissioners shall be eligi- be employed by the Oregon State Lottery,
+ble for compensation and expenses under each applicant identified in this subsection
+ORS 292.495. shall be fingerprinted. The Assistant Director
+for Security may submit to the Department
+(6) Lottery commissioners shall file a
+of State Police and to the Federal Bureau of
+verified statement of economic interest with
+Investigation, for the purpose of verifying the
+the Oregon Government Ethics Commission
+identity of the following persons and obtain-
+and shall be subject to the provisions of ORS
+ing records of their arrests and criminal
+chapter 244.
+convictions, fingerprints of:
+(7) The Governor shall select annually
+(a) With respect to video game retailers,
+from the membership of the commission a
+each person for whom ORS 461.300 or an ad-
+chairperson who serves at the pleasure of the
+ministrative rule of the Oregon State Lottery
+Governor. The chairperson or a majority of
+Commission requires disclosure of the
+the members of the commission then in office
+person’s name and address;
+shall have the power to call special meetings
+of the commission. (b) With respect to lottery vendors and
+lottery contractors, each person for whom
+(8) Meetings of the commission shall be
+ORS 461.410 or an administrative rule of the
+open and public in accordance with state
+Oregon State Lottery Commission requires
+law. Records of the commission shall be open
+disclosure of the person’s name and address;
+and available to the public in accordance
+(c) Applicants for employment with the
+with state law. The commission shall meet
+Oregon State Lottery; and
+with the Director of the Oregon State Lot-
+tery not less than monthly to make recom- (d) With respect to other persons and
+mendations and set policy, to approve or entities that apply for contracts or have
+reject reports of the director, to adopt rules contracts with the Oregon State Lottery,
+and to transact other business. each person for whom ORS 461.300 requires
+Title 36 Page 4 (2015 Edition)
+
+=== page 5 ===
+OREGON STATE LOTTERY 461.150
+disclosure of the person’s name and address commission. Any such designation shall be
+and for whom the Assistant Director for Se- filed in the office of the Secretary of State.
+curity has prepared written reasons, ap- (2) The commission shall contract with
+proved in writing by the director, for the Department of State Police to obtain
+requiring the confirmation of the person’s necessary security services. A contract is not
+identity and records. intended to preclude the assistance of other
+(3) For the purpose of requesting and re- law enforcement agencies as the need arises.
+ceiving the information described in subsec- (3) The commission shall have the au-
+tions (1) and (2) of this section, the Oregon thority to conduct investigations, including
+State Lottery Commission is a state agency the authority to issue subpoenas to compel
+and a criminal justice agency and its en- the attendance of witnesses and documents,
+forcement agents are peace officers pursuant to take testimony under oath, to take depo-
+to ORS 181A.355 to 181A.670 and rules sitions within or outside the state and to re-
+adopted thereunder. quire answers to interrogations. [1985 c.302
+(4) Enforcement agents, designated as §2(15) to (17)]
+such by the commission, shall have the same 461.140 Annual budget report. The Or-
+authority with respect to service and exe- egon State Lottery Commission shall:
+cution of warrants of arrest and search war-
+(1) Prepare and provide an annual budget
+rants as is conferred upon peace officers of
+report to the Governor, the Legislative Fiscal
+this state. [1985 c.2 §2(11),(12); 1985 c.302 §2(11),(12); Officer and the Legislative Revenue Officer
+1995 c.291 §1; 2007 c.71 §144; 2011 c.547 §47]
+in a manner and within a time frame estab-
+461.120 Commission exempt from cer- lished by the Legislative Fiscal Officer.
+tain laws; rulemaking; applicability of
+(2) Furnish the Legislative Assembly
+Administrative Procedures Act. (1)(a) Ex-
+with any further information about the state
+cept as otherwise provided by law, the pro-
+lottery budget requested by the Legislative
+visions of ORS 279.835 to 279.855 and ORS
+Fiscal Officer.
+chapters 279A, 279B, 279C, 282 and 283 do
+not apply to the Oregon State Lottery Com- (3) Upon request, make available a rep-
+mission unless otherwise provided by this resentative to assist the Legislative Assem-
+chapter. bly, its Joint Committee on Ways and Means,
+appointed under ORS 171.555, and the Legis-
+(b) Officers and employees of the Oregon
+lative Revenue Officer in the consideration
+State Lottery Commission are in the exempt
+of the state lottery budget and any accompa-
+service for purposes of ORS chapter 240 and
+nying measures. [1985 c.302 §15; 2009 c.440 §1]
+other related statutes.
+(c) ORS 276.004 (2), 276.021, 276.093 to
+(State Lottery Director)
+276.098, 276.410 to 276.426, 276.428, 276.440,
+283.085 to 283.092, 291.038, 291.201 to 291.260 461.150 State lottery director; ap-
+and 292.210 to 292.250 do not apply to the pointment; assistant directors; duties and
+Oregon State Lottery Commission. powers. (1) The Governor shall appoint a
+Director of the Oregon State Lottery, subject
+(d) ORS 293.075, 293.190, 293.205 to
+to confirmation by the Senate, who shall
+293.225 and 293.275 do not apply to the Ore-
+serve at the pleasure of the Governor. The
+gon State Lottery Commission.
+director shall implement and operate a state
+(e) ORS 279A.100 and ORS chapters 659 lottery pursuant to the rules, and under the
+and 659A apply to the Oregon State Lottery guidance, of the commission.
+Commission.
+(2) The director shall be qualified by
+(f) Notwithstanding paragraph (a) of this training and experience to direct the oper-
+subsection, the provisions of ORS 282.210 ations of a state-operated lottery. No person
+shall apply to the Oregon State Lottery shall be appointed as lottery director who
+Commission. has been convicted of a felony or any gambl-
+ing related offense.
+(2) The commission shall, in accordance
+with ORS chapter 183, adopt and enforce (3) The director shall receive such salary
+rules to carry out the provisions of this as may be set by the commission with the
+chapter. [1985 c.2 §2(13),(14); 1985 c.302 §2(13),(14); 1991 approval of the Governor, and shall be reim-
+c.76 §2; 2001 c.621 §80; 2001 c.956 §3; 2003 c.794 §287; 2005 bursed for all expenses actually and neces-
+c.217 §26; 2012 c.107 §65] sarily incurred in the performance of official
+461.130 Authority of commission; de- duties. The director shall render full-time
+legation; contracts for security services. service to the duties of office.
+(1) Whenever a power is granted to the com- (4) The director shall, subject to the ap-
+mission, the power may be exercised by such proval of the commission, perform all duties,
+officer or employee within the Oregon State exercise all powers and jurisdiction, assume
+Lottery as is designated in writing by the and discharge all responsibilities and carry
+Title 36 Page 5 (2015 Edition)
+
+=== page 6 ===
+461.160 PUBLIC HEALTH AND SAFETY
+out and effect the purposes of this chapter. request, all books, records, files and other
+The director shall act as secretary and exec- information and documents of the state lot-
+utive officer of the commission. The director tery, and shall advise the commission and
+shall supervise and administer the operation recommend such matters as deemed neces-
+of the Oregon State Lottery in accordance sary and advisable to improve the operation
+with this chapter, and the rules adopted by and administration of the state lottery. [1985
+the commission. In all decisions, the director c.2 §3(9); 1985 c.302 §3(10)]
+shall take into account the particularly sen-
+461.180 Studies; accountability; audits;
+sitive nature of the state lottery, and shall
+delegation. (1) The Director of the Oregon
+act to promote and insure integrity, security,
+State Lottery shall make an ongoing study
+honesty and fairness of the operation and
+of the operation and the administration of
+administration of the state lottery.
+the lotteries which may be in operation in
+(5) The director shall recommend to the other states or countries, of available litera-
+commission the establishment of rules per- ture on the subject, of federal laws which
+taining to the employment, termination and may affect the operation of the Oregon State
+compensation of all commission staff. The Lottery and of the reaction of citizens of the
+rules shall conform to generally accepted state to existing or proposed features in lot-
+personnel practices based upon merit princi- tery games, with a view toward recommend-
+ples. Under the rules so established, the di- ing improvements that will tend to serve the
+rector may set the compensation, prescribe purposes of this chapter. The director may
+the duties and supervise persons so hired. make recommendations to the commission,
+The director may terminate or otherwise Governor and Legislative Assembly on any
+discipline persons so hired. No person shall matters concerning the secure and efficient
+be employed by the state lottery who has operation and administration of the state
+been convicted of a felony or any gambling lottery and the convenience of the purchas-
+related offense. ers of tickets and shares.
+(6) If a lottery employee transfers to a (2) The director shall make and keep
+state agency that is subject to ORS chapter books and records which accurately and
+240, the employee is entitled to transfer ac- fairly reflect each day’s transactions, includ-
+crued sick leave, adjusted if necessary to re- ing but not limited to, the distribution of
+flect the accrual rate in use for management tickets or shares to lottery game retailers,
+and unrepresented employees under rules of receipt of funds, prize claims, prize disburse-
+the Personnel Division. ments or prizes liable to be paid, expenses
+(7) Subject to approval of the commis- and all other financial transactions involving
+sion, the director may appoint, prescribe the state lottery funds necessary so as to permit
+duties of and terminate or otherwise disci- preparation of financial statements in con-
+pline no more than four assistant directors formity with generally accepted accounting
+as the director deems necessary. The com- principles and to maintain daily accountabil-
+pensation of each assistant director shall be ity.
+established by the director subject to ap- (3) The director shall make a monthly fi-
+proval of the commission. The director shall nancial report to the commission, and upon
+supervise the assistant directors. request provide copies of such reports to the
+(8) The director and each assistant direc- Governor, the Attorney General, the Secre-
+tor shall file a verified statement of economic tary of State, the State Treasurer and the
+interest with the Oregon Government Ethics Legislative Assembly. Such report shall in-
+Commission and shall be subject to the pro- clude a full and complete statement of state
+visions of ORS chapter 244. [1985c.2 §3(1) to (7); lottery revenues, prize disbursements, ex-
+1985 c.302 §3(1) to (8)] penses, net revenues and all other financial
+transactions involving state lottery funds for
+461.160 Authority of director to con-
+the month.
+tract for services. Under the rules of the
+commission, the Director of the Oregon State (4) After the first six months of sales of
+Lottery may contract with any state agency tickets or shares to the public, the director
+or political subdivision for the performance shall engage an independent firm experienced
+of such duties, functions and powers as the in demographic analysis to conduct a special
+director considers appropriate. [1985 c.302 §7(8)] study which shall ascertain the demographic
+461.170 Coordination between director characteristics of the players of each lottery
+and commission. The Director of the Ore- game, including but not limited to their in-
+gon State Lottery shall confer as frequently come, age, sex, education and frequency of
+as necessary or desirable, but not less than participation. This report shall be presented
+monthly, with the commission, regarding the to the commission, the Governor, the Attor-
+operation and administration of the Oregon ney General, the Secretary of State, the
+State Lottery. The director shall make avail- State Treasurer and the Legislative Assem-
+able for inspection by the commission, upon bly. Similar studies shall be conducted after
+Title 36 Page 6 (2015 Edition)
+
+=== page 7 ===
+OREGON STATE LOTTERY 461.200
+the first such study from time to time as de- Treasurer and the Legislative Assembly.
+termined by the director. Notwithstanding other provisions of state
+law, the portion of the report containing
+(5) After the first full year of sales of
+specific recommendations shall be confiden-
+tickets or shares to the public, the director
+tial and shall be presented only to the com-
+shall engage an independent firm experienced
+mission, the Governor and the director.
+in the analysis of advertising, promotion,
+Similar studies of security shall be conducted
+public relations, incentives, public disclo-
+biennially thereafter.
+sures of odds and numbers of winners in lot-
+tery games and other aspects of (7) The director may delegate to any of
+communications to conduct a special study the employees of the Oregon State Lottery
+of the effectiveness of such communications the exercise or discharge in the director’s
+activities by the state lottery and make rec- name of any power, duty or function of
+ommendations to the commission on the fu- whatever character, vested in or imposed by
+ture conduct and future rate of expenditure law upon the director. The official act of any
+for such activities. This report shall be pre- such person so acting in the director’s name
+sented to the commission, the Governor, the and by the authority of the director shall be
+Attorney General, the Secretary of State, the considered to be an official act of the direc-
+State Treasurer and the Legislative Assem- tor. [1985 c.2 §3(10) to (16); 1985 c.302 §3(11) to (17);
+bly. Until the presentation of such report 1991 c.30 §2; 1997 c.625 §1]
+and action by the commission, the state lot-
+461.190 Assistant Director for Secu-
+tery shall expend as close to three and one-
+rity. The Assistant Director for Security ap-
+half percent as practical of the projected
+pointed pursuant to the Constitution of the
+sales of all tickets and shares for advertising,
+State of Oregon and this chapter shall be re-
+promotion, public relations, incentives, pub-
+sponsible for a security division to assure
+lic disclosures of odds and numbers of win-
+integrity, security, honesty and fairness in
+ners in lottery games and other aspects of
+the operation and administration of the Ore-
+communications. Similar studies shall be
+gon State Lottery, including but not limited
+conducted from time to time after the first
+to, an examination of the background of all
+such study as determined by the director.
+prospective employees, lottery game retailers,
+(6) After the first nine months of sales lottery vendors and lottery contractors. The
+of tickets or shares to the public, the com- Assistant Director for Security shall be
+mission shall engage an independent firm qualified by training and experience, includ-
+experienced in security procedures, including ing at least five years of law enforcement
+but not limited to computer security and experience, and knowledge and experience in
+systems security, to conduct a comprehensive computer security, to fulfill these responsi-
+study and evaluation of all aspects of secu- bilities. The Assistant Director for Security
+rity in the operation of the state lottery. shall, in conjunction with the Director of the
+Such study shall include, but not be limited Oregon State Lottery, confer with the Attor-
+to, personnel security, lottery game retailer ney General or designee as the Assistant Di-
+security, lottery contractor security, security rector of Security deems necessary and
+of manufacturing operations of lottery con- advisable to promote and insure integrity,
+tractors, security against ticket counterfeit- security, honesty and fairness of the opera-
+ing and alteration and other means of tion and administration of the state lottery.
+fraudulently winning, security of drawings The Assistant Director for Security, in con-
+among entries or finalists, computer security, junction with the director, shall report any
+data communications security, database se- alleged violation of law to the Attorney
+curity, security in distribution, security in- General and any other appropriate law en-
+volving validation and payment procedures, forcement authority for further investigation
+security involving unclaimed prizes, security and action. [1985 c.2 §3(8); 1985 c.302 §3(9)]
+aspects applicable to each particular lottery
+game, security of drawings in lottery games
+OPERATION OF LOTTERY
+where winners are determined by drawings
+of numbers, the completeness of security 461.200 Operation of lottery; Oregon
+against locating winners in lottery games State Lottery Responsible Gambling Code
+with preprinted winners by persons involved of Practice. (1) The Oregon State Lottery
+in their production, storage, distribution or must be operated so as to produce the maxi-
+sale and any other aspects of security appli- mum amount of net revenues to benefit the
+cable to any particular lottery game and to public purpose described in Article XV, sec-
+the state lottery and its operations. The por- tion 4, of the Oregon Constitution, commen-
+tion of the report containing the overall surate with the public good. To achieve this
+evaluation of the state lottery in terms of mission, in the operation of the Oregon State
+each aspect of security shall be presented to Lottery, the Oregon State Lottery Commis-
+the commission, the Governor, the Attorney sion shall balance its obligation to maximize
+General, the Secretary of State, the State net revenues with its obligation to serve the
+Title 36 Page 7 (2015 Edition)
+
+=== page 8 ===
+461.202 PUBLIC HEALTH AND SAFETY
+public good through the implementation of (2) In the approval and purchase of video
+an Oregon State Lottery Responsible Gambl- lottery games, game terminals and equip-
+ing Code of Practice. ment, the lottery commission and any game
+(2) The Oregon State Lottery Responsible operator, distributor, retailer or owner shall
+Gambling Code of Practice shall provide the prefer goods or services that have been man-
+manner in which the lottery commission ufactured in this state if price, fitness and
+plans to: quality are otherwise equal.
+(a) Implement the values of the state lot- (3) The lottery commission shall sepa-
+tery; rately record and account for the costs and
+net proceeds of games operated under this
+(b) Include guidance that identifies eth-
+section. At such time as the lottery commis-
+ical standards and provides instruction for
+sion makes the quarterly transfer of net pro-
+state lottery employees to meet the stan-
+ceeds provided for by ORS 461.540, it shall
+dards;
+certify to the Oregon Department of Admin-
+(c) Develop for state lottery employees, istrative Services the amount of such trans-
+lottery contractors and lottery game retailers fer which represents the net proceeds of
+a system that promotes responsible gambling games provided for in subsection (1) of this
+practices; and section. [1989 c.828 §6; 1991 c.461 §80; 1991 c.962 §2;
+(d) Establish responsible gambling prac- 1993 c.18 §117; 2009 c.221 §3]
+tices to conduct the state’s lottery business 461.217 Video lottery game regulation;
+in a manner that reduces the harm to the limitation on number and placement of
+public caused by gambling. terminals; rules. (1) As used in this section,
+(3) Other state government departments, “video lottery game retailer” means a con-
+boards, commissions, agencies and their offi- tractor under contract with the Oregon State
+cers shall cooperate with the lottery com- Lottery to place video lottery game terminals
+mission so as to aid the lottery commission on premises authorized by the contract.
+in fulfilling these objectives. [1985 c.2 §4(1); 1985 (2) A video lottery game terminal that
+c.302 §4(1); 1985 c.458 §1(1); 1985 c.520 §1(1); 2015 c.478
+offers a video lottery game authorized by the
+§1]
+Director of the Oregon State Lottery:
+461.202 Transportation of gambling
+(a) May be placed for operation only in
+devices. Devices for playing lottery games,
+or on the premises of an establishment that
+including video lottery game terminals, oper-
+has a contract with the Oregon State Lottery
+ated under the authority of the Oregon State
+as a video lottery game retailer.
+Lottery Commission are exempted from the
+provisions of 15 U.S.C. 1172. [2009 c.221 §2] (b) Must be within the control of an em-
+ployee of the video lottery game retailer.
+461.210 Security measures; ticket con-
+tent; rules. Upon recommendation of the (c) May not be placed in any other busi-
+Director of the Oregon State Lottery, the ness or location.
+Oregon State Lottery Commission shall adopt
+(3) A video lottery game terminal may be
+rules specifying the types of lottery games to
+placed only on the premises of an establish-
+be conducted by the Oregon State Lottery,
+ment licensed by the Oregon Liquor Control
+provided:
+Commission with a full on-premises sales li-
+(1) Each lottery game shall contain secu- cense, a limited on-premises sales license or
+rity measures that are designed to prevent a brewery-public house license. A video lot-
+the redemption of fraudulent tickets. Every tery game terminal may be placed only in
+lottery ticket or stub printed after September that part of the premises that is posted by
+29, 1991, shall include a lottery fact which the Oregon Liquor Control Commission as
+refers to a specific lottery funded project or being closed to minors. In addition to the
+the benefits and jobs created for a specific requirements of this subsection, the director
+area of economic activity. may by rule establish other criteria and con-
+(2) No name of an elected official shall ditions as the director determines appropri-
+appear on the tickets of any lottery game. ate for the placement of video lottery game
+[1985 c.2 §4(2); 1985 c.302 §4(2); 1985 c.458 §1(2); 1985 c.520 terminals in establishments.
+§1(2); 1991 c.76 §1; 1991 c.613 §1; 1991 c.962 §1]
+(4) No more than six video lottery game
+461.213 [1989 c.828 §4(1),(2); 1991 c.345 §1; 1991 c.613
+§3; repealed by 2005 c.810 §3] terminals may be placed in or on premises
+described in subsection (3) of this section.
+461.215 Video lottery games. (1) The
+Oregon State Lottery Commission may initi- (5) No more than 10 video lottery game
+ate a game or games using video devices, the terminals may be placed in or on the prem-
+proceeds from which shall be transferred to ises of a race meet licensee licensed under
+the Administrative Services Economic De- ORS 462.020 that qualifies as a video lottery
+velopment Fund for allocation as provided by game retailer. [1991 c.962 §10; 1999 c.351 §16; 2003
+law. c.787 §1; 2007 c.631 §1; 2009 c.221 §4]
+Title 36 Page 8 (2015 Edition)
+
+=== page 9 ===
+OREGON STATE LOTTERY 461.230
+461.220 Number and value of prizes; is to advertise the location where tickets
+required information on lottery tickets; may be purchased or to provide information
+rules; advertising. (1) Upon recommen- about the winners.
+dation of the Director of the Oregon State (6) All television, radio and newspaper
+Lottery, the Oregon State Lottery Commis- advertising of lottery games funded by the
+sion shall adopt rules that specify the num- lottery commission, including advertising
+ber and value of prizes for winning tickets that is intended to indicate where tickets
+or shares in each lottery game including, may be purchased or to provide information
+without limitation, cash prizes, merchandise about prize winners, shall include the dis-
+prizes, prizes consisting of deferred payments claimer that “Lottery games are based on
+or annuities and prizes of tickets or shares chance, should be played for entertainment
+in the same lottery game or other lottery only and should not be played for investment
+games conducted by the Oregon State Lot- purposes.”
+tery.
+(7) All television, radio and newspaper
+(2) In each lottery game utilizing tickets, advertising intended to publicize projects or
+the following information shall be printed on programs funded by lottery dollars shall in-
+each ticket: clude the disclaimer that “Lottery games are
+(a) A close approximation of the odds of based on chance and should be played for
+winning some prize or some cash prize, as entertainment only.” However, this subsec-
+appropriate for the lottery game. tion does not apply to any such advertising
+that has the sole purpose of educating the
+(b) An approximation of a payout per-
+public about gambling addiction or available
+centage that will be returned to players in
+treatments.
+the form of prizes for the lottery game. For
+online games, the approximation may be (8) All billboard advertising intended to
+based on the average payout percentage over promote a lottery game, to indicate where
+several prior years. tickets may be purchased or to provide in-
+formation about prize winners shall include
+(c) The statement that “Lottery games
+the disclaimer that “Lottery games should
+are based on chance, should be played for
+not be played for investment purposes.”
+entertainment only and should not be played
+for investment purposes.” (9) All billboard advertising intended to
+publicize projects or programs funded by lot-
+(3) A detailed tabulation of the estimated
+tery dollars shall include the disclaimer that
+number of prizes of each particular prize de-
+“Lottery games should be played for enter-
+nomination that are expected to be awarded
+tainment only.”
+in each lottery game and the close approxi-
+(10) A disclaimer required by this section
+mation of the odds of winning such prizes
+to be included in a written advertisement
+shall be available at each location at which
+shall be of a size and in a form that allows
+tickets or shares in such lottery games are
+an individual to readily notice and read the
+offered for sale to the public.
+statement. A disclaimer required by this sec-
+(4) Notwithstanding subsection (1) of this tion to be included in a television or radio
+section, the commission may specify by rule advertisement shall be spoken aloud and, in
+the number and value of prizes for lottery the case of television, must also be displayed
+games that use video devices or that use visually in a form that allows an individual
+tickets or shares that allow a player to man- to readily notice and read the statement.
+ually reveal covered play symbols, or the [1985 c.2 §4(3); 1985 c.302 §4(3); 1985 c.458 §1(3); 1985 c.520
+commission may make such information §1(3); 1991 c.63 §1; 1999 c.1069 §1; 2001 c.83 §1]
+available at each location that offers such
+461.230 Method for determining win-
+games using video devices, tickets or shares
+ners; rules. (1) Upon recommendation of the
+for sale to the public.
+Director of the Oregon State Lottery, the
+(5) All television, radio and newspaper Oregon State Lottery Commission shall adopt
+advertising of a lottery game shall include a rules that specify the method for determining
+disclaimer representing a close approxi- winners in each lottery game.
+mation of the odds of winning some prize and
+(2) If a lottery game utilizes a manual
+an approximation of the amount that will be
+drawing of winning numbers, a manual
+returned to the players in the form of prizes
+drawing among entries or a manual drawing
+for the game in the following words: “The
+among finalists:
+odds of winning some prize are one in (some
+number). The prize payout percentage is (a) The drawing must be open to the
+(some number).” where the numbers stated public;
+represent a close approximation of the odds (b) The drawing must be witnessed by an
+of winning some prize and the prize payout independent certified public accountant or a
+percentage. However, this subsection does professional representative of an independent
+not apply to advertising the purpose of which certified public accountancy organization;
+Title 36 Page 9 (2015 Edition)
+
+=== page 10 ===
+461.240 PUBLIC HEALTH AND SAFETY
+(c) Any equipment used in the drawing on their premises appropriate to the lottery
+must be inspected by the independent certi- game involved.
+fied public accountant or the professional
+(2) A prize may not be paid to a person
+representative of an independent certified
+under 18 years of age.
+public accountancy organization and an em-
+(3) A video lottery game prize may not
+ployee of the lottery both before and after
+be paid to a person under 21 years of age.
+the drawing; and
+(4) A prize may not be paid arising from
+(d) The drawing and such inspections
+claimed tickets or shares that are stolen,
+shall be recorded on both video and audio
+counterfeit, altered, fraudulent, unissued,
+tape.
+produced or issued in error, unreadable, not
+(3)(a) When a drawing is held out of this received or not recorded by the Oregon State
+state in conjunction with other state lot- Lottery by applicable deadlines, lacking in
+teries, the Oregon State Lottery shall con- captions that confirm and agree with the
+duct periodic studies of the drawing’s lottery play symbols as appropriate to the
+security procedures. Any equipment used in lottery game involved or not in compliance
+a manual drawing must be inspected both with such additional specific rules or with
+before and after the drawing by a profes- public or confidential validation and security
+sional representative of an independent cer- tests of the lottery appropriate to the partic-
+tified public accountancy organization and a ular lottery game involved. However, the
+representative of the state lottery designated commission may adopt rules to establish a
+by the director. system of verifying the validity of claims to
+(b) Any manual drawing and such in- prizes greater than $600 that are otherwise
+spections shall be recorded on both video and not payable under this subsection due to a
+audio tape. lottery game retailer’s losing, damaging or
+destroying the winning ticket or share while
+(4) The lottery may use any of a variety
+performing validation procedures thereon,
+of existing or future methods or technologies
+and to effect payment of verified claims. A
+in determining winners. [1985 c.2 §4(4); 1985 c.302 verification system established by the com-
+§4(4); 1985 c.458 §1(4); 1985 c.520 §1(4); 1991 c.613 §2; 1997 mission shall include appropriate public or
+c.146 §1; 1997 c.625 §2; 1999 c.322 §40; 2003 c.59 §1]
+confidential validation and security tests.
+461.240 Sale price of tickets and
+(5) A particular prize in any lottery game
+shares; rules. (1) Upon recommendation of
+may not be paid more than once, and in the
+the Director of the Oregon State Lottery, the
+event of a binding determination that more
+Oregon State Lottery Commission shall adopt
+than one claimant is entitled to a particular
+rules specifying the retail sales price for prize, the sole remedy of such claimants is
+each ticket or share for each lottery game. the award to each of them of an equal share
+However, no ticket or share shall be sold for in the prize.
+more than the retail sales price established
+(6) The commission may specify that
+by the commission.
+winners of less than $25 claim such prizes
+(2) Notwithstanding subsection (1) of this from either the same lottery game retailer
+section, the commission may specify by rule who sold the winning ticket or share or from
+the retail sales price for tickets or shares the lottery itself and may also specify that
+that allow a player to manually reveal cov- the lottery game retailer who sold the win-
+ered play symbols or may print the retail ning ticket or share be responsible for di-
+sales price on the ticket or share. [1985 c.2 rectly paying that prize.
+§4(5); 1985 c.302 §4(5); 1985 c.458 §1(5); 1985 c.520 §1(5);
+(7) Holders of tickets or shares shall
+1989 c.418 §2; 2001 c.83 §2]
+have the right to claim prizes for one year
+461.250 Validation and payment of after the drawing or the end of the lottery
+prizes; tabulation of sales and prizes; as- game or play in which the prize was won.
+signment of prizes; payment on behalf of The commission may define shorter time pe-
+deceased winner; claim period; ineligibil- riods to claim prizes and for eligibility for
+ity of lottery employees; rules. Upon rec- entry into drawings involving entries or
+ommendation of the Director of the Oregon finalists. If a valid claim is not made for a
+State Lottery, the Oregon State Lottery prize payable directly by the lottery commis-
+Commission shall adopt rules to establish a sion within the applicable period, the un-
+system of verifying the validity of tickets or claimed prize shall remain the property of
+shares claimed to win prizes and to effect the commission and shall be allocated to the
+payment of such prizes, provided: benefit of the public purpose.
+(1) For the convenience of the public, (8)(a) The right of any person to a prize
+shall not be assignable, except that:
+lottery game retailers may be authorized by
+the commission to pay winners of up to (A) Payment of any prize may be made
+$5,000 after performing validation procedures according to the terms of a deceased prize
+Title 36 Page 10 (2015 Edition)
+
+=== page 11 ===
+OREGON STATE LOTTERY 461.253
+winner’s signed beneficiary designation form periodic prize payments, in whole or in part.
+filed with the commission or, if no such form Payment of a prize pursuant to an assign-
+has been filed, to the estate of the deceased ment made under this section must be made
+prize winner. to a person designated as assignee under an
+(B) Payment of any prize shall be made appropriate judicial order of the circuit court
+to a person designated pursuant to an appro- for the county in which the assignor resides
+priate judicial order or pursuant to a judicial or in which the headquarters of the Oregon
+order approving the assignment of the prize State Lottery Commission are located.
+in accordance with ORS 461.253. (2) A copy of the petition for an order
+(b) The director, commission and state described in subsection (1) of this section and
+shall be discharged of all further liability copies of all notices of any hearing in the
+with respect to a specific prize payment upon matter shall be served on the commission not
+making that prize payment in accordance later than 10 days prior to any hearing or
+with this subsection or ORS 461.253. entry of any order. A nonrefundable process-
+ing fee of $500 for each assignee shall be
+(9) A ticket or share may not be pur-
+paid to the commission when the copy of the
+chased by, and a prize may not be paid to, a
+petition is served on the commission.
+member of the commission, the director, the
+assistant directors or any employee of the (3) The commission may intervene in a
+state lottery or to any spouse, child, brother, proceeding to protect the interests of the
+sister or parent of such person. commission but shall not be considered an
+indispensable or necessary party. Notwith-
+(10) Payments made according to the
+standing the failure or refusal of the com-
+terms of a deceased prize winner’s signed
+mission to appear in any proceeding, the
+beneficiary designation form filed with the
+Director of the Oregon State Lottery, the
+commission are effective by reason of the
+commission and the state shall be immune
+contract involved and this statute and are
+from liability for, and shall be discharged of
+not to be considered as testamentary devices
+all further liability with respect to, any
+or subject to ORS chapter 112. The director,
+amounts paid according to the terms of an
+commission and state shall be discharged of
+order issued under this section.
+all liability upon payment of a prize.
+(4) A circuit court receiving a petition
+(11) In accordance with the provisions of
+may issue an order approving the assignment
+the Soldiers’ and Sailors’ Civil Relief Act of
+and directing the commission to pay to the
+1940 (50 U.S.C.A. app. 525), a person while in
+assignee all future prize payments so as-
+active military service may claim exemption
+signed upon finding that all of the following
+from the one-year ticket redemption require-
+conditions have been met:
+ment under subsection (7) of this section.
+However, the person must notify the com- (a) The assignment has been memorial-
+mission by providing satisfactory evidence of ized in writing and executed by the assignor
+possession of the winning ticket within the and is subject to Oregon law;
+one-year period, and must claim the prize or (b) The assignor provides a sworn decla-
+share no later than one year after discharge ration to the court attesting that the
+from active military service. [1985 c.2 §4(6); 1985 assignor is represented by independent legal
+c.302 §4(6); 1985 c.458 §1(6); 1985 c.520 §1(6); 1987 c.268 counsel in connection with the assignment,
+§1; 1991 c.22 §1; 1991 c.613 §4; 1993 c.206 §1; 1995 c.478
+has had the opportunity to receive independ-
+§3; 1997 c.249 §160; 1999 c.203 §1; 2003 c.58 §1]
+ent financial and tax advice concerning the
+461.251 Reporting of certain prize
+effects of the assignment, is of sound mind
+winners to Department of Human Ser-
+and is not acting under duress;
+vices. For the purpose of complying with
+(c) The proposed assignment does not and
+section 4009 of the Agricultural Act of 2014,
+will not include or cover payments or por-
+P.L. 113-79, within seven days after paying a
+tions of payments that are subject to a 30-day
+prize of $1,250 or more, the Director of the
+hold under ORS 461.715, unless appropriate
+Oregon State Lottery shall notify the De-
+provision is made in the order to satisfy the
+partment of Human Services of the name of
+obligations giving rise to the hold; and
+the prize recipient, the Social Security num-
+ber of the recipient, any other available (d) The proposed assignment and court
+identifying information about the recipient order shall not require the commission to di-
+and the amount of the prize paid to the re- vide any prize payment so that portions of a
+cipient. [2015 c.316 §2] single prize payment must be made to more
+than three persons at a time.
+461.253 Voluntary assignment of
+prizes; petition for judicial order; issu- (5) After receipt of a certified copy of a
+ance of order; commission intervention court order granted under this section, the
+in proceeding. (1) Payment of a prize may commission shall acknowledge in writing to
+be made to any person pursuant to a volun- both the assignor and the assignee the
+tary assignment of the right to receive future agreement of the commission to make the
+Title 36 Page 11 (2015 Edition)
+
+=== page 12 ===
+461.257 PUBLIC HEALTH AND SAFETY
+prize payments in accordance with the pro- LOTTERY GAME RETAILERS
+visions of the order. The commission shall
+461.300 Selection of retailers; rules;
+thereafter make the prize payments in ac-
+contracts. (1) The Oregon State Lottery
+cordance with the order. Commission shall adopt rules specifying the
+(6) No modification or amendment to any terms and conditions for contracting with
+lottery game retailers so as to provide ade-
+assignment authorized by this section, and
+quate and convenient availability of tickets
+no additional or subsequent assignment of
+or shares to prospective buyers of each lot-
+any prize, shall be valid or binding on the
+tery game as appropriate for each such game.
+commission unless the modification, amend-
+Nothing in this subsection is intended to
+ment or assignment is authorized by a sepa-
+preclude the lottery from selling tickets or
+rate judicial order issued in compliance with shares directly to the public.
+this section. [1995 c.478 §2]
+(2)(a) The Director of the Oregon State
+461.257 Judicial order suspending vol- Lottery shall, pursuant to this chapter, and
+untary assignment laws upon finding of the rules of the commission, select as lottery
+adverse tax consequences for all prize game retailers such persons as deemed to
+best serve the public convenience and pro-
+winners. Notwithstanding ORS 461.250 (8)
+mote the sale of tickets or shares. A person
+or 461.253, if it is ever determined that prize
+under the age of 18 may not be a lottery
+winners who do not seek to assign their prize
+game retailer. In the selection of a lottery
+payments are subject to immediate income
+game retailer, the director shall consider
+taxes on the prize payments just as if those factors such as financial responsibility, in-
+prize winners had so assigned their prizes, tegrity, reputation, accessibility of the place
+the Oregon State Lottery Commission may of business or activity to the public, security
+intervene in a proceeding commenced under of the premises, the sufficiency of existing
+ORS 461.253 in order to raise the issue of lottery game retailers for any particular lot-
+adverse tax consequences in the proceeding. tery game to serve the public convenience
+If the court determines that ORS 461.250 (8) and the projected volume of sales for the
+lottery game involved.
+and 461.253 or the issuance of an order ap-
+proving an assignment of prize payments (b) Except when the director recom-
+subjects prize winners who do not seek as- mends, and the commission concludes, that
+signment of prize payments to immediate in- it is reasonable and prudent to waive disclo-
+come taxes on their prize payments, the sure requirements under this section and
+that to do so will not jeopardize the fairness,
+court shall refuse to authorize an assignment
+integrity, security and honesty of the lottery,
+and shall issue an order that ORS 461.250 (8)
+prior to the execution of any contract with
+and 461.253 are suspended and are of no
+a lottery game retailer, the lottery game
+force or effect so long as such determination
+retailer shall disclose to the lottery the
+and adverse tax consequences are in effect.
+names and addresses of the following:
+An order issued by a court under this section
+shall suspend ORS 461.250 (8) and 461.253 (A) If the lottery game retailer is a cor-
+poration but not a nonprofit private club as
+throughout this state. An order issued under
+described in ORS 471.175, the officers, each
+this section shall be final and shall remain
+director who owns or controls three percent
+in effect unless or until overturned or modi-
+or more of the voting stock and each stock-
+fied by a subsequent court order or the order
+holder who owns 10 percent or more of the
+of a reviewing court. [1995 c.478 §5; 2003 c.58 §6] outstanding stock in such corporation.
+Note: 461.257 was enacted into law by the Legisla-
+(B) If the lottery game retailer is a trust,
+tive Assembly but was not added to or made a part of
+the trustee and all persons entitled to re-
+ORS chapter 461 or any series therein by legislative
+action. See Preface to Oregon Revised Statutes for fur- ceive income or benefit from the trust.
+ther explanation. (C) If the lottery game retailer is an as-
+461.260 Distribution of tickets and sociation but not a nonprofit private club as
+shares; rules. Upon recommendation of the described in ORS 471.175, the members, offi-
+Director of the Oregon State Lottery, the cers and directors.
+commission shall adopt rules specifying the (D) If the lottery game retailer is a sub-
+manner of distribution, dissemination or sale sidiary but not a nonprofit private club as
+of lottery tickets or shares to lottery game described in ORS 471.175, the officers, each
+retailers or directly to the public, and the director who owns or controls three percent
+incentives, if any, for Oregon State Lottery or more of the voting stock and each stock-
+employees, if any, engaged in such activities. holder who owns 10 percent or more of the
+[1985 c.2 §4(7); 1985 c.302 §4(7); 1985 c.458 §1(7); 1985 c.520 outstanding stock of the parent corporation
+§1(7)] thereof.
+Title 36 Page 12 (2015 Edition)
+
+=== page 13 ===
+OREGON STATE LOTTERY 461.300
+(E) If the lottery game retailer is a part- (c) Any person required to disclose infor-
+nership, joint venture or limited liability mation under paragraph (b) of this subsection
+company, all of the general partners, limited shall disclose additional information for re-
+partners, joint venturers, members of a lim- tail contract approval that the director de-
+ited liability company whose investment termines to be appropriate.
+commitment or membership interest is 10
+(d) The commission may refuse to grant
+percent or more, and managers of a limited
+a lottery game retail contract to any lottery
+liability company.
+game retailer or any natural person whose
+(F) If the parent company, general part- name is required to be disclosed under para-
+ner, limited partner, joint venturer, stock- graph (b) of this subsection, who has been
+holder, member or manager of a limited convicted of violating any of the gambling
+liability company is itself a corporation, laws of this state, general or local, or has
+trust, association, subsidiary, partnership, been convicted at any time of any crime. The
+joint venture or limited liability company, lottery may require payment by each lottery
+then the director may require that all of the game retailer to the lottery of an initial
+information required by this paragraph be nonrefundable application fee or an annual
+disclosed for such other entity as if it were fee, or both, to maintain the contract to be
+itself a lottery game retailer to the end that a lottery game retailer.
+full disclosure of ultimate ownership be
+(e) A person who is a lottery game
+achieved.
+retailer may not be engaged exclusively in
+(G) If any member, 18 years of age or the business of selling lottery tickets or
+older, of the immediate family of any video shares. A person lawfully engaged in non-
+lottery game retailer, or any member, 18 governmental business on state or political
+years of age or older, of the immediate family subdivision property or an owner or lessee
+of any individual whose name is required to of premises which lawfully sells alcoholic
+be disclosed under this paragraph, is involved beverages may be selected as a lottery game
+in the video lottery game retailer’s business retailer. State agencies, except for the state
+in any capacity, then all of the information lottery, political subdivisions or their agen-
+required in this paragraph shall be disclosed cies or departments may not be selected as
+for such immediate family member as if the a lottery game retailer. The director may
+family member were a video lottery game contract with lottery game retailers on a
+retailer. permanent, seasonal or temporary basis.
+(H) If any immediate family member, 18 (3) The authority to act as a lottery game
+years of age or older, of any lottery game retailer is not assignable or transferable.
+retailer, other than a video lottery game
+(4) The director may terminate a contract
+retailer, or of any person whose name is re-
+with a lottery game retailer based on the
+quired to be disclosed under this paragraph
+grounds for termination included in the con-
+is involved in the lottery game retailer’s
+tract or commission rules governing the
+business in any capacity, then the lottery
+contract. The grounds for termination must
+game retailer shall identify the immediate
+include, but are not limited to, the knowing
+family member to the Oregon State Lottery,
+sale of lottery tickets or shares to any person
+and shall report the capacity in which the
+under the age of 18 years or knowingly per-
+immediate family member is involved in the
+mitting a person under the age of 21 years
+lottery game retailer’s business if requested
+to operate a video lottery game terminal.
+by the director. Full disclosure of immediate
+family members working in the business may (5) Notwithstanding subsection (4) of this
+be required only if the director has just section, when a lottery game retail contract
+cause for believing the immediate family requires the lottery game retailer to main-
+member may be a threat to the fairness, in- tain a minimum weekly sales average, the
+tegrity, security or honesty of the lottery. lottery game retailer may avoid termination
+of the contract for failure to meet the mini-
+(I) If the lottery game retailer is a non-
+mum weekly sales average by agreeing, prior
+profit private club as described in ORS
+to termination, to pay the state lottery the
+471.175, the treasurer, officers, directors and
+difference between the actual weekly cost
+trustees who oversee or direct the operation
+incurred by the lottery to maintain the con-
+of the food, beverage, lottery or other
+tract and the weekly proceeds that are col-
+gambling-related activities of the nonprofit
+lected by the lottery from the sales of that
+private club and each manager in charge of
+lottery game retailer, less expenses that are
+the food, beverage, lottery or other
+dedicated by statute, rule or contract to
+gambling-related activities of the nonprofit
+other purposes. The director may not termi-
+private club.
+nate the contract of a lottery game retailer
+(J) Any other person required by rule of for failure to meet a minimum weekly sales
+the commission. average unless the director first allows the
+Title 36 Page 13 (2015 Edition)
+
+=== page 14 ===
+461.310 PUBLIC HEALTH AND SAFETY
+lottery game retailer an opportunity to make transfer or other recorded financial instru-
+the payment described in this subsection. ment as determined by the director. [1985 c.2
+§5(7) to (9); 1985 c.302 §5(7) to (9); 1991 c.331 §66; 1997
+(6) The commission shall adopt by rule
+c.631 §476]
+an alternative dispute resolution process for
+461.335 Temporary letter of authority;
+disputes arising from a contract with a lot-
+grounds for revocation. (1) The Oregon
+tery game retailer that must be included in
+State Lottery Commission may grant a tem-
+every contract between the commission and
+porary letter of authority for a period not to
+lottery game retailers. The commission shall
+exceed 90 days on change of ownership ap-
+develop the dispute resolution process re-
+plications for certificates of authority
+quired by this section in conformity with
+granted under this chapter if the applicant
+ORS 183.502. [1985 c.2 §5(1) to (4); 1985 c.302 §5(1) pays the fee prescribed by the commission for
+to (4); 1995 c.728 §1; 1997 c.483 §§1,2; 1999 c.351 §17; 2003
+a temporary letter of authority. A temporary
+c.58 §2; 2005 c.166 §1; 2005 c.267 §1; 2010 c.33 §3]
+letter of authority issued under this section
+461.310 Compensation for retailers. does not constitute a lottery game retail
+Upon recommendation of the Director of the contract for the purposes of ORS 461.300.
+Oregon State Lottery, the commission shall
+(2) The commission, summarily and with-
+determine the compensation to be paid to
+out prior administrative proceedings, may
+lottery game retailers for their sales of lot-
+revoke a temporary letter of authority any
+tery tickets or shares. Until the commission
+time during the 90 days if the commission
+shall otherwise determine, the compensation
+finds that any of the grounds for refusing a
+paid to lottery game retailers shall be five
+lottery game retail contract or terminating
+percent of the retail price of the tickets or
+a contract under ORS 461.300 exist.
+shares plus an incentive bonus of one per-
+cent based on attainment of sales volume or (3) A person subject to subsection (2) of
+other objectives specified by the director for this section shall be given an interview un-
+each lottery game. In cases of a lottery game der the direction of the commission if the
+retailer whose rental payments for premises person requests an interview prior to revo-
+are contractually computed in whole or in cation of a temporary letter of authority.
+part, on the basis of a percentage of retail However, the proceedings are not a con-
+sales, and where such computation of retail tested case under ORS chapter 183. [2001c.150
+sales is not explicitly defined to include sales §2]
+of tickets or shares in a state-operated lot-
+tery, the compensation received by the lot- LOTTERY VENDORS AND
+tery game retailer from the Oregon State CONTRACTORS
+Lottery shall be deemed to be the amount of
+461.400 Procurements. Notwithstanding
+the retail sale for the purposes of such con-
+other provisions of law, the Director of the
+tractual computation. [1985 c.2 §5(5); 1985 c.302
+Oregon State Lottery may purchase or lease
+§5(5)]
+such goods or services as are necessary for
+461.330 Display of certificate of au- effectuating the purposes of this chapter. The
+thority; bond or letter of credit; pay- commission may not contract with any pri-
+ments for tickets or shares. (1) No lottery vate party or nongovernmental entity for the
+tickets or shares shall be sold by a lottery operation and administration of the Oregon
+game retailer unless the lottery game State Lottery established by this chapter.
+retailer has on display on the premises a However, the foregoing shall not preclude
+certificate of authority signed by the Direc- procurements which integrate functions such
+tor of the Oregon State Lottery to sell lot- as lottery game design, supply of goods and
+tery tickets or shares. services, advertising and public relations. In
+(2) The director may require a bond or all procurement decisions, the director and
+an irrevocable letter of credit issued by an Oregon State Lottery Commission shall take
+insured institution as defined in ORS 706.008 into account the particularly sensitive nature
+from any lottery game retailer in an amount of the state lottery, shall consider the
+specified in the Oregon State Lottery rules lottery’s potential contribution to the devel-
+adopted by the commission or may purchase opment of and citizen’s access to the state’s
+a blanket bond or a blanket letter of credit telecommunications infrastructure, and shall
+issued by an insured institution as defined in act to promote and insure integrity, security,
+honesty and fairness in the operation and
+ORS 706.008 covering the activities of all or
+administration of the state lottery and the
+a selected group of lottery game retailers.
+objective of raising net revenues for the
+(3) No payment by lottery game retailers benefit of the public purpose described in
+to the lottery for tickets or shares shall be section 4, Article XV of the Constitution of
+in cash. All such payments shall be in the the State of Oregon. [1985c.2§6(1);1985c.302§6(1);
+form of a check, bank draft, electronic fund 1991 c.962 §11]
+Title 36 Page 14 (2015 Edition)
+
+=== page 15 ===
+OREGON STATE LOTTERY 461.410
+461.410 Vendor disclosure for major to a subcontractor, then all of the informa-
+procurements. (1) In order to allow an tion required in this section shall be dis-
+evaluation by the Oregon State Lottery of closed for such subcontractor as if it were
+the competence, integrity, background, char- itself a vendor.
+acter and nature of the true ownership and
+(I) The persons or entities in subpara-
+control of lottery vendors, any person who
+graphs (A) to (H) of this paragraph, along
+submits a bid, proposal or offer as part of a
+with the vendor itself, shall be referred to as
+procurement for a contract for the printing
+control persons.
+of tickets used in any lottery game, any
+goods or services involving the receiving or (b) A disclosure of all the states and ju-
+recording of number selection in any lottery risdictions in which each control person does
+game, or any goods or services involving the business, and the nature of that business for
+determination of winners in any lottery each such state or jurisdiction.
+game, which are hereby referred to as major (c) A disclosure of all the states and ju-
+procurements, shall first disclose at the time risdictions in which each control person has
+of submitting such bid, proposal or offer to contracts to supply gaming goods or services,
+the state lottery all of the following items: including, but not limited to, lottery goods
+(a) A disclosure of the lottery vendor’s and services and the nature of the goods or
+name and address and, as applicable, the services involved for each such state or ju-
+name and address of the following: risdiction.
+(A) If the vendor is a corporation, the (d) A disclosure of all the states and ju-
+officers, directors and each stockholder in risdictions in which each control person has
+such corporation; except that, in the case of applied for, has sought renewal of, has re-
+stockholders of publicly held equity securi- ceived, has been denied, has pending or has
+ties of a publicly traded corporation, only the had revoked a gaming license of any kind,
+names and addresses of those known to the and the disposition of such in each such
+corporation to beneficially own 15 percent or state or jurisdiction. If any gaming license
+more of such securities need be disclosed. has been revoked or has not been renewed
+(B) If the vendor is a trust, the trustee or any gaming license application has been
+and all persons entitled to receive income or either denied or is pending and has remained
+benefit from the trust. pending for more than six months, all of the
+(C) If the vendor is an association, the facts and circumstances underlying this fail-
+members, officers and directors. ure to receive such a license must be dis-
+closed.
+(D) If the vendor is a subsidiary, the of-
+ficers, directors and each stockholder of the (e) A disclosure of the details of any
+parent corporation thereof; except that, in conviction or judgment of a state or federal
+the case of stockholders of publicly held eq- court of each control person of any felony
+uity securities of a publicly traded corpo- and any other criminal offense other than
+ration, only the names and addresses of those traffic offenses.
+known to the corporation to beneficially own
+(f) A disclosure of the details of any
+15 percent or more of such securities need
+bankruptcy, insolvency, reorganization or
+be disclosed.
+any pending litigation of each control person.
+(E) If the vendor is a partnership or joint
+(g) A disclosure for each control person
+venture, all of the general partners, limited
+partners or joint venturers. who is a natural person of employment, resi-
+dence, education and military history since
+(F) If the parent company, general part-
+the age of 18 years, and any federal, state or
+ner, limited partner or joint venturer of any
+local elective position ever held by such per-
+vendor is itself a corporation, trust, associ-
+son.
+ation, subsidiary, partnership or joint ven-
+ture, then all of the information required in (h) A disclosure consolidating all report-
+this section shall be disclosed for such other able information on all reportable contrib-
+entity as if it were itself a vendor to the end utions by each control person to any local,
+that full disclosure of ultimate ownership be state or federal political candidate or poli-
+achieved. tical committee in this state for the past five
+(G) If any member of the immediate fam- years that is reportable under any existing
+ily of any vendor is involved in the vendor’s state or federal law.
+business in any capacity, then all of the in- (i) A disclosure of the identity of any en-
+formation required in this section shall be tity with which each control person has a
+disclosed for such immediate family member joint venture or other contractual arrange-
+as if the family member were a vendor. ment to supply any state or jurisdiction with
+(H) If the vendor subcontracts any sub- gaming goods or services, including a disclo-
+stantial portion of the work to be performed sure with regard to such entity of all of the
+Title 36 Page 15 (2015 Edition)
+
+=== page 16 ===
+461.420 PUBLIC HEALTH AND SAFETY
+information requested under paragraphs (a) lottery game. [1985 c.2 §6(3),(4); 1985 c.302 §6(3),(4);
+to (h) of this subsection. 1989 c.418 §1; 2009 c.185 §1]
+(j) A disclosure consisting of financial 461.440 Commission’s authority to
+statements of the lottery vendor for the past contract; rules. Subject to rules adopted by
+three years. the commission, the Director of the Oregon
+State Lottery may enter into all contracts
+(k) A disclosure of any economic interest
+necessary to accomplish the purposes of this
+as contemplated by ORS 244.060 and 244.070,
+chapter. The rules shall cover contracts for
+known to the lottery vendor to be held by
+materials, supplies, equipment, services and
+any of the persons named in ORS 244.050
+professional services and to the extent that
+(1)(a), any lottery commissioner, the lottery
+is reasonable shall follow the public policy
+director, or the assistant directors of the
+of open competitive procurement. The com-
+state lottery, in any lottery vendor or its
+mission shall also consider security, compe-
+control persons.
+tence, experience, timely performance and
+(L) Such additional disclosures and infor- maximization of net revenues in developing
+mation as the director may determine to be rules governing procurement actions. All
+appropriate for the procurement involved. contract awards for major procurements
+(2) No contract for a major procurement shall be approved by the commission. [1985c.2
+with any vendor who has not complied with §6(5); 1985 c.302 §6(5)]
+the disclosure requirements described in this 461.445 Policy on payment to contrac-
+section for each of its control persons shall tors. In establishing its schedule of pay-
+be entered into or be enforceable. Any con- ments to contractors, the Oregon State
+tract with any lottery contractor who does Lottery Commission shall undertake to de-
+not comply with such requirements for peri- velop a system that maximizes the net re-
+odically updating such disclosures from each venue to the state for the public purpose
+of its control persons during the tenure of consistent with providing a reasonable rate
+such contract as may be specified in such of return for contractors. [1991 c.962 §12]
+contract may be terminated by the commis-
+Note: 461.445 was enacted into law by the Legisla-
+sion. [1985 c.2 §6(2); 1985 c.302 §6(2)(a) to (m)] tive Assembly but was not added to or made a part of
+ORS chapter 461 or any series therein by legislative
+461.420 Contract with vendor con-
+action. See Preface to Oregon Revised Statutes for fur-
+victed of crime prohibited. No contract for
+ther explanation.
+a major procurement with any lottery vendor
+shall be entered into if any control person
+LOTTERY FINANCES
+of that lottery vendor has been convicted of
+a crime, unless, after investigation, the find- 461.500 Lottery to be self-supporting;
+ing of the commission determines that the allocation of revenues. (1) Except for such
+crime bears no relationship to the lottery moneys as are necessary to temporarily fund
+vendor’s ability to perform honestly in car- the start-up of the state-operated lottery es-
+rying out the contract. [1985 c.2 §6(2)(m); 1985 tablished by the Constitution of the State of
+c.302 §6(2)(n)] Oregon and this chapter, the Oregon State
+461.430 Contractor required to comply Lottery shall operate as a self-supporting
+with applicable laws; performance bond. revenue-raising agency of state government
+(1) A lottery contractor shall perform its and appropriations, loans or other transfers
+contract consistent with the laws of this of state funds may not be made to it.
+state, federal law, and laws of the state or (2) At least 84 percent of the total annual
+states in which the lottery contractor, in revenues from the sale of state lottery tick-
+whole or in part, performs services or ets or shares shall be returned to the public
+produces goods required by the contract. in the form of prizes and net revenues bene-
+(2) At the time specified in the contract, fiting the public purpose described in Article
+a lottery contractor shall post performance XV, section 4, of the Constitution of the
+security with the Oregon State Lottery Com- State of Oregon. At least 50 percent of the
+mission in a form and an amount acceptable total annual revenues shall be returned to
+to the commission and issued by a surety, fi- the public in the form of prizes as described
+nancial institution, insurer, escrow agent or in this chapter. All unclaimed prize money
+other person acceptable to the commission if shall remain the property of the commission
+the lottery contractor: and shall be allocated to the benefit of the
+public purpose.
+(a) Prints tickets used in a lottery game;
+(3) No more than 16 percent of the total
+(b) Provides goods or performs services
+annual revenues shall be allocated for pay-
+involving the receipt or recording of number
+ment of expenses of the state lottery as de-
+selections in a lottery game; or
+scribed in this chapter. To the extent that
+(c) Provides goods or performs services expenses, including the contingency reserve,
+involving the determination of winners in a of the state lottery are less than 16 percent
+Title 36 Page 16 (2015 Edition)
+
+=== page 17 ===
+OREGON STATE LOTTERY 461.512
+of the total annual revenues as described in puted on a year-round basis, accruing from
+this chapter, any surplus funds shall also be the sales of all state lottery tickets or shares
+allocated to the benefit of the public purpose. shall be apportioned for payment of prizes.
+(4) For the purpose of ensuring the in- (4) Expenses of the state lottery shall in-
+tegrity, security, honesty and fairness of the clude all costs incurred in the operation and
+state lottery, the Oregon State Lottery may administration of the state lottery and all
+use moneys allocated, as costs of administra- costs resulting from any contracts entered
+tion, for the payment of expenses of the state into for the purchase or lease of goods or
+lottery pursuant to subsection (3) of this services required by the commission includ-
+section for expenses incurred to: ing, but not limited to, the costs of supplies,
+(a) Adopt and implement rules intended materials, tickets, independent audit ser-
+to minimize problem gambling risks and mit- vices, independent studies, data transmission,
+igate problem gambling harms; advertising, promotion, incentives, public re-
+lations, communications, compensation paid
+(b) Advertise the availability of problem
+to lottery game retailers, bonding for lottery
+gambling treatment programs in this state,
+game retailers, printing, distribution of tick-
+including contact information for the pro-
+ets and shares, reimbursing other govern-
+grams;
+mental entities for services provided to the
+(c) Collect and report data, and establish state lottery, transfers to a contingency re-
+metrics, regarding problem gambling; and serve, and for any other goods and services
+(d) Cooperate with or assist the Oregon necessary for effectuating the purposes of
+Health Authority and providers of problem this chapter. No more than 16 percent of the
+gambling treatment programs to the extent total annual revenues accruing from the sale
+that the cooperation or assistance is consist- of all lottery tickets and shares from all lot-
+ent with the mission, described in ORS tery games shall be allocated for the payment
+461.200, to operate the state lottery so as to of the expenses of the state lottery. The
+produce the maximum amount of net reven- commission shall determine the amount nec-
+ues to benefit the public purpose described in essary for a reasonable contingency reserve
+Article XV, section 4, of the Constitution of within the amount allocated for payment of
+the State of Oregon, commensurate with the expenses.
+public good. [1985 c.2 §1(4),(5); 1985 c.302 §1(4),(5); (5) The state lottery shall pay all prizes
+2014 c.56 §1] and all of its expenses out of the revenues it
+461.510 State Lottery Fund; types of receives from the sale of tickets and shares
+disbursements. (1) All money payable to the to the public and turn over the net proceeds
+commission shall be deposited in a fund therefrom to a fund to be established by the
+known as the State Lottery Fund. The State Legislative Assembly from which the Legis-
+Lottery Fund shall receive all proceeds from lative Assembly shall make appropriations
+the sale of lottery tickets or shares, the for the benefit of the public purpose de-
+temporary loan for initial start-up costs and scribed in section 4, Article XV of the Con-
+all other moneys credited to the Oregon stitution of the State of Oregon.
+State Lottery from any other lottery-related
+(6) Moneys in the State Lottery Fund
+source. The State Lottery Fund is contin-
+may be invested as provided in ORS 293.701
+uously appropriated for the purpose of ad-
+to 293.857. Interest earned by the fund shall
+ministering and operating the commission
+be credited to the fund. [1985 c.2 §7(1) to (5); 1985
+and the state lottery.
+c.302 §7(1) to (5); 1987 c.268 §2; 1989 c.966 §52; 2009 c.821
+(2) Disbursements shall be made from the §30b]
+State Lottery Fund for any of the following 461.512 Management of lottery mon-
+purposes: eys received by county; report on use of
+(a) The payment of prizes to the holders moneys. (1) For purposes of this section:
+of valid winning lottery tickets or shares; (a) “Dedicated fund” means a fund in the
+(b) Expenses of the commission and the county treasury, or a separate account in the
+state lottery; county treasury, that is dedicated, appropri-
+ated or set aside for purposes that further
+(c) Repayment of any funds advanced
+economic development.
+from the temporary loan for initial start-up
+costs and the interest on any such funds ad- (b) “Furthering economic development”
+vanced; and has the meaning given that term in ORS
+(d) Transfer of funds from the State Lot- 461.540.
+tery Fund to the benefit of the public pur- (2)(a) When a county receives moneys
+pose described in section 4, Article XV of the that are derived either directly or indirectly
+Constitution of the State of Oregon. from funds from the State Lottery Fund un-
+(3) As nearly as practical, at least 50 der section 4, Article XV of the Oregon
+percent of the total projected revenue, com- Constitution, and ORS chapter 461, and the
+Title 36 Page 17 (2015 Edition)
+
+=== page 18 ===
+461.520 PUBLIC HEALTH AND SAFETY
+moneys are to be used for the purpose of 461.530 Oregon State Lottery Fund.
+furthering economic development, the There is hereby created within the General
+county: Fund the Oregon State Lottery Fund which
+is continuously appropriated for the purpose
+(A) Shall deposit the moneys into a dedi-
+of administering and operating the commis-
+cated fund; and
+sion and the Oregon State Lottery. [1985 c.2
+(B) May use a reasonable portion of the §1(6); 1985 c.302 §1(6)]
+moneys to employ a person to manage the
+461.535 Intercollegiate Athletic Fund.
+moneys in the dedicated fund, make the re-
+The Intercollegiate Athletic Fund is created
+port required by subsection (3) of this sec-
+separate and distinct from the General Fund.
+tion, verify that moneys are used for
+The fund shall consist of revenues credited
+purposes that further economic development
+to the Sports Lottery Account under ORS
+in the county and provide technical assist-
+461.543 (4) and any other revenues available
+ance to persons or entities receiving dis-
+to the fund. [1989 c.828 §1; 1991 c.461 §81; 1991 c.962
+bursements from the dedicated fund.
+§3; 2005 c.810 §1]
+(b) Moneys received as described in this
+461.540 Administrative Services Eco-
+subsection may not be placed in the general
+nomic Development Fund. (1) There is es-
+fund of the county.
+tablished in the General Fund of the State
+(3) On or before October 1 of each year, Treasury the Administrative Services Eco-
+each county that has received moneys as de- nomic Development Fund. All moneys trans-
+scribed in subsection (2) of this section shall ferred from the State Lottery Fund, interest
+file a report with the Oregon Department of earnings credited to this fund and other
+Administrative Services for posting on the moneys authorized to be transferred to this
+Oregon transparency website as provided in fund from whatever source are appropriated
+ORS 184.483 stating: continuously for any of the following public
+purposes:
+(a) The amount of moneys received by
+(a) Creating jobs;
+the county as described in subsection (2) of
+this section; (b) Furthering economic development in
+Oregon; or
+(b) The purpose and use of moneys that
+have been disbursed from the dedicated fund (c) Financing public education.
+during the prior calendar or fiscal year; and (2) Moneys shall be transferred from the
+Administrative Services Economic Develop-
+(c) Work and services provided by the
+ment Fund to:
+person employed under subsection (2) of this
+section. [2011 c.385 §1] (a) The Education Stability Fund estab-
+lished under ORS 348.696 as described in
+Note: 461.512 was enacted into law by the Legisla-
+section 4, Article XV of the Oregon Consti-
+tive Assembly but was not added to or made a part of
+ORS chapter 461 or any series therein by legislative tution; and
+action. See Preface to Oregon Revised Statutes for fur-
+(b) The School Capital Matching Fund
+ther explanation.
+established under ORS 286A.806 as described
+461.520 Establishment of checking ac- in section 4, Article XI-P of the Oregon
+counts and petty cash fund. (1) The Direc- Constitution.
+tor of the Oregon State Lottery is authorized
+(3) As used in this section and section 4,
+to establish in the State Treasury checking
+Article XV of the Oregon Constitution:
+accounts as may be required to disburse by
+(a) “Creating jobs” includes, but is not
+check the payment of any disbursement au-
+limited to:
+thorized by ORS 461.510 (2) from the State
+Lottery Fund as well as any transfer to the (A) Supporting the creation of new jobs
+State Lottery Fund as may be required. in Oregon;
+(2) Notwithstanding the provisions of (B) Helping prevent the loss of existing
+ORS 461.510 (1), the director is authorized to jobs in Oregon;
+direct the deposit of any and all moneys (C) Assisting with work transition to new
+payable to the commission to the credit of jobs in Oregon; or
+any checking account in the State Treasury (D) Training or retraining workers.
+created for processing State Lottery Fund
+(b) “Education” includes, but is not lim-
+moneys.
+ited to, the Education Stability Fund estab-
+(3) The commission is authorized to es- lished under ORS 348.696 and specific
+tablish a petty cash fund in an amount not programs that support the following:
+to exceed $1,000 from any funds made avail-
+(A) Prekindergartens;
+able to the commission. The petty cash fund
+(B) Elementary and secondary schools;
+shall operate in accordance with the proce-
+dures defined in ORS 293.180. [1985 c.302 §7(6)] (C) Community colleges;
+Title 36 Page 18 (2015 Edition)
+
+=== page 19 ===
+OREGON STATE LOTTERY 461.547
+(D) Higher education; (5) The amounts received by the Sports
+Lottery Account shall be allocated as fol-
+(E) Continuing education;
+lows:
+(F) Workforce training and education
+(a) Eighty-eight percent for the purposes
+programs; or
+specified in subsections (1) to (3) of this sec-
+(G) Financial assistance to Oregon stu- tion, but not to exceed $8 million annually,
+dents. adjusted annually pursuant to the Consumer
+(c) “Furthering economic development” Price Index, as defined in ORS 327.006.
+includes, but is not limited to, providing: (b) Twelve percent for the purpose of
+(A) Services or financial assistance to scholarships, to be distributed equally be-
+for-profit and nonprofit businesses located or tween scholarships based on academic merit
+to be located in Oregon; and scholarships based on need, as deter-
+mined by rule of the commission, but not to
+(B) Services or financial assistance to
+exceed $1,090,909 annually.
+business or industry associations to promote,
+expand or prevent the decline of their busi- (c) All additional money to the commis-
+nesses; or sion for the Oregon Opportunity Grant pro-
+gram under ORS 348.260. [1989 c.828 §§2,4(3) and
+(C) Services or financial assistance for
+(4); 1991 c.461 §82; 1991 c.780 §28; 1999 c.704 §25; 1999
+facilities, physical environments or develop-
+c.1070 §16; 2005 c.810 §2; 2011 c.637 §275; 2013 c.768 §143b;
+ment projects, as defined in ORS 285B.410, 2015 c.27 §52; 2015 c.624 §6]
+that benefit Oregon’s economy. [1985c.302 §7(7);
+461.544 Use of proceeds of video lot-
+1995 c.12 §7; 2002 s.s.3 c.6 §18; 2005 c.835 §27; 2009 c.872
+§3; 2011 c.699 §8] tery games. All net proceeds from video
+lottery games shall be allocated to the Ad-
+461.543 Sports Lottery Account; dis-
+ministrative Services Economic Development
+tribution of revenues. (1) Except as other-
+wise specified in subsection (5) of this Fund. [1991 c.461 §§1,78; 1993 c.18 §118; 1995 c.814 §9]
+section, the Sports Lottery Account is con- Note: 461.544 to 461.549, 461.555, 461.725 and 461.740
+tinuously appropriated to and shall be used were enacted into law by the Legislative Assembly but
+were not added to or made a part of ORS chapter 461
+by the Higher Education Coordinating Com-
+or any series therein by legislative action. See Preface
+mission to fund sports programs at public
+to Oregon Revised Statutes for further explanation.
+universities listed in ORS 352.002. Seventy
+461.545 [1989 c.828 §7; repealed by 1991 c.461 §79 and
+percent of the revenues in the fund shall be
+1991 c.962 §15]
+used to fund nonrevenue producing sports
+461.546 [1991 c.962 §2a; 1993 c.18 §119; repealed by
+and 30 percent shall be used for revenue
+1995 c.814 §4]
+producing sports. Of the total amount avail-
+able in the fund, at least 50 percent shall be 461.547 Distribution of certain video
+made available for women’s athletics. lottery revenues to counties for economic
+development. (1) The Oregon State Lottery
+(2) The commission shall allocate moneys
+Commission shall transfer an amount equal
+in the Sports Lottery Account among the
+to 2.5 percent of the net receipts from video
+public universities, giving due consideration
+lottery games allocated to the Administrative
+to:
+Services Economic Development Fund to
+(a) The athletic conference to which the counties for economic development activities.
+public university belongs and the relative Ninety percent of the moneys shall be dis-
+costs of competing in that conference. tributed to each county in proportion to the
+gross receipts from video lottery games from
+(b) The level of effort being made by the
+each county. Ten percent of the moneys shall
+public university to generate funds and sup-
+be distributed in equal amounts to each
+port from private sources.
+county.
+(3) As used in subsections (1) to (3) of
+(2) As used in this section:
+this section, “revenue producing sport” is a
+sport that produces net revenue over ex- (a) “Gross receipts from video lottery
+penditures during a calendar year or if its games” means the amount of money inserted
+season extends into two calendar years, into video lottery games plus the value of
+produces net revenue over expenditures dur- any free game prizes used by players for
+ing the season. subsequent games.
+(4) An amount equal to one percent of (b) “Net receipts from video lottery
+the moneys transferred to the Administrative games” means the amount of money that is
+Services Economic Development Fund from received from the operation of video lottery
+the State Lottery Fund shall be allocated games after the payment of prizes but prior
+from the Administrative Services Economic to any other payment. [1991 c.461 §94; 1993 c.18
+Development Fund to the Sports Lottery Ac- §118a; 2003 c.734 §§10,10a; 2007 c.51 §1]
+count. Note: See note under 461.544.
+Title 36 Page 19 (2015 Edition)
+
+=== page 20 ===
+461.548 PUBLIC HEALTH AND SAFETY
+461.548 Video lottery proceeds to be nomic Development Distributions Fund shall
+treated separately from other lottery be credited to the fund. The fund consists of
+proceeds. Notwithstanding any other pro- lottery bond proceeds appropriated to the
+vision of law, the Oregon State Lottery Oregon Department of Administrative Ser-
+Commission shall meet the constitutional re- vices for further distribution to public or
+quirements for prizes and administrative private entities that do not receive appropri-
+costs separately for video and all other lot- ations directly from the Legislative Assembly
+tery games. The lottery commission shall not and interest credited to the fund.
+intermingle the results of video lottery
+(2) Moneys in the fund are continuously
+games for the purpose of calculating the al-
+appropriated to the Oregon Department of
+lowable limit on administrative expenses of
+Administrative Services for the purpose of
+other lottery games. [1991 c.962 §14] distributions described in subsection (1) of
+Note: See note under 461.544. this section. [2013 c.786 §23]
+461.549 Use of video lottery proceeds Note: 461.553 was enacted into law by the Legisla-
+for treatment of gambling-related behav- tive Assembly but was not added to or made a part of
+ORS chapter 461 or any series therein by legislative
+ioral problems. (1) The Legislative Assem-
+action. See Preface to Oregon Revised Statutes for fur-
+bly finds that emotional and behavioral ther explanation.
+problems related to gambling may impose
+461.555 Capital Construction Trust
+additional costs on state government and on
+Fund; sources; uses. (1) There is estab-
+the state economy, such as additional mental
+lished in the State Treasury a Capital Con-
+health expenditures, increased law enforce-
+struction Trust Fund separate and distinct
+ment costs and lost economic output. The
+from the General Fund. Interest on the fund
+use of a portion of the net receipts from
+shall accrue to the fund.
+video lottery games to pay the costs of pre-
+venting and treating emotional and behav- (2) The fund shall consist of amounts al-
+ioral problems related to gambling promotes located to it from the Administrative Ser-
+the creation of jobs and this state’s economic vices Economic Development Fund.
+development by offsetting and treating the (3) The fund is to be used to meet capital
+negative economic consequences of such be- construction costs. [1991 c.461 §77]
+havior.
+Note: See note under 461.544.
+(2) In each fiscal quarter of a biennium,
+461.557 DOT Economic Development
+commencing with the fifth fiscal quarter of
+Distributions Fund. (1) The DOT Economic
+the biennium beginning July 1, 2013, there is
+Development Distributions Fund is estab-
+allocated from the Administrative Services
+lished in the State Treasury, separate and
+Economic Development Fund to the Problem
+distinct from the General Fund. Interest
+Gambling Treatment Fund established by
+earned on the moneys in the DOT Economic
+ORS 413.522 an amount equal to the greater
+Development Distributions Fund shall be
+of:
+credited to the fund. The fund consists of
+(a) One percent of the moneys trans- lottery bond proceeds appropriated to the
+ferred from the Oregon State Lottery Fund Department of Transportation for further
+to the Administrative Services Economic De- distribution to public or private entities that
+velopment Fund in that fiscal quarter; or do not receive appropriations directly from
+(b) One percent of the moneys trans- the Legislative Assembly and interest cred-
+ferred from the Oregon State Lottery Fund ited to the fund.
+to the Administrative Services Economic De- (2) Moneys in the fund are continuously
+velopment Fund during the same fiscal quar- appropriated to the Department of Transpor-
+ter of the biennium beginning July 1, 2011. tation for the purpose of distributions de-
+[1995 c.814 §1; 1999 c.985 §1; 2013 c.576 §1] scribed in subsection (1) of this section. [2013
+Note: See note under 461.544. c.786 §24]
+461.550 Expenditure limitation not ap- Note: 461.557 was enacted into law by the Legisla-
+tive Assembly but was not added to or made a part of
+plicable to lottery. All expenditures from
+ORS chapter 461 or any series therein by legislative
+the State Lottery Fund or the fund estab- action. See Preface to Oregon Revised Statutes for fur-
+lished by the Legislative Assembly to dis- ther explanation.
+burse net lottery proceeds are exempt from 461.558 [2009 c.872 §1; 2011 c.699 §9; repealed by 2013
+any state expenditure limitation. [1985 c.302 c.722 §37]
+§8(8)]
+461.559 Reversion of lottery allo-
+461.553 ODAS Economic Development cations. (1) On December 31 in each odd-
+Distributions Fund. (1) The ODAS Eco- numbered year, all amounts remaining
+nomic Development Distributions Fund is es- unspent by a state agency from statutory al-
+tablished in the State Treasury, separate and locations made from the Administrative Ser-
+distinct from the General Fund. Interest vices Economic Development Fund to that
+earned on the moneys in the ODAS Eco- agency for the prior biennium shall revert to
+Title 36 Page 20 (2015 Edition)
+
+=== page 21 ===
+OREGON STATE LOTTERY 461.715
+the Administrative Services Economic De- MISCELLANEOUS
+velopment Fund.
+461.700 Additional disclosure require-
+(2) Subsection (1) of this section does not ments; costs of investigation. (1) Any per-
+apply to allocations for debt service, capital son required to submit disclosure information
+construction, continuing contracts, contested under this chapter, in addition to the re-
+claims or special allocations designated by quirements specifically listed in this chapter,
+legislative action. [2013 c.722 §86; 2015 c.840 §29] shall also submit for each individual the true
+name, as well any other name used, date of
+Note: 461.559 was enacted into law by the Legisla-
+birth, place of birth, Social Security number,
+tive Assembly but was not added to or made a part of
+ORS chapter 461 or any series therein by legislative current residence address, and residence ad-
+action. See Preface to Oregon Revised Statutes for fur- dress for the last 10 years, current marital
+ther explanation. status including how long, spouse’s name,
+461.560 Taxation of sales and prizes. address, date of birth and Social Security
+(1) No state or local taxes shall be imposed number. The person required to disclose
+must submit an individual sworn statement
+upon the sale of lottery tickets or shares of
+as to any criminal convictions and the na-
+the Oregon State Lottery established by this
+ture thereof. The sworn statement must also
+chapter or any prize awarded by the state
+contain authorization for the Attorney Gen-
+lottery established by this chapter that does
+eral and the Assistant Director for Security
+not exceed $600. A prize awarded by the
+to confirm with the Oregon Department of
+state lottery that is greater than $600 shall
+Revenue and the United States Internal Re-
+be subject to tax under ORS chapters 314 to
+venue Service the truthfulness of the sworn
+318 and any other applicable state or local
+statement with regard to tax matters. The
+tax. For purposes of this section, “prize
+commission shall develop a disclosure form
+awarded by the state lottery” includes a
+which identifies the information required to
+prize awarded by a multistate lottery associ-
+be disclosed, including a certification that
+ation of which the Oregon State Lottery is a
+the information provided is correct. The form
+member if the ticket upon which the prize is
+shall be sworn and bear the warning that the
+awarded was sold in this state. applicant bears responsibility for excessive
+(2) A city, county or other political sub- investigation costs and that the providing of
+division in this state may not impose, by false information constitutes the crime of
+charter provision or ordinance, or collect a false swearing under ORS 162.075 which is a
+tax that is imposed on lottery game retailers Class A misdemeanor.
+only and that is measured by or based upon (2) If the costs of investigation of any
+the amount of the commissions or other applicant exceeds the usual costs of such in-
+compensation received by lottery game vestigations, the applicant shall be billed for
+retailers for selling tickets or shares in lot- the excessive costs. The payment thereof
+tery games. However, if a city, county or shall be credited to the State Lottery Fund
+other political subdivision levies or imposes as a reimbursement of administrative costs.
+generally on a nondiscriminatory basis [1985 c.302 §14]
+throughout the jurisdiction of the taxing au- 461.710 [Formerly 284.430; renumbered 280.518 in
+1991]
+thority an income, gross income or gross re-
+ceipts tax, as otherwise provided by law, 461.715 Holding of certain lottery
+such tax may be levied or imposed upon lot- prizes for child support; rules; procedure.
+tery game retailers. [1985c.2 §8(1); 1985c.302 §8(1); (1) The Oregon State Lottery Commission, by
+1995 c.95 §1; 1997 c.849 §1; 1999 c.143 §6] rule, shall develop procedures whereby:
+(a) Before paying any portion of a lottery
+PROHIBITED CONDUCT prize in excess of $600, the lottery commis-
+sion shall check the name and Social Secu-
+461.600 Sales to minors. (1) Tickets or
+rity number of the person entitled to
+shares in lottery games, including tickets or
+payment against a computer database con-
+shares sold from vending machines or other
+taining the names and Social Security num-
+devices, may not be sold to a person under
+bers of obligors who are delinquent in paying
+18 years of age. child support obligations.
+(2) Video lottery game terminals may not (b) When the person is listed in the da-
+be operated by a person under 21 years of tabase, the lottery commission shall:
+age.
+(A) Place a 30-day hold on any payment
+(3) The Oregon State Lottery Commission to the person;
+shall establish safeguards to ensure that lot-
+(B) Inform the person of the hold; and
+tery game retailers comply with the require-
+ments of this section. [1985 c.2 §5(6); 1985 c.302 (C) Notify the Division of Child Support
+§5(6); 2003 c.58 §3] of the Department of Justice that a delin-
+Title 36 Page 21 (2015 Edition)
+
+=== page 22 ===
+461.719 PUBLIC HEALTH AND SAFETY
+quent obligor has won a lottery prize or is (A) Place a 30-day hold on any payment
+entitled to payment on a lottery prize. to the person;
+(c) If a garnishment proceeding is initi- (B) Inform the person of the hold; and
+ated within the 30-day hold period, the lot-
+(C) Notify the department or the author-
+tery commission shall continue to hold any
+ity that a recipient of an overpayment of as-
+payment to the person pending disposition of
+sistance has won a lottery prize in excess of
+the proceeding.
+$600 or is entitled to payment in excess of
+(d) If a garnishment proceeding is not $600 on a lottery prize.
+initiated within the 30-day hold period, the
+lottery commission shall make payment on (c) If a garnishment proceeding is initi-
+the prize to the person at the end of the ated under ORS 18.600 to 18.850 within the
+30-day hold period or when the division noti- 30-day hold period, the commission must
+fies the lottery commission that a garnish- continue to hold any payment to the person
+ment proceeding will not be initiated, pending disposition of the proceeding.
+whichever is sooner.
+(d) If a garnishment proceeding is not
+(2) The lottery commission shall establish initiated under ORS 18.600 to 18.850 within
+and operate a data match system using auto- the 30-day hold period, the commission shall
+mated data exchanges with the division that pay the prize to the person at the end of the
+identifies delinquent child support obligors. 30-day hold period or when the department
+Any information necessary to identify delin-
+or authority notifies the commission that a
+quent obligors and hold a payment on a prize
+garnishment proceeding will not be initiated,
+shall be available to the lottery commission
+whichever is sooner.
+through the data match system.
+(3) The commission shall establish and
+(3) The Department of Justice and the
+operate a data match system using auto-
+Oregon State Lottery Commission shall enter
+mated data exchanges with the department
+into an agreement regarding the procedures
+and the authority that identifies persons that
+required by subsections (1) and (2) of this
+section. [1991 c.613 §§6,7; 2001 c.455 §25; 2003 c.73 §69] have received an overpayment of assistance
+for which a final order for overpayment has
+461.719 Holding of certain lottery been issued by the department or the au-
+prizes for overpayment of assistance;
+thority under ORS chapter 183. Any infor-
+rules; procedures. (1) As used in this sec-
+mation necessary to identify the person and
+tion, “assistance” includes:
+hold a payment on a prize must be available
+(a) Medical assistance as defined in ORS to the commission through the data match
+414.025. system.
+(b) Public assistance as defined in ORS (4) The commission shall enter into an
+411.010. agreement regarding the procedures required
+(c) Supplemental nutrition assistance by subsections (2) and (3) of this section with
+provided under ORS 411.806 to 411.845. the department and the authority.
+(d) Any other benefit, aid or assistance (5) Payment of any past-due child support
+for which the Department of Human Services has priority over the recovery of any over-
+or Oregon Health Authority is authorized to payment of assistance from a lottery prize
+issue a final order for an overpayment under under this section. [2015 c.711 §2]
+ORS chapter 183. 461.720 [1985 c.829 §1; 1987 c.506 §27; renumbered
+(2) The Oregon State Lottery Commis- 171.845 in 1991]
+sion, by rule, shall develop procedures 461.725 Enforcement officers to en-
+whereby: force prohibition on gray machines. Out
+(a) Before paying any portion of a lottery of the funds available to the Oregon State
+prize in excess of $600, the Director of the Lottery Commission to meet the administra-
+Oregon State Lottery must check the names tive expenses of the Oregon State Lottery,
+of the persons entitled to payment against a the lottery commission shall employ or con-
+computer database containing the names and tract for at least three undercover enforce-
+Social Security numbers of persons that have ment officers to enforce the prohibition on
+received an overpayment of assistance for gray machines imposed by ORS 162.305,
+which the Department of Human Services or 164.377, 166.715, 167.117, 167.164, 167.166,
+the Oregon Health Authority has issued a 461.210, 461.215, 461.217, 461.400, 461.445,
+final order for overpayment under ORS 461.535, 461.548, 461.725 and 464.250. [1991
+chapter 183. c.962 §18; 1995 c.814 §3]
+(b) When the person is listed in the da- Note: See note under 461.544.
+tabase, the commission shall: 461.730 [1989 c.909 §49; renumbered 447.255 in 1991]
+Title 36 Page 22 (2015 Edition)
+
+=== page 23 ===
+OREGON STATE LOTTERY 461.820
+461.740 Policy on hiring by firms re- consequences for the gambler, the gambler’s
+ceiving lottery-funded benefits. (1) It is family or the community.
+the policy of the State of Oregon that any
+(2) “Responsible gambling” means the
+firm receiving benefit from state lottery-
+provision of safe, socially responsible and
+funded programs should undertake a good
+supportive gambling environments in which
+faith effort to hire and retain as employees
+the potential for harm that is associated with
+low-income individuals who have received job
+gambling is minimized and people can make
+training assistance from publicly funded job
+informed decisions about participating in
+training providers.
+gambling.
+(2) The Oregon Business Development
+(3) “Responsible or problem gambling
+Department may require any firm receiving
+community” means persons interested in re-
+benefit from state lottery-funded programs
+sponsible gambling or problem gambling.
+the department administers to enter into a
+[2015 c.478 §3]
+first-source hiring agreement with publicly
+funded job training providers. 461.820 Promotion of responsible
+gambling. (1) The Oregon State Lottery
+(3) Publicly funded job training providers
+Commission shall operate the Oregon State
+shall coordinate their services and establish
+Lottery, in compliance with the Oregon State
+an agreement outlining the process by which
+Lottery Responsible Gambling Code of Prac-
+they will respond to firms receiving benefit.
+tice described in ORS 461.200:
+This agreement shall be submitted to the de-
+partment for its review and approval. (a) In environments that:
+(4) As used in this section: (A) Encourage responsible gambling
+practices; and
+(a) “Firm receiving benefit” means any
+business that benefits directly or substan- (B) Discourage problem gambling.
+tially from any program financed by state (b) In a manner that:
+lottery funds and is certified as such a firm
+(A) Empowers individuals to make in-
+by the state agency that administers the
+formed decisions about playing lottery games
+lottery-funded program.
+by providing information about responsible
+(b) “First-source hiring agreement” gambling and problem gambling; and
+means an agreement between a firm receiv-
+(B) Minimizes harm to individuals, fami-
+ing benefits and a publicly funded job train-
+lies and communities caused by problem
+ing provider whereby the job provider refers
+gambling.
+qualified candidates to the firm for new jobs
+and job openings, excluding professional, (2) The lottery commission shall:
+managerial, technical and seasonal positions (a) Evaluate the operation of the state
+which the Director of the Oregon Business lottery annually, using stakeholder inter-
+Development Department determines cannot views, research and analysis of best in class
+be filled by persons likely to be referred by gambling practices and consultations with
+publicly funded job training providers. researchers in the responsible or problem
+(c) “Publicly funded job training gambling community.
+provider” includes, but is not limited to, (b) Use a dynamic approach to developing
+community colleges, service providers under new practices to facilitate responsible gam-
+the federal Workforce Investment Act Title bling and to discourage problem gambling.
+I-B (29 U.S.C. 2801 et seq.) and other similar
+(c) Rely on research to inform all areas
+programs. [1989 c.778 §1; 1991 c.105 §1; 2001 c.684 §28]
+of responsible gambling and problem gambl-
+Note: See note under 461.544. ing resource awareness efforts, providing ad-
+equate funding to support high-quality
+RESPONSIBLE GAMBLING research that is performed by independent
+CODE OF PRACTICES ACT researchers and that protects the rights of
+human subjects.
+461.800 Short title. ORS 461.800 to
+(d) Engage a wide range of stakeholders
+461.820 shall be known as and may be cited
+in the responsible or problem gambling com-
+as the Oregon State Lottery Responsible
+munity to provide input regarding the devel-
+Gambling Code of Practices Act. [2015 c.478
+opment of lottery games and game marketing
+§5]
+and advertising.
+461.810 Definitions. As used in sections
+(e) Promote a shared sense of responsi-
+ORS 461.800 to 461.820:
+bility with lottery game retailers and educate
+(1) “Problem gambling” means playing lottery game retailers and retailers’ em-
+lottery games in a manner that is character- ployees about how to provide an environment
+ized by difficulty in limiting money or time to facilitate responsible gambling and dis-
+spent on gambling, which leads to adverse courage problem gambling.
+Title 36 Page 23 (2015 Edition)
+
+=== page 24 ===
+461.820 PUBLIC HEALTH AND SAFETY
+(f) Promote a shared sense of responsibil- (C) Provide lottery players with informa-
+ity with state lottery employees and educate tion about responsible gambling and problem
+those employees about how to facilitate gambling resources.
+awareness of responsible gambling and prob-
+(h) Integrate messages that promote in-
+lem gambling resources for assistance.
+formed decision-making by lottery players
+(g) Apply evidence-based considerations into a variety of broadly disseminated com-
+to the implementation of lottery games and munications, including advertising and mar-
+game features to facilitate informed keting, about lottery games.
+decision-making by lottery players and dis-
+(i) Use communications, including adver-
+courage problem gambling, including the in-
+tising and marketing, that:
+corporation of features that:
+(A) Do not appeal specifically to vulner-
+(A) Inform lottery players about the game
+able groups, including individuals under 18
+being played;
+years of age; and
+(B) Provide lottery players with informa-
+(B) Report accurately the odds of win-
+tion about the status of their gambling and
+ning lottery games. [2015 c.478 §4]
+an opportunity to take a break from gambl-
+ing; and
+Title 36 Page 24 (2015 Edition)

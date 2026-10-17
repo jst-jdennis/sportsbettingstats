@@ -1,0 +1,433 @@
+=== page 1 ===
+Ch. 814a PROBLEMGAMBLINGREQUIREMENTS 58 § 814a.1
+CHAPTER 814a. COMPULSIVEAND PROBLEM GAMBLING
+REQUIREMENTS
+Sec.
+814a.1. Generalrequirements.
+814a.2. Responsiblegamingself-limits.
+814a.3. Compulsiveandproblemgamblingplan.
+814a.4. Employeetrainingprogram.
+814a.5. Reports.
+814a.6. Websiterequirements.
+Authority
+TheprovisionsofthisChapter814aaddedunder4Pa.C.S.§§ 1202(b)(30)and13B02,unlessoth-
+erwisenoted.
+Source
+TheprovisionsofthisChapter814aaddedAugust27,2021,effectiveAugust28,2021,51Pa.B.
+5389,unlessnotedotherwise.
+CrossReferences
+This chapter cited in 58 Pa.Code § 830a.10 (relating to compulsive and problem gaming; self-
+exclusion);and58Pa.Code§ 1401a.1(relatingtoscope).
+§ 814a.1. General requirements.
+(a) Interactive gaming shall only be engaged in by registered players who
+have established an interactive gaming account for interactive gaming.
+(b) The message ‘‘IF YOU OR SOMEONE YOU KNOW HAS A GAM-
+BLINGPROBLEM,HELPISAVAILABLE,CALL1-800-GAMBLER,’’orcom-
+parable language approved the Board, must be prominently displayed to a person
+visiting or logging onto and logging off of the interactive gaming certificate
+holder or interactive gaming operator’s interactive gaming skin.
+(c) When a registered player logs on to an interactive gaming system, the
+system must display the date and time of the registered player’s previous log on.
+(d) If a registered player has suspended his account, an interactive gaming
+certificate holder or interactive gaming operator may not send gaming-related
+electronic or direct postal mail to that player while the account is suspended.
+(e) Software utilized for interactive gaming must display all of the following
+information, in addition to the minimum display standards in this subpart:
+(1) The current time in the time zone where the registered player is physi-
+callylocatedandthetimeelapsedwhileinthecurrentregisteredplayersession.
+(2) Cause a pop-up notification, at least every hour, to be prominently dis-
+played on the interactive gaming device advising the registered player of the
+amount of time elapsed since his log on, and the amount of money wagered
+since his log on.
+814a-1
+(406745) No.565 Dec. 21
+
+=== page 2 ===
+58 § 814a.1 GAMINGCONTROLBOARD Pt. VII
+(3) Offer the registered player the option to select a pop-notification, in
+15-minute and 30-minute increments, advising the registered player of the
+amount of money wagered since his log on.
+(4) Offer the option to activate self-imposed limits during the player
+account registration process.
+(f) An interactive gaming certificate holder or interactive gaming operator
+offering interactive gaming shall have a dedicated licensed employee responsible
+for notifying the Board upon detecting a person participating in interactive gam-
+ingwhoisrequiredtobeexcludedunderBoardregulationsoranypersonwhois
+otherwiseprohibitedfromengagingininteractivegaming.Thisemployeeshallbe
+licensed as a key employee.
+(g) All terms and conditions for interactive gaming must be included as an
+appendix to the internal controls or, when specified, as part of the interactive
+gaming compulsive and problem gambling plan of the interactive gaming certifi-
+cateholderorinteractivegamingoperatoraddressingallaspectsoftheoperation,
+including all of the following:
+(1) Registered player’s right to set responsible gaming limits and to self-
+exclude.
+(2) Registeredplayer’srighttosuspendhisaccountforanyselectedperiod
+of time.
+(3) Information to be displayed on a registered player protection page,
+which shall be accessible to a registered player during a registered player ses-
+sion. The registered player protection page must contain, at a minimum, all of
+the following:
+(i) A prominent message, which states ‘‘If you or someone you know
+hasagamblingproblem,helpisavailable.Call1-800-Gambler’’inasizeand
+font as approved the Director of the Office of Compulsive and Problem
+Gaming (OCPG).
+(ii) Adirect link to all of the following:
+(A) TheCouncilonCompulsiveGamblingofPennsylvania’swebsite.
+(B) The Department of Drug and Alcohol Programs’ (or successor
+agency) gambling addiction participating provider list webpage.
+(C) The OCPG webpage.
+(iii) All of the following responsible gaming information that shall be
+approved by the Board’s Director of the OCPG:
+(A) A clear statement of the interactive gaming certificate holder or
+interactive gaming operator’s policy and commitment to responsible gam-
+ing.
+(B) Informational documents, which shall be reviewed and updated
+annually by the interactive gaming certificate holder or interactive gaming
+operator, regarding all of the following subjects, or a direct link to infor-
+mation regarding all of the following subjects, if available, from an orga-
+814a-2
+(406746) No.565 Dec. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 3 ===
+Ch. 814a PROBLEMGAMBLINGREQUIREMENTS 58 § 814a.2
+nization based in this Commonwealth or the United States dedicated to
+helping people with potential gambling disorders and labeled as:
+(I) Rules of responsible gambling.
+(II) Myths about gambling.
+(III) Risks associated with gambling.
+(IV) Signs and symptoms of gambling disorders.
+(V) The Board’s self-exclusion brochure.
+(C) Rulesgoverningself-imposedresponsiblegaminglimits,including
+all of the following:
+(I) List of each type of self-imposed limit.
+(II) How to enroll in each type of self-imposed limit.
+(iv) Thefollowingstatement: ‘‘Apersonwhohasenrolledininteractive
+gaming self-exclusion or has otherwise been excluded from interactive gam-
+ing activities, and individuals who are under the age of 21, shall not partici-
+pateininteractivegamingorinteractivegamingactivitiesandwillhavetheir
+winnings forfeited and interactive gaming accounts suspended upon viola-
+tion.’’Thetextandfontsizeofthenoticesshallbesubmittedforapprovalto
+the Director of the OCPG.
+(h) Aninteractivegamingsystemmustcomportwithallrequirementsregard-
+ing player accounts in Chapter 812a (relating to interactive gaming player
+accounts).
+§ 814a.2. Responsible gaming self-limits.
+An interactive gaming system must be capable of allowing a registered player
+to establish the following responsible gaming limits.Any decrease to these limits
+may not be effective later than the registered player’s next login.Any increase to
+theselimitsmustbecomeeffectiveonlyafterthetimeperiodofthepreviouslimit
+has expired and the registered player reaffirms the requested increase:
+(1) A deposit limit must be offered on a daily, weekly and monthly basis
+and must specify the maximum amount of money a registered player may
+deposit into his interactive gaming account during a particular period of time.
+(2) A limit on the amount of money spent within a daily, weekly and
+monthly basis must be offered.The registered player shall be unable to partici-
+pate in gaming for the remainder of the time selected if the registered player
+reaches the loss limit.
+(3) A limit on the maximum amount of any single wager on any interac-
+tive game.
+(4) A time-based limit must be offered on a daily basis and must specify
+the maximum amount of time, measured hourly from the registered player’s
+login to log off, a registered player may spend engaging in interactive gaming,
+provided that if the time-based limit is reached a registered player is permitted
+to complete any round of play, or active or prepaid tournament.
+814a-3
+(405869) No.564 Nov. 21
+
+=== page 4 ===
+58 § 814a.3 GAMINGCONTROLBOARD Pt. VII
+(5) Atable limit must be offered and must specify the maximum amount a
+registered player may bring to a peer-to-peer interactive gaming table.
+(6) Atemporary suspension of a player’s interactive gaming account must
+beofferedforanynumberofhoursordays,asselectedbytheregisteredplayer,
+which shall not be less than 72 hours.
+(7) The interactive gaming certificate holder or interactive gaming opera-
+tor shall provide a mechanism by which a registered player may change the
+controls of paragraphs (1)—(6). Notwithstanding any other provision in this
+section, the registered player may not change gaming controls while an inter-
+active gaming account is suspended. The registered player shall continue to
+have access to the interactive gaming account and shall be permitted to with-
+drawfundsfromtheaccountuponproperapplicationforthefundstotheinter-
+active gaming certificate holder or interactive gaming operator.
+§ 814a.3. Compulsive and problem gambling plan.
+(a) An interactive gaming certificate or interactive gaming operator applicant
+shall submit a compulsive and problem gambling plan for review at the time of
+submission of the application that conforms with § 501a.2 (relating to compul-
+sive and problem gambling plan).
+(b) Inadditiontotherequirementsin§ 501a.2,aninteractivegamingcertifi-
+cate holder’s or interactive gaming operator applicant’s compulsive and problem
+gambling plan must include all of the following:
+(1) The goals of the plan.
+(2) The identification of the individual who will be responsible for the
+implementation and maintenance of the plan.
+(3) Policies and procedures including all of the following:
+(i) The commitment of the interactive gaming certificate holder or
+interactive gaming operator to train appropriate employees.
+(ii) The duties and responsibilities of the employees designated to
+implement or participate in the plan, including the dedicated employee who
+is responsible for ensuring the operation and integrity of interactive gaming
+and reviewing all reports of suspicious behavior.
+(iii) The responsibility of registered players with respect to responsible
+gambling.
+(iv) Procedures to identify registered players and employees with sus-
+pected or known compulsive and problem gambling behavior.
+(v) Procedures for prominently posting the message ‘‘IF YOU OR
+SOMEONE YOU KNOW HAS A GAMBLING PROBLEM, HELP IS
+AVAILABLE,CALL1-800-GAMBLER,’’orcomparablelanguageapproved
+by the Board, on all interactive gaming sites and displaying the message to
+a person visiting or logging onto and logging off the interactive gaming cer-
+tificate holder or interactive gaming operator’s interactive gaming skin or
+interactive gaming web site.
+814a-4
+(405870) No.564 Nov. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 5 ===
+Ch. 814a PROBLEMGAMBLINGREQUIREMENTS 58 § 814a.3
+(vi) Procedures on displaying the date and time of the registered play-
+er’s previous log on each time that registered player logs on to his interac-
+tive gaming account.
+(vii) Procedures for preventing an underage person or a person on the
+interactive gaming self-exclusion list from being mailed any advertisement,
+promotionorothertargetmailing,includingthosesentelectronically,nolater
+than5businessdaysafterreceivingnoticefromtheBoardthatthepersonhas
+been placed on the interactive gaming self-exclusion list.
+(viii) Apolicyandproceduresforthedisplayofthetimeinthetimezone
+where the registered player is physically located and the time elapsed while
+in the current registered player session and the cause of a pop-up notifica-
+tion, at least every hour, to be prominently displayed on the interactive gam-
+ing device advising the registered player of the amount of time elapsed and
+the money wagered since his log on.
+(ix) Procedures for offering registered players the option to select a
+pop-upnotificationin15-minuteand30-minuteincrementsadvisingthereg-
+istered player of the amount of money wagered since his log on.
+(x) Procedures for reviewing, updating and posting information on the
+interactive gaming certificate holder or interactive gaming operator’s web
+site regarding gambling addiction treatment services, gamblers anonymous
+programs, compulsive gambling organizations and informational documents
+on all of the following:
+(A) Rules of responsible gambling.
+(B) Myths about gambling.
+(C) Risks associated with gambling.
+(D) Signs and symptoms of gambling disorders.
+(E) Randomness of play.
+(xi) Procedures for posting links to all of the following organizations’
+websitesontheinteractivegamingcertificateholder/operatorlicensee’sweb
+site:
+(A) The Council on Compulsive Gambling of Pennsylvania.
+(B) The National Council on Problem Gambling.
+(C) The Department of Drug and Alcohol Programs’ (or successor
+agency) gambling addiction participating provider list.
+(D) GamblersAnonymous of PA.
+(E) Gam-Anon of PA.
+(F) The Board’s Office of Compulsive and Problem Gambling.
+(G) APennsylvania or United States suicide prevention organization’s
+webpage and telephone number.
+(xii) Proceduresforrespondingtoregisteredplayerrequestsforinforma-
+tion regarding gambling addiction treatment services, gamblers anonymous
+programs,compulsivegamblingorganizations,andotherinformationaldocu-
+ments.
+814a-5
+(405871) No.564 Nov. 21
+
+=== page 6 ===
+58 § 814a.3 GAMINGCONTROLBOARD Pt. VII
+(A) The interactive gaming certificate holder or interactive gaming
+operator shall provide examples of the materials to be used as part of its
+plan,includingtheproblemgamblinghelplinenumberandmessage,infor-
+mational documents and other posted material, including all of the follow-
+ing:
+(I) Rules of responsible gambling.
+(II) Myths about gambling.
+(III) Risks associated with gambling.
+(IV) Signs and symptoms of gambling disorders.
+(V) Randomness of play.
+(VI) Self-exclusion brochure.
+(4) Policies and procedures on the governing of self-imposed limits and
+suspension.
+(5) An employee training program as required under this chapter, includ-
+ing training materials to be utilized and a plan for annual reinforcement train-
+ing.
+(6) Acertification process established by the interactive gaming certificate
+holder or interactive gaming operator to verify that each employee has com-
+pleted the training required by the plan.
+(7) An estimation of the cost of development, implementation and admin-
+istration of the plan.
+(8) Procedures to prevent underage gambling as required under
+§ 513a.3(b)(relatingtoresponsibilitiesoflicensees,permittees,registrantsand
+certification holders).
+(9) Procedures to prevent excluded persons from gambling.
+(10) Procedurestopreventself-excludedandtemporarilysuspendedpersons
+from gambling.
+(11) Procedures to monitor all interactive gaming sites for suspicious activ-
+ity including those who are:
+(i) Engaging in or attempting to engage in, or who are reasonably sus-
+pectedof,cheating,theft,embezzlement,collusion,moneylaunderingorany
+other illegal activities.
+(ii) Required to be excluded under Board regulations.
+(iii) Prohibitedbytheinteractivegamingcertificateholderorinteractive
+operator licensee from interactive gaming.
+(12) Procedures on the reporting of those who may have or have a known
+gambling disorder.
+(13) Details of outreach programs which the interactive gaming certificate
+holder or interactive gaming operator intends to offer to employees and indi-
+viduals who are not employees of the interactive gaming certificate holder or
+interactive gaming operator.
+814a-6
+(405872) No.564 Nov. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 7 ===
+Ch. 814a PROBLEMGAMBLINGREQUIREMENTS 58 § 814a.3
+(14) The plan for posting the statement ‘‘If you or someone you know has
+a gambling problem, help is available. Call 1-800-GAMBLER’’on the interac-
+tive gaming certificate holder’s or interactive gaming operator’s webpage and
+each skin.
+(c) The compulsive and problem gambling plan of an applicant for an inter-
+active gaming certificate or interactive gaming license that has been approved to
+receive an interactive gaming certificate or interactive gaming license shall be
+approved by the Director of the Office of Compulsive and Problem Gaming
+(OCPG).An applicant for an interactive gaming certificate or interactive gaming
+license who has been approved to receive an interactive gaming certificate or
+interactive gaming license will be notified in writing of any deficiencies in the
+planandmaysubmitrevisionstotheplantotheDirectoroftheOCPG.Aninter-
+active gaming certificate holder or interactive gaming operator may not com-
+mence operations until the Director of the OCPG approves the plan.
+(d) Compliancewiththeplanapprovedunderthischapterwillbeacondition
+of interactive gaming certificate or interactive gaming license renewal.
+(e) An interactive gaming certificate holder or interactive gaming operator
+shall submit any other policies and procedures intended to be used beyond what
+is required under subsection (d) to prevent and raise awareness of gambling dis-
+orders.
+(f) An interactive gaming certificate holder or interactive gaming operator
+shall submit amendments to the compulsive and problem gambling plan to the
+Director of the OCPG for review and approval at least 30 days prior to the
+intended implementation date of the amendments.The interactive gaming certifi-
+cateholderorinteractivegamingoperatormayimplementtheamendmentsonthe
+30th calendar day following the filing the amendments unless the interactive
+gaming certificate holder or interactive gaming operator receives a notice under
+subsection (h) objecting to the amendments.
+(g) If during the 30-day review period the Director of the OCPG determines
+thattheamendmentsmaynotpromotethepreventionofcompulsiveandproblem
+gambling or assist in the proper administration of responsible gaming programs,
+the Director of the OCPG may, by written notice to the interactive gaming cer-
+tificate holder or interactive gaming operator, object to the amendments. The
+objection will:
+(1) Specify the nature of the objection and, when possible, an acceptable
+alternative.
+(2) Direct that the amendments not be implemented until approved by the
+Director of the OCPG.
+(h) When amendments have been objected to under subsection (g), the inter-
+active gaming certificate holder or interactive gaming operator may submit
+revised amendments for review in accordance with subsections (f) and (g).
+814a-7
+(405873) No.564 Nov. 21
+
+=== page 8 ===
+58 § 814a.4 GAMINGCONTROLBOARD Pt. VII
+§ 814a.4. Employee training program.
+(a) The annual employee training program required under this chapter must
+include instruction on all of the following:
+(1) Characteristics and symptoms of compulsive behavior, including com-
+pulsive and problem gambling.
+(2) The relationship of gambling disorders to other addictive behavior.
+(3) The social and economic consequences of a gambling disorder, includ-
+ing debt, treatment costs, suicide, criminal behavior, unemployment and
+domestic issues.
+(4) Techniques to be used when a gambling disorder is suspected or iden-
+tified.
+(5) Techniques to be used to discuss a gambling disorder with registered
+players and advise registered players to contact 1-800-GAMBLER to receive
+information regarding community, public and private treatment services.
+(6) Procedures for suspending an interactive gaming account belonging to
+anunderageindividualorapersonontheinteractivegamingself-exclusionlist,
+ifnecessary,proceduresthatincludeobtainingtheassistanceofappropriatelaw
+enforcement personnel.
+(7) Procedures for preventing an excluded person or a person on the inter-
+active gaming self-exclusion list from being mailed any advertisement, promo-
+tion or other target mailing no later than 5 business days after receiving notice
+from the Board that the person has been placed on the interactive gaming self-
+exclusion list.
+(8) Procedures for preventing an individual under 21 years of age from
+receiving any advertisement, promotion or other target mailing.
+(9) Procedures to prevent an individual under 21 years of age or a person
+on the interactive gaming self-exclusion list from having access to or from
+receiving complimentary services, or other like benefits.
+(b) Trainingandtrainingmaterialsshallbeupdatedannuallyandincludecur-
+rent research and information on responsible and problem gambling.
+(c) As part of each employee’s orientation, and prior to the start of their job
+duties, responsible and problem gambling training for employees shall be con-
+ducted by a person with specialized knowledge, skill, training and experience in
+responsible gaming employee training programs as part of the employee’s orien-
+tation. If an online training program is utilized, the training shall be created and
+maintainedbyapersonwithspecializedknowledge,skill,trainingandexperience
+in responsible gaming employee training programs.
+(d) Employeeswhohavereceivedtrainingshallbecertifiedbytheinteractive
+gaming certificate holder or interactive gaming operator under this chapter upon
+completion of the training.
+(e) Employees are required to receive periodic reinforcement training at least
+once every calendar year starting with the year following the year in which the
+814a-8
+(405874) No.564 Nov. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 9 ===
+Ch. 814a PROBLEMGAMBLINGREQUIREMENTS 58 § 814a.5
+employee was hired. The date of the reinforcement training shall be recorded in
+each employee’s personnel file.
+(f) Employees shall report persons with a suspected or identified gambling
+disorder to a designated employee or other supervisory employee.
+(g) The identity of an individual with suspected or known problem gambling
+behaviormustbeconfidentialexceptasprovidedunderBoardregulationsregard-
+ing interactive gaming self-exclusion list and section 1516(d) of the act (relating
+to list of persons self-excluded from gaming activities).
+(h) An interactive gaming certificate holder or interactive gaming operator
+may collaborate with a person with specialized knowledge, skill, training and
+experience in responsible gaming employee training programs to develop an
+in-house or Internet-based employee training program to provide the training and
+reinforcement training required under this chapter.
+(i) Interactive gaming certificate holder or interactive gaming operators may
+enact policies or procedures, or both, that are more stringent than those listed in
+these regulations, including stricter rules for those who sign up for a self-
+exclusion list.
+§ 814a.5. Reports.
+(a) An interactive gaming certificate holder or interactive gaming operator
+shall submit to the Director of the Office of Compulsive and Problem Gaming
+(OCPG)anannualsummaryofitscompulsiveandproblemgamblingprogramby
+the last business day of July.
+(b) The annual summary must contain, at a minimum, detailed information
+regarding all of the following:
+(1) Employee training, including all of the following:
+(i) The dates of new hires and annual reinforcement compulsive gam-
+bling training.
+(ii) The individual or group who conducted the training.
+(iii) The number of employees who completed the new hire compulsive
+gambling training.
+(iv) The number of employees who completed the annual reinforcement
+compulsive gambling training.
+(2) The amount spent on the Compulsive and Problem Gambling Plan for
+all of the following:
+(i) Employee training.
+(ii) Outreach including community training and sponsorships.
+(3) Additional information including all of the following:
+(i) The number of underage individuals who were denied interactive
+gaming access.
+(ii) The number of self-excluded individuals who were denied interac-
+tive gaming access.
+814a-9
+(405875) No.564 Nov. 21
+
+=== page 10 ===
+58 § 814a.6 GAMINGCONTROLBOARD Pt. VII
+(iii) Asummaryofanycommunityoutreachconductedbythecertificate
+holder/operator licensee.
+§ 814a.6. Web site requirements.
+Undersection1509(c)oftheact(relatingtocompulsiveandproblemgambling
+program), each interactive gaming certificate holder/operator licensee shall cause
+the words ‘‘IFYOU OR SOMEONEYOU KNOWHASAGAMBLING PROB-
+LEM, HELP IS AVAILABLE, CALL 1-800-GAMBLER’’ or comparable lan-
+guage approved by the Board, which must include the words ‘‘gambling prob-
+lem’’ and ‘‘call 1-800-GAMBLER’’ to be prominently displayed to a person
+visiting or logging onto the interactive gaming certificate holder or interactive
+gaming operator’s interactive gaming skin or interactive gaming web site.
+[Nextpageis815-1.]
+814a-10
+(405876) No.564 Nov. 21 Copyright(cid:2)2021CommonwealthofPennsylvania

@@ -1,0 +1,435 @@
+=== page 1 ===
+205 CMR: MASSACHUSETTS GAMING COMMISSION
+205 CMR 248.00: SPORTS WAGERING ACCOUNT MANAGEMENT
+Section
+248.01: General Account Wagering
+248.02: Account Refusals
+248.03: Account Registration
+248:04: Age and Identity Verification
+248.05: Limitation to One Account per Patron
+248.06: Terms and Conditions and Privacy Policies
+248.07: Account Access
+248.08: Sufficient Account Balance
+248.09: Financial Transactions
+248.10: Account Deposits
+248.11: Failed Electronic Funds Transfers (EFTs)
+248.12: Account Withdrawals
+248.13: Account Adjustments
+248.14: Account Credits
+248.15: Account Records and Statements
+248.16: Responsible Gaming Limits
+248.17: Account Suspension and Restoration
+248.18: Account Closure
+248.19: Abandoned Funds and Dormant Accounts
+248.01: General Account Wagering
+(1) A Sports Wagering Operator may offer a system of account wagering to its patrons whereby
+Wagers are debited from and pay outs credited to a sum of money, deposited in a Sports
+Wagering Account by the patron held by the Sports Wagering Operator.
+(2) A Sports Wagering Account may only be established in the name of a patron and is not
+transferable.
+(3) A Person may only place a Wager through a mobile application or other digital platform
+using funds from a Sports Wagering Account.
+(4) No Sports Wagering Operator may charge any fee to maintain or administer any Sports
+Wagering Account.
+248.02: Account Refusals
+A Sports Wagering Operator may reserve the right to, at any time, refuse to open a Sports
+Wagering Account, accept a wager, or accept a deposit. The Sports Wagering Operator shall not
+establish or maintain an account for any Person who has self-excluded or otherwise been
+excluded from Sports Wagering pursuant to M.G.L. c. 23N, § 13(e) or 205 CMR.
+248.03: Account Registration
+(1) Any Person registering for a Sports Wagering Account shall provide Personally Identifiable
+Information to the Sports Wagering Operator. That information shall include, at a minimum, the
+following:
+(a) Full legal name;
+(b) Date of birth;
+(c) Physical address of the Person's principal residence, which address shall not be a post
+office box;
+(d) Social Security Number, or the last four digits of the Social Security Number, or an
+equivalent Federal Identification Number for a noncitizen patron, such as a passport or
+taxpayer identification number;
+(e) A telephone number for the patron; and
+(f) Any other information sufficient to verify the registrant's identity and to prove the
+registrant is at least 21 years old.
+(Mass. Register #1578, 07/17/2026)
+
+=== page 2 ===
+205 CMR: MASSACHUSETTS GAMING COMMISSION
+248.03: continued
+(2) During the registration process, the registrant shall:
+(a) Not be permitted to register for a Sports Wagering Account if they submit a birth date
+which indicates that they are younger than 21 years old;
+(b) Be informed on the account application which information fields are "required," which
+are not, and the consequences of not filling in the "required" fields;
+(c) Be required to agree to the terms and conditions and privacy policies of the Sports
+Wagering Operator;
+(d) Be required to acknowledge that they are prohibited from allowing any other person to
+access or use their Sports Wagering Account;
+(e) Be required to consent to the monitoring and recording of the use of their Sports
+Wagering Account by the Sports Wagering Operator and the Commission; and
+(f) Be required to affirm that the Personally Identifiable Information provided in accordance
+with 205 CMR 248.03(1) is accurate.
+(3) For each Sports Wagering Account, the Sports Wagering Operator must establish and
+maintain an electronic patron file, which must, at a minimum, include the following for each
+patron:
+(a) Unique patron ID and, if different from the patron ID, the patron's username;
+(b) The information provided in accordance with 205 CMR 248.03(1) to register the patron
+and create the Sports Wagering Account;
+(c) The date and method of identity verification, including, where applicable, the document
+number of the government issued identification credential examined and its date of
+expiration, if applicable, or, if a government issued identification credential is not required
+for registration, the electronic record documenting the process used to confirm the patron's
+identity;
+(d) The date of the patron's agreements to the terms and conditions and privacy policies,
+including those in 205 CMR 248.06, and the date of the patron's agreement,
+acknowledgment, consent, and affirmation in accordance with 205 CMR 248.03(2)(c)
+through (f);
+(e) Account details and current balance, including any incentive credits, provided, that all
+restricted wagering credits and unrestricted funds that may expire shall be maintained
+separately;
+(f) The date on, and method by which, the Sports Wagering Account was registered;
+(g) Every date on, time at which, and IP address from which the Sports Wagering Account
+is accessed;
+(h) If the account is active, the debit instrument used to fund the account, the accountholder's
+name, and whether the debit instrument accountholder's name matches that of the patron,
+unless impossible; and
+(i) The current status of the Sports Wagering Account (e.g., active, dormant, closed,
+suspended, excluded, etc.).
+(4) The following information maintained as part of the electronic patron file shall be stored
+in encrypted form and protected in accordance with all provisions of 205 CMR regarding data
+privacy and security:
+(a) The patron's social security number, taxpayer identification number, passport number,
+other government identification number(s), or portion(s) thereof;
+(b) The patron's password(s), PIN(s), or other authentication credential(s); and
+(c) The patron's debit instrument number(s), debit card number(s), bank account number(s)
+or other personal financial information.
+248.04: Age and Identity Verification
+(1) No Sports Wagering Operator shall allow any individual who is either younger than 21 years
+old, or is a prohibited person, as defined in 205 CMR 238.33(1), to create a Sports Wagering
+Account. 205 CMR 248.04 shall not be construed to prevent a restricted patron, as defined in
+205 CMR 238.32, from creating a Sports Wagering Account and depositing funds to such an
+account.
+
+=== page 3 ===
+205 CMR: MASSACHUSETTS GAMING COMMISSION
+248.04: continued
+(2) The Sports Wagering Operator shall employ electronic verification at the time of account
+establishment with respect to each patron's name, date of birth and Social Security number, or
+the last four digits of the Social Security number, or other Federal Identification Number, by a
+Commission-approved national independent reference company or another independent
+technology approved by the Commission which meets or exceeds the reliability, security,
+accuracy, privacy and timeliness provided by individual reference service companies.
+(3) The Sports Wagering Operator shall refuse to establish an account if it finds that any of the
+information supplied is untrue or incomplete.
+(4) The Sports Wagering Operator shall at the time of account establishment, utilize identity
+authentication questions that require a patron to provide information known only to the patron
+through security questions, unless an alternate method of authentication is approved by the
+Commission.
+(5) A Sports Wagering Operator must document and use commercially reasonable standards
+to confirm that an individual attempting to create a Sports Wagering Account is not a prohibited
+Person.
+(6) Upon developing reasonable suspicion that the patron's identification has been
+compromised, a Sports Wagering Operator must re-verify the patron's identification immediately.
+248.05: Limitation to One Account per Patron
+(1) No Sports Wagering Operator shall allow a patron to establish more than one username or
+more than one Sports Wagering Account with the Operator.
+(2) The system of internal controls submitted by a Sports Wagering Operator in accordance
+with 205 CMR 238.00: Uniform Standards of Accounting Procedures and Internal Controls for
+Sports Wagering shall implement procedures to terminate all accounts of any patron that
+establishes or seeks to establish more than one account, whether directly or by use of another
+Person as proxy. Such procedures may allow a patron that establishes or seeks to establish more
+than one username or more than one account to retain one account provided that the Sports
+Wagering Operator investigates and makes a good-faith determination that the patron's conduct
+was not intended to obtain a competitive advantage.
+248.06: Terms and Conditions and Privacy Policies
+(1) All terms and conditions and privacy policies for Sports Wagering Accounts shall be readily
+accessible to the patron before and after registration. Sports Wagering Operators shall inform
+patrons of any material changes or updates to said terms and conditions or privacy policies.
+(2) All terms and conditions for Sports Wagering Accounts must address all aspects of the
+Sports Wagering operation including, but not limited to, all of the following:
+(a) A statement that only individuals over the age of 21 and located in the authorized
+geographic boundaries within the Commonwealth may participate in Sports Wagering;
+(b) Advice to the patron to keep their authentication credentials secure;
+(c) All processes for dealing with lost authentication credentials, forced password changes,
+password strength and other related items as required by the Commission;
+(d) Full explanation of all rules applicable to dormant Sports Wagering Accounts, including
+the conditions under which an account may be declared dormant and what actions will be
+undertaken on the account once this declaration is made;
+(e) Actions that will be taken on the patron's pending wagers placed prior to any exclusion
+or suspension, including the return of all wagers, or settling all wagers, as appropriate;
+(f) Information about timeframes and limits regarding deposits to, or withdrawals from, the
+Sports Wagering Account, including a clear and concise explanation of all fees, if applicable;
+and
+(g) Statements indicating that the Sports Wagering Operator has the right to:
+1. Refuse to establish a Sports Wagering Account for what it deems good and sufficient
+reason;
+
+=== page 4 ===
+205 CMR: MASSACHUSETTS GAMING COMMISSION
+248.06: continued
+2. Refuse deposits to, or withdrawals from, Sports Wagering Accounts for what it
+deems good and sufficient reason; and
+3. Unless there is a pending investigation or patron dispute, suspend or close any Sports
+Wagering Account at any time, provided such suspension or closure is in accordance
+with the terms and conditions between the Sports Wagering Operator and the patron,
+M.G.L. c. 23N, and 205 CMR.
+(3) All privacy policies for Sports Wagering Accounts must address all aspects of Confidential
+Information and Personally Identifiable Information protection, including, at a minimum any
+measures required by 205 CMR, M.G.L. c. 93H, M.G.L. c. 93I, 201 CMR 17.00: Standards for
+the Protection of Personal Information of Residents of the Commonwealth, and any other
+applicable law, regulation or order of a governmental body.
+(a) The Confidential Information and Personally Identifiable Information required to be
+collected;
+(b) The purpose and legal basis for Confidential Information and Personally Identifiable
+Information collection and of every processing activity for which consent is being sought;
+(c) The period in which the Confidential Information and Personally Identifiable
+Information is stored, or, if no period can be possibly set, the criteria used to set this. It is
+not sufficient for the Sports Wagering Operator to state that the Confidential Information and
+Personally Identifiable Information will be kept for as long as necessary for the legitimate
+purposes of the processing;
+(d) The conditions under which the Confidential Information and Personally Identifiable
+Information may be disclosed;
+(e) An affirmation that measures are in place to prevent the unauthorized or unnecessary
+disclosure of the Confidential Information and Personally Identifiable Information; and
+(f) The identity and contact details on the Sports Wagering Operator who is seeking the
+consent, including any Sports Wagering Vendor(s) which may access and or use this
+Confidential Information and Personally Identifiable Information;
+(g) That the patron has certain rights with respect to their Confidential Information and
+Personally Identifiable Information pursuant to 205 CMR, M.G.L. chs. 93H and 93I and
+201 CMR 17.00: Standards for the Protection of Personal Information of Residents of the
+Commonwealth.
+(h) The rights of a patron to file a complaint concerning the use or storage of the patron's
+Confidential Information and Personally Identifiable Information to the Commission, the
+Office of Consumer Affairs and Business Regulation, the Office of the Attorney General, or
+any other law enforcement entity regarding the use of the patron's Confidential Information
+and Personally Identifiable Information;
+(i) For Confidential Information and Personally Identifiable Information collected directly
+from the patron, whether there is a legal or contractual obligation to provide the Confidential
+Information and Personally Identifiable Information and the consequences of not providing
+that information;
+(j) Where applicable, information on the Sports Wagering Operator's use of automated
+decision-making, including profiling, and at least in those cases, without hindering
+compliance with other legal obligations:
+1. Sufficient insight into the logic of the automated decision-making;
+2. The significance and the envisaged consequences of such processing for the patron;
+and
+3. Safeguards in place around solely automated decision-making, including information
+for a patron on how to contest the decision and to require direct human review or
+intervention.
+248.07: Account Access
+(1) Upon opening a Sports Wagering Account, the Sports Wagering Operator shall allow each
+patron to establish a password to be used in conjunction with a username, or an alternative secure
+authentication credential, for use by the patron to assure that only the patron has access to the
+Sports Wagering Account. The Operator may make more than one permitted method of
+authentication available for a patron to access their account.
+
+=== page 5 ===
+205 CMR: MASSACHUSETTS GAMING COMMISSION
+248.07: continued
+(2) If the system does not recognize the authentication credentials when entered, an explanatory
+message shall be displayed to the patron which prompts the patron to try again. The error
+message shall be the same regardless of which authentication credential is incorrect.
+(3) Patrons must be given the option to use a multi-factor authentication process when
+accessing their account. In addition, a multi-authentication process shall be employed for the
+retrieval or reset of a patron's forgotten or lost authentication credentials.
+(4) Current account balance information, including any restricted wagering credits and
+unrestricted funds, and transaction options shall be available to the patron once the patron has
+been authenticated. All restricted wagering credits and unrestricted funds that may expire shall
+be identified separately.
+(5) The Operator shall employ a mechanism allowing for an account to be locked in the event
+that suspicious authentication activity is detected including, but not limited to, three consecutive
+failed access attempts in a 30-minute period. A multi-factor authentication process shall be
+employed for the account to be unlocked.
+248.08: Sufficient Account Balance
+Wagers and withdrawals will not be accepted which would cause the available balance of a
+Sports Wagering Account to fall below $0. Any account not updated when a transaction is
+completed shall be inoperable until the transaction is posted and the account balance updated.
+248.09: Financial Transactions
+Operators shall provide a patron written confirmation or denial of every financial transaction
+initiated using the patron's Sports Wagering Account, including:
+(a) The type of transaction (deposit/withdrawal);
+(b) The transaction value; and
+(c) For denied transactions, a descriptive message as to why the transaction did not
+complete as initiated.
+248.10: Account Deposits
+(1) A Sports Wagering Account may be funded using approved methods which shall produce
+a sufficient audit trail for verification of the source of the wagers.
+(2) Approved methods for funding Sports Wagering Accounts include:
+(a) Cash or cash equivalents;
+(b) Foreign currency and coin converted to U.S. currency;
+(c) Electronic funds transfers (EFTs), including online and mobile payment systems;
+(d) Debit instruments, including debit cards and prepaid access instruments, excluding those
+that can be purchased or loaded with a credit card;
+(e) Promotional Gaming Credits;
+(f) Sports Wager Payouts;
+(g) Adjustments made by the Sports Wagering Operator with documented notification to
+the patron; and
+(h) Any other means approved by the Commission or its designee.
+(3) No deposits may be made by credit card, either directly or indirectly, including without
+limitation through an account funded by credit card, and no Wagering on credit is allowed.
+(4) The Sports Wagering Account shall be credited for any deposit in accordance with the
+system of internal controls submitted by a Sports Wagering Operator in accordance with
+205 CMR 238.00: Additional Uniform Standards of Accounting Procedures and Internal
+Controls for Sports Wagering.
+(5) The proceeds of a check may first need banker's clearance. Holding periods will be
+determined by the Sports Wagering Operator and communicated to the patron.
+7/17/26 205 CMR - 826.1
+
+=== page 6 ===
+205 CMR: MASSACHUSETTS GAMING COMMISSION
+248.10: continued
+(6) For debit cards and EFTs, the patron may be liable for any charges imposed by the
+transmitting or receiving Sports Wagering Operator. Such charges may be deducted from the
+patron's Sports Wagering Account.
+248.11: Failed Electronic Funds Transfers (EFTs)
+(1) The Sports Wagering Operator shall have security measures and controls to prevent EFT
+fraud where financial transactions are conducted through EFT. A failed EFT attempt is not
+considered fraudulent if the patron has successfully performed an EFT on a previous occasion
+and has no outstanding chargebacks. Otherwise, the Sports Wagering Operator shall:
+(a) Temporarily block the patron's Sports Wagering Account for investigation of fraud after
+five consecutive failed EFT attempts within a ten-minute period. If there is no evidence of
+fraud, the block may be vacated; and
+(b) Suspend the patron's Sports Wagering Account after five additional consecutive failed
+EFT attempts within any subsequent ten-minute period.
+248.12: Account Withdrawals
+(1) The Sports Wagering Operator shall implement procedures that:
+(a) Prevent unauthorized withdrawals from Sports Wagering Accounts by the Sports
+Wagering Operator or others;
+(b) Establish a protocol by which patrons can withdraw funds maintained in their Sports
+Wagering Accounts, whether such accounts are open or closed, except as otherwise provided
+in 205 CMR, or any other applicable state, local or federal law.
+(2) Pursuant to M.G.L. c. 23N, § 4(d)(2)(vi), a patron must be allowed to withdraw the funds
+maintained in his or her Sports Wagering Account, without further solicitation or promotion in
+the manner in which the funds were deposited, to the extent technologically feasible. In the
+event that withdrawal of the funds in the same manner in which the funds were deposited is not
+technologically feasible they shall be returned to the patron via another approved withdrawal
+method or via check.
+Upon a request from a patron to withdraw funds from their Sports Wagering Account, the
+Sports Wagering Operator shall immediately freeze the amount requested and ensure the funds
+cannot be used for any other purpose until the withdrawal is complete.
+(3) A Sports Wagering Operator must employ a mechanism that can detect and prevent any
+withdrawal activity initiated by a patron that would result in a negative balance of the Sports
+Wagering Account.
+(4) A Sports Wagering Operator shall not allow a Sports Wagering Account to be overdrawn
+unless caused by payment processing issues outside the control of the Sports Wagering Operator.
+(5) Except as otherwise provided in 205 CMR 248.12(5)(a), requests for withdrawals must be
+honored by the later of five business days of the request or ten business days of submission of
+any tax reporting paperwork required by law.
+(a) If the Sports Wagering Operator believes in good faith that the patron engaged in either
+fraudulent conduct or other conduct that violate or would put the Sports Wagering Operator
+in violation of 205 CMR, the Sports Wagering Operator may decline to honor the request for
+withdrawal for a reasonable investigatory period until its investigation is resolved if it
+provides notice of the nature of the investigation to the patron.
+(b) For purposes of the timing requirements of 205 CMR 248.12(5), a request for
+withdrawal will be considered honored if it is processed by the Sports Wagering Operator
+but delayed by a payment processor, debit card issuer or by the custodian of a financial
+account.
+(6) The Sports Wagering Operator shall not be liable for any unauthorized withdrawal of funds
+from a Sports Wagering Account where such unauthorized withdrawal is not caused by the
+negligence or misconduct of the Sports Wagering Operator. It is the patron's responsibility to
+protect deposits in the account by keeping their authentication credentials strictly confidential.
+
+=== page 7 ===
+205 CMR: MASSACHUSETTS GAMING COMMISSION
+248.13: Account Adjustments
+The Sports Wagering Operator shall perform periodic reviews of all adjustments to Sports
+Wagering Accounts for amounts of five hundred dollars or less by supervisory personnel. All
+adjustments of more than five hundred dollars must be authorized by supervisory personnel
+before being entered.
+248.14: Account Credits
+When a Sports Wagering Account is entitled to a payout or refund, said monies will be
+credited to the respective account, thus increasing the credit balance. It is the responsibility of
+the patron to verify their balance and notify the Sports Wagering Operator of any discrepancy
+or dispute within the time frame specified in the terms and conditions. Unresolved disputes may
+be forwarded to the Commission by the Sports Wagering Operator or the patron. The
+Commission will consider no such claim unless submitted in writing and accompanied by
+supporting evidence.
+248.15: Account Records and Statements
+The Sports Wagering Operator must maintain complete records of every deposit, withdrawal,
+wager, and payout for each Sports Wagering Account. In accordance with M.G.L. c. 23N,
+§ 4(d)(2)(iv), upon request of the patron, the Sports Wagering Operator shall offer patrons access
+to a statement detailing their account history and account details for the past year.
+248.16: Responsible Gaming Limits
+(1) In accordance with M.G.L. c. 23N, § 13(e)(3), a Category 3 Sports Wagering Operator shall
+allow the patron to set self-imposed limitations on sports wagering at any time, including when
+the patron signs up for a Sports Wagering Account. Such limitations must include the following
+and must be clearly and conspicuously displayed prior to allowing registration of a new account,
+the first time a patron makes a deposit into an account, and the first time the patron places a
+wager from an account:
+(a) The Operator must offer daily, weekly and monthly deposit limits, which shall specify
+the maximum amount of money a patron may deposit into their Sports Wagering Account
+during a particular period of time.
+(b) The Operator must offer daily, weekly and monthly wager limits, which shall specify
+the maximum amount of patron funds that may be put at risk during a particular period of
+time.
+(2) A change to make these limits more restrictive shall be effective immediately. A change
+to make these limits less restrictive shall become effective the next business day after the time
+period of the previous limit has expired, and the patron reaffirms the requested increase.
+248.17: Account Suspension and Restoration
+(1) A Sports Wagering Account shall be suspended under the following conditions:
+(a) When requested by the patron for a specified period of time, which must not be less than
+72 hours;
+(b) When required by the Commission;
+(c) When a Sports Wagering Operator determines that the patron is a prohibited Person; or
+(d) When a Sports Wagering Operator has evidence that indicates any of the following:
+1. That the account has been used for illegal activity;
+2. That the account has a negative balance; or
+3. That the patron has violated the account's terms and conditions.
+(2) When a Sports Wagering Account is suspended, the Sports Wagering Operator must do all
+of the following:
+(a) Prevent the patron from placing Sports Wagers;
+(b) Prevent the patron from depositing funds unless the account is suspended due to having
+a negative Sports Wagering Account balance, but only to the extent the account balance is
+brought back to zero dollars;
+(c) Prevent the patron from withdrawing funds from a Sports Wagering Account, unless the
+Sports Wagering Operator determines that the funds have cleared, and that the reason(s) for
+suspension would not prohibit a withdrawal;
+
+=== page 8 ===
+205 CMR: MASSACHUSETTS GAMING COMMISSION
+248.17: continued
+(d) Prevent the patron from making changes to his or her Sports Wagering Account;
+(e) Prevent the patron from permanently closing their Sports Wagering Account; and
+(f) Prominently display to the patron that the Sports Wagering Account is suspended, the
+restrictions placed on the Sports Wagering Account, any further course of action needed to
+lift the suspension, a notification of the Patron’s rights under the Operator’s House Rules and
+Internal Controls to submit a complaint, and directions on how to file such a complaint.
+(3) A suspension may be lifted for any of the following reasons:
+(a) Upon expiration of the time period established by the patron;
+(b) If authorized by the Commission;
+(c) When the patron is no longer a prohibited Person; or
+(d) When the Sports Wagering Operator has investigated the evidence of illegal activity, a
+negative account balance, or a violation of the account's terms and conditions, and
+determined that the suspension should be lifted.
+(4) Each Sports Wagering Operator shall, on a monthly basis, provide the Commission with a
+list of suspended accounts, including the reasons why the account is in suspended mode, and an
+explanation of the lifting of any suspension under 205 CMR 248.17(3)(d).
+248.18: Account Closure
+The Sports Wagering Operator shall permit a patron to permanently close a Sports Wagering
+Account registered to the patron on any or all platforms owned or operated by the Sports
+Wagering Operator at any time and for any reason unless the account is in suspended mode
+pursuant to 205 CMR 248.17. The Sports Wagering Operator may also close a Sports Wagering
+Account when the patron makes repeated attempts to operate with an insufficient balance. Upon
+closing an account, the Sports Wagering Operator shall refund the remaining balance to the
+patron within five business days, provided that the Sports Wagering Operator acknowledges that
+the funds have cleared.
+248.19: Abandoned Funds and Dormant Accounts
+(1) Subject to the provisions of M.G.L. c. 200A, §§ 7 and 8A, and 960 CMR 4.00: Procedures
+for the Administration of Abandoned Property, the Sports Wagering Operator shall presume that
+the funds in any account without any activity for a period of three years after the balance in that
+account became payable or deliverable to the patron to have been abandoned. For purposes of
+this 205 CMR 248.19(1), the term "activity" means Sports Wagers, customer-generated deposits,
+or customer-generated withdrawals.
+(2) The Sports Wagering Operator shall report and deliver all Sports Wagering Accounts
+presumed abandoned to the Treasurer of the Commonwealth as provided for by M.G.L. c. 200A,
+§§ 7 and 8A, and 960 CMR 4.03: Reporting Abandoned Property.
+(3) Subject to M.G.L. c. 200A, § 7A and 960 CMR 4.03: Reporting Abandoned Property, at
+least 60 days prior to reporting any Sports Wagering Accounts to the Treasurer, the Sports
+Wagering Operator shall provide notice to the patron's last known address and conduct
+reasonable due diligence to locate the patron. During this time period the account shall be
+deemed dormant. In addition, the Operator shall:
+(a) Allow access to a dormant account only after performing additional identity
+verifications; and
+(b) Protect dormant accounts that contain funds from unauthorized access, changes or
+removal.
+REGULATORY AUTHORITY
+205 CMR 248.00: M.G.L. 23N, §§ 4, 11 and 13; M.G.L. c. 200A, §§ 7 and 8A.

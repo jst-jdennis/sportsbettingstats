@@ -1,0 +1,2359 @@
+=== page 1 ===
+State of Vermont
+Sports Wagering Procedures
+July 19, 2023
+INTRODUCTION
+The Vermont Board of Liquor and Lottery enhanced procedures are adopted pursuant to 3 V.S.A.
+§ 835 and 31 V.S.A. § 1303.
+INTRODUCTION ...................................................................................................................................... 1
+Part I General Provisions ....................................................................................................................... 1
+Part II Standards for Sports Wagering ................................................................................................. 7
+Part III Technical Requirements and Oversight ................................................................................. 18
+Part IV Sports Wagering Accounts ..................................................................................................... 23
+Part V Audit and Internal Control Standards ..................................................................................... 34
+Part VI Responsible Gaming ................................................................................................................ 47
+Part VII Advertising and Marketing ..................................................................................................... 52
+Part VIII Revenue Share and Payments .............................................................................................. 54
+Part IX Contract Sanctions .................................................................................................................. 56
+Part I General Provisions
+Section 1.0 Definitions.
+The following definitions apply unless the context requires a different meaning or is otherwise
+inconsistent with the intention of the procedures adopted by the Board.
+1.1. “Abnormal Wagering Activity” means wagering activity exhibited by one (1) or more
+players and considered by a Sportsbook as a potential indicator of Suspicious or Illegal
+Wagering Activity. Abnormal Wagering Activity may include the size of a player's Sports
+Wager or increased wagering volume on a particular sports event or type of wager.
+1.2. “Collegiate sports tournament” means a series of collegiate sports or athletic events
+involving four or more collegiate teams that make up a single unit of competition.
+1.3. "Act" means Title 31, Chapter 25, of the Vermont Statutes Annotated.
+1.4. “Adjusted Gross Sports Wagering Revenue” has the meaning provided in 31 V.S.A. §
+1301(1).
+1.5. “Affiliate” means a person that, directly or indirectly, through one (1) or more
+intermediaries, controls or is controlled by an Operator.
+7/19/2023
+
+=== page 2 ===
+1.6. “Applicant” means a person that applies with the Department to be an authorized
+Operator.
+1.7. “Board” has the meaning provided in 31 V.S.A. § 1301(2).
+1.8. “Cancelled Wager” means a Sports Wager that was valid at the time that it was made but
+has since been invalidated due to an event or action that prevents its completion.
+1.9. “Card” means the list of Sports Events and Types of Wager from which a player can make
+selections for a given pool.
+1.10. “Cash” means US currency.
+1.11. “Cash Equivalent” means an asset convertible to cash for use in connection with
+authorized Sports Wagering that includes all of the following:
+(a) Traveler's checks;
+(b) Foreign currency and coin;
+(c) Certified checks, cashier's checks, and money orders;
+(d) Personal checks and drafts;
+(e) Digital, crypto, and virtual currencies;
+(f) Online and mobile payment systems that support online money transfers;
+(g) Electronic devices with prepaid access, as defined by 31 C.F.R. Section
+1010.100(ww); and
+(h) Any other form approved by the Department.
+1.12. “Collegiate Sports Event” has the meaning provided in 31 V.S.A. § 1301(3).
+1.13. “Contract Holder” means an Operator.
+1.14. “Commissioner” has the meaning provided in 31 V.S.A. § 1301(4).
+1.15. “Critical Employee” means any employee whose duties directly impact the integrity of
+Sports Wagering in Vermont, including:
+(a) An individual who has the capability of affecting the outcome of Sports Wagering
+through deployment of code to production for any critical components of a Mobile
+Sports Wagering Platform;
+(b) An individual who can deploy code to production and directly supervises
+individuals who have the capability of affecting the outcome of Sports Wagering
+in Vermont through deployment of code to production for other than read-only
+or the equivalent access to any critical components of a Mobile Sports Wagering
+Platform;
+(c) An individual who directly manages a Sportsbook or who directly supervises an
+individual who directly manages a Sportsbook; or
+(d) Any other individual who directly impacts the integrity of Sports Wagering as
+determined by the Department.
+1.16. “Department” has the meaning provided in 31 V.S.A. § 1301(5).
+1.17. “Data Source” means a Supplier that sells league or event data, player or team statistics
+necessary to enable Sports Wagering.
+1.18. “eSports Event” means leagues, competitive circuits, tournaments, or similar
+competitions where individuals or teams play video games, typically for spectators, either
+in-person or online, for the purpose of prizes, money, or entertainment.
+1.19. “eSports Event Operator” means a person or entity which sanctions, regulates, and/or
+organizes an eSports Event.
+7/19/2023
+
+=== page 3 ===
+1.20. “Exchange Wagering” means a form of wagering in which two (2) or more persons place
+identically opposing wagers in a given market, allowing players to wager on both winning
+and non-winning outcomes in the same event.
+1.21. “Fantasy Sports Contests” has the meaning provided in 31 V.S.A. § 1330(3).
+1.22. “High School Sports Event” has the meaning provided in 31 V.S.A. § 1301(6).
+1.23. “Ineligible Person” means:
+(a) Any Underage Person;
+(b) Any Prohibited Sports Bettor;
+(c) Any Involuntarily-Excluded Person;
+(d) Any Voluntarily-Excluded Person
+(e) Any individual wagering while not in in the authorized geographic boundaries
+within the State of Vermont;
+(f) Any individual wagering in violation of state, local, or federal law; or
+(g) Any individual wagering on behalf of another; or
+(h) Other Ineligible Persons as determined by the Department.
+1.24. “Integrity Monitoring” means the monitoring of Sports Wagering to identify Abnormal or
+Suspicious Wagering Activities from a match-fixing and sporting corruption standpoint to
+then report such activities to required parties.
+1.25. “Internet” means the international computer network of interoperable packet switched
+data networks, inclusive of additional technological platforms, such as mobile, satellite,
+and other electronic distribution channels.
+1.26. “Internet Website or Mobile Application” means a website or application on a mobile
+phone or other device through which an individual is able to place a Sports Wager.
+1.27. “Involuntarily-Excluded Person” means any individual who has been involuntarily
+excluded by the Commissioner and who is prohibited from establishing a Sports Wagering
+Account or participating in Sports Wagering activities under the jurisdiction of the
+Department.
+1.28. “Key Person” means a person that is any of the following:
+(a) A director of the Applicant;
+(b) A managerial employee of the Applicant that performs the function of principal
+executive officer, principal operations officer, or principal accounting officer;
+(c) A person who holds more than five percent (5%) ownership interest in the
+Applicant; or
+(d) Any individual or business entity so designated by the Department or
+Commissioner.
+1.29. “Layoff Wager” means a wager placed by an Operator with another Operator for the
+purpose of offsetting Sports Wagers.
+1.30. “Mobile Sports Wagering" means the conduct of Sports Wagering through or by means
+of the Internet, a mobile device, or any other telecommunications service.
+1.31. “Mobile Sports Wagering Platform” has the meaning provided in 31 V.S.A. § 1301(7)
+1.32. “Multi-Factor Authentication” means a type of authentication which uses two or more of
+the following to verify a user’s identity:
+(a) Information known only to the user (e.g., a password, pattern or answers to
+challenge questions);
+7/19/2023
+
+=== page 4 ===
+(b) An item possessed by a user (e.g., an electronic token, physical token or an
+identification card);
+(c) A user’s biometric data (e.g., fingerprints, facial or voice recognition).
+1.33. “Operator” has the meaning provided in 31 V.S.A. § 1301(8)
+1.34. “Owner of a Team” means a person who holds more than five percent (5%) ownership
+interest in a team.
+1.35. "Person" means any natural person, corporation, municipality, the State of Vermont or
+any department, agency or subdivision of the State, and any partnership, unincorporated
+association or other legal entity.
+1.36. “Personally Identifiable Information” has the meaning provided in 9 V.S.A. § 2430(10)
+1.37. “Player“ means an individual who has established a Sports Wagering Account with a
+Sportsbook.
+1.38. “Pool” means an offering where players may make selections of outcomes on a set
+number of Sports Events and Types of Wager on a card in order to enter for a chance to
+win all or a portion of the Prize Pool.
+1.39. “Prize Pool” means the prizing available for an individual tournament, contest, or pool.
+1.40. “Prohibited Sports Bettor” has the meaning provided in 31 V.S.A. § 1301(9)
+1.41. “Prohibited Sports Event” has the meaning provided in 31 V.S.A. § 1301(10)
+1.42. “Rake” means the fee that is deducted by a Sportsbook from a wager made for Exchange
+Wagering or other peer-to-peer wagering, or entry fees paid by players who participate
+in a tournament, contest, or pool.
+1.43. “Rake Adjustment” means an adjustment made by a Sportsbook to account for any
+shortfall in connection with Exchange Wagering or other peer-to-peer wagering, a
+tournament, contest, or pool.
+1.44. “Self-Exclusion List” means a list of individuals who voluntarily excluded themselves from
+establishing or maintaining a Sports Wagering Account with a Sportsbook.
+1.45. “Sensitive Information” means information such as Personally Identifiable Information,
+transactional wagering data, authentication credentials (including PINs and passwords),
+secure seeds and keys used in encryption, and other data that shall be handled in a secure
+manner.
+1.46. “Service Provider“ means a business entity that provides any service creating Sports
+Wagering markets and determination of Sports Wager outcomes that involves the
+operation, management, or control of Sports Wagers authorized by the Act, including the
+development or operation of the Mobile Sports Wagering Platform and the determination
+of odds or line information.
+1.47. “Shared Liquidity Pool” means a tournament, contest, or pool conducted in Vermont and
+at least one other jurisdiction.
+1.48. “Sportsbook” has the meaning provided in 31 V.S.A. § 1301(11)
+1.49. “Sports Event” has the meaning provided in 31 V.S.A. § 1301(12)
+1.50. “Sports Governing Body” has the meaning provided in 31 V.S.A. § 1301(13)
+1.51. “Sports Wager” has the meaning provided in 31 V.S.A. § 1301(14)
+1.52. “Sports Wagering” has the meaning provided in 31 V.S.A. § 1301(15)
+1.53. "Sports Wagering Account" means a financial record established by an operator for an
+individual player into which the player may deposit and from which the player may
+7/19/2023
+
+=== page 5 ===
+withdraw funds for Sports Wagering and other purchases, and into which the operator
+may credit winnings or other amounts due to that player or authorized by that player.;
+1.54. “Sports Wagering Network” means the offering of Exchange Wagering or other peer-to-
+peer wagering through the linking of players:
+(a) Of one or more Operators in the State; or
+(b) From an Operator in the State and players whose access is established from
+locations outside the State if the Department determines that such wagering is
+not inconsistent with the laws of the State of Vermont, federal law or the law of
+the jurisdiction in which any such players are located or such wagering is
+conducted.
+1.55. “Suspicious or Illegal Wagering Activity” means Abnormal Wagering Activity that cannot
+be explained and is indicative of any of the following:
+(a) Match-fixing;
+(b) The manipulation of an event;
+(c) Misuse of inside information;
+(d) A potential breach of a Sports Governing Body’s or equivalent’s internal rules or
+code of conduct pertaining to Sports Wagering;
+(e) Any other conduct that corrupts the outcome of an event; or
+(f) Any other prohibited activity.
+1.56. “Supplier” means a person that provides services, goods, software, or other components
+necessary for the creation of Sports Wagering markets and determination of Sports
+Wager outcomes, directly or indirectly, to any Operator or Service Provider involved in
+the acceptance of Sports Wagers, including any of the following: providers of data feeds
+and odds services, risk management providers, integrity monitoring providers, and other
+providers of supplier services as determined by the Department.
+1.57. “Type of Wager” has the meaning provided in 31 V.S.A. § 1301(16)
+1.58. “Underage Person” means any person under twenty-one (21) years of age.
+1.59. “Virtual Sports Event” means a Sports Event where elements of the event, including the
+results, are generated by a Random Number Generator.
+1.60. “Void Wager” or “Voided Wager” means a Sports Wager that was not valid at the time it
+was placed or a Sports Wager that was valid at the time it was placed but has since
+become invalid for any reason, including but not limited to, the change in eligibility status
+of a player or subject of the Sports Wager.
+1.61. “Voluntarily-Excluded Person” means any individual whose name is included, at their own
+request, in the responsible gaming database or on a self-exclusion list or both.
+1.62. “Wager” means a sum of money or thing of value risked on an uncertain occurrence.
+1.63. “Winnings” means the total cash value of all property or sums, including currency or
+instruments of monetary value paid to a player by a Sportsbook as a direct result of a
+winning Sports Wager.
+1.64. “Youth Sports“ means a Sports Event in which the majority of participants are under the
+age of eighteen (18) or are competing on behalf of or under the sponsorship of one or
+more public or private preschools or public or private elementary, middle or junior high,
+or high schools. The term does not include professional sports or events that occur under
+the sponsorship or oversight of national or international athletic bodies that are not
+7/19/2023
+
+=== page 6 ===
+educational institutions and that include participants both over and under the age of
+eighteen (18).
+Section 2.0 Oversight Authority.
+The Department shall retain oversight of its Operators and Service Providers to ensure that all
+Sports Wagering activities are conducted in accordance with the Act, these Procedures, any
+contractual terms, and any other policies adopted by the Department.
+Section 3.0 Severability of Provisions
+The provisions of any procedures contained herein are severable. If any provision of a procedure
+is invalid, or if any application thereof to any person or circumstance is invalid, the invalidity shall
+not affect other provisions or applications which can be given effect without the invalid provision
+or application.
+7/19/2023
+
+=== page 7 ===
+Part II Standards for Sports Wagering
+Section 1.0 Authorized and Prohibited Sports Events and Types of Wagers
+Only those categories of Sports Events and their Types of Wager authorized by the Department
+and posted on the Department's website may be offered for Sports Wagering by a Sportsbook.
+1.1. Any wager which complies with all of the following criteria and does not involve any
+criteria listed in subsection 1.2 is generally approved and does not need specific approval
+subject to section 2.0 prior to being offered by a Sportsbook:
+(a) It is decided based on an outcome or outcomes determined because of a Sports
+Event or Sports Events sanctioned by a Sports Governing Body or equivalent that
+is approved by the Department;
+(b) It is based on statistical results which can be verified by a data source, box score,
+aggregation of box scores, or other statistical analysis;
+(c) It is based on the performance of a single or group of rostered or otherwise
+registered participants; and
+(d) It is based on the result of an outcome on the field of play (including the virtual
+field of play for eSports events).
+1.2. A Sportsbook shall not offer wagering on:
+(a) Any eSports Event that:
+(1) Is not sanctioned by an approved Sports Governing Body or equivalent; or
+(2) Has not been endorsed by the Department pursuant to the procedures set
+forth in section 2.0;
+(b) Any Virtual Sports Event unless:
+(1) A Random Number Generator (RNG), certified by an Independent Testing
+Laboratory, is used to determine the outcome(s);
+(2) A visualization of the Virtual Sports Event is offered to all players which
+displays an accurate representation of the result(s) of the virtual Sports
+Event; and
+(3) The Virtual Sports Event is approved pursuant to the procedures set forth
+in section 2.0;
+(c) Any occurrence of injuries or penalties;
+(d) Whether officiating decisions will be upheld or reversed after replay review;
+(e) Any disciplinary proceedings against a participant in a Sports Event;
+(f) Any High School Sports Events or other Youth Sports;
+(g) Any Fantasy Sports Contests unless offered pursuant to Title 31, Chapter 25,
+Subchapter 3 of the Vermont Statutes Annotated;
+(h) Any Sports Event or Type of Wager in which the outcome has already been
+determined and is publicly known;
+(i) Any Prohibited Sports Events;
+(j) Any pari-mutuel wagering on dog or horse races; and
+(k) Any other categories of Sports Event or Type of Wager until the Sports Event or
+Type of Wager has been approved by the Department in accordance with section
+2.0
+7/19/2023
+
+=== page 8 ===
+Section 2.0 Petition for a Category of Sports Event or Type of Wager
+The Department shall have authority to review and approve types of wagers and categories of
+sports events before a Sportsbook is permitted to offer the wager to the public. A petitioner may
+petition the Department for approval of a new category of Sports Event or Type of Wager.
+2.1. A proposed new Sports Event or Type of Wager may be a variation of an authorized Sports
+Event or Type of Wager, a composite of authorized Sports Events or Types of Wager, or a
+new Sports Event or Type of Wager.
+2.2. A petition for a proposed new Sports Event or Type of Wager shall be in writing and shall
+include, at a minimum, the following information:
+(a) The name(s) and address(es) of petitioner(s);
+(b) The name of the Sports Event or Type of Wager;
+(c) Whether the Sports Event or Type of Wager is a variation of an authorized Sports
+Event or Type of Wager, a composite of authorized Sports Events or Types of
+Wager, or a new Sports Event or Type of Wager;
+(d) The name of the Sportsbook serving as a sponsor of the new Sports Event or Type
+of Wager variation petition;
+(e) A complete and detailed description of the Sports Event or Type of Wager for
+which approval is sought, including:
+(1) A summary of the Sports Event or Type of Wager and the manner in which
+Sports Wagers would be placed and winning Sports Wagers would be
+determined;
+(2) A draft of the proposed house rules including a description of any
+technology that would be utilized to offer the Sports Event or Type of
+Wager;
+(3) Any rules or voting procedures related to the Sports Event or Type of Wager,
+or existing house rules that would apply;
+(4) Assurance that the Sports Event or Type of Wager meets the requirements
+of subsection 2.3;
+(f) For the approval of an eSports Event, complete information about:
+(1) The proposed location(s) of the eSports Event;
+(2) The video game used for the eSports Event, including, without limitation,
+the key role of game publishers as creators of the underlying video game;
+(3) The eSports Event Operator, whether the eSports Event Operator is
+approved to host events by the video game publisher, and whether the
+eSports Event Operator has any affiliation with the video game publisher;
+(4) The manner in which the eSports Event is conducted by the eSports Event
+Operator, including, without limitation, eSports Event rules and certification
+from a third party, such as an eSports Event Operator or game publisher
+certifies that the eSports Event meets all event integrity requirements of the
+Department;
+(g) The name of the Sports Governing Body or equivalent;
+(h) To the extent known by the Sportsbook, a description of its policies and
+procedures regarding event integrity; and
+7/19/2023
+
+=== page 9 ===
+(i) Any other information or material requested by the Department.
+2.3. The Sports Event or Type of Wager being requested must meet the following criteria
+before the request may be approved:
+(a) The outcome can be verified;
+(b) The outcome can be generated by a reliable and independent process;
+(c) The Sports Event generating the outcome is conducted in a manner that ensures
+sufficient Integrity Monitoring controls exist so the outcome can be trusted;
+(d) The outcome is not likely to be affected by any Sports Wager placed; and
+(e) The Sports Event is conducted in conformity with applicable laws.
+2.4. The Department shall approve types of wagers and categories of Sports Events in a
+reasonable time frame. The Department will consider the request, all provided materials
+and any relevant input from the Sports Governing Body or equivalent, or the conductor
+of the Sports Event, prior to authorizing a Sports Event or Type of Wager.
+2.5. The Department may require an appropriate test or experimental period, under such
+terms and conditions the Department may require, before granting final approval to a
+Sports Event or Type of Wager. The Department may subject any technology that would
+be used to offer a Sports Event or Type of Wager to such testing, investigation, and
+approval if the Department deems it necessary to do so.
+2.6. The Department may grant, deny, limit, restrict, or condition a request made pursuant to
+this procedure for any cause the Department considers reasonable. The Department may
+issue an order revoking, suspending, or modifying any approval of a Sports Event or Type
+of Wager granted under this procedure for any cause the Department considers
+reasonable.
+2.7. The Department shall notify all Sportsbooks of any additions, deletions, or changes
+regarding authorized Sports Events and Types of Wager. Once a particular category of
+Sports Event or Type of Wager is approved for its first use, it may be used on multiple
+events without further approval. The Department may issue general approval for
+Sportsbooks to offer wagers on enumerated categories of Sports Events and Types of
+Wagers.
+2.8. The Department reserves the right to prohibit the acceptance of any Sports Wagers and
+may order the cancellation of Sports Wagers and require refunds on any Sports Event or
+Type of Wager for which wagering would be contrary to the public policies of the state.
+2.9. If it is determined that a Sportsbook has offered an unauthorized or Prohibited Sports
+Event or Type of Wager, the Sportsbook must immediately cancel and refund all Sports
+Wagers associated with the unauthorized or Prohibited Sports Event or Type of Wager.
+The Sportsbook must notify the Department promptly after cancelling and refunding the
+Sports Wagers.
+2.10. The Department may use any information it considers appropriate, including, but not
+limited to, information received from a Sports Governing Body or equivalent, to
+determine whether to authorize or prohibit wagering on a particular Sports Event or Type
+of Wager.
+2.11. The Department may restrict, limit, or exclude wagering on a Sports Event or Type of
+Wager if the Department determines that the restriction, limitation, or exclusion is
+necessary to ensure the integrity of the Sportsbook.
+7/19/2023
+
+=== page 10 ===
+Section 3.0 Limitations on Certain Sports Wagering for Good Cause.
+If a Sports Governing Body or college believes that the type, form, or category of Sports Wagering
+on that Sports Governing Body's Sports Event has the potential to undermine the integrity or
+perceived integrity of the sports governing body or its Sports Event, the Sports Governing Body
+or college may submit to the Department a written request to restrict, limit, or exclude a certain
+type, form, or category of Sports Wagering on a Sports Event or series of Sports Events.
+3.1. The request must be submitted in the form and manner prescribed by the Department
+and must include all of the following:
+(a) The identity of the Sports Governing Body or college and contact information for
+at least one specific individual who will be the primary point of contact for
+questions related to the request;
+(b) A description of the Sports Wagering information, event, or wager type that is the
+subject of the request;
+(c) Information explaining why granting the request is necessary to protect the
+integrity of the event, or public confidence in the integrity of the event, that is the
+subject of the request. This may include information regarding any credible threat
+to the integrity of the event that is beyond the control of the sports governing
+body or college to preemptively remedy or mitigate; and
+(d) Any other information required by the Department.
+3.2. To ensure proper consideration, the request should be sent to the Department at least
+fourteen (14) calendar days before the particular Sports Event. At any time, however, a
+sports governing body or college should report information to the Department if it
+involves allegations of match-fixing, the manipulation of an event, misuse of inside
+information, or other prohibited activity.
+3.3. On receipt of a complete request from a Sports Governing Body or college under
+subsection 3.1, the Department will review the request and seek input from the
+Department’s Sportsbooks. All Sportsbooks must be given an opportunity to comment on
+the request. The notification must include the date by which written comments must be
+submitted to the Department.
+3.4. If the Department determines by a preponderance of the information received that, but
+for implementation of all or part of the requestor’s proposed restriction, limitation, or
+exclusion of a certain type, form, or category of Sports Wagering on a Sports Event or
+series of Sports Events, unlawful activity will occur, the integrity of the event will be
+materially harmed, or public confidence in the integrity of the Sports Event will be
+materially undermined, then the Department may implement the requester’s proposed
+restriction, limitation, or exclusion in whole or in part.
+3.5. The Department shall
+(a) if feasible, respond to a request concerning a particular Sports Event before the
+event begins; or
+7/19/2023
+
+=== page 11 ===
+(b) if not feasible, respond not later than the seventh (7th) calendar day after the date
+the request is submitted.
+3.6. If the Department preliminarily determines the requestor who submitted a request is
+likely to prevail in successfully demonstrating that, but for implementation of all or part
+of its proposed restriction, limitation, or exclusion of a certain type, form, or category of
+Sports Wagering on a Sports Event or series of Sports Events, unlawful activity will
+occur, the integrity of the event will be materially harmed, or public confidence in the
+integrity of the Sports Event will be materially undermined, then the Department may
+approve the request or some potion thereof on a temporary basis until the Department
+determines whether to implement such proposed restriction, limitation, or exclusion in
+whole or in part on a permanent basis.
+3.7. Absent a provisional grant by the Department, an Operator may continue to offer Sports
+Wagering on Sports Events that are the subject of such a request during the pendency of
+the Department's consideration of the applicable request.
+3.8. On request, the Department may reconsider its decision if there is a material change in
+the circumstances related to the original request.
+Section 4.0 Data Sources for Sports Wagering.
+A Sportsbook shall report to the Department the Data Sources that it uses to resolve Sports
+Wagers. The Department may disapprove of a Data Source for any reason.
+4.1. The Data Source and corresponding data must be complete, accurate, reliable, timely,
+and available.
+4.2. The Data Source must be appropriate to settle the category of sports events and types of
+wagers for which it is used.
+4.3. The Data Source and corresponding data must meet any other conditions set by the
+Department.
+Section 5.0 House Rules.
+The Sportsbook must adopt comprehensive house rules, which must be approved by the
+Department.
+5.1. The house rules, together with any other information the Department considers
+appropriate, must be conspicuously displayed on the Sportsbook’s Internet Website or
+Mobile Application, and copies must be made readily available to individuals and players.
+5.2. The house rules must address the following items regarding Sports Wagers, at a
+minimum:
+(a) Types of Sports Wagers accepted;
+(b) Minimum and maximum Sports Wagers;
+(c) The method for calculation and payment of winning wagers;
+(d) The effect of schedule changes for a Sports Event;
+(e) The method of notifying players of odds or proposition changes;
+7/19/2023
+
+=== page 12 ===
+(f) Acceptance of wagers at terms other than those posted;
+(g) Circumstances under which the operator will void a bet; and
+(h) Treatment of errors, late bets, and related contingencies;
+(i) Description of the process for handling incorrectly posted events, odds, Sports
+Wagers, or results;
+(j) Procedures related to pending winning Sports Wagers;
+(k) Method of contacting the Sportsbook for questions and complaints;
+(l) Description of Ineligible Persons;
+(m) Methods of funding a wager;
+(n) Maximum payouts; however, such limits must only be established through limiting
+the amount of a Sports Wager and cannot be applied to reduce the amount paid
+to a player as a result of a winning Sports Wager;
+(o) A policy by which the Sportsbook can cancel Sports Wagers for obvious errors
+pursuant to the Sportsbook’s Internal Control System, which must include a
+definition and procedures for obvious errors;
+(p) Parlay wager related rules;
+(q) Rules and procedures for wagering communications;
+(r) What is to occur when an event or any component of an event on which Sports
+Wagers are accepted is canceled, including the handling of Sports Wagers with
+multiple selections, such as parlays, where one or more of these selections is
+canceled; and
+(s) Any other rule and related information the Department determines necessary.
+5.3 The Sportsbook shall not implement any changes or modifications of the practices,
+procedures, or representations upon which the approval was based without the prior written
+approval of the Department. Failure by a Sportsbook to act in accordance with the house
+rules may result in monetary penalties, suspension or termination of operator’s Vermont
+operations, civil damages, injunctive relief and/or criminal liability.
+Section 6.0 Tournaments, Contests, and Pools.
+6.1. No Sports Wagering tournament, contest, or pool shall be conducted unless the
+Sportsbook, before the first time a tournament, contest, or pool type is offered, files
+written notice with the Department of its intent to offer that tournament, contest, or pool
+type and obtains approval from the Department. The Sportsbook may file a master list
+with the Department to satisfy this requirement.
+6.2. The request must provide a detailed description of the tournament, contest, or pool type
+and must include the rules of the tournament, contest, or pool, the requirements for
+entry, the entry fees, the Rake, and potential payouts. The request must also indicate
+whether or not the proposed type involves a shared liquidity pool available to players in
+Vermont and other jurisdictions with the Prize Pool being comprised of entry fees
+collected from players in multiple jurisdictions.
+6.3. Once a Sportsbook receives approval to offer a tournament, contest, or pool type the
+Sportsbook shall not be required to seek additional approvals from the Department for
+each subsequent type that has only variations to the size, number of entries permitted,
+entry fee, or prize structure, or other minor variations as allowed by the Department.
+7/19/2023
+
+=== page 13 ===
+6.4. Each Sportsbook must maintain a record of each tournament, contest, or pool it offers,
+which must address, at a minimum, all of the following:
+(a) Name or identification of the tournament, contest, or pool;
+(b) The date and time the tournament, contest, or pool occurred or will occur (if
+known);
+(c) Sports Events and Types of Wager;
+(d) Rules concerning tournament, contest, or pool play and participation; and
+(e) For each player:
+(1) Unique player identification;
+(2) Amount of entry fee collected, including any promotional or bonus credits,
+and the date collected;
+(3) Player scorings or rankings; and
+(4) Amount of payouts paid, including any promotional or bonus credits, and the
+date paid;
+(f) Total amount of entry fees collected, including any promotional or bonus credits;
+(g) Total amount of payouts paid to players, including any promotional or bonus
+credits;
+(h) Total Rake, takeout, or fees collected;
+(i) Funding source amount or amounts comprising the Prize Pool (for example, buy-
+ins, re-buys, or add-ons);
+(j) Prize structure on payout;
+(k) Methodology for determining winner or winners; and
+(l) The current status of the tournament, contest, or pool (in progress, complete,
+interrupted, cancelled, etc.).
+6.5. The Sportsbook shall be responsible for the Rake. The Sportsbook’s Rake collected from
+players that enter a contest, tournament, or pool while located in the state less any Rake
+Adjustment, if applicable, shall be considered Adjusted Gross Sports Wagering Revenue
+and are subject to all revenue share requirements outlined in Part VIII:
+(a) At no time shall the calculation resulting from a Rake or Rake Adjustment be
+negative; and
+(b) For a contest, tournament, or pool which utilize shared liquidity available to
+players in Vermont and other jurisdictions, the Rake rate must be the same for all
+jurisdictions participating.
+Section 7.0 Acceptance of Wagers.
+7.1 Available wagers must be displayed to players on the Mobile Sports Wagering Platform. The
+display must include the lines or odd, the wager type, and Sports Event being wagered upon.
+7.2 Sportsbook may not set lines or odds or offer wagering propositions designed for the
+purposes of ensuring that a player will win a Sports Wager or a series of Sports Wagers, unless
+the lines, odds, or wagering propositions are offered in connection with a promotion or bonus
+conducted in accordance with section 9.0.
+7.3 A Sportsbook may not accept a Sports Wager on a Sports Event unless a wagering proposition
+is posted on the Mobile Sports Wagering Platform.
+7/19/2023
+
+=== page 14 ===
+7.4 The Sportsbook shall debit the amount wagered by a player from their Sports Wagering
+Account. Wagers shall not be accepted in an amount in excess of an account balance.
+7.5 No Sportsbook shall accept a Sports Wager from a person on the Sports Wagering Account of
+or for any other person. No Sportsbook shall knowingly allow a person to make a wager
+utilizing the Sports Wagering Account of another person.
+Section 8.0 Cancelled or Voided Wagers.
+A Sportsbook shall not cancel or void any Sports Wager except in accordance with this section.
+8.1. Cancellation of an otherwise validly placed Sports Wager by a Sportsbook shall be
+nondiscretionary. A Sportsbook may cancel or void a Sports Wager without prior
+authorization of the Department under the following circumstances:
+(a) Any Sports Wager where after a player has placed a Sports Wager, the Sports
+Event is cancelled, postponed or rescheduled to a different date prior to
+completion of the Sports Event;
+(1) In the case of a Sports Wager on a portion of a Sports Event, that Wager
+shall be valid when the event is canceled, postponed, or rescheduled if the
+outcome of the affected portion was determined prior to the cancelation,
+postponement or rescheduling; or
+(2) A Sportsbook may establish a timeframe in which an event may be
+rescheduled or postponed without canceling the Sports Wager. This
+timeframe shall be tied to specific Sports Events, subject to the approval
+of the Department, and documented in the house rules.
+(b) A change in the venue where a Sports Event was scheduled to be held occurs after
+a player has placed a Sports Wager;
+(c) Any Sports Wager when an individual participant fails to participate in a Sports
+Event and the outcome of the wager is solely based upon that individual
+participant’s performance;
+(d) Any Sports Wager received for an act, or set of acts, to be performed during a
+Sports Event when such act or acts does not occur and the ability to Wager on the
+non-occurrence of the event was not offered;
+(e) Any Wager received on whether a team will qualify to participate in post-season
+competitions when the number of teams allowed to participate in the post-season
+changes after a player has placed a Wager;
+(f) Changes to rules by a Sports Governing Body or equivalent regarding the format
+or number of participants scheduled to participate in a defined phase of a Sports
+Event or that particular phase is not played at all;
+(g) A material change in circumstances for a given Sports Event or Type of Wager
+occurs, provided:
+(1) The Department approves the material change; and
+(2) The Sportsbook documents the material change in its Internal Control
+System.
+(h) Where the Sportsbook has reasonable basis to believe there was an obvious error
+in the placement or acceptance of the Wager, including, but not limited to:
+7/19/2023
+
+=== page 15 ===
+(1) The Wager was placed with incorrect odds; or
+(2) Human error in the placement of the Wager; or
+(3) Any other obvious error defined in the Internal Control System
+(i) When, prior to the commencement of the Sports Event, a player requests a Sports
+Wager be cancelled or voided due to an error in communicating the type, amount
+or parameters of the Sports Wager; or
+(j) When authorized or ordered by the Department pursuant to this section.
+8.2. For all circumstances that are not set forth in subsection 8.1, a Sportsbook may request
+the Department authorize the cancellation or voiding of all Sports Wagers of a specific
+type, kind, or subject. A Sportsbook shall submit its request to cancel or void the Sports
+Wager in writing, and such request shall contain the following:
+(a) A description of the type, kind, or subject of Sports Wager the Sportsbook is
+requesting to cancel or void;
+(b) A description of any facts relevant to the request; and
+(c) An explanation why cancelling or voiding the Sports Wager is in the best interests
+of the State or ensures the integrity of the Sports Wagering industry.
+8.3. The Sportsbook shall provide any additional information requested by the Department to
+review and approve the request.
+8.4. The Department shall issue a written order granting or denying the request to cancel or
+void the Sports Wager. In determining whether to grant or deny the request, the
+Department shall consider any relevant factors, including:
+(a) Whether the alleged facts implicate the integrity of the Sports Event subject to the
+Wager or the Sports Wagering industry;
+(b) Whether the alleged facts implicate possible illegal activity relating to the Sports
+Event or the Sports Wagering industry;
+(c) Whether allowing the Wager would be unfair to players; or
+(d) Whether allowing the Wager is contrary to public policy.
+8.5. No Sports Wager subject to the request to cancel or void shall be redeemed, cancelled,
+or voided, until the Department or its designee issues an order granting or denying the
+request to cancel.
+8.6. If the Department or its designee grants the request to cancel or void, the Sportsbook
+shall make commercially reasonable efforts to notify players of the cancellation or voiding
+of the Sports Wager.
+8.7. The Department or its designee has discretion to order all Sportsbooks to cancel or void
+all Wagers on a specific Sports Event or Wagers of a specific type or kind on a specific
+Sports Event. In exercising its discretion, the Department shall apply the same factors
+described in subsection 8.1.
+8.8. A player may request the Department or its designee review any Sports Wager declared
+cancelled or voided by a Sportsbook. If the Department or its designee concludes there is
+no reasonable basis to believe there was obvious error in the placement or acceptance of
+the Sports Wager, and the reason for cancellation is not otherwise set out in Section 8.1, the
+Department or its designee may order the Sports Wagering Operator to honor the Sports
+Wager.
+7/19/2023
+
+=== page 16 ===
+8.9. A Sports Wager shall not be declared canceled or voided without the approval of an
+authorized employee of the Sportsbook.
+8.10. If a Sports Wager is declared canceled or voided, the Sports Wager shall be refunded to
+the player and that amount shall be deducted from the Adjusted Gross Sports Wagering
+Revenue.
+Section 9.0 Promotional or Bonus Wagering.
+A Sportsbook may conduct Sports Wagering promotions or bonuses in accordance with this
+section:
+9.1. Procedures for the issuance, acceptance, and tracking of promotions or bonuses must be
+defined in the Internal Control System.
+9.2. A Sportsbook must maintain a record of all promotions or bonuses related to Sports
+Wagering to facilitate the Department’s tracking of promotional or bonus activity, which
+must address, at a minimum, all of the following:
+(a) Unique ID for each promotion or bonus;
+(b) The date and time the promotion or bonus was or is scheduled to be available;
+(c) Current balance for promotional or bonus awards;
+(d) Total amount of promotional or bonus awards issued;
+(e) Total amount of promotional or bonus awards redeemed;
+(f) Total amount of promotional or bonus awards expired;
+(g) Total amount of promotional or bonus award adjustments;
+(h) The current status of the promotion or bonus (active, disabled, decommissioned,
+etc.); and
+(i) The date and time the promotion or bonus was or is scheduled to be
+decommissioned.
+9.3. All promotion or bonus rules must be full, accurate, concise, transparent, and must not
+contain misleading information. Promotion or bonus rules must be accessible by the
+player on the Sportsbook’s Internet Website or Mobile Application and provide
+unambiguous notice no more than one click away of the:
+(a) The date and time the promotion or bonus is active and expires;
+(b) Rules of play;
+(c) Nature and value of prizes or awards;
+(d) Eligibility restrictions or limitations;
+(e) Wagering and redemption requirements, including any limitations;
+(f) How the player is notified when they have received an award;
+(g) The order in which funds are used for wagers;
+(h) Eligible events or wagers; and
+(i) Cancellation Requirements.
+9.4. Promotions or bonuses must not be described as
+(a) Free unless those promotions or bonuses are free. If the player has to risk or lose
+their own money or if there are conditions attached to their own money, the
+promotion or bonus rules must disclose those terms and may not be described as
+free; or
+7/19/2023
+
+=== page 17 ===
+(b) Risk-free if those promotions or bonuses require the player to incur any loss or
+risk the player’s own money to use or withdraw winnings from the risk-free wager.
+9.5. A Sportsbook must provide a clear and conspicuous method for a player to cancel their
+participation in a promotion or bonus that utilizes restricted wagering credits that cannot
+be cashed out until a wagering requirement or other restrictions associated with the
+credits is met:
+(a) Upon request for cancellation, the Sportsbook shall inform the player of the
+amount of unrestricted funds that will be returned upon cancellation and the
+value of restricted wagering credits that will be removed from the Sports
+Wagering Account; and
+(b) If a player elects to proceed with cancellation, unrestricted funds remaining in a
+player’s Sports Wagering Account must be returned according to the rules of a
+promotion or bonus.
+9.6. Once a player has met the terms of a promotion or bonus, a Sportsbook must not limit
+winnings earned while participating in the promotion or bonus.
+Section 10.0 Exchange Wagering and Other Peer-to-Peer Wagering
+10.1. Prior to offering Exchange Wagering or other peer-to-peer wagering, a Sportsbook must
+obtain approval from the Department. The Rake taken on such wagers shall be considered
+Adjusted Gross Sports Wagering Revenue and is subject to all revenue share requirements
+outlined in Part VIII
+10.2. One or more Operators may, with prior approval of the Department, participate in a
+Sports Wagering Network in accordance with a written agreement that has been
+executed by each Sportsbook. The agreement shall:
+(a) Designate the party responsible for the operation and administration of the
+network;
+(b) Identify and describe the role, authority, and responsibilities of each participating
+Sportsbook;
+(c) Include a description of the process by which significant decisions that affect the
+operation of the network are approved and implemented by each Sportsbook; and
+(d) Allocate the Adjusted Gross Sports Wagering Revenue and revenue share liability
+between the participating Operators to ensure the accurate reporting thereof.
+10.3. Each party to an agreement to participate in a Sports Wagering Network as set forth in
+subsection 10.2 shall be jointly and severally liable for any acts or omissions in violation
+of the Act, these Procedures, or the policies of the Department.
+7/19/2023
+
+=== page 18 ===
+Part III Technical Requirements and Oversight
+Section 1.0 Mobile Sports Wagering Platform Standards.
+A Sportsbook shall use a Mobile Sports Wagering Platform to offer, conduct, or operate Sports
+Wagering in accordance with applicable laws and these Procedures. Only a Sportsbook may
+process, accept, offer, or solicit Sports Wagers.
+1.1. The Sportsbook must comply with, and the Department adopts and incorporates by
+reference, the Gaming Laboratories International’s GLI-33: Standards for Event Wagering
+Systems, and its appendices, as amended or modified. The GLI-33 standards are intended
+to supplement rather than supplant other technical standards and requirements under
+these Procedures.
+1.2. A Mobile Sports Wagering Platform for use to conduct Sports Wagering must meet the
+specifications set forth in these Procedures or other technical specifications as prescribed
+by the Department. Failure to comply with the approved specifications, internal controls,
+or technical specifications may result in disciplinary action by the Department.
+Section 2.0 Testing and Certification of Mobile Sports Wagering Platform.
+Prior to conducting Sports Wagering, and annually thereafter, the Mobile Sports Wagering
+Platform used in conjunction with the Sportsbook shall be submitted to a nationally recognized,
+independent testing laboratory approved by the Department for certification testing.
+Certification and Department approval must be received prior to the use of any Mobile Sports
+Wagering Platform to conduct Sports Wagering. The Sportsbook is responsible for all costs
+associated with testing and obtaining such certifications.
+2.1. Unless otherwise authorized by the Department, the independent testing laboratory
+must be provided access to the Mobile Sports Wagering Platform’s controlled software
+source code along with the means to verify compilation of such source code. The result
+of the compiled source code must be identical to that in the software submitted for
+evaluation.
+2.2. If the Mobile Sports Wagering Platform meets or exceeds the specifications set forth in
+these Procedures or other technical specifications as prescribed by the Department, the
+independent testing laboratory approved by the Department shall certify the Mobile
+Sports Wagering Platform. Sportsbooks are prohibited from offering Sports Wagering in
+Vermont without such certification.
+Section 3.0 Integration Requirements.
+The Sportsbook shall be responsible for the Sports Wagering realized through other Service
+Providers and Suppliers, and other Sportsbooks where applicable.
+3.1. The servers and other equipment of Service Providers and Suppliers critical to the sports
+wagering operation will be considered to this effect as part of the Sportsbook’s Mobile
+Sports Wagering Platform and must comply with the specifications provided in these
+Procedures.
+7/19/2023
+
+=== page 19 ===
+3.2. The Sportsbook must guarantee that any integration with the servers and other
+equipment of another Sportsbook is realized in a way that complies with the
+specifications provided in these Procedures.
+3.3. An independent testing laboratory shall conduct integration testing and certification for
+each server and other equipment with the Sportsbook’s Mobile Sports Wagering Platform
+prior to its deployment and as requested by the Department.
+Section 4.0 Change Management Processes.
+The Sportsbook must submit change management processes to the Department for approval
+which detail evaluation procedures for identifying the criticality of updates and determining the
+updates that must be submitted to the approved independent testing laboratory for review and
+certification.
+4.1. These change management processes must be:
+(a) Developed in accordance with the Gaming Laboratories International’s GLI-CMP:
+Change Management Program Guide, as amended or modified;
+(b) Approved by the Department prior to its deployment; and
+(c) Audited at an annual interval by the independent testing laboratory.
+4.2. Quarterly change reports are issued to independent testing laboratory for review to
+ensure risk is being assessed according to the change management processes and all
+documentation for all changes are complete.
+4.3. At least once annually, each product operating under the approved change management
+processes must be fully certified to the specifications set forth in these Procedures and
+other technical specifications as prescribed by the Department and accompanied by
+formal certification documentation from the independent testing laboratory. The
+Sportsbook shall be allowed to seek approval for extension beyond the annual approval
+if hardship can be demonstrated. Granting of a hardship waiver is the sole discretion of
+the Department.
+Section 5.0 Geolocation Requirements.
+Mobile Sports Wagers must be initiated, received, and otherwise placed in the authorized
+geographic boundaries within the State of Vermont and may not be intentionally routed outside
+the State. The authorized geographic boundaries shall be determined by the Department. The
+incidental intermediate routing of electronic data relating to a mobile Sports Wager shall not
+determine the location or locations in which the wager is initiated, received, or otherwise made,
+consistent with the Unlawful Internet Gambling Enforcement Act of 2006 (31 U.S.C. Section 5361,
+et seq.).
+5.1. The Sportsbook must utilize geolocation services to ensure that the player is located in
+the authorized geographic boundaries within the State of Vermont when placing any
+Sports Wager and to monitor and block unauthorized attempts to place Sports Wagers
+when an individual or player is physically outside the authorized geographic boundaries
+within the State of Vermont at the time the Sports Wager is placed.
+5.2. The Sportsbook shall trigger:
+7/19/2023
+
+=== page 20 ===
+(a) A geolocation check prior to the placement of the first wager after login or upon
+a change of IP address;
+(b) Recurring periodic geolocation checks as follows:
+(1) For static connections, at least every twenty (20) minutes or five (5)
+minutes if within one (1) mile of the border; and
+(2) For mobile connections, at intervals to be based on a patron's proximity to
+the border with an assumed travel velocity of seventy (70) miles per hour
+or a demonstrated average velocity of a roadway/path. This interval shall
+not exceed twenty (20) minutes.
+5.3. Mechanisms must be in place to detect software, programs, virtualization, and other
+technology that may obscure or falsify the player's physical location for the purpose of
+placing Sports Wagers.
+5.4. The geolocation services used by the Sportsbook shall be certified by the approved
+independent testing laboratory, including applicable field testing, before its deployment.
+Section 6.0 Data Security.
+Each Sportsbook shall employ commercially reasonable security mechanisms to ensure the
+confidentiality of wagering and personal and financial information, and any other confidential
+information, including information provided by a Sports Governing Body or equivalent, from
+unauthorized access and dissemination except as otherwise authorized by the Act. Nothing in
+this subsection shall preclude the use of internet or cloud-based hosting of such data and
+information or disclosure as required by State or federal law or a court order.
+Section 7.0 Location of Servers, Security, and Cloud Storage.
+Unless otherwise approved by the Department in writing, a Sportsbook must place its primary
+server responsible for the acceptance and storage of Sports Wagers in secure locations in the
+state of Vermont and which, upon request, shall be accessible by the Department.
+7.1. The location of all other technology and servers used by a Sportsbook in connection with
+Sports Wagering shall be approved by the Department.
+7.2. The Department may approve of the use of internet or cloud-based hosting of duplicate
+data or data not related to transactional wagering data upon written request of a
+Sportsbook.
+Section 8.0 System Security Testing.
+Each Sportsbook shall, within ninety (90) calendar days after commencing operations in Vermont,
+and annually thereafter, have system security testing of the Mobile Sports Wagering Platform
+conducted by a third-party contractor experienced in security procedures, including computer
+security and systems security, selected by the Sportsbook and subject to approval of the
+Department.
+8.1. At a minimum, such documented system security testing should include a review of
+network vulnerability, application vulnerability, application code review, wireless
+7/19/2023
+
+=== page 21 ===
+security, security policy and processes, security and privacy program management,
+technology infrastructure and security controls, security organization and governance,
+and operational effectiveness.
+8.2. The scope of the documented system security testing is subject to approval of the
+Department and must include, at a minimum, all of the following:
+(a) A vulnerability assessment of all digital platforms, internet websites, mobile
+applications, internal, external, and wireless networks with the intent of
+identifying vulnerabilities of all devices, the Mobile Sports Wagering Platforms,
+and applications transferring, storing, and/or processing Personally Identifiable
+Information and/or other sensitive information connected to or present on the
+networks;
+(b) A penetration test of all digital platforms, internet websites, mobile applications,
+internal, external, and wireless networks to confirm if identified vulnerabilities of
+all devices, the Mobile Sports Wagering Platforms, and applications are
+susceptible to compromise;
+(c) A review of the firewall rules to verify the operating condition of the firewall and
+the effectiveness of its security configuration and rule sets performed on all of the
+perimeter firewalls and the internal firewalls;
+(d) A security control assessment against the provisions adopted in these Procedures,
+including those standards adopted in the technical security controls of GLI-33,
+with generally accepted professional standards and as approved by the
+Department;
+(e) If a Cloud Service Provider is in use, an assessment performed on the access
+controls, account management, logging and monitoring, and over security
+configurations of their cloud tenant;
+(f) An evaluation of information security services, payment services (financial
+institutions, payment processors, etc.), geolocation services, and any other
+services which may be offered directly by the Operator or involve the use of
+Service Providers or Suppliers; and
+(g) Any other specific criteria or standards for the documented system security
+testing as prescribed by the Department.
+8.3. To qualify as a third-party contractor, the third-party contractor shall:
+(a) Have relevant education background or in other ways provide relevant
+qualifications in assessing Mobile Sports Wagering Platforms;
+(b) Obtain and maintain certifications sufficient to demonstrate proficiency and
+expertise as a network penetration tester by recognized certification boards,
+either nationally or internationally;
+(c) Have at least three (3) years’ experience performing system security testing on
+Mobile Sports Wagering Platforms; and
+(d) Meet any other qualifications as prescribed by the Department or its designee.
+8.4. The full third-party contractor’s security audit report containing the overall evaluation of
+Sports Wagering in terms of each aspect of security shall be presented to the Department
+no later than thirty (30) calendar days after the assessment is conducted and must include
+all the following:
+7/19/2023
+
+=== page 22 ===
+(a) Scope of review;
+(b) Name and company affiliation, contact information, and qualifications of the
+individual or individuals who conducted the assessment;
+(c) Date of assessment;
+(d) Findings;
+(e) Recommended corrective action, if applicable; and
+(f) The Sportsbook’s response to the findings and recommended corrective action.
+8.5. It is acceptable to leverage the results of prior assessments within the past year
+conducted by the same third-party contractor against standards such as ISO/IEC 27001,
+ISO/IEC 27017, ISO/IEC 27018, the NIST Cybersecurity Framework (CSF), the Payment
+Card Industry Data Security Standards (PCI-DSS), or equivalent. Such leveraging shall be
+noted in the third-party contractor's security audit report. This leveraging does not
+include critical components of a Mobile Sports Wagering Platform unique to the state
+which will require fresh assessments.
+8.6. If the third-party contractor’s security audit report recommends corrective action, the
+Sportsbook must provide the Department with a remediation plan and any risk mitigation
+plans which detail the Sportsbook’s actions and schedule to implement the corrective
+action. Once the corrective action has been taken, the Sportsbook will provide the
+Department with documentation evidencing completion.
+Section 9.0 Quarterly Vulnerability Scans.
+Internal and external network vulnerability scans shall be run at least quarterly and after any
+significant change to the Mobile Sports Wagering Platform or network infrastructure.
+9.1. Testing procedures must verify that four (4) quarterly internal and scans took place in the
+past twelve (12) months and that re-scans occurred until all “Medium Risk” (CVSS 4.0 or
+Higher) vulnerabilities were resolved and/or accepted via a formal risk acceptance
+program. Internal scans should be performed from an authenticated scan perspective.
+External scans can be performed from an uncredentialed perspective.
+9.2. The quarterly scans can be performed by either a qualified employee of the Sportsbook
+or a qualified third-party contractor selected by the Sportsbook and subject to approval
+of the Department.
+9.3. Verification of scans must be submitted to the Department on a quarterly basis and must
+include a remediation plan and any risk mitigation plans for those vulnerabilities not able
+to be resolved.
+7/19/2023
+
+=== page 23 ===
+Part IV Sports Wagering Accounts
+Section 1.0 Sports Wagering Account Requirements.
+1.1. An individual must have an established Sports Wagering Account with the Sportsbook to
+participate in Sports Wagering. An account shall only be established in the name of a
+player who is a natural person and may not be in the name of any beneficiary, custodian,
+joint trust, corporation, partnership, or any other entity.
+1.2. A Sportsbook must collect the following Personally Identifiable Information from for each
+player through the Mobile Sports Wagering Platform:
+(a) The player’s full legal name;
+(b) The player’s date of birth;
+(c) The player’s principal residential address. A post office box is not acceptable;
+(d) The player’s Social Security number, or the last four (4) digits of the Social Security
+number, or an equivalent government identification number for a noncitizen, such
+as a passport or taxpayer identification number; and
+(e) Any other information collected from the player used to verify their identity and
+to prove the player is not an Ineligible Person.
+1.3. During the Sports Wagering Account registration process, the player shall:
+(a) Be denied the ability to register for account if they submit a birth date which
+indicates that they are an Underage Person;
+(b) If not all fields are “required,” be informed on the account application which
+information fields are “required,” which are not, and what will be the
+consequences of not filling in the required fields;
+(c) Agree to the terms and conditions and privacy policies of the Sportsbook;
+(d) Consent to the monitoring and recording of the use of their account by the
+Sportsbook and the Department; and
+(e) Affirm that:
+(1) The player meets all eligibility requirements for registration; and
+(2) The Personally Identifiable Information the player is providing to open the
+account is accurate.
+(f) Authorize the provision of notices and other required communications either
+through a designated mobile or other interface or to an electronic mail address
+designated by the player.
+1.4. A Sportsbook must maintain an electronic player file, which must, at a minimum, include
+the following for each Sports Wagering Account, as applicable:
+(a) Unique Sports Wagering Account ID and username (if different);
+(b) The information indicated in 1.2 to register a player and create the account;
+(c) The date and method of identity verification, including, where applicable, the
+document number of the government issued identification credential examined
+and its date of expiration, if applicable. If a government issued identification
+credential is not required for registration, the electronic record that details the
+process used to confirm the player’s identity must be recorded;
+(d) The date of player agreement to the terms and conditions and privacy policies;
+(e) Previous Sports Wagering Accounts, if any, and reason for de-activation;
+7/19/2023
+
+=== page 24 ===
+(f) The date and method from which the Sports Wagering Account was registered;
+(g) The date and time a Sports Wagering Account is accessed by any person, including
+IP Address; and
+(h) A history of financial transactions, including deposits, withdrawals, and account
+adjustments;
+(i) Account details and current balance, including any incentive credits. All restricted
+wagering credits and unrestricted funds that have a possible expiration shall be
+maintained separately;
+(j) The current status of the Sports Wagering Account (e.g., active, dormant, closed,
+suspended, excluded, etc.).
+1.5. The following information maintained as part of the electronic player file shall be stored
+in encrypted form:
+(a) The player’s government identification number, or portion(s) thereof;
+(b) The player’s previous and current password(s), PIN(s), or other authentication
+credential(s); and
+(c) The player’s previous and current debit instrument number(s), debit card
+number(s), bank account number(s) or other personal financial information.
+1.6. A Sportsbook may allow the player to update authentication credentials, registration
+information and the account used for financial transactions. A Multi-Factor
+Authentication process shall be employed for these purposes.
+1.7. No Sportsbook may charge any fee to maintain or administer any Sports Wagering
+Account.
+Section 2.0 Age and Identity Verification.
+The Sportsbook shall adopt commercially reasonable policies and procedures to verify and
+authenticate age and identity of each player.
+2.1. Only eligible persons may create a Sports Wagering Account, deposit funds, or participate
+in Sports Wagering. The Sportsbook must deny the ability to create a Sports Wagering
+Account, deposit funds, or participate in Sports Wagering to any an Ineligible Person. This
+section shall not be construed to prevent an individual from creating a Sports Wagering
+Account and depositing funds to such an account even if they are prohibited from placing
+certain wagers.
+2.2. At the time of account establishment the Sportsbook shall employ electronic verification
+using one or more secure online databases, which government or business regularly use
+to verify and authenticate age and identity, or by examination of photo identification and
+the review of a supplemental, contemporaneous photograph of the person in order to
+verify each player's name, date of birth, and government identification number, or
+portion(s) thereof.
+2.3. The following data must be verified before players can initiate activity including deposits,
+withdrawals and wagering:
+(a) Items that require an exact match:
+(1) The player’s last name;
+(2) The player’s date of birth; and
+7/19/2023
+
+=== page 25 ===
+(3) The player’s government identification number, or portions thereof;
+(b) Items that permit flexible match:
+(1) The player’s first name; and
+(2) The player’s principal residential address.
+2.4. Reasonable measures must be taken to ensure the person providing the identity
+information is truly the owner of the identity before a players can initiate any activity including
+deposits, withdrawals and wagering. One of the options below is required:
+(a) Correctly answer three dynamic knowledge-based questions compiled from public
+and private data such as public records, credit reports, marketing data, and other
+recorded facts;
+(b) Verification that the player’s phone number and email address match the
+information provided by the player
+(c) Valid government issued identification credential; or
+(d) Historical behavioral account, device, and location verification; or
+(e) Other methods approved by the Department.
+2.5. The Sportsbook shall refuse to establish an account if it is found that any of the
+information supplied is untrue or incomplete.
+2.6. A Sportsbook must use commercially available and demonstrable standards to confirm
+that an individual attempting to create a Sports Wagering Account is not an Ineligible
+Person.
+2.7. A Sportsbook must periodically re-verify a player’s identification upon reasonable
+suspicion that the player’s identification has been compromised.
+Section 3.0 Limitation to One Account per Player.
+An individual may not have more than one (1) Sports Wagering Account with each Sportsbook. A
+Sportsbook shall implement procedures to terminate all accounts of any player that establishes or
+seeks to establish more than one (1) username or more than one (1) account, whether directly or
+by use of another person as proxy. Such procedures may allow a player that establishes or seeks
+to establish more than one (1) username or more than one (1) account to retain one (1) account
+provided that the Sportsbook investigates and makes a good-faith determination that the player's
+conduct was not intended to obtain a competitive advantage.
+Section 4.0 Terms and Conditions and Privacy Policies for Sports Wagering Accounts.
+All terms and conditions and privacy policies for Sports Wagering Accounts shall be readily
+accessible to the player before and after registration and noticed when materially updated (i.e.,
+beyond any grammatical or other minor changes).
+4.1. All terms and conditions for Sports Wagering Accounts must address all aspects of the
+Sportsbook, including, but not limited to all of the following:
+(a) A statement that only individuals located in the authorized geographic boundaries
+within the State of Vermont can participate in Sports Wagering;
+7/19/2023
+
+=== page 26 ===
+(b) A statement that Ineligible Persons are prohibited from participating in Sports
+Wagering;
+(c) Advice to the player to keep their authentication credentials (e.g., password and
+username) secure;
+(d) All processes for dealing with lost authentication credentials, forced password
+changes, password strength and other related items as required by the
+Department;
+(e) Full explanation of all rules applicable to dormant Sports Wagering Accounts,
+including the conditions under which an account is declared dormant and what
+actions will be undertaken on the account once this declaration is made;
+(f) Actions that will be taken on the player’s pending wagers placed prior to any
+exclusion or suspension, including the return of all wagers, or settling all wagers,
+as appropriate;
+(g) Information about timeframes and limits regarding deposits to and/or
+withdrawals from Sports Wagering Accounts, including a clear and concise
+explanation of all fees, if applicable; and
+(h) Statements indicating that the Sportsbook has the right to:
+(1) Refuse to establish a Sports Wagering Account for what it deems good and
+sufficient reason;
+(2) Refuse deposits to and/or withdrawals from Sports Wagering Accounts for
+what it deems good and sufficient reason; and
+(3) Unless there is a pending investigation or player dispute, suspend or close
+any Sports Wagering Account at any time pursuant to the terms and
+conditions between the Sportsbook and the player;
+(i) Statements indicating that the players are prohibited from:
+(1) Transferring or selling an account or account balance;
+(2) Using any technology that may obscure or falsify their physical location for
+the purpose of placing Sports Wagers;
+(3) Allowing any unauthorized person to access or use their account; and
+(4) Any form of collusion, cheating, or other unlawful activity.
+4.2. All privacy policies for Sports Wagering Accounts must address all aspects of the
+Personally Identifiable Information protection, including, but not limited to all of the
+following:
+(a) The Personally Identifiable Information required to be collected;
+(b) The purpose and legal basis for Personally Identifiable Information collection and
+of every processing activity for which consent is being sought;
+(c) The period in which the Personally Identifiable Information is stored, or, if no
+period can be possibly set, the criteria used to set this;
+(d) The conditions under which Personally Identifiable Information may be disclosed;
+(e) An affirmation that measures are in place to prevent the unauthorized or
+unnecessary disclosure of the Personally Identifiable Information;
+(f) The identity and contact details on the Sportsbook who is seeking the consent;
+and
+(g) Any other privacy requirements specified by the Department.
+7/19/2023
+
+=== page 27 ===
+Section 5.0 Responsible Gaming and Problem Gambling Information.
+A Sportsbook must provide Department-approved responsible gaming and problem gambling
+information that must be readily accessible to each player and conspicuously displayed on each
+applicable Internet Website or Mobile Application, at a minimum, all of the following:
+5.1. Responsible gambling and problem gambling information including a Department-
+approved telephone number that an individual may use to obtain information about
+problem gambling and resources addressing addiction and compulsive behavior and
+where to seek assistance with these issues in Vermont and nationally.
+5.2. Notification that underage gambling is a criminal offense and that anyone who facilitates
+an underage person to place a Sports Wager has committed a criminal offense and must
+be prohibited from Sports Wagering;
+5.3. A list of the available responsible gaming limits and restrictions that can be invoked by
+the player, including a means to initiate a break in play to discourage excessive play, and
+information on how to invoke those measures;
+5.4. A link to the statewide Voluntary Self-Exclusion Program and enrollment information;
+5.5. Mechanisms in place for players to detect unauthorized use of their Sports Wagering
+Account, such as the player reviewing financial statements against known deposits;
+5.6. Method for filing a complaint with the Sportsbook; and
+5.7. Method for filing with the Department an unresolved complaint after all reasonable
+means to resolve the complaint with the Sportsbook have been exhausted utilizing forms
+and in the manner prescribed by the Department.
+Section 6.0 Account Access.
+6.1. The Mobile Sports Wagering Platform shall utilize authentication credentials, such as a
+username (or similar) and a password or a secure alternative means to assure that only
+the player has access to the Sports Wagering Account. Allowable authentication
+credentials are subject to the discretion of the Department as necessary. The requirement
+does not prohibit the option for more than one method of authentication being available
+for a player to access their account.
+6.2. If the Mobile Sports Wagering Platform does not recognize the authentication credentials
+when entered, an explanatory message shall be displayed to the player which prompts
+the player to try again. The error message shall be the same regardless of which
+authentication credential is incorrect.
+6.3. Players must be given the option to use a Multi-Factor Authentication process when
+accessing their Sports Wagering Account. In addition, a Multi-Factor Authentication shall
+be employed for the retrieval or reset of a player's forgotten or lost authentication
+credentials.
+6.4. Current account balance information, including any restricted wagering credits and
+unrestricted funds, and transaction options shall be available to the player once
+authenticated. All restricted wagering credits and unrestricted funds that have a possible
+expiration shall be indicated separately.
+7/19/2023
+
+=== page 28 ===
+6.5. The Mobile Sports Wagering Platform shall either:
+(a) Continuously and prominently display the current time in the state of Vermont
+and the amount of time that the player has spent on the Sportsbook’s Internet
+Website or Mobile Application, or
+(b) Cause a pop-up notification, at least every once every thirty (30) minutes if a
+player has not logged out of their account during such 30-minute period, to be
+prominently displayed advising the player of the current time and the amount of
+time that the player has spent on the Internet Website or Mobile Application.
+6.6. The Mobile Sports Wagering Platform shall support a mechanism that allows for an
+account to be locked in the event that suspicious activity is detected, such as three
+consecutive failed access attempts in a 30-minute period. A Multi-Factor Authentication
+process shall be employed for the account to be unlocked.
+Section 7.0 Financial Transactions.
+7.1. Sportsbooks shall provide the player written confirmation or denial of every financial
+transaction initiated, including:
+(a) The type of transaction (deposit or withdrawal);
+(b) The transaction value; and
+(c) For denied transactions, a descriptive message, if appropriate and available, as to
+why the transaction did not complete as initiated.
+7.2. A Sports Wagering Account may be funded using approved methods which shall produce
+a sufficient audit trail for verification of the source of the wagers.
+(a) Approved methods for funding Sports Wagering Accounts include:
+(1) Cash equivalents converted to cash;
+(2) Debit cards;
+(3) Electronic funds transfers (EFTs);
+(4) Promotional or bonus credit;
+(5) Winnings;
+(6) Adjustments made by the Sportsbook with documented notification to the
+player; and
+(7) Any other form approved by the Department including those which are
+initiated with cash.
+(b) The Sports Wagering Account shall not be funded using a credit card.
+(c) The Sports Wagering Account shall be credited for any deposit in accordance with
+the Internal Control System as submitted by the Sportsbook and approved by the
+Department.
+(d) For debit cards and EFTs, the player may be liable for any charges imposed by the
+transmitting or receiving Sportsbook and the charges may be deducted from the
+player’s Sports Wagering Account.
+7.3. When a Sports Wagering Account's lifetime deposits exceed $2,500, and every year
+thereafter, the Sportsbook shall prevent any wagering until the player immediately
+acknowledges that the player has met the deposit threshold and may elect to establish
+7/19/2023
+
+=== page 29 ===
+responsible gaming limits or close the account, and the player has received disclosures
+from the Sportsbook concerning problem gambling resources.
+7.4. Where financial transactions are conducted through EFT, the Sportsbook shall have
+security measures and controls to prevent EFT fraud. A failed EFT attempt is not
+considered fraudulent if the player has successfully performed an EFT on a previous
+occasion with no outstanding chargebacks. Otherwise, the Sportsbook shall do all of the
+following:
+(a) Temporarily block the player’s Sports Wagering Account for investigation of fraud
+after five (5) consecutive failed EFT attempts within a 10-minute period. If there is
+no evidence of fraud, the block may be vacated; and
+(b) Suspend the player’s Sports Wagering Account after five (5) additional consecutive
+failed EFT attempts within a 10-minute period.
+7.5. A Sportsbook must not restrict the player from withdrawing the player’s own funds or
+withdrawing winnings from wagers placed using the player’s own funds, whether the
+account is open or closed, except as otherwise provided in these Procedures, or any other
+applicable state or federal laws.
+(a) A Sportsbook must employ a mechanism that can detect and prevent any
+withdrawal activity initiated by a player that would result in a negative balance of
+the Sports Wagering Account.
+(b) A Sportsbook shall not allow a Sports Wagering Account to be overdrawn unless
+caused by payment processing issues outside the control of the Sportsbook.
+(c) A Sportsbook must honor the player's request to withdraw funds within seven (7)
+calendar days after the request, unless the conditions set forth in subsection
+7.5(d) are met.
+(d) The Sportsbook may decline to honor a player's request to withdraw funds only if
+the Sportsbook believes in good faith that the player engaged in either fraudulent
+conduct or other conduct that would put the Sportsbook in violation of the Act
+and these Procedures. In such cases, the Sportsbook must do all of the following:
+(1) Suspend the player’s Sports Wagering Account and provide notice to the
+player; and
+(2) Conduct its investigation in a reasonable and expedient fashion, providing
+the player additional written notice of the status of the Sports Wagering
+Account every fourteenth (14) calendar day starting from the day the
+original notice was provided to the player.
+(e) For purposes of this subsection, a request for withdrawal is considered honored if
+it is processed by the Sportsbook notwithstanding a delay by a payment processor,
+debit card issuer, or the custodian of a financial account.
+7.6. All adjustments to Sports Wagering Accounts for amounts of five hundred dollars
+($500.00) or less must be periodically reviewed by supervisory personnel as set forth in
+the Sportsbook’s Internal Control System. All other adjustments must be authorized by
+supervisory personnel of the Sportsbook before being entered.
+7/19/2023
+
+=== page 30 ===
+Section 8.0 Account Information.
+Upon request of the player, the Sportsbook shall provide a statement detailing account activity
+for the past year including wagers, deposit amounts, withdrawal amounts, and bonus or
+promotion information, including amounts remaining for a pending bonus or promotion, and
+amounts released to the player.
+Section 9.0 Responsible Gaming Limits.
+A Sportsbook shall allow a player to limit the amount of money that may be deposited into an
+account and spent through an account.
+9.1. A deposit limit shall be offered on a daily, weekly and monthly basis and shall specify the
+maximum amount of money a player may deposit into their Sports Wagering Account
+during a particular period of time.
+9.2. A wager limit shall be offered on a daily, weekly and monthly basis and shall specify the
+maximum amount of player funds that may be put at risk during a particular period of
+time.
+9.3. Any decrease to these limits shall be effective immediately or at the point in time (e.g.,
+next login, next day) that was clearly indicated to the player. Any increase to these limits
+shall become effective only after the time period of the previous limit (e.g., day, week,
+month, etc.) has expired.
+Section 10.0 Self-Restriction Process.
+10.1. A Sportsbook shall enable a player to restrict themselves from Sports Wagering for a
+period of time the player specifies, which must not be less than seventy-two (72) hours,
+by submitting a request to the Sportsbook through its Internet Website or Mobile
+Application or by online chat with the Sportsbook's customer support team.
+10.2. The Sportsbook shall provide to a player who self-restricts their participation information
+concerning:
+(a) Available resources addressing addiction and compulsive behavior;
+(b) How to close an account and restrictions on opening a new account during the
+period of self-restriction;
+(c) Requirements to reinstate an account at the end of the period;
+(d) The ability to enroll in the statewide Voluntary Self-Exclusion Program and a link
+to such site; and
+(e) How the Sportsbook addresses bonuses or promotions and account balances
+during and after the period of self-restriction, and when the player closes their
+Sports Wagering Account.
+Section 11.0 Suspension and Restoration of Sports Wagering Accounts.
+11.1. A Sports Wagering Account may be placed into a suspended mode by the Sportsbook
+under any of the following conditions:
+(a) When requested by the player through a self-restriction process under section
+10.1;
+7/19/2023
+
+=== page 31 ===
+(b) When required by the Department;
+(c) If the Sportsbook determines it lacks sufficient information to verify the age and
+eligibility of the player; or
+(d) Upon a determination by a Sportsbook that a player
+(1) Has provided any false or misleading information in connection with the
+opening of the account or has engaged in collusion, cheating or other
+unlawful conduct
+(2) Is or has been barred from placing Sports Wagers in the State of Vermont;
+(3) Is or has otherwise become an ineligible person;
+(e) When initiated by a Sportsbook that has evidence that indicates any of the
+following:
+(1) Illegal activity including providing any false or misleading information in
+connection with the opening of the account, or engaging in collusion,
+cheating, or other unlawful conduct
+(2) A negative Sports Wagering Account balance; or
+(3) A violation of the terms and conditions has taken place on a player’s Sports
+Wagering Account.
+(f) For any other reason at the sole discretion of the Sportsbook, provided that reason
+is not based on a player's actual or believed sex, gender identity, race, religion,
+national origin, sexual orientation, or other lawfully protected characteristic or is
+not in violation of federal or State law.
+11.2. When a Sports Wagering Account is in a suspended mode, the Sportsbook must do all of
+the following:
+(a) Prevent the player from placing Sports Wagers;
+(b) Prevent the player from depositing funds unless the account is suspended due to
+having a negative Sports Wagering Account balance but only to the extent the
+Sports Wagering Account balance is brought back to zero dollars;
+(c) Prevent the player from withdrawing funds from their Sports Wagering Account,
+unless the Sportsbook acknowledges that the funds have cleared, and that the
+reason(s) for suspension would not prohibit a withdrawal;
+(d) Prevent the player from making changes to their Sports Wagering Account;
+(e) Prevent the removal of the Sports Wagering Account from the Mobile Sports
+Wagering Platform; and
+(f) Prominently display to the player that the Sports Wagering Account is in a
+suspended mode, the restrictions placed on the Sports Wagering Account, and any
+further course of action needed to remove the suspended mode.
+(g) Remove the player from any advertising or marketing distribution lists.
+11.3. A Sports Wagering Account in a suspended mode may be restored for any of the following
+reasons:
+(a) Upon expiration of the self-restriction time period established by the player under
+section 10.1;
+(b) If authorized by the Department;
+(c) When the player is no longer an Ineligible Person; or
+(d) When the Sportsbook has lifted the suspended status.
+7/19/2023
+
+=== page 32 ===
+11.4 In the event of termination of the Sports Wagering Account in accordance with this
+section, the player shall be provided a timely ability to access and withdraw any funds
+remaining in the Sports Wagering Account, provided that the Sportsbook acknowledges
+that the funds have cleared, and that the reason(s) for termination would not prohibit a
+withdrawal.
+Section 12.0 Account Closure.
+12.1. A Mobile Sports Wagering Platform must provide a conspicuous and readily accessible
+method for a player to close their Sports Wagering Account through the account
+management or similar page or through the Sportsbook’s customer support team.
+12.2. Upon closure any funds remaining in the Sports Wagering Account shall be refunded to
+the player, provided that the Sportsbook acknowledges that the funds have cleared.
+Section 13.0 Dormant Accounts.
+Any Sports Wagering Account with no player-initiated activity for at least three (3) years shall be
+closed. When a Sports Wagering Account is closed the Sportsbook shall issue any funds, less
+processing fees, to the player.
+Section 14.0 Anti-Money Laundering (AML) Monitoring.
+The Sportsbook shall develop and implement AML procedures and policies that adequately
+address the risks posed by Mobile Sports Wagering for the potential of money laundering and
+terrorist financing. Additional requirements for AML procedures and policies may be specified by
+the Department.
+Section 15.0 Personally Identifiable Information Security.
+15.1. Any information obtained in respect to the Sports Wagering Account, including Personally
+Identifiable Information and authentication credentials, shall be done in compliance with
+the privacy policies and local privacy regulations and standards observed by the
+Department. Both Personally Identifiable Information and the Sports Wagering Account
+funds shall be considered as critical assets for the purposes of risk assessment.
+15.2. No employee or agent of the Sportsbook shall divulge any Personally Identifiable
+Information related to a Sports Wagering Account, the placing of any wager or any other
+sensitive information related to the operation of the Sportsbook without the consent of
+the player, except as required by this section, the Department, and as otherwise required
+by state or federal law. This includes, but is not limited to:
+(a) The amount of money credited to, debited from, or present in any particular
+player’s Sports Wagering Account;
+(b) The amount of money wagered by a particular player on any event or series of
+events;
+7/19/2023
+
+=== page 33 ===
+(c) The unique Sports Wagering Account ID or username and authentication
+credentials that identify the player;
+(d) The identities of particular Sports Events or Types of Wagers on which the player
+is wagering or has wagered; and
+(e) Unless otherwise authorized by the player, the name, address, and other
+information in possession of the Sportsbook that would identify the player to
+anyone other than the Department or Sportsbook.
+15.3. There shall be procedures in place for the security and sharing of Personally Identifiable
+Information, funds in a Sports Wagering Account and other sensitive information as
+required by the Department, including, but not limited to:
+(a) The designation and identification of one or more employees having primary
+responsibility for the design, implementation, and ongoing evaluation of such
+procedures and practices;
+(b) The procedures to be used to determine the nature and scope of all information
+collected, the locations in which such information is stored, and the storage
+devices on which such information may be recorded for purposes of storage or
+transfer;
+(c) The measures to be utilized to protect information from unauthorized access; and
+(d) The procedures to be used if a breach of data security has occurred, including
+required notification to the Department.
+Section 16.0 Test Accounts.
+A Sportsbook may establish test accounts to be used to test the various components and
+operation of a Sportsbook pursuant to an Internal Control System, which, at a minimum, must
+address all of the following:
+16.1. The procedures for issuing funds used for testing, including the identification of who may
+issue the funds and the maximum amount of funds that may be issued;
+16.2. The procedures for assigning each test account for use by only one (1) individual.
+However, a Sportsbook may establish a specific scenario or instance of a test account that
+may be shared by multiple users if each user’s activities are separately logged;
+16.3. The maintenance of a record for all test accounts, to include when they are active, to
+whom they are issued, and the employer of the individual to whom they are issued;
+16.4. The procedures for auditing testing activity by the Sportsbook to ensure the
+accountability of funds used for testing and proper adjustments to Adjusted Gross Sports
+Wagering Revenue; and
+16.5. The procedures for authorizing and auditing out-of-state test activity.
+7/19/2023
+
+=== page 34 ===
+Part V Audit and Internal Control Standards
+Section 1.0 Internal Control System.
+Unless otherwise provided for by the Department, before beginning Sportsbook operations, an
+Operator must submit its administrative and accounting procedures, in detail, in an Internal
+Control System for Department review and written approval. The Department or its designee
+may perform any inspection necessary in order to determine conformance with the approved
+Internal Control System.
+1.1. Amendments to any portion of the Internal Control System must be submitted to the
+Department for approval. If within fourteen (14) calendar days the Department has not
+approved, denied, or otherwise provided written notice, an Operator may implement the
+amended internal controls as submitted with the Department retaining its authority to
+require further amendment, approval, or denial;
+(a) The Department may, in writing, approve, deny, or require a revision to the
+amendment to the Internal Control System. If the Operator is notified of a
+required revision, the Operator must work with the Department to address the
+revision;
+(b) If the Department requests additional information, clarification, or revision of an
+amendment to the Internal Control System and the Operator fails to satisfy the
+request within thirty (30) calendar days after the Department request, the
+Department shall consider the amendment denied and it cannot be implemented
+or, if previously implemented, the Operator has fifteen (15) calendar days to cease
+implementation of that amendment. If the Operator subsequently wants to
+pursue the amendment, it must resubmit the request along with the additional
+information previously requested by the Department.
+1.2. In the event of an emergency, the Operator may temporarily amend their Internal Control
+System. The Commissioner or their designee must be notified that an emergency exists
+before temporarily amending their Internal Control System. The Operator must submit
+the temporary emergency amendment of the Internal Control System to the
+Commissioner or their designee within twenty-four (24) hours of the amendment. The
+submission must include the detailed emergency procedures that will be implemented
+and the time period the emergency procedures will be temporarily in place. Any concerns
+the Department has with the submission must be addressed with the Operator.
+1.3. An Internal Control System must include a detailed narrative description of the
+administrative and accounting procedures designed to satisfy the requirements of these
+Procedures, including the following:
+(a) Administrative controls which include, as their primary objective, policies and
+procedures designed to assure that all activities and transactions of the Operator
+are instituted and completed in accordance with the applicable policy and/or
+procedure.
+(b) Accounting controls, as detailed in these Procedures, which include, as their
+primary objectives:
+(1) Processes for recording the collection of wagers, payment of wagers, and
+cancellation of wagers issued in accordance with generally accepted
+7/19/2023
+
+=== page 35 ===
+accounting principles; and
+(2) Requirements for an annual audit of accounting controls.
+(c) Reporting controls which shall include policies and procedures for the timely
+reporting of economic and social impact reports, and standard financial and
+statistical reports and information in accordance with these Procedures.
+(d) Access controls which include, as their primary objective, the safeguarding of
+company assets to include safeguards in the form of organizational safeguards.
+(e) Tables of organization, which shall provide for:
+(1) A system of personnel and chain of command which permits management
+and supervisory personnel to be held accountable for actions or omissions
+within their areas of responsibility;
+(2) The segregation of incompatible functions so that no employee is in a
+position both to commit an error or to perpetrate a fraud and to conceal
+the error or fraud in the normal course of their duties;
+(3) Primary and secondary supervisory positions which permit the
+authorization or supervision of necessary transactions at all relevant times;
+and
+(4) Areas of responsibility which are not so extensive as to be impractical for
+one person to monitor.
+(f) A jobs compendium detailing job descriptions, chains of command, and lines of
+authority for all personnel engaged in the operation of Sports Wagering. The
+Operator shall maintain and update the jobs compendium on a regular basis.
+(g) An infrastructure and information security program; and
+(h) All applicable policies and procedures required pursuant to this Part.
+1.4. To the extent a Service Provider is involved in or provides any of the internal controls
+required in this Part, the Operator’s Internal Control System must document the roles and
+responsibilities of the Service Provider and must include procedures to evaluate the
+adequacy of and monitor compliance with the Service Provider’s Internal Control System.
+1.5. Nothing in this Part shall be interpreted so as to limit an Operator's use of technology,
+provided that, if the Operator intends to utilize any new technology not identified in its
+initial proposal, it shall submit the changes to its Internal Control System to incorporate
+the use of any such new technology to the Department which shall refer the proposed
+change to the Commissioner who shall review the proposal.
+1.6. If the Department determines that the Internal Control System of the Operator does not
+comply with the requirements of these Procedures or requires improvement, the
+Department shall notify the Operator in writing. Within fifteen (15) calendar days after
+receiving the notification, the Operator must amend its Internal Control System
+accordingly and must submit, for Department approval, a copy of the written Internal
+Control System, as amended, and a description of any other remedial measure taken.
+Section 2.0 Information Security Responsibilities.
+An Internal Control System shall ensure that an information security program is effectively
+implemented, and information security function responsibilities are effectively allocated.
+7/19/2023
+
+=== page 36 ===
+2.1. The Sportsbook shall implement, maintain, and comply with a comprehensive
+information security program, the purpose of which shall be to take reasonable steps to
+protect the confidentiality, integrity, and availability of Personally Identifiable
+Information of individuals who place a Sports Wager with the Sportsbook.
+2.2. The information security program shall contain administrative, technical, and physical
+safeguards appropriate to the size, complexity, nature, and scope of the operations and
+the sensitivity of the Personally Identifiable Information owned, licensed, maintained,
+handled, or otherwise in the possession of the Sportsbook.
+2.3. An information security forum or other organizational structure comprised of senior
+managers shall be formally established to monitor and review the information security
+program to ensure its continuing suitability, adequacy and effectiveness, maintain formal
+minutes of meetings, and convene at least every six months.
+2.4. An information security department shall exist that is responsible for developing a
+security strategy in accordance with the overall operation. The information security
+function will subsequently work with the other departments to implement the associated
+action plans. It shall be involved in reviewing all tasks and processes that are necessary
+from the security perspective for the Sportsbook, including, but not limited to, the
+protection of information and data, communications, physical, virtual, personnel, and
+overall business operational security.
+2.5. The information security department shall report to no lower than executive level
+management and shall be independent of the IT department with regard to the
+management of security risk.
+2.6. It shall have the competences and be sufficiently empowered and shall have access to all
+necessary resources to enable the adequate assessment, management, and reduction of
+risk.
+2.7. The chief security officer or equivalent head of the information security department shall
+be a full member of the information security forum and be responsible for recommending
+information security policies and changes.
+Section 3.0 Accounting Records.
+Sportsbooks must maintain complete, accurate, and legible records of all transactions related to
+their Sportsbooks, including transactions pertaining to revenues, expenses, assets, liabilities, and
+equity in conformance with generally accepted accounting principles.
+3.1. The Department may direct Sportsbooks to alter the manner in which the records are
+maintained if a Sportsbook’s records are not in accordance with generally accepted
+accounting principles or if the records are not in sufficient detail.
+3.2. The accounting records must be maintained using a double entry system of accounting
+with transactions recorded on the accrual basis and supported by detailed subsidiary
+records.
+3.3. The detailed subsidiary records must include, at a minimum, all of the following:
+(a) Detailed general ledger accounts identifying all revenue, expenses, assets,
+liabilities, and equity;
+7/19/2023
+
+=== page 37 ===
+(b) A record of all investments, advances, loans, and accounts receivable balances due
+the establishment;
+(c) A record of all loans and other accounts payable;
+(d) A record of all accounts receivable written off as uncollectible;
+(e) Journal entries prepared;
+(f) Tax work papers used in preparation of any state or federal tax return if
+applicable;
+(g) Records supporting the accumulation of the costs for complimentary services and
+items. A complimentary service or item provided to individuals in the normal
+course of a Sports Wagering business must be recorded in an amount based upon
+the full retail price normally charged for the service or item or as is otherwise
+consistent with generally accepted accounting principles;
+(h) Records required by the Internal Control System; and
+(i) Other records that the Department requires to be maintained.
+3.4. The Sportsbook must maintain all records supporting the Adjusted Gross Sports Wagering
+Revenue.
+3.5. If a Sportsbook fails to maintain the records used by it to calculate the Adjusted Gross
+Sports Wagering Revenue, the Department may compute and determine the amount
+upon the basis of an audit conducted by the Department using available information.
+Section 4.0 Financial Audits.
+Upon application, and annually thereafter, each Sportsbook shall submit to the Department,
+within ninety (90) calendar days of the operator’s fiscal year end, its most recent financial audit.
+4.1. The financial audit must be performed by an independent certified public accountant
+currently authorized to practice in Vermont, or any other U.S. state or jurisdiction, and
+presented in accordance with generally accepted accounting principles and contain the
+opinion of the independent certified public accountant as to its fair preparation and
+presentation in accordance with generally accepted accounting principles. If a
+Sportsbook’s audited financial statements are produced at the parent company level, the
+audited financial statements of the parent company may be submitted, only if Vermont’s
+information is identified and accessible separately from the entire parent company
+information.
+4.2. The Department shall determine the date of filing and the number of copies of audits or
+reports required under this procedure. The audits or reports must be received by the
+Department or postmarked no later than the required filing date.
+4.3. The reporting year-end of the Sportsbook is December 31 unless otherwise approved by
+the Department.
+Section 5.0 Retention, Storage and Destruction Records.
+An Internal Control System shall include a records retention schedule, and provisions related to
+the storage and destruction of records that at a minimum incorporates the following provisions:
+7/19/2023
+
+=== page 38 ===
+5.1. Each Sportsbook must maintain, in a place secure from theft, loss, or destruction,
+adequate records of its business and accounting operations.
+5.2. A Sportsbook must make the records available to the Department, upon request, within
+a time provided for by the Department.
+5.3. A Sportsbook must hold the records identified in this section for not less than three (3)
+years; however, a Sportsbook must hold all records pertaining to performance under the
+Operator’s contract for the term of the Operator’s contract and for three (3) years
+thereafter or for any period required by law for inspection by any authorized
+representatives of the State or Federal Government, provided that if any litigation, claim,
+or audit is started before the expiration of the three-year period, the records shall be
+retained until all litigation, claims or audit findings involving the records have been
+resolved.
+5.4. A Sportsbook must keep and maintain, in a manner and form required by the Department,
+accurate, complete, and legible records of any books, records, or documents pertaining
+to, prepared in, or generated by, the Sportsbook, including but not limited to, all of the
+following:
+(a) Forms;
+(b) Reports;
+(c) Accounting records;
+(d) Ledgers;
+(e) Subsidiary records;
+(f) Internal audit records;
+(g) Correspondence; and
+(h) Personnel records.
+5.5. A Sportsbook must organize and index all required records in a manner that enables the
+Department to locate, inspect, review, and analyze the records with reasonable ease and
+efficiency.
+5.6. A Sportsbook shall, except as otherwise provided, notify the Department in writing at
+least sixty (60) calendar days prior to the scheduled destruction of any record required to
+be retained in accordance with this section. Such notice shall list each type of record
+scheduled for destruction, including a description sufficient to identify the records
+included; the retention period; and the date of destruction.
+5.7. The Department may prohibit the destruction of any record required to be retained in
+accordance with this section by so notifying the Sportsbook in writing within forty-five
+(45) calendar days of receipt of the notice of destruction pursuant to subsection 5.5 or
+within the specified retention period. Such original record may thereafter be destroyed
+only upon notice from the Department, or by order of the Department upon the petition
+of the Sportsbook or by the Department on its own initiative.
+5.8. The Sportsbook may utilize the services of a disposal company for the destruction of any
+records required to be retained in accordance with this section.
+5.9. Nothing in this Part shall be construed as relieving a Sportsbook from meeting any
+obligation to prepare or maintain any book, record or document required by any other
+federal, state or local governmental body, authority or agency.
+7/19/2023
+
+=== page 39 ===
+Section 6.0 Reserve Requirement
+6.1. An Internal Control System shall include a plan to maintain and protect sufficient cash and
+other supplies to conduct Sports Wagering at all times through a reserve in the amount
+necessary to ensure the security of funds held in Sports Wagering Accounts and the ability
+to cover the outstanding Sports Wagering liability.
+(a) The reserve must be in the form of cash, cash equivalents, payment processor
+receivables, payment processor reserves, an irrevocable letter of credit, a bond,
+or a combination thereof.
+(b) The reserve must be not less than the greater of fifty-thousand dollars
+($50,000.00) or the sum of the following amounts:
+(1) The daily ending cashable balance of all Sports Wagering Accounts;
+(2) Pending withdrawals;
+(3) Amounts accepted by the Sportsbook on Sports Wagers whose outcomes
+have not been determined; and
+(4) Amounts owed but unpaid on winning Sports Wagers.
+(c) Amounts available to players for wagering that are not redeemable for cash may
+be excluded from the reserve computation.
+6.2. A Sportsbook must have access to all Sports Wagering Account and transaction data to
+ensure the amount of its reserve is sufficient. Unless otherwise directed by the
+Department, a Sportsbook must file a monthly attestation with the Department, in the
+form and manner prescribed by the Department, that funds have been safeguarded under
+this procedure.
+6.3. The Department may audit a Sportsbook’s reserve at any time and may direct a
+Sportsbook to take any action necessary to ensure the purposes of this procedure are
+achieved, including but not limited to requiring the Sportsbook to modify the form of its
+reserve or increase the amount of its reserve.
+Section 7.0 Risk Management Framework
+An Operator must implement a risk management framework. This framework may be provided
+in-house by a unit capable of performing this function with appropriate segregation of functions
+and reporting duties, or by a Service Provider.
+7.1. An Internal Control System shall contain a description of the risk management framework,
+including but not limited to:
+(a) Automated and manual risk management procedures;
+(b) Employee management, including access controls and segregation of duties;
+(c) Information regarding identifying and reporting fraud and suspicious conduct;
+(d) Controls ensuring regulatory compliance;
+(e) Description of Anti-Money Laundering (AML) compliance standards;
+(f) Description of all software applications that comprise the Mobile Sports Wagering
+Platform, including
+(1) The unique identification and verification systems for wagers;
+(2) The minimum data that must be recorded relating to each wager;
+7/19/2023
+
+=== page 40 ===
+(3) System redundancy to ensure recording of wagers during a system outage;
+(g) Description of all types of Sports Wagers available to be offered by the
+Sportsbook;
+(h) Description of the procedures to prevent past posting of wagers;
+(i) Description of the procedures to prevent individuals from placing wagers as
+agents or proxies for other individuals;
+(j) Description of all integrated third-party platforms, including integration with an
+independent control system to ensure integrity of system wagering information;
+and
+(k) Any other information which may be required by the Department.
+7.2. A Sportsbook shall file with the Department, in a manner and form developed by the
+Department, a report of any error that occurs in offering an event or wager or if an
+unapproved Sports Event or Type of Wager is offered to the public.
+Section 8.0 Taxation Requirements
+An Internal Control System shall ensure compliance with all Internal Revenue Service (IRS)
+requirements and the Sportsbook shall provide for the withholding or reporting of income tax of
+players as required by applicable state or federal law.
+8.1. The Sportsbook shall comply with all applicable tax laws and regulations including,
+without limitation, laws and regulations applicable to tax withholding and laws and
+regulations applicable to providing information about payouts and withholdings to taxing
+authorities and to players.
+8.2. The Sportsbook shall disclose potential tax liabilities to players at the time of award of
+any Sports Wagering payouts in excess of limits set by the IRS. Such disclosures will
+include a statement that the obligation to pay applicable taxes on payouts is the
+responsibility of the player and that failure to pay applicable tax liabilities may result in
+civil penalties or criminal liability. Upon written request, the Sportsbook shall provide
+players with summarized tax information on Sports Wagering activities.
+Section 9.0 Bank Secrecy Act Compliance
+An Internal Control System shall ensure compliance with all provisions of The Bank Secrecy Act
+of 1970, 31 USC §§ 5311 to 5332, applicable to the operation of Sports Wagering. The Sportsbook
+must:
+9.1. Maintain records related to its compliance with The Bank Secrecy Act of 1970, 31 USC §§
+5311 to 5332, including all currency transaction reports, suspicious activity reports, and
+any supporting documentation, for the term of the Operator’s contract and for three (3)
+years thereafter or for any period required by law for inspection by any authorized
+representatives of the State or Federal Government, provided that if any litigation, claim,
+or audit is started before the expiration of the three-year period, the records shall be
+retained until all litigation, claims or audit findings involving the records have been
+resolved. The Sportsbook must provide the records to the Department and any
+7/19/2023
+
+=== page 41 ===
+appropriate law enforcement agencies on request consistent with the authorization
+prescribed in The Bank Secrecy Act of 1970, 31 USC §§ 5311 to 5332, and applicable
+regulations.
+9.2. Provide written notice to the Department as soon as the Sportsbook becomes aware of a
+compliance review that is conducted by the Internal Revenue Service under The Bank
+Secrecy Act of 1970, 31 USC §§ 5311 to 5332, and involves or impacts the Sportsbook’s
+Sportsbook. The Sportsbook must provide a copy of the compliance review report or the
+equivalent to the Department within fourteen (14) calendar days after the receipt of the
+report by the Sportsbook.
+Section 10.0 Anti-Money Laundering (AML) Monitoring
+An Internal Control System shall implement AML procedures and policies that adequately
+address the risks posed by Sports Wagering for the potential of money laundering and terrorist
+financing. At a minimum, the AML procedures and policies shall provide for:
+10.1. Controls to assure ongoing compliance with the local AML regulations and standards
+observed by the Department;
+10.2. Up to date training of employees in the identification of unusual or suspicious
+transactions;
+10.3. Assigning an individual or individuals to be responsible for all areas of AML by the
+Sportsbook including reporting unusual or suspicious transactions;
+10.4. Use of any automated data processing systems to aid in assuring compliance; and
+10.5. Periodic independent tests for compliance with a scope and frequency as required by the
+Department. Logs of all tests shall be maintained.
+Section 11.0 Integrity Monitoring and Suspicious Behavior
+An Operator must implement an integrity monitoring system. This solution may be provided in-
+house by a unit capable of performing this function with appropriate segregation of functions
+and reporting duties, or by a Service Provider.
+11.1. An Internal Control System shall include provisions for a Sportsbook to report to the
+Department as soon as practicable:
+(a) Any information regarding irregularities in volume or changes in odds that could
+signal suspicious activities which were identified
+(b) Any information relating to criminal or disciplinary proceedings commenced
+against the Sportsbook in connection with its operations;
+(c) Any information relating to the following, which must also be reported to the
+relevant Sports Governing Body or equivalent:
+(1) Abnormal Wagering Activity or patterns that may indicate a concern with
+the integrity of a Sports Event or events;
+(2) Any potential breach of the internal rules and codes of conduct pertaining
+to Sports Wagering of a relevant Sports Governing Body or equivalent, to
+the extent the operator has actual knowledge of the potential breach;
+7/19/2023
+
+=== page 42 ===
+(3) Any other conduct that corrupts a Sports Wagering outcome of a Sports
+Event or events for purposes of financial gain, including match-fixing; or
+(d) Any information relating to Suspicious or Illegal Wagering Activities, including the
+use of funds derived from illegal activity, the placement of wagers to conceal or
+launder funds derived from illegal activity, the use of agents to place wagers, and
+the use of false identification in placing wagers.
+11.2. A Sportsbook must maintain the confidentiality of information provided by a Sports
+Governing Body or equivalent for purposes of investigating or preventing the conduct
+described in subsection 11.1(d), unless disclosure is required by the Act, the Department,
+other law or court order or unless the Sports Governing Body or equivalent consents to
+disclosure.
+11.3. A Sportsbook receiving a report of Suspicious or Illegal Wagering Activity must be
+permitted to suspend wagering on Sports Events or Types of Wager related to the report,
+and may place a hold on suspicious wagers while investigating but may only cancel or void
+Sports Wagers related to the report after receiving approval from the Department.
+11.4. Upon request by the Department or its designee, a Sportsbook shall provide remote,
+read-only access and the necessary software and hardware for the Department to
+evaluate or monitor the Mobile Sports Wagering Platform. If requested, the Sportsbook
+shall provide the Department with remote access or other approved mechanism which
+shall provide at a minimum:
+(a) All reports of Abnormal Wagering Activity;
+(b) If the Abnormal Wagering Activity was subsequently determined to be Suspicious
+or Illegal Wagering Activity;
+(c) All reports deemed Suspicious or Illegal Wagering Activity at the outset; and
+(d) The actions taken by the Sportsbook according to its integrity monitoring system.
+11.5. Nothing in this section shall require a Sportsbook to provide any information that is
+prohibited by federal, state or local law or regulation, including, but not limited to, laws
+and regulations relating to privacy and Personally Identifiable Information.
+11.6. A Sportsbook must maintain records of all Integrity Monitoring services and activities,
+including all reports and/or Suspicious or Illegal Wagering Activity and any supporting
+documentation, for a minimum of three (3) years after a Sports Event occurs or for any
+period required by law for inspection by any authorized representatives of the State or
+Federal Government, provided that if any litigation, claim, or audit is started before the
+expiration of the three-year period, the records shall be retained until all litigation, claims
+or audit findings involving the records have been resolved.
+11.7. The Sportsbook shall disclose these records to the Department upon request.
+11.8. The Department may require a Sportsbook to provide any hardware or software
+necessary to the Department, or to an independent testing laboratory approved by the
+Department, for evaluation of its Sports Wagering offering or to conduct further
+monitoring of Sports Wagering data.
+11.9. The Department and its operators may participate in national and international
+monitoring services and associations and may share Sports Wagering data with those
+entities and sports governing bodies in order to ensure the integrity of Sports Wagers and
+Sports Events.
+7/19/2023
+
+=== page 43 ===
+Section 12.0 Cooperation with Investigations; Confidentiality of Certain Reported Information.
+The Department and Sportsbooks shall cooperate with investigations conducted by law
+enforcement agencies, Sports Governing Bodies or equivalent, including by providing or
+facilitating the provision of account-level wagering information and audio or video files relating
+to individuals placing wagers.
+12.1. A Sportsbook must maintain the confidentiality of information provided by a Sports
+Governing Body or equivalent to the Sportsbook unless disclosure is required by this Part,
+the Department, other law, or court order.
+12.2. The Department, Sports Governing Bodies or equivalent, and Sportsbooks must maintain
+the confidentiality of all information relating to conduct described in subsection 11.1(d)
+unless disclosure is required by these Procedures, other law, or court order, or as
+authorized by the relevant Sports Governing Body or equivalent.
+12.3. The Department must maintain the confidentiality of all information provided by
+Sportsbooks for compliance purposes unless disclosure is required by this Part, other law,
+or court order.
+12.4. The Department and a Sportsbook may disclose confidential information to another
+Sportsbook, a Sports Governing Body or equivalent, a Sports Wagering regulating entity,
+a law enforcement entity, or other party for the purpose of preventing or investigating
+conduct that corrupts or could corrupt the outcome of a Sports Event, including match
+fixing.
+Section 13.0 Complaints Pertaining to Sports Wagering
+An Internal Control System shall provide procedures for receiving, investigating, responding to
+and reporting on complaints by players.
+13.1. When a player makes a complaint, the Sportsbook shall immediately issue a complaint
+report, setting out:
+(a) The name of the complainant;
+(b) The nature of the complaint;
+(c) The name of the persons, if any against whom the complaint was made;
+(d) The date of the complaint; and
+(e) The action taken or proposed to be taken, if any, by the Sportsbook.
+13.2. All complaints received by a Sportsbook from a player and the Sportsbook's responses to
+complaints shall be retained for three (3) years thereafter or for any period required by
+law for inspection by any authorized representatives of the State or Federal Government,
+provided that if any litigation, claim, or audit is started before the expiration of the three-
+year period, the records shall be retained until all litigation, claims or audit findings
+involving the records have been resolved. The Operator will produce such records to the
+Department within fourteen (14) calendar days of any request by the Department, or
+provide explanation as to why such records cannot be provided within that time period
+and identify when such records will be produced but in no event resulting in an extension
+of time beyond an additional fourteen (14) calendar days.
+7/19/2023
+
+=== page 44 ===
+13.3. A Sportsbook must investigate and attempt to resolve all complaints with the player.
+13.4. A Sportsbook shall respond to such complaints in writing within ten (10) calendar days, or
+provide explanation as to why such records cannot be provided within that time period
+but in no event resulting in an extension of time beyond an additional ten (10) calendar
+days.
+13.5. If the relief requested in the complaint will not be granted, the response to the complaint
+shall state the reasons with specificity.
+13.6. If the response to a complaint is that more information is needed, the form and nature of
+the necessary information shall be specifically stated. When additional information is
+received, further response shall be required within seven (7) calendar days.
+13.7. In its response, the Sportsbook must advise the player of their right to submit the
+complaint to the Department in the form and manner prescribed by the Department.
+13.8. Unless otherwise directed by the Department, for complaints related to Sports Wagering
+Accounts, settlement of Sports Wagers, or illegal activity related to Sports Wagering that
+cannot be resolved to the satisfaction of the player, the Sportsbook must promptly notify
+the Department of the complaint and the Sportsbook’s response.
+13.9. On receipt of a complaint from a player or notification of an unresolved complaint from a
+Sportsbook, the Department may conduct any investigation the Department considers
+necessary and may direct a Sportsbook to take any corrective action the Department
+considers appropriate.
+Section 14.0 Prohibition of Credit Extension
+An Internal Control System shall include controls relating to not allowing the acceptance of a
+Sports Wager or deposit of funds into a Sports Wagering Account that is derived from the
+extension of credit by affiliates or agents of the Sportsbook. For purposes of this section, credit
+shall not be deemed to have been extended where, although funds have been deposited into a
+Sports Wagering Account, the Sportsbook is awaiting actual receipt of such funds in the ordinary
+course of business.
+14.1. Credit providers such as small amount credit contracts (payday lending) must not be
+advertised or marketed to players.
+14.2. A player must not be referred to a credit provider to finance their Sports Wagering
+activity.
+14.3. Personally Identifiable Information related to a player must not be provided to any credit
+provider.
+Section 15.0 Ineligible Persons
+An Internal Control System shall include commercially reasonable measures to prevent accepting
+or making payment relating to Sports Wagers made by Ineligible Persons.
+15.1. If a Sportsbook detects, or is notified of, an individual suspected of being an Ineligible
+Person who had engaged or is engaging in Prohibited Sports Wagering, the Sportsbook
+must use reasonable measures to verify whether the individual is prohibited or not.
+15.2. If the Sportsbook is able to establish, by reasonable measures, that the individual is
+7/19/2023
+
+=== page 45 ===
+prohibited, the Sportsbook must cancel a Sports Wager and confiscate the funds.
+15.3. If the Sportsbook is unable to establish, by reasonable measures, that the individual is
+prohibited, then the individual is presumed to not be an Ineligible Person for the purposes
+of this section.
+Section 16.0 Layoff Wagers
+An Internal Control System shall include procedures for a Sportsbook to accept Layoff Wagers
+placed by other Sportsbooks and place Layoff Wagers with other Sportsbooks for the purpose of
+offsetting Sports Wagers.
+16.1. The Sportsbook placing a Layoff Wager shall inform the Sportsbook accepting the wager
+that the wager is being placed by a Sportsbook and shall disclose their identity.
+16.2. The Sportsbook may decline to accept a Layoff Wager in its sole discretion.
+16.3. Layoff Wagers must be reported to the Department.
+Section 17.0 Reports of Sportsbooks
+An Internal Control System shall detail the Sportsbook’s ability to prepare reports supporting
+Adjusted Gross Sports Wagering Revenue, wagering liability, payouts, and any other reports
+considered necessary by the Department. The Sportsbook shall timely file with the Department
+any additional reports required by the Act or by any rule, regulation, or procedure, or practice.
+Section 18.0 Department Access to Sports Wagering Data
+An Internal Control System shall detail the controls to assure that all Sports Wagering data the
+Department requires to be maintained under the Act or these Procedures is appropriately
+segregated and controlled to prevent unauthorized access. Sportsbooks must provide the
+Department or the Department of Financial Regulation with access to all such data, upon request
+and with reasonable notice. A Sportsbook must retain such data for a minimum of three (3) years
+or for any period required by law for inspection by any authorized representatives of the State
+or Federal Government, provided that if any litigation, claim, or audit is started before the
+expiration of the three-year period, the records shall be retained until all litigation, claims or audit
+findings involving the records have been resolved.
+Section 19.0 Financial and Compliance Reports.
+The Department may require financial and compliance reports from its Sportsbooks for activities
+within its jurisdiction at any time and may conduct audits of these reports to ensure that the
+State receives the contractual share of Adjusted Gross Sports Wagering Revenue.
+7/19/2023
+
+=== page 46 ===
+Section 20.0 Independent Audit of Internal Control Systems.
+Sportsbooks shall have their Internal Control System independently audited at least once every
+two (2) years with the results documented in a written report. This includes internal controls
+conducted by a Service Provider on behalf of the Operator. Reports shall be maintained and
+available to the Department.
+20.1. Such independent audits may be conducted by the Department, or a third-party
+contractor approved by the Department. The Department may, in its discretion, allow for
+an internal audit department within the Sportsbook or parent company of the
+Sportsbook, which is independent of the Sportsbook, to serve as a third-party contractor
+for use in completing this audit.
+20.2. The Department, or third-party contractor shall be responsible for auditing the
+Sportsbook’s compliance with the Act and these Procedures, including those standards
+adopted in the Wagering Procedures and Practices of GLI-33, the Internal Control System,
+and any other applicable rules, regulations, or procedures.
+20.3. Documentation, including checklist, programs, reports, corrective actions, and other
+items, shall be prepared to evidence all independent audit work performed as it relates
+to the requirements of this section, including all instances of noncompliance.
+20.4. Independent audit reports shall include objectives, procedures and scope, findings and
+conclusions, and recommendations.
+20.5. Independent audit findings shall be reported to management. Management shall be
+required to respond to the independent audit findings and the stated corrective measures
+to be taken to avoid recurrence of the audit exception. Such management responses shall
+be included in the final independent audit report.
+20.6. Follow-up observation and examinations shall be performed to verify that corrective
+action has been taken regarding all instances of noncompliance cited by the independent
+audits, or by the Department. The verification shall be performed within six (6) months
+following the date of notification.
+20.7. It is acceptable to leverage the results of prior audits conducted within the audit period
+by the same third-party contractor in another Sports Wagering jurisdiction. Such
+leveraging shall be noted in the audit report. This leveraging does not include any internal
+controls unique to the state, which will require new audits.
+7/19/2023
+
+=== page 47 ===
+Part VI Responsible Gaming
+Section 1.0 Responsible Gaming Plan.
+Prior to conducting a Sportsbook in Vermont, each operator must submit a Responsible Gaming
+Plan to the Department and the Department of Mental Health that shall include information
+related to the posting of materials related to problem gambling, resources to be made available
+to players expressing concerns about problem gambling, player-determined individual limits,
+house-imposed player limits, and voluntary self-exclusion programs. This plan must be approved
+by the Department prior to authorizing the operator to conduct a Sportsbook within the State.
+The operator will provide an updated plan annually every year thereafter.
+1.1. The Responsible Gaming Plan shall include, at a minimum, the following:
+(a) The goals of the plan, procedures and deadlines for implementation of the plan;
+(b) The identification of the individual(s) who will be responsible for the
+implementation, monitoring, and maintenance of the plan;
+(c) The operator’s plan for creating and disseminating promotional material to
+educate players about compulsive and problem gambling and to inform them
+about treatment services available to compulsive and problem gamblers and their
+families. The operator shall provide examples of the materials to be used as part
+of its plan and a description of how the material will be disseminated;
+(d) A copy of the employee training program(s) as part of comprehensive employee
+trainings upon hire and regularly thereafter on what is responsible gambling and
+the role of employees in responding to circumstances in which individuals present
+signs of gambling addiction;
+(e) The duties and responsibilities of the key employees and other employees
+designated to implement or participate in the plan;
+(f) Procedures to assess, prevent and address problem gambling by players,
+including;
+(1) Identifying players with suspected or known problem gambling behavior;
+(2) Preventing Sports Wagering by Ineligible Persons;
+(g) Commitments to participate in statewide responsible gaming initiatives, including,
+but not limited to:
+(1) Participating in responsible gaming operator committees;
+(2) Providing additional education and awareness for identified vulnerable
+populations;
+(h) Procedures for advertising and marketing which must comply with applicable
+standards of socially responsible advertising, including all applicable state and
+federal laws and standards on this subject;
+(i) Annual reporting on responsible gaming activities; and
+(j) Other policies and procedures as determined by the Department to prevent
+problem gambling and encourage responsible gambling.
+1.2. At least every five (5) years, each Operator shall be subject to an independent review of
+the Operator’s Responsible Gaming Plan, as assessed by industry standards and
+performed by a third party approved by the Department. The Department may require
+the operator to pay for the independent review.
+7/19/2023
+
+=== page 48 ===
+Section 2.0 Statewide Voluntary Self-Exclusion Program.
+The Department shall establish, implement, and administer a statewide voluntary self-exclusion
+program for any individual to voluntarily exclude themselves from establishing a Sports Wagering
+Account or from placing Sports Wagers through an account for a set period of time specified in
+the exclusion registration agreement.
+2.1. Each person seeking placement in the statewide Voluntary Self-Exclusion Program
+acknowledges that it is their responsibility to refrain from engaging in Sports Wagering
+and other gambling activities under the jurisdiction of the Department, and must agree
+to:
+(a) Refrain from participating in Sports Wagering and other gambling activities for the
+period specified in the exclusion registration agreement; and
+(b) Not petition the Department for removal from the program for the period
+specified in the exclusion registration agreement.
+2.2 An individual may request to have their name placed on the Self-Exclusion List by
+completing the exclusion registration agreement. A holder of a joint bank account may
+also request to have the name of someone whom they share the joint account placed on
+the Self-Exclusion List when the when the requestor provides documentary evidence to
+the Department of sharing the joint bank account.
+2.3 Upon the filing of an exclusion registration agreement in the statewide Voluntary Self-
+Exclusion Program, the Department may file a Notice of Placement in the statewide
+Voluntary Self-Exclusion Program and such exclusion registration agreement and notice
+may be disclosed to Operators and their agents and employees on a periodic basis, as
+approved by the Department.
+2.4 A Voluntarily-Excluded Person's registration under the statewide Voluntary Self-Exclusion
+Program does not prevent an Operator and its agents and others operating on their behalf
+from seeking payment of a debt accrued by the individual before the individual entered
+the program.
+2.5 Operators will ensure that individuals on the Self-Exclusion List do not receive direct
+marketing, telemarketing promotions, player club materials, or other targeted
+promotional materials relating to Sports Wagering.
+Section 3.0 Involuntary Exclusion List.
+The Department shall maintain an Involuntary Exclusion List that consists of the names of people
+who the Commissioner determines meet anyone of the following criteria:
+3.1. Any person whose wagering would be inimical to Sports Wagering or other gambling
+activities in the State of Vermont, including the following:
+(a) Any person who is involved in collusion, cheating, or other unlawful activity;
+(b) Any person who poses a threat to the safety of the players or employees;
+(c) Persons who pose a threat to themselves;
+7/19/2023
+
+=== page 49 ===
+(d) Persons with a documented history of conduct involving the disruption of a facility
+or website conducting activities under the jurisdiction of the Department;
+(e) Persons included on another jurisdiction's exclusion list;
+(f) Persons subject to a Court order excluding those persons from a facility or website
+conducting activities under the jurisdiction of the Department;
+(g) Any felon or person who has been convicted of any crime gambling or offense
+involving gambling and whose participation in activities under the jurisdiction of
+the Department would be harmful to or negatively affect the reputation of the
+State of Vermont; or
+(h) Any person who enhances a risk of unfair or illegal practices in the conduct of
+activities under the jurisdiction of the Department.
+3.2. The Commissioner’s determination of the basis for placing a person on the Involuntary
+Exclusion list may be based upon any of the following:
+(a) The nature and notoriety of the person to be excluded from all wagering and
+gaming activities under the jurisdiction of the Department;
+(b) The history and nature of the involvement of the person’s wagering, gaming, or
+gambling activity in Vermont or any other jurisdiction;
+(c) The nature and frequency of any contacts or associations of the person with any
+Sportsbook; or
+(d) Any other factor reasonably related to the maintenance of public confidence in
+the regulatory process or the integrity of Sports Wagering in the State of Vermont.
+3.3. The Involuntary Exclusion List shall contain the following information, if known, for each
+Involuntarily-Excluded Person:
+(a) The full name and all known aliases and the date of birth;
+(b) A physical description or photograph, if available;
+(c) The date the person’s name was placed on the Involuntary Exclusion List;
+(d) Partial or full Social Security Number, or an equivalent government identification
+number for a noncitizen, such as a passport or taxpayer identification number, if
+available;
+(e) The person’s occupation and current residential and business addresses; and
+(f) Any other relevant information as deemed necessary by the Department.
+3.4. The Department shall attempt to provide notice to any person who is placed on the
+Involuntary Exclusion List.
+3.5. Each Involuntarily-Excluded Person who wishes to contest being placed on the
+Involuntary Exclusion List may request in writing an informal review by the Board of Liquor
+and Lottery. Such request for review shall fully state the reasons such Involuntarily-
+Excluded Person believes the Commissioner’s exclusion decision was not supported by
+statute, rule, procedure or practice. The Board’s conclusion shall be final and binding on
+all parties.
+Section 4.0 Operator Responsibilities.
+The Operator shall regularly receive the Self-Exclusion List and Involuntary Exclusion List from the
+Department.
+7/19/2023
+
+=== page 50 ===
+4.1. The Self-Exclusion List and Involuntary Exclusion List may only be accessed by individuals
+authorized in accordance with the Internal Control System.
+4.2. Except as authorized or required by these Procedures, the Self-Exclusion List and
+Involuntary Exclusion List shall be kept confidential and the Operator shall not disclose
+the names included on these lists.
+4.3. The Self-Exclusion List and Involuntary Exclusion List shall not be publicly disclosed by the
+Operator, its Service Providers, employees, affiliates or other persons authorized to
+access the lists. However, the Operator may share the lists with service providers
+necessary to effectuate the exclusions, other designated Operators in the State of
+Vermont or its affiliates in other jurisdictions for the purpose of assisting in the proper
+administration of responsible gaming programs.
+4.4. The Operator shall establish procedures to add the names from the Self-Exclusion List and
+Involuntary Exclusion List into their internal list to exclude from Sports Wagering. If the
+Operator utilizes an internal management system to track individuals on the Self Exclusion
+List and Involuntary Exclusion List, they shall update that system at least every seventy-
+two (72) hours with names of individuals being added or removed from the Self Exclusion
+List and Involuntary Exclusion List.
+4.5. The Operator shall establish procedures that are designed, to make all commercially
+reasonable efforts, to:
+(a) Prevent an individual on the Self-Exclusion List or Involuntary Exclusion List from
+opening a new Sports Wagering Account;
+(b) Identify and suspend any Sports Wagering Accounts of an individual on the Self-
+Exclusion List or Involuntary Exclusion List to prevent further participation in
+Sports Wagering;
+(c) Promptly notify the Department, or its designee, if an individual on the Self-
+Exclusion List or Involuntary Exclusion List attempts to place or is discovered to
+have placed or attempted to place a wager;
+(d) In cooperation with the Department, and where reasonably possible, determine
+the amount wagered and lost by an individual identified to be on the Self-Exclusion
+List or Involuntary Exclusion List. The monetary value of the losses shall be paid to
+the Department within forty-five (45) calendar days;
+(e) Deny an individual identified to be on the Self-Exclusion List or Involuntary
+Exclusion List from any winnings derived from wagering while on the Self-
+Exclusion List or Involuntary Exclusion List. The monetary value of the withheld
+winnings shall be paid to the Department within forty-five (45) calendar days;
+(f) In the event that a player has pending wagers prior to be added to the Self-
+Exclusion List or Involuntary Exclusion List, handle such wagers in accordance with
+the terms and conditions.
+(g) Refund any remaining balance to an individual on the Self-Exclusion List or
+Involuntary Exclusion List provided that the Sportsbook acknowledges that the
+funds have cleared; and
+(h) Ensure that individuals on the Self-Exclusion List or Involuntary Exclusion List do
+not receive, either from the Operator, its Service Providers, or any agent thereof,
+7/19/2023
+
+=== page 51 ===
+direct marketing, telemarketing promotions, player club materials, or other
+targeted promotional materials relating to Sports Wagering.
+7/19/2023
+
+=== page 52 ===
+Part VII Advertising and Marketing
+Section 1.0 Advertising and Marketing Generally.
+1.1. The Operator shall ensure that its advertisements and marketing:
+(a) Disclose the identity of the Sportsbook.
+(b) Contain a statement that Underage Persons are not allowed to open or have
+access to Sports Wagering Accounts.
+(c) Do not include or depict:
+(1) Underage Persons, except live footage or images of professional athletes
+who may be Underage Persons in Sports Events on which Sports Wagering
+is permitted;
+(2) Students;
+(3) Schools or colleges; or
+(4) School or college settings.
+(d) Do not state or imply endorsement or participation by:
+(1) Underage Persons, other than professional athletes who may be Underage
+Persons;
+(2) Colleges; or
+(3) College athletic associations.
+(e) Do not target Underage Persons, other Ineligible Persons, individuals with
+gambling problems, or other vulnerable individuals.
+(f) If sent via phone, mail, or email, include a means for the receiver to opt out of any
+phone, mail, or email advertising or marketing distribution list, where the
+advertising and marketing was sent directly to the received using such lists.
+1.2. Incidental depiction of nonfeatured persons, locations, settings, or organizations listed in
+Section 1.1 does not violate subsection 5.1.
+1.3. The use of Sports Wagering advertisements, logos, trademarks, or brands is prohibited on
+products that are sold in Vermont and intended primarily for Underage Persons.
+Section 2.0 Advertisements to Include Information to Promote Responsible Gaming.
+An Operator shall include in an advertisement, information concerning assistance available to
+problem gamblers, or shall direct players to a reputable source of that information, including a
+toll-free crisis help telephone number approved by the Department. If an advertisement is of
+insufficient size or duration to provide the information required, the advertisement shall refer to
+a website or application that does prominently include such information.
+Section 3.0 Limitation on Representations about Winnings.
+An Operator shall only make representations concerning winnings that are accurate, not
+misleading, and capable of substantiation at the time of the representation. For purposes of this
+subsection, an advertisement is misleading if it makes representations about average winnings
+without equally prominently representing the average net winnings of all players.
+7/19/2023
+
+=== page 53 ===
+Section 4.0 No Promotional Activities at Schools or Colleges
+4.1. A postsecondary school located in the State shall not permit Sports Wagering to be
+advertised on property belonging to the postsecondary school, except for generally
+available advertising, including television, radio, and digital advertising.
+4.2. An Operator shall not advertise in a manner that targets the area of a college or university
+campus, except for generally available advertising, including television, radio, and digital
+advertising.
+Section 5.0 Advertising and Marketing Plan.
+Each Operator shall submit an advertising and marketing plan to the Department which shall
+include strategies to limit unwanted advertising, and advertising and marketing aimed at
+Underage Persons.
+Section 6.0 Promotional Inducements, Bonuses and Credits
+6.1. Permitted advertising and marketing materials that communicate promotional
+inducements, bonuses and credits must, at a minimum:
+(a) Disclose all material conditions and limitations of the offer at its first presentation
+on the gaming site, with all other conditions and limitations no more than one
+click away.
+(b) Not be described as free unless the inducement, bonus or credit is free. If the
+player has to risk or lose their own money or if there are conditions attached to
+their own money, the offer must disclose those terms and may not be described
+as free.
+(c) Not be described as risk-free if the player needs to incur any loss or risk their own
+money to use or withdraw winnings from the risk-free bet.
+6.2. No promotional inducement, bonus or credit shall exceed a value set by the
+Department.
+7/19/2023
+
+=== page 54 ===
+Part VIII Revenue Share and Payments
+Section 1.0 Revenue Share and Payments Generally.
+1.1. Each Operator shall pay to the Department a share of the Adjusted Gross Sports Wagering
+Revenue that is determined through the competitive bidding process.
+1.2. Prior to commencing Sportsbook operations in Vermont, each Operator shall establish
+and, after that, maintain an operating account at a designated financial institution
+capable of handling electronic fund transfers.
+1.3. The Operator must notify the Department of the financial institution where funds are
+deposited; and the Department may reject the proposed financial institution if the
+Department determines in its sole discretion that use of such institution would be
+inconsistent with these procedures or may otherwise undermine Vermont’s Sports
+Wagering program. The revenue share received by the Department pursuant to this Part
+shall be deposited in the Sports Wagering Fund.
+Section 2.0 Determination of Value.
+2.1. An Operator shall not receive a deduction from Adjusted Gross Sports Wagering Revenue
+unless written approval is granted by the Department for the following:
+(a) Amounts returned to a player because of Mobile Sports Wagering Platform
+malfunction or because the Sports Wager must be voided because of concerns
+regarding integrity of the Sports Wager or Sports Event that were previously
+included in the computation of Adjusted Gross Sports Wagering Revenue; or
+(b) Successfully disputed debit card charges that were previously included in the
+computation of Adjusted Gross Sports Wagering Revenue. Discretionary write-offs
+by the Operator do not constitute an uncollectible marker.
+2.2. An Operator must submit for Department review and approval a written request,
+including all supporting documentation, for any deductions it would like to take against
+Adjusted Gross Sports Wagering Revenue.
+2.3. An Operator that has an Adjusted Gross Wagering Revenue for a month that is less than
+zero may carry that amount forward and deduct the amount from the Operator's
+Adjusted Gross Wagering Revenue for one or more of the succeeding twelve (12) months
+before determining the amount of revenue share due under this Part for the applicable
+month. Any negative Adjusted Gross Sports Wagering Revenue must be carried over and
+calculated as a deduction on the revenue share form or payment form on the subsequent
+months until the negative figure has been brought to a zero balance.
+Section 3.0 Payment of Revenue Share.
+The revenue share imposed under this subchapter is due and payable to the Department on or
+before the twentieth (20th) day of the month following the month in which the Adjusted Gross
+Wagering Revenue on which the revenue share is based is received. An Operator must remit the
+revenue share or payment imposed, by an electronic transfer of funds. In addition, the Operator
+shall electronically transmit to the Department a revenue share return in the format provided by
+the Department. The return, and revenue share or payment shall be transmitted no later than
+7/19/2023
+
+=== page 55 ===
+the twentieth day of the month succeeding the calendar month in which the Adjusted Gross
+Sports Wagering Revenue proceeds were received by the Operator. The revenue share or
+payment is timely if it settles to the Department’s bank account by the twenty-first (21st) day of
+the month succeeding the calendar month in which the Adjusted Gross Sports Wagering Revenue
+was received by the Operator.
+7/19/2023
+
+=== page 56 ===
+Part IX Contract Sanctions
+Section 1.0 Grounds for Contract Sanctions.
+Any failure to comply with the Act, these Procedures, contractual terms, or any procedures
+adopted by the Department may be brought before the Board of Liquor and Lottery.
+1.1. The Board shall have the authority to impose sanctions on an operator for a violation,
+including monetary penalties pursuant to 31 V.S.A. § 1325(b), suspension of operator
+operations within the State, and the termination of all operator operations within the
+State. The Department may also bring an action in a Vermont court for damages,
+injunctive relief, or enforcement of monetary penalties related to any contract violation.
+1.2. Acceptance or renewal of a contract by a Contract Holder constitutes an agreement on
+the part of the Contract Holder to be bound by all the Board procedures. It is the
+responsibility of the Contract Holder to remain self-informed of the content of all such
+rules, and ignorance thereof will not excuse violations.
+Section 2.0 Initiation of Disciplinary Proceedings, Denial of Contract Application, and
+Contested Case Proceedings.
+2.1 Upon its own initiative, upon request of the Commissioner, or upon written complaint
+signed and sworn to by a complainant, the Board may determine whether to suspend or
+terminate an Operator’s contract or to issue monetary penalties.
+2.2. The Board may elect to suspend or terminate for cause an Operator’s contract, or issue
+monetary penalties, where it determines that the Operator, the Operator’s employees,
+or their agents have violated any of the provisions of the Act or these Procedures; or that
+violations by the Operator, the Operator’s employees, or agents, of laws other than the
+Sports Wagering laws make the Operator no longer suitable to hold a contract.
+2.3. Prior to suspending or terminating a contract for cause, or issuing monetary penalties for
+cause, the Board, or the Commissioner, will send to the Operator by first class mail at the
+last known mailing address of the Operator, a list of the grounds for the proposed
+suspension or termination, or monetary penalties, and a notice containing at least thirty
+(30) calendar days to cure such violations.
+2.4. The Department may also bring an action in a Vermont court for damages, injunctive
+relief, or enforcement of monetary penalties related to any contract violation.
+Section 3.0 Citizen Complaints Authorized — Procedure Following Filing.
+Any person claiming that an Operator has engaged or is engaging in conduct constituting
+grounds for suspension or termination of the Operator’s contract, or imposition of other
+7/19/2023
+
+=== page 57 ===
+sanctions, may file with the Commissioner a sworn written complaint stating the name and
+address of the Operator complained against. The complaint must fully detail the conduct
+alleged to violate a specified Sports Wagering statute, associated Board procedures or other
+legal requirements, upon which the complaint is made. If the Commissioner determines the
+complaint has merit, the Commissioner will serve by first class mail on the Operator complained
+against and any other affected parties a copy of the complaint. The Operator complained
+against has twenty (20) calendar days to answer after service of the complaint on the Operator,
+which answer shall be filed with the Commissioner, on behalf of the Board. The Commissioner
+may reject a complaint if it does not meet the requirements of this section. If the Operator
+answers the complaint, the Operator must serve an original and one (1) copy.
+Section 4.0 Dismissal of Citizen Complaint.
+After receipt of the answer to the complaint, after the time has expired to answer, or after
+having determined that no answer is necessary, the Commissioner will examine the complaint,
+any answer, and other supporting documents to determine whether the complaint has merit or
+is frivolous or whether it charges conduct constituting grounds for suspension or termination of
+the Operator’s contract or other sanctions. If the Commissioner determines that the complaint
+is without merit or is frivolous or that it does not charge conduct constituting grounds for
+disciplinary action, the Commissioner will dismiss the complaint and notify in writing the
+complainant, the Operator complained against, and other affected parties, stating the reasons
+for dismissal. The Commissioner may investigate the complaint and use extrinsic evidence to
+determine if the complaint has merit.
+Section 5.0 Informal Consultation.
+If the Commissioner considers the citizen complaint, or any other allegations, to be grounds for
+suspension or termination of the Operator’s contract or other sanction, the Commissioner may
+first consult with the Operator and the parties affected in an effort to resolve the matter
+satisfactorily without referral to the Board. The Commissioner must notify in writing the
+complainant, the Operator complained against, and affected parties of the results of the informal
+consultation.
+Section 6.0 Assurance of Voluntary Compliance.
+The Commissioner may accept an assurance of voluntary compliance regarding any act or
+practice alleged to violate the Act or these Procedures, from a person who has engaged in, is
+engaging in, or is about to engage in such acts or practices. The assurance must be in writing and
+may include a stipulation for the voluntary payment of an amount necessary to restore to a
+person money or property which may have been acquired by the alleged violator because of the
+Acts or practices. An assurance of voluntary compliance may not be considered an admission of
+a violation for any purpose; however, proof of failure to comply with the assurance of voluntary
+compliance is prima facie evidence of a violation of the Act or these Procedures. The Board may
+approve or review an assurance of voluntary compliance.
+7/19/2023
+
+=== page 58 ===
+Section 7.0 Decision to Initiate Disciplinary Action.
+At any time during the review and investigation of a citizen complaint, the Commissioner and/or
+Board may decide to take any action where grounds exist to sustain its initiation.
+Section 8.0 Criminal Convictions as Grounds for Revocation or Suspension.
+The Commissioner and/or Board may immediately terminate or suspend the contract of any
+person who is convicted of a crime, even though the convicted person’s post-conviction rights
+and remedies have not been exhausted, if the crime or conviction involves a felony, gambling, or
+Sports Wagering or if it discredits or tends to discredit the State of Vermont, Sports Wagering or
+gaming industry.
+Section 9.0 Facts of Criminal Charge.
+The charge in any jurisdiction of an Operator with a felony or with a misdemeanor involving moral
+turpitude is grounds for taking sanction actions. The Commissioner and/or Board may find the
+Operator committed a violation based on the facts of the criminal charge even though the
+Operator has been acquitted on the criminal charge.
+Section 10.0 Conditions Imposed by Commissioner for Reissuance of Contract.
+In consultation with the Board, The Commissioner may require a person who formerly held an
+Operator’s contract to meet certain conditions before reissuing a contract to that person,
+including but not limited to the following:
+10.1. Restitution of money;
+10.2. Restitution of property; and
+10.3 Making periodic reports to the Commissioner as required.
+7/19/2023

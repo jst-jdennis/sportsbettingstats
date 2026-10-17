@@ -1,0 +1,175 @@
+=== page 1 ===
+IAC Ch 13, p.1
+491—13.2(99F) Conduct of all sports wagering.
+13.2(1) Commission policy. It is the policy of the commission to require that all industry participants
+conduct sports wagering in a manner suitable to protect the public health, safety, morals, good order, and
+general welfare of the state. Responsibility for selecting, implementing, and maintaining suitable methods
+of operation rests with the facility, vendor, and advance deposit sports wagering operator. Willful or
+persistent use or toleration of methods of operation deemed unsuitable in the sole discretion of the
+commission will constitute grounds for disciplinary action, up to and including revocation.
+13.2(2) Activities prohibited. A facility, vendor, or advance deposit sports wagering operator is
+expressly prohibited from the following activities:
+a. Failing to conduct advertising and public relations activities in accordance with decency, dignity,
+good taste, and honesty.
+b. Failing to comply with or make provision for compliance with all federal, state, and local laws and
+rules pertaining to the operation of a facility or advance deposit sports wagering operation including, but
+not limited to, payment of license fees, withholding payroll taxes, and violations of alcoholic beverage laws
+or regulations.
+c. Permitting cheating, failing to discover cheating that should have been discovered with reasonable
+inquiry, or failing to take action to prevent cheating.
+d. Failing to conduct sports wagering operations in accordance with proper standards of custom,
+decorum, and decency; or permitting any type of conduct that reflects negatively on the state or
+commission or acts as a detriment to the sports wagering industry.
+e. Performing any type of sports wagering activity, at any time, that is contrary to the representation
+made to the commission, commission representatives, or the public.
+f. Denying a commissioner or commission representative, upon proper and lawful demand,
+information, documents, or access to inspect any portion of the sports wagering operation.
+13.2(3) Wagers. Wagers may only be made by persons 21 years of age or older and on activities
+authorized pursuant to Iowa Code chapter 99F which are approved by the commission.
+13.2(4) Public notice.
+a. The public shall have access to the sports wagering rules, available wagers, odds or payouts, the
+payout period, and the source of the information used to determine the outcome of a sports wager. All
+licensees and advance deposit sports wagering operators shall require participants to follow the rules of
+play. The sports wagering rules shall be:
+(1) Displayed in the licensee’s sports wagering area.
+(2) Posted on the Internet site or mobile application used to conduct advance deposit sports wagering.
+(3) Included in any terms and conditions disclosure statements of the advance deposit sports wagering
+system.
+b. During account setup and login, advance deposit sports wagering operators shall display the
+following information on any interface that accepts wagers:
+(1) Account sharing is prohibited.
+(2) Persons under the age of 21 are prohibited from wagering.
+(3) Any other disclosures, as required by the administrator.
+13.2(5) Bond. A licensee shall post a bond or irrevocable letter of credit, at an amount determined by
+the commission, to the state of Iowa to guarantee that the licensee and any vendor or advance deposit sports
+wagering operator licensed in conjunction with the licensee faithfully makes the payments, keeps its books
+and records and makes reports, and conducts its gambling games and sports wagering in conformity with
+Iowa Code chapter 99F and the rules adopted by the commission.
+13.2(6) Reserve. A reserve in the form of cash or cash equivalents segregated from operational funds,
+an irrevocable letter of credit, payment processor reserves and receivables, a bond, or a combination thereof
+shall be maintained in the amount necessary to cover the outstanding vendor sports wagering liability and
+advance deposit sports wagering liability. An accounting of this reserve shall be made available for
+inspection to the commission upon request.
+a. The method of reserve shall be submitted to and approved by the administrator prior to
+implementation.
+
+=== page 2 ===
+Ch 13, p.2 IAC
+b. Reserve calculation shall include the following: patron accounts, future wagers liability, unpaid
+wagers and pending withdrawals.
+c. If, at any time, the licensee’s total reserve is less than the amount required by the reserve
+calculation, the licensee shall notify the commission of this deficiency within 72 hours.
+d. On a form provided by the commission, the controller or an employee of higher authority shall file
+a monthly attestation to the commission that the reserve funds have been safeguarded pursuant to this
+subrule. The attestation shall be provided to the commission no later than 15 days after the end of each
+month.
+13.2(7) Internal controls. Licensees and advance deposit sports wagering operators shall submit a
+description of internal controls to the administrator. The submission shall be made at least 30 days before
+sports operations are to commence unless otherwise approved by the administrator. All internal controls
+must be approved by the administrator prior to commencement of sports operations. The operator shall
+submit to the administrator any changes to the internal controls previously approved at least 15 days before
+the changes are to become effective unless otherwise directed by the administrator. It shall be the
+affirmative responsibility and continuing duty of each licensee and advance deposit sports wagering
+operator and their employees to follow and comply with all internal controls. The submission shall include
+controls and reasonable methods that provide for the following:
+a. To prohibit wagering by coaches, athletic trainers, officials, players, or other individuals who
+participate and persons employed in a position with direct involvement with coaches, athletic trainers,
+officials, players or other individuals who participate in an authorized sporting event in which wagers may
+be accepted. Licensees shall demonstrate the capability, subject to review and approval by the
+administrator, to prevent prohibited persons from wagering on events on which they are not allowed to
+wager by implementing one of the following:
+(1) Organize and maintain a list of prohibited persons.
+(2) Participate in a third-party association or group that organizes and maintains a list of prohibited
+persons.
+b. To identify and suspend accounts opened by individuals on behalf of persons under the age of 21.
+c. To promptly report to the commission any criminal or disciplinary proceedings commenced
+against the licensee or its employees.
+d. To promptly report to the commission, in a format approved by the administrator, any abnormal
+wagering activity or patterns that may indicate a concern about the integrity of an authorized sporting event
+or events, and any other conduct with the potential to corrupt a wagering outcome of an authorized sporting
+event for purposes of financial gain, including but not limited to match fixing, and suspicious or illegal
+wagering activities, including the use of funds derived from illegal activity, wagers to conceal or launder
+funds derived from illegal activity, use of agents to place wagers, account sharing, or use of false
+identification. Integrity-monitoring procedures shall also provide for the sharing of information with other
+licensees, other governing authorities, and accredited sports governing entities by participating in an
+integrity-monitoring association or group or by another method as approved by the administrator.
+e. Written notification to the commission for any incident where there is a violation involving
+criminal activity, Iowa Code chapter 99F, a commission rule or order, or an internal control within 72 hours
+of detection. The licensee or advance deposit sports wagering operator shall provide a written report
+detailing the violation as required by and in a format approved by the administrator.
+f. The segregation of incompatible functions so that no employee is in a position to perpetrate and
+conceal errors or irregularities in the normal course of the employee’s duties.
+g. User access controls for all sensitive and secure, physical and virtual, areas and systems within a
+sports wagering operation.
+h. Treatment of problem gambling by:
+(1) Identifying problem gamblers.
+(2) Complying with the process established by the commission pursuant to Iowa Code section
+99F.4(22) and 491—subrule 5.4(12).
+(3) Cooperating with the Iowa gambling treatment program in creating and establishing controls.
+
+=== page 3 ===
+IAC Ch 13, p.3
+(4) Including information on the availability of the gambling treatment program in a substantial
+number of the licensee’s advertisements and printed materials.
+i. Setoff winnings of customers who have a valid lien established under Iowa Code chapter 99F.
+13.2(8) Revenue reporting. Reports generated from the sports wagering system shall be made
+available as determined by the commission. The reporting system shall be capable of issuing reports by
+wagering day, wagering month, and wagering year. Wagering data shall not be purged unless approved by
+the commission. The reporting system shall provide for a mechanism to export the data for the purposes of
+data analysis and auditing or verification. The reporting system shall be able to provide, at a minimum, the
+following sports wagering information:
+a. The date and time each event started and ended.
+b. Total amount of wagers collected.
+c. Total amount of winnings paid to players.
+d. Total amount of wagers canceled, voided, and expired.
+e. Commission or fees collected.
+f. Total value of promotional play or free play used to purchase or execute a sports wager.
+g. Event status.
+h. Total amount held by the operator for the player accounts.
+i. Total amount of wagers placed on future events.
+j. Total amount of winnings owed but unpaid by the operator on winning wagers.
+k. The date, time, stake amount, win amount and individual associated with each event where
+winnings are required to be reported on Internal Revenue Service form W-2G, as recorded by the reporting
+system.
+13.2(9) Unclaimed winnings and abandoned accounts. Unclaimed winnings and abandoned accounts
+are subject to the following requirements:
+a. Abandoned player accounts under this rule are subject to Iowa Code chapter 556.
+b. Player accounts are considered abandoned if no activity by the account holder has occurred for
+three years. Player activity includes making a wager, making an account deposit, or withdrawing funds.
+c. No licensee or advance deposit sports wagering operator shall charge an administration fee or
+maintenance fee for any inactive player account derived from state of Iowa residents at any time for any
+reason.
+13.2(10) Annual audit. If a vendor is conducting sports wagering for a casino licensee, an audit of the
+sports wagering operations for the vendor or parent company of the vendor shall be conducted by certified
+public accountants authorized to practice in the state of Iowa, and the audit shall be provided to the
+commission within 90 days of the vendor’s fiscal year and meet the following conditions:
+a. Inclusion of an internal control letter, audited balance sheet, and audited profit-and-loss statement
+including a breakdown of expenditures and subsidiaries of sports wagering activities.
+b. Inclusion of a supplement schedule indicating financial activities on a calendar-year basis if the
+vendor’s fiscal year does not correspond to the calendar year.
+c. Inclusion of a supplement schedule for all Iowa locations in which the vendor operates.
+d. Report of any material errors, irregularities that may be discovered during the audit, or notice of
+any audit adjustments.
+e. Availability, upon request, of an engagement letter for the audit between the vendor or parent
+company of the vendor and the auditing firm.
+13.2(11) Revenue reports. Licensees and advance deposit sports wagering operators shall provide
+additional reports, as determined necessary by the administrator, that detail the revenue submission
+required by 491—paragraph 5.4(10)“d.” Reports shall be provided to the commission in a format approved
+by the administrator. The administrator shall provide written notice to any licensee if additional reports are
+determined necessary. In addition, the administrator shall provide adequate time to any licensee if a report
+needs to be created to satisfy this requirement.
+13.2(12) Ticket payouts. A method shall be available for players to collect at any time during the
+facility’s hours of operation winnings from wagers made in person at a facility. Winnings required to be
+reported on Internal Revenue Service Form W-2G are exempt from this requirement.
+
+=== page 4 ===
+Ch 13, p.4 IAC
+13.2(13) Records. Licensees shall provide all information requested by the commission. Access to
+this information shall be prompt, and copies of the information shall be delivered within seven days or less
+as ordered or requested by the commission. The licensees shall ensure all books and records and the
+retention of all books and records comply with 491—subrule 5.4(14). All records pertaining to wagers shall
+be available to allow for player complaint resolution. All records pertaining to the accounts of persons who
+registered or have account activity in Iowa shall be available to allow for audits and investigations.
+[ARC 4618C, IAB 8/28/19, effective 7/31/19; see Supension note at end of chapter; ARC 5016C, IAB 4/8/20, effective 5/13/20; see
+Delay note at end of chapter; ARC 5422C, IAB 2/10/21, effective 3/17/21; ARC 6169C, IAB 2/9/22, effective 3/16/22; ARC 6895C,
+IAB 2/22/23, effective 3/29/23; ARC 7634C, IAB 2/21/24, effective 3/27/24; see Delay note at end of chapter]

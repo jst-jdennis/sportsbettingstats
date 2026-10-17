@@ -1,0 +1,182 @@
+=== page 1 ===
+IAC Ch 13, p.1
+491—13.5(99F) Advance deposit sports wagering.
+13.5(1) Authorization to conduct advance deposit sports wagering. A licensee or advance deposit
+sports wagering operator shall receive specific authorization from the commission to conduct advance
+deposit sports wagering prior to conducting advance deposit sports wagering. The granting of an advance
+deposit sports wagering license or approval of any agreements between a licensee and an advance deposit
+sports wagering operator to conduct advance deposit sports wagering does not constitute authorization. Any
+entity authorized to conduct advance deposit sports wagering is expected to comply with all requirements
+of this chapter, except for rule 491—13.4(99F), and all other applicable federal, state, local, and
+commission requirements.
+13.5(2) Account registration. A person must have an established account in order to place advance
+deposit sports wagers. The process for establishing an account is subject to the administrator’s approval.
+An account may be established through on-site registration under procedures previously approved by the
+administrator or through remote registration. To establish an account, an application for an account shall be
+signed or otherwise authorized in a manner approved by the administrator and shall include the applicant’s
+full legal name, principal residential address, date of birth, last four digits of the social security number, and
+any other information required by the administrator. The account registration process shall also include:
+a. Age verification to prevent persons under the legal age for sports wagering from establishing an
+account.
+b. An applicant verification process that includes an exact match of the following:
+(1) Date of birth, including month, date and year of birth.
+(2) The last four digits of the social security number.
+(3) Last name.
+c. An applicant verification process that permits a flexible match by allowing the following:
+(1) First name may include nicknames and abbreviations.
+(2) Address may include abbreviations.
+d. Authentication of identification by:
+(1) Answering knowledge-based questions based on the applicant’s public or private data; or
+(2) Verifying that device ID and phone number match the applicant’s publicly known data; or
+(3) Comparing of valid government-issued ID to applicant’s picture taken at time of account
+registration; or
+(4) Another method as approved by the administrator.
+e. Verification that the player applicant is not on the statewide self-exclusion list set forth in Iowa
+Code section 99F.4(22) prior to establishing an account.
+f. Availability and acceptance of a set of terms and conditions that is also readily accessible to the
+player before and after registration and noticed when updated. Notices shall include, at a minimum, the
+following:
+(1) Explanation of rules in which any unrecoverable malfunctions of hardware/software are addressed,
+including but not limited to if the unrecoverable malfunction, wagering event cancellation, or other
+catastrophic malfunction results in the voiding of any wagers.
+(2) Procedures to deal with interruptions caused by the suspension of data flow from the network
+server during an event.
+(3) Specifications advising players to keep their account credentials secure.
+(4) Statement that no underage individuals are permitted to participate in wagering.
+(5) Explanation of conditions under which an account is declared inactive and actions undertaken on
+the account once this declaration is made.
+g. Availability and acceptance of a privacy policy that is also readily accessible to the player before
+and after registration and noticed when updated and that includes, at a minimum, the following:
+(1) Statement of information that is collected, the purpose for information collection, and the
+conditions under which information may be disclosed.
+(2) Statement that any information obtained in respect to player registration or account establishment
+must be done in compliance with the privacy policy.
+
+=== page 2 ===
+Ch 13, p.2 IAC
+(3) Requirement that any information about player accounts that is not subject to disclosure pursuant
+to the privacy policy must be kept confidential, except where the release of that information is required by
+law.
+(4) Requirement that all player information must be securely erased from hard disks, magnetic tapes,
+solid state memory, and other devices before the device is properly disposed of by the licensee. If erasure is
+not possible, the storage device must be destroyed.
+h. If an advance deposit sports wagering operator has an agreement with more than one licensee, the
+advance deposit sports wagering operator shall submit an agreement to the administrator that indicates the
+manner in which customer net receipts shall be assigned with its licensee partners. The agreement shall
+include all partnering licensees and their respective qualified sponsoring organizations, and the net receipts
+shall be allocated using one of the following methods:
+(1) Make available an option for new remotely registered customers to select the licensee at which net
+receipts are assigned.
+(2) Allocate new remotely registered customer net receipts to the licensee that is located nearest to the
+customer’s principal residential address.
+(3) Distribute all customer receipts evenly between all licensees for which an agreement exists.
+(4) An alternative allocation agreement that complies with local, state and federal law. The agreement
+shall be made available for public inspection.
+13.5(3) Operation of an account. The advance deposit sports wagering operator or a licensee shall
+submit controls, approved by the commission, that include the following for operating an account:
+a. Specific procedures and technology partners to fulfill the requirements set forth in subrule 13.5(2).
+b. Location detection procedures to reasonably detect and dynamically monitor the location of a
+player attempting to place any wager or perform other account activities as identified by the advance
+deposit sports wagering operator or licensee, related to an Iowa authorized account. Account activity-based
+location detection controls shall be informed by industry best practices and any commission guidelines for
+the detection of fraud of other unauthorized or illegal activity. The advance deposit sports wagering
+operator or licensee shall utilize and monitor geolocation activity to detect potential fraudulent and
+suspicious activity, which shall be reported in accordance with paragraph 13.2(7)“d.” A player outside the
+permitted boundary attempting to make a wager shall be rejected, and the player shall be notified. The
+confidence radius shall be entirely located within the permitted boundary.
+c. Specific controls set forth in subrule 13.2(7).
+d. Limitation of one active account, per individually branded website, at a time unless otherwise
+authorized by the commission.
+e. Authentication for login using a multifactor authentication process or other secure alternative
+means as authorized by the commission. After successful login, multifactor authentication will need to be
+performed at least every 14 days for each unique device. Processes for retrieving lost usernames and
+passwords shall be available, secure, and clearly disclosed to the player. Players shall be allowed to change
+their passwords.
+f. Immediate notification to the player when changes are made to any account used for financial
+transactions or to registration information or when financial transactions are made unless other notification
+preferences are established by the player.
+g. Process to immediately notify a player following an unusual login attempt. In the event that the
+unusual login attempt constitutes suspicious activity or if other suspicious activity is detected, an account
+shall be locked. A multifactor authentication process must be employed for the account to be unlocked.
+h. Process for players to easily impose limitations or notifications for wagering parameters including,
+but not limited to, deposits and wagers. Self-imposed limitations must be applied automatically, take effect
+immediately, and be implemented as indicated by the player. No changes can be made reducing the severity
+of the self-imposed limitations for at least 24 hours.
+i. Process for players to easily self-exclude from wagering for a specified period of time and
+indefinitely. Self-exclusions must be applied automatically, take effect immediately, and be implemented as
+indicated by the player. No changes can be made to reduce the severity of the self-exclusion limitations for
+at least 24 hours. In the event of indefinite self-exclusion, the advance deposit sports wagering operator or
+
+=== page 3 ===
+IAC Ch 13, p.3
+licensee must ensure that the player is paid in full for the player’s account balance within a reasonable time
+provided that the advance deposit sports wagering operator or licensee acknowledges that the funds have
+cleared. Players must be easily and obviously directed via a link to exclude themselves pursuant to Iowa
+Code section 99F.4(22). This control does not supersede the requirements set forth in Iowa Code section
+99F.4(22).
+j. Process to review and deactivate accounts of newly enrolled participants of the statewide self-
+exclusion program set forth in Iowa Code section 99F.4(22). The operator must ensure that players are paid
+in full for their account balance within a reasonable time provided that the operator acknowledges that the
+funds have cleared.
+k. Provide for an easy and obvious method for a player to make a complaint and to enable the player
+to notify the commission if such complaint has not been or cannot be addressed by the advance deposit
+sports wagering operator or licensee.
+13.5(4) Account funds. The following requirements apply to the maintenance of funds associated with
+a player account:
+a. Positive player identification, including any personal identification number (PIN) entry or other
+approved secure methods, must be completed before the withdrawal of any moneys held by the advance
+deposit sports wagering operator or licensee can be made.
+b. Payments from an account are to be paid directly to an account with a financial institution in the
+name of the player or made payable to the player and forwarded to the player’s address or through another
+method that is not prohibited by state or federal law.
+c. An advance deposit sports wagering operator or licensee must have in place security or
+authorization procedures to ensure that only authorized adjustments can be made to player accounts and
+that changes are auditable.
+d. It shall not be possible to transfer funds between two player accounts.
+e. An advance deposit sports wagering operator or licensee shall provide a transaction log or account
+statement history at no cost to players upon request. Information provided shall include sufficient
+information to allow players to reconcile the statement or log against their own financial records.
+f. Requests for withdrawals shall not be unreasonably withheld and shall be completed in a timely
+manner.
+g. An advance deposit sports wagering operator or licensee shall provide a fee-free method for
+players to deposit or withdraw funds from player accounts.
+h. If the method of reserve utilized to comply with subrule 13.2(6) is not in the form of cash or cash
+equivalents segregated from operational funds, an advance deposit sports wagering operator or licensee
+shall segregate player account funds from operational funds.
+13.5(5) Annual audit. An audit of the advance deposit sports wagering operations for the advance
+deposit sports wagering operator or licensee or parent company of the advance deposit sports wagering
+operator or licensee shall be conducted by certified public accountants authorized to practice in the state of
+Iowa and provided to the commission within 90 days of the licensee’s fiscal year and meet the following
+conditions:
+a. Inclusion of an internal control letter, audited balance sheet, and audited profit-and-loss statement
+including a breakdown of expenditures and subsidiaries of advance deposit sports wagering activities.
+b. Inclusion of a supplement schedule indicating financial activities on a calendar-year basis if the
+advance deposit sports wagering operator’s or licensee’s fiscal year does not correspond to the calendar
+year.
+c. Report of any material errors, irregularities that may be discovered during the audit, or notice of
+any audit adjustments.
+d. Availability, upon request, of an engagement letter for the audit between the advance deposit
+sports wagering operator or licensee or parent company of the advance deposit sports wagering operator or
+licensee and the auditing firm.
+e. Inclusion of a supplemental schedule for Iowa operations. A supplemental schedule shall include a
+breakdown of advance deposit sports wagering activities by each Iowa casino in which there is an
+agreement. The supplemental schedule provided to satisfy this requirement may be unaudited; however, the
+
+=== page 4 ===
+Ch 13, p.4 IAC
+top financial officer of the company shall provide a statement attesting to the accuracy of the information
+provided to the commission.
+13.5(6) Wagers. An advance deposit sports wagering operator shall display a player’s wagers in a
+readily accessible manner.
+13.5(7) Expiration or termination of an Iowa Code section 99F.7A operating agreement. In the event
+an advance deposit sports wagering operating agreement between a licensee under Iowa Code section
+99F.7A and another entity expires, terminates, or is no longer valid, notice of termination must be given to
+the commission and all customers affiliated with the licensee. A customer shall be given an opportunity to
+close an account. If the advance deposit sports wagering operator has an operating agreement with other
+licensees in the state of Iowa, the customer shall have the option to select another partner licensee to which
+their net receipts shall be assigned, or the customer’s net receipts shall be assigned to any remaining partner
+licensees in accordance with an agreement submitted to the administrator pursuant to paragraph
+13.5(2)“h.”
+[ARC 4618C, IAB 8/28/19, effective 7/31/19; ARC 5016C, IAB 4/8/20, effective 5/13/20; ARC 5422C, IAB 2/10/21, effective
+3/17/21; ARC 6169C, IAB 2/9/22, effective 3/16/22; ARC 6895C, IAB 2/22/23, effective 3/29/23; ARC 7634C, IAB 2/21/24,
+effective 3/27/24; see Delay note at end of chapter; ARC 8892C, IAB 2/19/25, effective 3/26/25]

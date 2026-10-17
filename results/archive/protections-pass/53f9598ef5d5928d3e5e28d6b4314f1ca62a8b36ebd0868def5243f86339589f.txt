@@ -1,0 +1,411 @@
+=== page 1 ===
+Technical Amendment
+July 1, 2024
+809 KAR 10:004. Sports wagering accounts.
+RELATES TO: KRS Chapter 230
+STATUTORY AUTHORITY: KRS 230.260(16), 230.361(2), 230.805
+NECESSITY, FUNCTION, AND CONFORMITY: KRS 230.260(16) requires the
+corporation to "promulgate administrative regulations to establish standards for the conduct
+of sports wagering." KRS 230.361(2) requires the corporation to "promulgate administrative
+regulations governing and regulating sports wagering, including administrative regulations
+for the deposit of funds by credit or debit cards or other means of electronic funds transfer."
+KRS 230.805(3) requires standards for registration of sports wagering patrons' accounts,
+such as account registration and wager placement. This administrative regulation establishes
+sports wagering account requirements, dormant and closed account requirements, and
+responsible gaming limits.
+Section 1. Sports Wagering Account Requirements. Patrons shall register their sports
+wagering accounts with the licensee pursuant to KRS 230.805. Licensees shall adopt
+account registration policies pursuant to KRS 230.805. All account registration policies
+shall be subject to approval by the corporation pursuant to KAR Titles 809 and 810.
+Nothing in this section shall be interpreted to prohibit the licensee from accepting
+anonymous wagers by a sports wagering device within the licensed premises.
+(1) An account shall only be established in the name of an account holder who is a
+natural person and shall not be in the name of any beneficiary, custodian, joint trust,
+corporation, partnership, or any other entity.
+(2) A licensee shall collect the following personally identifiable information from each
+account holder through the sports wagering system:
+(a) The account holder's full legal name;
+(b) The account holder's date of birth;
+(c) The account holder's Social Security number, or the last four (4) digits of the Social
+Security number, or an equivalent government identification number for a noncitizen,
+such as a passport or taxpayer identification number; and
+(d) All data required by KRS 230.805.
+(3) During the sports wagering account registration process, the licensee shall:
+(a) Deny patrons the ability to register for account if they submit a birth date that
+indicates that they are an underage person; and
+(b) Inform the patron on the account application:
+1. Which information fields are "required";
+2. Which information fields are not required; and
+3. The consequences of not filling in the required fields.
+(4) During the sports wagering account registration process, patrons shall:
+(a) Agree to the terms and conditions and privacy policies of the licensee;
+(b) Acknowledge that the patron is prohibited from:
+1. Transferring or selling an account or account balance;
+2. Using any technology that could obscure or falsify the account holder's physical
+location for the purpose of placing sports wagers;
+3. Allowing any unauthorized person to access or use their account; and
+4. Any form of collusion, cheating, or other unlawful activity.
+(c) Consent to the monitoring and recording of the use of their account by the licensee
+and the racing corporation;
+(d) Attest that:
+
+=== page 2 ===
+1. The account holder meets all eligibility requirements to place a wager with a
+licensee in this Commonwealth; and
+2. The personally identifiable information the account holder is providing to open
+the account is accurate; and
+(e) Authorize the provision of notices and other required communications either
+through a designated mobile or other interface or to an electronic mail address
+designated by the account holder.
+(5) A licensee shall maintain an electronic patron file, which shall include for each sports
+wagering account:
+(a) Unique sports wagering account ID and username (if different);
+(b) The information established in subsection (2) of this section to register an account
+holder and create the account;
+(c) The date and method of identity verification.
+1. If applicable, the licensee shall maintain the document number of the government-
+issued identification credential examined and its date of expiration.
+2. If a government-issued identification credential is not required for registration, the
+electronic record that details the process used to confirm the account holder's
+identity shall be recorded.
+(d) The date of account holder agreement to the terms and conditions and privacy
+policies;
+(e) Previous sports wagering accounts, if any, and reason for de-activation;
+(f) The date and method from which the sports wagering account was registered;
+(g) The date and time a sports wagering account is accessed by any person;
+(h) The IP address at which a sports wagering account is accessed by any person;
+(i) A history of financial transactions, including deposits, withdrawals, and account
+adjustments;
+(j) Account details and current balance, including any incentive credits. All restricted
+wagering credits and unrestricted funds that have a possible expiration shall be
+maintained separately; and
+(k) The current status of the sports wagering account (for example, active, dormant,
+closed, suspended, and excluded).
+(6) The following information maintained as part of the electronic patron file shall be
+stored in encrypted form:
+(a) The account holder's government identification number, or portion thereof;
+(b) The account holder's previous and current password, PIN, or other authentication
+credential; and
+(c) The account holder's previous and current debit instrument number, credit or debit
+card number, bank account number or other personal financial information.
+(7) A licensee may allow the account holder to update authentication credentials,
+registration information and the account used for financial transactions. A multi-factor
+authentication process shall be employed for these purposes.
+Section 2. Age and Identity Verification. The licensee shall comply with KRS 230.805. The
+licensee shall also adopt commercially and technologically reasonable policies and
+procedures to verify and authenticate the age and identity of each account holder.
+(1) Only eligible persons may create a sports wagering account, deposit funds, or
+participate in sports wagering. The licensee shall make commercially and technologically
+reasonable efforts to deny the ability to create a sports wagering account, deposit funds,
+or participate in sports wagering to any prohibited patron. This section shall not be
+construed to prevent a restricted patron from creating a sports wagering account and
+depositing funds into an account even if the patron is prohibited from placing certain
+wagers.
+
+=== page 3 ===
+(2) At the time of account establishment, the licensee shall employ electronic verification
+with respect to:
+(a) All information required by KRS 230.805;
+(b) Each account holder's government identification number or portion thereof.
+(3) The electronic verification information shall be verified by a licensed information
+services provider.
+(4) The following data shall be verified before account holders may initiate activity
+including deposits, withdrawals, and wagering:
+(a) Items that require an exact match:
+1. The account holder's last name;
+2. The account holder's date of birth;
+3. The account holder's government identification number, or portion thereof; and
+(b) Items that permit flexible match for common interpretations of names and
+abbreviations used in the address fields, including the account holder's first name.
+(5) Reasonable measures shall be taken to ensure the person providing identity
+information is truly the owner of the identity before an account holder may initiate any
+activity including deposits, withdrawals, and wagering. One (1) of the following
+methods, or another method approved by the corporation in accordance with
+contemporary industry standards, shall be required:
+(a) Correctly answer three (3) dynamic knowledge-based questions compiled from
+public and private data, such as public records, credit reports, marketing data, and
+other recorded facts;
+(b) Verification that the account holder's phone number or e-mail address matches the
+information provided by the account holder; or
+(c) Valid government-issued identification credential.
+(6) The licensee may refuse to establish an account if it is found that any of the
+information supplied is false or incomplete or for any other reason the licensee deems
+sufficient.
+(7) A licensee shall use commercially available and demonstrable standards to confirm
+that an individual attempting to create a sports wagering account is not prohibited from
+placing a wager.
+(8) A licensee shall immediately re-verify an account holder's identification upon
+reasonable suspicion that the account holder's identification has been compromised.
+Section 3. Limitation to One (1) Account per Account Holder. Except as established in
+subsection (4) of this section, a licensee shall use all commercially and technologically
+reasonable means to ensure that each individual is limited to one (1) sports wagering
+account with that licensee in the Commonwealth.
+(1) The licensee shall implement procedures to terminate all accounts of any account
+holder that establishes or seeks to establish more than one (1) username or more than one
+(1) account, whether directly or by use of another person as proxy.
+(2) Procedures may allow an account holder that establishes or seeks to establish more
+than one (1) username or more than one (1) account to retain one (1) account if the
+licensee investigates and makes a good-faith determination that the account holder's
+conduct was not intended to obtain a competitive advantage.
+(3) This section shall not be construed to prevent an individual from holding other sports
+wagering accounts in other jurisdictions.
+(4) If an operator licensee has contracted with multiple service provider licensees to offer
+mobile sports wagering on its behalf, individuals may have one (1) sports wagering
+account with each service provider licensee offering mobile sports wagering.
+Section 4. Terms and Conditions and Privacy Policies for Sports Wagering Accounts. All
+terms and conditions and privacy policies for sports wagering accounts shall be maintained
+
+=== page 4 ===
+in a separate, easily accessible repository that shall be reviewed by the corporation. These
+documents shall be readily accessible to the account holder before and after registration.
+Material updates to these terms and conditions and privacy policies shall trigger immediate
+notification to the licensee's internal controls oversight team and the corporation.
+(1) All terms and conditions for sports wagering accounts shall address all aspects of the
+licensee, including:
+(a) A statement that only individuals located in the authorized geographic boundaries
+within the Commonwealth of Kentucky may participate in sports wagering;
+(b) A statement that prohibited patrons shall not participate in sports wagering;
+(c) Advice to the account holder to keep their authentication credentials (for example,
+password and username) secure;
+(d) All processes for dealing with lost authentication credentials, forced password
+changes, password strength;
+(e) Full explanation of all rules applicable to dormant sports wagering accounts,
+including the conditions under which an account is declared dormant and what actions
+will be undertaken on the account once this declaration is made;
+(f) Actions that will be taken on the account holder's pending wagers placed prior to
+any exclusion or suspension, including the return of all wagers, or settling all wagers,
+as appropriate;
+(g) Information about timeframes and limits regarding deposits to and withdrawals
+from sports wagering accounts, including a clear and concise explanation of all fees, if
+applicable; and
+(h) Statements indicating that the licensee has the right to:
+1. Refuse to establish a sports wagering account for what it deems good and
+sufficient reason;
+2. Refuse deposits to or withdrawals from sports wagering accounts for what it
+deems good and sufficient reason; and
+3. Unless there is a pending investigation or dispute, suspend or close any sports
+wagering account at any time pursuant to the terms and conditions between the
+licensee and the account holder.
+(2) All privacy policies for sports wagering accounts shall address all aspects of the
+personally identifiable information protection, including:
+(a) The personally identifiable information required to be collected;
+(b) The purpose and legal basis for personally identifiable information collection and
+of every processing activity for which consent is being sought;
+(c) The period in which the personally identifiable information is stored, or, if no
+period can be possibly set, the criteria used to set this;
+(d) The conditions under which personally identifiable information may be disclosed;
+(e) An affirmation that measures are in place to prevent the unauthorized or
+unnecessary disclosure of the personally identifiable information; and
+(f) The identity and contact details on the licensee who is seeking the consent.
+Section 5. Account Access.
+(1) The sports wagering system shall use authentication credentials, such as a username
+(or similar) and a password or a secure alternative means to assure that only the account
+holder shall have access to the sports wagering account. Allowable authentication
+credentials shall be approved by the corporation based on federal law, KRS Chapter 230,
+and KAR Titles 809 and 810. The requirement shall not prohibit the option for more than
+one (1) method of authentication being available for an account holder to access their
+account.
+(2) If the sports wagering system does not recognize the authentication credentials when
+entered, an explanatory message shall be displayed to the account holder that shall
+
+=== page 5 ===
+prompt the account holder to try again. The error message shall be the same regardless of
+which authentication credential is incorrect.
+(3) Account holders shall be given the option to use a multi-factor authentication process
+for accessing their sports wagering account. In addition, a multi-factor authentication
+shall be employed for the retrieval or reset of an account holder's forgotten or lost
+authentication credentials.
+(4) Current account balance information, such as any restricted wagering credits,
+unrestricted funds, and transaction options shall be available to the account holder once
+authenticated. All restricted wagering credits and unrestricted funds that have a possible
+expiration shall be indicated separately.
+(5) The sports wagering system shall support a mechanism that allows for an account to
+be locked if suspicious activity is detected, such as three (3) consecutive failed access
+attempts in a thirty (30) minute period. A multi-factor authentication process shall be
+employed for the account to be unlocked.
+Section 6. Financial Transactions.
+(1) Licensees shall provide the account holder written confirmation or denial of every
+financial transaction initiated on sports wagering accounts, including:
+(a) The type of transaction (deposit or withdrawal);
+(b) The transaction value; and
+(c) For denied transactions, a descriptive message, if appropriate and available, as to
+why the transaction did not complete as initiated.
+(2) A sports wagering account may be funded using acceptable form of payment or
+advance deposit method that shall produce a sufficient audit trail for verification of the
+source of the wagers.
+(a) Payment or advance deposit methods for funding sports wagering accounts may be
+funded by forms or methods approved by the corporation including:
+1. All forms of payment authorized in KRS 230.805;
+2. Cash equivalents converted to cash;
+3. Electronic funds transfers (EFTs), such as automated clearing house and other
+electronic methods;
+4. Promotional or bonus credit;
+5. Winnings; and
+6. Adjustments made by the licensee with documented notification to the account
+holder.
+(b) The sports wagering account shall be credited for any deposit in accordance with
+the internal controls as submitted by the licensee and approved by the corporation as
+established in 809 KAR 10:006.
+(c) For credit or debit cards, and EFTs, the account holder may be liable for any
+charges imposed by the transmitting or receiving licensee and the charges may be
+deducted from the account holder's sports wagering account.
+(3) If financial transactions are conducted through EFT, the licensee shall have security
+measures and controls to prevent EFT fraud. A failed EFT attempt shall not be
+considered fraudulent if the account holder has successfully performed an EFT on a
+previous occasion with no outstanding chargebacks. If an account holder has previously
+performed an EFT with a chargeback, the licensee shall:
+(a) Temporarily block the account holder's sports wagering account for investigation of
+fraud after five (5) consecutive failed EFT attempts within a ten (10) minute period. If
+there is no evidence of fraud, the block may be vacated; and
+(b) Suspend the account holder's sports wagering account after five (5) additional
+consecutive failed EFT attempts within a ten (10) minute period.
+
+=== page 6 ===
+(4) An account holder may withdraw the funds maintained in their sports wagering
+account, whether the account is open or closed, except as otherwise established in KAR
+Title 809 or any other applicable state or federal laws.
+(a) A licensee shall employ a mechanism that can detect and prevent any withdrawal
+activity initiated by an account holder that would result in a negative balance of the
+sports wagering account.
+(b) A licensee shall not allow a sports wagering account to be overdrawn unless caused
+by payment processing issues outside the control of the licensee.
+(c) A licensee shall honor the account holder's request to withdraw funds within five
+(5) business days after the request, unless the conditions established in paragraph (d) of
+this subsection are met. For withdrawals via check, a licensee shall honor the account
+holder's request within fourteen (14) days after the request, unless the conditions
+established in paragraph (d) of this subsection are met.
+(d) The licensee may decline to honor an account holder's request to withdraw funds
+only if the licensee believes in good faith that the account holder engaged in either
+fraudulent conduct or other conduct that would put the licensee in violation of KRS
+Chapter 230 or KAR Title 809, in which case the licensee shall:
+1. Suspend the account holder's sports wagering account and provide notice to the
+account holder; and
+2. Conduct an investigation in a reasonable and expedient fashion, providing the
+account holder additional written notice of the status of the sports wagering account
+every 10th business day starting from the day the original notice was provided to the
+account holder.
+(e) For purposes of this subsection, a request for withdrawal shall be considered
+honored if it is processed by the licensee notwithstanding a delay by a payment
+processor, credit or debit card issuer, or the custodian of a financial account.
+(5) All adjustments to sports wagering accounts for amounts of $500 or less shall be
+reviewed by supervisory personnel at least monthly as established in the licensee's
+internal controls. All other adjustments shall be authorized by an authorized supervisory
+personnel of the licensee before being entered.
+Section 7. Account Information. Upon request of the account holder, the licensee shall
+provide a statement detailing account activity for the past year, including wagers, deposit
+amounts, withdrawal amounts, and bonus or promotion information.
+Section 8. Patron-imposed Limits. A licensee shall allow an account holder to limit the
+amount of money that may be deposited into an account and spent through an account.
+(1) A deposit limit shall be offered on a daily, weekly, and monthly basis and shall state
+the maximum amount of money an account holder may deposit into their sports wagering
+account during a particular period of time.
+(2) A wager limit shall be offered on a daily, weekly, and monthly basis and shall state
+the maximum amount of account holder funds that may be put at risk during a particular
+period of time.
+(3) Any decrease to these limits shall be effective immediately or at the point in time (for
+example, next login or next day) that was clearly indicated to the account holder. Any
+increase to these limits shall become effective only after the time period of the previous
+limit (e.g., day, week, month, etc.) has expired. Upon making an increase, the licensee
+shall notify the account holder of an option to reverse the increase within a time frame
+included in the licensee's internal controls.
+Section 9. Breaks from Wagering.
+(1) A licensee shall enable an account holder to request a break from wagering for a
+period of time the account holder specifies, which shall not be less than seventy-two (72)
+
+=== page 7 ===
+hours, by submitting a request to the licensee through its Web site or mobile application.
+(2) The licensee shall provide to an account holder who requests a break from wagering
+information concerning:
+(a) Available resources addressing addiction and compulsive behavior;
+(b) How to close an account and restrictions on opening a new account during the
+break;
+(c) Requirements to reinstate an account at the end of the break;
+(d) The ability to enroll in the voluntary self-exclusion program and a link to the Web
+site; and
+(e) How the licensee addresses bonuses or promotions and account balances during and
+after the break, and if the account holder closes their sports wagering account.
+Section 10. Suspension and Restoration of Sports Wagering Accounts.
+(1) A sports wagering account may be placed into a suspended mode by the Licensee for
+any reason, not otherwise prohibited by state or federal law, at the sole discretion of the
+licensee.
+(2) A sports wagering account shall be placed into a suspended mode by the licensee:
+(a) If the account holder requests a break from wagering under Section 9(1) of this
+administrative regulation;
+(b) If required by the corporation in the best interests of sports wagering;
+(c) If the licensee determines it lacks sufficient information to verify the age and
+eligibility of the account holder;
+(d) Upon a determination by a licensee that an account holder:
+1. Has provided any false or misleading information in connection with the opening
+of the account or has engaged in collusion, cheating, or other unlawful conduct;
+2. Is barred from placing sports wagers in the Commonwealth of Kentucky; or
+3. Is a prohibited patron; or
+(e) If the licensee has evidence that indicates:
+1. Illegal activity, including providing any false or misleading information in
+connection with the opening of the account, or engaging in collusion, cheating, or
+other unlawful conduct;
+2. A negative sports wagering account balance; or
+3. A violation of the terms and conditions has taken place on an account holder's
+sports wagering account.
+(3) If a sports wagering account is in a suspended mode, the licensee shall:
+(a) Prevent the account holder from placing sports wagers;
+(b) Prevent the account holder from depositing funds unless the account is suspended
+due to having a negative sports wagering account balance but only to the extent the
+sports wagering account balance is brought back to zero dollars;
+(c) Prevent the account holder from withdrawing funds from their sports wagering
+account, unless the licensee acknowledges that the funds have cleared, and that the
+reason for suspension would not prohibit a withdrawal;
+(d) Prevent the account holder from making changes to their sports wagering account;
+(e) Prevent the removal of the sports wagering account from the sports wagering
+system;
+(f) Prominently display to the account holder that the sports wagering account is in a
+suspended mode, the restrictions placed on the sports wagering account, and any
+further course of action needed to remove the suspended mode; and
+(g) Remove the account holder from any advertising or marketing distribution lists.
+(4) A sports wagering account in a suspended mode may be restored:
+(a) Upon completion of the break from wagering established by the account holder
+under Section 9(1) of this administrative regulation;
+
+=== page 8 ===
+(b) If authorized by the corporation in the best interests of sports wagering;
+(c) If the account holder is no longer a prohibited patron; or
+(d) If the licensee has lifted the suspended status.
+(5) If the sports wagering account is terminated in accordance with this section, any funds
+remaining in the sports wagering account shall be refunded to the account holder, if the
+licensee acknowledges that the funds have cleared, and if the reason for termination
+would not prohibit a withdrawal.
+Section 11. Account Closure.
+(1) A sports wagering system shall provide a conspicuous and readily accessible method
+for an account holder to close their sports wagering account through the account
+management or similar page or through the licensee's customer support team.
+(2) Upon closure, any funds remaining in the sports wagering account shall be refunded
+to the account holder, if the licensee acknowledges that the funds have cleared and there
+is not a pending corporation investigation regarding the funds.
+Section 12. Dormant Accounts. Any sports wagering account without log-in activity for at
+least two (2) years may be closed by the licensee.
+(1) Within two (2) weeks following the closure of an account due to inactivity, the
+licensee shall notify the account holder by both electronic mail and certified mail to his or
+her last-known physical address. The notification shall clearly inform the account holder
+of his or her right to withdraw the funds within a period of at least six (6) months
+following the account's closure date.
+(2) The notification shall include the balance of funds due to the account holder and
+enumerate reasonable methods through which the account holder may request these
+funds. Methods shall include electronic transfer or check, but may include additional
+methods. In following the procedure provided by the licensee in this notice, the account
+holder shall be able to elect to withdraw these funds. The notification shall clearly state
+any processing fees that will be deducted from the account balance upon the
+disbursement of funds. Processing fees shall be approved by the corporation in the
+licensee's internal controls if exceeding three (3) percent of the funds disbursed.
+Section 13. Test Accounts. A licensee may establish test accounts to be used to test the
+various components and operation of a licensee pursuant to the internal controls, which
+shall address the:
+(1) Procedures for issuing funds used for testing, including the identification of who may
+issue the funds and the maximum amount of funds that may be issued;
+(2) Procedures for assigning each test account for use by only one (1) individual, unless
+each user's activities are separately logged;
+(3) Maintenance of a record for all test accounts, to include when they are active, to
+whom they are issued, and the employer of the individual to whom they are issued;
+(4) Procedures for auditing testing activity by the licensee to ensure the accountability of
+funds used for testing and proper adjustments to adjusted gross revenue; and
+(5) Procedures for authorizing and auditing out-of-state test activity.
+(50 Ky.R. 551; 1335; 1511; eff. 4-2-2024; TAm eff. 7-1-2024.)
+FILED WITH LRC: July 1, 2024

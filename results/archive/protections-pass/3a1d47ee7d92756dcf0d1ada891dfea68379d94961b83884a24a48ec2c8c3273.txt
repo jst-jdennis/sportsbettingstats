@@ -1,0 +1,951 @@
+=== page 1 ===
+Ch. 1408a SPORTSWAGERINGACCOUNTING 58 § 1408a.1
+CHAPTER 1408a. SPORTS WAGERINGACCOUNTINGAND
+INTERNALCONTROLS
+Sec.
+1408a.1. Scope.
+1408a.2. Definitions.
+1408a.3. Internalcontrols.
+1408a.4. Termsandconditions.
+1408a.5. Informationtobedisplayed/provided.
+1408a.6. Segregationofbankaccounts.
+1408a.7. Sportswageringcertificateholder’sorsportswageringoperator’sorganization.
+1408a.8. Riskmanagement.
+1408a.9. Integritymonitoring.
+1408a.10. Mandatorylogging.
+1408a.11. Records/dataretentionrequirements.
+1408a.12. Requiredreports.
+1408a.13. Accountingcontrolsforthesportswageringarea.
+1408a.14. Sportswageringaccounts.
+Authority
+The provisions of this Chapter 1408a added under 4 Pa.C.S. §§ 1202(b)(30) and 13C02, unless
+otherwisenoted.
+Source
+TheprovisionsofthisChapter1408aaddedSeptember10,2021,effectiveSeptember11,2021,51
+Pa.B.5973,unlessotherwisenoted.
+CrossReferences
+Thischaptercitedin58Pa.Code§ 1401a.6(relatingtopermittedsportswageringactivities).
+§ 1408a.1. Scope.
+To ensure the integrity and security of sports wagering operations in this Com-
+monwealth, the requirements of this chapter apply to all sports wagering certifi-
+cate holders and sports wagering operators seeking to offer sports wagering to
+patrons in this Commonwealth. The requirements in this chapter supplement,
+where not in conflict with and where applicable, existing Board regulations in
+Subparts E and L(relating to slot machine, table game and associated equipment
+testingandcontrol;accountingandinternalcontrols;andinteractivegaming)and
+Chapter 465a (relating to accounting and internal controls) applicable to slot
+machine licensees, interactive gaming certificate holders and interactive gaming
+operators unless the context clearly indicates otherwise.
+§ 1408a.2. Definitions.
+The following words and terms, when used in this chapter, have the following
+meanings, unless the context clearly indicates otherwise:
+1408a-1
+(406821) No.565 Dec. 21
+
+=== page 2 ===
+58 § 1408a.3 GAMINGCONTROLBOARD Pt. VII
+Integrity monitoring—Observing sports wagering to identify suspicious
+wagering activity or unusual wagering activity to then report the activities to
+required parties.
+Personalidentifiableinformation—Anydataorinformationthatcanbeused,
+on its own or with other data or information, to identify, contact or otherwise
+locate a player or registered player, including a player’s or registered player’s
+name, address, date of birth and social security number.
+Riskmanagement—Processesandtoolsthatsportswageringcertificatehold-
+ers or sports wagering operators use to manage the risk and liabilities associ-
+ated with sports wagering.
+Sports wagering device and associated equipment—Self-service kiosk, point
+of sale system or other device, including associated equipment, used to accept
+sports wagering as permitted for use in this Commonwealth by the Board.
+Sports wagering system—Sports wagering devices, equipment, communica-
+tion technology, software and hardware approved by the Board to conduct
+sports wagering in this Commonwealth.
+Suspicious wagering activity—Unusual wagering activity that cannot be
+explained and is indicative of match fixing, the manipulation of an event, mis-
+use of inside information or other prohibited activity.
+Unusual wagering activity—Abnormal wagering activity exhibited by
+patrons and deemed by the sports wagering certificate holder or sports wager-
+ing operator as a potential indicator of suspicious activity which may include
+thesizeofapatron’swagerorincreasedwageringvolumeonaparticularevent
+or wager type.
+§ 1408a.3. Internal controls.
+(a) At least 90 days prior to commencing sports wagering under this subpart,
+a sports wagering certificate holder or sports wagering operator shall submit to
+theBoardforapprovalinternalcontrolsforallaspectsofsportswagering,includ-
+ing retail sportsbooks, interactive sportsbook operations through a web site or
+mobile application and nonprimary location sportsbook operations, prior to
+implementation and any time a change is made thereafter. The internal controls
+shall include detailed procedures for system security, operations, accounting, and
+other information as required by the Board.
+(b) Notwithstanding subsection (a), the procedures and controls may be
+implemented by a sports wagering certificate holder or sports wagering operator
+upon the filing of the procedures and controls with the Board and written
+approval to commence operations by the Executive Director. Each procedure or
+control submission shall contain both narrative and diagrammatic representations
+of the system to be utilized and shall include the following:
+(1) Provide for reliable accounting controls, including the standardization
+of forms and definition of terms to be utilized in the retail sports wagering and
+interactive or mobile sports wagering operations.
+1408a-2
+(406822) No.565 Dec. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 3 ===
+Ch. 1408a SPORTSWAGERINGACCOUNTING 58 § 1408a.3
+(2) Procedures, forms and, where appropriate, details as to the reconcilia-
+tion of assets and documents contained in the retail sports wagering cashier
+drawers. These procedures shall provide for the reporting of any overage or
+shortage.
+(3) Job descriptions and the system of personnel and chain of command,
+establishing a diversity of responsibility among employees engaged in sports
+wagering operations, including employees of a sports wagering operator and
+identifying primary and secondary management and supervisory positions for
+areas of responsibility.
+(4) Procedures for the registration of players and establishment of sports
+wagering accounts, including a procedure for authenticating the age, identity
+andphysicaladdressofanapplicantforasportswageringaccountandwhether
+theapplicantisapersonprohibitedfromestablishingormaintaininganaccount
+under applicable laws or regulations.
+(5) Procedures for terminating a registered player’s sports wagering
+account and the return of any funds remaining in the sports wagering account
+to the registered player.
+(6) Procedures for suspending or terminating a dormant sports wagering
+account and the return of any funds remaining in the dormant sports wagering
+account to the registered player.
+(7) Procedures for the logging in and authentication of a registered player
+to enable the player to commence sports wagering and the logging off of the
+registered player when the registered player has completed play, including a
+proceduretoautomaticallylogaregisteredplayeroutoftheregisteredplayer’s
+sports wagering account after a specified period of inactivity.
+(8) Proceduresforthecreditinganddebitingofaregisteredplayer’ssports
+wagering account.
+(9) Procedures for cashing checks, receiving electronic negotiable instru-
+ments and for redeeming cash equivalents.
+(10) Procedures for withdrawing funds from a sports wagering account by
+the registered player.
+(11) Procedures for the protection of a registered player’s funds, including
+thesegregationofaregisteredplayer’sfundsfromoperatingfundsofthesports
+wagering certificate holder or sports wagering operator.
+(12) Procedures for recording transactions pertaining to sports wagering.
+(13) Procedures for the security and sharing of personal identifiable infor-
+mation of a registered player, funds in a sports wagering account and other
+information as required by the Board. The procedures shall include the means
+by which a sports wagering certificate holder or sports wagering operator will
+provide notice to a registered player related to the sharing of personal identifi-
+able information.
+(14) Procedures and security for the calculation and recordation of revenue.
+1408a-3
+(406823) No.565 Dec. 21
+
+=== page 4 ===
+58 § 1408a.3 GAMINGCONTROLBOARD Pt. VII
+(15) Procedures for the security of the sports wagering platform, sports
+wagering interactive system, sports wagering devices and associated equip-
+ment.
+(16) Proceduresandsecuritystandardsastoreceipt,handlingandstorageof
+sports wagering devices and associated equipment.
+(17) Procedures and security standards to protect and respond to suspected
+or actual hacking or tampering by any person with the sports wagering certifi-
+cate holder’s or sports wagering operator’s interactive sports wagering web
+site,mobileapplicationandsportswageringdevicesandassociatedequipment.
+(18) Procedures to verify each registered player’s physical location each
+time a registered player logs into his or her sports wagering account and at
+appropriate intervals thereafter as determined by the Board.
+(19) Procedures and appropriate measures implemented to deter, detect and,
+to the extent possible, to prevent cheating, including collusion and use of
+cheating devices, including the use of software programs that make wagers
+according to algorithms.
+(20) Procedurestogovernemergencies,includingsuspectedoractualcyber-
+attacks, hacking or tampering with the sports wagering certificate holder’s or
+sport wagering operator’s interactive sports wagering platform, interactive
+sports wagering web site or mobile application and sports wagering devices
+andassociatedequipment.Theproceduresshallincludetheprocessfortherec-
+onciliation or repayment of a registered player’s sports wagering account.
+(21) If any athlete or person who holds a position of authority or influence
+sufficient to exert influence over the participants in sporting event, as fully
+describedin§ 1401a.7(c)(relatingtoprohibitedandrestrictedsportswagering
+activities) of this subpart, has less than 10% direct or indirect ownership inter-
+est in or control of a sports wagering certificate holder or a sports wagering
+operator, procedures for the following shall be included:
+(i) Providing notice to the Board of the identity of the owner, and if
+known, the ownership interest in the sports wagering certificate holder or
+sports wagering operator.
+(ii) Implementing appropriate measures to prevent an athlete or a per-
+son from participating in the management or operations of sports wagering
+activities of a sports wagering certificate holder or a sports wagering opera-
+tor.
+(iii) Obtaining a certification from the owner acknowledging that the
+less than 10% direct or indirect owner is not permitted to be a customer of
+the sports wagering certificate holder or operator under § 1401a.7(b)(2), not
+permittedparticipateinthemanagementoroperationsofthesportswagering
+certificateholderorsportswageringoperator,andintheinstanceofanowner
+of an athletic team, not permitted to engage in sports wagering activity on
+any team in the league as that in which he has an ownership interest.
+1408a-4
+(406824) No.565 Dec. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 5 ===
+Ch. 1408a SPORTSWAGERINGACCOUNTING 58 § 1408a.3
+(c) The submission required under subsections (a) and (b) shall include a
+detailed description of the sports wagering certificate holder’s or sports wagering
+operator’s administrative and accounting procedures related to sports wagering,
+including its written system of internal controls. Each written system of internal
+controls shall include:
+(1) An organizational chart depicting appropriate functions and responsi-
+bilities of employees involved in sports wagering.
+(2) Adescription of the duties and responsibilities of each position shown
+on the organizational chart.
+(3) The record retention policy of the sports wagering certificate holder or
+sports wagering operator.
+(4) The procedure to be utilized to ensure that money generated from the
+conduct of sports wagering is safeguarded and accounted for.
+(5) Procedures to ensure that recorded accountability for assets is com-
+pared with actual assets at intervals required by the Board and appropriate
+action is taken with respect to discrepancies.
+(6) Procedures to be utilized by an employee of a sports wagering certifi-
+cateholderorsportswageringoperatorintheeventofamalfunctionofasports
+wagering certificate holder’s interactive sports wagering platform, interactive
+sports wagering web site or mobile application and sports wagering devices
+and associated equipment used in the conduct of sports wagering.
+(7) Procedures to be utilized by the sports wagering certificate holder or
+sports wagering operator to prevent persons under 21 years of age, self-
+excluded or involuntary excluded individuals, individuals who are prohibited
+from wagering in accordance with § 1401a.8 (relating to persons prohibited
+fromengaginginsportswageringactivities)andplayersoutsidethisCommon-
+wealth from engaging in sports wagering.
+(8) Other items the Board may request in writing to be included in the
+internal controls.
+(d) Prior to authorizing a sports wagering certificate holder or sports wager-
+ingoperatortocommencetheconductofsportswagering,theBoardshallreview
+and approve the system of internal controls, security protocols and audit proto-
+cols submitted under this chapter to determine whether they conform to the
+requirements of this chapter and whether they provide adequate and effective
+controls for the conduct of sports wagering.
+(e) Ifasportswageringcertificateholderorsportswageringoperatorintends
+to make a change or amendment to its system of internal controls, it shall submit
+the change or amendment electronically to the Bureau of Gaming Operations, in
+a manner prescribed by the Bureau of Gaming Operations. The sports wagering
+certificate holder or sports wagering operator may implement the change or
+amendment on the 30th calendar day following the filing of a complete submis-
+sion unless the sports wagering certificate holder or sports wagering operator
+1408a-5
+(406825) No.565 Dec. 21
+
+=== page 6 ===
+58 § 1408a.3 GAMINGCONTROLBOARD Pt. VII
+receives written notice tolling the change or amendment in accordance with this
+chapter or written notice from the Board’s Executive Director rejecting the
+change or amendment.
+(f) If during the 30-day review period in this chapter, the Bureau of Gaming
+Operations preliminarily determines that a procedure in a submission contains an
+insufficiency likely to negatively affect the integrity of sports wagering or the
+controlofrevenuegeneratedfromsportswagering,theBureauofGamingOpera-
+tions, by written notice to the sports wagering certificate holder or sports wager-
+ing operator, will:
+(1) Specify the nature of the insufficiency and, when possible, an accept-
+able alternative procedure.
+(2) Direct that the 30-calendar day review period in this chapter to be
+tolledandthatanyinternalcontrolsatissuenotbeimplementeduntilapproved
+under this chapter.
+(g) Examplesofsubmissionsthatmaycontainaninsufficiencylikelytonega-
+tively affect the integrity of sports wagering may include any of the following:
+(1) Submissions that fail to provide information sufficient to permit the
+review of sports wagering activities by the Board.
+(2) Submissions that fail to provide for the segregation of incompatible
+functions so that no employee is in a position to both commit an error or per-
+petrate a fraud and to conceal the error or fraud in the normal course of the
+employee’s duties.
+(3) Submissions that do not include forms or other materials referenced in
+the submission or required under the act or this subpart.
+(4) Submissions that would implement operations or accounting proce-
+dures not authorized by the act or this subpart.
+(h) Whenever a change or amendment has been tolled under this chapter, the
+sports wagering certificate holder or sports wagering operator may submit a
+revisedchangeoramendmentwithin30daysofreceiptofthewrittennoticefrom
+the Bureau of Gaming Operations. The sports wagering certificate holder or
+sports wagering operator may implement the revised change or amendment upon
+receipt of written notice of approval from the Board’s Executive Director or on
+the30thcalendardayfollowingthefilingoftherevisionunlessthesportswager-
+ing certificate holder or sports wagering operator receives written notice tolling
+the change or amendment in accordance with this chapter or written notice from
+the Board’s Executive Director rejecting the change or amendment.
+(i) A sports wagering certificate holder or sports wagering operator shall
+submit to the Board for approval a Catalog of Events and Wagers, which shall
+include a description of the events and wagers intended to be offered and shall
+include the following:
+(1) Sport.
+(2) Competition or league.
+(3) Governing body.
+1408a-6
+(406826) No.565 Dec. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 7 ===
+Ch. 1408a SPORTSWAGERINGACCOUNTING 58 § 1408a.4
+(4) Games or matches.
+(5) Description of the type of events that it intends to accept wagers on as
+well as the type of wagers it intends to accept.
+(j) A sports wagering certificate holder or sports wagering operator shall
+submit for approval any revision to the Catalog of Events andWagers at least 72
+hours in advance of implementation of these changes.Asports wagering certifi-
+cate holder or sports wagering operator must maintain a catalog of all prior and
+current events and the types of wagers it offered on the events.
+(k) TheBoardreservestherighttoprohibittheacceptanceofwagersandmay
+order the cancellation or discontinuation of wagering, and require refunds on any
+eventwhichmayhaveanimpactonthepublicortheintegrityofsportswagering
+operations.
+(l) Asportswageringcertificateholderorsportswageringoperatorshallonly
+accept wagers on sporting events for which:
+(1) The outcome can be verified.
+(2) The outcome can be generated by a reliable and independent process.
+(3) The outcome is not affected by any wagers placed.
+(4) The event is conducted in conformity with all applicable laws or regu-
+lations.
+(m) Asports wagering certificate holder or sports wagering operator shall not
+unilaterally rescind or cancel any wager made under this chapter without prior
+approval of the Board.
+(n) The available wagers, including the event number, odds and a brief
+descriptionoftheevent,shallbedisplayedtothepublic,thesportswageringcer-
+tificate holder or sports wagering operator’s closed circuit television system,
+interactive sports wagering web site and mobile application.
+(o) Winning sports wagering tickets shall be redeemed through the sports
+wageringsystem,andaticketwriterorself-servicekioskshallcausethewinning
+ticket to be reflected as claimed or redeemed in the sports wagering system upon
+redemption.
+CrossReferences
+Thissectioncitedin58Pa.Code§ 1407.5(relatingtoself-servicekiosksandpointofsalesystem
+requirements); 58 Pa.Code § 1407a.6 (relating to ticket/voucher requirements); 58 Pa.Code
+§ 1407a.9(relatingtosportswageringsystemgeneralrequirements);58Pa.Code§ 1408a.5(relat-
+ingtoinformationtobedisplayed/provided);and58Pa.Code§ 1409a.2(relatingtosportswagering
+contests,tournaments,poolsorotherorganizedevents).
+§ 1408a.4. Terms and conditions.
+(a) A sports wagering certificate holder or sports wagering operator shall
+develop terms and conditions for sports wagering which shall be included in the
+internal controls. The terms and conditions and any changes thereto must be
+acknowledged by the player and the acknowledgment must be date and time-
+stamped by the sports wagering system.
+1408a-7
+(406827) No.565 Dec. 21
+
+=== page 8 ===
+58 § 1408a.4 GAMINGCONTROLBOARD Pt. VII
+(b) The terms and conditions must address all aspects of the sports wagering
+operation, including all of the following:
+(1) Name of the party or parties with whom the player is entering into a
+contractual relationship, including any sports wagering certificate holder or
+sports wagering operator.
+(2) Player’sconsenttohavethesportswageringcertificateholderorsports
+wagering operator confirm the player’s age, identity and, for purposes of inter-
+active sports wagering, location.
+(3) Rulesandobligationsapplicabletotheplayerotherthanrulesofsports
+wagering including all of the following:
+(i) Prohibition from allowing any other person to access or use his or
+her sports wagering account.
+(ii) Prohibition from engaging in sports wagering activity, unless the
+player is physically located in this Commonwealth.
+(iii) Consent to the monitoring and recording by the sports wagering
+certificate holder, the sports wagering operator or the Board, or both, of any
+wagering communications and geographic location information.
+(iv) Consent to the jurisdiction of this Commonwealth to resolve any
+disputes arising out of sports wagering.
+(v) Prohibition against utilizing automated computerized software or
+other equivalent mechanism to engage in sports wagering.
+(4) Full explanation of fees and charges imposed upon a player related to
+sports wagering transactions.
+(5) Availability of account statements detailing sports wagering account
+activity.
+(6) Privacy policies, including information access and use of customer
+data.
+(7) Legal age policy, including a statement that it is a criminal offense to
+allow a person who is under 21 years of age to participate in sports wagering
+and a player who does so shall be prohibited from participating in sports
+wagering.
+(8) Notification that if the player’s sports wagering account remains dor-
+mant for a period of 2 years any funds remaining on deposit and any pending
+wagers may be forfeited under applicable State and Federal laws.
+(9) Player’s right to set responsible gaming limits and self-exclude.
+(10) Player’s right to suspend his or her sports wagering account for a
+period of no less than 72 hours.
+(11) Actions that will be taken in the event a player becomes disconnected
+from the sports wagering system during active betting.
+(12) Notice that a malfunction voids all transactions.
+(13) Estimated time-period for withdrawal of funds from the sports wager-
+ing account.
+1408a-8
+(406828) No.565 Dec. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 9 ===
+Ch. 1408a SPORTSWAGERINGACCOUNTING 58 § 1408a.5
+(14) Detailed information regarding compulsive and problem gaming and
+self-exclusion to be displayed on a player protection page.
+(15) Methodforchangingorretrievingapasswordorotherapprovedaccess
+securityfeatureandtheabilitytochoose‘‘strongauthentication’’loginprotec-
+tion.
+(16) Method for filing a complaint with the sports wagering certificate
+holder or sports wagering operator and method for filing with the Board an
+unresolved complaint after all reasonable means to resolve the complaint with
+the sports wagering certificate holder or sports wagering operator have been
+exhausted.
+(17) Method for obtaining a copy of the terms and conditions agreed to
+when establishing a sports wagering account.
+(18) Method for the player to obtain account and wagering history from the
+sports wagering certificate holder or sports wagering operator.
+(19) Notification of Federal prohibitions and restrictions regarding sports
+wagering activity, specifically, any limitations upon sports wagering activity as
+set forth in The Wire Act (18 U.S.C.A. §§ 1081—1084) and the Unlawful
+Internet Gaming Enforcement Act (31 U.S.C.A. §§ 5361—5367). The notice
+shall explicitly state that it is a Federal offense for persons physically located
+outside of this Commonwealth to engage in sports wagering activity through a
+sportswageringcertificateholderorsportswageringoperator,unlessexplicitly
+authorized by State or Federal law.
+(20) Any other information as required by the Board.
+§ 1408a.5. Information to be displayed/provided.
+Asports wagering certificate holder or sports wagering operator shall provide
+for the prominent display of the following information at the certificate holder’s
+retail sportsbook and on a page which, by virtue of the construction of the web
+site or mobile application, registered players must access before beginning a
+sports wagering session:
+(1) The full name of the sports wagering certificate holder and, as appli-
+cable, the sports wagering operator and address from which it carries on busi-
+ness.
+(2) Alogo,tobeprovidedbytheBoardfordisplayonthecertificatehold-
+er’s or licensee’s online sportsbook, indicating that the sports wagering certifi-
+cate holder, and as applicable, the sports wagering operator is authorized to
+operate sports wagering in this Commonwealth.
+(3) The license number of the sports wagering certificate holder, and as
+applicable, the sports wagering operator.
+(4) A statement that persons under 21 years of age are not permitted to
+engage in sports wagering.
+1408a-9
+(406829) No.565 Dec. 21
+
+=== page 10 ===
+58 § 1408a.6 GAMINGCONTROLBOARD Pt. VII
+(5) Readily available information at the certificate holder’s retail sports-
+bookoractivelinksonthesportswageringcertificateholder’sorsportswager-
+ing operator’s sports wagering web site or mobile application that contains all
+of the following:
+(i) Information explaining how disputes are resolved.
+(ii) Problem gaming information that is designed to offer information
+pertaining to responsible gaming.
+(iii) Board’s contact information.
+(iv) Information that allows for a patron to choose to be excluded from
+engaging in sports wagering.
+(v) Comprehensive house rules governing wagering transactions with
+patrons. The house rules must be immediately available to patrons at a
+licensed facility’s retail and interactive or mobile application sportsbooks,
+and must be included in a sports wagering certificate holder’s or sports
+wagering operator’s internal controls required under § 1408a.3 (relating to
+internal controls). The rules must include all of the following:
+(A) Method for calculation and payment of winning wagers.
+(B) Description of the process for handling incorrectly posted events,
+odds, wagers or results.
+(C) Effect of schedule changes.
+(D) Method of notifying patrons of odds or proposition changes.
+(E) Acceptance of wagers at other than posted terms.
+(F) Expiration of any winning ticket.
+(G) Method of contacting the operator for questions and complaints.
+(H) Description of person prohibited from engaging in sports wager-
+ing.
+(I) A statement regarding the policy and methods for limiting the
+maximumamountthatapatroncanwinonanyparticularwager;however,
+the policy will not preclude a patron from collecting a payout in excess of
+thepurportedamountifthesystemallowsthepatrontoplaceavalidwager
+that pays more than the stated maximum amount.
+(J) Methods of funding a sports wager.
+§ 1408a.6. Segregation of bank accounts.
+(a) A sports wagering certificate holder or sports wagering operator shall
+maintainadomesticbankaccountforplayer’sfundsseparatefromallotheroper-
+ating accounts to ensure the security of funds held in the player’s sports wager-
+ing accounts.
+(b) The balance maintained in this account shall be greater than or equal to
+the sum of the daily ending cashable balance of all player sports wagering
+accounts and unpaid wagers.
+(c) A sports wagering certificate holder or sports wagering operator shall
+have unfettered access to all player sports wagering account and transaction data
+to ensure the amount of funds held in its independent account is sufficient. A
+1408a-10
+(406830) No.565 Dec. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 11 ===
+Ch. 1408a SPORTSWAGERINGACCOUNTING 58 § 1408a.7
+sports wagering certificate holder’s or sports wagering operator’s Chief Financial
+Officer shall file a quarterly attestation with the Board, unless otherwise directed
+by the Board, that the funds have been safeguarded under this section.
+§ 1408a.7. Sports wagering certificate holder’s or sports wagering opera-
+tor’s organization.
+(a) A sports wagering certificate holder’s or sports wagering operator’s sys-
+tems of internal controls must include organization charts depicting segregation
+of functions and responsibilities and descriptions of the duties and responsibili-
+ties for each position shown on each organization chart. Sports wagering certifi-
+cate holder or sports wagering operator shall be permitted, except as otherwise
+provided in this section, to tailor organizational structures to meet the needs or
+policies of a particular management philosophy. A sports wagering certificate
+holder’s or sports wagering operator’s organization charts must provide for:
+(1) Asystem of personnel and chain of command which permits manage-
+mentandsupervisorypersonneltobeheldaccountableforactionsoromissions
+within their areas of responsibility.
+(2) The segregation of incompatible functions, duties and responsibilities
+so that no employee is in a position to both commit an error or perpetrate a
+fraud and to conceal the error or fraud in the normal course of the employee’s
+duties.
+(3) The performance of all functions, duties and responsibilities in accor-
+dance with sound financial practices by qualified personnel.
+(4) The areas of responsibility which are not so extensive as to be imprac-
+tical for an individual to monitor.
+(b) Inadditiontootherpositionsrequiredaspartofasportswageringcertifi-
+cate holder’s or sports wagering operator’s internal controls, a sports wagering
+certificate holder or sports wagering operator must maintain an information tech-
+nology department supervised by an individual and licensed as a key employee
+who functions, for regulatory purposes, as the information technology director.A
+sports wagering certificate holder or sports wagering operator shall employ an
+information technology security officer and, if the certificate holder or licensee
+offersinteractiveormobilesportswagering,aninteractivegamingmanager,both
+of whom shall be licensed as a key employee.
+(c) The information technology director shall be responsible for the integrity
+of all data, the quality, reliability and accuracy of all computer systems and soft-
+ware used by the sports wagering certificate holder or sports wagering operator
+in the conduct of sports wagering activities, whether the data and software are
+located within or outside the certificate holder’s or operator’s facility, including,
+without limitation, specification of appropriate computer software, hardware, and
+procedures for security, physical integrity, audit and maintenance of:
+(1) Access codes and other computer security controls used to insure
+appropriately limited access to computer software and data.
+1408a-11
+(406831) No.565 Dec. 21
+
+=== page 12 ===
+58 § 1408a.7 GAMINGCONTROLBOARD Pt. VII
+(2) Monitoring logs of user access, security incidents and unusual transac-
+tions.
+(3) Logs used to document and maintain the details of any hardware and
+software modifications.
+(4) Computertapes,disksorotherelectronicstoragemediacontainingdata
+relevant to sports wagering operations.
+(5) Computer hardware, communications equipment and software used in
+the conduct of sports wagering.
+(d) Theinformationtechnologysecurityofficershallreporttotheinformation
+technology director and be responsible for:
+(1) Maintaining access codes and other computer security controls used to
+insure appropriately limited access to computer software and data.
+(2) Reviewing logs of user access, security incidents and unusual transac-
+tions.
+(3) Coordinating the development of the sports wagering certificate hold-
+er’s or sports wagering operator’s information security policies, standards and
+procedures.
+(4) Coordinatingthedevelopmentofaneducationandtrainingprogramon
+information security and privacy matters for employees and other authorized
+users.
+(5) Ensuring compliance with all State and Federal information security
+policies and rules.
+(6) Preparing and maintaining security-related reports and data.
+(7) Working with internal and external audit personnel to ensure all find-
+ings are addressed in a timely and effective manner.
+(8) Developing and implementing an Incident Reporting and Response
+System to address security breaches, policy violations and complaints from
+external parties.
+(9) Servingastheofficialcontactforinformationsecurityanddataprivacy
+issues, including reporting to law enforcement.
+(10) Developingandimplementinganongoingriskassessmentprogramthat
+targets information security and privacy matters by identifying methods for
+vulnerability detection and remediation and overseeing the testing of those
+methods.
+(11) Remaining current with the latest information technology security and
+privacy legislation, rules, advisories, alerts, and vulnerabilities to ensure the
+sports wagering certificate holder’s security program and security software is
+effective.
+(e) The interactive gaming manager shall report to the information technol-
+ogy director, or other department manager as approved by the Board, and be
+responsible for ensuring the proper operation and integrity of interactive or
+mobile sports wagering and reviewing all reports of suspicious behavior. The
+1408a-12
+(406832) No.565 Dec. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 13 ===
+Ch. 1408a SPORTSWAGERINGACCOUNTING 58 § 1408a.8
+interactive gaming manager shall immediately notify the Bureau upon detecting
+any person participating in interactive or mobile sports wagering who is:
+(1) Engaginginorattemptingtoengagein,orwhoisreasonablysuspected
+of cheating, theft, embezzlement, collusion, money laundering or any other
+illegal activities.
+(2) Aself-excluded person.
+(3) Aperson that is prohibited by the sports wagering certificate holder or
+sports wagering operator from sports wagering.
+§ 1408a.8. Risk management.
+(a) A sports wagering certificate holder or sports wagering operator must
+implement risk management procedures. These procedures may be provided
+in-house by a unit capable of performing this function with appropriate segrega-
+tion of functions and reporting duties, or by an independent third party certified
+by the Board as required under § 1405a.4(a)(4) (relating to qualification of indi-
+viduals and entities of certified sports wagering gaming service providers).
+(b) Asports wagering certificate holder’s or sports wagering operator’s inter-
+nalcontrolsmustcontainadescriptionofitsriskmanagementframeworkinclud-
+ing all of the following:
+(1) Automated and manual risk management procedures.
+(2) User access controls for all sportsbook personnel.
+(3) Information regarding segregation of duties.
+(4) Information regarding fraud detection.
+(5) Controls ensuring regulatory compliance.
+(6) Description of anti-money laundering compliance standards.
+(7) Descriptionofallsoftwareapplicationsthatcomprisethesportswager-
+ing system.
+(8) Description of all types of wagers available to be offered by the sports
+wagering system.
+(9) Description of all integrated third-party systems.
+(10) Description of the policies and procedures to be followed in the event
+thatanerroroccursintheofferingofaneventorwager,includingcancellation
+of the wagers placed due to error, which shall be subject to Board approval.
+(11) Any other information required by the Board.
+(c) Asports wagering certificate holder or sports wagering operator shall file
+with the Office of Sports Wagering, in a manner and form developed by the
+Board, a report of any error that occurs in offering an event or wager or if an
+unapproved event or wager is offered to the public.
+(1) Reports shall be filed no later than 5 calendar days after a sports
+wagering certificate holder or sports wagering operator initially detects or dis-
+covers facts that constitute the basis of filing a report.
+1408a-13
+(406833) No.565 Dec. 21
+
+=== page 14 ===
+58 § 1408a.9 GAMINGCONTROLBOARD Pt. VII
+(2) In situations involving activity that requires immediate attention, a
+sports wagering certificate holder or sports wagering operator shall immedi-
+ately notify the Office of Sports Wagering in addition to the timely filing of a
+report.
+(d) A sports wagering certificate holder or sports wagering operator shall
+maintain a copy of any report filed with the Board and the original or business
+record equivalent of any supporting documentation for a period of 5 years from
+the date the report was filed.
+(1) Supporting documentation shall be identified and maintained by a
+sportswageringcertificateholderorsportswageringoperatorassuch,andshall
+be deemed to have been filed with the report.
+(2) A sports wagering certificate holder or sports wagering operator shall
+make all supporting documentation available to the Board upon request.
+CrossReferences
+Thissectioncitedin58Pa.Code§ 1401a.5(relatingtoconductofsportswageringgenerally);and
+58Pa.Code§ 1407a.4(relatingtowageringdevicerequirementsgenerally).
+§ 1408a.9. Integrity monitoring.
+(a) A sports wagering certificate holder or sports wagering operator must
+implement integrity monitoring procedures. These procedures may be provided
+in-house by a unit capable of performing this function with appropriate segrega-
+tion of functions and reporting duties or by an independent third party certified
+bytheBoardasrequiredunder§ 1405a.1(a)(4)(relatingtogeneralsportswager-
+ing gaming service provider requirements).
+(b) A sports wagering certificate holder or sports wagering operator must
+share information of unusual wagering activity or other suspicious wagering
+activity regarding sports wagering in this Commonwealth with:
+(1) Other sports wagering certificate holders or sports wagering operators.
+(2) The Board.
+(c) A sports wagering certificate holder or sports wagering operator must
+submitayearlyreporttotheBoarddetailingitsintegritymonitoringservicesand
+summarizing any unusual wagering activity or other suspicious wagering activity
+notifications issued during that time period.
+(d) Asportswageringcertificateholderorsportswageringoperatorreceiving
+areportofunusualwageringactivityorsuspiciouswageringactivityispermitted
+to suspend wagering on events related to the report and may only cancel related
+wagers under procedures previously approved by the Board.
+(e) A sports wagering certificate holder or sports wagering operator must
+provide the Board with remote access to its integrity monitoring system which
+shall provide at a minimum:
+(1) Reports of unusual wagering activity.
+(2) If the activity was determined to be suspicious.
+1408a-14
+(406834) No.565 Dec. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 15 ===
+Ch. 1408a SPORTSWAGERINGACCOUNTING 58 § 1408a.10
+(3) The actions taken by the sports wagering certificate holder or sports
+wagering operator.
+(f) Asports wagering certificate holder or sports wagering operator shall file
+with the Office of Sports Wagering, in a manner and form developed by the
+Board, a report of any unusual wagering activity or suspicious wagering activity.
+(1) Reports shall be filed no later than 5 calendar days after a sports
+wagering certificate holder or sports wagering operator initially detects or dis-
+covers facts that constitute the basis of filing a report.
+(2) In situations involving activity that requires immediate attention, a
+sports wagering certificate holder or sports wagering operator shall immedi-
+ately notify the Office of Sports Wagering in addition to the timely filing of a
+report.
+(g) A sports wagering certificate holder or sports wagering operator shall
+maintain a copy of any report filed with the Board and the original or business
+record equivalent of any supporting documentation for a period of 5 years from
+the date the report was filed.
+(1) Supporting documentation shall be identified and maintained by a
+sportswageringcertificateholderorsportswageringoperatorassuch,andshall
+be deemed to have been filed with the report.
+(2) A sports wagering certificate holder or sports wagering operator shall
+make all supporting documentation available to the Board upon request.
+CrossReferences
+Thissectioncitedin58Pa.Code§ 1401a.5(relatingtoconductofsportswageringgenerally).
+§ 1408a.10. Mandatory logging.
+A sports wagering certificate holder’s or sports wagering operator’s sports
+wagering system must comply with the mandatory logging requirements in Sub-
+part L(relating to interactive gaming) of the Board’s regulations.
+§ 1408a.11. Records/data retention requirements.
+A sports wagering certificate holder’s or sports wagering operator’s sports
+wagering system must comply with the record/data retention requirements in
+Chapter 465a (relating to accounting and internal controls) and Subpart L(relat-
+ing to interactive gaming) of the Board’s regulations.
+§ 1408a.12. Required reports.
+(a) Nothing in this section shall be interpreted to prohibit a retail sportsbook
+from accepting anonymous sports wagers at self-service kiosks or point of sale
+terminals.Thesewagersshouldbeincludedintherequiredreportsdetailedinthis
+section and identified as ‘‘anonymous player’’or a similar identifier.
+(b) Asportswageringcertificateholder’sorsportswageringoperator’ssports
+wagering system must comply with the reporting requirements in Subpart L
+1408a-15
+(406835) No.565 Dec. 21
+
+=== page 16 ===
+58 § 1408a.12 GAMINGCONTROLBOARD Pt. VII
+(relating to interactive gaming) of the Board’s regulations as it pertains to inter-
+active sports wagering through a web site or mobile application.
+(c) A sports wagering certificate holder or sports wagering operator must
+generate reports specific to its sports wagering operations as specified by the
+Board that shall include, at a minimum:
+(1) The report title.
+(2) The date or time period of activity, or description ‘‘as of’’ a point in
+time.
+(3) The date and time the report was generated.
+(4) Pagenumbering,indicatingthecurrentpageandtotalnumberofpages.
+(5) Subtotals and grand totals as required by the Board.
+(6) A description of any filters applied to the data presented in the docu-
+ment.
+(7) Column and row titles, if applicable.
+(8) The name of the sports wagering certificate holder or sports wagering
+operator.
+(d) All required reports shall be generated by the sports wagering certificate
+holder or sports wagering operator, even if the period specified contains no data
+to be presented. The report generated shall indicate all required information and
+contain an indication of ‘‘NoActivity’’or similar message if no data appears for
+the period specified.
+(e) The sports wagering certificate holder or sports wagering operator shall
+provide a mechanism to export the data generated for any report to a format
+approved by the Board and as often as required by the Board.
+(f) Forretailsportswageringoperations,asportswageringsystemshallgen-
+erate, at a minimum, all of the following daily reports:
+(1) A‘‘Sports Wagering Intake Summary Report’’which shall include:
+(i) Tickets sold.
+(ii) Tickets paid.
+(iii) Tickets voided.
+(iv) Each ticket cancelled.
+(v) Sports wagering voucher issued.
+(vi) Sports wagering voucher redeemed.
+(vii) Over or short amount to writer’s drawer.
+(viii) Grand total of each transaction type for all writers.
+(2) A‘‘SportsWagering Results Summary Report’’which shall include for
+each event type (that is, NFL, NHL, MLB, NCCA by sports, parlay, and the
+like):
+(i) Ticket sales.
+(ii) Tickets paid.
+(iii) Tickets voided
+(iv) Tickets cancelled.
+(v) Expired tickets.
+1408a-16
+(406836) No.565 Dec. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 17 ===
+Ch. 1408a SPORTSWAGERINGACCOUNTING 58 § 1408a.12
+(vi) Net sports wagering gross revenue.
+(vii) Grand total of each transaction type for all events.
+(3) A ‘‘Sports Wagering Ticket Expiration Detail Report’’ which shall
+include:
+(i) Ticket identification number.
+(ii) Date and time of issuance.
+(iii) Event.
+(iv) Wager description.
+(v) Bet amount.
+(vi) Payout amount.
+(4) A‘‘Sports Wagering Voided Ticket Report’’which shall include:
+(i) Ticket number.
+(ii) Date and time of issuance.
+(iii) Event.
+(iv) Wager description.
+(v) Bet amount.
+(vi) Writer name or identification number.
+(vii) Reason for void.
+(5) A ‘‘Sports Wagering Cancelled Ticket Report’’which shall include all
+of the following:
+(i) Ticket number.
+(ii) Date and time of issuance.
+(iii) Event.
+(iv) Wager description.
+(v) Bet amount.
+(vi) Reason for cancelation.
+(6) A‘‘SportsWageringTicketLiabilityReport’’whichshallincludeallof
+the following:
+(i) Ticket number.
+(ii) Date and time of issuance.
+(iii) Event.
+(iv) Wager description.
+(v) Amount.
+(vi) Status (pending or complete).
+(7) A‘‘Sports Wagering Voucher Liability Report’’which shall include all
+of the following:
+(i) Voucher number.
+(ii) Date and time of issuance.
+(iii) Amount.
+(g) The Sports Wagering Results Summary Report shall be reconciled with
+the Sports Wagering Intake Summary Report, and any discrepancy shall be
+reported to the Board.
+1408a-17
+(406837) No.565 Dec. 21
+
+=== page 18 ===
+58 § 1408a.12 GAMINGCONTROLBOARD Pt. VII
+(h) For retail sports wagering and interactive or mobile sports wagering, a
+sports wagering system shall generate, at a minimum, all of the following daily
+reports:
+(1) A‘‘Sports Wagering Detail Report’’which shall include all of the fol-
+lowing:
+(i) Transaction time.
+(ii) Patron account identifier, for interactive or mobile sports wagering.
+(iii) Wager identification number.
+(iv) Event type.
+(v) Wager description.
+(vi) Event date.
+(vii) Wager placed amount.
+(viii) Wager paid amount.
+(ix) Voided wager amount.
+(x) Cancelled wager amount.
+(xi) Resettled wager adjustment amount.
+(xii) Transaction impact on sports wagering revenue.
+(2) A‘‘Sports Wagering Voided Wager Report’’which shall include all of
+the following:
+(i) Transaction time.
+(ii) Patron account identifier, for interactive or mobile sports wagering.
+(iii) Ticket wager identification number.
+(iv) Date and time of issuance.
+(v) Time of void.
+(vi) Event type.
+(vii) Wager description.
+(viii) Event date.
+(ix) Wager amount.
+(x) Cashier employee name or identification number.
+(xi) Reason for void.
+(3) A‘‘Sports Wagering Cancelled Wager Report’’which shall include all
+of the following:
+(i) Transaction time.
+(ii) Patron account identifier, for interactive or mobile sports wagering.
+(iii) Ticket wager identification number.
+(iv) Date and time of issuance.
+(v) Event type.
+(vi) Wager description.
+(vii) Event date.
+(viii) Wager amount.
+(ix) Reason for cancellation.
+(4) A ‘‘Sports Wagering Resettlement Report’’ which shall include all of
+the following:
+1408a-18
+(406838) No.565 Dec. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 19 ===
+Ch. 1408a SPORTSWAGERINGACCOUNTING 58 § 1408a.13
+(i) Patron account identifier, for interactive or mobile sports wagering.
+(ii) Wager identification number.
+(iii) Event type.
+(iv) Wager description.
+(v) Date and time of initial settlement.
+(vi) Date and time of resettlement.
+(vii) Unsettled amount.
+(viii) Resettlement amount.
+(ix) Net adjustment.
+(i) For retail sports wagering and interactive or mobile sports wagering, a
+sports wagering system shall generate on a monthly basis on the last day of each
+calendar month a ‘‘Retail Sports Wagering Liability Report’’and an ‘‘Interactive
+or Mobile Sports Wagering Liability Report’’which shall include all of the fol-
+lowing:
+(1) Date generated.
+(2) Patron account identifier, for interactive or mobile sports wagering.
+(3) Wager identification number.
+(4) Event type.
+(5) Wager description.
+(6) Date and time of issuance.
+(7) Event date.
+(8) Amount.
+(9) Status (that is, pending or complete).
+§ 1408a.13. Accounting controls for the sports wagering area.
+(a) The assets for which each ticket writer is responsible shall be maintained
+on an imprest basis. A ticket writer shall not permit any other person to access
+his or her imprest inventory.
+(b) Aticketwritershallbeginashiftwithanimprestamountofcurrencyand
+cointobeknownasthe‘‘sportswageringinventory.’’Nofundsshallbeaddedto
+or removed from the sports wagering inventory during the shift, except:
+(1) In collection of sports wagering wagers.
+(2) To make change for a patron buying a sports wagering ticket.
+(3) In collection for the issuance of sports wagering vouchers.
+(4) Inpaymentofwinningorproperlycancelledorrefundedsportswager-
+ing tickets.
+(5) In payment of sports wagering vouchers.
+(6) In exchanges with the cage, a satellite cage or sports wagering area
+vault supported by proper documentation, which documentation shall be suffi-
+cient for accounting reconciliation purposes.
+(c) A ‘‘sports wagering count sheet’’ shall be completed and signed by the
+sports wagering shift supervisor, and the following information, at a minimum,
+shall be recorded thereon at the commencement of shift:
+1408a-19
+(406839) No.565 Dec. 21
+
+=== page 20 ===
+58 § 1408a.13 GAMINGCONTROLBOARD Pt. VII
+(1) The date, time and shift of preparation.
+(2) The denomination of currency of coin in the sports wagering inventory
+issued to the ticket writer.
+(3) The total amount of each denomination in the sports wagering inven-
+tory issued to the ticket writer.
+(4) The sports wagering window number to which the ticket writer has
+been assigned.
+(5) The signature of the sports wagering shift supervisor.
+(d) A ticket writer assigned to a ticket window shall count and verify the
+sports wagering inventory in an area out of view of the public, and shall agree
+thecounttothesportswageringcountsheet.Theticketwritershallsignthecount
+sheet attesting to the accuracy of the information recorded thereon. The sports
+wagering inventory shall be placed in the ticket writer’s drawer and transported
+directly to the appropriate sports wagering area window by the ticket writer.
+(e) At the conclusion of a ticket writer’s shift, the ticket writer’s drawer and
+its contents shall be transported to an area out of view of the public, where the
+ticket writer shall perform a blind count of the contents of the drawer and record
+the following information, at a minimum, on the sports wagering count sheet:
+(1) The date, time and shift of preparation.
+(2) The denomination of cash or cash equivalents in the drawer.
+(3) The total amount of each denomination of cash or cash equivalents in
+the drawer.
+(4) The signature of the ticket writer.
+(f) Asportswageringsupervisor,orabove,shallcomparetheticketwriternet
+for the shift generated by the terminal and if it agrees with the sports wagering
+count sheet total plus the sports wagering inventory, shall agree the count to the
+sportswageringcountsheetandshallsignthesportswageringcountsheetattest-
+ing to the accuracy.
+(g) If the sports wagering window net for the shift as generated by the sys-
+tem does not agree with the sports wagering count sheet total plus the sports
+wagering inventory, the sports wagering supervisor, or above, shall record any
+overage or shortage. If the count does not agree, the ticket writer and the sports
+wagering supervisor, or above, shall attempt to determine the cause of the dis-
+crepancy with the count.
+(h) If the discrepancy cannot be resolved by the ticket writer and sports
+wageringsupervisor,orabove,thediscrepancyshallbereportedinwritingtothe
+sports wagering manager or department supervisor in charge at the time. Any
+discrepancy in excess of $500 shall be reported to the Office of SportsWagering
+and Bureau of Casino Compliance, with a report that shall include the following:
+(1) Date.
+(2) Shift.
+(3) Name of the ticket writer.
+(4) Name of the sports wagering supervisor, or above.
+1408a-20
+(406840) No.565 Dec. 21 Copyright(cid:2)2021CommonwealthofPennsylvania
+
+=== page 21 ===
+Ch. 1408a SPORTSWAGERINGACCOUNTING 58 § 1408a.14
+(5) Window number.
+(6) Amount of the discrepancy.
+§ 1408a.14. Sports wagering accounts.
+A sports wagering certificate holder’s or sports wagering operator’s sports
+wageringsystemshallcomplywiththeplayeraccountrequirementsinSubpartL
+(relating to interactive gaming) of the Board’s regulations as it pertains to sports
+wagering accounts used by a patron to participate in interactive or mobile sports
+wagering.
+1408a-21
+(406841) No.565 Dec. 21
+
+=== page 22 ===
+[Nextpageis1409-1.]
+1408a-22
+(406842) No.565 Dec. 21 Copyright(cid:2)2021CommonwealthofPennsylvania

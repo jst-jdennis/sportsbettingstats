@@ -1,0 +1,237 @@
+=== page 1 ===
+Regulations of Connecticut State Agencies
+Sec. 12-865-11. Internet Gaming Account Management
+(a) Prior to engaging in internet gaming, a patron shall establish an internet gaming
+account. A patron shall have only one internet gaming account for each online gaming
+operator for use in the State of Connecticut, except if the online gaming operator is operating
+multiple types of internet games on separate electronic wagering platforms, the patron may
+have one internet gaming account for each electronic wagering platform operated by such
+online gaming operator.
+(b) The electronic wagering platform shall display a message prior to an internet gaming
+account being established informing the patron that certain individuals are prohibited from
+engaging in certain types of gaming. The message shall include a link to a location that
+provides additional information on the categories of persons prohibited from gaming. The
+electronic wagering platform will require the patron to affirm that the patron will not place
+a wager on an internet game from which the patron is prohibited.
+(c) In order to establish an internet gaming account, the online gaming operator shall:
+(1) Create an electronic patron file, which shall include at a minimum:
+(A) Patron’s legal name;
+(B) Patron’s date of birth;
+(C) Entire or last four digits of the patron’s Social Security number or equivalent for a
+foreign patron such as a passport number or taxpayer identification number;
+(D) Patron’s internet gaming account number;
+(E) Patron’s address;
+(F) Patron’s electronic mail address;
+(G) Patron’s telephone number;
+(H) Any other information collected from the patron used to verify the patron’s identity;
+(I) The method used to verify the patron’s identity; and
+(J) Date of verification.
+(2) Encrypt all confidential information contained in an electronic patron file.
+(3) Verify the patron’s identity in accordance with section 12-865-12 of the Regulations
+of Connecticut State Agencies or other methodology for remote multi-sourced
+authentication, which may include third-party and governmental databases, that may be
+approved by the department.
+(4) Follow NIST Special Publication 800-63-3 “Digital Identity Guidelines” or other
+technical standards established pursuant to section 12-865-3(n) of the Regulations of
+Connecticut State Agencies for password and access security including required multi-factor
+identification.
+(5) Verify that the patron meets the minimum legal age requirement and is not on the
+self-exclusion list, or otherwise prohibited from participation in gaming;
+(6) Record the patron’s acceptance of the gaming entity licensee’s terms and conditions
+to participate in internet gaming;
+(7) Record the patron’s certification that the information provided to the online gaming
+operator by the individual who registered is accurate;
+(8) Record the patron’s acknowledgement that the patron meets the minimum legal age
+requirement and acknowledgement that the patron is prohibited from allowing any other
+person to access or use the patron’s internet gaming account; and
+- 1-
+
+=== page 2 ===
+Regulations of Connecticut State Agencies
+(9) Notify the patron of the establishment of the internet gaming account via electronic
+mail.
+(d) Online gaming operators shall implement methods for securely issuing, modifying,
+and resetting a patron’s internet gaming account password, personal identification number,
+or other approved security feature, if applicable. Any method shall include notification to
+the patron following any modification via electronic or regular mail, text message, or other
+manner approved by the department. Such methods shall include, at a minimum, one of the
+following:
+(1) The correct response to two or more challenge questions; or
+(2) Strong authentication.
+(e) Each internet gaming account shall be:
+(1) Non-transferable;
+(2) Unique to the patron who establishes the account; and
+(3) Distinct in account number from any other account that the patron may have
+established with the online gaming operator in another state, territory, or on a reservation.
+(f) A patron’s internet gaming account may be funded through the use of:
+(1) An electronic fund transfer from patron’s account, not a trust or business entity
+account, with a bank or other financial institution provided that the gaming entity licensee
+verifies the validity of the account with the financial institution;
+(2) One credit card held in the name of the patron, not through a payment gateway,
+payment aggregator or other third-party payment processor that does not require the use of
+a merchant account, or one debit card, held in the name of the patron, through direct
+payment. A patron may only link one credit card or one debit card to the patron’s internet
+gaming account at any point in time. A patron may change the patron’s credit card or debit
+card at any point in time as long as the patron deletes the card actively linked to the internet
+gaming account and subsequently activates and links a different credit or debit card;
+(3) Complimentaries;
+(4) Winnings or prizes;
+(5) Travelers checks;
+(6) Certified checks;
+(7) Wire transfer;
+(8) Adjustments made by the online gaming operator with documented notification to
+the patron; or
+(9) Any other means approved by the department.
+(g) Funds may be withdrawn from a patron’s internet gaming account by the following
+methods:
+(1) Adjustments made by the online gaming operator with documented notification to
+the patron;
+(2) A cash-out transfer to the debit card or credit card that was used to fund patron’s
+internet gaming account;
+(3) Cash-out transfers directly to the patron’s individual, not a trust or business entity
+account, account with a bank or other financial institution provided that the licensee verifies
+the validity of the account with the financial institution; or
+(4) Any other means approved by the department.
+- 2-
+
+=== page 3 ===
+Regulations of Connecticut State Agencies
+(h) An online gaming operator shall not permit a patron to transfer funds to another
+patron.
+(i) All adjustments to internet gaming accounts for amounts of $500.00 or less shall be
+periodically reviewed by supervisory personnel as set forth in the online gaming operator’s
+internal controls. All other adjustments shall be authorized by supervisory personnel prior
+to being entered.
+(j) Electronic wagering platforms shall provide an account statement with account details
+to a patron immediately on demand, which shall include detailed account activity for at
+least the twelve months preceding the request unless the patron requests a shorter period.
+In addition, an electronic wagering platform shall, upon request, be capable of providing a
+summary statement of all patron activity since the internet gaming account was established.
+Information to be provided on the summary statement shall include, at a minimum, the
+following:
+(1) Deposits to the internet gaming account;
+(2) Withdrawals from the internet gaming account;
+(3) Win or loss statistics, including monetary amount won or lost;
+(4) Beginning and ending account balances; and
+(5) Self-imposed responsible gaming limit history, if applicable.
+(k) The online gaming operator shall maintain a reserve in the amount necessary to
+ensure the security of funds held by the online gaming operator on behalf of patrons in
+internet gaming accounts. The reserve shall be in the form of:
+(1) Cash or cash equivalents maintained in a U.S. bank account segregated from the
+online gaming operator’s operational funds;
+(2) An irrevocable letter of credit;
+(3) A bond;
+(4) Any other form acceptable to the department; or
+(5) Any combination of the allowable forms set forth in subdivisions (1) to (4), inclusive,
+of this subsection.
+(l) The reserve shall be not less than the sum of the following:
+(1) The daily ending cashable balance of all patrons’ internet gaming accounts;
+(2) Pending withdrawals; and
+(3) The sum of all pending internet wagers, funds transferred to an internet game not yet
+wagered, and pending wins.
+(m) Funds held in internet gaming accounts shall not be automatically transferred by the
+online gaming operator. The online gaming operator shall not require a patron to transfer
+funds from the patron’s internet gaming account in order to circumvent the provisions of
+subsection (l) of this section.
+(n) Amounts available to patrons for wagering that are not redeemable for cash may be
+excluded from the reserve computation.
+(o) Upon request, the department may allow the online gaming operator to combine the
+reserve for all of its Connecticut internet wagering.
+(p) The online gaming operator shall have access to all internet gaming account and
+transaction data to ensure the amount of its reserve is sufficient. Unless otherwise directed
+by the department, the online gaming operator shall file a monthly attestation with the
+- 3-
+
+=== page 4 ===
+Regulations of Connecticut State Agencies
+department, in the form and manner prescribed by the department, that the reserve is
+adequately funded pursuant to this section.
+(q) At least annually, the online gaming operator shall, at the operator’s own expense,
+submit to an independent audit of such licensee’s reserve accounts. A copy of the audit shall
+be provided to the department within ten days of receipt by the online gaming operator.
+Additionally, the department may audit an online gaming operator’s reserve accounts at any
+time.
+(r) Based on the results of any such audits, the department may direct an online gaming
+operator to take any action necessary to ensure the purposes of subsections (k) to (q),
+inclusive, of this section are achieved, including but not limited to requiring the online
+gaming operator to modify the form of its reserve or increase the amount of its reserve.
+(s) Patron protection information shall be readily accessible to the patron. The patron
+protection information shall contain at a minimum:
+(1) Information about potential risks associated with excessive participation in gaming,
+and where to get help related to responsible gaming education and compulsive gaming
+support;
+(2) Self-imposed limitations invoked by the patron;
+(3) A list of the available patron protection measures that can be invoked by the patron,
+such as self-imposed limits and self-exclusion, and information on how to invoke those
+measures; and
+(4) Mechanisms available to the patron to detect unauthorized use of the patron’s
+account, such as reviewing credit card statements against known deposits and for unknown
+charges.
+(t) Patrons shall be provided an easy and obvious method to impose limitations for
+gaming parameters including, but not limited to, deposit caps, individual and cumulative
+wager maximums, and time-based limitations. Online gaming operators that offer fantasy
+contests may request a hardship exemption to the requirement to impose time-based
+limitations for fantasy contest activity, and the commissioner may waive this requirement,
+if the online gaming operator can demonstrate that such waiver will not detrimentally impact
+problem gambling or consumer protections. The self-imposed limitation method shall
+provide the following functionality:
+(1) Upon receiving any self-imposed limitation order, the online gaming operator shall
+ensure that all specified limits are correctly implemented immediately or at the point in time
+that was clearly indicated by the patron;
+(2) The self-imposed limitations set by a patron shall not override more restrictive
+operator imposed limitations. The more restrictive limitations shall take priority; and
+(3) Once established by a patron and implemented by the online gaming operator, it shall
+only be possible to reduce the severity of self-imposed limitations upon twenty-four hours’
+notice, or as required by the department.
+(u) The electronic wagering platform shall either clearly display the amount of time, or
+provide a periodic pop-up message at least once every thirty minutes if a patron has not
+logged out of the patron’s account during such thirty minute period, that states the amount
+of time a patron has spent on the electronic wagering platform during that patron session.
+(v) The electronic wagering platform shall clearly display to the patron the amount of
+- 4-
+
+=== page 5 ===
+Regulations of Connecticut State Agencies
+funds available in the patron’s internet gaming account.
+(w) An electronic wagering platform shall employ a mechanism that places an internet
+gaming account in a suspended mode under any of the following conditions:
+(1) When requested by the patron for a specified period of time, if time-based limitations
+are required pursuant to subsection (t) of this section, which period shall be no less than
+seventy-two hours;
+(2) When required by the department;
+(3) Upon a determination that, based on the specific type of gaming a patron is engaged
+in, that such patron is a prohibited patron; and
+(4) When initiated by an online gaming operator that has evidence that indicates any of
+the following:
+(A) Illegal activity;
+(B) A negative internet gaming account balance; or
+(C) A violation of the internet gaming account terms and conditions.
+(x) When an internet gaming account is in a suspended mode, the electronic wagering
+platform shall do all of the following:
+(1) Prevent the patron from internet gaming;
+(2) Prevent the patron from depositing funds unless the internet gaming account is
+suspended due to having a negative balance but only to the extent the internet gaming
+account balance is brought back to zero dollars;
+(3) Prevent the patron from withdrawing funds from the patron’s suspended account,
+unless the suspended mode was initiated by the patron or the withdrawal request is from
+the patron in the absence of any suspected fraud or misconduct;
+(4) Prevent the patron from making changes to the patron’s internet gaming account;
+(5) Prevent the deletion of the internet gaming account from the electronic wagering
+platform; and
+(6) Prominently display to the patron that the internet gaming account is in a suspended
+mode, the restrictions placed on the internet gaming account, and any further course of
+action needed to remove the suspended mode.
+(y) The online gaming operator shall notify a patron immediately via electronic mail and
+text message, unless the patron has selected either electronic mail or text message solely
+for fantasy contest internet gaming accounts, or other method approved by the department,
+whenever the patron’s internet gaming account has been closed or placed in a suspended
+mode. Such notification shall include the restrictions placed on the internet gaming account
+and any further course of action needed to remove the restriction.
+(z) A suspended account may be restored for any of the following reasons:
+(1) Upon expiration of the time period established by the patron;
+(2) If authorized by the department;
+(3) When the patron is no longer a prohibited patron; and
+(4) When the online gaming operator has lifted the suspended status after concluding
+that the basis for the suspension no longer applies to the account or patron.
+(Effective February 1, 2022)
+- 5-
