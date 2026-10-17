@@ -82,7 +82,8 @@ class PAPGCBSportsWagering:
         docs: list[Document] = []
         for fy in fys:
             for pat in FY_PAGES:
-                docs.append(Document(url=pat.format(a=fy, b=fy + 1), period=period, kind="html", label=f"PGCB sports wagering revenue page, fiscal year {fy}/{fy + 1}", meta=(("fy", fy),)))
+                # measure lets the CLI stop at the first page per fiscal year that yields a parsed workbook
+                docs.append(Document(url=pat.format(a=fy, b=fy + 1), period=period, kind="html", label=f"PGCB sports wagering revenue page, fiscal year {fy}/{fy + 1}", meta=(("fy", fy), ("measure", f"fy{fy}"))))
         return docs
 
     def resolve(self, doc: Document, html: str) -> list[Document]:
@@ -95,7 +96,7 @@ class PAPGCBSportsWagering:
                 cands.append(href if href.startswith("http") else "https://gamingcontrolboard.pa.gov" + href)
         if not cands:
             raise LayoutChanged(f"No sports wagering xlsx link on {doc.url}")
-        return [Document(url=cands[0], period=doc.period, kind="xlsx", label=f"PGCB monthly sports wagering report summary, fiscal year {fy}/{fy + 1}", meta=(("fy", fy),))]
+        return [Document(url=cands[0], period=doc.period, kind="xlsx", label=f"PGCB monthly sports wagering report summary, fiscal year {fy}/{fy + 1}", meta=(("fy", fy), ("measure", f"fy{fy}")))]
 
     def parse(self, raw: RawDocument) -> list[dict[str, Any]]:
         wb = openpyxl.load_workbook(raw.path, data_only=True, read_only=False)

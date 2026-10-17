@@ -99,9 +99,9 @@ class OHOCCCSportsGaming:
             start = 12 if y < today.year else today.month
             stop = 1 if period is None else period.start.month
             for mm in range(start, stop - 1, -1):
-                docs.append(Document(url=f"{BASE}{y}/Sports/{y}_Sports_Gaming_Revenue_Report{mm:02d}.pdf", period=period, kind="pdf", label=f"Ohio sports gaming revenue report {y}, edition through month {mm:02d}", meta=(("year", y),)))
-            docs.append(Document(url=f"{BASE}{y}/{y}_Sports_Gaming_Revenue_Report.pdf.pdf", period=period, kind="pdf", label=f"Ohio sports gaming revenue report {y} (full year file)", meta=(("year", y),)))
-            docs.append(Document(url=f"{BASE}{y}/{y}_Sports_Gaming_Revenue_Report.pdf", period=period, kind="pdf", label=f"Ohio sports gaming revenue report {y} (full year file)", meta=(("year", y),)))
+                docs.append(Document(url=f"{BASE}{y}/Sports/{y}_Sports_Gaming_Revenue_Report{mm:02d}.pdf", period=period, kind="pdf", label=f"Ohio sports gaming revenue report {y}, edition through month {mm:02d}", meta=(("year", y), ("measure", str(y)))))
+            docs.append(Document(url=f"{BASE}{y}/{y}_Sports_Gaming_Revenue_Report.pdf.pdf", period=period, kind="pdf", label=f"Ohio sports gaming revenue report {y} (full year file)", meta=(("year", y), ("measure", str(y)))))
+            docs.append(Document(url=f"{BASE}{y}/{y}_Sports_Gaming_Revenue_Report.pdf", period=period, kind="pdf", label=f"Ohio sports gaming revenue report {y} (full year file)", meta=(("year", y), ("measure", str(y)))))
         return docs
 
     def resolve(self, doc: Document, html: str) -> list[Document]:  # pragma: no cover - no html documents
