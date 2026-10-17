@@ -201,6 +201,28 @@ pages; the script reports the longest.
 - State the procedural posture of any court ruling (preliminary relief or
   final judgment).
 
+### Classifying a funding mechanism
+
+`funding_mechanism` is what the report card scores, so apply one rule:
+
+- `statutory_earmark_pct_revenue` or `statutory_earmark_fixed` when the statute
+  (or constitution, or a ratified compact) itself fixes both the amount (a share
+  or a dollar figure, including a fixed sum per licensee or machine) and its
+  destination for problem gambling services. A statutory mandate that licensees
+  spend a set share themselves counts; say in `mechanism_text` that the money
+  does not pass through a state fund.
+- `license_fee` when the statute authorizes a fee or assessment whose amount, or
+  whose use for problem gambling, is left to the regulator.
+- `appropriation` when the amount is set in the budget each year, including a
+  statute that names the program or the revenue source but fixes no share or
+  sum, and a statute that lets an agency grant "up to" a capped amount at its
+  discretion.
+- `compact_payment` when a tribal compact term directs money to the state for
+  problem gambling services.
+- `none` only on the strength of an official statement that no public funding
+  exists; `unknown` when the mechanism could not be read from a primary
+  document, with the search described in `notes`.
+
 ## Report card grades
 
 Grades are generated, not hand-entered. After changing a state profile,
