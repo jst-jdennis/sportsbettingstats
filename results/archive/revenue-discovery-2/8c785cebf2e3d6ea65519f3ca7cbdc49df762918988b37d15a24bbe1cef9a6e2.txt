@@ -1,0 +1,47 @@
+=== page 1 ===
+Sports Wagering Revenues
+Monthly Summary
+May 2023
+(unaudited)
+Casino Provider Settled Wagers Revenues State Share
+Boot Hill DraftKings $221,367 $0 $0
+Kansas Star FanDuel $828,686 $130,047 $13,005
+Hollywood Barstool $3,390,525 $0 $0
+Kansas Crossing Caesar's $284,049 $0 $0
+Subtotal - Retail $4,724,627 $130,047 $13,005
+Boot Hill DraftKings $47,970,421 $4,322,287 $432,228
+Kansas Star FanDuel $35,304,296 $3,475,587 $347,559
+Hollywood Barstool $6,581,761 $554,403 $55,440
+Kansas Crossing BetMGM $13,187,266 $0 $0
+Kansas Crossing Caesar's $11,333,825 $335,380 $33,538
+Kansas Crossing PointsBet $1,221,248 $56,197 $5,620
+Subtotal - Online $115,598,817 $8,743,854 $874,385
+Totals $120,323,444 $8,873,901 $887,390
+
+=== page 2 ===
+Sports Wagering Revenues
+Fiscal Year Summary
+Through May 2023
+(unaudited)
+Casino Provider Settled Wagers Revenues State Share
+Boot Hill DraftKings $3,365,140 $60,148 $6,015
+Kansas Star FanDuel $12,603,249 $1,155,309 $115,531
+Hollywood Barstool $54,563,582 $2,271,511 $227,151
+Kansas Crossing Caesar's $1,403,397 $2,656 $266
+Subtotal - Retail $71,935,368 $3,489,624 $348,963
+Boot Hill DraftKings $633,528,163 $21,047,873 $2,104,787
+Kansas Star FanDuel $462,315,833 $23,464,664 $2,346,467
+Hollywood Barstool $99,289,287 $3,415,089 $341,509
+Kansas Crossing BetMGM $197,229,656 $0 $0
+Kansas Crossing Caesar's $95,472,497 $2,756,506 $275,650
+Kansas Crossing PointsBet $18,693,439 $237,606 $23,761
+Subtotal - Online $1,506,528,875 $50,921,738 $5,092,174
+Totals $1,578,464,243 $54,411,362 $5,441,137
+Notes:
+Primarily due to promotional play during the player acquisition period, BetMGM Online has yet to report
+net positive revenues. Until there is net positive revenue, they will be reflected as zero Revenues and
+zero State Share on this report. See the Detail Breakdown report for more complete information.
+In January 2023, Kansas Crossing Retail had a negative carryover for the month in total but did remit
+revenues during two individual weeks in that month. Year to date totals for Kansas Crossing Retail have
+been reclassified to reflect a total of $2,656 in total net revenues and $266 in state share from the month
+of January.
