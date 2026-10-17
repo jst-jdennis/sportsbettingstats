@@ -5,7 +5,7 @@
 // registry as the state page's tables and CSVs.
 import Sheet from '../../../layouts/Sheet.astro';
 import type { Provenance } from '../../../lib/data';
-import { profiles, pgFunding, predictionMarkets, bills, population, headlineStatus, HEADLINE_LABEL, scopeQualifiers, fmtDate, pct, label, asOf, collectProvenance, earliestLaunch, prevalenceStudies, gradeFor, grades, source, rubrics } from '../../../lib/data';
+import { profiles, pgFunding, predictionMarkets, bills, population, headlineStatus, HEADLINE_LABEL, scopeQualifiers, fmtDate, pct, label, asOf, collectProvenance, earliestLaunch, prevalenceStudies, prevalenceSearch, gradeFor, grades, source, rubrics } from '../../../lib/data';
 import { statePage } from '../../../lib/pageTables';
 import { hrFor, bkFor, hlFor, per100k, monthName } from '../../../lib/seriesCharts';
 import { cellText, byId } from '../../../lib/tables';
@@ -54,6 +54,7 @@ const hl = hlFor(p.fips);
 const hlLast = hl[hl.length - 1];
 const studies = prevalenceStudies(p.fips).sort((a, b) => b.fieldwork_year - a.fieldwork_year);
 const study = studies[0];
+const search = study ? null : prevalenceSearch(p.fips);
 const pickRate = (s: typeof study, m: string) => s?.rates.find((r) => r.measure === m) ?? null;
 const headlineRates = ([['past_year_gambling', 'Gambled in past year'], ['past_30_day_gambling', 'Gambled in past 30 days'], ['past_year_sports_betting', 'Bet on sports'], ['at_risk_or_problem', 'At risk or problem gambling'], ['high_risk', 'High risk or probable disorder']] as const)
   .map(([m, name]) => ({ r: pickRate(study, m), name })).filter((x) => x.r) as { r: NonNullable<ReturnType<typeof pickRate>>; name: string }[];
@@ -139,6 +140,7 @@ const missing = [
     {bkLast && <div><h3>Nonbusiness bankruptcy filings</h3><p>Twelve months ending {fmtDate(bkLast.period_end)}: {Number(bkLast.filings).toLocaleString()} filings{bkPk ? `, ${bkPk.value.toFixed(1)} per 100,000 residents (Census ${bkPk.pop!.year} estimate)` : ''}<sup class="fn">{cite(seriesP(bkLast))}</sup>.{bkFirst && bkFirst !== bkLast && bkFirstPk ? ` Twelve months ending ${fmtDate(bkFirst.period_end)}: ${bkFirstPk.value.toFixed(1)} per 100,000.` : ''} Filings respond to exemption law, income, debt, medical costs and court practice; a change after a legalization date is shown, not attributed.</p></div>}
     {hlLast && <div><h3>Problem gambling helpline</h3><p>{fmtDate(hlLast.period_start)} to {fmtDate(hlLast.period_end)}: {Number(hlLast.contacts).toLocaleString()} {label(hlLast.contact_type)}s, {hlLast.operator}<sup class="fn">{cite(seriesP(hlLast))}</sup>. Counting rule: {sentence(hlLast.counting_rule)} Helpline volume rises when the number is advertised more; it measures help-seeking, not prevalence.</p></div>}
     {study && <div><h3>Prevalence study, {study.fieldwork_year} fieldwork</h3><p>{study.title} ({study.conducted_by}; {study.instrument}{study.sample_size ? `; n = ${study.sample_size.toLocaleString()}` : ''}).<sup class="fn">{cite(study.provenance)}</sup> {headlineRates.map(({ r, name }, i) => <>{i > 0 && '; '}{name}: {r.value_pct}% of {r.denominator ?? 'respondents'}<sup class="fn">{cite(r.provenance)}</sup></>)}. Rates as published; not comparable with other studies unless the record says so.</p></div>}
+    {search && <div><h3>Prevalence study</h3><p>{search.found ? `A search on ${fmtDate(search.searched_on)} found a study not yet entered${search.candidates?.length ? `: ${search.candidates.map((c) => `${c.title}${c.year ? ` (${c.year})` : ''}`).join('; ')}` : ''}.` : `No state-level prevalence study found in a search on ${fmtDate(search.searched_on)}.`} Searched: {search.scope}</p></div>}
   </div>
 
   <h2>Legislation tracked</h2>

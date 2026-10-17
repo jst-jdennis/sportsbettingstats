@@ -2136,3 +2136,37 @@ sources:
   reliability_notes: Discussion papers are numbered (DP nnnnn) and stable by number.
   tier: primary
   fips: null
+- source_id: ga-lottery
+  publisher: Georgia Lottery Corporation
+  publisher_type: state_agency
+  title: Lottery for Education Act text, annual reports and audited financial statements
+  url: https://www.galottery.com/en-us/benefitting-georgia/lottery-for-education-act.html
+  access_method: html_table
+  update_cadence: annual
+  license: null
+  reliability_notes: The Georgia Lottery Corporation is a state instrumentality created by O.C.G.A. 50-27-1 et seq. and publishes its own copy of the Act; the official O.C.G.A. is published for the General Assembly by LexisNexis and is not section-linkable, so check the lottery's copy against the current Code before relying on it. Financial statements are PDFs under mapi.galottery.com and move when re-uploaded.
+  tier: primary
+  fips: '13'
+- source_id: ny-osc
+  publisher: New York State Office of the State Comptroller
+  publisher_type: state_agency
+  title: Reports and press releases on gaming revenue and the state budget
+  url: https://www.osc.ny.gov/
+  access_method: pdf
+  update_cadence: irregular
+  license: null
+  reliability_notes: Added 2026-10-17 for the problem gambling funding records; the Comptroller's sports wagering
+    reports summarize enacted budget provisions and should be paired with the statute or budget bill they describe.
+  tier: primary
+  fips: '36'
+- source_id: tn-tdmhsas
+  publisher: Tennessee Department of Mental Health and Substance Abuse Services
+  publisher_type: state_agency
+  title: Tennessee Sports Gaming Act annual reports on problem gambling funding and the department's problem gambling pages
+  url: https://www.tn.gov/behavioral-health.html
+  access_method: pdf
+  update_cadence: annual
+  license: null
+  reliability_notes: The department publishes the statutory annual report on its share of the sports wagering privilege tax by January 1 each year; report PDFs sit under tn.gov/content/dam/tn/mentalhealth/documents and move when the site is reorganized, so archive each one. The department's site now uses the name Department of Behavioral Health.
+  tier: primary
+  fips: '47'

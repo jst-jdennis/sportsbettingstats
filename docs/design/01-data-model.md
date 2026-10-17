@@ -266,6 +266,15 @@ across studies that use different instruments; the field renders a
 "not comparable" marker when two studies on the same page use different
 instruments.
 
+The same file carries `searches[]`: a log of dated searches for state
+prevalence studies (`fips`, `searched_on`, `searched_by`, `scope`, `found`,
+optional `candidates[]` of studies found but not yet entered, `notes`). The
+report card input `prevalence_searched` is true when a study is on file or
+when the latest search for the state found none; a search that found a
+study not yet entered leaves the input null, so no state is scored on a gap
+in entry. "No study found" is therefore always a recorded result of a dated
+search, never an absence of data.
+
 ## 6. Research library (`research/papers/<slug>.yaml`)
 
 | Field | Notes |

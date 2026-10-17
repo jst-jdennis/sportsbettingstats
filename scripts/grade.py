@@ -42,7 +42,12 @@ def load_bundle(abbr_dir: Path, prevalence: dict) -> dict:
     pg_path = abbr_dir / "pg_funding.yaml"
     pg = load_yaml(pg_path) if pg_path.exists() else None
     fips = str(profile["fips"]).zfill(2)
-    return {"profile": profile, "pg_funding": pg, "prevalence": [s for s in prevalence.get("studies", []) if str(s["fips"]).zfill(2) == fips]}
+    searches = sorted((x for x in prevalence.get("searches", []) or [] if str(x["fips"]).zfill(2) == fips), key=lambda x: str(x["searched_on"]))
+    return {
+        "profile": profile, "pg_funding": pg,
+        "prevalence": [s for s in prevalence.get("studies", []) if str(s["fips"]).zfill(2) == fips],
+        "prevalence_search": searches[-1] if searches else None,
+    }
 
 
 def prov_summary(block: dict | None) -> dict | None:
@@ -124,10 +129,16 @@ def d_pg_funding_mechanism(b: dict):
 
 
 def d_prevalence_searched(b: dict):
-    # The prevalence file is a national list; a state with no study on file has been searched as part of the
-    # Phase 2 pass only once its profile is full. Status-only profiles have not been searched.
-    full = b["profile"].get("profile_completeness") == "full"
-    return (True if (full or b["prevalence"]) else None, [])
+    # "No study found" must be the recorded result of a dated search, never an absence of entry. A study on
+    # file settles it. Otherwise the latest search record for the state settles it: found false means the
+    # search is the evidence; found true with nothing entered yet leaves the input null until the study is
+    # entered, so the state is scored on the study, not on the gap.
+    if b["prevalence"]:
+        return (True, [])
+    s = b.get("prevalence_search")
+    if s and not s["found"]:
+        return (True, [])
+    return (None, [])
 
 
 def d_prevalence_years_since_latest(b: dict, reference_year: int | None = None):
@@ -167,7 +178,7 @@ DERIVED_DOC = {
     "legal_age_min": "Minimum age across the legal_age rows; null when none are entered.",
     "credit_card_allowed": "consumer_protections.credit_card_deposits.allowed.",
     "pg_funding_mechanism": "funding_mechanism of the pg_funding.yaml record with the latest fiscal_year; null when the file is absent.",
-    "prevalence_searched": "True when the profile is full or a prevalence study is on file; null for status-only profiles, which have not been searched for studies.",
+    "prevalence_searched": "True when a prevalence study is on file, or when the latest dated search record for the state in prevalence_studies.yaml found none; null when no search has been recorded, or when a search found a study that is not yet entered.",
     "prevalence_years_since_latest": "Rubric effective year minus the latest fieldwork_year among the state's prevalence studies; null when none.",
 }
 

@@ -8,3 +8,6 @@ __pycache__/
 derived/
 archive/raw/
 .env
+
+# Agent worktrees created by the Claude Code harness
+.claude/worktrees/

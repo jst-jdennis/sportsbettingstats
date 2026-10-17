@@ -86,6 +86,16 @@ not edit the old value in place.
 Field definitions and allowed values are in `schemas/state_profile.schema.json`
 and `docs/design/01-data-model.md`.
 
+## How to record a prevalence study search
+
+Before a state can be scored on prevalence research it needs either a study
+record in `data/outcomes/prevalence_studies.yaml` or an entry under
+`searches:` in the same file saying when you searched, where (agency, regulator,
+lottery and university sites, and the terms used), and whether you found a
+state-level study. If you found one you cannot enter yet, list it under
+`candidates` with its URL; the state stays unscored on that criterion until the
+study is entered, so a found study is never counted as "none".
+
 ## How to add a bill
 
 1. Create `data/legislation/bills/<st>-<year>-<billnumber>.yaml`, for
@@ -190,6 +200,28 @@ pages; the script reports the longest.
 - Rates as decimals in data (0.13), percentages in copy.
 - State the procedural posture of any court ruling (preliminary relief or
   final judgment).
+
+### Classifying a funding mechanism
+
+`funding_mechanism` is what the report card scores, so apply one rule:
+
+- `statutory_earmark_pct_revenue` or `statutory_earmark_fixed` when the statute
+  (or constitution, or a ratified compact) itself fixes both the amount (a share
+  or a dollar figure, including a fixed sum per licensee or machine) and its
+  destination for problem gambling services. A statutory mandate that licensees
+  spend a set share themselves counts; say in `mechanism_text` that the money
+  does not pass through a state fund.
+- `license_fee` when the statute authorizes a fee or assessment whose amount, or
+  whose use for problem gambling, is left to the regulator.
+- `appropriation` when the amount is set in the budget each year, including a
+  statute that names the program or the revenue source but fixes no share or
+  sum, and a statute that lets an agency grant "up to" a capped amount at its
+  discretion.
+- `compact_payment` when a tribal compact term directs money to the state for
+  problem gambling services.
+- `none` only on the strength of an official statement that no public funding
+  exists; `unknown` when the mechanism could not be read from a primary
+  document, with the search described in `notes`.
 
 ## Report card grades
 
