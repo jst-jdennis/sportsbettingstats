@@ -134,7 +134,38 @@ consumer_protections:
       source_url: https://codes.ohio.gov/ohio-administrative-code/chapter-3775-12
       notes: OAC chapter 3775-12 (sports gaming voluntary exclusion) located by search on 2026-10-16; rule text not opened
         from this container.
-  deposit_limits: null
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: false
+    player_set_required_at_signup: false
+    cooling_off_on_increase_hours: null
+    statutory_cap_usd: null
+    authority_citation: OAC 3775-16-03 (sports gaming accounts; self-imposed limitations), version effective 2024-10-26
+    notes: >-
+      Sports gaming proprietors must give patrons an easy and obvious method to impose limitations on deposits,
+      wagers and time-based play, available immediately upon initial account registration and at all times on the
+      website or app. No default limit is imposed and the patron is not required to set one at registration. Once a
+      patron sets a limit, its severity may be reduced only upon expiration of the self-imposed period, so no fixed
+      hour count applies and cooling_off_on_increase_hours is left null. More restrictive proprietor-imposed limits
+      take priority. Quoted from a search excerpt of the cited page; the page itself could not be opened from the
+      drafting environment.
+    provenance:
+      <<: *ohleg
+      source_url: https://codes.ohio.gov/ohio-administrative-code/rule-3775-16-03
+      archive_url: sha256:9aa9826ea7a059d07eff35a8b89acd0ed4f9e3b436fcf4726f5b3c81c264096f
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      page_or_table: OAC 3775-16-03
+      notes: >-
+        Archived copy checked on 2026-10-17: OAC 3775-16-03 requires a self-imposed limitation method whose severity may be reduced only upon expiry of the self-imposed period, with automatically renewing limits available.
+        Excerpt language: limits must be available "immediately upon initial account registration" and "at all times"
+        on the website or app; "The self-imposed limitations set by a patron must not override more restrictive sports
+        gaming proprietor-imposed limitations. The more restrictive limitations must take priority"; "it must only be
+        possible to reduce the severity of self-imposed limitations upon the expiration of the self-imposed period."
+        Quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting
+        environment. Two versions exist (effective 2022-10-15 and 2024-10-26); confirm paragraph letters against the
+        current text.
   advertising:
   - rule_type: responsible_gambling_message_required
     text: Sports gaming advertisements must include a problem gambling message and direct the audience to a free helpline,
@@ -158,7 +189,30 @@ consumer_protections:
       <<: *ohleg
       source_url: https://codes.ohio.gov/ohio-administrative-code/chapter-3775-16
       notes: Subsection reference from a secondary summary of the rule; confirm against the rule text.
-  credit_card_deposits: null
+  credit_card_deposits:
+    allowed: true
+    authority_citation: OAC 3775-16-03 (permitted funding methods for a sports gaming account include credit or debit card); wagers may be funded only by the same means under OAC 3775-16-04(D)
+    notes: >-
+      The rule's list of methods by which a deposit-enabled sports gaming account may be funded includes "credit or
+      debit card" alongside cash or vouchers at approved locations, promotional credit, winnings, ACH, wire transfer
+      and any other means approved by the executive director, subject to the proprietor's house rules. No Ohio statute
+      or rule located by search prohibits credit card funding, so allowed is recorded as true because the funding
+      methods list permits it. Quoted from a search excerpt of the cited page; the page itself could not be opened
+      from the drafting environment.
+    provenance:
+      <<: *ohleg
+      source_url: https://codes.ohio.gov/ohio-administrative-code/rule-3775-16-03
+      archive_url: sha256:9aa9826ea7a059d07eff35a8b89acd0ed4f9e3b436fcf4726f5b3c81c264096f
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      page_or_table: OAC 3775-16-03
+      notes: >-
+        Archived copy checked on 2026-10-17: OAC 3775-16-03 allows accounts to be funded only through listed methods, including (b) credit or debit card.
+        Excerpt language: accounts may be funded "only through the use of" the listed methods, the list including
+        "(b) Credit or debit card"; the current version states "Effective: October 26, 2024" and the 2022 version lists
+        the same funding sources. Quoted from a search excerpt of the cited page; the page itself could not be opened
+        from the drafting environment.
   helpline_message:
     required: true
     required_number: Ohio Problem Gambling Helpline (ORC 3772.062) or the NCPG helpline; the rule does not fix a single number

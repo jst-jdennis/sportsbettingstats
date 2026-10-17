@@ -124,10 +124,187 @@ consumer_protections:
       source_url: https://responsibleplay.pa.gov/self-exclusion/
       notes: Board responsible play site. Terms confirmed from the Board's 2019 online self-exclusion release and 2023
         exclusion milestone release on gamingcontrolboard.pa.gov.
-  deposit_limits: null
-  advertising: null
-  credit_card_deposits: null
-  helpline_message: null
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: false
+    player_set_required_at_signup: false
+    cooling_off_on_increase_hours: null
+    statutory_cap_usd: null
+    authority_citation: 58 Pa. Code 814a.2 (responsible gaming self-limits), applied to interactive and mobile sports wagering accounts by 58 Pa. Code 1408a.14; see also 58 Pa. Code 812a.9 (player account controls)
+    notes: >-
+      A deposit limit must be offered on a daily, weekly and monthly basis and must specify the maximum amount a
+      registered player may deposit during the period; a limit on the amount of money spent on a daily, weekly and
+      monthly basis must also be offered. Any decrease may not be effective later than the player's next login; any
+      increase becomes effective only after the time period of the previous limit has expired and the player
+      reaffirms the requested increase, so the cooling-off period is the remainder of the limit period rather than a
+      fixed number of hours. Where system-imposed limitation values are greater than self-imposed values, the
+      system-imposed limitations take priority. 1408a.14 makes the Subpart L player account requirements apply to
+      sports wagering accounts used for interactive or mobile sports wagering. The excerpts show no default limit and
+      no requirement to set a limit at registration. Quoted from a search excerpt of the cited page; the page itself
+      could not be opened from the drafting environment.
+    provenance:
+      source_id: pa-legislature
+      source_url: https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/058/chapter814a/s814a.2.html&d=reduce
+      archive_url: sha256:b51b1f897495a188d5c7b90c5838211c8e93c0c65ccaca94e0802d8059180d52
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-17
+      reviewed_by: null
+      status: pending_review
+      page_or_table: 58 Pa. Code 814a.2; 1408a.14
+      notes: >-
+        Archived copy checked on 2026-10-17: 58 Pa. Code 814a.2 requires the system to let a registered player establish responsible gaming limits, and 1408a.14 applies the account rules to sports wagering accounts, including the right to suspend an account for at least 72 hours.
+        Pennsylvania Code as published on pacodeandbulletin.gov (Legislative Reference Bureau). Operative language in
+        the excerpt: a deposit limit must be offered on a daily, weekly and monthly basis and must specify the maximum
+        amount of money a registered player may deposit into his interactive gaming account during a particular
+        period of time; any decrease to these limits may not be effective later than the registered player's next
+        login; any increase to these limits must become effective only after the time period of the previous limit
+        has expired and the registered player reaffirms the requested increase. The cross-reference comes from the
+        excerpt of 58 Pa. Code 1408a.14 (chapter page
+        https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/058/chapter1408a/chap1408atoc.html&d=reduce):
+        a sports wagering certificate holder's or sports wagering operator's sports wagering system shall comply with
+        the player account requirements in Subpart L as it pertains to sports wagering accounts used by a patron to
+        participate in interactive or mobile sports wagering. Quoted from search excerpts of the cited pages; the
+        pages themselves could not be opened from the drafting environment.
+  advertising:
+    - rule_type: responsible_gambling_message_required
+      text: >-
+        Advertisements must contain a gambling assistance message that includes the telephone number established by
+        the Department of Drug and Alcohol Programs, in a font size set by medium and not obscured by design choices;
+        sports wagering advertising and promotions must comply with the advertising provisions of Subparts C to E, I
+        and L, and interactive gaming certificate holders and operators shall comply with 501a.7.
+      authority_citation: 58 Pa. Code 501a.7(d) and (e); 58 Pa. Code 1409a.1; 58 Pa. Code 813a.2
+      provenance:
+        source_id: pa-legislature
+        source_url: https://pacodeandbulletin.gov/secure/pacode/data/058/chapter501a/058_0501a.pdf
+        archive_url: sha256:49661826edf8bb84ddbe30b67edb7a8741429f26b4ea469d5d583e0351c4847b
+        retrieved_at: "2026-10-17"
+        retrieval_method: manual_entry
+        transform: null
+        entered_by: claude-draft-2026-10-17
+        reviewed_by: null
+        status: pending_review
+        page_or_table: 58 Pa. Code 501a.7(d), (e)
+        notes: >-
+          Archived copy checked on 2026-10-17: 58 Pa. Code 501a.7 (advertising) and 814a.4 (procedures to prevent an individual under 21 from receiving advertisements, promotions or target mailings) are in the archived chapters, and the Board's Industry Guidance 2024-06 on gambling assistance messaging is archived.
+          Operative language in the excerpt of the chapter 501a PDF: advertisements must contain a gambling assistance
+          message that includes the telephone number established by the Department of Drug and Alcohol Programs;
+          subsection (e) sets minimum font sizes by medium and subsection (c)(3) bars a font, type size, location,
+          lighting, illustration, graphic depiction or color obscuring conditions or limiting factors. The chapter
+          813a excerpt states that interactive gaming certificate holders and interactive gaming operators shall
+          comply with 501a.7, and the 2020 proposed rulemaking for chapter 1409a states that sports wagering
+          advertising and promotions must comply with Subparts C to E, I and L. The Board's Industry Guidance 2024-06
+          (https://gamingcontrolboard.pa.gov/sites/default/files/2026-08/PGCB%20Industry%20Guidance%20-%202024-06%20-%20Advertisement%20Requirements%20-%208.14.2024%20.pdf)
+          states that 501a.7 and 813a.2 require all advertisements of licensed operators to contain the required
+          gambling assistance message. Quoted from search excerpts of the cited pages; the pages themselves could not
+          be opened from the drafting environment. The operative text of 1409a.1 itself was not shown in any excerpt.
+    - rule_type: no_under_age_targeting
+      text: >-
+        The compulsive and problem gambling plan of an interactive gaming certificate holder or operator must include
+        procedures to prevent an individual under 21 years of age from receiving any advertisement, promotion or
+        other target mailing; these Subpart L requirements apply to interactive and mobile sports wagering.
+      authority_citation: 58 Pa. Code 814a.4; applied to interactive and mobile sports wagering through 58 Pa. Code 1409a.1 and 1410a
+      provenance:
+        source_id: pa-legislature
+        source_url: https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F058%2Fchapter814a%2Fchap814atoc.html
+        archive_url: sha256:7ee9c2c1ed927f40a7fcb28344abe79e95623a5a04cfad9d81a052ac778c2f27
+        retrieved_at: "2026-10-17"
+        retrieval_method: manual_entry
+        transform: null
+        entered_by: claude-draft-2026-10-17
+        reviewed_by: null
+        status: pending_review
+        page_or_table: 58 Pa. Code 814a.4
+        notes: >-
+          Archived copy checked on 2026-10-17: 58 Pa. Code 501a.7 (advertising) and 814a.4 (procedures to prevent an individual under 21 from receiving advertisements, promotions or target mailings) are in the archived chapters, and the Board's Industry Guidance 2024-06 on gambling assistance messaging is archived.
+          Operative language in the excerpt: operators must have procedures for preventing an individual under 21
+          years of age from receiving any advertisement, promotion or other target mailing. The 2018 and 2020
+          rulemaking excerpts state that interactive and mobile sports wagering follows the Subpart L compulsive and
+          problem gambling provisions and retail sports wagering follows Subpart I. Quoted from search excerpts of the
+          cited pages; the pages themselves could not be opened from the drafting environment.
+    - rule_type: other
+      text: >-
+        Interactive gaming and sports wagering advertising (television, radio, direct mail, email, text, billboards
+        and Pennsylvania print publications) may not consist of indecent or offensive graphics or audio, obscure the
+        game play area or obstruct a game in progress, contain content that contradicts the game rules or terms and
+        conditions, or specifically target players who have been excluded from play.
+      authority_citation: 58 Pa. Code 813a.2 (interactive gaming advertisements), applied to sports wagering by 58 Pa. Code 1409a.1
+      provenance:
+        source_id: pa-legislature
+        source_url: https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F058%2Fchapter813a%2Fchap813atoc.html&d=reduce
+        archive_url: sha256:fe73c961a264039a3eb377ed18bea1d3fdc9578fcf6382f9aa054965c327ff1f
+        retrieved_at: "2026-10-17"
+        retrieval_method: manual_entry
+        transform: null
+        entered_by: claude-draft-2026-10-17
+        reviewed_by: null
+        status: pending_review
+        page_or_table: 58 Pa. Code 813a.2
+        notes: >-
+          Archived copy checked on 2026-10-17: 58 Pa. Code 501a.7 (advertising) and 814a.4 (procedures to prevent an individual under 21 from receiving advertisements, promotions or target mailings) are in the archived chapters, and the Board's Industry Guidance 2024-06 on gambling assistance messaging is archived.
+          Operative language in the excerpt: the section reaches television or radio advertisements about interactive
+          gaming or sports wagering in Pennsylvania, direct mail, emails or texts sent to residents, billboards in the
+          Commonwealth and Pennsylvania-based print publications; advertising may not consist of indecent or offensive
+          graphics or audio, obscure the game play area or obstruct a game in progress, contain content that
+          contradicts the game rules or terms and conditions, or specifically target players who have been excluded
+          from play. Quoted from a search excerpt of the cited page; the page itself could not be opened from the
+          drafting environment.
+  credit_card_deposits:
+    allowed: true
+    authority_citation: 58 Pa. Code 812a.7 (funding of interactive gaming accounts; a player's credit card or debit card, including prepaid cards, is a listed funding method), applied to interactive and mobile sports wagering accounts by 58 Pa. Code 1408a.14
+    notes: >-
+      Permitted by the funding methods list: 812a.7 lists a player's credit card or debit card, including prepaid
+      cards, alongside cash, checks, reloadable prepaid cards and other methods. The same section bars an operator
+      from extending credit to a player or allowing deposits derived from the extension of credit by affiliates or
+      agents. 58 Pa. Code 1408a.5 requires sports wagering operators to display the methods of funding a sports
+      wager. No prohibition on credit card funding was found in the Subpart O or Subpart L excerpts; a 2024 Senate
+      bill (SB 1159) proposing a ban was reported but not confirmed enacted. Quoted from a search excerpt of the
+      cited page; the page itself could not be opened from the drafting environment.
+    provenance:
+      source_id: pa-legislature
+      source_url: https://www.pacodeandbulletin.gov/secure/pacode/data/058/chapter812a/058_0812a.pdf
+      archive_url: sha256:abe613e4bb1b7446924c6f38f08594513651a1dafb51b469f2572aa534f87272
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-17
+      reviewed_by: null
+      status: pending_review
+      page_or_table: 58 Pa. Code 812a.7
+      notes: >-
+        Archived copy checked on 2026-10-17: 58 Pa. Code 812a.7(3) lists a player's credit card or debit card, including prepaid cards, among permitted funding methods.
+        Operative language in the excerpt: the regulation lists a player's credit card or debit card, including
+        prepaid cards, as an accepted funding method; an operator shall neither extend credit to a player nor allow
+        the deposit of funds into an interactive gaming account that are derived from the extension of credit by
+        affiliates or agents. The search noted two versions of 812a.7 with different wording; confirm the current
+        text. Quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting
+        environment.
+  helpline_message:
+    required: true
+    required_number: 1-800-GAMBLER
+    authority_citation: 58 Pa. Code 501a.7(d) (gambling assistance message with the Department of Drug and Alcohol Programs telephone number in advertisements); 58 Pa. Code 813a.3 and 814a.1 (statement "If you or someone you know has a gambling problem, help is available. Call 1-800-GAMBLER" on promotions and displayed on login and logoff); PGCB Industry Guidance 2024-06
+    provenance:
+      source_id: pa-regulator
+      source_url: https://gamingcontrolboard.pa.gov/sites/default/files/2026-08/PGCB%20Industry%20Guidance%20-%202024-06%20-%20Advertisement%20Requirements%20-%208.14.2024%20.pdf
+      archive_url: sha256:a8506335f8568017528603a82d94f9bbc84688ee2937fb48b56e1270e89701a0
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-17
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Archived copy checked on 2026-10-17: the Board's Industry Guidance 2024-06 requires the gambling assistance message on advertising and branding; the telephone number itself was not matched in the extracted text, so the number rests on 501a.7.
+        Operative language in the excerpts: the Board's guidance states that its advertising regulations (58 Pa. Code
+        501a.7 and 813a.2) require all advertisements of PGCB licensed and regulated gaming operators to contain the
+        required gambling assistance message, applied to signage in or at sports venues and events, billboards,
+        television advertisements and sponsorship branding; the chapter 813a promotions excerpt gives the statement
+        "If you or someone you know has a gambling problem, help is available. Call 1-800-GAMBLER"; 814a.1 requires
+        the message to be prominently displayed to a person visiting or logging onto and logging off of the
+        interactive gaming skin. Quoted from search excerpts of the cited pages; the pages themselves could not be
+        opened from the drafting environment.
 limitations:
 - Pennsylvania reports revenue, promotional credits and taxable revenue as separate lines. Use taxable gross revenue
   when comparing with states that tax after promotional deductions and total revenue when comparing with states

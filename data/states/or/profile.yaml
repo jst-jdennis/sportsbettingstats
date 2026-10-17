@@ -138,9 +138,136 @@ consumer_protections:
     notes: The more recent version of the rule requires a personal deposit limit to be set when a player account is
       created; an earlier version made deposit, bet and time limits optional. Confirm which is in force.
     provenance: *orrg
-  advertising: null
-  credit_card_deposits: null
-  helpline_message: null
+  advertising:
+    - rule_type: other
+      text: >-
+        Television, radio and newspaper advertisements for a lottery game must carry a disclaimer stating a close
+        approximation of the odds of winning a prize and the prize payout percentage, in the form "The odds of winning
+        some prize are one in (some number). The prize payout percentage is (some number)."
+      authority_citation: ORS 461.220 (Oregon State Lottery advertising disclaimers); applies to Lottery advertising for all Lottery games, including Lottery sports betting
+      provenance: &oradv
+        source_id: or-legislature
+        source_url: https://www.oregonlegislature.gov/bills_laws/ors/ors461.html
+        archive_url: sha256:a3fba867d2b4ed8f2216a3f098a648d40532325fd4f5e4f08df2f65c13b0d78e
+        retrieved_at: "2026-10-17"
+        retrieval_method: manual_entry
+        transform: null
+        entered_by: claude-draft-2026-10-17
+        reviewed_by: null
+        status: pending_review
+        page_or_table: ORS 461.220
+        notes: >-
+          Archived copy checked on 2026-10-17: enrolled SB 914 (2025) amending ORS 461.220 carries the odds and payout disclaimers, the entertainment-only statement and the billboard problem gambling statement, and the ORS 461.820 code of practice language is in the archived 2021 HB 3078 amendment and ORS chapter.
+          Excerpt language: the disclaimer reads "The odds of winning some prize are one in (some number). The prize
+          payout percentage is (some number)." Quoted from a search excerpt of the cited page; the page itself could
+          not be opened from the drafting environment. ORS chapter 461 governs the Lottery as a whole; no sports
+          betting specific advertising rule was found in OAR chapter 177 (division 95 was not returned by search).
+    - rule_type: other
+      text: >-
+        Broadcast and print advertisements for lottery games must state that the games are based on chance and should
+        be played for entertainment only and not for investment purposes; a billboard promoting a lottery game must
+        state that lottery games should not be played for investment purposes, and a billboard publicizing a project
+        or program funded by Lottery revenue must carry an entertainment-only statement.
+      authority_citation: ORS 461.220(8) and (9) (billboards) and ORS 461.220 generally
+      provenance:
+        <<: *oradv
+        notes: >-
+          Excerpt summary: broadcast and print ads must say the games are based on chance and should be played for
+          entertainment only, not for investment purposes; billboards promoting a game carry the shorter statement that
+          lottery games should not be played for investment purposes (subsection (8)); billboards promoting funded
+          projects carry a separate entertainment-only line (subsection (9)). Subsection numbers as shown in the
+          excerpt; confirm against the current text, which SB 914 (2025) renumbered or amended. Quoted from a search
+          excerpt of the cited page; the page itself could not be opened from the drafting environment.
+    - rule_type: responsible_gambling_message_required
+      text: >-
+        Billboards that promote a lottery game, show where tickets are sold or publicize prize winners, and billboards
+        that publicize projects or programs funded by Lottery revenue, must include a problem gambling helpline
+        statement, "Need help with problem gambling? Call or text" followed by the telephone number of a problem
+        gambling helpline, in addition to the investment or entertainment disclaimer; applies to billboard advertising
+        first published on or after the effective date of the 2025 Act.
+      authority_citation: ORS 461.220 as amended by SB 914 (2025 Or. Laws ch. 185)
+      provenance:
+        <<: *oradv
+        source_url: https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB914
+        archive_url: https://web.archive.org/web/20250716023013/https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB914
+        page_or_table: Enrolled SB 914 (2025), amending ORS 461.220
+        notes: >-
+          Archived copy checked on 2026-10-17: enrolled SB 914 (2025) amending ORS 461.220 carries the odds and payout disclaimers, the entertainment-only statement and the billboard problem gambling statement, and the ORS 461.820 code of practice language is in the archived 2021 HB 3078 amendment and ORS chapter.
+          Excerpt language: billboards must carry a problem gambling helpline prompt, "Need help with problem gambling?
+          Call or text" followed by the phone number of a helpline; the provisions reach "billboard advertising first
+          published on or after the effective date of this 2025 Act." Chapter 185 per the OLIS measure page
+          (https://olis.oregonlegislature.gov/liz/2025R1/Measures/Overview/SB914); the effective date was not shown in
+          any excerpt and is not entered. Quoted from a search excerpt of the cited page; the page itself could not be
+          opened from the drafting environment.
+    - rule_type: no_under_age_targeting
+      text: >-
+        Under the Oregon State Lottery Responsible Gaming Code of Practice, Lottery communications, including
+        advertising and marketing, must not appeal specifically to vulnerable groups, including individuals under 18
+        years of age, and must report accurately the odds of winning lottery games.
+      authority_citation: ORS 461.820 (Responsible Gaming Code of Practice; advertising and marketing standards). Lottery sports betting itself is limited to players 21 and older under the Lottery's rules, but the statutory advertising threshold is 18
+      provenance:
+        <<: *oradv
+        source_url: https://www.oregonlegislature.gov/bills_laws/Archive/2015ors461.pdf
+        archive_url: sha256:a5b474e8286dff92d3006c3eddec0d80c30fcb8d3b7d1147f4b8c97420371f19
+        page_or_table: ORS 461.820 (section number per the 2021 HB 3078 amendment, which cites it; the 2015 edition excerpt did not show the number)
+        notes: >-
+          Archived copy checked on 2026-10-17: enrolled SB 914 (2025) amending ORS 461.220 carries the odds and payout disclaimers, the entertainment-only statement and the billboard problem gambling statement, and the ORS 461.820 code of practice language is in the archived 2021 HB 3078 amendment and ORS chapter.
+          Excerpt language (2015 edition of ORS chapter 461): "(A) Do not appeal specifically to vulnerable groups,
+          including individuals under 18 years of age; and (B) Report accurately the odds of winning lottery games."
+          The 2021 proposed amendment to ORS 461.820
+          (https://olis.oregonlegislature.gov/liz/2021R1/Downloads/ProposedAmendment/20345) carries the same limits
+          forward, which places them in that section; the current chapter page
+          (https://www.oregonlegislature.gov/bills_laws/ors/ors461.html) was not shown in an excerpt for this clause,
+          so confirm the current wording there. Quoted from a search excerpt of the cited page; the page itself could
+          not be opened from the drafting environment.
+  credit_card_deposits:
+    allowed: true
+    authority_citation: OAR 177-046-0027 (player account funding; no funding method is prohibited) and the Oregon Lottery's Scoreboard (DraftKings) funding page, which lists debit and credit cards
+    notes: >-
+      No Oregon statute or Lottery rule located by search prohibits funding a sports betting player account with a
+      credit card. OAR 177-046-0027 provides that the Lottery does not hold or manage money on behalf of players, that
+      the entity holding the player account does not charge for deposits or withdrawals, that payment processor fees
+      are the player's responsibility and that a charged-back deposit is removed and related winnings forfeited; a
+      DraftKings Sportsbook account is a player account under the rule. The Lottery, which is itself the operator,
+      states on its Scoreboard funding and FAQ pages that accounts may be funded from bank accounts and debit and
+      credit cards, that a Play+ account may be funded by debit and credit card, PayPal or personal bank account, and
+      that card funding is deposit only. Recorded as allowed because the operator's published funding methods permit
+      it and nothing prohibits it. Quoted from search excerpts of the cited pages; the pages themselves could not be
+      opened from the drafting environment.
+    provenance:
+      <<: *orrg
+      source_url: https://sports.oregonlottery.org/how-to-fund/
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      page_or_table: OAR 177-046-0027; Scoreboard funding page
+      notes: >-
+        Archiving on 2026-10-17 did not yield the section text: the archived OAR 177-046-0027 says the Lottery does not hold player money and lists no funding methods, and the Lottery's sports site could not be fetched, so the permitted-methods claim rests on the search excerpt; the clause rests on the search excerpt.
+        Funding page excerpt: debit and credit card, PayPal and personal bank account listed as Play+ funding options,
+        with a warning that some card issuers decline gambling transactions; FAQ (https://sports.oregonlottery.org/most-asked-questions/)
+        excerpt: accounts may be funded from "bank accounts, debit and credit cards". Rule excerpt (OAR 177-046-0027,
+        https://secure.sos.state.or.us/oard/viewSingleRule.action?ruleVrsnRsn=288692): "The entity holding the player
+        account does not charge for deposits or withdrawals in or out of the player account. Neither the Lottery, nor
+        the entity holding the player account, are responsible for any fees that may be charged to the player by a
+        payment processor, or financial institution." Quoted from search excerpts of the cited pages; the pages
+        themselves could not be opened from the drafting environment.
+  helpline_message:
+    required: true
+    required_number: null
+    authority_citation: ORS 461.220 as amended by SB 914 (2025 Or. Laws ch. 185), under which billboard advertising for lottery games and for Lottery-funded projects must carry a problem gambling helpline statement; the statute names no specific number
+    provenance:
+      <<: *oradv
+      source_url: https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB914
+      archive_url: https://web.archive.org/web/20250716023013/https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB914
+      page_or_table: Enrolled SB 914 (2025), amending ORS 461.220
+      notes: >-
+        Archived copy checked on 2026-10-17: enrolled SB 914, ORS 461.220(8)(b): billboards must carry the statement "Need help with problem gambling? Call or text" followed by a helpline number.
+        The requirement applies to billboards only; no statute or rule located by search requires a helpline message in
+        other sports betting advertising or on the Scoreboard platform, although the Lottery's sports betting pages
+        display 1-877-MYLIMIT (https://sports.oregonlottery.org/responsible-gaming/). The statutory text reads "Need
+        help with problem gambling? Call or text" followed by the phone number of a helpline, so required_number is
+        null. Effective date of the 2025 Act not shown in any excerpt. Quoted from a search excerpt of the cited page;
+        the page itself could not be opened from the drafting environment.
 limitations:
 - Oregon reports lottery sports betting as net lottery proceeds rather than taxable revenue, so the state has no tax
   rate to compare and its revenue line is not defined the same way as commercial states' gross gaming revenue.

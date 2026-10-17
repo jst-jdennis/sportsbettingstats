@@ -141,7 +141,41 @@ consumer_protections:
     provenance:
       <<: *mareg
       source_url: https://www.mass.gov/doc/205-cmr-256-sports-wagering-advertising/download
-  deposit_limits: null
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: false
+    player_set_required_at_signup: false
+    cooling_off_on_increase_hours: null
+    statutory_cap_usd: null
+    authority_citation: 205 CMR 248.16(1) (Sports Wagering Account Management; self-imposed daily, weekly and monthly deposit and wager limits), adopted under M.G.L. c. 23N, s. 13(e)(3). 205 CMR 238 (internal controls) does not itself set the patron limit rules; the search located them in 205 CMR 248.
+    notes: >-
+      Operators must offer daily, weekly and monthly deposit limits and daily, weekly and monthly wager limits, and
+      the limit options must be clearly and conspicuously displayed before a new account is registered; the rule does
+      not oblige the patron to set one, so mandatory_default and player_set_required_at_signup are false. A change
+      making a limit more restrictive is effective immediately. A change making a limit less restrictive takes effect
+      the next business day after the period of the previous limit has expired and the patron reaffirms the
+      requested increase, so no fixed number of hours is stated and cooling_off_on_increase_hours is left null. The
+      section was numbered 248.16 in the mass.gov text and 248.20 in a 2024 Commission redline; confirm the number
+      against the current compilation. Quoted from a search excerpt of the cited page; the page itself could not be
+      opened from the drafting environment.
+    provenance:
+      <<: *mareg
+      source_url: https://www.mass.gov/doc/205-cmr-248-sports-wagering-account-management/download
+      archive_url: https://web.archive.org/web/20261017163042/https://www.mass.gov/doc/205-cmr-248-sports-wagering-account-management/download
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      page_or_table: 205 CMR 248.16(1)
+      notes: >-
+        Archived copy checked on 2026-10-17: 205 CMR 248.16 (Responsible Gaming Limits) is in the archived chapter, and 248.10(3) bars deposits by credit card.
+        Quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting
+        environment. Excerpt: limits "must include the following and must be clearly and conspicuously displayed
+        prior to allowing registration of a new account", including "daily, weekly and monthly deposit limits, which
+        shall specify the maximum amount of money a patron may deposit into their Sports Wagering Account during a
+        particular period of time"; "A change to make these limits more restrictive shall be effective immediately";
+        a change to make them less restrictive "shall become effective the next business day after the time period of
+        the previous limit has expired, and the patron reaffirms the requested increase." The Commission's regulation
+        index page is https://www.mass.gov/regulations/205-CMR-24800-sports-wagering-account-management.
   advertising:
     - rule_type: no_under_age_targeting
       text: Advertising must state the 21 and over requirement and may not be aimed at persons under 21.

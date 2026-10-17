@@ -114,9 +114,81 @@ consumer_protections:
     provenance:
       <<: *irgc
       notes: Confirmed against the Commission's self-exclusion FAQs.
-  deposit_limits: null
-  advertising: null
-  credit_card_deposits: null
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: false
+    player_set_required_at_signup: false
+    cooling_off_on_increase_hours: 24
+    statutory_cap_usd: null
+    authority_citation: 491 IAC 13.5(3) (operation of an advance deposit sports wagering account; commission-approved account controls)
+    notes: >-
+      The rule requires the operator's commission-approved account controls to include a process that lets a player
+      easily and prominently set limits or notifications on deposits and wagers. Self-imposed limits must be applied
+      automatically, take effect immediately and be implemented as indicated by the player, and no change reducing
+      the severity of a self-imposed limit may be made for at least 24 hours (recorded as the cooling-off value). The
+      excerpt shows no default limit and no requirement to choose a limit at registration. Quoted from a search
+      excerpt of the cited page; the page itself could not be opened from the drafting environment.
+    provenance:
+      <<: *ialeg
+      source_url: https://www.legis.iowa.gov/docs/iac/rule/491.13.5.pdf
+      archive_url: sha256:c7948ea3eea5d3c52e127af92c26e0f2000b1a09901ab3fdb4ad899a433ca17d
+      retrieved_at: "2026-10-17"
+      entered_by: claude-draft-2026-10-17
+      page_or_table: 491 IAC 13.5(3)
+      notes: >-
+        Archived copy checked on 2026-10-17: 491 IAC 13.5: no change may reduce the severity of a self-imposed limitation for at least 24 hours.
+        Operative language in the excerpt: a process that lets players easily and prominently set limits or
+        notifications on deposits and wagers; self-imposed limitations must be applied automatically, take effect
+        immediately and be implemented as indicated by the player; once set, no changes can be made reducing the
+        severity of the self-imposed limitations for at least 24 hours. Quoted from a search excerpt of the cited
+        page; the page itself could not be opened from the drafting environment. The search also returned dated
+        versions of the same rule (04-08-2020 and 02-05-2025 PDFs) and a later amendment to the location-detection
+        language (ARC 7634C); confirm the 24-hour clause against the current consolidated text.
+  advertising:
+    - rule_type: responsible_gambling_message_required
+      text: >-
+        A licensee shall include information on the availability of the gambling treatment program in a substantial
+        number of the licensee's advertisements and printed materials.
+      authority_citation: 491 IAC 13.2 (conduct of all sports wagering; problem gambling provisions)
+      provenance:
+        <<: *ialeg
+        source_url: https://www.legis.iowa.gov/docs/iac/rule/02-05-2025.491.13.2.pdf
+        archive_url: sha256:400692d6d0102433e77c5a1f548efc822bcc401ceff58e4ab5aea1cc17cbed13
+        retrieved_at: "2026-10-17"
+        entered_by: claude-draft-2026-10-17
+        page_or_table: 491 IAC 13.2, problem gambling subrule
+        notes: >-
+          Archived copy checked on 2026-10-17: 491 IAC 13.2(7)(4): information on the availability of the gambling treatment program in a substantial number of advertisements and printed materials.
+          Excerpt of the official 02-05-2025 rule PDF: licensees must include information on the availability of the
+          gambling treatment program in a substantial number of the licensee's advertisements and printed materials,
+          identify problem gamblers, comply with the commission's process under Iowa Code 99F.4(22) and 491 IAC
+          5.4(12), and cooperate with the Iowa gambling treatment program. The rule names no helpline number in the
+          excerpt. Quoted from a search excerpt of the cited page; the page itself could not be opened from the
+          drafting environment.
+  credit_card_deposits:
+    allowed: false
+    authority_citation: Iowa Code 99F.9(7) (a licensee shall not accept a credit card, as defined in Iowa Code 537.1301, for sports wagering or to purchase coins, tokens or other forms of credit to be wagered on gambling games)
+    notes: >-
+      The credit card prohibition in Iowa Code 99F.9(7) predates sports wagering; 2020 legislation on legis.iowa.gov
+      amended subsection 7 to read that a licensee may not accept a credit card for sports wagering or to purchase
+      coins, tokens or other forms of credit to be wagered on gambling games. The Commission has enforced the
+      prohibition against advance deposit sports wagering operators. Quoted from a search excerpt of the cited page;
+      the page itself could not be opened from the drafting environment.
+    provenance:
+      <<: *ialeg
+      source_url: https://www.legis.iowa.gov/docs/code/99F.9.pdf
+      archive_url: sha256:1f358a5152296d8444a396db63a93a8eb2d6f822b11b5f6fd92177dd525f9b4d
+      retrieved_at: "2026-10-17"
+      entered_by: claude-draft-2026-10-17
+      page_or_table: Iowa Code 99F.9(7)
+      notes: >-
+        Archived copy checked on 2026-10-17: Iowa Code 99F.9(7): a licensee shall not accept a credit card as defined in section 537.1301, subsection 17, for sports wagering.
+        The amended subsection text (a licensee may not accept a credit card, as defined in section 537.1301,
+        subsection 17, for sports wagering or to purchase coins, tokens, or other forms of credit to be wagered on
+        gambling games) was quoted from a search excerpt of the 2020 bill explanation on legis.iowa.gov
+        (https://www.legis.iowa.gov/docs/publications/LGI/88/attachments/SF2411.html); the current Code PDF cited here
+        could not be opened from the drafting environment. A 2025 Commission stipulated agreement with Bally's cites
+        99F.9(7) for the same prohibition. Confirm the codified text of subsection 7 before verification.
   helpline_message: null
 limitations:
   - Iowa reports sports wagering net receipts, whose treatment of promotional play differs from gross revenue states; the base should be confirmed before cross-state revenue comparisons.
