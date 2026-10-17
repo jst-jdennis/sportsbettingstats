@@ -32,5 +32,10 @@ Long back-series requests live under `ingest/requests/manual/` and run only
 when dispatched with the `only` input (for example `manual/nj-dge-2018-2026`), so
 an ordinary push does not start an hour-long run.
 
+Each run also pushes its output to an orphan branch `ingest-results/run-<N>`
+so a development container without internet access can `git fetch` it. The
+workflow deletes all but the newest three of these branches on every run,
+so copy what you need from a results branch before three more runs happen.
+
 Requests are idempotent: re-running one supersedes restated rows rather
 than duplicating them. Delete a request file once its output is committed.
