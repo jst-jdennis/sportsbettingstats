@@ -385,3 +385,43 @@ def test_mi_workbook_statewide_group_and_operator_crosscheck():
     assert len(docs) == 1 and docs[0].url.startswith("https://www.michigan.gov/mgcb/-/media/x/Internet-Sports-Betting---2026.xlsx?rev=1&hash=2")
     with pytest.raises(LayoutChanged):
         src.parse(raw_for(FIX / "pa_pgcb_sports_wagering_fy2024-25.xlsx", None, "xlsx"))
+
+
+def test_ks_wide_spaced_edition_is_rebuilt_from_character_positions():
+    from wpdc_ingest.sources.ks_lottery_sports_wagering import KSLotterySportsWagering
+    src = KSLotterySportsWagering()
+    recs = {r["channel"]: r for r in src.parse(raw_for(FIX / "ks_lottery_sports_wagering_2025-04.pdf", Period.month(2025, 4), "pdf"))}
+    assert recs["all"]["handle_usd"] == recs["retail"]["handle_usd"] + recs["online"]["handle_usd"] > 100_000_000
+    assert recs["all"]["state_tax_usd"] > 0
+
+
+def test_oh_full_year_report_with_negative_cells_parses():
+    from wpdc_ingest.sources.oh_occc_sports_gaming import OHOCCCSportsGaming, repair_numbers
+    assert repair_numbers("1 3,374,834 13,410,654 86,468 - ( 122,288) 6 13,206") == [13_374_834, 13_410_654, 86_468, 0, -122_288, 613_206]
+    recs = OHOCCCSportsGaming().parse(raw_for(FIX / "oh_occc_sports_gaming_2025_report12.pdf", None, "pdf"))
+    assert sorted({r["month"] for r in recs}) == list(range(1, 13)) and len(recs) == 36
+
+
+def test_provenance_block_falls_back_to_the_content_hash():
+    from wpdc_ingest.core import provenance
+    raw = raw_for(FIX / "ks_lottery_sports_wagering_2026-01.pdf", Period.month(2026, 1), "pdf")
+    assert provenance.block("x", raw, method="pdf", entered_by="t")["archive_url"] == "sha256:" + "0" * 64
+
+
+def test_il_two_part_month_file_parses_and_crosschecks():
+    from wpdc_ingest.sources.il_igb_sports_wagering import ILIGBSportsWagering, REVENUE_DEFINITION, _forms
+    src = ILIGBSportsWagering()
+    raw = raw_for(FIX / "il_igb_sports_wagering_2026-08.txt", Period.month(2026, 8), "txt")
+    recs = {r["channel"]: r for r in src.parse(raw)}
+    assert recs["all"]["handle_usd"] == recs["retail"]["handle_usd"] + recs["online"]["handle_usd"] > 500_000_000
+    assert recs["all"]["agr"] > 50_000_000 and recs["online"]["agr"] > recs["retail"]["agr"]
+    assert round(recs["retail"]["agr"]) == 1_123_840  # the PDF edition's in-person AGR total
+    rows = [r.finalize() for r in src.normalize(list(recs.values()), raw)]
+    assert len(rows) == 3 and rows[0]["fips"] == "17" and rows[0]["gross_revenue_usd"] == rows[0]["adjusted_revenue_usd"] and rows[0]["revenue_definition"] == REVENUE_DEFINITION
+    with pytest.raises(LayoutChanged):
+        src.parse(raw_for(FIX / "il_igb_sports_wagering_2026-08.txt", Period.month(2026, 7), "txt"))
+    docs = src.discover(Period.month(2024, 5))
+    assert len(docs) == 1 and docs[0].get("measure") == "2024-05" and "Tax Summary Report" in docs[0].get("posts")
+    assert _forms(2024, 5)[1]["data"]["SearchCash"] == "Detail Report" and _forms(2024, 5)[0]["data"]["SearchEndMonth"] == "May"
+    series = src.discover(None)
+    assert series[0].period.start.isoformat() == "2020-03-01" and len(series) > 70

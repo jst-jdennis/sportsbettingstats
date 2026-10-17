@@ -10,7 +10,7 @@ import {
   headlineStatus, HEADLINE_LABEL, scopeQualifiers, earliestLaunch, fmtDate, pct, label, OUTCOME_LABEL, effectFigures, adoptionByYear,
   bankruptcy, handleRevenue, helpline, reviewSummary, source,
 } from './data';
-import { revenueChart, bankruptcyChart, bankruptcyTable, revenueTable, helplineChart, helplineTable, hlFor, hrFor, bkFor, per100k, MIN_POINTS, type SeriesChart } from './seriesCharts';
+import { revenueChart, bankruptcyChart, bankruptcyTable, revenueTable, helplineChart, helplineTable, hlFor, hrFor, bkFor, per100k, M, MIN_POINTS, type SeriesChart } from './seriesCharts';
 import { D, USD, N, R, L, seriesProv, type DataTable, type PageTables, type Cell } from './tables';
 
 const BASE = (import.meta.env.BASE_URL ?? '/').replace(/\/$/, '');
@@ -172,6 +172,21 @@ export function bankruptcyCrossSection() {
   const rows = bkAll.filter((r) => r.period_end === period).map((r) => { const p = byFips.get(r.fips)!; return { p, r, pk: per100k(Number(r.filings), r.fips, Number(r.period_end.slice(0, 4))), group: group(headlineStatus(p)) }; }).filter((x) => x.pk).sort((a, b) => b.pk!.value - a.pk!.value);
   return { period, rows };
 }
+/** Each state's latest month of regulated sportsbook rows: the all-channels row when the regulator reports one, else the single channel it reports. */
+export function revenueCrossSection() {
+  const byFips = new Map(profiles().map((p) => [p.fips, p]));
+  const out: { p: StateProfile; r: ReturnType<typeof handleRevenue>[number]; channels: string; months: number }[] = [];
+  for (const [fips, p] of byFips) {
+    const rows = hrFor(fips).filter((r) => r.market_segment === 'regulated_sportsbook' && r.status !== 'superseded');
+    if (!rows.length) continue;
+    const latest = rows.map((r) => r.period_start).sort().pop()!;
+    const inMonth = rows.filter((r) => r.period_start === latest);
+    const r = inMonth.find((x) => x.channel === 'all') ?? inMonth[0];
+    const chs = [...new Set(rows.map((x) => x.channel))].filter((c) => c !== 'all');
+    out.push({ p, r, channels: chs.length ? chs.map(label).join(' and ') : label(r.channel), months: new Set(rows.map((x) => x.period_start)).size });
+  }
+  return out.sort((a, b) => (Number(b.r.handle_usd) || 0) - (Number(a.r.handle_usd) || 0) || a.p.name.localeCompare(b.p.name));
+}
 export const BK_GROUP = { online: { cls: 's2', name: 'Online wagering live' }, retail: { cls: 's1', name: 'Retail wagering only' }, none: { cls: 's0', name: 'No live wagering' } } as const;
 export function outcomesPage(): PageTables {
   if (outcomesCache) return outcomesCache;
@@ -204,6 +219,14 @@ export function outcomesPage(): PageTables {
   for (const p of all) { const c = helplineChart(p, at(`helpline-${p.abbr.toLowerCase()}`)); if (c) { charts.helpline.push({ p, c }); tables.push(c.table); } }
   const hlRest = helpline().filter((r) => !charts.helpline.some((x) => x.p.fips === r.fips));
   if (hlRest.length) tables.push(helplineTable(hlRest, at('helpline'), 'Problem gambling helpline contacts, states with fewer than three periods on file', (f) => byFips.get(f)?.name ?? f));
+  const rc = revenueCrossSection();
+  if (rc.length) tables.push({
+    ...at('revenue-by-state'), title: 'Sports wagering handle and revenue, latest month on file for each state',
+    head: ['State', 'Month', 'Channels covered', 'Handle', 'Gross revenue', 'Taxable revenue', 'State tax', 'What the regulator calls revenue', 'Months on file'],
+    rows: rc.map(({ p, r, channels, months }) => [L(p.name, stateHref(p)), M(r.period_start), channels, USD(r.handle_usd, 'not published'), USD(r.gross_revenue_usd, 'not reported'), USD(r.adjusted_revenue_usd, 'not reported'), USD(r.state_tax_usd, 'not reported'), r.revenue_definition, months]),
+    prov: rc.map(({ r }) => seriesProv(r)), num: [3, 4, 5, 6, 8],
+    note: 'Latest month each regulator has published, for all channels the regulator reports together; states publish different months and define revenue differently, so the columns are not comparable across rows without reading the definition. No hold percentage is computed because handle includes wagers on future events in several states.',
+  });
   for (const p of all) { const c = revenueChart(p, at(`revenue-${p.abbr.toLowerCase()}`)); if (c) { charts.revenue.push({ p, c }); tables.push(c.table); } }
   outcomesChartCache = charts;
   if (prevalenceStudies().length) tables.push(prevalenceTable(page, null, true));

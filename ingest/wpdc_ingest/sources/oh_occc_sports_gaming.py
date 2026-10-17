@@ -53,6 +53,8 @@ TOKEN = re.compile(r"\(?-?[\d,]+\)?|-")
 def repair_numbers(tail: str) -> list[int]:
     """Numbers from a row's numeric tail, re-joining digits that pdfplumber split with a space."""
     s = re.sub(r"(\d) ,", r"\1,", tail.strip())
+    s = re.sub(r"\( +", "(", s)  # "( 122,288)" is a negative with a stray space after the parenthesis
+    s = re.sub(r" +\)", ")", s)
     toks = s.split()
     out: list[str] = []
     i = 0
