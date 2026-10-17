@@ -1,0 +1,256 @@
+# Prevalence studies: records of state-level gambling prevalence surveys.
+# Rates are copied as published; nothing is recomputed. Instruments, thresholds,
+# populations and survey modes differ between studies; see comparability_note.
+# Page references give the PDF page index first and the printed page number second.
+studies:
+  - study_id: nj-dge-prevalence-2015
+    fips: '34'
+    title: The Prevalence of Online and Land-Based Gambling in New Jersey (report to the Division of Gaming Enforcement)
+    authors: [Lia Nower, Rachel A. Volberg, Kyle R. Caler]
+    commissioned_by: New Jersey Division of Gaming Enforcement
+    conducted_by: Center for Gambling Studies, Rutgers University School of Social Work, with Gemini Research; data collection by Leger
+    published_at: '2017-05-17'
+    fieldwork_year: 2015
+    fieldwork_start: '2015-11-06'
+    fieldwork_end: '2015-12-16'
+    instrument: PGSI
+    instrument_note: Problem Gambling Severity Index among past-year gamblers. Low risk 1 to 2, moderate risk 3 to 7, high risk 8 or more. The report labels the high-risk group "probable disorder" and combines low and moderate risk as "problem gamblers".
+    sample_size: 3634
+    population: New Jersey adults aged 18 and over
+    mode: mixed
+    margin_of_error_pct_points: null
+    rates:
+      - measure: past_year_gambling
+        definition: Gambled in the past year, total sample (Table 6, "% Yes")
+        value_pct: 69.8
+        denominator: all respondents, N=3,634
+        provenance: &nj2015
+          source_id: nj-dge-prevalence-reports
+          source_url: https://www.nj.gov/oag/ge/2023news/NowerVolbergCaler2017PrevalenceofOnlineandLand-BasedGamblinginNewJersey.pdf
+          archive_url: sha256:dc35b46f42386c1b583d93cfa0ee05d3f9db3721b3abbd6488d6fa82380a5b63
+          retrieved_at: '2026-10-16'
+          retrieval_method: pdf
+          entered_by: claude-phase2-2026-10-16
+          status: pending_review
+          page_or_table: Table 6, PDF page 23 (printed page 17)
+      - measure: past_year_sports_betting
+        definition: Past-year participation in "Sporting Events" wagering, gamblers only (Table 6)
+        value_pct: 14.6
+        denominator: past-year gamblers, n=2,536
+        provenance: *nj2015
+      - measure: at_risk_or_problem
+        definition: Problem gamblers (low or moderate risk, PGSI 1 to 7), total sample (Table 26)
+        value_pct: 14.9
+        denominator: all respondents, N=3,634
+        provenance: &nj2015t26
+          <<: *nj2015
+          page_or_table: Table 26, PDF page 40 (printed page 34)
+      - measure: high_risk
+        definition: Probable disorder (high risk, PGSI 8 or more), total sample (Table 26)
+        value_pct: 6.3
+        denominator: all respondents, N=3,634
+        provenance: *nj2015t26
+    report_url: https://www.nj.gov/oag/ge/2023news/NowerVolbergCaler2017PrevalenceofOnlineandLand-BasedGamblinginNewJersey.pdf
+    comparability_note: Comparable with nj-dge-prevalence-2021 (same commissioning agency, instrument, thresholds and combined telephone plus online panel design). Not comparable with Kansas studies, which use a different nine-item screen and a past-30-day participation measure. The report itself cautions that the online panel reported far higher problem rates (10.5 percent probable disorder) than the telephone sample (0.3 percent), so the combined rate depends on the panel mix.
+    limitations: Telephone sample of 1,500 fielded November 17 to December 16, 2015 and online panel of 2,134 fielded November 6 to 17, 2015, combined and weighted to state demographics. Sports betting was not legal in New Jersey during fieldwork; the activity measured includes illegal and informal betting.
+    provenance:
+      <<: *nj2015
+      page_or_table: Cover and citation page (PDF pages 1 and 2); fieldwork PDF pages 16 and 19
+  - study_id: nj-dge-prevalence-2021
+    fips: '34'
+    title: The Prevalence of Online and Land-Based Gambling in New Jersey, second report to the Division of Gaming Enforcement
+    authors: [Lia Nower, Jackie F. Stanmyre, Vivien (Wen Li) Anthony]
+    commissioned_by: New Jersey Division of Gaming Enforcement
+    conducted_by: Center for Gambling Studies, Rutgers University School of Social Work; data collection by Leger
+    published_at: null
+    fieldwork_year: 2021
+    fieldwork_start: '2020-12-09'
+    fieldwork_end: '2021-05-08'
+    instrument: PGSI
+    instrument_note: Problem Gambling Severity Index among past-year gamblers. Low risk 1 to 2, moderate risk 3 to 7, high risk 8 or more; the report labels high risk "probable disorder" and combines low and moderate risk as "problem gamblers".
+    sample_size: 3512
+    population: New Jersey adults aged 18 and over
+    mode: mixed
+    margin_of_error_pct_points: null
+    rates:
+      - measure: past_year_gambling
+        definition: Reported gambling in the past year (61 percent, n=2,149 of 3,512; Table 27 shows 39.0 percent non-gamblers)
+        value_pct: 61.0
+        denominator: all respondents, N=3,512
+        provenance: &nj2021
+          source_id: nj-dge-prevalence-reports
+          source_url: https://www.nj.gov/oag/ge/2023news/PrevalenceReport2023Final.pdf
+          archive_url: sha256:18ca58574b7fae7980cc6287bfd038e7b056f1b87293e59aa48296b71f63c2d4
+          retrieved_at: '2026-10-16'
+          retrieval_method: pdf
+          entered_by: claude-phase2-2026-10-16
+          status: pending_review
+          page_or_table: Table 27, PDF page 38 (printed page 32); executive summary PDF page 10
+      - measure: past_year_sports_betting
+        definition: Past-year participation in "Sports Wagering", gamblers only (Table 7)
+        value_pct: 19.1
+        denominator: past-year gamblers, N=2,149
+        provenance:
+          <<: *nj2021
+          page_or_table: Table 7, PDF page 22 (printed page 16)
+      - measure: at_risk_or_problem
+        definition: Problem gamblers (low or moderate risk, PGSI 1 to 7), total sample (Table 27)
+        value_pct: 12.9
+        denominator: all respondents, N=3,512
+        provenance: *nj2021
+      - measure: high_risk
+        definition: Probable disorder (high risk, PGSI 8 or more), total sample (Table 27)
+        value_pct: 5.6
+        denominator: all respondents, N=3,512
+        provenance: *nj2021
+    report_url: https://www.nj.gov/oag/ge/2023news/PrevalenceReport2023Final.pdf
+    comparability_note: Comparable with nj-dge-prevalence-2015 (same design and instrument). The report notes that fieldwork fell within a year of the 2020 COVID-19 shutdowns, which may have depressed participation. The report file is dated 2023 and was released by the Attorney General's office in September 2023; the exact release date is not stated in the document and is left null.
+    limitations: Telephone sample of 1,502 fielded December 9, 2020 to April 30, 2021 (8.2 percent response rate) and online panel of 2,010 fielded December 22, 2020 to May 8, 2021, combined and weighted to 2019 Census distributions. The survey does not distinguish regulated from unregulated gambling.
+    provenance:
+      <<: *nj2021
+      page_or_table: Cover and citation page (PDF pages 1 and 2); fieldwork PDF page 15
+  - study_id: ks-kdads-gambling-survey-2017
+    fips: '20'
+    title: 2017 Kansas Gambling Survey, statewide and regional results
+    authors: null
+    commissioned_by: Kansas Department for Aging and Disability Services
+    conducted_by: Learning Tree Institute at Greenbush, Research and Evaluation Department; survey administration by ETC Institute, Olathe, Kansas
+    published_at: null
+    fieldwork_year: 2017
+    fieldwork_start: null
+    fieldwork_end: null
+    instrument: other
+    instrument_note: Nine problem gambling screening questions following the 2012 Kansas survey. Low risk is no positive response, moderate risk one to three, high risk four or more (Table 13).
+    sample_size: 1755
+    population: Kansas adults, stratified random sample of households by gambling region
+    mode: mixed
+    margin_of_error_pct_points: 2.3
+    rates:
+      - measure: past_30_day_gambling
+        definition: Gambled for money or anything of value in the past 30 days (2017 figure as restated in the 2025 executive summary; the 2017 report's Table 10 should be checked on review)
+        value_pct: 19.1
+        denominator: all respondents, n=1,755
+        provenance: &ks2017restated
+          source_id: ks-legislature
+          source_url: https://kslegislature.gov/li/b2025_26/committees/ctte_spc_2025_on_fed_and_st_aff_1/documents/testimony/20250922_27.pdf
+          archive_url: sha256:43433b225e7b2365af89dbeee312d286d86a7e29472825512f3aac34334daf53
+          retrieved_at: '2026-10-16'
+          retrieval_method: pdf
+          entered_by: claude-phase2-2026-10-16
+          status: pending_review
+          page_or_table: 2025 executive summary, PDF page 3 (printed page 2)
+      - measure: low_risk
+        definition: Low risk, no positive response to any of the nine screening questions (2017 report, summary of findings)
+        value_pct: 87.2
+        denominator: all respondents, n=1,755 (the report's "study participants")
+        provenance: &ks2017
+          source_id: ks-kdads
+          source_url: https://www.kdads.ks.gov/home/showpublisheddocument/568/638507608991730000
+          archive_url: https://web.archive.org/web/20250209021724id_/https://www.kdads.ks.gov/home/showpublisheddocument/568/638507608991730000
+          retrieved_at: '2026-10-16'
+          retrieval_method: pdf
+          entered_by: claude-phase2-2026-10-16
+          status: pending_review
+          page_or_table: Summary of findings, PDF page 10; risk categories Table 13, PDF page 33 (printed page 25)
+          notes: Archived copy sha256 21af979e150d5e3c334bff986101b412fbfdc89510287baef00ac08f26709a2a, fetched through the Wayback Machine because kdads.ks.gov refused the archiver.
+      - measure: moderate_risk
+        definition: Moderate risk, one to three positive responses (2017 report)
+        value_pct: 10.1
+        denominator: all respondents, n=1,755 (the report's "study participants")
+        provenance: *ks2017
+      - measure: high_risk
+        definition: High risk, four or more positive responses (2017 report)
+        value_pct: 2.7
+        denominator: all respondents, n=1,755 (the report's "study participants")
+        provenance: *ks2017
+    report_url: https://www.kdads.ks.gov/home/showpublisheddocument/568/638507608991730000
+    comparability_note: The 2025 Kansas Gambling Survey executive summary restates this wave as 84.4 percent low, 11.6 percent moderate and 4.0 percent high risk, which does not match the 2017 report's own 87.2, 10.1 and 2.7 percent, and the summary does not state its cut points. The two waves share the nine screening questions, but the restated baseline suggests the 2025 summary recut the categories; treat the "more than tripled" comparison in that summary as unconfirmed until the full 2025 report states its thresholds. Not comparable with the New Jersey PGSI studies.
+    limitations: Mail survey with an online option, posted September 8, 2017 to a stratified random sample of households; exact close of fieldwork is not stated. Weighted by age only. Sports betting was not legal in Kansas in 2017.
+    provenance:
+      <<: *ks2017
+      page_or_table: Cover (PDF page 1) and Methodology (PDF page 21, printed page 13)
+  - study_id: ks-kdads-gambling-survey-2025
+    fips: '20'
+    title: Kansas 2025 Gambling Survey, executive summary
+    authors: null
+    commissioned_by: Kansas Department for Aging and Disability Services
+    conducted_by: Learning Tree Institute at Greenbush
+    published_at: null
+    fieldwork_year: 2025
+    fieldwork_start: null
+    fieldwork_end: null
+    instrument: other
+    instrument_note: Nine problem gambling screening questions; low, moderate or high risk by the number of yes responses. Instrument name and cut points are not stated in the executive summary.
+    sample_size: 1645
+    population: Adult Kansans
+    mode: not_stated
+    margin_of_error_pct_points: 2.4
+    rates:
+      - measure: past_30_day_gambling
+        definition: Reported gambling in the past 30 days
+        value_pct: 34.2
+        denominator: all respondents, n=1,645
+        provenance: &ks2025
+          source_id: ks-legislature
+          source_url: https://kslegislature.gov/li/b2025_26/committees/ctte_spc_2025_on_fed_and_st_aff_1/documents/testimony/20250922_27.pdf
+          archive_url: sha256:43433b225e7b2365af89dbeee312d286d86a7e29472825512f3aac34334daf53
+          retrieved_at: '2026-10-16'
+          retrieval_method: pdf
+          entered_by: claude-phase2-2026-10-16
+          status: pending_review
+          page_or_table: PDF page 3 (printed page 2)
+          notes: Executive summary prepared for KDADS by the Learning Tree Institute at Greenbush, as submitted to the Special Committee on Federal and State Affairs, September 22, 2025.
+      - measure: other
+        definition: Engaged in at least one of the 14 gambling activities asked on the survey (reference period not stated)
+        value_pct: 70.8
+        denominator: all respondents, n=1,645
+        provenance: *ks2025
+      - measure: low_risk
+        definition: Low risk of problem gambling by the nine screening questions, 2025
+        value_pct: 58.7
+        denominator: all respondents, n=1,645 (chart titled "Percent of Respondents at Each Risk Level")
+        provenance: &ks2025risk
+          <<: *ks2025
+          page_or_table: PDF page 5 (printed page 4), risk level chart
+      - measure: moderate_risk
+        definition: Moderate risk of problem gambling, 2025
+        value_pct: 21.4
+        denominator: all respondents, n=1,645 (chart titled "Percent of Respondents at Each Risk Level")
+        provenance: *ks2025risk
+      - measure: high_risk
+        definition: High risk of problem gambling, 2025
+        value_pct: 20.0
+        denominator: all respondents, n=1,645 (chart titled "Percent of Respondents at Each Risk Level")
+        provenance: *ks2025risk
+      - measure: other
+        definition: Reported placing a sports bet (reference period not stated; "Sports Betting Insights")
+        value_pct: 36.8
+        denominator: all respondents
+        provenance:
+          <<: *ks2025
+          page_or_table: PDF page 12 (printed page 11)
+    report_url: https://kslegislature.gov/li/b2025_26/committees/ctte_spc_2025_on_fed_and_st_aff_1/documents/testimony/20250922_27.pdf
+    comparability_note: Pairs with ks-kdads-gambling-survey-2017 by the document's own design, but the summary's 2017 baseline (84.4, 11.6 and 4.0 percent) does not match the 2017 report (87.2, 10.1 and 2.7 percent with cut points 0, 1 to 3 and 4 or more), and the summary does not state its own cut points. Until the full 2025 report is archived, the risk-level trend between the waves is unconfirmed. Not comparable with the New Jersey PGSI studies; the Kansas high-risk category is a count of yes answers on a nine-item screen, not a validated clinical threshold. The margin of error of 2.4 points applies to the full sample at 95 percent confidence.
+    limitations: Executive summary only; the full report on kdads.ks.gov refused the archiver on 2026-10-16. Fieldwork dates, survey mode and weighting are not stated in the summary. Sports betting legalized in Kansas in 2022, between the two waves.
+    provenance: *ks2025
+
+# Searches: dated records of looking for a state's prevalence studies. "No study found" on a report card
+# is always one of these, never an absence of entry. A study found but not yet entered is listed under
+# candidates and leaves the state unscored on that criterion until it is entered.
+searches:
+  - fips: "40"
+    searched_on: "2026-10-17"
+    searched_by: claude-draft-2026-10-17
+    scope: >-
+      Web search for an Oklahoma statewide adult gambling prevalence survey: Oklahoma Department of Mental Health and
+      Substance Abuse Services pages, the Oklahoma Association on Problem Gambling and Gaming, press coverage used only
+      to locate a report, 2014 to 2026.
+    found: true
+    candidates:
+      - title: Oklahoma statewide gambling survey of 4,050 adults, fielded April to August 2022 by Elite Research for the Oklahoma Association on Problem Gambling and Gaming, analyzed at Texas Tech University
+        year: 2022
+        url: https://www.oapgg.org/oklahoma-gambling-statistics
+        note: Commissioned by a nonprofit council, not the state; described in a later citation as a non-probability sample. Headline figures reported on the association's page (6.3 percent meeting gambling disorder criteria, 23.5 percent at risk, 57.9 percent gambled in the past year) are not entered until the report itself is read and archived; the association's site did not resolve from the build environment and is queued for archiving.
+    notes: >-
+      Oklahoma Watch reported in December 2014 that the state had never commissioned a prevalence study; no state-commissioned
+      study was found for any later year.
