@@ -1,0 +1,52 @@
+fips: 08
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_fixed
+  mechanism_text: Sports betting tax, license fees and fines are credited to the sports betting fund created by C.R.S. 44-30-1509.
+    After the Division of Gaming's administrative costs the state treasurer transfers six percent of full fiscal year revenue
+    to the wagering revenue recipients hold-harmless fund, a fixed 130,000 dollars a year to the Behavioral Health Administration
+    for the prevention, education and treatment of gambling disorders, and the remainder to the water plan implementation
+    cash fund. House Bill 22-1402 created the responsible gaming grant program in the Department of Revenue, administered
+    by the Limited Gaming Control Commission with the Behavioral Health Administration, and its cash fund (C.R.S. 44-30-1702(8))
+    receives hold-harmless money not disbursed within two years, a transfer from the limited gaming (casino tax) fund under
+    C.R.S. 44-30-701(2)(a)(VI.5), and a 200,000 dollar annual lottery fund appropriation.
+  administering_agency: Colorado Department of Revenue, Division of Gaming and Limited Gaming Control Commission, with the
+    Behavioral Health Administration
+  includes:
+  - prevention
+  - treatment
+  - research
+  - training
+  authority_citation: C.R.S. 44-30-1509(2)(c) (sports betting fund distributions, including the Behavioral Health Administration
+    transfer); C.R.S. 44-30-1702 (responsible gaming grant program and cash fund); C.R.S. 44-30-701(2)(a)(VI.5)
+  provenance:
+    source_id: co-legislature
+    source_url: https://content.leg.colorado.gov/sites/default/files/documents/2024A/bills/sl/2024a_sl_212.pdf
+    archive_url: https://web.archive.org/web/20261017011750/https://content.leg.colorado.gov/sites/default/files/documents/2024A/bills/sl/2024a_sl_212.pdf
+    retrieved_at: '2026-10-17'
+    retrieval_method: pdf
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Session Laws 2024, chapter 212 (HB 24-1436), amending C.R.S. 44-30-1509
+    notes: 'Search on 2026-10-17 confirmed from the statute excerpts that 44-30-1509 directs a transfer of 130,000 dollars
+      annually to the behavioral health administration, that hold-harmless money not disbursed within two years moves to the
+      responsible gaming grant program cash fund created in 44-30-1702(8), and that the cash fund also receives limited gaming
+      fund money under 44-30-701(2)(a)(VI.5); the documents could not be opened from this container, so the operative language
+      is quoted from search excerpts and the Legislative Council''s Proposition DD description ("the Office of Behavioral
+      Health to fund the prevention and treatment of gambling addictions or disorders"). A Senate floor amendment to HB 24-1436
+      (https://leg.colorado.gov/bill_amendments/9650/download) would have added a third-priority transfer of one and three-fourths
+      percent of sports betting tax revenue, capped at 1.75 percent of 29 million dollars, to the responsible gaming grant
+      program cash fund; whether it was adopted into chapter 212 was not confirmed, and if it was, the mechanism should be
+      changed to statutory_earmark_pct_revenue. HB 22-1402 bill page: https://leg.colorado.gov/bills/HB22-1402. The amount
+      will come from the Division of Gaming''s responsible gaming grant documents: the 2025 grant round budget was stated
+      as 3,040,000 dollars (https://sbg.colorado.gov/sites/sbg/files/documents/2025%20-%20Responsible%20Gaming%20Grants%20_0.pdf)
+      and the 2026 awards totaled about 3.7 million dollars (https://sbg.colorado.gov/news-article/2026-responsible-gaming-grants-awarded-totaling-37-million-dollars);
+      the mapping of grant cycles to state fiscal years was not confirmed, so no amount is entered. The Behavioral Health
+      Administration''s annual Gambling Addiction Program report under C.R.S. 44-30-1301(2)(b)(II) is the other source for
+      amounts. Archiving on 2026-10-17 did not yield the section text: the archived Session Laws 2024 chapter 212 PDF does
+      not contain the 130,000 dollar transfer or the responsible gaming grant fund language, which must come from the codified
+      C.R.S. 44-30-1509 and 44-30-1702; the clause remains as taken from the search excerpt until a reviewer opens the page.'

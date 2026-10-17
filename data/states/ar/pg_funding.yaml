@@ -1,0 +1,43 @@
+fips: '05'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_fixed
+  mechanism_text: Amendment 100 to the Arkansas Constitution (the 2018 casino gaming amendment, which also authorizes sports
+    wagering at the licensed casinos) requires the Arkansas Racing Commission to provide not less than 200,000 dollars annually
+    for compulsive gambling disorder treatment programs and compulsive gambling disorder educational programs, to be developed
+    with the Department of Human Services, which may adopt rules and may be contracted to administer them. The casino gaming
+    tax itself is split among the state general revenue, the Racing Commission purse funds and the host counties and cities
+    with no percentage for problem gambling. Since November 2022 the Commission has met the requirement through a 200,000
+    dollar annual contract with the Arkansas Problem Gambling Council. The Arkansas Scholarship Lottery's former 200,000 dollar
+    annual contribution was repealed in 2015, though the lottery still pays for the helpline.
+  administering_agency: Arkansas Racing Commission (Department of Finance and Administration), with the Department of Human
+    Services
+  includes:
+  - treatment
+  - prevention
+  authority_citation: Ark. Const. amend. 100, Section 4(r) (Arkansas Casino Gaming Amendment of 2018)
+  provenance:
+    source_id: ar-secretary-of-state
+    source_url: https://www.sos.arkansas.gov/uploads/elections/Issue_4_for_Website.pdf
+    archive_url: sha256:589b7e8e978198d81a9a94a7edc5319706e2159dcee053f5a318adec40618b6d
+    retrieved_at: '2026-10-17'
+    retrieval_method: pdf
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Section 4, subsection (r)
+    notes: 'The Secretary of State''s copy of the amendment text could not be opened from this container; search excerpts
+      of the amendment on 2026-10-17 place the requirement in subsection (r) of the licensing section, with the Racing Commission
+      required to provide at least 200,000 dollars a year, the Department of Human Services authorized to promulgate rules,
+      and the clause "The Arkansas Racing Commission may contract with the Department of Human Services for providing all
+      services related to and administration of the compulsive gambling disorder treatment programs and the compulsive gambling
+      disorder educational programs". The subsection letter and section number should be confirmed against the PDF. Implementation
+      history (no funding until a December 2021 rainy day fund transfer, a 2021 illegal exaction suit dismissed in 2022, and
+      the Arkansas Problem Gambling Council contract from November 1, 2022, renewable annually) comes from press coverage
+      and is not cited. Amount to be taken from the Racing Commission''s contract or the DFA budget; the constitutional minimum
+      is 200,000 dollars. Archived copy checked on 2026-10-17: Amendment 100 as archived from the Secretary of State, subsection
+      (r)(1): the Arkansas Racing Commission shall provide an annual amount of at least 200,000 dollars for compulsive gambling
+      disorder treatment and educational programs, working with the Department of Human Services.'

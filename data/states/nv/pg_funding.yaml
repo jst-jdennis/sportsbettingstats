@@ -1,0 +1,49 @@
+fips: '32'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_fixed
+  mechanism_text: NRS 463.320 requires the Nevada Gaming Commission to deposit quarterly in the Revolving Account to Support
+    Programs for the Prevention and Treatment of Problem Gambling an amount equal to 2 dollars for each slot machine subject
+    to the state slot machine license fee; the deposit is a fixed amount per machine, not a share of gaming revenue. NRS 458A.090
+    creates the account in the State General Fund, to be administered by the Director of the Department of Health and Human
+    Services for grants or contracts for prevention and treatment programs, data collection, needs assessment, evaluation
+    and technical assistance, with no more than 10 percent for administration. Sports pool revenue contributes nothing specific
+    to the account; its size tracks the number of slot machines in the state and has declined as machine counts fell.
+  administering_agency: Nevada Department of Health and Human Services, Division of Public and Behavioral Health
+  includes:
+  - treatment
+  - prevention
+  - research
+  authority_citation: NRS 463.320 (quarterly deposit of 2 dollars per slot machine); NRS 458A.090 (Revolving Account)
+  provenance:
+    source_id: nv-legislature
+    source_url: https://www.leg.state.nv.us/nrs/nrs-463.html#NRS463Sec320
+    archive_url: sha256:97a6a695b5a14950655e2b6d2acaa701d83f7745aa1fa680e1e5933418505ff4
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: NRS 463.320
+    notes: 'Operative language as excerpted: the Commission must "deposit quarterly in the Revolving Account" an amount "equal
+      to $2 for each slot machine" on which the Commission collects the license fee; NRS 458A.090 (https://www.leg.state.nv.us/nrs/NRS-458A.html)
+      creates "the Revolving Account to Support Programs for the Prevention and Treatment of Problem Gambling in the State
+      General Fund" and says "The Director shall administer the Account" and may use "not more than 10 percent of the money
+      in the Account" for administration. The DHHS Problem Gambling Services FY24-FY27 strategic plan (dpbh.nv.gov) states
+      that "funding was restored to the $2 per slot machine revenue calculation" in FY 2014 and that transfers have fallen
+      since. A 2019 bill (SB 535, 80th Session) would have replaced the per-machine deposit with 0.6 percent of the percentage
+      fee on gross revenue; no evidence that it or any later bill was enacted was found, and the Gaming Control Board''s 2022
+      fact sheet still describes the 2 dollar deposit, so the fixed per-machine formula is recorded. The subsection letter
+      within NRS 463.320 was not confirmed. The amount for state fiscal year 2025 should be taken from budget account 3200
+      (Prev/Treat of Problem Gambling) in the 2025 Legislature''s budget pages (https://archive.leg.state.nv.us/Session/83rd2025/Budgets/3200.pdf)
+      or the Division''s SFY25 fiscal report (https://www.dpbh.nv.gov/siteassets/programs/problemgambling/acpg/2025/Problem_Gambling_Services_SFY25_Fiscal_Report_1.31.25.pdf);
+      the excerpt seen showed roughly 2.55 million dollars in one unlabeled total and a one-shot SB 341 category of 481,888
+      dollars, which was not entered because the column labels could not be read. Outbound web fetches were blocked from the
+      drafting container, so quotes come from search-engine excerpts of the cited pages. Archiving on 2026-10-17 did not yield
+      the section text: NRS chapter 463 as archived does not contain the two-dollars-per-slot-machine deposit in section 463.320,
+      which is the fee collection section; NRS 458A.090 as archived confirms the Revolving Account to Support Programs for
+      the Prevention and Treatment of Problem Gambling, so the funding clause''s section number still has to be identified;
+      the clause remains as taken from the search excerpt until a reviewer opens the page.'

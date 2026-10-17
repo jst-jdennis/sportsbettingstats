@@ -1,0 +1,50 @@
+fips: '25'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_pct_revenue
+  mechanism_text: Sports wagering excise under M.G.L. c. 23N section 14 (15 percent of in-person and 20 percent of mobile
+    adjusted gross sports wagering receipts) is deposited in the Sports Wagering Fund, and c. 23N section 17 directs the Gaming
+    Commission to transfer 9 percent of the fund to the Public Health Trust Fund established by c. 23K section 58. Casino
+    gross gaming revenue tax is distributed under c. 23K section 59, which sends 5 percent of the Gaming Revenue Fund to the
+    Public Health Trust Fund, and c. 23N section 15 deposits an operator fee in the same fund. The Secretary of Health and
+    Human Services is trustee of the Public Health Trust Fund, which pays for prevention, treatment and research on gambling-related
+    problems, and annual budget acts have altered the percentages for particular license categories in some years.
+  administering_agency: Massachusetts Executive Office of Health and Human Services (trustee); Department of Public Health,
+    Office of Problem Gambling Services
+  includes:
+  - treatment
+  - prevention
+  - research
+  authority_citation: M.G.L. c. 23N, s. 17 (9 percent of the Sports Wagering Fund to the Public Health Trust Fund); M.G.L.
+    c. 23K, s. 58 and s. 59(k)
+  provenance:
+    source_id: ma-legislature
+    source_url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter23N/Section17
+    archive_url: sha256:09b437b66c023ca622d1e80c2f65cd33bc7cdd3e15316c7ce23ad6b680398bad
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: 'c. 23N s. 17 establishes the Sports Wagering Fund, consisting of revenues collected under sections 6 and 14, and
+      its transfer schedule includes "9 per cent to the Public Health Trust Fund established in section 58 of chapter 23K".
+      The lead citing c. 23N s. 14 was off by one section: s. 14 (https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter23N/Section14)
+      sets the excise rates (15 percent in person, 20 percent mobile, 15 percent fantasy contests) and the distribution is
+      in s. 17. c. 23K s. 58 (https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter23K/Section58): "There is hereby
+      established and set up on the books of the commonwealth a separate fund to be known as the Public Health Trust Fund";
+      c. 23K s. 59 (https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter23k/Section59) lists "5 per cent to the
+      Public Health Trust Fund established in section 58". The s. 15 operator fee deposit (search excerpt describes an annual
+      1,000,000 dollar assessment per operator deposited to the fund) and the budget-act variations (the FY2027 final budget
+      lists 9 per cent for one category 1 revenue stream) need to be confirmed on the pages. Retrieval caveat: the network
+      policy of the drafting environment blocked malegislature.gov, so the quoted language comes from search-index excerpts
+      of these pages, not from loading them. Amount: not entered. Take the fiscal year receipts from the Public Health Trust
+      Fund annual report or the Comptroller''s trust fund statements; the Gaming Commission''s FY2025 annual report (https://malegislature.gov/Bills/194/SD4066.pdf)
+      gives 151.41 million dollars of sports wagering tax and 340.63 million dollars of casino tax for FY2025 but does not
+      break out the trust fund share, and the Commission''s sports betting economic impact report gives 12,867,037 dollars
+      to the fund from casino taxes in calendar 2023. Archived copy checked on 2026-10-17: M.G.L. c. 23N s. 17 as archived
+      directs 9 per cent of the Sports Wagering Fund to the Public Health Trust Fund established in section 58 of chapter
+      23K, and chapter 23K as archived directs 5 per cent of the Gaming Revenue Fund to the same trust fund.'

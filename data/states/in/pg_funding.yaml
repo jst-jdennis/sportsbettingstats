@@ -1,0 +1,39 @@
+fips: '18'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_pct_revenue
+  mechanism_text: Indiana's riverboat statute pays 3.33 percent of the admissions tax and supplemental wagering tax collected
+    by each licensed owner to the Division of Mental Health and Addiction, which must allocate at least 25 percent of that
+    money to the prevention and treatment of compulsive gambling. The money is deposited in the addiction services fund established
+    by Ind. Code 12-23-2-2 and administered by the Family and Social Services Administration. The 9.5 percent sports wagering
+    tax under Ind. Code 4-38-10 is deposited in the state general fund with no problem gambling share.
+  administering_agency: Indiana Family and Social Services Administration, Division of Mental Health and Addiction
+  includes:
+  - treatment
+  - prevention
+  authority_citation: Ind. Code 4-33-12-6 (3.33 percent of admissions and supplemental wagering tax); Ind. Code 12-23-2-2
+    (addiction services fund)
+  provenance:
+    source_id: in-legislature
+    source_url: https://iga.in.gov/laws/2025/ic/titles/4#4-33-12-6
+    archive_url: null
+    retrieved_at: '2026-10-17'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: IC 4-33-12-6
+    notes: 'Operative language as excerpted from the enrolled text of HEA 1194 (2024) on iga.in.gov and from a current-code
+      mirror: "three and thirty-three hundredths percent (3.33%) of the admissions tax and supplemental wagering tax collected
+      by the licensed owner during the preceding calendar quarter must be paid to the division of mental health and addiction"
+      and "The division shall allocate at least twenty-five percent (25%) of the funds derived from the admissions tax to
+      the prevention and treatment of compulsive gambling." The iga.in.gov host was blocked by this session''s network policy,
+      so the code section itself was not opened; the reviewer must confirm the subsection letters and whether the 2026 session
+      (HB 1210, HB 1052) moved this language or created a separate responsible gaming and problem gambling services fund.
+      The Indiana Gaming Commission sports wagering FAQ states that the sports wagering tax is deposited in the state general
+      fund. Amount to be taken from the State Comptroller or State Budget Agency gaming distribution report line for the addiction
+      services fund. Archiving on 2026-10-17 did not yield the section text: the Indiana Code page archived is rendered by
+      script and holds no section text; the clause remains as taken from the search excerpt until a reviewer opens the page.'

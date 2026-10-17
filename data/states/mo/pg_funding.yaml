@@ -1,0 +1,52 @@
+fips: '29'
+records:
+- fiscal_year: 2026
+  amount_usd: 11054795
+  amount_type: statutory_formula_estimate
+  funding_mechanism: statutory_earmark_pct_revenue
+  mechanism_text: Article III, Section 39(g) of the Missouri Constitution, added by Amendment 2 in November 2024, levies a
+    10 percent tax on sports wagering adjusted gross revenue and directs that the greater of 10 percent of the annual tax
+    revenue or 5,000,000 dollars be transferred to the Compulsive Gaming Prevention Fund, with the remainder of the tax appropriated
+    to education. Sports wagering license fees left over after the Missouri Gaming Commission's expenses are reimbursed also
+    go to the fund, which is a dedicated fund that does not revert to general revenue. The Commission holds the fund and distributes
+    it through interagency agreements with the Department of Mental Health, which administers compulsive gambling programs
+    under RSMo 313.842; that older statute also lets one cent of the casino admission fee be credited to the Compulsive Gamblers
+    Fund, subject to appropriation.
+  administering_agency: Missouri Gaming Commission, with distribution through the Missouri Department of Mental Health
+  includes:
+  - treatment
+  - prevention
+  - research
+  authority_citation: Mo. Const. art. III, sec. 39(g), subsec. 10(b)(2) and the Compulsive Gaming Prevention Fund provisions
+    (Amendment 2, 2024); RSMo 313.842; 11 CSR 45-20.590
+  provenance:
+    source_id: mo-legislature
+    source_url: https://revisor.mo.gov/main/OneSection.aspx?section=III+++39%28g%29
+    archive_url: sha256:402767e2df5e7a83e4d61f3d5e263f48584c2aef72d534dfdf2f609fcec2ece1
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Mo. Const. art. III, sec. 39(g), subsection 10 (tax) and the Compulsive Gaming Prevention Fund paragraph
+    notes: 'Operative language as excerpted from the Revisor page and the Commission''s FY 2026 annual report: "the greater
+      of 10% of the annual tax revenue or $5,000,000 is transferred to the Compulsive Gaming Prevention Fund" and "There is
+      hereby created in the state treasury the ''Compulsive Gaming Prevention Fund'', which shall consist of taxes and fees
+      collected under this section. Any monies remaining in the fund at the end of a biennium shall not revert to the credit
+      of the general revenue fund." The amount is the total the Missouri Gaming Commission FY 2026 Annual Report (https://mgc.dps.mo.gov/annual_reports/AR_2026.pdf)
+      shows allocated to the fund from sports wagering in the fiscal year ending June 30, 2026: 11,054,794.77 dollars, made
+      up of the 5,000,000 dollar minimum transfer plus 6,054,794.77 dollars of license fee revenue remaining after expenses;
+      rounded to the nearest dollar. Wagering began December 1, 2025, so FY 2026 is a partial year. Rule 11 CSR 45-20.590
+      (proposed August 2025) states the Commission "shall utilize interagency agreements with the Missouri Department of Mental
+      Health to facilitate the distribution and use of monies from the fund" and lists research, counseling, treatment and
+      prevention programs, and grants as permitted uses. RSMo 313.842 (https://revisor.mo.gov/main/OneSection.aspx?section=313.842)
+      reads "Subject to appropriation, such programs shall be funded from the one-cent admission fee authorized pursuant to
+      section 313.820" and "The department of mental health shall administer programs, either directly or by contract, for
+      compulsive gamblers." The constitutional subsection numbering (10(b)(2)) follows the Commission''s report; the Secretary
+      of State''s certified ballot text uses the shorter name "Compulsive Gaming Fund" in that paragraph. Outbound web fetches
+      were blocked from the drafting container, so the quotes come from search-engine excerpts of the cited pages; a reviewer
+      should open the Revisor page and the report to confirm the subsection number and the figure. Expenditure by the Department
+      of Mental Health for FY 2026 was not found. Archived copy checked on 2026-10-17: Mo. Const. art. III, sec. 39(g) as
+      archived from the Revisor: the greater of ten percent of sports wagering tax revenue or 5,000,000 dollars, plus license
+      fees remaining after Commission expenses, is deposited in the Compulsive Gaming Prevention Fund.'

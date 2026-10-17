@@ -1,0 +1,30 @@
+fips: '02'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: unknown
+  mechanism_text: Alaska has no lottery, casino or sports wagering statute, and the charitable gaming chapter (Alaska Stat.
+    Title 5, Chapter 15) contains no problem gambling fund or set-aside. No primary document was found establishing a Department
+    of Health appropriation for problem gambling services or an official statement that the state funds none. House Bill 145
+    of 2025, which would have licensed online sports wagering, did not advance.
+  administering_agency: null
+  includes: null
+  authority_citation: null
+  provenance:
+    source_id: ak-legislature
+    source_url: https://www.akleg.gov/
+    archive_url: sha256:370fce85e81fc82c95f2a83f7741eb50f34a8e6d519f569e9a87256cbe86e14b
+    retrieved_at: '2026-10-17'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Searches on 2026-10-17 of Alaska Stat. 05.15 (charitable gaming) for "problem gambling" or "compulsive gambling",
+      of the Department of Health Division of Behavioral Health for a problem gambling program, and for any state problem
+      gambling appropriation returned only legislative bill drafts on charitable gaming permits and fees with no treatment
+      earmark, and third-party directories stating that Alaska does not fund a state gambling treatment program. State pages
+      could not be opened from this container. Reviewer should check the Department of Health operating budget and the Division
+      of Behavioral Health; if the Department confirms no funding, change the mechanism to none.

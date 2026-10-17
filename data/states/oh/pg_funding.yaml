@@ -1,0 +1,46 @@
+fips: '39'
+records:
+- fiscal_year: 2026
+  amount_usd: 3500000
+  amount_type: appropriation
+  funding_mechanism: statutory_earmark_pct_revenue
+  mechanism_text: Ohio Rev. Code 5753.031 creates the problem sports gaming fund in the state treasury and, after a transfer
+    to the sports gaming tax administration fund to cover the Department of Taxation's costs, directs two percent of the sports
+    gaming tax collected to it, with the other ninety-eight percent going to the sports gaming profits education fund. The
+    Ohio Casino Control Commission spends the fund under an agreement with the Department of Mental Health and Addiction Services
+    (renamed the Department of Behavioral Health in 2025), which runs the program of services to alleviate problem sports
+    gaming on the Commission's behalf under Ohio Rev. Code 3772.062. A separate two percent share of the casino tax funds
+    the problem casino gambling and addictions fund, which pays for the statewide helpline. The FY 2026 appropriation for
+    line item 955602 (Problem Sports Gaming, Fund 5YR0) is 3,500,000 dollars.
+  administering_agency: Ohio Casino Control Commission, through an agreement with the Ohio Department of Mental Health and
+    Addiction Services (Department of Behavioral Health)
+  includes:
+  - treatment
+  - prevention
+  - helpline
+  authority_citation: Ohio Rev. Code 5753.031 (problem sports gaming fund); Ohio Rev. Code 3772.062 (services agreement);
+    Ohio Rev. Code 5753.03 (casino tax share)
+  provenance:
+    source_id: oh-legislature
+    source_url: https://www.lsc.ohio.gov/assets/organizations/legislative-service-commission/files/2025-catalog-of-budget-line-items-cac.pdf
+    archive_url: null
+    retrieved_at: '2026-10-17'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Casino Control Commission, line item 955602 Problem Sports Gaming, Fund 5YR0
+    notes: 'Neither this PDF nor the statute page could be opened from the drafting container (outbound fetches were blocked);
+      the figures and clauses here come from search-engine extracts of the cited documents and must be confirmed against them.
+      The LSC 2025 Catalog of Budget Line Items describes the line item as funded by "2% of the 20% tax on sports gaming receipts"
+      and used for "program services to alleviate problem sports gaming in Ohio", and lists actual spending of 611,900 dollars
+      (FY 2024) and 1,454,666 dollars (FY 2025) with appropriations of 3,500,000 dollars in each of FY 2026 and FY 2027; confirm
+      the column alignment of the actuals. The statute is at https://codes.ohio.gov/ohio-revised-code/section-5753.031; legislative
+      analyses of HB 29 (134th GA) state that "98% of tax revenues are transferred quarterly" to the education fund and "the
+      remaining 2% is transferred to the PSGF". Ohio Rev. Code 3772.062 (https://codes.ohio.gov/ohio-revised-code/section-3772.062)
+      provides that "the executive director of the commission shall enter into an agreement with the department of mental
+      health and addiction services under which the department provides a program of gambling and addiction services, including
+      services to alleviate problem sports gaming". The lead citation Ohio Rev. Code 3775.14 was not found in the current
+      chapter index and is not relied on. Archived copy checked on 2026-10-17: Ohio Rev. Code 5753.031 as archived: ninety-eight
+      per cent of the sports gaming profits to the education fund and two per cent to the problem sports gaming fund.'

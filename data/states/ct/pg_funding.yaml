@@ -1,0 +1,43 @@
+fips: 09
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_fixed
+  mechanism_text: The Connecticut Lottery Corporation must transfer 2,300,000 dollars of lottery ticket revenue each fiscal
+    year to the chronic gamblers treatment and rehabilitation account created by C.G.S. 17a-713, plus an additional 1,000,000
+    dollars from its retail and online sports wagering and fantasy contest revenue in any year it holds those licenses, under
+    C.G.S. 12-818 as amended by Public Act 21-23. The Mashantucket Pequot and Mohegan tribes, as master wagering licensees,
+    make a further annual contribution to problem gambling programs under C.G.S. 12-871, reported at 500,000 dollars each.
+    The account is administered by the Department of Mental Health and Addiction Services for prevention, treatment and rehabilitation
+    of chronic gamblers, and the amounts are fixed sums rather than a percentage of revenue.
+  administering_agency: Connecticut Department of Mental Health and Addiction Services
+  includes:
+  - treatment
+  - prevention
+  - helpline
+  authority_citation: Conn. Gen. Stat. 12-818; Conn. Gen. Stat. 12-871; Conn. Gen. Stat. 17a-713 (chronic gamblers treatment
+    and rehabilitation account)
+  provenance:
+    source_id: ct-legislature
+    source_url: https://www.cga.ct.gov/current/pub/chap_229a.htm
+    archive_url: null
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Chapter 229a, Sec. 12-818
+    notes: 'Search on 2026-10-17 returned the General Assembly''s chapter 229a page with the operative language of 12-818:
+      "For the fiscal year ending June 30, 2014, and each fiscal year thereafter, the Connecticut Lottery Corporation shall
+      transfer two million three hundred thousand dollars of the revenue received from the sale of lottery tickets to the
+      chronic gamblers treatment rehabilitation account created pursuant to section 17a-713", plus the additional 1,000,000
+      dollars from sports wagering and fantasy contest revenue in years the corporation holds those licenses. The page could
+      not be opened from this container. The 500,000 dollar tribal contributions appear in the Office of Legislative Research
+      description of 12-871 and in coverage of Public Act 21-23 (https://cga.ct.gov/2021/ACT/PA/pdf/2021PA-00023-R00HB-06451-PA.pdf,
+      not opened); the exact text of 12-871 and 17a-713 remains to be confirmed. Amount to be taken from the DMHAS budget
+      or the Connecticut Lottery Corporation annual report; the corporation''s statutory transfer alone is 3,300,000 dollars
+      a year, which press coverage reports was paid in FY 2023. Archiving on 2026-10-17 did not yield the section text: the
+      cga.ct.gov pages did not respond to the archiving request; the clause remains as taken from the search excerpt until
+      a reviewer opens the page.'

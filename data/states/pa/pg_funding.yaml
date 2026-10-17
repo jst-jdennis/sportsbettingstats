@@ -1,0 +1,46 @@
+fips: '42'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_pct_revenue
+  mechanism_text: Under 4 Pa.C.S. 1509 the State Gaming Fund transfers each year to the Compulsive and Problem Gambling Treatment
+    Fund the greater of 2,000,000 dollars or 0.002 times the gross terminal revenue of all licensed slot machine facilities,
+    a formula set by Act 1 of 2010. Act 42 of 2017 added parallel annual transfers of 0.2 percent of gross sports wagering
+    revenue and of gross interactive gaming revenue to the same fund, plus a further 0.2 percent of each to the Department
+    of Drug and Alcohol Programs for drug, alcohol and gambling treatment. The fund is administered by the Department of Drug
+    and Alcohol Programs, which took the program over from the Department of Health, and the statute limits spending to education,
+    prevention, treatment and program administration.
+  administering_agency: Pennsylvania Department of Drug and Alcohol Programs
+  includes:
+  - treatment
+  - prevention
+  - helpline
+  - training
+  authority_citation: 4 Pa.C.S. 1509 (Compulsive and Problem Gambling Treatment Fund); 4 Pa.C.S. 13C62 (sports wagering transfers,
+    section number to confirm); Act 42 of 2017
+  provenance:
+    source_id: pa-legislature
+    source_url: https://www.legis.state.pa.us/cfdocs/legis/LI/consCheck.cfm?txtType=HTM&ttl=04&div=0&chpt=15&sctn=9&subsctn=0
+    archive_url: null
+    retrieved_at: '2026-10-17'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: 4 Pa.C.S. 1509, subsection on the Compulsive and Problem Gambling Treatment Fund
+    notes: 'The statute page could not be opened from the drafting container (outbound fetches were blocked), so the operative
+      language is taken from state documents that quote it: the Department of Drug and Alcohol Programs'' gambling strategic
+      plan and annual reports state that under Act 1 of 2010 the transfer is "$2,000,000 or an amount equal to .002 multiplied
+      by the total gross terminal revenue of all active and operating licensed gaming entities, whichever is greater", and
+      the Office of the Budget''s expenditure notices state that Act 71 of 2004 created the fund and that section 1509 limits
+      its use to education, prevention, treatment and administration. The sports wagering transfer ("0.2 percent of gross
+      sports wagering revenue be transferred each year to the Compulsive and Problem Gambling Treatment Fund") is quoted from
+      the House Appropriations Committee''s 2018 Act 42 fact sheet, not from the section itself; confirm the section number
+      (reported as 4 Pa.C.S. 13C62) and the interactive gaming and video gaming terminal counterparts. The amount will come
+      from the Department of Drug and Alcohol Programs'' Compulsive and Problem Gambling Annual Report for SFY 2024-25 (published
+      October 2025 at prdddap.pwpca.pa.gov); a secondary summary of the 2022-23 report put that year''s transfer at about
+      8,300,000 dollars, which has not been entered. Archiving on 2026-10-17 did not yield the section text: the Pennsylvania
+      consolidated statutes page archived is a shell without the section text; the clause remains as taken from the search
+      excerpt until a reviewer opens the page.'

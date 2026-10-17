@@ -1,0 +1,55 @@
+fips: '33'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: appropriation
+  mechanism_text: RSA 287-I:9 directs that money the Lottery Commission receives from sports wagering, after deducting the
+    Commission's administrative costs, prizes and payments for problem gambling services, be deposited in the education trust
+    fund under RSA 198:39, so problem gambling payments come out of sports wagering revenue before education receives anything.
+    The statute sets no percentage or dollar amount; the share is fixed by the Commission and its agent contracts rather than
+    by the legislature. Separately, the 2025 budget trailer bill (HB 2, chapter 141) added a requirement that each video lottery
+    terminal licensee pay 0.25 percent of gross video lottery revenue to the fund of the Governor's Commission on Alcohol
+    and Other Drugs, which is continually appropriated for alcohol and problem gambling prevention and treatment programs.
+    The statute names problem gambling payments as a deduction before education receives the proceeds but fixes no share or
+    amount; the Lottery Commission sets the payment, so under the classification rule this is discretionary funding recorded
+    as appropriation.
+  administering_agency: New Hampshire Lottery Commission (payments for problem gambling services); Governor's Commission on
+    Alcohol and Other Drugs (video lottery share)
+  includes:
+  - treatment
+  - prevention
+  authority_citation: RSA 287-I:9 (sports wagering proceeds); RSA 284:21-j as amended by 2025 N.H. Laws ch. 141 (HB 2) (video
+    lottery share, as reported)
+  provenance:
+    source_id: nh-legislature
+    source_url: https://gc.nh.gov/rsa/html/XXIV/287-I/287-I-mrg.htm
+    archive_url: sha256:ab2eb970a392a2f8e5051f693a75b4502adcc51f6535f6ba02eb6999ee48860a
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: RSA 287-I:9
+    notes: 'Operative language as excerpted from the chapter page: sports wagering proceeds, "after deducting the commission''s
+      administrative costs, prizes, and payments for problem gambling services", go to the education trust fund established
+      in RSA 198:39. RSA 287-I:8 requires each agent to submit a responsible gaming plan; RSA 287-I:3 makes "commitment to
+      prevention of problem gambling" a selection factor. The introduced version of 2019 HB 480 would have set aside ten percent
+      of revenue sharing proceeds for treatment and prevention, but that figure does not appear in the enacted chapter, so
+      no percentage is recorded and the classification rests on an open-ended statutory deduction from gambling revenue; a
+      reviewer may prefer appropriation if the Commission''s payments are set only in the budget. The 2025 HB 2 chaptered
+      text (https://gc.nh.gov/lba/budget/operating_budgets/2026-2027/House_Finance/HB%202%20-%20Chaptered%20Final%20Version%20-%207-1-25.pdf)
+      was excerpted as requiring that "each VLT licensee shall distribute 0.25 percent of gross video lottery revenue collected
+      to the governor''s commission on addiction, treatment, and prevention" and describing that fund as "continually appropriated
+      for the purposes of funding alcohol education and abuse and problem gambling prevention and treatment programs"; the
+      RSA section number for that provision and whether video lottery terminals were operating in FY 2025 were not confirmed.
+      The Lottery''s FY 2026 second quarter newsletter lists HB 1559 (2026), which would increase the percentage of gaming
+      revenue allocated to problem gaming services; its status was not confirmed. No annual dollar figure was found: the Lottery
+      Commission''s FY 2025 release reports 39 million dollars to education from sports betting but no problem gambling line;
+      the amount should come from the Lottery Commission''s annual report or the Governor''s Commission fund report. Outbound
+      web fetches were blocked from the drafting container, so quotes come from search-engine excerpts of the cited pages.
+      Archived copy checked on 2026-10-17: RSA 287-I:9 as archived: the proceeds received by the commission from sports wagering,
+      less the administrative costs of the commission, prizes paid, and payments for problem gambling services, shall be deposited
+      in the education trust fund. The statute fixes no share or amount, so the mechanism is recorded as an appropriation-type
+      payment set by the Lottery Commission.'

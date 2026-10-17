@@ -1,0 +1,40 @@
+fips: '48'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: unknown
+  mechanism_text: No Texas statute dedicates gambling revenue to problem gambling services. Texas has no casino or sports
+    wagering statute; state lottery net revenue goes to the Foundation School Fund under Government Code chapter 466. Health
+    and Safety Code 461A.106 (added by Acts 2015, 84th Leg., S.B. 219) directs the Health and Human Services Commission to
+    establish a compulsive gambling program, but names no funding source. Whether the legislature currently appropriates any
+    money to that program could not be established from a primary document; press reports in June 2026 state that the program
+    has had no state funding since the mid-2000s and that the Texas Lottery provides no direct funding for problem gambling
+    treatment.
+  administering_agency: Texas Health and Human Services Commission
+  includes: null
+  authority_citation: Tex. Health and Safety Code 461A.106 (compulsive gambling program); Tex. Gov't Code ch. 466 (State Lottery
+    Act, no problem gambling allocation)
+  provenance:
+    source_id: tx-legislature
+    source_url: https://statutes.capitol.texas.gov/Docs/HS/htm/HS.461A.htm
+    archive_url: null
+    retrieved_at: '2026-10-17'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Sec. 461A.106
+    notes: 'Searched statutes.capitol.texas.gov, capitol.texas.gov, hhs.texas.gov, lbb.texas.gov and texaslottery.com for
+      a compulsive or problem gambling appropriation or fund. Found only Health and Safety Code 461A.106, Compulsive Gambling
+      Program (added by Acts 2015, 84th Leg., R.S., Ch. 1 (S.B. 219), Sec. 3.1158, eff. April 2, 2015; the original program
+      statute was repealed in 2009), which directs "the department" to establish the program without dedicating revenue. The
+      statute page could not be fetched from this session (network policy) and its text was seen only through a secondary
+      mirror, so a reviewer should read it on statutes.capitol.texas.gov. A 2025 House floor amendment to S.B. 1 (89R, https://capitol.texas.gov/tlodocs/89R/amendments/html/SB00001H2336.HTM)
+      proposed $1.6 million per year for HHSC at-risk prevention programs offset from the Lottery Commission; adoption not
+      confirmed. To settle the mechanism, check the General Appropriations Act for 2026-27 (HHSC strategies) and ask HHSC;
+      if an HHSC or Legislative Budget Board document confirms no funding, change the mechanism to none. Press coverage (Texas
+      Tribune, 2026-06-15) was used only as a lead and is not cited as the source. Archiving on 2026-10-17 did not yield the
+      section text: the Texas statutes page archived is a shell without the section text; the clause remains as taken from
+      the search excerpt until a reviewer opens the page.'

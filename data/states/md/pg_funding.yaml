@@ -1,0 +1,50 @@
+fips: '24'
+records:
+- fiscal_year: 2025
+  amount_usd: 4400000
+  amount_type: statutory_formula_estimate
+  funding_mechanism: statutory_earmark_fixed
+  mechanism_text: 'Maryland funds the Problem Gambling Fund (Health-General section 19-803) mainly through fixed annual assessments
+    on casino operators: State Government section 9-1A-33 requires the State Lottery and Gaming Control Commission to collect
+    an annual fee of 425 dollars for each video lottery terminal operated by a licensee and to distribute it to the Problem
+    Gambling Fund, and the Commission has set a 500 dollar annual fee per table game by regulation. The sports wagering law
+    adds unclaimed sports wagering winnings, which revert to the fund 182 days after a wager is won, but it does not dedicate
+    a share of sports wagering tax. The Maryland Department of Health administers the fund and contracts with the Maryland
+    Center of Excellence on Problem Gambling for services.'
+  administering_agency: Maryland Department of Health
+  includes: null
+  authority_citation: Md. Code, State Gov't 9-1A-33 (annual fee per video lottery terminal to the Problem Gambling Fund);
+    Md. Code, Health-Gen. 19-803 (Problem Gambling Fund)
+  provenance:
+    source_id: md-legislature
+    source_url: https://mgaleg.maryland.gov/2010rs/chapters_noln/Ch_624_sb0882E.pdf
+    archive_url: sha256:87aa3ba3b11df167b570ddf45b5e5474a2e30023a89438df5ebbb08ce6ecd3e4
+    retrieved_at: '2026-10-17'
+    retrieval_method: pdf
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Section enacting State Government 9-1A-33 (Chapter 624 of 2010, SB 882)
+    notes: 'Operative language of State Government 9-1A-33 as enacted by Chapter 624 of 2010: "The Commission shall: (1) establish
+      an annual fee of $425, to be paid by each video lottery operation licensee, for each video lottery terminal operated
+      by the licensee during the year, based on the maximum number of terminal positions in use during the year; and (2) distribute
+      the fees collected under item (1) of this subsection to the Problem Gambling Fund." Department of Legislative Services
+      fiscal notes from 2024 to 2026 (for example https://mgaleg.maryland.gov/2026RS/fnotes/bil_0008/hb0518.pdf) describe
+      the 425 dollar per terminal fee and the 500 dollar per table game fee as current law and the fund as administered by
+      the Maryland Department of Health. The current codified text should be checked at https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gsg&section=9-1A-33&enactments=false
+      (URL follows the site''s standard pattern and was not loaded). The lead to State Government 9-1E-15 was wrong: that
+      section creates the Sports Wagering Application Review Commission; the 2021 sports wagering law (Chapter 356, https://mgaleg.maryland.gov/2021RS/Chapters_noln/CH_356_hb0940e.pdf)
+      sends only unclaimed winnings to the fund ("Any winnings on a sports event not claimed within 182 days after the wager
+      is won revert to the Problem Gambling Fund"); the subsection number for that clause still needs to be identified. Amount:
+      the Maryland Lottery and Gaming Control Agency FY2025 Annual Summary (https://www.mdgaming.com/wp-content/uploads/2025/08/MLGCA-FY2025-Summary.pdf)
+      states "Problem Gambling Fund Contribution: $4.4 Million" for fiscal year 2025; the figure is rounded as published and
+      should be replaced with the exact amount from the Maryland Department of Health fund report. Classification note: the
+      per machine fee fits the brief''s definition of statutory_earmark_fixed (a fixed amount per licensee or machine); it
+      could also be read as license_fee. Retrieval caveat: the network policy of the drafting environment blocked mgaleg.maryland.gov
+      and mdgaming.com, so quoted language comes from search-index excerpts of these documents, not from loading them. The
+      "includes" field is left empty until Health-General 19-803 is read. Archived copy checked on 2026-10-17: Chapter 624
+      of 2010 as archived enacts State Government 9-1A-33: an annual fee of 425 dollars for each video lottery terminal, distributed
+      to the Problem Gambling Fund; the Maryland Lottery and Gaming FY2025 summary as archived states the Problem Gambling
+      Fund contribution was 4.4 million dollars and that casinos pay annual assessments of 425 dollars per slot machine and
+      500 dollars per table game.'
