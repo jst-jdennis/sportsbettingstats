@@ -1,0 +1,41 @@
+# Phase 6 discovery: the report pages and sample files of six regulators that publish monthly
+# sports wagering handle and revenue (Pennsylvania, New York, Michigan, Kansas, Ohio, Illinois).
+# The archived pages give the real report links and the sample files give the layouts the
+# ingestion modules are written and fixture-tested against. Runs from a throwaway branch.
+kind: archive
+label: revenue-discovery
+urls:
+  # Pennsylvania Gaming Control Board: fiscal year pages carry monthly sports wagering xlsx and pdf
+  - https://gamingcontrolboard.pa.gov/news-and-transparency/revenue
+  - https://gamingcontrolboard.pa.gov/news-and-transparency/revenue/sports-wagering-fy-20242025
+  - https://gamingcontrolboard.pa.gov/news-and-transparency/revenue/sports-wagering-fy-20232024
+  - https://gamingcontrolboard.pa.gov/news-and-transparency/revenue/sports-wagering-revenue-fy-20222023-0
+  # New York State Gaming Commission: monthly and weekly mobile sports wagering reports
+  - https://gaming.ny.gov/
+  - https://gaming.ny.gov/gaming/index.php?ID=4
+  - https://gaming.ny.gov/gaming/index.php?ID=3
+  - https://gaming.ny.gov/mobile-sports-wagering-reports
+  - https://gaming.ny.gov/sports-wagering
+  - https://gaming.ny.gov/reports
+  - https://gaming.ny.gov/system/files/documents/2026/09/monthly-mobile-sports-wagering-report-statewide.pdf
+  - https://gaming.ny.gov/system/files/documents/2026/01/monthly-mobile-sports-wagering-report-statewide.pdf
+  - https://gaming.ny.gov/system/files/documents/2026/09/weekly-mobile-sports-wagering-report-statewide_0.pdf
+  - https://gaming.ny.gov/system/files/documents/2026/06/statewide-monthly-commercial-gaming-report_0.pdf
+  # Michigan Gaming Control Board: internet sports betting and retail sports betting revenue tables
+  - https://www.michigan.gov/mgcb
+  - https://www.michigan.gov/mgcb/0,4620,7-351-79263-574080--,00.html
+  - https://www.michigan.gov/mgcb/0,4620,7-351-79131_79259-574080--,00.html
+  - https://www.michigan.gov/mgcb/detroit-casinos/resources/revenues-and-wagering-tax-information
+  - https://www.michigan.gov/mgcb/internet-gaming/resources/revenues-and-wagering-tax-information
+  - https://www.michigan.gov/mgcb/news/2026/07/21/june-2026-igaming-revenue
+  - https://www.michigan.gov/mgcb/news/2026/06/16/may-2026-igaming-revenue
+  # Kansas Lottery: monthly sports wagering revenue PDFs
+  - https://www.kslottery.com/publications/sports-monthly-revenues/
+  - https://www.kslottery.com/publications/
+  # Ohio Casino Control Commission: annual xlsx and monthly pdf sports gaming revenue reports
+  - https://casinocontrol.ohio.gov/about/revenue-reports/04-revenue-reports
+  - https://casinocontrol.ohio.gov/static/revenue-reports/2023/July%202023%20Ohio%20Sports%20Gaming%20Revenue%20Report.pdf
+  # Illinois Gaming Board: sports wagering reports page (monthly pdf and csv)
+  - https://igb.illinois.gov/sports-wagering/sports-reports.html
+  - https://igb.illinois.gov/SportsReports.aspx
+  - https://igb.illinois.gov/sports-wagering.html
