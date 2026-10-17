@@ -1,0 +1,140 @@
+=== page 1 ===
+KATHY HOCHUL
+Governor
+CHINAZO CUNNINGHAM, MD
+Commissioner
+2020 OASAS Problem Gambling Prevalence
+Survey Summary
+BACKGROUND AND PURPOSE: ASSESS GAMBLING ACTIVITY AND PROBLEMATIC GAMBLING BEHAVIORS
+IN NEW YORK STATE TO BETTER PROVIDE PREVENTION, TREATMENT, HARM REDUCTION, AND
+RECOVERY SERVICES
+The New York State Office of Addiction Services and Supports (OASAS) oversees problem gambling
+prevention, treatment, harm reduction and recovery services in New York. OASAS certifies problem
+gambling treatment providers and directly funds seven regional Problem Gambling Resource Centers that
+provide education and training, referral, assessment, treatment, and recovery support programs.
+As part of the agency’s oversight of problem gambling, OASAS needs to qualify and quantify the extent
+of problem gambling among New Yorkers and monitor trends, assess the need for services, identify gaps
+in services, and subsequently develop appropriate evidence-based programs and strategies for target
+populations. In 2020, OASAS contracted with RTI International to conduct a survey that would provide
+statistically valid prevalence estimates of past-year gambling and problem gambling, attitudes and
+behaviors toward gambling, and awareness of resources for problem gambling services among non-
+institutionalized adult New Yorkers (ages 18 and older).
+Data for the New York Problem Gambling Prevalence Survey were collected between July 24 and
+December 21, 2020. Overall, 14,209 New Yorkers were sampled for the survey and 3,823 submitted a
+complete response.
+KEY FINDINGS: MORE THAN TWO-THIRDS OF NEW YORK ADULTS DO NOT GAMBLE AT ALL; 4.4% ARE
+AT-RISK GAMBLERS; 0.7% ARE PROBLEM OR PATHOLOGICAL* GAMBLERS
+Prevalence of Gambling and Problematic Gambling Behaviors
+Based on answers to questions about their gambling behaviors, survey respondents were classified into
+one of five categories:
+* The diagnosis of “pathological gambling” found in the fourth edition of the Diagnostic and Statistical Manual of Mental Disorder
+(DSM-IV) was replaced with “gambling disorder” in the fifth edition of the Diagnostic and Statistical Manual of Mental Disorders
+(DSM-5). The DSM-5 criteria for gambling disorder differs slightly from the DSM-IV criteria for pathological gambling. The survey
+used the Problem and Pathological Gambling Measure (PPGM) to assess gambling behaviors. The PPGM was developed prior to the
+release of the DSM-5 and uses the “pathological gambling” terminology. OASAS uses the term pathological gambling in this report
+to remain consistent with the PPGM instrument.
+
+=== page 2 ===
+Category Description
+Non-Gamblers People who had not engaged in any gambling activity in the previous 12
+months.
+Recreational Gamblers People who had gambled within the past 12 months but did not meet any
+of the criteria for at-risk, problem, or pathological gambling.
+At-Risk Gamblers People who exhibited potentially problematic gambling behaviors but did
+not meet the criteria for problem or pathological gambling.
+Problem Gamblers People who exhibited “gambling behavior that result[ed] in any harmful
+effects to the gambler, his or her family, significant others, friends,
+coworkers, etc.”1
+Pathological Gamblers People who indicated a “continuous or periodic loss of control over
+gambling, a preoccupation with gambling and with obtaining money with
+which to gamble, irrational thinking, and a continuation of the behavior
+despite adverse consequences.”1
+Defining Gambling and Problematic Gambling Behaviors
+The survey asked questions corresponding to the Problem and Pathological Gambling Measure (PPGM).
+The PPGM is:
+a 14-item assessment instrument with questions organized into 3 sections: Problems (7 questions),
+Impaired Control (4 questions), and Other Issues (3 questions) . . . [It] uses a 12-month time frame,
+recognizes there to be a continuum of gambling with 4 categories (Recreational Gambler, At-Risk
+Gambler, Problem Gambler, Pathological Gambler), and has been field tested and refined with
+both clinical and general population samples.2
+People responding to the survey are first asked “Have you gambled in the past 12 months?”. People who
+responded, “No”, they had not gambled in the past 12 months are classified as “Non-Gamblers”.
+If people indicated that they had gambled in the past 12 months, they were then asked questions
+corresponding to the Problems, Impaired Control, and Other Issues sections. Based on their responses,
+they were classified into one of the five gambler categories described above.
+Problems Questions
+• In the past 12 months, has your involvement in gambling caused. . .:
+o you either to borrow a significant amount of money or sell some of your possessions?
+o significant financial concerns for you or someone close to you?
+o serious problems in your relationship with your spouse/partner, or important friends or
+family?
+o you to repeatedly neglect your children or family?
+o significant health problems or injury for you or someone close to you?
+o significant work or school problems for you or someone close to you?
+o you to miss a significant amount of time at work or school?
+o you or someone close to you to write bad checks, take money that didn't belong to you or
+commit other illegal acts to support your gambling?
+• Is there anyone else who would say that your involvement in gambling in the past 12 months has
+caused any significant problems regardless of whether you agree with them or not?
+2020 OASAS Problem Gambling
+2
+Prevalence Survey Summary
+
+=== page 3 ===
+Impaired Control Questions
+• In the past 12 months. . .:
+o have you often gambled longer, with more money or more frequently than you intended to?
+o have you often gone back to try and win back the money you lost?
+o have you made any attempts to either cut down, control or stop your gambling?
+▪ Were you successful in these attempts?
+o is there anyone who would say that you have had difficulty controlling your gambling,
+regardless of whether you agreed with them or not?
+Other Issues Questions
+• In the past 12 months. . .:
+o would you say you have been preoccupied with gambling?
+o when you were not gambling did you often experience irritability, restlessness or strong
+cravings for it?
+o did you find you needed to gamble with larger and larger amounts of money to achieve the
+same level of excitement?
+Results
+Main results:
+• 68.0% of people in New York have not gambled at all within the past 12 months (non-gamblers);
+• 26.9% of New Yorkers are classified as recreational gamblers;
+• 4.4% of New Yorkers are at-risk gamblers;
+• 0.7% of New Yorkers are problem (0.3%) or pathological (0.4%) gamblers
+FUTURE DIRECTIONS: SURVEY RESULTS WILL INFORM OASAS’ PROBLEM GAMBLING PREVENTION,
+TREATMENT, AND RECOVERY EFFORTS
+Data on the prevalence of gambling and problem gambling are sparse; only a few population-based
+surveys performed in the 1990s and early 2000s reported data on adults at the national level3,4. Previous
+to the 2020 survey, the last statewide household survey of problem gambling conducted by OASAS was
+in 2006. The results of the 2020 survey, including the statewide problem gambling prevalence estimate
+and the differences in behaviors, attitudes, and beliefs between Recreational Gamblers and Problem
+Gamblers, will inform OASAS’ problem gambling prevention, treatment, harm reduction, and recovery
+efforts moving forward. OASAS will use the knowledge gained from the survey to target prevention and
+outreach efforts and messaging. Furthermore, the 2020 survey will serve as a baseline to measure the
+effects of changes to New York State gambling laws that have gone into effect since the survey was
+conducted.
+PROBLEM GAMBLING RESOURCES IN NEW YORK STATE
+For resources regarding problem gambling prevention or treatment please visit:
+https://oasas.ny.gov/problem-gambling.
+To get help for problem gambling, for yourself, or a loved one, please call 1-877-8-HOPENY(467369) or
+text HOPENY(467369).
+2020 OASAS Problem Gambling
+3
+Prevalence Survey Summary
+
+=== page 4 ===
+REFERENCES
+1 National Academies of Sciences, Engineering, and Medicine. 1999. Pathological Gambling: A Critical Review. Washington, DC: The
+National Academies Press. https://doi.org/10.17226/6329.
+2 Williams, R. J., Volberg, R.A. (2010). Best Practices in the Population Assessment of Problem Gambling. Report prepared for the
+Ontario Problem Gambling Research Centre. Guelph, Ontario, CANADA. March 31, 2010.
+3 Gerstein, DR.; Volberg, RA.; Toce, MT.; Harwood, H.; Christiansen, EM.; Hoffman, J.; Murphy, SA., et al. Gambling Impact and
+Behavior Study: Report to the National Gambling Impact Study Commission. National Opinion Research Center at the University of
+Chicago; Chicago, Il: 1999. https://www.norc.org/PDFs/publications/GIBSFinalReportApril1999.pdf
+4 Welte JW, Barnes GM, Wieczorek WF, Tidwell M, Parker J. “Alcohol and gambling pathology among U.S. adults: Prevalence,
+demographic patterns and co-morbidity.” Journal of Studies on Alcohol. 2001; 62(5):706–712.
+https://doi.org/10.15288/jsa.2001.62.706
+2020 OASAS Problem Gambling
+4
+Prevalence Survey Summary

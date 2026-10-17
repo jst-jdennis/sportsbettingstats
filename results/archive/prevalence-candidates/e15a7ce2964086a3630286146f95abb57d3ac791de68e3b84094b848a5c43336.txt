@@ -1,0 +1,1231 @@
+=== page 1 ===
+Gambling Behaviors, Perceptions, and
+Risks Among Nevada Adults
+Prepared for the Nevada Department of Health and Human Services |
+Bureau of Behavioral Health Wellness and Prevention | Department of
+Public and Behavioral Health | November 1, 2025 | by Andrea
+Dassopoulos.
+1 | Pag e
+
+=== page 2 ===
+ACKNOWLEDGEMENTS
+This project was a collaborative effort between the International Gaming Institute at the University
+of Nevada, Las Vegas (UNLV), the Nevada Department of Public and Behavioral Health, and the
+National Opinion Research Center (NORC) at the University of Chicago.
+This project was made possible through funding provided by the Governor’s Advisory Committee
+on Problem Gambling (ACPG), whose ongoing support and vision sustain Nevada’s commitment
+to understanding and reducing gambling-related harm.
+Several dedicated individuals contributed to this effort, particularly Kim Garcia, Jeff Marotta, Ted
+Hartwell, and Bo Bernhard, whose guidance and expertise informed the design, implementation,
+and interpretation of this study.
+Additionally, the ongoing efforts of professionals across Nevada’s problem gambling ecosystem
+in prevention, treatment, research, and workforce development continue to strengthen the state’s
+collective response to gambling problems. The significance of their contributions cannot be
+overstated, as they provide the foundation on which this project and the broader system of problem
+gambling services in Nevada are built.
+Special thanks go to the 1,078 Nevada residents who participated in this study and shared their
+experiences and perspectives. Their input forms the foundation of this report.
+FOR FURTHER INFORMATION ABOUT THIS STUDY, CONTACT
+Andrea Dassopoulos
+Project Manager, Nevada Problem Gambling Study
+University of Nevada, Las Vegas
+andrea.dassopoulos@unlv.edu
+The views and opinions expressed in this report are those of the author and do not necessarily
+represent those of the Nevada Department of Health and Human Services or the Advisory
+Committee on Problem Gambling.
+SUGGESTED CITATION:
+Dassopoulos, A. (2025). Gambling Behaviors, Perceptions, and Risks among Nevada Adults:
+2022 Statewide Survey Findings. University of Nevada, Las Vegas & Nevada Department of
+Public and Behavioral Health.
+2| P a g e
+
+=== page 3 ===
+CONTENTS
+Acknowledgements .......................................................................................................................................................2
+Executive Summary ........................................................................................................................................................5
+Key Findings .............................................................................................................................................................5
+Implications ...............................................................................................................................................................5
+Introduction ...................................................................................................................................................................6
+Problem Gambling Services in Nevada .........................................................................................................................7
+Methodology..................................................................................................................................................................8
+Problem Gambling Severity Index ............................................................................................................................9
+Sample and Demographic Characteristics ...................................................................................................................10
+Gambling Participation................................................................................................................................................12
+Gambling Types ..........................................................................................................................................13
+Number of Gambling Types .......................................................................................................................................14
+Gambling Frequency ...............................................................................................................................................15
+Gambling Motivations ..............................................................................................................................................16
+Gambling Locations ..................................................................................................................................................17
+Gambling Risk and Harm ..........................................................................................................................................19
+Risk by Gambling Venue and Exposure ...............................................................................................................20
+Occupational and Lifestyle Risk ...............................................................................................................................20
+Demographic Risk Factors .....................................................................................................................................21
+Risk by Residence and Length of Time in Nevada ..................................................................................................21
+Patterns of Gambling Risk in Nevada ....................................................................................................................22
+Other Risky Behaviors ...................................................................................................................................................22
+Public Perceptions and Risk Frames ..............................................................................................................................23
+Cultural Orientation and Normalization ...................................................................................................................23
+Misconceptions about Odds and Luck ..................................................................................................................24
+Understanding “Addiction to Gambling”..................................................................................................................26
+Youth Exposure and Advertising ..............................................................................................................................27
+Affected Others and Stigma ...........................................................................................................................................29
+Help Seeking, Access, and Treatment Views .................................................................................................................30
+Trust.........................................................................................................................................................................30
+Where People Turn for Help....................................................................................................................................31
+3| P a g e
+
+=== page 4 ===
+Knowledge and Perception of Services ....................................................................................................................33
+Healthcare System Engagement ..............................................................................................................................34
+Shared Responsibility for Addressing Gambling Harm ..................................................................................................35
+Implications for Prevention, Treatment, and Outreach ...........................................................................................37
+Prevention ...........................................................................................................................................................37
+Treatment and Service Awareness .......................................................................................................................37
+Public Messaging..................................................................................................................................................37
+Policy and Systems ...............................................................................................................................................37
+Limitations ...................................................................................................................................................................38
+Future Research...........................................................................................................................................................39
+Conclusion ...................................................................................................................................................................39
+References ...................................................................................................................................................................40
+4| P a g e
+
+=== page 5 ===
+EXECUTIVE SUMMARY
+The Nevada Gambling Behaviors and Attitudes Survey provides a comprehensive look at how
+adults across the state engage with gambling, how they perceive its risks, and what they know
+about available help and prevention resources.
+The findings provide a statewide evidence base for understanding gambling behaviors and harms
+in Nevada and identify areas where prevention, outreach, and treatment can be strengthened.
+KEY FINDINGS
+• Gambling is part of everyday life in Nevada. About 65% of adults gambled in the past
+year, most often through slot or keno machines (81%), video poker (36%), or table games
+(24%).
+• Nearly half of gamblers (44%) show significant levels of harm, and about 15% of all
+adults meet the threshold for problem gambling (PGSI 8+). Risk is highest among those
+who gamble in neighborhood bars and slot parlors, and among people working in
+gambling environments, who are twice as likely to experience harm as other workers.
+• Risk also rises with the number of gambling types played and peaks among residents who
+have lived in Nevada six to ten years. Younger adults and racially diverse groups face the
+highest risk; adults under 45 are five times more likely to experience problem gambling
+than those aged 60 and older.
+• Gambling problems often overlap with other behaviors. Nearly three-quarters (74%) of
+adults reported difficulty controlling at least one other behavior such as spending, eating,
+or substance us, and this overlap increases with gambling risk.
+• Most residents (78%) agree that gambling addiction is like drug or alcohol addiction, yet
+many remain unsure whether it is a health issue. Stigma appears low, but awareness of
+help is limited: only 40% know how to find treatment, and only 9% have been asked
+about gambling by a healthcare provider.
+• Two-thirds of Nevadans believe the state should lead in reducing gambling harms, and a
+majority support requiring the industry to fund prevention and treatment.
+IMPLICATIONS
+• Increase visibility of free, confidential treatment and integrate screening into healthcare
+settings.
+• Expand workplace and community outreach, especially for hospitality and gaming
+employees.
+• Strengthen public education about odds, risk, and youth exposure.
+• Use trusted messengers—clinicians and researchers—for credible communication.
+• Build on public support for shared state-industry responsibility to sustain prevention and
+treatment funding.
+5| P a g e
+
+=== page 6 ===
+INTRODUCTION
+Gambling is deeply woven into the social and economic fabric of Nevada, serving as both a
+source of entertainment and a key driver of the state’s economy. While many residents and
+visitors participate in gambling without issue, some individuals experience gambling-related
+harms that affect their health, relationships, and financial well-being. Understanding these
+patterns of behavior and perceptions of gambling is essential for shaping effective public health
+strategies and ensuring that support services reach those who need them.
+To advance this understanding, the Nevada Department of Health and Human Services and the
+University of Nevada, Las Vegas partnered with NORC at the University of Chicago to conduct
+a statewide survey of gambling behaviors, motivations, and perceptions among Nevada adults in
+2022. The survey used a dual-frame design that combined NORC’s probability-based
+AmeriSpeak® Panel with address-based and non-probability panel samples, calibrated to ensure
+representation of Nevada residents aged 21 and older.
+This report summarizes key findings from that survey, including patterns of gambling
+participation, types of gambling activities, risk indicators, and public perceptions of gambling-
+related harm. The inclusion of the Problem Gambling Severity Index (PGSI) and questions about
+personal experiences and health-related impacts allows for an in-depth look at who is most at
+risk and why. In addition, the survey captures Nevadans’ views on public policy and the roles of
+government, industry, and treatment providers in addressing gambling harms.
+Findings from this study are intended to guide the work of policymakers, prevention specialists,
+treatment providers, and community organizations working to reduce gambling-related harm. By
+drawing on a diverse and representative sample of Nevada adults, this research provides an up-
+to-date, evidence-based view of gambling in the state and highlights where outreach, education,
+and treatment can be most effective.
+As the first statewide gambling behaviors and attitudes survey conducted in Nevada in over two
+decades, this study also establishes an important baseline for ongoing monitoring. The results
+offer insight into how Nevadans balance cultural acceptance of gambling with awareness of its
+potential risks, and how the state’s unique gaming environment shapes everyday exposure.
+Together, these findings strengthen the foundation for data-driven policy, public education, and
+the continued development of Nevada’s problem gambling service system.
+6| P a g e
+
+=== page 7 ===
+PROBLEM GAMBLING SERVICES IN NEVADA
+Nevada has a state-funded system in place to support individuals experiencing gambling-related
+harm, offering a range of services including outpatient and residential treatment, peer support, a
+24/7 helpline, and prevention and education programs. These resources are available not only to
+those struggling with their own gambling but also to family members, friends, and others affected
+by someone else’s gambling behavior. Administered by the Problem Gambling Services Section
+of the Nevada Department of Public and Behavioral Health, the system aims to provide
+comprehensive resources for anyone in the state experiencing gambling-related harms.
+Although the existence of these services reflects significant progress, availability alone does not
+guarantee access or awareness. Many Nevadans remain uncertain about where to find help or what
+help is available. The Gambling Behaviors, Perceptions, and Risks Among Nevada Adults Survey
+was designed in part to examine these issues: how residents engage with gambling, how they
+perceive its risks, and whether they know about or are willing to use available support Questions
+addressed key aspects of access, including whether healthcare providers discuss gambling, whether
+residents know where to find help, and how much they trust public systems or the gambling
+industry for information and support.
+Understanding gambling behavior in the general population provides essential context for
+evaluating the reach and effectiveness of Nevada’s service system. Population-level data reveal
+where the system may be underutilized, underrecognized, or inaccessible, particularly among
+higher-risk groups. These insights also point to opportunities for integrating gambling screening
+and referral into other settings, such as primary care, behavioral health, and financial counseling,
+where people already seek help for related issues like stress, depression, or debt.
+By linking measures of gambling behavior, harm, and risk perception with levels of trust in
+institutions, this survey highlights the gap between gambling-related need and treatment
+engagement. The findings suggest that while many Nevadans recognize gambling harms, relatively
+few have had direct conversations about it with healthcare professionals or encountered
+information about available services. Bridging this gap requires aligning public awareness efforts
+with trusted sources of information, particularly medical and mental health providers, and ensuring
+that prevention and education initiatives are visible in community settings.
+These survey results contribute to Nevada’s broader effort to develop a coordinated, data-driven
+approach to problem gambling. The insights support more targeted outreach and early intervention,
+inform workforce development and training, and guide the expansion of services for groups facing
+additional barriers related to income, language, geography, or stigma. Strengthening connections
+among prevention, treatment, and recovery systems will further enhance access to care and
+advance Nevada’s public health response to problem gambling.
+7| P a g e
+
+=== page 8 ===
+METHODOLOGY
+In 2022, the University of Nevada, Las Vegas (UNLV), in partnership with NORC at the
+University of Chicago and with funding from the Nevada Department of Health and Human
+Services (DHHS), conducted a statewide survey to better understand gambling behaviors,
+perceptions, and risk among Nevada residents. The survey focused on adults aged 21 and older
+and explored a broad range of topics, including participation in different types of gambling,
+motivations for play, problem gambling risk, and awareness of prevention and treatment resources
+available across the state.
+To ensure that the findings accurately reflect Nevada’s adult population, the study employed a
+hybrid sampling design that combined multiple sources of data collection. Respondents were
+recruited from three panels: NORC’s AmeriSpeak® Panel, a nationally recognized, probability-
+based research panel; a supplemental address-based sample (ABS), which used mailed invitations
+to reach a random selection of Nevada households; and Lucid’s non-probability online panel,
+which helped fill demographic gaps using targeted quota sampling. This approach allowed for both
+statistical rigor and broader reach across diverse population groups.
+A total of 1,078 Nevada adults completed the survey: 162 from the AmeriSpeak® panel, 182 from
+the address-based sample, and 734 from the Lucid online panel. The survey was administered
+between October 24 and November 29, 2022, and offered in English. Most participants completed
+the questionnaire online, while a smaller number participated by telephone. The average
+completion time was approximately 11 minutes, and respondents received a modest financial
+incentive for their participation.
+To account for differences between the combined sample and Nevada’s adult population, NORC
+applied its TrueNorth® Calibration methodology. This advanced statistical weighting process
+integrates responses across all sample sources and aligns the data with U.S. Census benchmarks
+for age, gender, race and ethnicity, education, and region. The result is a dataset that provides
+population-level estimates representative of Nevada’s adult residents.
+Because of this rigorous sampling and calibration process, the survey findings can be interpreted
+with a high degree of confidence. The final weighted margin of error is ±4.5%, providing a
+statistically sound foundation for understanding gambling behavior, risk, and public perceptions
+across the state.
+8| P a g e
+
+=== page 9 ===
+PROBLEM GAMBLING SEVERITY INDEX
+The Problem Gambling Severity Index (PGSI) was used in this study to assess gambling-related
+risk and harm among Nevada adults. The PGSI is a screening instrument, not a diagnostic tool. It
+consists of nine items that measure gambling behaviors and consequences over the past 12 months,
+such as chasing losses, betting more than one can afford, feeling guilt or stress, and experiencing
+financial or relationship problems due to gambling. Each item is scored on a four-point scale (0 =
+never to 3 = almost always), producing a total score ranging from 0-27. Based on these scores,
+respondents are classified into four categories of gambling risk:
+• Non-problem (0) – no reported harms or negative consequences
+• Low-risk (1–2) – early or occasional problems
+• Moderate-risk (3–7) – repeated or escalating harms
+• Problem gambling (8 or higher) – consistent, significant harm
+As a population-level screener, the PGSI is designed to identify individuals who may be
+experiencing difficulties with gambling or are at risk of developing more serious problems. It does
+not, however, establish a clinical diagnosis of gambling disorder. Clinical diagnosis requires an
+in-depth assessment conducted by a qualified professional, typically using the Diagnostic and
+Statistical Manual of Mental Disorders (DSM-5) criteria. The PGSI serves a different purpose: it
+enables researchers and policymakers to estimate the prevalence and distribution of gambling harm
+across populations, rather than determine individual diagnoses.
+Extensive research supports the PGSI’s reliability and validity for population studies. However it
+tends to identify more individuals as experiencing gambling problems than DSM-based
+diagnostic interviews. Studies comparing the PGSI to DSM-5 diagnostic tools suggest that the
+PGSI performs well in detecting moderate-to-severe cases, but it can classify some individuals as
+“problem gamblers” who would not meet full clinical criteria 1 . In validation studies, its
+sensitivity (ability to correctly identify true cases) has typically ranged between 0.80 and 0.90,
+while specificity (ability to correctly identify non-cases) is somewhat lower, often around 0.70–
+0.85, depending on population and scoring thresholds used2.
+Despite these limitations, the PGSI remains one of the most widely accepted measures for
+identifying gambling-related risk in population surveys. Its use in this study allows for
+meaningful comparison with national and international research, provides an estimate of the
+scope of gambling harm in Nevada, and supports ongoing monitoring of trends over time. As
+such, the PGSI offers a reliable and practical framework for understanding how gambling risk is
+distributed across Nevada’s adult population and for identifying groups who may at highest risk.
+1 Ledgerwood, D. M., Petry, N. M., & LaPlante, D. A. (2020). Psychometric evaluation of the Problem Gambling
+Severity Index (PGSI): Factor structure, reliability, and item performance. BMC Psychiatry, 20, 455.
+https://doi.org/10.1186/s12888-020-02894-9
+2 Williams, R. J., Volberg, R. A., & Stevens, R. M. G. (2012). The Population Prevalence of Problem Gambling:
+Methodological Influences, Standardized Rates, Jurisdictional Differences, and Worldwide Trends. Ontario Problem
+Gambling Research Centre.https://opus.uleth.ca/items/53360886-df6b-4571-aa12-0f62cc4ae641
+9| P a g e
+
+=== page 10 ===
+SAMPLE AND DEMOGRAPHIC CHARACTERISTICS
+The final weighted sample included 1,078 Nevada residents aged 21 and older, representing the
+demographic composition of the state’s adult population. Demographic data were drawn from
+existing panel profiles and weighted to align with the U.S. Census Bureau’s 2022 American
+Community Survey (ACS) estimates for Nevada.
+Table 1
+Sample Demographics 2022 ACS Nevada3 Survey Sample
+Median Age 39.8 years 40.1 years
+Gender
+Male 50.4% 49.7%
+Female 49.6% 50.3%
+Race/Ethnicity
+White, non-Hispanic 48.8% 50.1%
+Hispanic or Latino/a/x 29.9% 26.2%
+Black 9.9% 8.4%
+Asian 8.5% 8.1%
+Multiracial or Other 2.9% 7.2%
+Marital Status
+Single, Never Married 33.4% 33.5%
+Separated, Widowed, Divorced 21.4% 23.4%
+Married 45.2% 43.1%
+Education
+Less than High School 13.1% 12.1%
+High School or GED 26.4% 28.2%
+Some College 34% 32.2%
+Bachelor's Degree or More 26.6% 27.3%
+Military Service
+Veteran (former service only) 8.7% 11.5%
+Current service - 3.8%
+None 91.3% 84.7%
+Household Income
+Under $30,000 23% 30.8%
+$30,000-$59,999 23.6% 18.7%
+$60,000-$99,999 29% 33.3%
+$100,000 or more 24.4% 17.2%
+Residence Type
+Metro 90% 89.1%
+Non-metro 10% 10.9%
+3 U.S. Census Bureau (2023). 2022 American Community Survey 1-Year Estimates,
+Table DP05 – Demographic and Housing Estimates; Table S1901 – Income in the Past 12 Months; Table S1501 –
+Educational Attainment; Table S2101 – Veteran Status. Retrieved from data.census.gov
+10 | P a g e
+
+=== page 11 ===
+The weighted distribution closely reflects statewide patterns across gender, age, race and ethnicity,
+education, income, and region. About half of respondents identified as female, and the age
+distribution mirrors Nevada’s median age of 39.8 years. Roughly half identified as White non-
+Hispanic and about one-quarter as Hispanic, with other racial and ethnic groups represented
+proportionally. Educational attainment and household income also align with ACS benchmarks,
+and nearly nine in ten respondents lived in metropolitan areas, primarily Clark and Washoe
+Counties, consistent with Nevada’s population concentration.
+Figure 1: Years Lived in Nevada
+In addition to standard demographic
+measures such as age, gender, and
+education, the survey also captured
+36.2%
+length of residency in Nevada. Nearly
+two-thirds of respondents have lived in 29.6%
+the state for more than ten years, while
+about one-third have lived in Nevada
+20.5%
+for five years or less. Figure 1 illustrates
+this distribution, showing a mix of 13.7%
+newer and long-term residents that
+reflects Nevada’s ongoing population
+growth and mobility.
+0-5 years 6-10 years 11-20 years 20+ years
+Length of residency provides important context for interpreting differences in gambling behavior
+and perceptions. Examining outcomes by this measure helps assess whether greater exposure to
+Nevada’s gambling environment over time is associated with variations in participation, risk, or
+awareness of available help resources. Tracking this dimension also helps evaluate how population
+turnover and migration may influence the reach and effectiveness of public health and prevention
+efforts across the state.
+Beyond residential stability, the survey also examined employment context, recognizing that many
+Nevadans interact with gambling not only as consumers but also through their work. Including a
+measure of whether respondents work in an environment where gambling is a dominant activity
+provides important context for understanding how occupational exposure may relate to gambling
+behaviors and attitudes. In our sample, 24.9% of those employed (17.6% of the total population
+when accounting for those who are not employed) reported working in a gambling-related
+environment, reflecting the central role of gaming in Nevada’s economy and workforce. Figure 2
+illustrates this distribution, highlighting the extent to which occupational exposure to gambling is
+embedded in the state’s labor market.
+11 | P a g e
+
+=== page 12 ===
+Figure 2. Employment Type
+Not
+employed,
+29.3%
+Other
+Gambling work, 53.1%
+enviroment,
+17.6%
+Nearly one-quarter of Nevada’s workforce (23.1%) is employed in the leisure and hospitality
+sector, which is more than twice the national average of 11.1% 4 . The gaming industry directly and
+indirectly supports about 386,000 jobs, representing 27% of total employment in the state 5 .
+Capturing this variable helps distinguish between individuals who encounter gambling primarily
+through their work and those who experience it only in other social or recreational settings. This
+distinction provides valuable context when examining differences in gambling participation,
+perceived risk, and views about the role of gambling in Nevada’s economy and communities.
+GAMBLING PARTICIPATION
+Gambling is a common and accessible activity in Nevada, where opportunities to gamble extend
+beyond traditional casinos to include local slot parlors, bars, and online platforms. Because of
+this broad exposure, understanding how Nevadans engage with gambling requires looking at
+multiple dimensions of participation.
+Approximately two-thirds of Nevada’s adults (65%) reported gambling at least once in the past
+12 months, reflecting the extent to which gambling is integrated into everyday recreational life in
+the state. This section examines four key aspects of gambling behavior: the types of gambling
+people play, how often they gamble, their reasons for gambling, and where gambling occurs
+most frequently. These measures describe patterns of gambling participation across the state and
+provide context for understanding variation in risk and harm.
+4 Nevada Resort Association. (2025). Nevada Gaming Fact Book: The Facts – Gaming Industry Responsible for 386K
+Jobs, $90B Total Economic Impact. Retrieved from nevadaresorts.org/factbook/NRA-2025-FactBook.pdf
+5 Velotta, R. J. (2025, March 14). The facts: Gaming industry responsible for 386K jobs, $90B total economic impact.
+Las Vegas Review-Journal. Retrieved from reviewjournal.com/business/casinos-gaming/the-facts-gaming-industry-
+responsible-for-386k-jobs-90b-total-economic-impact-2768543/
+12 | P a g e
+
+=== page 13 ===
+GAMBLING TYPES
+Among adults who reported gambling in the past 12 months (n=695), participation was
+concentrated in a few primary forms of play. Slot or keno games were by far the most common,
+reported by about eight in ten gamblers (81%), followed by video poker (36%), table games (24%),
+and lottery or scratch tickets (22%). Other commonly played activities included sports betting
+(19%), and bingo (18%).
+When asked which forms of gambling they played most often, more than half of respondents
+selected slot machines, underscoring the central role of machine-based play in Nevada’s gambling
+landscape. Participation in newer or digital forms of gambling was limited but present, showing a
+diversification in the ways residents engage with gambling. Figure 3 shows the distribution of
+gambling participation over the past year.
+Figure 3. Past Year Gambling Types
+13 | P a g e
+
+=== page 14 ===
+NUMBER OF GAMBLING TYPES
+In addition to the most common forms of play, the survey also examined how many different types
+of gambling people engaged in over the past year. This measure provides insight into the breadth
+of participation, indicating whether gambling activity is focused on one form or spread across
+several.
+Table 2
+Number of Past Percent As shown in Table 2, about one-third of Nevada adults (36%)
+Year Gambling of Nevada did not gamble in the past year, while 21% participated in one
+Types Adults type of gambling, 14% in two types, 12% in three types, and
+17% in four or more types. Most people who gamble
+therefore focused on one or two activities, though nearly one
+0 35.6%
+in five reported gambling across four or more types.
+Broader participation across multiple gambling forms
+1 21.3%
+suggests greater exposure to gambling opportunities and is
+linked to higher risk of gambling-related problems. 6
+2 14.3%
+3 11.8
+4 or more 17.1
+6 Binde, P., Romild, U., & Volberg, R. A. (2017). Forms of gambling, gambling involvement and problem gambling:
+Evidence from a Swedish population survey. International Gambling Studies, 17(3), 490–507.
+https://doi.org/10.1080/14459795.2017.1360928
+14 | P a g e
+
+=== page 15 ===
+GAMBLING FREQUENCY
+While the majority of Nevada adults gamble at least occasionally, the survey findings show that
+gambling occurs with varying levels of frequency across the population.
+Figure 4. How often have you gambled in a casino or bar in the past 12 months?
+Figure 4 shows
+participants who said
+they gambled in casinos
+and bars. Among them:
+• 15% gambled only a
+few times per year,
+• 15% about once a
+month, and
+• 17% about once a
+week.
+• 5% of respondents
+reported gambling in
+casinos or bars on
+“most days.”
+Patterns of more recent gambling reinforce this finding. When asked how many days they had
+gambled in the past 30 days, nearly 60% of gamblers said they had done so on four days or fewer,
+while 14% reported gambling on half or more of the days in the month. Figure 5 shows past month
+gambling frequency.
+Figure 5. Gambling Frequency Past 30 Days
+15 | P a g e
+
+=== page 16 ===
+Across all active gamblers, the average number of gambling days was roughly six to seven per
+month, or about once or twice per week.
+Variation in gambling frequency highlights that people engage with gambling in different ways,
+from occasional recreation to regular activity. The next section explores the reasons behind these
+patterns.
+GAMBLING MOTIVATIONS
+Nevadans who reported gambling in the past 12 months were asked to identify the main reason
+they gamble. Although people may have multiple motivations for gambling, the question asked
+them to select the single reason that best described why they gamble most often.
+As shown in Figure 6, the most common response was to win money (41%), followed by
+socializing with friends or family (23%) and for the excitement or challenge (16%). Smaller
+proportions said they gamble as a distraction from everyday problems (9%) or to be alone, away
+from everyone (8%).
+These results indicate that both instrumental and social factors play important roles in gambling
+behavior. While the chance to win money is the leading motivation, many Nevadans also view
+gambling as a social or recreational activity.
+Figure 6. Most Common Reason You Gamble
+16 | P a g e
+
+=== page 17 ===
+GAMBLING LOCATIONS
+Nevadans who gambled in the past 12 months were asked where they gamble most often. As shown
+in Figure 7, the majority reported doing so in local casinos (39%), followed by casino resorts such
+as those on the Las Vegas Strip or in Reno (29%). A smaller number of people said they gamble
+most often in neighborhood slot parlors (8%), convenience gambling locations such as gas stations
+or grocery stores (7%), or neighborhood bars (5%).
+Figure 7. Where Nevadans Gamble Most Often
+CASINO RESORTS (THE LAS VEGAS STRIP, GOLDEN NUGGET,
+28.9%
+PEPPERMILL, ETC.)
+LOCAL CASINOS (STATIONS, SAM’S TOWN, MAVERICK, ETC.) 39.0%
+NEIGHBORHOOD SLOT PARLORS 7.8%
+NEIGHBORHOOD BARS 5.2%
+CONVENIENCE GAMBLING (GAS STATIONS, GROCERY STORES, ETC.) 7.5%
+IN PRIVATE HOMES WITH FRIENDS OR OTHERS 2.2%
+ONLINE 5.3%
+OTHER 4.1%
+Nevadans encounter gambling in a wide range of everyday settings, from large casino resorts to
+local casinos, neighborhood bars, and smaller venues such as grocery stores and gas stations
+equipped with gambling machines. Gambling opportunities are distributed throughout both tourist
+corridors and residential areas, making them a visible and routine part of the state’s commercial
+landscape. This density and accessibility reflect a social and economic environment where
+gambling is integrated into ordinary spaces of work, leisure, and community life.
+This pattern highlights the role of exposure and availability in shaping gambling behavior, as
+access to gambling opportunities is widespread and embedded in everyday environments. The
+presence of small, locally oriented venues such as Dotty’s or Jackpot Joanie’s, alongside large-
+scale casino resorts, creates a continuum of gambling settings that reach residents across social
+and economic contexts.
+Average gambling frequency also differed by gambling location, showing that where people
+gamble relates to how often they gamble. Those who gambled most often in neighborhood bars
+averaged 25 days of gambling in the past month, and those who played mainly in small slot parlors
+such as Dotty’s or Jackpot Joanie’s averaged about 13 days. In comparison, gambling frequency
+was much lower among those whose primary locations were casino resorts (7 days), local casinos
+(8 days), or convenience stores and gas stations (4 days). Statistical testing confirmed that these
+17 | P a g e
+
+=== page 18 ===
+differences were significant, F(4, 609) = 12.26, p < .001, even after adjusting for unequal variation
+between groups. These results suggest that gambling tends to occur more frequently in smaller,
+community-based settings where access is easier and play happens in familiar, everyday
+environments. Figure 8 illustrates below.
+Figure 8. Average Days Gambled In Month by Primary Location
+Note: Larger standard deviations indicate greater variation in gambling frequency within each group. Variances
+differed across locations (Levene’s test, p < .001), and Welch’s ANOVA was used to adjust for these differences.
+18 | P a g e
+
+=== page 19 ===
+GAMBLING RISK AND HARM
+The survey measured gambling-related harm using the Problem Gambling Severity Index (PGSI).
+The PGSI ranges from 0-27, classifying gamblers as non-problem (0), low-risk (1-2), moderate
+risk (3-7), or problem (8+) (more information on PGSI, see page 9).
+About 64.4% of Nevada adults gambled in the past year. Among them, roughly one-third
+(32.9%) showed no gambling-related harm, 22.9% scored in the low-risk range, 20.7% in the
+moderate-risk range, and 23.4% scored in the highest risk category. Together, these results show
+that nearly half of all gamblers, 43.6%, experience moderate to severe gambling harms. This rate
+signals significant impact at the individual and community levels.
+Including non-gamblers gives a broader view of population-level risk. When considering the
+entire adult population, more than half of Nevadans showed no harm from gambling, while
+43.2% fell somewhere along the risk spectrum, from early warning signs to serious problems.
+About 15% of all adults in Nevada met the PGSI threshold for problem gambling, representing a
+substantial share of residents facing ongoing harm.
+Table 3
+PGSI Category Description % of % of Nevada
+Gamblers Adults
+Non-gamblers No gambling past 12 months - 35.6%
+Non-problem (0) No harms reported 32.9% 21.2%
+Low-risk (1-2) Early or occasional problems 22.9% 14.8%
+Moderate Risk (3-7) Repeated or escalating harms 20.7% 13.3%
+Problem Gambling (8+) Consistent, significant harm 23.4% 15.1%
+These findings show that gambling harm in Nevada reaches far beyond a small subset of high-
+intensity players. Risk concentrates in places where gambling is a part of everyday life, increasing
+with exposure, venue type, and workplace environment.
+19 | P a g e
+
+=== page 20 ===
+RISK BY GAMBLING VENUE AND EXPOSURE
+Problem-gambling risk differs sharply across gambling venues. The highest rates appear among
+people who gamble most often in neighborhood bars, small slot parlors, or workplace and public
+settings, where roughly one in three to one in two players meet the PGSI 8+ threshold. In contrast,
+gamblers in casino resorts, local casinos, or convenience locations report lower rates of harm,
+typically one in five or fewer. These differences show that smaller, community-based venues
+concentrate higher levels of gambling-related harm than larger destination casinos.
+Risk also rises with the number of gambling activities played. Among people who gamble on four
+or more types of games, 28% scored in the problem-gambling range, compared with 20% among
+those who played one to three types, making them 1.4 times more likely to meet the PGSI 8+
+threshold. This pattern indicates that the breadth of gambling participation, not just frequency or
+spending, increases vulnerability to harm.
+OCCUPATIONAL AND LIFESTYLE RISK
+People who work in gambling environments face substantially higher risk for gambling problems.
+Among those who work in a gambling environment, 37.7% scored in the problem-gambling range
+compared to 19% of those employed elsewhere, making them about twice as likely to experience
+severe gambling harm.
+Work schedule also influences gambling behavior. Risk peaks among those whose workday begins
+in the afternoon between 2:00 and 6:00 pm, where 31% meet the PGSI 8+ threshold, about 1.2
+times higher than day-shift workers. These schedules are common in hospitality, entertainment,
+and gaming jobs, where gambling venues are most active during late afternoons and evenings.
+This pattern may reflect greater opportunity or convenience for gambling around typical work
+hours.7
+While irregular schedules can influence gambling patterns, sleep disturbance presents an
+additional and independent risk. People who report difficulty sleeping more than half the days in
+the past month are 2.6 times more likely to meet the PGSI 8+ threshold than those who sleep well.
+Disrupted sleep can impair decision-making and coping, increasing vulnerability to extended or
+riskier gambling.8 9
+Work conditions and lifestyle factors, including exposure to gambling environments, irregular
+schedules, and poor sleep, each contribute to higher levels of gambling harm, though not
+necessarily within the same group of workers.
+7 Yoshioka, Eiichi, et al. 2024. “Association of Night-Shift Work with Gambling and Problem Gambling.” Addictive
+Behaviors Reports, 100650. https://doi.org/10.1016/j.abrep.2024.100650.
+8 Parhami, Iman, et al. 2012. “Sleep and Gambling Severity in a Community Sample.” Journal of Gambling Studies
+28(4):563–576. https://pmc.ncbi.nlm.nih.gov/articles/PMC3327130/.
+9 Austin, Lauren, et al. 2024. “Gambling Disorder and Sleep Problems among Young Adults.” Addictive Behaviors
+Reports. greo.ca/Modules/EvidenceCentre/Details/gambling-disorder-and-sleep-problems-among-young-adults.
+20 | P a g e
+
+=== page 21 ===
+DEMOGRAPHIC RISK FACTORS
+Gambling harm varies by age, race, and marital status. Adults aged 18–29 show the highest levels
+of harm, with 35% meeting the PGSI 8+ threshold. Among adults aged 30–44, 32% meet this
+threshold, compared with 7% of adults aged 60 and older.
+By race and ethnicity, Hispanic (30%) and Black, non-Hispanic (28%) adults report higher rates
+of harm than White, non-Hispanic (19%) adults. Multiracial (36%) and Other, non-Hispanic (38%)
+adults report roughly twice the rate of White, non-Hispanic adults. Asian, non-Hispanic (7%)
+adults report the lowest rate of harm.
+Marital status shows similar differences. Never-married (29%) and separated or divorced (24%)
+adults report higher rates of harm than married (20%) adults. Widowed (5%) adults report the
+lowest rate.
+Table 4
+Category Highest Risk Group Reference Group Relative Risk
+Age 21-29 years 60+ 5 x higher
+Race/Ethnicity Hispanic, Black, White (non-Hispanic) 1.5 – 2 x higher
+Multiracial
+Marital Status Never married, Married 1.2 – 1.5 x higher
+Separated/Divorced
+These differences highlight how age, life stage, and social context intersect with gambling
+exposure in Nevada.
+RISK BY RESIDENCE AND LENGTH OF TIME IN NEVADA
+Problem gambling risk varies by where people live and how long they have lived in Nevada.
+Metro-area residents show higher rates of problem gambling (23%) than non-metro residents
+(17%), about 1.3× higher risk.
+Risk follows a curve based on length of residence. It rises after the first few years, peaks among
+residents who have lived in the state six to ten years (32%), then declines among those who have
+lived more than twenty years (16%).
+These patterns suggest that exposure to Nevada’s gambling environment may be most influential
+during the middle years of residency, when access and familiarity are both well established.
+21 | P a g e
+
+=== page 22 ===
+PATTERNS OF GAMBLING RISK IN NEVADA
+Patterns of gambling risk in Nevada show that harm is distributed unevenly across the population.
+Risk is highest among younger adults, racially diverse groups, and those who are unmarried. It
+also concentrates among casino employees, afternoon-shift workers, and individuals reporting
+frequent sleep disturbance.
+Environmental exposure plays a central role. People who gamble most often in bars, small slot
+parlors, or workplace settings show the highest rates of harm, while those who gamble in larger
+casino venues report lower rates. Risk also increases with the number of gambling types played
+and peaks among residents who have lived in Nevada six to ten years.
+These findings show that gambling risk is closely linked to everyday environments, work patterns,
+and social context. They also provide a foundation for understanding how gambling is perceived
+across the state.
+OTHER RISKY BEHAVIORS
+The survey asked Nevadans about other risky or addictive behaviors alongside gambling. These
+included substance use, gaming, shopping, eating, sexual behavior, and internet use. For each one,
+respondents said if it caused problems for them in the past year, if they had tried to quit or cut
+down, or if someone else had expressed concern. The three responses were combined to show
+whether a person had experienced any difficulty managing that behavior.
+More than half of respondents reported some difficulty with at least one behavior. Food or eating
+was the most common at 61%. Shopping or spending followed at 54%, then drug or alcohol use at
+52% percent, internet use at 51%, and gaming at 50%. About half also said the same about
+gambling or sexual behaviors. Many Nevadans recognized challenges in controlling everyday
+behaviors that can become excessive.
+Nearly three in four adults (74%) reported at least one non-gambling behavior that caused concern
+or led them to try to cut down. While this measure does not identify clinical problems, it shows
+that many people experience difficulty moderating behaviors that provide pleasure or reward.
+People with higher gambling risk also reported more problems in other areas. Table 5 shows the
+relationship between other risky behaviors and problem gambling risk. Darker colors indicate
+higher percentages within each gambling risk group, showing that people with higher PGSI scores
+reported more difficulty across other behaviors.
+22 | P a g e
+
+=== page 23 ===
+Table 5
+Non-problem Low risk Moderate risk
+Behavior (0) (1–2) (3–7) High risk (8+)
+Drug or alcohol use 28% 48% 60% 86%
+Gaming (video or mobile) 18% 45% 56% 82%
+Shopping or spending 26% 54% 67% 84%
+Food or eating 40% 57% 75% 83%
+Internet use 24% 49% 63% 80%
+Sexual behaviors 18% 38% 57% 79%
+Any 1 of above 54% 70% 90% 94%
+The likelihood of reporting other risky behaviors rose sharply with gambling risk. Among non-
+problem gamblers, just over half (54%) endorsed at least one other risky behavior. That rate
+climbed to 94% among those with PGSI scores of 8 or higher (p < .001). People with greater
+gambling risk also reported more problems in other areas, showing a clear overlap between
+gambling harm and broader behavioral health risks in Nevada.
+PUBLIC PERCEPTIONS AND RISK FRAMES
+Public views of gambling in Nevada reflect both cultural familiarity and recognition of potential
+harm. Gambling is part of daily life for many residents and shapes how it is understood across
+communities. These perceptions show how Nevadans frame gambling as entertainment, culture,
+and risk, and they provide context for understanding views about harm, responsibility, and public
+response. The following section looks first at how residents describe gambling’s place in everyday
+life.
+CULTURAL ORIENTATION AND NORMALIZATION
+To understand how gambling fits into everyday life, the survey asked residents how much they
+agree or disagree with several statements about gambling’s role in Nevada culture and social life.
+Figure 9 shows the percentage of Nevadans that agreed or strongly agreed with gambling as fun,
+cultural, and social.
+23 | P a g e
+
+=== page 24 ===
+Figure 9. Gambling Culture
+HOW MUCH DO YOU AGREE...
+Gambling is an important part of
+61%
+cultural life in Nevada
+Casinos are a good place to socialize 44.3%
+Gambling is a fun and harmless form of
+34.7%
+entertainment
+Gambling plays an active role in Nevada’s social environment. Most residents (61 percent) say it
+is an important part of the state’s culture, showing broad acceptance of its economic and social
+influence. Nearly half (44 percent) say casinos are good places to socialize, indicating that people
+see these spaces as part of community life as well as entertainment. Only about one in three (35
+percent) call gambling fun and harmless, which shows that many recognize potential risks even as
+they accept its presence. This mix of acceptance and caution shapes how Nevadans think about
+responsibility, harm, and prevention in a state where gambling is part of daily life.
+MISCONCEPTIONS ABOUT ODDS AND LUCK
+Public views about gambling in Nevada show both cultural acceptance and awareness of risk.
+While many residents see gambling as part of everyday life, most do not believe that luck or
+persistence can change the outcome of a game. This shift from social approval to cognitive
+skepticism helps show how people in Nevada think about gambling risk.
+The survey included three statements about luck and chance. Each tested a common misconception
+about gambling. Only about 11–13 percent of respondents agreed with these ideas. Roughly 58–
+63 percent disagreed, and about one-quarter were neutral. Figure 10 below shows these results.
+Most Nevadans reject beliefs such as the idea that gambling more improves the odds, that a near
+win means a win is coming, or that continuing to gamble will turn luck around.
+24 | P a g e
+
+=== page 25 ===
+Figure 10. Belief about Luck and Chance in Gambling
+63.4%
+59.9%
+57.5%
+28.9%
+25.3%
+23.9%
+12.5% 11.6% 12.9%
+WHEN A PERSON ALMOST WINS, IT'S A IF A PERSON KEEPS GAMBLING, THEIR THE MORE A PERSON GAMBLES, THE
+GOOD SIGN THAT THEY ARE DUE TO WIN LUCK WILL CHANGE AND THEY'LL WIN BETTER HIS OR HER ODDS ARE OF
+SOON BACK THE MONEY THEY'VE LOST COMING OUT AHEAD
+Disagree/Strongly Disagree Neutral Agree/Strongly Agree
+The group who answered “neutral” suggests some uncertainty about how gambling outcomes
+work.
+About one in four adults (27%) agreed with at least one of the three misconceptions, while 73%
+did not agree with any. Agreement with these misconceptions also rose sharply with gambling
+risk. Only 6% of non-problem gamblers agreed with at least one, compared with 21% of low-risk,
+32% of moderate-risk, and 61% of those in the highest-risk category. Table 6 illustrates the
+intersection of gambling misconceptions and risk.
+Table 6
+PGSI Risk Category Did Not Agree with Any Agreed with at Least one
+Gambling Misconception Gambling Misconception
+Non-problem 94.3% 5.7%
+Low risk (1-2) 79.1% 20.9%
+Moderate risk (3-7) 68.1% 31.9%
+Problem gambling (8+) 38.6% 61.4%
+χ²(3, N = 682) = 148.00, p < .001
+25 | P a g e
+
+=== page 26 ===
+Statistical tests confirm a strong and significant relationship between gambling risk and agreement
+with gambling misconceptions. Higher risk groups were much more likely to endorse at least one
+misconception.
+These findings show that misunderstanding of odds and luck is more common among people with
+higher gambling risk. The pattern suggests that mistaken beliefs about chance and randomness are
+linked to greater gambling involvement and harm. Addressing these misconceptions through
+public education may help reduce risky gambling behavior.
+UNDERSTANDING “ADDICTION TO GAMBLING”
+Public understanding of gambling addiction in Nevada reflects a mix of medical, moral, and social
+perspectives. The survey asked residents to consider how they define “addiction to gambling” and
+whether they view it as similar to substance use disorders, as a health issue, or as a matter of
+personal control. These questions help reveal how Nevadans make sense of gambling-related
+harm, whether they attribute it to individual willpower, medical causes, or broader public health
+concerns.
+Most respondents (78%) agreed that gambling addiction is “a lot like addiction to drugs or
+alcohol,” with nearly equal proportions strongly agreeing (37%) and agreeing (41%). Only 8%
+disagreed, showing a broad consensus around this comparison.
+Views became less unified when gambling addiction was framed as a medical or public health
+issue. While nearly half agreed with each statement (44% and 46%, respectively), about one in
+three were neutral and roughly one in four disagreed. This pattern suggests uncertainty about
+whether gambling problems fall fully within the health domain. People may recognize addiction
+as real but hesitate to equate it with a formal medical or public health condition.
+Belief in personal control also remains prominent. Forty-three percent agreed that gambling
+addiction is caused by a lack of willpower, while a similar number (42%) disagreed or strongly
+disagreed. Nearly three in ten were neutral, indicating that many Nevadans hold ambivalent or
+conflicting views. Figure 11 shows these results.
+26 | P a g e
+
+=== page 27 ===
+Figure 11. Perceptions of Gambling Addiction
+Overall, these distributions show a layered understanding of gambling addiction. Nevadans largely
+accept the disease analogy but remain divided on whether gambling problems are medical or public
+health issues and whether they stem from moral weakness. These mixed views show progress in
+recognizing addiction as a health issue, while stigma linked to personal responsibility remains.
+When addiction is seen partly as a failure of willpower, individuals may be less likely to disclose
+problems or seek help, and families may be more likely to keep gambling issues private. These
+beliefs can influence how communities respond to people experiencing gambling harms and how
+receptive they are to treatment, prevention, or public awareness messages.
+YOUTH EXPOSURE AND ADVERTISING
+Concerns about exposure to gambling extend beyond adults who experience harm to how gambling
+is presented to young people. After exploring how Nevadans understand gambling addiction, the
+survey asked residents about the influence of gambling advertising on children and their level of
+concern about adolescent participation in gambling. These questions provide insight into how the
+public perceives early risk and the potential impact of gambling’s visibility in everyday life.
+27 | P a g e
+
+=== page 28 ===
+About 37% of respondents agreed that exposure to gambling advertising negatively affects
+children (12% strongly agree and 26% agree), while 41% were neutral and 20% disagreed.
+Concern about adolescents gambling was somewhat higher, with 48% agreeing or strongly
+agreeing and about 31% neutral. See figure 12 for details. These responses show moderate concern
+overall, paired with a high level of uncertainty, indicating that many residents may not yet view
+youth gambling as a clearly defined public health issue.
+Figure 12. Concerns about Youth
+I AM CONCERNED ABOUT ADOLESCENTS
+20.8% 31.3% 47.8%
+GAMBLING
+EXPOSURE TO GAMBLING ADVERTISING
+19.7% 41% 37.5%
+NEGATIVELY IMPACTS CHILDREN
+Disagree/Strongly Disagree Neutral Agree/Strongly Agree
+Importantly, research shows that exposure to gambling advertising and promotional content among
+adolescents is not benign. For example, one systematic review found that youth exposure to
+gambling promotion on online and social‐media platforms was significantly associated with
+gambling behaviors and at-risk/problem gambling 10 . Another study reported that children and
+young people remember gambling brands at high rates and that higher recall correlates with higher
+intention to gamble 11 . These studies suggest that advertising may play a role in normalizing
+gambling for youth and therby contribute to the development of harm over time.
+10 Pitt, H., Thomas, S. L., Bestman, A., Stoneham, M., Daube, M., & Derevensky, J. L. (2022). Exposure to gambling
+promotions and gambling behaviours in adolescents: A cross-sectional survey of 11–16-year-olds in Australia. BMC
+Public Health, 22, 1228. https://doi.org/10.1186/s12889-022-13502-3
+11 Pitt, H., Thomas, S. L., Bestman, A., Daube, M., & Derevensky, J. L. (2019). Young people’s recall and perceptions
+of gambling advertising and intentions to gamble on sport. Journal of Behavioral Addictions, 8(3), 481–491.
+https://doi.org/10.1556/2006.8.2019.42
+28 | P a g e
+
+=== page 29 ===
+Given these associations, the relatively large proportion of “neutral” responses in our survey may
+indicate a gap in public awareness rather than absence of risk. While many Nevadans recognize
+potential risks for young people, the broader public conversation about gambling exposure and
+advertising remains limited. Increasing awareness of how gambling content appears in sports,
+video games, and online platforms can help clarify these risks and support more informed
+prevention efforts.
+AFFECTED OTHERS AND STIGMA
+Gambling’s impact often reaches beyond the individual, affecting family members, friends, and
+others in close relationships. The survey explored how Nevadans experience these secondary
+harms: whether they have been worried about someone else’s gambling, personally affected by it,
+or hesitant to discuss gambling problems within the family. These questions reveal how
+interpersonal dynamics and stigma shape responses to gambling harm.
+Many Nevadans report personal exposure to gambling-related harm within their social networks.
+Nearly one in three adults (32%) said they had been worried about someone else’s gambling, and
+30% said they had personally been negatively affected by the gambling behaviors of a friend,
+family member, coworker, or someone they know. These findings highlight how gambling harms
+extend beyond individual gamblers to impact families, workplaces, and communities.
+By contrast, relatively few respondents endorsed stigma-related statements. Only 13% agreed they
+would be embarrassed if a family member needed treatment for a gambling problem, and 15%
+agreed that such a problem should be kept within the family rather than discussed with others.
+Majorities disagreed with both stigma items, suggesting that social acceptance of help-seeking
+may be improving. Figure 13 illustrates:
+Figure 13. Exposure to Gambling Harm and Family Sigma
+32%
+29.70%
+14.50%
+13.10%
+I WOULD BE IF SOMEONE IN MY I HAVE BEEN WORRIED I HAVE PERSONALLY
+EMBARASSED IF A FAMILY HAD A ABOUT SOMEONE BEEN NEGATIVELY
+FAMILY MEMBER GAMBLING PROBLEM, I ELSE'S GAMBLING AFFECTED BY THE
+NEEDED TREATMENT WOULD ADVISE THEM BEFORE GAMBLING BEHAVIORS
+FOR A GAMBLING NOT TO DISCUS IT WITH OF SOMEONE I KNOW
+PROBLEM ANYONE OUTSIDE THE
+FAMILY.
+29 | P a g e
+eergA
+ylgnortS
+ro
+eergA
+ohw
+tnecreP
+
+=== page 30 ===
+Exposure to gambling harm in social and family networks appears widespread, but explicit stigma
+remains comparatively low. This combination points to opportunities for public messaging that
+encourages open discussion and early help-seeking among affected others.
+HELP SEEKING, ACCESS, AND TREATMENT VIEWS
+Public views about gambling addiction shape not only how people interpret harm but also how
+they respond when problems arise. The survey explored where Nevadans would first look for help,
+how much they trust various information sources, and what they know about treatment and support
+options. It also examined whether health professionals routinely ask about gambling, an important
+point of early detection. These results provide a picture of the help-seeking environment in
+Nevada, from the first search for information to contact with health-care providers.
+TRUST
+Understanding who the public trusts for information about problem gambling is crucial for shaping
+effective prevention and treatment strategies. Public health communication depends not only on
+the accuracy of the information shared, but also on the credibility of the messenger. When people
+perceive a source as trustworthy, they are more likely to seek information, believe it, and act on it.
+Conversely, if the source is viewed as biased or unreliable, even well-intentioned messages may
+be dismissed or ignored.
+Figure 14. Trust in Information Sources about Problem Gambling
+CASINOS / GAMBLING OPERATORS 23% 44% 31%
+PUBLIC AWARENESS CAMPAIGNS 38% 45% 15%
+NONPROFIT ORGANIZATIONS 37% 50% 13%
+NEVADA DPBH (STATE HEALTH DEPT.) 48% 41% 10%
+MENTAL HEALTH PROFESSIONALS 62% 28% 9%
+MEDICAL DOCTORS 44% 41% 15%
+UNIVERSITY RESEARCHERS 49% 41% 10%
+Agree/Strongly Agree Neutral Disagree/Strongly Disagree
+30 | P a g e
+
+=== page 31 ===
+Figure 14 shows that Nevadans place the highest trust in mental health professionals and university
+researchers when it comes to information about problem gambling. This reflects a broader pattern
+in public health communication—people tend to value expertise, objectivity, and evidence-based
+perspectives. Research institutions and clinicians are seen as both knowledgeable and independent,
+making them ideal messengers for credible, stigma-reducing conversations about gambling harm.
+At the same time, the findings reveal a trust gap for nonprofits and public awareness campaigns.
+Although these organizations are often the most visible actors in prevention, respondents were
+more likely to remain neutral or uncertain about trusting them. This suggests that while these
+groups are well-intentioned, their messages may not always resonate as credible or persuasive.
+Building stronger connections between these outreach efforts and recognized experts could help
+close that gap.
+Finally, trust in casinos and gambling operators is notably low, only about one in four respondents
+said they would trust them for information about problem gambling. This is especially significant
+given that casinos are often expected to display helpline numbers, distribute responsible gambling
+materials, and serve as a first point of contact for individuals in distress. The disconnect highlights
+a critical tension: we rely on the industry to be part of the solution, yet the public perceives them
+as part of the problem.
+Taken together, these results point to an important imperative for the state’s problem gambling
+system. If the most trusted voices are those of researchers, doctors, and mental health
+professionals, then they must play a more active role in prevention and early intervention.
+Encouraging healthcare providers to engage patients in conversations about gambling, expanding
+professional training, and investing in independent research will strengthen the credibility and
+reach of problem gambling information across Nevada.
+WHERE PEOPLE TURN FOR HELP
+When asked where they would first go to find help for a gambling problem, the most common
+response was “Google or internet search” (32%), followed by the Problem Gambling Helpline
+(26%). Far fewer respondents said they would first turn to Gamblers Anonymous (17%), a mental
+health provider (12%), or a primary care provider (11%). Figure 15 shows the distribution of where
+people turn for help.
+31 | P a g e
+
+=== page 32 ===
+Figure 15. The First Place I would Go to Find Information about Help for a Gambling Problem
+Other
+2%
+Gamblers
+Anonymous
+17%
+Helpline
+26%
+Mental
+Health
+Provider
+12%
+Primary Google/Interne
+Care t
+Provider
+11%
+These results show a clear gap between who people trust for information about problem gambling
+and where they actually go when they need it. In the trust section, respondents expressed the
+highest confidence in mental health professionals and university researchers, yet relatively few
+said they would reach out to a healthcare or mental health provider as their first step. Instead, most
+rely on the internet, which can be an unreliable or confusing source of information, depending on
+what appears in search results.
+This mismatch suggests that trusted experts are not visible at the point of need. People may value
+expertise but still lack easy access to it, either because they don’t know where to find credible
+sources or because seeking professional help feels stigmatizing or burdensome. One in four
+respondents selected the Problem Gambling Helpline, indicating that is a recognized entry point,
+but it does not match the reach of an online search.
+These findings point to a broader communication challenge:
+• Public health and research organizations need greater online visibility so that credible,
+evidence-based information appears in the same spaces where people are already looking.
+• Clinicians and mental health providers should be more proactive in asking about gambling
+and normalizing these conversations in routine care.
+• Public awareness efforts should modernize their outreach, integrating digital platforms and
+search visibility rather than relying solely on traditional campaigns.
+32 | P a g e
+
+=== page 33 ===
+While Nevadans trust professional expertise, they often seek information elsewhere. Bridging this
+gap means ensuring that trusted sources are visible and directly connected to help-seeking
+behavior. This visibility is essential for effective prevention and early intervention.
+KNOWLEDGE AND PERCEPTION OF SERVICES
+The survey asked residents about their understanding of available help for gambling problems and
+their confidence in the treatment system. Although most Nevadans recognize that gambling can
+cause harm, many are uncertain about how to find help or whether treatment is effective. These
+measures capture both practical knowledge of where to go for support and broader perceptions of
+the accessibility and effectiveness of care.
+Only about four in ten Nevadans said they would know how to get help if someone close to them
+had a gambling problem, while a similar share agreed that treatment services are available in their
+community. Roughly half of residents were neutral on each item, suggesting that many lack clear
+information about what resources exist or how to access them. Confidence in the effectiveness of
+treatment was even lower, with just one-third agreeing that it helps people stop or control their
+gambling. These findings point to limited public awareness of services and uncertainty about their
+impact.
+Figure 16. Awareness of Services
+TREATMENT FOR PROBLEM GAMBLING IS
+EF FECTIVE AT HE LPING PEOPLE STOP OR 8% 55.1% 35.3%
+CONTROL THEIR GA MBLING
+SERVICES TO TREAT PROBLEM GAMBLING ARE
+9.5% 47.8% 41.5%
+AVAILABLE IN MY COMMUNITY
+IF SOMEONE CLOSE TO ME HAD A GAMBLING
+PROBLEM, I WOULD KNOW HOW TO GET HELP 25.8% 35.5% 37.8%
+FOR THEM
+Disagree/Strongly Disagree Neutral Agree/Strongly Agree
+33 | P a g e
+
+=== page 34 ===
+Despite Nevada’s established network of certified providers and a statewide helpline, the public’s
+awareness of these resources appears limited. The high proportion of neutral responses suggests
+that many residents have little direct contact with the treatment system or have not encountered
+information about available help. Increasing the visibility of local programs, embedding routine
+screening within health and primary care settings, and expanding community education could
+strengthen pathways to support and reduce barriers to seeking help.
+HEALTHCARE SYSTEM ENGAGEMENT
+Health care settings are often the first point of contact for identifying behavioral health concerns,
+but gambling rarely comes up in these conversations. The survey asked whether any health
+professional had discussed gambling, alcohol or substance use, or mental health during the past
+year.
+Nevadans were about four times more likely to be asked about mental health and three times more
+likely to be asked about alcohol or substance use than about gambling. Only 9% of respondents
+said a provider had asked them about their gambling behaviors, compared with 27% who had been
+asked about substance use and 35% who had been asked about mental health.
+Figure 17. Has a Healthcare Provider Asked you About...
+Figure 17 shows that gambling remains largely absent from clinical screening, even as many of
+the same providers routinely address other behavioral health issues. Integrating brief gambling
+screening into those existing protocols could reduce missed opportunities for early intervention.
+Expanding routine screening to include gambling could help identify problems earlier and connect
+people to appropriate support.
+34 | P a g e
+
+=== page 35 ===
+SHARED RESPONSIBILITY FOR ADDRESSING GAMBLING HARM
+Public views on who should take responsibility for reducing gambling-related harm reveal how
+Nevadans think about the balance between personal accountability and collective action. The
+survey examined attitudes toward state leadership, industry and government roles, and funding
+mechanisms designed to support prevention and treatment.
+Support for state leadership was strong. About two-thirds (66%) of respondents agreed or strongly
+agreed that since Nevada has the largest gaming industry in the country, the state should be a leader
+in reducing the harms caused by gambling. Only 7% disagreed. This broad consensus indicates
+that most residents expect the state to play a visible, proactive role in addressing gambling-related
+issues.
+In addition to general support for state leadership, respondents showed interest in a statewide self-
+exclusion system that would allow residents to voluntarily bar themselves from gambling
+establishments. About 41% agreed or strongly agreed with this idea, while a similar number neutral
+and 16% disagreed. These results, shown in Figure 18, suggest that while many residents are open
+to the concept, opinions are mixed and awareness of such programs may vary. Self-exclusion
+systems are common in other jurisdictions and are designed to give individuals a practical way to
+limit access and reduce gambling problems 12.
+Figure 18. Nevada's Role in Addressing Gambling Harm
+SINCE IT HAS THE LARGEST GAMING INDUSTRY OF
+ANY STATE, IT IS IMPORTANT FOR THE STATE OF
+6.9% 26.1% 66.3%
+NEVADA TO BE A LEADER IN ITS EFFORTS TO
+REDUCE THE HARMS CAUSED BY GAMBLING
+NEVADA SHOULD HAVE A SYSTEM WHERE
+RESIDENTS CAN VOLUNTARILY SELF -EXCLUDE FROM 16.3% 40.9% 41.6%
+ALL GAMBLING ESTABLISHMENTS
+Disagree/Strongly Disagree Neutral Agree/Strongly Agree
+12 Pitt, H., Thomas, S. L., & Randle, M. (2024). Public support for gambling harm reduction policies: A national
+survey of attitudes in Australia. BMC Public Health, 24, 189. https://doi.org/10.1186/s12889-024-17649-z
+35 | P a g e
+
+=== page 36 ===
+Views on industry and government responsibility were also largely supportive. Figure 19 shows
+public views on government and industry responsibility for addressing gambling addiction. Nearly
+half of Nevadans (47%) agreed that the gambling industry should do more to help people with a
+gambling addiction, while 39% said the same of government. Relatively few respondents
+disagreed (11% and 21% respectively), and most others were neutral, suggesting openness to
+stronger actions from both sectors.
+Figure 19. Whose Responsibility?
+THE GOVERNMENT SHOULD DO MORE TO
+HELP PEOPLE WITH A GAMBLING 21.3% 38.1% 39.4%
+ADDICTION
+THE GAMING INDUSTRY SHOULD DO
+MORE TO HELP PEOPLE WITH A 11.5% 40.6% 46.8%
+GAMBLING ADDICTION
+Disagree/Strongly Disagree Neutral Agree/Strongly Agree
+Questions about funding mechanisms
+showed that most Nevadans support
+dedicated resources to address gambling
+52.9%
+harm. Figure 20 shows public support for
+different funding approaches to address
+problem gambling. A majority (53%)
+favored direct contributions from gambling
+operators to help fund treatment programs,
+while nearly half (45%) supported a tax on
+44.9% operators to fund prevention and treatment.
+Fewer than one in five respondents opposed
+either idea. This pattern suggests broad
+public endorsement of shared funding
+Gambling operators should The government should
+responsibility, with many residents viewing
+help support programs tax gambling operators
+industry and government contributions as that address problem and use the proceeds to
+gambling by funding develop programs that
+appropriate ways to support those affected by
+gambling treatment prevent and treat problem
+gambling problems. centers gambling
+36 | P a g e
+eergA
+ylgnortS/eergA
+taht
+tnecreP
+Figure 20. How to Fund?
+Figure 21. How to Fund?
+Figure 22. How to Fund?
+Figure 23. How to Fund?
+
+=== page 37 ===
+The findings show broad agreement that both the state and the gambling industry have a role in
+preventing and reducing gambling harm. Nevadans generally support collective responsibility
+rather than leaving the issue to individuals alone. What is less clear is how these responsibilities
+should be carried out in practice. This points to an opportunity for greater public discussion and
+clearer communication about existing harm-reduction approaches in other places and how similar
+strategies might work in Nevada.
+IMPLICATIONS FOR PREVENTION, TREATMENT, AND OUTREACH
+The survey findings point to several areas where clearer communication and coordinated strategies
+could strengthen Nevada’s response to gambling-related harm. Most residents recognize gambling
+addiction as a health issue and support shared responsibility for prevention, yet many remain
+uncertain about how to access help or what role the state and industry should play.
+PREVENTION
+Concern about youth exposure and advertising, along with strong support for state leadership,
+suggests that prevention efforts should continue to focus on education and awareness. Providing
+information about how gambling is promoted through sports, gaming, and digital platforms can
+help clarify early risk and improve public understanding of prevention strategies.
+TREATMENT AND SERVICE AWARENESS
+Many Nevadans are unsure whether treatment for gambling problems is available or effective.
+Increasing visibility of treatment options, confidentiality protections, and no-cost services could
+reduce hesitation to seek help. Incorporating brief gambling screens into existing health and
+behavioral health assessments would also make it easier to identify problems early.
+PUBLIC MESSAGING
+Although stigma appears low, uncertainty about where to find help remains common. Messaging
+that highlights available services and presents recovery as attainable could strengthen public
+awareness and align perceptions with existing supports.
+POLICY AND SYSTEMS
+Broad agreement that the state and industry share responsibility for reducing harm provides a
+foundation for future policy work. Explaining how current measures—such as self-exclusion
+programs, funding mechanisms, and prevention initiatives—operate in practice may help build
+public confidence in Nevada’s efforts to address gambling-related harm.
+37 | P a g e
+
+=== page 38 ===
+LIMITATIONS
+These survey findings provide a detailed picture of gambling behaviors and perceptions across
+Nevada; however, it is important to acknowledge several limitations of the study.
+All studies have limitations, even well-designed ones. Surveys are built to give the most accurate
+picture possible, but every method involves tradeoffs. Recognizing these limits provides
+transparency and strengthens the interpretation of results
+First, the survey used a mixed sampling approach that combined a probability-based panel with
+supplemental address-based and non-probability online interviews. This method increases
+coverage and improves representation of Nevada’s population, but some sampling bias may remain
+despite statistical weighting and calibration.
+Second, the data are self-reported and rely on participants’ memory and willingness to disclose
+potentially sensitive behaviors. Some underreporting or overreporting is possible, particularly
+around gambling frequency, spending, or harm.
+Third, as a cross-sectional survey, these results describe associations rather than cause-and-effect
+relationships. While the analysis identifies who is at higher risk, it cannot determine whether
+specific factors lead to gambling problems.
+Finally, the findings reflect one point in time. Gambling opportunities and public attitudes continue
+to evolve, especially with the growth of online and mobile gambling. Ongoing monitoring will be
+essential to track changes in participation, risk, and awareness of services over time.
+Despite these limitations, the Nevada Gambling Behaviors and Attitudes Survey provides a high-
+quality and reliable assessment of gambling in the state. The use of calibrated weighting,
+representative sampling, and validated measures such as the PGSI make it one of the most
+comprehensive and methodologically sound surveys ever conducted on gambling in Nevada. The
+limitations described above are standard in social research and do not diminish the overall accuracy
+or usefulness of the findings.
+38 | P a g e
+
+=== page 39 ===
+FUTURE RESEARCH
+The 2022 Nevada Gambling Behaviors and Attitudes Survey provides a strong foundation for
+understanding gambling in the state, but continued research will be important to track changes and
+deepen this understanding over time.
+Future studies should examine how gambling behaviors evolve as access to online and mobile
+gambling expands and as new forms of gaming blur the line between entertainment and wagering.
+Repeating this survey at regular intervals would allow the state to monitor trends, evaluate
+prevention and treatment efforts, and identify emerging risks among younger adults, hospitality
+workers, and racially diverse communities.
+Qualitative research could also help explain why some Nevadans experience greater harm despite
+similar exposure, adding insight into the social, cultural, and workplace factors that shape
+gambling behavior. Linking population surveys with treatment and helpline data would further
+strengthen understanding of how people move from awareness to help-seeking and recovery.
+Building on this baseline, future research can ensure that prevention, policy, and treatment efforts
+remain responsive to the ways gambling continues to change across Nevada’s communities.
+CONCLUSION
+The 2022 Gambling Behaviors, Perceptions, and Risks Among Nevada Adults survey provides an
+up-to-date understanding of how Nevadans engage with gambling, view its risks, and interact with
+available supports. The findings show that gambling is a common part of life in the state, but also
+that harm affects a meaningful share of residents and often goes unrecognized or untreated.
+These results strengthen Nevada’s foundation for evidence-based planning, helping guide
+prevention, treatment, and public education efforts across diverse communities. Continued
+collaboration among public agencies, researchers, and service providers will be essential to
+translating these insights into action.
+Future surveys will allow the state to monitor changes in gambling behaviors and risks over time,
+evaluate the impact of ongoing initiatives, and identify emerging patterns as new forms of
+gambling become available. Sustained commitment to data collection and public reporting will
+ensure Nevada remains a national leader in understanding and reducing gambling-related harm.
+39 | P a g e
+
+=== page 40 ===
+REFERENCES
+Austin, L., et al. (2024). Gambling disorder and sleep problems among young adults. Addictive Behaviors Reports.
+Retrieved from https://www.greo.ca/Modules/EvidenceCentre/Details/gambling-disorder-and-sleep-problems-
+among-young-adults
+Binde, P., Romild, U., & Volberg, R. A. (2017). Forms of gambling, gambling involvement and problem gambling:
+Evidence from a Swedish population survey. International Gambling Studies, 17(3), 490–507.
+https://doi.org/10.1080/14459795.2017.1360928
+Ledgerwood, D. M., Petry, N. M., & LaPlante, D. A. (2020). Psychometric evaluation of the Problem Gambling
+Severity Index (PGSI): Factor structure, reliability, and item performance. BMC Psychiatry, 20, 455.
+https://doi.org/10.1186/s12888-020-02894-9
+Nevada Resort Association. (2025). Nevada gaming fact book: The facts – Gaming industry responsible for 386K
+jobs, $90B total economic impact. Retrieved from https://nevadaresorts.org/factbook/NRA-2025-FactBook.pdf
+Parhami, I., et al. (2012). Sleep and gambling severity in a community sample. Journal of Gambling Studies, 28(4),
+563–576. https://pmc.ncbi.nlm.nih.gov/articles/PMC3327130/
+Pitt, H., Thomas, S. L., Bestman, A., Daube, M., & Derevensky, J. L. (2019). Young people’s recall and perceptions
+of gambling advertising and intentions to gamble on sport. Journal of Behavioral Addictions, 8(3), 481–491.
+https://doi.org/10.1556/2006.8.2019.42
+Pitt, H., Thomas, S. L., Bestman, A., Stoneham, M., Daube, M., & Derevensky, J. L. (2022). Exposure to gambling
+promotions and gambling behaviours in adolescents: A cross-sectional survey of 11–16-year-olds in Australia. BMC
+Public Health, 22, 1228. https://doi.org/10.1186/s12889-022-13502-3
+Pitt, H., Thomas, S. L., & Randle, M. (2024). Public support for gambling harm reduction policies: A national
+survey of attitudes in Australia. BMC Public Health, 24, 189. https://doi.org/10.1186/s12889-024-17649-z
+U.S. Census Bureau. (2023). 2022 American Community Survey 1-year estimates (Tables DP05, S1901, S1501, &
+S2101). Retrieved from https://data.census.gov
+Velotta, R. J. (2025, March 14). The facts: Gaming industry responsible for 386K jobs, $90B total economic impact.
+Las Vegas Review-Journal. Retrieved from https://www.reviewjournal.com/business/casinos-gaming/the-facts-
+gaming-industry-responsible-for-386k-jobs-90b-total-economic-impact-2768543/
+Williams, R. J., Volberg, R. A., & Stevens, R. M. G. (2012). The population prevalence of problem gambling:
+Methodological influences, standardized rates, jurisdictional differences, and worldwide trends. Ontario Problem
+Gambling Research Centre. https://opus.uleth.ca/items/53360886-df6b-4571-aa12-0f62cc4ae641
+Yoshioka, E., et al. (2024). Association of night-shift work with gambling and problem gambling. Addictive
+Behaviors Reports, 100650. https://doi.org/10.1016/j.abrep.2024.100650
+40 | P a g e
+
+=== page 41 ===
+41 | Pag e

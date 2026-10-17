@@ -1,0 +1,2012 @@
+=== page 1 ===
+Maryland Center of Excellence on Problem Gambling
+Statewide Gamb ling
+Prevalence in Maryland:
+2022
+J. Kathleen Tracy, Ph.D.
+Former Director of Research
+Jessica P. Brown, Ph.D.
+Director of Research (as of May 1st 2023)
+Funding provided by Maryland Department of Health, Behavioral
+Health Administration
+
+=== page 2 ===
+Table of Contents
+Executive Summary ....................................................................................................................................... 4
+CHAPTER 1 Introduction ............................................................................................................................... 6
+CHAPTER 2 Review of the Epidemiological Literature on Gambling............................................................. 8
+Prevalence and Risk Factors of Gambling Disorder .................................................................................. 8
+Previous Results from Maryland ........................................................................................................... 9
+Prevalence Studies from Other States ................................................................................................ 13
+Relationship Between Access/Availability and Disordered Gambling .................................................... 16
+Impacts of Gambling ............................................................................................................................... 16
+Promoting Prevention, Harm Reduction, and Responsible Gaming Programs ...................................... 17
+Effects of the COVID-19 Pandemic on Gambling Behavior ..................................................................... 18
+CHAPTER 3 Methods ................................................................................................................................... 20
+Ethical Review ......................................................................................................................................... 20
+Questionnaire Development ................................................................................................................... 20
+Questionnaire Structure ......................................................................................................................... 21
+Section A: Gambling Involvement ....................................................................................................... 22
+Section B: Questions for Non-Gamblers ............................................................................................. 23
+Section C: General Gambling Questions ............................................................................................. 23
+Section D: Attitudes Towards Gambling ............................................................................................. 24
+Mailed Survey ......................................................................................................................................... 25
+Data collection ........................................................................................................................................ 27
+Data Cleaning, Analysis, and Weighting .................................................................................................. 27
+CHAPTER 4 The 2022 Sample ...................................................................................................................... 29
+CHAPTER 5 Gamblers in Maryland .............................................................................................................. 33
+Gamblers vs non-Gamblers ..................................................................................................................... 33
+Gambling and Substance Use ................................................................................................................. 36
+Gambling and Health .............................................................................................................................. 37
+Gambling Opinions .................................................................................................................................. 38
+CHAPTER 6 Gambling in Maryland .............................................................................................................. 39
+Type and Frequency of Gambling Activity .............................................................................................. 39
+Typical Monthly Spending by Gambling Type ......................................................................................... 41
+Reasons for Gambling and Gambling Partners ....................................................................................... 42
+2
+
+=== page 3 ===
+CHAPTER 7 Sports Gambling in Maryland................................................................................................... 44
+Traditional vs Fantasy Sports Gambling .................................................................................................. 47
+Gambling Behavior of Sports Gamblers .................................................................................................. 49
+CHAPTER 8 Problem and Pathological Gambling in Maryland ................................................................... 50
+Prevalence of Gambling Behavior ........................................................................................................... 50
+Gambling Behavior by Sociodemographic Characteristics and Region .................................................. 51
+CHAPTER 9 Seeking Help for Gambling Problems ...................................................................................... 55
+Awareness of Problem Gambling Resources .......................................................................................... 56
+Awareness of Information about Responsible Gambling ....................................................................... 57
+Attitudes Towards Gambling .................................................................................................................. 57
+CHAPTER 10 Gambling in Maryland from 2010 to 2022 ............................................................................. 62
+Gamblers in Maryland ............................................................................................................................. 62
+Type of Gambling Activity ....................................................................................................................... 62
+Casino Gambling ..................................................................................................................................... 63
+Gambling Behavior .................................................................................................................................. 64
+CHAPTER 11 Summary, Limitations, and Direction for the Future ............................................................. 67
+Major Findings and Trends ..................................................................................................................... 67
+Survey Limitations ................................................................................................................................... 68
+Directions for the Future ........................................................................................................................ 69
+References .................................................................................................................................................. 71
+3
+
+=== page 4 ===
+Executive Summary
+The 2022 Statewide Gambling Prevalence in Maryland survey was conducted from April to July 2022 and
+aimed to provide updates on the prevalence of gambling and gambling behavior in the State. This is the
+fourth iteration of this survey, providing the state with data to identify any important changes in gambling
+behavior.
+Over 4,000 Marylanders participated in the survey and were included in the analysis. Respondents were
+classified as gamblers if they had ever participated in any of the eleven forms of gambling (i.e., gambling
+at a casino, using gaming machines outside of a casino, spending money on lottery games, placing bets at
+horse races, placing bets at dog races, playing bingo outside of a casino, gambling on private games,
+betting on sports events or fantasy sports, wagering online, or any other kind of gambling activity). The
+overall percentage of Marylanders who reported in the 2022 survey that they had ever gambled (90.4%)
+was similar to the numbers reported in the 2010 (89.7%) survey and 2017 (87.0%) survey. It was, however,
+lower than the proportion of gamblers identified in the 2020 (92.3%) survey.
+The most frequently reported gambling types were lottery games and casino betting. Gambling on gaming
+machines outside of casinos was also frequently reported, with 33.4% of those who have ever gambled in
+their lifetime reporting use in 2022. Placing a bet on horse races was found to no longer be a popular
+gambling activity among Marylanders and since 2010 has decreased from 29.5% to 19.5% in 2022.
+When respondents were asked to provide a reason for gambling, more than half reported that
+entertainment or fun was very important to them (54.7%), followed by winning money (46.6%). These
+proportions were higher than estimates reported in 2010, 2017, and 2020.
+The NORC DSM-IV Screen for Gambling Problems was used to characterize respondents as “Low-Risk,”
+“At-Risk,” or “Disordered Gamblers.” Within the “Disordered Gambler” group, we further characterized
+respondents as “Problem Gamblers” (less severe) or “Probable Pathological Gamblers” (more severe).
+Following application of weighting to account for the sociodemographic distribution in the State of
+Maryland, probable pathological gamblers made up 1.6% (95% CI: 1.1% to 2.4%) of the sample. The
+weighted proportions of problem gambling and at-risk gambling were 2.4% (95% CI: 1.7% to 3.4%) and
+6.9% (95% CI: 5.8% to 8.2%), respectively.
+4
+
+=== page 5 ===
+Males had a higher prevalence of disordered gambling than their female counterparts: 6.8% and 2.6%,
+respectively. The prevalence of disordered gambling was highest amongst those aged 35-44 years (6.7%),
+and lowest amongst those aged 75 years and above (1.0%). Among reported races/ethnicities, Black
+people had the highest prevalence (8.2%) of disordered gambling, while those who identified as white
+and other races were considerably lower. Those with a lower education level had a higher prevalence of
+disordered gambling, 8.7% among those with no diploma, than those with a higher education level. Of the
+regions, the Eastern region had the highest (8.8%) and the Western region had the lowest prevalence
+(3.2%) of disordered gambling. The prevalence of disordered gambling was highest among lower income
+groups and those who were separated (11.2%) or divorced (5.8%).
+Substance use, a frequent comorbidity of gambling, was more prevalent among Maryland gamblers.
+However, the distribution of the frequency of substance use followed similar trends of non-gamblers.
+There was however a higher proportion of gamblers who reported their health as poor compared to non-
+gamblers.
+These current findings underscore the fact that gambling disorder is a substantial source of hardship for
+a meaningful number of Marylanders. Some of the sociodemographic groups affected most by problem
+gambling in Maryland are also marginalized with respect to other issues related to economics, substance
+use, and access to health care. Advocates for responsible gambling can do more to target at-risk and
+problem gamblers with information for how to prevent or seek help for serious gambling disorder.
+5
+
+=== page 6 ===
+CHAPTER 1 Introduction
+The opportunity for legalized gambling has expanded at a rapid pace throughout the United States,
+supporting the financial and economic needs of the individual states. In Maryland, casinos, slot machines,
+table games, fantasy sports and most recently sports betting, have all been legalized within the last fifteen
+years and are available to anyone over the age of 18 years. Gambling is widely viewed as morally
+acceptable (Gallup, 2018) and for the majority of individuals it is a harmless recreational activity which
+can satisfy their psychological need for relaxation, excitement, mastery, autonomy, or connection (Parke
+et al., 2019). However, for a small proportion of individuals, gambling can lead to addictive and destructive
+behavior.
+Gambling disorder is defined as a persistent and recurrent problematic gambling behavior that leads to
+clinically significant impairment or distress (Diagnostic and Statistical Manual of Mental Disorders, fourth
+edition DSM-IV). In 2013 it was reclassified from an impulse control disorder to a substance-related and
+addictive disorder to reflect evidence that it activates a similar reward system as drugs and produces
+behaviors comparable to those associated with substance-use disorders (Fauth-Buhler et al., 2017). It is a
+disorder which is routinely confounded with substance-use disorders including alcohol, tobacco, and drug
+(illicit and misuse of prescription drug) use (Diaz & Perez, 2021; Leino et al., 2023) and as with other
+addictive behaviors, gamblers can experience withdrawal and build a tolerance (Blaszczynski et al., 2008).
+There is evidence that gambling behavior can have a social impact on the individual, their family, and their
+community. Gamblers are more likely to have a lower rates of productivity (Abbott, 2020), and higher
+rates of financial distress (Oakes et al., 2020), divorce (Black et al., 2013; Syvertsen et al., 2023), partner
+violence (Afifi, Brownridge, et al., 2010), and suicide (Hakansson & Karlsson, 2020). More recently the
+physical and mental health of gamblers has been examined with findings suggestive of an association
+between gambling and poorer physical and mental health (Afifi, Cox, et al., 2010; Erickson et al., 2005;
+Morasco et al., 2006).
+In the United States the prevalence of disordered gambling is estimated to be 0.5% (Potenza et al., 2019),
+however individual States have reported rates as high as 9.0% (Spectrum Gaming Group, 2009). The
+Maryland Department of Health conducts periodic gambling prevalence studies to monitor the prevalence
+of disordered gambling in the State of Maryland. This report provides a review of the epidemiological
+6
+
+=== page 7 ===
+literature on gambling and the prevalence of both lifetime gambling and disordered gambling in the state
+(Chapter 2).
+A detailed description of the survey and the methodology used are provided in Chapter 3 while Chapter
+4 provides an overview of those included in the sample. Chapter 5 compares non-gamblers to those who
+have ever gambled in their lifetime, while Chapter 6 takes a closer look at those who have ever gambled,
+including the type and frequency of games they have played in the past year, their typical monthly
+spending on these games, why they have gambled and who they are gambling with. Chapter 7 examines
+sports gambling, the most recent expansion of gambling in the state of Maryland. Chapter 8 compares
+those who are low-risk, at-risk, and disordered gamblers, and Chapter 9 looks at help seeking behavior.
+Finally, Chapter 10 provides a high-level comparison of results from this and previous years Statewide
+Gambling Prevalence in Maryland surveys. Unless noted, all results are weighted to reflect the population
+of the State.
+The terms “problem” and “pathological gambling” are often used interchangeably or to report gambling
+disorder, the term used by the DSM-V (fifth edition). In the 2022 survey, the instrument used to classify
+an individual’s gambling behavior uses the terms “probable pathological” and “problem gambling”, with
+problem being the less severe of the two categories. These two categories will often be reported as a
+combined group representing disordered gambling. As in previous reports (Tracy et al., 2019; Tracy &
+Schluterman, 2021), the terms problem and pathological will not be used interchangeably.
+7
+
+=== page 8 ===
+CHAPTER 2 Review of the Epidemiological Literature on Gambling
+This section summarizes the existing epidemiological research on gambling behaviors. Epidemiological
+studies are conducted to understand the distribution, patterns, or causes of a health problem or disease
+in a population. These findings are meant to inform efforts to prevent, control, and treat health problems.
+Gambling has been present across cultures and millennia (Hodgins et al., 2011). Over the past few
+decades, following legalization of gambling in many states in the United States, substantial expansion of
+commercial gambling has occurred (Potenza et al., 2019; Welte et al., 2015). Additionally, access to and
+availability of the Internet have increased the availability of online gambling. Most US states have legalized
+at least one form of gambling (Potenza et al., 2019).
+This chapter summarizes the existing literature on each of the following research areas:
+1) Monitoring the prevalence and risk factors for disordered gambling, including sociodemographic,
+socioeconomic, biological, and behavioral determinants for disordered gambling.
+2) Investigate the relationship between access/availability of gambling and disordered gambling,
+including impacts of legalizing casino gambling on gambling behaviors of a population.
+3) Assess individual, familial, economic, and social impacts of disordered gambling, including the
+effect of gambling on vulnerable populations (e.g., young, elderly, and veterans).
+4) Evaluate impacts of prevention, harm reduction, responsible gaming programs, and policies on
+gambling activities.
+5) Summarize early evidence about the impacts of the COVID-19 pandemic on gambling behavior.
+Prevalence and Risk Factors of Gambling Disorder
+For comparability of results between studies, this section discusses statewide prevalence studies from
+around the United States that have used the NORC Diagnostic Screen for Gambling Problems (NODS) or
+the South Oaks Gambling Screen (SOGS) as a primary outcome measure. Both the NODS and the SOGS
+use the high-risk categories of “probable pathological gambler” (highest-risk behavior) and “problem
+gambler” (next highest risk). Here, we combine these top two risk categories into a “gambling disorder”
+category (Figure 2.1).
+8
+
+=== page 9 ===
+Previous Results from Maryland
+Four modern studies have sought to estimate the occurrence of gambling disorder in Maryland. These
+were conducted in 1989, 2010, 2017, and 2020. The findings of these four studies are summarized below.
+Table 2.1 Findings from previous statewide gambling prevalence studies in Maryland
+Prevalence of...
+Screening Sampling
+Problem Probable pathological Gambling
+Year test strategy
+gambling gambling disorder
+Population-
+1989 2.4% 1.5% 3.9% SOGS
+based
+Population-
+2010 1.9% 1.5% 3.4% NODS
+based
+Population-
+2017 0.7% 1.2% 1.9% NODS
+based
+Existing panels,
+2020 3.1% 5.5% 8.6% NODS
+advertisements
+Figure 2.2. puts the most recent three of these studies, plus the current study, into the context of the
+recent expansion of gambling opportunities in Maryland. This period saw the opening of the state’s six
+9
+
+=== page 10 ===
+casinos in 2010-2016 and the legal availability of sports gambling in 2021, as well as online sports gambling
+the following year.
+Figure 2.2 Timeline of studies of gambling disorder and the expansion of gambling opportunities in
+Maryland, 2010-2022
+“Prevalence Estimates of Pathological Gambling in New Jersey and Maryland,” 1989
+In Maryland, the first prevalence study on gambling disorder was conducted by the National Institute of
+Mental Health in 1989. This survey aimed to investigate the experiences of respondents with different
+types of gambling, gambling-related problems, and demographic characteristics associated with
+gambling. The sample size of 750 was randomly drawn from a population-based sample frame, and the
+SOGS was used to assess risky gambling behavior (Volberg & Steadman, 1989).
+The survey found that approximately 89% of Marylanders had ever participated in any form of gambling.
+The lifetime prevalence of problem and probable pathological gambling was reported as 2.4% and 1.5%,
+respectively. The rates of lifetime gambling participation and gambling disorder in Maryland were similar
+to those measured in other East Coast states—New York, Massachusetts, and New Jersey—surveyed by
+the same group in this effort. The prevalence of problem and pathological gambling was higher among
+males, non-Whites, and people with a lower education level (Volberg & Steadman, 1989).
+10
+
+=== page 11 ===
+“Gambling Prevalence in Maryland: A Baseline Analysis,” 2010
+The second study to estimate the prevalence of disordered gambling in Maryland—and the first to use
+the NODS—was conducted in 2010 (Shinogle et al., 2011). The timing of this study was meant to estimate
+the baseline prevalence before the planned 2010s expansion of casino gambling in the state. The
+prevalence of problem gambling and probable pathological gambling were 1.9% and 1.5%, respectively.
+The overall prevalence was similar to that observed in 1989. The identified factors associated with higher
+likelihood of disordered gambling were also similar to 1989, including young age, male gender, African
+American, or other non-White races.
+Respondents were asked about their gambling behavior in the past year, about 15.3% and 21.9% of
+respondents reported that they gambled weekly and monthly, respectively. Casino gambling was the most
+prevalent form of gambling, played by more than two-thirds of the respondents (67.5%). A sizeable
+proportion of people also gambled on sporting events (32.9%), private games (30.2%), horse racing
+(29.5%), “other forms,” (e.g., charity gambling; 27.5%), bingo (24.8%), and slot machines outside of
+casinos (21.3%).
+Among gamblers, the average amount of money spent on gambling in a typical month was $189. The
+amount spent differed by gambling frequency, with frequent gamblers spending more money than the
+people who did not gamble frequently.
+“Statewide Gambling Prevalence in Maryland,” 2017
+In 2017, a third statewide prevalence study was conducted (Tracy et al., 2019). This was the first report
+on the estimates of gambling behavior following the 2010s expansion of casino gambling in Maryland.
+Again, the NODS was used to categorize gambling behavior. The overall results were similar to those
+observed in the previous two surveys. The prevalence of problem gambling and probable pathological
+gambling were 0.7% and 1.2%, respectively. Males, African Americans, and people with low educational
+attainment had higher likelihood of gambling disorder.
+11
+
+=== page 12 ===
+Purchasing lottery tickets and casino gambling were the two most reported forms of gambling, played by
+78% and 74% of the respondents, respectively. Horse races (31%), sports (29%), private games (29%), and
+bingo for money (27%) were other popular forms of gambling.
+The average amount of money spent in a month also differed by type of gambling and frequency of
+gambling. It was as high as $570 for dog races and as low as $33 for purchasing lottery tickets, among
+those who participated in those gambling modes.
+The impact of expanded gambling was evaluated by trends in income, unemployment rate, bankruptcies,
+and foreclosure rates in the counties where casinos are located; however, none of these indicators
+showed that opening casinos negatively impacted the economy.
+“Statewide Gambling Prevalence in Maryland,” 2020
+The next major expansion of gambling opportunities in Maryland was the legal availability of sports
+gambling in 2021-22. To assess the trends in gambling behavior just before the legal arrival of sports
+gambling, another statewide survey was conducted in the summer of 2020. This coincided with the first
+easing of social-distancing restrictions on casino gambling in Maryland during the COVID-19 pandemic.
+The 2020 prevalence study differed from others in Maryland in that its sampling frame consisted of
+respondents found in a combination of consumer lists and voter rolls obtained from political and election-
+oriented sources; as such, the sampling frame did not necessarily comprise a population-based sample.
+The resulting sample may have over-represented problem gamblers, which allowed for a more rigorous
+assessment of the risk factors for, and consequences of, gambling disorder.
+Of this sample, 92.3% reported that they had ever gambled. The lifetime proportions of problem and
+probable pathological gambling were 3.1% and 5.5%, respectively. As with the other surveys, males, Black
+and African Americans, and people with low educational attainment had higher likelihood of gambling
+disorder. Age also showed a strong relationship with gambling disorder, with much higher proportions
+measured among the younger adult age groups.
+The most common gambling types were the lottery (76.8% of the entire sample reported that they had
+ever gambled on lottery games), casinos (70.3%), and gaming machines outside of casinos (42.1%). Sports
+12
+
+=== page 13 ===
+gambling was reported by 35.5% of the sample in their lifetimes, and daily fantasy sports gambling was
+reported by 13.3%.
+Among those participating in each type of gambling, $212 was spent per person per month in casinos, and
+$22 per month was spent on lottery games. Those who participated in traditional sports gambling and
+fantasy sports gambling spent an average of $46 and $94, respectively, on those activities.
+Prevalence Studies from Other States
+To put the current results and other recent Maryland prevalence surveys into context, a literature review
+collected reports and journal articles from studies that measured statewide prevalence of gambling
+disorder in any U.S. state. To maximize comparability between studies, this review focused on studies that
+used either the NODS (as does the current study and the other three most recent Maryland studies) or
+the SOGS, which produces comparable categories of problem gambling and probable pathological
+gambling.
+Figure 2.3 Prevalence of gambling disorder measured in statewide surveys around the United States,
+1988-2022.
+13
+
+=== page 14 ===
+The review collected results from 54 studies from 26 states, including the four Maryland prevalence
+studies mentioned above, conducted from 1989 to 2022. A summary of the prevalence estimates from
+these studies is shown in Figure 2.3. An average of 4.5% of participants in these studies were assessed to
+have had gambling disorder during their lifetime; 2.8% were assessed to have a gambling disorder within
+the past year of their interview.
+The 2020 Maryland prevalence study was one of three surveys from around the country that has shown
+a lifetime occurrence of gambling disorder of more than 8%. The two others were a 2008 sub-study in
+Connecticut (Spectrum Gaming Group, 2009) and a 2016 study in Louisiana (Biggar et al., 2017). The
+Louisiana study lacks a clear explanation for why its results differed substantially from a previous effort in
+2008, but the Connecticut study clearly shows how sampling technique and mode of data collection can
+affect the ultimate results. The 2008 Connecticut study consisted of two parallel arms (counted as
+separate studies in this analysis): an online panel recruited through consumer research outreach and a
+telephone sample selected via random-digit dialing. Despite identical inclusion and exclusion criteria, the
+online panel in Connecticut had a measured prevalence of gambling disorder of 9.0%, significantly higher
+than the 3.7% found in the telephone survey.
+Figure 2.4 Use of the NODS and SOGS in statewide prevalence studies of gambling disorder, 1988-2022
+The SOGS was used as the sole primary outcome measure by 33 studies, the NODS was used solely by 14,
+and 7 used both (Figure 2.4). Studies that used the SOGS have, on average, yielded higher prevalence
+estimates for gambling disorder than those that used the NODS (Figure 2.5). Surveys using the SOGS found
+14
+
+=== page 15 ===
+a mean lifetime prevalence of 4.8%, versus 3.8% for the NODS. For current prevalence of gambling
+disorder, the mean SOGS prevalence was 3.0%, versus 1.3% for NODS.
+Figure 2.5 Weighted mean prevalence of gambling disorder measured by the SOGS and NODS
+Figure 2.6 Weighted mean prevalence of gambling disorder measured by studies that did and did not
+include online data collection.
+Only three of the 54 studies, including the 2020 Maryland prevalence study, found in this review used at
+least some online data collection. Despite this small number, these three studies produced estimates that
+15
+
+=== page 16 ===
+were statistically significantly higher (p=0.02) for “past year” prevalence than other studies; for lifetime
+prevalence, the three online studies produced estimates that were somewhat higher, but this difference
+was of borderline statistical significance (p=0.06) (Figure 2.6).
+Relationship Between Access/Availability and Disordered Gambling
+Many studies have evaluated the impacts of casino opening on gambling behavior (Abott, 2017; Hodgins
+et al., 2011; Potenza et al., 2019). The exposure theory has been used to examine this relationship.
+According to this theory, the availability of the object of an addiction, such as gambling, can increase the
+risk for the disorder (Jacques & Ladouceur, 2006). However, empirical studies so far have not found or
+have failed to establish a causal relationship between access to gambling and occurrence of problematic
+gambling behavior (Jacques & Ladouceur, 2006; Latvala et al., 2019).
+The “regional exposure model” proposed by Shaffer, Labrie, and LaPlante could also be used to explain
+this relationship (Shaffer et al., 2004). According to this model, the social adaptation capacity of gamblers
+following exposure to gambling changes their behavior initially. This model states that although increasing
+gambling opportunities may increase the incidence and prevalence of disordered gambling in the
+beginning, the incidence/prevalence may level off after several years (Jacques & Ladouceur, 2006; Shaffer
+et al., 2004). The leveling off may occur due to social adaptation following gambling’s availability.
+Following the development of the regional exposure theoretical framework to explain the prevalence of
+gambling behavior, real-world positive associations between the availability of gambling options and the
+prevalence of gambling problems have been found in a variety of settings (LaPlante et al., 2019; Philander
+et al., 2019).
+Impacts of Gambling
+By any estimate presented above, several million Americans suffer from gambling disorder (Potenza et
+al., 2019; Skywood Recovery, 2021). Like many other addiction or mental health issues, gambling disorder
+may be difficult to recognize, as many people are uncomfortable admitting their gambling issues and may
+not seek treatment (Fong, 2005; Potenza et al., 2019). Many people with disordered gambling assume
+that they can handle the situation on their own without any treatment, but this denial phase likely
+16
+
+=== page 17 ===
+prolongs problematic behavior and magnifies the negative consequences of gambling (Braun et al., 2014;
+Hodgins et al., 2011).
+Disordered gambling may have serious adverse effects on individuals, families, and communities. Personal
+mental health consequences may include depression, anxiety, mood disorders, and suicidal ideation
+(Becona et al., 1996; Bergamini et al., 2018; Fong, 2005; Hakansson & Karlsson, 2020; Hodgins et al., 2011;
+Potenza et al., 2019). Comorbid addiction behaviors are also common, as disordered gamblers tend to be
+more likely than the general population to smoke tobacco, misuse alcohol, or suffer from substance use
+disorders (Diaz & Perez, 2021; Fong, 2005; Leino et al., 2023; Potenza et al., 2019). The rates of
+unemployment, bankruptcy, foreclosures or forced home sales, and crime are higher among people with
+disordered gambling (Fong, 2005; Potenza et al., 2019). People with disordered gambling also may face
+relationship problems, including divorce (Black et al., 2012; Syvertsen et al., 2023). Children in such
+families may suffer emotional neglect and abandonment (Gerstein et al., 1999; Hodgins et al., 2011;
+Potenza et al., 2019) and have higher risks of addictions as well as disordered gambling (Potenza et al.,
+2019). These findings reflect the wide array of negative consequences problem gambling can have on the
+individual and his/her family.
+Promoting Prevention, Harm Reduction, and Responsible Gaming Programs
+Many public health efforts to reduce the burden of gambling disorder have been proposed or
+implemented across the world, with varying degrees of evidence for their effectiveness. Tanner et al.
+(Tanner et al., 2017) and Harris & Griffiths (Harris & Griffiths, 2017) have conducted systematic review to
+examine the impact of harm reduction interventions for gambling disorder. The harm reduction strategies
+included flashing warning messages about excess time or money spent at a machine, limiting the
+maximum bet to reduce the potential amount of money that can be lost, removing, or limiting large note
+ATMs in the casino, reducing casino operating hours, and banning smoking in the casino. The overall
+findings were mixed. For instance, gaming revenues appeared to decrease at locations that reduced their
+opening hours; however, caps on electronic gaming machines had no significant effect on gaming
+expenditure. Banning smoking inside casinos did not appear to reduce expenditures (Tanner et al., 2017).
+Studies have also investigated the effectiveness of personalized feedback interventions (PFIs), which
+consisted of brief interactions with feedback about gamblers’ behavior (Marchica & Derevensky, 2016).
+17
+
+=== page 18 ===
+PFIs had previously been found to be effective for reducing alcohol abuse and other addictive behaviors
+(Bryant et al., 2013; Collins et al., 2014). First indications are that PFIs may also be effective in reducing
+gambling expenditures and problematic gambling behaviors (Marchica & Derevensky, 2016).
+McMahon and colleagues (McMahon et al., 2019) conducted an umbrella review on existing published
+systematic reviews of different gambling interventions. The authors divided the interventions into several
+domains: supply reduction, demand reduction, and harm reduction. Supply reduction strategies, such as
+limiting opening hours, tended to reduce gaming expenditures but not the prevalence of problematic
+gambling. Demand reduction interventions included reflective motivation programs and smoking bans
+were often effective in reducing disordered gambling. Harm reduction interventions such as self-
+exclusion, pre-commitment, or removal of ATM machines were also effective.
+Some states and Canadian provinces have wrapped their gambling harm reduction approaches into a
+single suite of tools with a consistent brand. GameSense, for instance, was developed by provincial
+agencies in British Columbia and is currently used in Massachusetts; it is a branded package of
+interventions that includes in-casino counselors, educational responsible gambling literature, spending
+limits, and self-exclusions.
+In Maryland, most of these tools are available in most casinos and other gambling venues, but without a
+consistent brand across the state. Some venues use casino-branded materials; others use materials
+purchased from third-party vendors.
+Effects of the COVID-19 Pandemic on Gambling Behavior
+The onset of the COVID-19 pandemic introduced many factors with the potential to influence gambling
+behaviors, including social distancing and the physical closure of gambling establishments, widespread
+disruptions in employment, and the social, emotional, and financial stressors of a global health
+emergency. Three years later, as both the World Health Organization and U.S. government have declared
+that COVID-19 no longer constitutes an emergency, we can track the impact of both the initial lockdown
+period and the resumption of more typical societal patterns on gambling behaviors.
+18
+
+=== page 19 ===
+For the general population, the result of the pandemic seems to have been a sustained, though minor,
+reduction in gambling. At the outset of the pandemic, physical closure of casinos and sports leagues
+predictably resulted in gamblers reducing their gambling, some to the point of cessation (Lugo et al.,
+2021). By the end of 2020, gambling prevalence had rebounded, but typically not to the baseline level
+(Otis et al., 2022). Few estimates of gambling prevalence in 2021 and 2022 are available; whether these
+reductions have persisted is therefore unclear.
+19
+
+=== page 20 ===
+CHAPTER 3 Methods
+Ethical Review
+The Institutional Review Board (IRB) of the University of Maryland, Baltimore approved the research
+protocol for this prevalence study, including the sampling and interview procedures, questionnaires,
+consent forms, and analysis plan. The IRB review process ensured that the selection of subjects was
+equitable, subject privacy was protected, informed consent was obtained, and appropriate safeguards
+were in place to protect the data.
+Questionnaire Development
+The 2010 baseline gambling prevalence survey and subsequent 2017 and 2020 prevalence surveys made
+use of the same questionnaire, with similar wording and skip patterns (Shinogle et al., 2011; Tracy et al.,
+2019; Tracy & Schluterman, 2021). The 2022 survey substantially maintained the phrasing and structure
+of the survey questionnaire used in previous years. Some alterations were made to improve question flow
+and clarity.
+Differences between the 2022 questionnaire and the 2020 questionnaire include the following:
+• Questions regarding the location of gambling were expanded to ask about all state(s) or
+location(s), rather than asking about the single location in which the respondent most recently
+gambled.
+• The definition of what constitutes a private game was expanded.
+• A question about yearly fantasy sports gambling was added.
+• Questions which previously asked about “[gambling] on the Internet and World Wide Web” now
+ask about “[gambling] online on casino-style games”.
+• The question about substance use was updated from asking about “illicit” to “illegal” drugs; the
+list of drugs was unchanged.
+• The question about prescription drug use was updated from “[using] prescription drugs for non-
+medical use” to “[using] prescription drugs other than how they were prescribed or [using]
+prescription drugs that were not prescribed to you”.
+20
+
+=== page 21 ===
+• The question about marital status was updated from listing all response options in the question
+text to “What is your marital status?”; response options were unchanged.
+• The question about religious beliefs was removed.
+• The question about gender was moved from the final survey question to being grouped with other
+demographic questions.
+• The list of responses to the question about respondent’s gender was expanded to include
+“another gender identity not listed here”.
+Questionnaire Structure
+The general structure of the questionnaire is provided in Table 3.1 and the details in subsequent
+sections.
+Table 3.1 The 2022 gambling prevalence survey question structure
+Section Theme Outcome
+A Gambling Involvement Respondents detail the types and frequency of
+gambling behaviors, the location(s) in which they
+gamble, and the amount of money spent on gambling.
+Respondents are classified as “Gamblers” and “Non-
+gamblers”, and gambling frequency is assessed (Table
+3.2)
+B Questions for Non-Gamblers For individuals who have seldom or never gambled,
+rating the importance of motivations for not gambling.
+C General Gambling Questions Respondents provide details about their gambling
+behaviors, including favorite gambling activity, usual
+gambling partners, amount of travel, duration of
+gambling, reasons for gambling, history with gambling,
+motivations for gambling, and help-seeking behaviors.
+NODS assessment classifies gamblers as low-risk, at-
+risk, problem, and pathological gamblers.
+21
+
+=== page 22 ===
+D Attitudes Towards Gambling Respondents detail their attitudes towards gambling,
+awareness of problem gambling resources in the state
+of Maryland, alcohol and substance use behaviors,
+mental health, and household and demographic
+characteristics.
+Section A: Gambling Involvement
+Respondents were asked whether they had ever gambled in the following ways:
+1. In a casino
+2. On a gaming machine outside of a casino
+3. Spending money on lottery games
+4. Betting on horse races
+5. Betting on dog races
+6. Playing bingo for money outside of a casino
+7. At a private game (e.g., cards, dice, or dominoes)
+8. Betting on sports outcomes, not including daily fantasy sports
+9. Playing daily fantasy sports
+10. Playing yearly fantasy sports
+11. Playing online casino-style games
+12. Any other kind of game
+For those who indicated they had ever gambled on one of the above, respondents were asked how
+frequently they had gambled that way in the past 12 months (Table 3.2), in which state(s) or location(s)
+the gambling took place, and how much they spent on that type of gambling in a typical month. If relevant,
+additional questions were asked about the types of games entailed (e.g., casino gamblers were asked
+about which specific casino game they play).
+Table 3.2 Definitions of Gambling Frequencies
+Frequency Category Definition
+1 (Least Frequent) Not at all in the past 12 months
+22
+
+=== page 23 ===
+2 Only a few days all year (1 to 5 times per year)
+3 Once a month or less (6 to 12 times per year)
+4 Several times a month (3 to 5 times per month)
+5 Several times a week (6-29 times per month)
+6 (Most Frequent) Daily (30+ times per month)
+Section B: Questions for Non-Gamblers
+Respondents who indicated in Section A that they had participated in gambling fewer than 5 days in their
+lives were asked to rate four reasons for their not gambling as either very important, somewhat
+important, or not important at all. This subset of respondents then proceeded to Section D.
+Section C: General Gambling Questions
+Respondents who indicated in Section A that they had participated in gambling 5 days or greater in their
+lives were asked additional questions related to gambling and other substance and addictive disorders.
+The first group of questions concerned their typical gambling behavior. They were asked to name their
+favorite gambling activity, gambling companion, distance from home traveled to gamble, and duration of
+time spent gambling when engaged in their usual gambling behavior.
+The second group of questions investigated the participant’s reasons for gambling and history with
+gambling. They were asked to rate seven reasons for gambling as very important, somewhat important,
+or not important at all to them. Respondents were also asked about their age and the type of game they
+played the first time they gambled. Finally, respondents were asked to rate whether gambling was very
+important, somewhat important, or not important at all when compared to other recreation or social
+activities.
+The third group of questions concerns problem gambling. A single standard screening instrument for the
+identification of at-risk, problem, and pathological gambling was administered: the NORC Diagnostic
+Screen for Gambling Problems (NODS).
+The NODS is a 17-item questionnaire (Gerstein et al., 1999) that results in a score from 0-10 and a risk
+23
+
+=== page 24 ===
+group assignment based on the score (Table 3.3). The NODS has been used in all previous Maryland
+prevalence studies, which allows the trend in problem gambling to be tracked over time. The NODS is
+based on the clinical diagnostic criteria for pathological gambling listed in the DSM-IV.
+Table 3.3 Classification Criteria for NODS
+Score NODS Risk Group Collapsed NODS Risk Group
+0 Low-risk Low-risk
+1-2 At-Risk At-Risk
+3-4 Problem Gambler
+Disordered Gambler
+5-10 Probable Pathological Gambler
+In addition to the NODS questions, participants were asked about whether they had sought help for a
+gambling problem, from whom they sought help, and whether they were able to obtain help.
+Section D: Attitudes Towards Gambling
+Both non-gamblers and gamblers were asked all questions in this section.
+• Attitudes Towards Gambling
+Participants were asked to rate how strongly they agreed or disagreed with eight statements
+about gambling.
+• Awareness of Problem Gambling Resources and Help-Seeking
+Participants were asked about the availability in their community of resources for problem
+gamblers seeking help, as well as sources of information on responsible gambling. They were also
+asked about substance use.
+• Mental Health
+Participants were asked about their mental health, as well as household debt, personal history
+with bankruptcy, personal arrest history, and personal incarceration history.
+• Demographics
+Participants were asked about their demographics, including marital status, gender, sexuality,
+education, employment status, date of birth, race and ethnicity, primary language, armed services
+history, household income, and ZIP code.
+24
+
+=== page 25 ===
+Mailed Survey
+The University of Maryland Baltimore (UMB) Center for Excellence on Problem Gambling contracted with
+Wilder Research at Amherst H Wilder Foundation to carry out the 2022 gambling prevalence in Maryland
+survey.
+A two-stage sampling strategy was used for obtaining a representative sample of adults living in the State
+of Maryland. For the first stage of sampling, a random, proportionate sample of county residential
+addresses was purchased from Marketing Systems Group (MSG), a national sampling vendor. Address-
+based sampling was used to ensure that all households would have an equal chance of being sampled for
+the survey, regardless of their phone status. MSG obtained the list of addresses from the U.S. Postal Service.
+For the second stage of sampling, the “most recent birthday” method of within-household respondent
+selection was used to specify one adult from each selected household to complete the survey. The
+purpose of within-household randomization is to ensure a better gender and age balance among the
+survey respondents.
+Inclusion criteria for the survey required that the respondent:
+1) Had a residential address in the state of Maryland
+2) Was at least 18 years of age
+The total sample contained 40,000 randomly selected addresses in Maryland, which were proportionally
+selected based on the number of households in the state for each of four sampling areas (strata):
+• Central: Baltimore City, Baltimore, Harford, and Howard counties (N = 13,683)
+• Western: Garrett, Allegany, Washington, Frederick, Carroll, and Montgomery counties (N =
+11,332)
+• Southern: Anne Arundel, Prince George’s, Calvert, Charles, and St. Mary’s counties (N = 11,855)
+• Eastern: Cecil, Kent, Queen Anne’s, Caroline, Talbot, Dorchester, Somerset, Wicomico, and
+Worcester counties (N = 3,130)
+A breakdown of the aggregate sample and response rate is provided in Table 3.5 and similarly by region
+is provided in Table 3.6
+25
+
+=== page 26 ===
+Table 3.5 Aggregate sample and complete totals
+Sample released 40,000
+Undeliverable 1,754
+Total eligible 38,246
+Refusals 38
+Returns not included as completes 545
+Total completes 4,355
+Mail completes 2,951
+Web completes 1,404
+Response ratea 11.39%
+Return rateb 12.81%
+Response dispositions calculated according to the American Association for Public Opinion Research
+(AAPOR) Response Rate 1 for mailed surveys.
+a Includes only analyzable completes, see Chapter 4 for details
+b Includes all returned surveys
+Table 3.6 Sample and complete totals by reporting strata
+Number of Number of
+Reporting area Sample Return Response Margin of
+eligible completed
+(strata) released rateb ratec error
+addresses surveysa
+Central 13,683 12,968 1,454 12.77% 11.21% ±2.6%
+East 3,130 2,973 385 14.53% 12.95% ±5.0%
+Western 11,332 10,933 1,383 14.12% 12.65% ±2.6%
+South 11,855 11,372 1,133 11.15% 9.96% ±2.9%
+Total 40,000 38,246 4,355 12.81% 11.39% ±1.5%
+Response disposition disaggregated by the four sampling strata.
+a Combined total of paper, web, and phone completes
+b Includes all returned surveys
+c Includes all analyzable surveys, see Chapter 4 for details
+26
+
+=== page 27 ===
+Data collection
+Wilder Research used a “modified Dillman” method of survey mailing as follows: An initial survey packet
+that included a cover letter, survey instrument, and a postage-paid return envelope was mailed on April
+8, 2022 to 40,000 sampled households. In all of the mailings, respondents were also given information to
+log in to a web-based system (Voxco Acuity) or scan a QR code to complete the survey online if they
+preferred that approach. A toll-free survey center phone number was also provided in the mailing
+materials so participants could call in for help completing the survey if needed. A letter was also included
+in the packet in Spanish indicating that a respondent can request a survey in Spanish or call the survey
+center to speak with a bilingual survey interviewer who would help them complete the survey over the
+phone. A $2 bill was sent along with the survey packet to thank people for taking the survey.
+One week after the first survey packets were mailed (April 15, 2022), a postcard was sent to all sampled
+households, reminding those who had not yet completed a survey to do so, and thanking those who had
+already responded.
+Two and a half weeks after the reminder postcards were mailed (May 11, 2022), another full survey packet
+was sent to all households that still had not returned the survey. To boost the number of responses, an
+additional postcard was sent on June 15, 2022.
+The remaining completed surveys were received over the next four weeks. Data collection ended on July
+15, 2022. Completed paper surveys were returned to the scanning vendor, ADAPT, for scanning before
+being returned to UMB.
+Data Cleaning, Analysis, and Weighting
+All completed mailed surveys were tracked and scanned by ADAPT. ADAPT also provided a file with the
+word-processed open-ended questions. Once scanning was complete, a Wilder Research analyst used SPSS
+to create a data file and performed quality tests to ensure accuracy.
+Wilder staff combined the responses from the web and paper surveys into one SPSS data file with variable
+27
+
+=== page 28 ===
+and value labels which was provided to UMB. UMB cleaned the data to exclude responses which did not
+meet the previously stated inclusion criteria or did not answer enough of the gambling related questions
+to be included in the calculation of the prevalence of disordered gambling for the state. This cleaned
+version of the data set was used for weighting.
+Wilder’s consulting partner, Mansour Fahimi PhD, created the weights. Dr Fahimi used the most recent
+American Community Survey data available (ACS 2020) from the U.S. Census Bureau to develop the
+weights based on the differential probability of selection, and the select demographic variables: age,
+gender, ethnicity, race, education, income, marital status, armed service status, and geographical region.
+Data from each of the sampling areas were weighted back to the population of that sampling area using
+an iterative proportional fitting procedure, commonly known as “raking.” Survey data for the
+demographic questions involved in weighting often include some missing values. A hierarchical hot-deck
+imputation procedure was used to impute the missing demographic values. Finally, adjusted weights were
+put through a series of quality control checks to detect extreme outliers and to prevent any computational
+or procedural errors. The final de-identified data file, with all original and created variables, and a data
+dictionary were provided to UMB in an SPSS format.
+28
+
+=== page 29 ===
+CHAPTER 4 The 2022 Sample
+There was a total of 5,094 responses to the 2022 Statewide Gambling Prevalence in Maryland survey. Of
+those who responded, 213 did not confirm that they were at least 18 years of age (14 indicated that they
+were younger than 18 years of age and 199 did not complete this question) and 194 of the responses
+came from households which had previously submitted responses. In addition, there were 92 individuals
+who did not respond to the question about frequency of gambling in their lifetime and 253 individuals
+who did not respond to at least fourteen of the sixteen (allowing for a 10% incompletion rate) NODS
+questions, both of which are essential for determining the prevalence of gambling in the State. There were
+therefore 4,355 responses which meet the criteria for inclusion and met the analytical goals of the survey
+(Figure 4.1).
+Figure 4.1 CONSORT diagram of 2022 gambling prevalence in Maryland survey responses
+Total number of responses
+N = 5,094
+Under 18 years of age, n = 14
+Missing age information, n = 199
+Duplicate records from same household, n = 194
+Responses remaining
+N = 4,700
+Non-response to frequency of
+gambling question, n = 92
+Responses remaining
+N = 4,608
+Non-response to > 2 NODS questions,
+n = 253
+Final number of responses
+N = 4,355
+29
+
+=== page 30 ===
+Table 4.1 describes the unweighted and weighted characteristics of the 2022 sample who met the
+inclusion criteria and were included in the analysis. The majority of respondents were female (58.6%),
+White (75.8%), non-Hispanic (96.5%) and aged 55 years or above (65.5%). Almost every respondent had
+some schooling (98.0%). The survey sample was weighted to reflect the sociodemographic distribution of
+the State of Maryland. The sample after the application of weighting is used to derive the population-level
+estimates of gambling activities in the State of Maryland.
+The unweighted and weighted samples were similar in terms of gender, with a slightly higher proportion
+of females compared to males. In terms of age, the survey respondents included a greater proportion
+aged 65-74, 25.1%, compared to 14.4% in the weighted sample. The respondents had a greater proportion
+aged 75 or older, 20.0%, compared to 10.0% in the weighted sample. In addition, there was a lower
+proportion in the unweighted sample aged 25-34, 7.0% compared to 16.6%. The racial distribution of the
+unweighted sample has a higher proportion of White individuals, 75.8%, compared to the weighted
+sample, 58.5%, and a lower proportion of Black and African American individuals, 16.6%, compared to the
+weighted sample, 27.1%. The respondents had a lower proportion with a high school diploma, 11.7%,
+compared to 21.7% in the weighted sample. The respondents had a greater proportion with a Masters
+degree, 24.2%, compared to 14.7% in the weighted sample. The respondents had a lower proportion
+working full-time, 42.6%, compared to 51.1% in the weighted sample. The respondents had a greater
+proportion not working in the last week, 32.1%, compared to 24.1% in the weighted sample. The
+unweighted and weighted samples were similar in terms of income, region, gender, military service, and
+language. Of the respondents, a lower proportion have never been married, 15.4%, compared to 28.3%
+in the weighted sample.
+Table 4.1 Unweighted and weighted sample sociodemographic characteristics
+Unweighted Weighted
+n % n %
+Gender*
+Male 1,803 41.4% 1,887 43.3%
+Female 2,552 58.6% 2,468 56.7%
+Age (in years)*
+18-24 68 1.6% 288 6.6%
+25-34 307 7.0% 721 16.6%
+30
+
+=== page 31 ===
+35-44 525 12.1% 728 16.7%
+45-54 603 13.8% 735 16.9%
+55-64 889 20.4% 820 18.8%
+65-74 1,091 25.1% 629 14.4%
+75+ 872 20.0% 435 10.0%
+Race*
+Asian 215 4.9% 278 6.4%
+Black and African American 723 16.6% 1,181 27.1%
+White 3,303 75.8% 2,546 58.5%
+Other 114 2.6% 350 8.0%
+Ethnicity*
+Hispanic 153 3.5% 306 7.0%
+Non-Hispanic 4,202 96.5% 4,049 93.0%
+Highest level of education*
+No diploma 89 2.0% 282 6.5%
+High school diploma 510 11.7% 947 21.7%
+Some college 523 12.0% 807 18.5%
+Associate degree or vocational, technical, or trade school 470 10.8% 329 7.6%
+Bachelor’s degree 1,236 28.4% 1,070 24.6%
+Master’s degree 1,054 24.2% 641 14.7%
+Postgraduate degree (PhD, MD, or JD) 473 10.9% 280 6.4%
+Work status for previous week
+Working full-time 1,855 42.6% 2,227 51.1%
+Working part-time 416 9.6% 429 9.8%
+Not working last week 1,410 32.4% 1,051 24.1%
+Prefer not to answer or missing 674 15.5% 649 14.9%
+Total household income*
+Up to $15,000 152 3.5% 256 5.9%
+$15,001 - $25,000 178 4.1% 165 3.8%
+$25,001 - $35,000 226 5.2% 192 4.4%
+$35,001 - $50,000 398 9.1% 371 8.5%
+$50,001 - $75,000 584 13.4% 602 13.8%
+31
+
+=== page 32 ===
+$75,001 - $100,000 622 14.3% 566 13.0%
+$100,001 - $125,000 552 12.7% 487 11.2%
+$125,001 - $150,000 421 9.7% 396 9.1%
+Over $150,000 1,222 28.1% 1,320 30.3%
+Maryland region*
+Central 1,454 33.4% 1,376 31.6%
+Western 1,383 31.8% 1,289 29.6%
+Southern 1,133 26.0% 1,315 30.2%
+Eastern 385 8.8% 375 8.6%
+Ever been in the armed services*
+Yes 605 13.9% 428 9.8%
+No 3,750 86.1% 3,927 90.2%
+Main language spoken in the home
+English 3,981 91.4% 3,873 88.9%
+Spanish 52 1.2% 123 2.8%
+Other 79 1.8% 120 2.7%
+Prefer not to answer or missing 243 5.6% 239 5.5%
+Marital Status*
+Married 2,497 57.3% 2,279 52.3%
+Widowed 483 11.1% 286 6.6%
+Divorced 658 15.1% 466 10.7%
+Separated 48 1.1% 92 2.1%
+Never Married 669 15.4% 1,231 28.3%
+*Imputed and used in the weighting procedure
+32
+
+=== page 33 ===
+CHAPTER 5 Gamblers in Maryland
+An individual is considered to be a gambler if they have ever in their lifetime gambled at a casino, at a
+gaming machine outside of a casino, played the lottery or any of its associated games, placed a bet on a
+horse or dog race, played bingo for money outside of a casino setting, gambled on a private game, bet on
+the outcome of a sporting event, including fantasy sports, wagered online on casino style games, or any
+other type of game such as raffles, sweepstakes, baby pools, pull-tabs, dogfights, or cockfights.
+Based on the above definition, 90.4% of individuals residing in the State of Maryland have gambled in
+their lifetime (Table 5.1). For a small percentage (<1%) of individuals we were unable to determine if they
+were gamblers or not as they did not answer any of the questions about whether they had ever gambled
+by one of the methods listed.
+Table 5.1 Weighted prevalence of lifetime gambling
+n %
+Have gambled in their lifetime (gamblers) 3,937 90.4%
+Have never gambled in their lifetime (non-gamblers) 382 8.8%
+Missing 36 0.8%
+Total 4,355 100.0%
+Gamblers vs non-Gamblers
+In Table 5.2, we examine the sociodemographic characteristics of gamblers and non-gamblers. Compared
+to non-gamblers, considerably fewer gamblers were aged 18-24 years (13.2% vs 5.8%) and to a lesser
+extent, over 75 years (12.0% vs 9.8%). Only 5.5% of gamblers were Asian compared to 14.3% of non-
+gamblers and 5.8% had no diploma compared to 13.3% of non-gamblers. Over half of gamblers (52.4%)
+were working full-time in the week prior to completing the survey compared to only 38.5% of non-
+gamblers, while 40.1% of gamblers had a household income of more than $125,000 compared to only
+32.4% of non-gamblers. A lower proportion of gamblers reside in Western Maryland (29.0% vs 36.5%)
+while a higher proportion have been, or are currently, in the armed services (10.3% vs 4.9%).
+33
+
+=== page 34 ===
+Table 5.2 Comparison of the weighted sociodemographic characteristics of gamblers and non-gamblers.
+Sociodemographic Gamblers Non-gamblers
+(N = 3,937) (N = 382)
+n % n %
+Gender*
+Male 1,721 43.7% 154 40.4%
+Female 2,217 56.3% 228 59.6%
+Age (in years)*
+18-24 229 5.8% 50 13.2%
+25-34 657 16.7% 61 15.9%
+35-44 679 17.2% 49 12.7%
+45-54 676 17.2% 55 14.3%
+55-64 744 18.9% 63 16.4%
+65-74 568 14.4% 59 15.4%
+75+ 385 9.8% 46 12.0%
+Race*
+Asian 217 5.5% 55 14.3%
+Black and African American 1,055 26.8% 109 28.5%
+White 2,353 59.7% 180 47.2%
+Other 312 7.9% 38 10.0%
+Ethnicity*
+Hispanic 287 7.3% 18 4.6%
+Non-Hispanic 3,651 92.7% 364 95.4%
+Highest level of education*
+No diploma 228 5.8% 51 13.3%
+High school diploma 864 21.9% 74 19.3%
+Some college 746 18.9% 55 14.4%
+Associated degree or vocational, technical, or
+294 7.5% 34 8.8%
+trade school
+Bachelor’s degree 967 24.5% 91 23.7%
+Master’s degree 594 15.1% 44 11.5%
+Postgraduate degree 245 6.2% 34 9.0%
+34
+
+=== page 35 ===
+Work status for previous week
+Working full-time 2,064 52.4% 147 38.5%
+Working part-time 393 10.0% 30 7.8%
+Not working last week 934 23.7% 108 28.2%
+Prefer not to answer or missing 546 13.9% 97 25.4%
+Total household income*
+Up to $15,000 206 5.2% 45 11.8%
+$15,001 - $25,000 145 3.7% 18 4.6%
+$25,001 - $35,000 176 4.5% 16 4.2%
+$35,001 - $50,000 337 8.6% 34 8.9%
+$50,001 - $75,000 541 13.7% 48 12.6%
+$75,001 - $100,000 521 13.2% 42 11.1%
+$100,001 - $125,000 431 11.0% 55 14.5%
+$125,001 - $150,000 366 9.3% 29 7.6%
+Over $150,000 1,213 30.8% 95 24.8%
+Maryland region*
+Central 1,252 31.8% 107 28.1%
+Western 1,142 29.0% 139 36.5%
+Southern 1,203 30.5% 102 26.7%
+Eastern 341 8.7% 33 8.7%
+Ever been in the armed services*
+Yes 404 10.3% 19 4.9%
+No 3,534 89.7% 363 95.1%
+Main language spoken in the home
+English 3,553 90.2% 291 76.3%
+Spanish 121 3.1% 1 0.2%
+Other 71 1.8% 48 12.6%
+Prefer not to answer or missing 193 4.9% 42 11.0%
+Marital Status*
+Married 2,098 53.3% 174 45.4%
+Widowed 253 6.4% 31 8.2%
+Divorced 418 10.6% 44 11.6%
+35
+
+=== page 36 ===
+Separated 90 2.3% 2 0.6%
+Never Married 1,078 27.4% 131 34.3%
+*Imputed and used in the weighting procedure
+Gambling and Substance Use
+While gamblers were more likely to use tobacco products, alcohol, and illegal or prescription drugs other
+than prescribed in the 12 months prior to being surveyed than non-gamblers, the frequency to which
+these substances were used followed similar trends among gamblers and non-gamblers (Table 5.3). For
+example, daily use of tobacco products was higher than that of more infrequent use for both groups of
+individuals. While both groups used prescription drugs other than prescribed, these numbers were far
+smaller than those who used illegal drugs in the past 12 months.
+Table 5.3 Comparison of the weighted substance use, in the 12 months prior to being surveyed, of
+gamblers and non-gamblers
+Substance use in the last 12 months Gamblers Non-gamblers
+(N = 3,937) (N = 382)
+n % n %
+Cigarettes, chewing tobacco, or snuff
+Daily 324 8.2% 18 4.6%
+Several times a week 46 1.2% 1 0.3%
+Several times a month 64 1.6% 3 0.9%
+Once a month or less 52 1.3% 0 0.0%
+Only a few days all year 119 3.0% 7 1.9%
+Never 3,264 82.9% 334 87.4%
+Alcohol use
+Daily 182 4.6% 4 1.0%
+Several times a week 619 15.7% 14 3.6%
+Several times a month 816 20.7% 47 12.3%
+Once a month or less 550 14.0% 38 10.0%
+Only a few days all year 790 20.1% 54 14.0%
+Never 913 23.2% 207 54.1%
+36
+
+=== page 37 ===
+Binge drinking (6 or more drinks on one occasion)
+Daily 27 0.7% 0 0.0%
+Several times a week 75 1.9% 0 0.1%
+Several times a month 180 4.6% 9 2.4%
+Once a month or less 244 6.2% 20 5.3%
+Only a few days all year 621 15.8% 26 6.9%
+Never 2,705 68.7% 308 80.7%
+Illegal drug use
+Daily 142 3.6% 5 1.4%
+Several times a week 85 2.2% 1 0.4%
+Several times a month 66 1.7% 0 0.0%
+Once a month or less 63 1.6% 0 0.0%
+Only a few days all year 173 4.4% 2 0.5%
+Never 3,336 84.7% 351 91.7%
+Prescription drug use
+Daily 37 1.0% 0 0.0%
+Several times a week 11 0.3% 0 0.1%
+Several times a month 31 0.8% 0 0.0%
+Once a month or less 13 0.3% 0 0.1%
+Only a few days all year 97 2.5% 6 1.6%
+Never 3,679 93.4% 347 90.9%
+Daily is 30 or more times per month; Several times a week is 6-29 times per month; Several times a month
+is 3-5 times per month; Once a month or less is 6-12 times per year; Only a few days all year is 1-5 times
+per year.
+Gambling and Health
+A larger proportion of non-gamblers perceived their health to be excellent compared to gamblers (16.6%
+vs. 25.6%) However, when combined with those who perceived their health as very good, there is no
+difference between gamblers and non-gamblers. What is more notable is that gamblers more often rate
+their health as poor compared to non-gamblers (4.5% vs 1.1%).
+37
+
+=== page 38 ===
+Table 5.4 Comparison of the weighted perceived health status, in the 12 months prior to being surveyed,
+of gamblers and non-gamblers
+Health status in the last 12 months Gamblers Non-gamblers
+(N = 3,937) (N = 382)
+n % n %
+Health status
+Excellent 653 16.6% 98 25.6%
+Very good 1,367 34.7% 99 25.8%
+Good 1,256 31.9% 115 30.2%
+Fair 481 12.2% 46 12.1%
+Poor 100 2.5% 4 1.1%
+Gambling Opinions
+Non-gamblers were asked about the reasons for why they had never gambled, while gamblers were asked
+about the importance of gambling compared to other recreational activities. The majority of non-
+gamblers reported that the location and/or the convenience of being able to gamble was not at all
+important (88.9%, Table 5.5). While a substantial proportion reported that their fear of losing money
+(68.7%), their lack of interest (69.8%), and their moral or ethical objections (53.8%) were very important
+to them. The majority of gamblers reported that gambling was not at all important to them compared to
+other recreational activities (85.8%), with the remainder reporting that it was important (somewhat
+important: 11.9%, very important: 2.3%).
+Table 5.5 Weighted opinion of non-gamblers as to reasons why they do not gamble
+Inconvenient or
+Moral or ethical Fear of losing Simply not
+lives too far
+objections money interested
+away
+n (%) n (%) n (%) n (%)
+Very important 20 (6.0%) 178 (53.8%) 229 (68.7%) 237 (69.8%)
+Somewhat important 17 (5.1%) 44 (13.3%) 51 (15.2%) 16 (4.7%)
+Not at all important 293 (88.9%) 109 (32.9%) 54 (16.2%) 86 (25.2%)
+38
+
+=== page 39 ===
+CHAPTER 6 Gambling in Maryland
+In this chapter we take a closer look at gamblers in Maryland and examine the type and frequency of
+gambling they are taking part in, the amount of money they are spending by gambling type, their reasons
+for gambling, and who they are primarily gambling with. This chapter focuses solely on the respondents
+who had gambled in their lifetime according to the definition provided in Chapter 5.
+Type and Frequency of Gambling Activity
+The Statewide Gambling Prevalence in Maryland 2022 survey asked respondents about their participation
+in a number of gambling activities. If a respondent indicated that they had ever taken part in such an
+activity they were then asked follow-up questions about their frequency of play and their spending on this
+activity in a typical month, in the past 12 months. Table 6.1 examines the proportion of gamblers who
+have ever participated by gambling type and frequency of play, which could include not having played, in
+the past 12 months. Table 6.2 takes a closer look at those who did participate in the past 12 months and
+what they typically spent on this activity in a month.
+Amongst those who have ever gambled in their lifetime, lottery games were the most frequently reported
+gambling activity (82.7%, Table 6.1), closely followed by casinos (74.1%). However, in the 12 months prior,
+only 17.8% of respondents who had ever gambled and played lottery games reported frequent play (daily,
+several times a week or several times a month) with the majority (52.1%) playing as little as once a month
+or only a few days out of the year. Of those who indicated they had previously gambled at casinos, 68.5%
+had not gambled at a casino in the previous 12 months and 23.2% had gambled at a casino only a few
+days all year.
+Other gambling types were significantly less popular, with approximately one third of respondents who
+gambled using gaming machines outside a casino, betting on sports, betting on private games, or playing
+bingo outside of a casino setting. Similar to casino play, the majority of respondents reported not
+participating in these types of gambling either at all or only a few days in the previous 12 months. Dog
+races, which are illegal in the state of Maryland and would require travel, were the least popular form of
+39
+
+=== page 40 ===
+gambling activity with only 3.1% of gamblers having ever participated and almost all (90.9%) did not take
+part in the past 12 months.
+Table 6.1 Weighted proportion of gamblers who have participated in each gambling activity and their
+frequency of play in the past 12 months.
+Frequency of play in last 12 months
+Ever
+Daily or
+participated Several Once a Only a
+Gambling activity several
+in this times a month or few days Not at all
+times a
+gambling type month less all year
+week
+358 464 1,235 905
+Lottery games 3,256 (82.7%) 220 (6.8%)
+(11.0%) (14.2%) (37.9%) (27.8%)
+676 1,997
+Casino 2,917 (74.1%) 33 (1.1%) 66 (2.3%) 107 (3.7%)
+(23.2%) (68.5%)
+641 706
+Any other kind of game 1,455 (36.9%) 8 (0.6%) 18 (1.2%) 66 (4.6%)
+(44.1%) (48.5%)
+Gaming machine outside a 375 736
+1,316 (33.4%) 35 (2.7%) 60 (4.6%) 77 (5.9%)
+casino (28.5%) (55.9%)
+Sports 1,185 (30.1%)
+448 585
+Sports 20 (1.7%) 59 (5.0%) 67 (5.6%)
+(37.8%) (49.4%)
+1,030
+Online sports 20 (1.7%) 19 (1.6%) 20 (1.7%) 83 (7.0%)
+(87.0%)
+302 639
+Private game 1,091 (27.7%) 17 (1.5%) 50 (4.6%) 66 (6.0%)
+(27.7%) (58.6%)
+203 805
+Bingo outside of a casino 1,084 (27.5%) 13 (1.2%) 19 (1.7%) 33 (3.0%)
+(18.7%) (74.2%)
+101 630
+Horse races 768 (19.5%) 12 (1.5%) 9 (1.1%) 10 (1.3%)
+(13.1%) (82.1%)
+Fantasy sports 607 (15.4%)
+40
+
+=== page 41 ===
+77 430
+Daily fantasy sports 31 (5.1%) 30 (4.9%) 34 (5.7%)
+(12.7%) (70.9%)
+120 306
+Yearly fantasy sports 58 (9.6%) 85 (13.9%) 33 (5.5%)
+(19.7%) (50.4%)
+77 125
+Online casino style games 260 (6.6%) 19 (7.4%) 13 (4.8%) 18 (7.1%)
+(29.6%) (48.2%)
+1 112
+Dog races 124 (3.1%) 8 (6.6%) 2 (1.5%) 0 (0.0%)
+(0.7%) (90.9%)
+Typical Monthly Spending by Gambling Type
+Despite being the most frequently reported gambling activity (Table 6.1) and the most played in the past
+12 months (69.9%), the average amount spent on the lottery in a typical month was only $34.52 (standard
+deviation $205.55). As would perhaps be expected, gamblers who play at casinos or casino style games
+online spent considerably more with an average of $247.08 (standard deviation $517.67) and $212.03
+(standard deviation $665.54) respectively. While the average spent at gaming machines outside of casinos
+was considerably less at $109.82 (standard deviation $588.16) in a typical month. Those who had played
+yearly fantasy sports and online sports in the past 12 months spent an average of $121.32 (standard
+deviation $362.32) and $123.53 (standard deviation $578.67) in a typical month respectively.
+Interestingly, the highest rate of spending resulted from the 12.0% of respondents who had bet on dog
+races in the past year. The average spent in a typical month for this gambling activity was $320.00
+(standard deviation $275.23)
+It should be noted that the amounts spent in a typical month for each of the gambling activities were very
+variable with maximums of $10,000 being reported for gaming machines outside of casinos and other
+games. This result is therefore a highly skewed distribution of spending and as such we have also provided
+the median and first and third quartiles which provide a sense of the typical amounts spent by the majority
+of the gamblers who had taken part in that gambling activity in the past 12 months.
+41
+
+=== page 42 ===
+Table 6.2 Weighted proportion of gamblers who have ever played and played in the last 12 months by
+gambling activity and a statistical summary (unweighted) of the dollar amount spent in a typical month
+by gambling activity
+Played in past Amount spent in a typical month ($)
+Gambling activity 12 months Mean Median Minimum,
+n (%) (std. deviation) (Q1-Q3) maximum
+Lottery games 2,277 (69.9%) 34.52 (205.55) 8 (2-20) 0, 7,440
+Casino 882 (30.2%) 247.08 (517.67) 100 (20-200) 0, 5,000
+Any other kind of game 734 (50.5%) 39.00 (413.81) 5 (2-20) 0, 10,000
+Gaming machine outside a casino 547 (41.6%) 109.82 (588.16) 20 (6-50) 0, 10,000
+Sports 593 (50.1%) 58.55 (359.85) 10 (3-40) 0, 7,000
+Online sports 142 (12.0%) 123.53 (578.67) 20 (10-50) 0, 5,000
+Private game 435 (39.8%) 79.30 (378.71) 20 (10-50) 0, 6,000
+Bingo outside of a casino 268 (24.7%) 67.89 (252.78) 20 (10-50) 0, 3,000
+Horse races 131 (17.0%) 81.93 (250.29) 20 (5-50) 0, 2,500
+Daily fantasy sports 172 (28.3%) 74.59 (451.24) 10 (0-30) 0, 5,000
+Yearly fantasy sports 296 (48.7%) 121.32 (362.32) 50 (10-137.50) 0, 5,000
+Online casino style games 127 (48.9%) 212.03 (665.54) 25 (10-100) 0, 5,000
+Dog races 11 (8.8%) 320.00 (275.23) 250 (100-500) 50, 700
+Reasons for Gambling and Gambling Partners
+Respondents who were identified as gamblers were asked to think about their reasons for gambling and
+rate them in terms of importance: very, somewhat, not at all. The responses are presented in Table 6.3.
+Gamblers were almost equally divided in the importance of the social aspect of gambling, with 58.0%
+saying that it wasn’t important and the remainder saying it was important (very: 17.1%, somewhat:
+24.9%). The convenience of gambling was similarly rated. Distraction was the least important reason for
+the majority of gamblers, with only 24.7% reporting that it was important (very: 8.5%, somewhat: 16.2%).
+42
+
+=== page 43 ===
+Gambling to win and for entertainment were viewed as very important by 46.6% and 54.7% of gamblers,
+respectively. The excitement and inexpensive entertainment value of gambling were viewed somewhat
+important by 41.4% and 41.9% of gamblers, respectively.
+Table 6.3 Weighted proportion of the importance of gambling reasons among gamblers.
+Somewhat Not at all
+Very important
+important important
+To be around or with other people 414 (17.1%) 603 (24.9%) 1,403 (58.0%)
+Because it is convenient or easy to do 364 (15.2%) 835 (34.9%) 1,191 (49.8%)
+To win money 1,148 (46.6%) 842 (34.2%) 474 (19.2%)
+For entertainment or fun 1,351 (54.7%) 795 (32.2%) 319 (12.9%)
+Because it’s exciting and challenging 655 (27.2%) 996 (41.4%) 745 (31.0%)
+Because it is inexpensive entertainment 438 (18.1%) 1,012 (41.9%) 961 (39.8%)
+To distract yourself from everyday problems 202 (8.5%) 388 (16.2%) 1,799 (75.3%)
+Gamblers were asked about who they usually gamble with when participating in their favorite gambling
+activity. Of those who responded to this question, 30.0% said they gambled alone, 29.3% gambled with
+either friends, co-workers, neighbors, or other club members, 25.2% gambled with a spouse, partner, or
+significant other, 12.0% gambled with family members (other than their spouse), and 3.5% gambled with
+other individuals.
+43
+
+=== page 44 ===
+CHAPTER 7 Sports Gambling in Maryland
+The most notable expansion of gambling in Maryland in the past few years has been the legal availability
+of sports gambling. Casinos in the state began to offer sports wagers in 2021, and legal mobile or online
+sportsbooks became operational the following year. This prevalence study was conducted during the
+period when sports gambling was available at casinos but not yet on mobile or online platforms. Online
+sports gambling was, however, legally available in the nearby states of Virginia, Pennsylvania, New Jersey,
+and New York, as well as the District of Columbia. Additionally, some Maryland gamblers may have used
+offshore online sportsbooks.
+The 2022 Maryland gambling prevalence survey asked about both traditional and fantasy sports gambling
+(Figure 7.1). Traditional sports gambling involves bets on the real-world outcomes of sports events, and
+may be placed at a casino, using online or mobile sportsbooks, with bookies, or as wagers between
+acquaintances. For participants who answered that they had participated in traditional sports gambling,
+the survey asked about online sports bets.
+Fantasy sports are contests in which participants create custom teams consisting of real professional or
+college athletes. Participants’ fantasy teams are scored according to the real-world performance of their
+individual athletes. Competitions usually occur between pairs of participants or among closed leagues,
+although some fantasy sports bets may be placed against a casino or sportsbook. Fantasy sports contests
+can take place over the course of a single day or round of games (daily fantasy sports), or across an entire
+season or longer (yearly fantasy sports).
+Due to the need to do complex scoring in a short amount of time, daily fantasy sports tend to be an online-
+only activity. Yearly fantasy sports leagues are usually organized on mobile or online platforms as well in
+the modern era, although scoring by hand is still present in some leagues.
+44
+
+=== page 45 ===
+Figure 7.1 Types of sports gambling included in 2022 Maryland prevalence survey
+More than a third (30.1%) of Maryland gamblers have ever participated in sports gambling. More males
+than females have gambled on sports (Table 7.1). Middle-age group gamblers reported higher rates of
+sports gambling participation. Members of all sociodemographic groups have gambled on sports, but
+those with higher levels of education or income tended to be more likely to have participated. Gamblers
+from all regions of Maryland had similar proportions of sports gambling.
+Table 7.1 Weighted sociodemographic characteristics of gamblers who wager on sports
+Gamblers who have wagered on sports
+Sociodemographic
+(N = 1,185)
+n %
+Gender*
+Male 652 34.6%
+Female 533 21.6%
+Age (in years)*
+18-24 60 20.9%
+25-34 203 28.1%
+35-44 221 30.4%
+45-54 231 31.4%
+45
+
+=== page 46 ===
+55-64 223 27.3%
+65-74 152 24.2%
+75+ 94 21.5%
+Race*
+Asian 56 20.2%
+Black and African American 266 22.5%
+White 753 29.6%
+Other 110 31.4%
+Ethnicity*
+Hispanic 72 23.6%
+Non-Hispanic 1,113 27.5%
+Highest level of education*
+High school diploma or less 50 22.1%
+Some college, associate’s degree, vocational,
+444 27.6%
+technical, or trade school
+Bachelor’s degree 82 27.8%
+Master’s degree or higher 515 33.0%
+Work status for previous week
+Working full-time 689 30.9%
+Working part-time or not working 382 25.8%
+Total household income*
+Up to $50,000 214 21.7%
+$50,001 - $100,000 303 25.9%
+$100,001 - $150,000 250 28.3%
+Over $150,000 418 31.7%
+Maryland region*
+Central 384 27.9%
+Western 361 28.0%
+Southern 332 25.2%
+Eastern 108 28.9%
+Marital Status*
+Married 696 30.6%
+46
+
+=== page 47 ===
+Not married 488 23.5%
+*Imputed and used in the weighting procedure
+Traditional vs Fantasy Sports Gambling
+Of the Maryland residents who had gambled on sports, 50.1% had done so in the past 12 months (Table
+7.2) and of those 12.0% had done so online or on a mobile platform. Of the gamblers who had wagered
+on fantasy sports, 48.7% had wagered on yearly fantasy sports and 28.3% had wagered on daily fantasy
+sports.
+Sociodemographic patterns in past-year traditional and fantasy sports gambling generally followed similar
+patterns as lifetime sports gambling (Tables 7.1 and 7.2). Online sports gambling and fantasy sports were
+more commonly reported among younger age groups. Those who worked full-time reported higher rates
+of each of these gambling activities.
+Table 7.2 Weighted sociodemographic characteristics of gamblers who have participated in traditional
+sports or fantasy sports gambling in the past 12 months, by modality.
+Sociodemographic Gambled on traditional sports Gambled on fantasy sports in
+in the past year∆ the past year∆
+Any mode Onlineⱡ Yearly fantasy Daily fantasy
+Total 593 (50.1%) 142 (12.0%) 296 (48.7%) 172 (28.3%)
+Gender*
+Male 358 (54.9%) 96 (14.6%) 237 (55.3%) 126 (29.4%)
+Female 235 (44.1%) 47 (8.8%) 59 (32.9%) 46 (25.6%)
+Age (in years)*
+18-24 34 (56.8%) 16 (26%) 24 (82%) 21 (71.4%)
+25-34 127 (62.7%) 49 (24.1%) 93 (51.2%) 53 (29%)
+35-44 140 (63.2%) 44 (19.8%) 85 (54.4%) 37 (23.6%)
+45-54 112 (48.4%) 19 (8.4%) 57 (42.7%) 40 (30.3%)
+55-64 97 (43.4%) 10 (4.3%) 25 (33.1%) 13 (17.4%)
+65-74 54 (35.7%) 3 (2.1%) 8 (35.4%) 6 (26.7%)
+47
+
+=== page 48 ===
+75+ 29 (31.0%) 1 (1.5%) 4 (43.3%) 2 (18.3%)
+Race*
+Asian 23 (40.9%) 3 (6%) 13 (43.5%) 6 (21.8%)
+Black and African American 160 (60.2%) 48 (18.1%) 59 (50.6%) 44 (38.3%)
+White 375 (49.8%) 82 (10.9%) 212 (49.3%) 113 (26.5%)
+Other 36 (32.4%) 9 (7.9%) 13 (38.7%) 7 (22.5%)
+Ethnicity*
+Hispanic 30 (41.1%) 6 (8.8%) 23 (43.5%) 19 (36.6%)
+Non-Hispanic 564 (50.7%) 136 (12.2%) 273 (49.2%) 152 (27.5%)
+Highest level of education*
+High school diploma or less 33 (65.3%) 11 (21.3%) 0 (0.0%) 0 (0.0%)
+Some college, associate’s degree,
+vocational, technical, or trade school 222 (49.9%) 48 (10.9%) 73 (45.8%) 37 (23.1%)
+Bachelor’s degree 42 (50.7%) 6 (7.7%) 23 (59%) 17 (43.5%)
+Master’s degree or higher 256 (49.7%) 66 (12.8%) 173 (48%) 107 (29.8%)
+Work status for previous week
+Working full-time 386 (56%) 91 (13.3%) 239 (50.4%) 125 (26.3%)
+Working part-time or not working 137 (35.9%) 30 (7.8%) 44 (41%) 36 (33.3%)
+Total household income*
+Up to $50,000 116 (54.3%) 32 (15.1%) 38 (59.6%) 24 (36.8%)
+$50,001 - $100,000 148 (49%) 41 (13.7%) 64 (47.8%) 54 (40.3%)
+$100,001 - $150,000 122 (48.7%) 28 (11.3%) 70 (48.3%) 34 (23.5%)
+Over $150,000 207 (49.6%) 40 (9.7%) 123 (46.8%) 60 (22.7%)
+Maryland region*
+Central 201 (52.4%) 55 (14.2%) 87 (49.9%) 51 (29.3%)
+Western 163 (45.1%) 38 (10.6%) 103 (47.2%) 60 (27.3%)
+Southern 173 (52%) 33 (10%) 82 (46.5%) 42 (23.5%)
+Eastern 57 (52.7%) 16 (14.7%) 24 (62.4%) 19 (50.8%)
+Marital Status*
+Married 344 (49.3%) 83 (11.9%) 170 (43.8%) 92 (23.8%)
+Not married 250 (51.1%) 59 (12.1%) 126 (57.5%) 79 (36.2%)
+* Imputed and used in the weighting procedure
+48
+
+=== page 49 ===
+∆Participants may fit into more than one category.
+ⱡAll “online” traditional sports betters are also in the “any mode” group.
+Gambling Behavior of Sports Gamblers
+Sports gamblers appeared to suffer from gambling disorder (see Chapter 3 for definition of a disordered
+gambler) at higher rates than other Marylanders (Figure 7.2). Among those who had not gambled on
+sports in any form in the past year (including those who had not gambled at all), 3.0% were assessed to
+have gambling disorder on the NODS. At least ten percent of sports gamblers were experiencing gambling
+disorder, including 11.3% of traditional sports gamblers. The group with the highest proportion of
+disordered gamblers were those who had placed traditional sports bets online, of whom 20.8% had
+gambling disorder.
+Figure 7.2 Weighted prevalence of gambling disorder among Marylanders who had gambled on sports in
+the past year.
+Participants may fit into more than one category; all “online” traditional sports bettors are also in the “any mode” group.
+49
+
+=== page 50 ===
+CHAPTER 8 Problem and Pathological Gambling in Maryland
+This chapter describes lifetime gambling behavior using NODS. The self-assessment version of the NODS
+was used. This is used to identify individuals who may benefit from seeking help for their problematic
+gambling behavior, based on the DSM-IV criteria for pathological gambling. All respondents who reported
+gambling were classified into low-risk (NODS score 0), at-risk (NODS score 1 to 2), problem gambler (NODS
+score 3 to 4), and probable pathological gambler (NODS score 5 or higher). When examining the
+sociodemographics, the highest two categories (NODS score 3 or higher) were combined into a single
+category of disordered gamblers.
+In epidemiological studies and surveys, prevalence or prevalence rate is a measure commonly
+used to report the percentage (%) of individuals with a specific condition (e.g., gambling
+disorder) within a given population during a given time period. This is reported using a
+representative sample from that given population during that given time and obtained by dividing
+the number of people with a given condition with the total number of people in the sample. In
+population-based surveys, the sample is weighted to reflect population-based measures. The
+uncertainty around the estimates is commonly presented with 95% confidence intervals (CI);
+the narrower the 95% CIs are, the more precise the estimates are.
+Prevalence of Gambling Behavior
+Table 8.1 shows the estimated prevalence and number of adults according to lifetime gambling
+behavior in the State of Maryland. Following application of weighting to account for the sociodemographic
+distribution in the State of Maryland, probable pathological gamblers made up 1.6% (95% CI: 1.1% to
+2.4%) of the population. The weighted proportions of “problem gambling” and “at-risk gambling” were
+2.4% (95% CI: 1.7% to 3.4%) and 6.9% (95% CI: 5.8% to 8.2%), respectively. Disordered gamblers made up
+4.0% (95% CI: 3.1% to 5.2%)
+50
+
+=== page 51 ===
+Table 8.1 Weighted prevalence and population estimates (95% Confidence Interval) for all gambling risk
+categories
+Prevalence 95% Confidence Interval
+Non-Gambler 8.8% [7.6%, 10.3%]
+Low-Risk Gambler 80.2% [78.2%, 82.0%]
+At-Risk 6.9% [5.8%, 8.2%]
+Disordered Gambler 4.0% [3.1%, 5.2%]
+Problem Gambler 2.4% [1.7%, 3.4%]
+Probable Pathological Gambler 1.6% [1.1%, 2.4%]
+Low-risk: NODS score 0
+At-risk: NODS score 1 to 2
+Disordered gambler: Problem gambler (NODS score 3 to 4) and Probable pathological gambler (NODS
+score 5 or higher) combined
+Gambling Behavior by Sociodemographic Characteristics and Region
+The NODS categories according to major demographic characteristics and regions are shown
+in Table 8.2. To report the gambling behavior, we combined people with “probable
+pathological gambling” and “problem gambling” into one category (i.e., disordered gamblers).
+Males had a higher prevalence of disordered gambling than their female counterparts: 6.8% and 2.6%,
+respectively. The prevalence of disordered gambling was highest among 35-44 year old people, 6.7%, and
+lower among ≥75-year-old people, 1.0%. Among reported races/ethnicities, Black and African Americans
+had the highest prevalence (8.2%), and lower in Whites and other races (3.1%). People with a relatively
+lower education level had a higher prevalence, 8.7% among those with no diploma, than the people with
+a higher education levels. Of the regions, Eastern region had the highest prevalence (8.8%), and Western
+region had the lowest prevalence (3.2%). The prevalence of disordered gambling was highest among lower
+income groups. The prevalence of disordered gambling was highest among separated and divorced
+individuals: 11.2% and 5.8%, respectively.
+51
+
+=== page 52 ===
+Table 8.2 Comparison of the weighted sociodemographic characteristics of low-risk, at-risk, and
+disordered gamblers.
+Sociodemographic Low-risk Gambler At-risk Disordered
+Gambler
+n % n % n %
+Gender*
+Male 1,439 83.6% 164 9.6% 118 6.8%
+Female 2,026 91.4% 134 6.0% 57 2.6%
+Age (in years) *
+18-24 215 94.0% 9 3.7% 5 2.3%
+25-34 570 86.9% 59 8.9% 28 4.2%
+35-44 578 85.1% 56 8.2% 45 6.7%
+45-54 574 85.0% 67 9.9% 34 5.1%
+55-64 652 87.7% 57 7.6% 35 4.7%
+65-74 514 90.4% 32 5.6% 23 4.1%
+75+ 361 93.7% 20 5.2% 4 1.0%
+Race*
+Asian 196 90.0% 15 7.1% 6 2.9%
+Black and African American 883 83.7% 86 8.1% 86 8.2%
+White 2,122 90.2% 159 6.7% 72 3.1%
+Other 264 84.6% 38 12.2% 10 3.1%
+Ethnicity*
+Hispanic 253 88.3% 33 11.6% 0 0.2%
+Non-Hispanic 3,211 88.0% 265 7.3% 174 4.8%
+Highest level of education*
+No diploma 201 88.1% 7 3.2% 20 8.7%
+High school diploma 738 85.5% 67 7.7% 59 6.8%
+Some college 668 89.5% 51 6.9% 27 3.6%
+Associated degree or vocational, 263 89.5% 20 6.9% 11 3.7%
+technical, or trade school
+Bachelor’s degree 841 87.0% 88 9.1% 37 3.8%
+Master’s degree 532 89.6% 45 7.5% 17 2.9%
+52
+
+=== page 53 ===
+Postgraduate degree 221 90.1% 20 8.2% 4 1.7%
+Work status for previous week
+Working full-time 1,790 86.7% 177 8.6% 96 4.7%
+Working part-time 344 87.6% 36 9.0% 13 3.4%
+Not working last week 855 91.5% 38 4.1% 41 4.4%
+Prefer not to answer or missing 475 86.9% 47 8.7% 24 4.4%
+Income
+Up to $15,000 173 84.1% 13 6.5% 19 9.4%
+$15,001 - $25,000 120 82.5% 7 5.1% 18 12.4%
+$25,001 - $35,000 162 92.0% 6 3.6% 8 4.4%
+$35,001 - $50,000 296 87.9% 30 9.0% 10 3.1%
+$50,001 - $75,000 461 85.2% 43 8.0% 37 6.8%
+$75,001 - $100,000 457 87.7% 42 8.1% 22 4.3%
+$100,001 - $125,000 386 89.4% 34 7.8% 12 2.7%
+$125,001 - $150,000 334 91.3% 17 4.8% 14 3.9%
+Over $150,000 1,074 88.6% 104 8.6% 34 2.8%
+Maryland region*
+Central 1,096 87.6% 93 7.5% 62 5.0%
+Western 1,027 90.0% 78 6.8% 37 3.2%
+Southern 1,054 87.6% 103 8.6% 45 3.8%
+Eastern 287 84.2% 24 7.0% 30 8.8%
+Ever been in the armed services*
+Yes 336 83.3% 44 10.8% 24 5.8%
+No 3,128 88.5% 255 7.2% 151 4.3%
+Main language spoken in the home
+English 3,131 88.1% 254 7.1% 168 4.7%
+Spanish 104 86.1% 17 13.9% 0 0.0%
+Other 58 82.1% 11 15.7% 1 2.1%
+Marital status*
+Married 1,879 89.5% 151 7.2% 69 3.3%
+Widowed 222 87.5% 20 7.9% 12 4.7%
+53
+
+=== page 54 ===
+Divorced 346 82.7% 48 11.5% 24 5.8%
+Separated 74 82.2% 6 6.6% 10 11.2%
+Never Married 944 87.6% 74 6.9% 60 5.5%
+*Imputed and used in the weighting procedure
+Low-risk: NODS score 0.
+At-risk: NODS score 1 to 2
+Disordered gambler: Problem gambler (NODS score 3 to 4) and Probable pathological gambler (NODS score 5
+or higher) combined
+54
+
+=== page 55 ===
+CHAPTER 9 Seeking Help for Gambling Problems
+This chapter reports unweighted results for the prevalence of seeking help for gambling problems,
+knowledge of available resources for gambling problems, and attitudes toward gambling.
+Respondents were asked if they had ever sought help for gambling problems; 0.5% responded that they
+sought help for gambling issues. The history of seeking help according to gambling disorder categories is
+shown in Table 9.1. A substantially higher proportion of disordered gamblers sought help for gambling
+problems (7.5%), compared to Low-risk gamblers (<1%).
+Table 9.1 Help-Seeking by Gambling Risk Category
+Have you ever sought help for a gambling problem?
+Yes No Total
+n (%) n (%) n (%)
+Has Never Gambled 0 0.0% 19 100.0% 19 100.0%
+Low-risk 2 0.1% 2,302 99.9% 2,304 100.0%
+At-risk 3 1.2% 256 98.8% 259 100.0%
+Disordered Gambler 8 7.5% 98 92.5% 106 100.0%
+Total 13 0.5% 2,675 99.5% 2,688 100.0%
+The types of help sought by the sample are shown in Table 9.2. Respondents were allowed to select more
+than one type of help sought. A majority of those who sought help did so from Gamblers Anonymous
+(46.2%), followed by family members (38.5%), and friends (30.8%).
+Table 9.2 Type of Help Sought by Gamblers
+n (%)
+Family member 5 38.5%
+Friend 4 30.8%
+Family doctor 1 7.7%
+Gamblers Anonymous 6 46.2%
+Treatment program in Maryland 1 7.7%
+55
+
+=== page 56 ===
+Treatment programs outside of Maryland 1 7.7%
+Veterans Administration 1 7.7%
+Psychologist or psychiatrist 1 7.7%
+Other counselor 2 15.4%
+Hospital outside Maryland 1 7.7%
+Other 2 15.4%
+Awareness of Problem Gambling Resources
+Respondents’ knowledge of available community services is shown in Table 9.3. Overall, the proportions
+of all respondents with knowledge of the three community services were 61.1% knew of the toll-free
+helpline, 49.8% knew of gamblers anonymous, and 48.4% knew about outpatient services. More than half
+of the respondents identified as meeting criteria for disordered gambling reported being aware of a toll-
+free helpline in the community (77.6%), a majority (65.4%) were aware of Gamblers Anonymous meetings,
+and 59.8% knew about outpatient services.
+Table 9.3 Knowledge of available resources in the community
+Available in your community... Yes Missing Total
+% % %
+A toll-free helpline that provides crisis help or referral problem gamblers and others?
+Has Never Gambled 38.4% 26.0% 100.0%
+Low-risk 62.6% 15.0% 100.0%
+At-risk 65.1% 11.1% 100.0%
+Disordered Gambler 77.6% 2.8% 100.0%
+Total 61.1% 15.3% 100.0%
+Gamblers Anonymous?
+Has Never Gambled 29.9% 28.8% 100.0%
+Low-risk 50.7% 19.3% 100.0%
+At-risk 58.6% 11.1% 100.0%
+Disordered Gambler 65.4% 5.6% 100.0%
+56
+
+=== page 57 ===
+Total 49.8% 19.2% 100.0%
+Outpatient services for problem gambling, such as private counseling?
+Has Never Gambled 30.2% 29.7% 100.0%
+Low-risk 49.3% 20.1% 100.0%
+At-risk 54.8% 13.0% 100.0%
+Disordered Gambler 59.8% 7.5% 100.0%
+Total 48.4% 20.2% 100.0%
+Awareness of Information about Responsible Gambling
+Respondents were asked if they had ever encountered information about problem gambling or
+responsible gambling on billboards, television, radio, posters or flyers, online, or newspapers. The results
+are shown in Table 9.6. Television was the most commonly reported source of information about
+responsible gambling, mentioned by 59.0% of the respondents. The proportions of respondents who
+encountered the information by billboards, radio, posters or flyers, online, and newspapers are 43.4%,
+42.3%, 30.7%, 22.4%, and 21.5%, respectively.
+Table 9.6 Location of Publicity about Responsible Gambling
+Posters or
+Billboards Television Radio Online Newspapers
+Flyers
+Yes 43.4% 59.0% 42.3% 30.7% 22.4% 21.5%
+No 47.6% 34.3% 48.4% 58.4% 66.8% 67.9%
+Missing 9.0% 6.8% 9.3% 10.9% 10.8% 10.7%
+Total 100.0% 100.0% 100.0% 100.0% 100.0% 100.0%
+Attitudes Towards Gambling
+Participants were asked a series of eight questions about their attitudes towards gambling. The responses
+were then categorized according to the NORC gambling categories (Table 9.7). Attitudes were queried
+with several statements regarding gambling and response options were presented in Likert-type scales.
+Responses to these questions differed depending on the gamblers behavior.
+57
+
+=== page 58 ===
+These items did not reveal any dominant, consistent ideology among Marylanders regarding the
+availability of gambling options. Respondents generally agreed with the statement, “There are too many
+opportunities for gambling nowadays” (57.0%) (Table 9.7). Marylanders were evenly split as 50.0% agreed
+that, “People should have the right to gamble whenever they want”. A plurality of the sample (43.7%) had
+no firm opinion as to whether gambling should be discouraged. No dominant answer emerged among the
+overall sample as to whether most gamblers do so sensibly, the dangers gambling poses to family life, or
+the benefits of gambling to society, or enrichment of one’s personal life. Less than half of respondents
+(48.8%) did not wish to see gambling outlawed (Table 9.7).
+58
+
+=== page 59 ===
+Table 9.7 Attitudes towards gambling
+Strongly Agree Neither Disagree Strongly Missing Total
+Agree agree nor disagree
+disagree
+There are too many opportunities for gambling nowadays
+Non Gambler 38.1% 24.3% 26.8% 2.3% 1.4% 7.1% 100.0%
+Low-risk Gambler 27.3% 28.7% 36.2% 4.7% 1.8% 1.2% 100.0%
+At-risk 25.3% 31.4% 27.6% 11.1% 3.4% 1.1% 100.0%
+Problem Gambler 33.9% 35.5% 21.0% 4.8% 3.2% 1.6% 100.0%
+Probable Pathological Gambler 48.9% 24.4% 15.6% 0.0% 4.4% 6.7% 100.0%
+Total 28.4% 28.6% 34.5% 4.9% 1.9% 1.8% 100.0%
+People should have the right to gamble whenever they want
+Non Gambler 8.8% 22.9% 36.2% 11.0% 11.9% 9.3% 100.0%
+Low-risk Gambler 10.5% 39.6% 33.5% 12.1% 2.7% 1.6% 100.0%
+At-risk 21.1% 46.7% 23.4% 6.9% 0.8% 1.1% 100.0%
+Problem Gambler 17.7% 53.2% 22.6% 4.8% 0.0% 1.6% 100.0%
+Probable Pathological Gambler 20.0% 35.6% 31.1% 4.4% 2.2% 6.7% 100.0%
+Total 11.2% 38.8% 32.9% 11.6% 3.3% 2.3% 100.0%
+Gambling should be discouraged
+Non Gambler 29.4% 25.4% 28.8% 3.7% 3.7% 9.0% 100.0%
+Low-risk Gambler 11.2% 24.9% 45.4% 13.5% 3.4% 1.6% 100.0%
+At-risk 7.3% 19.5% 42.5% 21.8% 8.0% 0.8% 100.0%
+Problem Gambler 11.3% 11.3% 43.5% 25.8% 6.5% 1.6% 100.0%
+59
+
+=== page 60 ===
+Probable Pathological Gambler 11.1% 15.6% 35.6% 24.4% 6.7% 6.7% 100.0%
+Total 12.5% 24.4% 43.7% 13.5% 3.7% 2.2% 100.0%
+Most people who gamble do so sensibly
+Non Gambler 2.5% 5.9% 36.4% 31.9% 13.6% 9.6% 100.0%
+Low-risk Gambler 2.1% 18.6% 44.3% 26.6% 6.4% 1.9% 100.0%
+At-risk 3.1% 24.1% 39.8% 26.1% 5.4% 1.5% 100.0%
+Problem Gambler 0.0% 27.4% 45.2% 21.0% 4.8% 1.6% 100.0%
+Probable Pathological Gambler 4.4% 11.1% 26.7% 35.6% 15.6% 6.7% 100.0%
+Total 2.2% 18.0% 43.2% 27.0% 7.0% 2.5% 100.0%
+Gambling is dangerous for family life
+Non Gambler 36.7% 28.5% 19.5% 3.1% 2.8% 9.3% 100.0%
+Low-risk Gambler 15.1% 33.3% 39.0% 8.3% 2.3% 1.9% 100.0%
+At-risk 4.6% 29.5% 44.1% 16.1% 4.6% 1.1% 100.0%
+Problem Gambler 8.1% 29.0% 43.5% 17.7% 0.0% 1.6% 100.0%
+Probable Pathological Gambler 26.7% 28.9% 24.4% 4.4% 6.7% 8.9% 100.0%
+Total 16.3% 32.6% 37.6% 8.5% 2.5% 2.5% 100.0%
+On balance gambling is good for society
+Non Gambler 1.4% 2.8% 28.2% 28.8% 29.4% 9.3% 100.0%
+Low-risk Gambler 1.4% 8.8% 47.4% 28.0% 12.3% 2.1% 100.0%
+At-risk 2.3% 18.4% 51.0% 22.6% 5.0% 0.8% 100.0%
+Problem Gambler 0.0% 21.0% 50.0% 22.6% 4.8% 1.6% 100.0%
+Probable Pathological Gambler 6.7% 13.3% 48.9% 13.3% 11.1% 6.7% 100.0%
+Total 1.5% 9.1% 46.1% 27.5% 13.1% 2.7% 100.0%
+60
+
+=== page 61 ===
+Gambling livens up life
+Non Gambler 1.1% 4.5% 31.9% 24.6% 28.8% 9.0% 100.0%
+Low-risk Gambler 0.9% 14.8% 47.4% 23.6% 11.3% 1.9% 100.0%
+At-risk 3.4% 34.5% 38.7% 15.3% 6.5% 1.5% 100.0%
+Problem Gambler 3.2% 37.1% 37.1% 14.5% 6.5% 1.6% 100.0%
+Probable Pathological Gambler 6.7% 33.3% 33.3% 17.8% 2.2% 6.7% 100.0%
+Total 1.2% 15.7% 45.3% 23.0% 12.3% 2.5% 100.0%
+It would be better if gambling was banned altogether
+Non Gambler 19.5% 12.7% 39.3% 15.5% 4.5% 8.5% 100.0%
+Low-risk Gambler 3.7% 6.9% 37.5% 34.9% 15.3% 1.7% 100.0%
+At-risk 2.3% 5.0% 24.1% 39.1% 28.7% 0.8% 100.0%
+Problem Gambler 4.8% 4.8% 27.4% 35.5% 25.8% 1.6% 100.0%
+Probable Pathological Gambler 20.0% 6.7% 28.9% 22.2% 15.6% 6.7% 100.0%
+Total 5.1% 7.2% 36.6% 33.5% 15.3% 2.2% 100.0%
+61
+
+=== page 62 ===
+CHAPTER 10 Gambling in Maryland from 2010 to 2022
+In this chapter we bring together highlights of the findings from the 2010, 2017, 2020, and current 2022
+survey. It should be noted that there are differences in the survey methodology used in each of these
+reports, including how the sample was obtained and the weighting procedures used. Therefore,
+comparisons should be made with caution. For details of the methods used, please reference each of the
+relevant reports.
+Gamblers in Maryland
+In 2022, 90.4% of Marylanders were found to have ever gambled in their lifetime. This is a very slight
+decrease from 2020 where 92.3% of Marylanders were found to have ever gambled in their lifetime and
+a slight increase from those of 2010 and 2017 (89.7% and 87.0% respectively, Table 10.1).
+Table 10.1 Weighted prevalence of lifetime gambling across survey years
+Survey year Have ever gambled in lifetime
+2010 89.7%
+2017 87.0%
+2020 92.3%
+2022 90.4%
+Type of Gambling Activity
+From 2010 to 2022 the most frequently reported gambling types were lottery games and casino betting
+(Table 10.2). Since 2010, lottery play has increased 15.2% while casino gambling has only increased 6.6%.
+There has also been a substantial increase in the use of gaming machines outside of casinos, with 33.4%
+of those who have ever gambled in their lifetime reporting use in 2022 compared to 21.3% in 2010 (12.1%
+increase from 2010 to 2022). However, this actually represents a decrease from that of 2020 where 42.1%
+had ever used a gaming machine outside of casino. Placing a bet on horse races is no longer a popular
+gambling activity among Marylanders and since 2010 has decreased from 29.5% to 19.5% in 2022. Each
+year the survey asks about other gambling types not covered by the specific categories listed in the survey.
+62
+
+=== page 63 ===
+These can include raffles, sweepstakes, baby pools, pull-tabs, dogfights, and cockfights. Although we
+cannot identify exactly which of these other gambling types are rising in popularity there has been an
+overall increase in popularity with a 9.4% increase from 2010 to 2022.
+Table 10.2 Weighted lifetime prevalence of having ever gambled by gambling type, across survey years
+Survey years Change from
+Gambling type*
+2010 2017 2020 2022 2010 to 2022
+Lottery 67.5% 77.6% 76.8% 82.7% 15.2%
+Casino 67.5% 73.9% 70.3% 74.1% 6.6%
+Sports 32.9% 29.2% 35.5% 30.1% -2.8%
+Private games 30.2% 28.8% 29.9% 27.7% -2.5%
+Horse races 29.5% 31.3% 27.6% 19.5% -10.0%
+Other 27.5% 25.4% 31.6% 36.9% 9.4%
+Bingo 24.8% 26.7% 36.2% 27.5% 2.7%
+Gaming machines outside casinos 21.3% 23.6% 42.1% 33.4% 12.1%
+Dog races 5.8% 6.8% 8.1% 3.1% -2.7%
+Online casino style games± 3.6% 3.4% 10.3% 6.6% 3.0%
+Fantasy sports N/A 5.6% 13.3% 5.1% -0.5%ⱡ
+*Ordered from most to least prevalent according to 2010 survey.
+±In 2010, 2017, and 2020 this question was phrased as asking about wagering on the computer over
+the internet.
+ⱡChange from 2017 to 2022.
+Casino Gambling
+Each report examined the frequency of the different gambling types. For the purposes of comparison
+across the survey years, Table 10.3 reports the frequency of play in the past 12 months for casino
+gambling. We see the biggest changes in the proportion who have not played at all in the past year
+(increase of 9.0% from 2010 to 2022) and a corresponding decrease in those who only gambled at a casino
+a few days all year (decrease of 8.9% from 2010 to 2022). There were only minor changes from 2010 to
+2022 for those who gambled at casinos more frequently.
+63
+
+=== page 64 ===
+Table 10.3 Weighted prevalence of frequency of casino gambling in the past 12 months, across survey
+years.
+Gambling Frequency^ Survey years Change from
+2010 2017 2020 2022 2010 to 2022
+Not at all in the past year 59.5% 58.9% 48.5% 68.5% 9.0%
+Only a few days all year 32.1% 31.0% 30.1% 23.2% -8.9%
+Once a month or less 3.6% 4.6% 9.7% 3.7% 0.1%
+Several times a month 2.2% 3.4% 7.1% 2.3% 0.1%
+Daily or several times a week 2.7% 2.0% 4.6% 1.1% -1.6%
+^Frequency of play in the last 12 months amongst those who have ever participated in casino gambling
+in their lifetime.
+Gambling Behavior
+Excluding the year 2020, the prevalence of low-risk, at-risk, and disordered gambling in 2022 is similar to
+the rates reported in 2010 (Table 10.4). In 2017, there was a higher prevalence of low-risk gamblers, with
+a subsequent lower prevalence of at-risk and disordered gamblers. In 2020, differences in the sampling
+frame and the COVID-19 pandemic likely resulted in considerably higher rates of at-risk and disordered
+gamblers than would have been expected, making comparisons to previous years and the current year
+challenging.
+There have been some fluctuations over the survey years in the demographics of low-risk, at-risk, and
+disordered gamblers. There has been a shift in age, and we now see slightly higher prevalence rates of
+disordered gambling among the older age groups where previously this was more typical of the younger
+age groups. For example, in 2010, 6.8% of those aged 18-29 were disordered gamblers compared to 1.0%
+of those aged 65 years and above (Table 10.5). In 2022, 2.3% of those aged 18-29 were disordered
+gamblers compared to 4.7% of those aged 65-74 years and 5.1% of those aged 75 years or older.
+Trends in gender have remained consistent across survey years, with men having higher prevalence rates
+of at-risk and disordered gambling compared to women. Similarly for race and ethnicity, non-Hispanic
+64
+
+=== page 65 ===
+Black or African American Marylanders have typically had higher prevalence rates of at-risk and
+disordered gambling than non-Hispanic White Marylanders.
+Table 10.4 Weighted prevalence of lifetime gambling risk, across survey years
+Survey year Low-risk gambler At-risk gambler Disordered gambler
+2010 87.6% 9.0% 3.4%
+2017 95.5% 2.6% 1.9%
+2020 80.0% 11.6% 8.4%
+2022 87.4% 8.0% 4.6%
+Low-risk: NODS score 0
+At-risk: NODS score 1 to 2
+Disordered gambler: Problem gambler (NODS score 3 to 4) and Probable pathological gambler (NODS
+score 5 or higher) combined
+65
+
+=== page 66 ===
+Table 10.5 Weighted prevalence of lifetime gambling risk by demographics, across survey years
+Low-risk gamblers At-risk gamblers Disordered gamblers
+Demographics
+2010 2017 2020 2022 2010 2017 2020 2022 2010 2017 2020 2022
+Gender
+Male 82.9% 93.3% 76.7% 82.9% 11.8% 3.8% 12.8% 9.9% 5.3% 2.9% 10.6% 7.2%
+Female 92.2% 96.5% 82.7% 90.9% 6.3% 2.3% 10.4% 6.6% 1.5% 1.2% 6.9% 2.6%
+Age (in years)
+18-29 80.0% 95.8% 74.5% 92.3% 13.2% 3.6% 10.9% 6.0% 6.8% 0.6% 14.6% 1.7%
+30-44 88.2% 92.7% 73.1% 84.1% 9.0% 4.1% 12.6% 8.8% 2.7% 3.2% 14.2% 7.1%
+45-54 89.0% 93.4% 79.6% 83.0% 7.3% 3.9% 14.2% 11.4% 2.8% 2.8% 6.2% 5.6%
+55-64 89.3% 94.2% 85.0% 88.7% 7.9% 3.0% 10.5% 6.4% 2.8% 2.8% 4.5% 4.9%
+65-74 97.5% 87.8% 89.9% 1.4% 10.5% 5.7% 1.0% 1.7% 4.5%
+92.7% 6.3% 1.0%
+75+ 95.9% 89.8% 94.5% 2.3% 8.2% 5.1% 1.0% 2.0% 0.3%
+Race and ethnicity
+Non-Hispanic White 89.9% 96.8% 83.3% 90.0% 8.2% 2.3% 11.1% 6.9% 2.0% 0.8% 5.6% 3.1%
+Non-Hispanic Black or African
+82.6% 90.5% 77.1% 81.9% 12.5% 5.8% 12.2% 9.4% 4.9% 3.7% 10.7% 8.7%
+American
+Hispanic 88.7% 68.5% 88.3% 4.5% 13.1% 11.6% 6.8% 18.4% 0.2%
+Asian or Pacific Islander Not 93.9% 80.3% 89.6% Not 0.0% 9.3% 7.1% Not 6.1% 10.4% 3.3%
+American Indian reported 80.2% 77.1% N/R reported 3.2% 15.0% N/R reported 16.5% 7.9% N/R
+Other 94.6% 82.5% 84.6% 1.2% 12.7% 12.2% 4.2% 4.8% 3.1%
+N/R = Not reported. Not included due to small number of individual respondents.
+66
+
+=== page 67 ===
+CHAPTER 11 Summary, Limitations, and Direction for the Future
+Major Findings and Trends
+The primary objective of the 2022 Statewide Gambling Prevalence in Maryland survey was to describe the
+gambling behavior of those aged 18 years and older residing in Maryland and identify any important
+changes in this behavior. This report estimated the prevalence of those who have ever gambled in their
+lifetime; the types and frequency of gambling occurring in the state; the prevalence of disordered
+gambling; and the help seeking behavior of gamblers. It also took a closer look at sports gambling, which
+only became legally available within casinos in 2021 and online in 2022.
+In 2022, the overall prevalence of adults who had ever participated in any form of gambling was
+approximately 9 out of every 10 Marylanders. This finding was similar to that of earlier statewide surveys
+from 2020, 2017, and 2010. Amongst those who have gambled in their lifetime, the popular types of
+gambling remained similar to those reported in previous years, with lottery games and casinos being the
+most popular. Gambling online, fantasy sports, and dog races were among the least prevalent forms of
+gambling. The recent legalization of sports gambling in the state and the availability of online sports
+betting may result in substantial changes in the prevalence of fantasy sports betting. Gambling on dog
+races has not ever been particularly popular in the state during the course of the prevalence studies. This
+may be due to the lack of an active racetrack within the state, the closest being in West Virginia, or it may
+be that Marylanders who are looking for this type of gambling activity prefer to gamble on the horse races
+which play a significant role in the state. Except for the lottery and yearly fantasy sports, the majority of
+gamblers in the state reported infrequent play in the 12 months prior to being surveyed. The average
+dollar amount spent on gambling was typically around one hundred dollars or less, although some
+individuals reported spending thousands in a typical month.
+Despite the majority of Americans reporting that they find gambling morally acceptable (Gallup, 2018), in
+Maryland the majority of non-gamblers reported that their moral or ethical objections were important in
+their decision not to gamble. Their fear of losing money was also an important driver for their not
+gambling. Conversely, the majority of gamblers felt winning money was an important reason for gambling,
+as was the entertainment value of gambling.
+67
+
+=== page 68 ===
+Substance use, a frequent comorbidity of gambling, was more prevalent among Maryland gamblers,
+however the distribution of the frequency of substance use followed similar trends of non-gamblers.
+Gamblers were slightly less likely than non-gamblers to report their health as excellent, but combining
+those who reported their health as excellent or very good resulted in almost no difference between
+gamblers and non-gamblers. There was however a slightly higher proportion of gamblers who reported
+their health as poor compared to non-gamblers.
+The gambling behavior of those who had ever gambled in their lifetime was further characterized using
+NODS, which classifies behavior as either low-risk, at-risk, or disordered. In 2022, the rates of disordered
+gambling were similar to those of 2010 and slightly elevated from those of 2017. Disordered gambling
+was more prevalent amongst males, those aged 35-44 years, those who identified as non-Hispanic Black
+or African American, those with lower levels of education, those with lower levels of income, and those
+living in Eastern Maryland. These trends were also found in the previous statewide reports (Tracy et al.,
+2019; Tracy & Schluterman, 2021) and also in the general gambling literature (Potenza et al., 2019).
+Only a handful of gamblers in Maryland had sought help for their gambling, with the majority of those
+seeking help being disordered gamblers. The rates of help-seeking were considerably lower in 2022 than
+those in 2020 (Tracy & Schluterman, 2021). Gamblers Anonymous was a popular source of help, as was
+reaching out to family or friends. Knowledge of the availability of community services for seeking help for
+gambling was most prevalent amongst disordered gamblers. The majority of gamblers reported
+encountering information about responsible gambling from the television. Billboards and radio station
+announcements were also reaching a high number of individuals, while posters or flyers, online, and
+newspaper announcements were reaching fewer gamblers.
+Survey Limitations
+Response rates to surveys have been on the decline (Stedman et al., 2019) and to combat this, additional
+reminder postcards were employed to help boost response rates. Despite these efforts, the target sample
+size of 6,000 respondents was not reached. It is therefore possible that the respondents to the survey
+were not fully representative of the state’s population. For example, people who gamble, people with
+gambling problems, and people with strong feelings about gambling may have been more likely to
+respond to the survey, given the topic. In addition, the smaller sample size meant that it was not feasible
+68
+
+=== page 69 ===
+to closely examine all gambling behaviors. For example, in 2020 the over-representation of at-risk and
+disordered gamblers allowed for a rigorous assessment of the predictors of gambling behavior. Trends in
+help seeking behavior were also challenging to examine due to the limited sample size.
+Data collection occurred from April-July 2022 during the COVID-19 pandemic and a period of transition
+from any remaining pandemic restrictions to minimal or no restrictions. The reporting of gambling
+behavior, and in particular frequency of play and dollar amounts spent may have been influenced by this.
+Restrictions on gathering indoors or the need to continue wearing a face covering may have impacted
+gambling behaviors. In addition, unemployment rose during the pandemic, and job loss may have had an
+influence on gambling behavior, including frequency of play and spending.
+Problem gambling is a sensitive issue and social desirability response bias may be present despite the
+anonymity of the survey. Furthermore, the NODS screening instrument is not a definitive diagnostic tool
+and does not have perfect sensitivity and specificity. This could result in some individuals who were found
+to be probable pathological gamblers not actually having a diagnosable gambling problem, while others
+may have fallen into lesser gambling risk categories but do have a gambling problem. Only a clinical
+evaluation could truly distinguish and diagnose a gambling problem.
+Each survey year, improvements are made to the survey instrument and the analytical approach. While
+this ensures that the instrument is capturing the most relevant and accurate data and that these data are
+being fully utilized, it also poses a limitation in the ability to draw conclusions by comparing across survey
+years.
+Directions for the Future
+Based on the present findings and those of the 2010, 2017, and 2020 statewide surveys in Maryland, we
+propose the following recommendations:
+• Continue to conduct statewide gambling prevalence studies to monitor and evaluate the
+prevalence of disordered gambling in the state of Maryland which has increased over the past
+decade.
+• Continue to track the prevalence of sports gambling, which only became fully available online
+after the 2022 survey had concluded.
+69
+
+=== page 70 ===
+• Identify barriers to help-seeking and design interventions to address those barriers while also
+ensuring that these resources are being targeted to the sociodemographic groups with the higher
+prevalence of disordered gambling.
+• Identify the impact of messaging on problem gambling and responsible gambling.
+• Conduct longitudinal studies to allow for an examination of the risk factors for transitioning from
+a non-gambler to a low-risk gambler, a low-risk gambler to an at-risk gambler, and an at-risk
+gambler to a disordered gambler.
+• Given the comorbid relationship between substance use and gambling behavior, integrating
+education programs and resources designed for each group could have a beneficial crossover.
+70
+
+=== page 71 ===
+References
+Abbott, M. W. (2020). The changing epidemiology of gambling disorder and gambling-related harm: public
+health implications. Public Health, 184, 41-45. https://doi.org/10.1016/j.puhe.2020.04.003
+Abott, M. W. (2017). The epidemiology and impact of gambling disorder and other gambling related harm.
+World Health Organization.
+Afifi, T. O., Brownridge, D. A., MacMillan, H., & Sareen, J. (2010). The relationship of gambling to intimate
+partner violence and child maltreatment in a nationally representative sample. J Psychiatr Res,
+44(5), 331-337. https://doi.org/10.1016/j.jpsychires.2009.07.010
+Afifi, T. O., Cox, B. J., Martens, P. J., Sareen, J., & Enns, M. W. (2010). The relationship between problem
+gambling and mental and physical health correlates among a nationally representative sample of
+Canadian women. Can J Public Health, 101(2), 171-175. https://doi.org/10.1007/BF03404366
+Becona, E., Del Carmen Lorenzo, M., & Fuentes, M. J. (1996). Pathological gambling and depression.
+Psychol Rep, 78(2), 635-640. https://doi.org/10.2466/pr0.1996.78.2.635
+Bergamini, A., Turrina, C., Bettini, F., Toccagni, A., Valsecchi, P., Sacchetti, E., & Vita, A. (2018). At-risk
+gambling in patients with severe mental illness: Prevalence and associated features. J Behav
+Addict, 7(2), 348-354. https://doi.org/10.1556/2006.7.2018.47
+Biggar, R., Esters, I., Dick, S. J., Chen, J., Burstein, K., Bergeron, M., Cooper, R., & Zeanah, P. (2017). The
+Impact of Gambling in Louisiana. U. o. L. a. L. Cecil J Picard Center for Childhood Development.
+Black, D. W., Shaw, M., McCormick, B., & Allen, J. (2013). Pathological gambling: relationship to obesity,
+self-reported chronic medical conditions, poor lifestyle choices, and impaired quality of life.
+Comprehensive Psychiatry, 54(2), 97-104.
+https://doi.org/https://doi.org/10.1016/j.comppsych.2012.07.001
+Black, D. W., Shaw, M. C., McCormick, B. A., & Allen, J. (2012). Marital status, childhood maltreatment,
+and family dysfunction: a controlled study of pathological gambling. J Clin Psychiatry, 73(10),
+1293-1297. https://doi.org/10.4088/JCP.12m07800
+Blaszczynski, A., Walker, M., Sharpe, L., & Nower, L. (2008). Withdrawal and Tolerance Phenomenon in
+Problem Gambling. International Gambling Studies, 8(2), 179-192.
+https://doi.org/10.1080/14459790802140007
+Braun, B., Ludwig, M., Sleczka, P., Buhringer, G., & Kraus, L. (2014). Gamblers seeking treatment: Who
+does and who doesn't? J Behav Addict, 3(3), 189-198. https://doi.org/10.1556/JBA.3.2014.3.7
+Bryant, Z. E., Henslee, A. M., & Correia, C. J. (2013). Testing the effects of e-mailed personalized feedback
+on risky alcohol use among college students. Addict Behav, 38(10), 2563-2567.
+https://doi.org/10.1016/j.addbeh.2013.06.007
+Collins, S. E., Kirouac, M., Lewis, M. A., Witkiewitz, K., & Carey, K. B. (2014). Randomized controlled trial
+of web-based decisional balance feedback and personalized normative feedback for college
+drinkers. J Stud Alcohol Drugs, 75(6), 982-992. https://doi.org/10.15288/jsad.2014.75.982
+Diaz, A., & Perez, L. (2021). Gambling and substance use: A cross-consumption analysis of tobacco
+smoking, alcohol drinking and gambling. Subst Abus, 42(4), 1016-1021.
+https://doi.org/10.1080/08897077.2021.1903657
+Erickson, L., Molina, C. A., Ladd, G. T., Pietrzak, R. H., & Petry, N. M. (2005). Problem and pathological
+gambling are associated with poorer mental and physical health in older adults. Int J Geriatr
+Psychiatry, 20(8), 754-759. https://doi.org/10.1002/gps.1357
+Fauth-Buhler, M., Mann, K., & Potenza, M. N. (2017). Pathological gambling: a review of the
+neurobiological evidence relevant for its classification as an addictive disorder. Addict Biol, 22(4),
+885-897. https://doi.org/10.1111/adb.12378
+71
+
+=== page 72 ===
+Fong, T. W. (2005). The biopsychosocial consequences of pathological gambling. Psychiatry (Edgmont),
+2(3), 22-30. https://www.ncbi.nlm.nih.gov/pubmed/21179626
+Gallup. (2018). Acceptance of gambling reaches new heights. Retrieved 6/28/2023 from
+https://news.gallup.com/poll/235379/acceptance-gambling-reaches-new-heights.aspx
+Gerstein, D., Volberg, R. A., Toce, M. T., Harwood, H., Christiansen, E. M., & Hoffman, J. (1999). Gambling
+Impact and Behavior Study.
+Hakansson, A., & Karlsson, A. (2020). Suicide Attempt in Patients With Gambling Disorder-Associations
+With Comorbidity Including Substance Use Disorders. Front Psychiatry, 11, 593533.
+https://doi.org/10.3389/fpsyt.2020.593533
+Harris, A., & Griffiths, M. D. (2017). A Critical Review of the Harm-Minimisation Tools Available for
+Electronic Gambling. J Gambl Stud, 33(1), 187-221. https://doi.org/10.1007/s10899-016-9624-8
+Hodgins, D. C., Stea, J. N., & Grant, J. E. (2011). Gambling disorders. Lancet, 378(9806), 1874-1884.
+https://doi.org/10.1016/S0140-6736(10)62185-X
+Jacques, C., & Ladouceur, R. (2006). A prospective study of the impact of opening a casino on gambling
+behaviours: 2- and 4-year follow-ups. Can J Psychiatry, 51(12), 764-773.
+https://doi.org/10.1177/070674370605101206
+Latvala, T., Lintonen, T., & Konu, A. (2019). Public health effects of gambling - debate on a conceptual
+model. BMC Public Health, 19(1), 1077. https://doi.org/10.1186/s12889-019-7391-z
+Leino, T., Torsheim, T., Griffiths, M. D., & Pallesen, S. (2023). The relationship between substance use
+disorder and gambling disorder: A nationwide longitudinal health registry study. Scand J Public
+Health, 51(1), 28-34. https://doi.org/10.1177/14034948211042249
+Lugo, A., Stival, C., Paroni, L., Amerio, A., Carreras, G., Gorini, G., Mastrobattista, L., Minutillo, A., Mortali,
+C., Odone, A., Pacifici, R., Tinghino, B., & Gallus, S. (2021). The impact of COVID-19 lockdown on
+gambling habit: A cross-sectional study from Italy. J Behav Addict, 10(3), 711-721.
+https://doi.org/10.1556/2006.2021.00033
+Marchica, L., & Derevensky, J. L. (2016). Examining personalized feedback interventions for gambling
+disorders: A systematic review. J Behav Addict, 5(1), 1-10.
+https://doi.org/10.1556/2006.5.2016.006
+McMahon, N., Thomson, K., Kaner, E., & Bambra, C. (2019). Effects of prevention and harm reduction
+interventions on gambling behaviours and gambling related harm: An umbrella review. Addict
+Behav, 90, 380-388. https://doi.org/10.1016/j.addbeh.2018.11.048
+Morasco, B. J., Vom Eigen, K. A., & Petry, N. M. (2006). Severity of gambling is associated with physical
+and emotional health in urban primary care patients. Gen Hosp Psychiatry, 28(2), 94-100.
+https://doi.org/10.1016/j.genhosppsych.2005.09.004
+Oakes, J., Pols, R., & Lawn, S. (2020). The Frantic Seeking of Credit during Poker Machine Problem
+Gambling: A Public Health Perspective. Int J Environ Res Public Health, 17(14).
+https://doi.org/10.3390/ijerph17145216
+Otis, E., Kim, A. J., Stewart, S. H., Sherry, S. B., & Yakovenko, I. (2022). Changes in sports gambling behavior
+during the COVID-19 pandemic in Canada. Front Psychiatry, 13, 1018234.
+https://doi.org/10.3389/fpsyt.2022.1018234
+Parke, J., Williams, R. J., & Schofield, P. (2019). Exploring psychological need satisfaction from gambling
+participation and the moderating influence of game preferences. International Gambling Studies,
+19(3), 508-531. https://doi.org/10.1080/14459795.2019.1633381
+Potenza, M. N., Balodis, I. M., Derevensky, J., Grant, J. E., Petry, N. M., Verdejo-Garcia, A., & Yip, S. W.
+(2019). Gambling disorder. Nat Rev Dis Primers, 5(1), 51. https://doi.org/10.1038/s41572-019-
+0099-7
+72
+
+=== page 73 ===
+Shaffer, H. J., LaBrie, R. A., & LaPlante, D. (2004). Laying the Foundation for Quantifying Regional Exposure
+to Social Phenomena: Considering the Case of Legalized Gambling as a Public Health Toxin.
+Psychology of Addictive Behaviors, 18(1), 40-48. https://doi.org/10.1037/0893-164X.18.1.40
+Shinogle, J., Norris, D. F., Park, D., Volverg, R., Haynes, D., & Stokam, E. (2011). Gambling Prevalence in
+Maryland: A Basline Analysis. I. f. P. A. a. Research.
+Skywood Recovery. (2021). Gambling Addiction Statistics. Retrieved 6/28/2023 from
+https://skywoodrecovery.com/gambling-addiction/negative-effects-of-gambling-
+addiction/statistics/
+Spectrum Gaming Group. (2009). Gambling in Connecticut: Analyzing the Economic and Social Impacts. C.
+D. o. S. Revenue.
+Stedman, R. C., Connelly, N. A., Heberlein, T. A., Decker, D. J., & Allred, S. B. (2019). The End of the
+(Research) World As We Know It? Understanding and Coping With Declining Response Rates to
+Mail Surveys. Society & Natural Resources, 32(10), 1139-1154.
+https://doi.org/10.1080/08941920.2019.1587127
+Syvertsen, A., Leino, T., Pallesen, S., Smith, O. R. F., Sivertsen, B., Griffiths, M. D., & Mentzoni, R. A. (2023).
+Marital status and gambling disorder: a longitudinal study based on national registry data. BMC
+Psychiatry, 23(1), 199. https://doi.org/10.1186/s12888-023-04697-w
+Tanner, J., Drawson, A. S., Mushquash, C. J., Mushquash, A. R., & Mazmanian, D. (2017). Harm reduction
+in gambling: a systematic review of industry strategies. Addiction Research & Theory, 25(6), 485-
+494. https://doi.org/10.1080/16066359.2017.1310204
+Tracy, J. K., Maranda, L., & Scheele, C. (2019). Statewide Gambling Prevalence in Maryland: 2017. M. C. o.
+E. o. P. Gambling. https://bha.health.maryland.gov/Documents/2017-Gambling-Prevalence-
+Report-Final-.pdf
+Tracy, J. K., & Schluterman, N. (2021). Statewide Gambling Prevalence in Maryland: 2020. M. C. o. E. o. P.
+Gambling.
+Volberg, R. A., & Steadman, H. J. (1989). Prevalence estimates of pathological gambling in New Jersey and
+Maryland. Am J Psychiatry, 146(12), 1618-1619. https://doi.org/10.1176/ajp.146.12.1618
+Welte, J. W., Barnes, G. M., Tidwell, M. C., Hoffman, J. H., & Wieczorek, W. F. (2015). Gambling and
+Problem Gambling in the United States: Changes Between 1999 and 2013. J Gambl Stud, 31(3),
+695-715. https://doi.org/10.1007/s10899-014-9471-4
+73

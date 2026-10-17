@@ -1,0 +1,1322 @@
+=== page 1 ===
+Adult Gambling Behaviors
+in Indiana
+2021
+
+=== page 2 ===
+Report on Adult Gambling Behaviors
+in Indiana
+2021
+Prevention Insights
+Indiana University
+School of Public Health – Bloomington
+1033 E. Third St.
+Bloomington, IN 47405-7005
+Mikyoung Jun, PhD, MPH
+Mary Lay, MPH
+Rosie King, MPH
+Jon Agley, PhD, MPH
+Junghun Lee, EdD
+Survey funded by
+Indiana Council on Problem Gambling
+i
+
+=== page 3 ===
+Table of Contents
+List of Tables ............................................................................................................................................. ii
+List of Figures ........................................................................................................................................... iv
+Introduction .................................................................................................................................................. 1
+Summary of Findings ............................................................................................................................. 2
+Key Findings .................................................................................................................................................. 3
+Prevalence of Gambling Activities ............................................................................................................ 3
+Prevalence of At-Risk or Problem Gambling ............................................................................................. 8
+Other Health Risk Behaviors ................................................................................................................... 12
+Mental Health ......................................................................................................................................... 14
+Awareness and Use of Gambling Related Services ................................................................................. 16
+Appendix A. Demographic Characteristics of Respondents ................................................................... 19
+Appendix B. Survey Methodology .......................................................................................................... 21
+Validity and Reliability ......................................................................................................................... 21
+Sampling .............................................................................................................................................. 21
+Data Processing ................................................................................................................................... 23
+Data Analysis ....................................................................................................................................... 27
+Appendix C. Survey Instrument ............................................................................................................. 28
+i
+
+=== page 4 ===
+List of Tables
+Table 1. Population estimates and percentages of Indiana adults who reported gambling in selected
+categories in the past twelve months, 2021 ................................................................................................. 4
+Table 2. Percentages and comparisons of Indiana adults who reported gambling in selected categories
+in the past twelve months by gender, age, and household income, 2021 ................................................... 5
+Table 3. Population estimates and percentages of Indiana adults who reported gambling in selected
+activities in the past twelve months, 2021 ................................................................................................... 6
+Table 4. Percentages of Indiana adults who reported gambling in selected activities in the past twelve
+months by gender, age, and household income, 2021 ................................................................................ 7
+Table 5. Population estimates and percentages of Indiana adults falling in problem gambling using DSM-
+V and NODS, 2021 ......................................................................................................................................... 9
+Table 6. Percentages of Indiana adults falling in problem gambling using DSM-V and NODS by gender,
+age, and household income, 2021 .............................................................................................................. 10
+Table 7. Population estimates and percentages of Indiana adults falling in problem gambling severity
+categories using the Problem Gambling Severity Index (PGSI), 2021 ........................................................ 10
+Table 8. Percentages of Indiana adults falling in problem gambling severity categories using the Problem
+Gambling Severity Index (PGSI) by gender, age, and household income, 2021 ......................................... 11
+Table 9. Percentages of Indiana adults falling in problem gambling using DSM-V and NODS by problem
+gambling severity categories (PGSI), 2021 .................................................................................................. 11
+Table 10. Population estimates and percentages of Indiana adults who used selected substances in the
+past month, 2021 ........................................................................................................................................ 12
+Table 11. Percentages of Indiana adults who used selected substances in the past month by gender,
+age, and household income, 2021 .............................................................................................................. 12
+Table 12. Percentages of Indiana adults who used selected substances in the past month by problem
+gambling, 2021 ............................................................................................................................................ 13
+Table 13. Mean number of mentally unhealthy days reported in past month, 2021 ............................... 14
+Table 14. Mean number of mentally unhealthy days reported in past month by gender, age, and
+household income, 2021 ............................................................................................................................. 14
+Table 15. Mean number of mentally unhealthy days reported in past month by problem gambling, 2021
+.................................................................................................................................................................... 15
+Table 16. Population estimates and percentages of Indiana adults who had ever seen or heard of
+gambling hotline or sought treatment for gambling problem, 2021 ......................................................... 16
+Table 17. Percentages of Indiana adults who had ever seen or heard of gambling hotline or sought
+treatment for gambling problem by gender, age, and household income, 2021 ...................................... 17
+Table 18. Percentages of Indiana adults who had ever seen or heard of gambling hotline or sought
+treatment for gambling problem by problem gambling severity categories, 2021 ................................... 17
+Table 19. Population estimates and percentages of Indiana adults who had ever seen or heard of
+gambling hotline, who saw or heard ad in select locations, 2021 .............................................................. 18
+Table 20. Unweighted demographic characteristics of respondents (n = 495) ......................................... 19
+ii
+
+=== page 5 ===
+Table 21. Demographic characteristics of Indiana adult population: 2021 Adult Gambling Behaviors in
+Indiana and ACS Estimates ......................................................................................................................... 26
+iii
+
+=== page 6 ===
+List of Figures
+Figure 1. Visualization of percentages of Indiana adults who gambled on any activity in the past twelve
+months by gender, age, and household income, 2021 ................................................................................ 4
+Figure 2. Visualization of percentages of Indiana adults by problem gambling using DSM-V and NODS,
+2021 .............................................................................................................................................................. 9
+iv
+
+=== page 7 ===
+I
+NTRODUCTION
+Gambling was legalized in Indiana in 1989 with the establishment of the State Lottery Commission and
+the Hoosier Lottery. The State sells scratch-off and jackpot drawing tickets. Indiana also participates in
+the multi-state Powerball and Mega Millions lottery games.
+The Indiana Gaming Commission was created in 1993 when the State enacted the Riverboat Gambling
+Act. Indiana currently has twelve commercial casinos, one tribal-based casino, and two ‘racinos’
+combining horse-race betting and gaming facilities.
+In 2019, the Indiana legislature approved sports gambling. Other forms of legal gambling in Indiana
+include pull-tabs, number boards, bingo, and charitable gaming.
+The Indiana Council on Problem Gambling contracted with Prevention Insights at the Indiana University
+School of Public Health-Bloomington to survey Indiana adults to assess the scope of gambling activities,
+the prevalence of problem gambling behaviors, and awareness of available problem gambling resources
+in the state. The 2021 Adult Gambling Behaviors in Indiana study received approval by the Indiana
+University Institutional Review Board (IRB), protocol #2012218523, as exempt. The survey was
+conducted by Prevention Insights in spring 2021. This report presents findings from the survey.
+A random address-based sample of 2,700 households in Indiana was drawn by the Center for Survey
+Research at Indiana University to be proportional to the adult population within the ten planning
+regions used by the Indiana Division of Mental Health and Addiction at the time. A discussion of the
+sampling methodology can be found in Appendix B.
+An invitation letter was mailed to the sampled households with instructions that the adult with the most
+recent birthday should complete the questionnaire. The invitation letter contained a description of the
+study, a QR code and URL with which to access the online survey in Qualtrics XM, and a $1 bill. Invitees
+were informed they should keep the $1 whether they completed the survey or not. A postcard
+reminder was sent to the sampled households two weeks after the initial invitation letter was mailed. A
+second reminder with a paper survey and return envelope was mailed two weeks after the first
+reminder postcard was mailed. An additional incentive ($5 gift card) was offered to those who
+completed the survey.
+The questionnaire was designed by Prevention Insights with input from the Indiana Council on Problem
+Gambling and the 2018 Survey of Adult Iowans Toward Prevalence of Gambling1.1 The questionnaire
+included the 9-item Pathological Gambling Diagnostic Form (DSM-V),2 the 17-item NORC Diagnostic
+1 Park, K., Losch, M., Muilenburg, R., & Zubrod, A. (2019). Gambling Attitudes and Behaviors: A 2018 Survey of
+Adult Iowans Toward Prevalence of Gambling. Cedar Falls, IA: Center for Social and Behavioral Research, University
+of Northern Iowa.
+2 American Psychiatric Association. (2013). Diagnostic and statistical manual of mental disorders (5th ed.).
+https://doi.org/10.1176/appi.books.9780890425596
+1
+
+=== page 8 ===
+Screen for Gambling Problems (NODS),3 and the 9-item Problem Gambling Severity Index (PGSI).4
+Additional questions were added to assess individuals’ awareness of problem-gambling services and
+health-related experiences, and to collect demographic data.
+Surveys were collected between March and May 2021. A total of 495 surveys were completed (380
+online and 115 on paper) and 105 invitation letters were returned as non-deliverable, resulting in a
+response rate of 19.1%. Table 20 in Appendix A presents the demographic data from the survey
+respondents. Data were weighted to ensure proportional representation to the overall Indiana adult
+population. Chi-Square tests of independence were conducted to determine if statistically significant
+differences between demographic categories were observed. A Bonferroni correction was applied when
+post hoc pairwise comparisons were needed. Significant differences were noted in the respective
+tables. A complete description of the data processing methodology can be found in Appendix B.
+SUMMARY OF FINDINGS
+• Approximately 84.8% of Indiana adults reported participating in at least one gambling activity in
+the past year.
+• 71.7% people reported playing any lottery in the past year.
+• 20.5% people participated in any sports gaming in the past year.
+• 46.2% of Indiana adults reported visiting casinos to gamble in the past year.
+• There were some statistically significant differences in overall gambling participation associated
+with demographic characteristics:
+Males were more likely to participate in any sports gaming than females.
+o
+Younger adults (18 – 34 years) reported more participation in any sports gaming and
+o
+other gambling activities than older adults.
+• The prevalence of problem gambling in Indiana was less than 5% of the adult population.
+4.1% of the adult population had gambling disorders based on the DSM-V.
+o
+3.4% of the population were pathological gamblers based on the NODS.
+o
+2.5% of the population reported severe problematic gambling based on the PGSI.
+o
+• There were statistically significant differences in problem gambling associated with
+demographic characteristics:
+Men reported more pathological gambling than women (6.9% vs. 0.5%) on the NODS.
+o
+Younger adults (18 – 34 years) were more likely to be grouped into low severity
+o
+categories than older adults.
+• 44.8% of Indiana adults were aware of the gambling helpline 1-800-9WITHIT.
+• 1.2% of Indiana adults had ever sought treatment for a gambling problem.
+3 Gerstein, D., Volberg, R. A., Toce, M. T., Harwood, H., Johnson, R. A., Buie, T., & Sinclair, S. (1999). Gambling
+impact and behavior study: Report to the national gambling impact study commission. Chicago: National Opinion
+Research Center.
+4 Ferris, J. A., & Wynne, H. J. (2001). The Canadian problem gambling index (pp. 1-59). Ottawa, ON: Canadian
+Centre on Substance Abuse.
+2
+
+=== page 9 ===
+People who were categorized into severe problem gambling were more likely to seek
+o
+treatment for a gambling problem (29.3% of people with gambling disorder on the DSM-
+V, 34.6% of pathological gamblers on the NODS, and 42.7% of problem gamblers on the
+PGSI).
+• The mean number of mentally unhealthy (i.e., stress, depression, and problems with emotions)
+days was 5.3 days during the past month.
+K F
+EY INDINGS
+Prevalence of Gambling Activities
+Gambling is the wagering of money or something of value on an event with an uncertain outcome.
+Here, we present the percentage of Indiana adults estimated to participate in various gambling
+activities, as well as 95% Confidence Intervals (CI). Each 95% CI provides two percentages, a low and a
+high value; there is a 95% probability that the range of percentages includes the true population value.
+For example, this study found that approximately 84.8% of Indiana adults participated in at least one
+gambling activity in the 12 months prior to the survey. The 95% CI was 79.7 to 88.9, meaning that we
+are 95% certain that the true prevalence of gambling among Indiana adults is between 79.7% and
+88.9%, with our current ‘best estimate’ being 84.8%.
+The most common gambling activities that respondents participated in were lotteries [61.0%; 95% CI:
+54.8, 66.9], scratch tickets [59.0%; 95% CI: 52.8, 64.9], and raffle tickets [49.9%; 95% CI: 43.6, 56.2].
+There were some statistically significant differences in overall gambling participation associated with
+demographic characteristics. Males were more likely to participate in any sports gaming than females.
+Younger adults reported more participation in any sports gaming and other gambling activities than
+older adults.
+For individual gambling activities, males were more likely than females to report table games, video
+poker, other sports betting, fantasy sports, and high-risk trading. Females were more likely than males
+to report bingo. Younger individuals (18-34 years) were more likely to report participating in multiple
+gambling activities, including dice games, other sports betting, card games, games of personal skill,
+fantasy sports, online gambling, and high-risk trading. The survey found that middle-aged respondents
+(35 – 54 years) were more likely to report office pool participation. Gambling rates did not vary widely
+by household income, except households with less than $50,000 of annual income were more likely to
+report online gambling and less likely to report participation in raffle tickets.
+3
+
+=== page 10 ===
+Table 1. Population estimates and percentages of Indiana adults who reported gambling in selected
+categories in the past twelve months, 2021
+Population Point Estimate
+Lower 95% Upper 95%
+Estimate (Percent)
+Any Gambling 4,305,550 84.8 79.7 88.9
+Any Lottery 3,647,866 71.7 66.0 76.8
+Any Casino 2,031,805 40.4 34.2 47.0
+Any Sports Gaming 1,028,196 20.5 15.6 26.4
+Other Gambling Activities 3,673,708 72.3 66.3 77.6
+Note. “Any lottery” includes scratch tickets or pull tabs, lottery tickets (numbers), and video lottery machines.
+“Any casino” includes slot machines, table games at casino, video poker/keno/blackjack, dice games, live keno,
+bingo, and racetracks (on horses or dogs). “Any sports gaming” includes betting on fantasy sports leagues and
+sport betting on professional, college or amateur events. “Other gambling activities” include card games with
+friends, family, or others (not at casinos), personal skills such as pool, bowling, video games, or playing basketball,
+office pools (including tournament brackets), raffle tickets (including those supporting charities), high-risk trading
+of stocks, commodities, or futures, online gambling, and betting or gambling using some other game, activity, or
+event.
+Figure 1. Visualization of percentages of Indiana adults who gambled on any activity in the past twelve
+months by gender, age, and household income, 2021
+100
+80
+60
+40
+20
+0
+Male Female 18 - 34 35 - 54 55 + < $50k $50k- $100k+
+$99k
+4
+%
+Gender Age Household Income
+
+=== page 11 ===
+Table 2. Percentages and comparisons of Indiana adults who reported gambling in selected categories in the
+past twelve months by gender, age, and household income, 2021
+Gender Age Household Income
+18 - 35 - $50k- $100k
+Male Female Sig. 55 + Sig. < $50k Sig.
+34 54 $99k +
+Any
+88.6 81.3 92.7 85.0 79.2 85.6 80.0 90.0
+Gambling
+Any Lottery 74.0 69.2 75.0 74.0 68.1 75.5 69.0 68.2
+Any Casino 39.5 40.9 49.6 42.0 31.6 37.5 44.2 35.8
+Any Sports
+29.8 12.7 * 36.7 18.9 9.3 * 18.6 18.3 25.2
+Gaming
+Other
+Gambling 75.4 71.2 84.0 74.2 61.4 * 69.8 71.6 78.3
+Activities
+Notes. “Any lottery” includes scratch tickets or pull tabs, lottery tickets (numbers), and video lottery machines.
+“Any casino” includes slot machines, table games at casino, video poker/keno/blackjack, dice games, live keno,
+bingo, and racetracks (on horses or dogs). “Any sports gaming” includes betting on fantasy sports leagues and
+sport betting on professional, college or amateur events. “Other gambling activities” include card games with
+friends, family, or others (not at casinos), personal skills such as pool, bowling, video games, or playing basketball,
+office pools (including tournament brackets), raffle tickets (including those supporting charities), high-risk trading
+of stocks, commodities, or futures, online gambling, and betting or gambling using some other game, activity, or
+event.
+Sig. = Significance probability, * p < .05.
+5
+
+=== page 12 ===
+Table 3. Population estimates and percentages of Indiana adults who reported gambling in selected activities
+in the past twelve months, 2021
+Population Point Estimate
+Lower 95% Upper 95%
+Estimate (Percent)
+Scratch tickets 3,002,498 59.0 52.8 64.9
+Lotteries 3,093,931 61.0 54.8 66.9
+Video lottery machines 259,848 5.2 2.6 10.1
+Slot machines 1,304,268 25.7 20.4 31.9
+Table games 634,648 12.6 8.6 18.0
+Video poker 654,909 13.0 8.9 18.5
+Dice games 489,776 9.7 6.1 15.2
+Live keno 103,240 2.1 0.7 6.3
+Bingo 608,823 12.1 8.4 17.2
+Racetracks 445,961 8.8 5.6 13.5
+Other sports betting 712,941 14.1 10.0 19.6
+Card games 2,229,226 44.2 38.0 50.5
+Games of personal skill 2,031,205 40.1 34.0 46.5
+Fantasy sports 685,311 13.6 9.6 19.1
+Office pools 998,292 19.8 15.5 25.0
+Raffle tickets 2,534,313 49.9 43.6 56.2
+Online gambling 409,349 8.1 4.9 13.2
+High-risk trading 856,629 17.1 12.5 22.8
+Other games 741,845 14.8 10.6 20.4
+6
+
+=== page 13 ===
+Table 4. Percentages of Indiana adults who reported gambling in selected activities in the past twelve months
+by gender, age, and household income, 2021
+Gender Age Household Income
+$50k-
+Male Female Sig. 18 - 34 35 - 54 55 + Sig. < $50k $100k + Sig.
+$99k
+Scratch tickets 55.3 61.5 66.2 61.9 51.2 64.4 52.0 55.7
+Lotteries 65.9 57.4 49.3 67.9 65.0 60.3 64.3 61.9
+Video lottery
+6.9 4.0 6.8 7.9 1.8 8.9 5.6 0.0
+machines
+Slot machines 28.5 22.9 20.4 29.7 27.3 18.8 33.1 27.1
+Table games 19.5 6.2 * 13.2 15.3 9.4 10.1 13.4 12.3
+Video poker 18.9 8.1 * 16.2 17.3 6.9 15.0 13.5 12.7
+Dice games 9.5 10.1 18.0 11.4 1.6 * 11.1 9.6 4.8
+Live keno 3.4 1.0 4.9 0.0 1.9 5.3 0.0 0.4
+Bingo 7.1 16.8 * 16.7 14.1 5.9 14.2 11.7 5.4
+Racetracks 11.8 6.5 8.5 10.0 8.4 6.3 13.9 7.0
+Other sports
+22.9 6.6 * 23.1 15.1 6.3 * 13.6 16.0 14.4
+betting
+Card games 47.1 42.8 63.4 41.6 32.2 * 45.0 44.8 41.5
+Games of
+45.8 35.6 52.9 44.1 27.2 * 42.7 38.0 41.4
+personal skill
+Fantasy sports 19.0 9.2 * 31.3 7.5 5.5 * 11.9 11.1 17.6
+Office pools 24.4 16.1 12.6 29.1 17.0 * 13.9 21.6 27.2
+Raffle tickets 51.3 49.7 45.8 58.0 46.0 40.2 54.9 58.5 *
+Online
+10.8 6.1 15.3 8.4 2.4 * 14.4 7.0 2.5 *
+gambling
+High-risk
+24.9 10.0 * 26.9 15.8 10.3 * 14.8 17.3 18.2
+trading
+Other games 15.4 14.7 23.5 13.5 9.4 20.1 11.8 12.3
+Note. Sig. = Significance probability, * p < .05.
+7
+
+=== page 14 ===
+Prevalence of At-Risk or Problem Gambling
+Problem gambling is defined as behavior that results in harmful effects to the gambler, their family,
+friends, coworkers, or others. A gambling disorder is a behavioral addiction diagnosis characterized by a
+loss of control over gambling, a preoccupation with gambling, and a continuation of the behavior
+despite adverse consequences.5
+In 1980, the American Psychiatric Association established a screening tool to diagnose pathological
+gambling.6 The most recent version of the tool (DSM-V7) consists of nine items and classifies the
+diagnosis as a behavioral addiction disorder instead of the earlier classification as an impulse control
+disorder. The screen assesses difficulties in controlling gambling behavior and adverse consequences of
+gambling. Both the National Opinion Research Center Diagnostic Screen for Gambling Problems (NODS)
+and the Problem Gambling Severity Index (PGSI), which were included in the Indiana study, were derived
+from the American Psychiatric Association’s screening instrument. The DSM-V criteria are used in
+clinical settings to determine if a gambling disorder is present. Both the NODS and PGSI assess problem
+gambling across a continuum of risk, with thresholds for low, moderate, and high levels of severity. Item
+content on the NODS is closely aligned with the DSM-V screen, while the PGSI includes several unique
+items to assess negative consequences. The PGSI includes four items that measure difficulties in
+controlling gambling and five items that assess adverse consequences of gambling. Research shows that
+PGSI is a relatively brief and straightforward tool with high internal reliability and uni-dimensionality in
+identifying those at risk of developing gambling problems among general population.8,9
+Figure 2 shows the percentages of respondents who had gambling problems on the DSM-V and NODS
+screening tools. The two screens resulted in slight variations in the percent of Indiana adults falling
+within the severity categories; 4.1% [95% CI: 1.8, 9.0] of adults were classified as having gambling
+disorders on the DSM-V and 3.4% [95% CI: 1.3, 8.6] of adults were classified as having pathological
+gambling on the NODS. There were no statistically significant differences in problem gambling
+associated with age and household income. However, men reported more pathological gambling than
+women (6.9% vs. 0.5%).
+5 National Research Council. (1999). Pathological gambling: A critical review. National Academies Press. DOI:
+10.17226/6329
+6 American Psychiatric Association. (1980). DSM-III: Diagnostic and statistical manual of mental disorders. (3rd ed.).
+American Psychiatric Association.
+7 American Psychiatric Association. (2013). Diagnostic and statistical manual of mental disorders (5th ed.).
+American Psychiatric Association.
+8 Orford J., Wardle H., Griffiths M., Sproston K., Erens B. (2010). PGSI and DSM-IV in the 2007 British Gambling
+Prevalence Survey: Reliability, item response, factor structure and inter-scale agreement. International Gambling
+Studies (10: 1): 31-44. DOI:10.1080/14459790903567132
+9 Holtgraves T. (2008). Evaluating the Problem Gambling Severity Index. Journal of Gambling Behavior (25:1) 105-
+120. DOI:10.1007/s10899-008-9107-7
+8
+
+=== page 15 ===
+Figure 2. Visualization of percentages of Indiana adults by problem gambling using DSM-V and NODS, 2021
+100
+80
+60
+40
+20
+0
+No risk Gambling No risk Mild risk Moderate risk Pathological
+disorder gambling
+Note. On the DSM-V, a score or 4 or higher indicates a gambling disorder. On the NODS screen, a score of 1 or 2
+indicates mild risk for problem gambling, 3 or 4 indicates moderate risk, and 5 or more indicates a likely diagnosis
+of a gambling disorder.
+Table 5. Population estimates and percentages of Indiana adults falling in problem gambling using DSM-V
+and NODS, 2021
+Population Point Estimate
+Lower 95% Upper 95%
+Estimate (Percent)
+DSM-V
+Low risk 4,886,658 95.9 91.0 98.2
+Gambling disorder 206,554 4.1 1.8 9.0
+NODS
+No risk 4,320,258 84.8 79.2 89.1
+Mild risk 432,351 8.5 5.5 12.8
+Moderate risk 165,279 3.3 1.7 6.2
+Pathological gambling 175,324 3.4 1.3 8.6
+Note. On the DSM-V, a score or 4 or higher indicates gambling disorder. On the NODS, a score of 1 or 2 indicates
+mild risk for problem gambling, 3 or 4 indicates moderate risk of problem gambling, and 5 or more indicates a
+likely diagnosis of a pathological gambling.
+9
+%
+DSM-V NODS
+
+=== page 16 ===
+Table 6. Percentages of Indiana adults falling in problem gambling using DSM-V and NODS by gender, age,
+and household income, 2021
+Gender Age Household Income
+$50k-
+Male Female Sig. 18 - 34 35 - 54 55 + Sig. < $50k $100k + Sig.
+$99k
+DSM-V
+Low risk 93.3 98.1 91.3 100.0 95.7 95.3 92.9 99.5
+Gambling
+6.7 1.9 8.7 0.0 4.3 4.7 7.1 0.5
+disorder
+NODS *
+No risk 78.3 89.9 75.4 86.6 89.6 78.6 82.8 92.2
+Mild risk 13.1 4.8 14.6 7.7 5.0 10.7 8.3 7.8
+Moderate
+1.7 4.8 2.0 5.7 2.2 7.0 2.2 0.0
+risk
+Pathological
+6.9 0.5 8.0 0.0 3.2 3.7 6.7 0.0
+gambling
+Notes. On the DSM-V, a score or 4 or higher indicates gambling disorder. On the NODS, a score of 1 or 2 indicates
+mild risk for problem gambling, 3 or 4 indicates moderate risk of problem gambling, and 5 or more indicates a
+likely diagnosis of a pathological gambling.
+Sig. = Significance probability, * p < .05.
+Approximately 2.5% of the respondents were grouped into the problematic gambling category using the
+PGSI. Younger adults (18 – 34 years) were more likely to be grouped into low severity categories than
+older adults. There were statistically significant relationships among the screening tools. The
+respondents who reported gambling disorders on the DSM-V were more likely to be in the problematic
+gambling category on the PGSI (62.6%). Also, the respondents who reported pathological gambling on
+the NODS were more likely to be in the problematic gambling category on the PGSI (63.0%).
+Table 7. Population estimates and percentages of Indiana adults falling in problem gambling severity
+categories using the Problem Gambling Severity Index (PGSI), 2021
+Population Point Estimate
+Lower 95% Upper 95%
+Estimate (Percent)
+Non-problematic 3,970,166 78.0 71.6 83.2
+Low severity 784,377 15.4 11.0 21.2
+Moderate severity 209,381 4.1 2.2 7.5
+Problematic gambling 129,289 2.5 0.8 8.2
+Note. On the PGSI screen, a score of 1 or 2 indicates a low level of problems, 3 to 7 indicates a moderate level of
+problems, and a score of 8 or more indicates results consistent with a likely diagnosis of a gambling disorder.
+10
+
+=== page 17 ===
+Table 8. Percentages of Indiana adults falling in problem gambling severity categories using the Problem
+Gambling Severity Index (PGSI) by gender, age, and household income, 2021
+Gender Age Household Income
+$50k-
+Male Female Sig. 18 - 34 35 - 54 55 + Sig. < $50k $100k + Sig.
+$99k
+Non-
+71.1 83.6 62.4 81.6 86.2 * 71.8 81.2 81.6
+problematic
+Low severity 20.8 10.8 28.5 12.1 8.4 * 17.1 10.6 18.4
+Moderate
+3.4 4.9 5.3 6.3 1.4 7.1 4.7 0.0
+severity
+Problematic
+4.7 0.7 3.8 0.0 4.0 4.0 3.5 0.0
+gambling
+Notes. On the PGSI screen, a score of 1 or 2 indicates a low level of problems, 3 to 7 indicates a moderate level of
+problems, and a score of 8 or more indicates results consistent with a likely diagnosis of a gambling disorder.
+Sig. = Significance probability, * p < .05.
+Table 9. Percentages of Indiana adults falling in problem gambling using DSM-V and NODS by problem
+gambling severity categories (PGSI), 2021
+Moderate Problematic
+Non-problematic Low severity
+severity gambling
+DSM-V*
+Low risk 81.0 16.0 3.0 0.0
+Gambling disorder 6.9 0.0 30.5 62.6
+NODS*
+No risk 89.4 10.3 0.3 0.0
+Mild risk 23.0 70.9 6.1 0.0
+Moderate risk 0.0 20.1 68.5 11.4
+Pathological gambling 4.6 0.0 32.4 63.0
+Notes. The Problem Gambling Severity Index (PGSI) screening tool was used to determine problem gambling
+severity category.
+* p < .05.
+11
+
+=== page 18 ===
+Other Health-Risk Behaviors
+Table 10 shows the percentages of respondents who used selected psychoactive substances during the
+past month. Approximately 73.4% [95% CI: 67.1, 78.9] of the respondents reported consuming alcohol
+during the past month. About 29.1% [95% CI: 22.1, 37.3] of the respondents reported using cigarettes,
+14.6% [95% CI: 9.1, 22.5] reported using vaping devices, and 20.0% [95% CI: 14.0, 27.8] reported using
+marijuana. About 11.4% [95% CI: 6.3, 19.9] of respondents reported misusing prescription or over the
+counter drugs. Males reported statistically higher rates of using alcohol within the past month than
+females. Younger adults (18 – 34 years) reported statistically higher rates of using alcohol, vaping
+devices, and marijuana in the past month than older adults. Households with less than $50,000 of
+annual income were more likely to report using vaping devices. Respondents who were categorized into
+severe problem gambling were more likely to use substances during the past month. For instance, 100%
+of people who were grouped into the gambling disorder category from DSM-V and the problem
+gambling category from PGSI used alcohol during the past month.
+Table 10. Population estimates and percentages of Indiana adults who used selected substances in the past
+month, 2021
+Population Point Estimate
+Lower 95% Upper 95%
+Estimate (Percent)
+Alcohol 3,043,737 73.4 67.1 78.9
+Cigarettes 983,773 29.1 22.1 37.3
+Vaping Devices 424,430 14.6 9.1 22.5
+Marijuana 624,497 20.0 14.0 27.8
+Misuse of Prescription or Over
+319,055 11.4 6.3 19.9
+the Counter Drugs
+Table 11. Percentages of Indiana adults who used selected substances in the past month by gender, age, and
+household income, 2021
+Gender Age Household Income
+$50k-
+Male Female Sig. 18 - 34 35 - 54 55 + Sig. < $50k $100k + Sig.
+$99k
+Alcohol 82.6 66.6 * 87.3 73.8 63.4 * 67.2 76.3 80.0
+Cigarettes 28.5 30.7 33.5 36.1 21.1 36.6 25.1 28.0
+Vaping Devices 14.9 14.8 40.4 12.8 1.2 * 24.8 5.8 13.7 *
+Marijuana 23.6 17.4 34.7 20.5 8.9 * 27.9 13.2 21.5
+Misuse of
+Prescription or
+17.0 6.8 18.7 14.9 4.9 15.4 8.5 11.6
+Over the
+Counter Drugs
+Note. Sig. = Significance probability, * p < .05.
+12
+
+=== page 19 ===
+Table 12. Percentages of Indiana adults who used selected substances in the past month by problem
+gambling, 2021
+Misuse of
+Vaping Prescription
+Alcohol Cigarettes Marijuana
+Devices or Over the
+Counter Drugs
+DSM-V*
+Low risk 72.5 26.7 12.5 18.2 8.9
+Gambling disorder 100.0 73.7 67.7 59.5 60.0
+NODS*
+No risk 71.3 23.1 12.4 16.4 8.0
+Mild risk 83.1 47.1 5.1 16.7 17.7
+Moderate risk 86.1 65.1 29.8 52.5 6.0
+Pathological 76.9
+95.8 82.5 94.2 76.9
+gambling
+PGSI*
+Non-problematic 71.3 21.6 11.6 14.5 8.6
+Low severity 80.2 49.0 13.4 28.4 4.3
+Moderate severity 83.6 63.0 42.4 62.7 39.1
+Problematic gambling 100.0 85.4 74.5 74.5 74.5
+Note. * p < .05.
+13
+
+=== page 20 ===
+Mental Health
+An item from the Centers for Disease Control and Prevention’s (CDC) Behavioral Risk Factor Surveillance
+System Survey questionnaire was used to assess mental health.10 The question asked participants how
+many days in the past month their mental health was not good, including stress, depression, and
+problems with emotions. The mean number of mentally unhealthy days was 5.3 days [95% CI: 4.3, 6.4].
+Younger adults (18 – 34 years) and households with less than $50,000 of annual income were more
+likely to report higher mean numbers of mentally unhealthy days during the past month. Also,
+respondents who were categorized into severe problem gambling were more likely to report higher
+mean number of mentally unhealthy days during the past month. For instance, the mean number of
+mentally unhealthy days was 5.0 days for people who were classified into the low-risk category and 11.3
+days for people who were in the gambling disorder category from the DSM-V.
+Table 13. Mean number of mentally unhealthy days reported in past month (0 – 30 days), 2021
+Point Estimate
+Lower 95% Upper 95%
+(Day)
+Mean 5.3 4.3 6.4
+Standard Deviation 7.2
+Table 14. Mean number of mentally unhealthy days reported in past month by gender, age, and household
+income (0 – 30 days), 2021
+Gender Age Household Income
+$50k-
+Male Female Sig. 18 - 34 35 - 54 55 + Sig. < $50k $100k + Sig.
+$99k
+Mean 4.7 6.0 8.3 5.3 3.0 * 7.1 4.7 4.4 *
+Standard
+5.2 9.0 6.7 7.1 6.2 8.6 5.3 6.5
+Deviation
+Note. Sig. = Significance probability, * p < .05.
+10 Centers for Disease Control and Prevention (CDC). Behavioral Risk Factor Surveillance System Survey
+Questionnaire. Atlanta, Georgia: U.S. Department of Health and Human Services, Centers for Disease Control and
+Prevention, 2019
+14
+
+=== page 21 ===
+Table 15. Mean number of mentally unhealthy days reported in past month by problem gambling (0 – 30 days), 2021
+Mean Standard Deviation
+DSM-V*
+Low risk 5.0 7.2
+Gambling disorder 11.3 4.5
+NODS*
+No risk 4.7 7.0
+Mild risk 5.8 5.4
+Moderate risk 11.1 9.2
+Pathological gambling 12.8 3.8
+PGSI*
+Non-problematic 4.7 7.3
+Low severity 4.9 4.7
+Moderate severity 10.9 7.9
+Problematic gambling 14.5 3.1
+Note. * p < .05.
+15
+
+=== page 22 ===
+Awareness and Use of Gambling Related Services
+The respondents were asked whether they had ever seen or heard of the gambling helpline (1-800-
+9WITHIT). Approximately 44.8% [95% CI: 38.6, 51.1] of the respondents had ever seen or heard of the
+service. Table 19 shows where they had seen or heard about it. About 21.7% [95% CI: 15.0, 30.5] had
+seen it on TV and 21.2% [95% CI: 15.5, 28.4] had heard of it on the radio.
+Among the respondents, 2.8% [95% CI: 0.9, 8.2] reported that they had thought of having a problem
+with, being dependent on, or being addicted to gambling, and 1.2% [95% CI: 0.2, 6.9] reported that they
+had ever sought treatment for a gambling problem. Males were more likely to report that they had
+thought of having gambling problems and sought treatment for a gambling problem than females. Also,
+respondents who were categorized into severe problem gambling were more likely to report that they
+had thought of having gambling problems and sought treatment for a gambling problem. For instance,
+29.3% of people from the gambling disorder category of DSM-V sought treatment for a gambling
+problem while no one from the low-risk category of DSM-V sought treatment for a gambling problem.
+Table 16. Population estimates and percentages of Indiana adults who had ever seen or heard of gambling
+hotline or sought treatment for gambling problem, 2021
+Population Point Estimate
+Lower 95% Upper 95%
+Estimate (Percent)
+Ever seen or heard of gambling
+2,262,506 44.8 38.6 51.1
+helpline
+Have thought of having a
+problem with, being dependent 139,249 2.8 0.9 8.2
+on, or being addicted to gambling
+Ever sought treatment for a
+60,566 1.2 0.2 6.9
+gambling problem
+16
+
+=== page 23 ===
+Table 17. Percentages of Indiana adults who had ever seen or heard of gambling hotline or sought treatment
+for gambling problem by gender, age, and household income, 2021
+Gender Age Household Income
+$50k-
+Male Female Sig. 18 - 34 35 - 54 55 + Sig. < $50k $100k + Sig.
+$99k
+Ever seen or
+heard of
+50.4 40.9 35.1 47.9 49.7 48.7 49.4 35.2
+gambling
+helpline
+Have thought of
+having a
+problem with,
+being
+5.5 0.4 * 5.6 0.2 3.0 3.3 4.9 0.0
+dependent on,
+or being
+addicted to
+gambling
+Ever sought
+treatment for a
+2.3 0.2 * 4.2 0.0 0.0 3.3 0.0 0.0
+gambling
+problem
+Note. Sig. = Significance probability, * p < .05.
+Table 18. Percentages of Indiana adults who had ever seen or heard of gambling hotline or sought treatment
+for gambling problem by problem gambling severity categories, 2021
+Have thought of having
+Ever sought treatment
+Ever seen or heard of a problem with, being
+for a gambling
+gambling helpline dependent on, or being
+problem*
+addicted to gambling*
+DSM-V
+Low risk 44.4 0.0 0.0
+Gambling disorder 53.4 65.7 29.3
+NODS
+No risk 41.3 0.0 0.0
+Mild risk 66.4 0.0 0.0
+Moderate risk 74.8 2.1 0.0
+Pathological gambling 48.6 77.4 34.6
+PGSI
+Non-problematic 42.5 0.0 0.0
+Low severity 50.0 0.0 0.0
+Moderate severity 59.2 13.8 2.6
+Problematic gambling 57.3 85.4 42.7
+Note. * p < .05.
+17
+
+=== page 24 ===
+Table 19. Population estimates and percentages of Indiana adults who had ever seen or heard of gambling
+hotline, who saw or heard ad in select locations, 2021
+Population Point Estimate
+Lower 95% Upper 95%
+Estimate (Percent)
+Billboards 279,721 11.4 7.1 17.8
+Radio 520,608 21.2 15.5 28.4
+Casinos 361,303 14.7 8.9 23.3
+Problem gambling hotline
+17,845 0.7 0.2 2.3
+website
+Lottery tickets 171,539 7.0 4.0 12.0
+YouTube 171,665 7.0 2.8 16.6
+Social Media (Facebook, Twitter,
+199,074 8.1 3.4 18.3
+Instagram, etc.)
+Newspaper 26,639 1.1 0.2 6.2
+TV 533,455 21.7 15.0 30.5
+Internet 533,455 2.4 0.9 6.1
+Other 114,335 4.7 2.2 9.8
+18
+
+=== page 25 ===
+Appendix A. Demographic Characteristics of Respondents
+Table 20. Unweighted demographic characteristics of respondents (n = 495)
+Percent
+Frequency
+(Valid)
+Gender (at birth)
+Male 185 38.6
+Female 294 61.4
+Age Group
+18-24 29 6.1
+25-34 67 14.0
+35-44 85 17.8
+45-54 73 15.3
+55-64 95 19.9
+65-74 95 19.9
+75+ 34 7.1
+Race
+White 430 89.6
+Black or African American 26 5.4
+Asian 6 1.3
+Native Hawaiian/Other Pacific Islander 0 0.0
+American Indian or Alaska Native 4 0.8
+Other 7 1.5
+More than one race 7 1.5
+Hispanic/Latino/Spanish origin
+Yes 20 4.2
+No 458 95.8
+Employment Status
+Employed 35 or more hours a week 270 56.4
+Employed fewer than 35 hours a week 37 7.7
+Not employed, and looking for work 14 2.9
+Not employed, but not looking for work 28 5.8
+Retired 130 27.1
+Educational Attainment
+Less than high school (no diploma, GED, or alternative
+7 1.5
+credential)
+High school graduate (diploma, GED, or alternative
+72 15.1
+credential)
+Some college credit, but no degree 101 21.2
+Associate’s degree 57 11.9
+Bachelor’s degree 142 29.8
+Master’s, doctoral, or professional degree 98 20.5
+Marital Status
+Married 283 59.2
+A member of an unmarried couple 27 5.6
+Divorced 51 10.7
+Separated 3 0.6
+Widowed 35 7.3
+Never been married 79 16.5
+19
+
+=== page 26 ===
+Table 20 (continued)
+Location of Household
+On a farm 21 4.4
+In a rural setting, not on a farm 66 13.8
+In a rural subdivision outside of city limits 66 13.8
+In a small town of less than 5,000 people 26 5.4
+In a larger town of 5,000 to less than 25,000 people 73 15.3
+In a city of 25,000 to less than 50,000 people 59 12.3
+In a city of 50,000 to less than 150,000 people 79 16.5
+In a larger city of 150,000 or more people 88 18.4
+Total Household Income in 2020
+Less than $15,000 32 7.0
+$15,000 to $34,999 46 10.0
+$35,000 to $49,999 73 15.9
+$50,000 to $74,999 74 16.1
+$75,000 to $99,999 86 18.7
+$100,000 to $149,999 82 17.9
+$150,000 or more 66 14.4
+Note. Data in this table are not weighted.
+20
+
+=== page 27 ===
+Appendix B. Survey Methodology
+VALIDITY AND RELIABILITY
+The data were collected in spring 2021. The data may have been affected by unmeasured effects from
+COVID-19 pandemic.
+Household-based surveys do not include homeless, hospitalized, or incarcerated individuals which
+might have resulted in an underestimate of the extent of gambling, problem gambling, and other
+health-risk behaviors.
+The data were measured via self-report, which may raise concerns about bias such as social
+desirability and recall bias.
+Internal reliabilities (Cronbach’ alpha) were as follows: .772 for gambling activities in the past year,
+.835 for DSM-V, .839 for NODS, and .903 for PGSI.
+SAMPLING
+1. Target population & sampling frame
+The target population was the non-institutionalized, civilian adult household population 18+ years of age
+in Indiana. The sampling frame was the address-based sampling (ABS) frame that was built using the
+United States Postal Service (USPS) Computerized Delivery Sequence File (CDSF). The CDSF is licensed to
+vendors including Marketing Systems Group (MSG). MSG provided the sample for this study. The ABS
+frame contains over 147 million residential addresses covering nearly 100% of all households in the US
+and is continually updated.
+Prior to sample selection, the following types of addresses were excluded from the frame to increase
+efficiency of the sample:
+• Seasonal – An address receiving mail only during a specific season (i.e., summer only residence)
+• Vacant – An address that has been unoccupied for 90 days or longer
+• Drop – Single delivery point or receptacle that services multiple residences. Examples: boarding
+houses, fraternities, single door slots shared by two residences. These are more prevalent in
+cities such as Chicago or New York City. They are not common in Indiana and we typically
+exclude them.
+• PO Boxes that are not the Only Way to Get Mail (OWTGM) – These are PO Boxes for
+households who do have another physical address where they receive mail. We typically exclude
+them to avoid double counting and because we would prefer to use their physical address as the
+preferred route for contact (to have access to more detailed geography information).
+21
+
+=== page 28 ===
+The decrease in sample frame coverage due to the exclusion of these address types is minimal.
+2. Sample size
+A total sample of 2,700 addresses were selected to meet the study’s analytic objectives.
+3. Selection of addresses
+Addresses were selected using proportionate stratified random sampling with region as the stratification
+variable. Region was defined according to the following 10-category classification from the Indiana
+Family and Social Services Administration Division of Mental Health and Addiction.
+Region 1 - La Porte, Lake, Porter
+Region 2 - Cass, Elkhart, Fulton, Howard, Kosciusko, Marshall, Miami, Pulaski, St. Joseph, Starke,
+Wabash
+Region 3 - Adams, Allen, De Kalb, Huntington, Lagrange, Noble, Steuben, Wells, Whitley
+Region 4 - Benton, Boone, Carroll, Clinton, Fountain, Jasper, Montgomery, Newton, Tippecanoe,
+Warren, White
+Region 5 - Blackford, Delaware, Grant, Hamilton, Hancock, Henry, Jay, Madison, Randolph,
+Tipton, Wayne
+Region 6 - Clay, Hendricks, Monroe, Morgan, Owen, Parke, Putnam, Sullivan, Vermillion, Vigo
+Region 7 - Marion
+Region 8 - Daviess, Dubois, Gibson, Greene, Knox, Martin, Perry, Pike, Posey, Spencer,
+Vanderburgh, Warrick
+Region 9 - Bartholomew, Brown, Clark, Crawford, Floyd, Harrison, Jackson, Johnson, Lawrence,
+Orange, Scott, Washington
+Region 10 - Dearborn, Decatur, Fayette, Franklin, Jefferson, Jennings, Ohio, Ripley, Rush, Shelby,
+Switzerland, Union
+This design helped ensure that the distribution of addresses by region in the sample mirrored the
+distribution of addresses in the population. For example, if 15% of the Indiana population lives in Region
+1, 15% of the sampled addresses came from Region 1. Within each stratum or region, addresses were
+randomly selected.
+4. Selection of respondents at a sampled address
+At each sampled address, the household was instructed to have the adult 18+ years of age with the
+most recent birthday complete the survey. Information on the number of adults in the household was
+collected as part of the survey and a weighting adjustment was applied to account for differential
+probabilities of selection due to variability in the number of adults across households (see Data
+Processing section below).
+22
+
+=== page 29 ===
+DATA PROCESSING
+1. Dataset preparation
+Three dataset preparation activities were completed prior to weighting. First, we determined the set of
+respondents to retain in the final dataset. Given the sample size and the observation that each
+respondent answered many of the initial battery of questions, it was determined that all 495 cases from
+the raw dataset would be included in the dataset for weighting.
+Next, we imputed missing or implausible values11 for the weighting variables. The weighting variables
+were as follows:
+• Number of adults in the household
+• Sex
+• Age
+• Education
+• Hispanic origin
+• Race
+• Household income
+• Rural/urban place of residence (no imputation needed)
+Missing data rates for these variables were generally low (<4%), except for the number of adults in the
+household (13%) and household income (7%). As an initial step, we used logical imputation to fill in
+missing data. This involved using other information provided in the survey to impute the missing value.
+For example, if a respondent wrote in that their race was “Mixed race,” we classified them for weighting
+purposes as “All others (not White only or Black only).”
+If we were unable to assign a value using logical imputation, data were imputed using hot deck
+imputation. In hot deck imputation, a respondent who has available data (called the donor) is randomly
+selected to provide the data for a respondent with missing data (called the recipient). Please note that
+imputed values were produced solely for weighting purposes and were not used in the analysis.
+Once the data for the weighting variables were complete, the third set of data preparation activities
+involved creation of new variables with collapsed response categories for weighting purposes. We then
+calculated the two raw weighting adjustments (base weight and calibration) as described in the next two
+sections.
+2. Base weight adjustment
+The first part of the weight calculation was the base weight adjustment. This adjustment accounted for
+unequal probabilities of selection due to the number of adults in the household. For this study, one
+adult in each household was randomly selected to complete the survey. Therefore, adults in one-adult
+11 Implausible values included responses such as “0” adults in the household when the age of the respondent was
+reported to be 18 or older.
+23
+
+=== page 30 ===
+households had a probability of selection of 1, while adults in multi-adult households had a probability
+of selection defined as the following:
+1
+(1)
+To correct for this unequal𝑛𝑛 p𝑛𝑛r𝑛𝑛ob𝑛𝑛a𝑛𝑛b𝑛𝑛i l𝑜𝑜it𝑜𝑜y o𝑎𝑎f𝑎𝑎 s𝑛𝑛e𝑎𝑎l𝑎𝑎e𝑎𝑎c t𝑖𝑖i𝑛𝑛o n𝑎𝑎ℎ a𝑛𝑛t ℎth𝑜𝑜e𝑛𝑛 p𝑎𝑎𝑛𝑛eℎrs𝑜𝑜o𝑎𝑎n𝑎𝑎 level, a base weight that was the
+inverse of the probability of selection in (1) was applied to each respondent.
+1
+𝑛𝑛𝑎𝑎𝑎𝑎𝑛𝑛𝑏𝑏𝑎𝑎 = = 𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛 𝑜𝑜𝑜𝑜 𝑎𝑎𝑎𝑎𝑛𝑛𝑎𝑎𝑎𝑎𝑎𝑎 𝑖𝑖𝑛𝑛 𝑎𝑎ℎ𝑛𝑛 ℎ𝑜𝑜𝑛𝑛𝑎𝑎𝑛𝑛ℎ𝑜𝑜𝑎𝑎𝑎𝑎 (2)
+1
+𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛𝑛 𝑜𝑜𝑜𝑜 𝑎𝑎𝑎𝑎𝑛𝑛𝑎𝑎𝑎𝑎𝑎𝑎 𝑖𝑖𝑛𝑛 𝑎𝑎ℎ𝑛𝑛 ℎ𝑜𝑜𝑛𝑛𝑎𝑎𝑛𝑛ℎ𝑜𝑜𝑎𝑎𝑎𝑎
+3. Calibration adjustment
+The next step in creating the raw weight was calibration. Surveys may over-represent specific
+subgroups. For example, it is common for younger males to be less likely to participate in surveys than
+older females. To correct for this bias, we adjusted the respondent counts to population estimates
+using calibration.
+The first step in the calibration process was to identify a source for population estimates and to select
+potential variables for weighting. For the 2021 Indiana Gambling Survey, the US Census Bureau 2015-
+2019 American Community Survey 5-Year Estimates (see https://data.census.gov/cedsci/) was used for
+the population counts. ACS data are widely used in survey weighting adjustments since they provide the
+most accurate, up-to-date counts of the US population.
+Next, we identified variables that were available in both the respondent dataset and the ACS and that
+were likely to be correlated (even weakly) with survey outcome variables. These potential weighting
+variables were as follows: sex, age, education, Hispanic origin, race, household income, and rural/urban
+place of residence. All variables were collected as part of the survey, except for rural/urban place of
+residence. Assignment to rural/urban categories was based on the county of the sampled address and
+the Purdue Extension classification of Indiana counties was used (see
+https://ag.purdue.edu/agecon/fambiz/Documents/defining_rural_indiana.pdf). There were some slight
+wording differences between the survey and the ACS, but overall there were no major issues in
+matching category classifications between the two.
+We then assessed whether there were differences between respondent and ACS estimates. In Table 21,
+respondent distributions prior to calibration are shown in the first column, and distributions from the
+ACS are shown in the third column. We note that the pre-calibration respondent counts incorporate the
+base weight adjustment (see Section 2 above). As seen in the table, there were differences between the
+survey respondents (pre-calibration) and ACS on several demographic characteristics. Specifically, male,
+younger, less educated, and Black adults and lower-income households were underrepresented. These
+differences are common in surveys.
+24
+
+=== page 31 ===
+Next, respondent distributions to population estimates were calibrated on sex, age, education, Hispanic
+origin, race, and rural/urban place of residence12. Prior to calibration, we conducted additional analysis
+and found that the size of the sex imbalance differed by age category. Therefore, we calibrated to cross-
+classified sex by age totals.
+The calibration process iteratively adjusted the weights for respondents until they achieved alignment
+with the population on the weighting variables. For example, the pre-calibration weights (in this case,
+the base weights) were first adjusted to achieve the desired sex by age distribution. Next, the weights
+were adjusted so that the education distribution aligned to the population values (e.g., 45% High school
+graduate or less, 31% Some college/Associate, etc.). If the education adjustment altered the sex by age
+distribution so that it no longer matched the population, then the weights were adjusted again to align
+to the population values for that variable. This process, sometimes referred to as “raking”, continued
+until the respondent distribution matched the population distribution on all of the weighting variables.
+Calibration (raking) was carried out using the ipfraking module in Stata 16. The outcome of the
+calibration to population distributions was a raw weight assigned to each respondent in the dataset.
+12 A calibration adjustment on household income was explored but the estimates performed better without using
+this adjustment. Calibrating on the individual-level demographics improved the distribution on income, although
+there is still some underrepresentation of lower-income households.
+25
+
+=== page 32 ===
+Table 21. Demographic characteristics of Indiana adult population: 2021 Adult Gambling Behaviors in
+Indiana and ACS Estimates
+Pre-Calibrationa % Post-Calibration % ACS Estimateb %
+Sex:
+Male 39.8 47.6 48.7
+Female 60.2 52.4 51.3
+Age:
+18-34 21.8 28.9 30.0
+35-54 34.6 33.5 32.8
+55-64 18.5 16.9 17.0
+65+ 25.1 20.7 20.1
+Education:
+High school graduate or less 16.9 43.3 45.0
+Some college/Associate degree 32.7 31.6 30.7
+Bachelor’s degree 30.5 16.5 16.0
+Master’s, doctoral, or professional degree 19.9 8.6 8.4
+Hispanic origin:
+Yes 5.6 5.3 5.7
+No 94.4 94.7 94.3
+Race:
+White only 89.8 85.8 85.0
+Black only 5.2 8.4 8.8
+All others 5.0 5.8 6.2
+Rural/urban place of residencec
+Rural 9.8 12.8 13.3
+Rural/mixed 22.3 24.2 24.0
+Urban 68.0 63.0 62.7
+Household income:
+Less than $35,000 16.4 24.4 30.5
+$35,000-$49,999 16.4 17.4 13.9
+$50,000-$74,999 16.6 17.8 19.1
+$75,000-$99,999 18.2 15.2 13.4
+$100,000-$149,999 18.2 15.7 14.0
+$150,000 or more 14.3 9.4 9.2
+UNWEIGHTED RESPONDENT COUNT: 495 495
+a The pre-calibration respondent counts incorporate the base weight adjustment. b US Census Bureau, 2015-2019
+American Community Survey 5-Year Estimates. c Purdue University, Center for Rural Development,
+https://ag.purdue.edu/agecon/fambiz/Documents/defining_rural_indiana.pdf.
+4. Weight trimming and scaling
+The distribution of the raw weights was examined to identify any outliers that could substantially
+increase the standard error of survey estimates. A commonly used criterion for identifying outliers is a
+26
+
+=== page 33 ===
+threshold of the median weight plus six times the interquartile range (IQR). For this study, this threshold
+was 53,500 and it was exceeded by approximately 1.6% of the weights. These weights were trimmed to
+the threshold value.
+The trimmed weight (wgt_trim) was then multiplied by the reciprocal of the mean weight to produce
+weights that summed to the number of respondents in the dataset (n = 495). The scaling factor
+(denominator) was 9974.47118.
+𝑏𝑏𝑤𝑤𝑎𝑎_𝑎𝑎𝑛𝑛𝑖𝑖𝑛𝑛
+𝑏𝑏𝑤𝑤𝑎𝑎 = (3)
+𝑛𝑛𝑛𝑛𝑎𝑎𝑛𝑛(𝑏𝑏𝑤𝑤𝑎𝑎_𝑎𝑎𝑛𝑛𝑖𝑖𝑛𝑛)
+The range of weights was 0.12 to 5.36.
+As seen in Table 21, when we compare the respondent distribution after applying the calibration
+(second column) to the population values (third column), the underrepresentation of male, younger,
+less educated, and Black adults was corrected. Survey estimates now generally align to the population
+values. There was also increased representation of rural and lower-income households that more
+accurately reflects the Indiana adult population.
+Dataset preparation and weighting activities were conducted using SPSS 27, SAS 9.4, Stata 16, and Excel.
+American Community Survey data were obtained from the US Census Bureau website, accessed in May
+2021 (https://data.census.gov/cedsci/).
+DATA ANALYSIS
+Analysis of data was carried out using Stata 16. Weighted data were used in the analyses. The
+calculations of standard errors reflected weighting and stratification on the region variable. Chi-square
+(χ2) tests of independence were conducted to determine statistically significant differences among
+groups. Bivariate analyses were used to explore the relationship between gambling behaviors, health-
+risk behaviors, and mental wellbeing and sociodemographic characteristics. The Bonferroni correction
+was applied when post hoc pairwise comparisons were needed.
+For the estimation of grand population totals, an expansion weight (wgt_t) that summed to the Indiana
+adult population was used. This weight was calculated as follows:
+5,093,212
+𝑏𝑏𝑤𝑤𝑎𝑎_𝑎𝑎 = 𝑏𝑏𝑤𝑤𝑎𝑎× (4)
+495
+to rescale the statistic to the population.
+27
+
+=== page 34 ===
+Appendix C. Survey Instrument
+THE FOLLOWING QUESTIONS ASK ABOUT VARIOUS GAMBLING ACTIVITIES.
+Please fill in the bubbles or use √ or X marks.
+• IN THE PAST 12 MONTHS, HOW OFTEN DID YOU BET OR SPEND MONEY ON…
+Between Between
+1 – 5 6 – 10 About 2 -3 About 2 to 6
+times times once times once times
+Never /year /year /month /month /week /week Daily
+Slot machines ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+Table games at a ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+casino such as poker,
+roulette, craps, and
+blackjack
+Video poker, video ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+keno or video
+blackjack
+Dice games ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+Scratch tickets or pull ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+tabs
+Lotteries such as ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+Powerball, Hot Lotto,
+Mega Millions, and
+daily numbers
+Racetracks either ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+horses or dogs
+Bingo ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+Card games with ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+friends, family, or
+others, but not at a
+casino
+Games of personal ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+skill such as pool,
+28
+
+=== page 35 ===
+bowling, video games,
+or basketball
+Fantasy sports leagues ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+or games
+Office pools such as ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+college basketball
+tournaments or
+delivery dates for
+babies
+Other sports betting ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+on professional,
+college, and amateur
+games or events
+Raffle tickets, ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+including those in
+support of charitable
+causes
+Online gambling ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+Live keno ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+Video lottery ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+machines
+High-risk trading of ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+stocks, commodities,
+or futures
+Other game, activity, ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝ ⃝
+or evet not listed
+THE FOLLOWING QUESTIONS ASK ABOUT GAMBLING RELATED EXPERIENCES.
+SOME OF THE QUESTIONS MAY NOT APPLY TO YOU BUT PLEASE TRY TO BE AS ACCURATE AS
+POSSIBLE.
+Yes No
+Have you often found yourself thinking about gambling (e.g., reliving past ⃝ ⃝
+gambling experiences, planning the next time you will play or thinking of ways to
+get money to gamble)?
+Have you needed to gamble with more and more money to get the amount of ⃝ ⃝
+excitement you are looking for?
+Have you become restless or irritable when trying to cut down or stop gambling? ⃝ ⃝
+29
+
+=== page 36 ===
+Have you gambled to escape from problems or when you are feeling depressed, ⃝ ⃝
+anxious or bad about yourself?
+After losing money gambling, have you returned another day in order to get ⃝ ⃝
+even?
+Have you lied to your family or others to hide the extent of your gambling? ⃝ ⃝
+Have you made repeated unsuccessful attempts to control, cut back or stop ⃝ ⃝
+gambling?
+Have you risked or lost a significant relationship, job, educational or career ⃝ ⃝
+opportunity because of gambling?
+Have you sought help from others to provide the money to relieve a desperate ⃝ ⃝
+financial situation caused by gambling?
+Yes No
+1 Have there ever been periods lasting 2 weeks or longer when you ⃝ ⃝
+spent a lot of time thinking about your gambling experiences, or
+planning out future gambling ventures or bets?
+ if “Yes,” skip to Q.3
+2 Have there ever been periods lasting 2 weeks or longer when you ⃝ ⃝
+spent a lot of time thinking about ways of getting money to gamble
+with?
+3 Have there ever been periods when you needed to gamble with ⃝ ⃝
+increasing amounts of money or with larger bets than before in order
+to get the same feeling of excitement?
+4 Have you ever tried to stop, cut down, or control your gambling? ⃝ ⃝
+ if “No,” skip to Q.8
+5 On one or more of the times when you tried to stop, cut down, or ⃝ ⃝
+control your gambling, were you restless or irritable?
+6 Have you ever tried but not succeeded in stopping, cutting down, or ⃝ ⃝
+controlling your gambling?
+ if “No,” skip to Q.8
+7 Has this happened three or more times? ⃝ ⃝
+8 Have you ever gambled to relieve uncomfortable feelings such as ⃝ ⃝
+guilt, anxiety, helplessness, or depression?
+ if “Yes,” skip to Q.10
+9 Have you ever gambled as a way to escape from personal problems? ⃝ ⃝
+10 Has there ever been a period when, if you lost money gambling one ⃝ ⃝
+day, you would often return another day to get even?
+30
+
+=== page 37 ===
+11 Have you ever lied to family members, friends, or others about how ⃝ ⃝
+much you gamble or how much money you lost on gambling?
+ if “No,” skip to Q.13
+12 Has this happened three or more times? ⃝ ⃝
+13 Have you ever written a bad check or taken money that didn’t belong ⃝ ⃝
+to you from family members or anyone else in order to pay for your
+gambling?
+14 Has your gambling ever caused serious or repeated problems in your ⃝ ⃝
+relationships with any of your family members or friends?
+ if “Yes,” skip to Q.17
+15 Has your gambling ever caused you any problems in school, such as ⃝ ⃝
+missing classes or days of school or your grades dropping?
+ if “Yes,” skip to Q.17
+16 Has your gambling ever caused you to lose a job, have trouble with ⃝ ⃝
+your job, or miss out on an important job or career opportunity?
+17 Have you ever needed to ask family members or anyone else to loan ⃝ ⃝
+you money or otherwise bail you out of a desperate money situation
+that was largely caused by your gambling?
+THE FOLLOWING QUESTIONS ASK ABOUT GAMBLING RELATED CONSEQUENCES.
+SOME OF THE QUESTIONS MAY NOT APPLY TO YOU BUT PLEASE TRY TO BE AS ACCURATE AS
+POSSIBLE.
+BELOW ARE A NUMBER OF STATEMENTS THAT DESCRIBE THE CONSEQUENCES OF GAMBLING. PLEASE INDICATE HOW OFTEN
+YOU HAVE EXPERIENCED THE FOLLOWING CONSEQUENCES IN THE PAST 12 MONTHS:
+Most of
+the Almost
+Never Sometimes Time Always
+Have you bet more than you could really afford to ⃝ ⃝ ⃝ ⃝
+lose?
+Have you needed to gamble with larger amounts of ⃝ ⃝ ⃝ ⃝
+money to get the same feeling of excitement?
+Have you gone back on another day to try to win back ⃝ ⃝ ⃝ ⃝
+the money you lost?
+Have you borrowed money or sold anything to ⃝ ⃝ ⃝ ⃝
+gamble?
+Have you felt that you might have a problem with ⃝ ⃝ ⃝ ⃝
+gambling?
+31
+
+=== page 38 ===
+Have people criticized your betting or told you that ⃝ ⃝ ⃝ ⃝
+you had a gambling problem, whether or not you
+thought it was true?
+Have you felt guilty about the way you gamble or ⃝ ⃝ ⃝ ⃝
+what happens when you gamble?
+Has gambling caused you any health problems, ⃝ ⃝ ⃝ ⃝
+including stress or anxiety?
+Has your gambling caused any financial problems for ⃝ ⃝ ⃝ ⃝
+you or your household?
+32
+
+=== page 39 ===
+THE FOLLOWING QUESTIONS ASK ABOUT GAMBLING RELATED SERVICES.
+• HAVE YOU EVER SEEN OR HEARD OF THE GAMBLING HELPLINE 1-800-9WITHIT (1-800-994-8448)?
+⃝ Yes ⃝ No
+• IF YES, WHERE DID YOU LAST SEE OR HEAR ABOUT 1-800-9WITHIT (1-800-994-8448)?
+⃝ Billboards ⃝ Radio
+⃝ Casinos ⃝ Problem gambling hotline website
+⃝ Lottery tickets ⃝ YouTube
+⃝ Social Media (Facebook, Twitter, Instagram, etc.) ⃝ Newspaper
+⃝ TV ⃝ Internet
+⃝ Other _________________________________________
+• DURING THE PAST 12 MONTHS, HAVE YOU THOUGHT YOU MIGHT HAVE A PROBLEM WITH, BEEN DEPENDENT ON, OR
+ADDICTED TO GAMBLING?
+⃝ Yes ⃝ No
+• HAVE YOU EVER SOUGHT TREATMENT FOR A GAMBLING PROBLEM?
+⃝ Yes ⃝ No
+33
+
+=== page 40 ===
+THE FOLLOWING QUESTIONS ASK ABOUT HEALTH-RELATED EXPERIENCES.
+• NOW THINKING ABOUT YOUR MENTAL HEALTH, WHICH INCLUDES STRESS, DEPRESSION, AND PROBLEMS WITH EMOTIONS,
+FOR HOW MANY DAYS DURING THE PAST 30 DAYS WAS YOUR MENTAL HEALTH NOT GOOD?
+______ days
+• DURING THE PAST 30 DAYS, HOW MANY DAYS PER MONTH DID YOU HAVE AT LEAST ONE DRINK OF ANY ALCOHOLIC
+BEVERAGE SUCH AS BEER, WINE, A MALT BEVERAGE OR LIQUOR? (ONE DRINK IS EQUIVALENT TO A 12-OUNCE BEER, A 5-
+OUNCE GLASS OF WINE, OR A DRINK WITH ONE SHOT OF LIQUOR.)
+______ days
+• DURING THE PAST 30 DAYS, ON HOW MANY DAYS DID YOU USE CIGARETTES? (DO NOT INCLUDE ELECTRONIC CIGARETTES
+(JUUL, E-CIGARETTES, NJOY, BLUETIP), HERBAL CIGARETTES, CIGARS, CIGARILLOS, LITTLE CIGARS, PIPES, BIDIS, KRETEKS,
+WATER PIPES (HOOKAHS) OR MARIJUANA.)
+______ days
+• DURING THE PAST 30 DAYS, ON HOW MANY DAYS DID YOU USE ELECTRONIC VAPOR PRODUCTS (JUUL, E-CIGARETTES,
+NJOY, BLUETIP, ETC.)?
+______ days
+• DURING THE PAST 30 DAYS, ON HOW MANY DAYS DID YOU USE MARIJUANA OR CANNABIS?
+______ days
+• DURING THE PAST 30 DAYS, HOW MANY DAYS HAVE YOU USED ANY PRESCRIPTION DRUG OR ANY OVER THE COUNTER
+MEDICATION IN WAYS OTHER THAN DIRECTED?
+______ days
+34
+
+=== page 41 ===
+THE FOLLOWING QUESTIONS ASK ABOUT PERSONAL INFORMATION.
+• INCLUDING YOURSELF, HOW MANY ADULTS AGE 18 AND OVER LIVE IN YOUR HOUSEHOLD?
+(Include adults who are living or staying in your household for more than 2 months. Do not include
+adults who are living somewhere else for more than 2 months, such as a college student living away or
+someone in the Armed Forces on deployment.)
+________ Adults (including you)
+• WHICH OF THE FOLLOWING PLACE BEST DESCRIBES WHERE YOU LIVE?
+⃝ On a farm
+⃝ In a rural setting, not on a farm
+⃝ In a rural subdivision outside of city limits
+⃝ In a small town of less than 5,000 people
+⃝ In a larger town of 5,000 to less than 25,000 people
+⃝ In a city of 25,000 to less than 50,000 people
+⃝ In a city of 50,000 to less than 150,000 people
+⃝ In a larger city of 150,000 or more people
+• WHICH CATEGORY BELOW INCLUDES YOUR AGE?
+⃝ 18 – 24 ⃝ 25 – 34
+⃝ 35 – 44 ⃝ 45 – 54
+⃝ 55 – 64 ⃝ 65 – 74
+⃝ 75+
+• WHAT IS YOUR MARITAL STATUS?
+⃝ Married ⃝ A member of an unmarried couple
+⃝ Divorced ⃝ Separated
+⃝ Widowed ⃝ Never been married
+35
+
+=== page 42 ===
+• WHAT IS THE HIGHEST DEGREE OR LEVEL OF SCHOOL YOU COMPLETED?
+⃝ Less than high school – no diploma, no GED, or alternative credential
+⃝ High school graduate – with diploma, GED, or alternative credential
+⃝ Some college credit, but no degree
+⃝ Associate’s degree (for example: AA, AS)
+⃝ College graduate with a Bachelor’s degree (for example: BA, BS)
+⃝ Master’s, doctoral, or professional degree (for example: MA, MS, PhD, JD, MD)
+• ARE YOU CURRENTLY:
+⃝ Employed full-time (35 or more hours a week)
+⃝ Employed part-time (fewer than 35 hours a week)
+⃝ Not employed, and looking for work
+⃝ Not employed, but not looking for work (taking care of family, full-time student, unable to work)
+⃝ Retired
+• PLEASE SELECT THE CATEGORY THAT INCLUDES THE TOTAL COMBINED INCOME, BEFORE TAXES, FOR ALL MEMBERS OF YOUR
+HOUSEHOLD FOR 2020.
+(Total household income includes money from jobs, net income from a business, a farm, or a rental
+property, government assistance, and any other money income received by members of your household
+who are 15 year of age or older.)
+IN 2020, HOW MUCH WAS YOUR TOTAL HOUSEHOLD INCOME BEFORE TAXES? YOUR BEST ESTIMATE IS FINE.
+⃝ Less than $15,000 ⃝ $15,000 to $34,999
+⃝ $35,000 to $49,999 ⃝ $50,000 to $74,999
+⃝ $75,000 to $99,999 ⃝ $100,000 to $149,999
+⃝ $150,000 or more
+• WHAT WAS YOUR SEX AT BIRTH?
+⃝ Male ⃝ Female
+36
+
+=== page 43 ===
+• ARE YOU HISPANIC, LATINO, OR SPANISH ORIGIN?
+⃝ Yes ⃝ No
+• WHAT IS YOUR RACE? (MARK ALL THAT APPLY.)
+⃝ White ⃝ Black or African American
+⃝ Asian ⃝ Native Hawaiian or Other Pacific
+Islander
+⃝ American Indian or Alaska Native ⃝ Other, please specify___________
+37

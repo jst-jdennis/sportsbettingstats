@@ -1,0 +1,321 @@
+=== page 1 ===
+2023 CT Problem Gambling
+Prevalence Survey: Methods and
+Key Results
+Rachel A. Volberg, PhD
+Gemini Research, Inc.
+Northampton, MA
+USA
+May 14, 2024
+
+=== page 2 ===
+Disclosure of Potential Conflict of
+Interest
+The SEIGMA study is funded by the Massachusetts Gaming
+
+Commission (MGC) and based at the University of Massachusetts
+Amherst.
+I also run a private consulting company, Gemini Research, that
+
+specializes in gambling research.
+I have had no affiliation with the gambling industry in the past 10
+
+years.
+In the past 10 years, I have received research funding from
+
+government agencies in Connecticut, Massachusetts, New Jersey,
+Oregon, and Washington State as well as Australia, Britain, Canada,
+New Zealand, and Sweden.
+I have received honoraria and reimbursement for travel costs to
+
+present at conferences.
+
+=== page 3 ===
+Overview of the CT Impact Study
+Gemini Research responded to a competitive bid for
+
+gambling impact study required by CT Legislature
+Contract awarded to Gemini Research and study
+
+carried out Jan-August 2023
+Examined social/health and economic/fiscal impacts
+
+of gambling in CT since mid-1990s
+Included review of state’s PG prevention and
+
+treatment services
+
+=== page 4 ===
+Mixed methods research strategy
+Key informant interviews (n=47)
+
+Population survey (n=5,239)
+
+Online panel survey (n=2,847)
+
+Secondary data on wide range of social & economic
+
+indices
+Review of prior CT population surveys and
+
+socioeconomic studies
+Data from gambling operators & CT government
+
+Economic modeling using REMI
+
+AirSage cell phone location data to determine origin
+
+of CT casino patrons
+Review of CT problem gambling services
+
+
+=== page 5 ===
+Population Survey Process
+Stage Dates Task
+1 Winter 2023 Questionnaire development & programming
+• Spanish translation
+• Computer Assisted Web Interview
+• Self Administered Questionnaire
+2 Ethics review
+3 March – April Data collection
+2023 • Completed by 5,239 CT adults aged 18 and
+over
+• 12% response rate
+4 May 2023 Data cleaning and weighting
+5 May – June Data analysis
+2023
+6 June 2023 Preliminary report to DMHAS
+7 August 2023 Final report submitted to DMHAS
+8 January 2024 Revised report released by DMHAS
+
+=== page 6 ===
+Attitudes: Availability
+100%
+80%
+68%
+60%
+40%
+26%
+20%
+6%
+0%
+Too widely available Current availability fine Not available enough
+All respondents
+
+=== page 7 ===
+Attitudes: Benefits and Harms
+80%
+67%
+60%
+40%
+24%
+20%
+9%
+0%
+Harms outweigh benefits Benefits equal harms Benefits outweigh harms
+All respondents
+
+=== page 8 ===
+Participation in Types of Gambling
+PY gambling 69%
+Weekly lotteries 52%
+Instant lottery 35%
+Charitable 27%
+Daily lottery 23%
+Casinos 19%
+Social 14%
+Speculation 13%
+Sports 10%
+Online casinos 7%
+Bingo 6%
+Keno 5%
+0% 10% 20% 30% 40% 50% 60% 70% 80%
+All respondents
+
+=== page 9 ===
+Changes in CT Since 2008
+2008 2023
+PY gambling 70.0 69.2
+Any lottery product 53.7 57.1
+Scratch tickets 37.0 35.4
+Land-based casinos 35.6 18.5
+Online gambling 2.0 10.7
+Sports betting 8.4 10.2
+Bingo 9.0 6.1
+Horse race betting 7.4 1.7
+
+=== page 10 ===
+At-risk and Problem Gambling
+1.8%
+4.9%
+30.7%
+62.6%
+Non-Gambler Recreational At risk Problem/pathological
+All respondents
+
+=== page 11 ===
+Proportion of Revenue from Problem
+Gamblers
+All lottery products 12.4%
+Online casinos 21.4%
+Land-based casinos 36.6%
+Sports betting 51.0%
+All legalized gambling 21.5%
+
+=== page 12 ===
+Awareness of Services
+Everyone was asked if they had seen or heard any
+
+media or public awareness campaigns to prevent
+gambling problems in CT in past year
+52% were aware of media campaigns
+⚫
+Everyone was asked if they were aware of CT
+
+problem gambling helpline
+52% were aware of helpline
+⚫
+Aware of CT self-exclusion programs
+
+18% were aware of self-exclusion programs
+⚫
+
+=== page 13 ===
+Recommendations for Treatment in CT
+Problem gambling prevention and treatment services in CT
+
+provide a good model for the rest of the country
+Best practices include:
+
+Age 21 requirement for casinos, sports, online gambling
+⚫
+Irrevocable self-exclusion bans
+⚫
+Availability of lifetime bans
+⚫
+Automated sports betting account freezes
+⚫
+Areas of concern:
+
+Total funding for services is a small fraction of $400M derived
+⚫
+annually from problem gamblers
+Proportion of revenue drawn from people experiencing gambling
+⚫
+harms is too high
+
+=== page 14 ===
+Specific Recommendations
+Prevention & awareness
+
+Continue employing a wide array of educational &
+⚫
+policy initiatives
+Continue efforts to promote responsible gambling
+⚫
+Continue efforts to increase public awareness of
+⚫
+available services
+Continue to increase prevention work with groups
+⚫
+at higher risk
+
+=== page 15 ===
+Specific Recommendations
+Responsible gambling
+
+Endeavor to reduce industry reliance on people
+⚫
+experiencing gambling harms
+Males, ages 35-49, non-Whites, lower
+⚫
+educational attainment
+Consider implementing
+⚫
+Automated alerts when gambling behavior escalates
+
+Changing parameters of Reward Cards to reward RG
+
+behaviors
+Restricting hours of service (3am – 9am)
+
+Restricting ATM access or amounts
+
+Better alignment of Tribes and State services
+
+
+=== page 16 ===
+Specific Recommendations
+Voluntary self-exclusion & gambling limits
+
+Merge 3 separate self-exclusion lists in CT
+⚫
+Align self-exclusion periods across lists
+⚫
+Develop regional (New England) self-exclusion
+⚫
+program
+Implement mandatory pre-commitment of
+⚫
+gambling limits
+Problem gambling helpline
+
+Add ‘warm hand-off’ functionality
+⚫
+Add follow-up with individual callers
+⚫
+Improve data collection & establish regular
+⚫
+reporting schedule
+
+=== page 17 ===
+Specific Recommendations
+Treatment services
+
+Continue efforts to increase help-seeking
+⚫
+Improve awareness of impacts of gambling problems
+⚫
+on other public services
+Increase education/training for law enforcement, court
+⚫
+officers
+Further integration of services with MH, SU, behavioral
+⚫
+health programs
+Training for health professionals (inc. students) in
+⚫
+diagnosis & referral
+Expand bilingual treatment services
+⚫
+Require screening for gambling problems in SU/MH
+⚫
+settings
+Establish gambling diversion programs w/in judicial
+⚫
+system
+
+=== page 18 ===
+Specific Recommendations
+Recovery services
+
+Expand availability of recovery services to
+⚫
+prevent relapses
+Research & evaluation
+
+Improve data collection on help-seeking,
+⚫
+treatment access
+Establish regular reporting schedule
+⚫
+Conduct online panel surveys annually
+⚫
+Add validated gambling module to BRFSS
+⚫
+
+=== page 19 ===
+For more information:
+https://portal.ct.gov/-
+/media/dmhas/publications/2023-ct-
+final-report-jan312024.pdf

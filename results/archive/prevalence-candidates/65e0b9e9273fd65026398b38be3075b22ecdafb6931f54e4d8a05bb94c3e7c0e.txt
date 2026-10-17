@@ -1,0 +1,1691 @@
+=== page 1 ===
+A Survey of Gambling Behaviors in Michigan, 2013
+By
+David J. Hartmann, Ph.D.
+Department of Sociology
+Western Michigan University
+This study was conducted by the Kercher Center for Social Research at Western Michigan
+University for The Michigan Department of Community Health. Data collection was
+subcontracted to EPIC MRA Inc. of Lansing, Michigan. The views expressed are those of the
+author and do not necessarily reflect those of any of the above organizations.
+
+=== page 2 ===
+Acknowledgments
+This work and its earlier iteration in 2006 are based on the surveys done in 1997, 1999, and 2001
+with Arlen Gullickson and the Evaluation Center at Western Michigan University. EPIC/MRA
+again carried out the data collection in the professional and efficient way so many public and
+private organizations in Michigan have come to expect. AnnaLee Miller handled all aspects of
+administration, including efficient processing of a series of unforeseen contract and timeline
+changes. As always, our deepest and most important debt is to the people of Michigan who gave
+generously of their time and experience to produce this information.
+The survey instrument, like previous versions, was adapted from the work of Rachel Volberg
+who was a consultant on the 1997 project. Her published material has been a guide throughout
+the years and her willing assistance during that first project and again this time, are gratefully
+acknowledged. Major changes were made for this version and such a shift would be unthinkable
+without her wise council.
+
+=== page 3 ===
+CONTENTS
+Acknowledgments i
+Table of Contents ii
+Introduction 1
+Characteristics of the Sample 4
+Results 8
+Detailed Results 13
+Results for Problem Gamblers 20
+Summary 26
+Appendix A: Survey 28
+Appendix B: Counties in Geographic Regions 49
+References 50
+ii
+
+=== page 4 ===
+Introduction
+The 2013Survey of Gambling Behaviors in Michigan is the fifth iteration of a project
+begun in 1997 and primarily designed to provide an estimate of problem gambling in the state.
+While there were two year intervals between that first study and replications in 1999 and 2001, it
+was five years until the next iteration in 2006 and now an additional seven years to this study.
+While minor changes were implemented in each iteration of the earlier studies (c.f., Hartmann
+and Gullickson 2001), the last two versions were, as closely as possible, replications of the 2001
+design. The most important changes made up to and including the 2001 project were: 1)
+inclusion of questions on Internet gambling (added in 1999) and on suicidal ideation related to
+gambling and use of the State Problem Gambling Help Line (added in 2001), 2) the design
+sampled and collected responses so as to produce samples of at least size 384 from each of five
+regions in the State of Michigan: The City of Detroit, the remainder of the Detroit metropolitan
+area, East Michigan, West Michigan, and the Upper Peninsula (see Appendix B). In 1999 the
+Detroit Metropolitan Region included the City and in 1997, Wayne County rather than the City
+was estimated separately from the rest of the Metropolitan Area. After adjusting for an
+oversampling of older residents, each region this year had at least 584 respondents.
+The current design allows inference of the rate of problem gambling within each region
+with a reasonable degree of precision based on sampling error (plus or minus 2.5 percentage
+points1) and allows combination of those regions in proportion to their contribution to the adult
+population of the state in an aggregate data set. As described more fully in the section called
+“Characteristics of the Sample,” this year’s state aggregate data set contains 1413 interviews and
+therefore has precision based on sampling error of plus or minus 1.6 percentage points2 for the
+rate of problem gambling.
+1 When problem gambling is liberally estimated at 10%.
+pq
+2The bounds of inference are calculated as B  z where B is the bound plus or minus from the sample
+n
+estimate, p is the population proportion of the event in question, q is 1-p, z is the z-value for the desired confidence
+coefficient, and n is the sample size. For example; for p=.1 and n=1413 with a confidence coefficient of .95
+(z=1.96), B=.016.
+1
+
+=== page 5 ===
+A consistent challenge of prevalence studies is that, since the rate of problem gambling is
+low, regional and even statewide samples yield a small number of persons scoring with a
+problem on whatever problem gambling screen is used. For obvious reasons, including the
+planning of helping strategies, this is an important population to sample and about which to make
+inference. Since 2001, additional interviewing was therefore done to increase the number of
+respondents scoring as a “problem” or “probable pathological gambler” on the problem gambling
+screen to 200 thereby allowing more precise analysis of this important subgroup. In 2001, we
+used a special sample of persons with an expressed interest in gambling as a form of recreation
+to efficiently increase the number of responding problem or probable pathological gamblers.
+The non-comparability of this targeted sample with the random adult sample used for the main
+study made combining the problem and probable pathological gamblers from the two datasets
+problematic. To address this concern, in 2006 and again this year additional sampling to obtain
+the needed numbers was done using the same population of adult residents of the state as was
+used for the main study. While this is less efficient, all 200 problem and probable pathological
+gamblers interviewed are now drawn from and represent the adult statewide population. Fully
+149 interviews completed from this additional interviewing were added to the 51 interviews
+obtained from the original statewide calling.
+As before, the primary aim of the survey is to establish a precise estimate of problem
+gambling in the population of Michigan residents 18 years and older. The 1997 study was
+required to establish this estimate with precision due to sampling error of no more than plus or
+minus 1 point (Gullickson and Hartmann 1997). This led to a design through which 3,942
+responses were completed. Subsequent iterations were allowed to produce statewide estimates
+with slightly larger confidence bands and so allowed substantial data collection savings. The
+statewide samples were of size 1,211 in 2001, 957 in 2006 and 1413 this year.
+The standard in prevalence studies, including our earlier work in Michigan, is to
+administer the survey through a Computer Assisted Telephone Interviewing (CATI) approach
+utilizing a random-digit dial (RDD) telephone sample. The CATI system automates and
+2
+
+=== page 6 ===
+documents the distribution of numbers to interviewers while also recording the disposition of
+each call and storing completed interviews in a database. Efficiency of administration is
+enhanced through automated advancing through contingency branches in the survey and data
+entry errors are minimized through range restrictions and similar verification checks. In our
+survey, for example, the problem gambling score must be calculated to determine whether the
+section of the survey for problem gamblers should be completed. This would be very difficult to
+accomplish in a non-computerized format. The random digit numbers themselves are obtainable
+in a variety of ways but generally trade off inclusiveness for efficiency. For example, area codes
+and three digit prefixes are typically the starting point for randomizing the last four numbers
+while even potential subsets of these suffixes are systematically vetted to increase efficiency of
+hit rates (actually connecting to a residential number).
+As documented in our earlier reports and most fully in Gullickson and Hartmann 1997,
+the original form of the survey instrument used in 1997 was adapted from Rachel Volberg’s
+survey of New York State in 1996 (Volberg 1996c) and used the South Oaks Gambling Screen
+(SOGS) as the basis for estimates of problem gambling. This year, again following Volberg’s
+example and a clear trend in the published literature, we switched to the NODS screen (discussed
+below) and used the 2006 California study as our model..
+Since the NODS is the basis for the prevalence estimates made in this study, a brief
+description and a comparison to the SOGS used in earlier reports is presented here. Since the
+early 2000s, scales based on the DSM-IV were becoming available and had much to recommend
+them. In fact, Volberg had predicted for some years that such a scale might come to supplant the
+SOGS but, as of her summary of the field in 2004 (Volberg 2004), that had not yet happened.
+The NODS is an instrument developed by Dr. Volberg and colleagues at the NORC for a
+national gambling study in 1999. For a number of years, researchers had argued that a prevalence
+instrument should reflect the nature of problem gambling as reflected in the DSM-IV(Diagnostic
+and Statistical Manual of Mental Disorders, 4th ed.) . The NODS did so and came to be widely
+used for prevalence studies. The SOGS had asked about a range of behaviors and orientations
+3
+
+=== page 7 ===
+toward gambling and was highly correlated with the APA’s DSM-III-R (Diagnostic and
+Statistical Manual of Mental Disorders, 3rd ed.-revised) criteria for pathological gambling
+(American Psychiatric Association, 1987). In both scales, scores of 0 through 2 are considered
+nonproblem gambling (though technically, a substantial subset of these persons are
+“nongamblers” who do not receive a score on the NODS at all while those scoring 0-2 are “at
+risk”), 3 through 4 are identified as “problem gambling”, and 5 or more is identified as “probable
+pathological gambling” (the “probable” hedge is often dropped in discussions of the NODS). As
+is customary in current use of the NODS (as it was for the SOGS), we asked each of the scored
+questions for two time frames, “ever” and “in the past year.” These give rise to a “lifetime”
+NODS score and a “current” (past year) NODS score. Since a person must score a point on the
+lifetime question to be asked the past year question, the lifetime score is the basis for admission
+to the problem gamblers section of the survey.
+Characteristics of the Sample
+EPIC/MRA reports that in the geographic sampling used to produce the regional and
+statewide estimates, a total of 4,000 responses were obtained with a refusal rate of just over 72%.
+This rate for the main study is roughly comparable to that obtained in 2006 (71%) though both
+are higher than the 65% rate obtained in 2001. Despite generally declining response rates over
+time, the rate is well within the expected range for telephone surveys over the past decade. In
+fact, a 2003 study in British Columbia reported a similar 73% refusal rate and also pointed out
+that a review of national omnibus surveys showed an average refusal rate of 77% (British
+Columbia 2003). Groves et al (2004) report that that even the Behavioral Risk Factor
+Surveillance System, one of the best funded and prestigious telephone based household surveys,
+showed an increase in median nonresponse3 across states from about 30% in 1991 to almost 50%
+by 2001 (p. 187). Since most statewide gambling prevalence studies were done some time ago,
+their refusal rates are a bit lower. The last two state-wide surveys we reviewed in 2001 showed a
+3 Refusals are a component, generally the largest and fastest growing one, in response rates.
+4
+
+=== page 8 ===
+64 percent rate in New York in 1996 and a 60 percent rate for Louisiana in 1995 at about the
+time we achieved the 65% rate in Michigan. Note that our earlier studies also had somewhat
+better refusal rates: 57 percent rate in 1997 and 55 percent in 1999. It is reassuring but not
+sufficient that several studies (British Columbia 2003, Volberg 2004) point out that the quality of
+prevalence rate estimates seem to be robust with respect to refusal rates.
+Since samples sizes of 800 were collected by region to allow inference at acceptable
+levels for each part of the state, a representative statewide sample could not be a simple
+aggregation of the regions. After controlling for an oversampling of older residents, a weighting
+procedure was used to produce a statewide sample of size 1413 that is weighted to represent the
+adult population of Michigan by region. This resulted in an error band at a 95% confidence level
+for problem gambling rates with a precision of plus or minus 1.6 points based on sampling error
+(the band was plus or minus 1.7 points in 2001 and 1.9 points in 2006). The weighted sample
+includes 584 cases from the Metropolitan Detroit sample excluding the city of Detroit (the full
+sample), 317 from the East counties, 367 from the West, 47 from the U.P., and 98 from the City
+of Detroit. That weighted sample is used throughout this report as the “state sample.”
+Sampling variation due to sample size is only one source of error in inference. The real
+concern is response bias and a standard check on this, particularly in the presence of high refusal
+rates, is to directly compare the obtained demographic characteristics of the sample against other
+estimates of those population characteristics in which one has some confidence. Table 1 does
+this for the statewide weighted sample against the 2010 Census figures for the state.
+In reviewing this comparison, it is important to note that telephone surveys are used for
+prevalence studies because, despite reduced response rates, they can produce an efficient tradeoff
+of cost and response bias. Random digit dial (RDD) approaches, in particular, are preferred
+because they address the most obvious sources of bias in telephone sampling, access to unlisted
+numbers. Nevertheless, the RDD telephone survey has known weaknesses. First, most survey
+organizations exclude cell phones. There is an increasing percentage of the population that does
+not have a land line (perhaps as high as 5-10%). Therefore, for the first time, we included a cell
+5
+
+=== page 9 ===
+phone sample as part of our data collection protocol. Also, telephone surveys in general often
+under-represent males, poor people, and younger respondents and therefore tend to under-
+represent characteristics associated with male sex, low income, and youth. Several factors are
+likely to be in play. First, men are less likely to answer the phone when a woman also resides
+there. We used the “most recent birthday” screener to minimize that bias. Second, the poor
+simply are less likely to own a phone. Third, participation rates in survey research are directly
+related to education. Furthermore, poorer families and young householders may be less likely to
+have an adult at home in the evening when many contact attempts are made (due to one adult
+households and late shift work). Poor households also tend to have a younger age structure
+which is also related to presence in the home and willingness to participate. In any event, most
+telephone surveys expect to under-represent men, the young, the poor, and the less educated and
+consequently black and central-city residents as well.
+Each recent statewide gambling study we reviewed reported these biases, especially with
+regard to education and income. A standard correction for each response rate variation is to
+weight the underrepresented category for analyses. Most of the statewide gambling studies did
+not do this, however. In her Iowa report, Volberg contends that, “To maintain comparability
+with results from the 1989 survey from Iowa, as well as with results from surveys in other United
+States jurisdictions, it was deemed advisable to caution readers regarding these prevalence
+estimates rather than weight the results from the 1995 sample.” (Volberg 1995b, p. 5). We
+followed this precedent in past studies and do so again here with the exception already noted of
+using a random procedure to reduce the very large oversample of respondents 65 years of age or
+older. In the 1997 report, we produced both weighted and unweighted estimates. Weighting did
+affect estimates of gambling problems in Michigan, though the magnitudes tended to be of a half
+a percentage point or less. As explained below, it is important to remember that response bias, to
+the extent that it is present in all gambling prevalence surveys of this type, almost certainly
+works to produce underestimation relative to the actual rates of gambling and problem gambling
+in the population.
+6
+
+=== page 10 ===
+Table 1 shows the characteristics of respondents to the 2013 Michigan survey and of
+Census descriptors for Michigan’s adult population. As expected, the statewide sample under-
+represents minorities and the younger and least educated residents of the state. As before,
+weighted estimates are not reported because of their small effect on problem gambling rates and
+the lack of such practice in other studies. The final reason for using unweighted estimates is that
+the assumptions of weighting (principally that non-respondents of a particular demographic
+category are well represented by respondents of that category) are rarely justified.
+Table 1. Percent of the Sample in Demographic Categories Compared to Those of the 2010
+Census Population Aged 18+and to Post-Census Estimates
+Statewide 2010
+Sample Census
+N 1413 7,539,572
+Gender
+51.5 48.4
+Male
+48.5 51.6
+Female
+Race/Ethnicity (n=1384)
+83.6 81.0
+White/Caucasian
+Black/African 10.5 13.4
+American
+Other 5.9 5.7
+Hispanic (n=1408) 1.8 3.5
+Age (n=1413)
+18-20 4.5 6.0
+21-64 72.7 75.9
+65 or older 22.9 18.1
+Education (n=1404) (age 25+)
+<High School 3.2 11.4
+High School/GED 29.6 30.7
+Some College/Assoc. 32.0 32.4
+Bachelors Degree 15.7 15.7
+Grad.Study/Degree 19.5 9.8
+Household Income (n=967) (all households)
+$25,000 or less 22.3 25.5
+$25,001 to $50,000 27.9 25.8
+$50,001 to $100,000 32.9 30.5
+$100,001 or more 16.9 18.1
+7
+
+=== page 11 ===
+Results
+As before, the main variables of interest in this year’s survey are the estimated rates of
+problem and probable pathological gambling this time as derived from the NODS (recall that
+past estimates were from the South Oaks Gambling Screen). Table 2 presents the number and
+percentage of respondents who ever gambled and gambled in the past year as well as the
+unweighted NODS estimates for lifetime and current (last 12 month) periods. The percent who
+ever gambled is 77.1% which is lower than the rate in 2006. The result for past year gambling is
+61.5%, again lower than that obtained in 2006.
+Table 2 also presents the NODS scores for the state and for geographic regions of the
+state defined by Detroit and the state’s counties (see Appendix B). NODS scores are reported in
+the table both for the “problem” and “probable pathological” categories. In this report, the two
+percentages are often combined into a single NODS score for “problem gamblers.” The state
+estimate for the “Lifetime NODS” is that 1.4% of the adult population may have a gambling
+problem. There are two very important points to emphasize here. First, this estimate is less than
+the estimate obtained in 2006 using the SOGS. But second, voluminous research on the
+comparability of the NODS and SOGS instruments suggested that the NODS gives an estimate
+substantially smaller (on average a multiplier of 1.7 is needed) than that of the SOGS (Williams,
+Volberg and Stevens 2012, pp. 18-20). The Williams, Volberg and Stevens meta-analysis also
+found that rates are declining in recent years. What can be said is that the rates obtained this year
+in Michigan are in the range of rates found with this instrumentation in other states (see below,
+Table 3). The estimate in this report for past year or “current” probable gambling is 0.5% using
+the NODS, again within the range found in other states.
+Additional notes on comparability to past years: Recall that sampling error is
+approximately 1.6 points above and below the NODS score so an actual state NODS
+score as high as 3.0 is consistent with these survey results.2 Using the 1.7 multiplier
+2 It is, of course, standard practice to use the sample proportion to substitute for the population parameter p in the
+standard error calculation. The use of the sample proportion is an expedient that is appropriate under most
+conditions. On the other hand, an important rationale for using an alternative to the sample proportion is that any
+8
+
+=== page 12 ===
+would give a SOGS equivalent of about 5.1 on the upper end (not likely but statistically
+within the bounds of error) which is higher than the point estimates obtained in all but the
+first of the past versions of this survey in Michigan. Another way to think about how
+close these estimates are across the years is to realize that the “Lifetime” estimate in
+2006, for example, would exactly match the 2001 estimate if we had completed 4 more
+interviews with persons in the problem categories out of the 957 in that statewide sample.
+A similar difference was found between the 2001 and 1999 estimates. Similarly, this
+year if only two respondents in the entire sample had scored one point higher on their
+NODS score, the estimated SOGS equivalent would have been 5.5 at the upper bound of
+the confidence interval rather than 5.1. The take away point is that differences over time
+should not be a major area of interpretive focus until a longer series of scores using the
+new instrument are available. For now, all that can be said is that the results are roughly
+equivalent to past iterations using the SOGS. It is interesting, though not definitive, that
+the non-statistically significant changes every year (including this one) have been in the
+direction of decline as this is consistent with the trend noticed in the meta-analysis cited
+above.
+sampling error in the point estimate is reintroduced by using that point estimate again in the calculation of the
+standard error (Blalock, 1979, pp. 214-215). As we argue below (p. 13), in our case, we believe the sample estimates
+are low. With proportions we have the additional attraction of more conservative intervals as we move toward p=.5.
+Making wider confidence intervals warns users of this report that there may not be as much actual precision in our
+estimates as the standard construction would suggest. The use of p=.1 in the construction of the standard error for
+the NODS estimates is a compromise that we believe is conservative relative to the use of the sample proportion
+obtained. The most conservative interval would result from using a value of p=.5 but that is unrealistic given the
+literature and our own estimates over five studies. Our approach may yield an interval that may actually provide
+greater than 95% confidence (more properly, that more than 95% of the time intervals constructed by this procedure
+will include the parameter). That is the effect if, in fact, the interval is wider than it needed to be. The same
+reasoning underlies the use of p=.5 for the calculation of the standard errors in Table 4. This value is explicitly too
+conservative for the rare behaviors (footnote on p. 14) but is pretty good for the common behaviors and, again,
+warns against over interpretation of the estimates.
+9
+
+=== page 13 ===
+Our studies in 1997 and 1999 suggested higher rates in the Detroit area but did not allow
+an estimate specific to the city. Lifetime rates were 8.1 for Wayne County (including the City)
+in 1997 and 6.4 for Metropolitan Detroit (including the City) in 1997. In 2001, measurement for
+the City of Detroit was made directly and the estimate was 11.4. In 2006, the estimate for the
+City proper was statistically identical at 10.8. This year, the estimate using the NODS is 3.2
+which is, as in past years, higher than the rates in the other regions.
+This year the East region scored at 0.9 percent for the Lifetime NODS, the West region
+scored at 0.2, the Upper Peninsula scored at 1.8 and Metropolitan Detroit (excluding the City)
+was 1.7.
+10
+
+=== page 14 ===
+Table 2. Gambling Prevalence for Michigan and NODS Scores for Michigan and Geographic
+Regions of the State
+A. State of Michigan
+Gambling Experiences N %
+Ever
+Yes 1090 77.1
+Past Year
+Yes 869 61.5
+Lifetime NODS Score Current NODS Score
+0-2 3-4 5+ 0-2 3-4 5+
+N 1393 13 7 1406 3 4
+Percent 98.6 0.9 0.5 99.5 0.2 0.3
+Total Problem
+Gamblers 1.4 0.5
+Estimated total problem gamblers (based on Census count of 7,539,572 people 18+)
+Point estimate: 105,554 Lifetime 37,698 Current.
+Upper Bound of
+95% confidence interval (226,187) (158,331)
+B. Geographic Regions of Michigan*
+Region Lifetime NODS Score, % Current NODS Score, % N
+0-2 3-4 5+ 0-2 3-4 5+
+Detroit 96.8 2.2 1.0 98.1 1.0 0.8 589
+Detroit Metro. 98.3 1.0 0.7 99.3 0.5 0.1 584
+East Michigan 99.1 0.9 0.0 100 0 0 587
+West Michigan 99.8 0.2 0.0 100 0 0 600
+Upper Peninsula 98.2 0.9 0.8 98.9 0.5 0.6 628
+Estimated Adult Problem Gamblers for Regions Based on 2010 Census
+Region Lifetime NODS Score, Current NODS Score,
+Population Estimates Population Estimates
+3-4 5+ 3-4 5+
+Detroit 11,516 5,234 5,234 4,187
+Detroit Metro. 31,172 21,820 15,586 3,117
+East Michigan 15,211
+West Michigan 3,917
+Upper Peninsula 2,254 2,004 1,252 1,502
+*Note that the rates and associated numbers of problem gamblers by region are based on the full samples for each
+region. These are more reliable but different than the smaller samples by region used for the statewide estimates
+(recall the total weighted statewide sample is 1413). Therefore, the totals added across regions in Table 2B would
+be different than the statewide totals reported out of Table 2A.
+11
+
+=== page 15 ===
+In general, the rates for geographic regions, based on samples of approximately 600 after
+adjusting for the over-representation of older residents are less precise than the estimates for the
+state sample derived from a sample size of 1413. Because the events of interest are relatively
+rare in these geographic subunits of the state, the confidence intervals are not produced here.
+An important result illustrated in Table 2A is that, based on the 2010 census count of
+7,539,572 residents 18 years of age and older in Michigan, the NODS survey estimates that
+about 100,000 adult Michigan residents have a lifetime gambling problem, with 38,000 of those
+estimated to have a probable pathological condition as indicated by a score of 5 or more on the
+Lifetime NODS. Again, allowing for the differences in instrumentation, these figures tell much
+the same story as in past years. The standards of problem and pathology using the NODS are
+simply harder to attain than under the SOGS. Similarly, the survey results indicate that 38,000
+Michigan adults currently have a gambling problem, and almost 23,000 of those may have a
+severe or “probable pathological” problem.
+These figures represent the best available single number estimate (“point estimate”) but
+the actual population value most likely falls near but not precisely at these numbers. If we argue
+that the sample is randomly representative of the adult Michigan population, then there is a 95%
+probability (95% confidence) that the actual number of lifetime problem gamblers in Michigan is
+less than 226,000. Past year problem gamblers probably (again, with 95% confidence) number
+could be as many as 158,000.3 These “confidence intervals” are a more useful quantification
+than the point estimates because they take into account the sampling error of estimate expected
+with a sample of this size. The last panel of Table 2 shows the adult population estimated to
+have a gambling problem by region based on the SOGS rates and the 2000 Census. Again, these
+estimates are less precise than the state estimates and, because the events of pathology are
+relatively rare in geographic subunits, they are relatively unstable.
+Finally, both the point estimates and the confidence intervals built around them probably
+3 Recall the range of persons with lifetime and past year problems would be narrower, both here and in past studies,
+if the sample proportions were used in the construction of the confidence intervals.
+12
+
+=== page 16 ===
+underestimate the actual number of problem gamblers by the NODS criteria. There are two
+reasons; both occur because the sample is not fully randomly representative of the population.
+First, recall that telephone interviews tend to under-represent the young and the poor who may
+have higher rates of problem gambling. Second, the population figures we used, of course, do
+not include anyone under the age of 18 who might have a problem since they were excluded
+from the survey. Our interviews and focus groups in 1997, as well as the survey questions that
+ask respondents when they started gambling, all suggest a substantial prevalence of gambling
+among teenagers.
+As in previous iterations of this study using the SOGS, our NODS based estimates are
+within the range found in other states. Table 3 (derived from Williams, Volberg and Stevens
+2012, Table 12) summarizes this comparison for both the lifetime and past year rates of problem
+and probable pathological gambling.
+Table 3. DSM Based Estimates of Prevalence of Problem and Probable Pathological Gambling
+Lifetime 3+ Current 3+ Lifetime 5+ Current 5+
+Prevalence (%) Prevalence (%) Prevalence (%) Prevalence (%)
+Panel A. Chronological Order
+2000 North Dakota 0.9 0.7 0.4 0.3
+2000 Oregon 1.5 0.7 0.6 0.1
+2001 Florida 1.6 1.1 1.0 0.7
+2001 Nevada 5.1 2.1 2.1 0.3
+2003 Arizona 2.1 1.0 0.5 0.3
+2006 California 3.7 1.3 1.5 0.4
+2006 New Mexico 2.2 1.3 1.1 0.6
+2007 Georgia 4.0 1.5 1.4 0.4
+2008 Connecticut 3.3 1.4 1.2 0.6
+2011 Iowa 1.2 0.5 0.6 0.3
+2013 Michigan 1.4 0.5 0.5 0.3
+Detailed Results
+Table 4 shows the rates of participation for each of the thirteen types of gambling
+included in the survey. Recall that respondents were asked whether they had ever participated in
+each activity and whether they had done so during the past year. Both responses are provided in
+13
+
+=== page 17 ===
+Table 4, as are the participation rates broken out by sex and by race. Confidence intervals are
+also built around the total prevalence rates for both lifetime and past year participation4.
+As expected, the highest rates of participation were for legal activities including the
+lottery and casinos. For the “ever” (lifetime) participated questions, men had statistically higher
+rates of participation than women in eight of the thirteen activities: sports betting, horse/dog
+racing, playing the numbers, betting on non-casino dice, cards and video poker, betting on one’s
+own performance in games of skill, office pools, internet gambling, and stocks and commodities.
+Women had a statistically higher rate of participation in noncharitable bingo. In all cases, a chi
+square test for independence was used. This approach is identical to a t test for the difference in
+two proportions (gender) and provides a single summary measure for the three proportions
+comparisons for race.
+For the “past year” activities, men were statistically higher on those same gambling types
+except for horse/dog racing and internet gambling (where cell frequencies were too small for a
+stable test) but were also higher in playing the lottery and in casino gambling. Women were not
+statistically more likely to play noncharitable bingo “in the past year.” Race effects are relatively
+modest given the small number of respondents in the non-white categories so while Table 4
+includes those comparisons, no interpretations are made.
+4 We conservatively used an estimated 50% participation rate for each activity, thereby giving the largest possible
+estimate of error and confidence interval.
+14
+
+=== page 18 ===
+Table 4. Gambling Participation Rates by Type of Gambling, Sex, and Race
+A. Ever Participated
+Type of Total 95% Gender Race/Ethnicity
+Gambling Confid.
+Interval
+Male Female White Black Other
+Lottery 61.8 59.1-64.5 64.06 59.4 63.9 57.5 43.8**
+Charitable Group 24.1 21.4-26.8 22.8 25.4 26.3 15.8 12.3**
+Events
+Sports Events 12.8 10.1-15.5 19.1 6.1** 11.9 19.9 9.9*
+Horse/Dog 14.2 11.5-16.9 16.8 11.4** 15.3 10.3 4.9*
+Racing
+Numbers Game 4.0 1.3-6.7 5.9 2.0** 4.0 5.5 2.5^
+Casinos 54.6 51.9-57.3 55.4 53.9 57.5 47.9 37.0**
+Noncharitable 7.2 4.5-9.9 5.6 8.9* 6.8 10.3 7.6
+Bingo
+Noncasino 11.4 8.7-14.1 15.7 6.9** 11.3 13.7 8.6
+Events
+Games of skill 13.2 10.5-15.9 20.6 5.4** 12.6 18.5 9.9
+Office Pools & 35.4 32.7-38.1 39.4 31.1** 37.5 28.8 19.8**
+50/50 Raffles
+Internet 1.3 0.0-4.0 2.1 0.4** 1.2 2.1 0.0^
+Gambling Sites
+Stocks/Commodi 16.9 14.2-19.6 21.5 11.9** 18.2 6.9 16.0**
+ties Markets
+Other 1.0 0.0-3.7 1.4 0.6 1.0 1.4 0.0^
+15
+
+=== page 19 ===
+B. Participated During the Last Year
+Type of Total 95% Gender Race/Ethnicity
+Gambling Confid.
+Interval
+Male Female White Black Other
+Lottery 46.6 43.9-49.3 51.3 41.5** 47.6 48.6 29.6**
+Charitable Group 14.8 12.1-17.5 14.8 14.8 16.0 11.6 7.4
+Events
+Sports Events 7.4 4.7-10.1 11.0 3.5** 7.1 11.0 4.9^
+Horse/Dog 2.0 0.0-4.7 2.9 1.0* 2.1 2.7 0.0^
+Racing
+Numbers Game 1.9 0.0-4.6 2.9 0.9** 1.9 2.7 1.2^
+Casinos 27.0 24.3-29.7 29.9 23.9* 27.6 31.5 14.8*
+Noncharitable 2.3 0.0-5.0 1.8 2.9 2.1 4.8 1.2^
+Bingo
+Noncasino 5.8 3.1-8.59 18.1 3.4** 6.0 5.5 3.7^
+Events
+Games of skill 6.4 3.7-9.1 10.0 2.6** 5.6 11.0 7.4*
+Office Pools & 17.7 15.0-20.4 20.7 14.5** 19.0 13.0 11.1
+50/50 Raffles
+Internet 0.2 0.0-2.9 0.3 0.1^ 0.3 0.0 0.0^
+Gambling Sites
+Stocks/Commodi 10.4 7.7-13.1 13.3 7.3** 11.3 4.8 8.6*
+ties Markets
+Other 0.6 0.0-3.3 0.8 0.3^ 0.7 0.0 0.0^
+*chi square test significant at .05 **chi square test significant at .01
+^3 by 2 table with at least one expected cell frequency less than five
+Table 5 shows variation in NODS scores for lifetime and current periods by categories of
+the demographic variables. The rates for demographic subgroups are based on small samples so,
+as stated in past reports, “they should be read as indicators of potentially important variation
+rather than precise estimates of incidence. On a technical level, the same point is evidenced in
+the small cell frequencies for the crosstabulations. Tests of significance therefore have little
+statistical power and were not computed.”
+16
+
+=== page 20 ===
+Table 5. Percent in NODS Grouping by Demographic Categories
+Lifetime NODS Score Past Year/Current NODS Score
+0-2 3-4 5+ 0-2 3-4 5+
+Gender (n=1413)
+Male (n=728) 97.5 1.6 0.8 99.2 0.4 0.4
+Female (n=685) 99.7 0.1 0.1 99.9 0.0 0.1
+Race (n=1384)
+White (n=1157) 98.9 0.8 0.3 99.7 0.2 0.2
+Black (n=146) 95.9 2.7 1.4 98.6 0.0 1.4
+Other (n=81) 98.8 0.0 1.2 98.8 1.2 0.0
+Age (n=1413)
+18-29 (n=180) 96.7 2.2 1.1 99.4 0.0 0.6
+30-49 (n=356) 97.8 1.4 0.8 98.9 0.6 0.6
+50-64 (n=554) 99.1 0.5 0.4 99.6 0.2 0.2
+65+ (n=323) 98.6 0.3 0.0 100 0.0 0.0
+Education
+(n=1404)
+< High School (n=45) 100 0.0 0.0 100 0.0 0.0
+High School/GED 97.6 1.4 1.0 99.0 0.2 0.7
+(n=416)
+Some College/Assoc 98.4 1.1 0.4 99.8 0.2 0.0
+(n=449)
+Bachelors Degree 99.5 0.0 0.5 99.5 0.0 0.5
+(n=220)
+Grad. Study/Degree 99.3 0.7 0.0 99.6 0.4 0.0
+(n=274)
+Income (n=967)
+$25,000 or less 98.6 0.5 0.9 99.5 0.0 0.5
+(n=216)
+$25,001-$50,000 98.5 0.7 0.7 99.3 0.0 0.7
+(n=270)
+$50,001-$100,000 98.7 0.9 0.3 99.7 0.3 0.0
+(n=318)
+$100,001 or more 96.3 3.1 0.6 98.8 1.2 0.0
+(n=163)
+As in earlier reports, gender, age and race appear to have some correlation to incidence of
+higher scores on the NODS but it is clear that no age, race, gender, education, or income group is
+immune to the risk of gambling problems.
+Table 6 displays the current (past year) NODS distribution for those who participated in
+each listed types of gambling activities at least once in the past year. While small numbers of
+respondents for particular gambling activities make several of the estimates unreliable, broad
+comparisons may be instructive, especially when trends hold over time. Remembering that the
+NODS gives lower prevalence rates than the SOGS however, makes direct comparisons less
+17
+
+=== page 21 ===
+clear. For example, while in past surveys, 95 percent or more of those who played the lottery
+scored as nonproblem gamblers on the past year’s SOGS, this year the figure is more than 99%
+on the NODS. Small samples and different instruments mean that we simply cannot say whether
+that is a meaningful difference. While many subgroup samples are small in this report, that is
+particularly the case for this table and it is worth reminding the reader that a figure like the 33%
+problem score for past year internet gamblers is based on a sample of 3 persons and is not
+interpretable. If such results continued over subsequent years of study, and if they were
+consistent with other forms of data (such as the testimony of experts in the helping professions or
+in law enforcement) they might suggest making special study with larger samples to determine
+whether there is anything there.
+Table 6. Percent Distribution of Current NODS Score by Gambling Type in the Past Year
+Past Year/Current NODS Score
+Type of Gambling n 0-2 3-4 5+
+Lottery 657 99.2 0.3 0.5
+Charitable Group 209 99.0 0.0 1.0
+Events
+Sports Events 104 98.1 1.0 1.0
+Horse/Dog Racing 28 100 0.0 0.0
+Numbers Game 27 100 0.0 0.0
+Casinos 382 98.7 0.8 0.5
+Noncharitable Group 33 97.0 0.0 3.0
+Events
+Noncasino Events 82 95.1 2.4 2.4
+Games of Skill 91 96.72 2.2 1.1
+Office Pools & 50/50 249 99.2 0.4 0.4
+Raffles
+Internet Gambling Sites 3 66.7 33.3 0.0
+Stock/Commodities 147 99.3 0.0 0.7
+Markets
+Other 8 100.0 0.0 0.0
+Table 7 presents indicators of the past year’s gambling behavior of respondents grouped
+to each category of both the lifetime and current NODS. Though the rarity of problem and
+pathology prevents any definitive conclusions from these data, respondents who fall in the
+18
+
+=== page 22 ===
+problem categories of the NODS show a tendency to be more likely to gamble alone or with
+friends rather than with family members, to play for longer than an hour at a time, and to lose
+more at a sitting.
+Table 7. Gamblers’ Past Year’s Usual Gambling Behaviors by NODS Scores, Percent
+Distributions
+Lifetime NODS Past Year NODS
+0-2 3-4 5+ 0-2 3-4 5+
+When you gamble, do
+you usually do so...
+Alone 27.5 30.8 57.1 27.6 66.7 25.0
+With spouse or partner 25.2 7.7 0.0 25.0 0.0 0.0
+With other family 13.7 15.4 14.3 13.8 0.0 25.0
+members
+With friends 24.4 38.5 28.6 24.5 33.3 50.0
+With coworkers 2.6 0.0 0.0 2.6 0.0 0.0
+With others 6.5 7.7 0.0 6.5 0.0 0.0
+N 1027 13 7 1040 3 4
+When you gamble, do
+you usually do so for...
+< 1 hour 54.5 23.1 0.0 54.1 0.0 0.0
+1-2 hours 31.9 38.5 50.0 32.0 66.7 33.3
+3-5 hours 11.6 15.4 50.0 11.7 0.0 66.7
+6-12 hours 1.7 23.1 0.0 1.8 33.3 0.0
+< 12 hours 0.4 0.0 0.0 0.4 0.0 0.0
+N 1030 13 6 1043 3 3
+In the past year, what
+is the largest amount
+of money you have
+ever lost gambling in
+one day?
+< $1 22.1 7.7 0.0 21.9 0.0 0.0
+$1-$9 21.6 7.7 0.0 21.5 0.0 0.0
+$10-$99 39.1 15.4 0.0 38.8 0.0 0.0
+$100-$999 15.8 38.5 85.7 16.2 33.3 100
+$1,000-$9,999 1.0 30.8 0.0 1.2 33.3 0.0
+$10,000 or more 0.4 0.0 14.3 0.4 33.3 0.0
+N 1044 13 7 1057 3 4
+19
+
+=== page 23 ===
+Results for Problem Gamblers
+Table 8 displays results for those respondents who scored as having a problem on the
+Lifetime NODS. The first panel contains the results from the statewide sample we have been
+using while the second panel uses the specially collected sample of 200 problem gamblers.
+While these estimates can be compared to the estimates reported in 1997, 1999, 2001 and 2006,
+it is important to remember that the standard of problem by the NODS is different than for the
+SOGS used in those studies. In the first study in 1999, the estimates were based on a very small
+sample derived strictly from the statewide sampling. The intrinsic interest of this subpopulation
+was such that oversampling of problem and probable pathological gamblers was used in each
+subsequent study.
+The first panel of Table 8 displays results from this year’s statewide representative
+sample. As seen in previous tables, this sample contains only 20 Lifetime problem and probable
+pathological gamblers with only seven of these so scoring for the past year. Sampling errors are
+extraordinarily large here (estimates are not very precise4), since such a small number of
+respondents fell in these categories, especially on contingency questions (questions which are
+answered only for those who answer an entry question in a particular way). Panel B is based on
+the full set of the sample of 200 respondents (the original 51 from the regional samples5 plus an
+additional 149 specially collected) who scored in the problem or probable pathological categories
+on the Lifetime NODS.
+Both panels of Table 8 list important descriptive information for respondents who scored
+as problem or probable pathological gamblers on the Lifetime NODS. No interpretation is made
+of the first panel since, again, the number of respondents falling in particular categories is so
+small. For the second panel, interesting patterns are present but the reader is cautioned that even
+here the results are relatively unstable, particularly for the current (last year) group and were not
+4I.e., Another survey sample of this same size might yield a much larger or smaller value of the estimate.
+5 Although there were 51 qualifying respondents in the five regional samples of size 800 each, only 20 made it into
+the proportional statewide sample.
+20
+
+=== page 24 ===
+corrected to be representative (by region) of the state’s adult population. Nevertheless, because
+there are substantially more respondents, more of the available indicators are presented in the
+second panel than in the first.
+A first point in reading the table is that two categories of respondent are presented for the
+Lifetime NODS, persons scoring in the 3-4 range and persons scoring 5 or more, corresponding
+to problem and probable pathological gambler status. Scoring in those ranges was the basis for
+inclusion in this sample. Some of these respondents, of course, did not score as being in a
+problem category (3-4 or 5+) on the Current NODS. They are nevertheless included as the first
+column of that indicator with their scores of 0-2. There are therefore three categories listed for
+the Current NODS and a total of five categories of respondents across the two indicators.
+The first indicator in Panel B is which type of gambling would be the most difficult to
+give up. Here, only three types of gambling were chosen by at least 10% of any of the five
+respondent groups. Those activities were playing the lottery, casinos and non-casino play of
+cards, dice, video poker or other machines (hereafter referred to as “non-casino gaming”).
+Among these, the largest percentages were registered for casino gambling, particularly for those
+scoring 5+ on both the Lifetime and Current NODS.
+The next indicator is age at which these gamblers first gambled. It is clear that many
+started quite young with 47% to 65% of four of the five categories of gamblers reporting starting
+by age 18 (only those with a score of 3-4 on the Current NODS were lower with 38%. Casino
+gambling and non-casino gaming were the most common starter activities.
+Large percentages of problem and probable pathological gamblers report that their
+gambling has made them nervous with a low of 42% and a high of 77% for 5+ Current NODS
+respondents. That nervousness typically started in their twenties and while gambling in casinos.
+A moderate percentage of 5+ respondents, both Lifetime and Current, report desiring help to stop
+gambling: 30% for Lifetime 5+ respondents and 37% for Current 5+ respondents. Even more
+moderate percentages report actually seeking help with about 4% of Lifetime problem gamblers
+(3-3 NODS) and a high of 23% of Current probable pathological gamblers (5+). Low
+percentages of the problem gambler groups report ever calling the Michigan problem Gambling
+Help Line but the percentage rises to over 13% for Current 5+ gamblers.
+21
+
+=== page 25 ===
+Finally, the last three indicators in Panel B report co-morbid conditions with gambling.
+First, small but important numbers of 5+ respondents report ever having suicidal thoughts related
+to their gambling with 5% for the Lifetime group and almost 7% for the Current NODS group.
+Second, between 13% and 33% of the various groups report having ever experienced or been
+treated for alcohol or other drug abuse problems. Third, very similar percentages report they
+have ever experienced or been treated for a mental health problem.
+22
+
+=== page 26 ===
+Table 8. Percentages of Problem and Probable Pathological Gamblers for Selected
+Characteristics
+A: Representative Sample
+Past Yr/Current
+Life Time NODS NODS
+3-4 5+ 3-4 5+
+Age First Gambled
+14 or younger 46.2 14.3 66.7 0.0
+15-18 30.8 57.1 0.0 75.0
+19-29 15.4 14.3 33.3 0.0
+30 or older 7.7 14.3 0.0 25.0
+(n=20) (13) (7) (n=7) (3) (4)
+Has Gambling
+Made you Nervous 61.5 85.7 100 75.0
+(n=20) (13) (7) (n=7) (3) (4)
+Desired to Stop 15.4 28.6 0.0 50.0
+(n=20) (13) (7) (n=7) (3) (4)
+Sought Help 0.0 14.3 0.0 25.0
+(n=20) (13) (7) (n=7) (3) (4)
+Suicidal Thoughts 0.0 14.3 0.0 25.0
+(n=20) (13) (7) (n=7) (3) (4)
+Experience or
+Treatment: Alc.
+or other drug
+abuse problem 0.0 28.6 33.3 25.0
+(n=20) (13) (7) (n=7) (3) (4)
+Mental Health
+Problem 7.7 14.3 0.0 25.0
+(n=20) (13) (7) (n=7) (3) (4)
+23
+
+=== page 27 ===
+B: Sample of Problem Gamblers
+Life Time NODS Past Yr/Current NODS
+3-4 5+ 0-2 3-4 5+
+Which type of
+gambling would
+you find most
+difficult to give
+up?*
+Lottery 20.7 10.4 16.7 26.3 3.4
+Casinos 42.2 64.9 45.2 52.6 75.9
+Non-casino 8.6 13.0 11.1 5.3 13.8
+games
+None 15.5 2.6 14.3 5.3 0.0
+(n=193) (116) (77) (126) (38) (29)
+Age First Gambled
+14 or younger 17.6 13.6 16.8 12.8 16.7
+15-18 30.3 33.3 29.8 25.6 46.7
+19-29 27.7 25.9 29.0 23.1 23.3
+30 or older 24.4 27.2 24.4 38.5 13.3
+(n=200) (119) (81) (131) (39) (30)
+What type of
+gambling was
+that?*
+Lottery 12.9 11.1 11.7 10.3 16.7
+Casinos 38.8 44.4 39.8 46.2 40.0
+Non-casino 25.9 25.9 27.3 17.9 30.0
+games
+(n=197) (116) (81) (128) (39) (30)
+Has Gambling
+Made you Nervous 42.0 64.2 42.0 61.5 76.7
+(n=200) (119) (81) (n=131) (39) (30)
+Age Made
+Nervous
+14 or younger 2.0 7.7 3.6 4.2 8.7
+15-18 22.0 5.8 18.2 8.3 8.7
+19-29 36.0 36.5 38.2 25.0 43.5
+30 or older 40.0 50.0 40.0 62.5 39.1
+(n=102) (50) (52) (55) (24) (23)
+24
+
+=== page 28 ===
+What type of
+gambling were
+you doing?*
+Casinos 58.0 58.8 55.6 66.7 56.5
+Non-casino 24.0 23.5 24.1 16.7 30.4
+games
+(n=101) (50) (51) (54) (24) (23)
+Desired help to
+Stop 10.9 29.6 14.5 17.9 36.7
+(n=200) (119) (81) (131) (39) (30)
+Sought Help 4.2 22.2 9.2 10.3 23.3
+(n=200) (119) (81) (131) (39) (30)
+Ever called MI
+Help Line 0.0 8.6 0.8 5.1 13.3
+(n=200) (119) (81) (131) (39) (30)
+Had suicidal
+thoughts related
+to your gambling 0.0 4.9 0.8 2.6 6.7
+(n=200) (119) (81) (131) (39) (30)
+Experience or
+treatment for
+alcohol or other
+drug abuse
+problem 12.6 22.2 12.2 17.9 33.3
+(n=200) (119) (81) (131) (39) (30)
+Mental Health
+treatment or
+problem 15.3 23.88 15.4 18.4 33.3
+(n=200) (118) (81) (130) (38) (30)
+*Only those receiving at least a 10% share in at least one column are presented.
+25
+
+=== page 29 ===
+Summary
+In most ways, this report and its previous iterations are designed to be a template for a
+first examination of gambling behaviors in Michigan. The table structure and even the
+explanatory language are purposely kept as constant as possible so that a relatively consistent
+examination is available in each report. That is why it is important to also stress important
+changes when they occur. The most important difference in this year’s report is clearly that it
+relies on a different measure of gambling problem. It was necessary to make this change but the
+strict numeric comparability of most of the important trend data is compromised. While the
+overall picture is consistent with that painted by the SOGS in previous years, detailed
+comparisons are harder to make and were in fact made less often and with more caution than
+before. In part because we cannot assume that readers are familiar with the earlier studies, the
+rest of this summary, again, mimics the messages and language of those earlier reports.
+The estimates of the gambling behavior of Michigan adults 18 years and older, provided
+in this report are based on what the authors believe are the best survey results available. Even as
+survey work has become more difficult to carry out and response rates declines and reliance on
+cell phones has changed the landscape, robust estimates are produced. Weaknesses remain in
+this data set as in the results of any recent survey. Even as phone coverage has increased, poor
+residents are still more likely to live without regular phone service. If their gambling behavior is
+different from that of other residents, it is not fairly captured here. As we have said in the past,
+this effect is probably small however.
+A more important problem is response bias among those we attempted to contact. While
+it is not clear that nonresponse is systematically related to the behaviors detailed in this survey, it
+is at least a good possibility that our estimates are conservative (underestimate the actual rates of
+problems). Youth and poverty are related to low response and may reasonably be expected to be
+related to gambling behavior. A social desirability response might also suggest under-reporting
+or even refusal to participate for problem gamblers. A salience difference may well bias in the
+opposite direction, it is simply impossible to tell with any precision. For the most part, however,
+nonresponse is probably for reasons unrelated to gambling behavior, reasons such as an
+unwillingness to give the time required to respond to the survey. Nevertheless, as almost all
+26
+
+=== page 30 ===
+survey experts now warn (c.f., Massey and Tourangeau 2013), as response rates decline in
+telephone surveys, concern over bias increases.
+Another reason to believe our estimates may be conservative is the instrumentation used.
+In a cross-validation of the SOGS, it was found to provide a conservative estimate of probable
+pathological gamblers, probably around 6 percent (Lesieur and Blume 1987). The NODS, as
+discussed earlier, is consistently and substantially more conservative yet.
+In addition to the major findings on problem prevalence, there is a wealth of detailed
+information to be found in the tables in this report. A useful strategy for understanding results,
+as we showed in Table 2 for example, is to convert the survey percentages to estimated
+population figures. The procedure for making this conversion is to take the point estimate from
+the table, e.g., the percentage of respondents reporting they played the lottery in the past year
+(Table 4, Panel B: point estimate is 46.6 percent), and multiply by the estimated adult population
+of Michigan (7,539,572) to get an estimate of 3,513,441 adult lottery players. This can also be
+done for the point estimates that make up the lower and upper bounds of the confidence
+intervals, which would yield an estimated range for the population figures. A similar procedure
+for problem gamblers would be to take the point or interval estimates for the representative
+sample of problem gamblers (remember, though that this sample is only of size 200 before
+subsetting and therefore yields imprecise estimates) and multiply by the estimated number of
+adult problem gamblers from Table 2. One should always remember the cautions we have made
+about response bias and a probable underestimation of many gambling behaviors.
+As before, this report can only suggest the range of analysis and discussion that these data
+will support. The general lesson remains consistent across the several studies and so the
+conclusion is worth repeating: “Estimates continue to suggest that problem gambling is a
+substantial reality in Michigan and reaches across demographic and geographic boundaries.
+Perhaps most telling is that even among persons scoring as problem or probable pathological
+gamblers, rates of help seeking are very low. All of this reinforces the obligation to continue to
+systematically collect data on gambling so that the public discussion may be as balanced and
+informed as possible.”
+27
+
+=== page 31 ===
+Appendix A: Survey Instrument
+EPIC ▪ MRA Western Michigan University –– Gambling Prevalence Study –– Sept 2013
+FINAL
+SAMPLE: 1=Cell/2=Land REGION: _______________ COUNTY:
+__________________________
+DATE: _ _____ / ________ /__________ PHONE: ___________________
+_________
+INTERVIEWER: ___________________________________ NORC SCORE:
+_________________
+====================================================================
+=====
+INTRO
+Hello, my name is _____ and I am calling from EPIC ▪ MRA on behalf of Dr. David Hartmann
+of Western Michigan University and the Michigan Department of Community Health.
+Since it is such an important issue, the Michigan Legislature has asked us to survey Michigan
+citizens on gambling in the state. Could I please speak to the person in your household who is 18
+or older and had the most recent birthday?
+[Would that be you?] [Can I ask you a few questions?]
+Your answers are strictly anonymous. This survey will take about 10 to 15 minutes. By
+providing them, you are giving your consent to use those answers to understand gambling in
+Michigan. You have the right to refuse and to skip any question that you do not wish to answer.
+To ensure professionalism, this conversation may be monitored by my supervisor.
+If you have any questions or concerns you may call … redacted.
+[Can you speak freely and in private?] [May we continue?]
+People spend or bet money on a variety of things including lottery, charitable games such as
+raffles or church sponsored bingo, horse races, casinos, sports, cards and dice. We will ask you
+about whether you have ever participated in these activities and whether you have participated in
+the past 12 months. We will ask about the extent of your participation and how gambling affects
+other aspects of your life. You may prefer to keep some of your answers private from people
+who could overhear this interview.
+[May we continue? We understand that not everyone gambles, but your opinions are still very
+important to us.]
+CALLBACK INTRODUCTION: Hello, my name is _____ and I am calling from Western
+Michigan University on behalf of Dr. David Hartmann and the Michigan Department of
+Community Health. We called you recently and started an interview with the adult member of
+this household who had the most recent birthday. That person asked us to call back to complete
+the survey. May I speak to that person again?
+28
+
+=== page 32 ===
+GAMBLING ACTIVITIES:
+__1. Have you ever bet or spent money on the Lottery including Mega Millions, Powerball,
+Fantasy 5, Daily 3 and 4, Club Keno, Keno!, Classic Lottery 47, or instant tickets?
+(1) Yes
+(2) No ------------------------------- GO TO Q.3
+(3) Don't know/Refused --------- GO TO Q.3
+__2. Have you done so in the past year?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__3. Have you ever bet on charitable group events such as local bingos, pulltab tickets, Las
+Vegas Nights, or raffles?
+(1) Yes
+(2) No ------------------------------- GO TO Q.5
+(3) Don't know/Refused --------- GO TO Q.5
+__4. Have you done so in the past year?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__5. Have you ever bet on the outcome of sports events?
+(1) Yes
+(2) No ------------------------------- GO TO Q.7
+(3) Don't know/Refused --------- GO TO Q.7
+__6. Have you done so in the past year?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__7. Have you ever bet on horse or dog racing?
+(1) Yes
+(2) No ------------------------------- GO TO Q.9
+(3) Don't know/Refused --------- GO TO Q.9
+29
+
+=== page 33 ===
+__8. Have you done so in the past year?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__9. Have you ever bet or spent money on a numbers game not sponsored by the state lottery?
+(1) Yes
+(2) No ------------------------------- GO TO Q.11
+(3) Don't know/Refused --------- GO TO Q.11
+__10. Have you done so in the past year?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__11. Have you ever bet at casinos (including slots, video machines, and table games)?
+(1) Yes
+(2) No ------------------------------- GO TO Q.13
+(3) Don't know/Refused --------- GO TO Q.13
+__12. Have you done so in the past year?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__13. Have you ever played non-charitable Bingo for money?
+(1) Yes
+(2) No ------------------------------- GO TO Q.15
+(3) Don't know/Refused --------- GO TO Q.15
+__14. Have you done so in the past year?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+30
+
+=== page 34 ===
+__15. Have you ever bet on cards or dice games or on video poker or other machines not at a
+casino?
+(1) Yes
+(2) No ------------------------------- GO TO Q.17
+(3) Don't know/Refused --------- GO TO Q.17
+__16. Have you done so in the past year?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__17. Have you ever bet on your performance at games of skill such as pool, golf, bowling, darts
+or other games?
+(1) Yes
+(2) No ------------------------------- GO TO Q.19
+(3) Don't know/Refused --------- GO TO Q.19
+__18. Have you done so in the past year?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__19. Have you ever bet in office pools or 50/50 raffles?
+(1) Yes
+(2) No ------------------------------- GO TO Q.21
+(3) Don't know/Refused --------- GO TO Q.21
+__20. Have you done so in the past year?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__21. Have you ever bet money at internet gambling sites?
+(1) Yes
+(2) No ------------------------------- GO TO Q.23
+(3) Don't know/Refused --------- GO TO Q.23
+31
+
+=== page 35 ===
+__22. Have you done so in the past year?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__23. Have you ever bet or spent money on the stock or commodities markets?
+(1) Yes
+(2) No ------------------------------- GO TO Q.25
+(3) Don't know/Refused --------- GO TO Q.25
+__24. Have you done so in the past year?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__25. Have you bet or spent money on any other type of gambling?
+(1) Yes
+(2) No ------------------------------- GO TO Q.27
+(3) Don't know/Refused --------- GO TO Q.27
+__26. Have you done so in the past year?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+POLLERS NOTE: IF "NO" OR "DON'T KNOW/REFUSED" TO ALL
+GAMBLING ACTIVITIES - SKIP TO DEMOGRAPHICS Q.104
+__27. When you gamble, do you usually do so ... [READ 1 TO 6]
+(1) Alone
+(2) With your spouse or partner
+(3) With other family members
+(4) With friends
+(5) With co-workers
+(6) With some other individual or group
+(7) Don’t Know/Refused
+32
+
+=== page 36 ===
+__28. When you gamble, do you usually do so for ... [READ 1 TO 5]
+(1) Less than 1 hour
+(2) 1-2 hours
+(3) 3-5 hours
+(4) 6-12 hours
+(5) More than 12 hours
+(6) Don’t Know/Refused
+__29. In the past year, what is the largest amount of money you have ever lost gambling in one
+day?
+[READ 1 TO 6]
+(1) Less than $1
+(2) $1 - $9
+(3) $10 - $99
+(4) $100 - $999
+(5) $1,000 - $9,999
+(6) $10,000 or more
+(7) Don’t Know/Refused
+__30. Now I’d like you to think about how many days you have ever gambled. Was it more
+than 5 days in your life?
+(1) Yes
+(2) No ------------------------------- GO TO DEMOGRAPHICS Q.104
+(3) Don't know/Refused --------- GO TO DEMOGRAPHICS Q.104
+33
+
+=== page 37 ===
+INTRO:
+The next set of questions is part of a standard measurement scale which has been used
+throughout the United States in surveys similar to this one. There are no right or wrong answers
+to the questions that follow. We want to know what your experiences have been. Please try to be
+as accurate as possible in your answers and remember that all this information is confidential.
+[INTERVIEWER: IF YOU ENCOUNTER DIFFICULTIES WITH RESPONDENT IN
+COMPLETING THIS SECTION, SAY: "We realize these questions may not apply to
+everyone, but we would like answers to any of the questions you may choose to answer."]
+The NORC Diagnostic Screen for Gambling Problems
+Lifetime (“Ever”) Questions
+__31. Have there ever been periods lasting 2 weeks or longer when you spent a lot of time
+thinking about your gambling experiences, or planning out future gambling ventures or bets?
+(1) Yes (NORC=1)
+(2) No ------------------------------- GO TO Q.33
+(3) Don't know/Refused --------- GO TO Q.33
+__32. Have there ever been periods lasting 2 weeks or longer when you spent a lot of time
+thinking about ways of getting money to gamble with?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__33. Have there ever been periods when you needed to gamble with increasing amounts of
+money or with larger bets than before in order to get the same feeling of excitement?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__34. Have you ever tried to stop, cut down, or control your gambling?
+(1) Yes
+(2) No ------------------------------- GO TO Q.36
+(3) Don't know/Refused --------- GO TO Q.36
+34
+
+=== page 38 ===
+__35. On one or more of the times when you tried to stop, cut down, or control your gambling,
+were you restless or irritable?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__36. Have you ever tried but not succeeded in stopping, cutting down, or controlling your
+gambling?
+(1) Yes
+(2) No ------------------------------- GO TO Q.38
+(3) Don't know/Refused --------- GO TO Q.38
+__37. Has this happened three or more times?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__38. Have you ever gambled to relieve uncomfortable feelings such as guilt, anxiety,
+helplessness, or depression?
+(1) Yes (NORC=1)
+(2) No ------------------------------- GO TO Q.40
+(3) Don't know/Refused --------- GO TO Q.40
+__39. Have you ever gambled as a way to escape from personal problems?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__40. Has there ever been a period when, if you lost money gambling one day, you would often
+return another day to get even?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__41. Have you ever lied to family members, friends, or others about how much you gamble or
+how much money you lost on gambling?
+(1) Yes
+(2) No ------------------------------- GO TO Q.43
+(3) Don't know/Refused --------- GO TO Q.43
+35
+
+=== page 39 ===
+__42. Has this happened three or more times?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__43. Have you ever written a bad check or taken money that didn’t belong to you from family
+members or anyone else in order to pay for your gambling?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__44. Has your gambling ever caused serious or repeated problems in your relationships with
+any of your family members or friends?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__45. Has your gambling ever caused you any problems in school, such as missing classes or
+days of school or your grades dropping?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__46. Has your gambling ever caused you to lose a job, have trouble with your job, or miss out
+on an important job or career opportunity?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__47. Have you ever needed to ask family members or anyone else to loan you money or
+otherwise bail you out of a desperate money situation that was largely caused by your gambling?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+36
+
+=== page 40 ===
+Past Year Questions (only ask those items for which the corresponding “Lifetime” answer
+was YES)
+__48. Since [Current Month] 2012, have there been any periods lasting 2 weeks or longer when
+you spent a lot of time thinking about your gambling experiences, or planning out future
+gambling ventures or bets?
+(1) Yes (NORC=1)
+(2) No ------------------------------- GO TO Q.50
+(3) Don't know/Refused --------- GO TO Q.50
+__49. Since [Current Month] 2012, have there been any periods lasting 2 weeks or longer when
+you spent a lot of time thinking about ways of getting money to gamble with?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__50. Since [Current Month] 2012, have there been periods when you needed to gamble with
+increasing amounts of money or with larger bets than before in order to get the same feeling of
+excitement?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__51. Since [Current Month] 2012, have you tried to stop, cut down, or control your gambling?
+(1) Yes
+(2) No ------------------------------- GO TO Q.53
+(3) Don't know/Refused --------- GO TO Q.53
+__52. Since [Current Month] 2012, on one or more of the times when you tried to stop, cut
+down, or control your gambling, were you restless or irritable?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__53. Since [Current Month] 2012, have you tried but not succeeded in stopping, cutting down,
+or controlling your gambling?
+(1) Yes
+(2) No ------------------------------- GO TO Q.55
+(3) Don't know/Refused --------- GO TO Q.55
+37
+
+=== page 41 ===
+__54. Since [Current Month] 2012, has this happened three or more times?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__55. Since [Current Month] 2012, have you gambled to relieve uncomfortable feelings such as
+guilt, anxiety, helplessness, or depression?
+(1) Yes (NORC=1)
+(2) No ------------------------------- GO TO Q.57
+(3) Don't know/Refused --------- GO TO Q.57
+__56. Since [Current Month] 2012, have you gambled as a way to escape from personal
+problems?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__57. Since [Current Month] 2012, has there been a period when, if you lost money gambling
+one day, you would often return another day to get even?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__58. Since [Current Month] 2012, have you lied to family members, friends, or others about
+how much you gamble or how much money you lost on gambling?
+(1) Yes
+(2) No ------------------------------- GO TO Q.60
+(3) Don't know/Refused --------- GO TO Q.60
+__59. Has this happened three or more times?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__60. Since [Current Month] 2012, have you written a bad check or taken money that didn’t
+belong to you from family members or anyone else in order to pay for your gambling?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+38
+
+=== page 42 ===
+__61. Since [Current Month] 2012, has your gambling caused serious or repeated problems in
+your relationships with any of your family members or friends?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__62. Since [Current Month] 2012, has your gambling caused you any problems in school, such
+as missing classes or days of school or your grades dropping?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__63. Since [Current Month] 2012, has your gambling caused you to lose a job, have trouble
+with your job, or miss out on an important job or career opportunity?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+__64. Since [Current Month] 2012, have you needed to ask family members or anyone else to
+loan you money or otherwise bail you out of a desperate money situation that was largely caused
+by your gambling?
+(1) Yes (NORC=1)
+(2) No
+(3) Don't know/Refused
+39
+
+=== page 43 ===
+SECTION 3: IN-DEPTH ANALYSIS OF PROBLEM GAMBLERS
+Ask Section 3 only of those who score as Problem Gamblers on the NODS (generated by
+the computer). The skip pattern is based on the responses to questions 1 through 12 of
+Section 1.
+INTRO
+For each of the gambling activities in which you participated in the past year, we would like your
+estimate of the amount of time and money you spent.
+[INTERVIEWER: If needed, say ... "I am only looking for an approximate amount, rounded to
+the nearest 5 dollars or so."]
+__65. For the Lottery (LOTTO, Big Game, Daily 3 and 4, Cash 5, Keno, or instant tickets, can
+you give me an estimate of the amount you spend in a typical month? [IF
+“UNDECIDED/REFUSED” CODE “99999”]
+RECORD DOLLAR AMOUNT: _______________ UP TO 5 DIGITS.
+__66. Did you play the lottery at least once a week?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__67. For charitable group events, such as bingo or Las Vegas nights, can you give me an
+estimate of the amount you spend in a typical month? [IF “UNDECIDED/REFUSED” CODE
+“99999”]
+RECORD DOLLAR AMOUNT: _______________ UP TO 5 DIGITS.
+__68. Did you play charitable group events at least once a week?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__69. For sports betting, can you give me an estimate of the amount you spend in a typical
+month?
+[IF “UNDECIDED/REFUSED” CODE “99999”]
+RECORD DOLLAR AMOUNT: _______________ UP TO 5 DIGITS.
+__70. Did you bet on sports at least once a week?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+40
+
+=== page 44 ===
+__71. For betting on horse or dog racing, can you give me an estimate of the amount you spend
+in a typical month? [IF “UNDECIDED/REFUSED” CODE “99999”]
+RECORD DOLLAR AMOUNT: _______________ UP TO 5 DIGITS.
+__72. Did you bet on horse or dog racing at least once a week?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__73. For non-Lottery numbers games, can you give me an estimate of the amount you spend in
+a typical month? [IF “UNDECIDED/REFUSED” CODE “99999”]
+RECORD DOLLAR AMOUNT: _______________ UP TO 5 DIGITS.
+__74. Did you play non-Lottery numbers at least once a week?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__75. For betting at casinos, can you give me an estimate of the amount you spend in a typical
+month?
+[IF “UNDECIDED/REFUSED” CODE “99999”]
+RECORD DOLLAR AMOUNT: _______________ UP TO 5 DIGITS.
+__76. Did you bet at casinos at least once a week?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__77. For playing non-charitable Bingo for money, can you give me an estimate of the amount
+you spend in a typical month? [IF “UNDECIDED/REFUSED” CODE “99999”]
+RECORD DOLLAR AMOUNT: _______________ UP TO 5 DIGITS.
+__78. Did you play non-charitable Bingo for money at least once a week?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+41
+
+=== page 45 ===
+__79. For cards, dice, video poker or other machine games not in a casino, can you give me an
+estimate of the amount you spend in a typical month? [IF “UNDECIDED/REFUSED” CODE
+“99999”]
+RECORD DOLLAR AMOUNT: _______________ UP TO 5 DIGITS.
+__80. Did you bet on cards, dice, video poker or other machine games not in a casino at least
+once a week?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__81. For betting on your performance at games of skill like pool, golf, bowling, or darts, can
+you give me an estimate of the amount you spend in a typical month? [IF
+“UNDECIDED/REFUSED” CODE “99999”]
+RECORD DOLLAR AMOUNT: _______________ UP TO 5 DIGITS.
+__82. Did you bet on your performance at games of skill at least once a week?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__83. For office pools or 50/50 raffles, can you give me an estimate of the amount you spend in
+a typical month? [IF “UNDECIDED/REFUSED” CODE “99999”]
+RECORD DOLLAR AMOUNT: _______________ UP TO 5 DIGITS.
+__84. Did you bet on office pools or 50/50 raffles at least once a week?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__85. For Internet gambling, can you give me an estimate of the amount you spend in a typical
+month? [IF “UNDECIDED/REFUSED” CODE “99999”]
+RECORD DOLLAR AMOUNT: _______________ UP TO 5 DIGITS.
+__86. Did you bet at Internet gambling sites at least once a week?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+42
+
+=== page 46 ===
+__87. For the stock or commodities markets, can you give me an estimate of the amount you
+spend in a typical month? [IF “UNDECIDED/REFUSED” CODE “99999”]
+RECORD DOLLAR AMOUNT: _______________ UP TO 5 DIGITS.
+__88. Did you play the stock or commodities markets at least once a week?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__89. For other types of gambling, can you give me an estimate of the amount you spend in a
+typical month? [IF “UNDECIDED/REFUSED” CODE “99999”]
+RECORD DOLLAR AMOUNT: _______________ UP TO 5 DIGITS.
+__90. Did you bet on other forms of gambling at least once a week?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__91. Which type of gambling would you find most difficult to give up? [TAKE FIRST
+RESPONSE ONLY – IF RESPONDENT HESITATES, READ 1 TO 13]
+(01) The Lottery (LOTTO, Big Game, Daily 3 and 4, Cash 5, Keno, etc.)
+(02) Charitable group events (bingo, pull-tab tickets, Las Vegas Nights, raffles)
+(03) The outcome of sports events
+(04) Horse or dog racing
+(05) A numbers game not sponsored by the state lottery
+(06) Casinos (including slots, video machines, and table games)
+(07) Playing non-charitable Bingo for money
+(08) Cards or dice games or video poker or other machines not at a casino
+(09) Your performance at games of skill (pool, golf, bowling, darts, etc.)
+(10) Office pools or 50/50 raffles
+(11) Internet gambling sites
+(12) Playing the stock or commodities markets
+(13) Other (Please specify):
+___________________________________________________________
+(14) None (volunteered)
+(99) Don't Know/Refused
+__92. How old were you when you first gambled? [IF “UNDECIDED/REFUSED” CODE
+“99”]
+RECORD AGE: _______________ IN 2 DIGITS.
+43
+
+=== page 47 ===
+__93. What type of gambling was that? [TAKE FIRST RESPONSE ONLY – IF
+RESPONDENT HESITATES, READ 1 TO 13]
+(01) The Lottery (LOTTO, Big Game, Daily 3 and 4, Cash 5, Keno, etc.)
+(02) Charitable group events (bingo, pull-tab tickets, Las Vegas Nights, raffles)
+(03) The outcome of sports events
+(04) Horse or dog racing
+(05) A numbers game not sponsored by the state lottery
+(06) Casinos (including slots, video machines, and table games)
+(07) Playing non-charitable Bingo for money
+(08) Cards or dice games or video poker or other machines not at a casino
+(09) Your performance at games of skill (pool, golf, bowling, darts, etc.)
+(10) Office pools or 50/50 raffles
+(11) Internet gambling sites
+(12) Playing the stock or commodities markets
+(13) Other (Please specify):
+___________________________________________________________
+(14) None (volunteered)
+(99) Don't Know/Refused
+__94. Was there any time when the amount you were gambling made you nervous?
+(1) Yes
+(2) No ------------------------------- GO TO Q.97
+(3) Don't know/Refused --------- GO TO Q.97
+__95. How old were you when that happened? [IF “UNDECIDED/REFUSED” CODE “99”]
+RECORD AGE: _______________ IN 2 DIGITS.
+44
+
+=== page 48 ===
+__96. What type of gambling were you doing when that happened? [TAKE FIRST
+RESPONSE ONLY – IF RESPONDENT HESITATES, READ 1 TO 13]
+(01) The Lottery (LOTTO, Big Game, Daily 3 and 4, Cash 5, Keno, etc.)
+(02) Charitable group events (bingo, pull-tab tickets, Las Vegas Nights, raffles)
+(03) The outcome of sports events
+(04) Horse or dog racing
+(05) A numbers game not sponsored by the state lottery
+(06) Casinos (including slots, video machines, and table games)
+(07) Playing non-charitable Bingo for money
+(08) Cards or dice games or video poker or other machines not at a casino
+(09) Your performance at games of skill (pool, golf, bowling, darts, etc.)
+(10) Office pools or 50/50 raffles
+(11) Internet gambling sites
+(12) Playing the stock or commodities markets
+(13) Other (Please specify):
+___________________________________________________________
+(14) None (volunteered)
+(99) Don't Know/Refused
+__97. Have you ever desired help to stop gambling?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__98. Have you ever sought help to stop gambling?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__99A-E. What type of help was that? [READ 1 TO 10 – CODE ALL RESPONSES
+MENTIONED]
+(01) Family member
+(02) Friend
+(03) Family doctor
+(04) Gamblers Anonymous/Gamanon
+(05) Problem gambling treatment program in Michigan
+(06) Employee assistance program (EAP)
+(07) Professional Counseling (Psychologist/Psychiatrist/Other counselor)
+(08) Minister/Priest/Rabbi/Imam (Muslim prayer leader)
+(09) Alcohol or drug abuse treatment program
+(10) Other (please specify):
+___________________________________________________________
+(99) Undecided/Refused
+45
+
+=== page 49 ===
+__100. Have you ever called the Michigan Problem Gambling Help Line (1-800-270-7117)?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__101. Have you ever experienced thoughts of suicide related to your gambling?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__102. Have you ever experienced or been treated for an alcohol or other drug abuse problem?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__103. Have you ever experienced or been treated for a mental health problem?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+SECTION 4: DEMOGRAPHICS
+INTRO
+As you probably know, different types of people have different opinions and experiences. The
+following questions are for statistical purposes only and the answers to these questions, like all of
+the others, will be confidential.
+__104. Are you currently married, widowed, divorced, separated, or have you never been
+married?
+(1) Married, common-law, co-habitation
+(2) Widowed
+(3) Divorced
+(4) Separated
+(5) Never married
+(6) Don’t Know/Refused
+__105. Including yourself, how many people age 18 and over live in your household? [IF
+“UNDECIDED/REFUSED” CODE “99”]
+RECORD: _______________ IN 2 DIGITS.
+46
+
+=== page 50 ===
+__106. What is the last grade of school you completed?
+(1) Elementary or some high school
+(2) High school graduate or G.E.D.
+(3) Some college or Associates degree (vocational, technical or trade school)
+(4) Undergraduate degree
+(5) Graduate study or degree
+(6) Don’t Know/Refused
+__107A-D. Last week, were you working full-time, part-time, going to school, keeping house,
+disabled, retired, unemployed, or something else? [CODE ALL RESPONSES MENTIONED]
+(1) Working full-time
+(2) Working part-time
+(3) Going to school
+(4) Keeping house
+(5) Disabled
+(6) Retired
+(7) Unemployed
+(8) Something else
+(9) Don’t Know/Refused
+__108. What is your age? [IF UNDECIDED/REFUSED, CODE “99”]
+RECORD TWO DIGIT AGE: ___________________________
+__109. Do you consider yourself Hispanic?
+(1) Yes
+(2) No
+(3) Don't know/Refused
+__110. Which of the following best describes your racial or ethnic group? [READ 1 TO 6]
+(1) White/Caucasian
+(2) Black/African American
+(3) Native American
+(4) Asian
+(5) Mixed Race
+(6) Other
+(7) Don't know/Refused
+47
+
+=== page 51 ===
+__111. What was your total household income last year? [READ 1 TO 8]
+(1) Under $15,000
+(2) $15,001 to $25,000
+(3) $25,001 to $35,000
+(4) $35,001 to $50,000
+(5) $50,001 to $75,000
+(6) $75,001 to $100,000
+(7) $100,001 to $125,000
+(8) Over $125,000
+(9) Don't Know/Refused
+In what county do you live? (remove – this will be pre-coded from sample)
+__112. Could I have the name of the city you live in or nearest to? [WRITE RESPONSE AS
+STATED]
+______________________________________________________________________________
+______
+That was the last question. As part of our closing script, I am to share with you the information
+that there are two resources available to assist you if you want to talk more about gambling and
+related problems. The state problem gambling hotline can be reached at 1-800-270-7177 and the
+National Suicide Prevention Lifeline at 1-800-273-TALK. Thank you very much for your time
+and cooperation.
+113. Sex of respondent (BY OBSERVATION ONLY)
+(1) Male
+(2) Female
+48
+
+=== page 52 ===
+Appendix B:
+COUNTIES IN GEOGRAPHIC REGIONS
+1= City of Detroit
+2= Detroit Metro Area (excluding Detroit)
+Wayne County (excluding Detroit)
+St. Clair
+Lapeer
+Macomb
+Oakland
+Livingston
+Washtenaw
+Monroe
+3= East Region of the State
+Cheboygan Bay Presque Isle
+Huron Otsego Sanilac
+Montmorency Tuscola Alpena
+Saginaw Crawford Gratiot
+Oscoda Clinton Alcona
+Shiawassee Roscommon Genesee
+Ogemaw Eaton Iosco
+Ingham Clare Jackson
+Gladwin Hillsdale Arenac
+Lenawee Isabella Midland
+4= West Region of the State
+Emmet St. Joseph Charlevoix
+Cass Antrim Berrien
+Leelanau Van Buren Benzie
+Kalamazoo Grand Traverse Kalkaska
+Manistee Wexford Missaukee
+Mason Lake Osceola
+Oceana Newaygo Mecosta
+Montcalm Ionia Kent
+Ottawa Muskegon Allegan
+Barry Calhoun Branch
+5= Upper Peninsula
+Delta Schoolcraft Mackinac
+Chippewa Luce Alger
+Menominee Dickinson Marquette
+Iron Baraga Houghton
+Keweenaw Ontonagon Gogebic
+49
+
+=== page 53 ===
+References
+American Psychiatric Association. (1987). Diagnostic and statistical manual of mental
+disorders (3rd ed.-rev). Washington, DC: Author.
+Blalock, H.M. (1979). Social Statistics, Revised 2nd edition. New York: McGraw-Hill.
+British Columbia Problem Gambling Prevalence Study. (2003). Ministry of Public
+Safety and Solicitor General.
+Groves, R., Fowler, F.J., Couper, M.P., Lepkowski, J.M., Singer, E., and Tourangeau, R.
+(2004). Survey Methodology. Hoboken: Wiley.
+Gullickson, A. and Hartmann, D.J. (1997). Compulsive Gambling in Michigan: Final
+Report. A report to the Bureau of State Lottery. Kalamazoo: The Evaluation Center in
+collaboration with the Leonard C. Kercher Center for Social Research.
+Hartmann, D.J., Gullickson, A., and Wiersma, W. (1999). A Survey of Gambling
+Behaviors in Michigan, 1999. A report to the Michigan Department of Community Health.
+Kalamazoo: Evaluation Center and Kercher Center for Social Research.
+Hartmann, D.J., and Gullickson, A. (2001). A Survey of Gambling Behaviors in
+Michigan, 2001. A report to the Michigan Department of Community Health. Kalamazoo: The
+Evaluation Center in conjunction with the Kercher Center for Social Research.
+Lesieur, H. R., and Blume, S. (1987). The South Oaks gambling screen (SOGS): A new
+instrument for the identification of pathological gamblers. American Journal of Psychiatry,
+144(9), 1184-1.
+Massey, D.M., and Tourangeau, R. (2013). The Nonresponse Challenge to Survey and
+Statistics, The Annals of the American Academy of Political and Social Science. Los Angeles,
+CA: SAGE
+United States Census (1998). Population Estimates for the U.S., Regions, and States by
+Selected Age Groups and Sex: Annual Time Series, July 1, 1990 to July 1, 1998.
+(www.census.gov/population/estimates/state/sage9890.txt).
+Volberg, R. A. (1995a). Gambling and problem gambling in Georgia. (Report to the
+Georgia Department of Human Resources). Roaring Spring, PA: Gemini Research.
+Volberg, R. A. (1995b). Gambling and problem gambling in Iowa: A replication
+survey. (Report to the Iowa Department of Human Services, Division of Mental Health and
+Developmental Disabilities, Gambling Treatment Program). Des Moines: Iowa Department of
+Human Services.
+Volberg, R. A. (1996a). Prevalence studies of problem gambling in the United States.
+Journal of Gambling Studies, 12 (12), 111-128.
+50
+
+=== page 54 ===
+Volberg, R. A. (1996b). Wagering and problem wagering in Louisiana. (Report to the
+Louisiana Economic Development & Gaming Corporation). Roaring Spring, PA: Gemini
+Research.
+Volberg, R. A. (1996c). Gambling and problem gambling in New York: A 10-year
+replication survey, 1986 to 1996. (Report to the New York Council on Problem Gambling).
+Roaring Spring, PA: Gemini Research.
+Volberg, R. A. (2004). “Fifteen years of problem gambling prevalence research: What
+do we know? Where do we go?” Gambling: The Electronic Journal of Gambling Issues.
+(http://www.camh.net/egambling/issue10/ejgi_10_volberg.html).
+Volberg, R. A., Nysse-Cariss, K. L., and Gerstein, D. R. (2006). 2006 California
+Problem Gambling Prevalence Survey: Final Report. Chicago: NORC.
+Williams, R. J., Volberg, R. A., and Stevens, R. M.G. (2012). The Population
+Prevalence of Problem Gambling: Methodological Influences, Standardized Rates,
+Jurisdictional Differences, and Worldwide Trends. Report prepared for the Ontario Problem
+Gambling Research Centre and the Ontario Ministry of Health and Long Term Care. May 8,
+2012. http://hdl.handle.net/10133/3068.
+51

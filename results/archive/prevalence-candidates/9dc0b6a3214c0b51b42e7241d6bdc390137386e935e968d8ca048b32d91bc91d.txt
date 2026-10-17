@@ -1,0 +1,1700 @@
+=== page 1 ===
+1
+FISCAL YEAR 2025-26
+Gambling Behaviors,
+Attitudes, and Experiences
+Among Arizona Adult
+Residents
+SUMMARY OF SURVEY FINDINGS
+Prepared by Problem Gambling Solutions, Inc.
+Jeffrey Marotta, Ph.D. & Glenn Yamagata, MPhil.
+June 2026
+
+=== page 2 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 2
+SUMMARY OF SURVEY FINDINGS 2026
+Executive Summary
+This report summarizes findings from the FY2025-26 Arizona Adult Gambling Survey conducted for
+the Arizona Department of Gaming, Division of Problem Gambling. The study was completed by
+Problem Gambling Solutions, Inc. in collaboration with the National Opinion Research Center
+(NORC) at the University of Chicago using a weighted survey sample designed to represent the
+Arizona adult population. The survey combined respondents from NORC’s probability-based
+AmeriSpeak Panel with supplemental non-probability participants to improve efficiency and
+subgroup representation. Statistical weighting procedures were applied to align the final sample
+with the demographic characteristics of Arizona adults. The survey serves as a three-year follow-up
+to the FY2022-23 study1 and was designed to monitor changes in gambling participation, gambling-
+related harm, public awareness of problem gambling services, attitudes toward gambling, and
+emerging gambling trends in Arizona.
+Overall, gambling participation remained stable compared to FY2022-23,1 with 84% of Arizona
+adults reporting participation in at least one gambling activity during the past year. However, several
+important changes were observed including increases in gambling frequency, growth in online and
+mobile sports wagering, greater participation in cryptocurrency-related activities, and the
+emergence of newer activities, such as prediction markets.
+Similar to findings from the FY2022-23 study,1 approximately one
+Surveys are
+in five Arizona adults experienced some level of gambling-related
+a compass –
+harm, with an estimated 4% likely meeting diagnostic criteria for a
+Not a GPS
+gambling disorder. Elevated risk was concentrated among younger
+adults and individuals who gamble more frequently, engage in
+Survey data are
+sports betting, and participate in multiple forms of gambling,
+intended to help
+particularly online and app-based activities.
+understand general
+direction and emerging
+The survey also identified strong relationships between gambling-
+trends, not provide
+related harm and broader behavioral health concerns, including
+perfectly precise
+mental health conditions, substance use, and other potentially
+measurements.
+problematic behaviors such as gaming and excessive internet use.
+Findings should be
+At the same time, awareness of Arizona’s problem gambling
+interpreted with
+helpline and support resources increased substantially since
+appropriate caution,
+FY2022-23, suggesting that statewide awareness and outreach
+recognizing the
+efforts are having a measurable impact.
+inherent limitations
+and uncertainty
+The findings indicate that gambling-related harm remains an
+present in all survey
+important public health concern in Arizona and provide support for
+research.
+continued investment in prevention, education, treatment,
+recovery, support services, and responsible gambling initiatives.
+
+=== page 3 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 3
+SUMMARY OF SURVEY FINDINGS 2026
+Key Findings
+1) Gambling participation remained stable, although gambling
+frequency increased.
+84% of Arizonans reported having gambled in the past 12 months, a rate comparable to
+FY2022-23.
+The percentage of Arizonans gambling weekly or more increased from 25% to 30%.
+Arizona Lottery participation remained the most common gambling activity.
+2) Sports wagering and cryptocurrency-related activities increased.
+Participation in sports wagering increased by 22% compared to FY2022-23.
+Cryptocurrency-related activities increased by 21%.
+22% of Arizonans reported online or app-based sports wagering.
+3) Approximately one in five Arizona adults
+Problem gambling risk was
+experienced gambling-related problems.
+assessed using the
+Approximately 18% of Arizona adults fell within the Problem Gambling Severity
+moderate- to high-risk category on the Problem Gambling Index (PGSI), a widely used
+Severity Index. validated screening
+Elevated gambling-related risk was strongly associated with instrument that measures
+online gambling, sports wagering, prediction markets, and the severity of gambling-
+eSports betting. related harm within the
+general population.2,3
+4) Awareness of gambling help resources increased substantially.
+Awareness of Arizona’s 1-800-NEXT-STEP helpline increased by 40% from FY2022-23.
+Awareness through digital and social media increased, while traditional media awareness
+declined.
+Awareness of voluntary self-exclusion programs remained relatively stable.
+
+=== page 4 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 4
+SUMMARY OF SURVEY FINDINGS 2026
+5) Public support for gambling harm-reduction initiatives remained
+strong.
+Most Arizonans supported voluntary self-exclusion programs, prevention initiatives, and
+treatment services.
+Support increased for Arizona taking a leadership role in reducing gambling-related harm.
+Concern regarding the impact of gambling advertising on youth increased substantially.
+Practice and Policy Implications
+Sustain investment in gambling harm prevention and treatment services.
+Gambling-related harm remains a significant public health concern in Arizona, with
+approximately one in five adults reporting some level of gambling-related problems.
+Prioritize prevention efforts for higher-risk populations.
+Younger adults and individuals who gamble frequently, engage in sports betting, or participate in
+multiple forms of gambling demonstrated elevated rates of gambling-related risk.
+Strengthen responsible gambling protections within online gambling
+environments.
+The continued growth of online and mobile sports wagering highlights the importance of
+integrating responsible gambling messaging, safer gambling tools, and self-exclusion resources
+directly into gambling platforms.
+Continue expanding public awareness and education efforts.
+Increased awareness of Arizona’s problem gambling helpline suggests that statewide public
+awareness campaigns are having a measurable impact, although important knowledge gaps
+remain.
+Integrate gambling-related screening into broader behavioral health systems.
+Gambling-related harm was strongly associated with mental health conditions, substance use,
+and other behavioral concerns, supporting benefit for greater integration of gambling-related
+screening and intervention within healthcare and behavioral health systems.
+
+=== page 5 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 5
+SUMMARY OF SURVEY FINDINGS 2026
+Table of Contents
+Introduction 07
+Research Design 08
+Report Design 09
+Sample Profile 10
+Gambling Activities 12
+Gambling Motivations 17
+Problem Gambling 18
+Substance Use While Gambling 26
+Self-Reported Efforts to Stop, Cut Back, or Concerns
+Raised by Others 27
+Voluntary Self-Exclusion 28
+Information-Seeking Behavior 29
+Health Care Screening 33
+Attitudes and Beliefs 34
+Practice and Policy Implications 40
+Limitations 42
+Conclusion 43
+References 44
+
+=== page 6 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 6
+SUMMARY OF SURVEY FINDINGS 2026
+Acknowledgements
+This report was developed through a collaborative effort involving the project sponsor, the Arizona
+Department of Gaming (ADG), Division of Problem Gambling; its contractor, Problem Gambling
+Solutions, Inc.; and subcontractor, the National Opinion Research Center (NORC) at the University
+of Chicago.
+The authors extend their sincere appreciation to the many partners, collaborators, and supporters
+who contributed to this effort. In particular, we acknowledge the leadership and ongoing support of
+the Arizona Department of Gaming, Division of Problem Gambling, including Elise Mikkelsen, Jay
+Herycyk, Jacqueline Odena, Kristin Campbell, and Davina Mena.
+We also thank the approximately 1,050 Arizonans who participated in the survey and generously
+shared their experiences and perspectives. Their participation made this research possible. In
+addition, we acknowledge the AmeriSpeak project team for their expertise in survey sampling
+methodology, data collection, and survey implementation.
+At Problem Gambling Solutions, Inc., Jeffrey Marotta, PhD, served as Principal Investigator, and
+Glenn Yamagata served as Lead Research Scientist. Graphic design and report formatting were
+provided by Jade Marotta.
+For further information about For further information about
+the ADG Division of Problem this study, please contact the
+Gambling, please contact: Principal Investigator:
+Elise Mikkelsen Jeffrey Marotta, PhD, ICGC-II
+Director, Division of Problem Gambling Problem Gambling Solutions, Inc.
+Arizona Department of Gaming President & Senior Consultant
+emikkelsen@problemgambling.az.gov jeff@problemgamblingsolutions.com
+www.problemgambling.az.gov www.problemgamblingsolutions.com
+The views and opinions expressed in this report are those of the authors and do not necessarily
+reflect the views of the Arizona Department of Gaming.
+Marotta, J., & Yamagata, G. (2026). Gambling Behaviors, Attitudes, and Experiences
+among Arizona Adult Residents. Phoenix, AZ: Arizona Department of Gaming.
+
+=== page 7 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 7
+SUMMARY OF SURVEY FINDINGS 2026
+Introduction
+The Arizona Department of Gaming (ADG) serves as the primary regulatory and enforcement
+authority for tribal gaming, event wagering and fantasy sports contests, racing and pari-
+mutuel/simulcast wagering, and unarmed combat sports. Arizona currently has more than 20 Class
+III casinos operated by federally recognized Arizona Tribes, as well as multiple licensed
+sportsbooks, including internet- and app-based platforms that allow for event wagering and fantasy
+sports contests. In addition to its regulatory responsibilities, ADG provides and supports prevention,
+education, and treatment programs for individuals and families affected by problem gambling
+through its Division of Problem Gambling (DPG).
+In Fiscal Year (FY) 2022-23, the DPG commissioned a study to evaluate the effectiveness of its
+problem gambling programs, including public awareness and prevention initiatives, treatment
+services, and voluntary casino and event wagering self-exclusion programs. As part of that effort, a
+survey of Arizona residents aged 21 and older was designed and fielded to better understand
+population-level gambling behaviors, attitudes, problem gambling severity rates, and other factors
+that can guide program improvements.1
+P r o b l e m G a m b l i n g is used
+This report presents the results of a three-year follow-
+within this report as an umbrella
+up survey conducted to build on that initial work. The
+term signifying gambling behavior
+survey enables the measurement of changes over time
+patterns that compromise, disrupt,
+in key gambling-related factors, allowing the DPG to
+or damage personal, family, or
+understand how the gambling landscape evolves,
+vocational pursuits. Problem
+assess the effectiveness of its programs, and guide
+gambling occurs along a
+ongoing improvements to programs and services.
+continuum from mild to severe.
+This follow-up survey also expands the range of
+gambling activities examined to reflect the emergence
+G a m b l i n g D i s o r d e r falls within
+of non-traditional forms of gambling, such as prediction
+the severe range of problem
+markets. In addition, it incorporates health-related
+gambling. It is a clinical term used
+questions to explore the relationship between gambling
+to describe persistent and
+behaviors and overall well-being, including physical and
+recurrent problematic gambling
+mental health conditions.
+behavior leading to clinically
+significant impairment or distress.
+Together, these enhancements provide important
+Gambling Disorder is categorized
+context for identifying co-occurring challenges,
+as an Addiction Disorder and
+understanding risk factors, and supporting more
+recognized as a medical condition
+integrated, holistic approaches to problem gambling
+by the American Psychiatric
+prevention and treatment.
+Association.5
+
+=== page 8 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 8
+SUMMARY OF SURVEY FINDINGS 2026
+Research Design
+This survey utilized a probability-based panel sampling
+approach which combines the advantages of online How the Survey Measured
+survey administration with the rigor of probability Gambling Harm: The Problem
+sampling methods. Online panels are increasingly Gambling Severity Index
+common in survey research due to their ability to reduce (PGSI)
+costs and data collection time while maintaining reliable
+estimates when properly designed and weighted.* The PGSI is an empirically
+validated and widely used 9-item
+The FY2025-26 survey was designed as a three-year tool that measures the severity of
+follow-up to a comparable statewide survey conducted in gambling problems, focusing on
+FY2022-23. To support longitudinal comparisons, the both behavioral dependence and
+study employed largely the same methodology and negative consequences.2,3 It
+retained most of the original questions. The survey was identifies gambling risk levels (low,
+conceived as an ongoing surveillance measure to moderate, or high) among
+monitor trends in gambling behaviors, attitudes, individuals by assessing financial,
+knowledge, and problem gambling risk among Arizona social, and emotional harm. PGSI
+adults over time, replicating the survey every three scores of 4-7 place a person in
+years. the “moderate-risk” category,
+suggesting some negative
+The survey was fielded in December 2025 and collected consequences. 8 or more
+information on a range of gambling-related factors, indicates “high risk” gambling with
+including: (1) gambling activities and motivations; (2) negative consequences and a
+problem gambling risk levels; (3) information-seeking possible loss of control. Based on
+behaviors related to problem gambling services, studies that investigated the
+including the 1-800-NEXT-STEP helpline; (4) awareness positive predictive value of the
+of self-exclusion options; (5) substance use; (6) physical PGSI, it is estimated that about
+and mental health status; and (7) general attitudes and half of those scoring in the “high
+beliefs about gambling, problem gambling, and risk” range would meet the
+government responsibilities related to problem gambling medical diagnosis for a Gambling
+prevention; and (8) demographic information. Disorder if fully assessed.6
+The survey was conducted by the National Opinion Research Center (NORC) at the University of
+Chicago using its proprietary AmeriSpeak Panel, supplemented by the third-party Dynata panel, to
+recruit English-speaking adult Arizona residents. The analyses in this report were limited to
+respondents aged 21 and older, consistent with the earlier FY2022-23 survey and aligned with the
+minimum legal age for gambling in Arizona.
+*To obtain this report’s supplemental Technical Report, detailing survey methods, please contact Elise Mikkelsen at
+emikkelsen@problemgambling.az.gov.
+
+=== page 9 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 9
+SUMMARY OF SURVEY FINDINGS 2026
+The final dataset consisted of 1,047 participants after removing responses that did not meet quality
+standards, such as those with high item nonresponse rates or completion times less than one-third
+of the median survey duration (13 minutes). The dataset includes TrueNorth calibration weights,
+allowing weighted estimates based on the sample that can be generalized to the Arizona adult
+population.
+Caution should be taken against treating survey results as the absolute truth. Instead, these survey
+findings are best used to understand general trends and make more informed strategic decisions.
+There are inherent limitations and potential for errors in any survey.7 A fuller discussion of the
+limitations inherent in survey research is provided within the “Limitations” section found on page 42.
+Report Design
+This report is designed to enhance readability and accessibility through the use of interpretive
+graphics, highlighted key findings, and a concise presentation of results. More detailed information
+regarding survey procedures, sampling, weighting, and analytic methods is provided in a separate
+Technical Report.
+Unless otherwise noted, statistical significance is assessed at the 5% level (p < .05). In some
+instances, findings that do not meet conventional thresholds for statistical significance are
+nonetheless discussed when they are considered potentially informative. This typically occurs when
+results approach statistical significance and suggest meaningful patterns that may have reached
+significance with a larger sample size.
+Percentage changes and related metrics reported in the text are calculated using unrounded data.
+However, values displayed in tables and figures are generally rounded to the nearest decimal point.
+As a result, minor discrepancies may occasionally appear between reported percentages and
+calculated differences.
+The analyses presented in this report are limited to Arizona residents aged 21 and older. For
+brevity, this population is often referred to throughout the report simply as Arizonans, respondents,
+or participants.
+Within this report, the current survey is referred to as the FY2025-26 survey and the prior survey is
+referred to as the FY2022-23 survey.
+
+=== page 10 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 10
+SUMMARY OF SURVEY FINDINGS 2026
+Where relevant, comparisons are also made to surveys conducted in Oregon8 and Nevada,9 as
+these studies employ similar question sets and comparable probability-based sampling
+methodologies. All three states maintain substantial problem gambling service systems, contain
+both urban and rural population centers, and encompass geographically large and diverse regions.
+Arizona and Oregon share broadly similar gambling environments, whereas Nevada’s gambling
+landscape is distinct in both scale and availability. Cross-state comparisons are presented
+selectively and only when they provide meaningful context or interpretive value.
+Sample Profile
+Ninety-nine percent of participants reported living in Arizona for at least one year. Figure 1
+summarizes the sample by gender, age, and race/ethnicity. The sample was evenly divided
+between males and females. Adults aged 60 and older represented the largest age group, while
+participants aged 30-44 and 45-59 were represented at similar rates. White, non-Hispanic
+respondents comprised slightly more than half of the sample, and Hispanic respondents accounted
+for nearly one-third. Overall, the sample demographics generally approximated the adult Arizona
+population based on U.S. Census estimates.
+Figure 1
+Gender Age Race/Ethnicity
+N=1,047 N=1,047 N=1,047
+21-29 15.3%
+30-44 25.7%
+White, non-Hispanic 54.5%
+Hispanic 31.9%
+45-59 25.4%
+Black, non-Hispanic 5.3%
+Female 50.9%
+Asian-Pacific 3.4%
+Islander, non-Hispanic
+60+ 33.6%
+Male 49.1% Other* 4.9%
+* Other includes 2+, non-Hispanic and Other, non-Hispanic
+
+=== page 11 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 11
+SUMMARY OF SURVEY FINDINGS 2026
+Figure 2 presents educational attainment and marital status. Approximately two-thirds of
+participants reported at least some college education, including nearly one-quarter with a
+bachelor’s degree and 15% with postgraduate education. Nearly half of the respondents were
+married, while about one-third had never married.
+Figure 2
+Highest Level of Educational Attainment Marital Status
+N=1,047 N=1,047
+Less than HS 4.4% Married 45.1%
+HS graduate or equivalent 25.5% Never Married 32.2%
+Some college/associates degree 31% Divorced 13.7%
+Bachelor's degree 23.8% Widowed 5.8%
+Post grad study/professional degree 15.3% Separated 3.1%
+Figure 3 summarizes household income. Approximately one-quarter of respondents reported
+household incomes between $60,000 and $100,000, and a similar proportion reported incomes of
+$100,000 or more. About one in five participants reported household incomes below $30,000.
+Figure 3
+About 11% of respondents
+Less than $30,000 18.7% identified as veterans, and 97%
+resided in metropolitan areas,
+$30,000 to under $60,000 30.4%
+approximating the geographic
+$60,000 to under $100,000 25% distribution of Arizona’s adult
+population.
+$100,000 or more 26%
+
+=== page 12 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 12
+SUMMARY OF SURVEY FINDINGS 2026
+Gambling Activities
+Gambling is defined as the wagering of something of value on a game or contest of
+chance or skill, or on a future contingent event, with the intent of winning a benefit.*
+Arizona offers a wide range of legal gambling opportunities from state-regulated options such as
+the lottery, bingo, pari-mutuel wagering, and sports and fantasy-sports betting, to more informal
+activities such as skill-based competitions and office pools. The state is home to 26 Class III tribal
+casinos,10 representing an increase of two since the survey was last fielded in FY2022-23. Slightly
+more than half (54%) of survey respondents reported living within 10 miles of a casino.
+Eighty-four percent of survey participants reported betting or spending money in the past year on at
+least one of the 20 gambling activities included in the survey, representing a non-significant
+decrease of 1.3% compared to FY2022-23. By comparison, a 2024 study conducted in Oregon
+found that 68% of adults aged 21 and older engaged in gambling in the past year,8 while a 2022
+study conducted in Nevada reported a participation rate of 65%.9 Both studies used survey
+methodologies similar to those of the Arizona survey. These findings suggest that gambling
+participation rates in Arizona are substantially higher than those observed in Oregon and Nevada,
+by approximately 24% and 30%, respectively.
+Males were 12% more likely to gamble than females (89% vs. 79%) and the average age of
+respondents who reported gambling was 50 years old. Participation was highest among those aged
+45-59 (92%) and lowest among those aged 60 and older (78%). Although Arizonans with a high
+school education or equivalent had the lowest participation rate (76%), there was no clear
+association between higher levels of educational attainment and gambling participation, nor was
+there a consistent pattern with regard to household income.
+In terms of gambling frequency, 57% of Arizonans reported gambling less than monthly, 13%
+reported gambling about once a month but less than weekly, and 30% reported gambling at least
+once a week. Compared to FY2022-23, the share of respondents who reported gambling weekly
+increased by 22%, indicating a notable increase in gambling frequency even as overall participation
+rates remained stable across survey periods.
+Figure 4 presents gambling participation rates across the 20 gambling activities included in the
+survey. Wagering on the Arizona Lottery was the most common activity, followed by slot machines,
+raffle tickets, card games, and skill-based competitions, each of which was reported by at least one
+in four Arizonans aged 21 and older.
+*This definition reflects the unique statutory scope of Arizona law under A.R.S. § 13-3301(6), which atypical from many other jurisdictions because it
+explicitly eliminates the traditional legal distinction between games of chance and games of skill, classifying both identically as gambling.
+
+=== page 13 ===
+Figure 4 - Past Year Gambling Participation Rates by Activity
+ytivitcA
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 13
+SUMMARY OF SURVEY FINDINGS 2026
+Arizona Lottery scratch tickets or draw games 6140.07%%
+Slot machines 4648.3.5%%
+Raffle tickets, including supporting charities 4603.8.1%%
+Card games with friends, family, or others (not at a casino) 3554.1.3%%
+Competitions between you and others in games of personal skill 3406.2.7%%
+Video poker, video keno, or video blackjack 2460.0.2%%
+Table games at a casino 2348.6%%
+Bingo 2313.7.5%%
+SSppoorrttss bbooookkss lliikkee BBeett MMGGMM aanndd DDrraaffttKKiinnggss 2301.5.7%%
+Office pools such as college basketball tournaments 2301.2.2%%
+Cryptocurrency and related activities (e.g., NFTs, DeFi) 1277.8.5%%
+Fantasy sports leagues or games 1277.7.4%%
+High-risk or day trading of stocks and commodities 1276.0.3%%
+Other games, activities, or events not listed 1265.2%%
+Online gambling othOenr ltihnaen g sapmobrtlisn gb ooothkse r( Itlhleagna sl pino Artsribzooonkas) 1264.0.7%%
+Buying credits, tokens, or virtual currency for social gaming 1117..46%%
+Horse racing wagering 1105..39%%
+eSports (e.g., wagering on video game leagues) 171..79%%
+Live keno 171..67%%
+Prediction markets, such as Kalshi and Polymarket 75..91%%
+* Samples sizes vary by response, but all estimates are based on at least 1,033 observations.
+Playing the lottery was also the most common activity engaged in on a weekly or more frequent
+basis, reported by 14% of participants. Sportsbook wagering was the second most common (10%),
+followed by competitions among individuals in skill-based games (7%) and fantasy sports (6%).
+The relative ranking of gambling activities in FY2025-26 was closely aligned with that observed in
+FY2022-23. The largest increases were observed in sportsbooks (22%), cryptocurrencies (21%),
+online gambling other than sportsbooks (17%), and fantasy sports leagues or games (13%). These
+increases are consistent with national trends, including growth in sports wagering, the emergence
+of new forms of gambling (e.g., cryptocurrencies), and online wagering. However, only the growth in
+sportsbooks and cryptocurrencies were statistically significant. The largest declines were observed
+in buying credits, tokens, or virtual currency on social casinos (11%) and eSports (9%); however,
+these differences were not statistically significant.
+Twelve percent of Arizonans living within 10 miles of a casino reported that proximity increases their
+likelihood of gambling, consistent with findings from FY2022-23.
+
+=== page 14 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 14
+SUMMARY OF SURVEY FINDINGS 2026
+Sports Wagering
+Sports wagering was launched in Arizona in September 2021, allowing betting at licensed retail
+sports books and through licensed online platforms. As shown in Figure 4, 21% of Arizonans
+reported wagering at sports books such as DraftKings and BetMGM. Males were 2.2 times more
+likely to engage in sports wagering than females (28% vs. 13%), and younger Arizonans were more
+likely to participate than older Arizonans, with rates as high as 33% among those aged 21-29 and
+as low as 7% among those aged 60 and older. Moreover, Arizonans who identify as non-Hispanic
+Black and Hispanic were 2.1 and 1.7 times more likely, respectively, to engage in sports wagering.
+Over the past 12 months, 30% of survey participants reported attending professional or collegiate
+sporting events, a significant increase from 17% in FY2022-23. Additionally, 14% of Arizonans
+reported betting money on Arizona’s professional or collegiate sports teams, a rate comparable to
+FY2022-23. These findings suggest that while more Arizonans are attending sporting events,
+participation in wagering on Arizona-based teams has remained relatively stable.
+In FY2025-26, 22% of Arizonans reported engaging in legal sports betting using online or app-
+based platforms, compared to 16% who reported betting at physical locations. This indicates a
+preference for online and mobile wagering relative to in-person betting. Males were more than twice
+as likely as females to use online or app-based platforms, consistent with their higher overall
+participation in sports betting. Similarly, males were nearly three times as likely as females to place
+sports wagers at physical locations.
+Younger Arizonans, aged 21-29, had the highest usage rate of online or app-based sports platforms
+at 32%, with usage declining with age, reaching 8% among those aged 60 and older. Arizonans
+who identify as non-Hispanic Black and Hispanic were 2.4 and 2 times more likely, respectively, to
+use online or app-based platforms, partly reflecting their higher rates of engagement in sports
+wagering overall.
+Arizonans who use online or app-based sports wagering are more than three times as likely (68%
+versus 20%) to gamble weekly, or more often. Moreover, those who use online or app-based sports
+platforms are substantially more likely to engage in sports wagering at least weekly (43% versus
+0.3%). These findings are consistent with the broader pattern that app-based sports wagering is
+associated with higher levels of gambling engagement and highlight the role that digital platforms
+may play in increasing the frequency of participation.
+
+=== page 15 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 15
+SUMMARY OF SURVEY FINDINGS 2026
+Prediction Markets
+Prediction markets are platforms that allow participants to wager on the outcomes of future events,
+such as political elections, weather patterns, and sporting events. While these platforms have
+existed for decades, they have recently expanded in scope, accessibility, and visibility. Platforms
+such as Kalshi have expanded the range of events people can wager on. They have also increased
+accessibility through app-based platforms and integration with widely used financial applications
+such as Robinhood, and platforms associated with traditional sports betting brands like DraftKings
+and FanDuel.
+A key policy concern is that prediction markets operate under a different regulatory framework than
+traditional gambling. Platforms such as Kalshi are overseen at the federal level as financial
+exchanges, whereas legal gambling activities in Arizona are regulated at the state level and include
+consumer protections, such as restricting gambling to individuals aged 21 and older and providing
+operator oversight. As a result, prediction markets are not subject to the same safeguards that
+apply to state-regulated gambling activities, creating gaps in consumer protection.
+The State of Arizona's position is that certain prediction markets constitute gambling under Arizona
+law and are operating illegally in the state. Arizona is one of numerous states currently in litigation
+with prediction market operators and the Commodities Futures Trading Commission. The current
+litigation highlights the ongoing legal and regulatory uncertainty surrounding prediction markets.
+Given the rapid growth of prediction markets, this survey examined participation in platforms such
+as Kalshi and Polymarket. Over the past year, 5% of survey participants reported betting on these
+markets. Males were more than twice as likely as females to participate (7% vs. 3%). Arizonans
+aged 21-29 had the highest participation rate at 10%, with participation declining steadily with age
+to 1% among those age 60 and older, indicating a significant negative association between age and
+prediction market participation.
+Arizonans who gambled more frequently were significantly more likely to participate in prediction
+markets. Compared to those who gambled less often, individuals who gambled more than monthly
+but less than weekly were 7.3 times more likely to participate, while those who gambled weekly or
+more were 24.3 times more likely to do so.
+The survey also explored awareness of non-traditional financial or digital activities that may involve
+elements similar to gambling. Figure 5 displays these results. Awareness of these gambling-like
+financial products varies considerably across categories. Cryptocurrencies are the most widely
+recognized, with 53% of respondents reporting being very or somewhat aware, followed by NFTs
+(31%). Awareness of other financial products with gambling-like elements is substantially lower.
+
+=== page 16 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 16
+SUMMARY OF SURVEY FINDINGS 2026
+These findings suggest that public awareness is concentrated in more widely discussed topics,
+such as cryptocurrencies, while newer or more complex systems remain less understood.
+Awareness is an important precursor to participation: people cannot engage in an activity if they are
+not aware of it. Prediction markets had an awareness rate of 14%, which is 2.7 times higher than
+the 5% participation rate shown in Figure 4, indicating a substantial pool of individuals who are
+aware but not yet participating.
+Figure 5 - How familiar are you with the following financial or digital activities that
+may involve elements similar to gambling?*
+Cryptocurrencies (e.g., Bitcoin, Ethereum) 53%
+NFTs (e.g., Bored Apes, digital collectibles) 31.2%
+Stablecoins (e.g., USDC, Tether) 16.3%
+Asset Tokenization (e.g., fractional ownership of assets) 15.9%
+Prediction Markets (e.g., Kalshi, Polymarket) 13.7%
+Decentralized Finance platforms (e.g., UniSwap, Aave) 11.3%
+*Samples sizes vary by response, but all estimates are based on at least 1,034 observations.
+Other Illegal Gambling Activities
+Figure 4 shows that 16% of Arizonans engage in online gambling activities other than sports
+betting, compared to 14% in FY2022-23. While this represents a 17% relative increase, the
+absolute difference is only 2.4 percentage points and is not statistically significant. †
+Males were 2.4 times more likely than females to engage in these activities (23% vs. 10%).
+Younger Arizonans (aged 21-29) had the highest participation rate of 35%, while those aged 60 and
+older had the lowest rate of 5%. Similarly, participation was highest among those with the lowest
+levels of educational attainment (39% among those with less than a high school education) and
+lowest among those with the highest levels of education (7%), with rates declining steadily as
+educational attainment increases.
+†This highlights an important distinction: relative changes can appear large when the baseline is small, but statistical significance depends on the
+magnitude of the absolute difference relative to the variability in the data, not the relative percentage change.
+
+=== page 17 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 17
+SUMMARY OF SURVEY FINDINGS 2026
+Gambling Motivations
+To better understand the underlying motivations of gambling behavior, the survey asked
+respondents to indicate their motivations for engaging in gambling activities. (Participants were
+allowed to select more than one reason.) These motivations reflect a range of social, emotional,
+and financial factors, including social interaction, excitement, financial gain, and coping or escape.
+Examining these motivations provides important context for understanding not only why individuals
+gamble, but also how different patterns of engagement may be associated with varying levels of
+risk.
+Figure 6 displays the results. The most common motivations for gambling are winning money,
+followed by excitement or challenge, and then socializing with friends and family. These patterns
+are largely consistent with those reported in FY2022-23. The average number of motivations
+reported was 1.6, the same rate found in FY2022-23. Males reported slightly more motivations than
+females (1.7 vs. 1.5); however, this difference is not statistically significant.
+Males were more likely than females to report “being alone, away from everyone” and “as a
+distraction from everyday problems” as reasons for gambling, while females were more likely to cite
+“socializing with friends and family” as a motivation. By age, gambling “for excitement or as a
+challenge” peaks among respondents aged 21-29 and is lowest among those aged 60 and older
+(56% vs. 33%). Similarly, respondents aged 21-29 were 3.5 times more likely than those aged 60
+and older to report “being alone, away from everyone” (11% vs. 3.2%).
+Figure 6 - Which of the following best describes the most common reason(s) you
+gamble? (N=881)
+To win money 59%
+For the excitement or as a challenge 36.8%
+Socializing with friends/family 34.6%
+As a distraction from everyday problems 15%
+Other 10%
+Being alone, away from everyone 6.5%
+
+=== page 18 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 18
+SUMMARY OF SURVEY FINDINGS 2026
+Problem Gambling
+To assess gambling-related risk among Arizonans aged 21 and older, the survey utilized the
+Problem Gambling Severity Index (PGSI), a widely used screening tool designed to identify varying
+levels of gambling-related harm.2,3,6 Measuring problem gambling is important because harm does
+not occur only among those with the most severe symptoms; rather, it exists along a continuum,
+with individuals at lower levels of risk still experiencing meaningful negative consequences.
+Identifying individuals who are at risk is critical for early intervention and prevention, as these
+individuals may be more likely to experience escalating harms over time.
+The PGSI consists of nine items that ask respondents how often they have experienced specific
+gambling-related issues, such as betting more than they could afford to lose or chasing losses.
+Responses are recorded on a four-point Likert scale: “Never” (0), “Sometimes” (1), “Most of the
+time” (2), and “Almost always” (3). Item scores are summed, and respondents are classified into the
+following categories based on their total score:
+Minimum-risk (0): No measurable gambling-related harm
+Low-risk (1-2): Minor or occasional issues
+Moderate-risk (3-7): Some negative consequences and elevated risk of escalation
+High-risk for Problem Gambing (8 or more): Significant gambling-related harm
+In short, the PGSI provides a standardized measure of gambling-related harm across a continuum
+of severity and serves as a useful tool for monitoring trends in gambling-related harm over time.
+Figure 7 shows the percentage of survey participants who responded “Most of the time” or “Almost
+always” to each of the nine PGSI items. Returning on another day to try to win back money lost
+(“chasing losses”) had the highest endorsement rate (6%), followed by betting more than one could
+afford to lose (6%) and feeling guilty about gambling (4%). The relatively high endorsement of
+chasing losses and betting beyond affordability suggests a loss of control and impaired decision-
+making, while the presence of guilt indicates awareness of negative consequences.
+While there are small differences compared to FY2022-23, none are statistically significant,
+indicating that endorsement patterns for individual PGSI items have remained relatively stable over
+time.
+
+=== page 19 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 19
+SUMMARY OF SURVEY FINDINGS 2026
+Figure 7 - Percent of Arizonans who responded "Most of the Time" or "Almost Always"*
+6.3% Have you gone back on another day to try to win back the money you lost?
+6.3%
+5.8% Have you bet more than you could really afford to lose?
+5.8%
+4.3% Have you felt guilty about the way you gamble or what happens when you gamble?
+4.3%
+4.1% Has gambling caused you any health problems, including stress or anxiety?
+4.1%
+4.1% Have you needed to gamble with larger amounts of money to get the same feeling of
+4.1% excitement?
+3.9% Has your gambling caused any financial problems for you or your household?
+3.9% Have you borrowed money or sold anything to gamble?
+3.8% Have you felt that you might have a problem with gambling?
+2.9% Have people criticized your betting or told you that you had a gambling problem, whether
+or not you thought it was true?
+* Samples sizes vary by response, but all estimates are based on at least 1,035 observations.
+Table 1 shows the distribution of PGSI risk categories across both survey periods. Compared to
+FY2022–23, the share of respondents in the “none” or no negative consequences category
+declined, while the proportion in the low-risk category increased, suggesting a shift toward earlier-
+stage gambling-related risk. In addition, the percentage of Arizonans in the high-risk category
+increased by 9%. Although none of the individual category differences reached statistical
+significance, the overall pattern reflects a statistically significant shift toward higher gambling
+severity in FY2025-26 relative to FY2022-23.†
+Compared to the Oregon and Nevada surveys mentioned previously, which also used the PGSI
+instrument, Arizona had a 40% higher share of respondents in the high-risk category than Oregon
+(8.4% vs. 6.0%) but a 44% lower share than Nevada (8.4% vs. 15.1%).
+Table 1 - PGSI Risk Categories‡
+Risk Category FY2025-26 FY2022-23 % change
+Minimum 64.6% 67.8% -4.8
+Low 17.1% 14.5% 17.9
+Moderate 9.9% 10.0% -0.3
+High 8.4% 7.7% 8.8
+‡For FY2025-26 N=1,046; for FY2022-23 N=1,269
+†While there is evidence of a shift toward higher levels of risk in FY2025-26 compared to FY2022-23, the difference in the high-risk
+category alone is not statistically significant. This is likely because tests based on overall shifts in the distribution use the full sample
+and are more sensitive to change, whereas comparisons of the high-risk category rely on a relatively small subset of respondents.
+
+=== page 20 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 20
+SUMMARY OF SURVEY FINDINGS 2026
+Figure 8 utilizes findings from the PGSI scores to portray the spectrum of gambling-related harm
+across the Arizona adult population. In this depiction, those in the “minimum risk” category
+described in Table 1 were divided into two categories: those who reported not having gambled in
+the past 12-months (16%) and those who gambled and scored a “0” on the PGSI (49%).
+Figure 8 - Gambling Harm Spectrum Among Adult Arizonans
+D i s o r d e r e d G a m b l i n g Arizonans in this category meet the medical diagnosis for
+addiction, marked by an inability to stop or control gambling despite gambling-related
+4%
+serious life disruption
+P r o b l e m G a m b l i n g Arizonans who reported several negative
+4%
+consequences from their gambling, but occurring at a frequency where
+their gambling is not creating significant functional impairment
+10% M o d e r a t e - r i s k G a m b l i n g Arizonans experiencing
+noticeable, yet not severe, negative consequences from
+gambling, such as chasing losses or feeling guilty
+17% L o w - R i s k G a m b l i n g Arizonans who gambled in the
+past 12 months and experienced a small number of less
+severe negative consequences, such as occasionally
+spending over their limit or feeling mild guilt
+M i n i m u m - R i s k G a m b l i n g Arizonans
+49%
+who gambled in the past 12-months and
+did not report any behavioral symptoms or
+adverse consequences
+N o G a m b l i n g Arizonans who
+report not having gambled in
+16%
+the past 12-months
+Percentages are estimates and rounded to the nearest whole number
+The Problem Gambling Severity Index (PGSI) is a screening instrument rather than a diagnostic
+tool, meaning that not everyone classified in the “high-risk” category (PGSI score of 8 or higher) will
+meet clinical criteria for Gambling Disorder. Validation studies generally suggest that the positive
+predictive value (PPV) of the PGSI high-risk category is approximately 49%, indicating that about
+half of individuals identified as high risk are likely to meet diagnostic criteria for Gambling Disorder
+upon clinical assessment.6 Therefore, if 8% of survey participants fall within the PGSI high-risk
+category, it would be reasonable to estimate that approximately 4% of participants would be
+expected to meet the criteria for a Gambling Disorder. This distinction is important because the
+PGSI is designed to identify elevated risk and gambling-related harm at the population level, rather
+than to provide a formal clinical diagnosis. Therefore, the 4% Gambling Disorder figure is an
+estimate that should be interpreted with caution.11
+
+=== page 21 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 21
+SUMMARY OF SURVEY FINDINGS 2026
+Demographic Characteristics
+The survey includes a broad set of questions that enable analysis of how demographic
+characteristics, behaviors, health-related factors, and attitudes are associated with moderate- to
+high-risk gambling severity. These findings are largely consistent with those reported in FY2022-
+23.* Key findings are summarized below.
+Several demographic characteristics were associated with elevated moderate- to high-risk
+gambling severity. Males were 1.5 times more likely than females to fall within the moderate- to
+high-risk categories (22% versus 15%). Risk also declined steadily with age, ranging from 26%
+among Arizonans aged 21-29 to 10% among those aged 60 and older.
+Socioeconomic factors were similarly associated with gambling risk. Arizonans living in households
+with incomes below $30,000 had the highest rate of moderate- to high-risk gambling severity
+(29%), compared to 16% among higher-income groups. Lower levels of educational attainment
+were also associated with greater risk, with rates ranging from 35% among those with less than a
+high school education to 15% among those with postgraduate education.
+Differences were also observed across racial and ethnic groups. Arizonans identifying as Hispanic
+were nearly twice as likely to score in the moderate- to high-risk categories compared to non-
+Hispanic Whites (27% versus 14%). Non-Hispanic White respondents had the lowest statistically
+significant rate overall (12%), compared to 26% among all other racial and ethnic groups combined.
+Marital status also showed meaningful variation. Arizonans who were separated (36%) or never
+married (24%) reported the highest rates of moderate- to high-risk gambling severity. Elevated risk
+among separated individuals may reflect the effects of financial strain, stress, or life disruption while
+the higher rates among never-married respondents may partially reflect the younger age profile of
+this group.
+Gambling Behaviors
+Greater gambling frequency was strongly associated with higher PGSI risk levels for experiencing
+gambling-related harm. Rates of moderate- to high-risk PGSI classification ranged from 39%
+among individuals who gambled at least weekly to 7% among those who gambled once a month or
+less.
+* This report includes several classes of variables that were not part of the FY2022-23 survey, including health and substance use factors that are
+strongly associated with problem gambling risk.
+
+=== page 22 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 22
+SUMMARY OF SURVEY FINDINGS 2026
+Several specific gambling activities were associated with particularly elevated levels of PGSI risk.
+The highest rates of moderate- to high-risk PGSI classification were observed among individuals
+participating in prediction markets (69%), purchasing credits or tokens on social gaming platforms
+(67%), eSports wagering (66%), and online gambling other than sports betting (53%). Sportsbook
+wagering was also strongly associated with elevated risk, with 44% of participants falling within the
+moderate- to high-risk PGSI categories.
+Overall, activities involving online, app-based, or emerging forms of gambling tended to be
+associated with the highest levels of risk for experiencing gambling-related harm.
+Reasons for Gambling
+Certain gambling motivations were strongly associated with elevated risk for experiencing
+gambling-related harm. Arizonans who reported gambling “as a distraction from everyday
+problems” or “to be alone, away from everyone” were 2.6 and 2.3 times more likely, respectively, to
+fall within the moderate- to high-risk PGSI categories compared to those who did not report these
+motivations.
+These findings suggest that the reasons individuals gamble are an important dimension of
+gambling-related risk. Demographic characteristics help identify who may be more vulnerable,
+gambling activities reflect patterns of behavior, and gambling motivations provide insight into the
+underlying psychological and emotional drivers associated with elevated risk. Taken together, these
+factors offer a more comprehensive understanding of gambling-related harm.
+Health
+Figure 9 - Self-reported
+physical health and
+In addition to demographic, motivational, and behavioral factors, the
+PGSI classification (%)
+survey examined the relationship between PGSI risk levels for
+(N=1,046)
+experiencing gambling-related harm and a range of health
+indicators, including self-rated physical health, chronic physical
+conditions, and mental health diagnoses. Examining these 35
+relationships is important because gambling-related harm often co- 30 31.5
+occurs with broader physical and behavioral health challenges. 25 26.1
+20
+15 17.1
+Figure 9 shows a clear relationship between self-reported physical 14.9 15.8
+10
+health and PGSI risk levels. Arizonans who rated their physical
+5
+health as excellent had the lowest rate of moderate- to high-risk
+0
+P
+ha
+G
+d
+S
+t
+I
+h
+c
+e
+l a
+h
+s
+ig
+si
+h
+fi
+e
+c
+s
+a
+t
+t i
+r
+o
+a
+n
+te
+( 1
+(3
+5
+2
+%
+%
+),
+) ,
+w
+c
+h
+o
+il
+m
+e
+p
+th
+a
+o
+re
+s
+d
+e
+t
+r
+o
+a t
+a
+in
+n
+g
+o
+t
+v
+h
+e
+e
+r
+ir
+a l
+h
+l
+e
+a
+a
+v
+l
+e
+th
+ra
+a
+g
+s
+e
+p
+o
+o
+f
+o
+1
+r
+8%. E x c
+ell e n
+V
+t
+er y
+g o o d G o o d F air P o or
+
+=== page 23 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 23
+SUMMARY OF SURVEY FINDINGS 2026
+Several diagnosed physical health conditions were also associated with elevated PGSI risk levels.
+Arizonans reporting liver disease (46%) and insomnia (32%) had significantly higher rates of
+moderate- to high-risk PGSI classification, whereas conditions such as high blood pressure,
+obesity, diabetes, and fibromyalgia were not significantly associated with elevated risk.
+A broader range of mental health conditions was associated with elevated PGSI risk levels.
+Respondents diagnosed with bipolar disorder (45%), ADHD (40%), PTSD (31%), anxiety (27%),
+and depression (25%) all reported substantially higher rates of moderate- to high-risk gambling-
+related harm. Individuals reporting intellectual or developmental disabilities, such as Down
+syndrome, also exhibited elevated rates (41%). In contrast, Autism Spectrum Disorder (ASD) was
+not significantly associated with elevated PGSI risk levels.
+Overall, these findings suggest that poorer physical health and several mental health conditions are
+associated with increased vulnerability to gambling-related harm, with mental health conditions
+showing the strongest and most consistent associations.
+Substance Use
+This section examines the relationship between substance use and PGSI risk levels for
+experiencing gambling-related harm. Understanding these relationships is important as gambling
+and substance use often co-occur and may share common underlying risk factors, including
+impulsivity, coping strategies, and exposure to reinforcing environments.
+Table 2 shows the relationship between substance Table 2 - Substance use and PGSI
+use and moderate- to high-risk PGSI classification. moderate- to high-risk
+Use of cocaine, methamphetamine, and other percentages*
+stimulants was associated with the highest levels of
+risk, with users 3.6 times more likely to fall within
+Cocaine,
+the moderate- to high-risk PGSI categories
+methamphetamine, 54.6%
+compared to non-users. Elevated rates were also other stimulants
+observed among individuals reporting opioid use
+Opioids 53.9%
+(3.4 times higher risk), tobacco or nicotine use (2.6
+times higher), and cannabis use. Alcohol use was Tobacco/nicotine 32.6%
+the only substance not associated with a statistically
+Cannabis 24.0%
+significant increase in PGSI risk levels, including
+Alcohol 17.9%
+among individuals who consumed alcohol at least
+weekly.
+* Sample sizes vary by question, but all estimates
+are based on at least 1,038 observations.
+
+=== page 24 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 24
+SUMMARY OF SURVEY FINDINGS 2026
+Table 3 examines this relationship from the opposite perspective by comparing rates of substance
+use across PGSI risk categories. Substance use rates were consistently higher among Arizonans in
+the moderate- to high-risk PGSI groups. Compared to those in the no-risk to low-risk categories,
+moderate- to high-risk respondents reported rates of cocaine and other stimulant use that were 5.4
+times higher, opioid use 5.3 times higher, tobacco or nicotine use 2.2 times higher, and cannabis
+use 1.4 times higher. Consistent with the findings above, alcohol use did not demonstrate a
+meaningful association with elevated PGSI risk.*
+Table 3 - Substance use by PGSI risk category (%)†
+PGSI Risk Category Alcohol Tobacco/nicotine Cannabis Opioids Cocaine
+Minimum to low 64.8% 23.6% 30.3% 3.7% 4.5%
+Moderate to high 64.3% 51.5% 42.5% 19.5% 24.2%
+†Samples sizes vary by question, but all estimates are based on at least 1,038 observations.
+Overall, these findings demonstrate a strong relationship between gambling-related harm and
+substance use, particularly stimulant and opioid use. Although gambling-related harm is often
+addressed separately from substance use concerns, the overlap between these behaviors
+suggests that prevention, screening, and treatment efforts may benefit from more integrated
+healthcare and behavioral health approaches.
+Attitudes and Beliefs
+The survey included several questions examining Arizonans’ attitudes and beliefs about gambling
+and gambling-related harm. As shown in Figure 10, a number of these beliefs were associated with
+an elevated risk for experiencing gambling-related harm. Attitudes and beliefs may influence how
+individuals perceive gambling-related risk, reward, and personal control over gambling outcomes.
+Several gambling-related myths and positive perceptions of gambling were associated with higher
+PGSI risk levels. These included beliefs that gambling more increases the likelihood of eventually
+coming out ahead and that gambling is a fun and harmless form of entertainment. Notably, the
+belief that gambling is a fun and harmless activity was endorsed by 57% of respondents, the
+highest rate among the attitudes and beliefs examined.
+* Tests of association are symmetric, meaning the statistical relationship between two variables does not depend on which variable is treated as the
+independent or dependent factor. Accordingly, analyses examining substance use in relation to PGSI risk levels produce the same statistical
+relationships as analyses examining gambling risk in relation to substance use. These findings reflect associations and should not be interpreted as
+evidence of causation.
+
+=== page 25 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 25
+SUMMARY OF SURVEY FINDINGS 2026
+Figure 10 - Associations between attitudes and beliefs and PGSI moderate- to high-
+risk percentages*
+Moderate- to
+Agree or strongly agree with the attitude / belief
+high-risk
+The more a person gambles, the better his or her odds are of coming out ahead. 57%
+Gambling is an important part of cultural life in Arizona. 41%
+Casinos are a good place to socialize. 27.6%
+Gambling is a fun and harmless form of entertainment. 26.5%
+* Samples sizes vary by question, but all estimates are based on at least 1,037 observations.
+Figure 11 presents another set of attitudes and beliefs that capture both exposure to gambling-
+related harm and the ability to respond to it. Arizonans who reported being personally affected by
+the gambling behavior of others had PGSI moderate- to high-risk rates that were approximately
+three times higher than those who were not. Similarly, those who reported knowing how to help
+someone with a gambling problem had rates that were about 1.5 times higher.
+Figure 11 - Associations between attitudes and beliefs and PGSI moderate- to high-
+risk percentages†
+Agree or strongly agree with the attitude / belief
+I have If someone
+personally been close to me had a
+negatively affected by 41.5% gambling problem, 22.9%
+the gambling I would know how
+behaviors of a friend, to get help for
+family member, them.
+Moderate- to Moderate- to
+coworker or someone
+high- risk high- risk
+else I know.
+†Samples sizes vary by question, but all estimates are based on at least 1,037 observations.
+
+=== page 26 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 26
+SUMMARY OF SURVEY FINDINGS 2026
+Substance Use While Gambling
+The survey also examined substance use in gambling environments, including Arizona casinos and
+sports books. These questions were designed to better understand the extent to which alcohol,
+cannabis, and other substances are used immediately before or while gambling.
+Figure 12 summarizes these findings. Alcohol use was the most commonly reported substance in
+gambling settings, particularly in casinos. Approximately 31% of Arizonans reported consuming
+alcohol at a casino, compared to 14% at a sports book, more than double the rate. Cannabis use
+was less common but still notable, with 11% reporting use at casinos and 8% at sports books. The
+smaller difference between venues suggests that cannabis use may be less dependent on a
+gambling setting than alcohol use. Use of illegal substances was relatively low in both
+environments, reported by 6% of respondents at casinos and 5% at sports books.
+Overall, substance use was more prevalent in casinos than in sports books across all categories,
+with the largest difference observed for alcohol. This pattern suggests that casino environments
+may be more conducive to co-occurring substance use, which may have implications for gambling
+behavior and risk, given the impact of substance use on decision-making.
+Substance use while gambling also varied by demographic characteristics. Males were more likely
+than females to report alcohol use in both casinos and sports books; however, there were no
+meaningful gender differences for cannabis or illegal substance use. Across all substances and
+venues, prevalence declined with age, indicating higher rates among younger respondents.
+Figure 12 - During the past 12 months, how often have you used any of the
+following substances either immediately before (and you were still feeling its
+effects) or while gambling?*
+Substance Arizona Casino Arizona Sports Book
+Alcohol 31% 14.3%
+Cannabis 10.9% 8.3%
+Illegal
+5.7% 4.7%
+substances
+* Samples sizes vary by question, but all estimates are based on at least 1,031 observations.
+The survey also explored whether respondents had ever been denied service due to intoxication or
+approached by casino or sports book staff expressing concern about their substance use. Overall,
+3% of Arizonans reported experiencing at least one of these situations.
+
+=== page 27 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 27
+SUMMARY OF SURVEY FINDINGS 2026
+Self-reported Efforts to Stop, Cut Back or Concerns Raised
+by Others
+This section examines self-reported concerns and attempts to reduce or quit a range of behaviors,
+including gambling, substance use, gaming, and other potentially problematic activities.
+Respondents were asked whether they had experienced them as problematic, tried to cut down on
+these behaviors, or had others express concern during the past 12 months.
+These measures provide insight into how individuals perceive and respond to their own behavior,
+capturing early indicators of risk that may not yet be reflected in formal diagnostic measures.
+Understanding these patterns is important, as efforts to reduce or control behavior, particularly
+when prompted by concern, may signal emerging harm and opportunities for early intervention.
+Table 4 displays the results. The three indicators, perceived problematic behavior, attempts to cut
+down or quit, and concern expressed by others, are positively associated, suggesting a consistent
+pattern across internal recognition, behavioral response, and external validation.
+Arizonans were more likely to report attempting to quit or cut down a behavior than to report the
+behavior as problematic (9% versus 5%). The rate of reporting behavior as problematic was similar
+to the rate of others expressing concern (4.8% versus 4.6%).
+Food or eating, shopping or spending, and internet use were the three highest-ranked behaviors
+across all categories. Gambling-related issues ranked 7th for self-reported problem, 5th for trying to
+quit or cut down, and 6th for someone expressing concern.
+These results are largely consistent with those observed in FY2022-23, with several notable
+exceptions in related behavioral areas. In particular, there was a nearly two-fold increase in
+Arizonans reporting problems with video gaming (3.0% vs. 1.5%) and an 84% increase in problems
+with mobile phone gaming (3.4% vs. 1.8%). The observed increases may reflect broader trends in
+digital engagement and the growing convergence between gaming and gambling-like activities, as
+discussed below.
+Among Arizonans who reported gambling as a problematic behavior, the most commonly co-
+occurring problematic behaviors were video gaming (53%), mobile phone gaming (45%), and
+shopping or spending (44%). The most common co-occurring attempts to quit or reduce were also
+video gaming (34%), food or eating (28%), and shopping or spending (25%), and the most
+frequently reported concerns expressed by others were mobile phone gaming (49%), sexual
+behaviors (32%), and food or eating (28%).
+
+=== page 28 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 28
+SUMMARY OF SURVEY FINDINGS 2026
+These findings indicate that gambling-related problems frequently co-occur with other potentially
+problematic behaviors, particularly those that are often digitally mediated, such as video gaming
+and mobile phone use. The high overlap suggests that gambling-related harm may not occur in
+isolation, but rather as part of a broader pattern of difficulty regulating behavior.
+Table 4 - During the past 12 months, which behaviors have you tried to quit/cut
+down, or had someone express concern about, or have been problematic for you?*
+Has been Tried to quit or Have had someone
+Behavior problematic cut down express concern
+Shopping or spending 6.0% 12.5% 6.4%
+Food or eating 8.7% 19.0% 6.4%
+Internet use 5.7% 12.0% 5.4%
+Drug or alcohol use 4.9% 9.0% 4.7%
+Moblie phone gaming 3.4% 5.3% 4.4%
+Gambling 3.2% 5.7% 3.7%
+Sexual behaviors 3.8% 2.9% 3.0%
+Video gaming 3.0% 4.6% 2.9%
+* Samples sizes vary by question, but all estimates are based on at least 1,040 observations.
+Voluntary Self-Exclusion
+Voluntary self-exclusion (VSE) is widely recognized as a harm-reduction strategy for individuals
+experiencing gambling-related problems. These programs help individuals limit or stop gambling by
+creating formal barriers to access gambling venues and online platforms. Individuals who enroll in
+self-exclusion programs are also prohibited from receiving promotional materials from operators,
+which may help reduce gambling urges and exposure.
+Arizona currently offers two primary self-exclusion programs. Casino self-exclusion allows
+individuals to voluntarily exclude themselves from all casinos operating within the state. Event
+Wagering and Fantasy Sports (EWFS) self-exclusion allows individuals to prohibit themselves from
+placing wagers or entering fantasy sports contests at licensed retail locations and Arizona-regulated
+online or mobile platforms. Individuals enrolled in either program are prohibited from collecting
+winnings or recovering losses incurred while gambling during the exclusion period. Restrictions also
+extend to non-gambling amenities offered by gambling facilities, including hotels, restaurants,
+
+=== page 29 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 29
+SUMMARY OF SURVEY FINDINGS 2026
+concerts, and conventions. Participants may select exclusion periods of one, five, or ten years, and
+enrollment cannot be revoked until the selected term has expired.
+In FY2025-26, 19% of Arizonans reported awareness of casino VSE programs, while 15% were
+aware of sportsbook VSE programs, levels comparable to those reported in FY2022-23.
+Awareness of both casino and sportsbook VSE programs was higher among males than females,
+with rates approximately 1.5 times greater. Awareness was also highest among respondents who
+engaged in more frequent or higher-risk gambling activities. Participants reporting live Keno
+wagering had the highest awareness of casino VSE programs (59%), followed by those participating
+in prediction markets (48%) and eSports wagering (41%). Awareness of sportsbook VSE programs
+followed a similar pattern.
+Overall, awareness of VSE programs increased with gambling frequency, suggesting that individuals
+who gamble more regularly may be more likely to encounter or seek out information about these
+programs.
+Information-seeking behavior
+Problem gambling helplines are confidential, free resources that provide information, support, and
+referrals to individuals experiencing gambling-related harm, as well as to their family members.
+These services are typically available via phone, text, or chat, and are designed to connect
+individuals with treatment options and other support services.
+The survey asked participants whether they had seen or heard of the Arizona Department of
+Gaming Problem Gambling Helpline (1-800-NEXT-STEP). In FY2025-26, 48% of Arizonans reported
+awareness of the helpline, representing a 40% increase from FY2022-23. This increase may reflect
+the impact of expanded public awareness and outreach efforts supported by the Arizona Department
+of Gaming.
+Males were about 17% more likely to report awareness of the helpline compared to females (52%
+vs. 45%). Similarly, individuals in the middle age groups (30-44 and 45-59) reported higher
+recognition compared to the youngest and oldest groups (21-29 and 60+), 57% versus 39%.
+Compared to FY2022-23, awareness increased by similar magnitudes for both males and females,
+with an average increase of approximately 40%. By age group, the largest increases in awareness
+occurred among those aged 45-59, 60+, and 30-44, with increases of 65%, 57%, and 26%,
+respectively. There was no statistically significant increase in awareness among the youngest age
+group (21-29).
+
+=== page 30 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 30
+SUMMARY OF SURVEY FINDINGS 2026
+There is some evidence that the ADG’s sports wagering-targeted campaigns may be effective.
+Among Arizonans who reported attending a professional or collegiate sporting event, 57% were
+aware of the helpline, compared to 48% in FY2022-23. Moreover, among those who reported
+engaging in sports wagering, 65% were aware of the helpline, compared to 44% among those who
+did not engage in sports wagering.
+Awareness increased with both the number of gambling activities engaged in and the frequency of
+participation, likely reflecting greater exposure to repeated marketing and outreach efforts, as well
+as higher levels of gambling risk motivating attention to help resources.
+Among Arizonans who reported that gambling was problematic, 64% were aware of the helpline,
+compared to 48% among those who did not report a problem. Despite this sizable difference, the
+result was not statistically significant, likely due to the small number of respondents reporting
+gambling problems (N=38). In contrast, individuals who reported trying to quit or cut down on
+gambling had significantly higher awareness (69%) compared to those who did not (47%), possibly
+reflecting that help-seeking efforts increase exposure to helpline resources, or that awareness of
+such resources supports attempts to reduce or stop gambling.
+Figure 13 shows the sources where respondents reported Figures 13 - Where were all the
+seeing or hearing about 1-800-NEXT-STEP. Casinos and places you saw or heard about
+television were the top two channels, with more than one 1-800-NEXT-STEP? (N=527)
+in three Arizonans reporting exposure through each
+medium. Radio, billboards, and the internet were the next
+Casinos 39.3%
+most common channels, with about one in four Arizonans
+TV 35.2%
+reporting exposure. Compared to FY2022-23, traditional
+media channels (e.g., newspapers and radio) declined, Radio 24.9%
+whereas newer media channels (e.g., internet, YouTube, Billboards 24.8%
+and social media) increased.
+Internet 24.8%
+Lottery tickets 22.8%
+The Lottery showed a 14% decline as a reported source of
+awareness compared to FY2022-23, which is substantially Social media 22.1%
+larger than the 3% decline in lottery participation that
+PG hotline
+9.1%
+might explain a portion of the decline. A closer website
+examination of the data shows that the percentage of
+Youtube 7.7%
+females reporting the Lottery as a source of awareness
+Other 5.3%
+declined by 31% (from 33% to 23%). There was also a
+Newspaper 3.4%
+notable decline by age, with awareness among Arizonans
+aged 21-44 decreasing by 55% (from 25% to 16%).
+
+=== page 31 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 31
+SUMMARY OF SURVEY FINDINGS 2026
+To better understand help-seeking behavior, the survey asked participants which resources they
+would be likely to use if they wanted to cut back or stop gambling. This question provides insight
+into awareness, preferences, and potential entry points for support services among Arizonans.
+Figure 14 presents the results. The helpline was the most commonly selected resource, followed
+by professional counseling for problem gambling. Community support groups, such as Gamblers
+Anonymous (GA), were the third most frequently selected option.
+Twelve percent of Arizonans indicated they would use self-help books or change guides, which are
+not currently available through the DPG, and 9% reported they would seek out a gambling help
+app, which is also not currently marketed by the DPG as a gambling behavior change resource.
+Females were marginally more likely to report that they would reach out to medical professionals
+(17% vs. 12%)*, while males were more likely to indicate they would use online forums (16% vs.
+10%) and AI chatbots (11% vs. 6%). Arizonans aged 21-29 were the most likely to report that they
+would seek help from a medical professional (28% vs. 12% overall).
+Figures 14 - What resources would you likely use if you wanted to cut back or stop
+gambling? (N=1,047)
+Problem gambling helpline 32.4%
+Professional counseling for a gambling problem 29.2%
+Community support group (e.g., GA) 21.5%
+Other 19.1%
+Medical professional 14.4%
+Gambling help podcast 13.9%
+Online discussion forums (e.g., Reddit) 12.6%
+Self-help book or change guide 12.4%
+Spiritual Advisor 11.5%
+Gambling health app (e.g., Evive, RecoverMe) 8.8%
+AI chatbot (e.g., ChatGPT, Gemini) 8%
+The survey also asked respondents whether they had actually sought information or assistance for
+a gambling problem, either for themselves or someone else. Four percent reported that they had
+done so, which was statistically indistinguishable from the 5% reported in FY2022-23.
+* The results was virtually statistically significant, with a p-value = .052, slightly above the threshold of 0.5.
+
+=== page 32 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 32
+SUMMARY OF SURVEY FINDINGS 2026
+Figure 15 shows the resources that respondents actually used. The helpline was again the most
+commonly reported resource, followed by spiritual advisors, self-help books or guides, medical
+professionals, and community support groups such as GA.
+A comparison between Figures 14 and 15 suggests a meaningful gap between intended and actual
+help-seeking behavior. Although the helpline was the most common resource in both cases,
+respondents appear to overestimate their likelihood (based on the absolute percentages) of using
+formal services such as professional counseling, while underestimating their use of more
+accessible, informal, and self-directed resources. In practice, individuals are more likely to rely on
+low-barrier options such as self-help materials, online forums, gambling health apps, and existing
+support networks, including spiritual advisors.
+Moreover, respondents reported using a greater number of resources in practice (an average of
+2.6) than they indicated they would use (1.8), suggesting that help-seeking behavior may be more
+multifaceted than initially anticipated.
+Figures 15 - Where did you seek information or assistance about a gambling
+problem for yourself or someone else? (N=63)
+Problem gambling helpline 39.6%
+Spiritual advisor 28.6%
+Self-help book or change guide 28.3%
+Medical professional 27.6%
+Community support group, e.g., GA 27.4%
+Online discussion forums (Reddit) 26.3%
+Gambling health app (Evive, RecoverMe) 21.7%
+Professional counseling for a gambling problem 20.1%
+Gambling help podcast 18.6%
+AI chatbot (ChatGPT, Gemini) 13.6%
+Other 3.3%
+
+=== page 33 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 33
+SUMMARY OF SURVEY FINDINGS 2026
+Healthcare Screening
+The survey also explored whether healthcare professionals are asking patients about behaviors
+related to gambling during routine health screenings or other interactions. Understanding how often
+these questions are asked can help identify opportunities to improve early detection and support.
+The results are shown in Figure 16. Mental health is the most commonly screened domain,
+followed by alcohol or substance use, and then gambling behavior. The contrast in screening rates
+is substantial, with mental health screening occurring at approximately seven times the rate and
+alcohol and substance use screening at approximately six times the rate of gambling-related
+screening. Results are comparable to those observed in 2023.
+Figures 16 - As part of your most recent Males were more likely than females to report
+general health screening or other line of being screened for gambling-related behavior
+questioning, has any healthcare (10% vs. 5%). There is a negative association
+professional asked you questions about between screening rates and age, with the
+your:* highest rate among individuals aged 21-29
+(12%) and the lowest among those aged 60
+and older (3%).
+Mental health 55.4%
+Screening rates increase with gambling
+involvement, rising from 4% among those
+Alcohol or
+47.2%
+substance use who do not gamble to 25% among those who
+report engaging in 10 or more gambling
+activities. Arizonans in the PGSI moderate- to
+Gambling
+behaviors 7.6% high-risk categories were more than four
+times as likely as those not in these
+categories to discuss gambling behaviors
+* Samples sizes vary by question, but all estimates are based on
+with a healthcare professional (21% vs. 5%).
+at least 1,037 observations.
+This positive association between gambling involvement and screening may reflect that healthcare
+professionals are more likely to inquire about gambling when there are observable indicators of
+gambling behavior, or when patients provide subtle disclosures that prompt follow-up questions.
+For example, individuals with higher levels of gambling involvement may exhibit financial stress or
+mental health concerns, or mention being preoccupied with wagering apps, which could cue
+providers to explore gambling-related issues further.
+
+=== page 34 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 34
+SUMMARY OF SURVEY FINDINGS 2026
+Attitudes and Beliefs
+The survey included questions designed to assess Arizonans’ attitudes and beliefs about gambling
+and gambling-related harm. Figure 17 presents responses to items related to perceptions of
+gambling addiction.
+A large majority of respondents (83%) agreed or strongly agreed that gambling addiction is similar
+to addiction to drugs or alcohol. However, fewer respondents (42%) agreed or strongly agreed that
+gambling is a medical condition. This suggests that while many Arizonans recognize similarities
+between gambling and substance-related addictions, fewer view gambling disorder through a
+medical lens that may warrant clinical treatment or intervention. Additionally, 45% of Arizonans
+agreed with the statement that gambling addiction is caused by a lack of willpower, indicating that
+personal responsibility remains a commonly held belief alongside recognition of addiction-like
+characteristics.
+Compared to FY2022-23, there was an 8% increase in the share of Arizonans who agreed that
+gambling addiction is similar to drugs or alcohol. However, there was also a 20% increase in the
+belief that gambling addiction is caused by a lack of willpower. No statistically significant change
+was observed in attitudes toward gambling as a medical condition. Thus, while awareness of
+gambling as an addiction is increasing, paradoxically, so is stigma and misunderstanding about its
+causes.
+Females were more likely than males to recognize gambling addiction as a medical problem (46%
+vs. 38%) and less likely to view it as caused by a lack of willpower (41% vs. 49%). Education was a
+significant factor across all three beliefs: higher levels of formal education were positively
+associated with recognizing gambling addiction as similar to substance use disorders and as a
+medical condition, and negatively associated with the belief that it is caused by a lack of willpower.
+Figure 17 - How much do you agree or strongly agree with the following statements
+[about gambling and addiction]?*
+Attitude / Belief Agree or Strongly Agree
+Addiction to gambling is a lot like addiction to drugs or alcohol 82.8%
+Addiction to gambling is a medical problem 41.7%
+Addiction to gambling is caused by lack of willpower 44.8%
+* Samples sizes vary by question, but all estimates are based on at least 1,037 observations.
+
+=== page 35 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 35
+SUMMARY OF SURVEY FINDINGS 2026
+The survey also examined attitudes toward problem gambling as a public health issue. Figure 18
+presents the results.
+Approximately half of Arizonans reported that children are negatively impacted by gambling-related
+advertising, representing a 20% increase compared to the FY2022-23 survey. This suggests
+growing concern about youth exposure to gambling and gambling-like content.
+In addition, 43% of respondents agreed or strongly agreed that gambling addiction is a public health
+issue and 29% agreed or strongly agreed that legalized gambling represents a serious public health
+threat in Arizona. These findings are consistent with results from the previous survey, indicating
+relatively stable views on the broader public health implications of gambling.
+Taken together, the results suggest that while overall perceptions of gambling as a public health
+issue have remained relatively stable, concern about specific harms, particularly those affecting
+children, may be increasing.
+There were no meaningful differences in these attitudes by gender. However, education was
+associated with variation in perceptions. Individuals with higher levels of education (a four-year
+degree or above) were more likely to view legalized gambling as a serious public health threat, with
+agreement rates approximately 1.5 times higher than those with lower levels of education.
+Higher levels of educational attainment were also associated with greater concern about the
+adverse impact of gambling advertising on youth. Agreement increased steadily across education
+levels, ranging from 40% among Arizonans with less than a high school education to 63% among
+those with postgraduate education.
+Figure 18 - How much do you agree or disagree with the following statements
+[regarding gambling as a public health issue]?*
+Exposure to advertising that promotes gambling has a negative impact on children. 49.6%
+Addiction to gambling is a public health issue. 42.6%
+Legalized gambling is a serious public health threat in Arizona. 28.7%
+* Samples sizes vary by question, but all estimates are based on at least 1,037 observations.
+The survey also explored Arizonans’ attitudes toward the responsibilities of government and the
+gambling industry in reducing gambling-related harms. Table 5 presents the results.
+
+=== page 36 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 36
+SUMMARY OF SURVEY FINDINGS 2026
+Overall, Arizonans expressed strong support for both government- and industry-led measures to
+address problem gambling. The highest levels of support were for voluntary self-exclusion
+programs, followed by Arizona being a leader in efforts to reduce harm caused by gambling, both
+endorsed by nearly two-thirds of respondents.
+These findings are largely consistent with FY2022-23 survey results, indicating stable public
+support for gambling harm-reduction initiatives. One notable change, however, was a 13% increase
+in support for Arizona taking a leadership role in reducing gambling-related harm, rising from 58%
+to 65%.
+Taken together, these results suggest that Arizonans increasingly recognize gambling-related harm
+as an important public issue and support proactive, coordinated efforts by both government and
+industry to address prevention, treatment, and harm reduction.
+Across all five attitudes, females were more supportive than males, indicating that women tend to
+hold more favorable views toward government and industry responsibilities in addressing gambling-
+related harm. At the item level, females were more likely to agree that Arizona should take a
+leadership role in reducing gambling-related harm.
+Similarly, there was a positive association between age and endorsement of these attitudes, with
+older Arizonans more supportive than younger Arizonans.
+Table 5 - How much do you agree or disagree with the following statements
+[regarding the responsibilities of government and the gambling industry in reducing
+gambling-related harm]?*
+Attitude / Belief Agree or Strongly Agree
+Arizona should have a system where residents can voluntarily
+66.4%
+self-exclude from all Arizona Casinos and Sportsbooks.
+It is important for the state of Arizona to be a leader in its efforts
+64.9%
+to reduce the harms caused by gambling.
+The government should use revenues from gambling operators
+60.8%
+to develop programs that prevent and treat problem gambling.
+The government should do more to increase awareness of
+58.8%
+available help resources for people with a gambling problem.
+The gambling industry should do more to help prevent its
+55.1%
+patrons from developing gambling problems.
+* Samples sizes vary by question, but all estimates are based on at least 1,037 observations.
+
+=== page 37 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 37
+SUMMARY OF SURVEY FINDINGS 2026
+Figure 19 shows Arizonans’ attitudes toward gambling as a form of socialization and as a fun and
+harmless activity. Approximately one in three Arizonans agreed or strongly agreed that casinos are
+good places to socialize, while slightly more than one in four agreed that gambling is a fun and
+harmless form of entertainment. These results are virtually unchanged from FY2022-23.
+Males were about 1.4 times more likely than females to view gambling as a social activity or as fun
+and harmless. In addition, there were positive associations between both the number of gambling
+activities engaged in and the frequency of gambling, with endorsement of these views.
+These findings suggest that more favorable perceptions of gambling, particularly viewing it as social
+or harmless, are associated with higher levels of engagement and elevated risk. This may reflect a
+normalization of gambling behavior among more frequent participants, which could contribute to
+increased vulnerability to gambling-related harm.
+Figure 19 - How much do you agree or disagree with the following statements
+[regarding gambling as a form of socialization or fun]?*
+Attitude / Belief Agree or Strongly Agree
+Casinos are a good place to socialize. 33.2%
+Gambling is a fun and harmless form of entertainment. 26.7%
+* Samples sizes vary by question, but all estimates are based on at least 1,037 observations.
+The survey asked Arizonans about their awareness of and confidence in problem gambling
+services, including whether they would know how to help someone close to them, whether services
+are available in their community, and whether treatment is effective.
+The results are displayed in Figure 20. Fewer than half of Arizonans reported that they would know
+how to get help for someone with a gambling problem, and an even smaller share agreed that
+treatment services are available in their communities. Additionally, slightly more than one in three
+Arizonans agreed that problem gambling treatment is effective at helping people stop or control
+their gambling.
+Compared to FY2022-23, all three measures declined by an average of approximately 7%.
+However, only the decline in knowing how to get help for someone with a gambling problem was
+statistically significant (45% vs. 50%). Additionally, Arizonans who reported trying to quit or cut
+down on their gambling expressed similar levels of agreement across all three attitudes compared
+to those who had not attempted to reduce their gambling.
+
+=== page 38 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 38
+SUMMARY OF SURVEY FINDINGS 2026
+These findings suggest that greater exposure to gambling, whether through increased participation
+or personal experience with harm, may improve awareness of how to seek help, but does not
+necessarily translate into greater confidence in the availability or effectiveness of treatment
+services.
+There were no meaningful differences in responses between males and females, and no clear or
+consistent patterns by age group. However, across all three attitudes, there was a positive
+association with gambling involvement: the more gambling activities that respondents engaged in,
+the more likely they were to agree with each of the three statements.
+Figure 20 - How much do you agree or disagree with the following statements
+[regarding awareness and perceptions of gambling services]?*
+Attitude / Belief Agree or Strongly Agree
+If someone close to me had a gambling problem, I would
+45.1%
+know how to get help for them.
+Services to treat problem gambling are available in my
+43.4%
+community.
+Treatment for problem gambling is effective at helping people
+36.3%
+stop or control their gambling.
+* Samples sizes vary by question, but all estimates are based on at least 1,037 observations.
+Finally, the survey examined several additional attitudes and beliefs related to gambling, presented
+in Table 6. Slightly fewer than one in five Arizonans agreed that gambling is an important part of
+Arizona culture. A smaller proportion reported having been personally and negatively affected by
+the gambling behavior of someone they know, and only 6% endorsed the belief that gambling more
+increases the likelihood of eventually coming out ahead. These findings were generally consistent
+with those reported in FY2022-23.†
+There were no meaningful differences between males and females in beliefs about whether
+gambling is part of Arizona culture or in endorsement of the myth that increased gambling improves
+the chances of winning. However, females were approximately 1.4 times more likely to report
+having been personally and negatively affected by the gambling behavior of someone they knew.
+†This statement applies to gambling activities where outcomes are independently generated, such as slot machines and roulette, as well as to
+activities with a negative expected value, such as sports betting for most individuals.
+
+=== page 39 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 39
+SUMMARY OF SURVEY FINDINGS 2026
+Age differences were more pronounced. Arizonans aged 21-29 were more than twice as likely as
+those aged 60 and older to view gambling as an important part of Arizona culture. Similarly,
+younger adults aged 21-44 were approximately three times more likely than older adults to endorse
+the myth that gambling more improves the likelihood of winning (11% versus 3%).
+Both the number of gambling activities individuals engaged in and the frequency of participation
+were positively associated with all three attitudes and beliefs.
+Table 6 - How much do you agree or disagree with the following statements?*
+Attitude / Belief Agree or Strongly Agree
+Gambling is an important part of cultural life in Arizona. 18.4%
+I have personally been negatively affected by the gambling
+behaviors of a friend, family member, coworker, or someone 16.0%
+else I know.
+The more a person gambles, the better his or her odds are of
+6.4%
+coming out ahead.
+* Samples sizes vary by question, but all estimates are based on at least 1,037 observations.
+
+=== page 40 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 40
+SUMMARY OF SURVEY FINDINGS 2026
+Practice and Policy Implications
+The findings from this survey suggest several important implications for the continued development
+of problem gambling prevention, treatment, responsible gambling, and public health initiatives in
+Arizona. Although most Arizonans gamble without experiencing serious adverse consequences, a
+substantial proportion of the adult population reported gambling-related problems and several
+findings point to opportunities for strengthening statewide responses to gambling-related harms.
+Sustain investment in prevention, treatment, and recovery services.
+The survey findings continue to support the need for sustained investment in problem gambling
+prevention, early intervention, treatment, and recovery support services. Approximately one in
+five Arizona adults reported experiencing some level of gambling-related problems, while an
+estimated 4% would be expected to meet the medical diagnosis for a Gambling Disorder.
+These rates are consistent with prior findings and indicate that gambling-related harm remains
+a significant public health concern in Arizona. Continued investment in evidence-informed
+prevention and treatment infrastructure is warranted, particularly as gambling becomes
+increasingly normalized within popular culture and digital environments, potentially increasing
+exposure and vulnerability among youth and emerging adults.
+Prioritize outreach and responsible gambling efforts for higher-risk groups.
+Findings suggest that certain demographic and behavioral groups are at elevated risk for
+gambling-related harms and may benefit from targeted outreach and intervention strategies.
+Younger adults, those gambling at a high frequency, sports betting, and individuals participating
+in multiple forms of gambling consistently demonstrated elevated rates of problem gambling
+risk. Respondents who reported gambling as a means of distraction from stress or emotional
+difficulties, or who gambled for solitary reasons, were also substantially more likely to screen
+positive for gambling problems. These findings support the value of prevention and responsible
+gambling initiatives specifically tailored toward higher-risk groups, particularly younger adults
+and sports bettors.
+The rapid growth of online and mobile sports wagering remains especially important from a
+policy and practice perspective. Since legalization, online sports betting participation in Arizona
+has more than doubled, with particularly high rates observed among younger adults and males.
+Sports bettors also exhibited some of the highest rates of severe gambling risk in the survey.
+These findings underscore the importance of integrating responsible gambling messaging, safer
+gambling tools, self-exclusion information, and help resources directly into sports wagering
+environments and advertising campaigns.
+
+=== page 41 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 41
+SUMMARY OF SURVEY FINDINGS 2026
+Expand public education and awareness efforts.
+The survey highlights the continued importance of public awareness and education efforts.
+Awareness of Arizona’s problem gambling helpline and self-exclusion programs has improved
+substantially over time, suggesting that statewide awareness campaigns have had a
+measurable impact. However, important gaps remain. Although most respondents supported
+government and industry efforts to reduce gambling-related harms, fewer than half reported
+awareness of available treatment resources or confidence in treatment effectiveness. In
+addition, many respondents continued to endorse inaccurate gambling beliefs, including the
+misconception that gambling more increases the likelihood of eventually winning. These
+findings suggest a continued need for public education campaigns focused on safer gambling
+practices, myths and misconceptions about gambling, warning signs of gambling problems, and
+available help resources.
+Increase integration of gambling screening within healthcare and behavioral
+health settings.
+The findings support greater integration of gambling screening and intervention within
+healthcare and behavioral health settings. Only a small percentage of respondents reported
+ever being asked about gambling behaviors by a healthcare professional, despite substantially
+higher rates of screening for alcohol, substance use, and mental health concerns. Given the
+observed associations between gambling problems and other behavioral health issues,
+including alcohol use, problematic Internet use, shopping/spending, and mental health
+concerns, gambling should increasingly be viewed as part of broader behavioral health
+screening and intervention efforts. Expanding provider education and encouraging routine
+gambling-related screening in healthcare environments may improve early identification and
+referral to appropriate services.
+Continue strengthening self-exclusion and harm-reduction initiatives.
+The survey findings also reinforce the importance of maintaining and strengthening voluntary
+self-exclusion programs. While public support for self-exclusion systems was high, awareness
+of Arizona’s existing self-exclusion programs remained comparatively modest. Increasing
+visibility and accessibility of self-exclusion options, particularly within online gambling
+environments and sports wagering platforms, may help individuals experiencing gambling-
+related difficulties establish meaningful barriers to gambling participation before harms become
+more severe.
+
+=== page 42 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 42
+SUMMARY OF SURVEY FINDINGS 2026
+Continue addressing gambling-related harm through a public health framework.
+Finally, the findings suggest the importance of continuing to approach gambling-related harm
+through a public health framework. Gambling-related problems affect not only individuals but
+also families, communities, workplaces, and healthcare systems. The survey found that a
+notable proportion of respondents reported being negatively affected by another person’s
+gambling behavior, and gambling problems were strongly associated with other co-occurring
+behavioral concerns. Public health approaches that emphasize prevention, early intervention,
+consumer protection, education, and harm reduction are therefore likely to remain important
+components of Arizona’s overall response to gambling-related harms.
+The survey findings indicate that Arizona has made meaningful progress in several areas,
+particularly regarding awareness of problem gambling services and public support for
+prevention and treatment efforts. At the same time, the continued growth of gambling
+opportunities, especially online gambling and sports wagering, highlights the importance of
+sustained monitoring, ongoing research, and continued investment in policies and practices
+designed to minimize gambling-related harms across Arizona communities.
+Limitations
+Several limitations to this study should be
+noted. First, the study relied on a probability-
+based panel designed to be representative
+of Arizona households, combined with non-
+probability online interviews that were
+weighted to account for potential bias. While
+this approach offers advantages in terms of
+cost and speed of fielding, the weights
+themselves are subject to sampling variation
+and cannot fully account for all
+characteristics that may influence
+responses. Second, the survey reflects the
+specific profile of Arizonans, and the results
+may not generalize to other populations.
+Finally, as with all survey research, the data
+can identify associations but do not establish
+causation.
+
+=== page 43 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 43
+SUMMARY OF SURVEY FINDINGS 2026
+Conclusion
+This report provides an updated assessment of gambling behaviors, attitudes, experiences, and
+gambling-related harm among Arizona adults following the continued expansion of legalized
+gambling opportunities across the state. Overall, gambling participation remained stable compared
+to FY2022-23, with more than four out of five Arizonans reporting gambling in the past year. At the
+same time, several important changes were observed, including increased gambling freqency,
+continued growth in online and mobile sports wagering, rising participation in cryptocurrency-related
+activities, and the emergence of newer forms of gambling-like activities such as prediction markets.
+Approximately one in five Arizona adults experienced some level of gambling-related harm, and an
+estimated 4% would be expected to meet diagnostic criteria for Gambling Disorder. Although most
+Arizonans gamble without experiencing serious adverse consequences, the findings indicate that
+gambling-related harm remains an important public health concern in Arizona. Elevated risk was
+concentrated among younger adults, those gambling at a high frequency, sports betting, and
+individuals participating in multiple forms of gambling, particularly online and app-based activities.
+The survey also identified strong relationships between gambling-related harm and broader
+behavioral health concerns, including mental health conditions, substance use, and other potentially
+problematic behaviors such as gaming and excessive internet use. These findings reinforce the
+importance of viewing gambling-related harm within a broader public health and behavioral health
+framework rather than as an isolated issue.
+Encouragingly, awareness of Arizona’s problem gambling helpline and support resources increased
+substantially since FY2022-23, suggesting that statewide awareness and outreach efforts are
+having a measurable impact. Public support also remained strong for prevention initiatives, self-
+exclusion programs, treatment services, and government leadership in reducing gambling-related
+harms. At the same time, important gaps remain in awareness of treatment effectiveness,
+healthcare screening practices, and understanding of gambling-related misconceptions and risks.
+As gambling continues to evolve through digital technologies, mobile platforms, and emerging
+gambling-like products, ongoing monitoring of gambling behaviors and gambling-related harm will
+remain important. Continued investment in prevention, education, early intervention, treatment,
+research, and consumer protection efforts will help support Arizona’s ability to respond effectively to
+changes in the gambling environment and reduce gambling-related harms across communities
+statewide.
+
+=== page 44 ===
+GAMBLING BEHAVIORS, ATTITUDES, AND
+EXPERIENCES AMONG ARIZONA ADULT RESIDENTS 44
+SUMMARY OF SURVEY FINDINGS 2026
+References
+1.Marotta, J., Yamagata, G., & Reohr, P. (2023). Gambling Behaviors, Attitudes, and
+Experiences among Arizona Adult Residents. Phoenix, AZ: Arizona Department of Gaming
+2.Ferris, J., & Wynne, H. (2001). The Canadian problem gambling index: Final report.
+Canadian Centre on Substance Abuse
+3.Currie, S. R., Hodgins, D. C., & Casey, D. M. (2013). Validity of the Problem Gambling
+Severity Index interpretive categories. Journal of Gambling Studies, 29(2), 311–327.
+https://doi.org/10.1007/s10899-012-9300-6
+4.Problem Gambling Solutions, Inc. (2023, October). Problem gambling services evaluation:
+Final evaluation report. Arizona Department of Gaming, Division of Problem Gambling.
+https://problemgambling.az.gov/sites/default/files/ADG%20DPG%20FINAL%20EVALUATIO
+N%20REPORT%20-%20Delivered%2010.31.23_0.pdf
+5.American Psychiatric Association. (2022). Diagnostic and statistical manual of mental
+disorders (5th ed., text rev.). https://doi.org/10.1176/appi.books.9780890425787
+6.Williams, R. J., & Volberg, R. A. (2014). The classification accuracy of four problem
+gambling assessment instruments in population research. International Gambling Studies,
+14(1), 15–28.
+7.Groves, R. M., & Lyberg, L. (2010). “Total Survey Error: Past, Present, and Future.” Public
+Opinion Quarterly, 74(5), 849–879.
+8.Marotta, J., Yamagata, G., & Vasquez, P. (2025). 2024 Oregon Adult Gambling Attitudes,
+Behavior, and Health Survey. Hillsboro, OR: Oregon Council on Problem Gambling.
+9.Dassopoulos, A. (2025). Gambling Behaviors, Perceptions, and Risks Among Nevada
+Adults. University of Nevada, Las Vegas.
+10.Arizona Department of Gaming. (n.d.). Tribal gaming FAQs. State of Arizona.
+https://gaming.az.gov/tribal-gaming/faq
+11.Miller, N. V., Currie, S. R., Hodgins, D. C., & Casey, D. (2013). Validation of the Problem
+Gambling Severity Index using confirmatory factor analysis and Rasch modelling.
+International Journal of Methods in Psychiatric Research, 22(3), 245–255.

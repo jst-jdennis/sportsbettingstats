@@ -1,0 +1,1045 @@
+=== page 1 ===
+Washington State Institute for Public Policy
+110 Fifth Avenue SE, Suite 214 ● PO Box 40999 ● Olympia, WA 98504 ● 360.664.9800 ● www.wsipp.wa.gov
+October 2022
+Findings From the 2021 Survey of
+Health and Recreation in Washington State:
+Gambling Behavior s and Prevalence
+In 2020, the Washington State Legislature
+Summary
+directed the Washington State Health Care
+The 2021 survey of adults in Washington State found
+Authority (HCA) to conduct a survey of the
+the following:
+prevalence of problem gambling among adult
+residents of the state.1 • 44.7% reported they had gambled in the past 12
+months.
+For this analysis, HCA defined problem • Of those who had gambled, 3.5% were classified
+gamblers as gamblers who score above a as problem gamblers (representing 1.4% of all
+certain rate on a severity index. HCA adult residents of Washington State).
+contracted with the Washington State Institute • Statistically significant differences were detected
+for Public Policy (WSIPP) to analyze the results for the prevalence of gambling and problem
+of the survey to provide information on the gambling among some different demographic
+following: populations (demographics collected include
+gender, marital status, ethnicity, age, education,
+• The prevalence of gambling and
+military service, employment, type of insurance,
+problem gambling among adults
+and geographic region).
+residents in Washington State;
+• Of those adults who gambled, 27.8% gambled
+• The distribution of gambling methods online. Compared to those who gambled only in
+(online vs. brick and mortar); brick-and-mortar establishments, online gamblers
+• The prevalence of problem gambling are significantly more likely to be problem
+gamblers (7.8% vs 1.7%).
+with co-occurring disorders;
+• Gamblers who self-identified as having problems
+• Beliefs and attitudes towards gambling;
+with substance use, mental health, or other
+• Methods of outreach and awareness behaviors, were more likely to be problem
+reaching different demographic groups; gamblers than others not reporting these
+and problems.
+• Beliefs and attitudes about gambling. • Most of the population (67.8%) said they thought
+the harms of gambling outweighed the benefits. A
+similar proportion (64.2%) said the availability in
+This report is presented in three sections.
+Washington was fine—neither too available nor
+Section I provides the background and
+not available enough.
+methodology of the survey. Section II presents
+findings from WSIPP’s analysis for each of the
+study questions. Section III provides a Suggested citation: Miller, M., & Xie, R. (2022). Findings from
+the 2021 Survey of Health and Recreation in Washington
+summary and examines the limitations of the
+State: Gambling Behaviors and Prevalence (Document
+report.
+Number 22-10-3901). Olympia: Washington State Institute
+for Public Policy.
+1 Engrossed Substitute Senate Bill 6168, Chapter 357, Laws of
+2020. HCA used WSIPP’s report in the creation of their report
+to the legislature.
+
+=== page 2 ===
+I. Background & Survey Methods
+The Health Care Authority (HCA) contracted To boost response from the potential
+with the Social and Economic Sciences Spanish-speaking population, SESRC, in
+Research Center (SESRC) at Washington consultation with HCA, sent a Spanish
+State University to conduct the survey. To language paper questionnaire to the
+obtain a representative sample of adults in addresses in the sample that were flagged
+Washington, the survey used a random as potentially Spanish speaking.
+sample of postal addresses. The sample was
+based on the U.S. Postal Service Delivery For the survey to represent the adult
+Sequence File. population of Washington, final responses
+were weighted on gender, race, Hispanic
+Respondents living at the randomly selected ethnicity, education, age, and marital status.
+addresses were contacted by mail to When the information was missing, values
+complete a web survey. The adult living at were imputed so that the weighted sample
+the address who had the most recent represented the state population. In some
+birthday was asked to complete the survey. cases, it was necessary to combine groups.
+A cash $1 pre-incentive was included in the For example, SESRC combined race
+first contact. Non-respondents were offered responses to create just two categories:
+a paper questionnaire as an alternative “White” and “non-White.”3 This allowed for
+mode for completing the survey. sufficient sample sizes for analysis.
+Of the 52,000 randomly selected residential To investigate possible regional differences
+addresses, 2,875 were determined to be in gambling behavior we provide an analysis
+ineligible (either no one was living at the of the geographical regions where state-paid
+address, no one was a Washington resident behavioral health services are provided. In
+within the past year, etc.). For this study, Washington, there are ten regional Managed
+9,249 of the 49,125 eligible respondents Care Organizations (MCO, also referred to as
+completed or partially completed the survey “integrated managed care”). To allow for
+including eight questions that screened for more accurate estimates for these
+gambling behavior in the past year.2 The geographical regions, separate weights were
+final response rate was 18.8%. also created to correctly weight within each
+MCO.4 A map showing these regions is
+provided in Exhibit 1.
+2 The questions asked about the following activities in the includes those participants who selected “Black or African
+past 12 months: 1) purchased lottery tickets; 2) gambled at a American,” “Asian,” “Native Hawaiian or Other Pacific
+card room; 3) gambled at a tribal casino; 4) gambled on Islander,” “American Indian/Alaska Native/Tribal,” or “Other.”
+horseracing; 5) gambled online; 6) gambled using pull-tabs, Hispanic ethnicity is analyzed separately from race.
+bingo, or raffles; 7) done any other types of gambling or 4 More information about how the survey was conducted,
+games of chance; and 8) traveled out of state to gamble. the questionnaire, weighting, and responses to all questions
+3 Throughout the rest of this report, we report race as is available at the Health Care Authority website.
+“White” and “people of color (POC).” The designation “POC”
+2
+
+=== page 3 ===
+Exhibit 1
+Areas of Managed Care Organizations
+Notes:
+Apple Health managed care service area map – January 2022.
+Source: Washington State Health Care Authority.
+If respondents indicated that they had done Gamblers were directed to answer the nine
+any type of gambling in the past 12 months, questions of the Problem Gambling Severity
+they were flagged as “gamblers.” Index (PGSI) (see Exhibit 2). Responses to
+each question are scored from 0 to 3. The
+total from all questions is used to identify
+problem gamblers. For this analysis, HCA
+defined “problem gamblers” as those scoring
+a 5 or greater on the PGSI.
+3
+
+=== page 4 ===
+Exhibit 2
+Problem Gambling Severity Index (PGSI)
+Most of Almost
+Please mark a response for each row Never Sometimes
+the time always
+Have you bet more than you could really afford to lose? 0 1 2 3
+Have you felt guilty about the way you gamble or what happens when you
+0 1 2 3
+gamble?
+Have you needed to gamble with larger amounts of money to get the same
+0 1 2 3
+feeling of excitement?
+Did you go back another day to try to win back the money you lost? 0 1 2 3
+Have you borrowed money or sold anything to get money to gamble? 0 1 2 3
+Has your gambling caused any financial problems for you or your household? 0 1 2 3
+Has your gambling caused you any health problems, including stress or anxiety? 0 1 2 3
+Have people criticized your betting or told you that you had a gambling
+0 1 2 3
+problem, regardless of whether or not you thought it was true?
+Have you felt that you might have a problem with gambling? 0 1 2 3
+4
+
+=== page 5 ===
+II. WSIPP Analysis
+SESRC provided WSIPP with the final survey While methods used to assess gambling
+dataset. WSIPP analyzed the data using behaviors were not identical across the three
+special survey protocols in SAS and Stata to surveys, we e attribute this decline in gambling
+appropriately estimate weighted population prevalence between 2003 and 2021, at least in
+prevalence in all our analyses. Thus, part, to the COVID-19 pandemic when brick and
+although the group of adults surveyed was mortar gambling venues were closed for many
+small (N = 9,249) relative to Washington’s months.
+entire population, the survey was conducted
+and analyzed in a way that our findings Based on this survey, we estimate that 1.4% of
+represent Washington as a whole. the adult population in Washington are
+problem gamblers, comparable to rates
+This section addresses five study questions observed in the two earlier Washington studies.
+that WSIPP was asked to address. We were Among those who gamble, we estimate that
+unable to address several additional 3.5% are problem gamblers.
+questions related to treatment for problem
+gambling as the prevalence rate was too Who Gambles?
+low. That is, there were too few individuals
+who met the criteria for problem gamblers Exhibit 3 provides the prevalence rates for
+to observe meaningful differences in any several demographics. The table provides
+treatment they sought. information on the percentage of each
+population (e.g., men and women) who gamble
+Study Question 1—What is the prevalence of and are problem gamblers. It also indicates
+problem gambling among adults in WA State? rates of problem gambling, limiting the analysis
+to only those who gamble.
+The statewide prevalence of gambling and
+problem gambling is displayed in Exhibit 3. At Regional analysis was completed using
+the time of this study (July through September Apple Health regional service areas, as
+2021), we found that 44.7% of the adults in the shown in Exhibit 1.
+state had engaged in gambling in the past year.
+This is a lower prevalence rate than was
+observed in two previous studies in
+Washington. A survey conducted in 1998 found
+that 74% of adults had gambled in the past
+year.5 The second study done in 2003 found
+that 54% of adults had gambled in the past
+year.6
+5 Volberg, R.A., & Moore, W.E. (1998). Gambling and Problem Substance Use, Substance Use Disorders, and Need for
+Gambling In Washington State: A Replication Study, 1992 to Treatment in Washington State. Chapter 6. Problem
+1998. Report to the Washington State Lottery. Gambling, Substance Use, and Treatment Need. Olympia
+6 Mancuso, D., Gilson, M., & Felber, B. (2005). The 2003 WA, Department of Social and Health Services.
+Washington State Needs Assessment Household Survey:
+5
+
+=== page 6 ===
+We found that prevalence rates for gambling
+How to Read Exhibits 3-13
+varied significantly by the following:
+In this report, each row in Exhibits 3-13 represents a
+• Gender, population. For example, in Exhibit 3, the full sample
+represents 100% of the population. Of the population,
+• Marital status,
+44.7% gambled in the past 12 months. Of the entire
+• Hispanic ethnicity, population, we estimate 1.4% are problem gamblers.
+• Age, Among just the gamblers, 3.5% are problem gamblers.
+• Level of education, The tables provide the point estimate and the margin
+• Military service, of error. If the survey were repeated many times, we
+would expect the point estimate to lie within the
+• Employment,
+bounds of the margin of error 95% of the time.
+• Health insurance, and
+When ranges around point estimates for different
+• Geographic region.
+groups overlap, they may or may not be statistically
+different from one another. Thus, we tested for
+Problem gambling varied significantly by
+significant differences between groups. For each
+marital status, education, and employment
+demographic, we chose a “reference” population;
+status.
+findings for other populations were compared to the
+reference group, noted in the first column as “(ref),” by
+While women were less likely to gamble running a z-test of proportions. This test is
+than men, among gamblers, the rates of mathematically equivalent to a Chi-square test of
+problem gambling did not differ by gender. homogeneity. Running either of these identical tests is
+the standard for comparing group means across
+Prevalence of gambling and problem categorical variables.
+gambling did not vary by physical disability
+Where differences between populations are
+status. statistically significantly different (p ≤ 0.05), we
+indicate the significance with bolded text. For
+example, in Exhibit 3, we observe that those who were
+never married are significantly less likely to be
+gamblers (39.6%) than those who were married
+(46.2%), whereas those with an “other” marital status
+were no more or less likely (47.3%) than those who
+were married.
+Because the prevalence rate for problem gambling is
+very low, we sometimes see that the number of
+problem gamblers in a demographic is too small
+(fewer than 10 respondents) to estimate prevalence
+reliably. We indicate this as “N too small.”
+In some instances, each demographic category is
+different from each and every one of the others. In
+that case, we indicate this with a “†” symbol and italics.
+Weighted Ns in tables may vary because not all
+respondents answered all questions.
+Lastly, we only analyzed the demographic subsets
+requested by HCA.
+6
+
+=== page 7 ===
+Exhibit 3
+Prevalence of Gambling and Problem Gambling
+Gamblers only
+Full sample (N=9,249)
+(N=4,130)
+Weighted
+Population Percent
+N Percent of Percent Percent problem
+problem
+sample gamblers gamblers
+gamblers
+Full sample 9,249 100 44.7 (± 1.5) 1.4 (± 0.4) 3.5 (± 1.0)
+Gender #
+Men (ref) 4,576 49.5 (± 1.5) 46.2 (± 2.3) 1.3 (± 0.6) 3.0 (± 1.3)
+Women 4,673 50.5 (± 1.5) 43.1 (± 2.0) 1.5 (± 0.6) 4.1 (± 1.5)
+Race
+White (ref) 7,195 77.8 (± 1.4) 44.9 (± 1.7) 1.2 (± 0.4) 2.8 (± 0.9)
+POC 2,054 22.2 (± 1.4) 43.9 (± 3.6) 2.3 (± 1.2) 6.0 (± 3.0)
+Marital status
+Married (ref) 4,881 52.8 (± 1.5) 46.2 (± 1.9) 1.0 (± 0.4) 2.5 (± 1.0)
+Never married 2,516 27.2 (± 1.6) 39.6 (± 3.7) 1.8 (± 1.1) 4.8 (± 2.7)
+Other 1,852 20.0 (± 1.0) 47.3 (± 2.7) 2.0 (± 0.9) 4.7 (± 2.0)
+Ethnicity
+Hispanic (ref) 918 9.9 (± 1.2) 51.5 (± 6.3) 2.7 (± 2.2) 5.7 (± 4.5)
+Non-Hispanic 8,331 90.1 (± 1.2) 43.9 (± 1.5) 1.3 (± 0.4) 3.3 (± 0.9)
+Age group
+18-34 years (ref) 2,794 30.2 (± 1.6) 41.0 (± 3.5) 2.1 (± 1.1) 5.4 (± 2.8)
+35-64 years 4,640 50.2 (± 1.5) 48.1 (± 2.0) 1.1 (± 0.4) 2.6 (± 1.0)
+65+ years 1,815 19.6 (± 0.9) 41.5 (± 2.3) 1.1 (± 0.5) 3.3 (± 1.5)
+Education
+High school or less 2,926 31.6 (± 1.7) 46.1 (± 3.7) 1.4 (± 0.9) 3.8 (± 2.2)
+Some college 3,214 34.8 (± 1.4) 48.8 (± 2.4) 2.1 (± 0.8) 4.7 (± 1.7)
+BA degree (ref) 1,975 21.4 (± 0.9) 41.6 (± 2.1) 0.9 (± 0.4) 2.3 (± 1.1)
+Advanced degree 1,134 12.3 (± 0.6) 34.5 (± 2.2) 0.3 (± 0.3) N too small
+Physical disability*
+Yes (ref) 681 6.1 (± 0.7) 43.8 (± 5.5) 2.3 (± 1.9) 6.0 (± 4.6)
+No 8,443 93.9 (± 0.7) 44.5 (± 1.6) 1.3 (± 0.4) 3.3 (± 1.0)
+Military service
+Any military service (ref) 943 10.5 (± 0.9) 51.5 (± 4.3) 1.2 (± 0.7) 2.7 (± 1.6)
+No military service 8,065 89.5 (± 0.9) 43.5 (± 1.6) 1.3 (± 0.4) 3.2 (± 1.0)
+Employment
+Employed (ref) 5,062 57.2 (± 1.5) 47.4 (± 2.1) 1.2 (± 0.5) 2.9 (± 1.1)
+Unemployed/other 1,960 22.2 (± 1.5) 38.8 (± 3.9) 2.2 (± 1.1) 6.0 (± 3.0)
+Retired 1,827 20.6 (± 1.0) 42.4 (± 2.4) 0.6 (± 0.4) 1.6 (± 1.0)
+7
+
+=== page 8 ===
+Exhibit 3 (cont.)
+Prevalence of Gambling and Problem Gambling
+Gamblers only
+Full sample (N=9,249)
+(N=4,130)
+Weighted
+Population Percent
+N Percent of Percent Percent problem
+problem
+sample gamblers gamblers
+gamblers
+Full sample 9,249 100 44.7 (± 1.5) 1.4 (± 0.4) 3.5 (± 1.0)
+Type of health Insurance
+Private insurance (ref) 5,132 59.7 (± 1.6) 46.3 (± 2.0) 1.0 (± 0.4) 2.4 (± 1.0)
+Medicare/Medicaid 2,590 30.1 (± 1.5) 40.8 (± 2.9) 1.6 (± 0.8) 4.3 (± 2.1)
+Uninsured/other 869 10.1 (± 1.1) 41.9 (± 5.9) 2.3 (± 1.9) 5.9 (± 4.7)
+MCO region
+King (ref) 2,860 30.5 (± 1.4) 38.7 (± 2.5) 1.2 (± 0.7) 3.5 (± 2.0)
+Great Rivers 329 3.9 (± 0.6) 48.0 (± 8.4) 2.9 (± 2.7) N too small
+Greater Columbia 794 9.2 (± 0.9) 48.7 (± 5.4) 0.8 (± 0.9) N too small
+North Central 275 3.2 (± 0.6) 44.2 (± 9.7) 0.5 (± 1.0) N too small
+North Sound 1,644 17.0 (± 1.1) 45.1 (± 3.6) 1.3 (± 0.8) 3.3 (± 1.8)
+Pierce 915 11.6 (± 1.0) 49.7 (± 4.8) 1.7 (± 1.1) 3.9 (± 2.6)
+Salish 545 5.2 (± 0.6) 44.9 (± 6.1) 2.2 (± 2.5) N too small
+Southwest 613 6.7 (± 0.8) 51.1 (± 5.7) 0.7 (± 0.8) N too small
+Spokane 783 8.1 (± 0.8) 46.0 (± 5.1) 2.0 (± 1.9) N too small
+Thurston-Mason 491 4.7 (± 0.6) 45.6 (± 6.7) 1.2 (± 1.7) N too small
+Notes:
+For demographics, individual rows are calculated as a percentage of the total for the row only, not as a percentage of the column header.
+# Gender was reported as “male” or “female.” Throughout this report, we report as “men” and “women.”
+* Physical disability was determined from the response to the question, “Do you now have any health problem that requires you to use
+special equipment, such as a cane, a wheelchair, a special bed, or a special telephone?”
+Bold = Significance at the 0.05-level.
+POC = People of color.
+MCO = Managed Care Organization.
+8
+
+=== page 9 ===
+Study Question 2—What is the distribution of We categorized respondents to be brick-
+gambling methods (e.g., online vs. brick and and-mortar gamblers if they endorsed any
+mortar) that are being utilized by WA State of the following:
+adults?
+• Game rooms,
+• Casinos,
+The survey inquired about gambling venues
+and online methods of gambling. It asked a • Horse track/parimutuel betting,
+generic question about gambling online. • Purchasing lottery tickets,
+Respondents who indicated they did • Traveling out of state to gamble, and
+gamble online, in addition to those who
+• Other types of gambling or games of
+endorsed any of the following, were
+chance.
+categorized as “online gamblers.”7
+We observed that most online gamblers
+• Social casinos online,
+also gambled in brick-and-mortar
+• Sports betting online,
+establishments. For this analysis, we split
+• Gambling in cryptocurrency, gamblers into those who did any online
+• Purchasing chances to win in video gambling (“online gamblers”) and those
+games, who gambled only at brick-and-mortar
+establishments (“brick-and-mortar
+• Gambling on mobile phones/tablets,
+gamblers”).
+and
+• Purchasing a chance to “uplevel” in
+As can be seen in Exhibit 4, those who
+online games.
+gamble online are significantly more likely
+to be problem gamblers than those who
+only gamble in brick-and-mortar
+establishments.
+In Exhibits 5 and 6, we provide the
+differences in demographics of online and
+brick-and-mortar gambling.
+Exhibit 4
+Comparison of Online and Brick-and-Mortar Gamblers
+Percent (±) margin of error
+Number of
+Percent Percent problem
+gamblers
+gamblers gamblers
+Online 1,147 27.8 (± 2) 7.8 (± 2.9)
+Brick and mortar 2,982 72.2 (± 2) 1.7 (± 0.7)
+Note:
+Bold = Significance at the 0.05-level.
+7 About 3% of the sample did not endorse any of the complete the PGSI questions we are unable to speak to the
+gambling screening questions and, thus, were not classified severity of gambling in this group, they were omitted from
+as gamblers but later in the survey they indicated that they our analysis.
+did some sort of online gambling. Because they did not
+9
+
+=== page 10 ===
+Online Gamblers online, and those with an advanced degree
+were less likely than those with a high
+In our analysis, we find that the prevalence school diploma to gamble online. We see
+of online gambling is higher among men similar patterns when the sample is
+than women (14.0% vs 10.8%). restricted to gamblers only. We also
+observed differences in online gambling by
+Those aged 18 to 34 were most likely to military service, employment status, and
+gamble online, followed by those aged 35 geographic region.
+to 64. Those over age 65 were least likely to
+be online gamblers. Individuals who were Prevalence of problem gambling among
+never married were more likely than those online gamblers differed by marital status,
+who were currently married to gamble age group, and employment status.
+10
+
+=== page 11 ===
+Exhibit 5
+Online Gamblers
+Percent (±) margin of error
+Problem
+Number of Online as
+Percent of gamblers as
+online percent of all
+full sample percent online
+gamblers gamblers
+(N=9,249) gamblers
+(N=4,130)
+(N=1,147)
+Full sample 1,147 12.4 (± 1.1) 27.8 (± 2.2) 7.8 (± 2.9)
+Gender
+Men (ref) 642 14.0 (± 1.7) 30.4 (± 3.3) 6.9 (± 3.9)
+Women 505 10.8 (± 1.3) 25.1 (± 2.8) 9.0 (± 4.2)
+Race
+White (ref) 857 11.9 (± 1.2) 26.5 (± 2.3) 7.1 (± 3.0)
+POC 290 14.1 (± 2.7) 32.2 (± 5.3) 10.0 (± 7.0)
+Marital status
+Married (ref) 528 10.8 (± 1.2) 23.4 (± 2.5) 3.7 (± 2.3)
+Never married 372 14.8 (± 2.8) 37.4 (± 5.9) 11.4 (± 7.1)
+Other 247 13.3 (± 2.2) 28.2 (± 4.1) 11.6 (± 6.3)
+Ethnicity
+Hispanic 146 15.9 (± 4.7) 30.9 (± 8.4) N too small
+Non-Hispanic (ref) 1,001 12.0 (± 1.1) 27.4 (± 2.2) 7.4 (± 2.9)
+Age group
+18 to 34 years (ref) 465 16.7 (± 2.7)† 40.6 (± 5.5)† 10.9 (± 6.0)
+35 to 65 years 567 12.2 (± 1.4)† 25.4 (± 2.6)† 6.1 (± 3.1)
+65+ years 115 6.3 (± 1.1)† 15.2 (± 2.6)† 3.6 (± 3.5)
+Education
+High school or less 395 13.5 (± 2.6) 29.3 (± 5.1) N too small
+Some college 437 13.6 (± 1.8) 27.9 (± 3.2) 11.6 (± 5.4)
+BA degree (ref) 233 11.8 (± 1.5) 28.3 (± 3.1) N too small
+Advanced degree 82 7.2 (± 1.3) 21.0 (± 3.4) N too small
+Physical disability
+Yes (ref) 64 11.4 (± 3.5) 26.1 (± 7.3) N too small
+No 1,075 12.5 (± 1.1) 28.2 (± 2.3) 7.0 (± 2.9)
+Military service
+Any military service (ref) 107 11.4 (± 3.0) 22.1 (± 5.4) N too small
+No military service 1,025 12.7 (± 1.2) 29.2 (± 2.4) 7.7 (± 3.1)
+Employment
+Employed (ref) 760 15.0 (± 1.6) 31.7 (± 3.0) 5.7 (± 3.0)
+Unemployed/other 246 12.5 (± 2.6) 32.3 (± 6.0) 15.8 (± 8.9)
+Retired 103 5.6 (± 1.1) 13.3 (± 2.5) N too small
+11
+
+=== page 12 ===
+Exhibit 5 (cont.)
+Online Gamblers
+Percent (±) margin of error
+Problem
+Number of Online as
+Percent of gamblers as
+online percent of all
+full sample percent online
+gamblers gamblers
+(N=9,249) gamblers
+(N=4,130)
+(N=1,147)
+Full sample 1,147 12.4 (± 1.1) 27.8 (± 2.2) 7.8 (± 2.9)
+Type of health insurance
+Private insurance (ref) 671 13.1 (± 1.4) 28.3 (± 2.7) 5.2 (± 2.8)
+Medicare/Medicaid 276 10.7 (± 2.1) 26.1 (± 4.6) 9.9 (±7.1)
+Uninsured/other 130 14.9 (± 4.5) 35.6 (± 9.2) N too small
+MCO region
+King (ref) 333 11.6 (± 1.8) 30.0 (± 4.0) 8.0 (± 5.6)
+Great Rivers 40 12.3 (± 5.4) 25.5 (± 10.4) N too small
+Greater Columbia 103 26.6 (± 7.5) 26.6 (± 7.5) N too small
+North Central 37 13.3 (± 6.5) 30.1 (± 12.7) N too small
+North Sound 198 12.0 (± 2.4) 26.7 (± 4.9) 6.7 (± 5.4)
+Pierce 125 13.7 (± 3.4) 27.5 (± 6.2) 10.3 (± 8.2)
+Salish 76 13.9 (± 5.4) 31.0 (± 10.3) N too small
+Southwest 81 13.2 (± 4.0) 25.7 (± 7.2) N too small
+Spokane 77 9.8 (± 3.3) 21.3 (± 6.6) N too small
+Thurston-Mason 66 13.4 (± 5.5) 29.4 (± 10.5) N too small
+Notes:
+For demographics, individual rows are calculated as a percentage of the total for the row only, not as a percentage of the column header
+† indicates that all demographic groups in a column are significantly different from each other.
+Bold = Significance at the 0.05-level.
+POC = People of color.
+MCO = Managed Care Organization.
+Exhibit 6 displays the findings from the and-mortar establishments. Those who are
+analysis of those who gamble only at brick- unemployed are least likely to be brick-and-
+and-mortar establishments. We find the mortar gamblers, followed by employed
+percentage varies by gender, marital status, adults; retired people are the most likely.
+age group, education, military service, Finally, those with any military service
+employment, type of health insurance, and history are more likely to gamble in brick-
+geographic region, particularly when we and-mortar establishments than those with
+restrict the sample to individuals who no military service history.
+gamble at all
+We observed no demographic differences in
+For example, those aged 35 and older were the rate of problem gambling among brick-
+significantly more likely than individuals in and mortar gamblers.
+the youngest age group to gamble in brick-
+12
+
+=== page 13 ===
+Exhibit 6
+Brick-and-Mortar Gamblers
+Percent (±) margin of error
+Number of Brick-and-
+Problem gamblers
+brick-and- Percent of mortar as
+as percent brick-
+mortar full sample percent all
+and-mortar
+gamblers (N=9,249) gamblers
+(N=1,147)
+(N=4,130)
+Full sample 2,982 32.2 (± 1.4) 72.2 (± 2.2) 1.7 (± 0.7)
+Gender
+Men (ref) 1,473 32.2 (± 2.1) 69.6 (± 3.3) 1.2 (± 0.7)
+Women 1,509 32.3 (± 1.9) 74.9 (± 2.8) 2.2 (± 1.2)
+Race
+White (ref) 2,371 33.0 (± 1.5) 73.5 (± 2.3) 1.3 (± 0.5)
+POC 902 29.8 (± 3.2) 67.8 (± 5.3) 3.6 (± 2.7)
+Marital status
+Married (ref) 1,729 35.4 (± 1.8) 76.6 (± 2.5)† 1.1 (± 1.0)
+Never married 624 24.8 (± 3.2) 62.6 (± 5.9)† 1.9 (± 1.1)
+Other 629 34.0 (± 2.6) 71.8 (± 4.1)† 1.9 (± 1.1)
+Ethnicity
+Hispanic (ref) 326 35.6 (± 6.1) 69.1 (± 8.4) N too small
+Non-Hispanic 2,656 31.9 (± 1.4) 72.6 (± 2.2) 1.5 (± 0.5)
+Age group
+18 to 34 years (ref) 680 24.3 (± 3.0) 59.4 (± 5.5)† N too small
+35 to 65 years 1,664 35.9 (± 1.9) 74.6 (± 2.6)† 1.3 (± 0.6)
+65+ years 639 35.2 (± 2.3) 84.8 (± 2.6)† 3.2 (± 1.7)
+Education
+High school or less 953 32.6 (± 3.4) 70.7 (± 5.1) N too small
+Some college 1,131 35.2 (± 2.2) 72.1 (± 3.2) 2.0 (± 0.9)
+BA degree (ref) 589 29.8 (± 1.9) 71.7 (± 3.1) 1.8 (± 1.2)
+Advanced degree 310 27.3 (± 2.1) 79.0 (± 3.4) N too small
+Physical disability
+Yes (ref) 182 32.4 (± 5.1) 73.9 (± 7.3) N too small
+No 2,744 32.0 (± 1.5) 71.8 (± 2.3) 1.8 (± 0.7)
+Military service
+Any military service (ref) 378 40.1 (± 4.2) 77.9 (± 5.4) N too small
+No military service 2,483 30.8 (± 1.5) 70.8 (± 2.4) 1.2 (± 0.5)
+Employment
+Employed (ref) 1,637 32.3 (± 1.9)† 68.3 (± 3.0) 1.3 (± 0.6)
+Unemployed/other 514 26.2 (± 3.5)† 67.7 (± 6.0) N too small
+Retired 671 36.7 (± 2.4)† 86.7 (± 2.5) N too small
+13
+
+=== page 14 ===
+Exhibit 6 (cont.)
+Brick-and-Mortar Gamblers
+Percent (±) margin of error
+Number of Brick-and-
+Problem gamblers
+brick-and- Percent of mortar as
+as percent brick-
+mortar full sample percent all
+and-mortar
+gamblers (N=9,249) gamblers
+(N=1,147)
+(N=4,130)
+Full sample 2,982 32.2 (± 1.4) 72.2 (± 2.2) 1.7 (± 0.7)
+Type of health insurance
+Private insurance (ref) 1,705 33.2 (± 1.9) 71.7 (± 2.7) 1.1 (± 0.6)
+Medicare/Medicaid 781 30.2 (± 2.6) 73.9 (± 4.6) 2.4 (± 1.3)
+Uninsured/other 234 26.9 (± 5.2) 64.4 (± 9.2) N too small
+MCO region
+King (ref) 775 27.1 (± 2.3) 70.0 (± 4.0) 1.5 (± 1.0)
+Great Rivers 329 35.7 (± 8.0) 74.5 (± 10.4) 1.5 (± 2.3)
+Greater Columbia 284 35.8 (± 5.1) 73.4 (± 7.5) 1.4 (± 1.5)
+North Central 37 30.8 (± 8.6) 69.9 (± 12.7) N too small
+North Sound 543 33.0 (± 3.3) 73.3 (± 4.9) 1.9 (± 1.4)
+Pierce 330 36.1 (± 4.5) 72.5 (± 6.2) N too small
+Salish 169 31.0 (± 5.4) 69.0 (± 10.3) N too small
+Southwest 233 38.0 (± 5.5) 74.3 (± 7.2) N too small
+Spokane 284 36.2 (± 4.8) 78.7 (± 6.6) N too small
+Thurston-Mason 158 32.2 (± 6.0) 70.6 (± 10.5) N too small
+Notes:
+For demographics, individual rows are calculated as a percentage of the total for the row only, not as a percentage of the column header.
+† indicates that all demographic groups in a column are significantly different from each other.
+Bold = Significance at the 0.05-level.
+POC = People of color.
+MCO = Managed Care Organization.
+14
+
+=== page 15 ===
+Study Question 3—What is the prevalence of We observed that individuals who self-
+co-occurring disorders with problem identified as having a problem with
+gambling? substance use, mental health, or other
+behaviors were significantly more likely to
+The survey was not designed to diagnose be problem gamblers than others without
+co-occurring disorders. To answer this the co-occurring problem.
+question, we used responses to questions
+about problems with mental health, Additionally, we found that individuals
+substance use, and other behavioral issues. endorsing general substance use8 were
+We also examined the use of specific significantly more likely to gamble. Those
+substances and physical health. reporting poor health, and those using
+tobacco, cannabis, and other drugs were
+In Exhibit 7, which displays the findings, we significantly more likely to be problem
+list the weighted number of respondents in gamblers.
+the survey sample, within each sub-sample,
+Individuals reporting poor health were no
+and within demographic groups. We then
+more likely to gamble than those in good
+indicate the percentage within each
+health. However, a higher percentage of
+demographic group, both overall and the
+those in poor health were problem
+percentage that falls within a given sub-
+gamblers.
+sample. For example, 3.3% of the population
+endorsed having a problem with substance
+We found that gambling status was not
+use. Of those with a substance use problem,
+significantly different depending on a
+51% were gamblers and 8% were problem
+respondent’s disability status.
+gamblers. Among gamblers with a
+substance use problem, 16.5% were
+identified as problem gamblers. This is
+significantly greater than we observed in the
+population without substance problems
+(3.0%).
+8 General substance use includes alcohol, tobacco, cannabis,
+and other drugs not intended for medical use.
+15
+
+=== page 16 ===
+Exhibit 7
+Co-occurring Disorders with Problem Gambling
+Percent (±) margin of error Gamblers
+Full sample (N=9,249) (N=4,130)
+Weighted
+Percent Percent
+N
+Percent of Percent
+problem problem
+sample gamblers
+gamblers gamblers
+Full samplea 9,249 100 44.7 (± 1.5) 1.4 (± 0.4) 3.5 (± 1.0)
+Drug or alcohol problemb
+No (ref) 8,847 96.7 (± 0.6) 44.3 (± 1.5) 1.2 (± 0.4) 3.0 (± 0.9)
+Yes 306 3.3 (± 0.6) 51.0 (± 10.0) 8.0 (± 6.2) 16.5 (± 11.9)
+Behavioral issuesc
+No (ref) 7,992 87.6 (± 1.2) 43.9 (± 1.6) 0.8 (± 0.3) 2.1 (± 0.7)
+Yes 1,137 12.5 (± 1.2) 48.8 (± 5.0) 5.3 (± 2.5) 11.7 (± 5.2)
+Anxiety, depression, mental health
+problemsd
+No (ref) 6,664 73.3 (± 1.5) 44.5 (± 1.7) 0.8 (± 0.3) 2.1 (± 0.7)
+Yes 2,425 26.7 (± 1.5) 44.5 (± 3.3) 3.1 (± 1.3) 7.5 (± 3.1)
+Alcohol use
+No (ref) 2,535 27.9 (± 1.5) 33.7 (± 3.0) 1.4 (± 0.8) 5.0 (± 2.7)
+Yes 6,558 72.1 (± 1.5) 48.8 (± 1.7) 1.4 (± 0.5) 3.2 (± 1.1)
+Tobacco use
+No (ref) 7,617 83.6 (± 1.3) 41.3 (± 1.6) 1.0 (± 0.4) 2.6 (± 0.9)
+Yes 1,497 16.4 (± 1.3) 60.3 (± 4.3) 3.5 (± 1.7) 6.4 (± 3.1)
+Cannabis use
+No (ref) 6,716 73.6 (± 1.4) 41.1 (± 1.7) 0.9 (± 0.3) 2.4 (± 0.9)
+Yes 2,412 26.4 (± 1.4) 53.8 (± 3.2) 2.9 (± 1.2) 5.9 (± 2.4)
+Any other drug use
+No (ref) 8,714 95.2 (± 0.7) 43.7 (± 1.5) 1.1 (± 0.4) 2.9 (± 0.9)
+Yes 435 4.8 (± 0.7) 58.7 (± 7.8) 7.4 (± 4.9) 13.1 (± 8.4)
+Physical health
+Good health (ref) 7,445 82.4 (± 1.3) 44.2 (± 1.7) 1.1 (± 0.4) 2.8 (± 0.9)
+Poor health 1,588 17.6 (± 1.3) 46.4 (± 3.9) 3.0 (± 1.6) 7.3 (± 3.8)
+Physical disability
+Yes (ref) 681 6.1 (± 0.7) 43.8 (± 5.5) 2.3 (± 1.9) 6.0 (± 4.6)
+No 8,443 93.9 (± 0.7) 44.5 (± 1.6) 1.3 (± 0.4) 3.3 (± 1.0)
+Notes:
+a For demographics, individual rows are calculated as a percentage of the total for the row only, not as a percentage of the column header.
+b Substance use stems from survey question 10: Have you had any problems with drugs or alcohol in the past 12 months?
+c Behavioral issues stem from question 12: Have you had any problems with other behaviors(s) in the past 12 months such as overeating, sex or
+pornography, exercise, internet chat lines, or other issues?
+d Anxiety, depression, and mental health stem from question 13: In the past 12 months, have you had any serious problems with depression,
+anxiety, or other mental health problems?
+Bold = Significance at the 0.05-level.
+16
+
+=== page 17 ===
+Study Question 4—What methods of As shown in Exhibit 8, television and radio
+outreach and awareness are reaching were reported to be the most common
+different demographic groups? sources where respondents heard
+information pertaining to problem
+Methods of Problem Gambling Outreach gambling. Of respondents who heard about
+problem gambling, 19.4% heard from the
+The survey sought to uncover the efficacy of television and 13.7% heard from the radio.
+problem gambling outreach campaigns by In comparison, only 5% to 6% of
+asking respondents whether they had heard respondents heard about problem gambling
+or seen information about problem from an article, brochure, or another person,
+gambling from any of the following sources: and only 3.6% heard from some other
+source.
+• Radio,
+• Television,
+• Article,
+• Brochure or poster at a gambling
+venue,
+• From another person, or
+• Other source of information.
+Exhibit 8
+Awareness of Problem Gambling Outreach
+Weighted Percent heard about problem
+Source
+N gambling through source
+Sample 9,219 100
+Radio 1,259 13.7 (± 1.0)
+Television 1,788 19.4 (± 1.2)
+Article 578 6.3 (± 0.8)
+Brochure (ref) 550 6.0 (± 0.7)
+Another person 491 5.3 (± 0.8)
+Other 332 3.6 (± 0.5)
+Note:
+Bold = Significance at the 0.05-level.
+17
+
+=== page 18 ===
+Next, we divided these six outreach Our results showed that among the full
+categories into those classified as broadcast survey population, women, POC, Hispanics,
+(radio and television) and those that were and individuals 18 to 34 years old were
+not (the rest). significantly less likely to recall hearing
+about problem gambling through broadcast
+Exhibits 9 and 10 display information about when compared to other groups in those
+broadcast and other outreach, respectively. demographic categories. When the sample
+The tables provide information about was restricted to gamblers, race no longer
+respondents in the full survey sample and significantly predicted one’s likelihood of
+among those who gambled at least once hearing about problem gambling through
+within the last 12 months. The percentage broadcast, but gender, ethnicity, and age
+of respondents within each demographic did. Notably, gamblers were significantly
+group and the proportion of those more likely than non-gamblers to recall
+respondents who heard about problem hearing about problem gambling through
+gambling are given for both sample groups. broadcast.
+For example, in Exhibit 9, 49.5% of the full
+sample are men. Of the men in the full
+sample, 30.8% heard about problem
+gambling through broadcast. Among men
+who gamble, 36% heard about problem
+gambling through broadcast.
+18
+
+=== page 19 ===
+Exhibit 9
+Broadcast Outreach
+Percent (±) margin of error
+Full sample (N=9,219) Gamblers (N=4,101)
+Weighted Percent who Percent who
+Percent of Percent of
+N heard a heard a
+population population
+broadcast broadcast
+Full sample 9,219 100 26.2 (± 1.3) 44.5 (± 1.5) 31.2 (± 1)
+Gender
+Men (ref) 4,561 49.5 (± 1.5) 30.8 (± 2.1) 46.2 (± 3.0) 36.0 (± 3.2)
+Women 4,658 50.5 (± 1.5) 21.6 (± 1.6) 43.1 (± 2.0) 26.2 (± 2.6)
+Race
+White (ref) 7,169 77.8 (± 1.4) 27.4 (± 1.5) 44.9 (± 1.7) 32.4 (± 3)
+POC 2,050 22.2 (± 1.4) 22.0 (± 3.0) 43.9 (± 3.6) 26.9 (± 4.8)
+Ethnicity
+Hispanic (ref) 917 9.9 (± 1.2) 18.7 (± 4.6) 51.5 (± 6.3) 22.0 (± 7.1)
+Non-Hispanic 8,302 90.1 (± 1.2) 27.0 (± 1.4) 43.9 (± 1.5) 32.4 (± 2.1)
+Age group
+18-34 years (ref) 2,782 30.2 (± 1.6) 19.6 (± 2.8) 41.0 (± 3.4) 22.0 (± 4.5)
+35-64 years 4,630 50.2 (± 1.5) 29.3 (± 1.8) 48.1 (± 2.0) 35.1 (± 2.8)
+65+ years 1,807 19.6 (± 0.9) 28.2 (± 1) 41.5 (± 2.3) 33.7 (± 3.6)
+Note:
+For demographics, individual rows are calculated as a percentage of the total for the row only, not as a percentage of the column header.
+Bold = Significance at the 0.05-level.
+POC = People of color.
+In Exhibit 10, we identified significant We observed no difference in the
+differences in the percentage of individuals percentage of individuals who heard about
+who heard about problem gambling problem gambling through other outreach
+through other outreach methods across methods between those of Hispanic and
+demographic groups. In the full sample, non-Hispanic ethnicities.
+women, White respondents and individuals
+aged 35 and older were significantly less
+likely to hear about problem gambling
+through other outreach options. Among
+gamblers, women were less likely than men
+to have seen other outreach information.
+There were no other significant differences
+between demographic groups in the
+percentage of individuals who heard about
+problem gambling through outreach
+methods other than broadcast.
+19
+
+=== page 20 ===
+Exhibit 10
+Other Outreach Methods
+Percent (range)
+Full sample (N= 9,219) Gamblers (N=4,101)
+Weighted
+Percent who Percent who
+N Percent of Percent of
+heard from other heard from other
+population population
+sources sources
+Full sample 9,219 100 17.3 (± 1.2) 44.5 (± 1.5) 20.0 (± 1.8)
+Gender
+Men (ref) 4,561 49.5 (± 1.5) 19.5 (± 1.8) 51.2 (± 2.3) 22.2 (± 2.7)
+Women 4,658 50.5 (± 1.5) 15.1 (± 1.4) 48.8 (± 2.3) 17.7 (± 2.3)
+Race
+White (ref) 7,169 77.8 (± 1.4) 16.2 (± 1.2) 78.1 (± 2.0) 19.5 (± 1.9)
+POC 2,050 22.2 (± 1.4) 21.0 (± 3.0) 21.9 (± 2.0) 21.8 (± 4.4)
+Ethnicity
+Hispanic (ref) 917 9.9 (± 1.2) 18.3 (± 4.7) 11.5 (± 1.9) 19.1 (± 6.8)
+Non-Hispanic 8,302 90.1 (± 1.2) 17.2 (± 1.2) 88.5 (± 1.9) 20.1 (± 1.8)
+Age group
+18-34 years (ref) 2,782 30.2 (± 1.6) 20.6 (± 2.8) 27.7 (± 2.4) 21.3 (± 4.3)
+35-64 years 4,630 50.2 (± 1.5) 16.0 (± 1.5) 54.2 (± 2.3) 19.3 (± 2.3)
+65+ years 1,807 19.6 (± 0.9) 15.6 (± 1.7) 18.2 (± 1.4) 20.0 (± 2.9)
+Notes:
+For demographics, individual rows are calculated as a percentage of the total for the row only, not as a percentage of the column header.
+Bold = Significance at the 0.05-level.
+POC = People of color.
+Awareness of Problem Gambling To gauge the validity of responses, the
+Resources survey also included a fictitious program,
+Gamblers Come Together (WA State).
+To understand the extent to which
+individuals are aware of Washington State's Exhibit 11 provides the number of
+problem gambling resources, the survey respondents in the full sample and the
+asked respondents to select all resources number aware of each resource. For those
+that the individual was familiar with. respondents who said they were aware of
+Resources included support groups, clinical each resource, we report the percentage of
+services, and helplines in Washington State. the full population as well as those who
+were gamblers and problem gamblers.
+20
+
+=== page 21 ===
+For example, 24.3% of all respondents were Exhibit 11 also highlights the two most
+aware of Gamblers Anonymous. Of those recognized resources. In addition to
+who had heard of Gamblers Anonymous, Gamblers Anonymous,15.8% said they were
+53.5% were gamblers and 2.7% were aware of the Problem Gambling Helpline.
+problem gamblers. Comparatively, awareness of other
+resources varied from 1.1%-6.1%.
+With the exception of Community
+Behavioral Health Programs, gamblers made
+up most of the respondents who were
+aware of problem gambling resources.
+WSIPP was precluded from analyzing
+awareness of resources by demographics
+due to small sample sizes.
+Exhibit 11
+Awareness of Resources
+Percent aware of
+Full resources
+Weighted
+population Problem
+N Gamblers
+(N=9,215) gamblers
+(N=4,101)
+(N=130)
+Full sample 9,215 100 44.5 (± 1.5) 1.4 (± 0.4)
+Support programs
+Gamblers Anonymous 2,238 24.3 (± 1.2) 53.5 (± 2.8) 2.7 (± 1.1)
+Gam-Anon 2,21 2.4 (± 0.5) 59.1 (± 9.3) 6.1 (± 4.7)
+Resources for clinical treatment and other services
+Evergreen Council on Problem Gambling 103 1.1 (± 0.3) 71.6 (± 11.8) N too small
+Problem Gambling Helpline 1,456 15.8 (± 1.1) 60.8 (± 3.5) 25.0 (± 11.4)
+Community Behavioral Health Programs 559 6.1 (± 0.7) 45.4 (± 5.9) 17.9 (± 12.6)
+Tribal Behavioral Health Programs 408 4.4 (± 0.6) 55.6 (± 6.6) N too small
+WA State Problem Gambling Program 441 4.8 (± 0.6) 67.8 (± 6.2) 13.3 (± 9.9)
+Fictitious program
+Gamblers Come Together (WA State) 102 1.1 (± 0.3) 53.5 (± 15.4) N too small
+Notes:
+For this table, we did not conduct tests of significance.
+Bold Indicates the two most commonly recognized resources.
+21
+
+=== page 22 ===
+Study Question 5—What are the beliefs and Beliefs about gambling significantly differed
+attitudes about gambling? by region and gender. Respondents in the
+North Central and Greater Columbia regions
+We analyzed respondents’ beliefs about the were more likely than those from King
+benefits and harms of gambling to identify County (the reference group) to believe the
+the general beliefs about gambling at the benefits of gambling outweighed the harms;
+state level and to determine if there were whereas those from the Salish and
+differences in beliefs by gambling status, Thurston-Mason regions were significantly
+region, age, gender, race, and ethnicity. less likely than those from King County to
+believe the same. Men were significantly
+In Exhibit 12, we include the number of more likely than women to believe the
+respondents in the sample, the total number benefits of gambling outweighed the harms.
+who endorsed each belief option, and the In contrast, women were significantly more
+number of respondents in each likely than men to believe that the harms
+demographic group. The proportion of the somewhat or far outweighed the benefits.
+population within demographic groups and
+their relative beliefs about gambling are also
+provided. For example, 5.2% of non-
+gamblers believed that the benefits of
+gambling outweighed the harms, which is
+significantly fewer than the 10.5% of all
+gamblers who believed the same.
+22
+
+=== page 23 ===
+Exhibit 12
+Beliefs About Gambling, by Gambling Status and Demographic Group
+Percent (±) margin of error
+Benefits
+Harms somewhat The benefits and
+Weighted Percent of somewhat or far
+or far outweigh harms are about
+N population outweigh the
+the benefits equal
+(N=8,895) harms
+(N=6,031) (N=2,195)
+(N=670)
+Percent of population 8,895 100 67.8 (± 1.5) 7.5 (± 0.9) 24.7 (± 1.3)
+Gambling status
+Non-gamblers (ref) 4,932 55.4 (± 1.5) 77.3 (± 1.7) 5.2 (± 1.0) 17.5 (± 1.5)
+All gamblers 3,964 44.6 (± 1.5) 56.0 (± 2.3) 10.5 (± 1.5) 33.6 (± 2.2)
+Problem gamblers 126 1.4 (± 0.4) 64.6 (± 14.3) N too small 28.8 (± 13.3)
+Age
+18-34 years (ref) 2,756 31.0 (± 1.7) 67.6 (± 3.3) 7.7 (± 1.9) 24.7 (± 3.0)
+35-64 years 4,421 49.7 (± 1.5) 66.7 (± 1.9) 7.6 (± 1.1) 25.7 (± 1.7)
+65+ years 1,718 19.3 (± 0.9) 71.0 (± 2.2) 7.0 (± 0.9) 22.0 (± 1.3)
+Gender
+Men (ref) 4,426 49.8 (± 1.5) 65.1 (± 2.2) 9.2 (± 1.4) 25.7 (± 2.0)
+Women 4,469 50.2 (± 1.5) 70.4 (± 1.9) 5.9 (± 1.1) 23.7 (± 1.7)
+Race
+White (ref) 6,928 77.9 (± 1.4) 67.6 (± 1.6) 7.3 (± 0.9) 25.1 (± 1.5)
+POC 1,967 22.1 (± 1.4) 68.7 (± 3.5) 8.3 (± 2.1) 23.0 (± 3.2)
+Ethnicity
+Hispanic (ref) 877 9.9 (± 1.2) 66.0 (± 6.1) 9.5 (± 4.0) 24.5 (± 5.4)
+Non-Hispanic 8,018 90.1 (± 1.2) 68.0 (± 1.5) 7.3 (± 0.8) 24.7 (± 1.4)
+MCO Region
+King (ref) 2,704 30.4 (± 1.0) 69.0 (± 2.5) 7.7 (± 1.5) 26.3 (± 2.3)
+Great Rivers 346 3.9 (± 0.5) 60.0 (± 8.2) 11.6 (± 6.1) 28.4 (± 7.3)
+Greater Columbia 803 9.0 (± 0.7) 62.3 (± 5.4) 11.4 (± 1.5) 26.3 (± 4.8)
+North Central 289 3.3 (± 0.5) 58.0 (± 10.0) 17.5 (± 8.2) 24.5 (± 8.6)
+North Sound 1,523 17.1 (± 0.9) 70.0 (± 3.4) 6.2 (± 1.8) 23.8 (± 3.1)
+Pierce 1,037 11.7 (± 0.8) 70.9 (± 4.5) 6.4 (± 2.4) 22.7 (± 4.1)
+Salish 466 5.2 (± 0.5) 72.9 (± 5.5) 5.0 (± 1.9) 22.2 (± 5.3)
+Southwest 589 6.6 (± 0.5) 66.4 (± 5.5) 5.7 (± 2.6) 27.9 (± 5.3)
+Spokane 714 8.0 (± 0.6) 65.1 (± 4.9) 5.8 (± 2.4) 29.0 (± 4.6)
+Thurston-Mason 425 4.8 (± 0.5) 69.3 (± 6.4) 4.5 (± 2.4) 26.2 (± 6.2)
+Note:
+Bold = Significance at the 0.05-level.
+POC = People of color.
+MCO = Managed Care Organization.
+23
+
+=== page 24 ===
+Opinions about the availability of gambling Opinions about gambling availability
+were also analyzed at the state level and significantly differed by gambling status and
+across demographic groups. Exhibit 13 lays age. Gamblers and problem gamblers were
+out the number of respondents in the significantly more likely than non-gamblers
+sample, the total number who endorsed to think gambling was not available enough.
+each opinion, and the number of Each age group differed significantly from
+respondents in each demographic group. one another. Respondents 18 to 34 years
+Also provided is the proportion of the old were less likely to think gambling was
+population within demographic groups and too widely available and more likely to
+their relative opinions about gambling. believe the current availability of gambling
+was fine. Respondents 65 years and older
+were most likely to think gambling was too
+widely available and least likely to think
+gambling availability was fine or not
+available enough.
+24
+
+=== page 25 ===
+Exhibit 13
+Opinions About Gambling Availability
+Percent (±) margin of error
+Weighted Gambling is not Current
+Percent of Gambling is too
+N available availability of
+population widely available
+enough gambling is fine
+Percent of population 8,890 100 31.2 (± 1.4) 4.6 (± 0.7) 64.2 (± 1.5)
+Gambling status
+Non-gamblers
+4,888 55.0 (± 1.5) 39.3 (± 2.0) 2.3 (± 0.8) 58.5 (± 2.1)
+(ref)
+All gamblers 4,003 44.6 (± 1.5) 21.5 (± 1.9) 7.5 (± 1.3) 71.1 (± 2.2)
+Problem
+124 1.4 (± 0.4) 31.3 (± 12.7) 16.9 (± 12.9) 51.8 (± 14.8)
+gamblers
+Gender
+Men (ref) 4,474 49.7 (± 1.5) 29.5 (± 2.1) 6.9 (± 1.3) 63.6 (± 2.2)
+Women 4,469 50.3 (± 1.5) 33.0 (± 2.0) 2.3 (± 0.8) 64.7 (± 2.0)
+Race
+White (ref) 6,931 78.0 (± 1.4) 31.7 (± 1.6) 4.2 (± 0.8) 64.0 (± 1.6)
+POC 1,960 22.0 (± 1.4) 29.4 (± 3.4) 6.0 (± 2.0) 64.6 (± 3.6)
+Ethnicity
+Hispanic (ref) 880 9.9 (± 1.2) 33.2 (± 6.2) 6.6 (± 3.5) 60.2 (± 6.4)
+Non-Hispanic 8,010 90.1 (± 1.2) 31.0 (± 1.4) 4.4 (± 0.7) 64.6 (± 1.5)
+Age
+18-34 years (ref) 2,731 30.7 (± 1.6) 24.5 (± 3.2)† 5.8 (± 1.7) 69.7 (± 3.3)†
+35-64 years 4,457 50.1 (± 1.5) 31.0 (± 1.9)† 4.7 (± 1.0) 64.3 (± 2.0)†
+65+ years 1,703 19.2 (± 0.9) 42.6 (± 2.4)† 2.4 (± 0.9) 55.0 (± 2.4)†
+MCO region
+King (ref) 2,689 30.3 (± 1.0) 26.8 (± 2.4) 4.7 (± 1.3) 64.7 (± 2.5)
+Great Rivers 346 3.9 (± 0.5) 36.0 (± 8.2) 6.7 (± 5.2) 57.3 (± 8.5)
+Greater Columbia 805 9.1 (± 0.7) 27.9 (± 4.7) 7.5 (± 3.2) 64.7 (± 5.2)
+North Central 285 3.2 (± 0.5) 24.5 (± 7.9) 7.4 (± 5.3) 68.1 (± 8.8)
+North Sound 1,523 17.1 (± 0.9) 33.9 (± 3.5) 3.1 (± 1.4) 63.0 (± 3.6)
+Pierce 1,038 11.7 (± 0.8) 38.4 (± 4.7) 5.6 (± 2.9) 56.0 (± 4.9)
+Salish 464 5.2 (± 0.5) 36.5 (± 6.3) 3.5 (± 2.1) 60.1 (± 6.4)
+Southwest 608 6.8 (± 0.6) 28.5 (± 5.8) 4.2 (± 2.7) 67.3 (± 5.9)
+Spokane 709 8.0 (± 0.6) 31.8 (± 4.8) 2.9 (± 2.1) 65.3 (± 5.0)
+Thurston-Mason 423 4.8 (± 0.5) 36.4 (± 6.7) 3.4 (± 2.2) 60.3 (± 6.8)
+Notes:
+† indicates that all demographic groups are significantly different from each other.
+Bold = Significance at the 0.05-level.
+MCO = Managed Care Organization.
+POC = People of color.
+25
+
+=== page 26 ===
+III. Summary and Limitations
+We found that in 2021, 44.7% of Due to the small prevalence of problem
+Washington State adults gambled in the gambling in the overall adult population
+previous 12 months. Among those who (1.4%), a limitation of the survey was that we
+gambled, 3.5% were problem gamblers were unable to detect a large number of
+(1.4% of the total adult population). statistically significant differences in the
+prevalence rate for problem gambling
+Rates of gambling varied by gender, marital (based on the ten demographics collected).
+status, ethnicity, age, education, military This was also an issue for establishing if
+service, employment, type of insurance, and people seeking problem gambling
+geographic region. treatment were able to find it. A future
+focused panel study, or larger survey
+We observed that of those who gambled, population study, might glean more specific
+online gamblers constituted 27.8% (online information about problem gamblers based
+gamblers may also gamble in brick-and- on demographics.
+mortar facilities). We also determined that
+the rate of problem gambling is significantly
+higher for online gamblers than for those
+who gamble only in brick-and-mortar
+establishments (7.8% vs 1.7%).
+26
+
+=== page 27 ===
+Acknowledgments
+The authors wish to thank Dr. Rachel Volberg of Gemini Research and Dr. Ty Lostutter at the
+University of Washington for helpful feedback and guidance. Roxane Waldron, Problem
+Gambling Program Manager at HCA, oversaw the project and provided considerable guidance
+as we conducted the analysis.
+27
+
+=== page 28 ===
+For further information on how the survey was conducted, contact Rose Krebill-Prather, PhD,
+at Washington State University. krebill@wsu.edu
+For further information, contact: Marna Miller
+Marna Miller at 360.664.9086, marna.miller@wsipp.wa.gov Document No. 22-11-3901
+Washington State Institute for Public Policy
+The Washington State Legislature created the Washington State Institute for Public Policy in 1983. A Board of Directors—representing the
+legislature, the governor, and public universities—governs WSIPP and guides the development of all activities. WSIPP’s mission is to carry out
+practical research, at legislative direction, on issues of importance to Washington State.

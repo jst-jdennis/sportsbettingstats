@@ -1,0 +1,1448 @@
+=== page 1 ===
+2022 Missouri Gambling Prevalence Study
+Keith E. Spare, MS, M. Div, LPC
+Kansas City Port Authority Problem Gambling Fund Advisory Committee
+Chair
+Wiley Harwell, D. Min., LPC, ICGC-II
+Oklahoma Association for Problem Gambling and Gaming
+Executive Director
+Report Prepared By:
+Devin J. Mills, PhD
+Uibin Lee, MA
+Lauren E. Lewis, MA, LPC
+Texas Tech University
+Department of Community, Family, and Addiction Sciences
+To cite report: Spare, K., Wiley, H. D., Mills, D. J., Lee, U., & Lewis, L. E. (2023). 2022 Missouri Gambling Prevalence Study. Report created
+for the Kansas City Port Authority Problem Gambling Fund Advisory Committee and the Oklahoma Association on Problem Gambling and
+Gaming. Norman, MO: Authors.
+1
+
+=== page 2 ===
+Executive Summary
+The prevalence of gambling disorder (GD) in Missouri remains largely unknown, even as U.S. gambling
+expands with the rise in sports betting and online gambling, potentially leading to more GD cases and public
+health concerns. Below is a summary of our findings from a sample of 3,259 adults in Missouri, which was
+weighted to reflect the demographics of the state.
+Gambling Participation:
+• 64.1% (or 3.1 million) of adult Missourians partake in some form of gambling each year.
+• 24.1% gamble at a low-frequency (i.e., less than monthly), 19.5% gamble at a moderate frequency
+(i.e., monthly), and 20.2% gamble at a high-frequency (i.e., weekly or more).
+Motivations:
+Gambling for entertainment and financial reasons were the top motivations for gambling, whereas
+gambling to cope or escape or to socialize were rated the lowest.
+Gambling Disorder:
+• 4.1% (or 200,000 adult Missourians) met the criteria for GD, and an additional 20.8% (or 1 million
+adult Missourians) were At-Risk for GD (i.e., endorsing at least one GD criterion).
+• Prevalence of GD increases with frequency: 1.2% among those who gamble at a low frequency,
+5.7% among those who gamble at a moderate-frequency, and 13.4% among those who gamble at
+a high-frequency.
+• Prevalence of GD varied across the type of gambling activity with 19.3% for league or season fantasy
+sports, 17.5% for daily fantasy sports, 14.0% for stock trading, 13.3% for casino table or dice games,
+and 12.8% for slot or video card machines.
+Maladaptive Beliefs:
+Endorsing maladaptive beliefs about gambling (i.e., After losing many times you are more likely to
+win; You can win more with a strategy or system) place individuals at an increased risk for GD, with
+42.7% of those endorsing both beliefs meeting criteria for GD.
+Suicide Ideation and Attempts due to Gambling:
+• Across the entire sample, the prevalence of reporting suicide ideation or having attempted
+suicide due to gambling was 1.5% and 1.4%, respectively. This finding indicates that around
+72,000 adults in Missouri may be experiencing suicidal thoughts or have even attempted
+suicide due to their gambling.
+• Prevalence of suicide ideation or attempted suicide due to gambling increases with risk for GD:
+Of those At-Risk for GD, 0.9% reported suicide ideation and 0.8% a suicide attempt(s) due
+o
+to their gambling, or approximately 9,000 adults in Missouri.
+Of those meeting GD criteria, 27.5% reported suicide ideation and 27.0% a suicide
+o
+attempt(s) due to their gambling, or approximately 55,000 adults in Missouri.
+Helpline and Resources:
+• The awareness and utilization of treatment options for GD remains strikingly low. As a result, urgent
+action is needed to enhance awareness and access to treatment options to counter the mounting
+social and personal toll of GD in Missouri.
+Our research underscores the pressing need for layered interventions. This encompasses enhancing public
+awareness, reinforcing professional training with an accent on suicide prevention, expanding treatment
+accessibility, instigating targeted prevention campaigns, and forging insightful legislation.
+2
+
+=== page 3 ===
+2022 Missouri Gambling Prevalence Study
+Background and Rationale for the Prevalence Study
+Gambling is defined as the act of wagering money or something of value on an event with an uncertain
+outcome, with the primary intent of winning additional money or material goods. It involves an element of risk,
+as the outcome of the event is uncertain and cannot be predicted with complete accuracy. Gambling takes
+various forms, including casino games (e.g., slot machines, poker, blackjack, roulette), sports betting, trading
+high-risk financial assets (e.g., cryptocurrencies, options contracts), and purchasing lottery tickets.
+For states and communities, the gambling industry provides various economic benefits. One of the most
+significant advantages is its contribution to the economy through job creation and tax revenues. In addition,
+the industry generates substantial tax revenues for federal, state, and local governments, which can be used
+to fund essential services and infrastructure projects. Tourism is also positively impacted, stimulating the
+hospitality, entertainment, and retail sectors. Furthermore, the industry supports various charitable causes
+through initiatives like charitable gambling, which helps raise funds for nonprofits and community projects.
+Following the Supreme Court striking down the Professional and Amateur Sports Protection Act (PASPA),
+the gambling industry and the overall economic impact of gambling are expected to grow substantially over
+the next decade. For those who gamble, responsible gambling participation can be a fun recreational activity.
+Many report the thrill and excitement of gambling, as well as the social connections they make through
+gambling, as primary reasons for playing. Data from the National Council on Problem Gambling shows that
+73% of US adults gamble annually, demonstrating the popularity of gambling within the US.
+However, gambling is not always engaged responsibly due to many reasons that are often beyond the control
+of the individual. Consequently, while the economic benefits of the gambling industry are attractive, the
+continued gambling expansion over the next decade has raised concerns about the potential increase in
+problem gambling and, more specifically, gambling disorder. As a result, there is a growing need to promote
+safer gambling practices and increase statewide resources to address the likely increase in gambling
+disorder. These concerns are particularly relevant to Missouri, where a rich gambling culture and mounting
+legislative pressure to expand gambling exists.
+What is Gambling Disorder?
+Gambling disorder (GD) is characterized by an inability to control one's gambling behavior, leading to
+significant negative consequences in various aspects of life. Criteria for GD include a preoccupation with
+gambling, betting more than one can afford, chasing losses, lying about gambling activities, and conflicts
+within one's personal and social responsibilities.
+Mental health issues (e.g., anxiety, depression, and suicidal thoughts) and substance use problems
+commonly co-occur with GD. Furthermore, GD can lead to devastating losses, resulting in insurmountable
+debt, bankruptcy, and the potential loss of assets such as homes and vehicles. These financial issues often
+contribute to strained relationships, family breakdowns, and social isolation as trust is eroded and loved ones
+become alienated. This can further exacerbate existing mental health issues.
+3
+
+=== page 4 ===
+Beyond the individuals, GD can also impact communities. In the workplace, GD may contribute to reduced
+productivity due to individuals being preoccupied with gambling, leading to missed work or a lack of focus.
+This, in turn, can negatively affect their professional lives and the functioning of the businesses they work for.
+Additionally, GD is linked to increased crime rates, as some individuals resort to illegal activities such as theft
+or fraud to finance their gambling habits or cover losses. The costs associated with these crimes and the
+resources required to address GD place a burden on communities and public services.
+Numerous factors contribute to GD, including biological predispositions, personality traits, mental health
+issues, environmental influences, and social pressures. Exposure to gambling opportunities, aggressive
+marketing, and glamorizing gambling in popular culture can increase the appeal of gambling and, therefore,
+increase the potential for GD. Family and peer attitudes, financial stress, and the belief that gambling can
+quickly solve financial problems also play a role. The interplay of these factors creates a complex web of risk
+factors, making some individuals more susceptible to GD than others.
+The prevalence of GD in the United States varies depending on the study and the specific population
+examined. Historically, the prevalence of GD has been estimated at around 1-2% of the U.S. adult population.
+However, these rates may be underestimated, as recent studies in Illinois and New Jersey found prevalence
+rates of 3.8% and 6.1%, respectively. 1,2 Additionally, another 20-25% of the population could be considered
+at-risk for GD or at least be experiencing some gambling-related problems without meeting the full criteria for
+GD (i.e., subclinical GD). Data from the National Council on Problem Gambling (NCPG) found that 31% of
+U.S. adults endorse at least one GD behavior, suggesting nearly one-third of the U.S. population may be at
+risk for GD or, at the very least, be experiencing mild to moderate harms from their gambling.
+Current State of Gambling and Gaming in Missouri
+As of 2023, gambling remains a significant part of Missouri's culture and economy. Since the establishment
+of the state lottery in 1984 and the legalization of riverboat casinos in 1992, the industry has contributed
+substantially to the state's revenue. The Missouri Lottery Fact Book 2022 reveals $1,811,489,000 sales in
+2021 with total sales since inception and through 2021 at $27,318,379,000. Proceeds to the state thru 2021
+were stated to be $7,318,279,650. The 2022 Annual Report from the Missouri Gaming Association reveals
+that Missouri's casinos have generated $389.7 million in tax revenue for the state and $69.75 million for their
+respective host cities. These funds have been strategically allocated to support the statewide education
+system, veterans and national guard trust funds, and financial assistance programs, thereby contributing to
+the state's overall economic health. However, the potential economic benefits are not without risks.
+Three questions were included in the 2010 and 2013 Missouri Behavioral Risk Factor Surveillance System
+phone surveys and two were included in the 2016 survey. Findings from the indicated that in 2010 40.4%, in
+2013 36.4% and in 2016 46% of Missourians participated in gambling. Missourians who reported financial
+harm due to their activities progressed from 0.4% in 2010 to 0.7% in 2013 and 1.3% in 2016. The third
+1 Illinois Department of Human Services: https://www.dhs.state.il.us/page.aspx?item=144073;
+2 Nower, L., Volberg, R.A. & Caler, K.R. (2017). The Prevalence of Online and Land Based Gambling in
+New Jersey. Report to the New Jersey Division of Gaming Enforcement. New Brunswick, NJ: Authors. Retrieved from
+https://socialwork.rutgers.edu/centers/center-gambling-studies/research-publications‐
+4
+
+=== page 5 ===
+question asked in 2010 and 2013 was “Money spent on gambling led to problems with family, work, or
+personal life.” The 2010 response rate of 0.3% in 2010 grew to 0.5% in 2013. It is likely that had the question
+been asked in 2016 it would have increased similarly. This is the last time gambling in Missouri was assessed
+in these annual studies by the Centers for Disease Control. Although, this data lacks a comprehensive
+overview of the prevalence of gambling disorders, it highlighted a need for a more detailed understanding of
+the impact of gambling in Missouri.
+5
+
+=== page 6 ===
+Section 1 – Objectives and Methods of the Prevalence Study
+Objectives of the Current Prevalence Study
+The aim of this prevalence study is to assess the prevalence of both gambling participation and GD among
+Missourians in order to understand the characteristics of individuals who currently engage frequently (i.e.,
+monthly or more) in gambling as well as those who meet the criteria for GD.
+Methodology
+Elite Research, LLC (ER) was contracted to complete the data collection and initial sample validation. ER is
+a global research design, program evaluation, and statistical consulting services provider. The company’s
+PhD-level consultants provide research design, survey programming, sampling design, online data collection,
+statistical analyses, and report writing services.3 Based on their assessment and recommendations, a
+minimum initial sample of 5,000 adults would be required for a final usable sample of 4,100. A complete
+overview of the methods used by ER is provided in the appendix. Dr. Devin Mills and his team at Texas Tech
+University analyzed the data provided by ER but were not involved in development of the survey or the
+collection of the data. Tables are presented at the end of the document (i.e., page 24) for simplicity.
+Final Sample
+Survey responses were collected between April 4, 2022, and August 24, 2022. As shown in Table 1.A, 5,346
+started the survey. After Elite Research completed its own validation checks, the sample was reduced to
+5,094 participants. The research team from Texas Tech University completed its own review of the data, and
+identified a further 1,835 participants who had incomplete demographics, high social desirability, missing
+gambling involvement section and/or incongruence with gambling involvement items, and skipping GD
+section. Thus, the final sample consisted of 3,259 Missouri adults. A response rate was not provided by Elite
+Research following their data collection procedures.
+Table 1.B presents the demographics of the Raw Data (i.e., sample following Elite Research’s validation
+checks) and Final Sample (i.e., sample following Texas Tech University research team’s validation) relative
+to the desired population statistics. Given some of the unevenness between the desired population
+percentages and those of the Final Sample, a weighting procedure was conducted for Gender, Age, Ethnicity,
+Racial Background, and County. The result of which is also provided in Table 1.B. In the end, all key
+demographics were proportionally represented except for individuals identifying as White, which were
+overrepresented in the final weighted sample. Although not included in the weighting procedures, Table 1.C
+provides supplemental demographics for the final weighted sample.
+Interpreting Statistics within Document
+The report will consist largely of percentages and means, with some sections comparing groups (e.g., males
+vs. females; under 25 years vs. 35 - 44 years old). Like any other research project, this study cannot provide
+a perfectly accurate estimation of the population it examines. To overcome this limitation, 95% confidence
+3 https://eliteresearch.com/
+6
+
+=== page 7 ===
+intervals for both percentages and averages are provided throughout this study, which offers a range for the
+corresponding statistic. An example is provided below.
+Findings from the study indicate that 68.8% of male adults in Missouri have gambled during the past
+year, with a confidence interval of 66.5% to 71.0% (see Table 2.A). But what does this range actually
+signify?
+If this study were repeated 100 times using the same methods and a comparable population, we would
+expect that 95 out of the 100 additional estimations of the proportion of male adults who gamble would
+fall within 66.5% and 71.0%. In other words, the actual prevalence of male adults in Missouri who have
+gambled during the past year is likely to be somewhere between 66.5% and 71.0% and may not be
+exactly 68.8%.
+Confidence intervals can also be used to compare across groups. For instance, do a greater
+proportion of adult males gamble than adult females in Missouri?
+Findings from this study show that 59.5% of female adults in Missouri have gambled in the past year,
+whereas 68.8% of adult males gamble. But is this difference in percentages statistically significant,
+indicating that it is likely due to this sex difference (i.e., males vs. females) rather than a random
+occurrence? The confidence intervals for females with a history of gambling during the previous year are
+57.1% to 61.8%, while those for males with a history of gambling during the previous year are 66.5% to
+71.0%. Because these ranges do not overlap, we can assume that this difference is due to the underlying
+group difference (i.e., males vs. females) and not due to random chance.
+Finally, the width of the confidence interval is impacted by sample size. Thus, when explored as a whole
+sample, the range can be quite tight, maybe less than 5% between the lower level and the upper level.
+However, when the sample is small, the confidence interval will often be wider. For instance, findings from
+this study show that 32.6% of Native Hawaiian or Pacific Islanders have gambled during the previous year,
+with a confidence interval ranging from 3.9% to 82.3%. Again, the issue is not the study but the size of the
+sample for that racial group, which is in line with the population of Missouri following the weighting procedure.
+Thus, notes have been made throughout this report to caution interpretation of any statistics that have a
+corresponding confidence interval range of 15% or greater.
+From Percentages to Population Figures
+The current population of Missouri is estimated to be 6,177,957, of which 4,794,095 are estimated to be 18
+and older. As such, based on the estimated population of Missouri adults, every 1% consists of 47,941
+individuals. Should the national estimated prevalence rate of 2% be identified, it suggests that about 100,000
+Missouri adults are probably for a GD diagnosis.
+7
+
+=== page 8 ===
+Table 1.A. Validity Checks and Final Sample.
+Validity Flag Missouri
+Checks performed by Elite Research
+Total Started Survey 5,346
+Total Invalid Responses -65
+Age Criteria Not Met -117
+Dropped off page 1 -34
+Too Fast -36
+Too Slow 0
+No Variance -252
+Total Responses in Dataset from Elite Research 5,094
+Additional Data Checks by Research Team
+Incomplete Demographics -482
+Social Desirability1 -244
+Issues Validating Gambling Engagement2 -657
+Skipping Gambling Disorder Measure -452
+Total Responses Excluded by Research Team -1,835
+Final Sample 3,259
+1 Social desirability was assessed with four Yes / No questions from the Brief Social Desirability Scale: (1) Would you smile at people every time
+you meet them? (2) Do you always practice what you preach? (3) If you say to people that you will do something, do you always keep your
+promise no matter how inconvenient it might be? (4) Would you ever lie to people? Participants were excluded if they responded “Yes” to all four
+questions embedded throughout the survey.
+2 This included a number of checks, such as excluding those who did not complete the gambling engagement section and only indicated gambling
+online but not any specific gambling activity. However, the majority were excluded for initially stating engagement in a specific gambling activity
+during that past year and declining to engage in that same activity later in the survey.
+8
+
+=== page 9 ===
+Table 1.B. Descriptives of the Raw Dataset, Final Dataset, and Weighted Dataset relative to the desired population. Differences between the
+desired population the Raw Dataset, Final Dataset, and Weighted Dataset that exceed 3% are highlighted in Yellow.
+DESIRED Raw Data Final Sample Final Sample Weighted
+POPULATION1 N = 5,578 N = 3,259 N = 3,259
+95% CIs
+% % % % LL UL
+Gender
+Male 49.05% 41.74% 41.2% 49.1% 47.4% 50.8%
+Female 50.95% 57.66% 58.8% 50.9% 49.2% 52.6%
+Missing/Excluded n/a 0.61% 0.00%
+Age Group
+< 25 years 8.91% 7.89% 8.6% 8.9% 8.0% 9.9%
+25 to 34 years 17.86% 14.47% 16.3% 17.9% 16.6% 19.3%
+35 to 44 years 16.27% 18.88% 19.0% 16.3% 15.1% 17.6%
+45 to 54 years 16.41% 17.14% 16.6% 16.4% 15.2% 17.7%
+55 to 64 years 18.01% 19.59% 19.0% 18.0% 16.7% 19.4%
+65 to 74 years 12.99% 15.94% 15.0% 12.9% 11.8% 14.1%
+75 to 84 years 6.71% 5.59% 5.2% 6.7% 5.9% 7.6%
+85 years and over 2.84% 0.49% 0.5% 2.8% 2.3% 3.4%
+Missing/Excluded n/a 0.00% 0.00%
+Ethnicity
+Hispanic or Latino 95.71% 88.63% 94.2% 95.7% 3.6% 5.0%
+Not Hispanic or Latino 4.29% 11.37% 5.8% 4.3% 95.0% 96.4%
+Missing/Excluded n/a 0.00% 0.00%
+Race
+White 78.82% 68.39% 80.1% 82.4% 81.1% 83.7%
+Black or African American 11.31% 10.09% 11.6% 11.8% 10.7% 13.0%
+American Indian 0.34% 1.85% 2.1% 0.3% 0.2% 0.5%
+Asian 2.00% 2.30% 1.0% 2.1% 1.6% 2.6%
+Native Hawaiian or Pacific Islander 0.13% 0.10% 0.1% 0.1% 0.0% 0.2%
+Other race 0.21% 0.33% 0.9% 0.2% 0.1% 0.4%
+Two or more races 2.91% 8.68% 4.2% 3.0% 2.5% 3.7%
+Missing/Excluded n/a 8.26% 0.00%
+County
+Adair County 0.40% 0.27% 0.3% 0.4% 0.2% 0.7%
+Alfalfa County 0.29% 0.14% 0.2% 0.3% 0.2% 0.5%
+Atoka County 0.08% 0.00% 0.0% 0.0% 0.0% 0.0%
+Beaver County 0.40% 0.49% 0.6% 0.4% 0.2% 0.7%
+Beckham County 0.56% 0.33% 0.3% 0.6% 0.3% 0.9%
+Blaine County 0.18% 0.18% 0.2% 0.2% 0.1% 0.4%
+Bryan County 0.26% 0.10% 0.1% 0.3% 0.1% 0.5%
+Caddo County 0.32% 0.33% 0.3% 0.3% 0.2% 0.5%
+Canadian County 0.17% 0.12% 0.1% 0.2% 0.1% 0.4%
+Carter County 3.01% 2.53% 2.5% 3.0% 2.5% 3.7%
+Cherokee County 1.35% 1.22% 1.4% 1.4% 1.0% 1.8%
+Choctaw County 0.68% 0.35% 0.3% 0.7% 0.4% 1.0%
+Cimarron County 0.14% 0.08% 0.0% 0.1% 0.1% 0.3%
+Cleveland County 0.72% 0.65% 0.7% 0.7% 0.5% 1.1%
+Coal County 0.70% 0.77% 0.8% 0.7% 0.5% 1.0%
+9
+
+=== page 10 ===
+Comanche County 1.33% 1.32% 1.5% 1.3% 1.0% 1.8%
+Cotton County 0.13% 0.14% 0.2% 0.1% 0.0% 0.3%
+Craig County 0.08% 0.14% 0.1% 0.1% 0.0% 0.2%
+Creek County 1.77% 1.77% 1.7% 1.8% 1.4% 2.3%
+Custer County 0.23% 0.31% 0.3% 0.2% 0.1% 0.5%
+Delaware County 0.11% 0.12% 0.2% 0.1% 0.0% 0.3%
+Dewey County 1.48% 1.96% 1.9% 1.5% 1.1% 2.0%
+Ellis County 0.10% 0.00% 0.0% 0.0% 0.0% 0.0%
+Garfield County 4.14% 5.05% 4.9% 4.2% 3.5% 4.9%
+Garvin County 0.34% 0.24% 0.2% 0.3% 0.2% 0.6%
+Grady County 1.25% 1.18% 1.1% 1.3% 0.9% 1.7%
+Grant County 0.27% 0.43% 0.5% 0.3% 0.1% 0.5%
+Greer County 0.36% 0.51% 0.7% 0.4% 0.2% 0.6%
+Harmon County 0.12% 0.02% 0.0% 0.0% 0.0% 0.0%
+Harper County 0.28% 0.41% 0.4% 0.3% 0.1% 0.5%
+Haskell County 0.13% 0.04% 0.0% 0.1% 0.0% 0.3%
+Hughes County 0.17% 0.26% 0.3% 0.2% 0.1% 0.4%
+Jackson County 0.23% 0.16% 0.2% 0.2% 0.1% 0.5%
+Jefferson County 0.19% 0.12% 0.1% 0.2% 0.1% 0.4%
+Johnston County 0.44% 0.57% 0.6% 0.4% 0.2% 0.7%
+Kay County 1.70% 2.26% 2.2% 1.7% 1.3% 2.2%
+Kingfisher County 0.23% 0.12% 0.1% 0.2% 0.1% 0.5%
+Kiowa County 0.10% 0.04% 0.0% 0.0% 0.0% 0.0%
+Latimer County 4.87% 4.85% 5.4% 4.9% 4.2% 5.7%
+Le Flore County 0.15% 0.16% 0.2% 0.2% 0.1% 0.3%
+Lincoln County 0.13% 0.12% 0.2% 0.1% 0.0% 0.3%
+Logan County 0.36% 0.39% 0.3% 0.4% 0.2% 0.6%
+Love County 0.13% 0.08% 0.1% 0.1% 0.0% 0.3%
+Major County 0.06% 0.04% 0.0% 0.0% 0.0% 0.0%
+Marshall County 0.16% 0.12% 0.1% 0.2% 0.1% 0.3%
+Mayes County 0.64% 0.94% 1.0% 0.6% 0.4% 1.0%
+McClain County 0.15% 0.06% 0.1% 0.2% 0.1% 0.3%
+McCurtain County 11.62% 13.58% 13.4% 11.7% 10.6% 12.8%
+McIntosh County 1.99% 2.22% 2.4% 2.0% 1.6% 2.5%
+Murray County 3.69% 4.52% 4.4% 3.7% 3.1% 4.4%
+Muskogee County 0.87% 0.92% 1.0% 0.9% 0.6% 1.3%
+Noble County 0.06% 0.08% 0.1% 0.1% 0.0% 0.2%
+Nowata County 0.58% 0.51% 0.5% 0.6% 0.4% 0.9%
+Okfuskee County 0.53% 0.49% 0.3% 0.5% 0.3% 0.8%
+Oklahoma County 0.62% 0.47% 0.6% 0.6% 0.4% 0.9%
+Okmulgee County 0.16% 0.16% 0.2% 0.2% 0.1% 0.3%
+Osage County 0.99% 0.59% 0.7% 1.0% 0.7% 1.4%
+Ottawa County 0.19% 0.08% 0.1% 0.2% 0.1% 0.4%
+Pawnee County 0.23% 0.08% 0.1% 0.2% 0.1% 0.5%
+Payne County 0.24% 0.04% 0.1% 0.2% 0.1% 0.5%
+Pittsburg County 0.20% 0.18% 0.2% 0.2% 0.1% 0.4%
+Pontotoc County 0.13% 0.00% 0.0% 0.0% 0.0% 0.0%
+Pottawatomie County 0.46% 0.51% 0.6% 0.5% 0.3% 0.7%
+Pushmataha County 0.37% 0.29% 0.4% 0.4% 0.2% 0.6%
+10
+
+=== page 11 ===
+Roger Mills County 0.05% 0.00% 0.0% 0.0% 0.0% 0.0%
+Rogers County 0.40% 0.35% 0.3% 0.4% 0.2% 0.7%
+Seminole County 0.20% 0.16% 0.2% 0.2% 0.1% 0.4%
+Sequoyah County 0.25% 0.22% 0.2% 0.3% 0.1% 0.5%
+Stephens County 0.14% 0.12% 0.2% 0.1% 0.1% 0.3%
+Texas County 0.18% 0.06% 0.1% 0.2% 0.1% 0.4%
+Tillman County 0.34% 0.33% 0.4% 0.3% 0.2% 0.6%
+Tulsa County 0.25% 0.24% 0.3% 0.3% 0.1% 0.5%
+Wagoner County 0.96% 1.08% 1.2% 1.0% 0.7% 1.3%
+Washington County 0.34% 0.20% 0.2% 0.3% 0.2% 0.6%
+Washita County 0.13% 0.16% 0.2% 0.1% 0.0% 0.3%
+Woods County 0.21% 0.16% 0.2% 0.2% 0.1% 0.4%
+Woodward County 0.14% 0.08% 0.0% 0.1% 0.1% 0.3%
+Missing/Excluded 0.24% 0.27% 0.4% 0.2% 0.1% 0.5%
+Note: Highlighted cells indicate a significant difference (i.e., > ±3%) from the desired population.
+1 Desired population proportions were found online via two websites listed below:
+(a)https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html
+(b)https://data.census.gov/cedsci/table?q=United%20States&g=0400000US40&tid=ACSST5Y2020.S0101
+11
+
+=== page 12 ===
+Table 1.C. Supplemental Demographics Excluded from Weighting Procedure.
+95% CIs
+% LL UL
+Education Level
+College Graduate 46.4% 44.7% 48.1%
+Not College Graduate 53.6% 51.9% 55.3%
+Employment Status
+Employed 55.3% 53.5% 57.0%
+Not Employed 44.7% 43.0% 46.5%
+Income Level
+Less than $24,999 21.3% 19.9% 22.8%
+$25,000–$49,999 28.9% 27.3% 30.5%
+$50,000–$99,999 28.8% 27.3% 30.4%
+$100,000 or more 21.0% 19.5% 22.4%
+Military Service
+No Military Service 87.1% 85.9% 88.2%
+Military Service 12.9% 11.8% 14.1%
+12
+
+=== page 13 ===
+Section 2 - Gambling and Gambling Disorder
+Section 2 provides an overview of the prevalence of gambling participation and GD among Missourians as
+well as a comparison of both gambling participation and GD across key demographics.
+What Proportion of Adults in Missouri Gamble?
+The prevalence of gambling participation among Missourians was assessed by asking participants to
+indicate their involvement in any of the ten gambling-related activities in the past year. Those who reported
+participating in at least one activity were asked to provide further details about the frequency and intensity
+of their involvement in each endorsed activity, which is described further in Section 3. Table 2.A presents
+demographics for both groups, with 95% confidence intervals for comparison. Importantly, due to a small
+sample size, rows that are presented in red font indicate a large confidence interval suggesting the
+estimate may be less reliable.
+The present data showed that 64.1% of Missourians have engaged in gambling activities in the previous 12
+months, with a larger proportion of males (68.8%) participating compared to females (59.5%). The average
+age of those who gambled during the past year is 48.7 years (SD = 16.9), slightly lower than that of those
+who did not at 49.8 years (SD = 19.5). In terms of age distribution, those under 25 years old exhibit a nearly
+even split between those who had not gambled (47.0%) and those who had gambled (53.0%) during the past
+year. As age increases, the percentage of those who had gambled increases until the age group of 35-44
+years old, at which point the proportion of those who gambled gradually decreases across the remaining age
+groups.
+The present data also revealed differences in gambling participation among Missourians of different ethnic
+and racial backgrounds. Among individuals not identifying as Hispanic, Latino, or Spanish origin, 66.0% had
+gambled during the past year, while only 20.4% of individuals of Hispanic, Latino, or Spanish origin had
+gambled. Across most racial backgrounds, a majority had gambled than had not. However, this was not true
+of individuals who are Asian, Native Hawaiian or Pacific Islander, or another racial background not assessed
+(i.e., Other).
+Finally, the proportion of Missourians who gambled during the previous year was examined across education
+level, employment status, income level, and military status. For education level, no meaningful differences in
+gambling participation were found for those who did not graduate college (64.0% had gambled) and those
+who graduated college (64.1% had gambled). Regarding employment status, a majority of both those who
+are unemployed (56.3%) and those who are employed (70.2%) had gambled. However, it is clear that
+employment contributes substantially to an increased likelihood of gambling. Similarly, while more than half
+of those within every income level had gambled during the past year, the proportion of those having gambled
+slightly increased with income, with 69.6% of those in the highest income bracket ($100,000 or more) having
+gambled. Lastly, no differences were found in the proportion of those with and without military service in
+terms of gambling during the past year, with nearly two-thirds of both groups reporting some level of gambling.
+13
+
+=== page 14 ===
+What is the Prevalence of Gambling Disorder among Adults in Missouri?
+Gambling disorder (GD) is defined as a persistent pattern of gambling that directly contributes to significant
+psychological and social impairments. It is distinguished by nine criteria outlined in the fifth edition of the
+Diagnostic and Statistical Manual (DSM-5), which include:
+(1) Needing to gamble with increasing amounts of money to achieve the desired level of excitement;
+(2) Restlessness or irritability when attempting to cut down or stop gambling;
+(3) Repeated unsuccessful efforts to control, cut back on or stop gambling;
+(4) Preoccupation with gambling, such as constantly thinking about past gambling experiences or
+planning future ones;
+(5) Gambling as a way to escape from problems or relieve feelings of helplessness, guilt, anxiety, or
+depression;
+(6) After losing money gambling, returning another day to get even (chasing one's losses);
+(7) Lying to conceal the extent of one's involvement with gambling;
+(8) Jeopardizing or losing important relationships, jobs, or opportunities because of gambling;
+(9) Relying on others to bail oneself out of a desperate financial situation caused by gambling.
+Within a clinical interview, individuals who endorse four or more of these criteria meet the diagnoseable
+threshold for GD. However, within the present study, we assessed GD behaviors through self-reports. These
+questions are presented in Section 4 of this report. Research has generally found self-report measures,
+including the one used in this study, to have strong validity in assessing individuals’ overall risk for GD.
+Nonetheless, these scores are not a formal diagnosis of GD, even if they are highly predictive of such a
+diagnosis.
+Consistent with the DSM-5 classification procedures, individuals were grouped across three GDs gambling
+groups: (1) No Criteria (0 criteria endorsed), (2) At-Risk (1-3 criteria endorsed), and (3) Gambling Disorder
+(4+ criteria endorsed). Those who did not gamble during the previous year formed a fourth Non-Gambling
+group, which was also included for further comparisons. The overall prevalence of GD within Missouri is
+4.1% (95% CI: 3.5% to 4.8%) or 200,000 individuals, with a further 20.8% (95% CI: 19.4% to 22.2%) or
+nearly 1 million individuals At-Risk for GD. Thus, 24.9% (95% CI: 23.4% to 26.4%) or nearly 1.2 million
+Missouri adults are either At-Risk for GD or are currently probable for a GD diagnosis.
+We further explore the prevalence of at-risk and GD across various demographics, which are presented in
+Table 2.B with the 95% confidence intervals. Key findings are summarized below.
+The data reveals that among male participants in Missouri, 38.8% are No Criteria, 25.2% are At-Risk, and
+4.8% are GD. Conversely, a lower proportion of females are At-Risk (16.5%) and GD (3.4%). Further, it was
+revealed that as age increases, the proportion of At-Risk and GD decreases, with the prevalence of GD
+peaking among individuals between 25-34 years (7.0%).
+Differences were also found among Missourians of various ethnic and racial backgrounds. First, among those
+not of Hispanic, Latino, or Spanish Origin, 40.6% are No Criteria, 21.3% are At-Risk, and 4.2% are GD. In
+contrast, those of Hispanic, Latino, or Spanish Origin have a considerably lower percentage of No Criteria
+14
+
+=== page 15 ===
+(8.2%), At-Risk (9.4%), and GD (2.8%). Second, percentages of At-Risk and GD differ across different racial
+demographics. The proportion of At-Risk is highest among the American Indian or Native Alaskan population
+(51.1%) and lowest among the White/Caucasian population (20.1%). The highest proportion of GD is found
+in the Black or African American population (5.1%).
+Some differences were also found across education level, employment status, income levels, and military
+service among Missourians. A higher proportion of college graduates are No Criteria (42.7%) compared to
+those who did not graduate college (36.1%). The proportion of At-Risk is higher among those who did not
+graduate college (23.9%) than those who graduated college (17.2%), and the proportion of GD is similar,
+around 4%. Conversely, employed individuals show a higher proportion of At-Risk (23.2%) and GD (5.8%)
+compared to those who are not employed (18.1% and 2.2%, respectively). The proportion of At-Risk is
+highest among the $25,000-$49,999 income group (25.6%) and lowest among the $50,000 - $99,999 income
+group (17.4%). The proportion of GD is relatively similar across income levels, with the highest proportion
+found in the less than $24,999 income group (5.7%) and the lowest in the $100,000 or more income group
+(3.2%). The proportion of At-Risk is slightly higher among individuals with military service (22.8%) compared
+to those without military service (20.5%). Notably, the proportion of GD is higher among individuals with
+military service (5.6%) compared to those without military service (3.9%).
+Summary
+In summary, findings presented in this section indicate that most adults in Missouri (64.1%) have gambled in
+the past year, and about a quarter of Missourian adults are either At-Risk or GD (20.8% At-Risk; 4.1% GD).
+Age distribution reveals an increase in the proportion of those who gamble until the age group of 35-44 years,
+after which participation gradually decreases. Ethnic and racial backgrounds show variations in gambling
+participation, with higher proportions of those who gamble among individuals not identifying as Hispanic,
+Latino, or Spanish origin. Demographic analysis reveals higher rates of At-Risk and GD among males, with
+peak prevalence among individuals aged 25-34. Ethnic and racial backgrounds exhibit differences in GD,
+with the highest proportion of At-Risk among American Indian or Native Alaskan populations and the highest
+number of GD in the Black or African American population. Education, employment, income levels, and
+military service also influence gambling-related risks, with higher rates found among those who did not
+graduate college, employed individuals, lower-income groups, and individuals with military service.
+15
+
+=== page 16 ===
+Table 2.A. Demographic Comparison of Individuals Who Did and Did Not Gamble During the Past Year.
+No Gambling Past Year Gambling Past Year
+95% CIs 95% CIs
+% LL UL % LL UL
+Gender
+Male 31.2% 29.0% 33.5% 68.8% 66.5% 71.0%
+Female 40.5% 38.2% 42.9% 59.5% 57.1% 61.8%
+Age Groups
+Under 25 years 47.0% 41.5% 53.0% 53.0% 47.4% 58.8%
+25 - 34 years 34.8% 31.0% 38.7% 65.2% 61.1% 68.9%
+35 - 44 years 29.3% 25.6% 33.3% 70.7% 66.7% 74.4%
+45 - 54 years 30.5% 26.7% 34.5% 69.5% 65.5% 73.3%
+55 - 64 years 33.5% 29.8% 37.5% 66.5% 62.7% 70.3%
+65 - 74 years 39.0% 34.4% 43.7% 61.0% 56.3% 65.6%
+75 - 84 years 46.4% 39.6% 52.7% 53.6% 46.8% 60.0%
+85 years and over 54.4% 44.7% 64.9% 45.6% 36.2% 56.4%
+Hispanic, Latino, or Spanish origin
+No - Not of Hispanic, Latino, or Spanish origin 34.0% 32.3% 35.6% 66.0% 64.4% 67.7%
+Yes - Hispanic, Latino, or Spanish origin 79.6% 72.8% 86.0% 20.4% 14.6% 28.0%
+Racial Background
+White / Caucasian 35.2% 33.4% 37.0% 64.8% 63.0% 66.6%
+Black or African American 34.6% 29.9% 39.4% 65.4% 60.6% 70.1%
+American Indian or Native Alaskan 32.0% 9.3% 60.6% 68.0% 39.4% 90.7%
+Asian 54.9% 42.6% 65.9% 45.1% 34.1% 57.4%
+Native Hawaiian or Pacific Islander 67.4% 17.7% 96.1% 32.6% 3.9% 82.3%
+Other race 62.8% 23.5% 86.1% 37.2% 13.9% 76.5%
+Two or more races 45.5% 35.9% 55.3% 54.5% 44.7% 64.1%
+Education Level
+No College Degree 36.0% 33.7% 38.2% 64.0% 61.8% 66.3%
+College Degree or more 35.9% 33.5% 38.4% 64.1% 61.6% 66.5%
+Employment Status
+Employed 43.7% 41.1% 46.3% 56.3% 53.7% 58.9%
+Not Employed 29.8% 27.7% 32.0% 70.2% 68.0% 72.3%
+Income Level
+Less than $24,999 40.3% 36.6% 44.1% 59.7% 55.9% 63.4%
+$25,000–$49,999 35.2% 32.0% 38.3% 64.8% 61.7% 68.0%
+$50,000–$99,999 34.2% 31.1% 37.3% 65.8% 62.7% 68.9%
+$100,000 or more 30.4% 26.9% 34.0% 69.6% 65.9% 72.9%
+Military Service
+No Military Service 35.7% 33.9% 37.5% 64.3% 62.5% 66.0%
+Military Service 37.3% 32.8% 42.0% 62.7% 58.0% 67.2%
+Note: Red font indicates the 95% CIs range is 15% or greater, suggesting caution should be used with interpreting the percentages.
+16
+
+=== page 17 ===
+Table 2.B. Demographic Comparison of Individuals across Gambling Disorder Classes.
+Individuals Who Gambled Last Year
+Non-Players No Criteria At-Risk Gambling Disorder
+95% CIs 95% CIs 95% CIs 95% CIs
+% LL UL % LL UL % LL UL % LL UL
+Gender
+Male 31.2% 29.0% 33.5% 38.8% 36.4% 41.2% 25.2% 23.2% 27.4% 4.8% 3.8% 5.9%
+Female 40.5% 38.2% 42.9% 39.6% 37.2% 41.9% 16.5% 14.8% 18.4% 3.4% 2.6% 4.4%
+Age Groups
+Under 25 years 47.0% 41.5% 53.0% 19.0% 14.8% 23.8% 27.4% 22.4% 32.6% 6.6% 4.1% 9.8%
+25 - 34 years 34.8% 31.0% 38.7% 29.4% 25.9% 33.2% 28.7% 25.2% 32.5% 7.0% 5.2% 9.3%
+35 - 44 years 29.3% 25.6% 33.3% 43.3% 39.3% 47.7% 21.8% 18.5% 25.5% 5.6% 3.9% 7.8%
+45 - 54 years 30.5% 26.7% 34.5% 43.4% 39.2% 47.6% 22.6% 19.2% 26.3% 3.5% 2.2% 5.4%
+55 - 64 years 33.5% 29.8% 37.5% 47.2% 43.2% 51.2% 16.3% 13.5% 19.5% 3.0% 1.9% 4.7%
+65 - 74 years 39.0% 34.4% 43.7% 45.9% 41.1% 50.6% 13.7% 10.7% 17.3% 1.4% 0.6% 2.9%
+75 - 84 years 46.4% 39.6% 52.7% 42.9% 36.5% 49.5% 9.7% 6.2% 14.0% 1.1% 0.2% 2.9%
+85 years and over 54.4% 44.7% 64.9% 25.0% 17.2% 34.9% 20.6% 13.5% 30.1% 0.0%
+Hispanic, Latino, or Spanish Origin
+No 34.0% 32.3% 35.6% 40.6% 38.8% 42.3% 21.3% 19.9% 22.8% 4.2% 3.5% 4.9%
+Yes 79.6% 72.8% 86.0% 8.2% 4.8% 14.1% 9.4% 5.3% 14.9% 2.8% 1.0% 6.6%
+Racial Background
+White / Caucasian 35.2% 33.4% 37.0% 40.9% 39.1% 42.8% 20.1% 18.7% 21.7% 3.7% 3.1% 4.5%
+Black or African American 34.6% 29.9% 39.4% 34.1% 29.4% 38.9% 26.2% 22.0% 30.8% 5.1% 3.3% 7.8%
+American Indian or Native Alaskan 32.0% 9.3% 60.6% 12.9% 1.1% 38.1% 51.1% 22.4% 77.6% 3.9% 0.0% 21.7%
+Asian 54.9% 42.6% 65.9% 25.0% 15.9% 36.2% 14.5% 7.8% 24.5% 5.6% 2.0% 13.4%
+Native Hawaiian or Pacific Islander 67.4% 17.7% 96.1% 13.6% 0.0% 53.6% 19.0% 3.9% 82.3% 0.0%
+Other race 62.8% 23.5% 86.1% 19.3% 1.6% 50.1% 17.9% 1.6% 50.1% 0.0%
+Two or more races 45.5% 35.9% 55.3% 26.0% 18.4% 35.5% 19.0% 12.4% 27.8% 9.6% 4.6% 15.9%
+Education Level
+No College Degree 36.0% 33.7% 38.2% 36.1% 33.9% 38.4% 23.9% 22.0% 26.0% 4.0% 3.2% 5.0%
+College Degree or more 35.9% 33.5% 38.4% 42.7% 40.2% 45.2% 17.2% 15.4% 19.2% 4.2% 3.3% 5.3%
+Employment Status
+Not employed 43.7% 41.1% 46.3% 36.0% 33.6% 38.6% 18.1% 16.2% 20.2% 2.2% 1.5% 3.1%
+Employed 29.8% 27.7% 32.0% 41.2% 38.9% 43.5% 23.2% 21.2% 25.2% 5.8% 4.8% 6.9%
+Income Level
+Less than $24,999 40.3% 36.6% 44.1% 32.4% 28.9% 36.1% 21.6% 18.7% 24.9% 5.7% 4.2% 7.7%
+$25,000–$49,999 35.2% 32.0% 38.3% 35.2% 32.2% 38.4% 25.6% 22.8% 28.6% 4.0% 2.9% 5.5%
+$50,000–$99,999 34.2% 31.1% 37.3% 44.1% 40.9% 47.4% 17.4% 15.0% 19.9% 4.3% 3.1% 5.7%
+$100,000 or more 30.4% 26.9% 34.0% 46.8% 43.0% 50.7% 19.6% 16.7% 22.8% 3.2% 2.1% 4.8%
+Military Service (i.e., Active Duty or Veteran)
+No 35.7% 33.9% 37.5% 39.9% 38.1% 41.7% 20.5% 19.0% 22.0% 3.9% 3.2% 4.6%
+Yes 37.3% 32.8% 42.0% 34.3% 30.0% 39.1% 22.8% 19.0% 27.0% 5.6% 3.6% 7.9%
+Note: Red font indicates the 95% CIs range is 15% or greater, suggesting caution should be used with interpreting the percentages.
+17
+
+=== page 18 ===
+Section 3 – Comparison of Gambling Frequency Categories
+After indicating which of the ten gambling activities they had played during the past year, participants were
+asked to indicate the frequency they engaged in each activity on a 7-point Likert scale ranging from (1) 1 to
+5 times during the last year, (2) 6 to 11 times during the last year, (3) About once a month, (4) 2–3 times a
+month, (5) About once a week, (6) 2-6 times per week, and (7) Daily. For simplicity, a general gambling
+frequency variable was created by taking the maximum frequency reported across all ten gambling activities
+for each participant. Subsequently, the general gambling frequency variable was used to categorize
+participants into one of three frequency categories: (1) Low Frequency (i.e., less than monthly), (2) Moderate
+Frequency (i.e., monthly), and (3) High Frequency (i.e., weekly or greater). Among Missourians, 24.1% (95%
+CI: 22.7% to 25.6%) are Low Frequency, 19.5% (95% CI: 18.2% to 20.9%) are Moderate Frequency, and
+20.2% (95% CI: 18.8% to 21.6%) are High Frequency. These percentages account for the 36.1% of
+Missourians who did not gamble during the previous year.
+After excluding those who did not gamble during the previous year, comparisons were made to assess
+differences among those who gambled during the previous year across the three gambling frequency
+categories, including demographics (see Table 3.A), gambling activities (see Table 3.B), and gambling
+motivations (Table 3.C). Key takeaways for each category of gambling frequency are summarized below. Of
+note, those who gambled rated each gambling motivation on a 6-point scale ranging from (1) low importance
+to (6) high importance. As such, higher scores are interpreted as stronger motivations.
+Who are the High-Frequency individuals?
+High-frequency individuals, defined as those who engage in gambling activities weekly or more, display
+varying percentages across different demographic groups (see Table 3.A). Examining gender, 31.9% of
+males and females 31.3%. Regarding age, the highest percentage of high-frequency individuals is found
+among those aged 55 - 64 years (36.6%) and 25-34 years (36.3%), while the lowest is observed among
+those aged under 25 years (26.4%), suggesting that playing is more prevalent among individuals in their late
+20s to early 30s.
+Regarding ethnicity, 31.4% of those not of Hispanic, Latino, or Spanish origin were high-frequency individuals
+compared to 48.1% of those of Hispanic, Latino, or Spanish origin. A high proportion of Asians are high-
+frequency individuals (39.6%), followed by Black or African American individuals (33.8%). Note that small
+sample sizes may affect these results.
+Education, employment status, income levels, and military service experience also influence the prevalence
+of high-frequency individuals. Approximately one-third of those who did and did not graduate college were
+high-frequency individuals. Similarly, about a third of those employed gambled weekly or more during the
+past year, whereas only 28% of those unemployed were high-frequency individuals. Slightly more individuals
+earning less than $24,999 (35.4%) were high-frequency individuals than other income levels. Finally, those
+with and without military service experience have a similar percentage of high-frequency individuals (32.1%
+and 31.6%, respectively).
+18
+
+=== page 19 ===
+As noted in Table 3.B, certain gambling activities, particularly fantasy sports and sports betting, are
+associated with a greater proportion of high-frequency individuals, with percentages reaching as high as
+81.4% for daily fantasy sports. Betting on horse or dog races at racetracks and stock trading as a form of
+gambling also display higher percentages of high-frequency individuals (54.3% and 58.1%, respectively).
+Finally, as presented in Table 3.C, high-frequency individuals prioritize excitement motives (mean score:
+3.62, SD = 1.45) and financial motives (mean score: 3.86, SD = 1.75), indicating they are more driven by
+potential monetary gains. They still value entertainment motives (mean score: 4.31, SD = 1.54) but show a
+stronger inclination towards coping motives (mean score: 2.42, SD = 1.56), suggesting they may be more
+likely to use gambling as a means to cope with stress or other problems than low and moderate-frequency
+individuals.
+Who are the Moderate-Frequency Individuals?
+Moderate-frequency individuals, who participate in gambling activities on a monthly basis, show diverse
+percentages across different demographic groups (see Table 3.A). The data reveals that moderate-
+frequency individuals, those who gamble monthly, have similar gender percentages, with males at 30.4%
+and females at 30.7%. Age-wise, the highest percentage of moderate-frequency individuals is found among
+those aged 35-44 years old (35.9%), while the lowest is observed among those aged 55-64 years (26.2%),
+suggesting that playing is more prevalent among individuals in their mid-30s to early 40s.
+Ethnicity also plays a role in determining the proportion of moderate-frequency individuals. Non-Hispanic
+individuals have a slightly lower percentage (30.6%) compared to Hispanics (31.7%). Among racial
+backgrounds, Black or African American individuals have the highest percentage (39.2%), followed by those
+of two or more races (34.1%), although small sample sizes may affect these results. Those who did not
+graduate college have a higher percentage of moderate-frequency individuals (31.6%) than college
+graduates (29.4%).
+Employment status, income levels, and military service experience also influence the prevalence of
+moderate-frequency individuals. The highest percentages are found among those not employed and earning
+$25,000–$49,999 (32.3%, 34.0%, respectively). Individuals without military service experience have a higher
+percentage (31.1%) compared to those with military service (26.6%).
+As noted in Table 3.B, moderate-frequency individuals show similar preferences in gambling activities, with
+lottery or scratch-off tickets, bingo or keno, and slot machines having relatively similar percentages (31.6%
+to 33.2%). Social wagering and casino table games have lower percentages (27.7% and 28.1%), while daily
+fantasy sports have the lowest (16.8%).
+Finally, as presented in Table 3.C, gambling motivations for moderate-frequency individuals are similar to
+low-frequency, prioritizing entertainment (mean score: 4.06, SD = 1.62) and financial motives (mean score:
+3.55, SD = 1.70). They report lower mean scores for social (2.82, SD = 1.61) and excitement motives (3.10,
+SD = 1.50) while exhibiting slightly higher coping motives (2.00, SD = 1.32), though they still do not heavily
+rely on gambling as a coping mechanism.
+19
+
+=== page 20 ===
+Who are the Low-Frequency individuals?
+Low-frequency gambling individuals, who participate in gambling activities less than once a month,
+demonstrate diverse percentages across different demographic groups (see Table 3.A). The present data
+reveal that low-frequency individuals, those who gamble less than monthly, have similar gender percentages,
+with males at 37.7% and females at 37.9%. Regarding age, the under 25 and the 45-54 age groups have the
+highest percentage of low-frequency individuals (42.2% and 42.7%, respectively), while those aged 85 and
+above have the lowest (24.7%). This implies younger individuals are more likely to be low-frequency
+individuals.
+Ethnicity and education also play a role in determining the proportion of low-frequency individuals. Non-
+Hispanic individuals have a higher percentage (38.0%) compared to Hispanics (20.2%). American Indian or
+Native Alaskan has the highest percentage (44.4%), followed by White or Caucasian individuals (39.6%),
+although small sample sizes may affect these results. College graduates have a higher percentage of low-
+frequency individuals (40.5%) than non-graduates (35.4%).
+Employment status, income levels, and military service experience also influence the prevalence of low-
+frequency individuals. The highest percentages are found among those not employed (39.0%) and earning
+$100,000 or more (40.6%), with military service members or veterans showing a higher percentage (41.2%)
+compared to those without military service (37.3%).
+As noted in Table 3.B, low-frequency primarily engage in lottery or scratch-off tickets (31.8%) and social
+wagering (33.8%). Additionally, these tend to gamble for entertainment (mean score: 4.22, SD = 1.54), social
+(mean score: 3.06, SD = 1.68), and excitement motives (mean score: 3.08, SD = 1.48) but report significantly
+lower coping motives (mean score: 1.69, SD = 1.28), indicating they do not rely on gambling to cope with
+stress or problems (see Table 3.C).
+Summary
+In summary, our study suggests that harm increases with frequency of play, with the prevalence of GD rapidly
+increasing from 1.2% among those who gamble less than monthly (i.e., low frequency) to 13.4% among those
+who gamble weekly or more (i.e., high frequency). Our findings also shown that high-frequency individuals,
+those who gamble weekly, are more prevalent among non-Hispanic individuals and those with lower incomes.
+They prioritize excitement and financial motives and are more likely to use gambling as a coping mechanism.
+Moderate-frequency individuals, those who gamble monthly, are more prevalent among non-Hispanic
+individuals and those with middle-range incomes. They prioritize entertainment and financial motives, with
+slightly higher coping motives than low-frequency individuals. Low-frequency individuals, those who gamble
+less than monthly, are more likely to be non-Hispanic, college graduates and those with higher incomes.
+They engage in lottery or scratch-off tickets and social wagering, prioritizing entertainment, social, and
+excitement motives with significantly lower coping motives.
+20
+
+=== page 21 ===
+Table 3.A. Demographic Comparison of Gambling Frequency Categories.
+Low Frequency Moderate Frequency High Frequency
+95% CIs 95% CIs 95% CIs
+% LL UL % LL UL % LL UL
+Gender
+Male 37.70% 34.80% 40.60% 30.40% 27.80% 33.20% 31.90% 29.20% 34.70%
+Female 37.90% 34.90% 41.00% 30.70% 27.90% 33.60% 31.30% 28.50% 34.30%
+Age Groups
+Under 25 years 42.20% 34.90% 50.40% 31.40% 24.40% 39.00% 26.40% 19.70% 33.50%
+25 - 34 years 32.70% 28.10% 37.60% 31.00% 26.30% 35.70% 36.30% 31.70% 41.40%
+35 - 44 years 37.30% 32.40% 42.10% 35.90% 31.10% 40.80% 26.90% 22.70% 31.70%
+45 - 54 years 42.70% 37.70% 47.80% 26.90% 22.60% 31.60% 30.40% 25.90% 35.30%
+55 - 64 years 37.10% 32.50% 42.10% 26.20% 21.90% 30.60% 36.60% 32.00% 41.60%
+65 - 74 years 39.10% 33.40% 45.40% 32.50% 27.00% 38.50% 28.30% 22.90% 34.00%
+75 - 84 years 38.70% 30.00% 47.50% 33.10% 25.30% 42.20% 28.20% 20.70% 36.80%
+85 years and over 24.70% 12.90% 38.10% 30.20% 18.60% 45.80% 45.10% 30.90% 60.20%
+Hispanic, Latino, or Spanish Origin
+No 38.00% 36.00% 40.20% 30.60% 28.60% 32.60% 31.40% 29.40% 33.40%
+Yes 20.20% 9.10% 37.80% 31.70% 16.60% 49.00% 48.10% 31.00% 65.90%
+Racial Background
+White / Caucasian 39.60% 37.40% 42.00% 29.20% 27.10% 31.40% 31.10% 29.00% 33.30%
+Black or African American 27.00% 21.90% 32.80% 39.20% 33.20% 45.20% 33.80% 28.20% 39.90%
+American Indian or Native Alaskan 44.40% 13.90% 76.50% 24.50% 6.50% 64.80% 31.20% 6.50% 64.80%
+Asian 30.60% 15.40% 46.30% 29.80% 15.40% 46.30% 39.60% 23.20% 56.20%
+Native Hawaiian or Pacific Islander 0.00% . . 100.00% . . 0.00% . .
+Other race 37.10% 6.10% 93.90% 20.30% 0.00% 66.70% 42.60% 6.10% 93.90%
+Two or more races 33.30% 21.90% 46.50% 34.10% 21.90% 46.50% 32.50% 21.90% 46.50%
+Education Level
+No College Degree 35.40% 32.60% 38.30% 31.60% 28.90% 34.40% 33.00% 30.20% 35.80%
+College Degree or more 40.50% 37.40% 43.60% 29.40% 26.50% 32.30% 30.10% 27.20% 33.00%
+Employment Status
+Not employed 39.00% 35.60% 42.40% 32.30% 29.10% 35.60% 28.70% 25.70% 32.00%
+Employed 37.20% 34.50% 39.90% 29.80% 27.30% 32.40% 33.00% 30.40% 35.70%
+Income Level
+Less than $24,999 34.50% 29.90% 39.40% 30.10% 25.70% 34.90% 35.40% 30.70% 40.20%
+$25,000–$49,999 37.00% 33.10% 40.90% 34.00% 30.20% 37.90% 29.00% 25.50% 32.90%
+$50,000–$99,999 39.30% 35.50% 43.40% 27.80% 24.40% 31.70% 32.80% 29.20% 36.80%
+$100,000 or more 40.60% 36.10% 45.20% 29.10% 25.00% 33.30% 30.30% 26.20% 34.70%
+Military Service (i.e., Active Duty or Veteran)
+No 37.30% 35.10% 39.60% 31.10% 29.00% 33.30% 31.60% 29.40% 33.70%
+Yes 41.20% 35.50% 47.30% 26.60% 21.50% 32.10% 32.10% 26.80% 38.00%
+21
+
+=== page 22 ===
+Table 3.B. Percentage of Individuals Engaging in Specific Gambling Activities across Gambling Frequency Categories.
+Low Frequency Moderate Frequency High Frequency
+95% CIs 95% CIs 95% CIs
+% LL UL % LL UL % LL UL
+Lottery or Scratch Tickets 31.8% 29.4% 34.2% 33.2% 30.8% 35.7% 35.0% 32.5% 37.5%
+Bingo or Keno 27.3% 23.8% 31.2% 32.3% 28.5% 36.3% 40.4% 36.4% 44.6%
+Slot or Video Card Machine 28.8% 25.6% 32.0% 31.6% 28.4% 35.0% 39.6% 36.1% 43.1%
+Casino Table or Dice Games 23.9% 19.8% 28.4% 28.1% 23.8% 32.8% 48.1% 43.0% 53.1%
+Raffles, Office Pools, Skill Bets, or Cards with Friends 33.8% 30.4% 37.3% 27.7% 24.6% 31.1% 38.4% 35.0% 42.1%
+League (or Season) Fantasy 21.0% 14.9% 29.4% 20.0% 13.5% 27.6% 59.0% 50.6% 67.9%
+Daily Fantasy Sports 1.8% 0.1% 5.7% 16.8% 10.4% 26.9% 81.4% 71.7% 88.6%
+Sports (exclusive of League Fantasy and Daily Fantasy Sports) 24.0% 18.6% 29.8% 24.6% 19.4% 30.8% 51.3% 44.8% 57.9%
+Racetracks 18.3% 9.4% 28.9% 27.4% 17.7% 40.6% 54.3% 41.5% 66.8%
+Stock Trading 15.4% 9.6% 22.5% 26.5% 19.0% 34.7% 58.1% 49.5% 67.1%
+Note: Red font indicates the 95% CIs range is 15% or greater, suggesting caution should be used with interpreting the percentages. Percentages only reflect those who gambled during the last
+year.
+22
+
+=== page 23 ===
+Table 3.C. Comparison of Gambling Motivations across Gambling Frequency Categories..
+Low Frequency Moderate Frequency High Frequency
+95% CIs 95% CIs 95% CIs
+M SD LL UL M SD LL UL M SD LL UL
+Socialization 3.06 1.68 2.93 3.19 2.82 1.61 2.69 2.96 2.90 1.49 2.78 3.02
+Excitement 3.08 1.48 2.97 3.20 3.10 1.50 2.97 3.22 3.62 1.45 3.50 3.74
+Financial 3.47 1.59 3.35 3.59 3.55 1.70 3.40 3.69 3.86 1.75 3.71 4.00
+Charitable Reasons 3.22 1.72 3.09 3.35 2.98 1.70 2.84 3.12 3.22 1.65 3.08 3.35
+Entertainment 4.22 1.54 4.10 4.33 4.06 1.62 3.92 4.19 4.31 1.54 4.19 4.44
+Coping or Escape 1.69 1.28 1.59 1.79 2.00 1.32 1.89 2.11 2.42 1.56 2.29 2.55
+Note: Each gambling motivation is rated on a 1 to 6 scale, with 6 indicating a stronger motivation for gambling.
+23
+
+=== page 24 ===
+Section 4 – Comparison of Gambling Disorder Classifications
+Gambling disorder is characterized by a persistent pattern of gambling that results in significant psychological
+and social impairments. In this study, we assess GD behaviors through self-reports, which have strong
+validity in evaluating individuals' overall risk for GD. Based on the DSM-5 classification procedures, they are
+categorized into three groups: No Criteria, At-Risk, and GD. The classification process is described in Section
+2 of this report and is not repeated here. As noted in a previous section, the prevalence of GD in Missouri is
+4.1%, with an additional 20.8% at risk for GD. Note that the present section does not include data for Non-
+Gambling individuals and only focuses on comparisons across GD classifications among those who gambled
+in the previous year.
+More specifically, the aim of this section is to provide a greater understanding of the characteristics
+associated with GD that extends beyond those demographic differences that were discussed in Section 2.
+The present section begins with an overview of the self-report questions that directly assess each criterion
+of GD and the proportion of individuals endorsing each question (see Table 4.A). Additionally, gambling
+activities (see Table 4.B), gambling frequency categories (see Table 4.C), gambling motivations (Table 4.D),
+and individuals’ endorsement of maladaptive gambling beliefs (Table 4.E) are explored across the three GD
+classes. Finally, as evidence of the potential harm from GD, the proportion of individuals reporting suicidal
+thoughts or suicide attempts due to gambling is explored across the three GD classes (Table 4.F).
+Endorsement of Gambling Disorder Questions
+The criteria are presented in Table 4.A along with the proportion of individuals endorsing each one. Criterion
+8 was the most commonly endorsed due to the high prevalence of experiencing serious interpersonal
+problems (Criteria 8a). The average number of criteria endorsed by individuals was 0.84 (SD = 1.54).
+Additionally, nearly 1 in 5 individuals have attempted to cut down or stop their gambling (Criterion 3a), and
+more than half were unsuccessful in effectively managing their gambling (Criteria 3b). Additionally, 14.4%
+have returned to the casino to win back their losses (i.e., chasing; Criteria 6), which often places individuals
+at heightened risk of experiencing even larger losses.
+Gambling Activities
+The proportion of individuals based on gambling activity is explored across the GD classes in Table 4.B. A
+significant difference was observed among those engaging in slot or video card machines, with 26.5% of
+those not participating being At-Risk compared to 42.7% of participants. For league (or season) fantasy, the
+percentages of At-Risk were higher among participants (41.2%) than non-participants (31.9%). In sports
+betting, exclusive of league fantasy and daily fantasy sports, 33.7% of non-participants were identified as At-
+Risk, while only 22.1% of participants were considered at-risk. Similar differences were also found when
+comparing percentages of GD. Substantial differences were revealed among those engaging in slot or video
+card machines (2.8% non-participants vs. 12.8% participants), casino table or dice games (4.9% non-
+participants vs. 13.3% participants), league (or season) fantasy (5.6% non-participants vs. 19.3%
+participants), daily fantasy sports (6.0% non-participants vs. 17.5% participants), racetracks (6.0% non-
+24
+
+=== page 25 ===
+participants vs. 21.5% participants), and stock trading (6.0% non-participants vs. 14.0% participants). Sports
+betting showed a smaller difference (6.3% non-participants vs. 7.5% participants) in GD rates.
+Gambling Frequency
+The data reveals a clear correlation between gambling frequency and the prevalence of GD behavior (see
+Table 4.C). Among Low-Frequency, At-Risk comprise 26.6% of the group, while only 1.2% are classified as
+GD. In contrast, among Moderate-Frequency, the proportion of At-Risk rises to 35.4%, with GD accounting
+for 5.7% of the group. Most notably, High-Frequency individuals have the highest proportion of GD at 13.4%,
+accompanied by 36.5% At-Risk. This correlation emphasizes the need for targeted interventions and policies
+to address GD, particularly among high-frequency.
+Gambling Motivations
+Gambling motives across the GD classes are provided in Table 4.D. For At-Risk, the primary motivations
+include entertainment (M=3.65, SD=1.54), excitement (M=3.05, SD=1.50), and financial reasons (M=3.21,
+SD=1.66), followed by socialization (M=2.60, SD=1.43), and charitable reasons (M=2.74, SD=1.60). Their
+least prominent motivation is coping or escape (M=2.11, SD=1.40). In contrast, those with GD display a
+stronger motivation for coping or escape (M=3.26, SD=1.64). Their motivations also encompass financial
+reasons (M=3.93, SD=1.76), entertainment (M=3.89, SD=1.48), excitement (M=3.83, SD=1.57), socialization
+(M=2.46, SD=1.33), and charitable reasons (M=2.69, SD=1.69).
+Maladaptive Beliefs
+Maladaptive beliefs about gambling are common and place individuals at risk for GD. Two maladaptive beliefs
+were assessed within the present study via two Yes/No questions. First, individuals were asked, After losing
+many times in a row, are you more likely to win?, which broadly assesses the gambler's fallacy. This
+maladaptive belief is that the outcomes of a game of chance are affected by previous outcomes or events
+and that the likelihood of a particular outcome is increased or decreased based on previous outcomes.
+Second, individuals were asked, Can you win more if you use a certain system or strategy?, which broadly
+assesses a maladaptive belief that one has a specific system or strategy that can guarantee one to win.
+Individuals were grouped into one of four groups: (1) No maladaptive beliefs endorsed (75.4%), (2) Only the
+Gambler’s Fallacy belief endorsed (5.8%), (3) Only the Systems or Strategies belief endorsed (10.4%), and
+(4)Both maladaptive beliefs endorsed (6.4%).
+As shown in Table 4.E, there is a clear relation between endorsing one, and especially both, maladaptive
+beliefs. Among individuals with varying maladaptive beliefs, different trends emerge across the GD classes.
+For those with no maladaptive beliefs, the majority are No Criteria (65.5%), followed by At-Risk (32.6%), and
+a small proportion are GD (1.9%). In the case of individuals endorsing only the Gambler's Fallacy, the
+distribution shifts towards At-Risk (42.8%) being the highest, followed by No Criteria (40.8%) and GD (16.3%).
+For individuals endorsing only the Systems or Strategies Belief, No Criteria still make up the majority (43.8%),
+followed by At-Risk (32.8%) and GD (23.3%). Finally, among individuals who endorse both the Gambler's
+Fallacy and the Systems or Strategies Belief, the proportion of GD (42.7%) is significantly higher than that of
+No Criteria (28.6%) and At-Risk (28.7%).
+25
+
+=== page 26 ===
+Risk for Suicide Ideation or Attempts due to Gambling
+Table 4.F presents percentages of individuals reporting suicidal thoughts and suicide attempts due to
+gambling across GD classes. A clear correlation is revealed in which a greater percentage of individuals
+endorse suicidal thoughts and suicide attempts due to gambling as the level of GD increases. Among the No
+Criteria, only 0.4% had seriously considered committing suicide due to gambling, and 0.4% had attempted
+suicide. Among those At-Risk, 0.9% had seriously considered committing suicide, and 0.8% had attempted
+suicide due to gambling. Finally, and demonstrating the potential harms of GD, of the GD in Missouri, 27.5%
+had seriously thought about committing suicide due to gambling, and 27.0% had attempted suicide.
+Summary
+In summary, the present data allowed for an examination of the differences in gambling activities, frequency,
+motivations, maladaptive beliefs, and risk for suicide ideation or attempts due to gambling across GD classes.
+Significant differences in GD were observed across various gambling activities, with a clear correlation
+between gambling frequency and GD behavior. The primary motivations for At-Risk were entertainment,
+excitement, and financial reasons, while GD displayed a stronger motivation for coping or escape.
+Maladaptive beliefs, such as the gambler's fallacy and belief in systems or strategies for winning, were also
+linked to higher levels of GD. A clear relationship emerged between endorsing maladaptive beliefs and the
+prevalence of GD. Finally, a strong correlation was found between the severity of GD and the likelihood of
+suicidal thoughts or attempts due to gambling, emphasizing the need for targeted interventions and policies
+to address GD.
+26
+
+=== page 27 ===
+Table 4.A. Nine Criteria of Gambling Disorder and Proportion of Individuals Who Gamble that Endorsed each Criterion.
+95% CI
+Criterion Question (Yes / No) % LL UL
+1 … would you say you have been preoccupied with gambling? 10.9% 9.6% 12.3%
+2 … did you find you needed to gamble with larger and larger amounts of money to 7.0% 5.9% 8.1%
+3a … have you made any attempts to either cut down, control or stop your gambling 18.9% 17.2% 20.6%
+3b … if you did, were you (un)successful in these attempts? 55.0% 51.5% 58.6%
+3 Meeting Criteria 3 (i.e., endorsing DSM3a and DSM3b) 4.8% 3.9% 5.8%
+4 … when you were not gambling did you often experience irritability, restless 7.0% 5.9% 8.1%
+5 … have you often gambled to escape bad moods or other troubles? 6.8% 5.8% 8.0%
+6 … have you often gone back to try and win back the money you lost? 14.4% 12.9% 15.9%
+… have you often lied to people about your gambling or often concealed the extent of your
+7 5.2% 4.3% 6.3%
+gambling from other people?
+… has your involvement in gambling caused serious problems in your relationship with your
+8a 19.8% 18.1% 21.5%
+spouse/partner, or important friends or family?
+… has your involvement in gambling caused significant work or school problems for you or
+8b 3.2% 2.5% 4.0%
+someone close to you?
+… has your involvement in gambling caused you to miss a significant amount of time off work or
+8c 4.4% 3.6% 5.4%
+school?
+8 Meeting Criteria 8 (i.e., endorsing DSM8a, DSM8b, or DSM8c) 21.5% 19.8% 23.4%
+… has your involvement in gambling caused you either to borrow a significant amount of money
+9a 5.9% 4.9% 7.0%
+or sell some of your possessions?
+… has your involvement in gambling caused significant financial concerns for you or someone
+9b 6.8% 5.8% 8.0%
+close to you?
+9 Meeting Criteria 9 (i.e., endorsing DSM9a or DSM9b) 9.5% 8.3% 10.8%
+Note: Each question had the prompt, During the past year…
+27
+
+=== page 28 ===
+Table 4.B. Engagement in Specific Gambling Activities across Gambling Disorder Classes.
+No Criteria At-Risk Gambling Disorder
+95% CIs 95% CIs 95% CIs
+% LL UL % LL UL % LL UL
+No 59.4% 55.6% 63.1% 34.0% 30.4% 37.7% 6.5% 4.9% 8.7%
+Lottery or Scratch Tickets
+Yes 61.9% 59.4% 64.4% 31.7% 29.3% 34.1% 6.4% 5.2% 7.7%
+No 61.4% 59.0% 63.9% 32.2% 29.9% 34.6% 6.3% 5.2% 7.6%
+Bingo or Keno
+Yes 60.4% 56.2% 64.3% 33.0% 29.2% 37.0% 6.6% 4.8% 8.9%
+No 70.7% 68.3% 73.2% 26.5% 24.2% 29.0% 2.8% 2.0% 3.8%
+Slot or Video Card Machine
+Yes 44.5% 40.9% 48.0% 42.7% 39.2% 46.2% 12.8% 10.5% 15.3%
+No 63.5% 61.2% 65.8% 31.6% 29.4% 33.8% 4.9% 4.0% 6.0%
+Casino Table or Dice Games
+Yes 50.4% 45.4% 55.4% 36.3% 31.6% 41.3% 13.3% 10.1% 17.0%
+No 63.9% 61.3% 66.4% 30.9% 28.5% 33.4% 5.2% 4.1% 6.5%
+Raffles, Office Pools, Skill Bets, or Cards with Friends
+Yes 56.0% 52.4% 59.6% 35.4% 31.9% 38.8% 8.7% 6.8% 10.9%
+No 62.5% 60.3% 64.6% 31.9% 29.8% 34.0% 5.6% 4.6% 6.7%
+League (or Season) Fantasy
+Yes 39.5% 31.3% 48.5% 41.2% 32.8% 50.2% 19.3% 12.8% 26.7%
+No 61.8% 59.7% 63.9% 32.2% 30.2% 34.3% 6.0% 5.0% 7.1%
+Daily Fantasy Sports
+Yes 44.5% 34.4% 55.9% 38.0% 28.6% 49.7% 17.5% 10.4% 26.9%
+No 60.1% 57.8% 62.2% 33.7% 31.5% 35.8% 6.3% 5.2% 7.4%
+Sports (exclusive of League Fantasy and Daily Fantasy Sports)
+Yes 70.3% 64.2% 76.1% 22.1% 16.9% 27.7% 7.5% 4.7% 11.7%
+No 61.8% 59.7% 63.9% 32.2% 30.2% 34.3% 6.0% 5.0% 7.1%
+Racetracks
+Yes 38.4% 26.8% 51.5% 40.0% 28.4% 53.3% 21.5% 12.1% 32.9%
+No 61.9% 59.7% 64.0% 32.2% 30.1% 34.3% 6.0% 5.0% 7.0%
+Stock Trading
+Yes 49.2% 40.2% 58.1% 36.8% 29.0% 46.2% 14.0% 9.0% 21.6%
+Note: Red font indicates the 95% CIs range is 15% or greater, suggesting caution should be used with interpreting the percentages. The interpretation of this table is generally a comparison within
+each category. For instance, among those who do not play Slot or Video Card Machines, 12.8% met criteria for gambling disorder, whereas only 2.8% of those who did not play Slot or Video Card
+Machines met the same threshold.
+28
+
+=== page 29 ===
+Table 4.C. Gambling Frequency Categories across Problem Gambling Classes.
+No Criteria At-Risk Gambling Disorder
+95% CIs 95% CIs 95% CIs
+% LL UL % LL UL % LL UL
+Low Frequency 72.2% 68.9% 75.2% 26.6% 23.6% 29.8% 1.2% 0.7% 2.3%
+Moderate Frequency 58.9% 55.0% 62.6% 35.4% 31.8% 39.2% 5.7% 4.1% 7.7%
+High Frequency 50.1% 46.3% 54.0% 36.5% 32.8% 40.1% 13.4% 11.0% 16.2%
+29
+
+=== page 30 ===
+Table 4.D. Comparison of Gambling Motivations across Gambling Disorder Classes.
+No Criteria At-Risk Gambling Disorder
+95% CIs 95% CIs 95% CIs
+M SD LL UL M SD LL UL M SD LL UL
+Socialization 3.20 1.68 3.10 3.30 2.60 1.43 2.48 2.71 2.46 1.33 2.23 2.69
+Excitement 3.31 1.47 3.22 3.40 3.05 1.50 2.93 3.17 3.83 1.57 3.55 4.10
+Financial 3.82 1.65 3.72 3.92 3.21 1.66 3.08 3.34 3.93 1.76 3.63 4.24
+Charitable Reasons 3.45 1.68 3.35 3.55 2.74 1.60 2.61 2.86 2.69 1.69 2.40 2.98
+Entertainment 4.55 1.51 4.46 4.64 3.65 1.54 3.53 3.77 3.89 1.48 3.64 4.15
+Coping or Escape 1.81 1.31 1.73 1.89 2.11 1.40 2.00 2.22 3.26 1.64 2.98 3.55
+Note: Each gambling motivation is rated on a 1 to 6 scale, with 6 indicating a stronger motivation for gambling.
+30
+
+=== page 31 ===
+Table 4.E. Percentage of those Endorsing Maladaptive Gambling Beliefs across Gambling Disorder Classes.
+No Criteria At-Risk Gambling Disorder
+95% CIs 95% CIs 95% CIs
+% LL UL % LL UL % LL UL
+No Maladaptive Beliefs 65.5% 63.2% 67.8% 32.6% 30.3% 34.9% 1.9% 1.3% 2.6%
+Only Gambler's Fallacy 40.8% 33.0% 49.0% 42.8% 35.0% 51.2% 16.3% 10.8% 22.9%
+Only Systems or Strategies Belief 43.8% 35.4% 51.8% 32.8% 25.2% 40.7% 23.3% 16.8% 30.7%
+Endorsed Both Maladaptive Beliefs 28.6% 20.8% 37.4% 28.7% 20.8% 37.4% 42.7% 34.0% 52.1%
+Note: Red font indicates the 95% CIs range is 15% or greater, suggesting caution should be used with interpreting the percentages.
+31
+
+=== page 32 ===
+Table 4.F. Proportion Reporting Suicidal Thoughts or Attempts due to Gambling across Gambling Disorder Classes.
+Suicidal Thoughts due to Gambling Attempted Suicide due to Gambling
+No Yes No Yes
+95% CIs 95% CIs 95% CIs 95% CIs
+% LL UL % LL UL % LL UL % LL UL
+No Criteria 99.6% 99.1% 99.8% 0.4% 0.2% 0.9% 99.6% 99.1% 99.8% 0.4% 0.2% 0.9%
+At-Risk 99.1% 98.1% 99.6% 0.9% 0.4% 1.9% 99.2% 98.3% 99.7% 0.8% 0.4% 1.9%
+Gambling Disorder 72.5% 64.4% 79.4% 27.5% 20.6% 35.6% 73.0% 65.2% 80.1% 27.0% 19.9% 34.8%
+32
+
+=== page 33 ===
+Section 5 – Awareness of Gambling Resources
+This section examines the awareness and utilization of gambling resources in Missouri among various
+demographic groups. These resources include the Gambling Helpline, treatment options, and Gamblers'
+Anonymous Meetings. The data presented highlight differences in awareness and usage based on factors
+such as gender, age, ethnicity, education level, and income. This analysis aims to identify potential gaps in
+awareness and access to resources that can inform targeted outreach and support efforts for those affected
+by GD classes. The findings are presented in Table 5.A (Demographics of Individuals Aware of Gambling
+Resources), Table 5.B (Demographics of Those Utilizing the Gambling Helpline), Table 5.C (Awareness of
+Gambling Resources by GD Classes), and Table 5.D (Proportion of Individuals Utilizing the Gambling
+Helpline by GD Classes). Key findings are summarized below.
+Which individuals are aware of the Gambling Helpline in Missouri?
+Among all individuals, 73.4% are aware of the Gambling Helpline in Missouri, indicating that more than one-
+quarter are unaware of this resource. Table 5.A presents the demographics of individuals who are aware of
+the Gambling Helpline. Among males, 73.7% were aware of helplines, while 73.0% of females were aware.
+Helpline awareness tends to decline with age, being highest among those aged 45-54 years (78.1%) and the
+lowest among those 85 years and older, of which only 47.2% indicated they were aware of the helpline.
+For individuals not of Hispanic, Latino, or Spanish origin, 73.5% were aware of helplines. Among those
+identifying as Hispanic, Latino, or Spanish origin, 70.2% were aware. Regarding racial background,
+individuals who identified with two or more races had the highest helpline awareness (86.1%), while Asian
+individuals had the lowest (58.1%).
+When considering education level, individuals without college degrees had slightly higher helpline awareness
+(75.8%) compared to college graduates (70.6%). Employed individuals exhibited marginally higher
+awareness (73.9%) than those not employed (72.6%). Individuals earning under $24,999 per year
+demonstrated lower awareness (66.7%) compared to about three-fourths of each of the other three income
+brackets. Lastly, individuals with military service, either active duty or veteran, exhibited higher awareness of
+gambling helplines (85.1%) compared to those without military service (71.8%).
+Which individuals are aware of the Gambling Treatment Options in Missouri?
+Among all individuals, 29.2% are aware of the Gambling Treatment Options in Missouri, indicating that three-
+fourths are unaware of this resource. Table 5.A presents the demographics of individuals who are aware of
+the Gambling Treatment Options. Among males, 26.7% were aware of treatment options, while 32.0% of
+females were aware. Treatment option awareness generally increases with age, being lowest among those
+under 25 years (25.3%) and highest among those 85 years and older (65.3%).
+For individuals not of Hispanic, Latino, or Spanish origin, 29.1% were aware of treatment options. Among
+those identifying as Hispanic, Latino, or Spanish origin, 28.8% were aware. Regarding racial background,
+Black or African American individuals had the highest treatment option awareness (35.3%), while American
+Indian or Native Alaskan individuals had the lowest (7.2%).
+When considering education level, treatment option awareness was similar for individuals without college
+degrees (30.2%) and college graduates (27.9%). Employed individuals exhibited marginally lower awareness
+33
+
+=== page 34 ===
+(28.7%) than those not employed (29%). Individuals earning under $24,999 per year demonstrated slightly
+higher awareness (28.5%) compared to those earning $100,000 or more (23%). Lastly, individuals with
+military service, either active duty or veteran, exhibited higher treatment option awareness (33.7%) compared
+to those without military service (28.5%).
+Which individuals are aware of the Gamblers’ Anonymous Meetings in Missouri?
+Among all individuals, 34.2% are aware of the Gamblers' Anonymous meetings in Missouri, indicating that
+nearly two-thirds are unaware of this resource. Table 5.A presents the demographics of individuals who are
+aware of the Gamblers' Anonymous meetings. Among male individuals in Missouri, 33.8% were aware of
+Gamblers' Anonymous meetings, whereas only 34.5% of female individuals were aware. Meeting awareness
+generally varies with age, with those aged 35-44 years old showing the highest awareness (36.9%) and those
+85 years and older having the lowest awareness (18.9%).
+For individuals not of Hispanic, Latino, or Spanish origin, 34.1% were aware of Gamblers' Anonymous
+meetings, while 65.9% were unaware. Among those identifying as Hispanic, Latino, or Spanish origin, 32.6%
+were aware, and 67.4% were unaware. Regarding racial background, those identifying as two or more races
+had the highest meeting awareness (42.0%), while those identifying as Asian had the lowest (14.6%).
+When considering education level, individuals without college degrees had slightly higher Gamblers'
+Anonymous meeting awareness (35.5%) compared to college graduates (32.4%). Employed individuals
+exhibited higher awareness (34.0%) than those not employed (33.6%). Individuals earning under $24,999
+per year demonstrated similar awareness (34.6%) compared to those earning $100,000 or more (29.9%).
+Lastly, individuals with military service exhibited higher meeting awareness (37.7%) compared to those
+without military service (33.6%).
+Which individuals utilize the Gambling Helpline in Missouri?
+As shown in Table 5.B, the present data on Missouri individuals’ awareness and usage of the helpline reveals
+that 87.0% of male individuals and 93.3% of female individuals have never called the helpline. In contrast,
+13.0% of male individuals and 6.7% of female individuals have called it. The propensity to call the helpline
+generally declines with age, peaking among those under 25 years old (20.2%) and reaching its lowest point
+among those aged 75-84 (1.7%).
+Non-Hispanic individuals exhibit slightly higher helpline usage (10.1%) compared to those of Hispanic, Latino,
+or Spanish origin (10.9%). Individuals who are American Indian or Native Alaskan or identified as two or more
+races have the highest rate of calling the helpline (28.5% and 16.8%, respectively), while those identifying
+as Asian have the same rate as Hispanic individuals (12.2%). Education level does not significantly impact
+the likelihood of calling the helpline, with both non-college graduates (10.0%) and college graduates (10.2%)
+showing similar rates.
+Employed individuals are more likely to call the helpline (11.0%) than unemployed individuals (9.5%).
+Individuals earning less than $24,999 per year have a higher likelihood of calling the helpline (14.0%)
+compared to those earning $100,000 or more (11.1%). Lastly, individuals with military service have a higher
+likelihood of calling the helpline (12.8%) compared to those without military service (9.6%).
+34
+
+=== page 35 ===
+Does awareness of Helplines, Treatment Options, or Gamblers’ Anonymous Meetings in Missouri
+vary across Gambling Disorder Classes?
+Table 5.C presents the awareness of various resources to address GD in Missouri among No Criteria, At-
+Risk, and GD. For awareness of helplines, 68.0% of No Criteria, 81.4% of At-Risk, and 81.3% of GD were
+aware of the resources. In terms of awareness of Gambling Treatment Options, 32.5% of No Criteria, 21.5%
+of At-Risk, and 38.5% of GD were aware of the options. Lastly, concerning awareness of Gamblers'
+Anonymous meetings, 29.8% of No Criteria, 39.3% of At-Risk, and 46.3% of GD were aware of these
+meetings. Overall, At-Risk had the highest awareness of helplines, while GD had the highest awareness of
+Gamblers' Anonymous meetings. No Criteria and GD had similar levels of awareness of Gambling Treatment
+Options.
+Are there differences in the proportion of individuals that utilize the Gambling Helpline in Missouri
+across GD classes?
+Table 5.D presents the proportion of individuals who are aware of the helpline and whether or not they call
+across GD classes in Missouri. Among No Criteria, 97.8% did not call the helpline, while 2.2% did. For At-
+Risk, 82.0% did not call the helpline, and 18.0% did. Lastly, for GD, 71.8% did not call the helpline, while
+28.2% did. The data shows that No Criteria had the highest proportion of individuals who did not call the
+helpline, while GD had the highest proportion of individuals who called the helpline. At-Risk fell in between,
+with about one-fifth of them having called the helpline.
+Summary
+In conclusion, the data underscores the importance of understanding the diverse needs of Missouri
+individuals when it comes to gambling resources. It is evident that awareness and utilization of these
+resources vary significantly across different demographic groups and GD classifications. This information
+can be used to guide targeted interventions and education campaigns to ensure that all individuals,
+regardless of their background or gambling habits, have access to the support they need. By enhancing the
+reach and impact of these resources, Missouri can better address GD and foster a more responsible gaming
+environment for its citizens.
+35
+
+=== page 36 ===
+Table 5.A. Demographics of those Aware of Helpline, Gambling Treatment Options, or Gamblers’ Anonymous Meetings
+Gamblers' Anonymous
+Helplines Treatment Options
+Meetings
+95% CIs 95% CIs 95% CIs
+% LL UL % LL UL % LL UL
+Gender
+Male 73.7% 71.0% 76.3% 26.7% 24.0% 29.4% 33.8% 31.0% 36.8%
+Female 73.0% 70.0% 75.9% 32.0% 29.1% 35.2% 34.5% 31.4% 37.7%
+Age Groups
+Under 25 years 72.1% 64.4% 78.6% 25.3% 19.1% 32.8% 33.8% 26.8% 41.7%
+25 - 34 years 73.9% 69.1% 78.1% 25.3% 21.1% 29.9% 36.5% 31.9% 41.6%
+35 - 44 years 72.9% 67.9% 77.2% 28.7% 24.2% 33.7% 36.9% 32.1% 42.2%
+45 - 54 years 78.1% 73.3% 82.2% 31.8% 26.8% 36.8% 34.8% 29.9% 40.1%
+55 - 64 years 74.3% 69.6% 78.6% 27.5% 23.1% 32.3% 30.5% 25.9% 35.4%
+65 - 74 years 70.6% 64.5% 76.2% 32.5% 26.8% 38.9% 32.6% 26.6% 38.7%
+75 - 84 years 72.4% 63.0% 80.3% 27.1% 18.8% 35.9% 35.5% 26.8% 45.3%
+85 years and over 47.2% 31.7% 63.2% 65.3% 50.5% 80.3% 18.9% 9.1% 34.4%
+Hispanic, Latino, or Spanish Origin
+No 73.5% 71.4% 75.4% 29.1% 27.2% 31.2% 34.1% 32.0% 36.3%
+Yes 70.2% 52.7% 86.5% 28.8% 13.5% 47.3% 32.6% 16.4% 51.5%
+Racial Background
+White / Caucasian 74.2% 72.0% 76.3% 28.6% 26.4% 30.9% 33.4% 31.2% 35.8%
+Black or African American 67.0% 60.5% 72.4% 35.3% 29.2% 41.2% 39.6% 33.6% 45.9%
+American Indian or Native
+77.9% 35.2% 93.5% 7.2% 0.0% 29.2% 28.7% 6.5% 64.8%
+Alaskan
+Asian 58.1% 40.6% 74.1% 14.9% 6.4% 31.8% 14.6% 4.5% 27.8%
+Native Hawaiian or Pacific
+100.0% 0.0% 100.0%
+Islander
+Other race 64.6% 6.1% 93.9% 16.7% 0.0% 66.7% 16.7% 0.0% 66.7%
+Two or more races 86.1% 75.4% 93.8% 28.1% 16.3% 40.0% 42.0% 29.6% 55.8%
+Education Level
+No College Degree 75.8% 73.2% 78.4% 30.2% 27.5% 33.1% 35.5% 32.6% 38.5%
+College Degree or more 70.6% 67.5% 73.5% 27.9% 25.0% 30.9% 32.4% 29.4% 35.5%
+Employment Status
+Not employed 72.6% 69.3% 75.7% 29.0% 25.8% 32.3% 33.6% 30.3% 37.1%
+Employed 73.9% 71.3% 76.4% 28.7% 26.1% 31.3% 34.0% 31.3% 36.8%
+Income Level
+Less than $24,999 66.7% 61.8% 71.3% 28.5% 24.1% 33.3% 34.6% 30.0% 39.6%
+$25,000–$49,999 77.6% 73.9% 81.0% 28.8% 25.0% 32.7% 35.1% 31.1% 39.2%
+$50,000–$99,999 73.3% 69.5% 76.9% 34.3% 30.5% 38.5% 34.9% 31.1% 39.0%
+$100,000 or more 74.4% 70.1% 78.6% 23.0% 19.1% 27.2% 29.9% 25.6% 34.5%
+Military Service (i.e., Active Duty or
+Veteran)
+No 71.8% 69.6% 73.9% 28.5% 26.3% 30.6% 33.6% 31.4% 35.9%
+Yes 85.1% 80.2% 89.1% 33.7% 27.9% 39.7% 37.7% 31.8% 44.0%
+Note: Red font indicates the 95% CIs range is 15% or greater, suggesting caution should be used with interpreting the percentages.
+36
+
+=== page 37 ===
+Table 5.B. Demographic Comparison of those Who are Aware of Helplines and Have or Have Not Called the Helpline.
+Have Not Called Helpline Have Called Helpline
+95% CIs 95% CIs
+% LL UL % LL UL
+Gender
+Male 87.0% 84.5% 89.2% 13.0% 10.8% 15.5%
+Female 93.3% 91.2% 95.1% 6.7% 4.9% 8.8%
+Age Groups
+Under 25 years 79.8% 71.8% 86.6% 20.2% 13.4% 28.2%
+25 - 34 years 84.4% 80.0% 88.5% 15.6% 11.8% 20.4%
+35 - 44 years 87.8% 83.3% 91.4% 12.2% 8.6% 16.7%
+45 - 54 years 92.7% 89.1% 95.4% 7.3% 4.6% 10.9%
+55 - 64 years 93.5% 90.2% 96.1% 6.5% 3.9% 9.8%
+65 - 74 years 94.1% 90.0% 97.2% 5.9% 2.8% 10.0%
+75 - 84 years 98.3% 93.8% 99.9% 1.7% 0.1% 6.2%
+85 years and over 100.0% 0.0%
+Hispanic, Latino, or Spanish Origin
+No 89.9% 88.3% 91.4% 10.1% 8.6% 11.7%
+Yes 89.1% 68.9% 97.6% 10.9% 2.4% 31.1%
+Racial Background
+White / Caucasian 90.6% 88.9% 92.2% 9.4% 7.8% 11.1%
+Black or African American 87.2% 81.7% 91.9% 12.8% 8.1% 18.3%
+American Indian or Native Alaskan 71.5% 37.1% 97.7% 28.5% 9.4% 79.1%
+Asian 87.8% 68.9% 97.6% 12.2% 2.4% 31.1%
+Native Hawaiian or Pacific Islander 100.0% 0.0%
+Other race 100.0% 0.0%
+Two or more races 83.2% 69.2% 91.2% 16.8% 8.8% 30.8%
+Education Level
+No College Degree 90.0% 87.7% 91.9% 10.0% 8.0% 12.2%
+College Degree or more 89.8% 87.3% 92.1% 10.2% 8.1% 12.8%
+Employment Status
+Not employed 90.5% 88.0% 92.9% 9.5% 7.2% 12.2%
+Employed 89.0% 86.8% 91.0% 11.0% 9.0% 13.2%
+Income Level
+Less than $24,999 86.0% 81.3% 89.9% 14.0% 10.1% 18.7%
+$25,000–$49,999 88.9% 85.5% 91.6% 11.1% 8.4% 14.5%
+$50,000–$99,999 93.3% 90.5% 95.4% 6.7% 4.6% 9.5%
+$100,000 or more 88.9% 84.9% 92.0% 11.1% 8.0% 15.1%
+Military Service (i.e., Active Duty or Veteran)
+No 90.4% 88.6% 91.9% 9.6% 8.1% 11.4%
+Yes 87.2% 82.2% 91.3% 12.8% 8.7% 17.8%
+Note: Red font indicates the 95% CIs range is 15% or greater, suggesting caution should be used with interpreting the percentages.
+37
+
+=== page 38 ===
+Table 5.C. Proportion of those that are Aware of Helpline, Gambling Treatment Options, or Gamblers’ Anonymous Meetings across Gambling
+Disorder Classes.
+Gamblers' Anonymous
+Helplines Treatment Options
+Meetings
+95% CIs 95% CIs 95% CIs
+% LL UL % LL UL % LL UL
+No Criteria 68.0% 65.2% 70.6% 32.5% 29.8% 35.2% 29.8% 27.1% 32.4%
+At-Risk 81.4% 78.4% 84.3% 21.5% 18.5% 24.8% 39.3% 35.6% 43.1%
+Gambling Disorder 81.3% 74.2% 87.5% 38.5% 30.4% 47.0% 46.3% 37.7% 54.7%
+38
+
+=== page 39 ===
+Table 5.D. Proportion of Those that are Aware of Helplines and Have or Have Not Called the Helpline across Gambling Disorder Classes.
+Have Not Called Helpline Have Called Helpline
+95% CIs 95% CIs
+% LL UL % LL UL
+No Criteria 97.8% 96.6% 98.7% 2.2% 1.3% 3.4%
+At-Risk 82.0% 78.6% 85.1% 18.0% 14.9% 21.4%
+Gambling Disorder 71.8% 62.6% 79.6% 28.2% 20.4% 37.4%
+39
+
+=== page 40 ===
+Section 6 – Summary and Recommendations
+Over the past decade, the U.S. gambling industry has seen major shifts, including the legalization of sports
+betting, increased partnerships with professional sports leagues, and a move towards online platforms.
+Mobile devices have become the go-to for individuals who gamble, providing expanded payment and
+gameplay options. However, these developments have resulted in a surge in calls to compulsive gambling
+hotlines, highlighting the need for enhanced regulation. Further, greater promotion of safer gambling
+practices, such as setting a budget and stopping when upset, need to be widely promoted to mitigate risks.
+Expanded self-exclusion policies, which allow individuals who gamble to voluntarily ban themselves from
+certain gambling activities, should also be pursued for wider implementation within a more systematic
+network. The present findings help to stimulate discussions surrounding these issues.
+Our study of 3,259 Missourians found 64.1% gamble yearly. With a 4.1% GD prevalence and 20.8% at risk,
+nearly 25% of Missourians face GD issues. Gambling frequency varies; 24.1% gamble with low frequency,
+19.5% with moderate, and 20.2% with high. Considerable disparities exist among gambling activities in terms
+of GD criteria: slot/video card machines (12.8%), casino games (13.3%), league/season fantasy sports
+(19.3%), daily fantasy sports (17.5%), stock trading (14.0%), and sports betting (7.5%). People with
+maladaptive beliefs (Gambler's Fallacy or Systems/Strategies Belief) had higher GD rates, especially those
+endorsing both beliefs. GD's destructive effects are alarming; 27.5% of those affected contemplated suicide
+due to gambling, with 27.0% having attempted. Despite a GD helpline, the use of treatment options is
+alarmingly low. Missouri urgently needs improved awareness and accessibility to GD treatment options. The
+underused GD helpline necessitates enhanced visibility and service expansion. As the gambling industry
+continues its expansion, proactive measures to address these pressing issues are crucial.
+Raise Public Awareness: Given the increase in gambling and GD prevalence, there is a pressing
+need to increase public awareness about the associated risks and implications. Efforts to do so
+should ideally be overseen by either the Gaming Commission or the Missouri Mental Health
+Department and Gambling Services. These initiatives could encompass comprehensive media
+campaigns and community education programs, especially in regions with higher gambling activity.
+It's essential that these media campaigns are crafted with public input and maintain objectives
+distinct from the marketing strategies of gambling venues. Moreover, while general public
+campaigns are crucial, there should also be a dedicated push to amplify awareness of available
+helplines. This can be achieved through targeted promotions within gambling venues and their
+associated media outlets. All campaigns must promote informed decision-making among citizens
+and encourage the utilization of educational resources, including both Gamblers Anonymous and
+professional services. We must especially cater to high-risk groups, ensuring they find it
+straightforward and stigma-free to seek assistance.
+Gambling Training with Enhanced Suicide Prevention Response: Increase training for mental
+health professionals and those who are likely to come into contact with individuals at risk of GD,
+such as social workers, healthcare providers, and teachers. These individuals can then provide
+early intervention, information, and referrals to appropriate services. Additionally, given the
+significant link between GD and suicidal ideation/attempts, suicide prevention programs must be
+integrated into all gambling treatment strategies.
+40
+
+=== page 41 ===
+Increase Awareness of and Access to Treatment: It should be a primary objective for all Missourians
+to be aware of the diverse resources available within the state to address GD and co-occurring
+mental health challenges, irrespective of an individual's gambling history. In light of this, collaboration
+with marketing firms specializing in health-based messaging becomes paramount. Additionally,
+there's a need to broaden access to these resources. Comprehensive research is essential to identify
+and understand barriers to treatment access, notably the challenges posed by costs and geographic
+location.
+Targeted Prevention Campaigns: Development of prevention campaigns that target activities with
+the highest GD rates, such as daily fantasy sports, racetrack betting, and slot machines. Prevention
+campaigns should also focus on weakening maladaptive beliefs surrounding gambling. Importantly,
+such campaigns need to be careful not to further stigmatize or shame individuals who are struggling
+with GD such that it lessens their likelihood to seek help. Therefore, educating individuals on the
+risks of gambling and the use of safer gambling practices (e.g., have a designated amount of money,
+do not drink while gambling, stop when gambling is no longer fun) is essential for a positive
+prevention campaign.
+Legislation and Regulation: Legislators play an important role in keeping gambling a safe recreational
+activity by enacting reasonable regulations on the industry and ensuring that an appropriate amount
+of tax revenue is earmarked for GD prevention and intervention.
+Building and Sustaining a Trained Workforce: Addressing gambling disorder (GD) requires a
+nuanced understanding distinct from other mental health challenges. Missouri's response should
+prioritize the education and training of dedicated mental health professionals in this field. To this end,
+state funding should facilitate an annual target of training 1,000 mental health professionals through
+a foundational 2-hour seminar on GD, as part of their continuing education. Of these, 25% should
+proceed to a full-day workshop. From this subset, 15% should then advance to a multi-day certificate
+training. This structured, tiered approach ensures a robust number of credential experts equipped to
+tackle the unique challenges posed by GD.
+Research: To ensure the safety of those who gamble as well as the sustainability of the gaming
+industry itself, it is imperative to foster a robust culture of research. Regular prevalence studies,
+conducted every 3 to 5 years, will provide insights into evolving trends. Beyond prevalence, the
+efficacy of awareness campaigns, treatment modalities, and policy adjustments should be routinely
+evaluated. While it's vital to recognize and document the positive impacts of the gaming industry, an
+equally rigorous assessment of its adverse consequences is necessary. Measuring the industry's
+efforts, along with those of administrators, providers, and communities, in countering these negative
+outcomes is crucial. Effective research is a collaborative endeavor, drawing on the expertise and
+perspectives of diverse stakeholders, all committed to a shared objective of safe and responsible
+gaming.
+Conclusion
+Missouri's standing in the U.S. gambling arena in 2021 paints a stark picture: ranked 36th out of 42 states in
+per capita gambling spending, yet 12th in Total Revenue. This conspicuous disparity, coupled with the
+alarming fact that 25% of Missourians endure negative repercussions from legal gambling activities, is a call
+41
+
+=== page 42 ===
+to action. Even more gravely, our study reveals that 27.5% of Missourians with a gambling disorder have
+contemplated suicide in the past year, with 27% (equivalent to 54,000 individuals) having made an attempt.
+When juxtaposed with the Centers for Disease Control estimates that 10 to 15% of those pondering suicide
+ultimately take their lives, the urgency is palpable.
+The broader U.S. gambling sector is undergoing significant metamorphosis. Our research underscores the
+pressing need for layered interventions. This encompasses enhancing public awareness, reinforcing
+professional training with an accent on suicide prevention, expanding treatment accessibility, instigating
+targeted prevention campaigns, and forging insightful legislation.
+The dynamic nature of the gambling landscape necessitates relentless research endeavors. Strategies must
+not only be effective but also evolve in tandem with the industry's shifts. As gambling continues its expansion
+trajectory, a thorough, inclusive approach, drawing on the insights of multiple stakeholders, becomes
+indispensable for safeguarding those who engage in gambling.
+42
+
+=== page 43 ===
+Appendix: Methods Use by Elite Research, LLC.
+Elite Research, LLC (ER) recommended the use of online survey methods, as this approach is the most cost-
+effective, efficient, and feasible method to assess the prevalence of gambling participation and GD within
+Missouri. There are numerous advantages to online data collection methods, as highlighted in the literature.
+First, online data collection often reaches a broader audience compared to traditional methods. Second,
+online data collection can increase response rates and potentially higher data quality. Third, researchers
+have also found that the enhanced anonymity offered by online survey collection may result in more honest
+responses, as opposed to face-to-face or phone interviews, where participants might respond in a socially
+desirable way due to concerns about being judged. The demographic characteristics of the collected data
+were regularly monitored, and announcements or reminders were customized and targeted to specific
+demographic groups if additional data were needed. Note that participants request paper survey or to
+complete the survey via a phone interview. Very few participants completed the survey in this way.
+Survey Development
+The survey used in this study is based on the Problem and Pathological Gambling Measure (PPGM). Findings
+from a recent study published by Williams & Volberg (2013) suggest when considering an instrument intended
+to measure gambling prevalence among a population, the PPGM outperforms other highly utilized gambling
+measures such as the SOGS (South Oaks Gambling Screen), CPGI (Canadian Problem Gambling Index),
+and various other operationalizations of the DSM-IV.4 In order to be able to score the PPGM to the newly
+released DSM-5, Williams & Volberg provided in direct correspondence (October 25, 2014) the analogous
+DSM-IV and DSM-5 questions. Given this, the PPGM was used as the backbone for the instrument and
+supplemented with additional questions from other instruments, including the PPGM and a 2013 Iowa-based
+gambling study.
+Demographic and recreation questions, along with several questions related to forms of abuse, knowledge
+of gambling help centers, and the inclusion of social 'online' gaming, were included to broaden the analysis
+possibilities. Finally, a 4-item Brief Social Desirability Scale (BSDS) was included in the instrument to assess
+the truthfulness of participant responses. The BSDS is valid, reliable, and has the advantages of brevity and
+practicality. The BSDS is preferred in many test situations where the administration time is limited or subjects
+are unable to tolerate lengthy questionnaires, and the related drop in reliability remains tolerable (Strahan &
+Gerbasi, 1972).5 While researchers have used a number of different cutoffs to exclude people with a high
+tendency towards social desirability from analysis, the present study opted for excluding only those who
+responded affirmatively to all four items.
+Sample Recruitment
+4 Williams, R.J & Volberg, R.A. (2014). The classification accuracy of four problem gambling assessment instruments in
+population research, International Gambling Studies, 14:1, 15-28, DOI: 10.1080/14459795.2013.839731
+5 Strahan R. & Gerbasi, K. C. (1972). Short Homogeneous Versions of the Marlowe-Crowne Social Desirability Scales. Journal
+of Clinical Psychology, 28, 191-193.
+43
+
+=== page 44 ===
+In order to collect a minimum of 5,000 respondents, ER used their internal contact lists, purchased statewide
+contact lists, as well as a partner panel firm, and advertised on social media (Facebook and Instagram).
+Respondents were invited to enter a drawing for one of 200 $50 gift cards to Amazon or the major retailer of
+their choice. The average completion time was 12 minutes. ER created and tested the online survey and
+hosted it using their survey platform, PsychData.
+Past prevalence studies have focused on collection using an addressed-based sampling telephone survey.
+With the increase in the population with wireless-only service, new collection techniques must be considered
+to reach a diverse and generalizable sample. In addition, there is an increase in people younger than 35
+years heavily involved in online social media, thus an increasing need to include and test collection through
+online surveys and social media advertisement. Research, including online panelists, suggests that an
+increased rate of GD may be evident.
+There were four forms of participant recruitment; 1) an address-based online survey with SMS text, email, or
+postal card with a QR code link, 2) a CATI phone interview, 3) partner panel participants, and 4) social media
+advertising. Statistical comparisons were made between participants from these four collection methods.
+Address-Based Sampling. Participants were randomly selected by postal code and then invited by SMS text,
+email, telephone, or mail advertisement to participate in an online survey, paper survey mailed to them with
+a prepaid return envelope, or to complete a phone interview. The primary phone voicemail instructed
+interested participants to either complete the survey online at www.eliteresearch.com/srs or to leave their
+name and address for a paper survey or their name and phone number to be scheduled an interview during
+a time convenient to them. The list of 500,000 potential participants has been purchased from Exact Data
+and Dynata. These potential participants are not members of the online panel sample (described below).
+Partnering Panel Collection. Several measures will be taken to check the validity of the data. TrueSample
+brings the same real-time technologies that help prevent credit card fraud and identity theft to the world of
+online research, enabling researchers to eliminate duplicate, fraudulent, or unengaged respondents from
+panel databases to ensure that panel respondents are whom they represent themselves to be (i.e., age,
+gender).
+Panel participants were provided from Dynata, formally Survey Sampling International, a reputable panelist
+company with more than 38 years of experience. Dynata, founded in 1977, was the first company to make
+random samples available to researchers and invented the random sampling telephone methodologies,
+which are still considered the gold standard today. Dynata has offered an online sample for over 15 years.
+Dynata’s survey and sampling processes have been successfully audited every year since 1998 by Ernst &
+Young and follow ESOMAR’s Guideline for Online Research. The audits are performed as part of the annual
+Media Ratings Council audit of syndicated rating data produced by Arbitron Inc. and Scarborough Research.
+Dynata improves the quality and representative nature of its online sample by incorporating participants from
+online communities, social networks, and websites of all types. Dynata’s sample recruitment is different from
+the simple “river” approach: participants are invited via banners, invitations, and messaging of all types but
+then go through rigorous quality controls before being included in any sample. Dynata’s recruitment practice
+44
+
+=== page 45 ===
+is to include a multitude of diverse sources to minimize bias. Quality control innovations from Dynata follow
+the TrueSample certification, including:
+• 2-Factor Authentication: requires two pieces of information to confirm identity.
+• Pattern Recognition: Using a variety of software, SSI monitors patterns across survey participants
+over time in order to identify fraudulent respondents.
+• Monitoring Inattention: Speeding, straight-lining, not providing thoughtful answers to open ends, and
+not reading questions fully are all behaviors that can impact data quality.
+• TrustScore: a score used to evaluate the level of trust SSI has in a respondent. As the panelist
+behaves across surveys, they can either earn or lose trust points. Any participants with negative
+TrustScores are carefully monitored and potentially blacklisted.
+For inclusion in the survey, panel participants must have been 18 years or older and a current resident of the
+state of Missouri.
+Social Network Recruitment. To recruit participants from social networking websites such as Facebook,
+Twitter, etc., we first determined several incentives (examples include drawings for gift cards, iPods, etc.,
+totaling a value of $4,000) and created announcements that include the survey web link and incentive
+information, which were posted online. The survey encourages snowballing, which allows participants to
+invite other eligible participants to complete the survey.
+• Facebook ads were created for desktop newsfeed, mobile newsfeed, audience network, and desktop
+right column. Paid ads (Cost per click) targeted toward Missouri residents aged 18 and over.
+• Reddit and Craigslist ads were created and posted with defined targets.
+45
