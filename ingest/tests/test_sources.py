@@ -268,3 +268,88 @@ def test_ny_report_layout_change_raises(tmp_path):
     from wpdc_ingest.sources.ny_gaming_commission_mobile_sports import NYGamingCommissionMobileSports
     with pytest.raises(LayoutChanged):
         NYGamingCommissionMobileSports().parse(raw_for(FIX / "nj_dge_synthetic.pdf", None, "pdf"))
+
+
+def test_pa_workbook_grand_total_months_and_crosschecks():
+    from wpdc_ingest.sources.pa_pgcb_sports_wagering import PAPGCBSportsWagering, REVENUE_DEFINITION
+    src = PAPGCBSportsWagering()
+    raw = raw_for(FIX / "pa_pgcb_sports_wagering_fy2024-25.xlsx", None, "xlsx")
+    recs = src.parse(raw)
+    assert [(r["year"], r["month"]) for r in recs][:2] == [(2024, 7), (2024, 8)] and len(recs) == 12
+    jul = recs[0]
+    assert round(jul["total"]["handle"]) == 414_673_804 and round(jul["online"]["promo"]) == 14_161_688 and round(jul["retail"]["taxable"]) == 3_244_022
+    rows = [r.finalize() for r in src.normalize(recs, raw)]
+    assert len(rows) == 36
+    a = next(r for r in rows if r["period_start"] == "2024-07-01" and r["channel"] == "all")
+    assert (a["handle_usd"], a["gross_revenue_usd"], a["promo_deductions_usd"], a["adjusted_revenue_usd"], a["state_tax_usd"]) == (414_673_804, 52_727_378, 14_161_688, 38_565_690, 13_112_334)
+    r = next(r for r in rows if r["period_start"] == "2024-07-01" and r["channel"] == "retail")
+    assert r["gross_revenue_usd"] == r["adjusted_revenue_usd"] == 3_244_022 and r["promo_deductions_usd"] == 0
+    assert a["revenue_definition"] == REVENUE_DEFINITION and "GRAND TOTAL" in a["notes"]
+    # the older workbook naming carries the same layout
+    old = src.parse(raw_for(FIX / "pa_pgcb_sports_wagering_fy2022-23.xlsx", None, "xlsx"))
+    assert len(old) == 12 and round(old[0]["total"]["handle"]) == 336_507_932
+    # a requested month filters, a missing one fails
+    one = src.normalize(recs, raw_for(FIX / "pa_pgcb_sports_wagering_fy2024-25.xlsx", Period.month(2025, 1), "xlsx"))
+    assert len(one) == 3 and one[0].values["period_start"] == "2025-01-01"
+    with pytest.raises(LayoutChanged):
+        src.normalize(recs, raw_for(FIX / "pa_pgcb_sports_wagering_fy2024-25.xlsx", Period.month(2023, 1), "xlsx"))
+
+
+def test_pa_layout_change_raises(tmp_path):
+    import openpyxl
+    from wpdc_ingest.sources.pa_pgcb_sports_wagering import PAPGCBSportsWagering
+    wb = openpyxl.Workbook(); ws = wb.active
+    for _ in range(12): ws.append(["something", 1, 2])
+    p = tmp_path / "pa.xlsx"; wb.save(p)
+    with pytest.raises(LayoutChanged):
+        PAPGCBSportsWagering().parse(raw_for(p, None, "xlsx"))
+
+
+def test_ks_monthly_summary_parses_and_crosschecks():
+    from wpdc_ingest.sources.ks_lottery_sports_wagering import KSLotterySportsWagering, REVENUE_DEFINITION
+    src = KSLotterySportsWagering()
+    raw = raw_for(FIX / "ks_lottery_sports_wagering_2026-01.pdf", Period.month(2026, 1), "pdf")
+    recs = {r["channel"]: r for r in src.parse(raw)}
+    assert (recs["retail"]["handle_usd"], recs["retail"]["adjusted_revenue_usd"], recs["retail"]["state_tax_usd"]) == (4_200_982, 688_350, 68_835)
+    assert (recs["online"]["handle_usd"], recs["online"]["adjusted_revenue_usd"]) == (223_109_404, 14_509_154)
+    assert (recs["all"]["handle_usd"], recs["all"]["state_tax_usd"]) == (227_310_386, 1_519_750)
+    rows = [r.finalize() for r in src.normalize(list(recs.values()), raw)]
+    assert len(rows) == 3 and rows[0]["fips"] == "20" and rows[0]["period_start"] == "2026-01-01" and rows[0]["gross_revenue_usd"] is None
+    assert rows[0]["revenue_definition"] == REVENUE_DEFINITION
+    # an older edition (BetMGM at zero) parses the same way
+    old = {r["channel"]: r for r in src.parse(raw_for(FIX / "ks_lottery_sports_wagering_2023-05.pdf", Period.month(2023, 5), "pdf"))}
+    assert old["all"]["handle_usd"] > 0 and old["retail"]["handle_usd"] + old["online"]["handle_usd"] == old["all"]["handle_usd"]
+    with pytest.raises(LayoutChanged):  # wrong month requested for this file
+        src.parse(raw_for(FIX / "ks_lottery_sports_wagering_2026-01.pdf", Period.month(2026, 2), "pdf"))
+    # resolve picks the month's link from the publications page
+    html = '<a href="/media/jswjvfff/sports-wagering-monthly-revenue-2026-01.pdf">January</a><a href="/media/04weixyd/sports-wagering-monthly-revenue-2026-02.pdf">February</a>'
+    docs = src.resolve(Document(url="u", period=Period.month(2026, 2), kind="html"), html)
+    assert docs[0].url.endswith("2026-02.pdf")
+    assert len(src.resolve(Document(url="u", period=None, kind="html"), html)) == 2
+
+
+def test_oh_repair_numbers_rejoins_split_digits():
+    from wpdc_ingest.sources.oh_occc_sports_gaming import repair_numbers
+    assert repair_numbers("917,625,932 8 15,852,742 3,442,131 30,951,463 98,331,059 9 8,331,059") == [917_625_932, 815_852_742, 3_442_131, 30_951_463, 98_331_059, 98_331_059]
+    assert repair_numbers("13,524,481 1 2,177,453 4 9,952 400 1 ,297,076 1,354,989") == [13_524_481, 12_177_453, 49_952, 400, 1_297_076, 1_354_989]
+    assert repair_numbers("532,852 5 89,243 1,522 - (57,913) -") == [532_852, 589_243, 1_522, 0, -57_913, 0]
+
+
+def test_oh_yearly_report_parses_months_and_crosschecks():
+    from wpdc_ingest.sources.oh_occc_sports_gaming import OHOCCCSportsGaming, REVENUE_DEFINITION
+    src = OHOCCCSportsGaming()
+    raw = raw_for(FIX / "oh_occc_sports_gaming_2026_report04.pdf", None, "pdf")
+    recs = src.parse(raw)
+    assert sorted({r["month"] for r in recs}) == [1, 2, 3, 4] and len(recs) == 12
+    jan_all = next(r for r in recs if r["month"] == 1 and r["channel"] == "all")
+    assert (jan_all["handle_usd"], jan_all["gross_revenue_usd"], jan_all["adjusted_revenue_usd"]) == (931_150_413, 99_628_135, 99_686_048)
+    feb_retail = next(r for r in recs if r["month"] == 2 and r["channel"] == "retail")
+    assert (feb_retail["handle_usd"], feb_retail["gross_revenue_usd"]) == (10_261_446, 372_550)
+    rows = [r.finalize() for r in src.normalize(recs, raw)]
+    assert len(rows) == 12 and rows[0]["fips"] == "39" and rows[0]["state_tax_usd"] is None and rows[0]["revenue_definition"] == REVENUE_DEFINITION
+    one = src.normalize(recs, raw_for(FIX / "oh_occc_sports_gaming_2026_report04.pdf", Period.month(2026, 4), "pdf"))
+    assert len(one) == 3 and one[0].values["period_start"] == "2026-04-01"
+    with pytest.raises(LayoutChanged):
+        src.normalize(recs, raw_for(FIX / "oh_occc_sports_gaming_2026_report04.pdf", Period.month(2026, 5), "pdf"))
+    with pytest.raises(LayoutChanged):
+        src.parse(raw_for(FIX / "ks_lottery_sports_wagering_2026-01.pdf", None, "pdf"))
