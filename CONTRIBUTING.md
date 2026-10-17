@@ -167,6 +167,36 @@ Implement the protocol in `ingest/wpdc_ingest/core/source.py`
 `data/sources/sources.yaml`, and add a fixture-based test. `parse` must be a
 pure function of the document.
 
+### A regulator's monthly handle and revenue report
+
+The seven revenue modules (New Jersey, New York, Pennsylvania, Michigan,
+Kansas, Ohio, Illinois) follow one pattern; copy the closest one.
+
+1. Archive a real report first (commit an `archive` request, or post the
+   regulator's form with a `forms` entry) and keep it under
+   `ingest/tests/fixtures`. Write the parser against that file, not against
+   a description of it.
+2. Write the layout fingerprint into the module docstring and enforce it:
+   the title or header text, the row labels, the column order. Raise
+   `LayoutChanged` with what you saw instead of guessing. A regulator that
+   changes a layout should break the run, not the data.
+3. Cross-check inside the document. Every report carries a total somewhere:
+   retail plus online, operators against the statewide row, months against
+   the fiscal year column, a month page against the year summary. Check it
+   and fail on a mismatch beyond rounding.
+4. Keep the regulator's words. `revenue_definition` is the regulator's own
+   definition, verbatim or paraphrased closely, because gross revenue in one
+   state is taxable revenue in another. Record only what the document
+   prints: a tax the report does not print stays empty, a deduction that is
+   not a deduction stays empty, and a derived figure is never stored.
+5. Make `discover(None)` return every document of the back series and
+   `discover(period)` the one that carries the month, so a first load is one
+   run and a monthly update is one fetch. Give alternates for the same
+   period the same `measure` so the CLI stops at the first that parses.
+6. Put the page or table reference in `page_or_table` so a reviewer can
+   find the figure, and name the known gaps in `notes` (a channel the
+   regulator reports elsewhere, months before the report series starts).
+
 ## Tables, CSV files and fact sheets
 
 Every table and chart on the site is declared once as a `DataTable` in

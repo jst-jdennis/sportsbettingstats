@@ -121,11 +121,13 @@ const hrLimits = schemaTables.find((t) => t.id === 'schema-handle-revenue')?.not
     <p>Helpline volume rises when the number is advertised more, so it measures help-seeking and awareness, not prevalence. Each row carries the operator's own counting rule. A chart appears once a state has {MIN_POINTS} or more periods.</p>
     {charts.helpline.map(({ p, c }) => <><h4>{p.name}</h4><Chart svg={c.svg} legend={c.legend} table={c.table} caption={c.caption} tableLabel="Periods in this chart" /></>)}
     {T.helpline ? <DataTable t={T.helpline} /> : <p class="meta">Every state with helpline rows on file has a chart above.</p>}
-    <h3 id="revenue-series">Monthly sports wagering revenue</h3>
+    <h3 id="revenue-series">Monthly sports wagering handle and revenue</h3>
+    <p>Monthly figures from each state regulator's own report, ingested by a module written for that report's layout and checked against the report's own totals. Every row keeps the regulator's definition of revenue, because gross revenue in one state is taxable revenue after deductions in another. Handle, where published, includes wagers on future events, so no hold percentage is computed.</p>
+    {T['revenue-by-state'] && <DataTable t={T['revenue-by-state']} />}
     {charts.revenue.length ? charts.revenue.map(({ c }) => <><h4>{c.title}</h4><Chart svg={c.svg} legend={c.legend} table={c.table} caption={c.caption} tableLabel="Months in this chart" /></>) : <p class="meta">{hrRows.length ? `${hrRows.length} rows on file; a chart appears once a state has ${MIN_POINTS} months.` : 'No rows on file yet.'}</p>}
     <Limitations title="Limitations of the revenue series" items={[hrLimits ?? ''].filter(Boolean)} />
   </>) : (
-    <div class="panel notice" role="note"><strong>No raw series are published yet.</strong> The schemas below are final and the ingestion modules (US Courts bankruptcy tables, New Jersey monthly revenue) write to them.</div>
+    <div class="panel notice" role="note"><strong>No raw series are published yet.</strong> The schemas below are final and the ingestion modules (US Courts bankruptcy tables, state regulator monthly revenue reports) write to them.</div>
   )}
   {studies.length > 0 && (<>
     <h2 id="prevalence">Prevalence studies</h2>
