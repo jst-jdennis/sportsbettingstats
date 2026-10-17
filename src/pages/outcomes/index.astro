@@ -136,6 +136,9 @@ const hrLimits = schemaTables.find((t) => t.id === 'schema-handle-revenue')?.not
       <h3>{st.name}</h3>
       {studies.filter((x) => x.fips === st.fips).map((x) => <PrevalenceCard s={x} stateName={st.name} csv={csvHref(T.get('prevalence'))} />)}
     </>))}
+    <h3 id="prevalence-searches">Where a study was looked for and what turned up</h3>
+    <p>Most states have no study entered yet. For each one, the table records the latest dated search: whether a state-level study appeared in the results, which documents are candidates for entry, and why nothing qualified where nothing did. A state with no study on file is scored on prevalence research only after a search is recorded.</p>
+    {T['prevalence-searches'] && <DataTable t={T['prevalence-searches']} />}
   </>)}
 
   <h3>What will and will not be claimed</h3>
