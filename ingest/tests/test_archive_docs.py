@@ -21,6 +21,17 @@ class Handler(http.server.BaseHTTPRequestHandler):
             self.send_header("Content-Length", str(len(body)))
             self.end_headers()
             self.wfile.write(body)
+        elif self.path == "/browser-only":
+            if self.headers.get("User-Agent", "").startswith("wpdc-ingest"):
+                self.send_response(403)
+                self.end_headers()
+                return
+            body = b"<!doctype html><html>browser</html>"
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
         elif self.path == "/slow":
             self.send_response(200)
             self.send_header("Content-Type", "application/pdf")
@@ -45,7 +56,7 @@ def test_archive_docs_run_ends_despite_a_trickling_server(tmp_path: Path):
                NO_PROXY="127.0.0.1", no_proxy="127.0.0.1")
     base = f"http://127.0.0.1:{port}"
     t0 = time.time()
-    proc = subprocess.run([sys.executable, "-m", "wpdc_ingest.archive_docs", str(tmp_path), f"{base}/fast", f"{base}/slow", f"{base}/missing"],
+    proc = subprocess.run([sys.executable, "-m", "wpdc_ingest.archive_docs", str(tmp_path), f"{base}/fast", f"{base}/slow", f"{base}/missing", f"{base}/browser-only"],
                           cwd=Path(__file__).resolve().parents[1], env=env, capture_output=True, text=True, timeout=60)
     elapsed = time.time() - t0
     srv.shutdown()
@@ -54,4 +65,5 @@ def test_archive_docs_run_ends_despite_a_trickling_server(tmp_path: Path):
     assert recs["fast"]["file"].endswith(".html")
     assert "exceeded 2s" in recs["slow"]["error"]
     assert "404" in recs["missing"]["error"]
+    assert recs["browser-only"]["file"].endswith(".html") and recs["browser-only"]["user_agent_fallback"] is True
     assert elapsed < 20, elapsed

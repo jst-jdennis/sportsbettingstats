@@ -44,6 +44,15 @@ MAX_PDF_PAGES = int(os.environ.get("WPDC_MAX_PDF_PAGES", "400"))
 DOC_DEADLINE = int(os.environ.get("WPDC_DOC_DEADLINE", "480"))         # seconds per document, all steps
 
 
+BROWSER_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+# The Wayback Machine throttles concurrent save requests from one address, so captures are serialized.
+_wayback_gate = threading.Semaphore(int(os.environ.get("WPDC_WAYBACK_CONCURRENCY", "1")))
+
+
 class FetchAborted(Exception):
     pass
 
@@ -55,6 +64,12 @@ def fetch_within(url: str, deadline: int = FETCH_DEADLINE, cap: int = DOWNLOAD_C
     even against a server that trickles bytes forever.
     """
     r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=(30, 60), allow_redirects=True, stream=True)
+    if r.status_code in (403, 406):
+        # Several state web application firewalls refuse anything that does not look like a browser.
+        # Retry once with ordinary browser headers; the index records that the fallback was used.
+        r.close()
+        r = requests.get(url, headers=BROWSER_HEADERS, timeout=(30, 60), allow_redirects=True, stream=True)
+        r.headers["X-WPDC-UA-Fallback"] = "1"
     expired = threading.Event()
 
     def kill() -> None:
@@ -128,6 +143,8 @@ def archive_one(out: Path, url: str) -> dict:
         path = out / f"{digest}.{ext}"
         path.write_bytes(content)
         rec.update({"final_url": r.url, "sha256": digest, "bytes": len(content), "content_type": ctype, "file": path.name})
+        if r.headers.get("X-WPDC-UA-Fallback"):
+            rec["user_agent_fallback"] = True
         if ext == "pdf":
             try:
                 import pdfplumber
@@ -141,7 +158,8 @@ def archive_one(out: Path, url: str) -> dict:
                     rec["text_truncated_at_page"] = MAX_PDF_PAGES
             except Exception as e:  # noqa: BLE001
                 rec["text_error"] = str(e)
-        rec["archive_url"] = wayback_capture(url)
+        with _wayback_gate:
+            rec["archive_url"] = wayback_capture(url)
     except Exception as e:  # noqa: BLE001
         rec["error"] = str(e)
     return rec
