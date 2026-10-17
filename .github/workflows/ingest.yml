@@ -57,8 +57,7 @@ jobs:
             kind=$(python -c "import yaml,sys;print(yaml.safe_load(open(sys.argv[1])).get('kind','ingest'))" "$f")
             echo "::group::$name ($kind)"
             if [ "$kind" = "archive" ]; then
-              mapfile -t urls < <(python -c "import yaml,sys;print('\n'.join(yaml.safe_load(open(sys.argv[1]))['urls']))" "$f")
-              python -m wpdc_ingest.archive_docs "out/archive/$name" "${urls[@]}" 2>&1 | tee "out/logs/$name.log" || status=1
+              python -m wpdc_ingest.archive_docs "out/archive/$name" --request "$f" 2>&1 | tee "out/logs/$name.log" || status=1
             else
               sid=$(python -c "import yaml,sys;print(yaml.safe_load(open(sys.argv[1]))['source_id'])" "$f")
               mapfile -t pers < <(python -c "import yaml,sys;d=yaml.safe_load(open(sys.argv[1]));ps=d.get('periods') or ([d['period']] if d.get('period') else ['']);print('\n'.join(str(p) for p in ps))" "$f")

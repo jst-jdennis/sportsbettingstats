@@ -1,0 +1,106 @@
+"""The archive tool must finish a run even when a server trickles bytes forever."""
+import http.server
+import json
+import os
+import subprocess
+import sys
+import threading
+import time
+from pathlib import Path
+
+
+class Handler(http.server.BaseHTTPRequestHandler):
+    def log_message(self, *a):  # noqa: D401
+        pass
+
+    def do_GET(self):  # noqa: N802
+        if self.path == "/fast":
+            body = b"<!doctype html><html>fast</html>"
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+        elif self.path == "/browser-only":
+            if self.headers.get("User-Agent", "").startswith("wpdc-ingest"):
+                self.send_response(403)
+                self.end_headers()
+                return
+            body = b"<!doctype html><html>browser</html>"
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+        elif self.path == "/form":
+            body = b'<html><form method="post"><input type="hidden" name="__VIEWSTATE" value="abc&amp;1"/><select name="month"></select></form></html>'
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+        elif self.path == "/slow":
+            self.send_response(200)
+            self.send_header("Content-Type", "application/pdf")
+            self.end_headers()
+            try:
+                while True:
+                    self.wfile.write(b"x" * 10)
+                    self.wfile.flush()
+                    time.sleep(0.25)
+            except (BrokenPipeError, ConnectionResetError):
+                pass
+        else:
+            self.send_response(404)
+            self.end_headers()
+
+
+    def do_POST(self):  # noqa: N802
+        n = int(self.headers.get("Content-Length", "0"))
+        body = self.rfile.read(n).decode()
+        from urllib.parse import parse_qs
+        q = parse_qs(body)
+        ok = q.get("__VIEWSTATE") == ["abc&1"] and q.get("month") == ["August"]
+        out = b"licensee,handle\nA,1\n" if ok else b"bad form"
+        self.send_response(200 if ok else 400)
+        self.send_header("Content-Type", "text/csv")
+        self.send_header("Content-Length", str(len(out)))
+        self.end_headers()
+        self.wfile.write(out)
+
+
+def test_archive_docs_posts_a_form_with_harvested_hidden_fields(tmp_path: Path):
+    srv = http.server.ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+    port = srv.server_address[1]
+    threading.Thread(target=srv.serve_forever, daemon=True).start()
+    req = tmp_path / "req.yaml"
+    req.write_text(f"kind: archive\nlabel: t\nurls:\n  - http://127.0.0.1:{port}/fast\nforms:\n  - url: http://127.0.0.1:{port}/form\n    data:\n      month: August\n")
+    env = dict(os.environ, NO_PROXY="127.0.0.1", no_proxy="127.0.0.1", WPDC_WAYBACK_CONCURRENCY="1")
+    out = tmp_path / "out"
+    proc = subprocess.run([sys.executable, "-m", "wpdc_ingest.archive_docs", str(out), "--request", str(req)], cwd=Path(__file__).resolve().parents[1], env=env, capture_output=True, text=True, timeout=120)
+    srv.shutdown()
+    recs = {json.loads(l)["url"].rsplit("/", 1)[1]: json.loads(l) for l in (out / "index.jsonl").read_text().splitlines()}
+    assert proc.returncode == 0, proc.stderr
+    assert recs["form"]["method"] == "post" and recs["form"]["form"] == {"month": "August"} and recs["form"]["file"].endswith(".csv")
+    assert (out / recs["form"]["file"]).read_bytes().startswith(b"licensee,handle")
+
+
+def test_archive_docs_run_ends_despite_a_trickling_server(tmp_path: Path):
+    srv = http.server.ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+    port = srv.server_address[1]
+    threading.Thread(target=srv.serve_forever, daemon=True).start()
+    env = dict(os.environ, WPDC_FETCH_DEADLINE="2", WPDC_DOC_DEADLINE="6", WPDC_ARCHIVE_WORKERS="3",
+               NO_PROXY="127.0.0.1", no_proxy="127.0.0.1")
+    base = f"http://127.0.0.1:{port}"
+    t0 = time.time()
+    proc = subprocess.run([sys.executable, "-m", "wpdc_ingest.archive_docs", str(tmp_path), f"{base}/fast", f"{base}/slow", f"{base}/missing", f"{base}/browser-only"],
+                          cwd=Path(__file__).resolve().parents[1], env=env, capture_output=True, text=True, timeout=60)
+    elapsed = time.time() - t0
+    srv.shutdown()
+    recs = {json.loads(l)["url"].rsplit("/", 1)[1]: json.loads(l) for l in (tmp_path / "index.jsonl").read_text().splitlines()}
+    assert proc.returncode == 1  # one or more documents failed
+    assert recs["fast"]["file"].endswith(".html")
+    assert "exceeded 2s" in recs["slow"]["error"]
+    assert "404" in recs["missing"]["error"]
+    assert recs["browser-only"]["file"].endswith(".html") and recs["browser-only"]["user_agent_fallback"] is True
+    assert elapsed < 20, elapsed

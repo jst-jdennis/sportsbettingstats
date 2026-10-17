@@ -108,7 +108,45 @@ consumer_protections:
       <<: *ctdcp
       source_url: https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2021-news-releases/dcp-announces-launch-of-statewide-self-exclusion-list
       notes: Confirmed by search on 2026-10-16 against the Department's launch release and program page.
-  deposit_limits: null
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: false
+    player_set_required_at_signup: false
+    cooling_off_on_increase_hours: null
+    statutory_cap_usd: null
+    authority_citation: Regs. Conn. State Agencies 12-865-13 (electronic wagering platform requirements; responsible gaming limits), subsection letter to be confirmed; 12-865-30 (consumer disclosure of the right to set responsible gaming limits)
+    notes: >-
+      The platform must allow a patron to establish responsible gaming limits, and the options must include a deposit
+      limit offered on a daily, weekly and monthly basis, a spend limit on the same bases and a daily time-based
+      limit; patrons must have an easy and obvious method to impose deposit caps, wager maximums and time limits. A
+      change making a limit more restrictive is effective no later than the patron's next log in; a change making it
+      less restrictive takes effect only after the previously set period expires and the patron reaffirms the change,
+      so no fixed number of hours is stated. Patron limits do not override more restrictive operator limits. When a
+      patron's lifetime deposits exceed 2,500 dollars the platform must stop wagering until the patron acknowledges
+      the right to set limits or close the account, repeated every six months; that is an acknowledgment, not a
+      default limit. No rule read requires a limit at signup. Quoted from a search excerpt of the cited page; the
+      page itself could not be opened from the drafting environment.
+    provenance:
+      <<: *ctdcp
+      source_url: https://eregulations.ct.gov/eRegsPortal/Search/getDocument?guid=%7B3037BC7E-0100-CBF0-A99D-BCC1148E33B6%7D
+      archive_url: sha256:5e06673c1585ac1e66363090b7643692a1db6dfa60ff87cc3e68fb12061b72bb
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      page_or_table: Sec. 12-865-13
+      notes: >-
+        Archived copy checked on 2026-10-17: subsection (p) requires the platform to let a patron establish responsible gaming limits, with a less restrictive change effective only after the prior limit expires and the patron reaffirms it.
+        Quoted from a search excerpt of the cited page (eRegulations, Regulations of Connecticut State Agencies,
+        revised February 2022); the page itself could not be opened from the drafting environment. Excerpt: "An
+        electronic wagering platform shall allow a patron to establish responsible gaming limits. Any change making
+        the limits more restrictive shall be effective no later than the patron's next log in. Any change making the
+        limits less restrictive shall become effective only after the time limit previously established by the patron
+        has expired and the patron reaffirms the requested change"; "Responsible gaming limit options offered to
+        patrons shall include, but are not limited to, the following: (1) A deposit limit shall be offered on a
+        daily, weekly, and monthly basis"; "When a patron's lifetime deposits exceed $2,500, the electronic wagering
+        platform shall prevent any wagering until the patron acknowledges the following". The full compilation
+        12-865-1 to 12-865-34 is at
+        https://eregulations.ct.gov/eRegsPortal/Browse/getDocument?guid=%7B4036BC7E-0000-CB24-A8AB-4BF5F355C236%7D.
   advertising:
     - rule_type: no_under_age_targeting
       text: Public Act 26-53 (HB 5229, 2026) requires gaming advertisements to state the applicable minimum age and prohibits advertising designed to appeal to persons under twenty-one.
@@ -117,7 +155,32 @@ consumer_protections:
         <<: *ctleg
         source_url: https://prdext3.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00053-R00HB-05229-PA.PDF
         notes: Act found by search on 2026-10-16; effective date and exact operative language to be confirmed against the public act PDF.
-  credit_card_deposits: null
+  credit_card_deposits:
+    allowed: true
+    authority_citation: Regs. Conn. State Agencies 12-865-11 (internet gaming account management; permitted funding methods include one credit card held in the name of the patron)
+    notes: >-
+      The funding methods list permits it. A patron's internet gaming account may be funded by bank transfer or by one
+      credit card held in the patron's name, which may not be processed through a payment gateway or aggregator, and a
+      patron may link only one credit card or one debit card to the account at any time. Before a withdrawal, any
+      balance up to the deposited amount is returned to the funding card (language seen in the 2021 emergency version;
+      confirm in the current text). A 2025 bill (HB 5269) touching credit card funding appeared in results; its
+      enactment was not checked and is not reflected here. Quoted from a search excerpt of the cited page; the page
+      itself could not be opened from the drafting environment.
+    provenance:
+      <<: *ctdcp
+      source_url: https://eregulations.ct.gov/eRegsPortal/Search/getDocument?guid=%7B3037BC7E-0100-C253-B9BB-1EDAA6A60765%7D
+      archive_url: sha256:b65bb2e192b5ad40ca40b2243853eb15510f788041fd51d9492eced243ced271
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      page_or_table: Sec. 12-865-11
+      notes: >-
+        Archived copy checked on 2026-10-17: a patron may link one credit card or one debit card held in the patron's own name to fund the account.
+        Quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting
+        environment. Excerpt: "A patron's internet gaming account may be funded through the use of" the listed
+        options, including "(2) One credit card held in the name of the patron" (not through a payment gateway or
+        aggregator), and "A patron may only link one credit card or one debit card to their internet gaming account
+        at any point in time."
   helpline_message: null
 limitations:
   - Connecticut's monthly reports show gross gaming revenue and a separate figure after promotional deductions; the payment to the state is computed on the latter, and wagers placed on the two reservations are excluded, so published revenue is not a complete measure of in-state wagering.

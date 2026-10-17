@@ -69,6 +69,8 @@ def main(argv: list[str] | None = None) -> int:
     else:
         last_err: Exception | None = None
         done_measures: set[str] = set()  # with fetch_all, one parsed document per measure is enough
+        failures: list[tuple[str, str]] = []
+        parsed_ok: list = []
         for doc in docs:
             try:
                 candidate = []
@@ -79,15 +81,30 @@ def main(argv: list[str] | None = None) -> int:
                     if not files:
                         continue
                     for f in files:
-                        candidate.append(archive.fetch(src.source_id, f, f.kind, wayback=not a.no_wayback))
+                        if getattr(src, "fetch_all", False):
+                            # A back series: one bad month must not take the others down. Fetch and parse
+                            # each file on its own, keep the ones that parse and report the rest.
+                            try:
+                                raw = archive.fetch(src.source_id, f, f.kind, wayback=not a.no_wayback)
+                                print(f"parsing {raw.path.name} ({raw.doc.label}) sha256={raw.sha256[:12]} archive_url={raw.archive_url}")
+                                src.parse(raw)
+                                candidate.append(raw)
+                            except Exception as e:  # noqa: BLE001
+                                failures.append((f.url, f"{type(e).__name__}: {e}"))
+                                print(f"failed {f.label or f.url}: {type(e).__name__}: {e}")
+                        else:
+                            candidate.append(archive.fetch(src.source_id, f, f.kind, wayback=not a.no_wayback))
                 else:
                     if doc.get("measure") and doc.get("measure") in done_measures:
                         continue
                     candidate.append(archive.fetch(src.source_id, doc, doc.kind, wayback=not a.no_wayback))
                 # Parse now so that a wrong-shaped candidate (an HTML error page served as 200) falls through.
                 for raw in candidate:
+                    if raw in parsed_ok:
+                        continue
                     print(f"parsing {raw.path.name} ({raw.doc.label}) sha256={raw.sha256[:12]} archive_url={raw.archive_url}")
                     src.parse(raw)
+                    parsed_ok.append(raw)
                 raws.extend(candidate)
                 done_measures.update(m for m in (r.doc.get("measure") for r in candidate) if m)
                 if not getattr(src, "fetch_all", False):
@@ -95,6 +112,10 @@ def main(argv: list[str] | None = None) -> int:
             except Exception as e:  # noqa: BLE001
                 last_err = e
                 print(f"skip {doc.url}: {type(e).__name__}: {e}")
+        if failures:
+            print(f"\n{len(failures)} document(s) in the series could not be parsed and were left out:")
+            for u, err in failures:
+                print(f"  {u}\n    {err[:300]}")
         if not raws:
             raise SystemExit(f"no document could be fetched and parsed for {src.source_id}: {last_err}")
     rows = []

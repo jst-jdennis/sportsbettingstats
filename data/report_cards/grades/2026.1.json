@@ -1,5 +1,5 @@
 {
- "data_fingerprint": "f8b14410db922af2d884b57cbb2d86288e18696315320756bfdd6a244bcb2d0e",
+ "data_fingerprint": "03472602a9607d54f7777fdab0dc5b60fead3425f213789d7658e5c979fc3126",
  "derived_inputs": {
   "advertising_rule_count": "Number of rows in consumer_protections.advertising; null when the list is absent.",
   "advertising_substantive_count": "Rows in consumer_protections.advertising whose rule_type is not responsible_gambling_message_required.",
@@ -295,17 +295,24 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "two or more rules whose rule_type is not responsible_gambling_message_required",
      "criterion_id": "advertising",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "az-regulator",
+       "source_url": "https://gaming.az.gov/sites/default/files/Article%201%20-%20Event%20Wagering%20v1.1.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "advertising_rule_count": null,
-      "advertising_substantive_count": null
+      "advertising_rule_count": 4,
+      "advertising_substantive_count": 3
      },
-     "label": null,
+     "label": "Two or more substantive restrictions",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": "every legal_age scope is 21 or older",
@@ -327,16 +334,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "allowed is true",
      "criterion_id": "credit_cards",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "az-regulator",
+       "source_url": "https://gaming.az.gov/sites/default/files/Article%201%20-%20Event%20Wagering%20v1.1.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "credit_card_allowed": null
+      "credit_card_allowed": true
      },
-     "label": null,
+     "label": "Permitted",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     },
     {
      "condition": "funding_mechanism is a statutory earmark",
@@ -373,18 +387,16 @@
    ],
    "fips": "04",
    "grade": null,
-   "inputs_pending_review": 3,
+   "inputs_pending_review": 5,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
-    "advertising",
-    "credit_cards",
     "prevalence_research"
    ],
    "name": "Arizona",
    "pct": null,
-   "points": 8,
-   "points_entered": 8,
+   "points": 11,
+   "points_entered": 13,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -487,17 +499,30 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "two or more rules whose rule_type is not responsible_gambling_message_required",
      "criterion_id": "advertising",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "co-regulator",
+       "source_url": "https://sbg.colorado.gov/sites/sbg/files/documents/SBRule-9-011426.pdf",
+       "status": "pending_review"
+      },
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "co-regulator",
+       "source_url": "https://sbg.colorado.gov/sites/sbg/files/documents/Rules1,6,9-Redline10.23.25%20.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "advertising_rule_count": null,
-      "advertising_substantive_count": null
+      "advertising_rule_count": 6,
+      "advertising_substantive_count": 5
      },
-     "label": null,
+     "label": "Two or more substantive restrictions",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": "every legal_age scope is 21 or older",
@@ -519,16 +544,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "allowed is false",
      "criterion_id": "credit_cards",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "co-legislature",
+       "source_url": "https://leg.colorado.gov/bills/SB26-131",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "credit_card_allowed": null
+      "credit_card_allowed": false
      },
-     "label": null,
+     "label": "Prohibited",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 2,
+     "status": "scored"
     },
     {
      "condition": "funding_mechanism is a statutory earmark",
@@ -537,7 +569,7 @@
       {
        "retrieved_at": "2026-10-17",
        "source_id": "co-legislature",
-       "source_url": "https://content.leg.colorado.gov/sites/default/files/documents/2024A/bills/sl/2024a_sl_212.pdf",
+       "source_url": "https://leg.colorado.gov/sites/default/files/images/olls/crs2024-title-44.pdf",
        "status": "pending_review"
       }
      ],
@@ -565,17 +597,15 @@
    ],
    "fips": "08",
    "grade": null,
-   "inputs_pending_review": 4,
+   "inputs_pending_review": 7,
    "market": "regulated_market",
    "missing_criteria": [
-    "advertising",
-    "credit_cards",
     "prevalence_research"
    ],
    "name": "Colorado",
    "pct": null,
-   "points": 9,
-   "points_entered": 11,
+   "points": 14,
+   "points_entered": 16,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -604,19 +634,26 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "player_set_available is true",
      "criterion_id": "deposit_limits",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ct-regulator",
+       "source_url": "https://eregulations.ct.gov/eRegsPortal/Search/getDocument?guid=%7B3037BC7E-0100-CBF0-A99D-BCC1148E33B6%7D",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "deposit_limits_entered": null,
-      "deposit_mandatory_default": null,
-      "deposit_player_set_available": null,
-      "deposit_required_at_signup": null
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": false,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": false
      },
-     "label": null,
+     "label": "Available on request",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 1,
+     "status": "scored"
     },
     {
      "condition": "exactly one such rule",
@@ -658,16 +695,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "allowed is true",
      "criterion_id": "credit_cards",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ct-regulator",
+       "source_url": "https://eregulations.ct.gov/eRegsPortal/Search/getDocument?guid=%7B3037BC7E-0100-C253-B9BB-1EDAA6A60765%7D",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "credit_card_allowed": null
+      "credit_card_allowed": true
      },
-     "label": null,
+     "label": "Permitted",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     },
     {
      "condition": "funding_mechanism is a statutory earmark",
@@ -704,17 +748,15 @@
    ],
    "fips": "09",
    "grade": null,
-   "inputs_pending_review": 4,
+   "inputs_pending_review": 6,
    "market": "regulated_market",
    "missing_criteria": [
-    "deposit_limits",
-    "credit_cards",
     "prevalence_research"
    ],
    "name": "Connecticut",
    "pct": null,
-   "points": 10,
-   "points_entered": 11,
+   "points": 11,
+   "points_entered": 16,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -802,7 +844,7 @@
      "status": "not_entered"
     },
     {
-     "condition": "funding_mechanism is a statutory earmark",
+     "condition": "funding_mechanism is unknown",
      "criterion_id": "pg_funding",
      "evidence": [
       {
@@ -813,11 +855,11 @@
       }
      ],
      "inputs": {
-      "pg_funding_mechanism": "statutory_earmark_fixed"
+      "pg_funding_mechanism": "unknown"
      },
-     "label": "Statutory earmark",
+     "label": "Mechanism unknown",
      "max_points": 3,
-     "points": 3,
+     "points": 0,
      "status": "scored"
     },
     {
@@ -846,7 +888,7 @@
    ],
    "name": "District of Columbia",
    "pct": null,
-   "points": 6,
+   "points": 3,
    "points_entered": 8,
    "profile_completeness": "full",
    "review": null,
@@ -941,7 +983,7 @@
       {
        "retrieved_at": "2026-10-17",
        "source_id": "de-legislature",
-       "source_url": "https://delcode.delaware.gov/title29/c048/index.html",
+       "source_url": "https://delcode.delaware.gov/title29/c048/sc01/index.html",
        "status": "pending_review"
       }
      ],
@@ -1234,32 +1276,46 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "player_set_available is true",
      "criterion_id": "deposit_limits",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ia-legislature",
+       "source_url": "https://www.legis.iowa.gov/docs/iac/rule/491.13.5.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "deposit_limits_entered": null,
-      "deposit_mandatory_default": null,
-      "deposit_player_set_available": null,
-      "deposit_required_at_signup": null
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": false,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": false
      },
-     "label": null,
+     "label": "Available on request",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 1,
+     "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "only responsible_gambling_message_required rules",
      "criterion_id": "advertising",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ia-legislature",
+       "source_url": "https://www.legis.iowa.gov/docs/iac/rule/02-05-2025.491.13.2.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "advertising_rule_count": null,
-      "advertising_substantive_count": null
+      "advertising_rule_count": 1,
+      "advertising_substantive_count": 0
      },
-     "label": null,
+     "label": "Helpline message only",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 1,
+     "status": "scored"
     },
     {
      "condition": "every legal_age scope is 21 or older",
@@ -1281,16 +1337,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "allowed is false",
      "criterion_id": "credit_cards",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ia-legislature",
+       "source_url": "https://www.legis.iowa.gov/docs/code/99F.9.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "credit_card_allowed": null
+      "credit_card_allowed": false
      },
-     "label": null,
+     "label": "Prohibited",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 2,
+     "status": "scored"
     },
     {
      "condition": "funding_mechanism is unknown",
@@ -1327,18 +1390,15 @@
    ],
    "fips": "19",
    "grade": null,
-   "inputs_pending_review": 3,
+   "inputs_pending_review": 6,
    "market": "regulated_market",
    "missing_criteria": [
-    "deposit_limits",
-    "advertising",
-    "credit_cards",
     "prevalence_research"
    ],
    "name": "Iowa",
    "pct": null,
-   "points": 5,
-   "points_entered": 8,
+   "points": 9,
+   "points_entered": 16,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -1546,19 +1606,26 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "player_set_available is true",
      "criterion_id": "deposit_limits",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "in-regulator",
+       "source_url": "https://www.in.gov/igc/files/sportswagering/Rules-for-Sports-Wagering.PDF",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "deposit_limits_entered": null,
-      "deposit_mandatory_default": null,
-      "deposit_player_set_available": null,
-      "deposit_required_at_signup": null
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": false,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": false
      },
-     "label": null,
+     "label": "Available on request",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 1,
+     "status": "scored"
     },
     {
      "condition": "exactly one such rule",
@@ -1600,16 +1667,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "allowed is true",
      "criterion_id": "credit_cards",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "in-regulator",
+       "source_url": "https://www.in.gov/igc/files/sportswagering/Rules-for-Sports-Wagering.PDF",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "credit_card_allowed": null
+      "credit_card_allowed": true
      },
-     "label": null,
+     "label": "Permitted",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     },
     {
      "condition": "funding_mechanism is a statutory earmark",
@@ -1646,17 +1720,15 @@
    ],
    "fips": "18",
    "grade": null,
-   "inputs_pending_review": 4,
+   "inputs_pending_review": 6,
    "market": "regulated_market",
    "missing_criteria": [
-    "deposit_limits",
-    "credit_cards",
     "prevalence_research"
    ],
    "name": "Indiana",
    "pct": null,
-   "points": 10,
-   "points_entered": 11,
+   "points": 11,
+   "points_entered": 16,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -1841,32 +1913,46 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "player_set_available is true",
      "criterion_id": "deposit_limits",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ky-legislature",
+       "source_url": "https://apps.legislature.ky.gov/law/kar/titles/809/010/004/",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "deposit_limits_entered": null,
-      "deposit_mandatory_default": null,
-      "deposit_player_set_available": null,
-      "deposit_required_at_signup": null
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": false,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": false
      },
-     "label": null,
+     "label": "Available on request",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 1,
+     "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "two or more rules whose rule_type is not responsible_gambling_message_required",
      "criterion_id": "advertising",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ky-legislature",
+       "source_url": "https://apps.legislature.ky.gov/law/kar/titles/809/010/007/",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "advertising_rule_count": null,
-      "advertising_substantive_count": null
+      "advertising_rule_count": 2,
+      "advertising_substantive_count": 2
      },
-     "label": null,
+     "label": "Two or more substantive restrictions",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": "every legal_age scope is 21 or older",
@@ -1934,18 +2020,16 @@
    ],
    "fips": "21",
    "grade": null,
-   "inputs_pending_review": 3,
+   "inputs_pending_review": 5,
    "market": "regulated_market",
    "missing_criteria": [
-    "deposit_limits",
-    "advertising",
     "credit_cards",
     "prevalence_research"
    ],
    "name": "Kentucky",
    "pct": null,
-   "points": 8,
-   "points_entered": 8,
+   "points": 12,
+   "points_entered": 14,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -1974,19 +2058,26 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "player_set_available is true",
      "criterion_id": "deposit_limits",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "la-regulator",
+       "source_url": "https://lgcb.dps.louisiana.gov/media/p5fhudbe/20220120-emergency-rulelgcblouisiana-sports-wageringclear-copy.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "deposit_limits_entered": null,
-      "deposit_mandatory_default": null,
-      "deposit_player_set_available": null,
-      "deposit_required_at_signup": null
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": false,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": false
      },
-     "label": null,
+     "label": "Available on request",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 1,
+     "status": "scored"
     },
     {
      "condition": "exactly one such rule",
@@ -2074,17 +2165,16 @@
    ],
    "fips": "22",
    "grade": null,
-   "inputs_pending_review": 4,
+   "inputs_pending_review": 5,
    "market": "regulated_market",
    "missing_criteria": [
-    "deposit_limits",
     "credit_cards",
     "prevalence_research"
    ],
    "name": "Louisiana",
    "pct": null,
-   "points": 10,
-   "points_entered": 11,
+   "points": 11,
+   "points_entered": 14,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -2113,19 +2203,26 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "player_set_available is true",
      "criterion_id": "deposit_limits",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ma-regulator",
+       "source_url": "https://www.mass.gov/doc/205-cmr-248-sports-wagering-account-management/download",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "deposit_limits_entered": null,
-      "deposit_mandatory_default": null,
-      "deposit_player_set_available": null,
-      "deposit_required_at_signup": null
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": false,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": false
      },
-     "label": null,
+     "label": "Available on request",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 1,
+     "status": "scored"
     },
     {
      "condition": "two or more rules whose rule_type is not responsible_gambling_message_required",
@@ -2220,16 +2317,15 @@
    ],
    "fips": "25",
    "grade": null,
-   "inputs_pending_review": 5,
+   "inputs_pending_review": 6,
    "market": "regulated_market",
    "missing_criteria": [
-    "deposit_limits",
     "prevalence_research"
    ],
    "name": "Massachusetts",
    "pct": null,
-   "points": 13,
-   "points_entered": 13,
+   "points": 14,
+   "points_entered": 16,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -2403,32 +2499,46 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "player_set_available is true",
      "criterion_id": "deposit_limits",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "me-regulator",
+       "source_url": "https://www.maine.gov/dps/sites/maine.gov.dps/files/inline-files/Chapter%2063%20Responsible%20Wagering.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "deposit_limits_entered": null,
-      "deposit_mandatory_default": null,
-      "deposit_player_set_available": null,
-      "deposit_required_at_signup": null
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": false,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": false
      },
-     "label": null,
+     "label": "Available on request",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 1,
+     "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "two or more rules whose rule_type is not responsible_gambling_message_required",
      "criterion_id": "advertising",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "me-regulator",
+       "source_url": "https://www.maine.gov/dps/sites/maine.gov.dps/files/inline-files/Chapter%2064%20Advertising.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "advertising_rule_count": null,
-      "advertising_substantive_count": null
+      "advertising_rule_count": 5,
+      "advertising_substantive_count": 4
      },
-     "label": null,
+     "label": "Two or more substantive restrictions",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": "every legal_age scope is 21 or older",
@@ -2450,16 +2560,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "allowed is false",
      "criterion_id": "credit_cards",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "me-regulator",
+       "source_url": "https://www1.maine.gov/dps/gcu/bill-tracker/VLA-132-Session-Bills",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "credit_card_allowed": null
+      "credit_card_allowed": false
      },
-     "label": null,
+     "label": "Prohibited",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 2,
+     "status": "scored"
     },
     {
      "condition": "funding_mechanism is a statutory earmark",
@@ -2496,18 +2613,15 @@
    ],
    "fips": "23",
    "grade": null,
-   "inputs_pending_review": 3,
+   "inputs_pending_review": 6,
    "market": "regulated_market",
    "missing_criteria": [
-    "deposit_limits",
-    "advertising",
-    "credit_cards",
     "prevalence_research"
    ],
    "name": "Maine",
    "pct": null,
-   "points": 8,
-   "points_entered": 8,
+   "points": 14,
+   "points_entered": 16,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -2590,16 +2704,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "allowed is true",
      "criterion_id": "credit_cards",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "mi-legislature",
+       "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-432-410",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "credit_card_allowed": null
+      "credit_card_allowed": true
      },
-     "label": null,
+     "label": "Permitted",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     },
     {
      "condition": "funding_mechanism is a statutory earmark",
@@ -2636,17 +2757,16 @@
    ],
    "fips": "26",
    "grade": null,
-   "inputs_pending_review": 4,
+   "inputs_pending_review": 5,
    "market": "regulated_market",
    "missing_criteria": [
     "advertising",
-    "credit_cards",
     "prevalence_research"
    ],
    "name": "Michigan",
    "pct": null,
    "points": 9,
-   "points_entered": 11,
+   "points_entered": 13,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -4129,19 +4249,26 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "player_set_available is true",
      "criterion_id": "deposit_limits",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "oh-legislature",
+       "source_url": "https://codes.ohio.gov/ohio-administrative-code/rule-3775-16-03",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "deposit_limits_entered": null,
-      "deposit_mandatory_default": null,
-      "deposit_player_set_available": null,
-      "deposit_required_at_signup": null
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": false,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": false
      },
-     "label": null,
+     "label": "Available on request",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 1,
+     "status": "scored"
     },
     {
      "condition": "two or more rules whose rule_type is not responsible_gambling_message_required",
@@ -4189,16 +4316,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "allowed is true",
      "criterion_id": "credit_cards",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "oh-legislature",
+       "source_url": "https://codes.ohio.gov/ohio-administrative-code/rule-3775-16-03",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "credit_card_allowed": null
+      "credit_card_allowed": true
      },
-     "label": null,
+     "label": "Permitted",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     },
     {
      "condition": "funding_mechanism is a statutory earmark",
@@ -4235,17 +4369,15 @@
    ],
    "fips": "39",
    "grade": null,
-   "inputs_pending_review": 5,
+   "inputs_pending_review": 7,
    "market": "regulated_market",
    "missing_criteria": [
-    "deposit_limits",
-    "credit_cards",
     "prevalence_research"
    ],
    "name": "Ohio",
    "pct": null,
-   "points": 11,
-   "points_entered": 11,
+   "points": 12,
+   "points_entered": 16,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -4348,17 +4480,36 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "two or more rules whose rule_type is not responsible_gambling_message_required",
      "criterion_id": "advertising",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "or-legislature",
+       "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors461.html",
+       "status": "pending_review"
+      },
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "or-legislature",
+       "source_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB914",
+       "status": "pending_review"
+      },
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "or-legislature",
+       "source_url": "https://www.oregonlegislature.gov/bills_laws/Archive/2015ors461.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "advertising_rule_count": null,
-      "advertising_substantive_count": null
+      "advertising_rule_count": 4,
+      "advertising_substantive_count": 3
      },
-     "label": null,
+     "label": "Two or more substantive restrictions",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": "every legal_age scope is 21 or older",
@@ -4380,16 +4531,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "allowed is true",
      "criterion_id": "credit_cards",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "or-regulator",
+       "source_url": "https://sports.oregonlottery.org/how-to-fund/",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "credit_card_allowed": null
+      "credit_card_allowed": true
      },
-     "label": null,
+     "label": "Permitted",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     },
     {
      "condition": "funding_mechanism is a statutory earmark",
@@ -4426,17 +4584,15 @@
    ],
    "fips": "41",
    "grade": null,
-   "inputs_pending_review": 4,
+   "inputs_pending_review": 8,
    "market": "regulated_market",
    "missing_criteria": [
-    "advertising",
-    "credit_cards",
     "prevalence_research"
    ],
    "name": "Oregon",
    "pct": null,
-   "points": 9,
-   "points_entered": 11,
+   "points": 12,
+   "points_entered": 16,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -4465,32 +4621,58 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "player_set_available is true",
      "criterion_id": "deposit_limits",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "pa-legislature",
+       "source_url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/058/chapter814a/s814a.2.html&d=reduce",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "deposit_limits_entered": null,
-      "deposit_mandatory_default": null,
-      "deposit_player_set_available": null,
-      "deposit_required_at_signup": null
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": false,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": false
      },
-     "label": null,
+     "label": "Available on request",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 1,
+     "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "two or more rules whose rule_type is not responsible_gambling_message_required",
      "criterion_id": "advertising",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "pa-legislature",
+       "source_url": "https://pacodeandbulletin.gov/secure/pacode/data/058/chapter501a/058_0501a.pdf",
+       "status": "pending_review"
+      },
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "pa-legislature",
+       "source_url": "https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F058%2Fchapter814a%2Fchap814atoc.html",
+       "status": "pending_review"
+      },
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "pa-legislature",
+       "source_url": "https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F058%2Fchapter813a%2Fchap813atoc.html&d=reduce",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "advertising_rule_count": null,
-      "advertising_substantive_count": null
+      "advertising_rule_count": 3,
+      "advertising_substantive_count": 2
      },
-     "label": null,
+     "label": "Two or more substantive restrictions",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": "every legal_age scope is 21 or older",
@@ -4512,16 +4694,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "allowed is true",
      "criterion_id": "credit_cards",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "pa-legislature",
+       "source_url": "https://www.pacodeandbulletin.gov/secure/pacode/data/058/chapter812a/058_0812a.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "credit_card_allowed": null
+      "credit_card_allowed": true
      },
-     "label": null,
+     "label": "Permitted",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     },
     {
      "condition": "funding_mechanism is a statutory earmark",
@@ -4558,18 +4747,15 @@
    ],
    "fips": "42",
    "grade": null,
-   "inputs_pending_review": 3,
+   "inputs_pending_review": 8,
    "market": "regulated_market",
    "missing_criteria": [
-    "deposit_limits",
-    "advertising",
-    "credit_cards",
     "prevalence_research"
    ],
    "name": "Pennsylvania",
    "pct": null,
-   "points": 8,
-   "points_entered": 8,
+   "points": 12,
+   "points_entered": 16,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -4885,31 +5071,45 @@
    "available": 18,
    "criteria": [
     {
-     "condition": null,
+     "condition": "program_type is statewide_registry or both",
      "criterion_id": "self_exclusion",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "tn-regulator",
+       "source_url": "https://www.tn.gov/swac/forms/self-exclusion.html",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "self_exclusion_program_type": null
+      "self_exclusion_program_type": "statewide_registry"
      },
-     "label": null,
+     "label": "Statewide registry",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "player_set_available is true",
      "criterion_id": "deposit_limits",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "tn-regulator",
+       "source_url": "https://tn.gov/swac/about/tennessee-sports-wagering-council-newroom/2024/9/11/swc--don-t-let-wagering-become-a-problem.html",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "deposit_limits_entered": null,
+      "deposit_limits_entered": true,
       "deposit_mandatory_default": null,
-      "deposit_player_set_available": null,
+      "deposit_player_set_available": true,
       "deposit_required_at_signup": null
      },
-     "label": null,
+     "label": "Available on request",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 1,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -4997,18 +5197,16 @@
    ],
    "fips": "47",
    "grade": null,
-   "inputs_pending_review": 3,
+   "inputs_pending_review": 5,
    "market": "regulated_market",
    "missing_criteria": [
-    "self_exclusion",
-    "deposit_limits",
     "advertising",
     "prevalence_research"
    ],
    "name": "Tennessee",
    "pct": null,
-   "points": 7,
-   "points_entered": 7,
+   "points": 11,
+   "points_entered": 13,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -5141,19 +5339,26 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "player_set_available is true",
      "criterion_id": "deposit_limits",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "va-legislature",
+       "source_url": "https://law.lis.virginia.gov/admincode/title11/agency5/chapter80/section120/",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "deposit_limits_entered": null,
-      "deposit_mandatory_default": null,
-      "deposit_player_set_available": null,
-      "deposit_required_at_signup": null
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": false,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": false
      },
-     "label": null,
+     "label": "Available on request",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 1,
+     "status": "scored"
     },
     {
      "condition": "exactly one such rule",
@@ -5201,16 +5406,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "allowed is false",
      "criterion_id": "credit_cards",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "va-legislature",
+       "source_url": "https://law.lis.virginia.gov/vacode/title58.1/chapter40/section58.1-4031/",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "credit_card_allowed": null
+      "credit_card_allowed": false
      },
-     "label": null,
+     "label": "Prohibited",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 2,
+     "status": "scored"
     },
     {
      "condition": "funding_mechanism is a statutory earmark",
@@ -5247,17 +5459,15 @@
    ],
    "fips": "51",
    "grade": null,
-   "inputs_pending_review": 5,
+   "inputs_pending_review": 7,
    "market": "regulated_market",
    "missing_criteria": [
-    "deposit_limits",
-    "credit_cards",
     "prevalence_research"
    ],
    "name": "Virginia",
    "pct": null,
-   "points": 10,
-   "points_entered": 11,
+   "points": 13,
+   "points_entered": 16,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -5286,19 +5496,26 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "player_set_available is true",
      "criterion_id": "deposit_limits",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "vt-legislature",
+       "source_url": "https://legislature.vermont.gov/statutes/fullchapter/31/025",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "deposit_limits_entered": null,
-      "deposit_mandatory_default": null,
-      "deposit_player_set_available": null,
-      "deposit_required_at_signup": null
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": false,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": false
      },
-     "label": null,
+     "label": "Available on request",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 1,
+     "status": "scored"
     },
     {
      "condition": "exactly one such rule",
@@ -5393,16 +5610,15 @@
    ],
    "fips": "50",
    "grade": null,
-   "inputs_pending_review": 5,
+   "inputs_pending_review": 6,
    "market": "regulated_market",
    "missing_criteria": [
-    "deposit_limits",
     "prevalence_research"
    ],
    "name": "Vermont",
    "pct": null,
-   "points": 11,
-   "points_entered": 13,
+   "points": 12,
+   "points_entered": 16,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -5673,32 +5889,46 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "player_set_available is true",
      "criterion_id": "deposit_limits",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "wv-sos-csr",
+       "source_url": "https://apps.sos.wv.gov/adlaw/csr/rule.aspx?rule=179-09",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "deposit_limits_entered": null,
-      "deposit_mandatory_default": null,
-      "deposit_player_set_available": null,
-      "deposit_required_at_signup": null
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": false,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": false
      },
-     "label": null,
+     "label": "Available on request",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 1,
+     "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "exactly one such rule",
      "criterion_id": "advertising",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "wv-sos-csr",
+       "source_url": "https://apps.sos.wv.gov/adlaw/csr/rule.aspx?rule=179-09",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "advertising_rule_count": null,
-      "advertising_substantive_count": null
+      "advertising_rule_count": 1,
+      "advertising_substantive_count": 1
      },
-     "label": null,
+     "label": "One substantive restriction",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 2,
+     "status": "scored"
     },
     {
      "condition": "every legal_age scope is 21 or older",
@@ -5720,16 +5950,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "allowed is true",
      "criterion_id": "credit_cards",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "wv-sos-csr",
+       "source_url": "https://apps.sos.wv.gov/adlaw/csr/rule.aspx?rule=179-09",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "credit_card_allowed": null
+      "credit_card_allowed": true
      },
-     "label": null,
+     "label": "Permitted",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     },
     {
      "condition": "funding_mechanism is a statutory earmark",
@@ -5766,18 +6003,15 @@
    ],
    "fips": "54",
    "grade": null,
-   "inputs_pending_review": 3,
+   "inputs_pending_review": 6,
    "market": "regulated_market",
    "missing_criteria": [
-    "deposit_limits",
-    "advertising",
-    "credit_cards",
     "prevalence_research"
    ],
    "name": "West Virginia",
    "pct": null,
-   "points": 8,
-   "points_entered": 8,
+   "points": 11,
+   "points_entered": 16,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -5806,32 +6040,46 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "player_set_available is true",
      "criterion_id": "deposit_limits",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "wy-regulator",
+       "source_url": "https://gaming.wyo.gov/rules-and-regs",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "deposit_limits_entered": null,
-      "deposit_mandatory_default": null,
-      "deposit_player_set_available": null,
-      "deposit_required_at_signup": null
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": false,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": false
      },
-     "label": null,
+     "label": "Available on request",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 1,
+     "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "exactly one such rule",
      "criterion_id": "advertising",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "wy-regulator",
+       "source_url": "https://gaming.wyo.gov/rules-and-regs",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "advertising_rule_count": null,
-      "advertising_substantive_count": null
+      "advertising_rule_count": 2,
+      "advertising_substantive_count": 1
      },
-     "label": null,
+     "label": "One substantive restriction",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 2,
+     "status": "scored"
     },
     {
      "condition": "some scope permits wagering under 21",
@@ -5853,16 +6101,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "allowed is true",
      "criterion_id": "credit_cards",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "wy-regulator",
+       "source_url": "https://gaming.wyo.gov/rules-and-regs",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "credit_card_allowed": null
+      "credit_card_allowed": true
      },
-     "label": null,
+     "label": "Permitted",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     },
     {
      "condition": "funding_mechanism is a statutory earmark",
@@ -5899,18 +6154,15 @@
    ],
    "fips": "56",
    "grade": null,
-   "inputs_pending_review": 3,
+   "inputs_pending_review": 6,
    "market": "regulated_market",
    "missing_criteria": [
-    "deposit_limits",
-    "advertising",
-    "credit_cards",
     "prevalence_research"
    ],
    "name": "Wyoming",
    "pct": null,
-   "points": 6,
-   "points_entered": 8,
+   "points": 9,
+   "points_entered": 16,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"

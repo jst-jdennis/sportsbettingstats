@@ -22,10 +22,14 @@ Draft site: https://jst-jdennis.github.io/sportsbettingstats/
 
 Draft. All 50 states and DC have a legal status entry, marked pending
 review until a second contributor checks it. Oklahoma, New Jersey and Kansas
-have complete profiles. The outcome time series (New Jersey monthly revenue,
-nonbusiness bankruptcy filings for every state since 2018, helpline contacts,
-prevalence studies), the research library, the legislation tracker and the
-report cards are built and populated from primary documents. Every table and
+have complete profiles. The outcome time series (monthly handle and revenue
+from the regulators of New Jersey, New York, Pennsylvania, Michigan, Kansas
+and Ohio, nonbusiness bankruptcy filings for every state since 2018, helpline
+contacts, prevalence studies), the research library, the legislation tracker
+and the report cards are built and populated from primary documents. Every
+state has a problem gambling funding record and every regulated state a set
+of consumer protection sections, each tied to an archived statute or rule
+or marked as resting on a search excerpt. Every table and
 chart has a CSV sibling with the same columns plus per-row provenance, every
 page has a `data.csv` in long format and a citation widget, and every state
 has a fact sheet PDF with every figure footnoted to its source. Every page
