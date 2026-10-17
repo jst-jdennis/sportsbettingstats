@@ -33,5 +33,9 @@ jobs:
         run: |
           python tests/make_fixtures.py
           python -m pytest -q
+      - name: Chromium for the fact sheet PDFs
+        run: npx playwright install --with-deps chromium
       - name: Site build
         run: npx astro build
+      - name: Fact sheet PDFs render for every state
+        run: node scripts/factsheets.mjs

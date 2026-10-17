@@ -27,8 +27,12 @@ This document explains how to add or correct data and how review works.
 npm install
 python3 -m venv .venv && . .venv/bin/activate
 pip install -e ingest[dev]
-npm run build          # runs validate, dash lint, then builds the site
+npx playwright install chromium   # once; renders the fact sheet PDFs
+npm run build          # validate, dash lint, grade check, site build, fact sheet PDFs
 ```
+
+`npx astro build` alone builds the pages and CSV files without the PDFs,
+which is enough while editing pages.
 
 `python3 scripts/validate.py` alone checks the data without building.
 
@@ -152,6 +156,32 @@ Implement the protocol in `ingest/wpdc_ingest/core/source.py`
 `ingest/wpdc_ingest/sources/__init__.py`, add the publisher to
 `data/sources/sources.yaml`, and add a fixture-based test. `parse` must be a
 pure function of the document.
+
+## Tables, CSV files and fact sheets
+
+Every table and chart on the site is declared once as a `DataTable` in
+`src/lib/pageTables.ts` (one function per page). Pages render the object
+through `DataTable.astro` or pass it to `Chart.astro`; the catch-all endpoint
+`src/pages/[...path].csv.ts` serves the same object at `<page>/<id>.csv`;
+`<page>/data.csv` holds every table on the page in long format; the layout
+lists them all under "Data on this page". To add a table, add it to the page's
+function and render it. Do not write a column list in a page template: the
+point of the registry is that the HTML and the CSV cannot disagree.
+
+Cells are plain values or `{ text, value, href, meta }`: `text` is what the
+page shows, `value` is what the CSV writes (a raw number, an ISO date), and
+a column that links anywhere gets a sibling `... URL` column in the CSV. Pass
+`prov` (one provenance block per row) and the table gains a Source column on
+the page and the `source_url`, `retrieved_at` and `review_status` columns in
+the file. Every CSV opens with `#` comment lines naming the page, build
+commit, as-of date and a citation; readers skip them with `comment="#"`.
+
+The state fact sheets (`src/pages/states/[abbr]/factsheet.astro`) read the
+same registry and footnote every figure to a numbered source list.
+`scripts/factsheets.mjs` prints each one to `dist/states/<abbr>/factsheet.pdf`
+with headless Chromium after the site build and fails if any sheet is missing,
+so the site never links to a PDF that does not exist. Keep a sheet to two
+pages; the script reports the longest.
 
 ## Style
 

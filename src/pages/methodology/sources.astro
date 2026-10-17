@@ -1,9 +1,14 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Chart from '../../components/Chart.astro';
+import DataTable from '../../components/DataTable.astro';
 import { sources, label } from '../../lib/data';
+import { sourcesPage } from '../../lib/pageTables';
+import { byId } from '../../lib/tables';
 import { barChartH } from '../../lib/charts';
 const all = [...sources().values()];
+const pg = sourcesPage();
+const T = byId(pg);
 const groups = [['primary', 'Primary'], ['secondary', 'Secondary'], ['tertiary', 'Tertiary (never cited for a figure)']] as const;
 const types = [...new Set(all.map((s) => s.publisher_type))].sort((a, b) => all.filter((s) => s.publisher_type === b).length - all.filter((s) => s.publisher_type === a).length);
 const tierCls = { primary: 's1', secondary: 's2', tertiary: 's0' } as const;
@@ -13,18 +18,13 @@ const svg = barChartH({
   fmt: (v) => String(v), labelWidth: 150, rowHeight: 24,
 });
 ---
-<Base title="Source registry">
+<Base title="Source registry" pg={pg}>
   <h1>Source registry</h1>
   <p class="lede">Every publisher cited anywhere on the site, with how the data is accessed, how often it updates and what is known to go wrong with it. Each state regulator has one entry.</p>
-  <Chart svg={svg} legend={[{ cls: 's1', name: 'Primary' }, { cls: 's2', name: 'Secondary' }, { cls: 's0', name: 'Tertiary' }]} head={['Publisher type', 'Primary', 'Secondary', 'Tertiary']} rows={types.map((t) => [label(t), ...groups.map(([tier]) => all.filter((s) => s.publisher_type === t && s.tier === tier).length)])} caption={`${all.length} registered sources. Most are state regulators and legislatures, one per state, because every legal status row cites the body that made the rule. Tertiary sources are registered so the validator can reject them as the source of any figure.`} />
+  <Chart svg={svg} legend={[{ cls: 's1', name: 'Primary' }, { cls: 's2', name: 'Secondary' }, { cls: 's0', name: 'Tertiary' }]} table={T.get('by-type')} caption={`${all.length} registered sources. Most are state regulators and legislatures, one per state, because every legal status row cites the body that made the rule. Tertiary sources are registered so the validator can reject them as the source of any figure.`} />
   {groups.map(([tier, title]) => (
     <section>
       <h2>{title}</h2>
-      <div class="table-wrap"><table>
-        <thead><tr><th scope="col">Publisher</th><th scope="col">Title</th><th scope="col">Type</th><th scope="col">Access</th><th scope="col">Cadence</th><th scope="col">Reliability notes</th><th scope="col">ID</th></tr></thead>
-        <tbody>{all.filter((s) => s.tier === tier).map((s) => (
-          <tr><td><a href={s.url}>{s.publisher}</a></td><td>{s.title}</td><td>{label(s.publisher_type)}</td><td>{label(s.access_method)}</td><td>{s.update_cadence}</td><td>{s.reliability_notes ?? ''}</td><td><code>{s.source_id}</code></td></tr>))}
-        </tbody>
-      </table></div>
+      <DataTable t={T.get(tier)} />
     </section>))}
 </Base>

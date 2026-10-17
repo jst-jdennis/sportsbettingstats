@@ -2,16 +2,20 @@
 import Base from '../../layouts/Base.astro';
 import SourceRef from '../../components/SourceRef.astro';
 import Limitations from '../../components/Limitations.astro';
-import CiteBox from '../../components/CiteBox.astro';
 import ReviewNotice from '../../components/ReviewNotice.astro';
 import Chart from '../../components/Chart.astro';
+import DataTable from '../../components/DataTable.astro';
 import { dotPlot, wrap, compact } from '../../lib/charts';
 import { papers, label, fmtDate, asOf } from '../../lib/data';
+import { paperPage } from '../../lib/pageTables';
+import { byId } from '../../lib/tables';
 export function getStaticPaths() { return papers().map((p) => ({ params: { slug: p.slug }, props: { p } })); }
 const { p } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const pageAsOf = asOf([p]);
 const path = `/research/${p.slug}/`;
+const pg = paperPage(p);
+const T = byId(pg);
 const UNIT_FMT: Record<string, (v: number) => string> = { percent_change: (v) => `${v > 0 ? '+' : ''}${v}%`, percentage_points: (v) => `${v > 0 ? '+' : ''}${v} pts`, per_100k: (v) => `${v > 0 ? '+' : ''}${v} per 100k`, usd: (v) => `${v < 0 ? '-' : ''}$${compact(Math.abs(v))}`, index_points: (v) => `${v > 0 ? '+' : ''}${v}` };
 const UNIT_LABEL: Record<string, string> = { percent_change: 'percent change', percentage_points: 'percentage points', per_100k: 'per 100,000 residents', usd: 'US dollars', index_points: 'index points' };
 const withNum = p.key_figures.filter((f: any) => f.value_numeric != null && f.provenance.status !== 'unverified');
@@ -29,7 +33,7 @@ const unitHelp: Record<string, string> = {
   mixed: 'The paper reports estimates at more than one level; see the specification on each figure.',
 };
 ---
-<Base title={p.title} description={p.plain_language_summary.slice(0, 200)} asOf={pageAsOf} canonicalPath={path}>
+<Base title={p.title} description={p.plain_language_summary.slice(0, 200)} asOf={pageAsOf} canonicalPath={path} pg={pg}>
   <p class="meta"><a href={base + '/research/'}>Research library</a> / {p.slug}</p>
   <h1>{p.title}</h1>
   <p class="lede">{p.authors.join(', ')}. First circulated {p.year_first_circulated}. {label(p.publication_status)}{p.venue && <>, {p.venue}</>}. {p.canonical_url && <a href={p.canonical_url}>Paper</a>}{p.doi && <>. DOI {p.doi}</>}</p>
@@ -45,20 +49,8 @@ const unitHelp: Record<string, string> = {
   <p>{p.plain_language_summary}</p>
 
   <h2>Key figures</h2>
-  {numeric.length > 0 && <Chart svg={figSvg} legend={[{ cls: 's1', name: 'Current figure' }, { cls: 's0', name: 'Superseded figure' }, { cls: 'hollow', name: 'Hollow: pending review' }]} head={['Figure', 'Value', 'Version', 'Status']} rows={numeric.map((f: any) => [f.description, f.value_text, f.version_label, label(f.status)])} caption={`Figures from this entry stated in ${UNIT_LABEL[chartUnit]}, measured at ${label(p.unit_of_effect)}. A hollow dot is pending review. A gray dot is a figure from an earlier draft that a later draft replaced; it is kept so that a citation to the older number can be traced.`} />}
-  <div class="table-wrap"><table>
-    <thead><tr><th scope="col">Figure</th><th scope="col">Value as stated</th><th scope="col">Specification</th><th scope="col">Version</th><th scope="col">Status</th><th scope="col">Source</th></tr></thead>
-    <tbody>{p.key_figures.map((f: any) => (
-      <tr>
-        <th scope="row">{f.description}</th>
-        <td>{f.provenance.status === 'unverified' ? <span class="meta">not entered</span> : <strong>{f.value_text}</strong>}</td>
-        <td>{f.specification}{f.page_or_table && <div class="meta">{f.page_or_table}</div>}</td>
-        <td>{f.version_label}</td>
-        <td>{label(f.status)}{f.superseded_by && <div class="meta">superseded by {f.superseded_by}</div>}</td>
-        <td><SourceRef p={f.provenance} compact /></td>
-      </tr>))}
-    </tbody>
-  </table></div>
+  {numeric.length > 0 && <Chart svg={figSvg} legend={[{ cls: 's1', name: 'Current figure' }, { cls: 's0', name: 'Superseded figure' }, { cls: 'hollow', name: 'Hollow: pending review' }]} caption={`Figures from this entry stated in ${UNIT_LABEL[chartUnit]}, measured at ${label(p.unit_of_effect)}. A hollow dot is pending review. A gray dot is a figure from an earlier draft that a later draft replaced; it is kept so that a citation to the older number can be traced. Every figure in the entry, in every unit, is in the table.`} />}
+  <DataTable t={T.get('key-figures')} />
 
   <h2>Version and revision log</h2>
   <ol>{p.versions.map((v: any) => (
@@ -72,5 +64,4 @@ const unitHelp: Record<string, string> = {
 
   <h2>Entry provenance</h2>
   <p><SourceRef p={p.provenance} /></p>
-  <CiteBox title={p.title} asOf={pageAsOf} path={path} />
 </Base>

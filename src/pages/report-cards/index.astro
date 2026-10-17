@@ -1,68 +1,46 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Chart from '../../components/Chart.astro';
+import DataTable from '../../components/DataTable.astro';
 import { rubrics, grades, label, fmtDate } from '../../lib/data';
+import { reportCardsIndexPage } from '../../lib/pageTables';
+import { byId } from '../../lib/tables';
 import { barChartH } from '../../lib/charts';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const rs = rubrics().sort((a, b) => b.version.localeCompare(a.version));
 const r = rs[0];
 const g = grades();
+const pg = reportCardsIndexPage();
+const T = byId(pg);
 const total = r ? r.criteria.reduce((a: number, c: any) => a + c.max_points, 0) : 0;
 const svg = r ? barChartH({
   id: 'rubric', title: `Points available per criterion, rubric ${r.version}`, desc: 'Horizontal bar chart. One bar per criterion, length is the maximum points it contributes to a state grade. Criteria that apply only to states with a regulated market are in one color, criteria that apply to all states in another.',
   rows: r.criteria.map((c: any) => ({ label: c.title.length > 40 ? c.title.slice(0, 38).replace(/\s+\S*$/, '') + '...' : c.title, segments: [{ value: c.max_points, cls: c.applies_to === 'all_states' ? 's2' : 's1', name: label(c.applies_to), title: `${c.title}: up to ${c.max_points} points (${label(c.applies_to)})` }] })),
   fmt: (v) => String(v), labelWidth: 260, rowHeight: 24,
 }) : '';
-const states = g ? [...g.states].sort((a, b) => a.name.localeCompare(b.name)) : [];
-const graded = states.filter((s) => s.grade);
-const gradeWord = (s: typeof states[number]) => s.grade ? `${s.grade}${s.review === 'provisional' ? ' (provisional)' : ''}` : 'Incomplete';
-const marketWord = (s: typeof states[number]) => s.market === 'regulated_market' ? 'Regulated market' : 'No regulated market';
+const graded = (g?.states ?? []).filter((s) => s.grade).sort((a, b) => a.name.localeCompare(b.name));
 ---
-<Base title="State report cards and scoring rubric" description="Consumer protection report cards for every state, computed from the published rubric and the state data files, with the inputs and sources behind each grade.">
+<Base title="State report cards and scoring rubric" description="Consumer protection report cards for every state, computed from the published rubric and the state data files, with the inputs and sources behind each grade." pg={pg}>
   <h1>State report cards</h1>
   <p class="lede">Grades for consumer protection policy, computed from the state profile data by a published rubric. Anyone can reproduce a grade from the rubric and the data; the build fails if the committed grades differ from a fresh computation.</p>
   {g && (
-    <div class="panel notice" role="note"><strong>Rubric {g.rubric_version} ({label(g.rubric_status)}).</strong> {g.summary.graded} of {g.summary.states} jurisdictions have every applicable input entered and carry a grade; {g.summary.incomplete} are incomplete because one or more inputs have not been entered. Every grade shown is provisional until its inputs are reviewed. {g.summary.no_regulated_market} jurisdictions have no live regulated market and are scored on the all-states criteria only. <a href={base + '/report-cards/grades.csv'}>Download grades.csv</a>.</div>
+    <div class="panel notice" role="note"><strong>Rubric {g.rubric_version} ({label(g.rubric_status)}).</strong> {g.summary.graded} of {g.summary.states} jurisdictions have every applicable input entered and carry a grade; {g.summary.incomplete} are incomplete because one or more inputs have not been entered. Every grade shown is provisional until its inputs are reviewed. {g.summary.no_regulated_market} jurisdictions have no live regulated market and are scored on the all-states criteria only. <a href={base + '/report-cards/grades.csv'}>Download grades.csv</a> (one row per state with points per criterion).</div>
   )}
 
   <h2 id="grades">Grades by state</h2>
   <p>A letter appears only when every applicable criterion has an entry; an absent record is not evidence that a protection is absent. The points column shows the score so far out of the points available to that state. Open a state for its inputs, the scoring row each one matched, and the source behind it.</p>
-  <div class="table-wrap"><table>
-    <thead><tr><th scope="col">State</th><th scope="col">Market</th><th scope="col">Grade</th><th scope="col" class="num">Points</th><th scope="col" class="num">Entered</th><th scope="col" class="num">Pending review</th><th scope="col">Not yet entered</th></tr></thead>
-    <tbody>{states.map((s) => (
-      <tr>
-        <th scope="row"><a href={`${base}/report-cards/${s.abbr.toLowerCase()}/`}>{s.name}</a></th>
-        <td>{marketWord(s)}</td>
-        <td>{gradeWord(s)}{s.pct != null ? <div class="meta">{s.pct}% of available</div> : null}</td>
-        <td class="num">{s.points} / {s.available}</td>
-        <td class="num">{s.criteria.filter((c) => c.status === 'scored').length} / {s.criteria.length}</td>
-        <td class="num">{s.inputs_pending_review}</td>
-        <td>{s.missing_criteria.length ? s.missing_criteria.map((m) => label(m)).join(', ') : 'all entered'}</td>
-      </tr>))}
-    </tbody>
-  </table></div>
+  {T.grades && <DataTable t={T.grades} />}
   {graded.length > 0 && <p class="meta">Graded so far: {graded.map((s) => `${s.name} ${s.grade}`).join(', ')}. Grades are provisional while any input is pending review.</p>}
 
   {r && (<>
     <h2 id="weights">What the rubric weights</h2>
     <p>The chart shows how the {total} available points are split across criteria. Weights are a judgment and are versioned, so a change in a grade can be traced to a change in the state's policy or in the rubric, never both silently.</p>
-    <Chart svg={svg} legend={[{ cls: 's1', name: 'States with a regulated market' }, { cls: 's2', name: 'All states' }]} head={['Criterion', 'Applies to', 'Maximum points', 'Share of total']} rows={r.criteria.map((c: any) => [c.title, label(c.applies_to), c.max_points, `${Math.round((c.max_points / total) * 100)}%`])} caption={`Maximum points per criterion in rubric version ${r.version}. The scoring conditions for each are in the table below.`} />
+    <Chart svg={svg} legend={[{ cls: 's1', name: 'States with a regulated market' }, { cls: 's2', name: 'All states' }]} table={T.get('weights')} caption={`Maximum points per criterion in rubric version ${r.version}. The scoring conditions for each are in the table below.`} />
 
     <h2 id="rubric">Rubric version {r.version} ({label(r.status)}, effective {fmtDate(r.effective_from)})</h2>
     {r.preamble && <p>{r.preamble}</p>}
-    <div class="table-wrap"><table>
-      <thead><tr><th scope="col">Criterion</th><th scope="col">Applies to</th><th scope="col">Presence input</th><th scope="col">Scoring, first match wins</th><th scope="col" class="num">Max</th><th scope="col">Rationale</th></tr></thead>
-      <tbody>{r.criteria.map((c: any) => (
-        <tr>
-          <th scope="row">{c.title}<div class="meta">{c.criterion_id}</div></th>
-          <td>{label(c.applies_to)}</td>
-          <td><code>{c.presence}</code></td>
-          <td><ol>{c.scoring.map((s: any) => <li>{s.points} pt, {s.label ?? s.condition}<div class="meta">{s.condition}</div></li>)}</ol></td>
-          <td class="num">{c.max_points}</td>
-          <td>{c.rationale}{c.evidence_basis?.length ? <div class="meta">Evidence: {c.evidence_basis.map((slug: string, i: number) => <>{i > 0 ? ', ' : ''}<a href={`${base}/research/${slug}/`}>{slug}</a></>)}. {c.evidence_note}</div> : <div class="meta">No study in the research library tests this criterion; it rests on the rationale.</div>}</td>
-        </tr>))}
-      </tbody>
-    </table></div>
+    <p class="meta">Scoring rows are tried in order; the first whose condition matches awards its points. In the table, each row reads "points: label [condition]"; the condition names the input and the comparison in the closed rule language documented under Inputs below.</p>
+    <DataTable t={T.get('rubric')} />
     <h3>Grade bands</h3>
     <ul>{r.grade_bands.map((g2: any) => <li>{g2.grade}: {g2.min_pct}% of available points and above</li>)}</ul>
     <h3>States without a regulated market</h3>
@@ -76,10 +54,7 @@ const marketWord = (s: typeof states[number]) => s.market === 'regulated_market'
   {g && (<>
     <h2 id="inputs">Inputs and how they are derived</h2>
     <p>{r?.inputs_note}</p>
-    <div class="table-wrap"><table>
-      <thead><tr><th scope="col">Input</th><th scope="col">Derived from</th></tr></thead>
-      <tbody>{Object.entries(g.derived_inputs).map(([k, v]) => <tr><th scope="row"><code>{k}</code></th><td>{v}</td></tr>)}</tbody>
-    </table></div>
+    <DataTable t={T.get('inputs')} />
     <h2 id="reproduce">Reproducing a grade</h2>
     <p>Clone the repository and run the grading script; it reads the rubric and the state files and writes the same JSON the site reads. The continuous integration check runs it on every change and fails if the committed grades differ.</p>
     <pre><code>python3 scripts/grade.py --state NJ

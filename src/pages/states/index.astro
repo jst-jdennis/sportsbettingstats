@@ -1,13 +1,15 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Chart from '../../components/Chart.astro';
-import { profiles, headlineStatus, HEADLINE_LABEL, scopeQualifiers, fmtDate, asOf } from '../../lib/data';
+import { profiles, headlineStatus, HEADLINE_LABEL, fmtDate, asOf } from '../../lib/data';
+import { statesIndexPage, launches } from '../../lib/pageTables';
+import { byId } from '../../lib/tables';
 import { timeline } from '../../lib/charts';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const ps = profiles();
-const firstOf = (p: typeof ps[number], ch: 'retail' | 'online') => p.legal_status.filter((r) => r.channel === ch && r.launched_on).map((r) => r.launched_on!).sort()[0] ?? null;
-const launched = ps.map((p) => ({ p, retail: firstOf(p, 'retail'), online: firstOf(p, 'online') })).filter((x) => x.retail || x.online)
-  .sort((a, b) => ([a.retail, a.online].filter(Boolean).sort()[0]!).localeCompare([b.retail, b.online].filter(Boolean).sort()[0]!));
+const pg = statesIndexPage();
+const T = byId(pg);
+const launched = launches();
 const svg = timeline({
   id: 'launches', title: 'First legal wager in each state, by channel', desc: 'Timeline. One row per state with a live channel, ordered by the date of its first legal wager. A dot marks the first retail wager and the first online wager.',
   rows: launched.map(({ p, retail, online }) => ({
@@ -21,12 +23,12 @@ const svg = timeline({
 });
 const notLaunched = ps.filter((p) => !launched.some((l) => l.p === p));
 ---
-<Base title="State profiles" asOf={asOf(ps)}>
+<Base title="State profiles" asOf={asOf(ps)} pg={pg}>
   <h1>State profiles</h1>
-  <p class="lede">One page per state and the District of Columbia. Full profiles cover legal status, governance, age, tax, prediction markets, consumer protections and problem gambling funding. Status-only profiles cover legal status and regulator and say what is missing.</p>
+  <p class="lede">One page per state and the District of Columbia. Full profiles cover legal status, governance, age, tax, prediction markets, consumer protections and problem gambling funding. Status-only profiles cover legal status and regulator and say what is missing. Every profile has a printable fact sheet with every figure footnoted to its source.</p>
 
   <h2 id="launches">When each state took its first legal wager</h2>
-  <Chart svg={svg} legend={[{ cls: 's1', name: 'First retail wager' }, { cls: 's2', name: 'First online wager' }]} head={['State', 'First retail wager', 'First online wager', 'Qualifiers']} rows={launched.map(({ p, retail, online }) => [p.name, retail ? fmtDate(retail) : '', online ? fmtDate(online) : '', scopeQualifiers(p).join('; ')])}>
+  <Chart svg={svg} legend={[{ cls: 's1', name: 'First retail wager' }, { cls: 's2', name: 'First online wager' }]} table={T.get('launches')}>
     <Fragment slot="caption"><strong>{launched.length} of {ps.length} jurisdictions have taken a legal wager since the Supreme Court decision of May 2018.</strong> Rows are ordered by first wager. Select a state name to open its profile. Not shown: {notLaunched.map((p) => p.name).join(', ')}, which have no live channel.</Fragment>
   </Chart>
 
@@ -36,7 +38,7 @@ const notLaunched = ps.filter((p) => !launched.some((l) => l.p === p));
       <li>
         <h3><a href={`${base}/states/${p.abbr.toLowerCase()}/`}>{p.name}</a></h3>
         <div>{HEADLINE_LABEL[headlineStatus(p)]}</div>
-        <div class="meta">{p.profile_completeness === 'full' ? 'Full profile' : 'Status only'}</div>
+        <div class="meta">{p.profile_completeness === 'full' ? 'Full profile' : 'Status only'}. <a href={`${base}/states/${p.abbr.toLowerCase()}/factsheet.pdf`}>Fact sheet</a></div>
       </li>
     ))}
   </ul>

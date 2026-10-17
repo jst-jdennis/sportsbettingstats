@@ -1,15 +1,19 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Chart from '../../components/Chart.astro';
+import DataTable from '../../components/DataTable.astro';
 import { barChartH } from '../../lib/charts';
 import { SITE } from '../../site.config';
-import { profiles, pgFunding, predictionMarkets, headlineStatus, HEADLINE_LABEL, reviewSummary, collectProvenance } from '../../lib/data';
+import { profiles, pgFunding, predictionMarkets, reviewSummary } from '../../lib/data';
+import { dataPage, allPageTables } from '../../lib/pageTables';
+import { byId, csvHref, pageDataCsvHref } from '../../lib/tables';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const pg = dataPage();
+const T = byId(pg);
 const ps = profiles();
 const rows = ps.map((p) => {
-  const pg = pgFunding(p.abbr); const pm = predictionMarkets(p.abbr);
-  const r = reviewSummary([p, pg, pm].filter(Boolean));
-  return { p, pg, pm, r, hs: headlineStatus(p) };
+  const pgf = pgFunding(p.abbr); const pm = predictionMarkets(p.abbr);
+  return { p, r: reviewSummary([p, pgf, pm].filter(Boolean)) };
 });
 const total = rows.reduce((a, x) => ({ total: a.total + x.r.total, verified: a.verified + x.r.verified }), { total: 0, verified: 0 });
 const raw = `${SITE.repoUrl}/blob/main/data`;
@@ -19,38 +23,44 @@ const coverageSvg = barChartH({
   rows: byRecords.map(({ p, r }) => ({ label: p.name, href: `${base}/states/${p.abbr.toLowerCase()}/`, segments: [{ value: r.verified, cls: 's3', name: 'Verified' }, { value: r.pending, cls: 's0', name: 'Pending review' }] })),
   fmt: (v) => String(v), labelWidth: 150, rowHeight: 20,
 });
+// Catalog of every CSV the site publishes, grouped by page, for people who want files rather than pages.
+const catalog = allPageTables().filter((x) => x.tables.length);
+const csvCount = catalog.reduce((a, x) => a + x.tables.length, 0);
+const sitePages = catalog.filter((x) => !/^\/(states|legislation|research|report-cards)\/[^/]+\/$/.test(x.page));
+const perState = catalog.filter((x) => /^\/states\/[^/]+\/$/.test(x.page));
 ---
-<Base title="Data, downloads and coverage">
+<Base title="Data, downloads and coverage" pg={pg}>
   <h1>Data, downloads and coverage</h1>
-  <p class="lede">All data is published as plain files under {SITE.dataLicense.name}. This page shows what has been entered, what has been reviewed, and what has not.</p>
+  <p class="lede">All data is published as plain files under {SITE.dataLicense.name}. This page shows what has been entered, what has been reviewed, and what has not, and lists every file the site publishes.</p>
 
   <h2 id="downloads">Downloads</h2>
-  <p>Phase 4 adds a CSV link on every table and chart and a printable fact sheet per state. Until then the files themselves are the download.</p>
+  <p>Three layers, from the figures as shown to the records as entered.</p>
+  <ol>
+    <li><strong>Every table and chart as CSV.</strong> Each page lists its tables under Data on this page; each has a CSV with the same columns plus, for tables that carry sources, the source URL, retrieval date and review status of every row. Each page also has a <code>data.csv</code> with all of its tables in long format. {csvCount} table files across {catalog.length} pages are listed below.</li>
+    <li><strong>A fact sheet per state.</strong> A printable summary per jurisdiction, two to four pages, with every figure footnoted to its source: <code>/states/&lt;abbr&gt;/factsheet.pdf</code>, rendered from the <a href={`${base}/states/nj/factsheet/`}>same page</a> the browser shows.</li>
+    <li><strong>The records themselves.</strong> The repository holds the data as validated YAML and CSV with a provenance block on every value, under <a href={raw}>data/</a>; the <a href={`${SITE.repoUrl}/tree/main/schemas`}>schemas</a> define every field.</li>
+  </ol>
+  <p class="meta">CSV files open with comment lines starting with <code>#</code> that name the page, build commit, as-of date and a citation. Skip them with <code>comment="#"</code> in pandas, <code>comment.char = "#"</code> in R, or <code>grep -v '^#'</code>. Money and counts are raw numbers; dates are ISO 8601; a column that links somewhere on the page has a sibling URL column.</p>
+
+  <h3 id="catalog">Site-wide tables</h3>
+  <ul>{sitePages.map((x) => <li><strong>{x.title}</strong> (<a href={pageDataCsvHref(x.page)}>data.csv</a>): {x.tables.map((t, i) => <>{i > 0 && '; '}<a href={csvHref(t)}>{t.id}.csv</a></>)}</li>)}</ul>
+  <h3 id="catalog-states">Per-state tables</h3>
+  <p class="meta">Each state page serves the tables it has on file. Bill, paper and report card pages serve theirs the same way and are listed on those pages.</p>
+  <ul class="cards">{perState.map((x) => <li><h3><a href={base + x.page}>{x.title.split(':')[0]}</a></h3><div class="meta"><a href={`${base}${x.page}factsheet.pdf`}>factsheet.pdf</a>, <a href={pageDataCsvHref(x.page)}>data.csv</a>, {x.tables.map((t, i) => <>{i > 0 && ', '}<a href={csvHref(t)}>{t.id}.csv</a></>)}</div></li>)}</ul>
+
+  <h3>Repository files</h3>
   <ul>
     <li><a href={`${raw}/states`}>State profiles</a> (one directory per state: <code>profile.yaml</code>, <code>pg_funding.yaml</code>, <code>prediction_markets.yaml</code>)</li>
+    <li><a href={`${raw}/outcomes`}>Outcome series</a> (<code>handle_revenue.csv</code>, <code>bankruptcy.csv</code>, <code>helpline.csv</code>, <code>prevalence_studies.yaml</code>)</li>
     <li><a href={`${raw}/reference/states.csv`}>States</a>, <a href={`${raw}/reference/population.csv`}>population</a>, <a href={`${raw}/reference/districts.csv`}>judicial districts</a></li>
-    <li><a href={`${raw}/legislation/bills`}>Bills</a>, <a href={`${raw}/research/papers`}>research entries</a>, <a href={`${raw}/report_cards/rubric`}>rubric versions</a></li>
+    <li><a href={`${raw}/legislation/bills`}>Bills</a>, <a href={`${raw}/research/papers`}>research entries</a>, <a href={`${raw}/report_cards/rubric`}>rubric versions</a> and <a href={`${raw}/report_cards/grades`}>computed grades</a></li>
     <li><a href={`${raw}/sources/sources.yaml`}>Source registry</a></li>
     <li><a href={`${SITE.repoUrl}/tree/main/schemas`}>Schemas</a> (JSON Schema for entity files, Frictionless Table Schema for CSVs)</li>
   </ul>
 
   <h2 id="coverage">Coverage and review status</h2>
   <p>{total.verified} of {total.total} provenance records across all state files are verified. The rest are entered with a citation and await a second reviewer.</p>
-  <Chart svg={coverageSvg} legend={[{ cls: 's3', name: 'Verified' }, { cls: 's0', name: 'Pending review' }]} head={['State', 'Records', 'Verified', 'Pending review']} rows={byRecords.map(({ p, r }) => [p.name, r.total, r.verified, r.pending])} caption="Records per state across the profile, funding and prediction market files. The three full profiles (Oklahoma, New Jersey, Kansas) carry most of the records; status-only profiles carry a handful each. A record is counted once per provenance block, so a value shared across rows by a YAML anchor counts once per place it is used." />
-  <div class="table-wrap"><table>
-    <thead><tr><th scope="col">State</th><th scope="col">Headline status</th><th scope="col">Profile</th><th scope="col">Funding file</th><th scope="col">Prediction markets file</th><th scope="col" class="num">Records</th><th scope="col" class="num">Verified</th></tr></thead>
-    <tbody>{rows.map(({ p, pg, pm, r, hs }) => (
-      <tr>
-        <th scope="row"><a href={`${base}/states/${p.abbr.toLowerCase()}/`}>{p.name}</a></th>
-        <td>{HEADLINE_LABEL[hs]}</td>
-        <td>{p.profile_completeness === 'full' ? 'Full' : 'Status only'}</td>
-        <td>{pg ? 'Yes' : 'No'}</td>
-        <td>{pm ? 'Yes' : 'No'}</td>
-        <td class="num">{r.total}</td>
-        <td class="num">{r.verified}</td>
-      </tr>))}
-    </tbody>
-  </table></div>
+  <Chart svg={coverageSvg} legend={[{ cls: 's3', name: 'Verified' }, { cls: 's0', name: 'Pending review' }]} table={T.get('coverage')} caption="Records per state across the profile, funding and prediction market files. The three full profiles (Oklahoma, New Jersey, Kansas) carry most of the records; status-only profiles carry a handful each. A record is counted once per provenance block, so a value shared across rows by a YAML anchor counts once per place it is used." />
 
   <h2 id="contribute">Contribute or correct</h2>
   <p>Three ways, from least to most effort. All go through the same review.</p>

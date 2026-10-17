@@ -1,12 +1,50 @@
 ---
+// Citation widget. Every page gets one from the layout. Formats are rendered
+// at build time, so they work without JavaScript; the copy buttons are added
+// by a few lines of script when it runs. The permanent link pins the data to
+// the commit the page was built from.
 import { SITE } from '../site.config';
-interface Props { title: string; asOf: string; path: string }
+import { commitHash, BUILD_DATE } from '../lib/data';
+interface Props { title: string; asOf?: string | null; path: string }
 const { title, asOf, path } = Astro.props;
 const url = new URL((import.meta.env.BASE_URL + path).replace(/\/+/g, '/'), Astro.site).toString();
-const year = new Date().getFullYear();
+const commit = commitHash();
+const permalink = `${SITE.repoUrl}/tree/${commit}`;
+const accessed = BUILD_DATE;
+const year = accessed.slice(0, 4);
+const dataNote = asOf ? `Data as of ${asOf}.` : '';
+const longDate = (d: string) => { const [y, m, day] = d.split('-').map(Number); return new Date(Date.UTC(y, m - 1, day)).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }); };
+const key = (path.replace(/^\/|\/$/g, '').replace(/[^a-z0-9]+/gi, '-') || 'home').toLowerCase();
+const formats: [string, string][] = [
+  ['Plain', `${SITE.name}. "${title}." ${dataNote ? dataNote + ' ' : ''}${url} (accessed ${accessed}, commit ${commit}).`],
+  ['APA', `${SITE.name}. (${year}). ${title} [Data set]. ${dataNote ? dataNote + ' ' : ''}Retrieved ${longDate(accessed)}, from ${url}`],
+  ['Chicago', `${SITE.name}. "${title}." ${dataNote ? dataNote + ' ' : ''}Accessed ${longDate(accessed)}. ${url}.`],
+  ['MLA', `"${title}." ${SITE.name}, ${dataNote ? `data as of ${asOf}, ` : ''}${url}. Accessed ${longDate(accessed)}.`],
+  ['BibTeX', `@misc{wpdc-${key},\n  author = {{${SITE.name}}},\n  title = {${title.replace(/[{}]/g, '')}},\n  year = {${year}},\n  howpublished = {\\url{${url}}},\n  note = {${dataNote ? dataNote + ' ' : ''}Accessed ${accessed}. Built from commit ${commit}: ${permalink}}\n}`],
+];
 ---
-<details class="cite-box">
-  <summary>Cite this page</summary>
-  <p class="cite">{SITE.name}. "{title}." Data as of {asOf}. {url} (accessed {new Date().toISOString().slice(0, 10)}).</p>
-  <p class="meta">The URL is stable. The as-of date is the latest retrieval date among the records shown. The site's git history records every change to the underlying data.</p>
-</details>
+<section class="cite-box" aria-labelledby="cite-h">
+  <h2 id="cite-h">Cite this page</h2>
+  <p class="meta">The URL is stable. The as-of date is the latest retrieval date among the records shown; the commit pins the exact data behind this build, so a citation can be checked later even after the data changes. Tables cite themselves: every CSV opens with its own citation line.</p>
+  <dl class="cite-formats">
+    {formats.map(([name, text]) => (
+      <div class="cite-row">
+        <dt>{name}</dt>
+        <dd><pre class="cite" tabindex="0">{text}</pre><button type="button" class="copy" data-copy hidden>Copy</button></dd>
+      </div>
+    ))}
+  </dl>
+  <p class="meta">Permanent link to the data behind this build: <a href={permalink} rel="external noopener">{permalink}</a>. Report a problem with a figure through the <a href={SITE.contactIssuesUrl} rel="external noopener">issue tracker</a>.</p>
+</section>
+<script>
+  // Progressive enhancement: the citations are plain text whether or not this runs.
+  if (navigator.clipboard) document.querySelectorAll<HTMLButtonElement>('.cite-box button[data-copy]').forEach((b) => {
+    b.hidden = false;
+    b.addEventListener('click', async () => {
+      const pre = b.parentElement?.querySelector('pre');
+      if (!pre) return;
+      try { await navigator.clipboard.writeText(pre.textContent ?? ''); b.textContent = 'Copied'; } catch { b.textContent = 'Select and copy'; }
+      setTimeout(() => { b.textContent = 'Copy'; }, 1500);
+    });
+  });
+</script>
