@@ -1,0 +1,43 @@
+fips: '06'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: appropriation
+  mechanism_text: The Office of Problem Gambling in the California Department of Public Health, established by Welfare and
+    Institutions Code 4369, is funded by annual Budget Act appropriations from the Indian Gaming Special Distribution Fund,
+    which holds tribal compact payments and which Government Code 12012.85 makes available for appropriation for, among other
+    purposes, grants for programs designed to address gambling addiction, with an appropriation to the Office of Problem Gambling
+    listed among the priority uses. The statute does not dedicate a percentage or fixed sum, so the amount is set each year
+    by the Legislature. The office also receives money from the Gambling Addiction Program Fund (cardroom license fees) and
+    an interagency agreement with the California Lottery. California has no regulated sports wagering.
+  administering_agency: California Department of Public Health, Office of Problem Gambling
+  includes:
+  - treatment
+  - prevention
+  - helpline
+  - training
+  authority_citation: Cal. Gov. Code 12012.85 (Indian Gaming Special Distribution Fund); Cal. Welf. & Inst. Code 4369 (Office
+    of Problem Gambling)
+  provenance:
+    source_id: ca-legislature
+    source_url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12012.85.
+    archive_url: null
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Government Code section 12012.85
+    notes: 'The leginfo section page follows the publisher''s URL pattern and could not be opened from this container. Search
+      excerpts on 2026-10-17 quoted 12012.85 as making fund money "available for appropriation by the Legislature for ...
+      grants, including any administrative costs, for programs designed to address gambling addiction", and a 2023 bill analysis
+      (SB 351) described existing law as "prioritizing an appropriation to the Office of Problem Gambling within the State
+      Department of Public Health". The Department of Public Health''s Office of Problem Gambling brief (https://www.cdph.ca.gov/Programs/OPG/CDPH%20Document%20Library/OPG_Brief.pdf,
+      undated, not opened) states total annual funding of 8.5 million dollars from the Special Distribution Fund, the Gambling
+      Addiction Program Fund and a California Lottery interagency agreement. The amount will come from the Budget Act of 2025,
+      Department of Public Health item 4265 (Indian Gaming Special Distribution Fund, local assistance and state operations).
+      The 2022 State Auditor report 2021-102 found the fund''s reserve excessive and oversight of the problem gambling programs
+      weak. Archiving on 2026-10-17 did not yield the section text: the leginfo.legislature.ca.gov section page refused the
+      archiving request (HTTP 403); the clause remains as taken from the search excerpt until a reviewer opens the page.'

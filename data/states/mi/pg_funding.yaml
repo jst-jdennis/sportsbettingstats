@@ -1,0 +1,48 @@
+fips: '26'
+records:
+- fiscal_year: 2026
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_fixed
+  mechanism_text: Michigan dedicates fixed annual amounts of internet gaming and internet sports betting tax to the compulsive
+    gaming prevention fund created by the Compulsive Gaming Prevention Act (MCL 432.253). After paying the Gaming Control
+    Board's regulatory costs, the Lawful Internet Gaming Act directs 3,000,000 dollars each year from the internet gaming
+    fund (MCL 432.316) and the Lawful Sports Betting Act directs 1,000,000 dollars each year from the internet sports betting
+    fund (MCL 432.416) to the compulsive gaming prevention fund. The fund is in the Department of Treasury and is spent by
+    the Department of Health and Human Services, and the act provides that public funds for treatment of pathological gamblers
+    are taken exclusively from it.
+  administering_agency: Michigan Department of Health and Human Services
+  includes:
+  - treatment
+  - prevention
+  authority_citation: MCL 432.416(1) (internet sports betting fund, 1,000,000 dollars each year); MCL 432.316 (internet gaming
+    fund, 3,000,000 dollars each year); MCL 432.253 (compulsive gaming prevention fund)
+  provenance:
+    source_id: mi-legislature
+    source_url: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-432-416
+    archive_url: sha256:86798e63324f4012c2c7616181da5a3e5f4570b8631ed89536e9d60a9b66595b
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: 'MCL 432.416 as currently published directs the board, after regulation and enforcement costs, to pay "each year,
+      $1,000,000.00 to the compulsive gaming prevention fund created in section 3 of the compulsive gaming prevention act,
+      1997 PA 70, MCL 432.253"; the original 2019 PA 149 text (https://www.legislature.mi.gov/documents/2019-2020/publicact/htm/2019-PA-0149.htm)
+      read 500,000 dollars, and the section history lists a 2026 amendment (Act 94) whose effect on the amount should be confirmed.
+      MCL 432.316 (https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-432-316) now reads 3,000,000 dollars each year after
+      reading 500,000 dollars in 2019 PA 152 (the change is attributed to 2024 PA 142 and should be confirmed). The Compulsive
+      Gaming Prevention Act (https://www.legislature.mi.gov/documents/mcl/pdf/mcl-Act-70-of-1997.pdf) lists money appropriated
+      from both funds among the deposits and states "Public funds for the treatment of pathological gamblers shall be taken
+      exclusively from the compulsive gaming prevention fund." The leads citing MCL 432.512 and 432.414 were wrong: 432.512
+      is in the Fantasy Contests Consumer Protection Act and the distribution sections are 432.316 and 432.416. Transfers
+      to the fund from the commercial casino act and the lottery were not checked and should be added to mechanism_text if
+      present. Retrieval caveat: the network policy of the drafting environment blocked legislature.mi.gov and michigan.gov,
+      so quoted language comes from search-index excerpts of these pages, not from loading them. Amount: not entered; the
+      statutory floor is 4,000,000 dollars a year from the two internet funds, and the appropriated amount should be taken
+      from the MDHHS FY2026 revenue sources report under section 217 of 2025 PA 22 (https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Inside-MDHHS/Budget-and-Finance/Legislative-Reports-FY26/Section_217.pdf),
+      which lists the compulsive gaming prevention fund under the "Gambling addiction" line. Archived copy checked on 2026-10-17:
+      MCL 432.416 as archived: after regulatory costs, each year 1,000,000.00 dollars to the compulsive gaming prevention
+      fund created in section 3 of the compulsive gaming prevention act, 1997 PA 70, MCL 432.253.'

@@ -1,0 +1,43 @@
+fips: '54'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_fixed
+  mechanism_text: 'West Virginia funds the Compulsive Gambling Treatment Fund with fixed annual dollar amounts set by statute
+    and chosen by the Lottery Commission within statutory bands, not with a percentage of revenue: W. Va. Code 29-22A-19 appropriates
+    not less than $150,000 nor more than $500,000 per fiscal year from the commission''s racetrack video lottery administrative
+    expense account; 29-22B-1408 transfers not less than $150,000 nor more than $1,000,000 per fiscal year from the limited
+    video lottery two percent administrative share; and 29-22C-27 transfers not less than $100,000 nor more than $500,000
+    per year from the racetrack table games administrative allowance. The Department of Human Services administers the grants
+    and funds and must report annually to the Joint Committee on Government and Finance. The sports wagering fund statute
+    (29-22D-17) directs net profit to the State Lottery Fund and the PEIA Financial Stability Fund and contains no problem
+    gambling allocation.'
+  administering_agency: West Virginia Department of Human Services
+  includes:
+  - treatment
+  authority_citation: W. Va. Code 29-22A-19 (Compulsive Gambling Treatment Fund); W. Va. Code 29-22B-1408; W. Va. Code 29-22C-27
+  provenance:
+    source_id: wv-legislature
+    source_url: https://code.wvlegislature.gov/29-22A-19/
+    archive_url: sha256:f31df15ff559a938891b0049a3b39883a6a0ebe899f2d7a9e572ef74d9abbb2b
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: '29-22A-19: "The fund shall be appropriated from the Commission''s administrative expense account and shall be
+      not less than $150,000 nor more than $500,000 per fiscal year" and "The Department of Human Services shall administer
+      the grants and funds issued from the ''Compulsive Gambling Treatment Fund''." 29-22B-1408 (https://code.wvlegislature.gov/29-22B-1408/):
+      not less than $150,000 nor more than $1 million per fiscal year, as the commission determines. 29-22C-27 (https://code.wvlegislature.gov/29-22C-27/):
+      at least $100,000 and not more than $500,000 annually. 29-22D-17 (https://code.wvlegislature.gov/29-22D-17/) was checked
+      and has no compulsive gambling share, so the lead that sports wagering revenue funds the program is not supported. The
+      code site could not be fetched from this session (network policy); the quotations are from search excerpts of the official
+      pages and should be confirmed. Amount: the West Virginia Lottery financial report for the year ended June 30, 2025 (http://www.wvlegislature.gov/legisdocs/reports/agency/L04_FY_2025_26834.pdf)
+      and the Department of Human Services annual report to the Joint Committee should give the actual transfers; the Lottery''s
+      responsible play page says it provides up to $2 million a year. Record the combined transfer when sourced. Archived
+      copy checked on 2026-10-17: W. Va. Code 29-22A-19 as archived establishes the Compulsive Gambling Treatment Fund, appropriated
+      from the Commission''s administrative expense account at not less than 150,000 dollars and not more than 500,000 dollars
+      per fiscal year, administered by the Department of Human Services.'

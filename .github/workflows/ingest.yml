@@ -45,6 +45,13 @@ jobs:
             printf 'kind: ingest\nsource_id: %s\nperiod: %s\n' "${{ inputs.source_id }}" "${{ inputs.period }}" > ingest/requests/dispatch.yaml
             files=(ingest/requests/dispatch.yaml)
           fi
+          if [ ${#files[@]} -eq 0 ]; then
+            # A push that only removed a used request (or touched the ingest code) has nothing to fetch.
+            echo "No request files to run; nothing to do."
+            echo "status=0" >> "$GITHUB_OUTPUT"
+            echo "skipped=1" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           for f in "${files[@]}"; do
             name=$(basename "$f" .yaml)
             kind=$(python -c "import yaml,sys;print(yaml.safe_load(open(sys.argv[1])).get('kind','ingest'))" "$f")
@@ -71,13 +78,13 @@ jobs:
           git diff --stat >> out/logs/git-status.txt
           echo "status=$status" >> "$GITHUB_OUTPUT"
       - name: Summarize for the log
-        if: always()
+        if: always() && steps.run.outputs.skipped != '1'
         run: |
           python -m wpdc_ingest.summarize out \
             --href 'bankruptcy-filings-statistics|f-?2|f2|sports.?wager|xlsx|\.pdf' \
             --grep 'Table 4|ATT|per 100,000|bankruptc[a-z]* (filing|rate)|25-30|28%|27%|10%|credit score|net investment|14%|percentage points|upset'
       - name: Push results to a results branch (works only if the token may write)
-        if: always()
+        if: always() && steps.run.outputs.skipped != '1'
         continue-on-error: true
         run: |
           set -e
@@ -95,7 +102,7 @@ jobs:
         run: |
           echo "::warning::One or more requests did not produce data. See the logs above; a missing month on a publisher's site is normal and is not a code failure."
       - name: Upload results
-        if: always()
+        if: always() && steps.run.outputs.skipped != '1'
         uses: actions/upload-artifact@v4
         with:
           name: ingest-results-${{ github.run_number }}

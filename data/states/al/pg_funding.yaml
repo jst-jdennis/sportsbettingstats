@@ -1,0 +1,32 @@
+fips: '01'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: unknown
+  mechanism_text: Alabama has no lottery, commercial casino or sports wagering statute and therefore no statutory earmark
+    of gambling revenue. No primary document was found establishing a state appropriation for problem gambling services or
+    a formal statement that none exists; the Alabama Council on Compulsive Gambling, a nonprofit, provides the helpline and
+    referrals. Proposed gaming amendments (SB 318 of 2021, the 2024 package, SB 257 of 2026) would have created funding for
+    compulsive gambling programs and did not pass.
+  administering_agency: null
+  includes: null
+  authority_citation: null
+  provenance:
+    source_id: al-legislature
+    source_url: https://alison.legislature.state.al.us/
+    archive_url: https://web.archive.org/web/20261017011528/https://alison.legislature.state.al.us/
+    retrieved_at: '2026-10-17'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Searches on 2026-10-17 for an Alabama Department of Mental Health problem gambling program, a General Fund appropriation
+      for problem gambling, a contract with the Alabama Council on Compulsive Gambling, and any Code of Alabama provision
+      on compulsive gambling returned only third-party directories stating that Alabama has no state-appropriated gambling
+      treatment program and a 2021 fiscal note on SB 318 (https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2021RS/FiscalNotes/FN-42410.htm)
+      describing a proposed 500,000 dollar set-aside that was not enacted. State agency and legislature pages could not be
+      opened from this container. Reviewer should check the Department of Mental Health budget and the General Fund appropriations
+      act; if the Department confirms no funding, change the mechanism to none.

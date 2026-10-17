@@ -1,0 +1,44 @@
+fips: '51'
+records:
+- fiscal_year: 2025
+  amount_usd: 5495094
+  amount_type: statutory_formula_estimate
+  funding_mechanism: statutory_earmark_pct_revenue
+  mechanism_text: Va. Code 58.1-4038 directs the Virginia Lottery to allocate 2.5 percent of the 15 percent sports betting
+    tax collected under 58.1-4037 to the Problem Gambling Treatment and Support Fund created by Va. Code 37.2-314.2; the remainder
+    goes to the general fund. The fund also receives eight-tenths of one percent of the casino Gaming Proceeds Fund (Va. Code
+    58.1-4125), a share of historical horse racing revenue and unclaimed prizes. The fund is a special nonreverting fund administered
+    by the Department of Behavioral Health and Developmental Services for counseling, treatment and prevention programs and
+    grants to organizations that help compulsive and problem gamblers. DBHDS reported FY2025 fund revenue of $5,495,094, of
+    which $2,584,864 came from sports betting; the FY2025 appropriation was $2,622,631 and expenditures were $2,531,857.
+  administering_agency: Virginia Department of Behavioral Health and Developmental Services
+  includes:
+  - treatment
+  - prevention
+  authority_citation: Va. Code 58.1-4038(A) (2.5 percent of sports betting tax); Va. Code 58.1-4125 (0.8 percent of the Gaming
+    Proceeds Fund); Va. Code 37.2-314.2 (Problem Gambling Treatment and Support Fund)
+  provenance:
+    source_id: va-legislature
+    source_url: https://law.lis.virginia.gov/vacode/title58.1/chapter40/section58.1-4038/
+    archive_url: sha256:973108cd540aa34acc85f734c264d45ce11fde6e0e156274a5662a84effec348
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: 'Operative language of 58.1-4038(A): "The Department shall allocate 2.5 percent of the tax revenue collected pursuant
+      to 58.1-4037 to the Problem Gambling Treatment and Support Fund established pursuant to 37.2-314.2." Casino share, Title
+      58.1 chapter 41: "Eight-tenths of one percent of the Fund shall be deposited in the Problem Gambling Treatment and Support
+      Fund established pursuant to 37.2-314.2." The amount is the FY2025 (July 2024 to June 2025) fund revenue reported in
+      the DBHDS FY 2025 PGTS Fund Report to the General Assembly, https://dbhds.virginia.gov/wp-content/uploads/2025/10/FY-25-PGTSfund-Report-for-GA.pdf
+      (also published as RD201 of 2026, https://rga.lis.virginia.gov/Published/2026/RD201/PDF): sports betting $2,584,864,
+      casinos $1,256,369, historical horse racing $477,829, unclaimed prizes $909,569, interest $266,462; appropriation $2,622,631
+      (after a $315,732 increase approved September 2024); spent $2,531,857. The legislature''s site could not be fetched
+      from this session (network policy), so the statutory text was taken from search excerpts of the official law.lis.virginia.gov
+      pages; a reviewer should open 58.1-4038, 58.1-4125 and 37.2-314.2 (the 37.2-314.2 page shows a 2026 amendment, Acts
+      2026 cc. 565 and 566, adding revenue sources) and confirm the subsection letters. Archived copy checked on 2026-10-17:
+      Va. Code 58.1-4038(A) as archived: the Department shall allocate 2.5 percent of the tax revenue collected pursuant to
+      58.1-4037 to the Problem Gambling Treatment and Support Fund; the DBHDS FY25 fund report as archived states total FY25
+      revenue of 5,495,094 dollars, an appropriation of 2,622,631 dollars and spending of 2,531,857 dollars.'

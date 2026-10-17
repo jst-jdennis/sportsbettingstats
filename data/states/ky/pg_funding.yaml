@@ -1,0 +1,50 @@
+fips: '21'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_pct_revenue
+  mechanism_text: The sports wagering excise tax under KRS 138.552 (9.75 percent of retail and 14.25 percent of online adjusted
+    gross revenue) is deposited in the sports wagering administration fund under KRS 230.817, and the statute directs two
+    and one-half percent of the fund to the Kentucky problem gambling assistance account established by KRS 230.826, with
+    the remainder going to state pension or lottery accounts. The account also receives fixed annual transfers from the horse
+    breed development funds (100,000 dollars from the Thoroughbred development fund under KRS 230.400 and 25,000 dollars each
+    from the quarter horse and the paint horse, Appaloosa and Arabian funds). The account is administered by the Division
+    of Behavioral Health in the Cabinet for Health and Family Services, does not lapse, and caps administrative costs at 50,000
+    dollars a year.
+  administering_agency: Kentucky Cabinet for Health and Family Services, Department for Behavioral Health, Developmental and
+    Intellectual Disabilities, Division of Behavioral Health
+  includes:
+  - treatment
+  - prevention
+  - training
+  authority_citation: KRS 230.817 (sports wagering administration fund, 2.5 percent to the account); KRS 230.826 (Kentucky
+    problem gambling assistance account)
+  provenance:
+    source_id: ky-legislature
+    source_url: https://apps.legislature.ky.gov/law/acts/25RS/documents/0124.pdf
+    archive_url: https://web.archive.org/web/20260110082004/https://apps.legislature.ky.gov/law/acts/25RS/documents/0124.pdf
+    retrieved_at: '2026-10-17'
+    retrieval_method: pdf
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Section amending KRS 230.817 (2025 Ky. Acts ch. 124, HB 566)
+    notes: 'Operative language as enacted in 2025 Ky. Acts ch. 124: "Two and one-half percent (2.5%) of the funds shall be
+      deposited in the Kentucky problem gambling assistance account established in KRS 230.826." The codified account section
+      is at https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=54052 (KRS 230.826: "There is established in the
+      State Treasury a revolving account to be known as the Kentucky problem gambling assistance account", administered by
+      the director of the Division of Behavioral Health, consisting of moneys distributed under KRS 230.817; unspent funds
+      carry forward; uses are support groups, public awareness and education, addiction counselor certification and treatment
+      costs). The 2.5 percent share was created by 2023 HB 551 (2023 Ky. Acts ch. 147, https://apps.legislature.ky.gov/law/acts/23RS/documents/0147.pdf).
+      The excise tax is KRS 138.552 (https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=54686). Retrieval caveat:
+      the network policy of the drafting environment blocked apps.legislature.ky.gov, so the quoted language comes from search-index
+      excerpts of these documents, not from loading the pages; the reviewer should open the current KRS 230.817 page (2026
+      HB 904 and HB 97 touch the fund and the 10 percent corporation share) and confirm the share is still 2.5 percent. Amount:
+      not entered. The February 19, 2025 CHFS presentation to the Budget Review Subcommittee (https://apps.legislature.ky.gov/CommitteeDocuments/299/34766/021925-4-CHFS.pdf)
+      shows account figures of 634,385 and a total of 1,487,716 dollars without labels that could be read from the excerpt;
+      take the fiscal-year receipts from the annual report the director files by October 1 under KRS 230.826 or from that
+      presentation once read in full. Archived copy checked on 2026-10-17: 2025 Ky. Acts ch. 124 as archived carries the clause
+      that two and one-half percent of the funds shall be deposited in the Kentucky problem gambling assistance account established
+      in KRS 230.826, and ten percent of unredeemed pari-mutuel vouchers to the same account.'

@@ -1,0 +1,46 @@
+fips: '22'
+records:
+- fiscal_year: 2026
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_pct_revenue
+  mechanism_text: Louisiana levies a 10 percent tax on onsite sports wagering net gaming proceeds and 21.5 percent on online
+    and mobile proceeds, and La. R.S. 27:625(G)(6) credits three percent of the monies collected, or 500,000 dollars, whichever
+    is greater, to the Compulsive and Problem Gaming Fund created by La. R.S. 28:842. The fund also receives dedications from
+    riverboat, land-based casino, video draw poker, racetrack slot and lottery revenue under the statutes listed in R.S. 28:842
+    (including one percent of racetrack slot proceeds capped at 500,000 dollars under R.S. 27:392) and forfeitures from wagers
+    by self-excluded persons under R.S. 27:27.1. Money may be withdrawn only by legislative appropriation, and the appropriation
+    is made to the Louisiana Department of Health, Office of Behavioral Health.
+  administering_agency: Louisiana Department of Health, Office of Behavioral Health
+  includes: null
+  authority_citation: La. R.S. 27:625(G)(6) (sports wagering tax dedication); La. R.S. 28:842 (Compulsive and Problem Gaming
+    Fund)
+  provenance:
+    source_id: la-legislature
+    source_url: https://legis.la.gov/Legis/Law.aspx?d=1239411
+    archive_url: sha256:080b1165f7d23c0346c1e9f3cad11a808c4f77aabed4b1772fc3c4533a1b7263
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: R.S. 27:625, subsection G, paragraph (6)
+    notes: 'Operative language of R.S. 27:625(G)(6): "Three percent of the monies collected pursuant to this Section, or five
+      hundred thousand dollars, whichever is greater, shall be credited to the Compulsive and Problem Gaming Fund established
+      by R.S. 28:842." The three percent share was enacted by Act 286 of 2023 (SB 192) and re-enacted by Act 582 of 2024 (SB
+      235). The fund statute, R.S. 28:842, is at https://legis.la.gov/Legis/Law.aspx?d=85305 ("There is hereby created, as
+      a special fund in the state treasury, the Compulsive and Problem Gaming Fund"; "Monies in the fund shall only be withdrawn
+      pursuant to an appropriation by the legislature solely to implement the provisions of this Chapter"). Retrieval caveat:
+      the network policy of the drafting environment blocked legis.la.gov, so the quoted language comes from search-index
+      excerpts of these pages, not from loading them; the reviewer should open both pages and confirm the paragraph number
+      and whether 2025 legislation (HB 639 of 2025 proposed new online wagering dedications) changed subsection G. Amount:
+      not entered. A Division of Administration appropriation listing (https://www.doa.la.gov/media/imeb1eam/ap_document.pdf)
+      shows an Office of Behavioral Health line "Compulsive and Problem Gaming Fund" of 2,583,873 dollars, but the fiscal
+      year of that listing could not be read; take the FY 2025-2026 figure from the Office of Behavioral Health statutory
+      dedications table in the agency budget request (https://doa.la.gov/media/pfmcnqu1/fy26_agency_budget_request_330.pdf)
+      or from Schedule 09-330 of the enacted HB 1. The "includes" field is left empty because the fund statute refers only
+      to implementing the chapter; take the covered services from the Office of Behavioral Health program description. Archived
+      copy checked on 2026-10-17: La. R.S. 27:625 as archived, paragraph (G)(6): three percent of the monies collected pursuant
+      to this Section, or five hundred thousand dollars, whichever is greater, shall be credited to the Compulsive and Problem
+      Gaming Fund established by R.S. 28:842.'

@@ -1,0 +1,41 @@
+fips: '46'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: appropriation
+  mechanism_text: SDCL 42-7B-48.3 lets the South Dakota Commission on Gaming grant up to 30,000 dollars each fiscal year from
+    the Gaming Commission fund, which holds the Deadwood gaming tax including the tax on sports wagering, to the Department
+    of Social Services for gaming addiction treatment and counseling programs; the grant is discretionary and capped rather
+    than a share of revenue. The larger stream is the South Dakota Lottery, which states that it makes up to 214,000 dollars
+    a year available to the Department of Social Services for problem gambling treatment, and the statutory basis for that
+    amount (an appropriation from the lottery operating fund rather than a dedication in SDCL chapter 42-7A) remains to be
+    confirmed. The Department of Social Services' Division of Behavioral Health administers the treatment program. SDCL 42-7B-48.3
+    lets the Commission grant up to a capped amount at its discretion, and the lottery funding is an operating-fund allocation,
+    so under the classification rule this is discretionary funding recorded as appropriation.
+  administering_agency: South Dakota Department of Social Services, Division of Behavioral Health
+  includes:
+  - treatment
+  authority_citation: SDCL 42-7B-48.3 (gaming addiction treatment and counseling program grants from the Gaming Commission
+    fund)
+  provenance:
+    source_id: sd-legislature
+    source_url: https://sdlegislature.gov/Statutes/42-7B-48.3
+    archive_url: null
+    retrieved_at: '2026-10-17'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: 'The statute page could not be opened from the drafting container (outbound fetches were blocked); a search-engine
+      extract of the cited page gives the section title "Gaming addiction treatment and counseling program grants from Gaming
+      Commission fund" and the operative language that the commission "may grant an amount not to exceed thirty thousand dollars
+      each fiscal year" from the fund to the Department of Social Services, added by 2006 session law chapter 222 (https://mylrc.sdlegislature.gov/api/Documents/SessionLaw/109840.html?Year=2006).
+      The lead citations 42-7B-48.1 and 42-7A-24 were not confirmed to contain a problem gambling allocation. The Lottery''s
+      figure comes from its newsroom (https://dor.sd.gov/newsroom/south-dakota-lottery-urges-responsible-gaming-this-holiday-season,
+      "up to $214,000 annually") and from a state economist''s 2023 testimony to a House committee; the amount and its basis
+      should be taken from the General Appropriations Act or the Lottery''s annual report before an amount is entered. Archiving
+      on 2026-10-17 did not yield the section text: the South Dakota Legislature page archived is rendered by script and holds
+      no section text; the clause remains as taken from the search excerpt until a reviewer opens the page.'

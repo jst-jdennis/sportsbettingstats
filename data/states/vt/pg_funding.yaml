@@ -1,0 +1,48 @@
+fips: '50'
+records:
+- fiscal_year: 2025
+  amount_usd: 500000
+  amount_type: appropriation
+  funding_mechanism: appropriation
+  mechanism_text: 'Act 63 of 2023 (H.127) deposits all sports wagering revenues and fees received by the Department of Liquor
+    and Lottery into the Sports Wagering Enterprise Fund (31 V.S.A. 1304 and 1341) and directs the Department of Mental Health
+    to establish and administer a Problem Gambling Program for education, assistance and treatment services and public awareness
+    (31 V.S.A. 1341a). The act''s appropriations section funds the program from the fund: $250,000 in fiscal year 2024, and
+    in each fiscal year after fiscal year 2025 a sum equal to five percent of the annual sports wagering revenue received
+    by the Department of Liquor and Lottery, appropriated from the Sports Wagering Enterprise Fund to the Department of Mental
+    Health. The Department of Mental Health reported a $500,000 program budget for state fiscal year 2025. Act 63 as enacted
+    appropriates a sum for one fiscal year and fixes no share of revenue, so the mechanism is an appropriation; the 500,000
+    dollar SFY25 budget is the latest amount.'
+  administering_agency: Vermont Department of Mental Health
+  includes:
+  - treatment
+  - prevention
+  authority_citation: Act 63 (2023), Sec. 2a (fiscal year 2024 appropriation of 250,000 dollars from the Sports Wagering Enterprise
+    Fund); 31 V.S.A. 1341a (Problem Gambling Program); 31 V.S.A. 1341 (Sports Wagering Enterprise Fund)
+  provenance:
+    source_id: vt-legislature
+    source_url: https://legislature.vermont.gov/Documents/2024/Docs/ACTS/ACT063/ACT063%20As%20Enacted.pdf
+    archive_url: sha256:1b15c3da120b9dbd21e69b715110923913dcee18e78fbbfd2365523e6eed18fc
+    retrieved_at: '2026-10-17'
+    retrieval_method: pdf
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Sec. 3 (appropriations) and 31 V.S.A. 1341, 1341a as added by Sec. 1
+    notes: 'Five percent language as shown in the Senate proposal of amendment (Senate Journal 2023-05-03, http://legislature.vermont.gov/Documents/2024/Docs/JOURNAL/sj230503.pdf):
+      "In each fiscal year after fiscal year 2025, a sum equal to five percent of the annual sports wagering revenue received
+      by the Department of Liquor and Lottery shall be appropriated from the Sports Wagering Fund to the Department of Mental
+      Health for purposes of the Problem Gambling Program" (a later amendment renamed the fund the Sports Wagering Enterprise
+      Fund). The House concurred 2023-05-09 and the act took effect 2023-06-14. The as-enacted PDF could not be fetched from
+      this session (network policy), so a reviewer must confirm that Sec. 3(c) of Act 63 as enacted carries this subsection;
+      if it does not, reclassify as appropriation. The program statute 31 V.S.A. 1341a is at https://legislature.vermont.gov/statutes/section/31/025/01341a.
+      The $500,000 FY2025 figure is the "$500,000 SFY25 budget" stated in the Department of Mental Health report Problem Gambling
+      Program and Expenditures (January 2025, covering SFY2024), https://legislature.vermont.gov/assets/Legislative-Reports/7_2025_DMH_Problem-Gambling-Program-and-Expenditures.pdf,
+      which also reports SFY2024 spending of $34,814 against the $250,000 available. The SFY2025 expenditure report (due 2026-01-15)
+      was not located; take actual FY2025 spending from it. Archived copy checked on 2026-10-17: Act 63 (2023) as enacted,
+      as archived, appropriates in Sec. 2a 250,000 dollars for fiscal year 2024 from the Sports Wagering Enterprise Fund to
+      the Department of Mental Health for the Problem Gambling Program, and creates 31 V.S.A. 1341a. The act as enacted contains
+      no percentage-of-revenue allocation; the five percent figure seen in the Senate proposal of amendment is not in the
+      enacted text, so the mechanism is recorded as an appropriation. The Department of Mental Health January 2025 report
+      as archived refers to the 500,000 dollar SFY25 budget.'

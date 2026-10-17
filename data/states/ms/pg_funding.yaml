@@ -1,0 +1,43 @@
+fips: '28'
+records:
+- fiscal_year: 2026
+  amount_usd: 75000
+  amount_type: appropriation
+  funding_mechanism: appropriation
+  mechanism_text: Mississippi has no statutory dedication of gaming revenue to problem gambling services. The Gaming Control
+    Act (Miss. Code Title 75, Chapter 76) creates the Gaming Commission Fund at section 75-76-325 but no problem gambling
+    earmark. Each year the Legislature's appropriation act for the Mississippi Gaming Commission states its intent that 75,000
+    dollars of the Commission's general fund appropriation is authorized to be transferred to the nonprofit Mississippi Council
+    on Compulsive Gambling, which provides crisis intervention and support services; the same language appears in the FY2024,
+    FY2025 and FY2026 appropriation bills and a 100,000 dollar version appeared in 2005.
+  administering_agency: Mississippi Gaming Commission (transfer to the Mississippi Council on Compulsive Gambling)
+  includes: null
+  authority_citation: 2025 Miss. Laws, SB 3036 (2025 Regular Session), Section 10 (Mississippi Gaming Commission appropriation
+    for fiscal year 2026)
+  provenance:
+    source_id: ms-legislature
+    source_url: https://billstatus.ls.state.ms.us/documents/2025/html/SB/3000-3099/SB3036PS.htm
+    archive_url: null
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Section 10
+    notes: 'Operative language of SB 3036 (2025 Regular Session, as passed the Senate), Section 10: "Of the funds appropriated
+      in Section 1 of this act, it is the intention of the Legislature that Seventy-five Thousand Dollars ($75,000.00) is
+      authorized to be transferred to the nonprofit organization, Mississippi Council on Compulsive Gambling, which provides
+      crisis intervention and support services." Section 1 appropriates 9,130,593 dollars from the State General Fund to the
+      Gaming Commission for July 1, 2025 through June 30, 2026. The House amendment report (https://billstatus.ls.state.ms.us/documents/2025/pdf/ham/Amendment_Report_for_SB3036.pdf)
+      keeps the same Section 10 language, but the enrolled or "As Sent to Governor" 2025 text was not located, so the final
+      FY2026 figure should be confirmed against it; the FY2024 bill as sent to the Governor (https://billstatus.ls.state.ms.us/documents/2023/html/SB/3000-3099/SB3036SG.htm)
+      and the FY2025 bill (https://billstatus.ls.state.ms.us/documents/2024/html/SB/3000-3099/SB3041PS.htm) carry the same
+      75,000 dollar language. The amount is a legislative intent authorization, not a mandatory line item. Search notes: searches
+      of billstatus.ls.state.ms.us, msgamingcommission.com and dmh.ms.gov for a problem gambling earmark in Title 75, Chapter
+      76 or a Department of Mental Health gambling program found none; the only recurring public funding found is this appropriation.
+      Retrieval caveat: the network policy of the drafting environment blocked billstatus.ls.state.ms.us, so quoted language
+      comes from search-index excerpts of these documents, not from loading them. The "includes" field is left empty because
+      the act describes the services only as "crisis intervention and support services". Archiving on 2026-10-17 did not yield
+      the section text: billstatus.ls.state.ms.us did not respond to the archiving request; the clause remains as taken from
+      the search excerpt until a reviewer opens the page.'

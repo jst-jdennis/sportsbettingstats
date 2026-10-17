@@ -1,0 +1,34 @@
+fips: '49'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: unknown
+  mechanism_text: Utah authorizes no lottery, casino, racing or sports wagering (Utah Const. art. VI, sec. 27; gambling offenses
+    in Utah Code Title 76), so there is no gambling revenue to dedicate and no state gaming regulator. No Utah statute or
+    appropriation line for problem gambling services was found. Any services would be funded, if at all, through the general
+    substance use and mental health budget of the Department of Health and Human Services, Office of Substance Use and Mental
+    Health, delivered by county local authorities; no primary document stating that gambling is covered was located.
+  administering_agency: null
+  includes: null
+  authority_citation: Utah Const. art. VI, sec. 27 (no lottery or game of chance); no problem gambling funding statute found
+  provenance:
+    source_id: ut-legislature
+    source_url: https://le.utah.gov/xcode/ArticleVI/UC_AVI_S27_1800010118000101.html
+    archive_url: sha256:f602d9ddc22392d4de48b8e3b0f70f98d14bcf1a43683daafe9ef1a5ef9141ba
+    retrieved_at: '2026-10-17'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: 'Searched le.utah.gov (bills, fiscal notes, Legislative Fiscal Analyst budget documents and interim materials),
+      sumh.utah.gov, dhhs.utah.gov, cobi.utah.gov and medicaid.utah.gov for "problem gambling", "gambling disorder" and "gambling
+      addiction" with "appropriation", "treatment" and "funding". Results were limited to gambling prohibition and enforcement
+      bills (for example 2020 S.B. 214, "Money Appropriated in this Bill: None") and general behavioral health budget lines
+      that do not mention gambling. No agency or legislative report stating that Utah provides no problem gambling funding
+      was found, so none is not used. The Utah Constitution page and le.utah.gov could not be fetched from this session (network
+      policy). To settle: ask the Office of Substance Use and Mental Health whether any state or federal block grant money
+      is directed to gambling disorder services, and check the Social Services Appropriations Subcommittee budget for a gambling
+      line.'

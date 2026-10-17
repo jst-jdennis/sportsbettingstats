@@ -1,0 +1,53 @@
+fips: '35'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_pct_revenue
+  mechanism_text: Section 60-2E-47 of the Gaming Control Act requires each racetrack gaming operator licensee to spend no
+    less than one-fourth percent of the net take of its gaming machines to fund or support programs for the treatment and
+    assistance of compulsive gamblers; the money is spent by the licensees under Gaming Control Board oversight rather than
+    paid to the state. Section 4(B)(16) of the 2015 tribal-state Class III gaming compact imposes a parallel obligation on
+    each tribal gaming enterprise to spend at least one-quarter of one percent of its adjusted net win on compulsive gambling
+    treatment, assistance and prevention, with a substantial portion going to an organization with expertise in such services.
+    Sports wagering at tribal casinos falls under the compact share; no state appropriation or state-held problem gambling
+    fund was found.
+  administering_agency: New Mexico Gaming Control Board (compliance oversight; funds are spent by racetrack licensees and
+    tribal gaming enterprises)
+  includes:
+  - treatment
+  - prevention
+  - training
+  - helpline
+  authority_citation: NMSA 1978, 60-2E-47 (racetrack licensee compulsive gambling spending requirement); 2015 Tribal-State
+    Class III Gaming Compact sec. 4(B)(16)
+  provenance:
+    source_id: nm-regulator
+    source_url: https://www.gcb.nm.gov/new-mexico-gaming-control-board-compulsive-problem-gambling/
+    archive_url: https://web.archive.org/web/20261017014600/https://www.gcb.nm.gov/new-mexico-gaming-control-board-compulsive-problem-gambling/
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: 'The Board''s page states that racetrack gaming operator licensees "are required to contribute one quarter of one
+      percent of net slot revenues toward the prevention, education, and treatment of compulsive gambling" and that the set-aside
+      has funded counseling, personnel training in recognizing problem gambling, help line advertising and participation in
+      the New Mexico Problem Gambling Alliance. The statute itself reads "A racetrack gaming operator licensee shall spend
+      no less than one-fourth percent of the net take of its gaming machines to fund or support programs for the treatment
+      and assistance of compulsive gamblers" (Subsection E in the 2018 compilation; the 2023 amendments, Laws 2023 ch. 122
+      and ch. 154, restructured the subsection and the current letter was not confirmed). The official compilation is on nmonesource.com
+      (New Mexico Compilation Commission); its section URL could not be opened from the drafting container and is cited here
+      through the Board''s page, which is the state page that states the requirement. The compact text hosted by the Bureau
+      of Indian Affairs (https://www.bia.gov/sites/default/files/dup/assets/as-ia/oig/pdf/508_compliant_2015.06.22_pueblo_of_acoma_tribal_state_gaming_compact.pdf)
+      was excerpted as requiring the Gaming Enterprise to spend "annually, an amount no less than one-quarter of one percent
+      (.25%) of its Adjusted Net Win" on compulsive gambler treatment and assistance and prevention, with "a substantial portion"
+      to "an organization that has expertise in and provides such services". The lead citation to a Responsible Gaming Association
+      of New Mexico was not found in any document; the Board names the New Mexico Problem Gambling Alliance. No annual dollar
+      figure is published by the state; the Board''s annual report or licensee compliance filings would be the source. Outbound
+      web fetches were blocked from the drafting container, so quotes come from search-engine excerpts of the cited pages.
+      Archived copy checked on 2026-10-17: The Gaming Control Board page as archived states that racetrack gaming operator
+      licensees are required to contribute one quarter of one percent of net slot revenues toward the prevention, education
+      and treatment of compulsive gambling.'

@@ -1,0 +1,39 @@
+fips: '13'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_fixed
+  mechanism_text: The Georgia Lottery for Education Act directs a portion of unclaimed lottery prize money, not to exceed
+    $200,000 a year, to the Department of Behavioral Health and Developmental Disabilities for the treatment of compulsive
+    gambling disorder and related educational programs. The remainder of unclaimed prize money is returned to the prize pool
+    or used for special prize promotions. Georgia has no casinos or regulated sports wagering, so the lottery transfer is
+    the only gambling revenue dedicated to problem gambling by statute.
+  administering_agency: Georgia Department of Behavioral Health and Developmental Disabilities
+  includes:
+  - treatment
+  - prevention
+  authority_citation: O.C.G.A. 50-27-24(h) (unclaimed prize money)
+  provenance:
+    source_id: ga-lottery
+    source_url: https://www.galottery.com/en-us/benefitting-georgia/lottery-for-education-act.html
+    archive_url: sha256:1e4b7f693dab137dd93cc7475d49080db84a64bdbfb96e77714ef33b41f66da3
+    retrieved_at: '2026-10-17'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Code Section 50-27-24
+    notes: 'Operative language as excerpted from the Georgia Lottery Corporation''s published copy of the Act: "A portion
+      of unclaimed prize money, not to exceed $200,000.00 annually, shall be directed to the Department of Behavioral Health
+      and Developmental Disabilities for the treatment of compulsive gambling disorder and educational programs related to
+      such disorder." The official O.C.G.A. is published for the General Assembly by LexisNexis, and legis.ga.gov, galottery.com
+      and lexis were all blocked by this session''s network policy, so the state lottery''s copy of the statute is cited and
+      the clause was taken from the search engine''s excerpt; the reviewer must confirm the subsection letter and current
+      text. The Georgia Lottery Corporation''s audited financial statements (2014 edition) state that transfers for this purpose
+      have been $200,000 each fiscal year; the amount for the latest fiscal year should be taken from the current GLC financial
+      statements or the DBHDD budget. Archived copy checked on 2026-10-17: O.C.G.A. 50-27-24(h) as published by the Georgia
+      Lottery Corporation: a portion of unclaimed prize money, not to exceed 200,000 dollars annually, shall be directed to
+      the Department of Behavioral Health and Developmental Disabilities for the treatment of compulsive gambling disorder
+      and educational programs.'

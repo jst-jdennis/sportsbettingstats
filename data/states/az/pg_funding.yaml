@@ -1,0 +1,48 @@
+fips: '04'
+records:
+- fiscal_year: 2025
+  amount_usd: 3320000
+  amount_type: appropriation
+  funding_mechanism: statutory_earmark_pct_revenue
+  mechanism_text: Two percent of the tribal gaming contributions deposited in the Arizona Benefits Fund under the tribal-state
+    gaming compacts is reserved for the Department of Gaming to fund state and local programs for the prevention and treatment
+    of, and education concerning, problem gambling. The Department's Division of Problem Gambling administers the money and
+    the helpline, and the State Lottery Fund adds a fixed 300,000 dollars a year under A.R.S. 5-572. The event wagering statute
+    (A.R.S. Title 5, Chapter 10) sends privilege fees to the event wagering fund and the state general fund and does not itself
+    dedicate any share to problem gambling; bills to add such a share (SB 1727 of 2024, SB 1717 of 2025, SB 1765 of 2026)
+    were introduced and their enactment was not confirmed.
+  administering_agency: Arizona Department of Gaming, Division of Problem Gambling
+  includes:
+  - treatment
+  - prevention
+  - helpline
+  authority_citation: A.R.S. 5-601.02(H)(3) (two percent of Arizona Benefits Fund contributions for problem gambling); A.R.S.
+    5-572 (State Lottery Fund allocation to the Department of Gaming)
+  provenance:
+    source_id: az-legislature
+    source_url: https://www.azleg.gov/ars/5/00601-02.htm
+    archive_url: sha256:294e5f3d327f53fe4ec69d5f56a6d8f7a12d6d5cdf7b7998ae5f99a85166436f
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: A.R.S. 5-601.02, subsection H, paragraph 3
+    notes: 'Search on 2026-10-17 returned the azleg.gov section page with the operative clause "two percent shall be used
+      by the department of gaming to fund state and local programs for the prevention and treatment of, and education concerning,
+      problem gambling"; the page itself could not be opened from this container, and the search excerpt showed the clause
+      under paragraph 3(a)(ii) while state reports cite 5-601.02(H)(3), so the subsection lettering needs to be confirmed.
+      The amount is the FY 2025 Problem Gambling line in the Joint Legislative Budget Committee FY 2025 Appropriations Report
+      for the Department of Gaming (https://www.azjlbc.gov/25AR/gam.pdf), which states 3,320,000 dollars consisting of 3,020,000
+      from the Arizona Benefits Fund and 300,000 from the State Lottery Fund, and notes that Problem Gambling expenses from
+      the Arizona Benefits Fund are limited to 2 percent of revenues. The Department''s quarterly tribal contribution reports
+      (for example https://gaming.az.gov/sites/default/files/FY25-Qtr3%20Tribal%20Contr%20FINAL.pdf) list the quarterly Problem
+      Gambling Education, Treatment and Prevention allocation (616,901 dollars in FY 2025 Q3); the four FY 2025 quarters sum
+      to about 3,005,909 dollars, a figure not published as a total. The 300,000 dollar lottery allocation is taken from the
+      JLBC report, not from the text of 5-572, which was not opened. SB 1251 and SB 1765 of 2026 would raise lottery funding
+      for problem gambling; their status should be checked at review. Archived copy checked on 2026-10-17: A.R.S. 5-601.02
+      as archived reads: two percent of the Arizona Benefits Fund allocation shall be used by the Department of Gaming to
+      fund state and local programs for the prevention and treatment of, and education concerning, problem gambling; the JLBC
+      FY2025 Appropriations Report shows the Problem Gambling line at 3,320,000 dollars (3,020,000 from the Arizona Benefits
+      Fund and 300,000 from the State Lottery Fund).'

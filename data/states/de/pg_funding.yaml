@@ -1,0 +1,40 @@
+fips: '10'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_pct_revenue
+  mechanism_text: 'The state lottery statute''s distribution of video lottery and table game proceeds sets aside a share for
+    problem gambling: of the table game proceeds returned to the State, 250,000 dollars or one percent, whichever is greater,
+    goes to the Division of Substance Abuse and Mental Health in the Department of Health and Social Services, and the video
+    lottery provisions set aside a portion of slot machine proceeds for assistance to problem gamblers. The Division contracts
+    most of this money to the Delaware Council on Gambling Problems, Inc., a nonprofit that runs the helpline, treatment referral
+    and prevention programs. Sports lottery proceeds are not separately earmarked.'
+  administering_agency: Delaware Department of Health and Social Services, Division of Substance Abuse and Mental Health
+  includes:
+  - treatment
+  - prevention
+  - helpline
+  authority_citation: Del. Code tit. 29, 4815(b) (distribution of video lottery and table game proceeds)
+  provenance:
+    source_id: de-legislature
+    source_url: https://delcode.delaware.gov/title29/c048/index.html
+    archive_url: null
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Title 29, Chapter 48, Section 4815(b)
+    notes: 'The Delaware Code page could not be opened from this container and the web search budget ran out before the subsection
+      could be confirmed, so the exact paragraph within 4815(b) is unverified. The operative language was quoted in a search
+      excerpt of a secondary compilation of state statutes (not cited): after administrative and law enforcement costs, "$250,000
+      or 1%, whichever is greater, of the proceeds returned to the State under this paragraph" goes to the Division of Substance
+      Abuse and Mental Health. The Delaware Council on Gambling Problems states on its own site that the 1994 video lottery
+      enabling legislation set aside a portion of slot profits annually for problem gambling and that most of its funding
+      is a contract for services with the Division of Substance Abuse and Mental Health. Reviewer should read 29 Del. C. 4815(b)(3)
+      and (b)(4) and replace the citation with the exact paragraph. Amount to be taken from the Delaware Lottery annual report
+      or the DHSS budget; none was found. Archiving on 2026-10-17 did not yield the section text: the Delaware Code URL archived
+      is the chapter landing page, not the section text; the clause remains as taken from the search excerpt until a reviewer
+      opens the page.'

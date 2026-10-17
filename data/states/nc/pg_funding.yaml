@@ -1,0 +1,51 @@
+fips: '37'
+records:
+- fiscal_year: 2025
+  amount_usd: 2000000
+  amount_type: statutory_formula_estimate
+  funding_mechanism: statutory_earmark_fixed
+  mechanism_text: 'G.S. 105-113.128 distributes the privilege tax on interactive sports wagering operators'' gross wagering
+    revenue: after the Department of Revenue and the State Lottery Commission are reimbursed for administrative costs (the
+    Commission capped at 500,000 dollars a year), the first priority for the net proceeds is two million dollars annually
+    to the Department of Health and Human Services for gambling addiction education and treatment programs, a fixed amount
+    that does not rise with wagering revenue. The State Lottery Act separately transfers one million dollars a year from lottery
+    proceeds to the same department for the same purpose. The 2025-26 budget act (S.L. 2026-41, S 257) raised the wagering
+    tax rate and changed the distribution of the remainder but, per the General Assembly''s fiscal memorandum, left the two
+    million dollar DHHS allocation unchanged.'
+  administering_agency: North Carolina Department of Health and Human Services
+  includes:
+  - treatment
+  - prevention
+  - helpline
+  - training
+  - research
+  authority_citation: N.C.G.S. 105-113.128 (sports wagering tax proceeds); N.C.G.S. 18C-163 (lottery transfer, section number
+    to confirm)
+  provenance:
+    source_id: nc-legislature
+    source_url: https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/BySection/Chapter_105/GS_105-113.128.pdf
+    archive_url: sha256:b379e881401d27c3fb7ebae6de92bef2f46caa96d32259980c96e3cfac72f639
+    retrieved_at: '2026-10-17'
+    retrieval_method: pdf
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: G.S. 105-113.128, Use of tax proceeds
+    notes: 'Operative language as excerpted: "The remainder of the net proceeds of the tax collected under this Article are
+      to be credited in the following priority: (1) Two million dollars ($2,000,000) annually to the Department of Health
+      and Human Services for gambling addiction education and treatment programs." The lead citation G.S. 18C-1024 is listed
+      in S.L. 2023-42 as "Reserved for future codification purposes"; the use of proceeds section is in Chapter 105. The Chapter
+      18C lottery text includes "A transfer of one million dollars ($1,000,000) annually to the Department of Health and Human
+      Services for gambling addiction education and treatment programs" (shown by search as G.S. 18C-163; confirm the section).
+      The amount entered is the statutory sports wagering earmark for the fiscal year ending June 30, 2025; the lottery transfer
+      would bring the statutory total to 3,000,000 dollars, and actual DHHS expenditure was not found. The Lottery Commission''s
+      "Where the Money Goes" page (https://ncgaming.gov/where-the-money-goes/) lists the same 2,000,000 dollar allocation.
+      The General Assembly''s fiscal memorandum on the S 257 conference report (https://webservices.ncleg.gov/ViewBillDocument/2025/10109/4/S257-FDFM-NBC-18032)
+      shows the DHHS gambling addiction line at 2,000,000 dollars under both current law and the budget; the ncleg.gov index
+      marks 105-113.128 as modified by S.L. 2026-41 (https://www.ncleg.gov/EnactedLegislation/SessionLaws/PDF/2025-2026/SL2026-41.pdf),
+      section 44.7, which was not read. NC Health News reports the DHHS program spends on treatment, counselor training, the
+      helpline and research; the includes list follows that description and should be checked against a DHHS document. Outbound
+      web fetches were blocked from the drafting container, so quotes come from search-engine excerpts of the cited pages.
+      Archived copy checked on 2026-10-17: G.S. 105-113.128 as archived: first priority of net proceeds is two million dollars
+      annually to the Department of Health and Human Services for gambling addiction education and treatment programs.'
