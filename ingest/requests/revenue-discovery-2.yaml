@@ -1,0 +1,42 @@
+# Phase 6 discovery, second pass: the report files and index pages the first pass pointed to.
+kind: archive
+label: revenue-discovery-2
+urls:
+  # Pennsylvania: monthly sports wagering report summaries by fiscal year (xlsx) and the pages for other years
+  - https://gamingcontrolboard.pa.gov/sites/default/files/2026-09/FY26-27%20Monthly%20Sports%20Wagering%20Report%20Summary.xlsx
+  - https://gamingcontrolboard.pa.gov/sites/default/files/2025-07/FY24-25%20Monthly%20Sports%20Wagering%20Report%20Summary%20.xlsx
+  - https://gamingcontrolboard.pa.gov/sites/default/files/2024-07/FY23-24%20Monthly%20Sports%20Wagering%20Report%20Summary.xlsx
+  - https://gamingcontrolboard.pa.gov/sites/default/files/2023-09/Gaming_Revenue_Monthly_Sports_Wagering_FY20222023.xlsx
+  - https://gamingcontrolboard.pa.gov/news-and-transparency/revenue/sports-wagering-fy-20252026
+  - https://gamingcontrolboard.pa.gov/news-and-transparency/revenue/sports-wagering-revenue-fy-20252026
+  - https://gamingcontrolboard.pa.gov/news-and-transparency/revenue/sports-wagering-revenue-fy-20212022
+  - https://gamingcontrolboard.pa.gov/news-and-transparency/revenue/sports-wagering-revenue-fy-20212022-0
+  - https://gamingcontrolboard.pa.gov/news-and-transparency/revenue/sports-wagering-revenue-fy-20202021
+  - https://gamingcontrolboard.pa.gov/news-and-transparency/revenue/sports-wagering-revenue-fy-20202021-0
+  - https://gamingcontrolboard.pa.gov/news-and-transparency/revenue/sports-wagering-revenue-fy-20192020
+  - https://gamingcontrolboard.pa.gov/news-and-transparency/revenue/sports-wagering-revenue-fy-20192020-0
+  - https://gamingcontrolboard.pa.gov/news-and-transparency/revenue/sports-wagering-revenue-fy-20182019
+  - https://gamingcontrolboard.pa.gov/news-and-transparency/revenue/sports-wagering-revenue-fy-20182019-0
+  # New York: revenue report index pages (the statewide monthly PDF itself was archived in the first pass)
+  - https://gaming.ny.gov/revenue-reports
+  - https://gaming.ny.gov/state-revenue-reports
+  - https://gaming.ny.gov/mobile-sports-wagering-rfa-materials
+  # Kansas: publications pages on the .gov host, which list the monthly PDFs under unguessable media paths
+  - https://www.kslottery.gov/publications/sports-monthly-revenues/
+  - https://www.kslottery.gov/publications/sports-monthly-detail-breakdown/
+  - https://www.kslottery.gov/media/jswjvfff/sports-wagering-monthly-revenue-2026-01.pdf
+  - https://www.kslottery.gov/media/4urdczqj/sports-wagering-monthly-revenue-2023-05.pdf
+  # Ohio: site root and the revenue report page candidates, plus a 2026 report on the asset server
+  - https://casinocontrol.ohio.gov/
+  - https://casinocontrol.ohio.gov/about/revenue-reports
+  - https://casinocontrol.ohio.gov/revenue-reports
+  - https://casinocontrol.ohio.gov/about-occc/revenue-reports
+  - https://dam.assets.ohio.gov/image/upload/v1779998652/casinocontrol.ohio.gov/revenue-reports/2026/Sports/2026_Sports_Gaming_Revenue_Report04.pdf
+  # Illinois: the report application the monthly reports page embeds
+  - https://igbapps.illinois.gov/SportsReports_AEM.aspx
+  # Michigan: retried now that refused fetches fall back to browser headers
+  - https://www.michigan.gov/mgcb
+  - https://www.michigan.gov/mgcb/detroit-casinos/resources/revenues-and-wagering-tax-information
+  - https://www.michigan.gov/mgcb/internet-gaming/resources/revenues-and-wagering-tax-information
+  - https://www.michigan.gov/mgcb/news/2026/07/21/june-2026-igaming-revenue
+  - https://www.michigan.gov/mgcb/0,4620,7-351-79263-574080--,00.html
