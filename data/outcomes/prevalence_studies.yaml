@@ -233,3 +233,24 @@ studies:
     comparability_note: Pairs with ks-kdads-gambling-survey-2017 by the document's own design, but the summary's 2017 baseline (84.4, 11.6 and 4.0 percent) does not match the 2017 report (87.2, 10.1 and 2.7 percent with cut points 0, 1 to 3 and 4 or more), and the summary does not state its own cut points. Until the full 2025 report is archived, the risk-level trend between the waves is unconfirmed. Not comparable with the New Jersey PGSI studies; the Kansas high-risk category is a count of yes answers on a nine-item screen, not a validated clinical threshold. The margin of error of 2.4 points applies to the full sample at 95 percent confidence.
     limitations: Executive summary only; the full report on kdads.ks.gov refused the archiver on 2026-10-16. Fieldwork dates, survey mode and weighting are not stated in the summary. Sports betting legalized in Kansas in 2022, between the two waves.
     provenance: *ks2025
+
+# Searches: dated records of looking for a state's prevalence studies. "No study found" on a report card
+# is always one of these, never an absence of entry. A study found but not yet entered is listed under
+# candidates and leaves the state unscored on that criterion until it is entered.
+searches:
+  - fips: "40"
+    searched_on: "2026-10-17"
+    searched_by: claude-draft-2026-10-17
+    scope: >-
+      Web search for an Oklahoma statewide adult gambling prevalence survey: Oklahoma Department of Mental Health and
+      Substance Abuse Services pages, the Oklahoma Association on Problem Gambling and Gaming, press coverage used only
+      to locate a report, 2014 to 2026.
+    found: true
+    candidates:
+      - title: Oklahoma statewide gambling survey of 4,050 adults, fielded April to August 2022 by Elite Research for the Oklahoma Association on Problem Gambling and Gaming, analyzed at Texas Tech University
+        year: 2022
+        url: https://www.oapgg.org/oklahoma-gambling-statistics
+        note: Commissioned by a nonprofit council, not the state; described in a later citation as a non-probability sample. Headline figures reported on the association's page (6.3 percent meeting gambling disorder criteria, 23.5 percent at risk, 57.9 percent gambled in the past year) are not entered until the report itself is read and archived; the association's site did not resolve from the build environment and is queued for archiving.
+    notes: >-
+      Oklahoma Watch reported in December 2014 that the state had never commissioned a prevalence study; no state-commissioned
+      study was found for any later year.

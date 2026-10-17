@@ -198,6 +198,17 @@ def main() -> int:
             for s in doc["studies"]:
                 if s["fips"] not in fips_set:
                     err(f"{p}: study {s['study_id']} has unknown fips {s['fips']}")
+            studied = {s["fips"] for s in doc["studies"]}
+            for i, x in enumerate(doc.get("searches") or []):
+                where = f"{p}: searches[{i}] ({x.get('fips')})"
+                if x["fips"] not in fips_set:
+                    err(f"{where}: unknown fips")
+                if date.fromisoformat(str(x["searched_on"])) > date.today():
+                    err(f"{where}: searched_on is in the future")
+                if x["found"] and x["fips"] not in studied and not x.get("candidates"):
+                    err(f"{where}: found is true but no study is on file and no candidates are listed")
+                if not x["found"] and x.get("candidates"):
+                    err(f"{where}: found is false but candidates are listed")
                 fs, fe = s.get("fieldwork_start"), s.get("fieldwork_end")
                 if (fs is None) != (fe is None):
                     err(f"{p}: study {s['study_id']} must give both fieldwork dates or neither")

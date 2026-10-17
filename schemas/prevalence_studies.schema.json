@@ -214,6 +214,83 @@
           }
         }
       }
+    },
+    "searches": {
+      "type": "array",
+      "description": "A log of searches for state prevalence studies, so that 'no study found' is a recorded result of a dated search and not an absence of entry. One entry per search; the latest per state counts.",
+      "items": {
+        "type": "object",
+        "required": [
+          "fips",
+          "searched_on",
+          "searched_by",
+          "scope",
+          "found"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "fips": {
+            "$ref": "provenance.schema.json#/$defs/fips"
+          },
+          "searched_on": {
+            "type": "string",
+            "format": "date"
+          },
+          "searched_by": {
+            "type": "string"
+          },
+          "scope": {
+            "type": "string",
+            "description": "Where and for what the search looked: sites, agencies, terms, years covered"
+          },
+          "found": {
+            "type": "boolean",
+            "description": "True when at least one state-level prevalence study was found, whether or not it is entered yet"
+          },
+          "candidates": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "description": "Studies found but not yet entered as study records; required when found is true and no study for the state is on file",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ]
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "note": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          },
+          "notes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
     }
   }
 }

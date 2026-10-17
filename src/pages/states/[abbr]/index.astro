@@ -8,7 +8,7 @@ import Chart from '../../../components/Chart.astro';
 import DataTable from '../../../components/DataTable.astro';
 import PrevalenceCard from '../../../components/PrevalenceCard.astro';
 import { timeline } from '../../../lib/charts';
-import { profiles, pgFunding, predictionMarkets, bills, headlineStatus, HEADLINE_LABEL, scopeQualifiers, fmtDate, label, asOf, collectProvenance, earliestLaunch, prevalenceStudies, gradeFor, grades } from '../../../lib/data';
+import { profiles, pgFunding, predictionMarkets, bills, headlineStatus, HEADLINE_LABEL, scopeQualifiers, fmtDate, label, asOf, collectProvenance, earliestLaunch, prevalenceStudies, prevalenceSearch, gradeFor, grades } from '../../../lib/data';
 import { statePage, stateCharts, stateEvents } from '../../../lib/pageTables';
 import { byId, csvHref } from '../../../lib/tables';
 export function getStaticPaths() { return profiles().map((p) => ({ params: { abbr: p.abbr.toLowerCase() }, props: { p } })); }
@@ -29,6 +29,7 @@ const charts = stateCharts(p);
 const events = stateEvents(p);
 const rowNames = [...new Set(events.map((e) => e.row))];
 const studies = prevalenceStudies(p.fips);
+const search = prevalenceSearch(p.fips);
 const timelineSvg = events.length ? timeline({
   id: 'events', title: `${p.name}: dated events in this profile`, desc: 'Timeline. One row per subject (each wagering channel, each bill, prediction market actions); dots mark authorization dates, first wagers, bill actions, votes and enforcement actions.',
   rows: rowNames.map((row) => ({ label: row, events: events.filter((e) => e.row === row) })), rowHeight: 34, labelWidth: 150,
@@ -140,6 +141,14 @@ const revChart = chartById('revenue'), bkChart = chartById('bankruptcy-quarterly
     <h3>Prevalence studies</h3>
     <p class="meta">Rates as published by each study. Studies are comparable only where the note on each card says so. <a href={csvHref(T.get('prevalence'))} download>Download every rate as CSV</a>.</p>
     {studies.map((x) => <PrevalenceCard s={x} stateName={p.name} csv={csvHref(T.get('prevalence'))} />)}
+  </>)}
+  {studies.length === 0 && search && (<>
+    <h3>Prevalence studies</h3>
+    {search.found ? (
+      <p class="meta">A search on {fmtDate(search.searched_on)} found {search.candidates?.length === 1 ? 'a study' : 'studies'} not yet entered: {search.candidates?.map((c, i) => <>{i > 0 && '; '}<a href={c.url} rel="external noopener">{c.title}</a>{c.year ? ` (${c.year})` : ''}{c.note ? `, ${c.note}` : ''}</>)}. Rates appear here once the report has been read and archived. Searched: {search.scope}</p>
+    ) : (
+      <p class="meta">No state-level prevalence study was found in a search on {fmtDate(search.searched_on)}. Searched: {search.scope}{search.notes ? ` ${search.notes}` : ''} The report card scores this as "no study found" on the strength of that search; <a href={base + '/data/#contribute'}>report one</a> if it exists.</p>
+    )}
   </>)}
 
   <h2 id="legislation">Legislation</h2>

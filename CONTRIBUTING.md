@@ -86,6 +86,16 @@ not edit the old value in place.
 Field definitions and allowed values are in `schemas/state_profile.schema.json`
 and `docs/design/01-data-model.md`.
 
+## How to record a prevalence study search
+
+Before a state can be scored on prevalence research it needs either a study
+record in `data/outcomes/prevalence_studies.yaml` or an entry under
+`searches:` in the same file saying when you searched, where (agency, regulator,
+lottery and university sites, and the terms used), and whether you found a
+state-level study. If you found one you cannot enter yet, list it under
+`candidates` with its URL; the state stays unscored on that criterion until the
+study is entered, so a found study is never counted as "none".
+
 ## How to add a bill
 
 1. Create `data/legislation/bills/<st>-<year>-<billnumber>.yaml`, for
