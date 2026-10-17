@@ -425,3 +425,9 @@ def test_il_two_part_month_file_parses_and_crosschecks():
     assert _forms(2024, 5)[1]["data"]["SearchCash"] == "Detail Report" and _forms(2024, 5)[0]["data"]["SearchEndMonth"] == "May"
     series = src.discover(None)
     assert series[0].period.start.isoformat() == "2020-03-01" and len(series) > 70
+
+
+def test_pa_current_workbook_skips_months_not_yet_reported():
+    from wpdc_ingest.sources.pa_pgcb_sports_wagering import PAPGCBSportsWagering
+    recs = PAPGCBSportsWagering().parse(raw_for(FIX / "pa_pgcb_sports_wagering_fy2026-27.xlsx", None, "xlsx"))
+    assert [(r["year"], r["month"]) for r in recs] == [(2026, 7), (2026, 8)]

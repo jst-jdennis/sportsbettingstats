@@ -145,8 +145,8 @@ class PAPGCBSportsWagering:
         out: list[dict[str, Any]] = []
         sums: dict[tuple[str, str], float] = {}
         for c, y, mo in month_cols:
-            if blocks["total"]["handle"][c] is None:
-                continue  # month not yet reported
+            if not blocks["total"]["handle"][c] and not blocks["total"]["taxable"][c]:
+                continue  # month not yet reported: the current workbook carries zeros, older ones blanks
             rec: dict[str, Any] = {"year": y, "month": mo, "column": c}
             for b in ("total", "retail", "online"):
                 vals = {k: blocks[b][k][c] for k in blocks[b]}
