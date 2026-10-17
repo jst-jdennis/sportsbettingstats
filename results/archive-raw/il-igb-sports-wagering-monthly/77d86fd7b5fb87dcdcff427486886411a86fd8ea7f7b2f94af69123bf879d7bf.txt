@@ -1,0 +1,42 @@
+==== wpdc part: tax-summary ====
+"Completed Events Tax Summary"
+"July 2020"
+"Report Date: 10/17/2026 13:21 PM"
+
+"Location Type","Licensee","State AGR","State Tax","Cook County AGR","Cook County Tax","Sports Wager Tax","Expired Tickets","Total Payment",
+In-Person Wagering,"Alton Casino, LLC","42227.0000","6334.0500","0.0000","0.0000","0.0000","0.0000","6334.0500",
+In-Person Wagering,"Midwest Gaming & Entertainment, LLC","238905.0700","35835.7600","238905.0700","4778.1000","0.0000","0.0000","40613.8600",
+Online Wagering,"Alton Casino, LLC","0.0000","0.0000","0.0000","0.0000","0.0000","0.0000","0.0000",
+Online Wagering,"Midwest Gaming & Entertainment, LLC","3342852.8800","501427.9300","1862368.9300","37247.3800","0.0000","0.0000","538675.3100",
+Total,"Alton Casino, LLC","42227.0000","6334.0500","0.0000","0.0000","0.0000","0.0000","6334.0500",
+Total,"Midwest Gaming & Entertainment, LLC","3581757.9500","537263.6900","2101274.0000","42025.4800","0.0000","0.0000","579289.1700",
+==== wpdc part: activity-detail ====
+"All Wagering Activity Detail"
+"July 2020"
+"Report Date: 10/17/2026 13:21 PM"
+
+"Sport Level","Location Type","Licensee","Tier 1 Wagers","Tier 1 Handle","Tier 2 Wagers","Tier 2 Handle",
+Professional,In-Person Wagering,"Alton Casino, LLC","6557","550122.0000","881","51779.0000",
+Professional,In-Person Wagering,"Midwest Gaming & Entertainment, LLC","16090","2456175.8100","7052","928239.7200",
+Professional,Online Wagering,"Alton Casino, LLC","0","0.0000","0","0.0000",
+Professional,Online Wagering,"Midwest Gaming & Entertainment, LLC","645276","26792474.2400","469840","21485812.1700",
+Professional,Total,"Alton Casino, LLC","6557","550122.0000","881","51779.0000",
+Professional,Total,"Midwest Gaming & Entertainment, LLC","661366","29248650.0500","476892","22414051.8900",
+College,In-Person Wagering,"Alton Casino, LLC","3","208.0000","0","0.0000",
+College,In-Person Wagering,"Midwest Gaming & Entertainment, LLC","3","60.0000","0","0.0000",
+College,Online Wagering,"Alton Casino, LLC","0","0.0000","0","0.0000",
+College,Online Wagering,"Midwest Gaming & Entertainment, LLC","51","1447.0700","1","20.0000",
+College,Total,"Alton Casino, LLC","3","208.0000","0","0.0000",
+College,Total,"Midwest Gaming & Entertainment, LLC","54","1507.0700","1","20.0000",
+Motor Race,In-Person Wagering,"Alton Casino, LLC","217","7604.0000","1","100.0000",
+Motor Race,In-Person Wagering,"Midwest Gaming & Entertainment, LLC","155","5366.8800","12","365.0000",
+Motor Race,Online Wagering,"Alton Casino, LLC","0","0.0000","0","0.0000",
+Motor Race,Online Wagering,"Midwest Gaming & Entertainment, LLC","14168","207769.4400","2577","37069.0500",
+Motor Race,Total,"Alton Casino, LLC","217","7604.0000","1","100.0000",
+Motor Race,Total,"Midwest Gaming & Entertainment, LLC","14323","213136.3200","2589","37434.0500",
+Other Event,In-Person Wagering,"Alton Casino, LLC","0","0.0000","0","0.0000",
+Other Event,In-Person Wagering,"Midwest Gaming & Entertainment, LLC","0","0.0000","0","0.0000",
+Other Event,Online Wagering,"Alton Casino, LLC","0","0.0000","0","0.0000",
+Other Event,Online Wagering,"Midwest Gaming & Entertainment, LLC","0","0.0000","0","0.0000",
+Other Event,Total,"Alton Casino, LLC","0","0.0000","0","0.0000",
+Other Event,Total,"Midwest Gaming & Entertainment, LLC","0","0.0000","0","0.0000",
