@@ -165,8 +165,132 @@ consumer_protections:
       <<: *codg
       source_url: https://sbg.colorado.gov/sites/sbg/files/documents/SBRule-9-011426.pdf
       notes: Rule 9 as revised 2026-01-14 found by search; the Division's copy is a convenience version of 1 CCR 207-2.
-  advertising: null
-  credit_card_deposits: null
+  advertising:
+    - rule_type: responsible_gambling_message_required
+      text: >-
+        A sports betting operation, directly or through its marketing affiliates, shall include a prominent message
+        stating "Gambling problem? Call or TEXT 1-800-GAMBLER" on all forms of media advertisement to Colorado
+        consumers (email, digital, television, radio and print); the text must be legible and audible, "or text" may
+        be omitted with the Director's prior approval, and advertisements that mention only a casino's restaurant or
+        hotel without marketing gaming or betting are exempt.
+      authority_citation: Colorado Sports Betting Rule 9.4(5) in 1 CCR 207-2 (Rule 9 as revised 2026-01-14)
+      provenance: &coadv
+        <<: *codg
+        source_url: https://sbg.colorado.gov/sites/sbg/files/documents/SBRule-9-011426.pdf
+        retrieved_at: "2026-10-17"
+        retrieval_method: manual_entry
+        entered_by: claude-draft-2026-10-17
+        page_or_table: Rule 9.4
+        notes: >-
+          Archived copy checked on 2026-10-17: Rule 9.4, responsible advertising and promotions, amended 2026-01-14, is in the Division's Rule 9 PDF with the 1-800-GAMBLER message requirement, and the Rule 6.12 wording is in the 2025-10-23 redline.
+          Excerpt language: "A Sports Betting Operation directly or through their marketing affiliates shall include a
+          prominent message, which states, 'Gambling problem? Call or TEXT 1-800-GAMBLER' on all forms of media
+          advertisement to Colorado consumers. The text must be legible and audible." Quoted from a search excerpt of
+          the cited page; the page itself could not be opened from the drafting environment. The same language appears
+          in the Division's 2025-10-23 redline of Rules 1, 6 and 9; earlier versions used 1-800-522-4700.
+    - rule_type: no_risk_free_language
+      text: >-
+        An offer or bonus may not be described as risk free when the customer must lose or risk the customer's own
+        money to use the offer or to withdraw winnings from the bet, and any conditions attached to the customer's own
+        money must be disclosed.
+      authority_citation: Colorado Sports Betting Rule 9.4(1)(d) in 1 CCR 207-2 (Rule 9 as revised 2026-01-14)
+      provenance:
+        <<: *coadv
+        notes: >-
+          Excerpt summary: the amended rule bars describing an offer as risk-free when the customer must lose or risk
+          their own money to use or withdraw winnings from that bet, in subsection (d) of the offers-and-bonuses
+          provision, which also requires disclosure of any conditions attached to a customer's own money. Quoted from a
+          search excerpt of the cited page; the page itself could not be opened from the drafting environment.
+    - rule_type: no_under_age_targeting
+      text: >-
+        Sports betting operations and their marketing affiliates may not target persons under the legal betting age
+        or create content intended for an underage audience, and may not advertise on media where most of the
+        audience is known to be under the legal gambling age; the media restriction does not apply to public venues
+        where the demographics of a normal crowd cannot be determined. Only patrons twenty-one years of age and older
+        may deposit funds or participate in sports betting.
+      authority_citation: Colorado Sports Betting Rule 9.4 in 1 CCR 207-2 (Rule 9 as revised 2026-01-14); see also SB 26-131 (2026), which restricts marketing aimed at persons under 21
+      provenance:
+        <<: *coadv
+        notes: >-
+          Excerpt summary: operators and their marketing affiliates may not target underage persons or create content
+          meant for an underage audience, and may not advertise on media where most of the audience is known to be
+          under the legal gambling age, except public venues where the demographics of a normal crowd cannot be
+          determined. Subsection number not shown in the excerpt. Quoted from a search excerpt of the cited page; the
+          page itself could not be opened from the drafting environment.
+    - rule_type: other
+      text: >-
+        Offers and bonuses must include terms and conditions that are full, accurate, clear, concise, transparent
+        and do not contain misleading information.
+      authority_citation: Colorado Sports Betting Rule 9.4(1) in 1 CCR 207-2 (Rule 9 as revised 2026-01-14)
+      provenance:
+        <<: *coadv
+        notes: >-
+          Excerpt language: "Offers and bonuses must include terms and conditions that are full, accurate, clear,
+          concise, transparent, and do not contain misleading information." Quoted from a search excerpt of the cited
+          page; the page itself could not be opened from the drafting environment.
+    - rule_type: other
+      text: >-
+        Sports betting operations must use the Division's current exclusion list to update all direct marketing lists
+        (mail, telephone calls, text messages and email) so that individuals on the list are not directly targeted;
+        the confidential exclusion data may be shared with affiliates and vendors only for that purpose.
+      authority_citation: Colorado Sports Betting Rule 9.4 in 1 CCR 207-2 (Rule 9 as revised 2026-01-14)
+      provenance:
+        <<: *coadv
+        notes: >-
+          Excerpt language: "The exclusion list must be used to update all direct marketing lists so that individuals
+          on it are not directly targeted"; earlier versions required only "all reasonable efforts to ensure that
+          prohibited participants do not receive direct marketing." The rule does not create a general opt-out right
+          for patrons, so the row is typed other rather than opt_out_of_direct_marketing. Quoted from a search excerpt
+          of the cited page; the page itself could not be opened from the drafting environment.
+    - rule_type: other
+      text: >-
+        No licensee shall allow, conduct or participate in any false or misleading advertising concerning its sports
+        betting operations.
+      authority_citation: Colorado Sports Betting Rule 6.12 in 1 CCR 207-2
+      provenance:
+        <<: *coadv
+        source_url: https://sbg.colorado.gov/sites/sbg/files/documents/Rules1,6,9-Redline10.23.25%20.pdf
+        page_or_table: Rule 6.12
+        notes: >-
+          Archived copy checked on 2026-10-17: Rule 9.4, responsible advertising and promotions, amended 2026-01-14, is in the Division's Rule 9 PDF with the 1-800-GAMBLER message requirement, and the Rule 6.12 wording is in the 2025-10-23 redline.
+          Excerpt language: "No licensee shall allow, conduct, or participate in any false or misleading advertising
+          concerning its Sports Betting Operations." Quoted from a search excerpt of the cited page (the Division's
+          2025-10-23 redline of Rules 1, 6 and 9); the page itself could not be opened from the drafting environment.
+  credit_card_deposits:
+    allowed: false
+    authority_citation: SB 26-131, Sports Betting Protections (2026 Colo. Sess. Laws ch. 262, signed 2026-06-01, effective 2026-08-12), amending C.R.S. 44-30-1501 et seq.; Colorado Sports Betting Rules 7.6, 7.7 and 7.11 in 1 CCR 207-2 as amended by the Limited Gaming Control Commission's emergency rule adopted 2026-07-16
+    notes: >-
+      SB 26-131 prohibits a licensed internet sports betting operator from accepting a deposit made with a credit
+      card, directly or indirectly (including through an account funded by a credit card), for a sports bet; a
+      violation is a class 2 misdemeanor and the Commission may impose a fine of up to $25,000. The Commission's
+      2026-07-16 emergency rule removed the rule language that had expressly permitted credit cards as an account
+      funding method and allows reloadable prepaid cards only if not funded by a credit card; a permanent rulemaking
+      hearing was set for 2026-09-17 and its outcome was not confirmed. Before 2026-08-12 the compiled rules (revised
+      2026-01-14) listed credit or debit card as a funding option, and a legislative fiscal note records that
+      DraftKings stopped accepting credit cards in August 2025 and FanDuel in March 2026. Section numbering of the
+      enacted text was not confirmed. Quoted from search excerpts of the cited pages; the pages themselves could not
+      be opened from the drafting environment.
+    provenance:
+      source_id: co-legislature
+      source_url: https://leg.colorado.gov/bills/SB26-131
+      archive_url: null
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      transform: null
+      entered_by: claude-draft-2026-10-17
+      reviewed_by: null
+      status: pending_review
+      page_or_table: null
+      notes: >-
+        Archived copy checked on 2026-10-17: SB 26-131 as enrolled prohibits an internet sports betting operator from accepting deposits by credit card (section 4), and emergency Sports Betting Rule 7.6 adopted 2026-07-16 says no account may be funded, directly or indirectly, by a credit card as of August 12, 2026.
+        Bill page excerpt: "Governor Signed" on 06/01/2026, Chapter 262; the summary bars internet sports betting
+        operators from accepting credit card deposits for sports bets, "A violation of the prohibition constitutes a
+        class 2 misdemeanor", with a Commission fine of up to $25,000. The Division of Gaming rulemaking page
+        (https://sbg.colorado.gov/rulemaking-information) states the bill became effective August 12, 2026 and that
+        emergency amendments to Regulations 7.6, 7.7 and 7.11 were approved; the Commission's 2026-07-16 meeting
+        materials (https://sbg.colorado.gov/sites/sbg/files/documents/PUBLIC7-16-2026CLGCCMaterials_0.pdf) carry the
+        emergency rule resolution, which gives the signing date as June 2, 2026. Quoted from search excerpts of the
+        cited pages; the pages themselves could not be opened from the drafting environment.
   helpline_message:
     required: true
     required_number: null

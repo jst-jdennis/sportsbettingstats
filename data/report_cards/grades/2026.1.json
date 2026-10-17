@@ -1,5 +1,5 @@
 {
- "data_fingerprint": "319790e4b9bd57f373be8d737ea0de27ea9ac776b97577f16776d3f1863c3e4b",
+ "data_fingerprint": "03472602a9607d54f7777fdab0dc5b60fead3425f213789d7658e5c979fc3126",
  "derived_inputs": {
   "advertising_rule_count": "Number of rows in consumer_protections.advertising; null when the list is absent.",
   "advertising_substantive_count": "Rows in consumer_protections.advertising whose rule_type is not responsible_gambling_message_required.",
@@ -499,17 +499,30 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "two or more rules whose rule_type is not responsible_gambling_message_required",
      "criterion_id": "advertising",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "co-regulator",
+       "source_url": "https://sbg.colorado.gov/sites/sbg/files/documents/SBRule-9-011426.pdf",
+       "status": "pending_review"
+      },
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "co-regulator",
+       "source_url": "https://sbg.colorado.gov/sites/sbg/files/documents/Rules1,6,9-Redline10.23.25%20.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "advertising_rule_count": null,
-      "advertising_substantive_count": null
+      "advertising_rule_count": 6,
+      "advertising_substantive_count": 5
      },
-     "label": null,
+     "label": "Two or more substantive restrictions",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": "every legal_age scope is 21 or older",
@@ -531,16 +544,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "allowed is false",
      "criterion_id": "credit_cards",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "co-legislature",
+       "source_url": "https://leg.colorado.gov/bills/SB26-131",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "credit_card_allowed": null
+      "credit_card_allowed": false
      },
-     "label": null,
+     "label": "Prohibited",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 2,
+     "status": "scored"
     },
     {
      "condition": "funding_mechanism is a statutory earmark",
@@ -577,17 +597,15 @@
    ],
    "fips": "08",
    "grade": null,
-   "inputs_pending_review": 4,
+   "inputs_pending_review": 7,
    "market": "regulated_market",
    "missing_criteria": [
-    "advertising",
-    "credit_cards",
     "prevalence_research"
    ],
    "name": "Colorado",
    "pct": null,
-   "points": 9,
-   "points_entered": 11,
+   "points": 14,
+   "points_entered": 16,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -2481,32 +2499,46 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "player_set_available is true",
      "criterion_id": "deposit_limits",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "me-regulator",
+       "source_url": "https://www.maine.gov/dps/sites/maine.gov.dps/files/inline-files/Chapter%2063%20Responsible%20Wagering.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "deposit_limits_entered": null,
-      "deposit_mandatory_default": null,
-      "deposit_player_set_available": null,
-      "deposit_required_at_signup": null
+      "deposit_limits_entered": true,
+      "deposit_mandatory_default": false,
+      "deposit_player_set_available": true,
+      "deposit_required_at_signup": false
      },
-     "label": null,
+     "label": "Available on request",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 1,
+     "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "two or more rules whose rule_type is not responsible_gambling_message_required",
      "criterion_id": "advertising",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "me-regulator",
+       "source_url": "https://www.maine.gov/dps/sites/maine.gov.dps/files/inline-files/Chapter%2064%20Advertising.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "advertising_rule_count": null,
-      "advertising_substantive_count": null
+      "advertising_rule_count": 5,
+      "advertising_substantive_count": 4
      },
-     "label": null,
+     "label": "Two or more substantive restrictions",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": "every legal_age scope is 21 or older",
@@ -2528,16 +2560,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "allowed is false",
      "criterion_id": "credit_cards",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "me-regulator",
+       "source_url": "https://www1.maine.gov/dps/gcu/bill-tracker/VLA-132-Session-Bills",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "credit_card_allowed": null
+      "credit_card_allowed": false
      },
-     "label": null,
+     "label": "Prohibited",
      "max_points": 2,
-     "points": null,
-     "status": "not_entered"
+     "points": 2,
+     "status": "scored"
     },
     {
      "condition": "funding_mechanism is a statutory earmark",
@@ -2574,18 +2613,15 @@
    ],
    "fips": "23",
    "grade": null,
-   "inputs_pending_review": 3,
+   "inputs_pending_review": 6,
    "market": "regulated_market",
    "missing_criteria": [
-    "deposit_limits",
-    "advertising",
-    "credit_cards",
     "prevalence_research"
    ],
    "name": "Maine",
    "pct": null,
-   "points": 8,
-   "points_entered": 8,
+   "points": 14,
+   "points_entered": 16,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -5035,31 +5071,45 @@
    "available": 18,
    "criteria": [
     {
-     "condition": null,
+     "condition": "program_type is statewide_registry or both",
      "criterion_id": "self_exclusion",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "tn-regulator",
+       "source_url": "https://www.tn.gov/swac/forms/self-exclusion.html",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "self_exclusion_program_type": null
+      "self_exclusion_program_type": "statewide_registry"
      },
-     "label": null,
+     "label": "Statewide registry",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "player_set_available is true",
      "criterion_id": "deposit_limits",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "tn-regulator",
+       "source_url": "https://tn.gov/swac/about/tennessee-sports-wagering-council-newroom/2024/9/11/swc--don-t-let-wagering-become-a-problem.html",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "deposit_limits_entered": null,
+      "deposit_limits_entered": true,
       "deposit_mandatory_default": null,
-      "deposit_player_set_available": null,
+      "deposit_player_set_available": true,
       "deposit_required_at_signup": null
      },
-     "label": null,
+     "label": "Available on request",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 1,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -5147,18 +5197,16 @@
    ],
    "fips": "47",
    "grade": null,
-   "inputs_pending_review": 3,
+   "inputs_pending_review": 5,
    "market": "regulated_market",
    "missing_criteria": [
-    "self_exclusion",
-    "deposit_limits",
     "advertising",
     "prevalence_research"
    ],
    "name": "Tennessee",
    "pct": null,
-   "points": 7,
-   "points_entered": 7,
+   "points": 11,
+   "points_entered": 13,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"

@@ -118,8 +118,57 @@ tax:
       shares to the Lottery for Education Account, local governments and mental health programs) not confirmed and left
       null.
 consumer_protections:
-  self_exclusion: null
-  deposit_limits: null
+  self_exclusion:
+    program_type: statewide_registry
+    administered_by: Tennessee Sports Wagering Council (Self-Exclusion Program)
+    durations: [1 year, 3 years, 5 years]
+    covers: [sports_wagering_online]
+    enrollment_methods: [mail, online]
+    url: https://www.tn.gov/swac/forms/self-exclusion.html
+    notes: >-
+      The Council's Voluntary Sports Wagering Self-Exclusion Application lets a person choose a 1, 3 or 5 year
+      exclusion from all online sports wagering with every Tennessee-licensed operator (Tennessee has no retail
+      sportsbooks). The signed form, a copy of a driver's license and a photo of the applicant holding it are sent by
+      mail to the Council's Self-Exclusion Program at 312 Rosa L. Parks Ave., 8th Floor, Nashville, TN 37243, or by
+      email to SWAC.Tech@tn.gov; email submission is recorded here as the online method. The Council states that it
+      does not run a centralized list for fantasy sports operators, so fantasy exclusion must be requested from each
+      operator, and that operators may apply broader exclusions than the state program. Operator obligations to honor
+      the list are in the Council's rules, Tenn. Comp. R. & Regs. 1350-01; the specific section was not confirmed.
+    provenance:
+      <<: *swc
+      source_url: https://www.tn.gov/swac/forms/self-exclusion.html
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      notes: >-
+        Archiving on 2026-10-17 did not yield the section text: tn.gov reset or refused the runner's fetches even with browser headers, so the Council's self-exclusion page and form could not be archived; the clause rests on the search excerpt.
+        Durations, scope and submission routes quoted from a search excerpt of the cited page and of the Council's form
+        at https://www.tennessee.gov/content/dam/tn/swac/documents/forms/Self-Exclusion.pdf; the pages themselves could
+        not be opened from the drafting environment.
+  deposit_limits:
+    player_set_available: true
+    mandatory_default: null
+    player_set_required_at_signup: null
+    cooling_off_on_increase_hours: null
+    statutory_cap_usd: null
+    authority_citation: Tenn. Comp. R. & Regs. 1350-01 (Sports Wagering Council rules); section not confirmed
+    notes: >-
+      The Council's 2024-09-11 notice states that licensed sportsbooks must offer playing time limits, deposit limits
+      and temporary cool-off periods, and that self-exclusion allows players to restrict access to one or all licensed
+      sportsbooks for one, three or five years. The rule section imposing the requirement, and whether any default
+      limit, sign-up election or cooling-off period on increases applies, were not shown in any excerpt and are left
+      null.
+    provenance:
+      <<: *swc
+      source_url: https://tn.gov/swac/about/tennessee-sports-wagering-council-newroom/2024/9/11/swc--don-t-let-wagering-become-a-problem.html
+      retrieved_at: "2026-10-17"
+      retrieval_method: manual_entry
+      entered_by: claude-draft-2026-10-17
+      notes: >-
+        Archiving on 2026-10-17 did not yield the section text: tn.gov reset or refused the runner's fetches even with browser headers, so the Council's notice could not be archived; the clause rests on the search excerpt.
+        Operative language quoted from a search excerpt of the cited page; the page itself could not be opened from the drafting environment. The cited page is a Council notice, not the
+        rule text; the maintainer should locate the deposit limit clause in the current chapter 1350-01 (revised rules
+        effective 2025-06-30).
   advertising: null
   credit_card_deposits:
     allowed: false
