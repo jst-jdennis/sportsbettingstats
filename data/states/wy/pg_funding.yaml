@@ -1,0 +1,47 @@
+fips: '56'
+records:
+- fiscal_year: 2025
+  amount_usd: 300000
+  amount_type: statutory_formula_estimate
+  funding_mechanism: statutory_earmark_fixed
+  mechanism_text: W.S. 9-24-104(a) requires each online sports wagering operator to remit ten percent of online sports wagering
+    revenue to the Wyoming Gaming Commission monthly and continuously appropriates the first $300,000 of that revenue each
+    fiscal year to the Department of Health, to be distributed to the counties to fund county health programs to prevent and
+    treat problematic gambling behavior; the remainder is deposited in the general fund. The amount is a fixed dollar figure,
+    not a share of revenue. No other Wyoming gaming statute (skill-based games, historic horse racing) dedicates revenue to
+    problem gambling, apart from a racing benevolence fund share of breakage; the Gaming Commission's own responsible gaming
+    work is paid from operator administrative contributions. The Legislative Service Office reports the $300,000 distribution
+    each fiscal year from 2022 through 2025.
+  administering_agency: Wyoming Department of Health
+  includes:
+  - treatment
+  - prevention
+  authority_citation: W.S. 9-24-104(a) (distribution of online sports wagering revenue; first $300,000 per fiscal year to
+    the Department of Health)
+  provenance:
+    source_id: wy-legislature
+    source_url: https://www.wyoleg.gov/2023/Enroll/HB0181.pdf
+    archive_url: sha256:76309967a59ae722bf1b4be19960515710990ab866fe65ccf3e410213bb7ad7c
+    retrieved_at: '2026-10-17'
+    retrieval_method: pdf
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Section 1, W.S. 9-24-104(a)
+    notes: 'Enrolled Act No. 23 (2023 HB 181), amending W.S. 9-24-104(a): "Not later than the fifteenth day of each month,
+      in accordance with commission rules, a sports wagering operator shall remit ten percent (10%) of online sports wagering
+      revenue from the prior month to the commission, except as provided in subsection (b) of this section. Each fiscal year,
+      the first three hundred thousand dollars ($300,000.00) of revenue generated under this section is continuously appropriated
+      to the department of health to be distributed to the counties for the purpose of funding county health programs to prevent
+      and treat problematic gambling behavior." The provision originated in 2021 HB 133 (https://wyoleg.gov/2021/Enroll/HB0133.pdf).
+      The codified text is in the Title 9 statute file at https://wyoleg.gov/statutes/compress/title09.pdf, which could not
+      be fetched from this session (network policy); confirm there. The $300,000 FY2025 figure is from the LSO Gaming Revenues
+      Fact Sheet (May 2025, https://wyoleg.gov/InterimCommittee/2025/SCF-2025061210-01_20250514_GamingRevenuesFactSheetwAppend_Final.pdf),
+      which lists $300,000 to the Department of Health in each of FY2022 to FY2025; the Gaming Commission''s 2025 press release
+      repeats the distribution. 2026 HB 171 (problem gaming treatment distribution) was not considered for introduction (2026-02-13);
+      the Select Committee on Gaming has a 2027 draft, 27LSO-0096, on problem gambling funding, so check for changes after
+      the 2027 session. Archived copy checked on 2026-10-17: The 2023 enrolled act as archived carries the first-300,000-dollars
+      provision, and the LSO Gaming Revenues Fact Sheet as archived states that the first 300,000 dollars per fiscal year
+      of the ten percent online sports wagering remittance is continuously appropriated to the Department of Health for county
+      gambling abuse and treatment programs, with 300,000 dollars transferred in each of 2022 through 2025.'

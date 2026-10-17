@@ -1,0 +1,43 @@
+fips: '30'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: unknown
+  mechanism_text: No Montana statute was found that dedicates lottery, sports wagering, video gambling machine tax or other
+    gambling revenue to problem gambling services, and no appropriation for such services was found in the documents searched.
+    The Department of Justice Gambling Control Division's problem gambling page refers callers to the Montana Council on Problem
+    Gambling, a nonprofit that the Division describes as providing support, referrals and education and that contracts with
+    private providers for outpatient treatment. Press accounts describe the Council as funded by gaming industry donations
+    rather than state money, but no state agency or legislative document confirming the absence of public funding was located.
+  administering_agency: null
+  includes: null
+  authority_citation: null
+  provenance:
+    source_id: mt-doj-gambling-control
+    source_url: https://dojmt.gov/gaming/compulsive-gambling/
+    archive_url: sha256:12f389e77e19a0e5d7d602ba25a84b12d698ffe402a2ed34cb1a8644897da915
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: 'Searched: Montana Code Annotated Title 23, chapter 5 (Gambling Control; 23-5-110 public policy, 23-5-123 fines
+      to the general fund) and chapter 7 (Montana State Lottery Act, part 4 finances, 23-7-402) on mca.legmt.gov; MCA 16-12-122
+      (HEART account, which names substance use and mental health but not gambling); the Gambling Control Division pages,
+      FY23-FY24 biennial report and Gaming Advisory Council minutes on dojmt.gov; the Montana Lottery and DOJ 2021 problem
+      gambling campaign release; the 2025 session (SB 153, SB 555) and the 2025-2026 Economic Affairs Interim Committee gambling
+      oversight study materials (staff review of legislative oversight of gambling, January 2026, and provisional draft 4,
+      May 2026), whose texts could not be opened. None of these returned a statute or appropriation dedicating money to problem
+      gambling. The Division page says "The Montana Council on Problem Gambling is a non-profit agency dedicated to alleviating
+      gambling-related social and personal distress"; Gaming Advisory Council minutes record the Council thanking attendees
+      for donations and awaiting a contribution from the lottery vendor. NBC Montana and the Flathead Beacon (not citable)
+      report that Montana is the only state with no public funding and that the Council is wholly industry funded; "none"
+      was not entered because no state document says so. Outbound web fetches were blocked from the drafting container, so
+      searches relied on search-engine excerpts. Next step for a reviewer: read the EAIC staff review (legmt.gov, Economic
+      Affairs Interim Committee, Gambling in MT materials) and the DPHHS behavioral health budget in HB 2 for any gambling
+      treatment line; if either states that no state funds are provided, change the mechanism to none. Archived copy checked
+      on 2026-10-17: The Department of Justice Gambling Control Division page as archived refers problem gamblers to the nonprofit
+      Montana Council on Problem Gambling and names no state funding; the mechanism stays unknown.'

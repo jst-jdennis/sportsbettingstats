@@ -1,0 +1,35 @@
+fips: '15'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: unknown
+  mechanism_text: Hawaii has no lottery, casinos or regulated sports wagering and no gambling revenue to dedicate. No statute
+    or appropriation line dedicated to problem gambling services was found in the Hawaii Revised Statutes, the Department
+    of Health Alcohol and Drug Abuse Division reports to the Legislature, or the 2025 session bills. Bills in 2022 (HB 1962)
+    and 2025 (HB 1308) that would have created a gambling addiction special fund were not confirmed as enacted.
+  administering_agency: null
+  includes: null
+  authority_citation: null
+  provenance:
+    source_id: hi-legislature
+    source_url: https://data.capitol.hawaii.gov/sessions/session2022/Bills/HB1962_.pdf
+    archive_url: sha256:39539d62850e2ac54df0ff3878cae778afd7876d2250a8446fda6c309ca901f4
+    retrieved_at: '2026-10-17'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: 'Searched capitol.hawaii.gov, data.capitol.hawaii.gov, health.hawaii.gov and budget.hawaii.gov for problem gambling,
+      gambling addiction and gambling treatment funding. The only on-point statement found was a legislative finding in HB
+      1962 (2022), an unenacted bill, that no public funding was provided for gambling treatment and prevention; the Department
+      of the Attorney General''s 2025 testimony on HB 1308 SD1 describes a proposed problem gambling special fund funded by
+      sports wagering license fees and taxes, which was not confirmed as enacted. The Alcohol and Drug Abuse Division''s FY2024-25
+      appropriation (Act 230, SLH 2024, $34,159,042) covers substance use services and the division''s reports do not list
+      a gambling program. A bill finding is not an agency or legislative report, so the mechanism is recorded as unknown rather
+      than none. All hosts were blocked by this session''s network policy, so no document was opened directly; the reviewer
+      should check the Department of Health budget and the current HB 1308 status. Archived copy checked on 2026-10-17: HB
+      1962 (2022) as archived carries the legislative finding that no public funding was provided for gambling treatment and
+      prevention; the bill was not enacted, so the mechanism stays unknown.'

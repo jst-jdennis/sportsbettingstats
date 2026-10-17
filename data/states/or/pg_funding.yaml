@@ -1,0 +1,43 @@
+fips: '41'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_pct_revenue
+  mechanism_text: ORS 461.549 directs the Oregon State Lottery to transfer each fiscal quarter to the Problem Gambling Treatment
+    Fund the greater of one percent of the moneys transferred that quarter from the State Lottery Fund to the Administrative
+    Services Economic Development Fund or one percent of the transfer in the same quarter of the 2011 to 2013 biennium, a
+    floor added by HB 2355 (2013). Sports betting is a Lottery game, so its net proceeds flow through the same formula. The
+    fund is continuously appropriated to the Oregon Health Authority for prevention and treatment programs under ORS 413.522,
+    and the Authority reported that the one percent came to approximately eight million dollars in each of fiscal years 2023-24
+    and 2024-25.
+  administering_agency: Oregon Health Authority, Problem Gambling Services
+  includes:
+  - treatment
+  - prevention
+  authority_citation: ORS 461.549 (allocation to the Problem Gambling Treatment Fund); ORS 413.522 (fund continuously appropriated
+    to the Oregon Health Authority)
+  provenance:
+    source_id: or-legislature
+    source_url: https://www.oregonlegislature.gov/bills_laws/ors/ors461.html
+    archive_url: https://web.archive.org/web/20260811192939/https://www.oregonlegislature.gov/bills_laws/ors/ors461.html
+    retrieved_at: '2026-10-17'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: ORS 461.549
+    notes: 'The ORS chapter page could not be opened from the drafting container (outbound fetches were blocked); the operative
+      language is quoted from search-engine extracts of ORS 461.549 as enacted by HB 2355 (2013): the fund receives the greater
+      of "(a) One percent of the moneys transferred from the Oregon State Lottery Fund to the Administrative Services Economic
+      Development Fund in that fiscal quarter; or (b) One percent of the moneys transferred ... during the same fiscal quarter
+      of the biennium beginning July 1, 2011", and ORS 413.522 provides that "all moneys in the Problem Gambling Treatment
+      Fund are continuously appropriated to the Oregon Health Authority for prevention and treatment programs and their administration".
+      Confirm against the current ORS edition. The amount is left null because the Authority''s reports state it only approximately:
+      the OHA FY 2024-25 PGS Treatment Program Services Report (https://www.oregon.gov/oha/HSD/Problem-Gambling/Documents/FY%202024-25%20PGS%20Treatment%20Program%20Services%20Report.pdf)
+      says "approximately eight million dollars in Oregon Lottery revenues were transferred to the OHA"; the exact figure
+      should be taken from the Legislatively Adopted Budget or the Lottery''s transfer records. Archived copy checked on 2026-10-17:
+      ORS chapter 461 as archived lists 461.549, use of video lottery proceeds for treatment of gambling-related behavioral
+      problems, with the one percent allocation; the Oregon Health Authority program report as archived describes the Problem
+      Gambling Services funding.'

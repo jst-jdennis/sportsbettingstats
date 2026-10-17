@@ -1,0 +1,42 @@
+fips: '19'
+records:
+- fiscal_year: 2026
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: unknown
+  mechanism_text: Iowa Code 135.150 establishes the gambling treatment program in the Department of Health and Human Services
+    and a gambling treatment fund. Legislative Services Agency documents describe the funding source as having changed over
+    time, from 0.3 percent and later 0.5 percent of casino adjusted gross receipts and lottery revenue, to sports wagering
+    receipts under the 2019 sports wagering act, with a 2024 fiscal note warning that repeal of the Sports Wagering Receipts
+    Fund would require a new source and the 2026 Session Fiscal Report listing a Gambling Treatment Program line of $1.75
+    million. The current statutory mechanism could not be read from the Code in this pass.
+  administering_agency: Iowa Department of Health and Human Services
+  includes:
+  - treatment
+  - prevention
+  - helpline
+  authority_citation: Iowa Code 135.150 (gambling treatment program); Iowa Code 99F.11 (wagering taxes)
+  provenance:
+    source_id: ia-legislature
+    source_url: https://www.legis.iowa.gov/docs/code/135.150.pdf
+    archive_url: sha256:89c9fa7f8f29905201e3c6e8ea51c3bec2ac5955cb0ec1d74e3e95331aff90fe
+    retrieved_at: '2026-10-17'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: 'The legis.iowa.gov host was blocked by this session''s network policy, so Iowa Code 99F.11, 135.150 and 8.57I
+      could not be opened. Search excerpts from legis.iowa.gov show 99F.11(4) allocating eight-tenths of one percent of the
+      adjusted gross receipts tax to the county endowment fund and two-tenths of one percent to a first-tier appropriation
+      whose recipient was cut off, 99F.11(5) imposing the 6.75 percent sports wagering tax credited under section 8.57I, the
+      LSA Iowa Gambling Treatment Program Historical Summary (docs/publications/SD/6139.pdf) describing 0.5 percent of gross
+      lottery revenue and 0.5 percent of casino adjusted gross receipts with amounts above $6 million going to the Rebuild
+      Iowa Infrastructure Fund, the HF 2286 fiscal note (docs/publications/FN/1286819.pdf) stating the program is funded from
+      the Sports Wagering Receipts Fund and that its repeal may require another source, and the 2026 Session Fiscal Report
+      (docs/publications/FR/1611991.pdf) listing a Gambling Treatment Program line of $1.75 million. Because these conflict
+      on the current source, the mechanism is left unknown. Reviewer: read 99F.11(4)(d), 8.57I(2), 135.150 and the FY2026
+      HHS appropriations act, then set either statutory_earmark_pct_revenue or appropriation and take the amount from the
+      Session Fiscal Report. Archived copy checked on 2026-10-17: Iowa Code 135.150 as archived establishes the gambling treatment
+      program and fund; the current revenue source could not be read from the archived copies, so the mechanism stays unknown.'

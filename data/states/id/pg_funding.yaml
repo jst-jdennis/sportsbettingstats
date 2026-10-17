@@ -1,0 +1,31 @@
+fips: '16'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: unknown
+  mechanism_text: Idaho has a state lottery and tribal gaming but no commercial casinos or regulated sports wagering. The
+    Idaho State Lottery Act (Idaho Code title 67, chapter 74) distributes lottery dividends to the public school and permanent
+    building funds, and no section dedicating lottery or other gaming revenue to problem gambling services was found. No Department
+    of Health and Welfare problem gambling program or appropriation line was located in the documents searched.
+  administering_agency: null
+  includes: null
+  authority_citation: null
+  provenance:
+    source_id: id-legislature
+    source_url: https://legislature.idaho.gov/wp-content/uploads/statutesrules/idstat/Title67/T67CH74.pdf
+    archive_url: sha256:d8e57ecd78324ae2ae95d98c5d93165f3eabd59587b217ea200b419cd5ad4b97
+    retrieved_at: '2026-10-17'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: Searched legislature.idaho.gov (Idaho Code title 67 chapter 74, the lottery appropriation bills for 2019, 2021
+      and 2023, and Health and Welfare appropriation bills), healthandwelfare.idaho.gov, idaholottery.com, dfm.idaho.gov and
+      lso.idaho.gov for problem gambling, gambling disorder and gambling treatment. No statute, fund or appropriation line
+      for problem gambling services was found; the only related item was a 2002 bill (S 1518) to fund a study of the social
+      effects of gambling. All hosts were blocked by this session's network policy, so the chapter PDF cited here was identified
+      from search results and not opened. The reviewer should read Idaho Code 67-7434 (state lottery account) and the Department
+      of Health and Welfare Division of Behavioral Health budget before changing this to none or appropriation.

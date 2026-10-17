@@ -1,0 +1,48 @@
+fips: '23'
+records:
+- fiscal_year: 2024
+  amount_usd: 323254
+  amount_type: statutory_formula_estimate
+  funding_mechanism: statutory_earmark_pct_revenue
+  mechanism_text: Maine taxes sports wagering operators at 10 percent of adjusted gross sports wagering receipts, and 8 M.R.S.
+    section 1218 directs one percent of adjusted gross sports wagering receipts to the Gambling Addiction Prevention and Treatment
+    Fund established by 5 M.R.S. section 20006-B, with the balance going to the General Fund and the Gambling Control Unit.
+    The fund also receives a share of net slot machine income under 8 M.R.S. section 1036(2). The fund is a dedicated, nonlapsing
+    fund overseen by the Maine Center for Disease Control and Prevention in the Department of Health and Human Services, which
+    reports on it to the Legislature each March 1.
+  administering_agency: Maine Department of Health and Human Services, Maine Center for Disease Control and Prevention
+  includes:
+  - treatment
+  - prevention
+  - helpline
+  authority_citation: 8 M.R.S. 1218 (allocation of sports wagering funds); 5 M.R.S. 20006-B (Gambling Addiction Prevention
+    and Treatment Fund); 8 M.R.S. 1036(2)
+  provenance:
+    source_id: me-legislature
+    source_url: https://legislature.maine.gov/legis/statutes/8/title8sec1218.html
+    archive_url: sha256:28dcad4a06263ff5a8e40003bd1b943aa33865cd343b26537814847fcf55db4d
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: '8 M.R.S. 1218 (Allocation of funds) provides that one percent of adjusted gross sports wagering receipts goes
+      to the Gambling Addiction Prevention and Treatment Fund established under Title 5, section 20006-B; the fund statute
+      (https://legislature.maine.gov/statutes/5/title5sec20006-B.html) describes "a dedicated, nonlapsing fund into which
+      payments are received in accordance with Title 8, section 1036, subsection 2". The amount is the deposit reported in
+      the Maine CDC Gambling Addiction Prevention and Treatment Fund Annual Report for the period 10/1/2023 to 9/30/2024 (https://legislature.maine.gov/doc/11887):
+      "the amount deposited in the fund during FY24 was $323,254.15", attributed to the one percent sports wagering share
+      after wagering began in November 2023; the report lists the 211 Maine Problem Gambling Helpline, the AdCare problem
+      gambling services contract, prevention and recovery mini-grants and the Gambling Addiction Treatment Reimbursement Network
+      as uses. The amount is rounded to the dollar; confirm whether the report period is the state fiscal year and whether
+      slot machine transfers under 8 M.R.S. 1036 are included. Retrieval caveat: the network policy of the drafting environment
+      blocked legislature.maine.gov and maine.gov, so the quoted language comes from search-index excerpts of these documents,
+      not from loading them; the reviewer should open the statute page and the report. The leads to 8 M.R.S. 1216 and 1217
+      were wrong: those sections cover unauthorized wagering and applicability of other laws; the allocation section is 1218.
+      The Gambling Control Unit revenue page (https://www.maine.gov/dps/gcu/sports-wagering/sports-wagering-revenue) restates
+      the one percent share. Archived copy checked on 2026-10-17: 8 M.R.S. 1218 as archived, paragraph B: one percent of the
+      adjusted gross sports wagering receipts must be deposited in the Gambling Addiction Prevention and Treatment Fund established
+      by Title 5, section 20006-B; the Maine CDC fund report as archived states the amount deposited during FY24 was 323,254.15
+      dollars.'

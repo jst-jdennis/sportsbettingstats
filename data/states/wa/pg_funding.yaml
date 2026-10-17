@@ -1,0 +1,48 @@
+fips: '53'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_pct_revenue
+  mechanism_text: Washington funds its problem gambling program from statutory shares of gambling revenue deposited in the
+    problem gambling account in the state treasury (RCW 41.05.751). RCW 82.04.285(2) imposes an additional business and occupation
+    tax on gross income from contests of chance (card rooms, pull tabs and similar games with $50,000 or more a year in such
+    income) of 0.26 percent from July 1, 2024 (0.2 percent before that), deposited in the account; RCW 67.70.340(3) directs
+    the Lottery Commission to transfer 0.26 percent of net receipts from shared game lottery revenue to the account for fiscal
+    year 2025 and later (0.2 percent in fiscal year 2024). Money in the account may be spent only after appropriation and
+    only for the prevention, treatment and professional training program run by the Health Care Authority under RCW 41.05.750
+    (formerly RCW 43.20A.890). Tribal sports wagering is not taxed and does not contribute.
+  administering_agency: Washington State Health Care Authority
+  includes:
+  - treatment
+  - prevention
+  - training
+  authority_citation: RCW 82.04.285(2); RCW 67.70.340(3); RCW 41.05.751 (problem gambling account); RCW 41.05.750 (program,
+    formerly RCW 43.20A.890)
+  provenance:
+    source_id: wa-legislature
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.285
+    archive_url: sha256:14474fa31bfc0c7435b0dc1c28c7f74ae538af8f49138e6a6ecc3d613cbee1bf
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: 'RCW 82.04.285(2): an additional tax of 0.2 percent through June 30, 2024, and 0.26 percent thereafter; "The money
+      collected under this subsection (2) shall be deposited in the problem gambling account created in RCW 41.05.751. This
+      subsection does not apply to businesses operating contests of chance when the gross income from the operation of contests
+      of chance is less than $50,000 per year." RCW 67.70.340(3) (https://app.leg.wa.gov/RCW/default.aspx?cite=67.70.340):
+      0.20 percent of net receipts for fiscal year 2024 and 0.26 percent for fiscal year 2025 and later. RCW 41.05.751 (https://app.leg.wa.gov/RCW/default.aspx?cite=41.05.751):
+      "Money in the account may be spent only after appropriation. Expenditures from the account may be used only for the
+      purposes of the program established under RCW 41.05.750." RCW 41.05.750 is at https://app.leg.wa.gov/rcw/default.aspx?cite=41.05.750.
+      Rates were raised by 2023 c 284 (E2SSB 5634). The legislature''s site could not be fetched from this session (network
+      policy); quotations are from search excerpts of the official pages. Amount: the HCA problem gambling program fact sheet
+      (October 2025, https://www.hca.wa.gov/assets/program/82-0505-problem-gambling-program-fact-sheet.pdf) states a $3.29
+      million budget for the 2025-27 biennium (up $860,000 from $2.43 million in 2023-25); the OFM 2025-27 agency detail for
+      HCA lists Problem Gambling Account, State at $3,255,000. No single fiscal year figure was found, so take the FY2025
+      or FY2026 appropriation from the enacted omnibus operating budget or the HCA fact sheet. Archived copy checked on 2026-10-17:
+      RCW 82.04.285(2) as archived: the additional tax on contests of chance at 0.2 percent through June 30, 2024 and 0.26
+      percent thereafter is deposited in the problem gambling account created in RCW 41.05.751, not applying to businesses
+      with less than 50,000 dollars a year from contests of chance.'

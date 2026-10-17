@@ -1,0 +1,84 @@
+fips: '36'
+records:
+- fiscal_year: 2026
+  amount_usd: 6000000
+  amount_type: statutory_formula_estimate
+  funding_mechanism: statutory_earmark_fixed
+  mechanism_text: Racing, Pari-Mutuel Wagering and Breeding Law section 1367, subdivision 8, directs the Gaming Commission
+    to pay into the commercial gaming fund one percent of the state tax on mobile sports wagering for problem gambling education
+    and treatment, provided that the amount equals six million dollars in each fiscal year after the first, so the earmark
+    operated as a fixed 6,000,000 dollars a year through state fiscal year 2025-26 while the remaining mobile tax went to
+    the lottery fund for education aid. The money is distributed through the Office of Addiction Services and Supports. Commercial
+    casinos separately pay an annual fee of 500 dollars per slot machine and table game for OASAS problem gambling treatment
+    and education.
+  administering_agency: New York State Office of Addiction Services and Supports
+  includes:
+  - treatment
+  - prevention
+  authority_citation: N.Y. Rac. Pari-Mut. Wag. & Breed. Law 1367(8); State Fin. Law 97-nnnn (commercial gaming fund)
+  provenance:
+    source_id: ny-legislature
+    source_url: https://www.nysenate.gov/legislation/laws/PML/1367
+    archive_url: null
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: PML 1367, subdivision 8
+    notes: 'Operative language as excerpted: "the commission shall pay into the commercial gaming fund one percent of the
+      state tax imposed on mobile sports wagering by this section to be distributed for problem gambling education and treatment
+      purposes", with the proviso that the amount "shall be equal to six million dollars for each fiscal year" after the first,
+      which is why the mechanism is recorded as fixed rather than a percentage; a reviewer should confirm the proviso wording
+      on the Senate page. The Gaming Commission and OASAS report on the impact of mobile sports wagering on problem gamblers
+      (March 31, 2025, updated December 17, 2025, https://gaming.ny.gov/system/files/documents/2025/12/12.17.25.mswimpactreport.pdf)
+      states "Currently, $6 million annually from New York State''s tax imposed on mobile sports wagering is dedicated for
+      problem gambling education and treatment purposes" citing section 1367(8), and that commercial casino operators pay
+      "an annual fee of $500 per slot machine and table" for OASAS treatment and education. The fiscal year is New York state
+      fiscal year 2025-26 (April 2025 to March 2026). Pending bills S2615 and A7629 (2025) would change the floor; neither
+      was confirmed enacted. Outbound web fetches were blocked from the drafting container, so quotes come from search-engine
+      excerpts of the cited pages. Archived copy checked on 2026-10-17: The Gaming Commission''s December 2025 mobile sports
+      wagering impact report as archived states that 6 million dollars annually from the tax on mobile sports wagering is
+      dedicated for gambling harms education and treatment pursuant to Racing, Pari-Mutuel Wagering and Breeding Law 1367(8),
+      with an additional 6 million dollars annually beginning in 2026; the State Comptroller''s September 2026 report as archived
+      confirms the increase from 6 million to 12 million dollars.'
+- fiscal_year: 2027
+  amount_usd: 12000000
+  amount_type: appropriation
+  funding_mechanism: statutory_earmark_fixed
+  mechanism_text: For state fiscal year 2026-27 the enacted budget doubled the portion of the mobile sports wagering tax dedicated
+    to problem gambling services from six million to twelve million dollars, according to the Office of the State Comptroller's
+    September 2026 report on sports wagering. The statutory vehicle, which should be an amendment to Racing, Pari-Mutuel Wagering
+    and Breeding Law section 1367(8) or budget bill language, was not read. The money continues to flow through the commercial
+    gaming fund to the Office of Addiction Services and Supports.
+  administering_agency: New York State Office of Addiction Services and Supports
+  includes:
+  - treatment
+  - prevention
+  authority_citation: N.Y. Rac. Pari-Mut. Wag. & Breed. Law 1367(8) as amended by the SFY 2026-27 enacted budget (amending
+    section not confirmed)
+  provenance:
+    source_id: ny-osc
+    source_url: https://www.osc.ny.gov/files/reports/pdf/sports-wagering-in-new-york.pdf
+    archive_url: sha256:950b143148341fc59a258ae397266bac7a31aa93c51b2efc2fb865b0f4821c56
+    retrieved_at: '2026-10-17'
+    retrieval_method: pdf
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Sports Wagering in New York (September 2026), problem gambling funding discussion
+    notes: 'The Comptroller''s report, as excerpted, says "The increase in the portion of the tax on mobile sports wagering
+      that will fund problem gambling services (from $6 million to $12 million in the current fiscal year) is a positive step"
+      and reports 1.3 billion dollars of mobile sports wagering tax in SFY 2026; the accompanying release (https://www.osc.ny.gov/press/releases/2026/09/dinapoli-new-york-sees-surge-mobile-sports-betting-and-jump-problem-gambling-calls)
+      describes the decision "to double funding for problem gambling services from $6 million to $12 million". Entered as
+      an appropriation because the statutory amendment was not located; a reviewer should find the enacted SFY 2026-27 budget
+      provision (Division of the Budget or the revenue article VII bill) and update the citation and amount_type. The Gaming
+      Commission''s 2025 impact report (updated September 2, 2026, https://gaming.ny.gov/system/files/documents/2026/09/2025mswimpactreport_final.pdf)
+      also refers to an additional amount beginning in 2026. Outbound web fetches were blocked from the drafting container,
+      so quotes come from search-engine excerpts of the cited pages. Archived copy checked on 2026-10-17: The Gaming Commission''s
+      December 2025 mobile sports wagering impact report as archived states that 6 million dollars annually from the tax on
+      mobile sports wagering is dedicated for gambling harms education and treatment pursuant to Racing, Pari-Mutuel Wagering
+      and Breeding Law 1367(8), with an additional 6 million dollars annually beginning in 2026; the State Comptroller''s
+      September 2026 report as archived confirms the increase from 6 million to 12 million dollars.'

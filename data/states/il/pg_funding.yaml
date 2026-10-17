@@ -1,0 +1,42 @@
+fips: '17'
+records:
+- fiscal_year: 2026
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: appropriation
+  mechanism_text: The Illinois Gambling Act provides that appropriations approved by the General Assembly may be made from
+    the State Gaming Fund to the Department of Human Services for programs to treat problem gambling, including problem gambling
+    from sports wagering. The statute names the fund and the program but dedicates no percentage or fixed amount, so the amount
+    depends on the annual appropriation. The Department of Human Services Division of Behavioral Health and Recovery awards
+    the money as gambling disorder treatment, prevention, helpline and public awareness grants, with the helpline also drawing
+    on Illinois Lottery funds.
+  administering_agency: Illinois Department of Human Services, Division of Behavioral Health and Recovery
+  includes:
+  - treatment
+  - prevention
+  - helpline
+  authority_citation: 230 ILCS 10/13(c) (State Gaming Fund appropriations to the Department of Human Services)
+  provenance:
+    source_id: il-legislature
+    source_url: https://ilga.gov/documents/legislation/ilcs/documents/023000100K13.htm
+    archive_url: null
+    retrieved_at: '2026-10-17'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: subsection (c)
+    notes: 'Operative language as summarized by the search engine from the ilga.gov section page: appropriations, as approved
+      by the General Assembly, may be made from the State Gaming Fund to the Department of Human Services for the administration
+      of programs to treat problem gambling, including problem gambling from sports wagering. Both the ilga.gov fulltext path
+      and the documents path were blocked by this session''s network policy (DNS and proxy refusal, not the site''s bot block),
+      so the section was not opened; the reviewer must confirm the subsection and that no later amendment added a fixed share.
+      230 ILCS 45/25-90 (Sports Wagering Fund) as excerpted directs fund transfers to the General Revenue Fund and the Capital
+      Projects Fund and no Department of Human Services share was seen in it; 230 ILCS 45/25-95 only requires a helpline statement
+      on licensee platforms. Amount to be taken from the FY2026 appropriations act line for the Department of Human Services
+      from the State Gaming Fund; IDHS notices of funding opportunity for FY26 estimate $4,000,000 for the gambling disorder
+      public awareness campaign and $800,000 for the helpline and website, with the helpline described as funded by a split
+      between the gambling initiative and the Illinois Lottery. Archiving on 2026-10-17 did not yield the section text: ilga.gov
+      did not respond to the archiving request; the clause remains as taken from the search excerpt until a reviewer opens
+      the page.'

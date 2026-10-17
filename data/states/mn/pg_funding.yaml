@@ -1,0 +1,52 @@
+fips: '27'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_pct_revenue
+  mechanism_text: 'Minnesota has no regulated sports betting; problem gambling services are funded by statutory shares of
+    charitable (lawful) gambling tax and lottery revenue. Minn. Stat. 297E.02, subd. 3, appropriates one-half of one percent
+    of lawful gambling tax revenue deposited in the general fund to the commissioner of human services for the compulsive
+    gambling treatment program established under Minn. Stat. 245.98, and a further one-half of one percent for a grant to
+    the state affiliate of the National Council on Problem Gambling for awareness, training and research, with a requirement
+    that the money supplement rather than replace existing state funding. Lottery revenue also supports the program: the Governor''s
+    2026-27 lottery budget reports about 1.5 million dollars a year designated for compulsive gambling treatment from lottery
+    proceeds. The program is run by the Department of Human Services.'
+  administering_agency: Minnesota Department of Human Services
+  includes:
+  - treatment
+  - prevention
+  - training
+  - research
+  authority_citation: Minn. Stat. 297E.02, subd. 3 (one-half of one percent of lawful gambling tax to the compulsive gambling
+    treatment program); Minn. Stat. 245.98
+  provenance:
+    source_id: mn-legislature
+    source_url: https://www.revisor.mn.gov/statutes/cite/297E.02
+    archive_url: sha256:3901c6be45e4c5088b966740171ef3f14370250385e1be7f7249f353a87f61a8
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Subdivision 3
+    notes: 'Operative language of 297E.02, subd. 3: "One-half of one percent of the revenue deposited in the general fund
+      under paragraph (a) is appropriated to the commissioner of human services for the compulsive gambling treatment program
+      established under section 245.98", followed by a second one-half of one percent for a grant to the state affiliate of
+      the National Council on Problem Gambling and the clause "Money appropriated by this paragraph must supplement and must
+      not replace existing state funding for these programs." The program statute is at https://www.revisor.mn.gov/statutes/cite/245.98.
+      The lead citing 349A.10 was not confirmed: the search excerpts of 349A.10 (https://www.revisor.mn.gov/statutes/cite/349A.10)
+      show lottery fund and prize fund provisions without a compulsive gambling appropriation; the lottery share reported
+      in the Governor''s 2026-27 biennial budget for the lottery (https://mn.gov/mmb-stat/documents/budget/2026-27-biennial-budget-books/governors-recommendations-january/lottery.pdf,
+      about 1.5 million dollars in FY2025 designated for compulsive gambling treatment from the lottery in-lieu tax or prize
+      fund) needs its statute section identified (check 297A.94 and 349A.08, subd. 5). Retrieval caveat: the network policy
+      of the drafting environment blocked revisor.mn.gov and mn.gov, so quoted language comes from search-index excerpts of
+      these pages, not from loading them. Amount: not entered. The Gambling Control Board FY2025 annual report (https://mn.gov/gcb/assets/2025%20Annual%20Report%2011-25-25%20meta_tcm1192-713786.pdf)
+      says the lawful gambling share sent to the Department of Human Services was "almost $1.9 million last year"; take the
+      exact combined program total from the DHS problem gambling program budget or the Minnesota Management and Budget fund
+      statements. Note that the Legislature reorganized DHS in 2024 and 2025; confirm that the program remains in the Department
+      of Human Services. Archived copy checked on 2026-10-17: Minn. Stat. 297E.02 subd. 3 as archived: one-half of one percent
+      of the revenue deposited in the general fund under paragraph (a) is appropriated to the commissioner of human services
+      for the compulsive gambling treatment program under section 245.98, and a further one-half of one percent for a grant
+      to the state affiliate of the National Council on Problem Gambling.'

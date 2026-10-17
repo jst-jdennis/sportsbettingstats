@@ -1,0 +1,52 @@
+fips: '44'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: statutory_earmark_fixed
+  mechanism_text: R.I. Gen. Laws 42-61.2-14 requires the two hosting facilities, Twin River in Lincoln and Twin River-Tiverton
+    (both now operated by Bally's), to pay the Division of Lotteries no less than 200,000 dollars in aggregate each year for
+    compulsive and problem gambling programs established by the Division and no less than 50,000 dollars in aggregate each
+    year for education and prevention programs, with each facility's share set by the Division. The required programs include
+    employee awareness training, a self-exclusion program, a problem gambling hotline and responsible gambling education.
+    Treatment services are run separately by the Department of Behavioral Healthcare, Developmental Disabilities and Hospitals
+    under R.I. Gen. Laws 40.1-1-19, which caps that program's cost at 150,000 dollars; no share of sports wagering or video
+    lottery revenue is dedicated to problem gambling. The statute itself fixes the minimum amounts (200,000 and 50,000 dollars
+    a year in aggregate) and their use, so under the classification rule this is a statutory earmark of a fixed amount per
+    licensee rather than a regulator-set fee.
+  administering_agency: Rhode Island Lottery (Division of Lotteries, Department of Revenue); treatment through the Department
+    of Behavioral Healthcare, Developmental Disabilities and Hospitals
+  includes:
+  - prevention
+  - helpline
+  - training
+  authority_citation: R.I. Gen. Laws 42-61.2-14 (compulsive and problem gambling programs); R.I. Gen. Laws 40.1-1-19 (problem
+    gambling treatment program)
+  provenance:
+    source_id: ri-legislature
+    source_url: https://webserver.rilegislature.gov/Statutes/TITLE42/42-61.2/42-61.2-14.htm
+    archive_url: sha256:8e1c9b9344ac8c21e1539c9caae4399f8be07231480fa7e69338fdba6ad80951
+    retrieved_at: '2026-10-17'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: 'The statute page could not be opened from the drafting container (outbound fetches were blocked); the operative
+      language is quoted from a search-engine extract of the cited page: "Twin River and Twin River-Tiverton shall reimburse
+      and pay to the Division no less than two hundred thousand dollars ($200,000) in aggregate annually for compulsive and
+      problem gambling programs established by the Division and no less than fifty thousand dollars ($50,000) in the aggregate
+      annually for education and prevention programs" and "the contribution from each facility shall be determined by the
+      Division". R.I. Gen. Laws 40.1-1-19 (https://webserver.rilegislature.gov/statutes/TITLE40.1/40.1-1/40.1-1-19.htm) directs
+      the division of substance abuse to designate "comprehensive treatment services for problem gamblers and their family
+      members; provided, however, the cost of the treatment services program does not exceed one hundred fifty thousand dollars".
+      The lead citations 42-61.2-7 (titled "Division of revenue") and chapter 42-61.3 were not found to contain a problem
+      gambling dedication and are not relied on. A 2022 bill (H 7424) would send forfeited winnings of self-excluded players,
+      up to 150,000 dollars a year, to the Rhode Island Council on Problem Gambling; its enactment was not confirmed. Classified
+      as license_fee because the money is paid by the licensed facilities rather than taken from the state''s revenue share;
+      the statutory floor is 250,000 dollars a year and the actual payments should be taken from the Lottery''s annual report.
+      Archived copy checked on 2026-10-17: R.I. Gen. Laws 42-61.2-14 as archived: Twin River and Twin River-Tiverton shall
+      reimburse and pay to the Division no less than two hundred thousand dollars in aggregate annually for compulsive and
+      problem gambling programs and no less than fifty thousand dollars in the aggregate annually for education and prevention
+      programs.'

@@ -1,0 +1,43 @@
+fips: '45'
+records:
+- fiscal_year: 2026
+  amount_usd: 100000
+  amount_type: appropriation
+  funding_mechanism: appropriation
+  mechanism_text: South Carolina has no casinos or sports wagering. S.C. Code 59-150-230(I) directs that a portion of the
+    Education Lottery's unclaimed prize money, in an amount the General Assembly sets each year in the annual appropriations
+    act, go to the Department of Alcohol and Other Drug Abuse Services or a nonprofit affiliated with the National Council
+    on Problem Gambling for the prevention and treatment of compulsive gambling disorder and educational programs, including
+    a gambling hotline. Because the statute fixes neither a share nor a dollar amount, the mechanism is an annual appropriation.
+    The lottery section of the FY 2025-26 appropriations bill (H 4025) carries 100,000 dollars for gambling addiction services
+    from unclaimed prizes, the same amount shown in the FY 2024-25 and FY 2026-27 lottery schedules.
+  administering_agency: South Carolina Department of Alcohol and Other Drug Abuse Services (functions moved to the Department
+    of Behavioral Health and Developmental Disabilities in 2025)
+  includes:
+  - treatment
+  - prevention
+  - helpline
+  authority_citation: S.C. Code Ann. 59-150-230(I) (unclaimed prize funds); annual appropriations act, Education Lottery section
+  provenance:
+    source_id: sc-legislature
+    source_url: https://scstatehouse.gov/CommitteeInfo/2000000325/full%20ways%20and%20means%20committee%20meeting_02192025/Lottery%20Spreadsheet.pdf
+    archive_url: https://web.archive.org/web/20261017015325/https://www.scstatehouse.gov/CommitteeInfo/2000000325/full%20ways%20and%20means%20committee%20meeting_02192025/Lottery%20Spreadsheet.pdf
+    retrieved_at: '2026-10-17'
+    retrieval_method: manual_entry
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Unclaimed prizes section, DAODAS gambling addiction services line
+    notes: 'Neither the spreadsheet nor the statute page could be opened from the drafting container (outbound fetches were
+      blocked); the figures come from search-engine extracts. The House Ways and Means lottery spreadsheet for H 4025 (FY
+      2025-26) lists 100,000 dollars for DAODAS gambling addiction services under unclaimed prizes; it is the committee''s
+      schedule, so the amount should be confirmed against the ratified act''s Part IB lottery proviso. The statute, S.C. Code
+      59-150-230 (https://www.scstatehouse.gov/code/t59c150.php), provides as quoted in bill texts that unclaimed prize funds
+      go "to the Department of Alcohol and Other Drug Abuse Services, or its successor agency, or to a nonprofit organization
+      affiliated with the National Council on Problem Gambling ... for the prevention and treatment of compulsive gambling
+      disorder and educational programs related to that disorder, including a gambling hotline" in an amount "determined by
+      the General Assembly in the annual appropriations act". The Ways and Means schedule for FY 2026-27 labels the same 100,000
+      dollar line under BHDD, consistent with the 2025 agency consolidation; confirm the successor agency. Archived copy checked
+      on 2026-10-17: The House Ways and Means lottery schedule for H 4025 as archived lists 100,000 dollars for DAODAS gambling
+      addiction services under unclaimed prizes; S.C. Code 59-150-230 as archived carries the unclaimed prize provision.'

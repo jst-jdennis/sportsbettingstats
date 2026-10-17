@@ -1,0 +1,44 @@
+fips: '55'
+records:
+- fiscal_year: 2025
+  amount_usd: null
+  amount_type: null
+  funding_mechanism: appropriation
+  mechanism_text: Wisconsin funds problem gambling services through a Department of Health Services appropriation in the biennial
+    budget rather than a statutory share of gaming revenue. Wis. Stat. 20.435(5)(kg), compulsive gambling awareness campaigns,
+    appropriates the amounts in the schedule for grants under s. 46.03(43), credited with moneys transferred from the lottery
+    appropriation under s. 20.566(8)(q), with the unencumbered year-end balance returned to the lottery fund. The schedule
+    amount is set by the legislature each budget, so the dollar level is an appropriation decision, not a formula. The Department
+    of Health Services awards the grants (historically to the Wisconsin Council on Problem Gambling for the helpline and awareness
+    work). Tribal gaming compact payments are credited to s. 20.505(8)(hm) and transferred to listed state programs; whether
+    a current subdivision funds compulsive gambling services could not be confirmed.
+  administering_agency: Wisconsin Department of Health Services
+  includes:
+  - prevention
+  - helpline
+  authority_citation: Wis. Stat. 20.435(5)(kg) (compulsive gambling awareness campaigns); Wis. Stat. 46.03(43); Wis. Stat.
+    20.566(8)(q); Wis. Stat. 20.505(8)(hm) (Indian gaming receipts transfers)
+  provenance:
+    source_id: wi-legislature
+    source_url: https://docs.legis.wisconsin.gov/statutes/statutes/20/v/435/5/kg
+    archive_url: sha256:9a91626a58dc0bcff420642764f3a00e15f5baa012bdfb5fabed770e99e194b0
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: null
+    notes: '20.435(5)(kg) as shown in search excerpts of the official page: "Compulsive gambling awareness campaigns. The
+      amounts in the schedule for the purpose of awarding grants under s. 46.03 (43). All moneys transferred from s. 20.566
+      (8) (q) shall be credited to this appropriation account. Notwithstanding s. 20.001 (3) (a), the unencumbered balance
+      of this appropriation account at the end of each fiscal year shall be transferred to the lottery fund." The legislature''s
+      site could not be fetched from this session (network policy), so the schedule amount for 2025-26 and 2026-27 (2025 Wis.
+      Act 15) and the current text of s. 20.566(8)(q) and s. 20.505(8)(hm) were not read; a reviewer should open them. Classified
+      as appropriation because the amount is a schedule figure re-set each budget; if a reviewer reads s. 20.566(8)(q) as
+      a fixed statutory transfer from the lottery fund, reclassify as statutory_earmark_fixed. The 1999 and 2001 budget acts
+      show the account was once fed from Indian gaming receipts under s. 20.505(8)(hm) before the lottery fund source was
+      substituted (2001 Wis. Act 16, s. 740). Amount to come from the ch. 20 schedule for s. 20.435(5)(kg) or the Legislative
+      Fiscal Bureau informational paper Tribal Gaming in Wisconsin (Paper 91, January 2025, https://docs.legis.wisconsin.gov/misc/lfb/informational_papers/january_2025)
+      and State Lottery and Charitable Gaming (Paper 90, January 2025). Searched docs.legis.wisconsin.gov, dhs.wisconsin.gov
+      and doa.wi.gov.'

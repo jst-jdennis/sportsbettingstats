@@ -1,5 +1,5 @@
 {
- "data_fingerprint": "593b183b4b1a89bd5b2ec083f0c62a5136d63c0c5fd014eccf3851152005303b",
+ "data_fingerprint": "f8b14410db922af2d884b57cbb2d86288e18696315320756bfdd6a244bcb2d0e",
  "derived_inputs": {
   "advertising_rule_count": "Number of rows in consumer_protections.advertising; null when the list is absent.",
   "advertising_substantive_count": "Rows in consumer_protections.advertising whose rule_type is not responsible_gambling_message_required.",
@@ -24,16 +24,23 @@
    "available": 5,
    "criteria": [
     {
-     "condition": null,
+     "condition": "funding_mechanism is unknown",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ak-legislature",
+       "source_url": "https://www.akleg.gov/",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "unknown"
      },
-     "label": null,
+     "label": "Mechanism unknown",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -51,16 +58,15 @@
    ],
    "fips": "02",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "no_regulated_market",
    "missing_criteria": [
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Alaska",
    "pct": null,
    "points": 0,
-   "points_entered": 0,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -70,16 +76,23 @@
    "available": 5,
    "criteria": [
     {
-     "condition": null,
+     "condition": "funding_mechanism is unknown",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "al-legislature",
+       "source_url": "https://alison.legislature.state.al.us/",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "unknown"
      },
-     "label": null,
+     "label": "Mechanism unknown",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -97,16 +110,15 @@
    ],
    "fips": "01",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "no_regulated_market",
    "missing_criteria": [
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Alabama",
    "pct": null,
    "points": 0,
-   "points_entered": 0,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -194,16 +206,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ar-secretary-of-state",
+       "source_url": "https://www.sos.arkansas.gov/uploads/elections/Issue_4_for_Website.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_fixed"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -221,19 +240,18 @@
    ],
    "fips": "05",
    "grade": null,
-   "inputs_pending_review": 2,
+   "inputs_pending_review": 3,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Arkansas",
    "pct": null,
-   "points": 5,
-   "points_entered": 5,
+   "points": 8,
+   "points_entered": 8,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -321,16 +339,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "az-legislature",
+       "source_url": "https://www.azleg.gov/ars/5/00601-02.htm",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -348,19 +373,18 @@
    ],
    "fips": "04",
    "grade": null,
-   "inputs_pending_review": 2,
+   "inputs_pending_review": 3,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Arizona",
    "pct": null,
-   "points": 5,
-   "points_entered": 5,
+   "points": 8,
+   "points_entered": 8,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -370,16 +394,23 @@
    "available": 5,
    "criteria": [
     {
-     "condition": null,
+     "condition": "funding_mechanism is appropriation, license_fee or compact_payment",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ca-legislature",
+       "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12012.85.",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "appropriation"
      },
-     "label": null,
+     "label": "Discretionary funding",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 2,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -397,16 +428,15 @@
    ],
    "fips": "06",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "no_regulated_market",
    "missing_criteria": [
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "California",
    "pct": null,
-   "points": 0,
-   "points_entered": 0,
+   "points": 2,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -501,16 +531,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "co-legislature",
+       "source_url": "https://content.leg.colorado.gov/sites/default/files/documents/2024A/bills/sl/2024a_sl_212.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_fixed"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -528,18 +565,17 @@
    ],
    "fips": "08",
    "grade": null,
-   "inputs_pending_review": 3,
+   "inputs_pending_review": 4,
    "market": "regulated_market",
    "missing_criteria": [
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Colorado",
    "pct": null,
-   "points": 6,
-   "points_entered": 8,
+   "points": 9,
+   "points_entered": 11,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -634,16 +670,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ct-legislature",
+       "source_url": "https://www.cga.ct.gov/current/pub/chap_229a.htm",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_fixed"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -661,18 +704,17 @@
    ],
    "fips": "09",
    "grade": null,
-   "inputs_pending_review": 3,
+   "inputs_pending_review": 4,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Connecticut",
    "pct": null,
-   "points": 7,
-   "points_entered": 8,
+   "points": 10,
+   "points_entered": 11,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -760,16 +802,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "dc-legislature",
+       "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/36-621.15",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_fixed"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -787,19 +836,18 @@
    ],
    "fips": "11",
    "grade": null,
-   "inputs_pending_review": 2,
+   "inputs_pending_review": 3,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "District of Columbia",
    "pct": null,
-   "points": 3,
-   "points_entered": 5,
+   "points": 6,
+   "points_entered": 8,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -887,16 +935,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "de-legislature",
+       "source_url": "https://delcode.delaware.gov/title29/c048/index.html",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -914,19 +969,18 @@
    ],
    "fips": "10",
    "grade": null,
-   "inputs_pending_review": 2,
+   "inputs_pending_review": 3,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Delaware",
    "pct": null,
-   "points": 5,
-   "points_entered": 5,
+   "points": 8,
+   "points_entered": 8,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -1000,16 +1054,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "fl-legislature",
+       "source_url": "https://www.flsenate.gov/Laws/Statutes/2025/551.118",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_fixed"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -1027,7 +1088,7 @@
    ],
    "fips": "12",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "regulated_market",
    "missing_criteria": [
     "self_exclusion",
@@ -1035,13 +1096,12 @@
     "advertising",
     "legal_age",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Florida",
    "pct": null,
-   "points": 0,
-   "points_entered": 0,
+   "points": 3,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -1051,16 +1111,23 @@
    "available": 5,
    "criteria": [
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ga-lottery",
+       "source_url": "https://www.galottery.com/en-us/benefitting-georgia/lottery-for-education-act.html",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_fixed"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -1078,16 +1145,15 @@
    ],
    "fips": "13",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "no_regulated_market",
    "missing_criteria": [
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Georgia",
    "pct": null,
-   "points": 0,
-   "points_entered": 0,
+   "points": 3,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -1097,16 +1163,23 @@
    "available": 5,
    "criteria": [
     {
-     "condition": null,
+     "condition": "funding_mechanism is unknown",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "hi-legislature",
+       "source_url": "https://data.capitol.hawaii.gov/sessions/session2022/Bills/HB1962_.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "unknown"
      },
-     "label": null,
+     "label": "Mechanism unknown",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -1124,16 +1197,15 @@
    ],
    "fips": "15",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "no_regulated_market",
    "missing_criteria": [
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Hawaii",
    "pct": null,
    "points": 0,
-   "points_entered": 0,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -1221,16 +1293,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is unknown",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ia-legislature",
+       "source_url": "https://www.legis.iowa.gov/docs/code/135.150.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "unknown"
      },
-     "label": null,
+     "label": "Mechanism unknown",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -1248,19 +1327,18 @@
    ],
    "fips": "19",
    "grade": null,
-   "inputs_pending_review": 2,
+   "inputs_pending_review": 3,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Iowa",
    "pct": null,
    "points": 5,
-   "points_entered": 5,
+   "points_entered": 8,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -1270,16 +1348,23 @@
    "available": 5,
    "criteria": [
     {
-     "condition": null,
+     "condition": "funding_mechanism is unknown",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "id-legislature",
+       "source_url": "https://legislature.idaho.gov/wp-content/uploads/statutesrules/idstat/Title67/T67CH74.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "unknown"
      },
-     "label": null,
+     "label": "Mechanism unknown",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -1297,16 +1382,15 @@
    ],
    "fips": "16",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "no_regulated_market",
    "missing_criteria": [
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Idaho",
    "pct": null,
    "points": 0,
-   "points_entered": 0,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -1387,16 +1471,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is appropriation, license_fee or compact_payment",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "il-legislature",
+       "source_url": "https://ilga.gov/documents/legislation/ilcs/documents/023000100K13.htm",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "appropriation"
      },
-     "label": null,
+     "label": "Discretionary funding",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 2,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -1414,20 +1505,19 @@
    ],
    "fips": "17",
    "grade": null,
-   "inputs_pending_review": 1,
+   "inputs_pending_review": 2,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
     "advertising",
     "legal_age",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Illinois",
    "pct": null,
-   "points": 3,
-   "points_entered": 3,
+   "points": 5,
+   "points_entered": 6,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -1522,16 +1612,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "in-legislature",
+       "source_url": "https://iga.in.gov/laws/2025/ic/titles/4#4-33-12-6",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -1549,18 +1646,17 @@
    ],
    "fips": "18",
    "grade": null,
-   "inputs_pending_review": 3,
+   "inputs_pending_review": 4,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Indiana",
    "pct": null,
-   "points": 7,
-   "points_entered": 8,
+   "points": 10,
+   "points_entered": 11,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -1804,16 +1900,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ky-legislature",
+       "source_url": "https://apps.legislature.ky.gov/law/acts/25RS/documents/0124.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -1831,19 +1934,18 @@
    ],
    "fips": "21",
    "grade": null,
-   "inputs_pending_review": 2,
+   "inputs_pending_review": 3,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Kentucky",
    "pct": null,
-   "points": 5,
-   "points_entered": 5,
+   "points": 8,
+   "points_entered": 8,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -1938,16 +2040,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "la-legislature",
+       "source_url": "https://legis.la.gov/Legis/Law.aspx?d=1239411",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -1965,18 +2074,17 @@
    ],
    "fips": "22",
    "grade": null,
-   "inputs_pending_review": 3,
+   "inputs_pending_review": 4,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Louisiana",
    "pct": null,
-   "points": 7,
-   "points_entered": 8,
+   "points": 10,
+   "points_entered": 11,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -2078,16 +2186,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ma-legislature",
+       "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter23N/Section17",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -2105,17 +2220,16 @@
    ],
    "fips": "25",
    "grade": null,
-   "inputs_pending_review": 4,
+   "inputs_pending_review": 5,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Massachusetts",
    "pct": null,
-   "points": 10,
-   "points_entered": 10,
+   "points": 13,
+   "points_entered": 13,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -2217,16 +2331,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "md-legislature",
+       "source_url": "https://mgaleg.maryland.gov/2010rs/chapters_noln/Ch_624_sb0882E.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_fixed"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -2244,17 +2365,16 @@
    ],
    "fips": "24",
    "grade": null,
-   "inputs_pending_review": 4,
+   "inputs_pending_review": 5,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Maryland",
    "pct": null,
-   "points": 7,
-   "points_entered": 10,
+   "points": 10,
+   "points_entered": 13,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -2342,16 +2462,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "me-legislature",
+       "source_url": "https://legislature.maine.gov/legis/statutes/8/title8sec1218.html",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -2369,19 +2496,18 @@
    ],
    "fips": "23",
    "grade": null,
-   "inputs_pending_review": 2,
+   "inputs_pending_review": 3,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Maine",
    "pct": null,
-   "points": 5,
-   "points_entered": 5,
+   "points": 8,
+   "points_entered": 8,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -2476,16 +2602,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "mi-legislature",
+       "source_url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-432-416",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_fixed"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -2503,18 +2636,17 @@
    ],
    "fips": "26",
    "grade": null,
-   "inputs_pending_review": 3,
+   "inputs_pending_review": 4,
    "market": "regulated_market",
    "missing_criteria": [
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Michigan",
    "pct": null,
-   "points": 6,
-   "points_entered": 8,
+   "points": 9,
+   "points_entered": 11,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -2524,16 +2656,23 @@
    "available": 5,
    "criteria": [
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "mn-legislature",
+       "source_url": "https://www.revisor.mn.gov/statutes/cite/297E.02",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -2551,16 +2690,15 @@
    ],
    "fips": "27",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "no_regulated_market",
    "missing_criteria": [
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Minnesota",
    "pct": null,
-   "points": 0,
-   "points_entered": 0,
+   "points": 3,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -2648,16 +2786,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "mo-legislature",
+       "source_url": "https://revisor.mo.gov/main/OneSection.aspx?section=III+++39%28g%29",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -2675,19 +2820,18 @@
    ],
    "fips": "29",
    "grade": null,
-   "inputs_pending_review": 2,
+   "inputs_pending_review": 3,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Missouri",
    "pct": null,
-   "points": 5,
-   "points_entered": 5,
+   "points": 8,
+   "points_entered": 8,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -2768,16 +2912,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is appropriation, license_fee or compact_payment",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ms-legislature",
+       "source_url": "https://billstatus.ls.state.ms.us/documents/2025/html/SB/3000-3099/SB3036PS.htm",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "appropriation"
      },
-     "label": null,
+     "label": "Discretionary funding",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 2,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -2795,20 +2946,19 @@
    ],
    "fips": "28",
    "grade": null,
-   "inputs_pending_review": 1,
+   "inputs_pending_review": 2,
    "market": "regulated_market",
    "missing_criteria": [
     "self_exclusion",
     "deposit_limits",
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Mississippi",
    "pct": null,
-   "points": 2,
-   "points_entered": 2,
+   "points": 4,
+   "points_entered": 5,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -2882,16 +3032,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is unknown",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "mt-doj-gambling-control",
+       "source_url": "https://dojmt.gov/gaming/compulsive-gambling/",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "unknown"
      },
-     "label": null,
+     "label": "Mechanism unknown",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -2909,7 +3066,7 @@
    ],
    "fips": "30",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "regulated_market",
    "missing_criteria": [
     "self_exclusion",
@@ -2917,13 +3074,12 @@
     "advertising",
     "legal_age",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Montana",
    "pct": null,
    "points": 0,
-   "points_entered": 0,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -2997,16 +3153,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "nc-legislature",
+       "source_url": "https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/BySection/Chapter_105/GS_105-113.128.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_fixed"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -3024,7 +3187,7 @@
    ],
    "fips": "37",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "regulated_market",
    "missing_criteria": [
     "self_exclusion",
@@ -3032,13 +3195,12 @@
     "advertising",
     "legal_age",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "North Carolina",
    "pct": null,
-   "points": 0,
-   "points_entered": 0,
+   "points": 3,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -3112,16 +3274,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "nd-legislature",
+       "source_url": "https://ndlegis.gov/cencode/t53c06-1.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_fixed"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -3139,7 +3308,7 @@
    ],
    "fips": "38",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "regulated_market",
    "missing_criteria": [
     "self_exclusion",
@@ -3147,13 +3316,12 @@
     "advertising",
     "legal_age",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "North Dakota",
    "pct": null,
-   "points": 0,
-   "points_entered": 0,
+   "points": 3,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -3234,16 +3402,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ne-legislature",
+       "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=9-1204",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -3261,20 +3436,19 @@
    ],
    "fips": "31",
    "grade": null,
-   "inputs_pending_review": 1,
+   "inputs_pending_review": 2,
    "market": "regulated_market",
    "missing_criteria": [
     "self_exclusion",
     "deposit_limits",
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Nebraska",
    "pct": null,
-   "points": 2,
-   "points_entered": 2,
+   "points": 5,
+   "points_entered": 5,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -3355,16 +3529,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is appropriation, license_fee or compact_payment",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "nh-legislature",
+       "source_url": "https://gc.nh.gov/rsa/html/XXIV/287-I/287-I-mrg.htm",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "appropriation"
      },
-     "label": null,
+     "label": "Discretionary funding",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 2,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -3382,20 +3563,19 @@
    ],
    "fips": "33",
    "grade": null,
-   "inputs_pending_review": 1,
+   "inputs_pending_review": 2,
    "market": "regulated_market",
    "missing_criteria": [
     "self_exclusion",
     "deposit_limits",
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "New Hampshire",
    "pct": null,
-   "points": 0,
-   "points_entered": 2,
+   "points": 2,
+   "points_entered": 5,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -3631,16 +3811,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "nm-regulator",
+       "source_url": "https://www.gcb.nm.gov/new-mexico-gaming-control-board-compulsive-problem-gambling/",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -3658,7 +3845,7 @@
    ],
    "fips": "35",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "regulated_market",
    "missing_criteria": [
     "self_exclusion",
@@ -3666,13 +3853,12 @@
     "advertising",
     "legal_age",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "New Mexico",
    "pct": null,
-   "points": 0,
-   "points_entered": 0,
+   "points": 3,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -3746,16 +3932,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "nv-legislature",
+       "source_url": "https://www.leg.state.nv.us/nrs/nrs-463.html#NRS463Sec320",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_fixed"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -3773,7 +3966,7 @@
    ],
    "fips": "32",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "regulated_market",
    "missing_criteria": [
     "self_exclusion",
@@ -3781,13 +3974,12 @@
     "advertising",
     "legal_age",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Nevada",
    "pct": null,
-   "points": 0,
-   "points_entered": 0,
+   "points": 3,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -3861,16 +4053,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ny-osc",
+       "source_url": "https://www.osc.ny.gov/files/reports/pdf/sports-wagering-in-new-york.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_fixed"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -3888,7 +4087,7 @@
    ],
    "fips": "36",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "regulated_market",
    "missing_criteria": [
     "self_exclusion",
@@ -3896,13 +4095,12 @@
     "advertising",
     "legal_age",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "New York",
    "pct": null,
-   "points": 0,
-   "points_entered": 0,
+   "points": 3,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -4003,16 +4201,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "oh-legislature",
+       "source_url": "https://www.lsc.ohio.gov/assets/organizations/legislative-service-commission/files/2025-catalog-of-budget-line-items-cac.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -4030,18 +4235,17 @@
    ],
    "fips": "39",
    "grade": null,
-   "inputs_pending_review": 4,
+   "inputs_pending_review": 5,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Ohio",
    "pct": null,
-   "points": 8,
-   "points_entered": 8,
+   "points": 11,
+   "points_entered": 11,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -4188,16 +4392,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "or-legislature",
+       "source_url": "https://www.oregonlegislature.gov/bills_laws/ors/ors461.html",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -4215,18 +4426,17 @@
    ],
    "fips": "41",
    "grade": null,
-   "inputs_pending_review": 3,
+   "inputs_pending_review": 4,
    "market": "regulated_market",
    "missing_criteria": [
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Oregon",
    "pct": null,
-   "points": 6,
-   "points_entered": 8,
+   "points": 9,
+   "points_entered": 11,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -4314,16 +4524,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "pa-legislature",
+       "source_url": "https://www.legis.state.pa.us/cfdocs/legis/LI/consCheck.cfm?txtType=HTM&ttl=04&div=0&chpt=15&sctn=9&subsctn=0",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -4341,19 +4558,18 @@
    ],
    "fips": "42",
    "grade": null,
-   "inputs_pending_review": 2,
+   "inputs_pending_review": 3,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Pennsylvania",
    "pct": null,
-   "points": 5,
-   "points_entered": 5,
+   "points": 8,
+   "points_entered": 8,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -4434,16 +4650,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ri-legislature",
+       "source_url": "https://webserver.rilegislature.gov/Statutes/TITLE42/42-61.2/42-61.2-14.htm",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_fixed"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -4461,20 +4684,19 @@
    ],
    "fips": "44",
    "grade": null,
-   "inputs_pending_review": 1,
+   "inputs_pending_review": 2,
    "market": "regulated_market",
    "missing_criteria": [
     "self_exclusion",
     "deposit_limits",
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Rhode Island",
    "pct": null,
-   "points": 0,
-   "points_entered": 2,
+   "points": 3,
+   "points_entered": 5,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -4484,16 +4706,23 @@
    "available": 5,
    "criteria": [
     {
-     "condition": null,
+     "condition": "funding_mechanism is appropriation, license_fee or compact_payment",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "sc-legislature",
+       "source_url": "https://scstatehouse.gov/CommitteeInfo/2000000325/full%20ways%20and%20means%20committee%20meeting_02192025/Lottery%20Spreadsheet.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "appropriation"
      },
-     "label": null,
+     "label": "Discretionary funding",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 2,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -4511,16 +4740,15 @@
    ],
    "fips": "45",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "no_regulated_market",
    "missing_criteria": [
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "South Carolina",
    "pct": null,
-   "points": 0,
-   "points_entered": 0,
+   "points": 2,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -4601,16 +4829,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is appropriation, license_fee or compact_payment",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "sd-legislature",
+       "source_url": "https://sdlegislature.gov/Statutes/42-7B-48.3",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "appropriation"
      },
-     "label": null,
+     "label": "Discretionary funding",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 2,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -4628,20 +4863,19 @@
    ],
    "fips": "46",
    "grade": null,
-   "inputs_pending_review": 1,
+   "inputs_pending_review": 2,
    "market": "regulated_market",
    "missing_criteria": [
     "self_exclusion",
     "deposit_limits",
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "South Dakota",
    "pct": null,
-   "points": 2,
-   "points_entered": 2,
+   "points": 4,
+   "points_entered": 5,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -4729,16 +4963,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "tn-tdmhsas",
+       "source_url": "https://www.tn.gov/content/dam/tn/mentalhealth/documents/2023__Tennessee_Sports_Gaming_Act_Annual_Report.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -4756,19 +4997,18 @@
    ],
    "fips": "47",
    "grade": null,
-   "inputs_pending_review": 2,
+   "inputs_pending_review": 3,
    "market": "regulated_market",
    "missing_criteria": [
     "self_exclusion",
     "deposit_limits",
     "advertising",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Tennessee",
    "pct": null,
-   "points": 4,
-   "points_entered": 4,
+   "points": 7,
+   "points_entered": 7,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -4778,16 +5018,23 @@
    "available": 5,
    "criteria": [
     {
-     "condition": null,
+     "condition": "funding_mechanism is unknown",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "tx-legislature",
+       "source_url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.461A.htm",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "unknown"
      },
-     "label": null,
+     "label": "Mechanism unknown",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -4805,16 +5052,15 @@
    ],
    "fips": "48",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "no_regulated_market",
    "missing_criteria": [
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Texas",
    "pct": null,
    "points": 0,
-   "points_entered": 0,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -4824,16 +5070,23 @@
    "available": 5,
    "criteria": [
     {
-     "condition": null,
+     "condition": "funding_mechanism is unknown",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "ut-legislature",
+       "source_url": "https://le.utah.gov/xcode/ArticleVI/UC_AVI_S27_1800010118000101.html",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "unknown"
      },
-     "label": null,
+     "label": "Mechanism unknown",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 0,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -4851,16 +5104,15 @@
    ],
    "fips": "49",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "no_regulated_market",
    "missing_criteria": [
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Utah",
    "pct": null,
    "points": 0,
-   "points_entered": 0,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -4961,16 +5213,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "va-legislature",
+       "source_url": "https://law.lis.virginia.gov/vacode/title58.1/chapter40/section58.1-4038/",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -4988,18 +5247,17 @@
    ],
    "fips": "51",
    "grade": null,
-   "inputs_pending_review": 4,
+   "inputs_pending_review": 5,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Virginia",
    "pct": null,
-   "points": 7,
-   "points_entered": 8,
+   "points": 10,
+   "points_entered": 11,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -5101,16 +5359,23 @@
      "status": "scored"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is appropriation, license_fee or compact_payment",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "vt-legislature",
+       "source_url": "https://legislature.vermont.gov/Documents/2024/Docs/ACTS/ACT063/ACT063%20As%20Enacted.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "appropriation"
      },
-     "label": null,
+     "label": "Discretionary funding",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 2,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -5128,17 +5393,16 @@
    ],
    "fips": "50",
    "grade": null,
-   "inputs_pending_review": 4,
+   "inputs_pending_review": 5,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Vermont",
    "pct": null,
-   "points": 9,
-   "points_entered": 10,
+   "points": 11,
+   "points_entered": 13,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -5212,16 +5476,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "wa-legislature",
+       "source_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=82.04.285",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_pct_revenue"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -5239,7 +5510,7 @@
    ],
    "fips": "53",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "regulated_market",
    "missing_criteria": [
     "self_exclusion",
@@ -5247,13 +5518,12 @@
     "advertising",
     "legal_age",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Washington",
    "pct": null,
-   "points": 0,
-   "points_entered": 0,
+   "points": 3,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -5327,16 +5597,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is appropriation, license_fee or compact_payment",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "wi-legislature",
+       "source_url": "https://docs.legis.wisconsin.gov/statutes/statutes/20/v/435/5/kg",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "appropriation"
      },
-     "label": null,
+     "label": "Discretionary funding",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 2,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -5354,7 +5631,7 @@
    ],
    "fips": "55",
    "grade": null,
-   "inputs_pending_review": 0,
+   "inputs_pending_review": 1,
    "market": "regulated_market",
    "missing_criteria": [
     "self_exclusion",
@@ -5362,13 +5639,12 @@
     "advertising",
     "legal_age",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Wisconsin",
    "pct": null,
-   "points": 0,
-   "points_entered": 0,
+   "points": 2,
+   "points_entered": 3,
    "profile_completeness": "status_only",
    "review": null,
    "status": "incomplete"
@@ -5456,16 +5732,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "wv-legislature",
+       "source_url": "https://code.wvlegislature.gov/29-22A-19/",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_fixed"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -5483,19 +5766,18 @@
    ],
    "fips": "54",
    "grade": null,
-   "inputs_pending_review": 2,
+   "inputs_pending_review": 3,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "West Virginia",
    "pct": null,
-   "points": 5,
-   "points_entered": 5,
+   "points": 8,
+   "points_entered": 8,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"
@@ -5583,16 +5865,23 @@
      "status": "not_entered"
     },
     {
-     "condition": null,
+     "condition": "funding_mechanism is a statutory earmark",
      "criterion_id": "pg_funding",
-     "evidence": [],
+     "evidence": [
+      {
+       "retrieved_at": "2026-10-17",
+       "source_id": "wy-legislature",
+       "source_url": "https://www.wyoleg.gov/2023/Enroll/HB0181.pdf",
+       "status": "pending_review"
+      }
+     ],
      "inputs": {
-      "pg_funding_mechanism": null
+      "pg_funding_mechanism": "statutory_earmark_fixed"
      },
-     "label": null,
+     "label": "Statutory earmark",
      "max_points": 3,
-     "points": null,
-     "status": "not_entered"
+     "points": 3,
+     "status": "scored"
     },
     {
      "condition": null,
@@ -5610,19 +5899,18 @@
    ],
    "fips": "56",
    "grade": null,
-   "inputs_pending_review": 2,
+   "inputs_pending_review": 3,
    "market": "regulated_market",
    "missing_criteria": [
     "deposit_limits",
     "advertising",
     "credit_cards",
-    "pg_funding",
     "prevalence_research"
    ],
    "name": "Wyoming",
    "pct": null,
-   "points": 3,
-   "points_entered": 5,
+   "points": 6,
+   "points_entered": 8,
    "profile_completeness": "full",
    "review": null,
    "status": "incomplete"

@@ -1,0 +1,54 @@
+fips: '31'
+records:
+- fiscal_year: 2025
+  amount_usd: 2856076
+  amount_type: expenditure
+  funding_mechanism: statutory_earmark_pct_revenue
+  mechanism_text: Neb. Rev. Stat. 9-1204 distributes the 20 percent tax on racetrack casino gross gaming revenue, which includes
+    sports wagering, and credits two and one-half percent of the tax to the Compulsive Gamblers Assistance Fund, with 70 percent
+    to the Property Tax Credit Cash Fund, two and one-half percent to the General Fund and 25 percent to the host county and
+    city. Neb. Rev. Stat. 9-812 also transfers the first 500,000 dollars of state lottery net proceeds, plus one percent of
+    the proceeds remaining after prizes, operating expenses and that transfer, to the same fund, and Neb. Rev. Stat. 9-1006
+    adds charitable gaming revenue. The fund pays for the Gamblers Assistance Program, run by the Nebraska Commission on Problem
+    Gambling; Legislative Bill 1001 (2026) moves the Commission's oversight and funding under the Racing and Gaming Commission.
+  administering_agency: Nebraska Commission on Problem Gambling (Gamblers Assistance Program)
+  includes:
+  - treatment
+  - prevention
+  - helpline
+  - training
+  authority_citation: Neb. Rev. Stat. 9-1204(1); Neb. Rev. Stat. 9-812(3); Neb. Rev. Stat. 9-1006 (Compulsive Gamblers Assistance
+    Fund)
+  provenance:
+    source_id: ne-legislature
+    source_url: https://nebraskalegislature.gov/laws/statutes.php?statute=9-1204
+    archive_url: https://web.archive.org/web/20261017014207/https://nebraskalegislature.gov/laws/statutes.php?statute=9-1204
+    retrieved_at: '2026-10-17'
+    retrieval_method: html_table
+    transform: null
+    entered_by: claude-draft-2026-10-17
+    reviewed_by: null
+    status: pending_review
+    page_or_table: Neb. Rev. Stat. 9-1204, Tax; proceeds; distribution
+    notes: 'Operative language as excerpted from the statute page: of the tax, seventy-five percent is remitted to the State
+      Treasurer for distribution "two and one-half percent to the Compulsive Gamblers Assistance Fund, two and one-half percent
+      to the General Fund, and seventy percent to the Property Tax Credit Cash Fund", the remaining twenty-five percent going
+      to the county and city where the racetrack sits. Neb. Rev. Stat. 9-812 (https://nebraskalegislature.gov/laws/statutes.php?statute=9-812)
+      reads "The first five hundred thousand dollars shall be transferred to the Compulsive Gamblers Assistance Fund" and
+      "one percent of the money remaining after the payment of prizes and operating expenses and the initial transfer to the
+      Compulsive Gamblers Assistance Fund shall be transferred to the Compulsive Gamblers Assistance Fund". Neb. Rev. Stat.
+      9-1006 (https://nebraskalegislature.gov/laws/statutes.php?statute=9-1006) says the commission "shall administer the
+      fund for the operation of the Gamblers Assistance Program". The amount is total program expenditures for the fiscal
+      year ended June 30, 2025 from the Nebraska Commission on Problem Gambling''s Gamblers Assistance Program 2025 annual
+      report (https://problemgambling.nebraska.gov/wp-content/uploads/GAP-2025-ANNUAL-REPORT.pdf): expenditures 2,856,076
+      dollars (counseling 2,096,414; other operations 589,759; salaries and benefits 169,903) against revenue of 2,670,076
+      dollars, of which casino tax was 1,006,694, charitable gaming 400,000 and lottery advertising share 294,209 as excerpted;
+      the revenue lines in the excerpt do not sum to the total, so a reviewer should read the full report. The Department
+      of Revenue''s September 2026 budget filing on nebraskalegislature.gov shows FY 2025-26 revenue of 3,378,982 and expenditures
+      of 2,855,519 dollars for a later record. LB 1001 (approved March 16, 2026, https://nebraskalegislature.gov/FloorDocs/109/PDF/Slip/LB1001.pdf)
+      adds gaming tax proceeds under 9-1204 as a named funding source in 9-1001 and 9-1006 and transfers the Commission to
+      the Racing and Gaming Commission; whether it changed the two and one-half percent share was not confirmed. Outbound
+      web fetches were blocked from the drafting container, so quotes come from search-engine excerpts of the cited pages.
+      Archived copy checked on 2026-10-17: Neb. Rev. Stat. 9-1204 as archived: of the racetrack casino tax, two and one-half
+      percent to the Compulsive Gamblers Assistance Fund; the Gamblers Assistance Program 2025 annual report as archived gives
+      FY2025 program revenue of 2,670,076 dollars and expenditures of 2,856,076 dollars.'
