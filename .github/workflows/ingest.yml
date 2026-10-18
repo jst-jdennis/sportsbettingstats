@@ -96,6 +96,19 @@ jobs:
           git add -f results
           git commit -qm "Ingest results for run ${{ github.run_number }} (${{ github.sha }})"
           git push -f origin "$b" && echo "pushed $b"
+      - name: Prune old results branches (keep the newest 3)
+        # Every run above leaves an ingest-results/run-N branch so a development container without
+        # internet access can git fetch the output. Without this step they accumulate forever.
+        if: always()
+        continue-on-error: true
+        run: |
+          set -e
+          keep=3
+          git fetch origin 'refs/heads/ingest-results/*:refs/remotes/origin/ingest-results/*' --prune
+          mapfile -t old < <(git for-each-ref --format='%(refname:short)' 'refs/remotes/origin/ingest-results/' \
+            | sed 's#^origin/##' | awk -F'run-' '{print $2" "$0}' | sort -n | cut -d' ' -f2 | head -n -"$keep")
+          for b in "${old[@]}"; do git push origin --delete "$b" && echo "deleted $b"; done
+          echo "pruned ${#old[@]} branch(es); kept the newest $keep"
       - name: Report request failures
         if: steps.run.outputs.status == '1'
         run: |
